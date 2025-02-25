@@ -1,13 +1,14 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-01-07T20:36:47.483Z'
-version: 1130
-lastAuthor: 'auhrick'
+date: '2025-02-25T13:36:26.869Z'
+version: 1137
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
+  - 'landingpages/goals.md'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
@@ -352,7 +353,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 * Goals also display in the Goals encounter section.
 
-![](../smart-plan.assets/01fe8ae25e64a32e3f91ff73e19fbf80.png)
+For more detailed information, please refer to the [Goals](landingpages/goals.md) guide.
 
 ## RAF Scoring - (risk score)
 
