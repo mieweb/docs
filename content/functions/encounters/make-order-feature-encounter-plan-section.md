@@ -1,135 +1,208 @@
 ---
 id: '1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 title: 'Make Order Feature - Encounter Plan Section'
-date: '2021-12-10T21:03:10.965Z'
-version: 165
-lastAuthor: ''
+date: '2025-02-28T20:05:06.895Z'
+version: 297
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - '../system-administration/system-controls/encounter-types.md'
+  - 'encounters-open-order-request-section.md'
+  - '../order-and-result-management/order-requests-grid.md'
 source: 'https://drive.google.com/open?id=1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-4The ‘plan' area of an encounter allows the physician/user to create orders for the patient. The below explains how a physician/user enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This forces the physician/user to create the order right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order that the physician created in the encounter. You can ask MIE to remove the list option completely and only use the Make / Create Order feature or have both options. Only the make / create order feature will create the order right there in the encounter though. Using the Create xx Order link bypasses the unordered orders and inserts the order as a document directly into the patient's chart. If using the list link or auto-complete fields in the plan orders area, it creates an unordered order (see other help documentation titled *Encounters Plan Section-Unordered Orders.pdf*).
+The ‘plan' area of an encounter allows a Provider to create orders for the chart. The below explains how a Provider enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This allows the Provider to create & generate the order requisition right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order requisition that the Provider created in the encounter.
 
-If the user/physician uses list (and not make / create order) or the auto-complete fields in the plan area, it creates an unordered order which the front/check out staff uses to create the orders before the patient leaves. See separate help documentation named *Encounters Plan Section-Unordered Orders.pdf* for this workflow option.
+## Visit Orders - Add Referral of Right Side Quick List Method
 
-## Make Order Link/Create Order Link
+The *Add Referral* right side quick list method allows you to select a preconfigured Order Picklist category to immediately create an order requisition for specific order tests/procedure items preconfigured within a specific categorized order picklists of that category selected.
 
-Your plan section in encounters can be programmed to have a Make Order feature link or a Create Order link. This gives the physician/user the ability to make and create an order right from the plan and then it is ready to print/fax in the encounter view or print all. Using the make /create order link bypasses the unordered orders and inserts the order into the patient's chart. It is then available in the encounter PRINT ALL option to print these orders for the patient.
+![](../make-order-feature-encounter-plan-section.assets/2204881cfaceae2ad63d1f6046e05484.png)
 
-![](../make-order-feature-encounter-plan-section.assets/de3de24467149c34a7c0f57a9cb52e3e.png)
+The Order Picklist categories and its contents of items are configured within the Order-Pick Builder within the Control Panel of the system.
 
-![](../make-order-feature-encounter-plan-section.assets/772abc92c5b8689db38a087f19c3124a.png)
+![](../make-order-feature-encounter-plan-section.assets/151192b79cd8aa4bf8a0e72bf9d64e4e.png)
 
-![](../make-order-feature-encounter-plan-section.assets/b38cb49aaffa5e72b3151ba980e04228.png)
+NOTE: The preconfigured Order Picklist categories that display as an ‘Add Referral' right side option selection are managed within the Encounter Types editor (within the control panel) for the specific encounter type configured for your system.  Therefore, various Order Picklists could show or be hidden based on what encounter type you are working in.  For more information on how Encounter Types are configured, please refer to the [Encounter Types](../system-administration/system-controls/encounter-types.md) guide.
 
-To create an order in the plan section, the user must **first click Make / Create xxx Order** link from the specific category they want to make an order from. If you click list first and check-mark items—it will render it as an unordered order (see separate help documentation). You can have the ‘list' links removed to force creation of order from encounter.
+Once you select a referral category (ex: Imaging), a pop-up window to Create Requisition will display where you can select specific items to order in one requisition and fill out order details.  Upon save, this will create an order requisition document that can be shared (printed, faxed, etc) and tracked to completion of results being received back.
 
-To make an order right from the encounter, click Make / Create Order first in the specific section. When you click Make / Create xxx Order, it will open up the *Start Order Request* dialogue screen.
+![](../make-order-feature-encounter-plan-section.assets/dd36a314f8ebe1a872d80b45811d46a8.png)
 
-![](../make-order-feature-encounter-plan-section.assets/59b106a96c146af4c5a7b3d83a24b80c.png)
+### Required Fields - System Settings
 
-In the *Start Order Request* screen, you must select and enter the fields:
+Out of the box, we require an ordering provider and location to be signified on an Order Requisition before being able to save/generate the order.  Your system may be set up with additional required fields on the Order Requisition screen, depending on the system settings enabled for the Orders module. There are several system settings offered for the Orders module, but these are the system settings in regards to which fields can be set to required or not.
 
-* <strong>Location:</strong> Select the location that this order is to be completed at (optional field). The layout can be modified by MIE so that location of this <em>Make Order</em> feature shows all locations in your system, only outside locations or no outside locations. The setting is -1 for all, 1 for just outside, 0 for no outside. Please contact your MIE representative for this change. Your MIE Implementer can also change the system setting to make this a required field. This field also respects the orders location default you have set for yourself in MY SETTINGS.
-* <strong>Facility:</strong> This is where the order will be sent if you have a lab or other interface set up where your e-orders get automatically sent to a facility via interface to the facility (ex: LabCorp, Quest etc). The <em>My Settings</em> preference "Preferred Facility" will default here, but can always select a specific performing facility in the drop-down. Otherwise, leave this blank and skip this field if you don't have any directional interface to lab/imaging facilities set up.
-* <strong>Refer To:</strong> Ability to document whom you are referring this patient to via the order (mainly used when making Referral Orders). This <em>Refer To</em> field is a user autocomplete that only shows user choices whose <strong>user role</strong> is "referring physician" (not department but user role <em>aka</em> Def User Role in their username screen). Creating an order request in an encounter also supports using charts for referring physicians if the (System, External Provider, Use charts) setting is enabled.
-* <strong>Ordering Physician:</strong> Select the Ordering Physician by using the drop-down arrow to select the physician that is ordering this. Your MIE Implementer can also change the system setting to make this a required field. This ordering physician field for the order via the encounter defaults to populate the same name as the performing provider on the encounter. If no performing provider has been set on the encounter, the ordering physician defaults to the user's MY SETTINGS preference of ‘Ordering Physician' if that has been set.
-* <strong>Order Frequency:</strong> Type in how often to do the order, example: to do this standing order every 3 days or every 1 month, etc. If it isn't a standing order, leave as 0 (zero) days.
-* <strong>Schedule Lab In:</strong> You can use the drop-down arrow to select an automated selection if the date for the order is not a specific date (more of a general time frame). You can also free-type in the free-text field next to it any other general date time frame, etc.
-* <strong>Diagnosis:</strong> The 4 most recent conditions the patient has will appear here. There is a system setting you can ask your MIE Implementer to set to add more or less to this list.
+![](../make-order-feature-encounter-plan-section.assets/b58857edc09d7c5fae91f1791fb82ba7.png)
 
-![](../make-order-feature-encounter-plan-section.assets/a252210b33c6629a3bf1d48e63eb286c.png)
+### My Setting Preferences
 
-* By default it is set to 4. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnoses to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. Any conditions/diagnosis that are entered on the order that the patient doesn't already have will be linked to the encounter as a part of the "Impression" and will not appear under the "Past Medical History". This respects the system setting "Save Diagnosis to Patient Conditions" that causes orders to save the conditions to the patient in the first place. When you are done, simply go to the next tab called Patient Instructions.
-* <strong>Bill Type:</strong> Order requests can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are four options: The default is None (unspecified), Self, Client, and Third Party. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option.
+Depending on what you have set as preferences for Encounter Orders (in My Settings), the Order Requisition screen may prepopulate fields such as Ordering Provider, Location, Performing Facility, and Bill Type.  Even though fields may prepopulate from these preferences, you can still change or override them in the Order Requisitions screen before saving/generating the order request.
 
-![](../make-order-feature-encounter-plan-section.assets/30b5063563a11a4211260a89897ca1a9.png)
+![](../make-order-feature-encounter-plan-section.assets/8bd106f7d358ce1c3b2ae27f463a4f8b.png)
+## Create Requisition
 
-* <strong>Patient Instructions:</strong> Free type any instructions for the patient regarding this order. These instructions may or may not print on the order sheet, depending on how your practice decided to layout the printable order sheet.
-* <strong>Comments:</strong> Free type any comments regarding this order. It will print on the order sheet and will show up in the Comments category when looking at this patient's recent orders from the orders screen view.
+In the *Create Order Requisition* pop-up, you must select and enter the fields appropriate for your order needs.
 
-Continue down this order screen and checkmark which order items you wish to order for the patient. The blank fields next to any order item are free-text boxes (like to document which side to do an xray or how many views or any additional comments regarding that order item).
+### Ordering Provider section
 
-![](../make-order-feature-encounter-plan-section.assets/dd2b28618870357a7ac211a5394ee7fa.png)
+![](../make-order-feature-encounter-plan-section.assets/69b80bda69414ee5a3a0227900311cf7.png)
 
-Above or at the bottom there are function buttons. Click "REQUEST ORDERS" button to render the order. The "Hide Top Form" button simply hides the top portion of this orders screen and only shows the order items to checkmark.
+* <strong>Provider:</strong> This is a <strong>required field</strong>.  Select the Ordering Provider by using the drop-down arrow to select the provider that is ordering this. The ordering provider field for the order prepopulates the same name as the performing provider on the encounter. If no performing provider has been set on the encounter, the ordering provider field defaults to the user's MY SETTINGS preference of ‘Ordering Physician' if that has been set.
+* <strong>Location:</strong> This is a <strong>required field</strong>.  Select the order provider's location that this order is being requested from.  The layout can be modified by MIE so that the location of this Order Requisition screen offers all locations in your system, or perhaps to only show outside locations or display no outside location choices. The setting is -1 for all, 1 for just outside, 0 for no outside. Please contact your MIE support contact for this change.This field also prepopulates the order location default you have set for yourself in MY SETTINGS.
+* <strong>Status:</strong> Defaults to pending, signifying this is an open pending order request to have performed and resulted. However, you can change the status (example if editing an order request and now need to cancel it etc.)
+* <strong>Save As:</strong> The document name the order requisition should store as in the chart once saved/generated.
 
-![](../make-order-feature-encounter-plan-section.assets/507eaf21cb948a6a1840c945c6aff834.png)
+### Regarding section
 
-You can toggle between order sets to checkmark orders from various order set's (ex: Lab, Imaging, etc) all at once and make it **one** order document instead of separate. There is the ability to switch picklists in the encounter order which is controlled by a dropdown containing all the order picklists in the system.
+![](../make-order-feature-encounter-plan-section.assets/c6f51682681c417878961a2d2f35cf7f.png)
 
-The last picklist visited before clicking the "Request Orders" button will be the name of the order document that it will store as, regardless of whether any orders were chosen on that last picklist or not. The user can choose which picklist is recorded by visiting that picklist (or returning to it) before clicking the "Request Orders" button. There is a help bubble explaining this next to the *set name* field also for additional help. Again, this gives ability to mark orders across various order sets but will store it as one order document – as the name of the last set name (picklist) you were in.
+* <strong>Chart Name/DOB/MR#:</strong> Displays legal name, preferred name, DOB and chart MR#
+    * If the chart has more than one MR#, a drop-down for MR# will display, where you can select the specific MR# to signify on the order requisition
+* <strong>Schedule In:</strong> You can use the drop-down to select a general timeframe to have this order schedule in.
+    * <strong>Standing Order Frequency:</strong> This field will display if you selected ‘Standing Order' as the Schedule In value above.  For standing order frequency, type in how often to do the order, example: to do this standing order every 3 days or every 1 month, etc. If it isn't a standing order, leave as 0 (zero) days.
+* <strong>Schedule Date:</strong> Depending on the ‘Schedule In' choice selected, this date will change, but can be overridden by the user as needed.
+* <strong>Priority:</strong> Use the dropdown to select the priority of the order request.  The default is routine.
+* <strong>Collection Date:</strong> If you collected the specimen etc, you can signify the date of collection in this field.
 
-![](../make-order-feature-encounter-plan-section.assets/6366f1fc534919779b2ec474800a4b12.png)
+### TO section
 
-After clicking REQUEST ORDERS button, this will close that orders screen and then it will list your items you selected under the *Order Requests* category of the encounter.
+![](../make-order-feature-encounter-plan-section.assets/a7a82c3d9f9faa52cd668f290a7c4a18.png)
 
-![](../make-order-feature-encounter-plan-section.assets/5d02ea1e70188e7dda92534e29dbb047.png)
+* <strong>To (search for providers):</strong> This is the field to document whom you are referring this patient's order to be done/resulted/processed by/referred to.  This <em>To</em> field is a user autocomplete that pulls from the referrable entity provider organizations or provider charts.  One can also utilize the right hand side <em>Quick List</em> to select a <em>To Provider</em> quickly to insert into this field.
+    * <strong>Add New Provider:</strong> You can add a new P (provider) chart to the system here, which will create the person as a P (provider) chart in the system and sets the provider chart as a referrable entity, so it can be utilized here in the <em>To Providers</em> autocomplete or advanced search.
+    * <strong>Performing Facility:</strong> This is where the order will be sent if you have a lab or other interface set up where your order requests electronically get sent to a facility via interface (ex: LabCorp, Quest etc). The <em>My Settings</em> preference selected "Preferred Facility" will default here, but can always select a specific performing facility in the drop-down. Otherwise, leave this blank and skip this field if you don't have any directional interface to lab/imaging facilities set up.
+* <strong>External ID:</strong> External ID is in HL7 lab results typically in a bi-directional interface. This field is regularly used to display the sending lab's or other EMR's MRN or identifier. It is useful when tracking down a missing or perceived missing result document/message, as the Lab uses this number to identify who the order/result is for. This info is shown on the stored order document in the TO area.
 
-If your system is configured to require diagnosis for each order item, you will be prompted to confirm diagnosis for each order item you marked. If there are more than 3 order items on the order, you will have the ability to **apply diagnosis** to all order items quickly in mass instead of individually. If there are any order questions to answer on any order item, you will be prompted to answer those too. Click the FINISH button when done confirming diagnosis for each specific order item and any questions answered.
+### Items section
 
-![](../make-order-feature-encounter-plan-section.assets/66e82334808ffdec718c9638bb98bd14.png)
+![](../make-order-feature-encounter-plan-section.assets/2df93cc04e6ff294303b18d5df4fac05.png)
 
-![](../make-order-feature-encounter-plan-section.assets/c68126f3cd983703b12a71154817ca33.png)
+* <strong>Search for items:</strong> This section is where you specify and select the specific tests, procedures, items, etc of what the order requisition should contain to have collected, performed, resulted, etc.
+    * <strong>Autocomplete:</strong> can use the autocomplete field to begin typing the specific order item name(s) that you want the order requisition to contain
+    * <strong>Radio buttons on far right side:</strong> One can utilize the right hand side <em>Quick List</em> to select order items configured within the order picklist you selected within the encounter.  The radio buttons allow you to quickly scroll and click to find specific order items configured within the selected picklist.
+    * <strong>Picklist icon:</strong> The picklist icon (next to the autocomplete field) can be clicked to pop-open the <em>Choose orders</em> screen that lists all order items configured within the selected picklist. You can also change picklist selections in this pop-up too.  Select the items you wish to order by checkmarking them and then clicking the ADD button.
 
-When click the FINISH button, it will prepare the order request for submission with the encounter but the order request will *not* be submitted until the encounter work is saved. You can edit the order request before you save your encounter work. You can click the *edit "xxx" order request* button. This will re-open the ‘Start Order Request' window and populate it as it was in its last state. Cancelling the order request from that window or the Finish Order Request window keeps the order intact. If any changes to the order are made, those changes will be reflected on the page.
+![](../make-order-feature-encounter-plan-section.assets/88388878e1516fb75def7612a6d3efd7.png)
 
-![](../make-order-feature-encounter-plan-section.assets/861406a3d9d47ecc927f435ce4796316.png)
+Regardless of what method is used, once you have selected and added specific order items to the Order Requisition, the items will be listed in the Items section and 2 additional fields will be available.
 
-If you click the SAVE button on the encounter to save your encounter work, you will see this section change to show the order requests and be able to *edit* them if need be. You can still edit the order at that point also.
+* <strong>Auth:</strong> this is an optional free-text field to key in any authorization information for each individual order item. This field does not display on the stored order document.
+* <strong>Comments:</strong> this is an optional free-text field to key in any comments for any individual item.  Item comments typically include the ‘side' of the body to xray, etc if the order item isn't specific enough. These are shown on the stored order document and the Order Requests tracking datavis tab.
 
-![](../make-order-feature-encounter-plan-section.assets/cdd2503b1780751c463a10fcc93b3a94.png)
+![](../make-order-feature-encounter-plan-section.assets/7512a55b10d0b84fffe8824f6a1c4fd3.png)
 
-{{% info %}}
-While working in the encounter and seeing the requested orders as the look above, the "look" can be configurable using tag attributes. Contact your MIE Implementer if you wish any of these additional tag attributes to show or hide additional information regarding order requests in encounters.
-{{% /info %}}
+### Reason section
 
-![](../make-order-feature-encounter-plan-section.assets/9c44f77b90da3b209077f1bbf86aa6e4.png)
+![](../make-order-feature-encounter-plan-section.assets/313482927a62ffecf48af4c2574e879a.png)
 
-* <strong>Comments</strong> can be shown. That would show the comments field from the order request (comments are hidden by default).
-* <strong>Date of Service</strong> next to the ‘Edit Order Request' link on generated orders can be hidden. This is the date of the encounter, not the order date or order create date (currently date is default to be shown)
-* <strong>Completion Date</strong> can be shown which shows the completion date of the order (completion date is hidden by default).
-* <strong>Diagnosis code & description</strong> can be shown which shows the diagnosis and ICD code for that order item (diagnosis code/desc is hidden by default).
+* <strong>Reason:</strong> Use the autocomplete to signify a diagnosis reason for this order.  Otherwise can use the far right side quick list area to select a diagnosis reason for the order based off the patient's current problem list, other problems, or quick pick of stored library options.
 
-If you click the hyperlink edit order request (date) you will be taken to the order screen again to make any edits and click REQUEST ORDERS button at the bottom to render. See other help documentation on editing orders.
+### CC/Comments/Terms/Payment/Instructions section
 
-![](../make-order-feature-encounter-plan-section.assets/4fe6c03e3c90c33be99db19ea8aebb01.png)
+![](../make-order-feature-encounter-plan-section.assets/165ffd861ad9debddf5062b5be61d7a6.png)
 
-When done with the encounter exam, the physician will submit the encounter.
+* <strong>CC:</strong> Can signify a provider to be CC'd.  The autocomplete field results any users in the system who are tied to the Referring Physician department in the system's access control.  This info is shown on the stored order document in the CC Physicians section.
+* <strong>Comments:</strong> Free type any comments regarding the entire order if applicable. These are shown on the stored order document below the Reason area and are shown on the Order Requests tracking datavis tab.
+* <strong>Bill Type:</strong> Can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are four options: The default is None (unspecified), Self, Client, and Third Party. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option. This info is shown on the stored order document in the Terms/Payment area.
+* <strong>Payer:</strong> Can specify a Payer.  This info is shown on the stored order document in the Terms/Payment area.
+* <strong>Instructions:</strong> Free type any patient instructions for the patient regarding this order. These patient  instructions will display on the order requisition document at the top of the Items section.
 
-If there were any orders made by the physician using this make/create order feature, those orders show on the encounter document "view". The orders show in the *plan* area of the encounter document along w/ any diagnosis required on the order item.
+### Save
 
-![](../make-order-feature-encounter-plan-section.assets/0ca9d2df500b792a4800f900a21cca4c.png)
+Click the SAVE button in the bottom right corner of the Create Requisition screen once all applicable data has been entered and are ready to create the Order Requisition.
 
-The order itself (the document) would be pending to batch/print/fax in the encounters "view" to print and hand to the patient or fax out to a facility. There are several other places in {{% system-name %}} that you can print/fax/batch this order document. But from here, in the "view" of the encounter, look in the *Encounter Options* area at the very bottom of the screen.
+## Order Requisition Document
 
-![](../make-order-feature-encounter-plan-section.assets/0e6718e3d9070757335f6be2bb460f61.png)
+The Order Requisition (upon Save) will store as its own document and will store within the Open Orders encounter section
 
-You can batch and print all orders, prescriptions, drug guides, etc created from the encounter. You can also see the last time it was printed or faxed so you know if someone already rendered it.
+![](../make-order-feature-encounter-plan-section.assets/8534bc965937388f85e3e4fa5785dfba.png)
 
-You can also individually batch or individually print/fax by clicking the batch link next to each prescription, drug guide and/or e-order pending in the queue to print/fax. An order also shows the status of the e-order in a column. You can edit an e-order from this screen but it will only edit the order document, it will not edit/updated your encounter document. You can also simply open it up in ‘view' mode also to view. If you need to delete an order, click the Complete link, then set the order item(s) to *cancelled* in the screen it takes you to.
+## Open Order Requests visibility in encounter
+
+After clicking the REQUEST ORDERS button, this will close that orders screen and then it will list your items you selected under the *Order Requests* category of the encounter.
+
+![](../make-order-feature-encounter-plan-section.assets/35f5f4172e52038064cff7628a041731.png)
+
+### Open Order Requests Options
+
+On any Open Order Requests within the encounter, there are *option* icons available at the far right of each order requisition.  Please refer to the [Encounters Open Order Request Section](encounters-open-order-request-section.md) guide for more detailed information.
+
+![](../make-order-feature-encounter-plan-section.assets/d68afb793e9349eb12e225c05aece5f8.png)
+
+### Linked Documents
+
+Any order requisitions that were saved/generated during the encounter save as its own Order document in the chart and is linked to the encounter.  The linked Order document will also be found within the encounter Linked Documents section.  There are option icons available from that linked document also.
+
+![](../make-order-feature-encounter-plan-section.assets/5147eadb8af51ccf59a98b5a207d5042.png)
+
+### Smart Plan
+
+Any order requisitions that were saved/generated during the encounter save as its own Order document in the chart and is linked to the encounter.  The linked Order document will also be found within the encounter Smart Plan section.  There are option icons available from that order requisition document area also.
+
+![](../make-order-feature-encounter-plan-section.assets/1624e9bb0fba569ccbecf547e624471d.png)
+
+### Symptoms/Diagnosis
+
+Any order requisitions that were saved/generated during the encounter save as its own Order document in the chart and is linked to the encounter.  The linked Order document will also be found within the encounter Symptoms/Diagnosis section.  There are option icons available from that order requisition document area also.
+
+![](../make-order-feature-encounter-plan-section.assets/406089ad4b75db468f3fc52ef81cee43.png)
+
+### Encounter View
+
+If there were any order requests made by the provider, those open pending order requests show on the encounter "view". The order requisitions are listed in the *plan* area of the encounter document.
+
+![](../make-order-feature-encounter-plan-section.assets/53437710e6fff2eacb6b8d6f0c917529.png)
+
+### Visit Summary
+
+If the encounter is configured to generate a Patient Clinical Visit Summary upon close & archive, depart instructions encounter section contents will be included in that Patient Clinical Visit Summary document.
+
+![](../make-order-feature-encounter-plan-section.assets/a862336b91eda465238da91d6e10c3e1.png)
+
+The Clinical/Visit Summary is a standard additional view that is generated on encounters upon close & archive. This additional view for the Clinical (Visit) Summary is configured in the Encounter Exams editor.
+
+![](../make-order-feature-encounter-plan-section.assets/49e4805a68b7a8755f51dd0c83b47f01.png)
+
+The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents and includes the Depart Instructions encounter section.
+
+### Order Requests Chart Tab
+
+The generated pending Order Requisition will also be visible in the Order Requests stand-alone chart tab. The Order Req jelly bean counter also displays the number of pending order requests on the chart and can click on that to access the same Order Requests stand-alone chart tab.
+
+For more information on the Order Requests chart tab, please refer to [Order Requests Grid](../order-and-result-management/order-requests-grid.md) guide.
+
+![](../make-order-feature-encounter-plan-section.assets/d236217af0221641d22e157f1baf1d68.png)
+
+## Print/Fax/Send Order Requisition
+
+The order requisition itself (the order document) will be pending to batch/print/fax in the encounters "view" to print and hand to the patient or fax out to a facility. There are several other places in {{% system-name %}} that you can print/fax/batch the order request document. But, in the "view" of the encounter, look for the *Encounter Options* area at the very bottom of the screen.
+
+![](../make-order-feature-encounter-plan-section.assets/1ac56ae00ba7b593e7007ca6187c227b.png)
+
+You can batch and print all orders including any prescriptions, drug guides, etc created from the encounter view. You can also see the last time it was printed or faxed so you know if someone already rendered it.
+
+You can also individually batch or individually print/fax by clicking the batch link next to each order request that is pending in the queue to print/fax.
 
 {{% tip %}}
 If the user's preference for (‘Orders', ‘Encounter Orders', ‘Filter Pick List By Insurance') is set to ‘YES', the order pick list link in the plan section will first show the insurance choice window. The user will then be shown only picklists which have at least one order for the chosen insurance (or at least one order for the default insurance, if no insurance has been chosen). When no insurance is chosen for an order picklist in encounter orders (for instance, those chosen via the Labs or Imaging links in the Plan section) only those order items that do not have an insurance plan attached to them are displayed. This preference is mainly used by occupational health clients.
 {{% /tip %}}
 
-## Mark Order Complete
+## Managing Order Requisitions to Completion
 
-You can easily mark a pending order as "complete" even while working in the encounter or from the "view" of the encounter.
+Please visit guide [Order Requests Grid](../order-and-result-management/order-requests-grid.md) for more information on how to manage Order Requisitions.
 
-![](../make-order-feature-encounter-plan-section.assets/ecf5f8fef5de7f3abcac6a6d15cad70a.png)
+## Order Requisitions Reporting
 
-![](../make-order-feature-encounter-plan-section.assets/24023c06561946c5fb4367bc8f52b882.png)
+The reports sidemenu module offers some reports based on Order Requests.
 
-Clicking the hyperlink to Complete a pending order request will take you to the *Complete Order* screen to document the pending order as "complete". (See additional documentation regarding *Order Completion* screen.) You will see this hyperlink available for any type of order request done via the Make xxx Order functionality.
+![](../make-order-feature-encounter-plan-section.assets/fa5b857ed624bb94bd2b4cc74edcb082.png)
 
-### Mark Lab Order Complete with Results
-
-You can easily mark a pending lab order as "complete" and key in the lab results as discrete data to link to the originating lab order. You can do this even while working in the encounter o from the "view" of the encounter.
-
-![](../make-order-feature-encounter-plan-section.assets/b7fb919490715c509c11700e86263335.png)
-
-![](../make-order-feature-encounter-plan-section.assets/13794d430e6d2caeeaf014841a937ccb.png)
-
-Clicking the hyperlink to Complete with Results for a pending lab order request will take you to the *Complete Order with Results* screen to document the lab results of the order as discrete data and creates a Lab Results document in the patient's chart along with completing the order. (See additional help documentation regarding *Complete Order with Results* screen.) You will see this hyperlink available for any type of Lab order request done via the Make Lab Order functionality.
+* <strong>Order Requests - Completed</strong>: Searchable report that lists all order requests/requisitions and details that have been marked as a category of ‘Completed'. This report also offers a performable Options column for each listed order request/requisition
+* <strong>Order Requests - Count by Location</strong>: Searchable report that lists all created order requests/requisitions and document details by ordering location for a specific date range entered.
+* <strong>Order Requests - Count by Order Item</strong>: Searchable report that lists all created order requests/requisitions by Order Picklist (set name). Details include the number of times an individual order item (in that specific Order Picklist/set name) has been ordered for a specific date range entered.
+* <strong>Order Requests - Count by Provider</strong>: Searchable report that lists a total count of order request/requisition documents grouped by ordering provider for a specific date range entered.
+* <strong>Order Requests - Pending</strong>: Searchable report that lists all Pending order requests/requisitions and details. Pending orders are not in completed status. This report also offers a performable Options column for each listed Pending order request/requisition.
+* <strong>Order Requests - Standing</strong>: Searchable report that lists all Standing order requests/requisitions and details. Standing orders have entries in the Standing Order Frequency field of the order request/requisition. This report also offers a performable Options column for each listed Standing order request/requisition.
+* <strong>Orders - Usage:</strong> Searchable report that consists of 3 buckets displaying order requests/requisitions according to order status. This report also offers a performable Options column for each listed order request/requisition.
