@@ -1,8 +1,8 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2024-05-20T14:05:07.678Z'
-version: 570
+date: '2025-03-03T21:30:33.755Z'
+version: 621
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,6 +18,7 @@ links:
   - '../../system-administration/system-controls/user-provider-and-department-management.md'
   - '../prescribing-adding-medications.md'
   - '../../medication-management-and-e-prescribing.md'
+  - 'https://www.federalregister.gov/documents/2010/03/31/2010-6687/electronic-prescriptions-for-controlled-substances'
   - '../edit-change-medications.md'
   - '../e-refills-e-scripts-tab.md'
   - '../e-refills-all-e-refills-tab.md'
@@ -205,7 +206,7 @@ For more information on e-prescribing, see our [Medication Management & E-Prescr
 
 #### Batching Unsigned Prescriptions
 
-Batching prescriptions is available; however, batching can only be preformed for one (1) single patient, at a time. Batching of multiple patients' prescriptions is prohibited. Furthermore, as a certified EPCS application, it is necessary for prescribers to individually sign EACH prescription. Therefore, we are unable to shortcut the authentication process (signing) of batched prescriptions, due to current DEA regulations.
+Batching prescriptions is available; however, batching can only be performed for one (1) single patient, at a time, unless the Allow Batch Signing system setting is enabled. To batch sign for a single patient with multiple prescriptions, follow the steps below:
 
 1. When prescriptions are batched for a patient, the prescriber is able to mark all prescriptions as Ready to Sign. Note they are all for the same patient.
 
@@ -216,6 +217,16 @@ Batching prescriptions is available; however, batching can only be preformed for
 ![](../epcs-setup.assets/cbb3c137f38e814597d6c24809f44298.png)
 
 3. Follow the process of signing and clicking <strong>OK</strong>, until all prescriptions have been authenticated.
+
+To batch multiple patients' prescriptions, enable the system setting Allow Batch Signing. Prior to enabling for batch prescription signing across multiple patients, ensure all practitioners review the following link, comment and DEA response to this setting:
+
+* <strong>Link:</strong> [Federal Register - Electronic Prescriptions for Controlled Substances](https://www.federalregister.gov/documents/2010/03/31/2010-6687/electronic-prescriptions-for-controlled-substances)
+* <strong>Comments:</strong> Practitioner organizations expressed the view that checking an "all" box should be sufficient if a practitioner approves all of the prescriptions displayed, as opposed to indicating each prescription approved individually. Two State agencies, an information technology organization, and application providers objected to DEA's proposal to allow signing of prescriptions for multiple patients at one time. Some commenters believed that allowing practitioners to sign prescriptions for multiple patients at one time posed health and safety risks for the patients. Others stated that the prescriber might not notice fraudulent prescriptions in a long list.
+* <strong>DEA Response:</strong> DEA agrees that allowing practitioners to simultaneously issue multiple prescriptions for multiple patients with a single signature increases the likelihood of the potential detrimental consequences listed by the commenters. Accordingly, DEA has revised the rule to allow signing of multiple prescriptions for only a single patient at one time. Each controlled substance prescription will have to be indicated as ready for signing, but a single two-factor authentication can then sign all prescriptions for a given patient that the practitioner has indicated as being ready to be signed. DEA notes that many patients who are prescribed controlled substances receive only one controlled substance prescription at a time.
+
+![](../epcs-setup.assets/1e3ffecff8d11802dc98e2e34c7fcd4e.png)
+
+![](../epcs-setup.assets/6925d498602e96ea988a5e31da763005.png)
 
 ### Prescription Modifications
 
