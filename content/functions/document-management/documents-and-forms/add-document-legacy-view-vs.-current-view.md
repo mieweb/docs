@@ -2,7 +2,7 @@
 id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 title: 'Add Document - Legacy View vs. Current View'
 date: '2025-02-24T18:46:16.857Z'
-version: 126
+version: 133
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
