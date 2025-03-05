@@ -1,8 +1,8 @@
 ---
 id: '1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
 title: 'Visit Orders'
-date: '2025-02-17T14:59:36.901Z'
-version: 163
+date: '2025-03-05T14:44:18.127Z'
+version: 179
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -42,6 +42,16 @@ Then within the Visit Order section (after your selected order items are applied
 ![](../visit-orders.assets/9bae73ada4b29b1afc412672b2c56f6c.png)
 
 NOTE: This method inserts the order item(s) as individual order items within the Visit Orders encounter section.  Therefore, those individual orders would be their own individual order requisition(s) when/if made into an order requisition to be referred out.  Using this method does not allow order items to be combined into one order requisition.  If need to make an order requisition for multiple items on one requisition form, please scroll back up to the Tests & Procedures encounter section to generate from there.
+
+#### Protocol Visit Orders
+
+The Visit Orders section can have specific protocol orders available that store specific orderable items in a Protocol Orders picklist (with its own section in the Protocol Orders picklist) named what the protocol is. Once a protocol is selected in Chief Complaint, any matching Protocol Orders will display here in Visit Orders in section expanded view or in right side quicklist view.
+
+![](../visit-orders.assets/ce7cf2679afb5a827ab01ff23c74aff1.png)
+
+The Protocol Order picklist contents of items are configured within the Order-Pick Builder within the Control Panel of the system.
+
+![](../visit-orders.assets/d76246fa52de4d2373ade30e0753531e.png)
 
 #### Add Referral of Right Side Quick List Method
 
