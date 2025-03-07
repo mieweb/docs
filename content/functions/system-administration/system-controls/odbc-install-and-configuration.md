@@ -1,12 +1,12 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-03-07T15:33:20.850Z'
-version: 290
-lastAuthor: 'anichols'
+date: '2025-03-07T16:40:22.869Z'
+version: 307
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://youtu.be/9F2KUHstZ-E?si=s4_NcpHHf1xmgKsz'
+  - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
   - 'system-report-writing.md'
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
@@ -19,7 +19,7 @@ As an add-on feature, some clients may choose to implement ODBC (Open Database C
 
 ### Video
 
-Video demonstrating how to pull data: [How to get data ODBC and JSON (video 15min)](https://youtube.be/9F2KUHstZ-E)
+Video demonstrating how to pull data: [How to get data ODBC and JSON - video 15min](https://youtube.be/v/9F2KUHstZ-E)
 
 ### System Report Writing
 
