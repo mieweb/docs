@@ -51,17 +51,17 @@ The QPP JSON File Generator allows QPP participants the ability to generate the 
 7. Be sure to <strong>Save</strong> the file(s) to your device.
 8. With the file(s) saved to the device, navigate to the submission portal to upload the generated file(s). In this example, we will be navigating to the QPP portal, where we can upload the file(s), as appropriate.
 
-Check out CMS' [short video series](https://youtube.be/DLBsBw55p7Y) to see how easy submitting to a quality program can be.
+Check out CMS' [short video series](https://youtube.be/v/DLBsBw55p7Y) to see how easy submitting to a quality program can be.
 
 Videos include:
 
-1. [Uploading Files for Data Submission](https://youtube.be/DLBsBw55p7Y)
-2. [Reviewing Overview Data](https://youtube.be/X8vHB2gfonU)
-3. [Reviewing Quality Category Data](https://youtube.be/TeIh6h7mByY)
-4. [Reviewing Promoting Interoperability Category Data](https://youtube.be/jgcx8rsTY3w)
-5. [Reviewing Improvement Activities Category Data](https://youtube.be/lj3vH4gID0Q)
-6. [Manual Attestation of the Promoting Interoperability Category](https://youtube.be/wP_sGO0cdX4)
-7. [Manual Attestation of the Improvement Activities Category](https://youtube.be/Uh12TBmlC7A)
-8. [Deleting Submitted Data in the System](https://youtube.be/_NJ0t_cfMXY)
-9. [Reviewing and Submitting Data as a Registry](https://youtube.be/iGFYslxit-U)
-10. [Navigation to Individual and Group Submission](https://youtube.be/yd6EBtEGX1w)
+1. [Uploading Files for Data Submission](https://youtube.be/v/DLBsBw55p7Y)
+2. [Reviewing Overview Data](https://youtube.be/v/X8vHB2gfonU)
+3. [Reviewing Quality Category Data](https://youtube.be/v/TeIh6h7mByY)
+4. [Reviewing Promoting Interoperability Category Data](https://youtube.be/v/jgcx8rsTY3w)
+5. [Reviewing Improvement Activities Category Data](https://youtube.be/v/lj3vH4gID0Q)
+6. [Manual Attestation of the Promoting Interoperability Category](https://youtube.be/v/wP_sGO0cdX4)
+7. [Manual Attestation of the Improvement Activities Category](https://youtube.be/v/Uh12TBmlC7A)
+8. [Deleting Submitted Data in the System](https://youtube.be/v/_NJ0t_cfMXY)
+9. [Reviewing and Submitting Data as a Registry](https://youtube.be/v/iGFYslxit-U)
+10. [Navigation to Individual and Group Submission](https://youtube.be/v/yd6EBtEGX1w)
