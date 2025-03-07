@@ -2,7 +2,7 @@
 id: '1cjeLFxh3nnUTHtGy9BTOXeU8ji8uqdDy8Z2u5kSv_tM'
 title: 'CC 12 - Care Coordination Agreements that Promote Improvements in Patient Tracking Across Settings'
 date: '2020-02-27T20:51:40.706Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -1,8 +1,8 @@
 ---
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
-date: '2025-02-21T13:59:55.465Z'
-version: 21
+date: '2025-02-21T14:02:00.700Z'
+version: 31
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

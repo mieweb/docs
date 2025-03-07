@@ -2,7 +2,7 @@
 id: '1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
 title: 'Closing an Existing Case'
 date: '2020-03-13T13:45:11.738Z'
-version: 47
+version: 48
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

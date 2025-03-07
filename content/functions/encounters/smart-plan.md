@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-02-25T13:36:26.869Z'
-version: 1137
+date: '2025-02-25T13:37:02.748Z'
+version: 1149
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

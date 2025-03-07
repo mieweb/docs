@@ -2,7 +2,7 @@
 id: '1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
 title: 'Carbon Copy'
 date: '2025-02-04T15:00:10.256Z'
-version: 79
+version: 82
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

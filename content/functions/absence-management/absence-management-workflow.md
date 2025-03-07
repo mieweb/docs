@@ -1,9 +1,9 @@
 ---
 id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
 title: 'Absence Management Workflow'
-date: '2024-07-15T17:27:46.181Z'
-version: 285
-lastAuthor: 'janderson'
+date: '2025-02-26T17:59:34.675Z'
+version: 300
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../injury-care/adding-restrictions.md'

@@ -2,7 +2,7 @@
 id: '1-tfONkRUSjg4mxAfE1pcRYwgRK2t1LN-Vw9qorSz9U8'
 title: 'Finding ledger transactions'
 date: '2021-02-18T16:48:01.963Z'
-version: 22
+version: 23
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

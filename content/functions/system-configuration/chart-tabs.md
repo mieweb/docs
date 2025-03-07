@@ -2,7 +2,7 @@
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
 date: '2024-07-19T17:23:15.352Z'
-version: 283
+version: 284
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

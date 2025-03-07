@@ -2,7 +2,7 @@
 id: '1WIMmSA6IAnjC6s1vw6Yd2ZfQ9Bg9TiLBduyAcwAwJho'
 title: 'PM 15 - Implementation of Episodic Care Management Practice Improvements'
 date: '2020-02-27T20:53:22.706Z'
-version: 18
+version: 19
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'
 title: 'Device Interface - Vision System'
 date: '2020-02-27T20:28:38.471Z'
-version: 25
+version: 26
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KBILJar8IGGw-Kjc320d2EbkmLf6N04ly37q1UWPsUI'

@@ -2,7 +2,7 @@
 id: '1iCl2VuY77s7ruey2X61ziYnmMhsL9w4wI-KZBz0ElDg'
 title: 'CC 13 - Practice Improvements for Bilateral Exchange of Patient Information'
 date: '2020-02-27T20:51:46.530Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

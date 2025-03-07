@@ -2,7 +2,7 @@
 id: '1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
 title: 'Financial reports'
 date: '2021-02-17T19:42:45.858Z'
-version: 23
+version: 25
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1LvK0sD2FZ8JRIvRNodH5JXsgdpBgsWZf4hgqeT-taMM'
 title: 'CC 15 - PSH Care Coordination'
 date: '2020-02-27T20:51:57.687Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

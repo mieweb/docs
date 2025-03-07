@@ -2,7 +2,7 @@
 id: '1mcUrR3My2x_ALQTMoyVlHNRim_G3K0D5TAGe5yy8Css'
 title: 'BE 17 - Use of Tools to Assist Patient Self-management'
 date: '2020-02-27T20:49:55.216Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

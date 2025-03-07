@@ -2,7 +2,7 @@
 id: '1lriNLCP62tQRh1kYqbbtOCcwJS-mEd2j_d2dTVohfnE'
 title: 'PSPA 4 - Administration of the AHRQ Survey of Patient Safety Culture'
 date: '2020-02-27T20:55:50.490Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.ahrq.gov/professionals/quality-patient-safety/patientsafetyculture/index.html'

@@ -2,7 +2,7 @@
 id: '1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A'
 title: 'Inventory Tab - Blank Labels'
 date: '2020-02-27T20:31:19.130Z'
-version: 26
+version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A'
