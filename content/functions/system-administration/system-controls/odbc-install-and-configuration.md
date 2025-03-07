@@ -1,12 +1,12 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-03-07T14:14:49.101Z'
-version: 269
+date: '2025-03-07T15:33:20.850Z'
+version: 284
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
+  - 'https://youtu.be/9F2KUHstZ-E?si=s4_NcpHHf1xmgKsz'
   - 'system-report-writing.md'
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
