@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-02-21T14:18:29.204Z'
-version: 3957
-lastAuthor: 'anichols'
+date: '2025-03-10T14:53:14.442Z'
+version: 3969
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -172,6 +172,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * Monitor Instruments MI5000, MI5000B, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
     * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
     * [Resonance R17A Audiometric XML Device Integration](https://www.resonance-audiology.com/en/r17a-screening-audiometer/) (RM#119721)
+    * Sibelmed Audiometer - Sibelsound Duo (RM#125247)
     * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
     * [Tremetrics RA360](https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360) (Pending) ([RM#118062](https://pm.mieweb.com/issues/118062))
     * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
