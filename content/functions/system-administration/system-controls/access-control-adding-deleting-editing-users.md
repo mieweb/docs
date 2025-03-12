@@ -1,18 +1,19 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2024-10-16T17:10:20.012Z'
-version: 248
-lastAuthor: 'janderson'
+date: '2025-03-12T16:15:21.056Z'
+version: 280
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'access-control-quick-add-multiple-active-users.md'
   - 'setting-up-e-prescribers.md'
+  - '../security/security-role-settings.md'
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-Must have security permissions to be able to add/edit/delete users
+Must have security permissions to Manage Users and Manage Permissions to be able to add/edit/delete users and configure user security role exceptions, etc.
 
 ## Search if a User Exists in the System
 
@@ -69,7 +70,7 @@ When adding a user, fill out all the fields you can:
 ### Edit User Screen
 
 * <strong>Username</strong> (first initial and last name all together and in lowercase) This will be their login name.
-* <strong>Alias:</strong> Anything typed here will be shown in the authored by field of any document created/uploaded and printed/faxed etc. Sometimes a client or user doesn't want their full name to show in document headers or in stored documents, etc so they enter either only their first name here, or initials here, etc. The Authored By field looks and pulls the alias field first. If nothing is entered in the alias field, it will pull the user's full legal name. The below screenshot is an example. Example: Albert Aorta does not have anything entered into his alias field, so any document he creates, indexes, uploads, etc is stored by his full name. Example: alex someone who entered <em>alex</em> in for their alias field and  {{% system-name %}} stores documents created by this person, uploaded, indexed, etc by his/her alias name/field since something is entered into that field.
+* <strong>Alias:</strong> Anything typed here will be shown in the authored by field of any document created/uploaded and printed/faxed etc. Sometimes a client or user doesn't want their full name to show in document headers or in stored documents, etc so they enter either only their first name here, or initials here, etc. The Authored By field looks and pulls the alias field first. If nothing is entered in the alias field, it will pull the user's full legal name. The below screenshot is an example. Example: Albert Aorta does not have anything entered into his alias field, so any document he creates, indexes, uploads, etc is stored by his full name. Example: alex someone who entered alex in for their alias field and  {{% system-name %}} stores documents created by this person, uploaded, indexed, etc by his/her alias name/field since something is entered into that field.
 
 ![](../access-control-adding-deleting-editing-users.assets/7fa4377cee3cabd84c47c3f6974ea0cc.png)
 
@@ -161,21 +162,57 @@ Once your results produce, click on the underlined username (on the left column)
 
 Below this section of the username screen, it will display what departments the user is a member of, any restrictions, security exceptions, etc.
 
-If you edit an existing user's security role (if you change the security role they are currently set to), when you submit your edit in their username screen, you may see a prompt box. If the user has any existing security role exceptions set, it will prompt if you want to keep their security role exceptions that are set, or if you wish to delete them and set the user to the security role settings that are default to that role you are changing them to.
+## Security Role Exceptions
 
-![](../access-control-adding-deleting-editing-users.assets/f3d5838cc6cac82382a77664d2fe1f0b.png)
+Users can be set to customized security permissions.  The user is set to a security role when configured in the system.  Security Roles are set to specific permissions for the entire default ‘role' in the system.  However, individual users can have further customized security permissions or what we call ‘Security Exceptions'.
 
-You can also select options at the top of this user's summary.
+Security Role Exceptions are security permissions that are set differently than the overall security role the user is set to have.
 
-![](../access-control-adding-deleting-editing-users.assets/1ce80e5076339bfeff818f88094e659a.png)
+To customize an individual user's security, while in the edit user screen, the Customize User Security hyperlink is available.  For more information on security role permissions or how to edit, please see the [Security Role Settings](../security/security-role-settings.md) guide.
+
+![](../access-control-adding-deleting-editing-users.assets/84382875281a6836b97ddc3ce40ca4cc.png)
+
+### Visibility to Security Role Exceptions set on a User
+
+Visibility to a user's security role exceptions are visible from Access Control in two areas: Access Control user search and View User screen.
+
+#### Access Control User Search
+
+From Access Control, search for a specific user.  Once the user results in the output, you will see a column titled *Security Role Exceptions*.  You can use the datavis grid to move this column to the position you wish and can save perspectives etc.
+
+![](../access-control-adding-deleting-editing-users.assets/958cccd0faa495ebea3d6192acbebf9d.png)
+
+Within the Security Role Exceptions column, Details hyperlink will appear **if** the user has any security role permission exceptions set on them.
+
+![](../access-control-adding-deleting-editing-users.assets/e1a1ee05d85a07bc9b0e40458f972e71.png)
+
+Click on the Details link to pop-up a list of any specific security role permissions that are an ‘exception' to what their default security role has set.  Security role exceptions that display in this pop-up are what the user is currently set to, that is different from what their default security role is set to.
+
+![](../access-control-adding-deleting-editing-users.assets/ce43b91f71b3c2082786084fe57c234c.png)
+
+#### View User Screen
+
+From Access Control, search for a specific user.  Once any matching users listing results in the datavis output, you will see a column titled *Username*.  You can use the datavis grid to move this column to the position you wish and can save perspectives etc.
+
+![](../access-control-adding-deleting-editing-users.assets/83599abade8b91649bdbadd6c8e0a934.png)
+
+Click on the specific user's unique username (hyperlink) to advance to the *View User* screen.
+
+![](../access-control-adding-deleting-editing-users.assets/16dcf16359d50c886bfa457286d2bb60.png)
+
+From this *View User* screen, scroll down to about the middle of the entire screen to see any specific security role permissions that are an ‘exception' to what their default security role has set.  Security role exceptions that display in the View User screen in a section *Security Role Exceptions*.  These security role exceptions listed here (if any) are what the user is currently set to, that is different from what their default security role is set to.
+
+![](../access-control-adding-deleting-editing-users.assets/dd7f14f5a41c44c9a44eb67ad3f89160.png)
 
 ### Options
 
-![](../access-control-adding-deleting-editing-users.assets/672ae9b9d051025a8e63ea3428a0b20a.png)
+There are several options when in the View User screen.
+
+![](../access-control-adding-deleting-editing-users.assets/089ffeef50e99bb82e7a242c08d82166.png)
 
 #### Edit User
 
-If have security role permission to manage users, this link will appear.
+If you have security role permission to manage users, this link will appear.
 
 Can click this to make changes to the username information screen and then click *Submit Edit* at the bottom.
 
