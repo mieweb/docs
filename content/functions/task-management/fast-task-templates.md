@@ -1,9 +1,9 @@
 ---
 id: '1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 title: 'Fast Task Templates'
-date: '2023-01-31T15:04:33.300Z'
-version: 159
-lastAuthor: 'swilmert'
+date: '2025-03-12T13:38:29.162Z'
+version: 171
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://doc.id/'
@@ -28,7 +28,7 @@ To configure and add a new Fast Task template selection to the system, click the
 
 The Task Template (NEW) screen opens.  Enter information into any applicable fields to create the new fast task selection for the system.
 
-![](../fast-task-templates.assets/73ad81f88ad9ad389e4349e80b39a1ed.png)
+![](../fast-task-templates.assets/b1e8f50c51f5896d1950828a46693ae8.png)
 
 * Name: Name of the fast task link that will show for users to utilize.
 * Due Date: Optional field.  Type in the amount of time from the creation of the fast task, to the time the task is considered due to complete.  Example: If you want to give users 1d 4h = 1 day 4 hours from the day the task was created, until it's due, then type 1d 4h  (putting spaces between increments do not matter). When the fast task is saved to the system, the system will then convert 1d 4h into minutes.  Due Dates (when creating fast task templates) are stored in minutes. Therefore, 1d 4h will be converted to 1680 minutes when the Save button is clicked.  Either the due date or a remind date field is required when adding a fast task template to the system.
@@ -37,7 +37,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 * Priority: Select a priority for this category for this fast task to be inserted as when utilized.
 * Prompt: When users select this fast task to use, if ‘prompt' (here in the template) is set to Yes, users will see the ‘add task' screen which provides the fast task template as configured, but also allows them to add/edit information in all the task fields (ex: due date, remind, notes, assign, etc) then requires them to manually click the ‘Add Task' button to generate the task.  If prompt is set to No, the fast task template should have all information needed in the template itself as it will automatically generate and send the task as it is templated. If the "Assign To" section on the fast task template is not set with any owners or departments, the user will be prompted when utilizing the fast task, because the system needs to know who to assign the task to.
 * Hidden:  If set to Yes, users will not see this fast task as an option to click on when they go to ‘Add Fast Task'.  Usually fast task templates are only set to be hidden if the task only needs to run in the background automatically for a specific workflow and these are configured as tasklist events.  Tasklist events can be programmed to trigger fast tasks, in an automated manner, on upon an event, function, or other method. For example: upon a specific document being indexed, the system can trigger a task (programmed via a tasklist event which uses fast task templates) and the fast task template being used for that automation doesn't need to be shown as a choice to a {{% system-name %}} user to utilize manually when working in {{% system-name %}} .
-* Reply to Dept: If this option set to Yes then replying/forwarding this fast task will be sent to the sender's department, and not individual sender.  This allows any user then to grab and work the reply or forwarded task, instead of waiting on one specific indivdual.
+* Reply to Dept: If this option set to Yes then replying/forwarding this fast task will be sent to the sender's department, and not individual sender.  This allows any user then to grab and work the reply or forwarded task, instead of waiting on one specific individual.
 * URL: leave blank.  MIE would program special setup here if needed and is mainly used for dictation if needed.
 * Doc Type: When tasks are created, they store as doc.type WCTASK (Task Note) in the system.  However, it may be necessary and need (for reporting, audits, or just for better visibility) to store a fast task as its own doc.type when it's created.  Specify the name of the doc.type the fast task should store as here. If nothing is selected, the system will save the fast task (when used) as WCTASK (Task Note) in the system.
 * Type: Select where the fast task template is to show up in the system to be accessible and used by setting the type here.  The default will be All, meaning the fast task template will be accessible to select throughout the system wherever users can Add Tasks. The Type should be what the task is regarding: All/Select One, Patient, Patient's Document, or a patient's Appointment, non-patient, fill request, Dictation, Incoming File Queue, Encounter, etc.  The Add Task link at the top of a chart is considered type "patient."  There is an Add Task link in the detail view of a document that is considered type "document", and there is an Add Task link in the scheduler that is considered type "appointment".  There is an Add Task link in the Task List sidemenu that is considered type "non-patient". There is also an Add Task link in the Meds/Prescribe/Refill chart tab of a chart considered type "fill request" because fill requests are regarding a prescription.  There is an Add Task link within the Incoming File Queue that is considered type "Incoming File Queue".
@@ -53,7 +53,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 Users who do not have tasking view security permission will not show up as a user choice to assign to.
 {{% /note %}}
 
-* Forward Fast Task: Typically this is left as None, but a different fast task template can be selected here to utilize when forwarding the current fast task to someone.  The other fast task template indicated here, would be sent on a forward. The other task template indicated here, could be set up with different info, notes and different assignees.  For example: Perhaps you have a fast task called Jones Phone and when the nurse sends it to Dr. Jones for him to answer the question, when he hits reply she does not want this fast task Jones Phone to always come back to her, she would rather it come back to the Nurses department so anyone in the Nurses Department can finish it (in case she is gone, etc.)
+* Forward Fast Task: Typically this is left as None, but a different fast task template can be selected here to utilize when forwarding the current fast task to someone.  The other fast task template indicated here, would be sent on a forward. The other task template indicated here, could be set up with different info, notes and different assignees.  For example: Perhaps you have a fast task called Jones Phone and when the nurse sends it to Dr. Jones for him to answer the question, when he hits reply she does not want this fast task Jones Phone to always come back to her, she would rather it come back to the Nurses department so anyone in the Nurses Department can finish it (in case he/she is gone, etc.)
 
 When done entering the fast task template to the system, click the Save button.  A confirmation message at the top of the screen will say Successfully inserted Fast Task. The Fast Task has now been saved to the system and is now a fast task option to use.
 
