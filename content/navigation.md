@@ -143,7 +143,7 @@ links:
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
-  - 'https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
+  - 'functions/encounters/rename-a-heading.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
@@ -890,7 +890,7 @@ wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
-        * [Rename a Heading](https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw)
+        * [Rename a Heading](functions/encounters/rename-a-heading.md)
         * [Smart Plan](functions/encounters/smart-plan.md#_ce65n7x31c0m)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
