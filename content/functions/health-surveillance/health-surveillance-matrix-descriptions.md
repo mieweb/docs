@@ -1,9 +1,9 @@
 ---
 id: '1uE3JqvyP8KAbK2mO0sIrGUZa32BhgHULC3NdSyakf4M'
 title: 'Health Surveillance Matrix Descriptions'
-date: '2025-01-09T22:10:38.868Z'
-version: 142
-lastAuthor: 'squarterman'
+date: '2025-03-12T15:05:00.719Z'
+version: 153
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1tOwhUxErru3-fsHKGUES0lVE8tr_p_RaWX8bEruCghQ/edit'
@@ -41,7 +41,7 @@ Please review and download the [Health Surveillance Matrix](https://docs.google.
 </tr>
 <tr>
 <td>Open Membership</td>
-<td>This determines whether the supervisor can add/remove employees from panels from the portal. Select Open Membership if the panel is to allow any employee to be added by their supervisor as a member of the panel. From the portal, there is a Supervisor Review link. This link only displays for supervisors. The supervisor screen shows only the employees with a reference key for color coding. Also, any Open Membership panels will display here, as well.</td>
+<td>Checkmark Open Membership if the panel is to allow any employee to be added (as a member to the panel) quickly using the Panel Membership Overview chart tab. Selecting this allows the panel to display on the Panel Membership Overview chart tab (for membership selection or not) even if the employee is not a current member.</td>
 </tr>
 <tr>
 <td>Restricted</td>
