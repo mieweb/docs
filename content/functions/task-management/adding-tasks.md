@@ -1,9 +1,9 @@
 ---
 id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 title: 'Adding Tasks'
-date: '2024-08-12T15:39:07.112Z'
-version: 206
-lastAuthor: 'janderson'
+date: '2025-03-12T13:47:03.095Z'
+version: 218
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
@@ -33,7 +33,7 @@ To create a generic task regarding a chart, click Add Generic button after havin
 
 Generic tasks have blank fields that you can free-text the information needed for the assignee to complete this task.   The generic task is linked and regarding the chart you are in. This is evident in the Regarding field when in the Add Task screen.
 
-![](../adding-tasks.assets/a78001fd2c393673aec802fce398913f.png)
+![](../adding-tasks.assets/857a80ac18aa82a67cfa3dc165ce1ec9.png)
 
 * Description: Describe task or title it.  This is what assignees see in their task queue as the task description.
 * Subject:  You can add a subject to the task if you wish. This is visible when the task document is uploaded and stored to the chart.
@@ -53,32 +53,34 @@ Users do not have security permission of View Access for tasks will not appear
 
 * Assign this task to Myself: If you want to assign the task to yourself, simply checkmark the Assign To Myself checkbox that is provided.  The task will then be put in your task worklist to complete.
 
-![](../adding-tasks.assets/b9719de6944d79ebef881d6237bebaae.png)
+![](../adding-tasks.assets/505db341f4b1599dcb69f263d40a40da.png)
 
-* Assign this task to a Department only (not specific users within a department): To assign a task to a department, use the drop-down arrow in Department field. The task will be assigned to the department selected.  Any user that is a member of that department and whom has task viewing permission, can grab and complete department tasks.  Click the ADD button when done.
+* Assign this task to a Department only (not specific users within a department): To assign a task to a department, search using the auto-complete or hit your down arrow keyboard key in the Department field to see choices. The task will be assigned to the department selected.  Any user that is a member of that department and who has task viewing permission, can grab and complete department tasks.  Click the ADD button when done.
 
-![](../adding-tasks.assets/8d4e0147e82542c2beff93db900b32f0.png)
+![](../adding-tasks.assets/be7301622e065766ca0235786347a6ce.png)
 
 * Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
     * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
     * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.  
         ![](../adding-tasks.assets/4aca7791d43c34241383c9f16b2f455b.png)
 
-* Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the drop-down arrow in Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.    
-    ![](../adding-tasks.assets/5165e6807f66d41be0c089d46f115014.png)
+* Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the auto-complete in the Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.    
+    ![](../adding-tasks.assets/87b573ddb0e9466503dc6c91c9f57927.png)
 
 * Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task.  
-    ![](../adding-tasks.assets/74d4a6ebf6d0bd4825d10bc4ca1609ae.png)
+    ![](../adding-tasks.assets/d4f5b1f1ccb58a114a2c13dd0c1d9ae8.png)
 
 * All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user.  
-    ![](../adding-tasks.assets/39787cadef44c383b51a8f57f299e5fb.png)
+    ![](../adding-tasks.assets/820a7546389e1196c78345445338eacc.png)
 
-* All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user.  
-    ![](../adding-tasks.assets/ad723bdaf93225b0f122f2200da8f96f.png)
+* All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user.
+
+
+![](../adding-tasks.assets/6d82a12cf4dac4e2a548c80d16f179e9.png)
 
 When done typing in task details and indicating whom the task should be assigned to, click the Add Task button.
 
-![](../adding-tasks.assets/ad80178c9481c9eeca1bd937a04be26d.png)
+![](../adding-tasks.assets/79756133c6eeeb5b6b3a919698233a68.png)
 
 A confirmation message will saying it has successfully recorded the task note as a document in the specified chart, and has successfully added the task to the system.
 
