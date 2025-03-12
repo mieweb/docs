@@ -1,36 +1,62 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2024-07-10T15:49:42.589Z'
-version: 344
-lastAuthor: 'janderson'
+date: '2025-03-12T14:54:36.876Z'
+version: 374
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LAGIDNHR'
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
-## Viewing a Patient's Conditions
+## Viewing a Patient Chart's Conditions
 
-Conditions can show in the top summary portion of the patient's information in most chart tabs *if* you have the My Settings preference for *Show Conditions in Med Header* set to Yes.
+There are various areas throughout the chart where a person's conditions/medical history/problem list are visible.
 
-![](../conditions.assets/1de69ef9292dd6b1a7e0a51a975de981.png)
+## Gray Header
 
-This is the Med Header:
+Active patient conditions can show in the top summary portion of the patient's information in most chart tabs *if* you have the My Settings preference for *Show Conditions in Med Header* set to Yes.
 
-![](../conditions.assets/a40afc20780831413fd9f2f9c09a8479.png)
+![](../conditions.assets/4c8009f9bd76e7497ee85cbcfe05b336.png)
 
-The patient's current active conditions show in the Past Medical History portlet and/or Medical History portlet of the Summary tab.
+This is the gray header area, when working in a chart, where active conditions would display:
 
-![](../conditions.assets/5626330b6300d70f6d4eb3fd8ffe1c57.png)
+![](../conditions.assets/d02d6b9258ca10b621fd0760569b482c.png)
 
-They also show in the Conditions chart tab or patient's E-history tab (E-History program must be set up by MIE). And from here can enter in patient conditions (or enter them in the Past Medical History Section of point & click encounters)
+## Summary Dashboard Portlets
 
-![](../conditions.assets/88158a1d44c6d41f25f5bd052e715715.png)
+The patient's current active conditions also show in the Past Medical History portlet and/or Medical History portlet of the Summary dashboard chart tab.
+
+![](../conditions.assets/1e44373121ec6df530f1f2addc170dcf.png)
+
+## Conditions Chart &/or Past Medical History Chart Tabs
+
+Active conditions for the patient (and ability to manage them) also display within the stand alone Conditions chart tab and/or the stand alone Past Medical History chart tab.
+
+![](../conditions.assets/f4f2b9e6f323796acaf991ebd803b47b.png)
+
+## Encounter Past Medical History Section
+
+Medical history conditions for the chart can also be viewed and managed within an encounter section named Past Medical History.
+
+![](../conditions.assets/6c90392b7741d70f5b0ecb2bcad61efb.png)
+
+## Encounter Smart Plan Section
+
+The encounter section named Smart Plan also offers a right hand side quick list method to view the chart's medical history.
+
+![](../conditions.assets/4e15ab39fdb57c8d3da0972a36ef9f84.png)
+
+## Encounter Symptoms/Diagnosis Section
+
+The encounter section named Symptoms/Diagnosis also offers a right hand side quick list method to view the chart's medical history.
+
+![](../conditions.assets/231554f120cb8203ebeabfe26278514e.png)
 
 ## Viewing List of Conditions
 
-When you are working in a patient's E-Chart, you can click the chart tab at the top named Conditions and it will take you to the patient's condition history also where you can document conditions or family conditions for the patient.
+When you are working in a chart, you can click the chart tab at the top named Conditions and it will take you to the patient's condition history also where you can document conditions or family conditions for the patient.
 
 ![](../conditions.assets/88158a1d44c6d41f25f5bd052e715715.png)
 
@@ -49,7 +75,7 @@ Providers can alter the condition within the Past Medical History section of the
 
 ## Documenting a Condition for a Patient
 
-From the Conditions screen, click the Show/Hide Quick Lists icon under the Problem List section.
+From the various areas where medical history is displayed for the chart, click the ribbon banner icon within the section needed, which will then open the right hand side quick list method.
 
 ![](../conditions.assets/50bcd3b794c07882fd8cd5b48e4dcd18.png)
 
@@ -61,7 +87,7 @@ The Add Condition window displays to enter the new condition for the patient.
 
 ![](../conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
 
-* <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown.
+* <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown. First Databank (FDB), is the provider database of these ICD-10 codes.
 * <strong>Problem List:</strong> By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
 * <strong>Past Medical History:</strong> By selecting ‘Yes', the condition is added to the Past Medical History list of the patient conditions.
 * <strong>Clinical Status:</strong> Set the condition to Active or Inactive. The Problem List defaults to Active. There are also options within Active to set Recurrence or Relapse. Or within Inactive, there are options for Remission or Resolved.
@@ -107,7 +133,7 @@ After you click the Plus sign icon, you will see the *Add Family Condition* fiel
 
 ![](../conditions.assets/14d64ff68c700886fc99337a7acb5092.png)
 
-* <strong>Problem:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD10</em> and free-text type the family condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition.
+* <strong>Problem:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD10</em> and free-text type the family condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. First Databank (FDB), is the provider database of these ICD-10 codes.
 * <strong>Relationship:</strong> Select from the dropdown which family member had the condition listed above. If you leave the relationship field <em>blank</em>, it will still document the family condition to the patient's history and will assume and mark it ‘unknown' as the
 * <strong>Age at Onset:</strong> Type or use the calendar to select the age in which the condition began. ‘=' is used for the exact age the condition began. ‘~' is used for around the age the condition began. ‘?' is used when the age of onset is unknown.
 * <strong>Comments:</strong> This field is optional and can be used for any additional comments on the family condition.
@@ -151,7 +177,7 @@ Select the Reason for the deletion from the Remove Condition pop-up window. Once
 
 ### Concluding an Active Patient Condition
 
-If you need to conclude an active condition for a patient simply get into the Conditions tab. Look in the Problem List section for the condition you want to conclude. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.
+If you need to conclude an active condition for a patient simply find the listed condition and select the pencil icon for editing.  Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.
 
 To conclude a condition, find the specific condition and hover over it until the icons appear. Click the Pencil icon.
 
