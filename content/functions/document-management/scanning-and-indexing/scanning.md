@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-02-25T18:21:55.757Z'
-version: 317
-lastAuthor: 'auhrick'
+date: '2025-03-12T13:51:54.741Z'
+version: 332
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'indexing.md'
@@ -21,9 +21,9 @@ To begin using the WebScan capabilities, first click the **WebScan** sidemenu 
 
 Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *checked-in* batches shown below, in the list view. Checked-in batches are simply batches of scanned documents that need indexed into the appropriate charts.
 
-![](../scanning.assets/8d986ebaa4d76ccc9130774bb4b89e30.png)
+![](../scanning.assets/72185b14f767ce0f8d132c3fa25770b5.png)
 
-To begin scanning, simply click the **Add Batch** link found in the upper-right corner of the screen. Once clicked, the Batch Upload screen will open. Here, users may scan and index documents, accordingly.
+To begin scanning, simply click the **Add Batch** link found in the upper-right corner of the screen. Once clicked, the Batch Upload screen will open. Here, users may scan and index documents,accordingly.
 
 Batch Upload screen in releases 202309 and earlier:
 
@@ -36,17 +36,18 @@ Batch Upload screen in release 202403 and newer:
 1. Align and insert the document(s) into the scanner tray according to the scanner specifications. Scanning can be done in portrait or landscape orientation.
 2. If configured for use, select the <strong>Partition</strong> dropdown to specify the partition to which the scanned document(s) need assigned. This field only displays if the <em>Show Partition Restrict</em> system setting is enabled. Once a batch is assigned to a specific partition and scanned, only users with access to that partition will be able to see the scanned batch in WebScan.
 3. Using the <strong>Priority</strong> dropdown, set the priority of the batch. Select Low, Med, or High.
-4. If any comments need to be associated with a batch, simply type them into the <strong>Comments</strong> field, as necessary.
-5. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed.
+4. <strong>Clinic Location</strong> field can be utilized to indicate which clinic location this batch belongs to and/or assign to
+5. If any comments need to be associated with a batch, simply type them into the <strong>Comments</strong> field, as necessary.
+6. To review and ensure the scanner settings and preferences are enabled, click the <strong>Settings</strong> button. Users may change these settings, as needed.
 
 ![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
     * <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
     * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned.
 
-6. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
-7. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
-8. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong> Icons, users may view the documents of the batch.
+7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
+8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
+9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong> Icons, users may view the documents of the batch.
 
 ![](../scanning.assets/a180f3d7943b506a4fdfb661a4217fef.png)
 
