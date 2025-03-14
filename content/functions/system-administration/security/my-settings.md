@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-03-03T17:57:52.773Z'
-version: 668
-lastAuthor: 'anichols'
+date: '2025-03-14T14:30:34.391Z'
+version: 700
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
@@ -352,6 +352,7 @@ When looking at preference choices available in the drop-down:
     * Always: Merge link is shown for all patients who have a single possible match
 * Show Last Eligibility: Default is no, but if set to Yes and have SureScripts Advanced functionality on the system, then while working in a patient's record, the last eligibility date that was run will show in the scheduler view.
 * View Range: The ‘New Scheduler' tab within the Scheduler module allows a range preference to be set for viewing the ‘New Scheduler' screen by Day, Work Week, or Week.
+* Show Employer Organization: Displays the patient's Employer Organization on the appointment scheduler view.
 
 #### One-Click Checkin
 
