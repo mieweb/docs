@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-03-10T14:53:14.442Z'
-version: 3969
-lastAuthor: 'auhrick'
+date: '2025-03-18T15:28:40.159Z'
+version: 4020
+lastAuthor: 'tslabach'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -24,8 +24,6 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html'
   - 'https://www.resonance-audiology.com/en/r17a-screening-audiometer/'
   - '../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md'
-  - 'https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360'
-  - 'https://pm.mieweb.com/issues/118062'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-veripro-hearing-fit/'
   - 'https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/his/en-us/products/hearing-protection/documents/sps-his-veripro-faqs.pdf?download=false'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-cholestech-ldx.html'
@@ -174,7 +172,6 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Resonance R17A Audiometric XML Device Integration](https://www.resonance-audiology.com/en/r17a-screening-audiometer/) (RM#119721)
     * Sibelmed Audiometer - Sibelsound Duo (RM#125247)
     * [Tremetrics RA300, RA400, RA500, RA660, RA800](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (Serial Uni-directional)
-    * [Tremetrics RA360](https://www.e3diagnostics.com/products/occupational-health---industrial/tremetrics-ra360) (Pending) ([RM#118062](https://pm.mieweb.com/issues/118062))
     * [Tremetrics RA660](../../functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md) (File Bi-directional) - Sends data to the device and then data is automatically uploaded back to Enterprise Health using the device app
     * Xeta Otometrics (no model # on device) (File Uni-directional)
     * [Veripro](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-veripro-hearing-fit/) [hearing fit device](https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/his/en-us/products/hearing-protection/documents/sps-his-veripro-faqs.pdf?download=false)
