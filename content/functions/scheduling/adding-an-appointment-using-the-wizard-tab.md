@@ -1,9 +1,9 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2025-01-23T21:47:49.958Z'
-version: 471
-lastAuthor: 'auhrick'
+date: '2025-03-20T16:41:39.960Z'
+version: 481
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
@@ -79,6 +79,10 @@ If you link any pending due list items to a successfully scheduled appointment, 
 * <strong>Email Patient:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Select a pre-templated email, from the drop-down, if you wish to send the patient an email regarding the appointment just scheduled.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/c1d1bcb04a445bcec40e3eabe2b8a8c8.png)
+
+{{% note %}}
+For an additional fee, SMS text reminders are available for appointments. If you are interested in adding SMS text messaging reminders for your appointments, please reach out to your account manager or deployment consultant.
+{{% /note %}}
 
 * <strong>I-Calender Invite (.ics):</strong> The appointment will be sent (along with the email template) with a calendar invite that the patient can accept to add this appointment to their calendar/device calendar that they receive the email on. It copies this appointment into the patient's calendar program if they use such calendar programs if they wish.
 * <strong>Make appt invite ‘Public':</strong> The appointment is sent as <em>private</em> by default on the patient's calendar program when this is uncheckmarked.  However, if checkmarked, the appointment goes on the patient's calendar program (if they wish to accept and store on their device's calendar received at), but as <em>public</em> instead of private.
