@@ -1,8 +1,8 @@
 ---
 id: '1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
 title: 'Cancel/No-Show/Edit Appointments'
-date: '2024-10-23T13:40:55.329Z'
-version: 172
+date: '2025-03-20T17:24:58.388Z'
+version: 177
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -179,6 +179,10 @@ When done, click the *SAVE* button at the bottom of the screen.
 ![](../cancel-no-show-edit-appointments.assets/1ead52c280ba78b81d72239979e93d80.png)
 
 After you click *SAVE*, it will then pop-up to the scheduler view and show you the appointment as you have edited it.
+
+{{% note %}}
+For an additional fee, SMS text reminders are available for appointments. If you are interested in adding SMS text messaging reminders for your appointments, please reach out to your account manager or deployment consultant.
+{{% /note %}}
 
 ## Learning Management System
 
