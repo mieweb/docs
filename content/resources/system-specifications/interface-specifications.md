@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-03-18T15:28:40.159Z'
-version: 4020
-lastAuthor: 'tslabach'
+date: '2025-03-20T19:46:32.898Z'
+version: 4028
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -219,7 +219,8 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Quantifit2](https://pm.mieweb.com/issues/113505) [Respirator Fit Testing Interface](https://drive.google.com/open?id=11UBgkfLnYWY8LnViD_Iv9PiZ9PUP-_p_YOpYV5ypKkM)
     * [Portacount Pro Model 8030](https://tsi.com/getmedia/76df3dbb-6d8d-4d78-aa24-5aff19e889e9/8030_8038_PortaCountPro_Manual_6001868) (File Uni-directional) - Reads file from the FitPro+ software. Only sends data to Enterprise Health, currently requires manual file upload
     * Portacount Ultrafit Model 8038
-    * Portacount Ultrafit Model 8048 (in progress)
+    * Portacount Ultrafit Model 8040
+    * Portacount Ultrafit Model 8048
 * Scale
     * Healthometer 349KLX 400 lb scale
 * Signature Pad
