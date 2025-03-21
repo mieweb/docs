@@ -1,8 +1,8 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-03-20T21:43:15.380Z'
-version: 601
+date: '2025-03-21T12:23:28.571Z'
+version: 607
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -241,8 +241,6 @@ If the panel action is for a type of exposure, users will not want to set any Le
     * <strong>Last Event- On Date of Hire</strong>: The On Date of Hire Last Event triggers the action item on the Date of Hire captured in the panel member's chart demographics. Hire Date should show in the demographics header (grey bar). For example, a test is indicated to be completed at specific intervals, based on the date of hire (e.g.,1999, 2002, 2005, 2008).
 
     * <strong>Other Action (Triggered)</strong>: The Other Action (Triggered) trigger date allows users to trigger a panel action at the same time as another action item, indicated in this panel action. For example, an action to trigger an Audiogram may be for Entry, Routine, or Exit actions; if checked, other actions may use this panel action as a trigger. This option must be selected for the action to display in the Related Action list. The Related Action list displays when the Trigger Date is set to Other Action (Triggered) or Prior Action (Completed). Additionally, action items can be configured to trigger with the Representative Events, as needed, if that programming is utilized. This allows all action items to trigger together for a panel. Triggers with all the same date are usually tied to representative event
-
-![](../health-surveillance-playbook.assets/f9fb610cceb0e770e1ad194097c69a96.png)
 
     * <strong>Point in Time</strong>: The Point in Time trigger date allows users to trigger an action item on the same day and month, each year (must be MM/DD format).
 
