@@ -1,8 +1,8 @@
 ---
 id: '1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
 title: 'Multilingual Feature'
-date: '2025-03-21T15:42:15.843Z'
-version: 163
+date: '2025-03-21T16:00:18.123Z'
+version: 170
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -12,7 +12,7 @@ wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 {{% system-name %}}  supports many different languages:  English, Indonesian/Bahasa, Portuguese, Chinese, Spanish, Thai, Dutch, Vietnamese.
 
 {{% note %}}
-The * {{% system-name %}}*  system is capable of translating Left to Right Languages only. Also current translations outside of English are not complete and clients are responsible for assisting in the translation of any custom layout or changes within their database. MIE cannot attest to the full accuracy of translations, as they are client assisted translations.
+The  {{% system-name %}} system is capable of translation left to right languages only. Also current translations outside of English are not complete and clients are responsible for assisting in the translation of any custom layout or changes within their database. MIE cannot attest to the full accuracy of translations, as they are client assisted translations.
 {{% /note %}}
 
 There is a system setting to set the default language for the  {{% system-name %}} system. By default it is set to English.
