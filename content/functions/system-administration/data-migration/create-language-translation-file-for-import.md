@@ -1,8 +1,8 @@
 ---
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
-date: '2025-03-21T17:56:22.868Z'
-version: 51
+date: '2025-03-21T18:04:50.306Z'
+version: 53
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ This document explains how to import your language translation data into  {{% s
 What you will need:
 
 * Spreadsheet software (Microsoft Excel or Google Sheets)
-* {{% system-name %}} end user with administrative rights
+* End user with administrative rights
 
 ## Create Language Translation Text File
 
