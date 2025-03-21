@@ -1,9 +1,9 @@
 ---
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
-date: '2020-03-17T03:19:40.137Z'
-version: 45
-lastAuthor: ''
+date: '2025-03-21T17:56:22.868Z'
+version: 51
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
@@ -15,7 +15,7 @@ This document explains how to import your language translation data into  {{% s
 What you will need:
 
 * Spreadsheet software (Microsoft Excel or Google Sheets)
-* {{% system-name %}}  end user with administrative rights
+* {{% system-name %}} end user with administrative rights
 
 ## Create Language Translation Text File
 
@@ -64,7 +64,7 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](../create-language-translation-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
+![](../create-language-translation-file-for-import.assets/8ab961d7a89701d2402e688b375da2e1.png)
 
 3. Select the Data Import tab.
 
