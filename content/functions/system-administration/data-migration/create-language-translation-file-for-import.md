@@ -1,8 +1,8 @@
 ---
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
-date: '2025-03-21T18:04:50.306Z'
-version: 53
+date: '2025-03-21T18:04:56.638Z'
+version: 55
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
