@@ -1,9 +1,9 @@
 ---
 id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
 title: 'Application Programming Interface (API)'
-date: '2025-01-24T22:37:29.028Z'
-version: 490
-lastAuthor: 'bhamm'
+date: '2025-03-25T15:28:24.443Z'
+version: 503
+lastAuthor: 'jwagoner'
 mimeType: 'text/x-markdown'
 links:
   - 'application-programming-interface-api/terms-of-api-use.md'
@@ -71,7 +71,7 @@ Other examples can be found here: https://github.com/mieweb/webchart-interface-e
 
 {{% pre language="bash" theme="RDark" %}}```
 
-curl WEBCHARTURL?login_user=USERNAME&login_passwd=PASSWORD  
+curl -X POST -F "login_user=USERNAME" -F "login_passwd=PASSWORD" WEBCHARTURL  
 ```
 {{% /pre %}}
 
