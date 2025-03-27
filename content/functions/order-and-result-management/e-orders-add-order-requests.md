@@ -1,8 +1,8 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2024-12-17T19:35:51.009Z'
-version: 120
+date: '2025-03-27T20:08:52.815Z'
+version: 127
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -167,7 +167,7 @@ The **To** section has been updated to include a Quick List with a list of commo
 
 ## Order Requisitions for PICKLIST Order Types
 
-PICKLIST order types are typically used in Vaccine Compliance, Quality Measures and other custom workflows. PICKLIST order items often do not serve any other purpose other than to identify a group of other related order items. These related order items are defined using the Orders-Pick Builder. For example, the "Measles Surveillance" PICKLIST defines related order items pertaining to Measles Immunizations and Titers. In the event a PICKLIST order item is requisitioned, the related order items will display on the Order Requisition. Once the related order item has been selected, the related order item will replace the PICKLIST order item on the requisition. Additionally, the PICKLIST order item will automatically be set to a status of DELTED and the selected order will display as ORDERED upon saving the requisition. This feature is currently only available to users on release 202309 and newer.
+PICKLIST order types are typically used in Vaccine Compliance, Quality Measures and other custom workflows. PICKLIST order items often do not serve any other purpose other than to identify a group of other related order items. These related order items are defined using the Orders-Pick Builder. For example, the "Measles Surveillance" PICKLIST defines related order items pertaining to Measles Immunizations and Titers. In the event a PICKLIST order item is requisitioned, the related order items will display on the Order Requisition. Once the related order item has been selected, the related order item will replace the PICKLIST order item on the requisition. Additionally, the PICKLIST order item will automatically be set to a status of DELETED and the selected order will display as ORDERED upon saving the requisition. This feature is currently only available to users on release 202309 and newer.
 
 ![](../e-orders-add-order-requests.assets/196fe489dbc9b5db9d3db96d91b3fcd4.png)
 
