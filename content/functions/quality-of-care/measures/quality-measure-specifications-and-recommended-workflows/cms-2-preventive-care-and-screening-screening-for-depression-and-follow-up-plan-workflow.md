@@ -3,7 +3,7 @@ id: '1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
 title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Workflow'
 date: '2024-07-25T01:21:37.198Z'
 version: 298
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'

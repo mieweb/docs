@@ -3,7 +3,7 @@ id: '1kyoIAZ_NN1bCSho6fz2m91OzDZH4lAI1Ps80HpVxcTk'
 title: 'CMS 165 - Controlling High Blood Pressure Configuration'
 date: '2024-09-19T20:35:48.649Z'
 version: 21
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure'

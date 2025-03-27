@@ -2,7 +2,7 @@
 id: '16dkT5HTGBKqQJY8eXoZI0y8ko3JqgUPpMkSeSMHJvZ8'
 title: 'PM 18 - Provide Clinical-Community Linkages'
 date: '2020-02-27T20:53:42.387Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

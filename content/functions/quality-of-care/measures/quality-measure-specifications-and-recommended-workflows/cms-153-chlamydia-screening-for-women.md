@@ -3,7 +3,7 @@ id: '1d5dB2sKPtEjM_K06wTghV8MN4HR1rpmu9yfIvqgoEIs'
 title: 'CMS 153 - Chlamydia Screening for Women'
 date: '2022-04-21T20:18:56.392Z'
 version: 44
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS153v8&showresulttype=Measure'

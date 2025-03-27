@@ -2,7 +2,7 @@
 id: '1Yh_1VeydU5_9Bc-tHskTRmCU4GIbSYSxzz3OxW6nkc0'
 title: 'CC 4 - TCPI Participation'
 date: '2020-02-27T20:52:12.891Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

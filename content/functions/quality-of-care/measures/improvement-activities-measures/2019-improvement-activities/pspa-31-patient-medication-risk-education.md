@@ -2,7 +2,7 @@
 id: '1QPm-3oew_1L-aVTYue5l3m5S0-OZ2j-X4CtkhCejJT0'
 title: 'PSPA 31 - Patient Medication Risk Education'
 date: '2020-02-27T20:56:42.313Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

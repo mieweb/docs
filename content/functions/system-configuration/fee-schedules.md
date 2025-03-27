@@ -2,7 +2,7 @@
 id: '1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 title: 'Fee Schedules'
 date: '2024-07-22T13:25:00.906Z'
-version: 84
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

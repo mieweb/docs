@@ -2,7 +2,7 @@
 id: '198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0'
 title: 'AHE 2 - Leveraging a QCDR to Standardize Processes for Screening'
 date: '2020-02-27T20:48:49.903Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -3,7 +3,7 @@ id: '1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
 title: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
 date: '2022-04-20T20:09:18.918Z'
 version: 43
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure'

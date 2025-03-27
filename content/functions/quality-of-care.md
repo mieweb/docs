@@ -3,7 +3,7 @@ id: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
 title: 'Quality of Care'
 date: '2024-07-23T20:44:01.699Z'
 version: 153
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'quality-of-care/quality-reporting-enrollment.md'

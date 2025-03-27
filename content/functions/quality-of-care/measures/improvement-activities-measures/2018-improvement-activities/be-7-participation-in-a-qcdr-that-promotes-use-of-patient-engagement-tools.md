@@ -2,7 +2,7 @@
 id: '1iq0qdKePDblc3KH_IB-mi9YQozyNfAZ0aTnETFZS0Mg'
 title: 'BE 7 - Participation in a QCDR, that Promotes Use of Patient Engagement Tools'
 date: '2020-02-27T20:50:42.567Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

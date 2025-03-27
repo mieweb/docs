@@ -2,8 +2,8 @@
 id: '1w4VbzocSetahRwg8L0i1saJYqZLjfNnoq4pruRq-1cE'
 title: 'CMS 134 - Diabetes: Medical Attention for Nephropathy'
 date: '2022-04-22T20:32:36.946Z'
-version: 18
-lastAuthor: 'nrichardson'
+version: 19
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS134v8&showresulttype=Measure'

@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-02-06T14:51:31.802Z'
-version: 478
-lastAuthor: 'anichols'
+date: '2025-03-24T15:55:15.957Z'
+version: 501
+lastAuthor: 'dmartinez'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'

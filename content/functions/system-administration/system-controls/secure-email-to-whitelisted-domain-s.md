@@ -2,7 +2,7 @@
 id: '1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
 title: 'Secure Email to Whitelisted Domain(s)'
 date: '2024-07-22T14:19:43.162Z'
-version: 88
+version: 89
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

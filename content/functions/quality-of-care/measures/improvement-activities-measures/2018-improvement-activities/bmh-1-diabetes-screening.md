@@ -2,7 +2,7 @@
 id: '1OTz01USKEmyW--iK2VgT6YBaZH8RjkUuDLGH8-tPLYI'
 title: 'BMH 1 - Diabetes Screening'
 date: '2020-02-27T20:50:57.172Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
 title: 'Base Configuration'
 date: '2020-02-27T21:27:18.394Z'
-version: 35
+version: 36
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

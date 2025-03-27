@@ -2,7 +2,7 @@
 id: '1_RMhSD5IiXCHdNXRht41exZoec0AzWdn-ZcloqADsqc'
 title: 'Encounter'
 date: '2025-02-14T13:12:53.386Z'
-version: 83
+version: 84
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

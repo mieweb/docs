@@ -2,7 +2,7 @@
 id: '1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A'
 title: 'CC 18 - Relationship-Centered Communication'
 date: '2020-02-27T20:56:25.744Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

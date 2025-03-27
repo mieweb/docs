@@ -2,7 +2,7 @@
 id: '1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
 title: 'Fax Manager & Reports'
 date: '2020-02-27T21:27:46.914Z'
-version: 25
+version: 26
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

@@ -2,8 +2,8 @@
 id: '1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
 title: 'Quality Measure Configuration'
 date: '2024-09-19T20:29:19.135Z'
-version: 65
-lastAuthor: 'nrichardson'
+version: 66
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md'

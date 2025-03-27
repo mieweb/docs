@@ -2,7 +2,7 @@
 id: '1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
 title: 'On-Premise MySQL Server Hardware Requirements'
 date: '2020-02-27T20:46:26.827Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.7_Release_Notes/'

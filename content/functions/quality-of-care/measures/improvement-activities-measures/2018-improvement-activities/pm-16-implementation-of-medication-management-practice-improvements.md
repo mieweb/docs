@@ -2,7 +2,7 @@
 id: '1pKbCpH9nucRYJC7DkUduYtuRCDPJSUHFT1rMRztJu_M'
 title: 'PM 16 - Implementation of Medication Management Practice Improvements'
 date: '2020-02-27T20:53:33.327Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

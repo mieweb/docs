@@ -2,7 +2,7 @@
 id: '1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
 title: 'Chart Observations Default Values'
 date: '2020-02-27T21:04:46.860Z'
-version: 42
+version: 43
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit'

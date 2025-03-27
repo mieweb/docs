@@ -2,8 +2,8 @@
 id: '1kmKUrKQoXvJTsCtmhneuTZq9cwU1jKJTxhGkVUZkQ7o'
 title: 'CMS124 - Cervical Cancer Screening Configuration'
 date: '2024-09-05T19:47:53.159Z'
-version: 48
-lastAuthor: 'nrichardson'
+version: 49
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure'

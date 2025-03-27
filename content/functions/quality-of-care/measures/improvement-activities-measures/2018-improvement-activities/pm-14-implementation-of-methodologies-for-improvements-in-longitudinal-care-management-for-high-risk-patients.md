@@ -2,7 +2,7 @@
 id: '176-bgLFDRLW-GuYe4dKX1VgeRfFSXlOuBvIxz_0w4i4'
 title: 'PM 14 - Implementation of Methodologies for Improvements in Longitudinal Care Management for High Risk Patients'
 date: '2020-02-27T20:53:20.407Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

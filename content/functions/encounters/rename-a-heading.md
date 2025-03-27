@@ -2,7 +2,7 @@
 id: '1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
 title: 'Rename a Heading'
 date: '2025-03-12T18:58:01.010Z'
-version: 45
+version: 48
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

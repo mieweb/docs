@@ -2,7 +2,7 @@
 id: '1PZGroEkAfZ9HnlstJYIaiqdtkMBLH8yBWWOMq0NvEaY'
 title: 'BMH 2 - Tobacco Use'
 date: '2020-02-27T20:51:01.858Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

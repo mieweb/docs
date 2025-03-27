@@ -3,7 +3,7 @@ id: '1MS8jTf3adxq7sEVlOQ5mcv7Km_IBdNbGUXt01iRMB3I'
 title: 'CMS139 - Falls: Screening for Future Fall Risk Configuration'
 date: '2024-09-05T21:12:04.151Z'
 version: 22
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure'

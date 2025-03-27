@@ -2,7 +2,7 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2024-02-17T18:48:45.904Z'
-version: 545
+version: 547
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:

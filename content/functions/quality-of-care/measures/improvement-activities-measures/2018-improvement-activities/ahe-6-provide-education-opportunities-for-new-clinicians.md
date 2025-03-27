@@ -2,7 +2,7 @@
 id: '1SK7EKbmFSxhVveIiR-xLxJ17bRs31KIc0LbV-_yS2Ps'
 title: 'AHE 6 - Provide Education Opportunities for New Clinicians'
 date: '2020-02-27T20:47:37.998Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

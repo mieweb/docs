@@ -2,7 +2,7 @@
 id: '1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg'
 title: 'Apt Confirmation'
 date: '2020-02-27T20:39:50.764Z'
-version: 27
+version: 28
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0'

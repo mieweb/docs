@@ -2,7 +2,7 @@
 id: '1QLvQHkwFRyEF28Fv9E6EsJETKvB-xE2KSqws4laQ0ME'
 title: 'PM 4 - Glycemic Management Services'
 date: '2020-02-27T20:48:30.008Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

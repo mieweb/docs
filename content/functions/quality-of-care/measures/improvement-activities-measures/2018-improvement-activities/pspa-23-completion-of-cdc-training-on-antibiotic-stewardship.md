@@ -2,7 +2,7 @@
 id: '1agijzK1k4UmLLBHTmrIXY_afWkLtQOz-JAIxgiAkvz8'
 title: 'PSPA 23 - Completion of CDC Training on Antibiotic Stewardship'
 date: '2020-02-27T20:48:45.006Z'
-version: 17
+version: 18
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.train.org/cdctrain/course/1075730/compilation'

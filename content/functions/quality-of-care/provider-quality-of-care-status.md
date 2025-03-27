@@ -2,8 +2,8 @@
 id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
 title: 'Provider Quality of Care Status'
 date: '2024-08-09T14:35:59.989Z'
-version: 37
-lastAuthor: 'nrichardson'
+version: 38
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&module=reports&name=reports&tabmodule=reports'

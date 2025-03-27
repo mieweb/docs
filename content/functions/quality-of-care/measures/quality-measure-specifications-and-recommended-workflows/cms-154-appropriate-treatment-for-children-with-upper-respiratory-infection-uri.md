@@ -2,8 +2,8 @@
 id: '1W0FANlgAIXUMqpKPJK6j0CUcGtHkY_-tbJsNQ_RkkcQ'
 title: 'CMS 154 - Appropriate Treatment for Children with Upper Respiratory Infection (URI)'
 date: '2022-04-21T20:40:56.624Z'
-version: 34
-lastAuthor: 'nrichardson'
+version: 35
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS154v8&showresulttype=Measure'

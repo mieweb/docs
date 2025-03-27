@@ -3,7 +3,7 @@ id: '1XwNvJ7ebSrbOOgbbpqhpcV18eyKUCssMCmpdZPFCwzk'
 title: 'CMS 161 - Adult Major Depressive Disorder (MDD): Suicide Risk Assessment'
 date: '2022-04-29T13:15:02.884Z'
 version: 24
-lastAuthor: 'nrichardson'
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS161v8&showresulttype=Measure'

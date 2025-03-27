@@ -2,7 +2,7 @@
 id: '1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
 title: 'Apt Invite Reminder'
 date: '2020-02-27T20:40:43.578Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder'

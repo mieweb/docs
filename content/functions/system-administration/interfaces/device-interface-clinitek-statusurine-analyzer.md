@@ -2,7 +2,7 @@
 id: '1C5IsXjz0r1av5vusmT8ud4GsjtI9kOOY7Z5dqTVhvZ0'
 title: 'Device Interface - Clinitek Status+Urine Analyzer'
 date: '2024-10-07T20:30:50.557Z'
-version: 44
+version: 45
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

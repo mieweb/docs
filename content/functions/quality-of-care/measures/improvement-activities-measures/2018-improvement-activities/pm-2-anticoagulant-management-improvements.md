@@ -2,7 +2,7 @@
 id: '1NqK56yZC60ve75qYEgsYQRuMsi4r3t1YtSfjqpQdsho'
 title: 'PM 2 - Anticoagulant Management Improvements'
 date: '2020-02-27T20:48:21.027Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
