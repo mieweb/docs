@@ -1,9 +1,9 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2025-03-20T18:40:08.261Z'
-version: 227
-lastAuthor: 'tsimmons'
+date: '2025-03-28T15:38:12.052Z'
+version: 235
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
@@ -108,6 +108,18 @@ At a specified interval (weekly, monthly, years, or whatever is specified), rmdo
 This is for MIE programming use only or if you are trained as a Super-User and have permission to access this.
 
 ![](../document-type-tab.assets/17ff621980972ee06d89cc25eab823b6.png)
+
+### Convert Word Documents to HTML
+
+Users wishing to deprecate Word templates in favor of using HTML templates may quickly convert their Word Templates into HTML. Select Word documents from the Document Types list, and click the **Convert Word to HTML** button.
+
+![](../document-type-tab.assets/4ef5022d427ba84e895f069eacb8a9af.png)
+
+After the Document Type refreshes, the document type will display with an HTML option. Click Edit on the HTML document to view the template that was converted from Word.
+
+![](../document-type-tab.assets/98a564c74516998e5a78589a2bc52d7f.png)
+
+![](../document-type-tab.assets/c71a14cbaccfca846910e62e6ba316af.png)
 
 ### Add Document Type
 
