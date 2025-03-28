@@ -1,13 +1,14 @@
 ---
 id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 title: 'EKG Data Entry'
-date: '2024-07-15T20:28:25.445Z'
-version: 65
+date: '2025-03-28T18:22:08.961Z'
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
   - 'https://mie.talentlms.com/shared/start/key:ZOEDNHRK'
@@ -62,13 +63,17 @@ Alternatively, the EKG may be selected using the **Picklist** icon by selecting 
 
 Once the EKG test/procedure has been applied to the encounter, EKG data fields open for data entry in the visit encounter.
 
-![](../ekg-data-entry.assets/cd93e3b7d9ec31aeda226bc89e256535.png)
+![](../ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
 
 ### Import EKG Data From Device
 
 When accessing the **Test Results** chart tab after adding a new EKG, there is the ability to either enter the data manually, or upload results from a device, if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load CardioPerfect** import button when the EKG procedure is added to the visit encounter. Select the appropriate file and click **Upload File**.
 
-![](../ekg-data-entry.assets/0786e2ae80d10a93f8dead7801ccf3f7.png)
+![](../ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
+
+{{% note %}}
+Any client currently utilizing IE controls for this data import are urged to update their import to utilize the MIE Device App. When using the MIE Device App, users simply upload their results to the MIE Device App and the app will automatically insert the results as a document in the patient chart. To update your current system, follow the instructions located within the [Installing MIE Device App](https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/) documentation.
+{{% /note %}}
 
 For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – EKG System](../../system-administration/interfaces/device-interface-ekg-system.md).
 
