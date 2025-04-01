@@ -1,13 +1,14 @@
 ---
 id: '1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 title: 'Make Order Feature - Encounter Plan Section'
-date: '2025-02-28T20:07:30.635Z'
-version: 304
+date: '2025-04-01T18:52:01.374Z'
+version: 309
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/encounter-types.md'
   - 'encounters-open-order-request-section.md'
+  - '../document-management/documents-and-forms/link-documents-to-encounters.md'
   - '../order-and-result-management/order-requests-grid.md'
 source: 'https://drive.google.com/open?id=1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
@@ -133,7 +134,7 @@ On any Open Order Requests within the encounter, there are *option* icons availa
 
 ### Linked Documents
 
-Any order requisitions that were saved/generated during the encounter save as its own Order document in the chart and is linked to the encounter.  The linked Order document will also be found within the encounter Linked Documents section.  There are option icons available from that linked document also.
+Any order requisitions that were saved/generated during the encounter save as its own Order document in the chart and is linked to the encounter.  The linked Order document will also be found within the encounter Linked Documents section.  There are option icons available from that linked document also.    For more information on the Linked Documents encounter section, please refer to [Link Documents To Encounters](../document-management/documents-and-forms/link-documents-to-encounters.md) guide.
 
 ![](../make-order-feature-encounter-plan-section.assets/5147eadb8af51ccf59a98b5a207d5042.png)
 
