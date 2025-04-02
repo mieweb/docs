@@ -17,7 +17,8 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 ## Agenda
 
@@ -95,7 +96,7 @@ The applicant will bring copies of all questionnaires and paperwork completed on
 
 The nurse or MA will open the pre-placement encounter exam and complete the appropriate sections of the encounter, including:
 
-1. Subjective
+a.  Subjective
     * <strong>Encounter Information -</strong> Displays the basic employee information that is associated with the current encounter being worked in.
         * Make sure the <em>Provider</em> is the name and location of the correct final provider whose signature will be on the document as performing provider.
     * <strong>Chief Complaint -</strong> Add/update Chief Complaint (this will pre-populate from the scheduler if checked in for a scheduled appointment).
@@ -106,24 +107,24 @@ The nurse or MA will open the pre-placement encounter exam and complete the appr
     * <strong>Injections / Immunizations</strong> – Past/historical injections or immunization history collected.
     * <strong>Social History -</strong> As appropriate.
     * <strong>Linked Documents -</strong> Displays a list of documents linked to this encounter.
-2. Objective
+b.  Objective
     * <strong>Tests & procedures</strong> - User to select predefined order items to perform them in-house. This section also contains the Due List which will help to define what services an employee may be due for at today's visit.
     * Review the list of items on the applicant's Due List. Check off any that you would like to perform at today's visit. You can also use this section to delete/decline any of the orders as well.
         * Complete - check mark and "Set Completed" any items already completed, and enter a "completed date" ex: questionnaires the applicant submitted via the applicant portal
         * <strong>Audiogram -</strong> Make sure to mark the audiogram performed for the pre-placement visit as the <strong>baseline</strong> on the audiogram test here in the encounter.
-3. Plan
+c.  Plan
     * <strong>Generating Referral/Requisition Orders:</strong> Checkmark the ‘like' items listed on the due list (ex: Lab Work) that needs to be performed with an outside vendor, then click the <em>Make Order</em> button to generate that order requisition. <em>Note: make sure to Make Orders based on type, meaning you would not checkmark a Chest X-ray item to be in the same order as lab work that is going to a lab vendor to have performed.</em>
 
 #### Pre-placement Exam - Provider
 
 The provider will open the pre-placement encounter exam, review information that the clinician has already provided during intake, and complete the appropriate sections of the encounter, including
 
-1. Subjective
+a.  Subjective
     * Reviews all <strong>Past Medical History</strong> and<strong> Linked Documents</strong>
-2. Objective
+b.  Objective
     * <strong>Vitals</strong> - Review employee's vitals.
     * <strong>Tests & Procedures:</strong> Checkmark the items you will be performing yourself during today's visit, then click <em>Add to Exam</em> button. (ex: Medical Exam / Physical Exam due list item that is due for surveillance)
-3. Plan
+c.  Plan
     * <strong>Restriction/Accommodations</strong>
         * Enter any applicable restrictions and/or accommodations
     * <strong>Recommendations -</strong> Generates a work status report

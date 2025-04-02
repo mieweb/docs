@@ -1,15 +1,15 @@
 ---
 id: '1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
 title: 'Portal Portlet'
-date: '2025-02-20T19:11:14.789Z'
-version: 68
+date: '2025-02-20T19:13:00.645Z'
+version: 75
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'portal-activation-code-employee-experience.md'
   - 'https://mie.talentlms.com/unit/view/id:3544'
 source: 'https://drive.google.com/open?id=1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The system can be configured with a portal that utilizes a pickup/activation code method.
 
@@ -27,7 +27,7 @@ The Portal portlet displays any default pickup code portals configured to the sy
 
 ### There are no accounts currently with portal-only access to this chart.
 
-When you see the message *There are no accounts currently with portal-only access to this chart* within the Portal portlet, this signifies that the person has either:
+Within the Portal portlet, when you see the message *There are no accounts currently with portal-only access to this chart* within the Portal portlet, this signifies that the person has either:
 
 * Not had a unique pickup/activation code generated for their portal needs yet.  They do not have ability to create an account to the portal because a unique pickup/activation code has not been generated.
 
@@ -39,7 +39,7 @@ When you see the message *There are no accounts currently with portal-only acces
 
 ### These accounts have portal-only access to this chart
 
-When you see the message *These accounts have portal-only access to this chart* within the Portal portlet, you will see the email addresses of what email accounts have portal access to this chart.  Meaning, the person has claimed their pickup/activation code and has gone to the portal to create their account. They have access to the portal by using their pickup/activation code to claim and create their account access.
+Within the Portal portlet, when you see the message *These accounts have portal-only access to this chart* within the Portal portlet, you will see the email addresses of what email accounts have portal access to this chart.  Meaning, the person has claimed their pickup/activation code and has gone to the portal to create their account. They have access to the portal by using their pickup/activation code to claim and create their account access.
 
 ![](../portal-portlet.assets/7b633bec84a629245abf533fc9d795c4.png)
 
@@ -90,6 +90,6 @@ The *Generate* button will simply generate a unique pickup/activation code for t
 ![](../portal-portlet.assets/b9aab281e3bb71bc0ae8f791c387b2d2.png)
 ### Additional Information
 
-[Portal Activation Code Employee Experience](portal-activation-code-employee-experience.md#_p4483xhk4y5q)
+[Portal Activation Code Employee Experience](portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
 
 LMS Course: (201.Ab) [Activation Code Portal Method-Enterprise Health Focus](https://mie.talentlms.com/unit/view/id:3544) 49 minutes

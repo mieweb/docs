@@ -1,14 +1,14 @@
 ---
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
-date: '2025-02-14T20:40:11.083Z'
-version: 110
+date: '2025-03-28T17:29:47.821Z'
+version: 130
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 E-Sign is used to electronically mark a document by putting the label "Signed by: Michael Example, MD" on a document in {{% system-name %}} within a chart.  This ‘signature label' is called an E-sign (electronic signature).  It's not a wet signature in handwriting, but it is a place in the document properties header that says "Signed by: Michael Example, MD".  It puts the name of the person that reviewed the document and marked it as ‘sign'.
 
@@ -18,7 +18,7 @@ The Pending Reviews tab, found within the E-Sign sidemenu tab module, is where u
 
 ## Accessing Your Assigned Pending E-Sign Requests
 
-{{% system-name %}} displays an simple notification if you have any Esign requests assigned to you.  This notification is displayed at the top in the tool header at all times when working in {{% system-name %}} .  The notification displays as Esign (#).  The number (count) of the logged in user's pending E-sign requests displays in the brackets.  That notification there is also a hyperlink to take you directly to your Pending Reviews with one click.
+{{% system-name %}} displays a simple notification if you have any Esign requests assigned to you.  This notification is displayed at the top in the tool header at all times when working in {{% system-name %}} .  The notification displays as Esign (#).  The number (count) of the logged in user's pending E-sign requests displays in the brackets.  That notification there is also a hyperlink to take you directly to your Pending Reviews with one click.
 
 ![](../pending-e-sign-reviews.assets/588ebe02069bd1a37a4d3d93cba322ac.png)
 
@@ -142,6 +142,22 @@ Scroll all the way at the bottom of the documents being displayed in bulk count 
 After all the documents, displayed in bulk using Multi-Sign, have been marked to sign or other radio button option, click the Sign Marked Documents button as the final step.  The system will then sign the documents indicated to Sign, or other radio button options.  The system will display a message at the top of which documents its marked as signed, etc. The documents that were not marked as any radio button indication will remain displayed on the screen for you to look at again, complete or just ignore and go back to the pending list view.  These stay in your pending e-sign queue. If chose radio button on any document to Reject and typed in the notes/reason for rejecting in the summary at the top it will show an automatic task sent to your user task list for that rejected document.
 
 ![](../pending-e-sign-reviews.assets/66a1bbceb22d63b03bb0c9c44b55a476.png)
+
+## E-Sign DataVis
+
+Users on RC202309 and newer can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of *Use DataVis in E-sign* to Yes.
+
+![](../pending-e-sign-reviews.assets/ec51e069b7783150e7c5fbffafe3daab.png)
+
+If the **My Settings** preference to Use DataVis in E-Sign is enabled, users will see the **E-sign** DataVis on the **Pending Reviews** tab. The Pending Reviews tab defaults to e-sign requests for the logged in user. If the logged in user has the proper security setting access to view All Pending e-sign requests, then the logged in user may use the User autocomplete to search for another user, then click the Search button to view the other users unsigned e-sign requests. Users can create their own perspective(s) as needed also.
+
+![](../pending-e-sign-reviews.assets/d066ac6f453063033b47af0b13d406c7.png)
+
+Select a row or multiple rows of pending documents that need e-signed, then click the *Review Selected E-Sign* function button below the datavis table.  Doing that then opens a pop-up with the document(s) within it to review and sign document(s) individually from the E-sign Review screen.
+
+![](../pending-e-sign-reviews.assets/0ab87717298b27fc042bbb6e526a6176.png)
+
+Users with Proxy Signing security permission will have an option to search for other users and toggle to other users pending E-Sign requests list and be able to sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display to be able to search for pending e-signs requested for another user.
 
 ## Learning Management System
 

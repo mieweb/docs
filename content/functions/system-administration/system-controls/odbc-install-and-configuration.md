@@ -1,9 +1,9 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-03-07T16:47:48.554Z'
-version: 321
-lastAuthor: 'mpierzchala'
+date: '2025-03-26T20:42:46.709Z'
+version: 324
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
@@ -13,7 +13,8 @@ links:
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
   - 'http://www.mieweb.com/mie-ca2.crt'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
 
@@ -45,14 +46,14 @@ Once the drivers have been downloaded and installed, users will need to set up a
 
 1. You may download the {{% system-name %}} CA (Certificate Authority) from here: [Med-Web SSL CA](http://www.mieweb.com/mie-ca2.crt)[2](http://www.mieweb.com/mie-ca2.crt)
 2. You should have received an e-mail from the {{% system-name %}} development team containing the following information needed for configuration:
-    1. Hostname
-    2. Port: 3306
-    3. Username
-    4. Password
-    5. SSL Key
-    6. SSL Cert
-    7. SSL CA
-    8. SSL Cipher
+    a.  Hostname
+    b.  Port: 3306
+    c.  Username
+    d.  Password
+    e.  SSL Key
+    f.  SSL Cert
+    g.  SSL CA
+    h.  SSL Cipher
 
 ![](../odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)
 

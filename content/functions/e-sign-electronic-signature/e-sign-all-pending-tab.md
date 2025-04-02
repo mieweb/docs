@@ -1,14 +1,14 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2025-02-06T16:05:49.590Z'
-version: 108
-lastAuthor: 'anichols'
+date: '2025-03-28T17:29:57.346Z'
+version: 137
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
 source: 'https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission.
 
@@ -72,19 +72,23 @@ Once the report results, an E-Signature can be requested right there from the re
 
 ![](../e-sign-all-pending-tab.assets/77e5e6d6e835b9e35155f4b66a0a0ea6.png)
 
-## E-Sign DataVis
+## All Pending - DataVis
 
-Users can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of *Use DataVis in E-sign* to Yes.
+Users on RC202309 and newer can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of *Use DataVis in E-sign* to Yes.
 
 ![](../e-sign-all-pending-tab.assets/ec51e069b7783150e7c5fbffafe3daab.png)
 
-If your My Settings preference to Use DataVis in E-Sign is enabled,you will see the e-sign screen as a datavis of rows and columns.  Once can create their own perspective(s) as needed also.
+If the **My Settings** preference to Use DataVis in E-Sign is enabled, users will see the **E-sign** DataVis on the **Pending Reviews** tab. The Pending Reviews tab defaults to e-sign requests for the logged in user. If the logged in user has the proper security setting access to view All Pending e-sign requests, then the logged in user may use the User autocomplete to search for another user, then click the Search button to view the other users unsigned e-sign requests. Users can create their own perspective(s) as needed also.
 
 ![](../e-sign-all-pending-tab.assets/d066ac6f453063033b47af0b13d406c7.png)
 
-Select a row or multiple rows of pending documents that need e-signed, then click the *Review Selected E-Sign* function button below the datavis table.  Doing that then opens a pop-up with the document(s) within it to review and sign document(s) individually from the E-sign Review screen.
+Additionally, if the logged in user has the proper security setting access to view All Pending e-sign requests, the logged in user may view the All Pending Tab. This tab will will also display a list of users with pending e-sign requests.
 
-![](../e-sign-all-pending-tab.assets/0ab87717298b27fc042bbb6e526a6176.png)
+![](../e-sign-all-pending-tab.assets/fc32b0d002fc614248d75f861f15cd74.png)
+
+Clicking on a user's name will direct the end user to a list of pending un-signed documents for the selected user. The displayed list is essentially the same list as seen on the **Pending Reviews** tab, but in this case, the **User** field will populate the user's name selected from the All Pending tab.
+
+![](../e-sign-all-pending-tab.assets/0c0e2c1517e6fdfccc092b45d6ca51d6.png)
 
 Users with Proxy Signing security permission will have an option to search for other users and toggle to other users pending E-Sign requests list and be able to sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display to be able to search for pending e-signs requested for another user.
 

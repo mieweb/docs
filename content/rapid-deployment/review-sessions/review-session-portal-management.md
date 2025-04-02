@@ -22,7 +22,8 @@ links:
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://mie.talentlms.com/unit/view/id:2687'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 ## Agenda
 
@@ -366,25 +367,25 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 3. Is a consent form that would need to be electronically acknowledged (before being granted access to the portal) needed?  If so, what is the time frame for the consent (valid for 1 year or a 1-time item)
 4. Any updates to the portal colors, wording, or logo needed?
 5. Are employees allowed to schedule via the portal? And if so, what appointment types should be visible on the portal?
-    1. Live scheduling or requests?
+    a.  Live scheduling or requests?
 6. Determine which option to go with for Employee Health Services appointment scheduling:
-    1. Self Scheduling via employee/patient portal
-    2. Appointment Request only via employee/patient portal (clinicians receiving requests do the scheduling in EH)
-    3. None (employee to call health services to schedule an appt)
+    a.  Self Scheduling via employee/patient portal
+    b.  Appointment Request only via employee/patient portal (clinicians receiving requests do the scheduling in EH)
+    c.  None (employee to call health services to schedule an appt)
 7. What is the communication strategy for rolling out the portals?
-    1. [Portal Marketing Content](https://drive.google.com/open?id=1W8gXhKK-ETBkdynNZHQxNUg6EL3X9Zn_qUKB8QGy0rA)
+    a.  [Portal Marketing Content](https://drive.google.com/open?id=1W8gXhKK-ETBkdynNZHQxNUg6EL3X9Zn_qUKB8QGy0rA)
 8. Will employees be able to update their immunizations, allergies, and medications via the portal?
 9. Should the employee update the portal setting items themselves? The HR feed is typically the source of truth, so these fields may be overwritten daily if they are used in the HR file.
-    1. Email, Home Phone, Mobile Phone, Security Question, Preferred Language, Preferred Time Zone, Preferred Pharmacy
+    a.  Email, Home Phone, Mobile Phone, Security Question, Preferred Language, Preferred Time Zone, Preferred Pharmacy
 10. What web page should display on redirect at logout?
 11. Are patients/employees allowed to access the portal (typically set up using SSO) outside the company network?
 12. What message types are allowed on the portals?
 13. Are any emails needed for portal notifications?
-    1. If utilizing the One Time Use Code portal, does the email need to be updated?
+    a.  If utilizing the One Time Use Code portal, does the email need to be updated?
 14. What organizational approvals are needed for the launch of portals?
 15. What portal questionnaires/observations will drive tasking and what departments will receive the notifications?
 16. Who should have access to what portal? What is the relationship to the EO (or PO)  for the portal access (typically an ‘employer' relationship)? How is that identified via the HR interface?
-    1. For our Health System clients who do occupational health, do they need client-branded portals? Or can all occupational health clients utilize the same portal?
+    a.  For our Health System clients who do occupational health, do they need client-branded portals? Or can all occupational health clients utilize the same portal?
 
 # Action Items/Timelines
 

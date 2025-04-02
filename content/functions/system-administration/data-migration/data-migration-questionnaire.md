@@ -7,7 +7,8 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 ## Abstract
 
@@ -18,10 +19,10 @@ This document is intended for those requesting data migration (DM) into  {{% sy
 This section is intended to provide an overview of the current state of data, its storage, and potential restrictions.
 
 1. Where do you store legacy data that is being considered for data migration?
-    1. List and describe the purpose of all legacy EMRs or commercial applications in use.
-    2. List and describe the purpose of all custom applications storing data that may need migrated to {{% sys-name %}} .
-    3. List and describe the purpose of all spreadsheets storing data intended for migration.
-    4. Are there any data shares of files outside of the legacy applications or data sources that should be considered? For example, scanned images, results, opinion letters, and so on may be stored outside of an application but requested for migration.
+    a.  List and describe the purpose of all legacy EMRs or commercial applications in use.
+    b.  List and describe the purpose of all custom applications storing data that may need migrated to {{% sys-name %}} .
+    c.  List and describe the purpose of all spreadsheets storing data intended for migration.
+    d.  Are there any data shares of files outside of the legacy applications or data sources that should be considered? For example, scanned images, results, opinion letters, and so on may be stored outside of an application but requested for migration.
 2. For each of the legacy data sources, are the data or applications hosted locally or off-site? Specifically, do you perform your own data backups and extractions, or will a request need to be made from a third party that supports the application or data storage?
 3. If the legacy data above is in a database, what database version is used for each data application or source (e.g. Oracle 12c, MSSQL 13.0, MySQL 5.7.17, etc.)?
 4. How will the data be delivered? For example, previous clients have performed their own backup or data extraction, and via SFTP, the data is then uploaded to our secure data center or, if applicable, to standalone hardware provided by {{% sys-name %}} .
@@ -33,16 +34,16 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
 
 1. Identify key stakeholders in the data migration project and describe their role(s) in the project.
 2. Identify any relevant Subject Matter Experts (SMEs) and/or any key personnel and their titles/roles, if not already listed as a key stakeholder. Examples include:
-    1. Medical Director
-    2. Clinical SMEs
-    3. Report Writers (for each data source)
-    4. Interface Engineers (for each data source)
-    5. Any other SMEs requiring engagement for non-clinical workflows or data migrations
+    a.  Medical Director
+    b.  Clinical SMEs
+    c.  Report Writers (for each data source)
+    d.  Interface Engineers (for each data source)
+    e.  Any other SMEs requiring engagement for non-clinical workflows or data migrations
 3. Please provide an organizational chart, if possible. This allows for a better understanding of the parties involved, while reducing planning time and determining resource availability.
 4. Identify the individuals responsible for data validation.
-    1. Is there a user-acceptance process?
+    a.  Is there a user-acceptance process?
 5. Identify the SME for each data source, or the individual(s) best suited to address questions regarding the location and function of specific records or fields during the data migration.
-    1. What is their availability for potential questions or concerns?
+    a.  What is their availability for potential questions or concerns?
 
 ## III. Client & Workflow-Specific Requirements
 

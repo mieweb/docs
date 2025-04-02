@@ -1,15 +1,15 @@
 ---
 id: '1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
 title: 'Viewing Accommodations'
-date: '2024-12-12T16:14:14.038Z'
-version: 68
+date: '2025-01-27T18:31:32.772Z'
+version: 74
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The Accommodation and/or Lost Time management function provides for the recording and documenting of accommodations (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work accommodations or Lost Time.  Accommodations or Lost Time are also available for viewing throughout the system and its own chart tab outside of an encounter exam.
 
@@ -91,7 +91,7 @@ This color coded linear timeline gives a summary view in a color coded format, w
 
 ![](../viewing-accommodations.assets/859dd683f8975e4d9ca702ad3e82254b.png)
 
-Below that is and edit, delete and add new accommodations section.  See other help documentation [Adding Accommodations](adding-restrictions.md) for specific details.
+Below that is an edit, delete and add new accommodations section.  See other help documentation [Adding Accommodations](adding-restrictions.md) for specific details.
 
 ## Learning Management System
 

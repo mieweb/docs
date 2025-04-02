@@ -1,8 +1,8 @@
 ---
 id: '1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
 title: 'PFT Data Entry'
-date: '2024-12-12T20:15:05.538Z'
-version: 95
+date: '2025-03-27T19:46:27.385Z'
+version: 124
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
   - 'https://mie.talentlms.com/shared/start/key:ZOADNHRK'
 source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 ## Manual Entry
 
@@ -57,7 +57,11 @@ Alternatively, the PFT may be selected using the **Picklist** icon by selecting 
 
 ### Import PFT Data From Device
 
-When accessing the PFT chart tab after adding a new PFT, there is the ability to enter data manually, or upload results from a device if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load From Device** import button, select the appropriate file, and click **Upload File** (see other help documentation named [Device Interface – PFT System](../../system-administration/interfaces/device-interface-pft-system.md), for more information).
+Users on RC202503 will no longer have the option to **Load from Device**. As of RC202503, users must update import controls to use the *MIE Device App*. Users will save PFT results to the *MIE Device App* and the device app will automatically import results to the patient chart and insert results as a separate document. The PFT procedure encounter section is still available for users to manually enter PFT results.
+
+![](../pft-data-entry.assets/41a19225c5fc839a17ac8995ec288cdb.png)
+
+For databases on RC202409 and older, users will still have the ability to enter data manually, or upload results from a device using the Load From Device controls provided a PFT interface has been established. To utilize uploading results from a device, see other help documentation named [Device Interface – PFT System](../../system-administration/interfaces/device-interface-pft-system.md), for more information.
 
 ## Reporting
 

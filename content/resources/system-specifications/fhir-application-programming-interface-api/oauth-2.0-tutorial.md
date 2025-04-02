@@ -1,8 +1,8 @@
 ---
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
-date: '2024-11-26T00:33:27.124Z'
-version: 672
+date: '2025-02-10T20:22:01.234Z'
+version: 799
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ links:
   - 'https://pm.mieweb.com/issues/106834'
   - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: '14369108b4618bce79d4c23f4d172a439fb63721'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 # OAuth 2.0 Overview
 
@@ -31,15 +31,25 @@ OAuth 2.0 is a widely adopted standard that provides a secure method for externa
 <table>
 <tr>
 <td><img src="../oauth-2.0-tutorial.assets/0ea7b68fa0b53d9b3a3f57924ba3985e.png" /><br />
-<a href="#patient-standalone-launch">Patient Standalone Launch</a>: This method allows patients to directly authorize applications to access their personal health information through an OAuth 2.0 authorization code flow. It enables a seamless, user-initiated connection between patient applications and the healthcare system, granting permission for data access based on defined scopes.</td>
+<a href="#patient-standalone-launch">Patient Standalone Launch</a>: This method allows patients to directly authorize applications to access their personal health information through an OAuth 2.0 authorization code flow. It enables a seamless, user-initiated connection between patient applications and the healthcare system PORTAL, granting permission for data access based on defined scopes.</td>
 <td><img src="../oauth-2.0-tutorial.assets/8b91751a10e2605d3eac3241f2bf577c.png" /><br />
-<a href="#physician-ehr-launch">Physician EHR Launch</a>: Designed for healthcare providers, this workflow supports OAuth access for applications within the EHR environment. By integrating with the healthcare provider's systems, practitioners can access and utilize third-party applications directly within their EHR interface, improving workflow efficiency and interoperability.</td>
+<a href="#physician-ehr-launch">Physician EHR Launch</a>: Designed for healthcare providers, this workflow supports OAuth access for applications within the EHR that LAUNCH from a patient chart. By integrating with the healthcare provider's systems, practitioners can access and utilize third-party applications directly within their EHR interface, improving workflow efficiency and interoperability.</td>
 <td><img src="../oauth-2.0-tutorial.assets/04e74bcd714b65cdc21d4acc8a89abe4.png" /><br />
 <a href="#smart-bulk-backend-services">SMART Bulk Backend Services</a>: For more extensive data operations, this workflow enables large-scale, system-level access to healthcare data using backend services. It is typically utilized for bulk data transfer, supporting use cases like data analysis, reporting, and research that require programmatic access to large datasets.</td>
 </tr>
 </table>
 
 Each method is tailored to specific needs within healthcare, balancing security, patient privacy, and ease of access. These OAuth 2.0 workflows are crucial for creating an interoperable ecosystem that respects data protection principles while empowering healthcare providers and patients with innovative applications.
+
+* Patient
+    * Shared secret for the app
+    * Session/Bearer token for each patient authorized to a specific app/patient/scope
+* Provider
+    * Provider clicks on a link in the chart. A JWT is created for the provider for the specific patient (signed by the WebChart system)
+    * Shared secret for app
+    * Public/Private key for app is for signing JWT
+    * Session/Bearer token for each provider authorized to a specific app/for a specific patient/scope
+* Bulk
 
 ## Well Known Endpoint Information
 
@@ -185,6 +195,10 @@ Utilizing the links to the configured applications present in the FHIR Launch po
 
 ![](../oauth-2.0-tutorial.assets/d3dc42af01980adbd1604ca8dbb7e8e3.png)
 
+JWT created:
+
+![](../oauth-2.0-tutorial.assets/bba95e49f0c20704e35bc30924cf4933.png)
+
 ![](../oauth-2.0-tutorial.assets/8bb6d92978d2f0ff8a8daccc03e44dbf.png)
 
 # SMART Bulk Backend Services
@@ -224,7 +238,7 @@ JWKS (JSON Web Key Sets): https://datatracker.ietf.org/doc/html/rfc7517#appendix
 
 https://fhirr4sandbox.webch.art/webchart.cgi/jwks/
 
-### Setup
+## Server Setup
 
 $ openssl genrsa -out mykey.pem 2048
 

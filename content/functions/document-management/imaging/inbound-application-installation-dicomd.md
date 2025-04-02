@@ -7,7 +7,8 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
 ```
@@ -55,8 +56,8 @@ Complete!
 ## dicomd Configuration
 
 1. Under /usr/local/webchart/dicom/ users will find two files:
-    1. a config file
-    2. run.dicomd.RCXXXXXX file
+    a.  a config file
+    b.  run.dicomd.RCXXXXXX file
 2. Edit the config file and specify an AE title and EH configuration file. The first field is the AE Title for the PACS. The second field is the location of the EH configuration file used to connect to the EH database. The other fields may be left as default, as appropriate.
 ```
 # Server AE, webchart.conf location, cache png 1/0, keep dcm after compressing 1/0, unused, look for encounter 1/0, Stage to set when study finishes (on disconnect)
