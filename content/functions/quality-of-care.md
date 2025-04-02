@@ -10,7 +10,7 @@ links:
   - 'quality-of-care/measures.md'
   - 'https://mmshub.cms.gov/about-quality/quality-at-CMS/quality-programs'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified Electronic Clinical Quality Measures (eCQMs), and other quality measures.  Certified eCQMs have been developed to the specifications of CMS for use in Quality Payment Programs (QPP), such as MIPS.  Additional measures have been developed to support compliance tracking for payer, employer, and other incentive programs. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
 

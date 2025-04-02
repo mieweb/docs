@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1_RMhSD5IiXCHdNXRht41exZoec0AzWdn-ZcloqADsqc'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 When working in any encounter, the first section is the Encounter section.
 

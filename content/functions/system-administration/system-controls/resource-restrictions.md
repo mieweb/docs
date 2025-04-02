@@ -2,12 +2,12 @@
 id: '1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
 title: 'Resource Restrictions'
 date: '2024-05-21T16:45:19.958Z'
-version: 150
+version: 151
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nnCVxIGqtmtRT3b6tppaIYa3e7iKEVVyz73HYdLR6cY'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The **Resource Restrictions** tab in the Control Panel allows configuration and does **not** restrict user(s) and/or department(s) from scheduling appointments to any resources that are restricted.  The restricted resource configuration only stops unallowed user(s) and/or unallowed department(s) from viewing the appointment details (appt types, reasons, comments etc) for scheduled appointments that they themselves did not schedule under that resource.
 

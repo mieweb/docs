@@ -12,7 +12,7 @@ links:
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_22.htm'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm'
 source: 'https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 As a CEHRT with EPCS functionality, it is expected that all transmission requirements are adhered to, as outlined under [Section 1311.170](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170) of the Title 21 Code of Federal Regulations Part 1311, Subpart C; however, it is also necessary for prescribers to understand their responsibilities associated with EPCS functionality, meaning all responsibilities, as outlined under the following sections, specifically:
 

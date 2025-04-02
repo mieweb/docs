@@ -2,12 +2,12 @@
 id: '1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
 title: 'Inbound Fax Queue - Setting User Access Permissions'
 date: '2021-06-22T13:11:30.338Z'
-version: 85
+version: 86
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 ## Providing Access to Inbound Fax Queue
 

@@ -2,12 +2,12 @@
 id: '1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA'
 title: 'WebScan Report'
 date: '2024-03-14T19:32:20.154Z'
-version: 49
+version: 50
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 

@@ -7,7 +7,7 @@ lastAuthor: 'godlewski8'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 {{% system-name %}} can be used for treating, documenting, managing, *and* reporting injuries and illnesses, which can be initiated from a visit to the clinic, or in advance, via an employee portal. This allows incidents to be reported anytime, day or night. And regardless of how the information is captured, {{% system-name %}} can compile the recorded data into form overlays, minimizing the need for redundant data entry, while also easing reporting burdens. Overall, {{% system-name %}} not only incorporates streamlined processes for recording and treating injuries and illnesses, it also provides tools for easy tracking and follow-up through the use of its integrated worklists and tasking module.
 

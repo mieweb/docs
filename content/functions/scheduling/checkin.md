@@ -2,7 +2,7 @@
 id: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 title: 'Checkin'
 date: '2025-01-30T17:19:18.332Z'
-version: 168
+version: 172
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - '../reports/checkin-reports.md'
   - 'https://mie.talentlms.com/shared/start/key:ZTEDNHRK'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.
 

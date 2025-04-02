@@ -2,7 +2,7 @@
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
 date: '2025-03-03T21:30:33.755Z'
-version: 628
+version: 629
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -31,7 +31,7 @@ links:
   - '../../reports/e-meds-report.md'
   - '../../system-administration/system-controls/view-user-audit-log.md'
 source: 'https://drive.google.com/open?id=1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 [The Office of the National Coordinator for Health Information Technology](https://www.healthit.gov/) (ONC) offers a voluntary Health IT Certification Program, designed with requirements established from the implementation specifications and certification criteria standardized and adopted from the Secretary.  "The Program is run as a third-party product conformity assessment scheme for health information technology (health IT) based on principles of the International Standard Organization (ISO) and International Electrotechnical Commission (IEC) framework" ([About the ONC Health IT Certification Program](https://www.healthit.gov/topic/certification-ehrs/about-onc-health-it-certification-program)).
 

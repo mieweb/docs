@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 In order for you to receive e-refill requests from pharmacies in this queue, you must be a verified E-Prescriber by MIE and SureScripts and have had the box *Receive Refill Requests* check-marked in your {{% system-name %}} username screen (see other help documentation named *Setting up E-Prescriber.pdf)*. You will not receive incoming electronic refill requests from pharmacies (that are capable to do so) if you do not have that feature check-marked in your username screen. You do not have to receive refill requests electronically in {{% system-name %}} . You can continue to receive them by fax or phone calls as you currently do. However, if you have check-marked that you want to receive refill requests electronically, once MIE and SureScripts verifies your information, you will then receive electronic refill requests via this queue in {{% system-name %}} .
 

@@ -2,7 +2,7 @@
 id: '1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
 title: 'BE 10 - Participation in a QCDR, that Promotes Implementation of Patient Self-action Plans.'
 date: '2020-02-27T20:49:27.297Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1BZ2MbvXj2wCPGlci4j-u8ophytUvzFnk5oQlKWqdaa0'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 **Activity Weighting**: Medium
 

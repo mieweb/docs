@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qEbtV_j1szCuj6q_3JCUFmodXw8Jqigh06gUynj7woo'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 You can set fields to be required or recommended when adding/creating appointments in {{% system-name %}} using the appointment wizard. You must have security rights to System Settings Editor to access this. Being able to set fields to be required or recommended is called the Schedule Inputs Editor and it is accessed by users with security rights. Users with security can access this from the scheduler wizard tab when creating an appointment. This only affects {{% system-name %}} systems that schedule directly into {{% system-name %}} . This doesn't affect practices that have scheduling appointment interfaces.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'locking-individual-or-specific-charts.md'
 source: 'https://drive.google.com/open?id=1gna_b2P4oKkvDN3s9XIHm9jIWxWXfK6fpQxbjamyJ9g'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 There may be a need to allow certain users onto into specific patient's charts but lock the rest of the patient chart population down from their access. An instance could be for an auditor or temporary user who needs limited access to only a specific range of patients, etc.
 

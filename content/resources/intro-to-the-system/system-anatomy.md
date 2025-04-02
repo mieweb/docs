@@ -10,7 +10,7 @@ links:
   - '../../functions/encounters/working-in-a-visit-encounter.md'
   - 'https://mie.talentlms.com/shared/start/key:AZGHRKMF'
 source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.
 

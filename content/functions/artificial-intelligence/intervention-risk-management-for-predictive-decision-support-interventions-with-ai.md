@@ -2,12 +2,12 @@
 id: '1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
 title: 'Intervention Risk Management for Predictive Decision Support Interventions with AI '
 date: '2025-01-13T20:57:23.020Z'
-version: 125
+version: 130
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mphjZQnaF0HQMYPS7fSLpWbV_RrGNG5Huc2NGRbzHHw'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 ## Introduction of MIE's IRM Practices
 

@@ -2,12 +2,12 @@
 id: '1p1ZXuXBzJdb-eO2oxRbpCyafytuwXTJYhcGl9-2_OyU'
 title: 'Artificial Intelligence'
 date: '2024-10-03T17:28:08.947Z'
-version: 60
+version: 62
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p1ZXuXBzJdb-eO2oxRbpCyafytuwXTJYhcGl9-2_OyU'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 # Artificial Intelligence (AI) Overview
 

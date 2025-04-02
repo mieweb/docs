@@ -10,7 +10,7 @@ links:
   - 'improvement-activities-measures/2018-improvement-activities.md'
   - 'improvement-activities-measures/2019-improvement-activities.md'
 source: 'https://drive.google.com/open?id=1B_0fEDI_OHFhhQBfVIAOuKo6RjXNWbt41gD2VCWHjKE'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 Improvement activities allow practices to participate in meaningful ways to better drive and improve overall clinic operations. Below are links to the 2018 Improvement Activities (IA) measures, as well as those measures that were added in the 2019 performance year. Check out the QPP site for additional information on [Improvement Activities Requirements](https://qpp.cms.gov/mips/improvement-activities), or checkout the most recent Data Validation Criteria for detailed information regarding the necessary documentation required for compliance of the respective measure.
 
