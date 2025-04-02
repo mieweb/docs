@@ -2,7 +2,7 @@
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
 date: '2025-03-21T12:23:32.561Z'
-version: 617
+version: 615
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,8 +19,7 @@ links:
   - '../health-surveillance.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 
@@ -489,11 +488,11 @@ With the HS panels configured and ready for final testing and implementation, th
 6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md).
 7. Determine how charts will become members, or be included in HS panels.
 8. <strong>Scheduled Jobs: Panel Evaluator and Membership</strong>
-    a.  It is important to determine what will need to be considered for any automated, or scheduled, jobs. For instance, the Panel Evaluator and Membership scheduled jobs will need to have established setup times in the cut-over plan when ready for go-live, if automation will be needed in the {{% system-name %}} system.
+    1. It is important to determine what will need to be considered for any automated, or scheduled, jobs. For instance, the Panel Evaluator and Membership scheduled jobs will need to have established setup times in the cut-over plan when ready for go-live, if automation will be needed in the {{% system-name %}} system.
 9. <strong>Email Notifications Driven by Scheduled Job</strong>
-    a.  Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
+    1. Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
 10. [<strong>Panel Action Evaluator</strong>](panel-action-evaluator.md)
-    a.  Clicking the <strong>Panel Action Evaluator</strong> link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
+    1. Clicking the <strong>Panel Action Evaluator</strong> link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
 
 ## Data Migration Workflow Considerations
 

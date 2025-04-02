@@ -1,16 +1,15 @@
 ---
 id: '1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
 title: 'Mass Manual Entry of Respirator Fit Data'
-date: '2025-02-13T20:15:05.527Z'
-version: 75
-lastAuthor: 'bhamm'
+date: '2024-11-13T16:56:04.456Z'
+version: 44
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'respirator-info-chart-tab.md'
-  - 'https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing'
   - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
 source: 'https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 A mass entry screen to manually key in Respirator Fit Test data for charts is available in 09-2024RC and newer.  It is accessible from the E-Chart sidemenu tab.
 
@@ -82,7 +81,7 @@ The Respirator Fit Test record data will also be visible in the Fit Tests Result
 
 Editing or deleting respirator fit test records cannot be done from the manual mass entry method screen.  It must be done individually within the specific accessed patient/employee chart.
 
-There is a separate help guide on the ability to edit or delete respirator fit record data in individual charts using the Resp Info chart tab.  Please see separate guide titled [Respirator Info Chart Tab](respirator-info-chart-tab.md) and also a separate chapter on the below LMS (Learning Management System) course. View a [video](https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing) of the workflow.
+There is a separate help guide on the ability to edit or delete respirator fit record data in individual charts using the Resp Info chart tab.  Please see separate guide titled [Respirator Info Chart Tab](respirator-info-chart-tab.md) and also a separate chapter on the below LMS (Learning Management System) course.
 
 ## Learning Management System
 

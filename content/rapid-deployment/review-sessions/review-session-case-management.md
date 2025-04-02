@@ -36,8 +36,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Agenda
 
@@ -112,9 +111,9 @@ Before the review session, please provide corresponding documentation:
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes
 3. Types of Cases currently being utilized for Case Management
-    a.  Injury/Illness
-    b.  COVID
-    c.  Absence Management (if purchased)
+    1. Injury/Illness
+    2. COVID
+    3. Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
@@ -290,7 +289,7 @@ All clients should review the available reports to determine if any additional r
 # Key Decision Points
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
-    a.  Do Case Managers need to have limited/restricted access?
+    1. Do Case Managers need to have limited/restricted access?
         1. If so, List of all Case Managers needed for restricted access setup
         2. What restricted Chart tabs, print definitions, or documents are needed?
         3. What access is needed for Case Managers?

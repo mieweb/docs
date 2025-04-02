@@ -8,8 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.alternatiff.com/install/reinstall.html'
 source: 'https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The {{% system-name %}} system can efficiently scan and index the paper charts a practice currently has, as well as paper reports that most medical practices continue to receive. Further, {{% system-name %}} facilitates the reception of digital documents sent via HL7 interfaces, or using such standards as LOINC. The AlternaTIFF ActiveX Control and MIEScanner Plug-in must to be installed in order for WebScan, as well as for other features, to function properly.
 
@@ -61,7 +60,7 @@ To reactivate the controls:
 
 1. Navigate to the AlternaTIFF website: http://www.alternatiff.com/install/reinstall.html
 2. The <em>Reactivate AlternaTIFF ActiveX control</em> page will load. This page also provides details on how to reconfigure the AlternaTIFF control, though it is only intended for users of Internet Explorer.
-    a.  Once the page launches, users will see the following prompt:
+    1. Once the page launches, users will see the following prompt:
 
 ![](../alternatiff-activex-control-for-webscan.assets/c93d1514034360cb9ccea1795e85e624.png)
 

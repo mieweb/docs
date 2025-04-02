@@ -1,14 +1,14 @@
 ---
 id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 title: 'Locking Individual or Specific Charts'
-date: '2025-02-17T21:19:54.756Z'
-version: 92
+date: '2025-02-17T21:08:30.890Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTAIDNHR'
 source: 'https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 A user with security can lock patient chart records which then can only be accessed by allowed users. If an individual patient's chart is locked from your view, it will state that in highlight on the E-Chart search screen. If you are allowed to access a locked patient's chart, you will not even see the **Locked** notification since it is not locked to you, the logged in user.
 
@@ -72,7 +72,7 @@ First you need to type in the name of the patient's chart you wish to lock. The 
 
 You can add or remove more staff/users to/from a locked chart at any time by the edit lock links (steps noted on previous page of this help document). Any users who are not allowed to work in a patient's locked chart will see the notification **Locked** on their patient search screen or the error message that they don't have permission to access if trying to get directly into the patient's chart.
 
-Users can still index to a locked patient's chart and search for patients in reports, etc that are locked charts, but it gives the notification of (LOCKED) beside it.
+Users can still index to a locked patient's chart and search for patient's in reports, etc that are locked charts, but it gives the notification of (LOCKED) beside it.
 
 ![](../locking-individual-or-specific-charts.assets/43509a84fbd2f19d980fcf8d69ce4cd0.png)
 

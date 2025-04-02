@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-03-24T16:48:12.284Z'
-version: 4082
-lastAuthor: 'auhrick'
+date: '2025-03-20T19:46:32.898Z'
+version: 4028
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -54,7 +54,7 @@ links:
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ![](../interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
@@ -244,7 +244,6 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * Caraflow
 * Vision
     * Depisteo VT1 (File Bi-directional) - Uses a .ini type file format to send demographic data to the device and then receive the data back PDF of file formats
-    * Despisteo VT1 4K (in progress)
     * Titmus Honeywell V4 - Can do either file export or a bi-directional interface using MS Access or MS SQL Server
     * Titmus i500
 * Vital Signs Monitoring

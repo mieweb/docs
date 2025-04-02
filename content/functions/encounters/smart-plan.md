@@ -11,8 +11,7 @@ links:
   - 'landingpages/goals.md'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 # Smart Plan Quick Lists
 
@@ -24,9 +23,9 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ![](../smart-plan.assets/39d9644826ffbcfe34117e1d43c6e99a.png)
 
-A.  Set Library for entire encounter
-B.  Hide/Show Quick Links
-C.  Set Library for this section only
+1. Set Library for entire encounter
+2. Hide/Show Quick Links
+3. Set Library for this section only
 
 For users on RC202309 and newer, a new feature to copy from Previous Exam has been added to the Smart Plan encounter section toolbar. For more information on this feature see [Copy From Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/) online help documentation.
 
@@ -391,25 +390,25 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/73d6d85faf0c94ee2373d342bb7e9da4.png)
 
-## Edit
+1. ## Edit
 * This selection will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](../smart-plan.assets/f5c315fdbdf5094818e94791aec36570.png)
 
-## Remove from Assessment
+2. ## Remove from Assessment
 
 * Selecting this option will remove the condition from today's assessment.
 * The condition will continue to show on the Quick Lists, however the blue/white checkmark in the Quick List will no longer be illuminated.
 
 ## ![](../smart-plan.assets/3d8380f2da24691590dbe96d4417f3e7.png)
 
-## Remove
+3. ## Remove
 
 * Selecting this option will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or perhaps previously entered in error.
 
 ![](../smart-plan.assets/7260e63c4a0e43c03d27ae19ee8a202c.png)
 
-## Notes
+4. ## Notes
 
 * Selecting this option will call the Notes screen.
 * Users may enter a free text note or utilize pre configured macros and submit.
@@ -434,7 +433,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/59fac1d92f105c8543e971c0624e7f4e.png)
 
-## Add Task
+5. ## Add Task
 
 * Selecting this option will call the Add Task screen.
 * Since a task is generated from the condition and is not a document, the Regarding field in the task will read "doc ID is zero".
@@ -445,7 +444,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/504f2ccba45c24208f35d5626c09c2cb.png)
 
-## Prescribe Med
+6. ## Prescribe Med
 
 * Selecting this option will call the Prescribe Medication screen.
 * Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar)
@@ -476,7 +475,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/9ca947fd1923d6de39e7e9c021b1d424.png)
 
-## Add Order
+7. ## Add Order
 
 * Selecting this option will call the Add Encounter Order screen.
 * Use the order autocomplete to search any order in the database or,
@@ -499,7 +498,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/84e1a87dbed7563a11c2793cc822fc5c.png)
 
-## Move
+8. ## Move
 
 * Users can ‘drag and drop' the Move icon to reorder conditions as they display in order in today's Smart Plan Assessment.
 
@@ -513,7 +512,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/28d8c41413c0c751d49871b7fe28010c.png)
 
-## Requisition
+1. ## Requisition
 * Selecting this option on an order will call the order Requisition screen. An order requisition is typically created for orders that will be performed outside of the system. From here users can create an order to be electronically sent via an interface or printed/faxed from the system.
 * The order item selected will populate the order items list within the Requisition screen. All other orders on the Due list (including any orders selected as part of today's Smart Plan) will populate the Due List Quick List and can quickly be added to the Requisition so that all items are on one order request.
 
@@ -523,7 +522,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/2f3cbbd5f153db5feab7a9b7be532990.png)
 
-## Add to Exam
+2. ## Add to Exam
 
 * "The Lightning Bolt/Add to Exam" option will add this test to the Tests & Procedures section of the encounter.
 * The order item will still display under the condition, but it will display under a green "Today" heading to indicate that it is to be performed today. The order item will indicate "Not complete" in red to the side of the order until the test has been resulted/entered AND the order marked as complete. This is done as a safety precaution to ensure that testing has been completed and for clients utilizing a billing interface to ensure charges are electronically sent to the billing system.
@@ -534,14 +533,14 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/c4e3d4081613cc5b7e3510c96986e676.png)
 
-## Edit
+3. ## Edit
 
 * Selecting this option will generate the Edit Encounter Order screen.
 * Users can update the order status, due date, complete date, visible date, add order comments or change the condition for which this order item was created.
 * In some instances, users may need to task someone else in the clinic if an order is edited. If needed, users can add a task from the Edit Encounter Order screen as well.
 
 ![](../smart-plan.assets/16933d18944e6d7a573947c905ed4717.png)
-## Delete
+4. ## Delete
 
 * Selecting this option will prompt the Remove Encounter Order screen
 * Users will be asked to confirm they wish to remove the order before the action is completed.
@@ -549,7 +548,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ## ![](../smart-plan.assets/ad1fa0e2bb7224e8e4bb66b8d3dfd9d3.png)
 
-## Add Task
+5. ## Add Task
 
 * Selecting this option will call the Add Task screen.
 * Since a task is generated from the Order item and is not a document, the Regarding field in the task will read "doc ID is zero".
@@ -560,7 +559,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/c4d3aa8873bc17aee907417df72e74c3.png)
 
-## Move
+6. ## Move
 * Users can ‘drag and drop' the Move icon to reorder orders as they display in order in today's Smart Plan Assessment.
 
 ![](../smart-plan.assets/46a5871d37def3df2bacfc8434af2a09.png)

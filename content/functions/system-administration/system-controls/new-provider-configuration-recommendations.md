@@ -2,7 +2,7 @@
 id: '1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
 title: 'New Provider Configuration Recommendations'
 date: '2024-07-17T12:49:17.998Z'
-version: 1668
+version: 1621
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,26 +10,25 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique employee chart with a linked user profile, and a unique provider chart. Employee and/or Provider charts and user profiles should NEVER be reused or recycled for any reason.
 
 1. For clients with HR or Demographic feeds, a patient/employee chart and user profile should automatically be created for you. Do not add a new employee chart or user profile manually.
-    a.  If SSO is in place, update the user profile (in access control) created by the feed to include the primary department and security role.  Also update the user profile to link the user to any other department(s). (The bottom half of the user profile screen.) Do not add or attempt to manage a password within the application.
-    b.  If SSO is NOT in place, search for the user profile (in access control) and update the primary department and security role. Create a temporary password, which will expire ‘today', so that when the user logs in, they will be prompted to create their own unique password. Provide the new provider their login and temporary password verbally or send the login and password information in separate emails to the user.
+    1. If SSO is in place, update the user profile (in access control) created by the feed to include the primary department and security role.  Also update the user profile to link the user to any other department(s). (The bottom half of the user profile screen.) Do not add or attempt to manage a password within the application.
+    2. If SSO is NOT in place, search for the user profile (in access control) and update the primary department and security role. Create a temporary password, which will expire ‘today', so that when the user logs in, they will be prompted to create their own unique password. Provide the new provider their login and temporary password verbally or send the login and password information in separate emails to the user.
 2. For clients that do not have an HR or Demographic feed. Create a ‘patient chart', which will then automatically create the user profile within access control.
-    a.  Search for the user profile and update the primary department and security role. Also update the profile to link the user to any other department(s). (The bottom half of the user profile screen.)
-    b.  Create a temporary password, which will expire ‘today', so that when the user logs in, they will be prompted to create their own unique password. Provide the new provider their login and temporary password verbally or send the login and password information in separate emails to the user.
+    1. Search for the user profile and update the primary department and security role. Also update the profile to link the user to any other department(s). (The bottom half of the user profile screen.)
+    2. Create a temporary password, which will expire ‘today', so that when the user logs in, they will be prompted to create their own unique password. Provide the new provider their login and temporary password verbally or send the login and password information in separate emails to the user.
 3. If using ‘Provider Charts', run the "Make Provider Chart For Users" report (Reports>Utilization) to create a provider chart for the prior patient/employee chart in earlier steps.
-    a.  Once the Provider chart is created, complete applicable data in the Provider Chart.
-    b.  Link the provider chart to any applicable Provider Organization (clinic location) Charts.
-    c.  If the new provider is certified to complete DOT Exams, complete the Medical Examiners data in the "Other Data" section of the Provider chart.
-    d.  It is important to keep Provider (P) charts separate from their individual patient/employee chart.
+    1. Once the Provider chart is created, complete applicable data in the Provider Chart.
+    2. Link the provider chart to any applicable Provider Organization (clinic location) Charts.
+    3. If the new provider is certified to complete DOT Exams, complete the Medical Examiners data in the "Other Data" section of the Provider chart.
+    4. It is important to keep Provider (P) charts separate from their individual patient/employee chart.
 4. Send the provider the [ePrescribe Verification](https://drive.google.com/open?id=10aDdq77WTzNfpTWFuyolW59jCmyYdW4GjOO5-K4ui9A) Form to complete
-    a.  Update data collected on the user profile when received.
-    b.  Load provider signature.
-    c.  Submit verification to [Surescripts](https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html).
+    1. Update data collected on the user profile when received.
+    2. Load provider signature.
+    3. Submit verification to [Surescripts](https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html).
 5. Enable EPCS, if applicable.
 6. If provider is an NP, PA: assign overseeing provider, if applicable.
 7. Enroll in MIPS, if applicable.

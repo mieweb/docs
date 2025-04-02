@@ -1,15 +1,15 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-03-12T17:45:02.405Z'
-version: 436
+date: '2025-01-31T16:01:00.856Z'
+version: 426
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 
@@ -91,7 +91,7 @@ To collapse the side chart access, simply click on the icon image near the patie
 
 ![](../working-in-a-visit-encounter.assets/366f7a86aa2b2b890424825e1e5058a2.png)
 
-## Documenting/Capturing Data
+## Typing/Capturing Data
 
 When working in the encounter, the encounter sections are collapsed to provide you a quick summary reference to read and see what is currently captured. To enter in data, simply click on the section itself (section title name bar) and the section will expand to show you the data entry fields. Here is an example where I clicked on the *chief complaint* title bar and it expanded to show me the free text field, radio button selections, add dictation functionality and spell check.
 

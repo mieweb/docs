@@ -7,8 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 
@@ -37,36 +36,36 @@ Here are the available connection options that the RTS editor supports
 ![](../outbound-interface-install-instructions.assets/723100db4503d34d573ec01166f3921f.png)
 
 1. Socket
-    a.  Format: 'socket'|[IP address]|[port]|[SSL flag 1/0]
-    ```
+    1. Format: 'socket'|[IP address]|[port]|[SSL flag 1/0]
+    2. ```
         Example: socket|192.168.2.23|5321|0
         ```
 2. File
-    a.  Format: 'file'|[file directory and name relative to where the datasend binary lives]
-    ```
+    1. Format: 'file'|[file directory and name relative to where the datasend binary lives]
+    2. ```
         Example: file|../testfile.hl7
         ```
 3. Multi-File
-    a.  Format: 'multi_file'|[file directory and beginning of filename to use]
-    ```
+    1. Format: 'multi_file'|[file directory and beginning of filename to use]
+    2. ```
         Example: multi_file|../testmultifile
         ```
 4. SCP
-    a.  Format: 'scp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
+    1. Format: 'scp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
         1. Note username/password are on the RTS entry itself
-    ```
+    2. ```
         Example: scp|192.168.34.27||data/outbound|testfile.dat|
         ```
 5. SFTP
-    a.  Format: 'sftp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
+    1. Format: 'sftp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
         1. Note username/password are on the RTS entry itself
-    ```
+    2. ```
         Example: sftp|192.168.34.27||data/outbound|testfile.dat|
         ```
 6. HTTPS (default)
-    a.  Format: [URL]|[username CGI variable name]|[password CGI variable name]|[message CGI variable name]
+    1. Format: [URL]|[username CGI variable name]|[password CGI variable name]|[message CGI variable name]
         1. Note username/password are on the RTS entry itself
-    ```
+    2. ```
         Example: https://mywebchart.com/omg/webchart.cgi|login_user|login_passwd|message
         ```
 
@@ -77,23 +76,23 @@ Here are the types of outbound messages that can be configured for each RTS endp
 ![](../outbound-interface-install-instructions.assets/92e9971f0032eafe76fe1f520a8a4a8a.png)
 
 1. Is WebChart?
-    a.  For sending messages between 2 Webchart systems
+    1. For sending messages between 2 Webchart systems
 2. Is HAP Server?
-    a.  Specifies that this can be used as a remote chart HAP System endpoint in the ChartTabs editor.
+    1. Specifies that this can be used as a remote chart HAP System endpoint in the ChartTabs editor.
 3. Is HL7 Recipient?
-    a.  For sending HL7 data to a system
+    1. For sending HL7 data to a system
 4. Is Text Export?
-    a.  Specifies that this can be used as a Text Export endpoint in the Send dialog and Auto Routes editor.
+    1. Specifies that this can be used as a Text Export endpoint in the Send dialog and Auto Routes editor.
 5. Is XDS Reg?
-    a.  For sending via XDS.
+    1. For sending via XDS.
 6. Is PIX?
-    a.  Specifies that this is a PIX Manager and is suitable as an endpoint for performing ITI-9 PIX queries.
+    1. Specifies that this is a PIX Manager and is suitable as an endpoint for performing ITI-9 PIX queries.
 7. Is HL7 Orders Outbound?
-    a.  For sending HL7 Orders to a system
+    1. For sending HL7 Orders to a system
 8. Is PDQ?
-    a.  Specifies that this a Patient Demographics Supplier and is suitable as an endpoint for performing ITI-21 PDQ queries.
+    1. Specifies that this a Patient Demographics Supplier and is suitable as an endpoint for performing ITI-21 PDQ queries.
 9. Is OnDemand?
-    a.  Specifies that any outgoing XDR submissions are to be registered as On-Demand documents rather than static documents.
+    1. Specifies that any outgoing XDR submissions are to be registered as On-Demand documents rather than static documents.
 
 ## Auto Routes
 
