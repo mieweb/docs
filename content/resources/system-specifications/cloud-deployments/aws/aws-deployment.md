@@ -1,11 +1,12 @@
 ---
 id: '1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
 title: 'AWS Deployment'
-date: '2025-02-07T18:17:23.956Z'
-version: 90
-lastAuthor: 'dcornewell'
+date: '2023-12-12T15:00:01.807Z'
+version: 73
+lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://www.terraform.io/'
   - 'https://aws.amazon.com/rds/'
   - 'https://aws.amazon.com/ec2/'
   - 'https://aws.amazon.com/elasticache/'
@@ -16,11 +17,11 @@ links:
   - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Deployment Strategy
 
-{{% system-name %}} adopts Terraform for seamless integration across various AWS environments, ensuring consistency in deployment for GovCloud, FedRAMP-compliant setups, and commercial AWS environments. This strategy, backed by AWS-managed services, guarantees high standards of reliability, security, and scalability while meeting stringent compliance requirements.
+{{% system-name %}} adopts Terraform for seamless integration across various AWS environments, ensuring consistency in deployment for GovCloud, FedRAMP-compliant setups, and commercial AWS environments. This strategy, backed by [Terraform](https://www.terraform.io/) automation and AWS-managed services, guarantees high standards of reliability, security, and scalability while meeting stringent compliance requirements.
 
 ## Utilizing AWS Managed Services
 
@@ -33,7 +34,7 @@ wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 
 ## Benefits of AWS Managed Services
 
-RDS streamlines database management tasks, while EC2 instances handle application server workloads. ElastiCache boosts performance by caching stable data, and reducing database round trips. Meanwhile, S3 acts as a reliable repository for storing various document types. This orchestrated use of managed services not only facilitates deployment but also enhances system performance and scalability for {{% system-name %}} operations.
+RDS streamlines database management tasks, while EC2 instances, specifically running Amazon Linux 2, handle application server workloads. ElastiCache boosts performance by caching user preferences, and reducing database round trips. Meanwhile, S3 acts as a reliable repository for storing various document types. This orchestrated use of managed services not only facilitates deployment but also enhances system performance and scalability for {{% system-name %}} operations.
 
 ## RDS
 
@@ -53,7 +54,7 @@ Beyond hosting the {{% system-name %}} application, EC2 instances dynamically sc
 
 ### Operating Systems
 
-The {{% system-name %}} application is engineered to seamlessly operate across a spectrum of operating systems, encompassing various Red Hat variants. Whether it's CentOS 8, Rocky Linux, Red Hat Enterprise Linux, Amazon Linux 2, or similar distributions within these families, the application boasts compatibility across this diverse range. Its design and architecture ensure adaptability and smooth functionality across these operating systems, offering enterprises the flexibility to deploy the application on their preferred platform without compromising performance or reliability.
+The {{% system-name %}} application is engineered to seamlessly operate across a spectrum of operating systems, encompassing various Red Hat and Debian variants. Whether it's CentOS 7, CentOS 8, Rocky Linux, Red Hat Enterprise Linux, Amazon Linux 2, Debian 11, Debian 12, or similar distributions within these families, the application boasts compatibility across this diverse range. Its design and architecture ensure adaptability and smooth functionality across these operating systems, offering enterprises the flexibility to deploy the application on their preferred platform without compromising performance or reliability.
 
 Moreover, the {{% system-name %}} application extends its compatibility to specialized environments such as GovCloud, meeting stringent security requirements like FedRAMP. It seamlessly integrates with [CIS Amazon Linux 2 STIG Benchmark](https://aws.amazon.com/marketplace/pp/prodview-i3vkpa6e3rfk6), ensuring compliance and adherence to the highest security standards mandated for government and federal agencies' cloud deployments.
 

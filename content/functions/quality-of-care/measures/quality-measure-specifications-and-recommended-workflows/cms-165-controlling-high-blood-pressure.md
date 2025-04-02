@@ -11,8 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure'
   - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12'
 source: 'https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 
@@ -116,9 +115,9 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 #### Workflow A
 
 1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
-    a.  Palliative Care
-    b.  Hospice Care
-    c.  Frailty Device Use
+    1. Palliative Care
+    2. Hospice Care
+    3. Frailty Device Use
 
 #### Workflow B
 

@@ -10,8 +10,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
   - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 
@@ -33,21 +32,21 @@ If an observation code is not available, or a new observation needs to be added,
 
 1. From the Observation Codes Manager, click the link in the upper-right corner of the page.
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
-    a.  <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
-    b.  <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
+    1. <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
+    2. <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
         1. Decimal: Any numerical data.
         2. Text: Any non-numerical data, not classified under the alternative choices.
         3. Date/Time: Any date/time observations.
         4. Custom Discrete Values: User-defined data, or options.
         5. Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
-    c.  <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
-    d.  <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
-    e.  <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.
-    f.  <strong>Default Add Unit</strong>: This field is intended for specifying the unit to be used when adding new observations of this type, namely in instances where no unit input is displayed. The specified unit also applies to the Observation Range, as well.
-    g.  <strong>Observation Range</strong>: If the Target Type dropdown is set to <em>Range</em> or <em>Abnormal Range</em>, this field can be used to specify the appropriate range (e.g., 25-50, <17, >=100, etc.), and the Target input field will be ignored. Remember, the units specified in the Default Add Unit field will be considered for the specified Observation Range.
-    h.  <strong>Target</strong>: If the Target Type dropdown is set to <em>Target</em>, users may specify the desired target in the input field (e.g., neg, pos, positive, negative, immune, etc.).
-    i.  <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. To use conditional logic, the appropriate script must be added to the Conditional field of the observation/question.
-    j.  <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script.
+    3. <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
+    4. <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
+    5. <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.
+    6. <strong>Default Add Unit</strong>: This field is intended for specifying the unit to be used when adding new observations of this type, namely in instances where no unit input is displayed. The specified unit also applies to the Observation Range, as well.
+    7. <strong>Observation Range</strong>: If the Target Type dropdown is set to <em>Range</em> or <em>Abnormal Range</em>, this field can be used to specify the appropriate range (e.g., 25-50, <17, >=100, etc.), and the Target input field will be ignored. Remember, the units specified in the Default Add Unit field will be considered for the specified Observation Range.
+    8. <strong>Target</strong>: If the Target Type dropdown is set to <em>Target</em>, users may specify the desired target in the input field (e.g., neg, pos, positive, negative, immune, etc.).
+    9. <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. To use conditional logic, the appropriate script must be added to the Conditional field of the observation/question.
+    10. <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script.
 3. Once all of the appropriate fields have been updated, click the <strong>Save</strong> button to submit all new information.
 
 ## Viewing/Editing Observation Codes

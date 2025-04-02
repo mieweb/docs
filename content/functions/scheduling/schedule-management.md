@@ -2,14 +2,13 @@
 id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 title: 'Schedule Management'
 date: '2023-11-20T16:31:48.935Z'
-version: 199
+version: 197
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/resource-restrictions.md'
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 
@@ -199,13 +198,13 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
 4. With the resource selected, click the <strong>Search</strong> button. This will refresh the page.
 5. The page has four (4) sections:
 
-    a.  <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
+    1. <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-    b.  <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
+    2. <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
 
-    c.  <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+    3. <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
 
-    d.  <strong>Revision History</strong> – A view of all revision histories.
+    4. <strong>Revision History</strong> – A view of all revision histories.
 
 6. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong> and click the <strong>Submit Changes</strong> button to create the restrictions.
 

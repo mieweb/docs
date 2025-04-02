@@ -8,8 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
 
@@ -54,12 +53,12 @@ Following the instructions below, *update* these system settings, if you are on 
 2. Search for the appropriate system setting to be updated.
 3. Once located, click the <strong>Edit</strong> link in the Options column.
 4. Update the security setting by typing the appropriate value in the <strong>Value</strong> field.
-    a.  NMC, Registrations, Set New Patient at Temporary = 1
-    b.  NMC, User Security, Force Security Role = 1
-    c.  NMC, Pages, Client = Applicant
+    1. NMC, Registrations, Set New Patient at Temporary = 1
+    2. NMC, User Security, Force Security Role = 1
+    3. NMC, Pages, Client = Applicant
         1. Assigns <em>Applicant</em> as the layout module.
-    d.  NMC, Signup, Custom Site Realm = Applicant
-    e.  Webchart, Login, New Signups = 1
+    4. NMC, Signup, Custom Site Realm = Applicant
+    5. Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
 
 ## Create APP Partition
@@ -68,18 +67,18 @@ This partition will only need to be configured if you are on a legacy database b
 
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
-    a.  <strong>Partition</strong>:  APP
+    1. <strong>Partition</strong>:  APP
         1. The partition must match the <em>Default on Signup</em> system setting.
-    b.  <strong>WC GUID</strong>:  Blank
-    c.  <strong>Name</strong>:  APP
-    d.  <strong>Description</strong>:  Applicant
-    e.  <strong>MR Sequence</strong>:  Blank
-    f.  <strong>Partition View</strong>:  Auto Increment
-    g.  <strong>Required</strong>:  No
-    h.  <strong>Active Types</strong>:  Active with Doc Queue
-    i.  <strong>Part Order</strong>:  0
-    j.  <strong>Allow Access to Restricted Users</strong>:  Unchecked
-    k.  <strong>Identifier</strong>:  Medical Record Number
+    2. <strong>WC GUID</strong>:  Blank
+    3. <strong>Name</strong>:  APP
+    4. <strong>Description</strong>:  Applicant
+    5. <strong>MR Sequence</strong>:  Blank
+    6. <strong>Partition View</strong>:  Auto Increment
+    7. <strong>Required</strong>:  No
+    8. <strong>Active Types</strong>:  Active with Doc Queue
+    9. <strong>Part Order</strong>:  0
+    10. <strong>Allow Access to Restricted Users</strong>:  Unchecked
+    11. <strong>Identifier</strong>:  Medical Record Number
 
 ## Create Applicant Department
 
@@ -166,18 +165,18 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
 3. Using the <strong>Basic Editor</strong>, create the Applicant Portal chart tab, accordingly:
-    a.  <strong>Tab Name</strong>:  Applicant Portal
-    b.  <strong>Description</strong>:  Blank
-    c.  <strong>Open in new window?</strong>:  No
-    d.  <strong>Default View</strong>:  Dashboard View
-    e.  <strong>Tab Order</strong>:  No Change
-    f.  <strong>Tab Color</strong>:  No Change
-    g.  <strong>Restrict Access</strong>:  Unchecked
-    h.  <strong>Show Tab in Pocket</strong>:  Unchecked
-    i.  <strong>Show Link Header</strong>:  Checked
-    j.  <strong>Chart Type</strong>:  Portal
-    k.  <strong>Force Display</strong>:  Yes
-    l.  <strong>Layout Name</strong>:  Applicant Portal
+    1. <strong>Tab Name</strong>:  Applicant Portal
+    2. <strong>Description</strong>:  Blank
+    3. <strong>Open in new window?</strong>:  No
+    4. <strong>Default View</strong>:  Dashboard View
+    5. <strong>Tab Order</strong>:  No Change
+    6. <strong>Tab Color</strong>:  No Change
+    7. <strong>Restrict Access</strong>:  Unchecked
+    8. <strong>Show Tab in Pocket</strong>:  Unchecked
+    9. <strong>Show Link Header</strong>:  Checked
+    10. <strong>Chart Type</strong>:  Portal
+    11. <strong>Force Display</strong>:  Yes
+    12. <strong>Layout Name</strong>:  Applicant Portal
 4. Click the <strong>Save</strong> button, when finished.
 
 ## Add Applicant Portal Questionnaires

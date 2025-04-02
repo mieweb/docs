@@ -1,8 +1,8 @@
 ---
 id: '1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
 title: 'Visit Orders'
-date: '2025-03-05T14:47:19.268Z'
-version: 186
+date: '2025-03-05T14:44:18.127Z'
+version: 179
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - '../../../rapid-deployment/review-sessions/review-session-order-and-result-management.md'
   - 'https://mie.talentlms.com/unit/view/id:2280'
 source: 'https://drive.google.com/open?id=1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 The Visit Orders encounter section provides the necessary tools for ordering, customizing, delivering, and tracking orders and order requests. Through computerized provider order entry (CPOE), the system streamlines the processes involved in order management. In general, order requests can be created from the encounter via various encounter sections (Visit Orders section being one of them) or from the chart.
 
@@ -43,7 +43,7 @@ Then within the Visit Order section (after your selected order items are applied
 
 NOTE: This method inserts the order item(s) as individual order items within the Visit Orders encounter section.  Therefore, those individual orders would be their own individual order requisition(s) when/if made into an order requisition to be referred out.  Using this method does not allow order items to be combined into one order requisition.  If need to make an order requisition for multiple items on one requisition form, please scroll back up to the Tests & Procedures encounter section to generate from there.
 
-#### Protocol Orders
+#### Protocol Visit Orders
 
 The Visit Orders section can have specific protocol orders available that store specific orderable items in a Protocol Orders picklist (with its own section in the Protocol Orders picklist) named what the protocol is. Once a protocol is selected in Chief Complaint, any matching Protocol Orders will display here in Visit Orders in section expanded view or in right side quicklist view.
 

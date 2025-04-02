@@ -1,9 +1,9 @@
 ---
 id: '14rgDcHuSlVd0894l6uZzFDeANZazXViU6NnquoPmjno'
 title: 'RWT Results 2024 Q2'
-date: '2025-01-29T14:37:38.629Z'
-version: 232
-lastAuthor: 'nwallace'
+date: '2024-10-24T18:17:56.702Z'
+version: 217
+lastAuthor: 'pepperson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -29,7 +29,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
 source: 'https://drive.google.com/open?id=14rgDcHuSlVd0894l6uZzFDeANZazXViU6NnquoPmjno'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## General Information
 
@@ -2353,40 +2353,6 @@ IN1|2|3|2|AARP|601 E Street NW^^Washington^DC||||||Retired|19790101|||AARP|Hart^
 
 
 Demographic Updates
-
-MSH|^~\&|WEBCHART|TESTONC^1231231234^NPI|||20230202091500||ADT^A08^ADT_A08|DSD16753473000|P|2.5.1|||AL|AL|||||PH_SS-Ack^SS Sender^2.16.840.1.114222.4.10.3^ISO
-
-EVN||20230202091500|||||TESTONC^1231231234^NPI
-
-PID|1||10019^^^MIE&Globally Expose This!&ISO^MR||~^^^^^^S|||M||2106-3^White^CDCREC|2300 Commonwealth Avenue^^Fort Wayne^IN^46804^US^^^Allen|||||||||||2186-5^Not Hispanic or Latino^CDCREC||||||||
-
-PV1|1|E|^^^TESTONC||||8^Selenium^Selenium||||||||||||197^^^WebChart Testing System&197&GUID^VN|||||||||||||||||||||||||20220306091500||||||||
-
-PV2|||^It hurts||||||||||||||||||||||||||||||||||
-
-OBX|1|CWE|SS003^FACILITY / VISIT TYPE^PHINQUESTION||261QU0200X^Urgent Care^HCPTNUCC^^^^^^OFFICE||||||F|||20220306|||||||||||
-
-OBX|2|NM|21612-7^Age at Time Patient Reported^LN||67|a^YEAR^UCUM|||||F|||20220306|||||||||||
-
-OBX|3|TX|8661-1^CHIEF COMPLAINT:FIND:PT:PATIENT:NOM:REPORTED^LN||It hurts||||||F|||20220306|||||||||||
-
-OBX|4|NM|8302-2^Height^LN||71|[in_us]^inch^UCUM|||||F||||||||||||||
-
-OBX|5|NM|3141-9^Weight^LN||190|[lb_av]^pound^UCUM|||||F||||||||||||||
-
-OBX|6|CWE|72166-2^Tobacco Smoking Status^LN||^Former Smoker^SCT||||||F|||20220306|||||||||||
-
-DG1|1||I48.91^Atrial fibrillation^10|||F|||||||||||||
-
-DG1|2||I50.814^CHF - Congestive heart failure^10|||F|||||||||||||
-
-DG1|3||I10^Hypertension^10|||F|||||||||||||
-
-IN1|1|2|MCARE|Medicare |^^^AL||||||Retired|19801101|||Medicare |Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||111-11-1111-B|||||||M||||||
-
-IN1|2|3|2|AARP|601 E Street NW^^Washington^DC||||||Retired|19790101|||AARP|Hart^William^S.|Self|19541130|2300 Commonwealth Avenue^^Fort Wayne^IN^46804|||||||||||||||||A0652915|||||||M||||||
-
-
 
 #### Discussion
 

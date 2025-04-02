@@ -1,15 +1,15 @@
 ---
 id: '1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
 title: 'Depart Instructions'
-date: '2025-02-12T19:51:38.053Z'
-version: 58
+date: '2025-02-12T19:47:38.869Z'
+version: 41
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/macros.md'
   - '../encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Depart Instructions encounter section is available to document depart instructions to the patient within an encounter.  Depart Instructions encounter section utilizes flowsheet configuration functionality.
 
@@ -25,7 +25,7 @@ Macros offered in the Depart Summary encounter section are a way to quickly inse
 
 ![](../depart-instructions.assets/4dc65dc384b5f7ea406311fcf41f0859.png)
 
-For additional information on configuring and utilizing macros that can be utilized within the Depart Instructions encounter section, please see separate guide [Macros](../../system-configuration/macros.md#properties-of-a-macro).
+For additional information on configuring and utilizing macros that can be utilized within the Depart Instructions encounter section, please see separate guide [Macros](../../system-configuration/macros.md#_45767orgf0xd).
 
 ## Chief Complaint Protocol
 

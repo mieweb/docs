@@ -11,8 +11,7 @@ links:
   - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
   - 'https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information'
 source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Overview
 
@@ -121,8 +120,8 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 3. Click Add to Exam
 4. Open the Depression Screening section
 5. Complete the questions
-    a.  Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
-    b.  If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
+    1. Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
+    2. If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
 6. Close the section
 7. If the Depression Screening indicates the patient is positive for depression, the appropriate follow-up should be recorded
 * Order the appropriate follow-up items(s) for the patient as selected in the Depression Screening
@@ -142,8 +141,8 @@ OR
 3. Click Add to Exam
 4. Open the Depression Screening section
 5. Complete the questions
-    a.  Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
-    b.  If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
+    1. Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
+    2. If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
 6. Close the section
 7. If the Depression Screening indicates the patient is positive for depression, the appropriate follow-up should be recorded
 

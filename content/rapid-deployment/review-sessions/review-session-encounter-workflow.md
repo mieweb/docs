@@ -49,8 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
-markup: 'pandoc'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## Agenda
 
@@ -317,14 +316,14 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 **System Configuration/Key Decision Points**
 
 1. What encounter types need to be configured?
-    a.  What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-    b.  Which encounter types need to be tied to the appointment types?
-    c.  What should the encounter be archived as?
+    1. What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+    2. Which encounter types need to be tied to the appointment types?
+    3. What should the encounter be archived as?
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-    a.  Which protocols will drive the flowsheets?
-    b.  What area within the encounter will that flowsheet belong to?
+    1. Which protocols will drive the flowsheets?
+    2. What area within the encounter will that flowsheet belong to?
 5. What in-house testing can be performed?
 6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
 7. Need list/address of vendors commonly refer to

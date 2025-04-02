@@ -1,15 +1,15 @@
 ---
 id: '1BiAg3NNKItfczDawRTAiRmzjL7LyiE3AKSdrfQLTXR0'
 title: 'Creating and adding accounts to employer organizations'
-date: '2025-01-31T15:53:11.791Z'
-version: 38
-lastAuthor: 'auhrick'
+date: '2021-02-18T16:05:37.475Z'
+version: 32
+lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'editing-employer-organization-accounts.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1BiAg3NNKItfczDawRTAiRmzjL7LyiE3AKSdrfQLTXR0'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 Add accounts like checking accounts against which to record credits and debits or an insurance account against which to charge some costs, such as worker's compensation.
 
@@ -17,7 +17,7 @@ Accounts added to an employer organization are not available to sub-employer org
 
 When creating an account, only the account name is required. The account can be [edited](editing-employer-organization-accounts.md) later and other information added.
 
-1. [Navigate to the employer organization](finding-employer-organizations.md) to which to add an account.
+1. [Find the employer organization](finding-employer-organizations.md) to which to add an account.
 2. In the <em>Accounts</em> section, select <strong>Add New Account</strong>. The <em>Enter information</em> section appears.
 
     ![](../creating-and-adding-accounts-to-employer-organizations.assets/68025a150656a884f40e3c2ea1afca51.png)

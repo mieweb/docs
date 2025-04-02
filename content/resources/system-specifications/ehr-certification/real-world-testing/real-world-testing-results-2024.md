@@ -1,9 +1,9 @@
 ---
 id: '1lNl-P7EYEJTn7iH37TRc29k0_WeJRDk_A1_VIUkMUYE'
 title: 'Real World Testing Results 2024'
-date: '2025-02-03T14:46:32.306Z'
-version: 576
-lastAuthor: 'nwelsh'
+date: '2025-01-31T22:19:30.486Z'
+version: 530
+lastAuthor: 'nrichardson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -29,7 +29,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
 source: 'https://drive.google.com/open?id=1lNl-P7EYEJTn7iH37TRc29k0_WeJRDk_A1_VIUkMUYE'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
 ---
 ## General Information
 
@@ -543,7 +543,6 @@ wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
 Throughout 2024, we generally found a reduction of errors and misuse of modules when compared to 2023.  The testing of e-Prescribing functionality, CCDA creation, data export, and documentation availability were particularly successful in production environments with real patient data.  Conversely, many of WebChart EHR's certified capabilities are still heavily underutilized by clients, especially use of the FHIR API, Direct Messaging, and special use of CDAs (care plan, security tags).  These APIs present challenges for real world testing since test patients and environments, despite mirroring production systems, do not truly represent the end-user interoperability experience.  Due to the development priority of supporting (b)(11) and certifying additional eCQMs, improving the robustness of the testing infrastructure did not receive the development attention as planned; however, MIE remains dedicated to both improving the testing infrastructure as well as continuing to educate clients regarding these features that are available and valuable to their practice.
-
 ## Measures Used in Overall Approach
 
 The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
@@ -686,7 +685,6 @@ MIE will install an instance of Cypress 7+ on our production servers following a
 <td>0</td>
 </tr>
 </table>
-
 #### Discussion
 
 The upgrade to Cypress 7.3.1 introduced a few errors to our QRDA-I testing; however, all of these errors were resolved before reaching production systems.
@@ -768,127 +766,127 @@ The report will also include a count of outbound messages unable to be transmitt
 <tr>
 <td>NewRx</td>
 <td>37518</td>
-<td>128003</td>
+<td></td>
 <td>31501</td>
 <td>37518</td>
 <td>9159</td>
-<td>243699</td>
+<td></td>
 </tr>
 <tr>
 <td>RxChangeRequest</td>
 <td>2</td>
-<td>3529</td>
+<td></td>
 <td>1004</td>
 <td>2</td>
 <td>0</td>
-<td>4537</td>
+<td></td>
 </tr>
 <tr>
 <td>RxChangeResponse</td>
 <td>0</td>
-<td>3392</td>
+<td></td>
 <td>1012</td>
 <td>0</td>
 <td>0</td>
-<td>4404</td>
+<td></td>
 </tr>
 <tr>
 <td>CancelRx</td>
 <td>29</td>
-<td>85</td>
+<td></td>
 <td>6</td>
 <td>29</td>
 <td>3</td>
-<td>152</td>
+<td></td>
 </tr>
 <tr>
 <td>CancelRxReponse</td>
 <td>23</td>
-<td>76</td>
+<td></td>
 <td>6</td>
 <td>23</td>
 <td>3</td>
-<td>131</td>
+<td></td>
 </tr>
 <tr>
 <td>RxRenewalRequest</td>
 <td>12610</td>
-<td>50034</td>
+<td></td>
 <td>6488</td>
 <td>12610</td>
 <td>0</td>
-<td>81742</td>
+<td></td>
 </tr>
 <tr>
 <td>RxRenewalResponse</td>
 <td>12642</td>
-<td>52920</td>
+<td></td>
 <td>6486</td>
 <td>12642</td>
 <td>0</td>
-<td>84690</td>
+<td></td>
 </tr>
 <tr>
 <td>RxFill</td>
 <td>0</td>
-<td>3</td>
+<td></td>
 <td>1931</td>
 <td>0</td>
 <td>0</td>
-<td>1934</td>
+<td></td>
 </tr>
 <tr>
 <td>RxHistoryRequest</td>
 <td>3</td>
-<td>0</td>
+<td></td>
 <td>4</td>
 <td>3</td>
 <td>0</td>
-<td>10</td>
+<td></td>
 </tr>
 <tr>
 <td>RxHistoryResponse</td>
 <td>3</td>
-<td>0</td>
+<td></td>
 <td>2</td>
 <td>3</td>
 <td>0</td>
-<td>8</td>
+<td></td>
 </tr>
 <tr>
 <td>Status</td>
 <td>102068</td>
-<td>386966</td>
+<td></td>
 <td>80410</td>
 <td>102068</td>
 <td>16950</td>
-<td>688462</td>
+<td></td>
 </tr>
 <tr>
 <td>Error</td>
 <td>465</td>
-<td>5455</td>
+<td></td>
 <td>322</td>
 <td>465</td>
 <td>30</td>
-<td>6737</td>
+<td></td>
 </tr>
 <tr>
 <td>Verify</td>
 <td>39604</td>
-<td>147987</td>
+<td></td>
 <td>32112</td>
 <td>39604</td>
 <td>7818</td>
-<td>267125</td>
+<td></td>
 </tr>
 </table>
 
-Total error rate: 6737 / 1383631 * 100 = 0.487%
+Total error rate: 1149 / 608891 * 100 = 0.19%
 
 #### Discussion
 
-As expected, all supported message types have a greater than zero total message count, and the total number of messages far exceeds the number of errored messages with a total error rate of 0.487%.  This is a marked increase in error rate from 0.22% in 2023 to 0.487% in 2024.  Additionally, the number of NewRx messages is significantly greater than the number of RxChangeResponse, CancelRx, and RxRenewalResponse messages.
+Discussion
 
 ### Measure 4: E-Prescribing Diagnosis Codes
 
@@ -925,16 +923,16 @@ MIE will report the contents of each stored message in a client's local database
 <td><strong>NewRx Messages with Diagnosis Included</strong></td>
 </tr>
 <tr>
-<td>37518+128003+31501+37518+9159 = 243699</td>
-<td>1094+110148+23115+1094+8831 = 144282</td>
+<td>37518+x+31501+37518+9159 =</td>
+<td>1094+110148+23115+1094+8831 =</td>
 </tr>
 </table>
 
-Total rate of diagnosis use: 144282 / 243699 * 100 = 59.20%
+Total rate of diagnosis use: 39813 / 130786 * 100 = 30.44%
 
 #### Discussion
 
-Since the Diagnosis elements are not a required component of a NewRx message, as anticipated, only a subset (59.2%) of the NewRx messages included a diagnosis. The rate of NewRx messages with a diagnosis included increased dramatically from 32.6% in 2023 to 59.2% in 2024 showing an increasing rate of using the diagnosis element.  Most clients appear to heavily use the diagnosis element, with only one tested client rarely including a diagnosis and therefore reducing the overall usage rate.  Additional client education will be provided in 2025 to further increase usage.
+Discussion
 
 ### Measure 5: E-Prescribing Oral Liquid Units
 
@@ -974,50 +972,50 @@ MIE will create a system report that examines the contents of each stored NewRx 
 <tr>
 <td>C28254</td>
 <td>Milliliter (ml)</td>
-<td>13102</td>
+<td>395+7746+114+402+4445</td>
 </tr>
 <tr>
 <td>C48155</td>
 <td>Gram (g)</td>
-<td>7</td>
+<td>3+1+0+3+0</td>
 </tr>
 <tr>
 <td>C48477</td>
 <td>Bottle</td>
-<td>0</td>
+<td>0+x+0+0+0</td>
 </tr>
 <tr>
 <td>C48480</td>
 <td>Capsule</td>
-<td>2</td>
+<td>1+x+0+1+0</td>
 </tr>
 <tr>
 <td>C48521</td>
 <td>Packet</td>
-<td>0</td>
+<td>0+x+0+0+0</td>
 </tr>
 <tr>
 <td>C48542</td>
 <td>Tablet</td>
-<td>14</td>
+<td>7+x+0+7+0</td>
 </tr>
 <tr>
 <td>C64933</td>
 <td>Each</td>
-<td>9</td>
+<td>2+5+0+2+0</td>
 </tr>
 <tr>
 <td>C48504</td>
 <td>Kit</td>
-<td>0</td>
+<td>0+x+0+0+0</td>
 </tr>
 </table>
 
-Total rate of incorrect units: 32 / 13134 * 100 = 0.24%
+Total rate of incorrect units: 7 / 4112 * 100 = 0.17%
 
 #### Discussion
 
-As expected, C28254 (milliliters) is the most commonly sent unit of measure for oral liquid medications.  Non-C28254 units were only sent in 0.24% of oral liquid medication messages in 2024 which is holding steady with rates seen in previous years.
+Discussion
 
 ### Measure 6: E-Prescribing Decimal Format
 
@@ -1054,16 +1052,16 @@ MIE will create a system report that examines the contents of each stored NewRx 
 <td><strong>NewRx Messages with Improper Decimal Format</strong></td>
 </tr>
 <tr>
-<td>37518+128003+31501+37518+9159 = 243699</td>
-<td>16+1402+13+16+55 = 1502</td>
+<td>37518+x+31501+37518+9159 =</td>
+<td>16+1402+13+16+55</td>
 </tr>
 </table>
 
-Total rate of improper decimals: 1502 / 243699 * 100 = 0.62%
+Total rate of improper decimals: 695 / 130786 * 100 = 0.53%
 
 #### Discussion
 
-As expected, the number of NewRx messages sent with inappropriate trailing zeros, or missing leading zeros, occurs rarely in only 0.62% of messages; however, this is again an increase from previous years.  Both technical and training options will be investigated to reduce the incidence of improper decimal formats in 2025.
+Discussion
 
 ### Measure 7: CDA Download
 
@@ -1199,7 +1197,9 @@ Webchart EHR should be able to reconcile CCDA data for medications, allergies, a
 
 #### Test Methodology
 
-MIE will report on the number of CDA formatted documents reconciled via our reconciliation process.  Following each reconcile, if a temporary CDA for the chart is created as part of the process, it will be validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported.
+MIE will report on the number of CDA formatted documents reconciled via our reconciliation process.
+
+Following each reconcile, if a temporary CDA for the chart is created as part of the process, it will be validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported.
 
 #### Results
 
@@ -1218,7 +1218,9 @@ MIE will report on the number of CDA formatted documents reconciled via our reco
 
 #### Discussion
 
-While CCDA validation was low in 2024, we expect validation and document creation to increase in 2025, as we plan to migrate HTML output files and CCDA files into a single document. The CCDAs that were marked invalid have been investigated.  Most were because of missing data within the system at the time of creation, but in all cases, we have improved generation of CCDAs no matter if data exists or not in certain sections, so they can pass in all situations.
+While CCDA validation was low in 2024, we expect validation and document creation to increase in 2025, as we plan to migrate HTML output files and CCDA files into a single document. 
+
+The CCDAs that were marked invalid have been investigated.  Most were because of missing data within the system at the time of creation, but in all cases, we have improved generation of CCDAs no matter if data exists or not in certain sections, so they can pass in all situations.
 
 ### Measure 10: Transmission to Immunization Registry: Create Content
 
@@ -1413,6 +1415,7 @@ MIE will report from logs the number of messages transmitted to the HISP.  MIE w
 #### Discussion
 
 Direct Project messages received by our HISP were successfully delivered to the recipients in 99.8% of cases.
+
 ### Measure 14: Patient Portal View
 
 #### Description
@@ -1769,6 +1772,7 @@ All API requests made in production systems are recorded in log files.  The numb
 #### Discussion
 
 Five total production API exports occurred in 2024.  Three of these exports produced CSV files and two produced PDF files for patient charts. All exports had an initial failure rate of <1%. These initial export errors were rerun error-free and 100% of data was delivered as expected.
+
 ### Measure 21: Web Content Accessibility
 
 #### Description
@@ -1967,7 +1971,9 @@ We will report on the number of encounters with Care Plan information, and the n
 
 #### Results
 
-On a quarterly basis, CDA Care Plan information was entered on test patients in properly configured live WebChart EHR systems.  CCDA documents were then generated for those patients. Additionally, 206 CCDA Care Plan documents were created for live patients; however, these documents did not include all four care plan sections.
+On a quarterly basis, CDA Care Plan information was entered on test patients in properly configured live WebChart EHR systems.  CCDA documents were then generated for those patients.
+
+Additionally, 206 CCDA Care Plan documents were created for live patients; however, these documents did not include all four care plan sections.
 
 <table>
 <tr>
@@ -2111,7 +2117,7 @@ WebChart EHR per certification requirements must be able to receive CCDA Documen
 
 #### Test Methodology
 
-We will have automated tests that run at minimum weekly to test that the software is still able to receive and display generated CCDAs with Security Tags.
+We will have automated tests that run at minimum weekly to test that the software is still able to receive and display generate CCDAs with Security Tags.
 
 From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently. If we determine that we are seeing usage of the security tagging within Production systems, we will report:
 
@@ -2178,7 +2184,6 @@ Beginning in Q3, weekly testing of the FHIR Sandbox using Inferno was conducted 
 #### Discussion
 
 When the test server was available for connection to the FHIR Sandbox, FHIR Inferno testing was successful. MIE plans to both continue with weekly testing beginning from 01/01/2025 and work with clients to robustly test real world scenarios throughout all of 2025.
-
 ### Measure 30: FHIR Patient Scope
 
 #### Description
@@ -2216,7 +2221,6 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 #### Justification
 
 WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2024 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
-
 #### Test Methodology
 
 MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world patient data since we cannot estimate failures due to patients correctly being denied access.
@@ -2335,6 +2339,7 @@ We have automated tests that perform the scenarios to register a patient, admit 
 #### Discussion
 
 Automated ADT tests run nightly to generate each of the four HL7 message types.  As expected, these tests were successful in all cases.  Since there are no live clients actively participating in syndromic surveillance, we will focus on client education and adoption in 2025.
+
 ## Schedule of Key Milestones
 
 <table>
