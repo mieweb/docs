@@ -8,7 +8,8 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/interface-specifications.md'
 source: 'https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -29,10 +30,10 @@ To retrieve results for multiple patients:
 7. Select the Location where the tests were performed
 8. Click the Upload button
 9. Verify the expected patients were found and click the Upload button.
-    1. If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-    2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
-    3. Click the information icon (?) to see all the details of a test.
-    4. If no tests should be uploaded, close the new window; nothing is saved.
+    a.  If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
+    b.  If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    c.  Click the information icon (?) to see all the details of a test.
+    d.  If no tests should be uploaded, close the new window; nothing is saved.
 
 ## Collected Fields
 

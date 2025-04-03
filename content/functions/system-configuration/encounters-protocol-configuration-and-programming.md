@@ -1,15 +1,15 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2024-07-11T19:21:55.646Z'
-version: 224
-lastAuthor: 'janderson'
+date: '2025-03-05T14:41:46.122Z'
+version: 242
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observation-flowsheets.md'
   - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 *This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 
@@ -341,13 +341,15 @@ Here is an example of what the Visit Orders quick pick medication list would sho
 
 ### Specific Protocol Visit Orders Picklist
 
-Specific order items to select from can also be programmed in a picklist titled the same as the protocol name choices. When a protocol is selected up in chief complaint, in the Visit Orders section, a specific picklist of orderable items can be found (if previously programmed to that protocol) and you can select the hyperlink Make (protocol name) Order.
+The Visit Orders section can have specific protocol orders available that store specific orderable items in a Protocol Orders picklist (with its own group section in the Protocol Orders picklist) named what the protocol is. Once a protocol is selected in Chief Complaint, any matching Protocol Orders will display here in Visit Orders in section expanded view or in right side quicklist view.
 
-![](../encounters-protocol-configuration-and-programming.assets/acb27248d5e07884c90cd357cf3ac485.png)
+Simply go to Control, then to Orders-PickList and create a new order set named Protocol Orders and add a group named exactly the chief complaint protocol name.
 
-This will open up the Order Request screen and displays the selectable order items according to that protocol picklist that was programmed. You can create an order to sent out using this method and also you only see specific order items that are related to the protocol you selected on the encounter for easiness.
+Then you add the specific order item contents that would relate to that protocol group. Order items one would possibly order for that protocol event.
 
-![](../encounters-protocol-configuration-and-programming.assets/2afb1be62557d41ec714e17ba485dc7f.png)
+![](../encounters-protocol-configuration-and-programming.assets/ce7cf2679afb5a827ab01ff23c74aff1.png)
+
+Doing that programming will then make Protocol Order selections appear in the Visit Orders section (expanded method or right side quicklist method) for the matching protocol preselected up in Chief Complaint of the encounter.
 
 ## Treatments Section
 

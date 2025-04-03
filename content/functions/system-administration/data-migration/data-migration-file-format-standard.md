@@ -7,7 +7,8 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.
 
@@ -92,7 +93,7 @@ The following steps are used to export an Access table as a Unicode CSV file:
 2. Click the <strong>External Data</strong> tab.
 3. In the <strong>Exports</strong> section, click <strong>Text File</strong>.
 4. In the export wizard, enter the file name.
-    1. Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
+    a.  Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
 5. Click <strong>OK</strong>.
 6. Select <strong>Delimited</strong>.
 7. Click <strong>Next</strong>.

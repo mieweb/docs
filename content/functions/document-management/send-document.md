@@ -8,7 +8,8 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SLERKMFP'
 source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 Send Document
 
@@ -19,13 +20,13 @@ Users are able to send a document to specific recipients.
 Depending on the recipient of the document and what their email address is, we have the following pathways:
 
 1. If the recipient's email domain is "white listed" (System setting "Whitelist Domains"), then we attach the document to an email.
-    1. User permission "Securely Email Documents" is required for this to work.
+    a.  User permission "Securely Email Documents" is required for this to work.
 2. Otherwise, the system creates a new "Received Document" document and adds it on the recipient's chart
-    1. A "Received Document" will have doc_type WCRECVDOC
-    2. The newly created document will be linked to the original one using the document_links database table
-    3. It will have storage type 33
-    4. Column to_doc_id value will be the original document doc_id
-    5. The document type should be added on the "Message Center" chart tab of the portal chart(s)
+    a.  A "Received Document" will have doc_type WCRECVDOC
+    b.  The newly created document will be linked to the original one using the document_links database table
+    c.  It will have storage type 33
+    d.  Column to_doc_id value will be the original document doc_id
+    e.  The document type should be added on the "Message Center" chart tab of the portal chart(s)
 
 Users are also able to select an "Employer" and perform the above actions on the related contacts.  Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section.  These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
 
@@ -33,12 +34,12 @@ Users are also able to select an "Employer" and perform the above actions on the
 ## Setup involved
 
 1. User Permissions
-    1. "Securely Email Documents" - This is used when send documents as attachments
+    a.  "Securely Email Documents" - This is used when send documents as attachments
 2. System Settings
-    1. "Whitelist Domains" - Used to determine if we should email a document or create a "Received Document"
-    2. "Default Portal" - This is used when we try to send activation codes to users, so that they can get access to the system
+    a.  "Whitelist Domains" - Used to determine if we should email a document or create a "Received Document"
+    b.  "Default Portal" - This is used when we try to send activation codes to users, so that they can get access to the system
 3. Other Configuration
-    1. "Portal Setup" chart tab - "Enable Activation Code Redemption"
+    a.  "Portal Setup" chart tab - "Enable Activation Code Redemption"
 
 ![](../send-document.assets/f744157ad09a5ccd8e3615ca0c6e7caa.png)
 
@@ -59,11 +60,11 @@ The "Send Document" window will pop up:
 ![](../send-document.assets/97cbc65ecaab9151c9dbc0403b60675a.png)
 
 1. "Subject" will be what is used on the email subject or the new received document.
-    1. Users are able to customize it
-    2. Number in the current value represents the document doc_id that the user is trying to send
+    a.  Users are able to customize it
+    b.  Number in the current value represents the document doc_id that the user is trying to send
 2. "From" will be the "From Address" on emails
 3. "Recipient" is an autocomplete input for all chart that have one of the "Contact" or "Provider" chart types
-    1. Users are able to create a new contact if needed
+    a.  Users are able to create a new contact if needed
 4. "Employer" is an autocomplete input for all Employer Organizations
 
 ### Add new Contact

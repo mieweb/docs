@@ -1,13 +1,14 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Employer Portal Setup'
-date: '2025-01-22T16:20:22.685Z'
-version: 370
-lastAuthor: 'janderson'
+date: '2025-02-20T21:00:28.660Z'
+version: 451
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 {{% system-name %}} offers various portal options, depending on the needs of the client. The **Employer Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs.
 
@@ -28,7 +29,7 @@ Again, before configuring the Employer Portal, it must be enabled within the sys
     ![](../employer-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
-7. With the portal setup completed, navigate to the <em>Employer Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.
+7. With the Employee Portal setup completed, navigate to the <em>Employer Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.
 
     ![](../employer-portal-setup.assets/912806c78f3c4942295109fde265a732.png)
 
@@ -85,28 +86,34 @@ The expanded Select Module section allows for configuration of each module, if n
 
 1. Clicking on the <strong>Select Modules</strong> header will open a window with all of the default-enabled modules of the Employer Portal checked. Add or remove modules, as needed, and click the <strong>Save</strong> button.
 
-![](../employer-portal-setup.assets/4370bebfed6eea84d2ee0fa0601c4b7e.png)
+![](../employer-portal-setup.assets/86e2f7eeb4c04afdb176c19e6f1601a8.png)
 
-2. There are ten (15) modules that can be selected within the Employer Portal, as well as the ability to link to questionnaires/forms, as needed:
-    1. <strong>Case Review Status</strong>
-    2. <strong>EJTA</strong>
-    3. <strong>Forms</strong>
-    4. <strong>Health Surveillance</strong>
-    5. <strong>Layouts</strong>
-    6. <strong>Order Status</strong>
-    7. <strong>Orders</strong>
-    8. <strong>Questionnaires</strong>
-    9. <strong>Reports</strong>
-    10. <strong>Schedule Appointments</strong>
-    11. <strong>Send a Message</strong>
-    12. <strong>Supervisor Other Health Resources</strong>
-    13. <strong>Supervisor Scheduling</strong>
-    14. <strong>Support</strong>
-    15. <strong>Work Status</strong>
+2. There are twenty-one (21) modules that can be selected within the Employer Portal.
+    a.  <strong>Case Review Status</strong>
+    b.  <strong>EJTA</strong>
+    c.  <strong>Form Link 1</strong>
+    d.  <strong>Form Link 2</strong>
+    e.  <strong>Form Link 3</strong>
+    f.  <strong>Health Surveillance</strong>
+    g.  <strong>Layout Link 1</strong>
+    h.  <strong>Layout Link 2</strong>
+    i.  <strong>Layout Link 3</strong>
+    j.  <strong>Order Status</strong>
+    k.  <strong>Orders</strong>
+    l.  <strong>Questionnaire Link 1</strong>
+    m.  <strong>Questionnaire Link 2</strong>
+    n.  <strong>Questionnaire Link 3</strong>
+    o.  <strong>Reports</strong>
+    p.  <strong>Schedule Appointments</strong>
+    q.  <strong>Send a Message</strong>
+    r.  <strong>Supervisor Other Health Resources</strong>
+    s.  <strong>Supervisor Scheduling</strong>
+    t.  <strong>Support</strong>
+    u.  <strong>Work Status</strong>
 3. All of the module names can be edited or renamed using the <strong>Custom Module Name</strong> field, under each section heading.
 
 {{% info %}}
-Below is a list of all of the modules *which allow more than simply a module name change*, along with their available configurations (i.e., EJTA, Reports, and Send a Message.
+Below is a list of all of the modules *which allow more than simply a module name change*, along with their available configurations (i.e., EJTA, Reports, and Send a Message.)
 {{% /info %}}
 
 #### Employee Job Task Analysis (EJTA)
@@ -125,18 +132,24 @@ The Reports module
 2. <strong>Instruction text</strong>: This field may be used to supply optional instructions for utilizing the Employer Reports page.
 3. <strong>Available reports</strong>: Use the selector to choose all reports to be displayed on the Reports page. Reports with the Employer Portal Report category will display in the list for selection.
 
-#### Schedule Appointments
+#### Schedule Appointments (supported for databases on release 202503 and newer)
 
 The *Schedule Appointments* module can be updated to allow certain functionality, as well as to display warnings or specified text, as needed.
 
 **Custom Module Name**: The name defaults to *Schedule Appointments*. Customize up to 60 characters.
 
-**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Provider Organization chart. Appointment types that are available for selection are managed from the {{% syslink "Appt Types" "func=scheduler&s=apttypes" %}} chart tab of the {{% syslink "Scheduler" "func=scheduler%23Now" %}} . Selecting **Available For Portal** on the respective appointment type indicates that the appointment type will be made available within the portal. Not selecting this option indicates that the appointment type linked to the schedule will NOT be available within the portal.
+**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Employer Organization chart. Appointment types that are available for selection are managed from the appointment *Schedules* tab in the *Scheduling* module.
 
 **Request an Appointment**: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's *My Appointments* page.
 
 {{% note %}}
-To use this feature, a *Request an Appointment* message type must be enabled.
+System Administrators can select either ‘Schedule an Appointment' or ‘Request an Appointment' for the type of portal scheduling desired. Only one method may be selected.
+{{% /note %}}
+
+**Use Checkin:** When checked, allows employees to check into the Waiting Room station for their existing appointment. The following system settings control when the option will appear on the portal: ‘Minutes Allowed Before Start','Minutes Allowed After Start'.
+
+{{% note %}}
+System Administrators should note that Schedule Appointment configuration options selected will apply to both the Employee **and** Employer/Supervisor Portal.
 {{% /note %}}
 
 **Disable appointment confirmation/cancellation emails:** When checked, appointment confirmation and cancellation emails will not be sent.
@@ -167,11 +180,15 @@ This field will only display if *Allow scheduling past due appointments* IS NOT 
 
 **Appointment types excluded from portal:** Excludes these types of appointments from being displayed in the portal.
 
+**Disable portal scheduling comments:** Hides the ‘Comments' section on the portal scheduling page.
+
 **Appointment types that require comments:** Require comments to be entered for these appointment types when scheduled**.**
 
 **Comments input instructions:** This field will update the placeholder text for the comments input when an appointment type that requires comments is enabled.
 
 **Schedule a new appointment button text:** This field will replace the button text that is used to schedule a new appointment; displayed at the bottom of the 'My Appointments' module within the portal.
+
+If the Employer Organization has defined specific locations in which this employer may schedule appointments and configured the location on the Employer Organization **Locations** tab, then any schedules associated with that location will display at the bottom of the Additional Options section.
 
 #### Send a Message
 
@@ -182,33 +199,37 @@ The Send a Message module can have its name and header customized, the sending i
 3. <strong>Instruction text</strong>: Use this field to add any additional, optional instructions for the <em>Send a Message</em> page.
 4. <strong>Restrict employee autocomplete by partition</strong>: Use this field to add optional partition restrictions for the employee autocomplete available to Supervisor Contact users.
 5. <strong>Allowed message types for sending within portal</strong>: These message types determine what types of messages can/cannot be sent to/from the portal. The defaults are:
-    1. Incident Report
-    2. Incident Report Supervisor Review
+    a.  Incident Report
+    b.  Incident Report Supervisor Review
 
 {{% tip %}}
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
 {{% /tip %}}
 
-## Adding Users & Linking to Supervisors
+## Adding Users & Linking to Supervisors (supported for databases on release 202503 and newer)
 
 Every user intending to use the portal needs to be added by associating the user and their username with the necessary role. To review and edit roles and portal access, perform the following:
 
 ### Adding Users
 
-1. Navigate to the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}}  side menu.
-2. Click the {{% syslink "Access Control" "f=admin&t=security&tabmodule=admin&tabselect=Access&ts_caption=Access+Control" %}}  tab.
-3. Using the <em>Search</em> field and filters, click <strong>Go!</strong> to locate the user needing access to the portal.
-4. Click the <strong>Edit</strong> link in the <em>Options</em> column.
-5. In the upper-right of the screen, locate and click the <strong>Edit Patients Linked to User</strong> link.
-    1. All users needing access to the portal will need an email on their profile, and the <strong>Def. User Role</strong> field set to <strong>User-Limited Access</strong>.
-6. Once on the <em>Patients Linked to User</em> screen, ensure the user is listed in the table, twice:
-    1. The user should be listed with the role of <strong>Self</strong>; and
-    2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
-7. If the user is not listed in the table correctly:
-    1. Begin typing the user's last name, and using the autocomplete, select the user.
-    2. Use the drop-down to set the user's role to Self and/or No More Clipboard User.
-    3. Click the <strong>Add</strong> button, to add each necessary role.
-8. After all changes have been made, click the <strong>Submit</strong> button.
+1. In most cases employee's charts and user accounts are automatically created via an HR interface. User accounts and passwords are typically configured for Single Sign On (SSO) and managed outside of {{% system-name %}}.
+2. Users requiring Employee Portal access must have a <strong>Username/Email</strong>, <strong>Primary Department</strong> set to ‘Employees', <strong>Current Status</strong> set to ‘Active', <strong>Security Role</strong> set to ‘Employees', and <strong>Def. User Role</strong> set to ‘User - Limited Access'.
+
+![](../employer-portal-setup.assets/55c162e811dcba10068693a145792eda.png)
+
+3. User accounts must also have Contact Relationship types set for ‘Self' and "Portal User' to access the portal. Typically, this is automatically preconfigured by an HR Interface and/or during the manual registration process. The contact relationship types can be added or viewed from the user account by selecting <strong>Edit Patients Linked to User</strong>.
+
+![](../employer-portal-setup.assets/03e6792cda58b21710300fd147a05074.png)
+
+However, it is often easier to manage **Contact** relationship types from the **Contacts** portlet on the patient chart **Summary** tab.
+
+![](../employer-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
+
+![](../employer-portal-setup.assets/666ae59974a4d9ceff2e6ee12bf4896e.png)
+
+4. Employees must also have a <strong>Relationship</strong> to the employer portal, as identified in the <strong>Name</strong> field, with the <strong>Relation Type</strong> set to ‘Employer'. This relationship is also typically managed by an HR feed.
+
+![](../employer-portal-setup.assets/58dcb87ee7e970a1e3c56d3f261a0290.png)
 
 {{% tip %}}
 To remove a role from the table, simply click the minus button. After all changes are made, click the **Submit** button.
@@ -216,21 +237,12 @@ To remove a role from the table, simply click the minus button. After all change
 
 ### Linking to Supervisor
 
-Linking users to a supervisor allows the managing user to log into the portal and see the subordinates' restrictions, lost time, work status, as well as their own information. To link users to a supervisor:
+Linking users to a supervisor allows the managing user to log into the portal and see the subordinates' restrictions, lost time, work status, schedule appointments and report an injury/illness.  To link users to a supervisor:
 
-1. Navigate to the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}}  side menu.
-2. Click the {{% syslink "Access Control" "f=admin&t=security&tabmodule=admin&tabselect=Access&ts_caption=Access+Control" %}}  tab.
-3. Using the <em>Search</em> field and filters, click <strong>Go!</strong> to locate the supervisor or manager.
-4. Click the <strong>Edit</strong> link in the <em>Options</em> column.
-5. In the upper-right of the screen, locate and click the <strong>Edit Patients Linked to User</strong> link.
-6. Once on the <em>Patients Linked to User</em> screen, ensure the user in context is listed in the table, twice:
-    1. The user should be listed with the role of <strong>Self</strong>; and
-    2. He/She should be listed with the role of <strong>No More Clipboard User</strong>.
-7. Using the autocomplete, begin typing the last name of the subordinate, and select the user.
-8. Using the drop-down, select <strong>No More Clipboard User</strong> role.
-9. Click the <strong>Add</strong> button.
-10. Repeating step 7, select the same user.
-11. Use the drop-down to select the <strong>Supervisor</strong> role.
-12. Click the <strong>Add</strong> button.
-13. Repeating steps 7-12, add the remaining subordinates.
-14. When finished, click the <strong>Submit</strong> button.
+1. Navigate to the employee chart <strong>Summary</strong> tab and manage the information from the <strong>Contacts</strong> portlet.
+
+![](../employer-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
+
+2. Use the autocomplete in the <strong>Contacts</strong> list and search for the supervisor's name (<strong>User Name</strong> field), enter the <strong>Role</strong> of ‘Supervisor' and click the <strong>Add</strong> button. When complete, select the <strong>Submit</strong> button to save any edits.
+
+![](../employer-portal-setup.assets/36e2f8812af3014a2f2780246458f075.png)

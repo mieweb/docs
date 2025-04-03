@@ -1,8 +1,8 @@
 ---
 id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
 title: 'Plan Narrative'
-date: '2025-02-26T18:40:48.473Z'
-version: 39
+date: '2025-02-26T18:41:31.103Z'
+version: 44
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../libraries.md'
   - '../encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 Plan Narrative encounter section is available to document a plan narrative regarding the visit within an encounter.
 
@@ -37,7 +37,7 @@ If utilizing a Plan Narrative flowsheet, library macros offered in the Plan Narr
 
 ![](../plan-narrative.assets/fc91add7bad55c160e8187ba0be5961a.png)
 
-For additional information on configuring and utilizing macros that can be utilized within the Plan Narrative encounter section, please see separate guide [Macros](../../system-configuration/macros.md#_45767orgf0xd) and/or [Libraries](../libraries.md).
+For additional information on configuring and utilizing macros that can be utilized within the Plan Narrative encounter section, please see separate guide [Macros](../../system-configuration/macros.md#properties-of-a-macro) and/or [Libraries](../libraries.md).
 
 ## Chief Complaint Protocol
 

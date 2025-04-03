@@ -8,7 +8,8 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/'
 source: 'https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 The system has the ability to send system contacts documents utilizing a secure ‘Outside Contact Portal' EO chart setup (or whatever you wish to name it). This portal is often referred to as the "Secure Message Portal" When a Contact is added to the system, the system will automatically create a Contact Chart and tie it to the EO chart that has portal access for Contacts. End users may share/send a copy of a document from the originating patient chart to the Contact Chart. In turn, the Contact is sent a portal invitation to create a secure portal login account which will allow them to view the shared document(s). Utilizing this ‘Send Document' feature reduces the risk of end users from emailing PHI out of the system.
 
@@ -29,11 +30,11 @@ The ‘Outside Contact Portal' is an excellent alternative for clients that can 
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/f1f2627e9a17fb02d36d1bb7c01e6e0b.png)
 
-    1. <strong>Subject:</strong> will display the Document ID attached to this send request.
-    2. <strong>From:</strong> will default to the auto reply url indicated in the System Settings (WebChart/Email/Autoreply).
-    3. <strong>Recipient:</strong> Search for any existing <em>Recipient</em> in the system by using the autocomplete or click the ‘+' to add a new contact chart/details to the system to be able to send to. Upon selecting an existing contact or adding a contact, the contact name will display in this field. It is recommended that users always search for an existing contact so that duplicate contact charts are not created.
-    4. <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document.  See [Employer Search](#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
-    5. Click the <em>Send</em> button after all fields have been completed.
+    a.  <strong>Subject:</strong> will display the Document ID attached to this send request.
+    b.  <strong>From:</strong> will default to the auto reply url indicated in the System Settings (WebChart/Email/Autoreply).
+    c.  <strong>Recipient:</strong> Search for any existing <em>Recipient</em> in the system by using the autocomplete or click the ‘+' to add a new contact chart/details to the system to be able to send to. Upon selecting an existing contact or adding a contact, the contact name will display in this field. It is recommended that users always search for an existing contact so that duplicate contact charts are not created.
+    d.  <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document.  See [Employer Search](#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
+    e.  Click the <em>Send</em> button after all fields have been completed.
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/09852f45d803278879e86b9141baf8af.png)
 

@@ -7,7 +7,8 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 Each user intending to access a web-based portal must be granted access by way of the {{% system-name %}} system. This can be done by linking the appropriate user accounts with their corresponding charts, manually, via the {{% system-name %}} Access Control editor; otherwise, this can be automated through the import of an HR file. By linking the user account with the appropriate charts and establishing the role of the user, portal access can be configured for all users, accordingly. In addition to ensuring that the appropriate user accounts are linked to their corresponding charts and the roles are established, a chart must also have the appropriate Provider Organization relationship established. To begin linking users, manually, perform the following:
 
@@ -37,9 +38,9 @@ Once the page loads, ensure the user has two roles listed in their user account:
 {{% /note %}}
 
 6. If the user does not have two roles listed in their user account:
-    1. Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
-    2. Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
-    3. Click the <strong>Add</strong> button for each role added.
+    a.  Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
+    b.  Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
+    c.  Click the <strong>Add</strong> button for each role added.
 7. After all changes have been made, click the <strong>Submit</strong> button.
 
 {{% tip %}}

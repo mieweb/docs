@@ -2,7 +2,7 @@
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
 date: '2025-02-17T20:50:56.191Z'
-version: 127
+version: 134
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - '../../financial-functionality/downloading-financial-reports.md'
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
 ---
 The financial functionality of the system allows you to:
 
@@ -106,7 +106,7 @@ Chart tab list view:
 
 [Adding Deals](../../financial-functionality/adding-deals.md)
 
-[Deal Quick Links - Using Deals in Encounter](../../financial-functionality/deal-quick-links-using-deals-in-encounters.md#_8f6h15yeb30m)
+[Deal Quick Links - Using Deals in Encounter](../../financial-functionality/deal-quick-links-using-deals-in-encounters.md#creating-orders-in-charts-from-a-deal)
 
 [Configuring Access to Financial Modifiers](../../financial-functionality/configuring-access-to-financial-modifiers.md)
 

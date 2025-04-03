@@ -2,7 +2,7 @@
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
 date: '2024-07-15T13:49:03.586Z'
-version: 642
+version: 646
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,8 @@ links:
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: '0008bcbb1563384efe0a28ada6f97e9432e65f10'
+wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+markup: 'pandoc'
 ---
 With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 
@@ -63,20 +64,20 @@ WebChart portals should use a **Patients** role. If this role does not exist, p
 
 The security role(s) that are chosen must have the following security settings set in place:
 
-    1. <strong>Limited Access</strong> = Yes
-    2. <strong>Limit to Portal</strong> = Yes
-    3. <strong>Limited to Default Tab</strong> = No
-    4. <strong>Manage Observations</strong> = Edit
-    5. <strong>Document Permissions</strong> = Edit
-    6. <strong>Conditions</strong> = Edit
-    7. <strong>Demographics</strong> = Edit
-    8. <strong>Manage Settings</strong> = Manage Own Settings
-    9. <strong>View Encounters</strong> = Yes
-    10. <strong>Sign Document</strong> = Yes
-    11. <strong>View Preliminary Documents</strong> = Yes
-    12. <strong>Manage Users</strong> = Self
-    13. <strong>Manage User Patients</strong> = Yes
-    14. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
+    a.  <strong>Limited Access</strong> = Yes
+    b.  <strong>Limit to Portal</strong> = Yes
+    c.  <strong>Limited to Default Tab</strong> = No
+    d.  <strong>Manage Observations</strong> = Edit
+    e.  <strong>Document Permissions</strong> = Edit
+    f.  <strong>Conditions</strong> = Edit
+    g.  <strong>Demographics</strong> = Edit
+    h.  <strong>Manage Settings</strong> = Manage Own Settings
+    i.  <strong>View Encounters</strong> = Yes
+    j.  <strong>Sign Document</strong> = Yes
+    k.  <strong>View Preliminary Documents</strong> = Yes
+    l.  <strong>Manage Users</strong> = Self
+    m.  <strong>Manage User Patients</strong> = Yes
+    n.  <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 
 
 {{% /info %}}
@@ -180,14 +181,14 @@ To *fully* add a consent form to the list:
 
 1. Add the appropriate document type to the system.
 2. Add the appropriate order item:
-    1. Enter the order name
-    2. Set the order type to <em>Questionnaires</em>
-    3. Select the corresponding document type that was added to the system
-    4. Set the Insert As field to Pending.
+    a.  Enter the order name
+    b.  Set the order type to <em>Questionnaires</em>
+    c.  Select the corresponding document type that was added to the system
+    d.  Set the Insert As field to Pending.
 3. Add the order item to the Portal Consent orders picklist
 4. Add a flowsheet (named the same as the order item)
-    1. <em>Observations will likely need to be created prior to building and utilizing this flowsheet.</em>
-    2. Add a WHERE clause to the Required section of this flowsheet, to ensure that portal users not accepting the terms and conditions of the consent form will not be permitted access or be able to proceed further in the portal. Add the following WHERE clause to the Required section:  
+    a.  <em>Observations will likely need to be created prior to building and utilizing this flowsheet.</em>
+    b.  Add a WHERE clause to the Required section of this flowsheet, to ensure that portal users not accepting the terms and conditions of the consent form will not be permitted access or be able to proceed further in the portal. Add the following WHERE clause to the Required section:  
         `  
         observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1`
 
@@ -509,8 +510,8 @@ WebChart databases may or may not have all the needed chart types, chart tabs, o
 
 1. Add or enable the <strong>Provider Management</strong> menu item.
 2. Add <strong>Chart Types</strong> chart tab, if missing.
-    1. Ensure that <strong>Portal</strong> chart type exists.
-    2. Ensure there is a <strong>Provider Organization</strong> chart type.
+    a.  Ensure that <strong>Portal</strong> chart type exists.
+    b.  Ensure there is a <strong>Provider Organization</strong> chart type.
 
 {{% info %}}
 A provider Organization partition needs added if it does not already exist, using the Partition Manager.
@@ -519,31 +520,31 @@ A provider Organization partition needs added if it does not already exist, usin
 {{% /info %}}
 
 3. Ensure that there is a <strong>Portal Setup</strong> and <strong>Patient Portal</strong> chart tab.
-    3. Verify that the Portal Setup and Patient Portal chart tabs are set to the <em>Portal</em> chart type.
+    c.  Verify that the Portal Setup and Patient Portal chart tabs are set to the <em>Portal</em> chart type.
 4. Ensure that there is an <strong>Overview (PO)</strong> chart tab and that it is set to <em>Active</em>.
-    1. Verify that the Overview (PO) chart tab is set to a <em>Provider Organization</em> chart type.
+    a.  Verify that the Overview (PO) chart tab is set to a <em>Provider Organization</em> chart type.
 5. Ensure the <strong>Pat Portal Invite Email</strong> layout exists. If it does not exist, please reach out to Application Support, so a ticket can be assigned to a portal developer to have it created.
-    1. Verify the content in the layout is edited with the correct portal name if this email layout is copied from another database.
+    a.  Verify the content in the layout is edited with the correct portal name if this email layout is copied from another database.
 6. Add a new security role of <strong>Patients</strong> and a new department called <strong>Patients</strong> (these names must match EXACTLY). Set the following security settings for the Patients security role:
-    1. <strong>Limited Access</strong> = Yes
-    2. <strong>Limit to Portal</strong> = Yes
-    3. <strong>Limited to Default Tab</strong> = No
-    4. <strong>Manage Observations</strong> = Edit
-    5. <strong>Document Permissions</strong> = Edit
-    6. <strong>Conditions</strong> = Edit
-    7. <strong>Demographics</strong> = Edit
-    8. <strong>Manage Settings</strong> = Manage Own Settings
-    9. <strong>View Encounters</strong> = Yes
-    10. <strong>Sign Document</strong> = Yes
-    11. <strong>View Preliminary Documents</strong> = Yes
-    12. <strong>Manage Users</strong> = Self
-    13. <strong>Manage User Patients</strong> = Yes
-    14. <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
+    a.  <strong>Limited Access</strong> = Yes
+    b.  <strong>Limit to Portal</strong> = Yes
+    c.  <strong>Limited to Default Tab</strong> = No
+    d.  <strong>Manage Observations</strong> = Edit
+    e.  <strong>Document Permissions</strong> = Edit
+    f.  <strong>Conditions</strong> = Edit
+    g.  <strong>Demographics</strong> = Edit
+    h.  <strong>Manage Settings</strong> = Manage Own Settings
+    i.  <strong>View Encounters</strong> = Yes
+    j.  <strong>Sign Document</strong> = Yes
+    k.  <strong>View Preliminary Documents</strong> = Yes
+    l.  <strong>Manage Users</strong> = Self
+    m.  <strong>Manage User Patients</strong> = Yes
+    n.  <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 7. Set the <strong>NMC, Signup, New User Realm</strong> system setting to <em>Patients</em>.
 8. Enable or add <strong>WebChart, NMC, NMC System</strong> system setting by setting the value to <em>1</em> (one).
 9. If clients are not going to utilize both NMC and the patient portal, complete the following:
-    1. Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
-    2. Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
+    a.  Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
+    b.  Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
         1. Verify that the WCPATED doc type (Clinical Summary/Patient Education) does not contain the NMC information located at the bottom of the document.
 
 {{% /only %}}
