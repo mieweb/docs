@@ -1,8 +1,8 @@
 ---
 id: '1lmP_-n3hs3BFggxqKrCghcY6azLuGzFBUKU5psM70tw'
 title: 'Questionnaire Encounter Section'
-date: '2025-04-01T19:07:08.234Z'
-version: 17
+date: '2025-04-04T18:38:16.680Z'
+version: 29
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -110,3 +110,23 @@ Then X close out of that separate tab/browser window to be back in the encounter
 When you refresh the encounter you are working in (or wait until going to view and/or close & archive) you will see the linked questionnaire with interpretation and/or the detailed questionnaire contents (depending if you selected to link it with detail or not)
 
 ![](../questionnaire-encounter-section.assets/a75d767f3f5ff469eb852ba35c68f4cf.png)
+
+## Interpretations Visibility
+
+Once interpretations are keyed in and saved, interpretations are visible on the encounter entry side, on the encounter view side, and on the encounter stored/archived document (all stated above in this guide).
+
+However, interpretations are also visible from within properties of an encounter.  Simply go to the Encounters stand-alone chart tab, find a specific encounter's Properties.
+
+![](../questionnaire-encounter-section.assets/6a02b780e02118b132ad12543c338fe8.png)
+
+Once in the properties of an encounter, in the *Links to Encounter* datavis section, any interpretations noted on an encounter document will be listed as a stored observation named *Object item interpretation.*
+
+![](../questionnaire-encounter-section.assets/b56476237132c4eb9deafd82abb7a069.png)
+
+Interpretations are also reportable from a report named Patient Observations from the Reports sidemenu tab.  In the Patient Observations report, simply put in a date range and search by observation name **Object Note Interpretation** on a mass report level system wide.
+
+![](../questionnaire-encounter-section.assets/59536a6e93076bf6e144587be09c62db.png)
+
+On an individual chart level, Interpretations can be reported on via the chart tab named Observations/Flowsheets.  From that chart tab, select the flowsheet from the drop-down named *Interpretations* (and any applicable date range if needed).  After clicking on the search button, you see any interpretations ever keyed in for that specific chart (and is listed by date/time of keyed in).
+
+![](../questionnaire-encounter-section.assets/d7d2dfd0a1d738b9318ac387df0d5bc1.png)
