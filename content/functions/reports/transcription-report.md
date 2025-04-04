@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 markup: 'pandoc'
 ---
 The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.

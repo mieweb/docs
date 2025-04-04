@@ -17,7 +17,7 @@ links:
   - '../../financial-functionality/downloading-financial-reports.md'
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The financial functionality of the system allows you to:
 

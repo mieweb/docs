@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 On the left sidemenu, at the very bottom, is a small thumbtack icon.
 

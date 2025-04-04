@@ -9,7 +9,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
 source: 'https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The first step to being able to electronically transmit prescriptions from {{% system-name %}} to a pharmacy using the SureScripts feature is to properly have that prescribing user set up in {{% system-name %}} . You must have security rights to edit or set up users in {{% system-name %}} . Once you set up the Prescriber to become an electronic prescriber, SureScripts goes through a verification process. Once verified, your prescriptions will be e-sent via electronic transmission.
 

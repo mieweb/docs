@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fO8TgCn20ax3Y_DZgsTc0Q3wSuOPRX-LD_vyxJhwAJs'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Beginning in the 202403 release, users will no longer be able to click on the *Allergy/Intolerance* Encounter section and add/edit allergies in legacy mode. Users must use the new Quick Lists, located on the right-hand side of the encounter section to add/edit allergies.
 

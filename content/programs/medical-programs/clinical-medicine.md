@@ -6,7 +6,7 @@ version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D2Tr1fpF7oqAx0hsXkwT5D2RA1epjcGuNFVNv87bXEM'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The {{% system-name %}} Clinical care resources are intended to streamline clinical workflows and strengthen overall care coordination for medical practices.
 

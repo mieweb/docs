@@ -2,14 +2,14 @@
 id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 title: 'Customize Online Help Pop-up Screens'
 date: '2025-02-19T20:23:01.228Z'
-version: 231
+version: 233
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.mieweb.com/video/WCEncounter.mov*'
   - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
 source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your {{% system-name %}} screen session is a help bubble icon.
 

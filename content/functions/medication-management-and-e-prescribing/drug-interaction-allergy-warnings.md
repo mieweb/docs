@@ -6,7 +6,7 @@ version: 39
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1m0qyUJ0gzjNW32y7tnUzzTuwj0Fkv-wLTk6agxc8k-8'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Drug interaction warnings and Allergy warnings will appear in E-Meds module when adding an allergy/intolerance or prescribing a med, or in the patient's medication history. {{% system-name %}} can generate a warning stating contraindications and duplicate therapies, so we encourage entering allergies for patients and current meds the patient is taking.
 

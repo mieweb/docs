@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 A **Subject** field is available when adding documents to the {{% system-name %}} system. This allows sketches, Word documents, PDF documents, text files, and others to have a subject associated with them at the time of creation, rather than having users edit the document properties after the file has been created, imported, or uploaded.
 

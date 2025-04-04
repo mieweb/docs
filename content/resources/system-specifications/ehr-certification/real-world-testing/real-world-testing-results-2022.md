@@ -25,7 +25,7 @@ links:
   - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://github.mieweb.com/webchart/wcexport'
 source: 'https://drive.google.com/open?id=1JqO9WpTRHcNZrB65zx7dqQ-DXlsaWGfHS_qMkp-bCJs'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 [Executed Real World Testing Results 2022 PDF Version](https://drive.google.com/file/d/1jodfHoSV12rtcGQyQPHL42mRBtZHtpqw)
 

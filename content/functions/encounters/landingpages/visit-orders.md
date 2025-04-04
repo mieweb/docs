@@ -13,7 +13,7 @@ links:
   - '../../../rapid-deployment/review-sessions/review-session-order-and-result-management.md'
   - 'https://mie.talentlms.com/unit/view/id:2280'
 source: 'https://drive.google.com/open?id=1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The Visit Orders encounter section provides the necessary tools for ordering, customizing, delivering, and tracking orders and order requests. Through computerized provider order entry (CPOE), the system streamlines the processes involved in order management. In general, order requests can be created from the encounter via various encounter sections (Visit Orders section being one of them) or from the chart.
 

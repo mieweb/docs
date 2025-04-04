@@ -13,7 +13,7 @@ links:
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The following columns display in standardized data import specifications:
 

@@ -7,7 +7,7 @@ lastAuthor: 'acook'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G-25sbfgVrQHV_SoUmaYiyLGbwE2GkqCnWPRHl0q4lQ'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 This report is a grid like the Due List chart tab. By default it lists any and all charts and MR#'s that have something as ‘pending' status in their Due List. There are other columns of information and function buttons at the bottom to work pending due list items in mass for the system. This grid can be sorted and arranged as you prefer without affecting other users.
 

@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1aNUvYavTU9Mf1-pm2ldYoIdOk8gzf_7B-H9PWgVaFWE'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 From RC202403 and newer, the DoT Interface Status report can be found within the Reports module, and within the Health Surveillance grouping of reports available in {{% system-name %}}.
 

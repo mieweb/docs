@@ -2,7 +2,7 @@
 id: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
 title: 'Create Health Surveillance File for Import'
 date: '2020-03-17T02:39:10.700Z'
-version: 42
+version: 44
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
   - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 This document explains how to import your health surveillance data into {{% system-name %}} .
 

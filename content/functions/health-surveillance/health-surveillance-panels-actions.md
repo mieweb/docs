@@ -1,8 +1,8 @@
 ---
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
-date: '2025-04-03T18:43:14.155Z'
-version: 220
+date: '2025-04-03T18:54:47.749Z'
+version: 227
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Within the Health Surveillance tab, lists existing Health Surveillance Panels configured for the system, and is where user(s) can manage them or add Health Surveillance (HS) Panels to the system from this editor. A panel defines a group of events or actions that will take place on certain profiles of charts on a regular schedule in the Health Surveillance module.
 

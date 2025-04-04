@@ -2,14 +2,14 @@
 id: '1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
 title: 'Terminated Provider Configuration Recommendations'
 date: '2023-09-12T15:14:39.994Z'
-version: 1625
+version: 1636
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - '../../e-sign-electronic-signature/e-sign-all-pending-tab.md'
 source: 'https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 markup: 'pandoc'
 ---
 ## Terminated Provider Configuration Recommendations

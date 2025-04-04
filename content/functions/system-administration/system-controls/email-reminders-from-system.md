@@ -2,7 +2,7 @@
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
 date: '2024-10-23T13:26:37.472Z'
-version: 207
+version: 215
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
   - '../../reports/documents-report-super-document-type-search.md'
   - 'https://mie.talentlms.com/shared/start/key:LAZIDNHR'
 source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Must have security setting of *Send Email to Patient* set to Yes in order to utilize the email link and feature in {{% system-name %}} .
 

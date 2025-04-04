@@ -10,7 +10,7 @@ links:
   - 'https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.
 

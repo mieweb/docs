@@ -12,7 +12,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LALIDNHR'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print (or fax) job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
 

@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LtnSjbO7FzPqY6ZSCqZ6ZGG8oCM6Py5eFWEicFOHu9I'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 **Description**:  Clinical Data Registry Reporting
 

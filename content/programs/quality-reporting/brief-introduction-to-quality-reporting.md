@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/overview'
   - '../../functions/quality-of-care/measures.md'
 source: 'https://drive.google.com/open?id=1gk1DvcuNmDie5Alw9zirWHeNjVL8b0aumtgO7-gq8-o'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 In order to encourage eligible clinicians and entities to adopt, implement, and upgrade certified EHR technology (CEHRT), the Centers for Medicare and Medicaid Services (CMS) established the Medicare and Medicaid EHR Incentive Programs. These programs were intended to help develop and standardize *meaningful use* of the certified technologies available on the market, hence the more informal name of the programs, Meaningful Use (MU). Along with MU, there have been other common ones, such as the Physician Quality Reporting System (PQRS) and the Value-Based Modifier (VM).
 

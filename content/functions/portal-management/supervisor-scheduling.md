@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/portal-management/employer-portal-setup/'
 source: 'https://drive.google.com/open?id=1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The **Supervisor Portal** allows supervisors to schedule appointments on behalf of their direct subordinates. The Schedule Appointments module is available in databases on the 202503 release of {{% system-name %}}.
 

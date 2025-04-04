@@ -9,7 +9,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZATDNHRK'
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Click *Control* on the left sidebar menu.
 

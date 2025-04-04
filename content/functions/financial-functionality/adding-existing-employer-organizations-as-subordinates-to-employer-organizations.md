@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1AWtRR0K-hVwnz27RBadPBBgzQUk4CC-thrR1nxVc1zI'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) to which to add a sub-employer organization.
 2. When viewing the employer organization to which to add a sub-employer organization, select the <strong>Overview (EO)</strong> tab.

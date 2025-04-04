@@ -9,7 +9,7 @@ links:
   - '../system-administration/system-controls/setting-up-e-prescribers.md'
   - 'e-refills-my-pending-refills-tab.md'
 source: 'https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 You can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you are an e-Prescriber and have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top (this method of access would be for users who can manage e-refill requests for others).
 

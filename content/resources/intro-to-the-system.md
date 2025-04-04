@@ -9,7 +9,7 @@ links:
   - 'intro-to-the-system/system-anatomy.md'
   - '../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The following page addresses the basic navigation and functionality of {{% system-name %}} . If you're a current user, you'll notice some things might look a little different. We've improved the user experience — making {{% system-name %}} even more intuitive and efficient.
 

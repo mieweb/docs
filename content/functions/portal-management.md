@@ -15,7 +15,7 @@ links:
   - 'portal-management/employer-employee-second-portal-setup.md'
   - 'portal-management/messages-from-nmc-user.md'
 source: 'https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 With a variety of online portal options, {{% system-name %}} offers patients and clinicians the ability to quickly and easily send correspondences, request/cancel appointments, review results and clinical documentation, and so much more. The {{% system-name %}} system emphasizes engagement and tracking, offering easy access to individual due lists, work status, and health surveillance via its certified portal options. Users can schedule appointments, provide information, and complete questionnaires, easily maintaining overall wellness and work certifications. Check out all the details for each of the portal options, below.
 

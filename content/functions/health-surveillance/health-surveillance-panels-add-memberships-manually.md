@@ -2,13 +2,13 @@
 id: '1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
 title: 'Health Surveillance Panels - Add Memberships Manually'
 date: '2024-10-16T16:06:12.797Z'
-version: 146
+version: 148
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 ## Add Memberships Individually via the Due List
 

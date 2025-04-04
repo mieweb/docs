@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
 source: 'https://drive.google.com/open?id=11ghe6MwfhTsxiclrKndCYHo91JWKbWF0QtpGQN1n-bM'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The Financials Pending Encounters Report displays a list CLOSED encounters where a potential billing issue has been identified. Patient's on this list may also be on the Financials Pending Billing report. The Pending Billing report looks at individual order items, while his report looks at the encounter as a whole. This report will provide hints as to potential issues with these encounters.  If issues are addressed on the Pending Billing report, then encounters should naturally fall off this list.
 

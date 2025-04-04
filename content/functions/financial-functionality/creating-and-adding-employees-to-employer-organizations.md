@@ -9,7 +9,7 @@ links:
   - 'finding-employer-organizations.md'
   - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.
 

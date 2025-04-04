@@ -14,7 +14,7 @@ links:
   - 'http://www.w3.org/TR/WCAG20/'
   - 'https://www.w3.org/TR/WCAG21/'
 source: 'https://drive.google.com/open?id=1r345knczilBhSJsSnKbhV-goCPdZe9VcoQk0Y3kss6I'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 **Medical Informatics Engineering, Inc. Accessibility Conformance Report**
 

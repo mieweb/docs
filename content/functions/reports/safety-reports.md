@@ -17,7 +17,7 @@ links:
   - 'osha-statistics-report.md'
   - 'sharps-log-report.md'
 source: 'https://drive.google.com/open?id=1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 This guide will go through the most common out of the box Safety Reports available in {{% system-name %}}, but more detailed information on each individual report is found in its own separate guide.
 

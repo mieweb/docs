@@ -6,7 +6,7 @@ version: 44
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 

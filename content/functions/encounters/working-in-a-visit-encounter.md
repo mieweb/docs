@@ -9,7 +9,7 @@ links:
   - 'working-in-a-legacy-encounter.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: '374e2f95757c2b9977f9b36d40698a54d4b4c0a4'
+wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 
