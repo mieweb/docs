@@ -2,7 +2,7 @@
 id: '1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
 title: 'MIE - OpenAI End User Agreement (draft 06.01.2023)'
 date: '2023-09-13T14:49:19.397Z'
-version: 23
+version: 26
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
