@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-03-24T15:55:15.957Z'
-version: 505
-lastAuthor: 'dmartinez'
+date: '2025-04-04T18:04:35.758Z'
+version: 512
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -127,7 +127,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Delete Patient From Doc Queue: Allows role to delete a patient from the Document Queue tab in {{% system-name %}} .
 * Patient Merge Match Rating Sync: Allows users to update the patient matches (ratings) through the doc.queue
 * Delete Patient MRNs: Allows users to delete MR#'s associated with a patient's medical record.
-* Document Signature Override: Allow users within a security role to request another signature if a document is already signed or override a signature, or other things after a document has been signed.
+* Document Signature Override: If a document has been esigned and an edit is needed, a user with permission to Document Signature Override would be able to edit the document, then the person who had previously e-signed the document will get a new e-sign request. If the Document Signature Override permission is set to No for a user, then only the Author of a document will be able to edit the document if it has already been esigned.
 * Document Lock: Allows users to lock a document so that no one can view the document or make changes to the document if they do not have permission to use the document lock system.
 * Manage Document Records:  If another user is editing a document and you want to get into that document also at the same time, it will lock the document from your access since one user is already in it.  This permission allows the users in the role to remove those locks.
 * Document Move: Allows users to ‘move' documents into another patient's E-chart. Example: if they were indexed to the wrong acct, etc.
