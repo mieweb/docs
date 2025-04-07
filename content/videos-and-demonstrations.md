@@ -1,8 +1,8 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2025-03-20T19:06:00.534Z'
-version: 768
+date: '2025-04-07T17:50:58.576Z'
+version: 772
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -84,6 +84,14 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 {{% /only %}}
 
 {{% only sys="eh" type="INLINE" %}}
+
+### Enterprise Health's AI Medical Assistant, powered by Ozwell.ai
+
+{{< youtube BJn9mViL7bU >}}
+
+### Telehealth Overview
+
+{{< youtube PShJgQNd_rM >}}
 
 ### Visit Overview
 
@@ -180,10 +188,6 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ### Getting Data out of the system using ODBC or JSON API
 
 {{< youtube 9F2KUHstZ-E >}}
-
-### Enterprise Health's AI Medical Assistant, powered by Ozwell.ai
-
-{{< youtube BJn9mViL7bU >}}
 
 {{% /only %}}
 
