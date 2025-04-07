@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-07T13:09:26.532Z'
-version: 1161
-lastAuthor: 'janderson'
+date: '2025-04-07T13:39:58.818Z'
+version: 1165
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -600,6 +600,7 @@ links:
   - 'functions/system-administration/interfaces/mammotrack-chart-tab.md'
   - 'functions/system-administration/interfaces/mammotrack-sidemenu.md'
   - 'functions/system-administration/interfaces/patient-education-interface.md'
+  - 'https://drive.google.com/open?id=1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
   - 'functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
   - 'functions/system-administration/interfaces/hl7-restful.md'
   - 'functions/system-administration/interfaces/sample-hl7-messages.md'
@@ -1349,7 +1350,7 @@ wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
             * [MammoTrack Chart Tab](functions/system-administration/interfaces/mammotrack-chart-tab.md)
             * [MammoTrack Sidemenu](functions/system-administration/interfaces/mammotrack-sidemenu.md)
             * [Patient Education Interface](functions/system-administration/interfaces/patient-education-interface.md)
-            * DirectTrust Email
+            * [DirectTrust Email](https://drive.google.com/open?id=1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4)
             * [Sending HL7 Messages to System](functions/system-administration/interfaces/sending-hl7-messages-to-system.md)
             * [HL7 - RESTful](functions/system-administration/interfaces/hl7-restful.md)
             * [Sample HL7 Messages](functions/system-administration/interfaces/sample-hl7-messages.md)
