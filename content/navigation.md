@@ -480,7 +480,7 @@ links:
   - 'functions/reports/osha-300a-report.md'
   - 'functions/reports/osha-300-301-case-data-report.md'
   - 'functions/reports/osha-statistics-report.md'
-  - 'https://drive.google.com/open?id=1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw'
+  - 'functions/reports/order-requests-count-by-location.md'
   - 'functions/reports/orders-due-report.md'
   - 'functions/reports/orders-usage-report.md'
   - 'functions/reports/observations-report.md'
@@ -1229,7 +1229,7 @@ wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
         * [OSHA 300A Report](functions/reports/osha-300a-report.md)
         * [OSHA 300/301 Case Data Report](functions/reports/osha-300-301-case-data-report.md)
         * [OSHA Statistics](functions/reports/osha-statistics-report.md)
-        * [Order Requests - Count by Location](https://drive.google.com/open?id=1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw)
+        * [Order Requests - Count by Location](functions/reports/order-requests-count-by-location.md)
         * [Orders Due Report](functions/reports/orders-due-report.md)
         * [Orders Usage Report](functions/reports/orders-usage-report.md)
         * [Observations Report](functions/reports/observations-report.md)

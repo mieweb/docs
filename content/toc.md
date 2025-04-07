@@ -555,6 +555,7 @@ wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
          * [OpenPM Export Future Appointments](functions/reports/openpm-export-future-appointments.md)
          * [OpenPM Export Locations](functions/reports/openpm-export-locations.md)
          * [OpenPM Export Physicians](functions/reports/openpm-export-physicians.md)
+         * [Order Requests - Count by Location](functions/reports/order-requests-count-by-location.md)
          * [Orders Due Report](functions/reports/orders-due-report.md)
          * [Orders Usage Report](functions/reports/orders-usage-report.md)
          * [OSHA 300 Form Log Overlay](functions/reports/osha-300-form-log-overlay.md)
