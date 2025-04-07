@@ -1,9 +1,9 @@
 ---
 id: '1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
 title: 'Review Session - System Configuration'
-date: '2020-02-27T21:24:23.063Z'
-version: 110
-lastAuthor: 'aquandt'
+date: '2025-04-07T17:10:02.397Z'
+version: 119
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+'
@@ -60,7 +60,7 @@ wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
     * <strong>Document Types</strong>
     * <strong>Load Employer Organizations (if needed)</strong>
     * <strong>Provider Management (if needed)</strong>
-    * <strong>CPT Codes (if needed)</strong>
+    * <strong>Billing Codes (if needed)</strong>
         * <strong>Picklists</strong>
         * <strong>Modifiers</strong>
     * <strong>Fee Schedules (if needed)</strong>
@@ -175,39 +175,39 @@ The ability to add a Provider Organization is a feature designed to assist with 
 
 ![](../review-session-system-configuration.assets/954217dcbe3485b04aec7fd3a29fb061.png)
 
-### CPT Codes
+### Billing Codes
 
-To assist with streamlining billing and charges, a CPT editor is available for managing CPT codes, picklists, and modifiers. To access the editor, navigate to the [CPT Codes tab](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&t=CPT+Codes&tabmodule=admin&tabselect=CPT+Codes) of the **Control Panel**.
+To assist with streamlining billing and charges, a Billing editor is available for managing Billing codes, picklists, and modifiers. To access the editor, navigate to the [Billing Codes tab](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&t=CPT+Codes&tabmodule=admin&tabselect=CPT+Codes) of the **Control Panel**.
 
 ![](../review-session-system-configuration.assets/68023cb066b830280741949ee7564e0a.png)
 
-To begin adding CPT codes and their associated descriptions to the {{% system-name %}} system, simply click the [Add CPT code link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&opp=add_cpt), in the upper-right corner of the page.
+To begin adding Billing codes and their associated descriptions to the {{% system-name %}} system, simply click the [Add Billing code link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&opp=add_cpt), in the upper-right corner of the page.
 
 ![](../review-session-system-configuration.assets/3f1377660fadcdce1c9acf8dc3f42e7b.png)
 
-Duplicate CPT codes cannot be added to the system. An error message will appear, if attempted.
+Duplicate Billing codes cannot be added to the system. An error message will appear, if attempted.
 
 #### Picklists
 
-Once all CPT codes and descriptions have been entered, picklists can be created. Picklists provide a means to limit the number of available CPT codes by encounter type, or what's more is the ability to group CPT codes according to their function (e.g., Immunization CPT codes can be grouped into an individual picklist). Depending on the business needs, *all* picklists can be shown in the Billing and Charges section of encounters, by default; or certain picklists can be set to display in any encounter, as needed.
+Once all Billing codes and descriptions have been entered, picklists can be created. Picklists provide a means to limit the number of available Billing codes by encounter type, or what's more is the ability to group Billing codes according to their function (e.g., Immunization Billing codes can be grouped into an individual picklist). Depending on the business needs, *all* picklists can be shown in the Billing and Charges section of encounters, by default; or certain picklists can be set to display in any encounter, as needed.
 
 ![](../review-session-system-configuration.assets/96bfd63426e24308f464d4303eb9b57b.png)
 
-To begin building picklists, click the [Add Picklist link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=picklist&opp=add_list) from the CPT Codes editor. This will open the CPT Picklist editor. Enter the name of the picklist in the **Name** field (must be unique). This field is limited to 30 characters. Next, enter the CPT codes needed to display within this picklist. The order in which they are entered is the way in which they display. When finished, click the **Save** button. Alternatively, clicking the **Save & Alphabetize** button will change the way the CPT codes display within the picklist, making them display alphabetically by description, rather than in the order in which they were entered.
+To begin building picklists, click the [Add Picklist link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=picklist&opp=add_list) from the Billing Codes editor. This will open the Billing Picklist editor. Enter the name of the picklist in the **Name** field (must be unique). This field is limited to 30 characters. Next, enter the Billing codes needed to display within this picklist. The order in which they are entered is the way in which they display. When finished, click the **Save** button. Alternatively, clicking the **Save & Alphabetize** button will change the way the Billing codes display within the picklist, making them display alphabetically by description, rather than in the order in which they were entered.
 
 {{% tip %}}
-Additional codes may be added to the picklist, anytime. Simply click the **Edit** link in the *Options* column, to reopen the picklist and add additional CPT codes.
+Additional codes may be added to the picklist, anytime. Simply click the **Edit** link in the *Options* column, to reopen the picklist and add additional Billing codes.
 {{% /tip %}}
 
 #### Modifiers
 
-Modifiers can also be managed from the CPT Codes chart tab of the Control Panel. To edit or update the modifiers list, simply click the [Manage Modifiers link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=modifier) in the upper-right corner. This allows the modifier picklist to be managed, controlling what is seen for descriptions and selections. Also, clients with an established billing interface will be able to send CPT codes and modifiers to their PM system, as needed.
+Modifiers can also be managed from the Billing Codes chart tab of the Control Panel. To edit or update the modifiers list, simply click the [Manage Modifiers link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=modifier) in the upper-right corner. This allows the modifier picklist to be managed, controlling what is seen for descriptions and selections. Also, clients with an established billing interface will be able to send Billing codes and modifiers to their PM system, as needed.
 
-Modifiers display in the **Billing and Charges** section of encounters, after a CPT code has been added. Modifiers are labeled **M1**, **M2**, **M3**, and **M4** to signify the order of the modifiers going onto a claim. When a modifier button (i.e., M1, M2, etc.) is selected, a pop-up window will appear, where users can select a modifier to attach to the CPT code. After selecting the appropriate modifier, click **Ok**.
+Modifiers display in the **Billing and Charges** section of encounters, after a Billing code has been added. Modifiers are labeled **M1**, **M2**, **M3**, and **M4** to signify the order of the modifiers going onto a claim. When a modifier button (i.e., M1, M2, etc.) is selected, a pop-up window will appear, where users can select a modifier to attach to the Billing code. After selecting the appropriate modifier, click **Ok**.
 
 ### Fee Schedules
 
-Fee schedules are used to manage pricing for provided services, dependent upon a specified insurance plan and the billing code(s) submitted. In order to utilize fee schedules, CPT codes and picklists must be previously entered into the system. Fee schedules cannot be managed without the proper security permissions, including those needed to add or change fee schedules in insurance plans. Ensure the appropriate users have the proper security role with **Manage Fee Schedule** and **Manage Insurance Plans** set to *Yes*; or simply customize the security settings of a designated user, as needed. Once set, begin managing fee schedules by navigating to the [Fee Schedule](https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule) tab of the **Control Panel**.
+Fee schedules are used to manage pricing for provided services, dependent upon a specified insurance plan and the billing code(s) submitted. In order to utilize fee schedules, Billing codes and picklists must be previously entered into the system. Fee schedules cannot be managed without the proper security permissions, including those needed to add or change fee schedules in insurance plans. Ensure the appropriate users have the proper security role with **Manage Fee Schedule** and **Manage Insurance Plans** set to *Yes*; or simply customize the security settings of a designated user, as needed. Once set, begin managing fee schedules by navigating to the [Fee Schedule](https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule) tab of the **Control Panel**.
 
 ### Insurance Plans
 
@@ -268,7 +268,7 @@ Some of the most commonly changed user preferences are:
         * <strong>End Time</strong> - Use this option to specify the preferred end time for all schedules.
 * <strong>EMR</strong>:
     * <strong>Billing</strong>:
-        * <strong>CPT Picklist</strong> - When the system is set up to use CPT codes, this user preference allows users to select a default CPT picklist to display.
+        * <strong>Billing Picklist</strong> - When the system is set up to use Billing codes, this user preference allows users to select a default Billing picklist to display.
 * <strong>Orders</strong>:
     * <strong>Defaults</strong>:
         * <strong>Ordering Physician</strong> - Begin typing the first or last name of the preferred default ordering physician. Select the appropriate name from the autocomplete. The selected physician will default to the Ordering Physician field in order requests. The autocomplete pulls from the Physicians department and shows active and login-disabled users, in case there are ordering physicians that do not log into the system.
@@ -290,7 +290,7 @@ Some of the most commonly changed user preferences are:
 * [Document Type Tab](../../functions/system-configuration/document-type-tab.md)
 * [Provider Organization Setup](../../functions/system-administration/system-controls/provider-organization-setup.md)
 * [Provider Organization - Adding Users to a PO](../../functions/system-administration/system-controls/adding-users-to-a-provider-organization.md)
-* [CPT Code Editor and Picklists](https://drive.google.com/open?id=17lF5jX7q3_oBclS7j9Y5bnpEScivaFnrSwrgQT-0yj8)
+* [Billing Code Editor and Picklists](https://drive.google.com/open?id=17lF5jX7q3_oBclS7j9Y5bnpEScivaFnrSwrgQT-0yj8)
 * [Fee Schedules](../../functions/system-configuration/fee-schedules.md)
 * [Insurance Summary - Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.md)
 * [Insurance Eligibility Tab](../../functions/e-chart/insurance-eligibility-tab.md)
