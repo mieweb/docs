@@ -1,108 +1,99 @@
 ---
 id: '1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 title: 'Fee Schedules'
-date: '2024-07-22T13:25:00.906Z'
-version: 89
-lastAuthor: 'janderson'
+date: '2025-04-07T16:57:31.848Z'
+version: 120
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
+  - '../financial-functionality/finding-fee-schedules.md'
+  - '../financial-functionality/creating-fee-schedules.md'
+  - '../financial-functionality/duplicating-fee-schedules.md'
+  - '../financial-functionality/adding-items-to-fee-schedules.md'
+  - '../system-administration/data-migration/fee-schedule-import-tool.md'
   - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
 ---
-In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans. In order to utilize Fee Schedules, you must have CPT codes and picklists entered via the CPT codes module & tab. See other help instructions named *CPT Codes tab.pdf*
+In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans. In order to utilize Fee Schedules, you must have billing codes and picklists entered via the Billing Codes editor.
 
-## Search for Existing Profile and See Details
+## Search for Existing Fee Schedules and See Details
 
-Log into {{% system-name %}} . Click the CONTROL side menu tab, then click the FEE SCHEDULE tab at the top. This opens the *Fee Schedule Profile Search*.
+Log into {{% system-name %}} . Click the CONTROL side menu tab, then click the FEE SCHEDULE tab at the top. This opens the *Fee Schedule Search*.
 
-![](../fee-schedules.assets/ae17d7fe942ec9a65500a8b9f209edc5.png)
+![](../fee-schedules.assets/253bf206c465cae38a19374968e1488e.png)
 
-Start to type in the first few characters of the **profile name** you wish to search for then click the *search* button. It will also attempt to auto-complete and give you drop-down choices of the profiles that match your typing.
+Within the Fee Schedules screen, it will list existing active Fee Schedules that are configured for your system.
 
-If you want to see an entire list of existing profiles, simply put your cursor (mouse) in the field and hit the *down arrow* button on your keyboard ↓. This will show the drop-down of all fee schedule profiles that exist. You may enter your Profile Fee schedules by codes or numeric or names. You may not want to enter any other fee schedules and only will work off the *default* profile.
+![](../fee-schedules.assets/720ead8eec7af9df7e34a21a85865569.png)
 
-![](../fee-schedules.assets/7b327655735957a19d4cfc67a8b3240d.png)
+If you wish to limit or search for a specific Fee Schedule, simply use the search criteria fields available within the screen.
 
-The **Edit Default Profile** link is to change anything in the master/across the board/standard fee schedule. When you click this, it may take a few minutes to open on your screen depending on how many codes you have entered in your system. This is the huge master/across the board/standard fee schedule for your system. Any other individual profiles would be searched for and edited using the profile name search described above.
+![](../fee-schedules.assets/aec78dbf6c6d1477bf648303c1ef8f0a.png)
 
-![](../fee-schedules.assets/b74df296be8dc872e44417f457792a04.png)
+If you want to see an entire list of existing configured Fee Schedules, simply click the Fee Schedule List hyperlink available at the top right corner.
 
-## Adding a New Profile
+![](../fee-schedules.assets/b07726bbd4f3c3c46cf3760bc4c0ac29.png)
 
-If you searched and didn't find an existing profile and needed to add a new fee schedule profile, simply type in the name of the profile, click the *search* button and it will pop up a warning that it doesn't find that profile and asks if you want to add a profile with that name you typed.
+For more information, refer to [Finding Fee Schedules](../financial-functionality/finding-fee-schedules.md) guide.
 
-![](../fee-schedules.assets/ae08afdf5722bf166c9aea7a2156ddd7.png)
+## Adding a New Fee Schedule
 
-Link any CPT codes & amounts to the new profile you added, simply use the CPT Code & Amount fields provided at the end of the listed profile.
+If you searched and didn't find an existing Fee Schedule and need to add a new Fee Schedule, simply click the Add New Fee Schedule hyperlink available at the top right OR the *Add Fee Schedule* button available at the top right of the existing fee schedules listing.
 
-You must enter a CPT code, then an amount, then click the ADD button to link cpt codes & amounts to a fee schedule profile. Then you can continue to add many more cpt codes & corresponding amounts to that fee schedule profile.
+![](../fee-schedules.assets/7618fb1ff32f85c4bdb9786db9b2551c.png)
 
-![](../fee-schedules.assets/8dc3cca0d94bb4f7e30f57e758d88166.png)
+A pop-up window will display to *Add New Fee Schedule* to your system.  Key in the Fee Schedule name and any date range applicable.
 
-When you are all done adding cpt codes/amounts to that profile, you **must click the SUBMIT CHANGES** button at the very end. This is a final submission/save. It will not save anything you added if you do not perform this at the end.
+![](../fee-schedules.assets/561755d7c9820873e6c6ef8c1ab3c2d8.png)
 
-## Editing Existing CPT Codes or Amounts from Existing Profiles
+Click the SAVE button to save a Fee Schedule name to the system.  For more information, refer to [Creating Fee Schedules](../financial-functionality/creating-fee-schedules.md) guide.  For more information on how to duplicate an existing fee schedule, refer to [Duplicating Fee Schedules](../financial-functionality/duplicating-fee-schedules.md) guide.
 
-Type in the profile name you need to edit something in.
+## Add Fee Schedule Item(s) to a Fee Schedule
 
-Click the SEARCH button. It will then show the entire profile details for that profile you need to edit something in. It may take a minute or two to open the profile details. If there are a lot of cpt codes/charges attached to a profile, it takes longer to open.
+Once you've found the fee schedule (or added a new fee schedule) in the system, you click on the Fee Schedule name/profile (it's a hyperlink) to see the Fee Schedule Item components that make up that fee schedule.  However, there is visibility to the count of Fee Schedule Items it has currently in total.
 
-![](../fee-schedules.assets/ac30246a629a14a3e33903836b3bba6a.png)
+![](../fee-schedules.assets/5c938d2e31318274ea7b9634e61cc261.png)
 
-**Code:** Could be CPT code or other inventory codes supported for pricing fee schedules
+Once you click on the specific Fee Schedule name (profile) its *Fee Schedule Items/components* will display underneath it, if any exist.
 
-**Code Type:** Choose if it's CPT Code or Inventory ID code.
+![](../fee-schedules.assets/51c4dd02f641d3ba9e208b589803743f.png)
 
-* To edit an amount attached to that profile, simply click the <strong>edit</strong> button in the options column to the right of the specific CPT code/amount listed. Code Types &Codes are not editable since code_type participates in the primary key for the fee_schedules table. You would have to remove that line and re-enter correctly if needed to make an edit to the Code or Code Type. It will then open up that CPT code/amount line. You can change the amount. <strong>The amount must be typed with 4 dollar digits, period, and then 2 cent digits.</strong> To make a specific dollar amount, the dollar amount must have 4 digits, then the period/decimal point, and then cents is 2 digits. Do not enter any dollar signs or anything else but numeric and a decimal point.
+To add a Fee Schedule Item to the Fee Schedule, simply click the *Add Fee Schedule Item* button at the far right of the Fee Schedule details.
 
-![](../fee-schedules.assets/6af6ddc3a4a35bdc5414fad837be107e.png)
+![](../fee-schedules.assets/60e7365e6be5da51dafdd08ce5445c41.png)
 
-* Click OK when done. When you are done editing ANY AND ALL CPT codes, you <strong>must click the SUBMIT CHANGES</strong> button at the very bottom to submit the final edits/changes, etc or nothing will be changed/saved/stored.
+A pop-up window to *Add Fee Schedule Item* will display where you can key in the appropriate fields of data needed.  For more information, refer to [Adding Items to Fee Schedules](../financial-functionality/adding-items-to-fee-schedules.md) guide.
 
-## Delete a CPT Code & Amount
+![](../fee-schedules.assets/b07bff698045ccae13adf7f9510abfad.png)
 
-Simply click the [ - ] minus button to the right of the cpt code/amount you wish to totally delete. It will put a strike-out line through it. Again, you **must click the SUBMIT CHANGES** button at the very bottom of the profile details listing to submit the final edits/changes/deletions you did or nothing will be changed/saved/stored for the profile you are in.
+Click the SAVE button to save your work, or click the ADD ANOTHER  button to save this item to the fee schedule and stay on the *Add Fee Schedule Item* pop-up window to key in another, until you are finished.
 
-![](../fee-schedules.assets/d87e0ba8bde7d314ee54f4edfed43520.png)
+## Link a Specific Fee Schedule to Insurance Plan(s)
 
-![](../fee-schedules.assets/ca53aa89572fac41fc125bc15aefd110.png)
+In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or link fee schedules to Insurance Plan(s), you must have security permission to Manage Insurance Plans.
 
-If you made a mistake, you can reverse and click the [ + ] plus sign (in the options column) to reverse the deletion (remove the strike-out). You can reverse whatever you like if you haven't clicked the SUBMIT CHANGES button yet.
+From the CONTROL side menu tab. Then click the INSURANCE PLANS tab at the top.
 
-## Attach a Specific Fee Schedule to Insurance Plans
+![](../fee-schedules.assets/305da3b71e265e9c68c181befc4254e8.png)
 
-In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans.
+Find the insurance plan you wish to link a Fee Schedule to.  Checkmark the Insurance Plan needed and click the EDIT button.
 
-Log into {{% system-name %}} . Click the CONTROL side menu tab. Then click the INSURANCE PLANS tab at the top.
+![](../fee-schedules.assets/0f9ab4bd1d5742434a485415faaf185a.png)
 
-![](../fee-schedules.assets/23444438958a56ced6f4494f49c65e9d.png)
+After you click edit for a specific Insurance Plan, the *Edit Insurance Plan* pop-up window will display. You can see the details and then set or change the *Fee Schedule* field.
 
-Find the insurance plan you wish to tag to a Fee Schedule Profile. After you find the insurance plan, you click edit to the right of that specific insurance plan you want.
+![](../fee-schedules.assets/d1bf728d19ea08830a94c47e68416616.png)
 
-![](../fee-schedules.assets/36170fd4d3550ae9f9e5de81f9149dec.png)
+In the **Fee Schedule** field, begin typing the name of the Fee Schedule you want this insurance plan attached/linked to. It will auto-complete choices of Fee Schedules that exist.
 
-After you click edit on the insurance plan, the *Edit Insurance Plan* screen will open. You can see the details and then set or change the *Fee Schedule Profile* field.
+Make your selection and click the SAVE button.
 
-![](../fee-schedules.assets/7081f93a93f81467dcfb787b950cf512.png)
-
-In the **Fee Schedule Profile** field, begin typing the name of the profile you want this insurance plan attached to. It will auto-complete you choices of fee schedule profiles that exist.
-
-After you've selected a fee schedule profile and have it entered in that field, click the SAVE button at the bottom. It will give you a confirmation at the top that the insurance plan was updated successfully.
-
-If you need to change/edit a profile an insurance plan has on it, just edit the insurance plan and select/type in the profile you wish to change it to. Then click the SAVE button at the bottom.
-
-To **remove** a specific Fee Schedule Profile from a specific insurance plan entirely, edit the insurance plan and simply clear out (delete out) the profile name from that field. When the Fee Schedule Profile field is all blank, click the SAVE button at the bottom. That insurance plan then will not have that specific profile attached to it anymore. It uses the standard/default profile.
-
-The prices you enter into the default fee schedule or any specific fee schedule can be shown on the encounter ‘view'/document or any other additional view the encounter creates. Contact your MIE Implementer to have this attribute added to the layout.
-
-![](../fee-schedules.assets/a81e2564e124f3fd1c6a4777acc7ed51.png)
+To **remove** a specific Fee Schedule being linked on a specific insurance plan entirely, edit the insurance plan and simply clear out (delete out) the Fee Schedule name from that field. When the Fee Schedule field is all blank, click the SAVE button. That insurance plan then will not have any specific Fee Schedule attached to it anymore.
 
 ## Import Fee Schedules
 
-You can use the *Data Import* tool in {{% system-name %}} to download your fee schedules and corresponding CPT codes into {{% system-name %}} quickly in mass. See other help documentation named *Data Import.pdf*.
-
-![](../fee-schedules.assets/806907ca2e4721e8d45ae694ae19f7c0.png)
+You can use the Data Import tool in {{% system-name %}} to download your fee schedules and corresponding billing codes into {{% system-name %}} quickly en masse.  For more information, refer to [Fee Schedule Import Tool](../system-administration/data-migration/fee-schedule-import-tool.md) guide.
 
 ## Learning Management System
 
