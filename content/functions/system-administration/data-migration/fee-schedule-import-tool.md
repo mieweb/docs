@@ -1,9 +1,9 @@
 ---
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Fee Schedule Import Tool'
-date: '2024-12-18T13:55:56.892Z'
-version: 32
-lastAuthor: 'bhamm'
+date: '2025-04-07T16:59:59.593Z'
+version: 42
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
@@ -35,22 +35,22 @@ The fee schedule column definition shall contain all columns listed below regard
 <td>Name of fee schedule</td>
 </tr>
 <tr>
-<td>CPT Code</td>
+<td>Billing Code</td>
 <td>char 15</td>
 <td>R</td>
-<td>CPT code to load</td>
+<td>Billing code to load</td>
 </tr>
 <tr>
 <td>Description</td>
 <td>char 255</td>
 <td>R</td>
-<td>Description of the CPT Code</td>
+<td>Description of the Billing Code</td>
 </tr>
 <tr>
 <td>Amount</td>
 <td>double(9,2)</td>
 <td>R</td>
-<td>Dollar amount for CPT Code (max 9 digits before decimal, 2 digits after, ie 123456789.00)</td>
+<td>Dollar amount for Billing Code (max 9 digits before decimal, 2 digits after, ie 123456789.00)</td>
 </tr>
 </table>
 
@@ -58,12 +58,12 @@ The fee schedule column definition shall contain all columns listed below regard
 
 ### Fee Schedule Example
 
-This example shows how to import multiple CPT codes into 1 fee schedule labeled 'DEF Biz'.
+This example shows how to import multiple Billing codes into 1 fee schedule labeled 'DEF Biz'.
 
 {{% pre %}}
 ```
 
-Fee Schedule Name,CPT Code,Description,Amount
+Fee Schedule Name,Billing Code,Description,Amount
 DEF Biz,13153,REPAIR WOUND/LESION ADD-ON,$291.00
 DEF Biz,15050,SKIN PINCH GRAFT,$751.00
 DEF Biz,16000,INITIAL TREATMENT OF BURN(S),$120.00
