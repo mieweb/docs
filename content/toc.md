@@ -680,6 +680,7 @@ wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
             * [Device Interface - Vital Signs](functions/system-administration/interfaces/device-interface-vital-signs.md)
             * [Device Interface - Welch Allyn CardioPerfect](functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md)
             * [Device Interface - Welch Allyn Spirometry](functions/system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
+            * [DirectTrust Email](functions/system-administration/interfaces/directtrust-email.md)
             * [E-ClinicalWorks](functions/system-administration/interfaces/e-clinicalworks.md)
             * [HL7 - RESTful](functions/system-administration/interfaces/hl7-restful.md)
             * [HL7 Segment Definitions](functions/system-administration/interfaces/hl7-segment-definitions.md)
