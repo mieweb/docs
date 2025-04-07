@@ -1,9 +1,9 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
-date: '2024-10-15T20:20:00.237Z'
-version: 77
-lastAuthor: 'auhrick'
+date: '2025-04-07T17:12:00.463Z'
+version: 89
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
@@ -72,9 +72,9 @@ The Add Charge window appears. Enter in each field as appropriate.
 
 * In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
 * In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
-* In the ‘Item' field, type a description of the item. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its CPT code (if it has one) appears in the CPT Code field.
-    * Note: If a client is authorized to use CPT and loads them in their database, the CPT will pull forward from the Orders-List Editor.
-* A charge will not drop in an encounter without a code in the CPT field. You do not need to use a CPT code but a string of alpha/numeric characters needs to be listed here in order for the charge to drop on the encounter.
+* In the ‘Item' field, type a description of the item. The system displays matching items. Select the appropriate one. Its name appears in the Item field and its billing code (if it has one) appears in the billing Code field.
+    * Note: If a client is authorized to use billing and loads them in their database, the billing will pull forward from the Orders-List Editor.
+* A charge will not drop in an encounter without a code in the billing field. You do not need to use a billing code but a string of alpha/numeric characters needs to be listed here in order for the charge to drop on the encounter.
 * In the ‘Reason #1' through ‘Reason #4' fields as appropriate, type a description of a diagnosis or a diagnosis code to associate with this item. The system displays matching items. Select the appropriate one.
 * To the right, from the Modifiers List, select an appropriate modifier. The selection appears in the Modifiers field. If no modifier is necessary, skip.
 * In the ‘Quantity' field, type the quantity of the item to include each time this item is used in a visit.
