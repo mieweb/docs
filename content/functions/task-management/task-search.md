@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 

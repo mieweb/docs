@@ -7,7 +7,7 @@ lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1D-Ah67z4hSAKLf0PITZr19h2pvlg3rVBva6P3yl1bno'
-wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 For those specializing in occupational health needs, the burden of reporting and compliance is an ongoing commitment. Because of this, {{% system-name %}} makes available various resources and a compilation of documentation meant to streamline the varying requirements and corporate requirements of occupational medicine.
 

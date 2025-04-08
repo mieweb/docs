@@ -11,7 +11,7 @@ links:
   - '../document-management/documents-and-forms/link-documents-to-encounters.md'
   - '../order-and-result-management/order-requests-grid.md'
 source: 'https://drive.google.com/open?id=1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
-wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 The ‘plan' area of an encounter allows a Provider to create orders for the chart. The below explains how a Provider enters items into the plan area by using Make Order link or Create Order link in the plan area and how it renders a complete order to print/fax right from the encounters view. This allows the Provider to create & generate the order requisition right from the encounter and eliminates having to go to unordered orders or the patient's chart to render the order requisition that the Provider created in the encounter.
 

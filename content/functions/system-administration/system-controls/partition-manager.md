@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
-wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 The Partition Manager is a function of {{% system-name %}} that allows users the ability to create, update, and delete patient partitions used to assign MR numbers to patients. This powerful tool affects several areas of {{% system-name %}} including: Patient Registration, Document Queue, and Interfaces using Data send auto routes.
 
