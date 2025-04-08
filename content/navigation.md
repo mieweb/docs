@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-07T13:39:58.818Z'
-version: 1170
+date: '2025-04-08T16:37:57.743Z'
+version: 1178
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -123,6 +123,7 @@ links:
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/portal-management/portal-portlet.md'
+  - 'functions/portal-management/supervisor-portal-scheduling.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
   - 'functions/encounters.md'
@@ -872,6 +873,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
+        * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
     * [Encounters](functions/encounters.md)
