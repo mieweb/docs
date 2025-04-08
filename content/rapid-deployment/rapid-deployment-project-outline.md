@@ -1,9 +1,9 @@
 ---
 id: '1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
 title: 'Rapid Deployment Project Outline'
-date: '2020-02-27T21:24:04.139Z'
-version: 29
-lastAuthor: 'aquandt'
+date: '2025-04-07T17:28:12.020Z'
+version: 34
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'rapid-deployment-agenda.md'
@@ -73,7 +73,7 @@ links:
   - '../functions/system-administration/security/security-role-settings.md'
   - '../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
 source: 'https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 ## Project Initiation
 
@@ -144,7 +144,7 @@ wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
         * [Document Types](../functions/system-configuration/document-type-tab.md)
         * [Chart Types](../functions/system-configuration/chart-types-editor.md)
         * [Chart Tabs](../functions/system-configuration/chart-tabs.md)
-        * [CPT Codes](https://drive.google.com/open?id=17lF5jX7q3_oBclS7j9Y5bnpEScivaFnrSwrgQT-0yj8)
+        * [Billing Codes](https://drive.google.com/open?id=17lF5jX7q3_oBclS7j9Y5bnpEScivaFnrSwrgQT-0yj8)
         * Billing
             * [Fee Schedules](../functions/system-configuration/fee-schedules.md)
             * Insurance Plans
