@@ -9,7 +9,7 @@ links:
   - 'finding-fee-schedules.md'
   - 'viewing-all-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1cOmkqlSjVkfZtpNOOYSyGMM6K3pE26qzEDVZXOeM04M'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
 ---
 1. [Find the fee schedule](finding-fee-schedules.md) to which to add items or [view all fee schedules](viewing-all-fee-schedules.md). Select the name of the one to which to add items. Items already in the fee schedule, if any, appear in the <em>Fee Schedule Items</em> section.
 2. At the right of the <em>Fee Schedule Items</em> area, select the <strong>Add Fee Schedule Item</strong> button. The <em>Add/Edit Fee Schedule Item</em> window appears.

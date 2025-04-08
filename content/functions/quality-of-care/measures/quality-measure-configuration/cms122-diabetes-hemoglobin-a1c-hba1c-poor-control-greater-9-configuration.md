@@ -13,7 +13,7 @@ links:
   - '../quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12'
 source: 'https://drive.google.com/open?id=1vY5RSvNydLUU9fQTVcjfgdBRsuzLDSlKaNP1cctZvEE'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '860e59f919b06774886561eebaacd677071ab78c'
 ---
 ## Overview
 
