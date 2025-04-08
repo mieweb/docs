@@ -1,13 +1,13 @@
 ---
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
-date: '2024-10-29T16:14:47.646Z'
-version: 183
-lastAuthor: 'auhrick'
+date: '2025-04-07T17:25:01.180Z'
+version: 189
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 The *Encounter Types* module allows users to view system *Encounter Visit Types* and *Service Types*. *Encounter Visit Types* are typically used in clinical/ in-office workflows to capture data. *Service Types* are used on a limited basis for {{% system-name %}} utilizing custom hospital workflows only. The system comes preloaded with several preconfigured *Encounter Visit Types*. Service Types are typically custom and not preloaded. System Administrators can also add custom encounter and service types.
 
@@ -41,7 +41,7 @@ To edit an encounter type or modify configuration attributes, click the Edit lin
 
 **Restricted Viewing:** When selected, the user will be prompted to enter a list of users and/or departments that are *allowed* to utilize this visit type.
 
-**Limit CPT Picklists:** Check this box and use the listedit which appears to choose which CPT code picklists are available in an encounter of this visit type. If this box is unchecked or this listedit is empty when this visit type is saved, all CPT code picklists in this system will be available in encounters of this visit type.
+**Limit Billing Picklists:** Check this box and use the listedit which appears to choose which Billing code picklists are available in an encounter of this visit type. If this box is unchecked or this listedit is empty when this visit type is saved, all Billing code picklists in this system will be available in encounters of this visit type.
 
 **Chart Type:** Select the chart types for which this encounter should be accessible.
 
