@@ -1,14 +1,14 @@
 ---
 id: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
 title: 'Base Configuration'
-date: '2020-02-27T21:27:18.394Z'
-version: 36
-lastAuthor: 'aquandt'
+date: '2025-04-07T17:15:20.310Z'
+version: 43
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-system-configuration.md'
 source: 'https://drive.google.com/open?id=1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 ## Purpose
 
@@ -30,7 +30,7 @@ Review the standard  {{% system-name %}} workflows and gather information neede
     * Review Chart Tabs/Document Types
     * Determine Employer Organization Needs (if any)
     * Determine Provider Organization Needs (if any)
-    * Load CPT Codes, CPT Picklists, and Modifiers (if any)
+    * Load Billing Codes, Billing Picklists, and Modifiers (if any)
     * Load Fee Schedule(s) (if any)
     * Load Insurance Plans (if any)
     * Review the My Settings User Preferences
