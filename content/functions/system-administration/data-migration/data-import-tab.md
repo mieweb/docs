@@ -1,14 +1,14 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2024-07-16T14:05:48.793Z'
-version: 122
-lastAuthor: 'janderson'
+date: '2025-04-07T17:13:22.302Z'
+version: 129
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
 source: 'https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
@@ -89,7 +89,7 @@ First and Last name are optional fields when importing observations. If names ar
 
 ## Fee Schedule Import
 
-Fee schedule import will create/update fee schedules and CPT codes in {{% system-name %}} . If the file contains duplicate CPT codes, then subsequent duplicate CPT codes are inserted with comma and count, ie A123,2 and the fee that is associated to them. The tool will check the CPT Manager to ensure the code exists in your {{% system-name %}} database. If the code exists, then it will insert the code and fee into the fee schedule. If it does not exist, a CPT will be added to the CPT Manager with the description on the Import tool, then it will insert the code and fee schedule.
+Fee schedule import will create/update fee schedules and Billing codes in {{% system-name %}} . If the file contains duplicate Billing codes, then subsequent duplicate Billing codes are inserted with comma and count, ie A123,2 and the fee that is associated to them. The tool will check the Billing Manager to ensure the code exists in your {{% system-name %}} database. If the code exists, then it will insert the code and fee into the fee schedule. If it does not exist, a Billing will be added to the Billing Manager with the description on the Import tool, then it will insert the code and fee schedule.
 
 ![](../data-import-tab.assets/471d0b2341881978eaa13662fbb05d44.png)
 
