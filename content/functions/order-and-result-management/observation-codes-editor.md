@@ -10,7 +10,7 @@ links:
   - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
   - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
@@ -35,11 +35,11 @@ If an observation code is not available, or a new observation needs to be added,
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
     a.  <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
     b.  <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
-        1. Decimal: Any numerical data.
-        2. Text: Any non-numerical data, not classified under the alternative choices.
-        3. Date/Time: Any date/time observations.
-        4. Custom Discrete Values: User-defined data, or options.
-        5. Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
+        i. Decimal: Any numerical data.
+        ii. Text: Any non-numerical data, not classified under the alternative choices.
+        iii. Date/Time: Any date/time observations.
+        iv. Custom Discrete Values: User-defined data, or options.
+        v. Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
     c.  <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
     d.  <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
     e.  <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.

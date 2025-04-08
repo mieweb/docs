@@ -12,7 +12,7 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 ![](../identrust-certificate-registration-step-by-step.assets/e714b45dbc80ccc03a7bd9d5253800b8.png)
@@ -68,7 +68,7 @@ The first step requires the selection of the certificate. There are 3 types of C
 1. Every certificate provided through IdenTrust for EPCS has different year options for the validity period. The 2-year option is automatically selected for mobile authentication.
 2. The USB Token option requires the purchase of the HID USB Token, used to store the digital certificate.
     a.  <strong>HID USB Token - $92.00</strong>
-        1. This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
+        i. This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
     b.  SafeNet USB Token use existing - $0.00
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.

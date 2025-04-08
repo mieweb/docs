@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
@@ -57,7 +57,7 @@ Following the instructions below, *update* these system settings, if you are on 
     a.  NMC, Registrations, Set New Patient at Temporary = 1
     b.  NMC, User Security, Force Security Role = 1
     c.  NMC, Pages, Client = Applicant
-        1. Assigns <em>Applicant</em> as the layout module.
+        i. Assigns <em>Applicant</em> as the layout module.
     d.  NMC, Signup, Custom Site Realm = Applicant
     e.  Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
@@ -69,7 +69,7 @@ This partition will only need to be configured if you are on a legacy database b
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
     a.  <strong>Partition</strong>:  APP
-        1. The partition must match the <em>Default on Signup</em> system setting.
+        i. The partition must match the <em>Default on Signup</em> system setting.
     b.  <strong>WC GUID</strong>:  Blank
     c.  <strong>Name</strong>:  APP
     d.  <strong>Description</strong>:  Applicant
