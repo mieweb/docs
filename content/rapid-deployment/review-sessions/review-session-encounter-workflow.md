@@ -1,9 +1,9 @@
 ---
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
-date: '2022-11-02T11:35:05.491Z'
-version: 419
-lastAuthor: 'bhamm'
+date: '2025-04-07T17:39:15.605Z'
+version: 426
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/unit/view/id:2703'
@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -165,7 +165,7 @@ Determine what users or departments will open/create specific encounters, as wel
 
 Additionally, if any encounter type is used fairly regularly, {{% system-name %}} allows for easy access from the Quick Links portlet. To enable this feature, always remember to flag the Quick Add option when configuring the encounter types being used most frequently.
 
-One last thing to consider when configuring encounter types is the business need for charge capture. Are chargeable services currently being tracked? To consider how {{% system-name %}} can streamline cost tracking and fee schedules, simply navigate to the [Fee Schedule tab](https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule) of the Control Panel and begin [editing the Default Profile](https://system/?f=admin&s=fee_schedule&profile_id=0). Here, users with the necessary permissions may review the default CPT codes and their associated costs, adding, editing, or removing any/all entries, as needed.
+One last thing to consider when configuring encounter types is the business need for charge capture. Are chargeable services currently being tracked? To consider how {{% system-name %}} can streamline cost tracking and fee schedules, simply navigate to the [Fee Schedule tab](https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule) of the Control Panel and begin [editing the Default Profile](https://system/?f=admin&s=fee_schedule&profile_id=0). Here, users with the necessary permissions may review the default Billing codes and their associated costs, adding, editing, or removing any/all entries, as needed.
 
 ### Appointment Type Default Encounter Type
 
