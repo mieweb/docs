@@ -36,7 +36,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -291,9 +291,9 @@ All clients should review the available reports to determine if any additional r
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
     a.  Do Case Managers need to have limited/restricted access?
-        1. If so, List of all Case Managers needed for restricted access setup
-        2. What restricted Chart tabs, print definitions, or documents are needed?
-        3. What access is needed for Case Managers?
+        i. If so, List of all Case Managers needed for restricted access setup
+        ii. What restricted Chart tabs, print definitions, or documents are needed?
+        iii. What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?

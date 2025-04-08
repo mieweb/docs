@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SDPkh2H8ENB3bFSEOZw7Iif5xjRr9aaL1oxDitm3EhA'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 ## Overview
@@ -53,19 +53,19 @@ Here are the available connection options that the RTS editor supports
         ```
 4. SCP
     a.  Format: 'scp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
-        1. Note username/password are on the RTS entry itself
+        i. Note username/password are on the RTS entry itself
     ```
         Example: scp|192.168.34.27||data/outbound|testfile.dat|
         ```
 5. SFTP
     a.  Format: 'sftp'|[IP/hostname]|[port]|[subdir name]|[base filename]|[keyfile]
-        1. Note username/password are on the RTS entry itself
+        i. Note username/password are on the RTS entry itself
     ```
         Example: sftp|192.168.34.27||data/outbound|testfile.dat|
         ```
 6. HTTPS (default)
     a.  Format: [URL]|[username CGI variable name]|[password CGI variable name]|[message CGI variable name]
-        1. Note username/password are on the RTS entry itself
+        i. Note username/password are on the RTS entry itself
     ```
         Example: https://mywebchart.com/omg/webchart.cgi|login_user|login_passwd|message
         ```

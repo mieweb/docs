@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 markup: 'pandoc'
 ---
 The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
@@ -51,15 +51,15 @@ You must have security role access to reports and to viewing transcription stati
     f.  <em>Subtract Template Stats:</em> To exclude from transcription statistics words contained in a template on which the transcribed document is based, select this check box.
     g.  <em>Transcription Type:</em> To produce a report limited to one type of information transcribed, select that type. If you select <em>All Transcriptions</em> or <em>Encounter Observations</em>, the system resets the <em>Document Type</em> field to <em>All</em> and the check box of the <em>Exclude Selected Document Type</em> is cleared and the field made unavailable because these are only applicable to document types.
     h.  <em>Transcribed Date Range #1:</em> Do one:
-        1. Leave all month, day, and year fields blank to show transcription statistics from all time.
-        2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
-        3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
-        4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        i. Leave all month, day, and year fields blank to show transcription statistics from all time.
+        ii. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        iii. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+        iv. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
     i.  <em>Transcribed Date Range #2:</em> To see and compare transcription statistics of two ranges of dates, do one of the following. To not see nor compare transcription statistics of two ranges, of dates, leave these fields empty.
-        1. Leave all month, day, and year fields blank to show transcription statistics from all time.
-        2. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
-        3. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
-        4. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        i. Leave all month, day, and year fields blank to show transcription statistics from all time.
+        ii. To show transcription statistics from a period of time, type in the left and right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
+        iii. To show transcription statistics from a date to today, type in the left month, day, and year fields or select <strong>Calendar</strong> to pick a date from a calendar. Leave the right month, day, and year fields blank.
+        iv. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
 ![](../transcription-report.assets/2d3508c79c37c6c0cc2c2a6567453fc7.png)
