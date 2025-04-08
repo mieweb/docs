@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tumzkTBh0NospSPjdaGGHBFgQH6_k5j-sFMaSI0VnSY'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 ---
 Reporting is an important aspect of any business. That's why {{% system-name %}} provides a wealth of resources to cover almost any reporting needs.
 

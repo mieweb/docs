@@ -6,7 +6,7 @@ version: 55
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 ---
 An IT solution that combines clinical care, occupational health, compliance, *and* engagement in a single, cloud-based, interoperable platform is not something you'd expect right out of the box.  {{% system-name %}}  not only creates a cost-effective solution to fostering a healthy workforce, it provides the means to creating a culture of value-based care and healthy living, right out of the box.
 

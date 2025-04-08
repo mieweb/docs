@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../e-m-calculator.md'
 source: 'https://drive.google.com/open?id=1qM1CZJczQo_xn9ccF_ltJGaSpJFx-quIby_9dFBQ588'
-wikigdrive: '2df6deac680edf3f4e35063b01adf72716ae114f'
+wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
 ---
 The E&M Calculator encounter section is an Evaluation and Management Calculator.
 
