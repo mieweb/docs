@@ -1,8 +1,8 @@
 ---
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
-date: '2025-04-08T19:23:53.387Z'
-version: 233
+date: '2025-04-08T19:44:53.758Z'
+version: 236
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -137,7 +137,7 @@ This timeline diagram shows an example of a panel action item that is set for **
 
 A new system setting: WebChart | Health Surveillance | Use Date Range for Entry Actions has been added to databases on RC202503 and newer.
 
-## ![](../health-surveillance-panels-actions.assets/5a9619c464de91061c4734779a850bfd.png)
+![](../health-surveillance-panels-actions.assets/5a9619c464de91061c4734779a850bfd.png)
 
 The system setting is disabled by default, but when/if enabled, it will allow health surveillance panel action item configuration to be configured with start and end dates *upon Entry*.  When/if enabled and if a start and end date range is entered for upon entry items (or its representative entry event it may trigger with), those entry actions will only trigger during the specified start and end timeframe and be due by the end date.
 
