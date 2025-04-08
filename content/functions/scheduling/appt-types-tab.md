@@ -1,23 +1,23 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2024-08-21T16:36:13.026Z'
-version: 248
-lastAuthor: 'janderson'
+date: '2025-04-07T17:26:00.923Z'
+version: 253
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
   - '../reports/using-datavis-grids-data-tools.md'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 markup: 'pandoc'
 ---
 # About Appt Types tab
 
 Use the *Appt Types* tab to view, add, edit, and delete appointment types and appointment templates.
 
-Appointment types are used to set up basic information about frequently-used appointments. For example, an appointment type can be created for new patient appointments and each time it is used, the system automatically applies a current procedural terminology (CPT) code, appointment duration, visit type, and other characteristics to the appointment. Appointment types help ensure appointments are created uniformly and relieve staff of repetitious work.
+Appointment types are used to set up basic information about frequently-used appointments. For example, an appointment type can be created for new patient appointments and each time it is used, the system automatically applies a current procedural terminology (Billing) code, appointment duration, visit type, and other characteristics to the appointment. Appointment types help ensure appointments are created uniformly and relieve staff of repetitious work.
 
 Appointment templates are based on appointment types and refine them by associating with them a service location, a default encounter type for documenting the encounter visit resulting from the appointment, and clinical and scheduling instructions for staff.
 
@@ -49,7 +49,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 5. In the <em>Appointment Type</em> section, make entries or selections in fields as appropriate:
     a.  <em>Active</em>: To make the appointment type active in the system and available to be used after it is created, enable this check box. To make the appointment type inactive in the system and unavailable to be used after it is created, clear this check box.
     b.  <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202203 this field is limited to 10 characters. For release RC202203 and newer the character count was increased to 15 characters.
-    c.  <em>CPT code</em>: Type the appropriate CPT code if licensed to use AMA CPT codes or enter a custom code for billing, auditing, or report purposes. You may also leave this field empty.
+    c.  <em>Billing code</em>: Type the appropriate Billing code if licensed to use AMA Billing codes or enter a custom code for billing, auditing, or report purposes. You may also leave this field empty.
     d.  <em>Duration</em>: Type the amount of time this type of appointment is expected to take.
     e.  <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [Viewing appointment types](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
     f.  <em>Duration given to patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
