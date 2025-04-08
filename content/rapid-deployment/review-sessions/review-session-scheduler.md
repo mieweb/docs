@@ -1,9 +1,9 @@
 ---
 id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
 title: 'Review Session - Scheduler'
-date: '2024-05-21T15:49:02.744Z'
-version: 62
-lastAuthor: 'janderson'
+date: '2025-04-07T17:37:37.620Z'
+version: 69
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler&s=schedules'
@@ -30,7 +30,7 @@ links:
   - '../../functions/scheduling/schedule-management.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447'
 source: 'https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 ## Agenda
 
@@ -132,7 +132,7 @@ Leaving this field blank will allow all appointment types to be scheduled for th
 
 ### Appointment Types & Templates
 
-As part of the schedule setup, there is the ability to specify the types of appointments allowed on a particular schedule, or for a specific schedule resource. Appointment types are created and maintained from the tab, found in the Scheduler module. The {{% system-name %}} system has several default appointment types, as well as encounter types. To review these, simply navigate to the [Appt Types tab](https://system/?func=scheduler&s=apttypes). An appointment type can be configured to default to a specific encounter type, or they may be set up with an associated CPT code, pre-built print definitions, or additional details, as needed. For more information, review the [Appt Types Tab](../../functions/scheduling/appt-types-tab.md) documentation.
+As part of the schedule setup, there is the ability to specify the types of appointments allowed on a particular schedule, or for a specific schedule resource. Appointment types are created and maintained from the tab, found in the Scheduler module. The {{% system-name %}} system has several default appointment types, as well as encounter types. To review these, simply navigate to the [Appt Types tab](https://system/?func=scheduler&s=apttypes). An appointment type can be configured to default to a specific encounter type, or they may be set up with an associated Billing code, pre-built print definitions, or additional details, as needed. For more information, review the [Appt Types Tab](../../functions/scheduling/appt-types-tab.md) documentation.
 
 Additionally, {{% system-name %}} allows the creation of appointment type templates. These templates allow schedules to be customized per scheduling resource needs. For example, Dr. John A. Doe may wish to see Office Visit Follow-Ups for a 15 minute duration, but Dr. Jane B. Doe would like to see the same appointment type for 30 minutes. Use an appointment type template to distinguish any specific differences needing to be represented on behalf of a specific scheduling resource.
 
