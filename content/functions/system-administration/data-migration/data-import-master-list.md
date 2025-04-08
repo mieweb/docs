@@ -1,9 +1,9 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2024-12-18T15:24:22.057Z'
-version: 206
-lastAuthor: 'bhamm'
+date: '2025-04-07T17:31:14.464Z'
+version: 211
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI'
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
 source: 'https://drive.google.com/open?id=12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 This page provides an overview of the ways MIE imports data from a client's legacy EMR (i.e., spreadsheets, custom databases, and other sources) into the  {{% system-name %}} ( {{% sys-name %}} ) system. Most information is imported using CSV files and an application program interface (API).
 
@@ -270,7 +270,7 @@ An **order** is a term used loosely when any method is used to request tests, 
 
 ![](../data-import-master-list.assets/091f58869c49162b8e11458ac8145ee6.png)
 
-A standard orders compendium is included in the initial installation, however there is an editor for a system administrator to manually add/remove/edit orders and order pick lists within the MIE system. In addition, all orders for lab facilities can store the order code, CPT code, and LOINC code.
+A standard orders compendium is included in the initial installation, however there is an editor for a system administrator to manually add/remove/edit orders and order pick lists within the MIE system. In addition, all orders for lab facilities can store the order code, Billing code, and LOINC code.
 
 ![](../data-import-master-list.assets/2ff3dbe8968c66ce3f87fffe9e6884fb.png)
 
@@ -397,7 +397,7 @@ There is an editor in the MIE system to manually add/edit schedules, appointment
 
 ### Fee Schedules
 
-Fee schedule information may be imported from a template. There is an editor within the MIE system to add/edit/remove CPT codes, descriptions and fee schedule information.
+Fee schedule information may be imported from a template. There is an editor within the MIE system to add/edit/remove Billing codes, descriptions and fee schedule information.
 
 ![](../data-import-master-list.assets/7080b2a3bade8a49881d60c20e875d8b.png)
 
