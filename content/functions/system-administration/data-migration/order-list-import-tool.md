@@ -1,14 +1,14 @@
 ---
 id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 title: 'Order List Import Tool'
-date: '2024-01-25T13:02:09.403Z'
-version: 88
-lastAuthor: 'auhrick'
+date: '2025-04-07T17:26:51.127Z'
+version: 93
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
 source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 
@@ -58,7 +58,7 @@ The order list column definition shall contain all columns listed below regardle
 <td>Billing code</td>
 <td>char 30</td>
 <td>O</td>
-<td>CPT code</td>
+<td>Billing code</td>
 </tr>
 <tr>
 <td>Collection instructions</td>
@@ -89,7 +89,7 @@ This example shows how to import multiple order items into the complete order li
 {{% pre %}}
 ```
 
-Order name,Order detail description,Order code,LOINC code,CPT code,Collection instructions,Patient instructions,Force separate order
+Order name,Order detail description,Order code,LOINC code,Billing code,Collection instructions,Patient instructions,Force separate order
 CPSA,Complexed PSA (cPSA),LAB5725,33667-7,84153,"Container: Purple top tube, Storage: Room temperature",Patient fasting not required,N
 BILTO,Bilirubin Total,LAB5017,1975-2,82247,SST,,N
 CREAT,Creatinine,LAB5023,,82565,SST,,N
