@@ -1,9 +1,9 @@
 ---
 id: '1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
 title: 'Review Session - Injection/Immunization Management'
-date: '2020-02-27T21:25:46.347Z'
-version: 26
-lastAuthor: 'aquandt'
+date: '2025-04-07T17:37:10.131Z'
+version: 32
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/injection-immunization-management/injection-tab.md'
