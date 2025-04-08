@@ -1,13 +1,13 @@
 ---
 id: '1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
 title: 'OpenPM Export Appointment Types'
-date: '2024-07-16T19:09:50.195Z'
-version: 35
-lastAuthor: 'auhrick'
+date: '2025-04-07T17:16:05.287Z'
+version: 40
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 ## OpenPM Export Appointment Types
 
@@ -21,7 +21,7 @@ The "Appointment Types" report is designed to export detailed information about 
 2. _active: Indicates whether the appointment type is active (1 for active, 0 for inactive).
 3. Appt Code Link: A link to the appointment code with the option to edit the appointment type.
 4. Appt Code: The code associated with the appointment type.
-5. Cpt Code: The CPT code associated with the appointment type.
+5. Billing Code: The Billing code associated with the appointment type.
 6. Code Description: A description of the appointment type.
 7. Duration: The duration of the appointment type, formatted as HH:MM.
 8. Visit Type: Description of the visit type associated with the appointment type.
