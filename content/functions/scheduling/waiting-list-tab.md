@@ -1,8 +1,8 @@
 ---
 id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 title: 'Waiting List Tab'
-date: '2025-04-09T19:28:07.133Z'
-version: 121
+date: '2025-04-09T19:53:05.608Z'
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ Click *Scheduler* from the left sidebar menu.
 
 If you have the preference in My Settings of FORCE DEFAULT RESOURCES set to Yes, your scheduler view will show all the resources (physicians) schedules that you have added an appt for or edited an appt for. To only show one resource, make sure this is set to No.
 
-Click *Waiting List* tab from top menu of tabs. It will automatically show all people on the waiting list for your practice if the *Resource* in the search field is set at *Select Resource*.
+Click *Waiting List* tab from the top menu of tabs. It will automatically show all people on the waiting list for your practice if the *Resource* in the search field is set at *Select Resource*.
 
 It will also have resource and patient search fields at the top to narrow down a search for someone on the waiting list. This Waiting List will automatically open set to the resource & location you are defaulted to. To view the *entire* waiting list, make Resource set to *Select Resource* and location set to *Any Location* in this search.
 
