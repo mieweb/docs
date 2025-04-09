@@ -2,7 +2,7 @@
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
 date: '2025-04-07T17:25:01.180Z'
-version: 189
+version: 191
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1qZAll0fRZQMFeKgOasa5Ll1ft_IAuJSVG37psolEk58'
 title: 'PSPA 12 - Participation in Private Payer CPIA'
 date: '2020-02-27T20:54:24.739Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

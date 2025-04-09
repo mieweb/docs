@@ -2,7 +2,7 @@
 id: '1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
 title: 'Bubble Forms'
 date: '2024-07-02T16:37:43.554Z'
-version: 68
+version: 69
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

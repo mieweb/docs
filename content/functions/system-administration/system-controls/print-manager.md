@@ -2,7 +2,7 @@
 id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 title: 'Print Manager'
 date: '2020-03-16T22:51:33.990Z'
-version: 37
+version: 38
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
