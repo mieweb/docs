@@ -1,17 +1,17 @@
 ---
 id: '1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 title: 'Transcription Report'
-date: '2024-05-16T13:35:19.003Z'
-version: 70
+date: '2025-04-09T17:58:18.841Z'
+version: 82
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/security/security-role-settings.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 markup: 'pandoc'
 ---
-The transcription report provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
+The Transcription Report and/or Transcription Report - DataVis provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
 
 Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:
 
@@ -35,7 +35,7 @@ Some transcriptions are based on templated documents. Templates include characte
 
 The system can automatically provide a comparison of transcription statistics for two periods of time. When doing so, the system displays the statistics for each period and then the differences between them for each statistic reported. To produce a report including a comparison of statistics, see [*Transcribed Date Range #2*](#transcribed-date-range-2)** field.
 
-You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](../system-administration/security/security-role-settings.md).
+You must have security role access to reports and to viewing transcription statistics before generating transcription reports. The access to reports is controlled by the *Statistics* setting and viewing transcription statistics is controlled by the *Tran Reports* setting in the Security Role Editor. See [Security Role Settings](https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/).
 
 1. Show the side menu. The side menu appears.
 2. From the side menu, select <strong>Reports</strong>.
