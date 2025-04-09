@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2025-03-20T16:41:39.960Z'
-version: 488
+date: '2025-04-09T17:27:28.244Z'
+version: 536
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -97,7 +97,7 @@ For an additional fee, SMS text reminders are available for appointments. If you
 
 The next section is *Patient Visits*.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/f033c5f9597aa82a5396bc3aca92574d.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/14cdeff543e5ba69a35124b38f732a10.png)
 
 * <strong>Resource:</strong> Required field. The resource will default and show/populate the name of the provider(s) whose scheduler view you are set to or last worked in. Simply click the [-] minus button to get rid of any listed resource/provider names if you wish to select a different resource for this appointment. In the resource field, begin typing the last or first name of the provider to schedule with. The system will auto-complete to give you choices of providers that are tied to a department that is linked to the system setting <em>Scheduling Realm</em>. To put someone on a waitlist, the appointment can be set to select the Scheduler Waiting List resource from the auto-complete.   <em>HINT: Hit your down arrow key on your keyboard within the Resource field to see a complete list of resource/provider choices your system has, instead of using the auto-complete if you wish.</em>
 
@@ -108,15 +108,20 @@ The next section is *Patient Visits*.
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/d3d94aa0f160e9f12ba804cf73cf4019.png)
 
+* <strong>In Person, Telehealth Phone, Telehealth Video:</strong> In RC 202503 and newer, users can now denote if a scheduled appointment is to be performed In Person, Telehealth Phone, or Telehealth Video. As databases are upgraded to 202503, In Person, Telehealth Phone, and Telehealth Video will be automatically added as new appointment type categories.
+
+![](../adding-an-appointment-using-the-wizard-tab.assets/29b73309d5e36d55a37533a7ff38f411.png)
+ ****
+
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
     * It does not show outside locations as choices in the auto-complete field. <em>HINT: Hit your down arrow key on your keyboard here to see a complete list of location choices your system has, instead of using the auto-complete if you wish.</em>
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/b8f735cd6cdcec51c4c9160736e06d9e.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/d9dd21d03177b823cfd5028afa5b2a15.png)
 
 * <strong>Date/Time:</strong> Pick the date for the scheduled appointment. Automatically pops-up today's date & time or the specific date & time of the slot you selected when you clicked the yellow time slot in a general scheduler view. Type in a different date using that format, or click <em>Pick Date</em> and it will pop up a calendar to choose your date from.
     * <em>TIP: Use the</em> <strong><em>Find Time</em></strong>'<em> or</em> <strong><em>View Calendar</em></strong>'<em></em> buttons available, to find an empty slot to schedule this specific appointment for (according to the resource, appt type & location's schedule you selected above)
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/1b2debe81a1bae9a1e1b45a6194170f8.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/75f1f01b6334b85597ca6df711cac499.png)
 
 * <strong>To put a patient on the Waiting List</strong> you must click the USE WAITLIST button and the date/time field will clear out, then just click "add" to add the appointment and it will then put this patient in the waiting list, which has separate reporting for visibility.
 
@@ -124,27 +129,27 @@ The next section is *Patient Visits*.
 
 * <strong>Jump To:</strong> You can leave the date/time calendar (from Pick Date method) as today's default, but then simply use the <em>Jump To</em> drop down to get quickly to another week/month, etc date from now. When you then click find time it will open to show free times for that jumped to date.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/27a7bc175bb6ef454b3127ac12646217.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/14df3537359c3d994fac66f4d73a0be4.png)
 
 * <strong>Duration:</strong> This automatically pops-up the duration of the appointment according to the appointment type you selected. To add or subtract time to the appointment, change this field using the numeric specified.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/d14f67a209d6defccfcb73d9bb69a06f.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/7c6c69e8736e5873148bc226fb319d29.png)
 
 * <strong>Find Time:</strong> This works if schedules are set up. When this searches for free time, it needs to have the free time templated. Templated means that a specific provider/resource would have a schedule loaded for that specific location.  Example: your site is open from 8am to 9pm during the week, so you have a schedule set for that time per resource/provider that works that schedule. If you have your date set or used the <em>jump to</em> feature, and you click FIND TIME, it will open up a separate box showing FREE TIMES for that specific resource(s) for that location and for the specific date.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/af005091765cde860b80d10dd34a5fda.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/493fdfce700421a7d04d14a91f95ca70.png)
 
 * Simply click the Select hyperlink for the free appointment slot you wish to grab. It will populate the date/time fields with that selection.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/13935183d81188ad7eb2d06fda812c49.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/66e03f99c6d1f13847f8b07f3ec6e573.png)
 
 * <strong>View Calendar:</strong> Click this button and it will pop-up the Multi-View schedule of the Resource/location/date that you had input. You can click on an open time slot to grab or choose another date from the calendar at the far, right side. When you have selected the time/date in yellow that you wish, then it automatically puts that date and time in the <strong>date/time</strong> box to schedule the appointment for.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/46806542d741603e916004b8e47fa221.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/abfe6f4bbe8f28e8720c33ac2d58d8f3.png)
 
 Once you have your appointment information in the fields, click the SAVE button. It will automatically add that appointment to the system as a scheduled appointment with that resource, location, appointment type on the selected date/time.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/259c61e90137f247c21a3ce006cc10e9.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/5b9ff3730803f5deeb742eccada2b811.png)
 
 Once you've saved the appointment to be scheduled (with the details), the system takes you to the Multi-View of the scheduler with the newly added/scheduled appointment highlighted in **pink**.  Pink is proof that it scheduled that appointment for that resource, location and on the date/time slot indicated.
 
@@ -154,15 +159,15 @@ Once you've saved the appointment to be scheduled (with the details), the system
 
 * <strong>Options:</strong> In the options column, there are options that can be used for scheduling multiple appointments for the same patient. ADD & CLEAR, ADD, or RECUR.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/69cc592b1bf4be843000e4e95c28e691.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/3d0b0cb5cc97433f071708c484a80518.png)
 
 * <strong>Add & Clear:</strong> If you have another appointment to schedule for this patient, instead of clicking the SAVE button after you've detailed the first appointment for this patient, you can click ADD & CLEAR button to add the appointment to a list on your screen, then clears the resource, appt types field, etc to add another appointment for the patient. The CLEAR portion clears the appt fields so you can enter another appt for the patient and have those fields cleared to start the next appt. The ADD & CLEAR button adds an appointment and clears the resources, appt types fields, etc. This way you don't have to clear the fields manually and change when making another/multiple appt for this patient. However, no appointment is SAVED until you click the SAVE button.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/2572a3d80b4b3fd8bcd5ca9f564bb22e.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/0259638d28acedcbf02f481a8beae9de.png)
 
 * <strong>Add (Appt):</strong> If you have another appointment to schedule for this patient, instead of clicking the SAVE button after you've created your first appointment for this patient, you can click ADD instead. It then lists that first appointment you created in a summary listing and you are free to add/schedule another appointment for this same patient. You just go up and edit the fields you need to change for the next appointment to schedule on this patient.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/97ef1823fc7a5214c301ddb506df5ab5.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/4f6c692fb9e7e27d182f2f35b7cbb3c8.png)
 
 This is a quick way to schedule multiple appointments for the patient with the same field details as the original appointment without having to change/edit/enter many fields again. However, no appointment is SAVED until you click the SAVE button. You can always click "add and clear" to add the first appt and clear the fields out to be able to enter in another appt for the patient. However the "add" button will remember your prior prefilled fields and you only need to edit/change what you need to for the next appt for this patient to schedule (while staying on the same screen).
 
@@ -172,33 +177,33 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 * Enter in details for the first appointment, but clear out the date/time field so there is none set OR set it to Use Waitlist so the date/time is empty
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/964837508c2a9967cf6a37d468621bc1.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/426a8f3e659fce7e0b9e80e4e6c29a84.png)
 
 * Click the <strong>Add & Clear</strong> button
     * The appointment gets listed under in a section
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/4540f644e59cad1d227172eccdbb98f9.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/a72405c40a21825b491a752770cc86db.png)
 
 * Then enter in details for the next appointment (both appointments <strong>must</strong> be for the same location to accommodate back to back appointments), but clear out the date/time field so there is none set OR set it to Use Waitlist so the date/time is empty
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/c7d587e84202830d021fdc8f9168f4af.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/e04f96255025ec0b810797388e5306ac.png)
 
 * Click the <strong>Add & Clear</strong> button
     * The appointment gets listed with the other, under in a section
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/5553f5711e20e58616c05008f5a0d5ad.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/61bdfc52d7ca212c480458a5a12535f8.png)
 
 * Click the <strong>Search for a day and location where all of these appointments can occur</strong><strong></strong> hyperlink, to find times both appointments can happen on the same day
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/e5c8948a942721d1d1d1f83f9db97518.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/7adab74bd46bb8fe41824803f73283c4.png)
 
 * With in the <strong>Free Times</strong> pop-up window, select a specific calendar date from the calendar picker
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/3edff5a5b5f1fbfd4b6b2509e8a0c0a8.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/63ce346af989ce667376b8e94190dfc0.png)
 
 * Once you've selected a specific calendar date from the calendar picker, then click the date hyperlink in the same pop-up window that is highlighted in (typically) light blue
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/e34533d409774786859c14db2a02a3b7.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/c9f11a71a33dc0fbc4012d769df28730.png)
 
 * The Multi-View of the Scheduler will display in another window which will show a split schedule for both resources you had indicated needing appointments within the above appointment details.
 
@@ -215,11 +220,11 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 * Once you've selected a slot for each back-to-back listed appointment, the system will automatically close the split-schedule scheduler pop-up view and will return you to the Add Appointment screen you were working in.
 * You will see dates & times now assigned to the appointments you searched to accommodate a back-to-back need.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/03ce3c3263869145908ea6a306a3fcb4.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/a3c6efafc63a46435e25210aad021f0c.png)
 
 * Click the SAVE<strong></strong> button to save your work to put (schedule) those appointments on the books.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/396a54841b043219f0b0b73c6dec5aa0.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/a9a75738c6b754c0ddfd9ac0529d2d47.png)
 
 * You will be taken to the Multi-View schedule screen, where it shows you in Pink (pink is proof) that it scheduled the appointments.  Note: It will show you proof of the first appointment scheduled in the back-to-back need.
 
@@ -233,13 +238,13 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 * <strong>Recur (Appt):</strong> You can keep the same appointment field information (appt type, duration, resource, location & time) and create a recurring appointment. This may be used for example for weekly or monthly Allergy Injections. After you have entered the initial appointment information into the fields, you can click the RECUR button. This pops open a box asking you for the repeat appointment details.   Once you have entered the repeat details, clicking SAVE will add the current appointment repeatedly, incrementing the date according to your criteria.It will also save the appointments so that you can see any conflicts on the schedule and resolve them individually.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/0fea8fcceed5206262233d3790f7f84f.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/c5e17cbaacfb8e24cd651a31b2cad6f2.png)
 
-This is an example of scheduling an allergy injection for 5/7/2024 and using the RECUR APPT option for every week and occurring 3 times.
+This is an example of scheduling an allergy injection for 4/10/2025 and using the RECUR APPT option for every week and occurring 3 times.
 
 It then listed my initial appointment (which is considered the first occurrence) and then subsequently listed the next 2 occurrences which totals the 3 occurrences (times) that were specified.
 
-![](../adding-an-appointment-using-the-wizard-tab.assets/179d531ff30814daaf1a88747a4f7d15.png)
+![](../adding-an-appointment-using-the-wizard-tab.assets/e6096517c72694da3acbe72dcaa2f8d1.png)
 
 You can view to the right of each appointment listing if the appointment scheduling was ok (shows as saved) or if there are any conflicts. If any conflicts (like overbooked, etc) you can Force the appointment to be scheduled anyhow, or you can find free time or view calendar to reschedule just that specific conflicted appointment.
 
