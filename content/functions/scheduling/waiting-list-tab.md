@@ -1,8 +1,8 @@
 ---
 id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 title: 'Waiting List Tab'
-date: '2024-08-19T19:46:59.879Z'
-version: 113
+date: '2025-04-09T19:28:07.133Z'
+version: 121
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -133,7 +133,7 @@ When the Appointment Wizard opens, it will show the *Patient* section. This is w
 
 Proceed to fill out the information fields that you need to, then at the **date/time for appointment field** you must click USE WAITLIST button. It will clear out the date/time fields to be blank (meaning the patient will be going on the waiting list).
 
-![](../waiting-list-tab.assets/2fd7f393e842c2ea6038bd1147d34f04.png)
+![](../waiting-list-tab.assets/e48f7c268699e4317cb840f5612ee290.png)
 
 Then go down to the bottom of the screen and click the SAVE box.
 
