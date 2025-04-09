@@ -1,8 +1,8 @@
 ---
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
-date: '2025-03-28T17:29:47.821Z'
-version: 130
+date: '2025-04-09T13:24:28.372Z'
+version: 140
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -155,7 +155,7 @@ If the **My Settings** preference to Use DataVis in E-Sign is enabled, users wil
 
 Select a row or multiple rows of pending documents that need e-signed, then click the *Review Selected E-Sign* function button below the datavis table.  Doing that then opens a pop-up with the document(s) within it to review and sign document(s) individually from the E-sign Review screen.
 
-![](../pending-e-sign-reviews.assets/0ab87717298b27fc042bbb6e526a6176.png)
+![](../pending-e-sign-reviews.assets/830bf21234f589b4e2ffacf94cf95716.png)
 
 Users with Proxy Signing security permission will have an option to search for other users and toggle to other users pending E-Sign requests list and be able to sign documents on behalf of another. If the user does not have Proxy Signing security rights, the user search field does not display to be able to search for pending e-signs requested for another user.
 
