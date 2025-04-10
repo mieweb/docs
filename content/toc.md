@@ -160,6 +160,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
          * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
          * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
+         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
          * [Rename a Heading](functions/encounters/rename-a-heading.md)
          * [Smart Plan](functions/encounters/smart-plan.md)
          * [TeleHealth](functions/encounters/telehealth.md)

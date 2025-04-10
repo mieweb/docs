@@ -147,7 +147,7 @@ links:
   - 'functions/encounters/rename-a-heading.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
-  - 'https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
+  - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
@@ -898,7 +898,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Rename a Heading](functions/encounters/rename-a-heading.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
-        * [Presenting Medications Encounter Section](https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ)
+        * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
