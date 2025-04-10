@@ -1,8 +1,8 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2025-02-24T20:34:47.424Z'
-version: 348
+date: '2025-04-10T16:17:03.251Z'
+version: 357
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -19,6 +19,8 @@ The OSHA 300/301 Case Data report is found within the Reports module, and within
 The Department of Labor (DOL) Occupational Safety and Health Administration (OSHA) Injury Tracking Application (ITA) provides a system to securely access and submit information related to workplace injuries. The application is being enhanced to begin collecting details on individual injury and illness cases. Our OSHA 300/301 Case Data Report is a method to produce a large data output to bulk upload larger data sets using API endpoints. This report provides the fields that make up the body of most of the Request API calls involving the Case Data form.
 
 This OSHA 300/301 Case Data Report will pull OSHA recordable cases/incidents for the PRIOR year of this current logged in session. Meaning, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness date of the *PRIOR YEAR* to today's logged in date, will result here with related case/incident details.  Charts marked as 'Exclude from Quality Care' are omitted from report output. This report is easily downloadable into a CSV format to help with self electronic reporting needs.
+
+NOTE: Job Title, Incident Location, and Incident Description columns are limited to 255 characters on the report output and CSV output, per DOL and OSHA API data element requirements.
 
 More information from OSHA is at https://www.osha.gov/injuryreporting
 
@@ -67,8 +69,8 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
 * <strong>CASE NUMBER</strong> - This displays the unique assigned number identifier of the OSHA recordable case/incident that the system assigns.  Hence, this is Column A of the OSHA 300 form.
 * <strong>JOB TITLE</strong> - This pulls the data that is stored in the Job Code Description field of the employee's chart demographics.Hence, this is Column C of the OSHA 300 form.  In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
 * <strong>DATE OF INCIDENT</strong> - This pulls the date from the <em>Date and time of injury or onset of illness</em> field of the OSHA recordable case/incident.  Hence, this is Column D of the OSHA 300 form.
-* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Where the event occurred field (e.g. Loading dock north end)</em> field of the OSHA recordable case/incident when an onsite location choice is selected.  Hence, this is Column E of the OSHA 300 form.  In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
-* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>Nature of Injury or Illness / Body Parts</em> section of the OSHA recordable case/incident.  Hence, this is Column F of the OSHA 300 form. In the report output, Job Title is to be limited to 255 characters per DOL and OSHA API data element requirements.
+* <strong>INCIDENT LOCATION</strong> - This pulls the <em>Where the event occurred field (e.g. Loading dock north end)</em> field of the OSHA recordable case/incident when an onsite location choice is selected.  Hence, this is Column E of the OSHA 300 form.  In the report output, Incident Location is to be limited to 255 characters per DOL and OSHA API data element requirements.
+* <strong>INCIDENT DESCRIPTION</strong> - This pulls the <em>Nature of Injury or Illness / Body Parts</em> section of the OSHA recordable case/incident.  Hence, this is Column F of the OSHA 300 form. In the report output, Incident Description is to be limited to 255 characters per DOL and OSHA API data element requirements.
 * <strong>INCIDENT OUTCOME</strong> - This displays a number (as the value) signifying the highest (most serious) outcome of the OSHA recordable case/incident.  Hence, this is Columns G-J of the OSHA 300 form.
     * Death = 1 value means the case/incident has the field <em>Employee died</em> checkmarked
     * Days Away from Work = 2 value means the case/incident has Lost Time accommodations linked to it
@@ -92,7 +94,7 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
     * All Other Illnesses = 6 value
 * <strong>DATE OF BIRTH</strong> - This pulls the data that is stored in the Birth Date field of the employee's chart demographics.  Hence, this is Question 3 on the OSHA 301 form.
 * <strong>DATE OF HIRE</strong> - This pulls the data that is stored in the <em>Hire Date</em> field of the employee's chart demographics.  Hence, this is Question 4 on the OSHA 301 form.
-* <strong>GENDER</strong> - This pulls the data that is stored in <em>Sex</em> field of the employee's chart demographics.  Hence, this is Question 5 on the OSHA 301 form.  NOTE: Currently OSHA will not reject submissions if this is left blank. This is not a required column for their Injury Reporting API use.
+* <strong>SEX</strong> - This pulls the data that is stored in <em>Sex</em> field of the employee's chart demographics.  Hence, this is Question 5 on the OSHA 301 form.  NOTE: Currently OSHA accepts M or F or blank.. This is not a required column for their Injury Reporting API use.
 * <strong>TREATMENT FACILITY TYPE</strong> - If the case/incident <em>Was treatment provided by</em> field was selected, this displays a number (as the value) signifying the type of facility where treatment was provided.  Hence, Question 8 on the OSHA 301 form.
     * If was treated in the Hospital/ER/Urgent care facility = 1 value
     * If was treated anywhere besides a Hospital/ER/Urgent care = 0 value
@@ -102,8 +104,8 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
 * <strong>TIME STARTED WORK</strong> - This pulls the <em>Time employee began work on day of injury/illness</em> field of the OSHA recordable case/incident.  NOTE: Currently, OSHA will not reject submissions if this is left blank. This is not a required column for their Injury Reporting API use if you don't know when someone began work.  Hence, this is Question 12 on the OSHA 301 form.
 * <strong>TIME OF INCIDENT</strong> - This pulls the time from the <em>Date and time of injury or onset of illness</em> field of the OSHA recordable case/incident (or no time if it's unknown). Hence, this is Question 13 on the OSHA 301 form.
 * <strong>TIME UNKNOWN</strong> - If the time from the <em>Date and time of injury or onset of illness</em> field of the OSHA recordable case/incident is blank or indicated with a specific time, then this field will display a value based on the entry.  Hence, Question 13 on the OSHA 301 form.
-    * Blank/no time documented = 1 value
-    * Specific Time of incident is documented = 0 value
+    * Blank/no time for injury/onset of illness being documented = 1 value
+    * Specific Time of injury/onset of illness is documented = blank
 * <strong>NARRATIVE BEFORE INCIDENT</strong> - This pulls the <em>What as the employee doing just before the incident occurred</em> narrative field of the OSHA recordable case/incident.  Per OSHA: Do not include any personally identifiable information (PII) (e.g., no names, phone numbers, or SSNs) in this field.  Hence, this is Question 14 on the OSHA 301 form.
 * <strong>NARRATIVE WHAT HAPPENED</strong> - This pulls the <em>What happened? Tell us how the injury occurred</em> narrative field of the OSHA recordable case/incident.  Per OSHA: Do not include any personally identifiable information (PII) (e.g., no names, phone numbers, or SSNs) in this field.  Hence, this is Question 15 on the OSHA 301 form.
 * <strong>NARRATIVE INJURY ILLNESS</strong> - This pulls the first <em>Nature of Injury or Illness / Body Parts</em> section line item entry of the OSHA recordable case/incident.  Hence, this is Question 16 on the OSHA 301 form.
