@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-08T16:37:57.743Z'
-version: 1181
+date: '2025-04-10T16:44:31.756Z'
+version: 1191
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -147,6 +147,7 @@ links:
   - 'functions/encounters/rename-a-heading.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
+  - 'https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
@@ -897,6 +898,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Rename a Heading](functions/encounters/rename-a-heading.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
+        * [Presenting Medications Encounter Section](https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
