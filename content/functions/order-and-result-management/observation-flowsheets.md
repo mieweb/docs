@@ -1,13 +1,12 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2024-07-22T14:08:06.001Z'
-version: 531
-lastAuthor: 'janderson'
+date: '2025-04-10T22:47:20.899Z'
+version: 575
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://developer.mozilla.org/en-US/docs/Glossary/Truthy'
-  - 'https://developer.mozilla.org/en-US/docs/Glossary/Falsy'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/'
   - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSTDNHRK'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
@@ -15,196 +14,105 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
 Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.
 
-Observation Flowsheets can be accessed via the patient's chart tab named *Observations* or via the Control sidemenu tab and by getting into the *Observation Codes* manager tab. Observation Flowsheets require security permission to access. Please see additional help documentation titled *Observations Tab.pdf*
+Data collected by means of an Observation Flowsheet can be accessed via the patient's chart tab named *Observations/Flowsheets*. Users with the appropriate permissions, may also link to the Flowsheet editor from the patient chart.
 
-![](../observation-flowsheets.assets/97c10fb784a3f7accf9b75b657a36d58.png)
+![](../observation-flowsheets.assets/1a4f9e71b266e793b41a7088da9a7001.png)
 
-Once in the Observation Codes manager tab (via the sidemenu Control tab), you will see a hyperlink to *Display Flowsheets*. Click that to access observation flowsheets for your {{% system-name %}} system.
+## Accessing Flowsheets
 
-![](../observation-flowsheets.assets/301a6abf0fed789f5d4d05a1ca147f67.png)
+Managing Observation Flowsheets requires the appropriate security permission in order to add, edit or delete flowsheet configuration.
 
-The screen will display the current existing active flowsheets and have the # count displayed. You can also display inactive built observation flowsheets by clicking the *show inactive* hyperlink. Observation Flowsheets cannot be deleted. They are only marked as inactive if not being utilized anymore.
+The Flowsheet Editor may be accessed via the Control Panel->Chart->Flowsheets tab.
+
+![](../observation-flowsheets.assets/62fd91829f40772fe691949f866e730b.png)
+
+Users may also navigate to the Flowsheet Editor from the *Observation Codes* Tab (Control Panel->Observation Codes).
+
+![](../observation-flowsheets.assets/d9c15fcf5a4da6966a4c7da7a78a6231.png)
+
+The Flowsheet tab displays the current existing active flowsheets and have the # count displayed. Users may also display inactive observation flowsheets by clicking the *Show Inactive* hyperlink. Observation Flowsheets cannot be deleted. They are only marked as inactive if not being utilized anymore.
 
 ![](../observation-flowsheets.assets/9bbcb1bee0d51395f64e606e52721d37.png)
 
-Along with the active, existing named flowsheets displaying by default, you can hover your mouse over the *observation codes* column of a built flowsheet to see the components of that flowsheet quickly.
+Along with the active, existing named flowsheets displaying by default, users can hover their mouse over the *observation codes* column of a built flowsheet to see the components (individual observations) of that flowsheet quickly.
 
 ![](../observation-flowsheets.assets/f71a77c987a5cde97adb0d630c0f833d.png)
 
-## Add/Build New Observation Flowsheets
+## Add a New Flowsheet
 
-To add or build a new observation flowsheet to your system, simply click on the Add Flowsheet hyperlink.
+1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-![](../observation-flowsheets.assets/c5dfed788eaa700769345173974c4d58.png)
-
-The *New Flowsheet* screen will open.
-
-* <strong>Flowsheet Name:</strong> Type in the name of the new flowsheet you want to add. If this flowsheet should render on an encounter as a test/procedure item, make sure this is named exactly to match the order item.
-    * You can click <em>Show Entry Details</em> button if you wish to display the input types, show date/comments/alt. units columns. See additional help further down in this help document.
-
-![](../observation-flowsheets.assets/9ed3ea92ab8521171c5c38c2c2f91aa8.png)
-
-* <strong>Active:</strong> Flowsheets cannot be deleted, but can inactivate them from future use.
-* <strong>Observation Search:</strong> This is where you find and select each observation name (using the auto-complete) that will be a part of this flowsheet. Once selected the observation will populate in the <em>Observations Added</em> section on the screen. If the observation name does not show up as an auto-complete choice for you, please contact your MIE Implementer or administrator for the observation to be added to the Obs Codes. You <strong>cannot</strong> free text in this field. The observation has to be a stored observation in the main library of the observation codes tab.
-* <strong>Observation Search by Name:</strong> Here you can add the observations to the flowsheet using the Observation Search field, which is an auto-complete. Or you can check the boxes beside the observations listed in the scrollable area below that. It will not allow free-text. You must select something from the list or auto-complete. Contact your administrator or MIE Implementer for any observation names not entered into your system. As soon as you select something from the auto-complete or check-mark a box, it adds it down as a summary list in the <em>Observations Added</em> section below.
-* <strong>Observation Search by LOINC code:</strong> Searching will be done by observation name by default. To search by LOINC code, begin your search with a question mark <strong>Example:</strong> ‘?123' It will give you auto-complete choices that match and will display the LOINC code, units, and range after the name of the observation. Each is shown in separate brackets.
-
-![](../observation-flowsheets.assets/d5df8c9121e20aa904518a8b6856657c.png)
-
-* As soon as you select something from the auto-complete or check-mark a box, it adds it down as a summary list view.
-
-![](../observation-flowsheets.assets/ad89c313a99adfe2981a792353031443.png)
-
-* <strong>Name:</strong> This is the observation name you selected that is coded in the Observation Codes manager tab for your system.
-* <strong>Description:</strong> You can edit the description which is what the users will see when they utilize a flowsheet and key in results. Editing the description field does not alter the coded observation in the system, it's simply renaming it to be something your users will identify with. The number of text characters that can be used is unlimited.
-
-![](../observation-flowsheets.assets/f3616a483f7dae742327ce95d0a0720f.png)
-
-### Edit Observation Items
-
-* Simply click the edit (pencil) icon on the specific observation item within the flowsheet to edit the description. The edit fields for <em>section, conditional and calculation</em> are mainly used by MIE to program specific custom criteria. Click the <em>save</em> button when done editing the description. The ‘description' is what end users will see in the field to key data in when working in an encounter, so use terminology that is recognized to them & your practice.
-
-#### Section
-
-Items that share the same section label will be grouped together.
-
-![](../observation-flowsheets.assets/9ed1b666c0659eb3c09b9490fc5f93c9.png)
-
-#### Conditional
-
-Javascript that determines whether or not the item should be shown.
-
-* true  (or [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)) - If the script returns "true" the item will be stored.
-* false (or [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)) - The item will not be stored and in fact wiped out if it had been answered but then changed.
-* hidden - If the script returns the string "hidden" the item will not be shown but will be calculated and stored.  If the script is just the word hidden, you don't need the quotes.
-
-#### Calculation
-
-JavaScript that determines the value of the item/observation. Items that should be shown to the user would be set to conditional:true.  If items should not be shown, but used and stored should be set to conditional: "hidden"
-
-* <strong>Input Type:</strong> Each observation has an input type. This is the method of how the "data" can be keyed in (for that specific observation item) when this flowsheet is used/applied in a dynamic encounter.
-
-![](../observation-flowsheets.assets/e938f3e5634cafc5e59ad80a0aaffd85.png)
-
-![](../observation-flowsheets.assets/e2cd5ae9333af3a8e81b78645401ae67.png)
-
-* <strong>Text:</strong> This input type allows a user to key in any free text value for the specific observation. The .macro functionality in {{% system-name %}} will work within observation text fields.
-* <strong>Text (large):</strong> This input type allows a larger free text entry point in the observation chart tab entry method only. It does not affect size of the text field in flowsheets displayed in dynamic encounters for entry.
-* <strong>AutoComplete:</strong> This input type allows a free text learning auto-complete. This displays auto-complete list of choices for the specific observation as value(s) but the user can still free text a value. Auto-complete choices are learned by frequency of use and can be managed in the AC Editor of the control tab.
-* <strong>AutoComplete (large):</strong> This behaves the same way as input type "AutoComplete" above it, but allows a longer (in width) auto-complete field which is only seen in the Observation chart tab for entry. It does not affect size of the field in flowsheets displayed in dynamic encounters for entry.
-* <strong>AutoComplete (Discrete list):</strong> This input type allows a user to only select from a specific discrete list of values from an auto-complete method of entry for the observation. Clicking the ↓ down arrow key on the keyboard in this field will display the choices if they are not known. Superusers or your MIE Implementer can program the discrete values in the observation editor for the specific observation. The auto-complete choices shown to an end user are the specific discrete choices programmed in the specific observation's discrete value section. It limits the user to only key in available choices from the auto-complete list.
-
-![](../observation-flowsheets.assets/50c20b8594dfebcb6f821f62afe93e62.png)
-
-![](../observation-flowsheets.assets/fb65ccb0126b500f2504cf2c261c4820.png)
-
-* <strong>Measurement:</strong> This input type allows a user to key in a value for the observation but will also automatically convert a possible known keyed in value of a different unit to the specific observations set unit. In this test example, we have the PT observation set to the unit of grams (g) as the value units.
-
-![](../observation-flowsheets.assets/4a717b60d1e5559cc4a4d26842684641.png)
-
-* Then we key in the value for this patient's PT result as 12 lb (pounds) instead of grams
-
-![](../observation-flowsheets.assets/98e384fb40ca0e2c8a64897bb7043496.png)
-
-* Since there is a known conversion between pounds to grams, the system automatically converts the 12 lbs into grams after the entry since this observation within the flowsheet is set to measurement. In other instances of some measurement units that are set on the observation, it may round a long decimal value to the nearest hundreth, etc.
-
-![](../observation-flowsheets.assets/4b786ec9c27f4d73d1b49ae01628baa9.png)
-
-* <strong>Date:</strong> This input type allows a user to only key in a date as the value for the observation.
-
-![](../observation-flowsheets.assets/b5d7f861e8794a6544bb231da0a5b000.png)
-
-* <strong>Datetime:</strong> This input type allows a user to only key in a date along with a time as the value for the observation.
-
-![](../observation-flowsheets.assets/4229929fccba1afd340950859c185b64.png)
-
-* <strong>Yes/No Answer List:</strong> This input type allows a user to only select Yes or No (radio button) as the value for the observation.
-
-![](../observation-flowsheets.assets/f39022d51cd58003d4fa6a8c7152dc32.png)
-
-* <strong>Structured Answer List:</strong> This input type allows a user to only select a radio button value for the observation. The radio button value choices pull from the observation's discrete values programmed on the observation itself in the Observation Code module. This is similar to the "autocomplete (list)" programming in previous page, but instead shows as radio buttons instead of an auto-complete.
-
-![](../observation-flowsheets.assets/4823def061cc01838f045219bdfae61c.png)
-
-* <strong>Stage Previous Value:</strong> Each observation can have a Stage Previous Value set to it if needed.
-
-![](../observation-flowsheets.assets/5899e679f327fae58a04919d28cd0f31.png)
-
-* The choices are No, Add to Macros or Prefill Input and are defined as:
-    * <strong>Prefill Input:</strong> This option default the input with the last, most recent value (that a patient's chart has for that matching observation) for that line item observation.
-
-![](../observation-flowsheets.assets/9b24ee3f39b41e647f54614df701445a.png)
-
-* <strong>Add to Macros:</strong> This option is only available on text input types. This will add the patient's previously recorded value (answer) for this observation into the Macro section of the flowsheet. The user can see the patient's last, most recent value (answer) stored in their chart (for that specific observation) when getting ready to enter in a new result using the flowsheet. User could click < on the previous value to insert that same value (answer) into today's result field if the result (value/answer) were the same.
-
-![](../observation-flowsheets.assets/04c71ae6ab1dea0b7c2740a6c5d0dcf9.png)
-
-* <strong>No:</strong> no previous observation values from the patient's chart for that line item observation will be displayed to be able to pull forward into the flowsheet being used.
-* <strong>Comments:</strong> If check-marked it displays a "comments" text box on the specific observation.
-
-![](../observation-flowsheets.assets/8ae50535fe2d8e13d88754da53a27e04.png)
-
-* In the below example, INR observation (in the given flowsheet) is check-marked to "Comments" whereas PT observation in the given flowsheet is not. You can see the comments field that displays for users to enter in.
-
-![](../observation-flowsheets.assets/b283976c9b916fac336f8575c6ccfdb3.png)
-
-* <strong>Section:</strong> This would be utilized to group observations of a flowsheet into section groupings. Contact your MIE Implementer if you need section groupings programmed in a compiled flowsheet.
-* <strong>Conditional:</strong> This would be utilized for conditionally displaying. For example, if you had a flowsheet set up for a questionnaire and those questions shouldn't show on a flowsheet if the patient is a male. Contact your MIE Implementer if you need conditionals programmed to any observations that compile a flowsheet.
-* <strong>Calculation:</strong> This would be utilized for calculating results from other criteria. For example, you have observations in a flowsheet that a user may key in a rating value and then you want a ‘total' at the end where the system calculates and gives a total of other combined observations. Then this ‘total' observation is to be programmed as its own unique observation name in the flowsheet, but the system is calculating and placing the result as its observation value. Example of a calculation looking at height, weight and a formulation to come up with automated calculation of BMI in a flowsheet:
-
-![](../observation-flowsheets.assets/cb30629cfd3aef33a3be2f54d7967bc8.png)
-
-* Programming conditionals, sections and/or calculations is done by MIE using special coding language through the edit (pencil) icon in the Actions column on the specific observation item in the flowsheet.
-
-![](../observation-flowsheets.assets/279f102c475e514efd0d0e0523ffe97d.png)
-
-Continue to use the *observation search* field to apply another observation to the flowsheet. You can use the move up/move down arrow at the far right (Actions column) to drag and drop the flowsheet observation items in the order of how a user would want to see these items in and key results in for a flowsheet. The trash can icon acts as a delete and will remove that observation name from the flowsheet. It will not ask you for a confirmation, so once you click the trash can icon, it will be removed immediately. It will only be permanently deleted if you click the *submit* button to save your work. You can click ‘cancel' button so it doesn't save any edits or deletions you may have done.
-
-![](../observation-flowsheets.assets/38c386a23df0e88cad1b3dc592384fc3.png)
-
-### Items - Flow – All Flowsheets
-
-* <strong>Add Line Break/Header:</strong> Adding a line break will break up the flowsheet to make the items after a line break to be on a separate line for data entry to the end user. You can program a line break anywhere in the flowsheet.
-
-![](../observation-flowsheets.assets/139fa3e2f44e5e600e813da1b7e30fda.png)
-
-You can also "title" the line break and it will show that break title/header to the end user when in the flowsheet. Simply click the edit (pencil) icon in the *actions column* on the line break/header item in the flowsheet. A pop-up will appear where you can type in a description that will be the "header" shown to end users for that portion. Line Breaks/headers provide a ‘header' or label type of row. You can also leave the Line Break description field blank to just have it add a line break without a title.
-
-![](../observation-flowsheets.assets/f7927f506320b6967fe84da21b3a4fe9.png)
-
-After applying a line break/header, you can click ‘edit' on it and set a section or conditional to the line break/header.
-
-### Items - Flow – Questionnaires Only
-
-![](../observation-flowsheets.assets/0d4bdb7e0e7f58d082038a9e62f96ca2.png)
-
-* <strong>Questionnaires Only:</strong>
-    * <strong>Add Page Break:</strong> Adding a page break to questionnaire flowsheets will indicate to have the flowsheet continue from that point on, onto a new page on the portal.
-    * <strong>Add Section Break:</strong> Adding a section break to questionnaire flowsheets will break up the section to be its own with a title/label on the portal.
-    * <strong>Add Group Break:</strong> Adding a group break to questionnaire flowsheets will break up into a group with its own title/label and other section breaks can be utilized within a group on the portal and flowsheet within {{% system-name %}} .
-    * <strong>Add Layout:</strong> MIE can program a specific section layout to appear within the questionnaire flowsheet that will be utilized (ex: Medications layout) or this can be used to program the indication that the questionnaire should be in 2 columns.
-
-![](../observation-flowsheets.assets/5821726e7ff021f831e7f1d03d4f765b.png)
-
-Click SUBMIT to submit your new flowsheet into the system, or move the order of observations around by using the UP/DOWN buttons or delete if you selected an observation in error.
+![](../observation-flowsheets.assets/a8108faf5f21ae178dc78eb98949af76.png)
 
 {{% note %}}
-Nothing is saved until you click the SUBMIT button at the bottom. Click SUBMIT to save!
+Any custom discrete values will not be interoperable when communicating with other systems.
 {{% /note %}}
 
-## Copy an Existing Flowsheet
+2. To begin, click the <em>Add Flowsheet</em> hyperlink in the upper-right corner of the page.
+3. Begin filling in the fields and building the flowsheet, accordingly:
 
-You can copy an existing flowsheet and add/delete/edit to it to make another unique flowsheet but without starting from scratch. You can get to the copy functionality from Control sidemenu tab → Observation Codes tab → Display Flowsheets hyperlink.
+* <strong>Flowsheet Name</strong>: This field is used to name the new Flowsheet. If the Flowsheet will be used within encounters, this field should match the order item name, exactly.
+* <strong>Active</strong>: Select or deselect to set the Flowsheet as active or inactive, respectively. Flowsheets cannot be deleted.
+* <strong>Observation</strong>: This autocomplete field is used to populate any necessary observations being captured for the Flowsheet in context. Users cannot text freely within this field. The observation must be a stored observation within the Observation Codes library.
+    * <strong>Search By Name</strong>: Begin typing any observation name to locate the preferred observation to be included in the Flowsheet. Once selected, the observation will automatically populate in the list view at the bottom of the page.
+    * <strong>Search By LOINC</strong>: To search by LOINC code, rather than name, begin the search with a question mark . For example, entering <strong>?2339-0</strong> will populate the observation associated with that LOINC code, to be added to the Flowsheet.
+* <strong>Order</strong>: In addition to adding observations for data capture, users may build Flowsheets with orders, as well. This autocomplete field allows users to populate any necessary orders being recorded within a Flowsheet.
+* <strong>All Flowsheets</strong>: All Flowsheets can have the included items (i.e., observations and orders) separated, grouped, and required, using the following buttons, as appropriate.
+    * <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
+    * <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
+    * <strong>Mark All Recommended:</strong>  This button allows users to set questions as recommended, but not required to be answered by end users. If a flowsheet is submitted where recommended items are not answered, a pop up will be displayed. The message states <em>Some recommended items have been left blank. Do you want to continue?</em> Select <strong>Save Anyway</strong> to continue, select <strong>Cancel</strong> to return to the flowsheet to answer additional questions.
 
-![](../observation-flowsheets.assets/3573df0bf7cf277e2ca7849d0ff8bb95.png)
+* <strong>Questionnaires Only</strong>: Flowsheets are often used as questionnaires. These questionnaires are available from the portal and may be configured as needed. The following buttons are only compatible with Flowsheets being used as questionnaires. To preview the style and format of the questionnaire, simply click the Questionnaires Only link at any time.
+    * <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
+    * <strong>Add Section Break</strong>: Adding a section break will simply provide a segmented section for the contained content. These can be edited and titled, as needed.
+    * <strong>Add Group Break</strong>: This button will break content into groups, which can be labeled, as needed. Section breaks can be used within group breaks.
+    * <strong>Add Layout</strong>: Adding a layout can be done by MIE, whenever a layout is necessary for the questionnaire (e.g., Medications layout). This button can also be used when a 2-column layout is needed for a questionnaire.
+4. Once all observations, orders, and components have been added, users can begin rearranging and configuring the observations, sections, and details, as needed. To do this, users must use the icons available under the <em>Actions</em> column. The available options are <strong>Edit</strong> (pencil), <strong>Move</strong> (vertical arrows), and <strong>Remove</strong> (trash). Additionally, the columns and options available within the list view are as follows:
 
-From here you search and select the specific flowsheet (active or inactive) to copy by clicking the *copy* link in the options column at the far right.
+* <strong>Name</strong>: This field displays the observation name selected, which is coded in the Observation Codes Manager. This will appear as a hyperlink and can be clicked to see a view of the observation details.
+* <strong>Description</strong>: The Description field can be edited by clicking the Edit (pencil) icon in the <em>Actions</em> column. This field, when provided, will display to end users when using the Flowsheet. There is no limit to the number of characters allowed. Providing a description is not necessary and does not alter the coded observation or name. It is only used for simplified identification, whenever necessary.
+
+{{% note %}}
+Descriptions are not interoperable fields and will not carry over to devices or systems set up for interoperability.
+{{% /note %}}
+
+* <strong>Input Type</strong>: Every observation requires an input type. This drives how each datum, or observation value, will be captured while using the Flowsheet.
+    * <strong>Text</strong>: This input allows users to key in any free text for the observation in context. The .macro functionality will work within text input types.
+    * <strong>Text (large)</strong>: This input allows users to key in any free text for the observation in context using a larger text entry field. This does not affect the size of the display output.
+    * <strong>AutoComplete</strong>: A free-text learning autocomplete that is designed as an autocomplete entry field with the ability to free text or use the available choices. Autocomplete choices are learned by frequency of free-text entries and can be managed using the in the Control Panel.
+    * <strong>AutoComplete (large)</strong>: An autocomplete entry field that behaves the same way as the standard AutoComplete input type. However, AutoComplete (large) displays a larger (wider) entry field when inputting data. This does not affect the size of the display output.
+    * <strong>AutoComplete (Discrete List)</strong>: This is an autocomplete entry field that pulls only the discrete values that were programmed into the observation code <em>Custom Discrete Values</em> section. This will limit users to selecting only those choices provided for the observation in context. Clicking the down arrow on the keyboard will display the available choices, if the user is unsure or the options are unknown.
+    * <strong>Measurement</strong>: This input is designed to track measurements and will convert to specific preset units, whenever possible. For instance, when using a Measurement input type, an observation that is preset to a specific unit will be converted to the default unit when entering a value in a Flowsheet with a differing unit from the observation preset, so long as a conversion is available (e.g., lbs to g, cm to mm, etc.). Measurements will also be rounded to the nearest hundredth decimal place.
+    * <strong>Date</strong>: A Date field will only allow users to key in a date as the value for the observation.
+    * <strong>Datetime</strong>: A Datetime field will only allow users to key in date and time values for the observation.
+    * <strong>Yes/No Answer List</strong>: A Yes/No input will allow users to select either a Yes or No radio button as the value for the observation.
+    * <strong>Vertical Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as vertical radio buttons.
+    * <strong>Horizontal Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options as horizontal radio buttons.
+    * <strong>Drop Down Structured Answer List</strong>: For observations specifying custom discrete values, this input type will display the options in a dropdown selector.
+* <strong>Stage Prev Value</strong>: Observations can be set to have a previous value automatically staged, depending on the input type. The available options include:
+    * <strong>No</strong>: No previous observation value will be staged or pulled forward into the Flowsheet for the observation in context.
+    * <strong>Add to Macros</strong>: For any text input types, previous values can be staged using the system macro functionality. Previously recorded answers (values) for the observation will be shown as a macro, capable of being added to the input field by way of the angle bracket ( < ), if the value is the same.
+    * <strong>Prefill Input</strong>: This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart.
+    * <strong>Prefill Input from Context:</strong> This option will automatically prefill the entry field with the most recent value used for the respective observation, for that specific chart, from the encounter linked to the same case/incident that the current encounter is linked to.
+* <strong>Comments</strong>: When checkmarked, users will have a Comments field for providing additional information specific to the observation.
+* <strong>Section</strong>: With the proper programming, this field will trigger section groupings for organizing the included observations into a specified arrangement.
+* <strong>Required</strong>: Observations can be optional, recommended, or required, as needed. When configuring a flowsheet or questionnaire, simply leave this field blank for any optional entries. Recommended entries, or fields that are encouraged but not required, can be configured by inputting the numeral one (1) in this field. Otherwise, required fields can be checked against using a properly formatted formula. More about this to follow.
+* <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. For example, a questionnaire with questions only relevant to a male (conditional) can be programmed to only display when the sex of the respondent is male. More information on this can be found below.
+* <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and established criteria. Using this field, a calculation will be triggered, whenever a specific observation is programmed with the appropriate calculation criteria. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation with the BMI observation. Additional details can be found below.
+5. Beginning with the 202409 software release, a blue cursor bar will display at the bottom of the editor when creating a new flowsheet or when editing an existing flowsheet. The cursor bar can be moved anywhere within the flowsheet to easily insert a new observation/question.  Click once to move the blue cursor bar, scroll to the desired location to add an observation, then click a second time to drop the blue cursor bar into the desired location. Add the new observation/question using the Observation autocomplete at the top of the flowsheet editor.
+6. Once finished, click the <strong>Submit</strong> button to save all of the information.
+
+For detailed instructions on configuring flowsheets, please view the online help titled [Flowsheet Editor](https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/).
+
+## Copy Flowsheets
+
+Users may also copy an existing flowsheet and add/delete/edit it to make another unique flowsheet but without starting from scratch. From the Flowsheets tab, click the **Copy** link to copy the existing flowsheet and to create a new one that contains all the data from the source flowsheet.
 
 ![](../observation-flowsheets.assets/a46305c366c7a2e43a951889b30801b8.png)
 
-At the top it will tell you which flowsheet you are copying. Then you are required to put in a unique flowsheet name for this new flowsheet you are building from a copy. You type this in the **Flowsheet Name** field.
+At the top of the screen, the system will tell you which flowsheet you are copying. Then you are required to put in a unique flowsheet name for this new flowsheet you are building from a copy. You type this in the **Flowsheet Name** field.
 
-![](../observation-flowsheets.assets/01f82ede08f9ba0e1d4e3d10004f1844.png)
+![](../observation-flowsheets.assets/7159d5297a8a966a2318ba24f9b43c3a.png)
 
 Make sure to name the new flowsheet with a unique name. The copy feature is a quick feature to copy an existing flowsheet, but to name the new flowsheet something unique and make any other edits/tweaks to that flowsheet, along with the observations to make up that new flowsheet, to make it unique but have a lot of the components that an existing flowsheet may already have.
 
@@ -212,35 +120,27 @@ Make any changes to add different observations or remove or ordering the content
 
 ## Edit an Existing Flowsheet
 
-You can edit an existing flowsheet from a patient's observations chart tab by clicking *manage flowsheets* or by selecting a specific flowsheet while in a patient's observations tab and clicking *edit flowsheet*. Editing a flowsheet will edit that flowsheet for entire system.
-
-![](../observation-flowsheets.assets/6be563fca9a3034444791548e82f70ea.png)
-
-You can also edit flowsheets by going to Control tab → Observation Codes tab → Display Flowsheets hyperlink
+You can edit an existing flowsheet from the Flowsheet Editor. Editing a flowsheet will edit that flowsheet for the entire system.
 
 ![](../observation-flowsheets.assets/79b87355afc4d39794090d082253b622.png)
 
-In whichever method you go to edit a flowsheet, when you click "edit", the *Edit Flowsheet* screen will open.
+Upon clicking **Edit**, the *Edit Flowsheet* screen will open.
 
-![](../observation-flowsheets.assets/82b4cada5c70eb069d721579835ed125.png)
+![](../observation-flowsheets.assets/8608dc928a9a5f7ebc58d9075428612a.png)
 
 Here you can add new observations or edit existing or change ordering to the flowsheet. To add new observations to the flowsheet type the name of the observation to add in the Observation Search field, this is an auto-complete.
 
 The included observation names listed in the flowsheet are hyperlinks which will open up a new window taking you to that specific observation's details view. Simply click on the observation name on the left and it will take you to the specific observation details view.
 
-![](../observation-flowsheets.assets/6df5ed4ab3dce31bf117c4e0c2bbc5e5.png)
+![](../observation-flowsheets.assets/64f9e9885a45435b6c97657c1a9519f0.png)
 
 ## Inactivate a Flowsheet
 
-If you need to **delete** an entire flowsheet, this cannot be done by any user. However you can ‘inactivate' it and can hide inactive flowsheets from the system and won't be shown to users.
-
-To inactivate a flowsheet from use by the entire system, select the Flowsheet from the drop-down and then click the *edit flowsheet* button next to it. Note: You can also manage flowsheets from Control sidemenu tab → Observation Codes tab → and clicking Display Flowsheets
-
-![](../observation-flowsheets.assets/9e0e75b5b8a3fc7159ed34b7eea68932.png)
+Users with the appropriate security permissions may Inactivate Flowsheets
 
 Simply uncheck-mark the *Active* checkbox. This will then mark the flowsheet as ‘inactive' then scroll down and click the SUBMIT button.
 
-![](../observation-flowsheets.assets/db09dd73989b0c9518c2a34c89861fc9.png)
+![](../observation-flowsheets.assets/e3e5de0118988eda97bab47c90a44aee.png)
 
 The ‘inactive' flowsheet(s) will then not be shown in the drop-down selections of Flowsheets to run. However, a user can click the show inactive link to display and show inactive flowsheets and still run them if they wish from the patient's chart tab.
 
