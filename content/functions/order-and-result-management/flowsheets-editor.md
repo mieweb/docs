@@ -1,8 +1,8 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2025-02-05T16:04:47.774Z'
-version: 673
+date: '2025-04-10T22:50:28.707Z'
+version: 707
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -30,7 +30,7 @@ The following information provides details on how to add and configure flowsheet
 
 1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-![](../flowsheets-editor.assets/a8108faf5f21ae178dc78eb98949af76.png)
+![](../flowsheets-editor.assets/59a6c4b405af74f219b04b67fd165582.png)
 
 {{% note %}}
 Any custom discrete values will not be interoperable when communicating with other systems.
@@ -48,6 +48,7 @@ Any custom discrete values will not be interoperable when communicating with oth
 * <strong>All Flowsheets</strong>: All Flowsheets can have the included items (i.e., observations and orders) separated, grouped, and required, using the following buttons, as appropriate.
     * <strong>Add Line Break/Header</strong>: This button inserts a break, which can be used as a header or simply a line break. As a line break, end users will see items following the line break on a separate line when inputting data. To use the line break as a header, simply click the <strong>Edit</strong> (pencil) icon in the <em>Actions</em> column, and update the <strong>Description</strong> field. The text will display as a title for the line break, thus formatting it as a header in the Flowsheet.
     * <strong>Mark All Required</strong>: This button allows users to set all included observations as required. After all items have been added to the Flowsheet, clicking this button will display a verification: <em>All observations with empty required fields will be set to required</em>. Click <strong>Yes</strong> or <strong>No</strong>. Clicking Yes will set all empty required fields to <em>true</em>, making data entry required for those entry items.
+    * <strong>Mark All Recommended:</strong>  This button allows users to set questions as recommended, but not required to be answered by end users. If a flowsheet is submitted where recommended items are not answered, a pop up will be displayed. The message states <em>Some recommended items have been left blank. Do you want to continue?</em> Select <strong>Save Anyway</strong> to continue, select <strong>Cancel</strong> to return to the flowsheet to answer additional questions.
 
 * <strong>Questionnaires Only</strong>: Flowsheets are often used as questionnaires. These questionnaires are available from the portal and may be configured as needed. The following buttons are only compatible with Flowsheets being used as questionnaires. To preview the style and format of the questionnaire, simply click the Questionnaires Only link at any time.
     * <strong>Add Page Break</strong>: This button will add a page break to the questionnaire, causing the content following the placement of the page break to continue on to a new page.
@@ -120,7 +121,7 @@ The Required field allows users to set certain line items or observations as opt
 To establish requirements on an observation, begin by clicking the Edit icon (pencil) to edit the **Required** field, and enter one of the following:
 
 * For no requirement - <strong><em>leave blank</em></strong>'
-* For a soft requirement (recommended) - <strong>True</strong>
+* For a soft requirement (recommended) - <strong>True or 1</strong>
 * For hard requirements: There are varying hard requirements that can be configured, depending on the client's needs.
     * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
     * Number only - TBD
@@ -129,6 +130,10 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
 For clients on 202403 and newer, a help list has been added to this field. Click the List icon in the **Required** field to see a list of bulleted common options. Click on the item and the appropriate function will populate the configuration box.
 
 ![](../flowsheets-editor.assets/bd1a8860fe83357d1066e98e32202846.png)
+
+For clients on RC202503 and newer, Flowsheet items with the *Required* field set to "1" or "true" no longer prevents flowsheet from being saved in the encounter exam. A value of "1" or "true" indicates that a question is recommended to be answered, but not required. If a recommended question is not answered, the user will receive a pop up message letting the user know a recommended question has been left blank and asks if they wish to proceed. Additionally, the Flowsheet editor tool will now have a *Mark All Recommended* button, which will mark each question with a "1" in the *Required* column. The existing *Mark all Required* will enter the required string value in the *Required* column.
+
+![](../flowsheets-editor.assets/b27ae8d7261786775daf18cf5581f2ec.png)
 
 ### Conditional
 
@@ -165,7 +170,7 @@ observationDisplay('Since your last exam, have you experienced rhinitis, a runny
 
 Anytime an observation or question is intended for men or women, exclusively, simply enter one of the following in the **Conditional** field of the observation:
 
-* Only women: <strong>dashjs_patient.sex == 'F'abnormal</strong>
+* Only women: <strong>dashjs_patient.sex == 'F'</strong>
 * Only men: <strong>dashjs_patient.sex == 'M'</strong>
 
 #### Based on Multiple Conditionals
