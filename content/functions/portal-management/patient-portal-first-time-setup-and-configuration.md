@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-14T14:48:21.085Z'
-version: 672
-lastAuthor: 'auhrick'
+date: '2025-04-14T16:12:36.938Z'
+version: 685
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
