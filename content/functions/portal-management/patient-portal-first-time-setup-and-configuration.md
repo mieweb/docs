@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2024-07-15T13:49:03.586Z'
-version: 646
-lastAuthor: 'janderson'
+date: '2025-04-14T13:22:10.312Z'
+version: 652
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
@@ -15,17 +15,9 @@ markup: 'pandoc'
 ---
 With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 
-{{% only sys="wc" %}}
 {{% note %}}
-
-
-
 Many WebChart databases, especially legacy systems, may lack the necessary components and configurations to be able to configure the patient portal using the Provider Management menu option. To ensure that the WebChart database is configured properly, first refer to the [WebChart Gaps/Punchlist](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) found at the end of this document before continuing with any of the following steps.
-
 {{% /note %}}
-
-
-{{% /only %}}
 
 ## First-Time Setup
 
