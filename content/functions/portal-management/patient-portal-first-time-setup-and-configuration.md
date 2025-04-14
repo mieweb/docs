@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-14T13:22:10.312Z'
-version: 652
+date: '2025-04-14T13:31:11.529Z'
+version: 656
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -46,8 +46,6 @@ Complete the following steps to setup the patient portal within the provider org
 6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.    
     ![](../patient-portal-first-time-setup-and-configuration.assets/14dd3f1dada326d854043c703f29294a.png)
 
-    {{% only sys="wc" %}}
-
 {{% info %}}
 
 WebChart portals should use a **Patients** role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.
@@ -73,8 +71,6 @@ The security role(s) that are chosen must have the following security settings s
 
 
 {{% /info %}}
-
-{{% /only %}}
 
 ## General Configuration
 
@@ -358,8 +354,6 @@ Click the minus [ - ] button to remove any message type, or click the plus [ + ]
 To fully add a new message type to the list, it is necessary to first add the appropriate document type to the system. Next, add an the appropriate order item–enter the order name, set the order type to *questionnaires,* select the correct document type, and set the Insert As field to Pending. Add the order item to the Portal Messages orders picklist, and finally, add a flowsheet (named the same as the order item). More than likely, observations will need to be created prior to building and utilizing this flowsheet.  
 {{% /info %}}
 
-{{% only sys="wc" %}}
-
 Portal messages are sent to WebChart in the form of a task. WebChart clients will need to setup Fast Tasks and Tasklist Events in order to view incoming portal messages.
 
     1. First, create a Fast Task to review and to respond to the incoming portal messages. The Fast Task can be assigned to an individual or a group (department).
@@ -367,8 +361,6 @@ Portal messages are sent to WebChart in the form of a task. WebChart clients wil
 
 
 When replying to portal messages, users will navigate to the forms library via the Add Document link and select the appropriate Text document to send the reply for portal messages.  If no portal reply text documents exist, one or more will need to be created.  The text document(s) will need to be added to the Message Center chart tab so that portal replies can be viewed within the patient portal.
-
-{{% /only %}}
 
 #### Questionnaires
 
@@ -494,8 +486,6 @@ The Portal Activation Code report will display the date an activation code was g
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/0f5aef5dcb513d20cb907a240bff2129.png)
 
-{{% only sys="wc" %}}
-
 ### WebChart Database Gaps/Punchlist
 
 WebChart databases may or may not have all the needed chart types, chart tabs, or necessary components to configure a patient portal. The following is a list of potential gaps that need to be checked and rectified in order to complete the patient portal configuration as outlined in this patient portal setup guide.
@@ -538,8 +528,6 @@ A provider Organization partition needs added if it does not already exist, usin
     a.  Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
     b.  Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
         i. Verify that the WCPATED doc type (Clinical Summary/Patient Education) does not contain the NMC information located at the bottom of the document.
-
-{{% /only %}}
 
 ## Learning Management System
 
