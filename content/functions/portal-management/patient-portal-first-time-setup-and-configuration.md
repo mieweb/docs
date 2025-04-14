@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-14T16:12:36.938Z'
-version: 685
+date: '2025-04-14T16:29:49.841Z'
+version: 691
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
@@ -293,6 +293,8 @@ The *My Appointments* module can be updated to allow certain functionality, as w
 
 {{% note %}}
 To use this feature, a *Request an Appointment* message type must be enabled. Review the [Send a Message](#send-a-message) section of this help documentation for further information on how to add message types.
+
+
 {{% /note %}}
 
 **Allow scheduling past due appointments**: With this enabled, users will be able to schedule past due appointments.
