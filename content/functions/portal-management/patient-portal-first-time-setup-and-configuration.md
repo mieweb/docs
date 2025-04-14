@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-14T13:57:04.518Z'
-version: 660
+date: '2025-04-14T14:22:53.642Z'
+version: 667
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5
 wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 markup: 'pandoc'
 ---
-With the **Patient Portal**, sometimes used and referred to as an **Employee Portal**, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
+With the **Patient Portal** (WebChart databases), also referred to as an **Employee Portal** (Enterprise Health databases, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 
 {{% note %}}
 Many WebChart databases, especially legacy systems, may lack the necessary components and configurations to be able to configure the patient portal using the Provider Management menu option. To ensure that the WebChart database is configured properly, first refer to the [WebChart Gaps/Punchlist](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) found at the end of this document before continuing with any of the following steps.
@@ -21,7 +21,9 @@ Many WebChart databases, especially legacy systems, may lack the necessary compo
 
 ## First-Time Setup
 
-Configuration of a patient portal is done within a provider organization (PO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)** chart tab within the respective chart.
+WebChart clients will configure portals in the Provider Organization Chart (PO Chart), while Enterprise Health clients will configure in (EO Charts).  For Enterprise Health clients, please note that anywhere PO is listed below, it should be referenced at EO.
+
+Configuration of a patient or employee portal is done within a provider organization (PO) or employer organization (EO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)/Overview (EO)** chart tab within the respective chart.
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/888c4f9cdaecc3be851eb0d1580a522f.png)
 
@@ -29,17 +31,17 @@ In order to begin configuring the Patient Portal, it first must be enabled from 
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/a10c2129b98c04b32bac7c8890433637.png)
 
-Utilize the Provider Management menu search to locate the Provider Organization (PO) *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization will exist in the {{% system-name %}} system. This default provider organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created.
+Utilize the Provider Management menu search to locate the Provider Organization (PO)/Employer Organization *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization or employer organization will exist in the {{% system-name %}} system. This default provider/employer organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created.
 
 {{% tip %}}
-If the default provider organization chart will be utilized, clients may wish to edit the Provider Organization (portal) name. This is done in the Overview (PO) chart tab by expanding the Provider Organization header and updating the **Search Name** field.
+If the default provider/employer organization chart will be utilized, clients may wish to edit the Provider/Employer Organization (portal) name. This is done in the Overview (PO)/Overview(EO) chart tab by expanding the Provider Organization/Employer Organization header and updating the **Search Name** field.
 {{% /tip %}}
 
 Complete the following steps to setup the patient portal within the provider organization chart:
 
 1. Navigate to the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu.
-2. Type the name of the PO, and click the <strong>Search</strong> button. In this example, we will be using  {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} .
-3. Locate the PO Name, and click the hyperlink.
+2. Type the name of the PO/EO, and click the <strong>Search</strong> button. In this example, we will be using  {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} .
+3. Locate the PO/EO Name, and click the hyperlink.
 4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}}  tab.
 5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information.  
     ![](../patient-portal-first-time-setup-and-configuration.assets/11edec3c3df31e71caad76ea63099aa8.png)
@@ -48,8 +50,9 @@ Complete the following steps to setup the patient portal within the provider org
 
 {{% info %}}
 
-WebChart portals should use a **Patients** role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.
+**WebChart portals** should use a **Patients** role. If this role does not exist, please refer to the [WebChart Gap section](http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html#webchart-database-gaps-punchlist) in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.
 
+Enterprise Health portal should use the **Employees** role.  
 ![](../patient-portal-first-time-setup-and-configuration.assets/203499a3587105c8140b61a5129e6057.png)
 
 The security role(s) that are chosen must have the following security settings set in place:
