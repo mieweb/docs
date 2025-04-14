@@ -1,9 +1,9 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2025-02-20T20:03:38.390Z'
-version: 227
-lastAuthor: 'anichols'
+date: '2025-04-14T18:45:37.084Z'
+version: 242
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
@@ -105,6 +105,18 @@ where <SPECS> is a comma-separated list of format specifiers:
 The property to allow formatting is *allowFormatting* and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
 
 ![](../using-datavis-grids-data-tools.assets/17b0b8452d98d6b92b8af7f68e00457c.png)
+
+## Placement of DataVis Controls
+
+For systems on RC202403 or newer, the perspective controls have been moved into the grid titlebar, so it always remains accessible. The toolbar in the Datavis grid will now be hidden by default, but can be shown by clicking the gears icon in the top right corner of the grid.
+
+![](../using-datavis-grids-data-tools.assets/1624b33b4fd70d20ceda3b99482a95f3.png)
+
+![](../using-datavis-grids-data-tools.assets/7159d7b2a3c08f99670cc9e55d7c6860.png)
+
+Legacy view prior to RC202403:
+
+![](../using-datavis-grids-data-tools.assets/31f3b94c783da50b2f7505ccb59d2ce3.png)
 
 ## Learning Management System
 
