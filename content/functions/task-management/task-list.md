@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2025-01-29T19:26:29.112Z'
-version: 311
-lastAuthor: 'anichols'
+date: '2025-04-14T16:25:43.010Z'
+version: 331
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -26,13 +26,13 @@ There are two ways to access your pending tasks:
 
 2. Click Task List on the left sidemenu.
 
-Either way will take you to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
+Either way will take uers to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
 
 ![](../task-list.assets/1de0692a0b3d887d2771a0f31e7a4a65.png)
 
 ## Task Notifications of Tasks Assigned to You
 
-You can be alerted via email and/or SMS Text when a task gets assigned to you  There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
+Users can be alerted via email and/or SMS Text when a task gets assigned to you  There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
 
 ![](../task-list.assets/f1ac148f3f29cf6c70182080966a68f0.png)
 
@@ -46,7 +46,9 @@ The text does not contain any hyperlinks to the system login.  The text's intent
 
 ## Your Task List Tab
 
-The Your Task List tab shows any tasks you are to complete if someone specified a task to your username, or for department(s) you are tied to. The default is to show 20 tasks at a time, per bucket on the screen.  If you want the Task List to (system wide) show a different amount of items than the 20 that is set as default, contact your MIE Implementer.
+The **Your Task List** tab shows any tasks you are to complete if someone specified a task to your username, or for department(s) you are tied to. The default is to show 20 tasks at a time, per bucket on the screen.  If you want the Task List to (system wide) show a different amount of items than the 20 that is set as default, contact your MIE Implementer.
+
+Note: As of RC202503, providers who are also patients will no longer see tasks where they are the patient. This prevents the provider from performing tasks regarding themselves.
 
 ![](../task-list.assets/25d9e05410af030d3a7e2d0e7df93c5c.png)
 

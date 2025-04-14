@@ -279,6 +279,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [EPCS Setup](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md)
             * [IdenTrust Certificate Registration Step-by-Step](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md)
             * [Prescriber Responsibilities & Transmission Requirements](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescriber-responsibilities-and-transmission-requirements.md)
+            * [Prescribing Controlled Substances (EPCS)](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescribing-controlled-substances-epcs.md)
          * [Allergies and Intolerances](functions/medication-management-and-e-prescribing/allergies-and-intolerances.md)
          * [Allergies/Medications Tab Summary View](functions/medication-management-and-e-prescribing/allergies-medications-tab-summary-view.md)
          * [Allergy/Medication Tab - Quick Links](functions/medication-management-and-e-prescribing/allergy-medication-tab-quick-links.md)
