@@ -2,7 +2,7 @@
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
 date: '2024-12-27T23:01:09.534Z'
-version: 423
+version: 425
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []

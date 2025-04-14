@@ -2,7 +2,7 @@
 id: '1w1e6ZoISoS0KU-eo4I6cCBO-8N6x86xqEmpve_GomOY'
 title: 'CC 10 - Care Transition Documentation Practice Improvements'
 date: '2020-02-27T20:51:31.775Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
 date: '2024-11-04T22:42:34.821Z'
-version: 117
+version: 121
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

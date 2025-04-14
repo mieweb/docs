@@ -2,7 +2,7 @@
 id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 title: 'EKG Data Entry'
 date: '2025-03-28T18:22:08.961Z'
-version: 84
+version: 89
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

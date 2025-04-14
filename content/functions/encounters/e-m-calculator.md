@@ -2,7 +2,7 @@
 id: '1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
 title: 'E/M Calculator'
 date: '2025-02-20T18:38:11.854Z'
-version: 72
+version: 74
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
