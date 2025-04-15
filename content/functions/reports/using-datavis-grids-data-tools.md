@@ -1,8 +1,8 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2025-04-15T15:03:50.384Z'
-version: 249
+date: '2025-04-15T15:18:09.125Z'
+version: 250
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -108,7 +108,9 @@ The property to allow formatting is *allowFormatting* and it can be accessed by 
 
 ## Placement of DataVis Controls
 
-For systems on RC202403 or newer, the perspective controls have been moved into the grid titlebar, so it always remains accessible. The toolbar in the Datavis grid will now be hidden by default, but can be shown by clicking the gears icon in the top right corner of the grid.
+For systems on RC202403 or newer, the perspective controls have been moved into the grid titlebar so it always remains accessible. The toolbar in the Datavis grid will now be hidden by default, but can be shown by clicking the gears icon in the top right corner of the grid.
+
+View of DataVis in RC202403 and newer:
 
 ![](../using-datavis-grids-data-tools.assets/1624b33b4fd70d20ceda3b99482a95f3.png)
 
