@@ -1,17 +1,15 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-10T16:45:20.647Z'
-version: 1199
-lastAuthor: 'auhrick'
+date: '2025-04-22T15:16:13.721Z'
+version: 1203
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
   - 'programs/medical-programs.md'
   - 'programs/medical-programs/occupational-medicine.md'
   - 'programs/medical-programs/occupational-medicine/medical-clearance.md'
-  - 'programs/medical-programs/occupational-medicine/surveillance-procedures.md'
-  - 'programs/medical-programs/clinical-medicine.md'
   - 'programs/compliance-programs.md'
   - 'programs/compliance-programs/worksite-injury-and-illness.md'
   - 'programs/compliance-programs/medical-surveillance-program.md'
@@ -760,8 +758,6 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
     * [Medical Programs](programs/medical-programs.md)
         * [Occupational Medicine](programs/medical-programs/occupational-medicine.md)
             * [Medical Clearance](programs/medical-programs/occupational-medicine/medical-clearance.md)
-            * [Surveillance Procedures](programs/medical-programs/occupational-medicine/surveillance-procedures.md)
-        * [Clinical Medicine](programs/medical-programs/clinical-medicine.md)
     * [Compliance Programs](programs/compliance-programs.md)
         * [Worksite Injury & Illness](programs/compliance-programs/worksite-injury-and-illness.md)
         * [Medical Surveillance](programs/compliance-programs/medical-surveillance-program.md)

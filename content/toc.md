@@ -807,8 +807,6 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
       * Medical Programs
          * Occupational Medicine
             * [Medical Clearance](programs/medical-programs/occupational-medicine/medical-clearance.md)
-            * [Surveillance Procedures](programs/medical-programs/occupational-medicine/surveillance-procedures.md)
-         * [Clinical Medicine](programs/medical-programs/clinical-medicine.md)
          * [Occupational Medicine](programs/medical-programs/occupational-medicine.md)
       * Quality Reporting
          * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
