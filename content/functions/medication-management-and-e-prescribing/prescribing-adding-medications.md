@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2024-10-22T12:34:05.643Z'
-version: 328
-lastAuthor: 'auhrick'
+date: '2025-04-14T20:40:31.122Z'
+version: 335
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'

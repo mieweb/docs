@@ -2,7 +2,7 @@
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
 date: '2025-03-14T15:19:03.401Z'
-version: 725
+version: 726
 lastAuthor: 'dvilamaa'
 mimeType: 'text/x-markdown'
 links:
