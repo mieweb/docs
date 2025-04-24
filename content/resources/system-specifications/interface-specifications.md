@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-04-10T19:42:00.364Z'
-version: 4143
-lastAuthor: 'ahum'
+date: '2025-04-24T20:05:51.858Z'
+version: 4176
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -203,6 +203,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Welch Allyn PC-based Resting ECG Monitoring (CardioPerfect)](../../functions/system-administration/interfaces/device-interface-welch-allyn-cardioperfect.md) (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
     * Welch Allyn PC-based Resting ECG with interpretation model CPR-UI-UB-D (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
     * Welch Allyn PC-based PCR100 Resting ECG w/Interp & Spiro Combo -101442 DS (ActiveX/File) - Connects to the CardioPerfect software to interface with the device.  Demographic information can be sent to CardioPerfect software and then a file is uploaded to Enterprise Health.  Requires ActiveX control to send demographic information
+    * Welch Allyn/Baxter Diagnostic Cardiology Suite. Requires install of MIE Device App 2. Available on RC202509 and newer.
 * Hematology
     * Cell-Dyn Emerald LIS (Serial Uni-directional) - Uses the MIE Device app to monitor the serial port for incoming data and automatically transfer to WebChart
     * Coulter AcT Series Analyzer (Serial Uni-directional) - Has been converted to the MIE Device App for constant listening
@@ -385,7 +386,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Kentucky (KYIR) Immunization Registry
 * Louisiana thru Scientific Technologies Corp (STC)
 * Maryland MDHD Crisp Immunization or ImmuNet
-* Massachusetts Immunization Information System (MIIS) via HTTPS
+* Massachusetts Immunization Information System (MIIS) (bi-directional via HTTPS)
 * Michigan Care Improvement Registry (MCIR) Immunization Registry (uni-directional HL7 via HTTPS)
 * Mississippi thru Scientific Technologies Corp (STC)
 * Missouri Immunization Registry
@@ -607,7 +608,8 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Clear Sight
 * Corvel
 * Disney CARS (a Disney system)
+* Gallagher Bassett RISX-FACS (bi-directional)
 * Liberty Mutual
 * PMA (uni-directional)
-* RISX-FACS (bi-directional)
+* Riskonnect
 * Sedgwick
