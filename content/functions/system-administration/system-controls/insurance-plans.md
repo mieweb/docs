@@ -1,8 +1,8 @@
 ---
 id: '1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU'
 title: 'Insurance Plans'
-date: '2024-07-16T19:57:40.921Z'
-version: 49
+date: '2025-04-24T20:42:12.062Z'
+version: 58
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -26,9 +26,13 @@ There are different levels of security that can be assigned to specific security
 
 **Delete**: Allows users to view the list of Insurance plans created in the system, add new insurance plans,edit existing plans and delete insurance plans.
 
-In the 202403 release the insurance plan list was changed to a datavis style format.
+In RC202403, the insurance plan list was changed to a datavis style format.
 
 ![](../insurance-plans.assets/04818efefe11a191681bc043b80a9fec.png)
+
+In RC202503, users will also see the addition of a new column called *Insurance Type.*
+
+![](../insurance-plans.assets/061b9d1e3cc1f5b8fb964e55f7b208d7.png)
 
 ## Add Plan
 
@@ -36,9 +40,13 @@ Click the Add Plan above the right hand side of the datavis.
 
 ![](../insurance-plans.assets/6f64814307f85ff97ccc14736dac9d71.png)
 
-Enter the applicable information for the Insurance Company.  The Insurance Code can be manually created (often done for clients wishing to migrate and prior system codes or to match a billing system). However, if a unique code is desired so as not to clash with any other interface or external system, click the **_Generate_** button to create a system generated unique Insurance code. Additional fields include Address 1, Address 2, City, State, Zip, Phone, Fee Schdule, National Payor ID, Comments. When all fields are completed press the **_Save_** button.
+Enter the applicable information for the Insurance Company.  The Insurance Code can be manually created (often done for clients wishing to migrate and prior system codes or to match a billing system). However, if a unique code is desired so as not to clash with any other interface or external system, click the **_Generate_** button to create a system generated unique Insurance code. Additional fields include Address 1, Address 2, City, State, Zip, Phone, Fee Schedule, National Payor ID, Comments. When all fields are completed press the **_Save_** button.
 
 ![](../insurance-plans.assets/658a4285d4f8ed38ec56f201fba5fcc3.png)
+
+In RC202503, users will also have the opportunity to Add an Insurance Type. The most commonly used types of *Medicare, Medicaid, Private and BlueCross/Shield* display with radiobutton options. An *Other* option displays as well. When selected, the user may select from a predefined list in the autocomplete.
+
+![](../insurance-plans.assets/162356cc159aa4736797b29233281bc6.png)
 
 ## Edit
 
@@ -48,7 +56,7 @@ To edit an existing insurance plan, select the plan in the datavis, once selecte
 
 **_Edit Insurance Plan_** information displays, edit any information or mark as Inactive. Press the Save button when done and return to the main list of insurance plans.
 
-![](../insurance-plans.assets/7f68c09d8609e8ccb2701dda572a04f3.png)
+![](../insurance-plans.assets/6b63d596fcfa1e241554ba3ff3803efe.png)
 
 ## Delete (Set Status)
 
