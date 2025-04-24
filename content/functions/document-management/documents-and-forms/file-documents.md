@@ -1,8 +1,8 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-04-16T17:32:34.175Z'
-version: 74
+date: '2025-04-24T14:54:10.874Z'
+version: 89
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -23,7 +23,13 @@ To begin adding a file to a chart, navigate into the specific chart and click th
 
 Once the document/form library loads, select the **File** link, to filter the options. This will load an *Add Document Properties* screen, where users can browse for a file and upload it into the chart.
 
+{{% system-name %}} systems on RC202403 or older, the File Upload will look like this:
+
 ![](../file-documents.assets/a68c9fbb18e17cc2071f8935c8c25d96.png)
+
+{{% system-name %}} systems on RC202403 or newer, the File Upload will look like this:
+
+![](../file-documents.assets/ff49f7cbeba2067055e8c144f14d6cad.png)
 
 Once the *Add Document Properties* screen opens, begin filling in the necessary fields:
 
@@ -35,7 +41,7 @@ Users must have **Transcribe for Others** security access to author documents 
 
 **Document Type:** Select the document type being uploaded and stored in the patient chart.
 
-**Storage Type:** This dropdown allows users to specify the storage type of the file being uploaded. If the wrong storage type is selected, the document will not display correctly, and an error may present when the **Add Document** button is clicked. For example, an email is stored as an Email storage type, or an XML file is a CCD or CCR Document, etc. For help determining and selecting a specific storage type, do not hesitate to contact Helpdesk.
+**Storage Type:** This option only displays for {{% system-name %}} systems on RC202403 or older. This dropdown allows users to specify the storage type of the file being uploaded. If the wrong storage type is selected, the document will not display correctly, and an error may present when the **Add Document** button is clicked. For example, an email is stored as an Email storage type, or an XML file is a CCD or CCR Document, etc. For help determining and selecting a specific storage type, do not hesitate to contact Helpdesk.
 
 ![](../file-documents.assets/0ec7505ae4472d4093a7966af322eb07.png)
 
@@ -63,9 +69,11 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 
 **CC** (**Physicians**)**:** Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md).
 
-**File:** The *Browse/Choose File* button allows users to browse to their local hard drive to select the file document for upload.
+**File:** This option only displays for {{% system-name %}} systems on RC202403 or older. The *Browse/Choose File* button allows users to browse to their local hard drive to select the file document for upload.
 
-After the file is selected, click the **Add Document** button. The page will refresh and display a confirmation message that the document was uploaded successfully, along with visibility to the uploaded document.
+After the file is selected, click the **Add Document** button. The page will refresh and display a confirmation message that the document was uploaded successfully, along with visibility to the uploaded document. This version of the File Upload allows uploading one document at a time.
+
+**Choose Files:** This option only displays for {{% system-name %}} systems on RC202403 or newer. Users may drop and drag files to the *Drop files here* box or select the *Choose Files* button to browse to the local hard drive to select the file document for upload. This version of the File Upload feature allows users to upload several different documents at once. Once a file(s) has been selected, the file(s) will display in the lower side corner of the File Upload screen. Users may then select the *Upload Document* button to upload all document(s) at once.
 
 ## Learning Management System
 
