@@ -1,9 +1,9 @@
 ---
 id: '1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
 title: 'Burning DICOM Images onto CD/DVD'
-date: '2020-03-09T21:03:47.916Z'
-version: 69
-lastAuthor: ''
+date: '2025-04-25T16:52:30.414Z'
+version: 90
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
@@ -13,25 +13,27 @@ If you wish to burn the DICOM images onto a CD, log into {{% system-name %}} and
 
 When you are on the appropriate chart tab, it will display the List View For Images. This lists all the DICOM images this patient has stored in {{% system-name %}} .
 
-In the Print column of each image line item, click BATCH on each image you want to burn.  Batching allows you to select as many images as you want and creates them in a batch to burn onto the CD.
+In the Option column of each image line item, hover over the options icons and click BATCH on each image you want to burn. Batching allows you to select as many images as you want and creates them in a batch to burn onto the CD.
 
 Find another patient's images by going into another patient's chart tab and selecting their image(s) to batch using the same steps.
 
-![](../burning-dicom-images-onto-cd-dvd.assets/de7d1b36b0af445f2f28c4c1188c5836.png)
+![](../burning-dicom-images-onto-cd-dvd.assets/ca983d648fd8b4b74666ac698f97ab11.png)
 
 Continue selecting as many studies (images) as you need, for as many patients as you need.
 
 If you make a mistake, click on the **Remove** link for that study
 
+![](../burning-dicom-images-onto-cd-dvd.assets/eb3e960cdd4612cec080cf8c95917aff.png)
+
 {{% note %}}
 Once you click batch, it changes the option to Remove.
 {{% /note %}}
 
-![](../burning-dicom-images-onto-cd-dvd.assets/e2b75118651c0199cf19b05addfa62cd.png)
+![](../burning-dicom-images-onto-cd-dvd.assets/d02a0f8de9775033430cde538f0df439.png)
 
 While you are batching DICOM images, you will notice at the very top a DICOM information summary **Print** and **Burn** link.  This shows and is tracking how many images/items you have batched for DICOM printing or burning.
 
-![](../burning-dicom-images-onto-cd-dvd.assets/a9c82031f46d20bf190a801a61afd7e4.png)
+![](../burning-dicom-images-onto-cd-dvd.assets/7a5df22571a5200c18c6531626b6c994.png)
 
 When you have batched all the images and are ready to burn the images onto the disk, click on the **Burn** link at the top in that DICOM information summary.
 
