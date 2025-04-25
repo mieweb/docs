@@ -1,8 +1,8 @@
 ---
 id: '1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
 title: 'Burning DICOM Images onto CD/DVD'
-date: '2025-04-25T16:52:30.414Z'
-version: 90
+date: '2025-04-25T16:52:33.971Z'
+version: 92
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
