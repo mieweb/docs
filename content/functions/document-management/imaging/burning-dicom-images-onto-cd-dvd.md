@@ -1,8 +1,8 @@
 ---
 id: '1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
 title: 'Burning DICOM Images onto CD/DVD'
-date: '2025-04-25T16:52:33.971Z'
-version: 92
+date: '2025-04-25T17:16:06.962Z'
+version: 99
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -48,7 +48,7 @@ If this is the first time burning images from the system on the computer current
 
 Click on the **download a tool** link in the window that appears.
 
-![](../burning-dicom-images-onto-cd-dvd.assets/5d5ada9c8f467c92057d343639f66aa8.png)
+![](../burning-dicom-images-onto-cd-dvd.assets/758cb9d2984b501800dcda59cdff2bf4.png)
 
 Make sure you have a recordable DVD in the drive, then click on the **Click here to Download the Disk**.
 
