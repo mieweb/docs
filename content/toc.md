@@ -653,6 +653,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [Patient Chart File Export](functions/system-administration/data-migration/patient-chart-file-export.md)
             * [PFT Data CSV API](functions/system-administration/data-migration/pft-data-csv-api.md)
             * [Pharmacy Filter Import](functions/system-administration/data-migration/pharmacy-filter-import.md)
+            * [Respirator Fit Data CSV API Import Tool](functions/system-administration/data-migration/respirator-fit-data-csv-api-import-tool.md)
             * [Restrictions CSV API](functions/system-administration/data-migration/restrictions-csv-api.md)
             * [Summary Documents CSV API](functions/system-administration/data-migration/summary-documents-csv-api.md)
             * [System Conversion](functions/system-administration/data-migration/system-conversion.md)
