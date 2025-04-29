@@ -1,8 +1,8 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2025-04-29T16:21:13.672Z'
-version: 123
+date: '2025-04-29T16:30:18.845Z'
+version: 135
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links: []
@@ -70,10 +70,6 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 
 ## Sample Webform Post
 
-{{markdown}}
-```
-```
-
 ``````
 `<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">
 
@@ -92,7 +88,6 @@ Interface Name:<input size="40" type="text" name="interface" id="interface" valu
 </FORM>
 ```
 ```
-{{/markdown}}
 
 ## Sample Bash Script
 
