@@ -1,9 +1,9 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2024-12-02T18:29:54.487Z'
-version: 98
-lastAuthor: 'djiamjirarat'
+date: '2025-04-29T16:12:24.346Z'
+version: 117
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
@@ -70,7 +70,7 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 
 ## Sample Webform Post
 
-`  
+`{{markdown}}  
 `<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">
 
 Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>
@@ -86,6 +86,9 @@ Interface Name:<input size="40" type="text" name="interface" id="interface" valu
 <input type='submit' value='Submit'>
 
 </FORM>
+```
+```
+{{/markdown}}
 
 ## Sample Bash Script
 
