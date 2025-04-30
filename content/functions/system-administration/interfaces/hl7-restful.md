@@ -1,8 +1,8 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2025-04-29T16:30:18.845Z'
-version: 135
+date: '2025-04-30T13:14:52.731Z'
+version: 144
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links: []
@@ -70,23 +70,16 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|</
 
 ## Sample Webform Post
 
-``````
-`<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">
-
-Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>
-
-Interface Name:<input size="40" type="text" name="interface" id="interface" value="Assigned Interface Name"><BR>
-
-<input type='hidden' name='f' value='wchl7'>
-
-<input type='hidden' name='login_user' value='username'>
-
-<input type='hidden' name='login_passwd' value='password'>
-
-<input type='submit' value='Submit'>
-
-</FORM>
 ```
+
+<FORM METHOD="POST" ACTION="POSTING-URL"  enctype="multipart/form-data">
+    Select file to upload: <input type="file" name="message" value="message" size="45" id="file"><BR>
+    Interface Name:<input size="40" type="text" name="interface" id="interface" value="Assigned Interface Name"><BR>
+    <input type='hidden' name='f' value='wchl7'>
+    <input type='hidden' name='login_user' value='username'>
+    <input type='hidden' name='login_passwd' value='password'>
+    <input type='submit' value='Submit'>
+</FORM>
 ```
 
 ## Sample Bash Script
@@ -95,23 +88,23 @@ Interface Name:<input size="40" type="text" name="interface" id="interface" valu
 
 #!/bin/bash
 
-if [ $# -lt 5 ]; then  
-	echo Usage: $0 interface message user password url  
-	exit 1  
+if [ $# -lt 5 ]; then
+	echo Usage: $0 interface message user password url
+	exit 1
 fi
 
-INTERFACE=$1  
-MESSAGE=$2  
-LOGINUSER=$3  
-LOGINPASS=$4  
+INTERFACE=$1
+MESSAGE=$2
+LOGINUSER=$3
+LOGINPASS=$4
 URL=$5
 
-curl -i \  
--F "f=wchl7" \  
--F "interface=$INTERFACE" \  
--F "login_user=$LOGINUSER" \  
--F "login_passwd=$LOGINPASS" \  
--F "message=@$MESSAGE" \  
+curl -i \
+-F "f=wchl7" \
+-F "interface=$INTERFACE" \
+-F "login_user=$LOGINUSER" \
+-F "login_passwd=$LOGINPASS" \
+-F "message=@$MESSAGE" \
 "$URL"
 ```
 
