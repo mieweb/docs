@@ -1,8 +1,8 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2025-04-30T13:14:52.731Z'
-version: 144
+date: '2025-04-30T13:15:47.359Z'
+version: 147
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links: []

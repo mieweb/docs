@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-04-24T20:05:51.858Z'
-version: 4176
+date: '2025-04-24T20:06:56.875Z'
+version: 4194
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
