@@ -493,7 +493,7 @@ links:
   - 'functions/reports/transcription-report.md'
   - 'functions/reports/uncoded-medications-report.md'
   - 'functions/reports/webscan-report.md'
-  - 'functions/reports/untitled-document.md'
+  - 'functions/reports/work-comp-monitor-report.md'
   - 'functions/system-administration.md'
   - 'functions/system-administration/system-controls.md'
   - 'functions/system-administration/system-controls/system-plugins.md'
@@ -1245,7 +1245,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Transcription Report](functions/reports/transcription-report.md)
         * [Uncoded Medications Report](functions/reports/uncoded-medications-report.md)
         * [WebScan Report](functions/reports/webscan-report.md)
-        * [Work Comp Monitor Report](functions/reports/untitled-document.md)
+        * [Work Comp Monitor Report](functions/reports/work-comp-monitor-report.md)
     * [System Administration](functions/system-administration.md)
         * [System Controls](functions/system-administration/system-controls.md)
             * [System Plugins](functions/system-administration/system-controls/system-plugins.md)

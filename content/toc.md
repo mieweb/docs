@@ -575,9 +575,9 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [To Restrict Report Access](functions/reports/to-restrict-report-access.md)
          * [Transcription Report](functions/reports/transcription-report.md)
          * [Uncoded Medications Report](functions/reports/uncoded-medications-report.md)
-         * [Untitled document](functions/reports/untitled-document.md)
          * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
          * [WebScan Report](functions/reports/webscan-report.md)
+         * [Work Comp Monitor Report](functions/reports/work-comp-monitor-report.md)
       * Scheduling
          * [Adding an Appointment Using the Wizard Tab](functions/scheduling/adding-an-appointment-using-the-wizard-tab.md)
          * [Appt Types Tab](functions/scheduling/appt-types-tab.md)
