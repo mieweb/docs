@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-14T16:29:49.841Z'
-version: 691
+date: '2025-04-30T14:03:50.952Z'
+version: 706
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
@@ -361,8 +361,8 @@ To fully add a new message type to the list, it is necessary to first add the ap
 
 Portal messages are sent to WebChart in the form of a task. WebChart clients will need to setup Fast Tasks and Tasklist Events in order to view incoming portal messages.
 
-    1. First, create a Fast Task to review and to respond to the incoming portal messages. The Fast Task can be assigned to an individual or a group (department).
-    2. Next, users will need to create the Tasklist Event. When doing so, select the Fast Task that was created for reviewing and responding to the incoming portal messages and add a WHERE clause (e.g., d.doc_type IN ('CLINICALQ')) that will include the document type(s) being used for portal messages that are sent from the portal to WebChart.
+1. First, create a Fast Task to review and to respond to the incoming portal messages. The Fast Task can be assigned to an individual or a group (department).
+2. Next, users will need to create the Tasklist Event. When doing so, select the Fast Task that was created for reviewing and responding to the incoming portal messages and add a WHERE clause (e.g., d.doc_type IN ('CLINICALQ')) that will include the document type(s) being used for portal messages that are sent from the portal to WebChart.
 
 
 When replying to portal messages, users will navigate to the forms library via the Add Document link and select the appropriate Text document to send the reply for portal messages.  If no portal reply text documents exist, one or more will need to be created.  The text document(s) will need to be added to the Message Center chart tab so that portal replies can be viewed within the patient portal.

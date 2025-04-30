@@ -533,6 +533,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [Dictation without Transcription Report](functions/reports/dictation-without-transcription-report.md)
          * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
          * [DOT Interface Status Report](functions/reports/dot-interface-status-report.md)
+         * [Duplicate Charts-Merge Report](functions/reports/duplicate-charts-merge-report.md)
          * [E-Meds Report](functions/reports/e-meds-report.md)
          * [Encounter Report](functions/reports/encounter-report.md)
          * [Executive Dashboard Report](functions/reports/executive-dashboard-report.md)
@@ -574,6 +575,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [To Restrict Report Access](functions/reports/to-restrict-report-access.md)
          * [Transcription Report](functions/reports/transcription-report.md)
          * [Uncoded Medications Report](functions/reports/uncoded-medications-report.md)
+         * [Untitled document](functions/reports/untitled-document.md)
          * [Using DataVis Grids - Data Tools](functions/reports/using-datavis-grids-data-tools.md)
          * [WebScan Report](functions/reports/webscan-report.md)
       * Scheduling
