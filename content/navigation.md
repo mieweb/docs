@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-28T15:41:42.933Z'
-version: 1225
-lastAuthor: 'anichols'
+date: '2025-04-30T14:42:03.882Z'
+version: 1228
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -493,6 +493,7 @@ links:
   - 'functions/reports/transcription-report.md'
   - 'functions/reports/uncoded-medications-report.md'
   - 'functions/reports/webscan-report.md'
+  - 'functions/reports/untitled-document.md'
   - 'functions/system-administration.md'
   - 'functions/system-administration/system-controls.md'
   - 'functions/system-administration/system-controls/system-plugins.md'
@@ -1244,6 +1245,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Transcription Report](functions/reports/transcription-report.md)
         * [Uncoded Medications Report](functions/reports/uncoded-medications-report.md)
         * [WebScan Report](functions/reports/webscan-report.md)
+        * [Work Comp Monitor Report](functions/reports/untitled-document.md)
     * [System Administration](functions/system-administration.md)
         * [System Controls](functions/system-administration/system-controls.md)
             * [System Plugins](functions/system-administration/system-controls/system-plugins.md)
