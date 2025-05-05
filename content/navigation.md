@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-04-30T14:42:19.025Z'
-version: 1231
-lastAuthor: 'auhrick'
+date: '2025-05-05T14:31:45.087Z'
+version: 1250
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -499,7 +499,6 @@ links:
   - 'functions/system-administration/system-controls/system-plugins.md'
   - 'functions/system-administration/system-controls/user-provider-and-department-management.md'
   - 'functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md'
-  - 'functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md'
   - 'functions/system-administration/system-controls/setting-up-e-prescribers.md'
   - 'functions/system-administration/system-controls/add-referring-physician-users.md'
   - 'functions/system-administration/system-controls/document-queue-merging-imported-documents.md'
@@ -1251,7 +1250,6 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [System Plugins](functions/system-administration/system-controls/system-plugins.md)
             * [User/Provider & Department Management](functions/system-administration/system-controls/user-provider-and-department-management.md)
             * [Access Control - Adding, Deleting, Editing Users](functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md)
-            * [Access Control - Quick Add Multiple Active Users](functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md)
             * [Setting Up E-Prescribers](functions/system-administration/system-controls/setting-up-e-prescribers.md)
             * [Add Referring Physician Users](functions/system-administration/system-controls/add-referring-physician-users.md)
             * [Document Queue - Merging Imported Documents](functions/system-administration/system-controls/document-queue-merging-imported-documents.md)

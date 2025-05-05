@@ -712,7 +712,6 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [Single Sign-On Login Trust](functions/system-administration/security/single-sign-on-login-trust.md)
          * System Controls
             * [Access Control - Adding, Deleting, Editing Users](functions/system-administration/system-controls/access-control-adding-deleting-editing-users.md)
-            * [Access Control - Quick Add Multiple Active Users](functions/system-administration/system-controls/access-control-quick-add-multiple-active-users.md)
             * [Add Referring Physician Users](functions/system-administration/system-controls/add-referring-physician-users.md)
             * [Adding Users to a Provider Organization](functions/system-administration/system-controls/adding-users-to-a-provider-organization.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
