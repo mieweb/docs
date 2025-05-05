@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-04-24T20:06:56.875Z'
-version: 4194
-lastAuthor: 'bhamm'
+date: '2025-05-05T12:36:08.662Z'
+version: 4221
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -166,6 +166,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
     * [Everest Audio](https://drive.google.com/open?id=16O6qrsogzkHFVL2ipQDj2-CYce0XgcprVz2XdIxOYDM) (no model # on device) (File Uni-directional)
     * [Honeywell VeriPRO Hearing Fit-Testing System](https://sps.honeywell.com/us/en/products/safety/hearing-protection/fit-testing/veripro-fit-testing-system) (Pending [RM#121874](https://pm.mieweb.com/issues/121874))
     * Integrafit MI3000 (Pending RM#117238)
+    * Luna Audiometer Model:8529724 (Pending RM#129293)
     * [Maico MA800](../../functions/system-administration/interfaces/device-interface-maico-ma800.md) (Serial Uni-directional)
     * Monitor Instruments MI5000, MI5000B, [MI7000](../../functions/system-administration/interfaces/device-interface-mi-7000.md) (Serial Uni-directional)
     * [OMI Sensormedics ASW2004 & ASW2210](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system.html) (File Uni-directional)
