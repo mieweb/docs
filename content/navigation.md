@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-05T14:31:45.087Z'
-version: 1250
-lastAuthor: 'mpierzchala'
+date: '2025-05-06T15:17:11.783Z'
+version: 1259
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -616,6 +616,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md'
   - 'functions/system-administration/interfaces/device-interface-ekg-system.md'
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
+  - 'https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
   - 'functions/system-administration/interfaces/device-interface-piccolo-system.md'
   - 'functions/system-administration/interfaces/device-interface-quantifit-2.md'
@@ -1367,6 +1368,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [Device Interface - Clinitek Status+Analyzer](functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md)
             * [Device Interface - EKG System](functions/system-administration/interfaces/device-interface-ekg-system.md)
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
+            * [Device Interface - PortaCount FitPro](https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
             * [Device Interface - Quanitfit 2](functions/system-administration/interfaces/device-interface-quantifit-2.md)
