@@ -2,7 +2,7 @@
 id: '1QD4RgoH8b8es0UDe0kWLs7TXfP7mKm01rr4lo00RqYM'
 title: 'Clinical Portal Voluntary Product Accessibility Template (VPAT) '
 date: '2021-09-24T18:00:25.665Z'
-version: 220
+version: 222
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
