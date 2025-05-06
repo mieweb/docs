@@ -676,6 +676,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
             * [Device Interface - Piccolo System](functions/system-administration/interfaces/device-interface-piccolo-system.md)
+            * [Device Interface - PortaCount FitPro Ultra](functions/system-administration/interfaces/device-interface-portacount-fitpro-ultra.md)
             * [Device Interface - Quantifit 2](functions/system-administration/interfaces/device-interface-quantifit-2.md)
             * [Device Interface - Resonance R17A ](functions/system-administration/interfaces/device-interface-resonance-r17a.md)
             * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
