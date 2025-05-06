@@ -2,7 +2,7 @@
 id: '1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
 title: 'Device Interface - PortaCount FitPro Ultra'
 date: '2025-05-06T15:16:17.390Z'
-version: 67
+version: 68
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
