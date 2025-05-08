@@ -150,6 +150,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
          * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
          * [Encounter Protocols](functions/encounters/encounter-protocols.md)
+         * [Encounter Section](functions/encounters/encounter-section.md)
          * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
          * [Encounter Worklists](functions/encounters/encounter-worklists.md)
          * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)

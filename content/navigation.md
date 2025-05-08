@@ -143,7 +143,7 @@ links:
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
   - 'functions/encounters/rename-a-heading.md'
-  - 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
+  - 'functions/encounters/encounter-section.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/presenting-medications-encounter-section.md'
@@ -895,7 +895,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
         * [Rename a Heading](functions/encounters/rename-a-heading.md)
-        * [Encounter Section](https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY)
+        * [Encounter Section](functions/encounters/encounter-section.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
