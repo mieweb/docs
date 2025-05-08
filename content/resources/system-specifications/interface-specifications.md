@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Interface Specifications'
-date: '2025-05-05T12:36:08.662Z'
-version: 4222
-lastAuthor: 'auhrick'
+date: '2025-05-08T15:32:54.794Z'
+version: 4228
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -358,6 +358,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * SHRM (LLNL)
 * Spillman
 * Stanford Registry
+* Symplr
 * Taleo (COVID Declarations)
 * UCPath
 * UKG
