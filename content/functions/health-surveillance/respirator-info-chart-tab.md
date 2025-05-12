@@ -1,9 +1,9 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2024-11-13T16:21:01.795Z'
-version: 172
-lastAuthor: 'anichols'
+date: '2025-05-12T17:23:31.492Z'
+version: 179
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'mass-manual-entry-of-respirator-fit-data.md'
@@ -19,7 +19,7 @@ The stand-alone Respirator Info is a chart tab found in the employee's chart wit
 
 The Fit Test Results portlet (found in the chart's Summary dashboard) also lists prior Fit Test data entries. The pencil (edit) icon of the portlet will also take you right to the stand-alone Respirator Info chart tab.
 
-## ![](../respirator-info-chart-tab.assets/f69d15cc411b8225c3c72dcfc3e48c00.png)
+![](../respirator-info-chart-tab.assets/f69d15cc411b8225c3c72dcfc3e48c00.png)
 
 ## Respirator Info chart tab sections
 
