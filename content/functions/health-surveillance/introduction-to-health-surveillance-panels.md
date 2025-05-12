@@ -1,23 +1,23 @@
 ---
 id: '1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
 title: 'Introduction to Health Surveillance Panels'
-date: '2020-03-13T15:08:54.014Z'
-version: 70
-lastAuthor: ''
+date: '2025-05-12T15:19:08.276Z'
+version: 78
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
 wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
 ---
-Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
+Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, click the HSP tab and then the HEALTH SURVEILLANCE tab listed below.
 
-![](../introduction-to-health-surveillance-panels.assets/8559017c3985006ba5394aa58ece891b.png)
+![](../introduction-to-health-surveillance-panels.assets/7fd697db4f15437a787391a079bbb627.png)
 
 ## Security & Settings
 
-Review Security Settings for users who need access to Health Surveillance (and Case Management). Review Settings and give rights as needed by client.  This information is also available within the online help.
+Review Security Settings for users who need access to Health Surveillance. Review Settings and give rights as needed by client. This information is also available within the online help.
 
-![](../introduction-to-health-surveillance-panels.assets/2522bf10e1e37270f5c52a6343c771ec.png)
+![](../introduction-to-health-surveillance-panels.assets/963239a38c751779a3ce16c7b4baaee8.png)
 
 ## Health Surveillance Panels
 
