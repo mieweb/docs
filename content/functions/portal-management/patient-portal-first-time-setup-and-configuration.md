@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-04-30T14:03:50.952Z'
-version: 708
-lastAuthor: 'mpierzchala'
+date: '2025-05-12T18:32:47.057Z'
+version: 715
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
@@ -57,20 +57,20 @@ Enterprise Health portal should use the **Employees** role.
 
 The security role(s) that are chosen must have the following security settings set in place:
 
-    a.  <strong>Limited Access</strong> = Yes
-    b.  <strong>Limit to Portal</strong> = Yes
-    c.  <strong>Limited to Default Tab</strong> = No
-    d.  <strong>Manage Observations</strong> = Edit
-    e.  <strong>Document Permissions</strong> = Edit
-    f.  <strong>Conditions</strong> = Edit
-    g.  <strong>Demographics</strong> = Edit
-    h.  <strong>Manage Settings</strong> = Manage Own Settings
-    i.  <strong>View Encounters</strong> = Yes
-    j.  <strong>Sign Document</strong> = Yes
-    k.  <strong>View Preliminary Documents</strong> = Yes
-    l.  <strong>Manage Users</strong> = Self
-    m.  <strong>Manage User Patients</strong> = Yes
-    n.  <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
+* <strong>Limited Access</strong> = Yes
+* <strong>Limit to Portal</strong> = Yes
+* <strong>Limited to Default Tab</strong> = No
+* <strong>Manage Observations</strong> = Edit
+* <strong>Document Permissions</strong> = Edit
+* <strong>Conditions</strong> = Edit
+* <strong>Demographics</strong> = Edit
+* <strong>Manage Settings</strong> = Manage Own Settings
+* <strong>View Encounters</strong> = Yes
+* <strong>Sign Document</strong> = Yes
+* <strong>View Preliminary Documents</strong> = Yes
+* <strong>Manage Users</strong> = Self
+* <strong>Manage User Patients</strong> = Yes
+* <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 
 
 {{% /info %}}
