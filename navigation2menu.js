@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
+const { EOL } = require("os");
 // Work on POSIX and Windows
 const fs = require('fs');
 const stdinBuffer = fs.readFileSync(0); // STDIN_FILENO = 0
@@ -13,7 +14,7 @@ const menu = [];
 
 let lastContent = 'First line';
 
-for (const line of markdown.split('\n')) {
+for (const line of markdown.split(EOL)) {
     if (!line.match(/^ *\* /)) {
         continue;
     }
