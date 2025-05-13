@@ -1,9 +1,9 @@
 ---
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
-date: '2025-02-10T20:22:01.234Z'
-version: 799
-lastAuthor: 'horner'
+date: '2025-05-13T12:03:18.690Z'
+version: 804
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'https://url/webchart.cgi/.well-known/openid-configuration'
