@@ -1,8 +1,8 @@
 ---
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
-date: '2025-05-13T12:03:18.690Z'
-version: 805
+date: '2025-05-13T12:45:51.053Z'
+version: 811
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
@@ -78,37 +78,27 @@ The .well-known path is a convention used in web development for serving metadat
 
 The **smart-configuration** is a .well-known endpoint specific to SMART on FHIR, and its main goal is to expose important configuration information about how apps should interact with the healthcare system's OAuth and FHIR APIs.
 
+```
 {
-
 "issuer": "",
-
 "jwks_uri": "https://handle.url.com/handle/webchart.cgi/jwks/",
-
 "authorization_endpoint": "https://handle.url.com/handle/webchart.cgi/oauth/authenticate/",
-
 "grant_types_supported": ["authorization_code"],
-
 "token_endpoint": "https://handle.url.com/handle/webchart.cgi/oauth/token/",
-
 "token_endpoint_auth_methods_supported": ["private_key_jwt"],
-
 "token_endpoint_auth_signing_alg_values_supported": ["RS384"],
-
 "scopes_supported": ["patient/*.rs","system/*.read"],
-
 "response_types_supported": "token",
-
 "management_endpoint": "https://handle.url.com/handle/webchart.cgi?f=admin&s=jwt",
-
 "introspection_endpoint": "https://handle.url.com/handle/webchart.cgi/oauth/introspect/",
+```
 
-"revocation_endpoint": "https://handle.url.com/handle/webchart.cgi?f=admin&s=jwt&opp=revoke",
-
-"capabilities": ["sso-openid-connect", "launch-ehr", "client-confidential-symmetric", "context-banner", "context-style", "context-ehr-patient", "permission-offline", "permission-user", "launch-standalone", "client-public", "context-standalone-patient", "permission-patient"],
-
+`"revocation_endpoint": "`[`https://handle.url.com/handle/webchart.cgi?f=admin&s=jwt&opp=revoke`](https://handle.url.com/handle/webchart.cgi?f=admin&s=jwt&opp=revoke)`",`
+```
+"capabilities": ["sso-openid-connect", "launch-ehr", "client-confidential-symmetric", "context-banner", "context-style", "context-ehr-patient", "permission-offline", "permission-user", "launch-standalone", "client-public", "context-standalone-patient", "permission-patient"], 
 "code_challenge_methods_supported": ["S256"]
-
 }
+```
 
 ## App Registration
 
@@ -240,43 +230,29 @@ https://fhirr4sandbox.webch.art/webchart.cgi/jwks/
 
 ## Server Setup
 
-$ openssl genrsa -out mykey.pem 2048
-
+```
+$ openssl genrsa -out mykey.pem 2048
 Generating RSA private key, 2048 bit long modulus (2 primes)
-
 ........................+++++
-
 .......................................................+++++
-
 e is 65537 (0x010001)
-
 $ openssl rsa -in mykey.pem -pubout
-
 writing RSA key
-
 -----BEGIN PUBLIC KEY-----
-
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvqTVtATjtY+gsbrbdZul
-
 SwazoGNNJ3WoxjR2i2zZ+U8GhIWhKNdJJ/X4VuEaBKg1428JhAQ1+D35DywZyI9W
-
 RcLLXeUWGnw+qJ04ZTQ7TZn8sP9oia++FRAdMKVGoN6Kw6Q/glHfhKDlxsp/UYtj
-
 hai5ZqNBjMSgT6cLoq+HBeVrDgme7AZn00ur4YoYx49CvQXCSzQWX8gnsbkOMdts
-
 epcpUTQ3XAj34ijjE+0sbzMTKD6ldb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA2
-
 0q4bY+KpPmfRVslzIvCJx4PTS3qfko4brAxEZC/SxbOYmONN7K2xn9oYrmVKAZd6
-
 7QIDAQAB
-
 -----END PUBLIC KEY-----
+```
 
-
+```
+insert into login_trusts set domain='MIE-localhost-launch',description='Local FHIR App Launch',allowed_options=8388608,login_url='http://localhost:8080/launch',private_key='-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAvqTVtATjtY+gsbrbdZulSwazoGNNJ3WoxjR2i2zZ+U8GhIWh\nKNdJJ/X4VuEaBKg1428JhAQ1+D35DywZyI9WRcLLXeUWGnw+qJ04ZTQ7TZn8sP9o\nia++FRAdMKVGoN6Kw6Q/glHfhKDlxsp/UYtjhai5ZqNBjMSgT6cLoq+HBeVrDgme\n7AZn00ur4YoYx49CvQXCSzQWX8gnsbkOMdtsepcpUTQ3XAj34ijjE+0sbzMTKD6l\ndb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA20q4bY+KpPmfRVslzIvCJx4PTS3qf\nko4brAxEZC/SxbOYmONN7K2xn9oYrmVKAZd67QIDAQABAoIBAHdHUp3rYT07u+L3\nck/HLkgezUxQVPmXWB2KvZDGbiraEs3ffdG7wP3Lm7Ff7ZN0WyMNWfrLV6kVvTqM\n8STW6beEBRGeP5IaommE1MAdSe1npv5nDtT2rAsppdnFzsbf9hoqLcIvz5V/xcP2\n9mniuEXsJvPcuSqF63dqoJENGYHJ0BsKUYUQkVtMDo2gQ5EX5wV1VeVndH7P5eBI\nh3/ZYzct2RdGlA7gY4fLmF6wegJUP8GfQqW7EfqcqK6pBmI4A4tKuIRqPVlRy3yf\nZhMjF2u8dqvFf+azcbvYYgPwSGi9Rlgvc2xmB7nczVStAfZgKyDdFLcPhH0Wcag0\nYRlYB4ECgYEA3c3+sUQm6FWcbyI6tyxbVpAxQqV15rUKI+NyspSwtqyRVhDZ7HIs\nz43EizlXWXlofZIkoQf87HiAKhTypIeCfkKNLEvXPT2rhCIbF+PH63Y/ZEfepdYZ\ndr8YVwbsrJZyzdAo9VzOQUoJ4Lpmk1A5WzFlYe7ugB+elPGfUJLisiUCgYEA3AkC\n+76V6XP2DLagdjNeIGKx6jDcKsh1NrmU/+9fe/0EAB8D/VASiLmWtomxHYmX7PsT\nBevBa4aTgJxQQlFapUokdYcl/k24uXMGi3oJJDxEi6eW9R8dIQioQfd9bmd/W84L\nPjOxSvzQkqdMlx5blqCBG8n527B2W/asZMgHNykCgYEArldxf3J7RpmsSWpVTo9O\nB/90yNb3kmzw2H66NAZN1HhWEJlUQdcIw+fB+lELCKg2aqVJp015D4Iz81/dzVc6\nSfYTsyK1v0xPGaAZPbDr/ndGopMfPajJAR55ikZGF+51tLKOzzWwZX9Fvl+lqtsf\nCkAMWWsOCqVP5/D38cRS7gUCgYEAj2pgQ22pkIxAp3CxjdlVVI5/oEFQf6JAo/a6\nI0cGWW5EmT+d/hGewvcUQM3mX3Y7S/8qGwXbABarNXys40zbZDi7Is9/+Az4hgdv\nEKHuK2wM0Wnefs5U0h8ubDC/1KIo5NGbimNu/41g9PWOekETOU5MWKyA6qxNuQtC\nuj2WVmECgYEAni0m8n4P2wgs0w0Rm38/UxmAY7rBgFqpVqni8x3ASNUOujkosXYc\nCTR+MANXfp/VcvjvoCIP5M9/I/vLRGkv51nR9+8dgj17uzK6WWZ7UmAzW0K3Tuxj\nlLBDRTY4xzreE/oCFQXIQ7843qC3sBwvAMbzR6n2TZkC1iaucbXiiWU=\n-----END RSA PRIVATE KEY-----',public_key='-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvqTVtATjtY+gsbrbdZul\nSwazoGNNJ3WoxjR2i2zZ+U8GhIWhKNdJJ/X4VuEaBKg1428JhAQ1+D35DywZyI9W\nRcLLXeUWGnw+qJ04ZTQ7TZn8sP9oia++FRAdMKVGoN6Kw6Q/glHfhKDlxsp/UYtj\nhai5ZqNBjMSgT6cLoq+HBeVrDgme7AZn00ur4YoYx49CvQXCSzQWX8gnsbkOMdts\nepcpUTQ3XAj34ijjE+0sbzMTKD6ldb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA2\n0q4bY+KpPmfRVslzIvCJx4PTS3qfko4brAxEZC/SxbOYmONN7K2xn9oYrmVKAZd6\n7QIDAQAB\n-----END PUBLIC KEY-----',key_format='PEM'
 
-insert into login_trusts set domain='MIE-localhost-launch',description='Local FHIR App Launch',allowed_options=8388608,login_url='http://localhost:8080/launch',private_key='-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAvqTVtATjtY+gsbrbdZulSwazoGNNJ3WoxjR2i2zZ+U8GhIWh\nKNdJJ/X4VuEaBKg1428JhAQ1+D35DywZyI9WRcLLXeUWGnw+qJ04ZTQ7TZn8sP9o\nia++FRAdMKVGoN6Kw6Q/glHfhKDlxsp/UYtjhai5ZqNBjMSgT6cLoq+HBeVrDgme\n7AZn00ur4YoYx49CvQXCSzQWX8gnsbkOMdtsepcpUTQ3XAj34ijjE+0sbzMTKD6l\ndb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA20q4bY+KpPmfRVslzIvCJx4PTS3qf\nko4brAxEZC/SxbOYmONN7K2xn9oYrmVKAZd67QIDAQABAoIBAHdHUp3rYT07u+L3\nck/HLkgezUxQVPmXWB2KvZDGbiraEs3ffdG7wP3Lm7Ff7ZN0WyMNWfrLV6kVvTqM\n8STW6beEBRGeP5IaommE1MAdSe1npv5nDtT2rAsppdnFzsbf9hoqLcIvz5V/xcP2\n9mniuEXsJvPcuSqF63dqoJENGYHJ0BsKUYUQkVtMDo2gQ5EX5wV1VeVndH7P5eBI\nh3/ZYzct2RdGlA7gY4fLmF6wegJUP8GfQqW7EfqcqK6pBmI4A4tKuIRqPVlRy3yf\nZhMjF2u8dqvFf+azcbvYYgPwSGi9Rlgvc2xmB7nczVStAfZgKyDdFLcPhH0Wcag0\nYRlYB4ECgYEA3c3+sUQm6FWcbyI6tyxbVpAxQqV15rUKI+NyspSwtqyRVhDZ7HIs\nz43EizlXWXlofZIkoQf87HiAKhTypIeCfkKNLEvXPT2rhCIbF+PH63Y/ZEfepdYZ\ndr8YVwbsrJZyzdAo9VzOQUoJ4Lpmk1A5WzFlYe7ugB+elPGfUJLisiUCgYEA3AkC\n+76V6XP2DLagdjNeIGKx6jDcKsh1NrmU/+9fe/0EAB8D/VASiLmWtomxHYmX7PsT\nBevBa4aTgJxQQlFapUokdYcl/k24uXMGi3oJJDxEi6eW9R8dIQioQfd9bmd/W84L\nPjOxSvzQkqdMlx5blqCBG8n527B2W/asZMgHNykCgYEArldxf3J7RpmsSWpVTo9O\nB/90yNb3kmzw2H66NAZN1HhWEJlUQdcIw+fB+lELCKg2aqVJp015D4Iz81/dzVc6\nSfYTsyK1v0xPGaAZPbDr/ndGopMfPajJAR55ikZGF+51tLKOzzWwZX9Fvl+lqtsf\nCkAMWWsOCqVP5/D38cRS7gUCgYEAj2pgQ22pkIxAp3CxjdlVVI5/oEFQf6JAo/a6\nI0cGWW5EmT+d/hGewvcUQM3mX3Y7S/8qGwXbABarNXys40zbZDi7Is9/+Az4hgdv\nEKHuK2wM0Wnefs5U0h8ubDC/1KIo5NGbimNu/41g9PWOekETOU5MWKyA6qxNuQtC\nuj2WVmECgYEAni0m8n4P2wgs0w0Rm38/UxmAY7rBgFqpVqni8x3ASNUOujkosXYc\nCTR+MANXfp/VcvjvoCIP5M9/I/vLRGkv51nR9+8dgj17uzK6WWZ7UmAzW0K3Tuxj\nlLBDRTY4xzreE/oCFQXIQ7843qC3sBwvAMbzR6n2TZkC1iaucbXiiWU=\n-----END RSA PRIVATE KEY-----',public_key='-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvqTVtATjtY+gsbrbdZul\nSwazoGNNJ3WoxjR2i2zZ+U8GhIWhKNdJJ/X4VuEaBKg1428JhAQ1+D35DywZyI9W\nRcLLXeUWGnw+qJ04ZTQ7TZn8sP9oia++FRAdMKVGoN6Kw6Q/glHfhKDlxsp/UYtj\nhai5ZqNBjMSgT6cLoq+HBeVrDgme7AZn00ur4YoYx49CvQXCSzQWX8gnsbkOMdts\nepcpUTQ3XAj34ijjE+0sbzMTKD6ldb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA2\n0q4bY+KpPmfRVslzIvCJx4PTS3qfko4brAxEZC/SxbOYmONN7K2xn9oYrmVKAZd6\n7QIDAQAB\n-----END PUBLIC KEY-----',key_format='PEM'
-
-
+```
 
 ## Additional Information
 
