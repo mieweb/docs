@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-14T15:50:30.336Z'
-version: 1288
-lastAuthor: 'janderson'
+date: '2025-05-14T19:26:02.640Z'
+version: 1297
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -187,6 +187,7 @@ links:
   - 'functions/health-surveillance/introduction-to-health-surveillance-panels.md'
   - 'functions/health-surveillance/adding-editing-health-surveillance-panels.md'
   - 'functions/health-surveillance/health-surveillance-panels-actions.md'
+  - 'functions/health-surveillance/health-surveillance-panel-action-required-for-certification.md'
   - 'functions/health-surveillance/health-surveillance-panels-action-rules.md'
   - 'functions/health-surveillance/health-surveillance-panels-add-memberships-manually.md'
   - 'functions/health-surveillance/health-surveillance-panels-automated-membership.md'
@@ -941,6 +942,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Introduction to Health Surveillance Panels](functions/health-surveillance/introduction-to-health-surveillance-panels.md)
         * [Adding/Editing Health Surveillance Panels](functions/health-surveillance/adding-editing-health-surveillance-panels.md)
         * [Health Surveillance Panels - Actions](functions/health-surveillance/health-surveillance-panels-actions.md)
+        * [Health Surveillance Panel Action Required for Certification](functions/health-surveillance/health-surveillance-panel-action-required-for-certification.md)
         * [Health Surveillance Panels - Action Rules](functions/health-surveillance/health-surveillance-panels-action-rules.md)
         * [Health Surveillance Panels - Add Memberships Manually](functions/health-surveillance/health-surveillance-panels-add-memberships-manually.md)
         * [Health Surveillance Panels - Automated Membership](functions/health-surveillance/health-surveillance-panels-automated-membership.md)
