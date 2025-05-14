@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-14T19:26:02.640Z'
-version: 1297
-lastAuthor: 'anichols'
+date: '2025-05-14T20:10:18.867Z'
+version: 1301
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -125,6 +125,7 @@ links:
   - 'functions/portal-management/supervisor-portal-scheduling.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
+  - 'https://drive.google.com/open?id=1Fd2U9H2oVYLZTFlV-O14M0Do4xnMGP9rufSET8OhIZo'
   - 'functions/encounters.md'
   - 'functions/encounters/dictation-and-transcription.md'
   - 'functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md'
@@ -879,6 +880,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
+        * [Portal Virtual Waiting Room](https://drive.google.com/open?id=1Fd2U9H2oVYLZTFlV-O14M0Do4xnMGP9rufSET8OhIZo)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)
