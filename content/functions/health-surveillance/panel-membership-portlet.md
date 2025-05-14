@@ -1,12 +1,13 @@
 ---
 id: '1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
 title: 'Panel Membership Portlet'
-date: '2024-11-26T21:11:01.822Z'
-version: 102
+date: '2025-05-14T19:24:44.406Z'
+version: 111
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
+  - 'health-surveillance-panel-action-required-for-certification.md'
   - 'viewing-health-surveillance-panels-and-membership.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
@@ -73,6 +74,8 @@ Health Surveillance Panels (that a chart is a member of) will automatically dece
 The panel membership portlet and panel membership overview displays decertification status also via red color/color key.
 
 ![](../panel-membership-portlet.assets/05686ef997c06581ed04ac9d11722fb2.png)
+
+For more detailed information on decertification, please visit guide [Health Surveillance Panel Action Required for Certification](health-surveillance-panel-action-required-for-certification.md).
 
 ## Pencil Icon in Panel Membership Portlet
 
