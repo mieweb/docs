@@ -125,7 +125,7 @@ links:
   - 'functions/portal-management/supervisor-portal-scheduling.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
-  - 'https://drive.google.com/open?id=1Fd2U9H2oVYLZTFlV-O14M0Do4xnMGP9rufSET8OhIZo'
+  - 'functions/portal-management/portal-virtual-waiting-room.md'
   - 'functions/encounters.md'
   - 'functions/encounters/dictation-and-transcription.md'
   - 'functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md'
@@ -880,7 +880,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
-        * [Portal Virtual Waiting Room](https://drive.google.com/open?id=1Fd2U9H2oVYLZTFlV-O14M0Do4xnMGP9rufSET8OhIZo)
+        * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
     * [Encounters](functions/encounters.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)

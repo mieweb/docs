@@ -333,6 +333,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
          * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
          * [Portal Portlet](functions/portal-management/portal-portlet.md)
+         * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
          * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
       * Quality of Care
          * Measures
