@@ -806,6 +806,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * Medical Surveillance
             * [Industrial Hygiene](programs/compliance-programs/medical-surveillance/industrial-hygiene.md)
          * [Absence Management](programs/compliance-programs/absence-management.md)
+         * [Health Risk Assessment](programs/compliance-programs/health-risk-assessment.md)
          * [Medical Surveillance Program](programs/compliance-programs/medical-surveillance-program.md)
          * [Worksite Injury & Illness](programs/compliance-programs/worksite-injury-and-illness.md)
       * Medical Programs

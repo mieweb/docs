@@ -15,7 +15,7 @@ links:
   - 'programs/compliance-programs/medical-surveillance-program.md'
   - 'programs/compliance-programs/medical-surveillance/industrial-hygiene.md'
   - 'programs/compliance-programs/absence-management.md'
-  - 'https://drive.google.com/open?id=10Snko-CouhBr39S8W8U0qHgLo2k-8sUj09q5XUrTlz4'
+  - 'programs/compliance-programs/health-risk-assessment.md'
   - 'programs/employee-assistance-program.md'
   - 'programs/quality-reporting.md'
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
@@ -767,7 +767,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Medical Surveillance](programs/compliance-programs/medical-surveillance-program.md)
             * [Industrial Hygiene](programs/compliance-programs/medical-surveillance/industrial-hygiene.md)
         * [Absence Management](programs/compliance-programs/absence-management.md)
-        * [Health Risk Assessment](https://drive.google.com/open?id=10Snko-CouhBr39S8W8U0qHgLo2k-8sUj09q5XUrTlz4)
+        * [Health Risk Assessment](programs/compliance-programs/health-risk-assessment.md)
     * [Employee Assistance Program](programs/employee-assistance-program.md)
     * [Quality Reporting](programs/quality-reporting.md)
         * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
