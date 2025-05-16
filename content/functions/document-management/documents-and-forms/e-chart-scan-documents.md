@@ -1,8 +1,8 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2024-07-02T16:27:27.220Z'
-version: 223
+date: '2025-05-16T17:46:52.288Z'
+version: 234
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,20 +38,20 @@ Once the scanner is prepared, select the document type from the Add Document lib
 
 Scanning and uploading an individual document using this method is a two-part process, where the user scans the document using the *Document Scan Control* portion of the screen.  Then, the document gets indexed/uploaded accordingly using the *Add Document Properties* portion of the screen.
 
-![](../e-chart-scan-documents.assets/80b9b9816d00973eaf579169eabb3938.png)
+![](../e-chart-scan-documents.assets/22004836a301ee3e0e33a88902cc7f9f.png)
 
 Depending on if the functionality has been used previously, the system may automatically start the scanner and begin scanning the document, automatically. Otherwise, select the appropriate scanner by clicking the **Scanner** button and choosing the necessary scanner.
 
-![](../e-chart-scan-documents.assets/a7202a62552160dffbb63f0baca0c5b9.png)
+![](../e-chart-scan-documents.assets/4981d614c783c9db3fd88e5d36cfa676.png)
 
 Once the appropriate Scanner selection is set, click the **Scan Image** button to initiate scanning the document.The scanned document will appear as an image within the Document Scan Control area. If the document is two-sided and the scanner is not equipped with a duplex scanning feature, flip the document over, and click the **Scan Image** button, again. Users may scan in as many pages as necessary, though each scan will be stored as a single document in the chart.
 
-![](../e-chart-scan-documents.assets/e204d0c8325f8c703652595b879dfbfb.png)
+![](../e-chart-scan-documents.assets/4f92e2e7b0cb1de28708139b6e18d760.png)
 
 {{% note %}}
 In order to use the Scan method from the document library, your workstation must have MIE SSL App and MIE Device App installed.  Contact your system administrator to connect to those installed apps on your workstation if you get a pop-up message stating it could not connect to those apps.
 
-![](../e-chart-scan-documents.assets/974d7afe6689198d5372a7f40155244e.png)
+![](../e-chart-scan-documents.assets/e72586ab790d4239609e7697dd095753.png)
 {{% /note %}}
 
 After scanning the document(s) using the above method, scroll down to the *Add Document Properties* section of the screen. Fill in the available fields, as appropriate.
@@ -90,7 +90,7 @@ Once the necessary fields and content have been added, the document(s) can be up
 
 When scanning in documents, there are various control options available from the Document Scan Control toolbar. These controls are intended to be used prior to uploading the document(s), and provide users the ability to rotate, crop, and move/remove documents, as needed.
 
-![](../e-chart-scan-documents.assets/0d007797fdaa22d431c1f373c564e56f.png)
+![](../e-chart-scan-documents.assets/56cfddf20890a7f7b4fa402d66c4e712.png)
 
 * <strong>Crop</strong>: To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor 
     ![](../e-chart-scan-documents.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
