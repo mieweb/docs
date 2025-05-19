@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-14T20:10:18.867Z'
-version: 1301
+date: '2025-05-19T17:24:16.939Z'
+version: 1317
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -217,6 +217,7 @@ links:
   - 'functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md'
   - 'functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md'
   - 'functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescriber-responsibilities-and-transmission-requirements.md'
+  - 'functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescribing-controlled-substances-epcs.md'
   - 'functions/medication-management-and-e-prescribing/prescribing-adding-medications.md'
   - 'functions/medication-management-and-e-prescribing/edit-change-medications.md'
   - 'functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.md'
@@ -973,6 +974,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [IdenTrust Certificate Registration Step-by-Step](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md)
             * [EPCS Setup](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md)
             * [Prescriber Responsibilities & Transmission Requirements](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescriber-responsibilities-and-transmission-requirements.md)
+            * [Prescribing Controlled Substances (EPCS)](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/prescribing-controlled-substances-epcs.md#prescribing-controlled-substances-via-the-visit-encounter)
         * [Prescribing/Adding Medications](functions/medication-management-and-e-prescribing/prescribing-adding-medications.md)
         * [Edit/Change Medications](functions/medication-management-and-e-prescribing/edit-change-medications.md)
         * [Print/Fax/Transmit Prescriptions](functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.md)
