@@ -705,7 +705,7 @@ links:
   - 'resources/system-specifications/on-premise-deployment.md'
   - 'resources/system-specifications/on-premise-deployment/on-premise-mysql-server-hardware-requirements.md'
   - 'resources/system-specifications/on-premise-deployment/application-managed-service-summary.md'
-  - 'resources/system-specifications/interface-specifications.md'
+  - 'resources/system-specifications/enterprise-health-interface-specifications.md'
   - 'resources/system-specifications/ccda-ccd-and-ccr-compatibility.md'
   - 'resources/system-specifications/system-email-templates.md'
   - 'resources/system-specifications/system-email-templates/email-templates-from-chart.md'
@@ -1463,7 +1463,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [On-Premise Deployment](resources/system-specifications/on-premise-deployment.md)
             * [On-Premise MySQL Server Hardware Requirements](resources/system-specifications/on-premise-deployment/on-premise-mysql-server-hardware-requirements.md)
             * [Application Managed Service Summary](resources/system-specifications/on-premise-deployment/application-managed-service-summary.md)
-        * [Interface Specifications](resources/system-specifications/interface-specifications.md)
+        * [Interface Specifications](resources/system-specifications/enterprise-health-interface-specifications.md)
         * [CCDA, CCD and CCR Compatibility](resources/system-specifications/ccda-ccd-and-ccr-compatibility.md)
         * [System Email Templates](resources/system-specifications/system-email-templates.md)
             * [Email Templates from Chart](resources/system-specifications/system-email-templates/email-templates-from-chart.md)
