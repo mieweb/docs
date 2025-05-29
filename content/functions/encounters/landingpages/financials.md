@@ -1,8 +1,8 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2025-02-17T20:50:56.191Z'
-version: 143
+date: '2025-05-29T19:33:30.987Z'
+version: 172
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -101,6 +101,39 @@ Document Detail View:
 Chart tab list view:
 
 ![](../financials.assets/03de47ada1954d5e9525d167da16671b.png)
+
+### Optional System Settings
+
+There are system settings that can be enabled to help with financial charges within encounters. These provide additional checks (if enabled) when closing and archiving an encounter with financials/billing. These validation checks (optional to enable via the system settings) and warning alerts can help prevent issues in the downstream billing.
+
+![](../financials.assets/ef26e88d12065f73d05895fae93eff54.png)
+
+* <strong>Alert if charges exist with no diagnosis codes:</strong>  If enabled, Upon close and archive of an encounter, will alert if the Financials section includes/lists charge(s) yet the encounter is missing or has an invalid diagnosis code.  Any error(s) must be fixed before being able to successfully close and archive the encounter.
+    * This alert will display (when closing & archiving an encounter) if:
+        * There are charge(s) in the financial section and
+        * There is no valid diagnosis code(s) documented for the visit in the Symptoms/Diagnosis encounter section OR
+            * there are no valid diagnosis code(s) aka: Reason(s) documented on the charge(s) themselves in the financial section
+
+![](../financials.assets/13af42c64caead395bb1dd4ef43ca5d5.png)
+
+OR
+
+![](../financials.assets/540de9230a4534f52f0c3fac0b282aea.png)
+
+* <strong>Alert if charges have no quantity set:</strong> If enabled, Upon close and archive of an encounter, will alert if the Financials section includes/lists charge(s) with a quantity of zero.  Any error(s) must be fixed before being able to successfully close and archive the encounter.
+    * This alert will display (when closing & archiving an encounter) if:
+        * There are charge(s) in the financial section and
+        * There the charge(s) have a quantity of 0.
+
+![](../financials.assets/b1a0fea22ebe18d38acd26e992e503ce.png)
+
+* <strong>Alert if work comp payer is missing:</strong> If enabled, Upon close and archive of an encounter, will alert if the encounter has a linked Case/Incident that is not set to a payer with a Workers Compensation insurance type for the Payer.  Any error(s) must be fixed before being able to successfully close and archive the encounter.
+    * This alert will display (when closing & archiving an encounter) if:
+        * There are charge(s) in the financial section and
+        * There is a case/incident in the encounter marked as Work Comp = Yes and
+        * The Payer in the Encounter top info section does not have a Work Comp Insurance liability type of Work Comp tied to it.
+
+![](../financials.assets/293dccd854ce9cf51bf7e5a4737bc02e.png)
 
 ## Additional Information
 
