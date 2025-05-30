@@ -110,7 +110,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
             * [Carbon Copy](functions/encounters/landingpages/carbon-copy.md)
-            * [Chief Complaint](functions/encounters/landingpages/chief-complaint.md)
+            * [Chief Complaint](functions/encounters/chief-complaint.md)
             * [Contributing Providers](functions/encounters/landingpages/contributing-providers.md)
             * [Depart Instructions](functions/encounters/landingpages/depart-instructions.md)
             * [Encounter](functions/encounters/landingpages/encounter.md)
@@ -143,6 +143,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
          * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
          * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
          * [Assigned Users](functions/encounters/assigned-users.md)
+         * [Chief Complaint](functions/encounters/chief-complaint.md)
          * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
          * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
          * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
