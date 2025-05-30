@@ -1,8 +1,8 @@
 ---
 id: '1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
 title: 'Goals'
-date: '2025-02-25T13:28:48.803Z'
-version: 116
+date: '2025-05-30T14:08:50.049Z'
+version: 124
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -78,6 +78,8 @@ A checkmark blue circle icon next to an item on the Goals right side quick list 
 A goal has option buttons.  One can edit a goal, delete a goal, rearrange the display order of goals in that section, or generate a task about/related to that goal.
 
 ![](../goals.assets/55c6e70fcd4887618f1e139153f4b61c.png)
+
+Goals cannot be marked as historical, nor as achieved.  Goals are meant to stay with the chart as a lifetime with a trending ‘most recent last 5' view.  Currently, there is no reporting around Goals in a system.
 
 ### Symptoms/Diagnosis Encounter Section
 
