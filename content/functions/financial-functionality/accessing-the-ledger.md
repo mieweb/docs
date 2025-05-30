@@ -2,7 +2,7 @@
 id: '1gJHX6m5_tSU6dDiKs7HAH3Qxjad1wSNRUtHsDHBW8Ew'
 title: 'Accessing the ledger'
 date: '2021-02-17T22:23:12.576Z'
-version: 30
+version: 31
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

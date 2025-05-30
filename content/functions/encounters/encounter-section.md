@@ -2,7 +2,7 @@
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
 date: '2025-05-08T16:13:57.092Z'
-version: 92
+version: 102
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

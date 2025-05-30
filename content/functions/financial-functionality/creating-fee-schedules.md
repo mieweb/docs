@@ -2,7 +2,7 @@
 id: '1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
 title: 'Creating fee schedules'
 date: '2021-02-17T19:43:13.773Z'
-version: 19
+version: 20
 lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
