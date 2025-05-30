@@ -9,7 +9,7 @@ links:
   - 'editing-demographics.md'
   - 'insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 To navigate to the patient **Demographics** chart tab, search for the chart from the E-Chart sidemenu. Get into the chart, and click on the **Admin** chart tab. Demographics is available as a subtab of the Admin chart tab.
 

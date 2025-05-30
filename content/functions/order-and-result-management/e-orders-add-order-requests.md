@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.
 

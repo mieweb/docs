@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1jZ5PGqbKCzAKcaFR6idH4tUAWnft-WvzAcuJY4pDj1I'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Users must have security access to be in the Health Surveillance tab. On the sidemenu tab, click the **Control Panel** tab. Once on the **Control Panel** tab, click the **HSP** tab listed in the menu of tabs and click on **Health Surveillance**.
 

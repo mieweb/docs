@@ -9,7 +9,7 @@ links:
   - '../system-administration/security/security-role-settings.md'
   - 'https://mie.talentlms.com/shared/start/key:LAOIDNHR'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
 

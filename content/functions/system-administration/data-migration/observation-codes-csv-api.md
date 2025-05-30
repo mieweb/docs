@@ -11,7 +11,7 @@ links:
   - 'data-import-standards.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create observation codes using the Observation Codes CSV API.
 

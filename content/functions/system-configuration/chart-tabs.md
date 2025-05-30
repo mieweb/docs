@@ -10,7 +10,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZELDNHRK'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) from the Control Panel to update and maintain, as necessary.
 

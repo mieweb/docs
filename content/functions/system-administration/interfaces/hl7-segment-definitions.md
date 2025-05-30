@@ -11,7 +11,7 @@ links:
   - 'outbound-interface-install-instructions.md'
   - 'sample-hl7-messages.md'
 source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% anchor sys="msh" %}}
 

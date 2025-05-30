@@ -13,7 +13,7 @@ links:
   - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely within {{% system-name %}}.
 

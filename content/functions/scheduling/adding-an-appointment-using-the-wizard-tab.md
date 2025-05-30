@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Scheduling/Adding appointments can be done in many places within {{% system-name %}} but a centralized method is from the Wizard tab within the Scheduler module.
 

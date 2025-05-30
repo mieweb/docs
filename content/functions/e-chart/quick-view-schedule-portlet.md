@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
 source: 'https://drive.google.com/open?id=1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Schedule Portlet is an optional portlet that can be configured to display on the Quick View sidemenu. For more information on how to use and configure the Quick View, please review [Quick View Sidemenu](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/).
 

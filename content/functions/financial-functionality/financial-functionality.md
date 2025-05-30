@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nh4HHOr1akWGgol1SR1uC4beRIMW1yEk4pBa-nGMBn0'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The financial functionality of the system allows you to:
 

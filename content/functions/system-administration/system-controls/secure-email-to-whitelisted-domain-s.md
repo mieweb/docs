@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SOZRKMFP'
 source: 'https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% system-name %}}  provides the ability to securely email documents to specific whitelisted domains. Securely emailing is a network setup usually via VPN and/or a secure connection between MIE and the  {{% system-name %}} system domain, before they can be marked as whitelisted (in a system setting) to email to.  {{% system-name %}} must have a secure connection before having the ability to email out documents. Please contact your MIE Implementer for setup information.
 

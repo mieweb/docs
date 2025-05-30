@@ -12,7 +12,7 @@ links:
   - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 markup: 'pandoc'
 ---
 ![](../identrust-certificate-registration-step-by-step.assets/e714b45dbc80ccc03a7bd9d5253800b8.png)

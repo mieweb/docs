@@ -6,7 +6,7 @@ version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1dIk_2xbQpzTvTX8Gy2WlTYY4TR_4q2rRg1J8Qy9e8fs'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
 

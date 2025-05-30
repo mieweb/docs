@@ -13,7 +13,7 @@ links:
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit.
 

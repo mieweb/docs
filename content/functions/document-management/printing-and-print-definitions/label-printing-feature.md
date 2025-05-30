@@ -9,7 +9,7 @@ links:
   - '../../order-and-result-management/e-orders-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:AOGHRKMF'
 source: 'https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% system-name %}} offers a label generating feature that generates labels with predefined chart information. The data and information printed on the labels is provided as part of the system standard; however, label layouts can be customized for clients, as needed.
 

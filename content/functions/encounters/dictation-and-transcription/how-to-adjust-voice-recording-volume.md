@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 1. From the desktop of your computer, click START from the bottom left corner. Depending on what style you are displaying the start menu (classic or start view), you may then need to go to SETTINGS, then to CONTROL PANEL. Otherwise, click START and click CONTROL PANEL.
 

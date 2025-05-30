@@ -9,7 +9,7 @@ links:
   - '../../order-and-result-management/observation-codes-editor.md'
   - '../libraries.md'
 source: 'https://drive.google.com/open?id=1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Within an encounter's Plan section, there is an optional **Goals** encounter section that can be utilized.  This section can be used to document the patient's desired outcomes or goals related to their care, such as improving mobility, managing pain, or achieving specific health milestones.
 

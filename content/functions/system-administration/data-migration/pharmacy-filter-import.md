@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Pharmacy Filter allows you to import filter data on pharmacies based on either their NPI or NCPDPID.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Must have security permissions to be able to add/edit/delete users
 

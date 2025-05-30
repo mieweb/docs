@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1vV9ZAwk3eHys6SHAKLCBXPZpgiiuyilqQHifr7OEPkk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 An alert comment is text which appears at the top of all screens about the employer organization, such as the employer organization overview tab, the ledger, and financial account overview.
 

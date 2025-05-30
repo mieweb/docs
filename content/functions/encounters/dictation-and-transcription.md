@@ -6,7 +6,7 @@ version: 37
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jkkaykbJisElVA3anGLWgyfNIofH_SABJNTgiH2TMOY'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The ability to dictate notes in a patient chart is a critical factor when it comes to productivity. {{% system-name %}} has seamlessly integrated dictation into the workflow to provide the clinician with a number of input methods. As important as dictation is to the daily workflow of the physician, it is equally important to have a streamlined process to have those dictation files converted to text.  {{% system-name %}} also includes a robust transcription module to allow for this process.
 

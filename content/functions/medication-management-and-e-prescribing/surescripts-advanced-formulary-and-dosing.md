@@ -6,7 +6,7 @@ version: 64
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gT7EBIu-7OE1aAdVGs5iI01pV8flTBqMVvxV1a8Ui-8'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for coverage in the patient benefit table for future reference and a request can‘t be sent more than once every 72 hours. This help document discusses the Formulary & Dosing functionality in the steps below.
 

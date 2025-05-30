@@ -9,7 +9,7 @@ links:
   - '../../review-sessions/review-session-encounter-workflow.md'
   - '../../review-sessions/review-session-portal-management.md'
 source: 'https://drive.google.com/open?id=1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 ## Purpose
 

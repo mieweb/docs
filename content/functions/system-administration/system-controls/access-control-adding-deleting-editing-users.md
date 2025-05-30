@@ -11,7 +11,7 @@ links:
   - '../security/security-role-settings.md'
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Must have security permissions to Manage Users and Manage Permissions to be able to add/edit/delete users and configure user security role exceptions, etc.
 

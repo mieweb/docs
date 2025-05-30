@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.
 

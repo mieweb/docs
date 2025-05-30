@@ -9,7 +9,7 @@ links:
   - 'accessing-the-ledger.md'
   - 'finding-ledger-transactions.md'
 source: 'https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Only transactions that have not been closed can be voided.
 

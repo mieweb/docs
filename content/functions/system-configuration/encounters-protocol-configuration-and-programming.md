@@ -9,7 +9,7 @@ links:
   - '../order-and-result-management/observation-flowsheets.md'
   - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 *This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named Encounters-Protocols.pdf to read on workflow usage of Protocols within a Visit Encounter.*
 

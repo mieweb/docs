@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit'
 source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 

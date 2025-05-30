@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 ## Add/Upload Word Document to Chart
 

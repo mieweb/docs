@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1t47yFVdezErENnyK84PHViNVEbTChtzcTMiUkZY_0eg'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 If an organization exists in the system and is not an employer organization but needs to be, do the following to change it to an employer organization rather than creating one.
 

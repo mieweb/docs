@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=16mRc8J0pBrOwb2iPNF4WzPxSkPCkqj0XzH_iZORsJco'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 For each user security role or user account that needs access ledger functionality, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md). In the *Manage Ledger* field, choose the level of access:
 

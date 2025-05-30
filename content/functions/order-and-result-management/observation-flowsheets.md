@@ -10,7 +10,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSTDNHRK'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.
 

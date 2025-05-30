@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fpy2bWS8axvI2RAYvrKOr1g0iAJ-Lj5mO_y_fgM0EOU'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Companies using {{% system-name %}} may want a method to manage their external providers. System Administrators may compile as directory of providers commonly referred to or utilized. The directory may contain providers within their own practice and/or contracted providers. Details captured on the provider include location and contact information, languages spoken, specialty and contracted procedures listing. Out of the box credentialing information includes NPI, TIN, License numbers and expiration dates, DEA numbers and expiration dates and a next credentialing due date. Standard reports include detailed lists of providers requiring re-credentialing. The module can be custom configured to capture other specific details practices may wish to track, as well as any custom reporting on those fields.
 

@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler'
 source: 'https://drive.google.com/open?id=1tF-Tk_-m1MKjLwr0A48YUO1QRDN6Y6Yu_JPedO_z30w'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The {{% system-name %}} appointment and schedule management module features a customizeable, robust [Scheduler](https://system/?func=scheduler#Now) that makes it easy to set up and organize multiple physicians, locations, and resources. The appointment calendar features an easy-to-use appointment wizard, intuitive interface, color coding option, and multiple views including daily and weekly views. The scheduling module allows users to check in patients, print charts, enter vitals, and add dictation through the scheduling screen.
 

@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder'
 source: 'https://drive.google.com/open?id=1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&opp=edit&old_module=Email&old_name=Apt+Invite+Reminder), as needed.

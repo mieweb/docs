@@ -6,7 +6,7 @@ version: 34
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The following is referring to a Tremetrics RA500 or Maico MA800 audiogram system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 

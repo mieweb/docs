@@ -10,7 +10,7 @@ links:
   - '../functions.md'
   - '../functions/quality-of-care.md'
 source: 'https://drive.google.com/open?id=1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 {{% note %}}
 We have moved our quality of care and reporting resources. General documentation and submission information can be found and reviewed under our [Quality Reporting](../programs/quality-reporting.md) program. Otherwise, navigate the [General Functionality](../functions.md) section to further investigate the details of the overall [Quality of Care](../functions/quality-of-care.md) module and basic enrollment.

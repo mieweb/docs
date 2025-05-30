@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
   - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 This document explains how to import historical vital signs for employees into {{% system-name %}} .
 

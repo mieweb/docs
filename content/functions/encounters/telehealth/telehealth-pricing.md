@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:kari@mieweb.com'
 source: 'https://drive.google.com/open?id=1yqMTCU_lcitbjezmO6_9c0G1kwc88y0i74CLZFEK1VM'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 ## TeleHealth Video
 

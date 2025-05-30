@@ -10,7 +10,7 @@ links:
   - 'viewing-all-fee-schedules.md'
   - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Duplicate fee schedules to create a new fee schedule with the same fee schedule items and a different fee schedule name.
 

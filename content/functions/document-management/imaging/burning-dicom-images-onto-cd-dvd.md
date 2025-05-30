@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 If you wish to burn the DICOM images onto a CD, log into {{% system-name %}} and get into the patient's chart.  Select the specific chart tab that stores the DICOM images being burned to a CD.
 

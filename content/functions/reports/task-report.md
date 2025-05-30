@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 

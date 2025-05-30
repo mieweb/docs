@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LHkaV4HiAFPWKnKnOzRcFO76OCqe48TRZdKkrglX6Pc'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Work Comp Monitor Report is for monitoring work comps claims that are sent to TPAs (Third Party Administrators). Examples of TPA's include Sedwick, Origami, LIberty Mutual, CARS, Corvel, Brentwood, Broadspire, Risx-Facs (Gallagher Bassett), Vigilanz, and PMA. This report is used to make sure all work comp claims are successfully processed and sent to the TPA. The report will display any claims pending, errored, processed and sent.
 

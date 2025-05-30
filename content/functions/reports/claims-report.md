@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Claims report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 

@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DsA1eHLs-jVtdKwBqZ2JiOYYDDdKjDQ_m8QHr5y4sms'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Absence Management module allows employees to request a leave of absence or a return to work from a medical absence via the Employee portal.
 

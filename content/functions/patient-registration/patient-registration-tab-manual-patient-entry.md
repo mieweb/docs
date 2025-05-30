@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOLHRKMF'
 source: 'https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Patient or Employee charts can be manually registered into the system.
 

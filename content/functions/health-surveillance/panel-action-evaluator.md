@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1pLP-8271fYi3d0yBZp8dKaZbvqpMs-aIpwLzjhC5L6g'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Health Surveillance tab is found in the Control sidemenu tab. To access the Panel Action Evaluator, click the hyperlink named as such at the top right corner of the Health Surveillance tab.
 

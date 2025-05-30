@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 The Presenting Medications encounter section is located in the Visit Encounter Subjective. The left side of the encounter displays a listing of currently known and previously entered medications. The right side of the section contains Quick Links to help the user quickly add medications to the presenting medication list.
 

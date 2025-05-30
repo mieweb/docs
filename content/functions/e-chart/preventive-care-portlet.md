@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 You can select the *Preventive Care* portlet for your view on the Patient Summary chart tab view.
 

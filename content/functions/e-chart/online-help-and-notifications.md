@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your  {{% system-name %}} screen session is a help (?) bubble. Click that to access  {{% system-name %}} Online Help. Once you click the (?) a pop-up window of  {{% system-name %}} Online Help will open on your screen. You can type search phrases in the field at the top or click the index hyperlink at the bottom right corner of this screen to get a full index of all help documents.
 
