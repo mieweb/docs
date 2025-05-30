@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-19T17:24:16.939Z'
-version: 1317
-lastAuthor: 'auhrick'
+date: '2025-05-30T14:49:33.430Z'
+version: 1338
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -147,6 +147,7 @@ links:
   - 'functions/encounters/rename-a-heading.md'
   - 'functions/encounters/encounter-section.md'
   - 'functions/encounters/smart-plan.md'
+  - 'functions/encounters/chief-complaint.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
@@ -157,7 +158,9 @@ links:
   - 'functions/encounters/encounter-plan-section-medications.md'
   - 'functions/encounters/negations-encounter-section.md'
   - 'functions/encounters/encounters-impression-section.md'
+  - 'functions/encounters/carbon-copy.md'
   - 'functions/encounters/e-m-calculator.md'
+  - 'functions/encounters/financials.md'
   - 'functions/encounters/encounter-summary-toolbar.md'
   - 'functions/encounters/encounters-tab-search-and-list-view.md'
   - 'functions/encounters/encounter-checkout-chart-tab.md'
@@ -759,7 +762,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 * [Programs](programs.md)
     * [Medical Programs](programs/medical-programs.md)
@@ -903,6 +906,7 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Rename a Heading](functions/encounters/rename-a-heading.md)
         * [Encounter Section](functions/encounters/encounter-section.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
+        * [Chief Complaint](functions/encounters/chief-complaint.md)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
@@ -914,7 +918,9 @@ wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
         * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
         * Encounters Open Order Request Section
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
+        * [Carbon Copy](functions/encounters/carbon-copy.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
+        * [Financials](functions/encounters/financials.md)
         * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
         * [Encounters Tab - Search and List View](functions/encounters/encounters-tab-search-and-list-view.md)
         * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
