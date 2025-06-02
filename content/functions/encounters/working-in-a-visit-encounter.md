@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-04-14T16:23:51.991Z'
-version: 453
+date: '2025-06-02T14:40:00.098Z'
+version: 470
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -59,13 +59,21 @@ The release icon is available at the top or a button at the bottom of the dynami
 
 This release button will take you to the "view" of the encounter and release you from this encounter. The encounter is no longer marked "current" for you and on a worklist would remove your name from being shown actively in or working in the encounter as "in progress". *Note Complete* and *Archive & Close* function buttons also release the encounter from the current user. You can also "release" from the List Encounters screen.
 
-If you have not released the encounter, when a user navigates to an encounter that has already been grabbed or the encounter is marked as "current" for another user, a red alert displays on top of the encounter stating another user owns this encounter. It doesn't prevent that other user from working in the encounter, but it notifies to them that someone else has this same encounter marked as "current" or is currently working in it and has not released it as "current" for themselves. System setting *Use Grab* must be enabled to utilize this feature. *Note: If this system setting is disabled (value 0) then you will not see nor need to utilize the "release" button in the dynamic encounter.*
+If you have not released the encounter, when a user navigates to an encounter that has already been grabbed or the encounter is marked as "current" for another user, a red alert displays on top of the encounter stating another user owns this encounter. It doesn't prevent the other user from working in the encounter, but it notifies them that someone else has this same encounter marked as "current" or is currently working in it and has not released it as "current" for themselves. System setting *Use Grab* must be enabled to utilize this feature. *Note: If this system setting is disabled (value 0) then you will not see nor need to utilize the "release" button in the dynamic encounter.*
 
 ![](../working-in-a-visit-encounter.assets/ff3c02578ecca011d066b760df975ee5.png)
 
+#### Autorelease of Encounters
+
+If a user has an encounter as ‘current' and has not manually released it, the current encounter (if any), will auto-release the current one based on these conditions:
+
+* Encounter is Closed with a service date 7 or more days in the past (from today's date).
+* Encounter is Open with a service date 30 or more days in the past (from today's date).
+* UNLESS the time the user set the encounter current was within the last 48 hours. This way if really need to, users can manually set an old encounter as current, but it's not going to stay that way for very long.
+
 ## Multiple Users in Encounter
 
-Seeing the *Other Users InThis Encounter* yellow alert bar means another userI(s) has this specific encounter id marked as "current" for themselves. They may be in the encounter working also, or they may just still have that patient's encounter still set as "current" for themselves and never clicked "release". Any user who has the same encounter marked as "current" for themselves will show that alert to other users who also get into the encounter to work. You can force to release the encounter from another user as current. Simply click the *release* hyperlink in the options column next to the specific user(s). If no other user has this same encounter ‘current' for themselves, you will not see any of this.
+Seeing the *Other Users InThis Encounter* yellow alert bar means another userI(s) has this specific encounter ID marked as "current" for themselves. They may be in the encounter working also, or they may just still have that patient's encounter still set as "current" for themselves and never clicked "release". Any user who has the same encounter marked as "current" for themselves will show that alert to other users who also get into the encounter to work. You can force to release the encounter from another user as current. Simply click the *release* hyperlink in the options column next to the specific user(s). If no other user has this same encounter ‘current' for themselves, you will not see any of this.
 
 ![](../working-in-a-visit-encounter.assets/65b3a9b43328e41ed511c3687b267cc2.png)
 
