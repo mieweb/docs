@@ -110,7 +110,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
             * [Contributing Providers](functions/encounters/contributing-providers.md)
-            * [Depart Instructions](functions/encounters/landingpages/depart-instructions.md)
+            * [Depart Instructions](functions/encounters/depart-instructions.md)
             * [Encounter](functions/encounters/landingpages/encounter.md)
             * [Encounter Owners](functions/encounters/landingpages/encounter-owners.md)
             * [Evaluation and Management Calculator](functions/encounters/landingpages/evaluation-and-management-calculator.md)
@@ -145,6 +145,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [Contributing Providers](functions/encounters/contributing-providers.md)
          * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
          * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
+         * [Depart Instructions](functions/encounters/depart-instructions.md)
          * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
          * [E/M Calculator](functions/encounters/e-m-calculator.md)
          * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
