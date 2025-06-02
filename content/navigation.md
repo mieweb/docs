@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-05-30T14:49:33.430Z'
-version: 1338
+date: '2025-06-02T13:58:55.285Z'
+version: 1354
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -144,10 +144,13 @@ links:
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
+  - 'functions/encounters/encounter.md'
+  - 'functions/encounters/encounter-owners.md'
   - 'functions/encounters/rename-a-heading.md'
   - 'functions/encounters/encounter-section.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/chief-complaint.md'
+  - 'functions/encounters/contributing-providers.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
@@ -159,8 +162,10 @@ links:
   - 'functions/encounters/negations-encounter-section.md'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/carbon-copy.md'
+  - 'functions/encounters/depart-instructions.md'
   - 'functions/encounters/e-m-calculator.md'
   - 'functions/encounters/financials.md'
+  - 'functions/encounters/final-summary-encounter-sections.md'
   - 'functions/encounters/encounter-summary-toolbar.md'
   - 'functions/encounters/encounters-tab-search-and-list-view.md'
   - 'functions/encounters/encounter-checkout-chart-tab.md'
@@ -903,10 +908,13 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
+        * [Encounter](functions/encounters/encounter.md)
+        * [Encounter Owners](functions/encounters/encounter-owners.md)
         * [Rename a Heading](functions/encounters/rename-a-heading.md)
         * [Encounter Section](functions/encounters/encounter-section.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
         * [Chief Complaint](functions/encounters/chief-complaint.md)
+        * [Contributing Providers](functions/encounters/contributing-providers.md)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
@@ -919,8 +927,10 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * Encounters Open Order Request Section
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [Carbon Copy](functions/encounters/carbon-copy.md)
+        * [Depart Instructions](functions/encounters/depart-instructions.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
         * [Financials](functions/encounters/financials.md)
+        * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
         * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
         * [Encounters Tab - Search and List View](functions/encounters/encounters-tab-search-and-list-view.md)
         * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
