@@ -1,14 +1,14 @@
 ---
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
-date: '2025-03-13T15:58:05.705Z'
-version: 122
+date: '2025-06-02T13:17:30.912Z'
+version: 143
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
 Various security permissions apply to the Health Surveillance editor for the system within the Control Panel.
 
@@ -22,7 +22,7 @@ The listing of current active configured Health Surveillance Panels will display
 
 ## Updated Editor
 
-An updated Health Surveillance editor (that utilizes a datavis grid method) is accessible from the Health Surveillance control tab upon landing.  The list of active configured health suveillance panels is predefined as a perspective and grouped by Panel Name.
+An updated Health Surveillance editor (that utilizes a datavis grid method) is accessible from the Health Surveillance control tab upon landing.  The list of active configured health surveillance panels is predefined as a perspective and grouped by Panel Name.
 
 ![](../viewing-health-surveillance-panels-and-membership.assets/a27b5b6cc86c5bd47aafd315d5feef9f.png)
 
@@ -56,8 +56,10 @@ From either method (updated datavis editor or legacy editor), you gain access to
     * Existing automated Membership Rule(s) listed on a panel can be edited or deleted from here if have security permission.  New automated membership rule(s) on a panel can be added from here also using the hyperlinks top right of the screen
 * <strong>Individual Include/Exclude section</strong>: lists all current employees/patients that are members of this specific panel and if they are included or excluded at the panel level explicitly.
     * An explicit membership (included or excluded) can be edited or expired from this membership listing on a specific individual. Clicking the Edit/Expire hyperlink in the options column will open up a screen to make any edits, or expire an individual's membership to this panel.
+        * <strong>EXPIRE button:</strong> When a chart's membership is marked using the Expire button, at a later time this Panel's membership rule could have the chart re-enter the panel (in the future) if the chart fits its membership rule criteria.  Expire does not explicitly remove the chart from being looked at in its membership rule.
+        * <strong>EDIT button:</strong> When a chart's membership is marked using the Edit button, and if the type is changed to <strong>Exclude</strong>, the chart will not ever re-enter the panel automatically via membership in the future.  The chart has explicitly been removed from the panel. Explicit membership removal is "sticky" meaning the membership removal from a panel does not automatically get re-evaluated when the employee changes jobs, work locations, departments, etc. if automated membership rules are in place.
 
-![](../viewing-health-surveillance-panels-and-membership.assets/858be70607282e2ab6cf57a604bf7e08.png)
+![](../viewing-health-surveillance-panels-and-membership.assets/5de8aba28940b9cc717bea67e6f75c0e.png)
 
 * <strong>Membership Approval section:</strong> at the very bottom is a <em>Membership Approval</em> <em>area</em> and reflects information if this panel's membership has ever been marked as approved or not.
 
