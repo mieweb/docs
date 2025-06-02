@@ -109,7 +109,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [SpeechMike Dictation Instructions](functions/encounters/dictation-and-transcription/speechmike-dictation-instructions.md)
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
-            * [Contributing Providers](functions/encounters/landingpages/contributing-providers.md)
+            * [Contributing Providers](functions/encounters/contributing-providers.md)
             * [Depart Instructions](functions/encounters/landingpages/depart-instructions.md)
             * [Encounter](functions/encounters/landingpages/encounter.md)
             * [Encounter Owners](functions/encounters/landingpages/encounter-owners.md)
@@ -142,6 +142,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [Assigned Users](functions/encounters/assigned-users.md)
          * [Carbon Copy](functions/encounters/carbon-copy.md)
          * [Chief Complaint](functions/encounters/chief-complaint.md)
+         * [Contributing Providers](functions/encounters/contributing-providers.md)
          * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
          * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
          * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
