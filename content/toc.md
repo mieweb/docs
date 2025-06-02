@@ -111,7 +111,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * landingpages
             * [Contributing Providers](functions/encounters/contributing-providers.md)
             * [Depart Instructions](functions/encounters/depart-instructions.md)
-            * [Encounter](functions/encounters/landingpages/encounter.md)
+            * [Encounter](functions/encounters/encounter.md)
             * [Encounter Owners](functions/encounters/landingpages/encounter-owners.md)
             * [Evaluation and Management Calculator](functions/encounters/landingpages/evaluation-and-management-calculator.md)
             * [Exam Editor and Encounter Types](functions/encounters/landingpages/exam-editor-and-encounter-types.md)
@@ -148,6 +148,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [Depart Instructions](functions/encounters/depart-instructions.md)
          * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
          * [E/M Calculator](functions/encounters/e-m-calculator.md)
+         * [Encounter](functions/encounters/encounter.md)
          * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
          * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
          * [Encounter Protocols](functions/encounters/encounter-protocols.md)
