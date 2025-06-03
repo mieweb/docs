@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-02T13:58:55.285Z'
-version: 1354
+date: '2025-06-03T14:43:33.852Z'
+version: 1381
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -150,19 +150,25 @@ links:
   - 'functions/encounters/encounter-section.md'
   - 'functions/encounters/smart-plan.md'
   - 'functions/encounters/chief-complaint.md'
+  - 'functions/encounters/history-of-present-illness.md'
   - 'functions/encounters/contributing-providers.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
   - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
+  - 'functions/encounters/immunizations-and-injections.md'
+  - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/encounter-plan-section-medications.md'
   - 'functions/encounters/negations-encounter-section.md'
+  - 'functions/encounters/visit-orders.md'
+  - 'functions/encounters/future-appointments.md'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/carbon-copy.md'
   - 'functions/encounters/depart-instructions.md'
+  - 'functions/encounters/goals.md'
   - 'functions/encounters/e-m-calculator.md'
   - 'functions/encounters/financials.md'
   - 'functions/encounters/final-summary-encounter-sections.md'
@@ -914,10 +920,13 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * [Encounter Section](functions/encounters/encounter-section.md)
         * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
         * [Chief Complaint](functions/encounters/chief-complaint.md)
+        * [HPI Encounter Section](functions/encounters/history-of-present-illness.md)
         * [Contributing Providers](functions/encounters/contributing-providers.md)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
+        * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
+        * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
         * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
@@ -925,9 +934,12 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
         * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
         * Encounters Open Order Request Section
+        * [Visit Orders Section](functions/encounters/visit-orders.md)
+        * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [Carbon Copy](functions/encounters/carbon-copy.md)
         * [Depart Instructions](functions/encounters/depart-instructions.md)
+        * [Goals](functions/encounters/goals.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
         * [Financials](functions/encounters/financials.md)
         * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
