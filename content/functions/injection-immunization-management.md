@@ -1,13 +1,14 @@
 ---
 id: '1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
 title: 'Injection/Immunization Management'
-date: '2020-02-27T20:08:23.540Z'
-version: 28
+date: '2025-06-03T13:46:54.858Z'
+version: 35
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1bLRXxR-h5NWzJsXSk2cf_6ZjxljZuiBzTcQdmlvVrDA'
 wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
-The {{% system-name %}} Injection/Immunzation module is designed to help clinicians enter and track immunizations and therapeutic or allergy injections, facilitating clinical decisions and follow-ups.
+The {{% system-name %}} Injection/Immunization module is designed to help clinicians enter and track immunizations and therapeutic or allergy injections, facilitating clinical decisions and follow-ups.
 
 {{% children %}}
