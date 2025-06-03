@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-03T14:43:33.852Z'
-version: 1381
+date: '2025-06-03T18:48:57.463Z'
+version: 1394
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -157,12 +157,14 @@ links:
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/immunizations-and-injections.md'
   - 'functions/encounters/questionnaire-encounter-section.md'
+  - 'functions/encounters/images.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/encounter-plan-section-medications.md'
   - 'functions/encounters/negations-encounter-section.md'
+  - 'functions/encounters/plan-narrative.md'
   - 'functions/encounters/visit-orders.md'
   - 'functions/encounters/future-appointments.md'
   - 'functions/encounters/encounters-impression-section.md'
@@ -927,6 +929,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
+        * [Images Encounter Section](functions/encounters/images.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
         * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
@@ -934,6 +937,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
         * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
         * Encounters Open Order Request Section
+        * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
         * [Visit Orders Section](functions/encounters/visit-orders.md)
         * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
