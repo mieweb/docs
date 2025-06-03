@@ -2,7 +2,7 @@
 id: '1WL4cLXmukRX616QkWJCrK5FBgkLsgmOQ6Jn7YHpElNk'
 title: 'CC 9 - Implementation of Practices/Processes for Developing Regular Individual Care Plans'
 date: '2020-02-27T20:52:36.873Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

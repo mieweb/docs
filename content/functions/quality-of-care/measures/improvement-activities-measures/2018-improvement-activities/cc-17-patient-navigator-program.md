@@ -2,7 +2,7 @@
 id: '18vxMqn64ZID6DG-8KWr5B63p2HSHUCIahluCArqyLks'
 title: 'CC 17 - Patient Navigator Program'
 date: '2020-02-27T20:48:05.383Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1ZTDXpMq4ui1ENOvtAmWca-hLbPYJi-S3AKfyl66HFy0'
 title: 'PSPA 10 - Completion of training and receipt of approved waiver for provision opioid medication-assisted treatments'
 date: '2020-02-27T20:54:19.299Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
 title: 'Inventory Weekly Review'
 date: '2020-02-27T20:32:27.298Z'
-version: 26
+version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'

@@ -2,7 +2,7 @@
 id: '1Zt9mCccJ2jc7eCnUy_Hgz_OINOSeOhhLx11ZLqn_Hyk'
 title: 'PSPA 24 - Initiate CDC Training on Antibiotic Stewardship'
 date: '2020-02-27T20:55:18.908Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.train.org/cdctrain/course/1075730/compilation'

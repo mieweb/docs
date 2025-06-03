@@ -1,9 +1,9 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-02-17T16:31:32.549Z'
-version: 369
-lastAuthor: 'janderson'
+date: '2025-05-30T17:49:05.652Z'
+version: 377
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'

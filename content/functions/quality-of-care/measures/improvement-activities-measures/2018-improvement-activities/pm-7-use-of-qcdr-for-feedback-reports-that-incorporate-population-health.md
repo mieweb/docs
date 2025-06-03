@@ -2,7 +2,7 @@
 id: '1JSTN57RI8EpjMP8v4tYg3rLUPQnpk5CYSY6HP-4ILEg'
 title: 'PM 7 - Use of QCDR for Feedback Reports that Incorporate Population Health'
 date: '2020-02-27T20:48:34.376Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

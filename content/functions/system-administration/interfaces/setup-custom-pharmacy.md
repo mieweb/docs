@@ -2,7 +2,7 @@
 id: '1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
 title: 'Setup Custom Pharmacy'
 date: '2020-02-27T20:29:02.852Z'
-version: 24
+version: 25
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'

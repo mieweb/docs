@@ -2,7 +2,7 @@
 id: '1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0'
 title: 'CC 11 - Care Transition Standard Operational Improvements'
 date: '2020-02-27T20:51:37.014Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

@@ -2,7 +2,7 @@
 id: '1Qqk_-Jpcrx0Oz9Ae02-KID0PJ3BfuM2NroOZCA3JF4w'
 title: 'AHE 5 - MIPS Eligible Clinician Leadership in Clinical Trials or CBPR'
 date: '2020-02-27T20:49:14.539Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

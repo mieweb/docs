@@ -2,7 +2,7 @@
 id: '1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI'
 title: 'BE 24 - Financial Navigation Program'
 date: '2020-02-27T20:56:18.150Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

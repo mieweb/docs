@@ -2,7 +2,7 @@
 id: '1cg9Con7c6Txy197OHZovd_qaRS6c8JaNDRbV6R3-UFU'
 title: 'PSPA 25 - Cost Display for Laboratory and Radiographic Orders'
 date: '2020-02-27T20:55:23.518Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

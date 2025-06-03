@@ -2,7 +2,7 @@
 id: '1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
 title: 'PSPA 8 - Use of Patient Safety Tools'
 date: '2020-02-27T20:56:06.236Z'
-version: 18
+version: 19
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html'
