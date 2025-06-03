@@ -109,7 +109,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [SpeechMike Dictation Instructions](functions/encounters/dictation-and-transcription/speechmike-dictation-instructions.md)
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
-            * [Images](functions/encounters/landingpages/images.md)
+            * [Images](functions/encounters/images.md)
             * [Nurse Physical Exam](functions/encounters/landingpages/nurse-physical-exam.md)
             * [Patient Education](functions/encounters/landingpages/patient-education.md)
             * [Plan Narrative](functions/encounters/landingpages/plan-narrative.md)
@@ -151,6 +151,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [Future Appointments](functions/encounters/future-appointments.md)
          * [Goals](functions/encounters/goals.md)
          * [History of Present Illness](functions/encounters/history-of-present-illness.md)
+         * [Images](functions/encounters/images.md)
          * [Immunizations and Injections](functions/encounters/immunizations-and-injections.md)
          * [Libraries](functions/encounters/libraries.md)
          * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
