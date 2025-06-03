@@ -129,7 +129,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [Recommendations](functions/encounters/landingpages/recommendations.md)
             * [Social History](functions/encounters/landingpages/social-history.md)
             * [Tests and Procedures](functions/encounters/landingpages/tests-and-procedures.md)
-            * [Visit Orders](functions/encounters/landingpages/visit-orders.md)
+            * [Visit Orders](functions/encounters/visit-orders.md)
             * [Visual Exam](functions/encounters/landingpages/visual-exam.md)
             * [Vitals](functions/encounters/landingpages/vitals.md)
          * TeleHealth
@@ -174,6 +174,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [TeleHealth](functions/encounters/telehealth.md)
          * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
          * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
+         * [Visit Orders](functions/encounters/visit-orders.md)
          * [Work-Related Exams](functions/encounters/work-related-exams.md)
          * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
          * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
