@@ -1,21 +1,21 @@
 ---
 id: '1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
 title: 'Colors'
-date: '2024-05-20T16:43:19.366Z'
-version: 144
+date: '2025-06-04T15:50:48.517Z'
+version: 153
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
 wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
 ---
-From the Control sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
+From the Control Panel sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 
-![](../colors.assets/1de645dc287fc66654b6c20a1d1df421.png)
+![](../colors.assets/6808101cbed20db4d20ef91be514cd12.png)
 
 When you are in the Colors module, there are 2 choices of Color Scheme by default that you can look at and set. This section gives you a quick glance at what things will look like as you change colors. It also shows if you are changing the "System" colors (named Custom) or the miEHR colors (miEHR colors are defaulted to be MIE's branded colors of green, orange, etc).
 
-![](../colors.assets/dfe166e4b175293597fca4a8025ae1f3.png)
+![](../colors.assets/643152a5c6114f654fd48fb0baedc733.png)
 
 Each logged in user has their own My Settings preference to determine which color scheme they want to see {{% system-name %}} in. However any changes done to any color scheme in {{% system-name %}} will affect all users that have that selected. The My Settings preference is called *Color Scheme*.
 
