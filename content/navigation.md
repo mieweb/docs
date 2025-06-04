@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-04T13:29:51.803Z'
-version: 1401
+date: '2025-06-04T18:40:54.084Z'
+version: 1410
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -168,6 +168,7 @@ links:
   - 'functions/encounters/plan-narrative.md'
   - 'functions/encounters/visit-orders.md'
   - 'functions/encounters/future-appointments.md'
+  - 'functions/encounters/recommendations.md'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/carbon-copy.md'
   - 'functions/encounters/depart-instructions.md'
@@ -942,6 +943,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
         * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
         * [Visit Orders Section](functions/encounters/visit-orders.md)
         * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
+        * [Recommendations Encounter Section](functions/encounters/recommendations.md)
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [Carbon Copy](functions/encounters/carbon-copy.md)
         * [Depart Instructions](functions/encounters/depart-instructions.md)
