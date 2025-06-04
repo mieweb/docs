@@ -110,7 +110,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
             * [Images](functions/encounters/images.md)
-            * [Nurse Physical Exam](functions/encounters/landingpages/nurse-physical-exam.md)
+            * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
             * [Patient Education](functions/encounters/landingpages/patient-education.md)
             * [Plan Narrative](functions/encounters/plan-narrative.md)
             * [Recommendations](functions/encounters/landingpages/recommendations.md)
@@ -156,6 +156,7 @@ wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
          * [Libraries](functions/encounters/libraries.md)
          * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
          * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
+         * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
          * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
          * [Plan Narrative](functions/encounters/plan-narrative.md)
          * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
