@@ -1,9 +1,9 @@
 ---
 id: '1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
 title: 'Viewing Cases'
-date: '2020-03-09T23:22:52.265Z'
-version: 65
-lastAuthor: 'aquandt'
+date: '2025-06-05T12:33:06.922Z'
+version: 98
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../system-configuration/side-chart-configuration.md'
@@ -18,19 +18,17 @@ A Case is a full report of a workplace injury, or incident, for an employee (pat
 
 The dynamic encounters offer a Case section.  To see the listing of cases/incidents a chart has while working in an encounter, you must expand the Case section in the encounter.
 
-![](../viewing-cases.assets/53634e10054f1002bb6009bf2c547b91.png)
+![](../viewing-cases.assets/9cf42d08726b8e906cdb9a0308673c64.png)
 
-When expanded, the Case section lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient. If the Reported By is highlighted, that means the patient reported the case/incident and created their own incident report via the portal (if the client uses such a portal).  The Verified column will also be highlighted for any that are not verified yet.
+When expanded, the Case section datavis lists any open case types the chart has existing so the encounter can be linked to an existing case, or offers the ability to create a new case if needed.  This is the summary to track cases (incidents), injuries, specific types (like MSEA or absence management) etc on the patient.
 
-Case details display the date of the incident/case,  date created, the condition, case managers, and the last note and last plan.  WR is for Work Related which means if it's been determined if the case/incident was work related or not. It will always say undetermined until a case manager determines and marks as such.  The WR column indicates if a case is OSHA related or Worker's Comp related. If either is Yes, it will display "Yes". If either is Undetermined, it will display "Und". Otherwise it will display "No".
+Case details display the date of the incident/case,  date created, the condition, case managers, and the last note and last plan. OSHA Work Related is for Work Related which means if it's been determined if the case/incident was work related or not. It will always say undetermined until a case manager determines and marks as such.
 
-From this listing of cases, in the options column you can task, delete, link or unlink, close, or generate a 301 forms library document based on the incident data.
+![](../viewing-cases.assets/c112a3f20c7d5bb2a4b36abe66322bcc.png)
 
-![](../viewing-cases.assets/9bcb43673f8835cf64b6f6c8170ac783.png)
+Clicking on the Arrow icon in the Info column will display the Nature of Injury list for the specific case selected.
 
-Clicking on an existing Case number (that is a hyperlink) will take you to a summary view where you can see the viewable details of that specific case on your screen and even batch print/fax linked incident documents that are linked to that case.
-
-![](../viewing-cases.assets/b599230185ac80742e72518d440dd7fe.png)
+![](../viewing-cases.assets/36261cd9dcc71fb99555f6c7f96febc3.png)
 
 ## Case Side Chart Section
 
@@ -62,17 +60,15 @@ Clicking on the Case number (that is a hyperlink) will take you to a summary vie
 
 To see the listing of cases/incidents a patient/employee has, you must expand the Case section in the dynamic encounter.  There you will have the ability to create a new case/incident, or scroll down a bit further to link to an existing case or see the list of existing cases.
 
-![](../viewing-cases.assets/53634e10054f1002bb6009bf2c547b91.png)
+![](../viewing-cases.assets/9cf42d08726b8e906cdb9a0308673c64.png)
 
-It shows the date of the incident, date created, the condition, case managers, and the last note and last plan.  WR is for Work Related which means if it's been determined if the case/incident was work related or not. It will always say undetermined until a case manager determines and marks as such.  The "WR" column indicates if a case is OSHA related or Worker's Comp related. If either is Yes, it will display "Yes". If either is Undetermined, it will display "Und". Otherwise it will display "No".
-
-From this listing of current, previous incidents; in the options column you can task, delete, link or unlink, close, or generate a 301 forms library document based on the incident data.
+It shows the date of the incident, date created, the condition, case managers, and the last note and last plan.  OSHA Work Related is for Work Related which means if it's been determined if the case/incident was work related or not. It will always say undetermined until a case manager determines and marks as such.
 
 ## Managing Cases
 
 ### Delete
 
-To delete a Case you can do it while working in an encounter or from the Case chart tab via the Delete hyperlink. Only users with security permission can delete cases from charts.  Refer to [Deleting an Existing Case](deleting-an-existing-case.md) help documentation for more detail.
+To delete a Case you can do it from the Case chart tab via the Delete hyperlink. Only users with security permission can delete cases from charts.  Refer to [Deleting an Existing Case](deleting-an-existing-case.md) help documentation for more detail.
 
 ![](../viewing-cases.assets/0fca2229c2413c2cb0e1490a52ae7383.png)
 
@@ -90,7 +86,7 @@ A Task option is available on existing cases.  When clicked, a separate task wi
 
 When working in an encounter, clicking Link on a specific existing case will automatically link that case to the encounter.  Meaning, the encounter is related to the existing case type linked to. This allows documentation, encounters, etc to be linked to a case to group information.  If you wish to unlink it, simply click unlink to encounter. When unlinking a case from the encounter, the Case details section will reload so that a new case can be entered.
 
-![](../viewing-cases.assets/36cd7b5ea521141814cba71f599bb125.png)
+![](../viewing-cases.assets/e3cb3f2992ec4f0005084bc9efac843d.png)
 
 Case details appear in the grey encounter info bar area if your current encounter (for the chart) is related to a case.
 
@@ -102,7 +98,7 @@ A case (incident) would be closed if the case is entirely completed and consider
 
 Closing a case is separate/different than closing & archiving an encounter.  A Case can be open for weeks to months to years.  It's the one case/incident that multiple documents and encounters may be linked to.
 
-To close a Case, you can do it while working in an encounter or from the Case chart tab via the Close hyperlink found in the options column.  Please refer to [Closing an Existing Case](closing-an-existing-case.md) help documentation for detail.
+To close a Case, you can do it from the Case chart tab via the Close hyperlink found in the options column.  Please refer to [Closing an Existing Case](closing-an-existing-case.md) help documentation for detail.
 
 ![](../viewing-cases.assets/dcbbb246d6927a0f17112b3413c935d0.png)
 
@@ -118,10 +114,10 @@ The 301 hyperlink provides the ability to print the OSHA 301 form regarding the 
 
 ### Incident Links
 
-The Case section in encounters offers an Incident Links button.  Clicking on the + icon in the Incident Links area below the list of existing cases to expand and display all encounters and documents linked to the the specific case that is linked to the encounter you are working in.
+The Case section in encounters offers an Incident Links button.  Clicking on the + icon in the Incident Links area below the list of existing cases to expand and display all encounters and documents linked to the specific case that is linked to the encounter you are working in.
 
-![](../viewing-cases.assets/27b93c3cb2049aa96678e5ce0790ff2d.png)
+![](../viewing-cases.assets/7133c1b2d1dc8a297520fbf85e9c41de.png)
 
 The documents and encounters linked to that specific linked case will expand on your screen for viewing.  This gives visibility and accessibility to documents that are linked to the case, without having to get out of the encounter to look elsewhere for the information.  You can click on any document via it's hyperlink and it will open that in a separate window. When archiving an encounter that is linked to a case, the archived encounter document is automatically linked to the case as well.
 
-![](../viewing-cases.assets/fa26578bcc32d046f8169d5ba23cab11.png)
+![](../viewing-cases.assets/b4ee820710deb1671aab5c6c0bba2339.png)
