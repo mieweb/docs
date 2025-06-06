@@ -9,7 +9,7 @@ links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 The *Nurse Physical Exam* encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document a Nurse's physical exam regarding the visit within an encounter.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../rapid-deployment.md'
 source: 'https://drive.google.com/open?id=1uT8WLYj42KO6Q0YgNCoxLH8RikMH_C6IBQjUmhLSaWU'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 Users may utilize any of these links, below; otherwise, those new to the {{% system-name %}} system may want to navigate to the [Rapid Deployment](../../rapid-deployment.md) resources and review the tools designed to help get new systems stood up and implemented with little delay.
 

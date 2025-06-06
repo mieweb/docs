@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EHSREQ&old_module=Email&old_name=Apt+Missed+Required&active=0'
 source: 'https://drive.google.com/open?id=1yxmScXXEckEB5-E40arw9fkAjQ9cZbUK8TT1q8dCQIo'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=EHSREQ&old_module=Email&old_name=Apt+Missed+Required&active=0), as needed.

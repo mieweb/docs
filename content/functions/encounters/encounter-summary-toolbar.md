@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 While working in a chart or any chart tab, if the chart has a ‘current' and open encounter for your login, you will see easy accessible buttons to jump right into that ‘current' and open encounter for your workflow needs to document within that ‘current' and open encounter.  This is essentially the Current Encounter Summary bar.  It gives buttons to quickly be able to jump into the data entry side of that encounter, or into the view side of that encounter as well as date of service.
 

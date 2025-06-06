@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 Transcriptionists can have the right to close & archive encounters after they are done with the dictation attached to the encounter. This is a system setting that is off by default and must be turned on by your system administrator. Transcriptionists can archive & close encounters when done so that it helps the workflow or work load for the physician and the physician doesn't have to go back in and archive/close it when transcription is done.
 
