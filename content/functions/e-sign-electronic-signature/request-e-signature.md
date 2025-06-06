@@ -1,8 +1,8 @@
 ---
 id: '1euO-n8bAKbLv_aPvr0MAhALo7WCGiQ1dEwtZSIpxs8c'
 title: 'Request E-Signature'
-date: '2024-07-08T17:14:35.643Z'
-version: 98
+date: '2025-06-06T17:28:40.714Z'
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,19 +21,19 @@ To manually request an E-Signature on a document, when in a chart, click to get 
 
 The document header will appear above the document and at the right side in the document header, click the Request Signature link.
 
-![](../request-e-signature.assets/c615b2c2c5ceacdb9d598d9cd60c9104.png)
+![](../request-e-signature.assets/0c41686de4155606c420f655889e3c2b.png)
 
-The screen will display the request signature fields for the user to select whom the request should go to.  Other fields to set esign request priority and a free text box to type any note regarding the manual esign request are also available.
+The screen will display the request signature fields for the user to select whom the request should go to.  Other fields to set Esign request priority and a free text box to type any note regarding the manual Esign request are also available.
 
-![](../request-e-signature.assets/7a39470f0567b661f6bf561f711988d4.png)
+![](../request-e-signature.assets/b6e153a8de0635240dc6a6b96a4113ee.png)
 
-To assign the esign request to whom should sign the document, use the drop-down arrow to select the provider you want to esign the document. The drop-down displays a list of any user that is a member of the Physicians department in access control.
+To assign the Esign request to whom should sign the document, use the drop-down arrow to select the provider you want to Esign the document. The drop-down displays a list of any user that is a member of the Physicians department in access control.
 
-![](../request-e-signature.assets/0f617913656617ad3823f9ac063b619c.png)
+![](../request-e-signature.assets/67e306891b583e68f2419101da9cc767.png)
 
-If the person whom you wish to request a signature from is not in that drop-down, use the autocomplete field instead.  Begin typing the user's first name, or last name in the autocomplete field. The system will result matching user's as choices to request a signature from.  Select a choice to indicate the person whom should receive the esign request.
+If the person whom you wish to request a signature from is not in that drop-down, use the autocomplete field instead.  Begin typing the user's first name, or last name in the autocomplete field. The system will result match users as choices to request a signature from.  Select a choice to indicate the person who should receive the Esign request.
 
-![](../request-e-signature.assets/fc90bdd71982f3f688b0c35b4129b87f.png)
+![](../request-e-signature.assets/9270ad2f78a927671a89577ae5cd9591.png)
 
 The Priority field for the request is optional.  If no priority is selected, the request will be inserted as normal priority when the assignee receives it in their queue to work.  High priority goes to the top of their list, Low priority goes below high and normal priority requests in their E-sign list.
 
