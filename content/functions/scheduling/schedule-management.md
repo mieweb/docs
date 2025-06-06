@@ -1,9 +1,9 @@
 ---
 id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 title: 'Schedule Management'
-date: '2023-11-20T16:31:48.935Z'
-version: 208
-lastAuthor: 'auhrick'
+date: '2025-06-06T18:01:48.200Z'
+version: 213
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/resource-restrictions.md'
@@ -66,7 +66,7 @@ This is the total number of appointments allowed in the schedule. Type in the ma
 
 Select a color for the schedule. The color applies to only the schedule, as a whole.
 
-**Display** **_Add Appointment_**** Links**
+**Display Add Appointment Links**
 
 Use the dropdown to specify what increments of appointment links will display, which allow adding appointments via a quick link. This will place a link inside the scheduler to add/schedule an appointment *inside* the scheduler, instead of the yellow time links, only. This provides a quick way for adding appointments from the scheduler that uses that specific schedule. The selection of **No** from the dropdown will not display links for this schedule. Selecting **Yes** will display the links at the user's default increment, which is set as Duration in the My Settings preferences.
 
