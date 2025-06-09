@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-01-10T20:11:51.604Z'
-version: 448
+date: '2025-06-09T15:53:39.630Z'
+version: 462
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -285,6 +285,18 @@ Sends an instruction email with the portal activation/pickup code to patient cha
 
 * Email Template - The default is "Portal Activation Code Instructions Default"
 * Looking if doc.type PORTACTINS exists already for the generated code
+
+## Max Records
+
+Any active scheduled job with a specific number in the *Max Records* field of the scheduled job, will terminate the scheduled job once/if the max number of records is hit during that scheduled job.  The *Max Records* field sets a threshold for the number of records processed before requiring approval to continue to execute the scheduled job. The execution of the scheduled job is blocked when the max records count exceeds the row count the scheduled job finds to execute on. Set the Max Records field to zero 0 for no limit.
+
+Using *Max Records* functionality may be helpful for email scheduled jobs.  Where a system admin wants to receive a warning and approve all scheduled jobs that will be triggered if the number of email recipients exceeds a specified threshold (X) max records.  This would ensure proper oversight of communications and prevent unauthorized or accidental dissemination of information.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/354ea872cda624c6cdad292d047b3ef1.png)
+
+The notification of the blocked scheduled job(s) being executed will be sent to the email address that is configured in the system setting *System / Cron / Email Failures To*.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/97a2a506c55890894ac7a46493061f6f.png)
 
 ## Status
 
