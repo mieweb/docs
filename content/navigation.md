@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-10T14:57:39.388Z'
-version: 1417
-lastAuthor: 'janderson'
+date: '2025-06-10T15:28:34.459Z'
+version: 1422
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -1245,7 +1245,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Checkin Reports](functions/reports/checkin-reports.md)
         * [Claims Report](functions/reports/claims-report.md)
         * [Common Case Search Report](functions/reports/common-case-search-report.md)
-        * [Conditions/ICD-9 Report](functions/reports/conditions-report.md)
+        * [Conditions Report](functions/reports/conditions-report.md)
         * [Demographics Report](functions/reports/demographics-report.md)
         * [Dictation without Transcription Report](functions/reports/dictation-without-transcription-report.md)
         * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
