@@ -531,7 +531,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Checkin Reports](functions/reports/checkin-reports.md)
          * [Claims Report](functions/reports/claims-report.md)
          * [Common Case Search Report](functions/reports/common-case-search-report.md)
-         * [Conditions/ICD-9 Report](functions/reports/conditions-icd-9-report.md)
+         * [Conditions Report](functions/reports/conditions-report.md)
          * [Demographics Report](functions/reports/demographics-report.md)
          * [Dictation without Transcription Report](functions/reports/dictation-without-transcription-report.md)
          * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
