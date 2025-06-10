@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-04T18:40:54.084Z'
-version: 1410
-lastAuthor: 'anichols'
+date: '2025-06-10T14:57:39.388Z'
+version: 1417
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -952,7 +952,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Financials](functions/encounters/financials.md)
         * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
         * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
-        * [Encounters Tab - Search and List View](functions/encounters/encounters-tab-search-and-list-view.md)
+        * [Encounters Tab](functions/encounters/encounters-tab-search-and-list-view.md)
         * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
         * [Encounter Worklists](functions/encounters/encounter-worklists.md)
         * [Encounter Protocols](functions/encounters/encounter-protocols.md)
