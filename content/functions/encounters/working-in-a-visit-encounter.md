@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-06-02T14:40:27.294Z'
-version: 473
+date: '2025-06-10T15:43:41.100Z'
+version: 483
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -69,7 +69,7 @@ If a user has an encounter as ‘current' and has not manually released it, the 
 
 * Encounter is Closed with a service date 7 or more days in the past (from today's date).
 * Encounter is Open with a service date 30 or more days in the past (from today's date).
-* UNLESS the time the user set the encounter current was within the last 48 hours. This way if really need to, users can manually set an old encounter as current, but it's not going to stay that way for very long.
+* A user can set an old encounter to be ‘current' beyond these dates, but the system will auto-release them 2 days later.
 
 ## Multiple Users in Encounter
 
