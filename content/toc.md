@@ -145,7 +145,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
          * [Encounters Labs Results Section](functions/encounters/encounters-labs-results-section.md)
          * [Encounters Open Order Request Section](functions/encounters/encounters-open-order-request-section.md)
-         * [Encounters Tab - Search and List View](functions/encounters/encounters-tab-search-and-list-view.md)
+         * [Encounters Tab](functions/encounters/encounters-tab.md)
          * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
          * [Financials](functions/encounters/financials.md)
          * [Future Appointments](functions/encounters/future-appointments.md)

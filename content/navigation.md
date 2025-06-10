@@ -177,7 +177,7 @@ links:
   - 'functions/encounters/financials.md'
   - 'functions/encounters/final-summary-encounter-sections.md'
   - 'functions/encounters/encounter-summary-toolbar.md'
-  - 'functions/encounters/encounters-tab-search-and-list-view.md'
+  - 'functions/encounters/encounters-tab.md'
   - 'functions/encounters/encounter-checkout-chart-tab.md'
   - 'functions/encounters/encounter-worklists.md'
   - 'functions/encounters/encounter-protocols.md'
@@ -952,7 +952,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Financials](functions/encounters/financials.md)
         * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
         * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
-        * [Encounters Tab](functions/encounters/encounters-tab-search-and-list-view.md)
+        * [Encounters Tab](functions/encounters/encounters-tab.md)
         * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
         * [Encounter Worklists](functions/encounters/encounter-worklists.md)
         * [Encounter Protocols](functions/encounters/encounter-protocols.md)
