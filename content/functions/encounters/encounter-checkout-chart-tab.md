@@ -1,8 +1,9 @@
 ---
 id: '16DqLuUFovyk-vCA4Y8_9iR1bfFfj4PsEXv8U59OzHKc'
 title: 'Encounter Checkout Chart Tab'
-date: '2020-02-27T19:55:48.946Z'
-version: 45
+date: '2025-06-10T17:33:21.340Z'
+version: 54
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://nomoreclipboard.com'
@@ -17,7 +18,7 @@ Any staff member perhaps checking out a patient and is responsible for printing 
 
 The encounter must still be open for a staff member to utilize this tab and see contents.
 
-![](../encounter-checkout-chart-tab.assets/b76cc3645d13cd6a331ea155ed10609f.png)
+![](../encounter-checkout-chart-tab.assets/774c5a6d443c960582704e650487c3ad.png)
 
 Any **open** encounter the patient has – their Encounter Options section of that encounter can be accessed from this tab instead of going to the encounter "view" to get to the Encounter Options section to render patient material, scripts, orders, NMC push, etc.
 
@@ -31,15 +32,15 @@ This screen only applies for ‘open' encounters on the patient. When a user clo
 
 ## Description of Sections
 
-![](../encounter-checkout-chart-tab.assets/c4e87aec0ac1877fcf36c686837fd8d9.png)
+![](../encounter-checkout-chart-tab.assets/1c75e29e7eeb84fbf7cdada3b737f835.png)
 
-![](../encounter-checkout-chart-tab.assets/19898845392a572fc23dde00c6840a3d.png)
+![](../encounter-checkout-chart-tab.assets/bb871ae871c617956edb41c4eee6c592.png)
 
 The **Encounter Options** section shows any ordered meds (prescriptions you started/prescribed in the meds plan section of the encounter), test orders (labs, imaging, etc orders you created plan section of the encounter), or any patient education information (drug guides). Those documents/prescriptions are batched in this section for quick printing/faxing or access without having to get out of the encounter and into the separate  {{% system-name %}} module to perform the print/faxing of these documents and/or prescriptions.
 
 You can select print individual prescriptions, unprinted med guides, e-orders, or click the Print All right next to the **Encounter Options** title. If you click Print All it will batch all of the documents/prescriptions listed and send them to the printer/fax queue. The "Print All" button prints anything that has the word "Batch" by it. Therefore, it does not matter if you check or uncheck printed drug guides or not. "Print All" does not print unsent prescriptions because the method to send prescriptions has been changed from faxing to transmitting electronically and prompts the user for the method on those. You can, of course, individually select and batch or uncheck-mark documents that you wish from this summary option.
 
-![](../encounter-checkout-chart-tab.assets/c4e87aec0ac1877fcf36c686837fd8d9.png)
+![](../encounter-checkout-chart-tab.assets/1c75e29e7eeb84fbf7cdada3b737f835.png)
 
 The **Send to NMC member** section is also available in the Encounter Options section.
 
