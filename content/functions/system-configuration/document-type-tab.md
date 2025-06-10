@@ -1,8 +1,8 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2025-03-28T16:50:35.740Z'
-version: 245
+date: '2025-06-10T17:56:20.107Z'
+version: 249
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -111,7 +111,7 @@ This is for MIE programming use only or if you are trained as a Super-User and h
 
 ### Convert Word Documents to HTML
 
-Users on RC202503 and newer wishing to deprecate Word templates in favor of using HTML templates may quickly convert their Word Templates into HTML. Select Word documents from the Document Types list, and click the **Convert Word to HTML** button.
+Users on RC202503 and newer wishing to deprecate Word templates in favor of using HTML templates may quickly convert their Word Templates into HTML. Select Word documents from the Document Types list, and click the **Convert Word to HTML** button. If users attempt to select a document type other than Word, the system will prompt a warning message that one or more items selected can not be converted to HTML.
 
 ![](../document-type-tab.assets/4ef5022d427ba84e895f069eacb8a9af.png)
 
