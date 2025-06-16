@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-10T15:28:34.459Z'
-version: 1422
+date: '2025-06-16T15:16:29.660Z'
+version: 1431
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -171,6 +171,7 @@ links:
   - 'functions/encounters/recommendations.md'
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/carbon-copy.md'
+  - 'functions/encounters/clinical-education.md'
   - 'functions/encounters/depart-instructions.md'
   - 'functions/encounters/goals.md'
   - 'functions/encounters/e-m-calculator.md'
@@ -946,6 +947,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Recommendations Encounter Section](functions/encounters/recommendations.md)
         * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
         * [Carbon Copy](functions/encounters/carbon-copy.md)
+        * [Clinical Education](functions/encounters/clinical-education.md)
         * [Depart Instructions](functions/encounters/depart-instructions.md)
         * [Goals](functions/encounters/goals.md)
         * [E/M Calculator](functions/encounters/e-m-calculator.md)
