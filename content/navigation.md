@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-16T15:16:29.660Z'
-version: 1431
+date: '2025-06-16T16:46:10.696Z'
+version: 1437
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -156,6 +156,7 @@ links:
   - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/immunizations-and-injections.md'
+  - 'functions/encounters/social-history.md'
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/images.md'
   - 'functions/encounters/nurse-physical-exam.md'
@@ -931,6 +932,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
+        * [Social History Encounter Section](functions/encounters/social-history.md)
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Images Encounter Section](functions/encounters/images.md)
         * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
