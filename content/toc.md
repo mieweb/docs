@@ -111,7 +111,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * landingpages
             * [Images](functions/encounters/images.md)
             * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
-            * [Patient Education](functions/encounters/landingpages/patient-education.md)
+            * [Patient Education](functions/encounters/clinical-education.md)
             * [Plan Narrative](functions/encounters/plan-narrative.md)
             * [Recommendations](functions/encounters/recommendations.md)
             * [Social History](functions/encounters/landingpages/social-history.md)
@@ -128,6 +128,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Assigned Users](functions/encounters/assigned-users.md)
          * [Carbon Copy](functions/encounters/carbon-copy.md)
          * [Chief Complaint](functions/encounters/chief-complaint.md)
+         * [Clinical Education](functions/encounters/clinical-education.md)
          * [Contributing Providers](functions/encounters/contributing-providers.md)
          * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
          * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
