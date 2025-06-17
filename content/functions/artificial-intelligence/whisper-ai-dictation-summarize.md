@@ -1,9 +1,9 @@
 ---
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
-date: '2024-12-27T23:01:09.534Z'
-version: 432
-lastAuthor: 'horner'
+date: '2025-06-17T19:43:19.349Z'
+version: 436
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
@@ -116,9 +116,3 @@ Examples of calculations:
 The Summarize "*magic wand*" icon will display on each observation, regardless of what flowsheet it is associated with. If there isn't a calculation, the Summarize "*magic wand*" icon does not display.
 
 ![](../whisper-ai-dictation-summarize.assets/0b9b9fbd01d5ec36b4b024acfb960c0c.png)
-
-## Whisper AI - Tasking
-
-If Whisper AI has been enabled, users can utilize voice to text when adding notes in tasks.
-
-![](../whisper-ai-dictation-summarize.assets/bf50825c7a6db35313258945be7e1ae8.png)
