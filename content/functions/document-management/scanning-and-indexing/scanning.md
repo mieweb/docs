@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-04-24T17:44:00.239Z'
-version: 355
-lastAuthor: 'auhrick'
+date: '2025-06-17T19:06:01.685Z'
+version: 361
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'indexing.md'
@@ -42,8 +42,8 @@ Batch Upload screen in release 202403 and newer:
 
 ![](../scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
-    * <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-    * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned.
+* <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
+* <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned.
 
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
