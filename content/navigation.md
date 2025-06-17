@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-16T16:46:10.696Z'
-version: 1437
+date: '2025-06-17T14:45:18.507Z'
+version: 1445
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -160,6 +160,7 @@ links:
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/images.md'
   - 'functions/encounters/nurse-physical-exam.md'
+  - 'functions/encounters/visual-exam.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
@@ -936,6 +937,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Images Encounter Section](functions/encounters/images.md)
         * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
+        * [Visual Exam Encounter Section](functions/encounters/visual-exam.md)
         * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
         * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
