@@ -117,7 +117,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
             * [Social History](functions/encounters/social-history.md)
             * [Tests and Procedures](functions/encounters/landingpages/tests-and-procedures.md)
             * [Visual Exam](functions/encounters/visual-exam.md)
-            * [Vitals](functions/encounters/landingpages/vitals.md)
+            * [Vitals](functions/encounters/vitals.md)
          * TeleHealth
             * [Introducing TeleHealth](functions/encounters/telehealth/introducing-telehealth.md)
             * [TeleHealth Pricing](functions/encounters/telehealth/telehealth-pricing.md)
@@ -171,6 +171,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
          * [Visit Orders](functions/encounters/visit-orders.md)
          * [Visual Exam](functions/encounters/visual-exam.md)
+         * [Vitals](functions/encounters/vitals.md)
          * [Work-Related Exams](functions/encounters/work-related-exams.md)
          * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
          * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
