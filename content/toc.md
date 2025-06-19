@@ -115,7 +115,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
             * [Plan Narrative](functions/encounters/plan-narrative.md)
             * [Recommendations](functions/encounters/recommendations.md)
             * [Social History](functions/encounters/social-history.md)
-            * [Tests and Procedures](functions/encounters/landingpages/tests-and-procedures.md)
+            * [Tests and Procedures](functions/encounters/tests-and-procedures.md)
             * [Visual Exam](functions/encounters/visual-exam.md)
             * [Vitals](functions/encounters/vitals.md)
          * TeleHealth
