@@ -1,8 +1,8 @@
 ---
 id: '1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 title: 'Tests & Procedures Section - Applying/Adding, Completing, Resulting'
-date: '2025-06-19T19:05:24.767Z'
-version: 151
+date: '2025-06-23T16:02:58.026Z'
+version: 179
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -61,7 +61,7 @@ Once you've applied the specific pending item(s) or other pending procedure(s), 
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/696ce3f90e527b81b97c7dc15425c081.png)
 
-## Performing, Completing, and Resulting
+### Performing, Completing, and Resulting
 
 Now it's time to perform those tests/procedures that we indicated we would perform today.  Any procedures (that we marked to perform today by clicking that add to exam button or icon on the selected pending order/due list items) will be automatically applied to the encounter with their own section titles named and shown under the Tests & Procedures section.
 
@@ -114,6 +114,16 @@ Within the Tests & Procedures section you can order additional items to be perfo
 No matter which method, begin typing in the item/order/procedure/test you want to on-demand apply to today's encounter visit.  After the order item(s) are found using the autocomplete field, you click the ‘Save' or ‘Add to Exam' button.  Note: the order auto-complete field shows all order items (except Written Opinion RE order types) that are programmed in your system (regardless of order type).
 
 ![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/35085f8d1a4b3a11dde91f305ab92936.png)
+
+## Cancel an Added to Exam In-Progress Item
+
+When you have a specific test or procedure item applied to the encounter as in progress (via Add to Exam methods) and have that in progress procedure item expanded/open in your encounter to complete and document the results of that test, you will see an *X* icon which indicates *Hide Section.*
+
+![](../tests-and-procedures-section-applying-adding-completing-resulting.assets/02749b41483329932983559747dc5a3c.png)
+
+What this does (if X on the in-progress added to exam item section is clicked): It removes the applied In Progress item section from the encounter and will refresh the encounter outline.  It then places that item back onto the due list (tests & procedures section) back as pending.
+
+The X may be needed because perhaps you had marked an item as *Add to Exam* to be done at today's visit, that indicates the item is in-progress to be performed, resulted & completed), but perhaps changed your mind, or the machine broke down and you realize it cannot perform it today. Using the X (hide section) on the applied in-progress item in the encounter, will remove it from the encounter visit to be performed & completed, and also places the item back up in the Tests & Procedures summary back as *pending status*.
 
 ## Due List Portlet
 
