@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-17T14:45:18.507Z'
-version: 1445
+date: '2025-06-23T17:47:15.154Z'
+version: 1512
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -20,34 +20,32 @@ links:
   - 'programs/quality-reporting.md'
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
   - 'functions.md'
-  - 'functions/artificial-intelligence.md'
-  - 'functions/artificial-intelligence/ai-chat-box.md'
-  - 'functions/artificial-intelligence/whisper-ai-dictation-summarize.md'
-  - 'functions/absence-management.md'
-  - 'functions/absence-management/absence-management-workflow.md'
-  - 'functions/e-chart.md'
   - 'functions/e-chart/basic-initial-system-information.md'
   - 'functions/e-chart/online-help-and-notifications.md'
-  - 'functions/e-chart/detailed-searching-in-e-chart.md'
   - 'functions/e-chart/quick-view-sidemenu.md'
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
   - 'functions/e-chart/quick-view-alerts-portlet.md'
+  - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
   - 'functions/e-chart/quick-view-due-list-portlet.md'
   - 'functions/e-chart/quick-view-schedule-portlet.md'
-  - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
-  - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
   - 'functions/e-chart/alerts-tab-warnings.md'
+  - 'functions/e-chart/super-user-quick-view-portlet.md'
+  - 'functions/artificial-intelligence.md'
+  - 'functions/artificial-intelligence/ai-chat-box.md'
+  - 'functions/artificial-intelligence/whisper-ai-dictation-summarize.md'
+  - 'functions/e-chart.md'
+  - 'functions/e-chart/detailed-searching-in-e-chart.md'
   - 'functions/e-chart/alert-comments.md'
+  - 'functions/e-chart/patient-summary-interactive-chart-tab.md'
   - 'functions/e-chart/demographics-tab-summary.md'
   - 'functions/e-chart/editing-demographics.md'
+  - 'functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
   - 'functions/e-chart/insurance-eligibility-tab.md'
   - 'functions/e-chart/insurance-summary-in-demographics-tab.md'
-  - 'functions/e-chart/patient-summary-interactive-chart-tab.md'
   - 'functions/patient-registration.md'
   - 'functions/patient-registration/patient-registration-tab-manual-patient-entry.md'
-  - 'functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
   - 'functions/patient-registration/medical-record-numbers.md'
   - 'functions/document-management.md'
   - 'functions/document-management/documents-and-forms.md'
@@ -117,16 +115,66 @@ links:
   - 'functions/portal-management/employer-portal-setup.md'
   - 'functions/portal-management/kiosk.md'
   - 'functions/portal-management/linking-users-for-portal-access.md'
-  - 'functions/portal-management/messages-from-nmc-user.md'
-  - 'functions/portal-management/nomoreclipboard.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/portal-management/portal-portlet.md'
   - 'functions/portal-management/supervisor-portal-scheduling.md'
+  - 'functions/portal-management/portal-virtual-waiting-room.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
-  - 'functions/portal-management/portal-virtual-waiting-room.md'
+  - 'functions/portal-management/nomoreclipboard.md'
+  - 'functions/portal-management/messages-from-nmc-user.md'
   - 'functions/encounters.md'
+  - 'functions/encounters/working-in-a-legacy-encounter.md'
+  - 'functions/encounters/working-in-a-visit-encounter.md'
+  - 'functions/encounters/rename-a-heading.md'
+  - 'functions/encounters/encounter.md'
+  - 'functions/encounters/encounter-section.md'
+  - 'functions/encounters/encounter-owners.md'
+  - 'functions/encounters/smart-plan.md'
+  - 'functions/encounters/contributing-providers.md'
+  - 'functions/encounters/chief-complaint.md'
+  - 'functions/encounters/history-of-present-illness.md'
+  - 'functions/encounters/past-medical-history-encounter-section.md'
+  - 'https://drive.google.com/open?id=1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E'
+  - 'functions/encounters/presenting-medications-encounter-section.md'
+  - 'functions/encounters/allergies-intolerances-encounter-section.md'
+  - 'functions/encounters/immunizations-and-injections.md'
+  - 'functions/encounters/social-history.md'
+  - 'functions/encounters/questionnaire-encounter-section.md'
+  - 'functions/encounters/vitals.md'
+  - 'functions/encounters/nurse-physical-exam.md'
+  - 'functions/encounters/visual-exam.md'
+  - 'functions/encounters/encounters-labs-results-section.md'
+  - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
+  - 'functions/encounters/images.md'
+  - 'functions/encounters/encounters-impression-section.md'
+  - 'functions/encounters/encounters-open-order-request-section.md'
+  - 'functions/encounters/plan-narrative.md'
+  - 'functions/encounters/encounter-plan-section-medications.md'
+  - 'functions/encounters/visit-orders.md'
+  - 'functions/encounters/make-order-feature-encounter-plan-section.md'
+  - 'functions/encounters/future-appointments.md'
+  - 'functions/encounters/e-m-calculator.md'
+  - 'functions/encounters/carbon-copy.md'
+  - 'functions/encounters/clinical-education.md'
+  - 'functions/encounters/depart-instructions.md'
+  - 'functions/encounters/recommendations.md'
+  - 'functions/encounters/goals.md'
+  - 'functions/encounters/financials.md'
+  - 'functions/encounters/negations-encounter-section.md'
+  - 'functions/encounters/final-summary-encounter-sections.md'
+  - 'functions/encounters/encounter-summary-toolbar.md'
+  - 'functions/encounters/encounters-tab.md'
+  - 'functions/encounters/encounter-checkout-chart-tab.md'
+  - 'functions/encounters/encounter-worklists.md'
+  - 'functions/encounters/encounter-protocols.md'
+  - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
+  - 'functions/encounters/creating-or-adding-encounters.md'
+  - 'functions/encounters/copy-from-previous-exam.md'
+  - 'functions/encounters/libraries.md'
+  - 'functions/encounters/assigned-users.md'
   - 'functions/encounters/dictation-and-transcription.md'
   - 'functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md'
   - 'functions/encounters/dictation-and-transcription/how-to-remove-mieplayer-control.md'
@@ -140,55 +188,10 @@ links:
   - 'functions/encounters/dictation-and-transcription/transcribing-dictation.md'
   - 'functions/encounters/dictation-and-transcription/pacs-speechmike-driver-utility-setup.md'
   - 'functions/encounters/dictation-and-transcription/olympus-digital-dictation.md'
+  - 'functions/absence-management.md'
+  - 'functions/absence-management/absence-management-workflow.md'
   - 'functions/encounters/work-related-exams.md'
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
-  - 'functions/encounters/working-in-a-legacy-encounter.md'
-  - 'functions/encounters/working-in-a-visit-encounter.md'
-  - 'functions/encounters/encounter.md'
-  - 'functions/encounters/encounter-owners.md'
-  - 'functions/encounters/rename-a-heading.md'
-  - 'functions/encounters/encounter-section.md'
-  - 'functions/encounters/smart-plan.md'
-  - 'functions/encounters/chief-complaint.md'
-  - 'functions/encounters/history-of-present-illness.md'
-  - 'functions/encounters/contributing-providers.md'
-  - 'functions/encounters/past-medical-history-encounter-section.md'
-  - 'functions/encounters/presenting-medications-encounter-section.md'
-  - 'functions/encounters/allergies-intolerances-encounter-section.md'
-  - 'functions/encounters/immunizations-and-injections.md'
-  - 'functions/encounters/social-history.md'
-  - 'functions/encounters/questionnaire-encounter-section.md'
-  - 'functions/encounters/images.md'
-  - 'functions/encounters/nurse-physical-exam.md'
-  - 'functions/encounters/visual-exam.md'
-  - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
-  - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
-  - 'functions/encounters/make-order-feature-encounter-plan-section.md'
-  - 'functions/encounters/encounters-labs-results-section.md'
-  - 'functions/encounters/encounter-plan-section-medications.md'
-  - 'functions/encounters/negations-encounter-section.md'
-  - 'functions/encounters/plan-narrative.md'
-  - 'functions/encounters/visit-orders.md'
-  - 'functions/encounters/future-appointments.md'
-  - 'functions/encounters/recommendations.md'
-  - 'functions/encounters/encounters-impression-section.md'
-  - 'functions/encounters/carbon-copy.md'
-  - 'functions/encounters/clinical-education.md'
-  - 'functions/encounters/depart-instructions.md'
-  - 'functions/encounters/goals.md'
-  - 'functions/encounters/e-m-calculator.md'
-  - 'functions/encounters/financials.md'
-  - 'functions/encounters/final-summary-encounter-sections.md'
-  - 'functions/encounters/encounter-summary-toolbar.md'
-  - 'functions/encounters/encounters-tab.md'
-  - 'functions/encounters/encounter-checkout-chart-tab.md'
-  - 'functions/encounters/encounter-worklists.md'
-  - 'functions/encounters/encounter-protocols.md'
-  - 'functions/encounters/archiving-closing-re-archiving-encounters.md'
-  - 'functions/encounters/creating-or-adding-encounters.md'
-  - 'functions/encounters/copy-from-previous-exam.md'
-  - 'functions/encounters/libraries.md'
-  - 'functions/encounters/assigned-users.md'
   - 'functions/injury-care.md'
   - 'functions/injury-care/case-management.md'
   - 'functions/injury-care/case-management/adding-absence-management-case.md'
@@ -217,7 +220,6 @@ links:
   - 'functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md'
   - 'functions/health-surveillance/panel-membership-portlet.md'
   - 'functions/health-surveillance/due-list.md'
-  - 'functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
   - 'functions/health-surveillance/respirator-info-chart-tab.md'
   - 'functions/health-surveillance/mass-manual-entry-of-respirator-fit-data.md'
   - 'functions/health-surveillance/health-surveillance-playbook.md'
@@ -796,35 +798,32 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
     * [Quality Reporting](programs/quality-reporting.md)
         * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 * [Functions](functions.md)
-    * QuickView
+    * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
+    * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
+    * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
+        * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
+        * [Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
+        * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
+        * [Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
+        * [Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
+        * [Condition Portlets and Alert Bar](functions/e-chart/conditions.md)
+        * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
+        * [Warnings & Alerts Portlet](functions/e-chart/alerts-tab-warnings.md)
+        * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
-    * [Absence Management](functions/absence-management.md)
-        * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
     * [E-Chart](functions/e-chart.md)
-        * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
-        * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
-        * [Detailed Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
-        * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
-        * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
-        * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
-        * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-        * [Quick View - Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
-        * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
-        * [Conditions](functions/e-chart/conditions.md)
-        * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
-        * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
-        * [Alerts Tab - Warnings](functions/e-chart/alerts-tab-warnings.md)
-        * [Alert Comments](functions/e-chart/alert-comments.md)
-        * [Demographics Tab Summary](functions/e-chart/demographics-tab-summary.md)
-        * [Editing Demographics](functions/e-chart/editing-demographics.md)
-        * [Insurance Eligibility Tab](functions/e-chart/insurance-eligibility-tab.md)
-        * [Insurance Summary in Demographics Tab](functions/e-chart/insurance-summary-in-demographics-tab.md)
-        * [Patient Summary - Interactive Chart Tab](functions/e-chart/patient-summary-interactive-chart-tab.md)
+        * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
+        * [Alert Comments on Charts](functions/e-chart/alert-comments.md)
+        * [Patient Summary Dashboard Chart Tab](functions/e-chart/patient-summary-interactive-chart-tab.md)
+        * [Demographics Chart Tab](functions/e-chart/demographics-tab-summary.md)
+            * [Editing Demographics](functions/e-chart/editing-demographics.md)
+        * [Medical Contacts Portlet - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
+        * [Insurance Eligibility Chart Tab](functions/e-chart/insurance-eligibility-tab.md)
+        * [Insurance Summary in Demographics Chart Tab](functions/e-chart/insurance-summary-in-demographics-tab.md)
     * [Patient Registration](functions/patient-registration.md)
         * [Patient Registration Tab - Manual Patient Entry](functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
-        * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
         * [Medical Record Numbers](functions/patient-registration/medical-record-numbers.md)
     * [Document Management](functions/document-management.md)
         * [Documents & Forms](functions/document-management/documents-and-forms.md)
@@ -894,16 +893,66 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Employer Portal Setup](functions/portal-management/employer-portal-setup.md)
         * [Kiosk](functions/portal-management/kiosk.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
-        * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
-        * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
         * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
+        * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
-        * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
+        * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
+        * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
     * [Encounters](functions/encounters.md)
+        * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
+        * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
+            * [Rename an Encounter Section Heading](functions/encounters/rename-a-heading.md)
+        * [Encounter Top Section](functions/encounters/encounter.md)
+        * [Encounter Section](functions/encounters/encounter-section.md)
+        * [Encounter Owners](functions/encounters/encounter-owners.md)
+        * [Smart Plan Encounter Section](functions/encounters/smart-plan.md#smart-plan-quick-lists)
+        * [Contributing Providers Encounter Section](functions/encounters/contributing-providers.md)
+        * [Chief Complaint Encounter Section](functions/encounters/chief-complaint.md)
+        * [HPI Encounter Section](functions/encounters/history-of-present-illness.md)
+        * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
+        * [Past Procedures Encounter Section](https://drive.google.com/open?id=1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E)
+        * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
+        * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
+        * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
+        * [Social History Encounter Section](functions/encounters/social-history.md)
+        * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
+        * [Vitals Encounter Section](functions/encounters/vitals.md)
+        * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
+        * [Visual Exam Encounter Section](functions/encounters/visual-exam.md)
+        * [Labs Results Encounter Section](functions/encounters/encounters-labs-results-section.md)
+        * [Tests & Procedures Encounter Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+        * [Tests & Procedures Encounter Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
+        * [Images Encounter Section](functions/encounters/images.md)
+        * [Symptoms/Diagnosis Encounter Section](functions/encounters/encounters-impression-section.md)
+        * [Open Order Request Encounters Section](functions/encounters/encounters-open-order-request-section.md)
+        * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
+        * [Medication Orders Encounter Section](functions/encounters/encounter-plan-section-medications.md)
+        * [Visit Orders Encounter Section](functions/encounters/visit-orders.md)
+            * [Visit Orders - Make Order Requisition](functions/encounters/make-order-feature-encounter-plan-section.md)
+        * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
+        * [E/M Calculator Encounter Section](functions/encounters/e-m-calculator.md)
+        * [Carbon Copy Encounter Section](functions/encounters/carbon-copy.md)
+        * [Clinical Education Encounter Section](functions/encounters/clinical-education.md)
+        * [Depart Instructions Encounter Section](functions/encounters/depart-instructions.md)
+        * [Recommendations Encounter Section](functions/encounters/recommendations.md)
+        * [Goals Encounter Section](functions/encounters/goals.md)
+        * [Financials Encounter Section](functions/encounters/financials.md)
+        * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
+        * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
+        * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
+        * [Encounters Tab](functions/encounters/encounters-tab.md)
+        * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
+        * [Encounter Worklists](functions/encounters/encounter-worklists.md)
+        * [Encounter Protocols](functions/encounters/encounter-protocols.md)
+        * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
+        * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
+        * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
+        * [Libraries](functions/encounters/libraries.md)
+        * [Assigned Encounter Users](functions/encounters/assigned-users.md)
         * [Dictation and Transcription](functions/encounters/dictation-and-transcription.md)
             * [How to Install MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-install-mieplayer-control.md)
             * [How to Remove MIEPlayer Control](functions/encounters/dictation-and-transcription/how-to-remove-mieplayer-control.md)
@@ -917,56 +966,10 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
             * [PACS SpeechMike Driver Utility Setup](functions/encounters/dictation-and-transcription/pacs-speechmike-driver-utility-setup.md)
             * [Olympus Digital Dictation](functions/encounters/dictation-and-transcription/olympus-digital-dictation.md)
+        * [Absence Management](functions/absence-management.md)
+            * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
         * [Work-Related Exams](functions/encounters/work-related-exams.md)
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
-        * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
-        * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
-        * [Encounter](functions/encounters/encounter.md)
-        * [Encounter Owners](functions/encounters/encounter-owners.md)
-        * [Rename a Heading](functions/encounters/rename-a-heading.md)
-        * [Encounter Section](functions/encounters/encounter-section.md)
-        * [Smart Plan](functions/encounters/smart-plan.md#smart-plan-quick-lists)
-        * [Chief Complaint](functions/encounters/chief-complaint.md)
-        * [HPI Encounter Section](functions/encounters/history-of-present-illness.md)
-        * [Contributing Providers](functions/encounters/contributing-providers.md)
-        * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
-        * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
-        * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
-        * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
-        * [Social History Encounter Section](functions/encounters/social-history.md)
-        * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
-        * [Images Encounter Section](functions/encounters/images.md)
-        * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
-        * [Visual Exam Encounter Section](functions/encounters/visual-exam.md)
-        * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
-        * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
-        * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
-        * [Encounters Labs Results Section](functions/encounters/encounters-labs-results-section.md)
-        * [Encounter Plan Section - Medications](functions/encounters/encounter-plan-section-medications.md)
-        * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
-        * Encounters Open Order Request Section
-        * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
-        * [Visit Orders Section](functions/encounters/visit-orders.md)
-        * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
-        * [Recommendations Encounter Section](functions/encounters/recommendations.md)
-        * [Encounters Impression Section](functions/encounters/encounters-impression-section.md)
-        * [Carbon Copy](functions/encounters/carbon-copy.md)
-        * [Clinical Education](functions/encounters/clinical-education.md)
-        * [Depart Instructions](functions/encounters/depart-instructions.md)
-        * [Goals](functions/encounters/goals.md)
-        * [E/M Calculator](functions/encounters/e-m-calculator.md)
-        * [Financials](functions/encounters/financials.md)
-        * [Final Summary Encounter Sections](functions/encounters/final-summary-encounter-sections.md)
-        * [Encounter Summary Toolbar](functions/encounters/encounter-summary-toolbar.md)
-        * [Encounters Tab](functions/encounters/encounters-tab.md)
-        * [Encounter Checkout Chart Tab](functions/encounters/encounter-checkout-chart-tab.md)
-        * [Encounter Worklists](functions/encounters/encounter-worklists.md)
-        * [Encounter Protocols](functions/encounters/encounter-protocols.md)
-        * [Archiving/Closing/Re-archiving Encounters](functions/encounters/archiving-closing-re-archiving-encounters.md)
-        * [Creating or Adding Encounters](functions/encounters/creating-or-adding-encounters.md)
-        * [Copy From Previous Exam](functions/encounters/copy-from-previous-exam.md)
-        * [Libraries](functions/encounters/libraries.md)
-        * [Assigned Users](functions/encounters/assigned-users.md)
     * [Injury Care](functions/injury-care.md)
         * [Case Management](functions/injury-care/case-management.md)
             * [Adding Absence Management Case](functions/injury-care/case-management/adding-absence-management-case.md)
@@ -995,7 +998,6 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Viewing Health Surveillance Panels & Membership](functions/health-surveillance/viewing-health-surveillance-panels-and-membership.md)
         * [Panel Membership Portlet](functions/health-surveillance/panel-membership-portlet.md)
         * [Due List](functions/health-surveillance/due-list.md)
-        * [Due List in a Dynamic Encounter](functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
         * [Respirator Info Chart Tab](functions/health-surveillance/respirator-info-chart-tab.md)
         * [Mass Manual Entry of Respirator Fit Data](functions/health-surveillance/mass-manual-entry-of-respirator-fit-data.md)
         * [Health Surveillance Playbook](functions/health-surveillance/health-surveillance-playbook.md)
