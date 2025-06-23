@@ -1,9 +1,9 @@
 ---
 id: '16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
 title: 'Auto Routes'
-date: '2024-11-13T17:16:19.350Z'
-version: 68
-lastAuthor: 'auhrick'
+date: '2025-06-23T20:09:54.838Z'
+version: 72
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
@@ -47,7 +47,7 @@ Selecting the **Duplicate** button that will bring up a similar menu. Upon savin
 
 Select the interface and then the **Show Query** button to view the query itself. The hover over feature is no longer available in the new datavis version.
 
-### ![](../auto-routes.assets/0fe2d9ac3a0165b8d4d2361e9147a3a6.png)
+![](../auto-routes.assets/0fe2d9ac3a0165b8d4d2361e9147a3a6.png)
 
 ### Delete
 
