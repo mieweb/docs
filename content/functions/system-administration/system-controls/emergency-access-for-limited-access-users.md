@@ -1,8 +1,8 @@
 ---
 id: '1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
 title: 'Emergency Access for Limited Access Users'
-date: '2025-06-23T16:39:21.722Z'
-version: 88
+date: '2025-06-23T18:02:22.459Z'
+version: 101
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,9 +11,9 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 When access to a chart is restricted, the system provides a means for appropriately authorized users to "have emergency access" for emergency situations.
 
-The security setting of **Limited Access** is what drives this along with the security settings of **Allow Emergency Access to Charts** and/or** Allow Unrestricted Pat Search**.
+The security setting of **Limited Access** is what drives this along with the security settings of **Allow Emergency Access to Charts** and** Allow Unrestricted Pat Search**.
 
-![](../emergency-access-for-limited-access-users.assets/590445ccf116f1beb4c608e1b6d2b0fc.png)
+![](../emergency-access-for-limited-access-users.assets/a10e55b807d711e89fa1ff70aba9c3c2.png)
 
 ![](../emergency-access-for-limited-access-users.assets/350430518cffdb9aa99c563a3ea988ac.png)
 
