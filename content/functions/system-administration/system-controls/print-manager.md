@@ -1,9 +1,9 @@
 ---
 id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 title: 'Print Manager'
-date: '2020-03-16T22:51:33.990Z'
-version: 38
-lastAuthor: ''
+date: '2025-06-23T19:23:09.659Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
@@ -11,7 +11,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 You must have security to be able to View the Print Manager tab found in Control.
 
-![](../print-manager.assets/549a4377015747ff6caf9eb00ca2139a.png)
+![](../print-manager.assets/adc46b611ef8fd9216ade8832c1d676d.png)
 
 ## Overview
 
@@ -23,24 +23,24 @@ You can click on the Job ID hyperlink to see the printed queue job, but these pr
 If you click the view link that is available next to the listed Print Job, you will see a text list of doc.id's and documents that were printed in that print job. This allows you visual of what was printed/rendered and can look up those document ids if needed.
 {{% /tip %}}
 
-![](../print-manager.assets/a13f9262da394d33536bfe73de1bc441.png)
+![](../print-manager.assets/eb57a782cbcec1fc965812e3300e3dd6.png)
 
 MIE will set up printers for your practice using this tab and in order to manage printers, the security for *Manage Printers* needs to be set to Yes.
 
-![](../print-manager.assets/0b6e720574a7c127cf1dee6b842f0ee0.png)
+![](../print-manager.assets/6c336565eebb790a0e750c0a6b43b520.png)
 
 ## Print & Fax History Chart Tab
 
 The chart tab found in an individual's chart named *Print & Fax History* also shows the Print History pertaining to documents specific to the patient you are in. The Print Job ID hyperlink also is only available for 7 days as above since it's a temporary file. However you can click the view hyperlink to see a text list of the documents that were in that print job.
 
-![](../print-manager.assets/78d4121e9efb64165b93b49c6cd4d95c.png)
+![](../print-manager.assets/b86816b9f8179e89b844bf05beb469c1.png)
 
 If you click the view link that is available next to the listed Print Job, you will see a text list of doc.id's and documents that were printed in that print job. This allows you visual of what was printed/rendered and can look up those document ids if needed.
 
-![](../print-manager.assets/c14fc29b062f4e585e9e0b022585c662.png)
+![](../print-manager.assets/f9cf35deec64f1ce33b148f08fa9b8a3.png)
 
 ## Alerts/Errors Module
 
 You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named *Alert-Errors-Failures-Interactive Tab.pdf*
 
-![](../print-manager.assets/b3df97dead7c7fa7bcb6cd410c03156e.png)
+![](../print-manager.assets/1cc24151a8fc0a1045db173c6ca9fca2.png)
