@@ -2,7 +2,7 @@
 id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
 date: '2023-02-21T21:14:54.696Z'
-version: 208
+version: 210
 lastAuthor: 'zbarrell'
 mimeType: 'text/x-markdown'
 links:

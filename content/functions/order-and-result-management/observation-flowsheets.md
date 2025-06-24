@@ -1,9 +1,9 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2025-04-10T22:47:20.899Z'
-version: 589
-lastAuthor: 'auhrick'
+date: '2025-06-09T16:17:00.974Z'
+version: 606
+lastAuthor: 'jwagoner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/'

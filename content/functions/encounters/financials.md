@@ -1,8 +1,8 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2025-05-30T14:48:48.884Z'
-version: 185
+date: '2025-06-20T15:12:23.410Z'
+version: 196
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

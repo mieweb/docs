@@ -1,8 +1,8 @@
 ---
 id: '1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
 title: 'Nurse Physical Exam'
-date: '2025-06-04T13:27:17.727Z'
-version: 30
+date: '2025-06-04T13:27:48.624Z'
+version: 40
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

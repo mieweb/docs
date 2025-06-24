@@ -2,7 +2,7 @@
 id: '1oJi_eiW1Rz4O5aJlJjXU2dc2IKUZ-vaeUOCw5M7hnpY'
 title: 'Detailed Searching in E-Chart'
 date: '2025-01-14T14:51:05.747Z'
-version: 195
+version: 197
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
