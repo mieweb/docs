@@ -109,15 +109,6 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
             * [SpeechMike Dictation Instructions](functions/encounters/dictation-and-transcription/speechmike-dictation-instructions.md)
             * [Transcribing Dictation](functions/encounters/dictation-and-transcription/transcribing-dictation.md)
          * landingpages
-            * [Images](functions/encounters/images.md)
-            * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
-            * [Patient Education](functions/encounters/clinical-education.md)
-            * [Plan Narrative](functions/encounters/plan-narrative.md)
-            * [Recommendations](functions/encounters/recommendations.md)
-            * [Social History](functions/encounters/social-history.md)
-            * [Tests and Procedures](functions/encounters/tests-and-procedures.md)
-            * [Visual Exam](functions/encounters/visual-exam.md)
-            * [Vitals](functions/encounters/vitals.md)
          * TeleHealth
             * [Introducing TeleHealth](functions/encounters/telehealth/introducing-telehealth.md)
             * [TeleHealth Pricing](functions/encounters/telehealth/telehealth-pricing.md)
@@ -241,7 +232,6 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
       * Health Surveillance
          * [Adding/Editing Health Surveillance Panels](functions/health-surveillance/adding-editing-health-surveillance-panels.md)
          * [Due List](functions/health-surveillance/due-list.md)
-         * [Due List in a Dynamic Encounter](functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
          * [Health Surveillance Matrix Descriptions](functions/health-surveillance/health-surveillance-matrix-descriptions.md)
          * [Health Surveillance Panel Action Required for Certification](functions/health-surveillance/health-surveillance-panel-action-required-for-certification.md)
          * [Health Surveillance Panels - Action Rules](functions/health-surveillance/health-surveillance-panels-action-rules.md)
@@ -899,6 +889,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
                * [Real World Testing Plan 2023](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2023.md)
                * [Real World Testing Plan 2024](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2024.md)
                * [Real World Testing Plan 2025](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md)
+               * [Real World Testing Plan 2026](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2026.md)
                * [Real World Testing Results 2022](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-results-2022.md)
                * [Real World Testing Results 2023](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-results-2023.md)
                * [Real World Testing Results 2024](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-results-2024.md)
