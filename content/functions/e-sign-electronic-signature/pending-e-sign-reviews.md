@@ -1,9 +1,9 @@
 ---
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
-date: '2025-04-09T13:26:02.498Z'
-version: 144
-lastAuthor: 'auhrick'
+date: '2025-06-25T19:11:39.115Z'
+version: 150
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
@@ -72,7 +72,7 @@ When done reviewing the document, scroll to the bottom of the document.  You wi
 * <strong>Add Dictation:</strong>  If dictation is enabled on the system, can click this to add dictation to the specific e-sign document you are working in.  If dictate something into the player, it will send the dictation job to the dictation tab/queue. The transcriptionist then can open the dictation and/or the document you sent this from in esign.  This allows the transcriptionist to access the document easily to make edits to if need be from your dictation remarks.
 * <strong>Add Document:</strong>  Click this and another screen will open to the add document module of {{% system-name %}} .  You can add/create any document (ex: note) to the chart from here. When done, simply X out of this add document mode/window and it will still have the e-sign screen open in the main window.  Any document you create/add from esign using this add document feature will link themselves to the document being reviewed. You will see this in the document links section of the add document properties screen that opens once you've selected what type of document to ‘add'.
 * <strong>Open Chart:</strong>  Click this to open the chart the document resides in a separate screen.  This is so you can look something up in the chart and not lose the document you are to e-sign in the original screen.  To exit out of the open chart screen, simply click the X at the top right corner when you are ready to complete the e-sign document.
-* <strong>SIGN and Add Visit:</strong>  A list of several options will display after the Open Chart hyperlink. A link will display that allows the user to Sign the current document and then add an encounter. A link will display for each active encounter type in the database.  For Example, SIGN and Add Visit, SIGN and Add Results, SIGN and Add Case Management, etc.
+* <strong>SIGN and Add Visit:</strong>  A list of several options will display after the Open Chart hyperlink. A link will display that allows the user to Sign the current document and then add an encounter. A link will display for each active encounter type in the database.  For Example, SIGN and Add Visit, SIGN and Add Results, SIGN and Add Case Management, etc. Sign and Add Encounter links sign the selected document and then create an encounter with the current date of service instead of the date of service on the document being signed.
 
 ![](../pending-e-sign-reviews.assets/0e2e4f0593bbbdf6a814deaefa4c555d.png)
 
