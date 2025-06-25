@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-23T17:47:15.154Z'
-version: 1514
+date: '2025-06-25T16:19:43.415Z'
+version: 1520
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -144,6 +144,7 @@ links:
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/vitals.md'
   - 'functions/encounters/nurse-physical-exam.md'
+  - 'functions/encounters/physical-exam.md'
   - 'functions/encounters/visual-exam.md'
   - 'functions/encounters/encounters-labs-results-section.md'
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
@@ -922,6 +923,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Vitals Encounter Section](functions/encounters/vitals.md)
         * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
+        * [Physical Exam Encounter Section](functions/encounters/physical-exam.md)
         * [Visual Exam Encounter Section](functions/encounters/visual-exam.md)
         * [Labs Results Encounter Section](functions/encounters/encounters-labs-results-section.md)
         * [Tests & Procedures Encounter Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
