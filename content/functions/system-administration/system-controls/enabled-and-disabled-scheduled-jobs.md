@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-06-09T15:53:39.630Z'
-version: 463
+date: '2025-06-25T12:31:10.504Z'
+version: 471
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -294,9 +294,19 @@ Using *Max Records* functionality may be helpful for email scheduled jobs.  Wher
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/354ea872cda624c6cdad292d047b3ef1.png)
 
+### Max Records Exceeds Notification
+
 The notification of the blocked scheduled job(s) being executed will be sent to the email address that is configured in the system setting *System / Cron / Email Failures To*.
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/97a2a506c55890894ac7a46493061f6f.png)
+
+### Max Records Exceeds Approval Process
+
+The "approval" process refers to stopping the execution of scheduled jobs that exceed the configured max records value threshold.  The email notification is sent to the designated administrator (the email set in the system setting "Email Failures To") explaining that the job was stopped due to exceeding the allowed recipient count.
+
+A system admin can then manually run the associated system report, review and decide whether to proceed with performing it (Perform All button). This manual execution serves as the approval step.  The other method is to simply remove the Max Records value from the scheduled job itself and manually execute the scheduled job to run, and after it has run entirely, the system admin can place back the Max Records value to take effect in the next run.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/017ed371f2938e1268b0f3b50904e21c.png)
 
 ## Status
 
