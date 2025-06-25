@@ -150,6 +150,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
          * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
          * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
+         * [Physical Exam](functions/encounters/physical-exam.md)
          * [Plan Narrative](functions/encounters/plan-narrative.md)
          * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
          * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
