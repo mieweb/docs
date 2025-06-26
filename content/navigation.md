@@ -34,7 +34,7 @@ links:
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/artificial-intelligence.md'
   - 'functions/artificial-intelligence/ai-chat-box.md'
-  - 'https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ'
+  - 'functions/artificial-intelligence/ozwell-ai-assistant.md'
   - 'functions/artificial-intelligence/whisper-ai-dictation-summarize.md'
   - 'functions/e-chart.md'
   - 'functions/e-chart/detailed-searching-in-e-chart.md'
@@ -816,7 +816,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
-        * [Ozwell AI Assistant](https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ#heading=h.8epdnyqsdn6c)
+        * [Ozwell AI Assistant](functions/artificial-intelligence/ozwell-ai-assistant.md#_8epdnyqsdn6c)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
         * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)

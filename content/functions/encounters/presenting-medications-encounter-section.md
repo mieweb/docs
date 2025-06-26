@@ -1,8 +1,8 @@
 ---
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
-date: '2025-04-10T16:43:55.243Z'
-version: 116
+date: '2025-06-26T20:26:32.899Z'
+version: 122
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,7 +11,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
 ---
 The Presenting Medications encounter section is located in the Visit Encounter Subjective. The left side of the encounter displays a listing of currently known and previously entered medications. The right side of the section contains Quick Links to help the user quickly add medications to the presenting medication list.
 
-Note: Beginning RC202309 an "EXPIRED" alert will display in Red next to any expired medications in the Presenting Medications encounter section. Additionally, users will see "Expired" text in the Past Meds and Current Meds Quick Lists in the Encounter Presenting Medications, Medication Order and Smart Plan encounter sections, as well as the Prescribe Medication and Quick Prescribe in the encounter and/or Medications chart tab.The Past Meds section of the Quick List will also display the discontinued date for the medication, if entered.
+Note: Beginning RC202309 an "EXPIRED" alert will display in Red next to any expired medications in the Presenting Medications encounter section. Additionally, users will see "Expired" text in the Past Meds and Current Meds Quick Lists in the Encounter Presenting Medications, Medication Order and Smart Plan encounter sections, as well as the Prescribe Medication and Quick Prescribe in the encounter and/or Medications chart tab. Medications are automatically flagged as expired based on the duration and number of refills that were entered on the original prescription.
 
 ![](../presenting-medications-encounter-section.assets/f1c3fe4bfc886869f888d5a51ff6eeed.png)
 

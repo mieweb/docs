@@ -10,6 +10,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
       * Artificial Intelligence
          * [Intervention Risk Management for Predictive Decision Support Interventions with AI ](functions/artificial-intelligence/intervention-risk-management-for-predictive-decision-support-interventions-with-ai.md)
+         * [Ozwell AI Assistant](functions/artificial-intelligence/ozwell-ai-assistant.md)
          * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md)
       * Document Management
          * Documents & Forms
