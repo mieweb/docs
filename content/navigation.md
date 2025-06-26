@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-25T16:19:43.415Z'
-version: 1520
+date: '2025-06-26T15:47:23.905Z'
+version: 1534
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -481,6 +481,7 @@ links:
   - 'functions/reports/dictation-without-transcription-report.md'
   - 'functions/reports/documents-report-super-document-type-search.md'
   - 'functions/reports/dot-interface-status-report.md'
+  - 'functions/reports/duplicate-charts-merge-report.md'
   - 'functions/reports/e-meds-report.md'
   - 'functions/reports/encounter-report.md'
   - 'functions/reports/exporting-report-data.md'
@@ -812,7 +813,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Warnings & Alerts Portlet](functions/e-chart/alerts-tab-warnings.md)
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
-        * [AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
+        * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
         * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
@@ -1260,6 +1261,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Dictation without Transcription Report](functions/reports/dictation-without-transcription-report.md)
         * [Documents Report / Super Document Type Search](functions/reports/documents-report-super-document-type-search.md)
         * [DOT Interface Status Report](functions/reports/dot-interface-status-report.md)
+        * [Duplicate Charts-Merge Report](functions/reports/duplicate-charts-merge-report.md)
         * [E-Meds Report](functions/reports/e-meds-report.md)
         * [Encounter Report](functions/reports/encounter-report.md)
         * [Exporting Report Data](functions/reports/exporting-report-data.md)
