@@ -1,8 +1,8 @@
 ---
 id: '1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
 title: 'Visual Exam'
-date: '2025-06-17T14:42:43.613Z'
-version: 46
+date: '2025-06-26T17:55:04.566Z'
+version: 56
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -51,3 +51,29 @@ If utilizing a visual Exam flowsheet, library macros offered in the Visual Exam 
 ![](../visual-exam.assets/dbfbedfd50ead1273f145843d68adf47.png)
 
 For additional information on configuring and utilizing macros that can be utilized within the visual exam encounter section, please see separate guide [Macros](../system-configuration/macros.md#properties-of-a-macro) and/or [Libraries](libraries.md).
+
+## Delete / Edit / View Visual Exam Captured Data
+
+You can edit, delete, add to, or view the specific documented Visual Exam data from the encounter section.
+
+### Hover Options
+
+Once Visual Exam data has been documented, one can edit, add to, or delete data for the specific Visual Exam data that was captured.  If you do not have security permission to edit or add to observations, then you will not be able to.
+
+From the section's collapsed summary view, simply click on the values/data of the specific Visual Exam line item to edit on or add to.  The data will be displayed in a border box where you can begin modifying or typing in more information.
+
+![](../visual-exam.assets/04da59340f8f1f5cb123a5ebf2e1fcab.png)
+
+Also while the encounter section is in summary collapsed view, icon options next to the stored data will display.
+
+![](../visual-exam.assets/900f31371c61070617255faede9b881f.png)
+
+**Trash Can icon:** will immediately delete the stored data for the visual exam line item.  Visual exam data stores as observations.  If you do not have security permission to delete observations, the trashcan icon will still display, but upon click, the system will not allow the data to be deleted.
+
+**Eyeball icon:** will pop-up the View Observation window to view more specific details of the specific visual exam data. Revisions, trending, and entry information will be seen. Visual Exam data stores as observations.
+
+### Expanded Encounter Section
+
+Visual Exam data can also be edited on, added to, or cleared/deleted from the expanded encounter summary section.  Once Visual Exam data has been documented, the encounter section can be expanded open by clicking anywhere on the grey title section bar.  Then, the data can be clicked to edit & add to, or can click X to clear the data out of the field.  If you do not have security permission to edit or delete observations, the system will not allow you to modify.
+
+![](../visual-exam.assets/ee464ecdd61d56bdbcd040e5401e3f92.png)
