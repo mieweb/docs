@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-26T15:47:23.905Z'
-version: 1534
+date: '2025-06-26T17:34:28.691Z'
+version: 1550
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -34,6 +34,7 @@ links:
   - 'functions/e-chart/super-user-quick-view-portlet.md'
   - 'functions/artificial-intelligence.md'
   - 'functions/artificial-intelligence/ai-chat-box.md'
+  - 'https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ'
   - 'functions/artificial-intelligence/whisper-ai-dictation-summarize.md'
   - 'functions/e-chart.md'
   - 'functions/e-chart/detailed-searching-in-e-chart.md'
@@ -141,6 +142,7 @@ links:
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/immunizations-and-injections.md'
   - 'functions/encounters/social-history.md'
+  - 'functions/encounters/review-of-systems.md'
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/vitals.md'
   - 'functions/encounters/nurse-physical-exam.md'
@@ -814,6 +816,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
+        * [Ozwell AI Assistant Key Feature Overview](https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ#heading=h.8epdnyqsdn6c)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
         * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
@@ -921,6 +924,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
         * [Social History Encounter Section](functions/encounters/social-history.md)
+        * [Review of Systems Encounter Section](functions/encounters/review-of-systems.md)
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Vitals Encounter Section](functions/encounters/vitals.md)
         * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
