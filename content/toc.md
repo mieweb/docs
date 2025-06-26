@@ -156,6 +156,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
          * [Recommendations](functions/encounters/recommendations.md)
          * [Rename a Heading](functions/encounters/rename-a-heading.md)
+         * [Review of Systems](functions/encounters/review-of-systems.md)
          * [Smart Plan](functions/encounters/smart-plan.md)
          * [Social History](functions/encounters/social-history.md)
          * [TeleHealth](functions/encounters/telehealth.md)
