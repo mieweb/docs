@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-26T17:34:28.691Z'
-version: 1550
-lastAuthor: 'anichols'
+date: '2025-06-26T18:30:05.996Z'
+version: 1553
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -816,7 +816,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
-        * [Ozwell AI Assistant Key Feature Overview](https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ#heading=h.8epdnyqsdn6c)
+        * [Ozwell AI Assistant](https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ#heading=h.8epdnyqsdn6c)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
         * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
