@@ -1,8 +1,8 @@
 ---
 id: '1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
 title: 'Duplicate Charts-Merge Report'
-date: '2025-06-26T15:46:18.541Z'
-version: 132
+date: '2025-06-26T16:07:14.086Z'
+version: 137
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -69,11 +69,13 @@ The Duplicate Charts-Merge report offers various search criteria filters to narr
     * If no selection(s) in search criteria: Results from all applicable partitions are included, based on other criteria.
 * <strong>Order By "To" Interface:</strong> Some systems have interfaces that create charts into your system.  The ‘To" interface identifies a specific interface that creates a chart in your system.  This option allows you to order your results by a specific "TO" interface which then the result output will be prioritized/ordered with the "To" interface being at the top of the list. Useful if you know a certain interface should be the source of truth (like an HR feed interface).
 
-## Datavis Output Columns![](../duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
+## Datavis Output Columns
 
 * <strong>Options: </strong>
     * The Additional Details hyperlink pops-up a separate window. The pop-up window shows various Types of data in a list and next to each is the count of that data type that is  in the "From" chart and what the count of that same data type has  in the "To" chart (for the specific line item you selected).
     * The checkbox option means you are selecting that line item(s) of a "From" chart to merge into the "To" chart on the line item(s) you selected.  When a line item is checkmarked, the <em>Action: Merge</em> button functionality will activate for performable use.
+
+## ![](../duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
 
 * <strong>Rating:</strong> Is the rating that the system gives when analyzing the "From" chart to the "To" chart.  The higher the rating, the more likely this is the same person with duplicate chart(s).
     * Remember, a possible duplicate chart will be listed 2 ways on the output of this report, because the chart that is duplicate may need to be the "From" chart or may need to be the "To" chart.  The "To" chart is the chart a "From" chart will merge into.  The "To" chart will be kept in the system.  So the listing output will list it each way and you would select <strong>one</strong> way to merge it.
