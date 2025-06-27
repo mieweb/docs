@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2025-06-27T14:16:39.397Z'
-version: 1560
+version: 1561
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -786,7 +786,7 @@ links:
   - 'videos-and-demonstrations.md'
   - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 * [Programs](programs.md)
     * [Medical Programs](programs/medical-programs.md)
@@ -816,7 +816,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
-        * [Ozwell AI Assistant](functions/artificial-intelligence/ozwell-ai-assistant.md#_8epdnyqsdn6c)
+        * [Ozwell AI Assistant](functions/artificial-intelligence/ozwell-ai-assistant.md#ozwell-ai-assistant)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
         * [Detailed Chart Searching in E-Chart](functions/e-chart/detailed-searching-in-e-chart.md)
