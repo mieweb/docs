@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-06-26T18:30:05.996Z'
-version: 1554
-lastAuthor: 'auhrick'
+date: '2025-06-27T14:16:39.397Z'
+version: 1560
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -155,7 +155,7 @@ links:
   - 'functions/encounters/encounters-impression-section.md'
   - 'functions/encounters/encounters-open-order-request-section.md'
   - 'functions/encounters/plan-narrative.md'
-  - 'functions/encounters/encounter-plan-section-medications.md'
+  - 'functions/encounters/medication-orders.md'
   - 'functions/encounters/visit-orders.md'
   - 'functions/encounters/make-order-feature-encounter-plan-section.md'
   - 'functions/encounters/future-appointments.md'
@@ -937,7 +937,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
         * [Symptoms/Diagnosis Encounter Section](functions/encounters/encounters-impression-section.md)
         * [Open Order Request Encounters Section](functions/encounters/encounters-open-order-request-section.md)
         * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
-        * [Medication Orders Encounter Section](functions/encounters/encounter-plan-section-medications.md)
+        * [Medication Orders Encounter Section](functions/encounters/medication-orders.md)
         * [Visit Orders Encounter Section](functions/encounters/visit-orders.md)
             * [Visit Orders - Make Order Requisition](functions/encounters/make-order-feature-encounter-plan-section.md)
         * [Future Appointments Encounter Section](functions/encounters/future-appointments.md)
