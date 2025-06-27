@@ -148,6 +148,7 @@ wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
          * [Immunizations and Injections](functions/encounters/immunizations-and-injections.md)
          * [Libraries](functions/encounters/libraries.md)
          * [Make Order Feature - Encounter Plan Section](functions/encounters/make-order-feature-encounter-plan-section.md)
+         * [Medication Orders](functions/encounters/medication-orders.md)
          * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
          * [Nurse Physical Exam](functions/encounters/nurse-physical-exam.md)
          * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
