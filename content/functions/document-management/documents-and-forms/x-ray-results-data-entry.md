@@ -13,7 +13,7 @@ links:
   - '../imaging/burning-dicom-images-onto-cd-dvd.md'
   - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 

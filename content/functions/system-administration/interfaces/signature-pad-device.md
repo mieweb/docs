@@ -12,7 +12,7 @@ links:
   - 'https://docs.webchartnow.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
   - 'https://mie.talentlms.com/shared/start/key:AQQHRKMF'
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 {{% system-name %}} interoperates with Topaz Signature Pad Devices.  In order for the signature pad device to work with the {{% system-name %}} program, the signature pad device must be hooked up to your PC (usually by a USB port) and installed using the Topaz software, [SigPlus](https://www.sigpluspro.com/sigplus.html) or [SigPlus BSB](https://www.sigpluspro.com/sigplus-bsb.html) and [SigWeb](https://www.topazsystems.com/sdks/sigweb.html).
 

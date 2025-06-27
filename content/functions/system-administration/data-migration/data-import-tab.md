@@ -1,14 +1,14 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2025-04-07T17:13:22.302Z'
-version: 141
-lastAuthor: 'anichols'
+date: '2025-06-26T13:45:05.822Z'
+version: 151
+lastAuthor: 'fandreacchi'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
 source: 'https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 

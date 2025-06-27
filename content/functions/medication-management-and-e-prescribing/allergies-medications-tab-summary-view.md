@@ -2,13 +2,13 @@
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
 date: '2024-07-18T18:14:38.236Z'
-version: 173
+version: 175
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 

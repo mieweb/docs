@@ -6,7 +6,7 @@ version: 19
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mTsD1oXYnV2ZVK_7okDnVLmvkG60cAj5x0-DwUypgk8'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The necessary setup for accessing and utilizing RadOmni is fairly simple and straightforward, requiring just a basic install of a layout that is then viewable as a sidemenu option in the {{% system-name %}} system ( {{% sys-name %}} ). When accessed, the RadOmni form and all open encounters (filtered by the determined criteria) will display. RadOmni also provides options to Dictate, View Images, Add Tech Notes, and View the full encounter.
 

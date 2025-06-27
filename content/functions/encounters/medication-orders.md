@@ -1,14 +1,14 @@
 ---
 id: '1hrlqlawjLHtIBlBYmj4FxEP2ME2ULlsxdDyXk0I7lBw'
 title: 'Medication Orders'
-date: '2025-06-27T14:20:43.130Z'
-version: 49
+date: '2025-06-27T14:20:46.240Z'
+version: 52
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/prescribing-adding-medications.md'
 source: 'https://drive.google.com/open?id=1hrlqlawjLHtIBlBYmj4FxEP2ME2ULlsxdDyXk0I7lBw'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Medication Orders encounter section provides the necessary tools for ordering, prescribing, managing, and tracking medications for the chart.
 

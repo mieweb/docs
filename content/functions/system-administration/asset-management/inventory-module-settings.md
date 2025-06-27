@@ -7,7 +7,7 @@ lastAuthor: 'spedroza'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 ![](../inventory-module-settings.assets/268ee4a57c3887e20d82ea1242d53e97.png)
 

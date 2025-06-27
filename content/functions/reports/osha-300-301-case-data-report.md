@@ -10,7 +10,7 @@ links:
   - 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.46'
   - 'http://osha.gov/injuryreporting'
 source: 'https://drive.google.com/open?id=1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The OSHA 300/301 Case Data report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 

@@ -2,7 +2,7 @@
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
 date: '2025-06-20T15:12:23.410Z'
-version: 196
+version: 200
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - '../financial-functionality/downloading-financial-reports.md'
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The financial functionality of the system allows you to:
 

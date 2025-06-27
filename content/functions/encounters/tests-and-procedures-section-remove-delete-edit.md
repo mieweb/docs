@@ -2,14 +2,14 @@
 id: '1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
 title: 'Tests & Procedures Section - Remove, Delete, Edit'
 date: '2025-06-23T16:05:59.996Z'
-version: 107
+version: 109
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../health-surveillance/due-list.md'
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Tests & Procedures encounter section can be found in the Objective section.  This section mimics the stand alone "Due List" chart tab.  The Tests & Procedures section displays items that are "due" so when a patient comes in, and the staff is working in an encounter, the clinician has visibility of items that the patient is due for, here in this encounter section.  Note: These same items are also visible from the separate chart tab named Due List.   For more information on the Due List stand alone chart tab, please see [Due List](../health-surveillance/due-list.md) guide.
 

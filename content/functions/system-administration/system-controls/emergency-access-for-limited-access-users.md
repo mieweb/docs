@@ -2,12 +2,12 @@
 id: '1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
 title: 'Emergency Access for Limited Access Users'
 date: '2025-06-23T18:33:15.723Z'
-version: 115
+version: 121
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 When access to a chart is restricted, the system provides a means for appropriately authorized users to "have emergency access" for emergency situations.
 

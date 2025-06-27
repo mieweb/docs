@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sSy0HOZEuSlpQCX9UsAovxKI3N28tC7H6jI8xqIHfHE'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Use fee schedules to set costs and prices for orders. Each fee schedule must be associated with a cost account and a revenue account already established in the system. Fee schedules have beginning dates and end dates during which they may be used in the system. The time between these dates is the effective period. Before and after the effective period, the fee schedule cannot be used. When practical, the begin dates and end dates of fee schedules can be set so that the effective period essentially never ends.
 

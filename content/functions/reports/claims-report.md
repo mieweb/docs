@@ -2,13 +2,13 @@
 id: '1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
 title: 'Claims Report'
 date: '2024-07-15T13:39:25.363Z'
-version: 104
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Claims report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 

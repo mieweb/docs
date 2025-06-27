@@ -2,7 +2,7 @@
 id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
 title: 'Plan Narrative'
 date: '2025-06-03T18:47:59.679Z'
-version: 57
+version: 59
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'libraries.md'
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Plan Narrative encounter section is available to document a plan narrative regarding the visit within an encounter.
 

@@ -2,12 +2,12 @@
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Encounters Impression Section'
 date: '2020-03-13T14:24:55.091Z'
-version: 70
+version: 72
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Impression area of the encounter is where you select your diagnosis/findings. This is where you are documenting reasons/diagnoses for *today's* visit. This section may also be named *Assessment* in your encounters.
 

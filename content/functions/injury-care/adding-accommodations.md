@@ -9,7 +9,7 @@ links:
   - 'viewing-accommodations.md'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1zvlKSV0JLLJQTwD3w6JN9HOposnRNBfVcSSfWmpToZY'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The accommodation management function provides for the recording and documenting of accommodations (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work accommodations.  Accommodations are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
 

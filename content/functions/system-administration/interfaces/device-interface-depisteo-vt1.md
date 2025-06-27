@@ -2,13 +2,13 @@
 id: '10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
 title: 'Device Interface - Depisteo VT1'
 date: '2024-10-01T14:04:10.624Z'
-version: 90
+version: 91
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'http://confluence.mieweb.com/display/MIEDeviceApp/Installing+MIE+Device+App'
 source: 'https://drive.google.com/open?id=10Ed-C3AniSwIiqbe_FDqBIm5JTId6oZGVCvKHifAplg'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 This page provides instructions for interfacing the Depisteo VT1 with the {{% system-name%}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.
 

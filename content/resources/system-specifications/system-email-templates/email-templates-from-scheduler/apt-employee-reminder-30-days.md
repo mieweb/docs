@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EER30&old_module=Email&old_name=Apt+Employee+Reminder+30+days&active=0'
 source: 'https://drive.google.com/open?id=1L-bM3HlPu7UQOX8wk6h2YWAwWhmaK6qzkCXPRHWC77M'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EER30&old_module=Email&old_name=Apt+Employee+Reminder+30+days&active=0), as needed.

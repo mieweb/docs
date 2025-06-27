@@ -11,7 +11,7 @@ links:
   - 'https://www.urbandictionary.com/define.php?term=leet+speak'
   - '../system-administration/security.md'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related) when working in charts. Personnel may initiate an encounter to document and authorize work restrictions. The types of clinical restrictions choices available for staff to document, when working in charts, is customizable for the {{% system-name %}} system.
 

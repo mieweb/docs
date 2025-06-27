@@ -2,7 +2,7 @@
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
 date: '2025-05-12T18:32:47.057Z'
-version: 723
+version: 728
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
 With the **Patient Portal** (WebChart databases), also referred to as an **Employee Portal** (Enterprise Health databases, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!

@@ -2,13 +2,13 @@
 id: '1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
 title: 'Libraries'
 date: '2024-12-17T17:47:26.394Z'
-version: 99
+version: 101
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
 source: 'https://drive.google.com/open?id=1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Libraries can be created to build Quick Lists for providers or quick prescribing lists. Libraries do not come preconfigured, but can be configured and maintained by System Administrator and authorized users. Libraries can be configured and edited in the **Reference** tab under the **Control Panel**.
 

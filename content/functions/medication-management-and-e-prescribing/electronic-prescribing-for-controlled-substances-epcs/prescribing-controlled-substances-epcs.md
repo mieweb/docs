@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Providers enrolled in electronic prescribing of controlled substances (EPCS) are required to sign controlled substance prescriptions electronically via two-factor authentication (IdenTrust). Beginning with RC202503, prescribing controlled substances as Ashish Patel, MD will simulate prescribing as though the two-factor authentication process has taken place and the prescription has been sent to a pharmacy. Please note that **no** controlled substance prescriptions written by Ashish Patel, MD will be sent electronically out of the system and this test provider is configured for testing, demo and training purposes only.
 

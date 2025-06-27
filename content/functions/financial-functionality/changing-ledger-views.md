@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1Mwnmcg-Lvz8wiRmN-NaXvKaKhLlAzK-kSKlDPjRp2a0'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. To change to a registry view of transactions, at the upper-right, select <strong>Registry View</strong>. 

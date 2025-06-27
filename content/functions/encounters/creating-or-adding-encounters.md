@@ -10,7 +10,7 @@ links:
   - 'working-in-a-visit-encounter.md'
   - 'archiving-closing-re-archiving-encounters.md'
 source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 ## Creating or Adding Encounters
 

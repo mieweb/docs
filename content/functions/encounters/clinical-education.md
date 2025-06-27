@@ -2,7 +2,7 @@
 id: '1BMQbUu4dtP5zu3RrRMyg-MVFiH0acXyiEX0_n3zZnRg'
 title: 'Clinical Education'
 date: '2025-06-16T16:13:53.389Z'
-version: 77
+version: 79
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'copy-from-previous-exam.md'
   - '../system-administration/interfaces/patient-education-interface.md'
 source: 'https://drive.google.com/open?id=1BMQbUu4dtP5zu3RrRMyg-MVFiH0acXyiEX0_n3zZnRg'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Patient Education encounter section name has changed to Clinical Education and is found within the Plan area of an encounter.
 

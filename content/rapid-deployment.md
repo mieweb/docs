@@ -2,11 +2,11 @@
 id: '1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
 title: 'Rapid Deployment'
 date: '2020-02-27T20:32:31.821Z'
-version: 56
+version: 57
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x-ZxaNAaJzfFvLTlm0-qYLm_cCDrKHlaJgLmcKnE53o'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 An IT solution that combines clinical care, occupational health, compliance, *and* engagement in a single, cloud-based, interoperable platform is not something you'd expect right out of the box.  {{% system-name %}}  not only creates a cost-effective solution to fostering a healthy workforce, it provides the means to creating a culture of value-based care and healthy living, right out of the box.
 

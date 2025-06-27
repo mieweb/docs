@@ -9,7 +9,7 @@ links:
   - '../order-and-result-management/vitals-tracking-and-management.md'
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vitals encounter section allows {{% system-name %}} users to trend and add measurements of essential data.
 

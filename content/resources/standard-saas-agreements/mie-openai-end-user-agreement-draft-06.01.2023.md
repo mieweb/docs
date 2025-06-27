@@ -2,7 +2,7 @@
 id: '1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
 title: 'MIE - OpenAI End User Agreement (draft 06.01.2023)'
 date: '2023-09-13T14:49:19.397Z'
-version: 26
+version: 28
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1dSjejCMB7zGviJsgOU-uJ1dnrf05Cn58ZT_GFDd53_M'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 **END USER AGREEMENT AND TERMS OF USE**
 

@@ -7,7 +7,7 @@ lastAuthor: 'acook'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 As a superuser for your practice, your email may be programmed into a system setting to notify you of any one in your system that adds an unrecognized allergy or unrecognized medication/prescription. This email notification feature *can* be turned off entirely. Contact your MIE Implementer.
 

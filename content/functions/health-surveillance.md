@@ -6,7 +6,7 @@ version: 24
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13d8ccdFH7JxUSmcuuvP6MbeYsXaR-GYMpSLZpwYvERg'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 With the {{% system-name %}} Health Surveillance module, users can easily track and manage overall health for risk groups and patient populations. Required tests for audiometry, pulmonary function, vision, respirator fit, and other surveillance exams do not rely on manual tracking and human intervention. Electronic toolsets drive the process to significantly decrease risk of compliance failure.
 

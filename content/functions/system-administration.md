@@ -2,7 +2,7 @@
 id: '1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
 title: 'System Administration'
 date: '2020-02-27T21:20:07.223Z'
-version: 39
+version: 40
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'system-administration/security.md'
   - 'system-administration/asset-management.md'
 source: 'https://drive.google.com/open?id=1MF8wO3sFZvlVUNng29ljpIXW_32tUixolqLeaTteVBo'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The System Administration module is designed to help practices control and monitor what happens behind the scenes of their EHR. With it comes essential tools for managing and overseeing user access, system setup, and general operations of the {{% system-name %}} system.
 

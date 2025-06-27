@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1CSjIPGRdMMT6Z8bVhH_-x-x015LUHKZBjf2TLFZbesc'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) for which to indicate preferred statement delivery method.
 2. Select the <strong>Overview (EO)</strong> tab.

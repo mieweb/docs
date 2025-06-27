@@ -2,7 +2,7 @@
 id: '1LVSJbbksfR6TAPzipWqYCWKsP_n5Td5vzCVhKhJWi7g'
 title: 'Physical Exam'
 date: '2025-06-26T17:40:52.138Z'
-version: 31
+version: 38
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1LVSJbbksfR6TAPzipWqYCWKsP_n5Td5vzCVhKhJWi7g'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The  encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document a  regarding the visit within an encounter.
 

@@ -20,7 +20,7 @@ links:
   - 'data-migration/create-pft-data-file-for-import.md'
   - 'data-migration/summary-documents-csv-api.md'
 source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system.
 

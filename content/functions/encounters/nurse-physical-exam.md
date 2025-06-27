@@ -2,14 +2,14 @@
 id: '1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
 title: 'Nurse Physical Exam'
 date: '2025-06-04T13:27:48.624Z'
-version: 40
+version: 44
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The *Nurse Physical Exam* encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document a Nurse's physical exam regarding the visit within an encounter.
 

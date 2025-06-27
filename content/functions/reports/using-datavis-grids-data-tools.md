@@ -2,13 +2,13 @@
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
 date: '2025-04-15T15:18:49.187Z'
-version: 256
+version: 258
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
 source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.
 

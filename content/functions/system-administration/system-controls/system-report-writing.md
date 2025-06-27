@@ -2,12 +2,12 @@
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
 date: '2025-02-12T17:02:46.167Z'
-version: 1013
+version: 1017
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 This documentation applies to writing a system report in the system report writer as well as in layouts with a query in an {{#each}} statement or the legacy <WCQUERY> tag. For our customers with ODBC connections, this document is a good primer for understanding key parts of the schema.
 

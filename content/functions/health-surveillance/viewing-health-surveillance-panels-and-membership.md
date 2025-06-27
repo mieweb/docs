@@ -2,13 +2,13 @@
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
 date: '2025-06-02T13:18:56.662Z'
-version: 151
+version: 154
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Various security permissions apply to the Health Surveillance editor for the system within the Control Panel.
 

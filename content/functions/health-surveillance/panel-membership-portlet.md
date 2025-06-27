@@ -11,7 +11,7 @@ links:
   - 'viewing-health-surveillance-panels-and-membership.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Charts may be members of health surveillance panels that are "overall due" by a specific date.  The Summary dashboard chart tab can be set up to display the *Panel Membership* portlet.  This allows clinicians visibility of those health surveillance panels that a chart is a member of.  The subsequent *Due List* portlet also relates to panel memberships, as it shows the items (tests & procedures) that are pending as ‘due' for the chart, including those items related to their health surveillance panel memberships.
 

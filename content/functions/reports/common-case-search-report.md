@@ -2,12 +2,12 @@
 id: '1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
 title: 'Common Case Search Report'
 date: '2024-10-29T14:21:12.738Z'
-version: 166
+version: 167
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1qJ77x6h2bKHr-1OAJ9qGOMRhuv2D5WKtevsdQ22z1RU'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the dynamic *Case* section.
 

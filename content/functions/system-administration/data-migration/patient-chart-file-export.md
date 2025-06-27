@@ -2,12 +2,12 @@
 id: '1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
 title: 'Patient Chart File Export'
 date: '2025-06-24T14:13:20.657Z'
-version: 51
+version: 54
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 There are a few ways to export the patient's chart file into different formats. You can export the patient's chart files by using any of those methods.
 

@@ -19,7 +19,7 @@ links:
   - 'https://drive.google.com/open?id=1-Yysu_PZNhCGl5mw0CRzwUZGcEffjqlP'
   - 'https://drive.google.com/open?id=1-cFqzKFkmMazalo5X912zP2HFTEflgnV'
 source: 'https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 {{% section %}}
 {{% column %}}

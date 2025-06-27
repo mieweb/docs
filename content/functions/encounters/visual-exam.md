@@ -2,7 +2,7 @@
 id: '1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
 title: 'Visual Exam'
 date: '2025-06-26T17:55:04.566Z'
-version: 56
+version: 57
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The Visual Exam encounter section is found within the Objective area of an encounter.  The Physical Exam encounter section can be toggled to be a Visual Exam encounter section (and vice versa).
 
