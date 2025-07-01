@@ -1,8 +1,8 @@
 ---
 id: '1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
 title: 'Goals'
-date: '2025-06-02T19:07:28.561Z'
-version: 150
+date: '2025-07-01T16:55:58.377Z'
+version: 158
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -87,6 +87,11 @@ Goals are also visible in the Symptoms/Diagnosis encounter section and goals can
 
 ![](../goals.assets/431f5ec7d9247b8b1a30b8a8e2cdca3e.png)
 
+## Encounter Stored Document
+
+The Goals encounter section does become part of the encounter visit note document once closed and archived.
+
+![](../goals.assets/be26b9c182d239dcd549a688d4842f0e.png)
 ## Visit Summary
 
 If the encounter is configured to generate a Patient Clinical Visit Summary upon close & archive, the goals encounter section contents will be included in that Patient Clinical Visit Summary document.
@@ -97,4 +102,4 @@ The Clinical/Visit Summary is a standard additional view that is generated on en
 
 ![](../goals.assets/49e4805a68b7a8755f51dd0c83b47f01.png)
 
-The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents and includes the Depart Instructions encounter section.
+The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents and includes the Goals encounter section.
