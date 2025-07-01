@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-01T15:16:21.360Z'
-version: 1579
+date: '2025-07-01T18:26:35.983Z'
+version: 1586
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -143,6 +143,7 @@ links:
   - 'functions/encounters/immunizations-and-injections.md'
   - 'functions/encounters/social-history.md'
   - 'functions/encounters/gynecology-history.md'
+  - 'functions/encounters/presenting-restrictions.md'
   - 'functions/encounters/review-of-systems.md'
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/vitals.md'
@@ -926,6 +927,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
         * [Social History Encounter Section](functions/encounters/social-history.md)
         * [Gynecology History Encounter Section](functions/encounters/gynecology-history.md)
+        * [Presenting Restrictions Encounter Section](functions/encounters/presenting-restrictions.md)
         * [Review of Systems Encounter Section](functions/encounters/review-of-systems.md)
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Vitals Encounter Section](functions/encounters/vitals.md)
