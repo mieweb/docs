@@ -2,7 +2,7 @@
 id: '1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
 title: 'Social History'
 date: '2025-06-16T17:09:57.853Z'
-version: 61
+version: 69
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

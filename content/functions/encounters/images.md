@@ -2,7 +2,7 @@
 id: '1GnmXZCmcrEl2iSdffMsfP1CCd613PCvGc5lVy1NS2HY'
 title: 'Images'
 date: '2025-06-03T18:39:09.612Z'
-version: 42
+version: 48
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

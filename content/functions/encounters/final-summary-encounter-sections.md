@@ -2,7 +2,7 @@
 id: '1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM'
 title: 'Final Summary Encounter Sections'
 date: '2025-06-02T14:08:07.675Z'
-version: 47
+version: 57
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

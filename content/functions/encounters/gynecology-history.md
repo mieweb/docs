@@ -2,7 +2,7 @@
 id: '1ntlhpzabiQoEOQMKqMOFSwlLfdJSWljfj8S-NpCMMpo'
 title: 'Gynecology History'
 date: '2025-07-01T15:04:40.342Z'
-version: 18
+version: 19
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

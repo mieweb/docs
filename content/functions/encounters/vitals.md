@@ -2,7 +2,7 @@
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
 date: '2025-06-18T18:59:15.564Z'
-version: 128
+version: 134
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
