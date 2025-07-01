@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-06-18T14:10:07.337Z'
-version: 546
-lastAuthor: 'anichols'
+date: '2025-07-01T19:15:16.996Z'
+version: 556
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
@@ -111,7 +111,7 @@ The Individual Security settings screen for that user will open. Select any secu
     * No Access: No access to the demo screen when a patient's chart is open.
     * View: Can view demo screen on patient's chart, but can't modify it.
     * Add: Can add/manually add a patient into the {{% system-name %}} system (if your system does not interface w/ {{% system-name %}} , or you manually add each patient)  Refers to patient registration. Can add only, not edit demo. info.
-    * Edit: Can manually add/edit/change information on demo screen on a patient's chart. Can edit/add alerts, etc.
+    * Edit: Can manually add/edit/change information on demographics screen on a patient's chart. Can edit/add alerts, etc.
 * Patient Insurance Policies:  This insurance screen shows on the patient demographics screen.
     * No Access: No access to the patient insurance. Nothing insurance related to the patient shows on the demo. screen at all.  Keeps insurance info private.
     * View: The demographics screen shows insurances and allows a scan of the card.  No editing, no adding options allowed.
@@ -130,19 +130,18 @@ The Individual Security settings screen for that user will open. Select any secu
 * Document Signature Override: If a document has been esigned and an edit is needed, a user with permission to Document Signature Override would be able to edit the document, then the person who had previously e-signed the document will get a new e-sign request. If the Document Signature Override permission is set to No for a user, then only the Author of a document will be able to edit the document if it has already been esigned.
 * Document Lock: Allows users to lock a document so that no one can view the document or make changes to the document if they do not have permission to use the document lock system.
 * Manage Document Records:  If another user is editing a document and you want to get into that document also at the same time, it will lock the document from your access since one user is already in it.  This permission allows the users in the role to remove those locks.
-* Allow uploading HTML documents: If set to No, this permission will restrict a portal user from being able to attach (via file upload on portal questionnaires etc) an HTML formatted file.  This security permission does not affect clinicians using the system to upload HTML files into a chart, or upload HTML documents, etc.  This is strictly for the ‘file upload' method on portal questionnaires where users are allowed to upload file(s). Supported file types are jpg, pdf, and png.
-* Document Move: Allows users to ‘move' documents into another patient's E-chart. Example: if they were indexed to the wrong acct, etc.
-* Document Delete: Allows users to ‘delete' documents from a patient's chart.  It will take document away, but will still show up as a deleted document in that patient's file/chart.
+* Allow HTML File Document Upload: If set to No, this permission will restrict clinical users from uploading HTML document types from the File Document Upload Tool. It will also prevent portal users from being able to attach (via file upload on portal questionnaires etc) an HTML formatted file.  Document Move: Allows users to ‘move' documents into another patient's E-chart. Example: if they were indexed to the wrong acct, etc.
+* Document Delete: Allows users to ‘delete' documents from a patient's chart.  It will take the document away, but will still show up as a deleted document in that patient's file/chart.
 * Document Undelete:  Allows users to ‘undelete' document from a patient's chart.  It will reactivate the document.
 * View Preliminary Documents: If set to YES, the users have the permission to view all preliminary documents and can un-request any preliminary e-sign request.  If it is set to NO, then only the owner or the transcriber of the document is able to view the preliminary document and un-request the preliminary e-sign request.
 * Author Documents: If set to No, this permission will restrict a user from being the authored by user on a document. The user will still have access to upload a document but the "Authored By" will be set to zero.
 * Document Permissions:
     * No Access: No access/ no view to any type of document in a patient's chart.
-    * View: Can view the documents in a patient's chart tabs only.  Cannot have access to add documents link or edit existing documents.
+    * View: Can view the documents in a patient's chart tabs only.  Cannot have access to the add documents link or edit existing documents.
     * Add: Can add a document by scanning, word, text, or the add document link, etc. Also this setting allows the user to edit their own documents without having the ‘edit' permission set here.
     * Append:  Can append a text document only if they are not the owner/creator of the original document. They cannot edit the original document; they can only make an appendage to the text document if they were not the creator (author) of the original document.
     * Edit: Can append or edit any and all documents in a chart regardless if the user was the creator (author) of the original document or not.
-* Create Document Rights for All Patients: In the {{% system-name %}} environment, this will be set to None.  This setting is only used currently for NoMoreClipboard and isn't applicable to {{% system-name %}} at this time.  For NoMoreClipboard users, the security level this is set to allows the user to view, add, edit, or delete a document for ANY patient, regardless of if they technically have "rights" to the patient by other means we check.  It doesn't allow them to do anything else with documents or anything else on patients they don't have rights to, just being able to upload a document to any patient's chart.
+* Create Document Rights for All Patients: In the {{% system-name %}} environment, this will be set to None.  This setting is only used currently for NoMoreClipboard and isn't applicable to {{% system-name %}} at this time.  For NoMoreClipboard users, the security level is set to allow the user to view, add, edit, or delete a document for ANY patient, regardless of if they technically have "rights" to the patient by other means we check.  It doesn't allow them to do anything else with documents or anything else on patients they don't have rights to, just being able to upload a document to any patient's chart.
 
 * Restrict by Document Send:  If set to Yes, this permission restricts the users viewable documents to those that have been sent to them.
 * Transcribe for others: A person can enter/add documents into the system for someone else such as a doctor, etc.   When creating a document, the AUTHORED BY: will allow you to choose the physician, etc for the document if this is set to YES.  If NO, your name will always be in the AUTHORED BY field and you cannot create/add documents for others as their name. Also, make sure this is set to YES if indexer or transcriptionist.
