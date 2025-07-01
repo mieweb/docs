@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-01T14:48:04.746Z'
-version: 1571
+date: '2025-07-01T15:16:21.360Z'
+version: 1575
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -137,7 +137,7 @@ links:
   - 'functions/encounters/chief-complaint.md'
   - 'functions/encounters/history-of-present-illness.md'
   - 'functions/encounters/past-medical-history-encounter-section.md'
-  - 'https://drive.google.com/open?id=1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E'
+  - 'functions/encounters/past-procedures-encounter-section.md'
   - 'functions/encounters/presenting-medications-encounter-section.md'
   - 'functions/encounters/allergies-intolerances-encounter-section.md'
   - 'functions/encounters/immunizations-and-injections.md'
@@ -920,7 +920,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Chief Complaint Encounter Section](functions/encounters/chief-complaint.md)
         * [HPI Encounter Section](functions/encounters/history-of-present-illness.md)
         * [Past Medical History Encounter Section](functions/encounters/past-medical-history-encounter-section.md)
-        * [Past Procedures Encounter Section](https://drive.google.com/open?id=1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E)
+        * [Past Procedures Encounter Section](functions/encounters/past-procedures-encounter-section.md)
         * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
         * [Allergies Intolerances Encounter Section](functions/encounters/allergies-intolerances-encounter-section.md)
         * [Immunizations/Injections Encounter Section](functions/encounters/immunizations-and-injections.md)
