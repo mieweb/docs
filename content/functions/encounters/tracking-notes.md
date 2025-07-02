@@ -1,8 +1,8 @@
 ---
 id: '1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
 title: 'Tracking Notes'
-date: '2025-07-02T17:10:26.446Z'
-version: 35
+date: '2025-07-02T17:29:55.495Z'
+version: 42
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -20,13 +20,19 @@ To key in notes into the Tracking Notes section, simply click anywhere in its gr
 
 ![](../tracking-notes.assets/599e385c1fcd23e5807a08b2cf4adfa2.png)
 
-## Macros
+## Macros Tracking Notes - General Notes
 
-Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input.  At least one macro must be configured for the Tracking Notes section, but the Macros rightside area to appear and utilize.
+Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input.  At least one macro must be configured for the Tracking Notes section for the Macros rightside area to appear and be utilized.
 
 ![](../tracking-notes.assets/1baf403e65cde0ad67ea0bae87be7350.png)
 
-For additional information on configuring and utilizing macros that can be utilized within the Racking Notes encounter section, please see separate guide [Macros](../system-configuration/macros.md#properties-of-a-macro).
+For additional information on configuring and utilizing macros that can be utilized within the Tracking Notes encounter section, please see separate guide [Macros](../system-configuration/macros.md#properties-of-a-macro).
+
+## Macros Tracking Notes - Case Management Notes
+
+The Tracking Notes encounter section of a Case Management encounter are Case Management Notes and also offer Macros as a way to quickly insert predefined text with minimal user input.  At least one macro must be configured for the Case Management Notes section for the Macros rightside area to appear and be utilized.
+
+![](../tracking-notes.assets/343faa5d7f44c74e09273c4e4af52f5e.png)
 
 ## Delete / Edit / View Tracking Notes Captured Data
 
@@ -48,7 +54,7 @@ Simply expand open the Tracking Notes encounter section and click the minus - bu
 
 ![](../tracking-notes.assets/b409f95e01fbb89db6d6f8f2043bcb3f.png)
 
-Once the minus - button is clicked, it will put a strikethrough the entire Note selected.  This signifies it will delete this note off once you SAVE the section.  If you made a mistake, you can click the *add* button (where the minus button was before you clicked it) and the note will have the strikethrough removed and won't be deleted.
+Once the minus - button is clicked, it will put a strikethrough the entire Note selected.  This signifies it will delete this note off once you SAVE the section.  If you made a mistake, you can click the *add* button in the options column (where the minus button was before you clicked it) and the note will have the strikethrough removed and won't be deleted.
 
 However, once you SAVE the encounter section (by clicking the ‘next' button or the ‘save' icon or collapsing the encounter section), your work is saved and if you had deleted a note, there is no way to bring it back.
 
