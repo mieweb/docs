@@ -167,6 +167,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [TeleHealth](functions/encounters/telehealth.md)
          * [Tests & Procedures Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
          * [Tests & Procedures Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
+         * [Tracking Notes](functions/encounters/tracking-notes.md)
          * [Visit Orders](functions/encounters/visit-orders.md)
          * [Visual Exam](functions/encounters/visual-exam.md)
          * [Vitals](functions/encounters/vitals.md)
