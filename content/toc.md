@@ -156,6 +156,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Past Procedures Encounter Section](functions/encounters/past-procedures-encounter-section.md)
          * [Physical Exam](functions/encounters/physical-exam.md)
          * [Plan Narrative](functions/encounters/plan-narrative.md)
+         * [Pregnancy History](functions/encounters/pregnancy-history.md)
          * [Presenting Medications Encounter Section](functions/encounters/presenting-medications-encounter-section.md)
          * [Presenting Restrictions](functions/encounters/presenting-restrictions.md)
          * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
