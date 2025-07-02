@@ -1,9 +1,9 @@
 ---
 id: '1lEVwWXjC5fHEqff8amLbCXcRZK4I1-81u7xRPEs6s8I'
 title: 'Pending E-Sign Reviews'
-date: '2025-06-25T19:11:39.115Z'
-version: 152
-lastAuthor: 'janderson'
+date: '2025-07-02T19:25:43.867Z'
+version: 158
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
@@ -78,7 +78,7 @@ When done reviewing the document, scroll to the bottom of the document.  You wi
 
 ### Sign and Create Encounter
 
-The user experience for client databases on release 202309 and newer not only includes the standard ability to sign the document and add an encounter, but also includes the feature to automatically link the signed document to the newly opened encounter.  The e-signed document will then display in the newly added encounter in the **Linked Documents** encounter section in full detail mode.
+The user experience for client databases on release 202309 and newer not only includes the standard ability to sign the document and add an encounter, but also includes the feature to automatically link the signed document to the newly opened encounter.  The e-signed document will then display in the newly added encounter in the **Linked Documents** encounter section in full detail mode. The newly created encounter will also default to "today's" date rather than the date of service of the signed document, as it did in previous releases.
 
 ![](../pending-e-sign-reviews.assets/74b9e041b5f590d7ad0c2f294a802c39.png)
 
