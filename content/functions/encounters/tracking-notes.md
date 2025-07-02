@@ -1,8 +1,8 @@
 ---
 id: '1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
 title: 'Tracking Notes'
-date: '2025-07-02T17:29:55.495Z'
-version: 42
+date: '2025-07-02T17:51:07.716Z'
+version: 50
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
 source: 'https://drive.google.com/open?id=1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
-The  encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document any Tracking Notes within an encounter using the Visit encounter template type outline within the Plan area.
+The Tracking Notes encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document any Tracking Notes within an encounter using the Visit encounter template type outline within the Plan area.
 
 ![](../tracking-notes.assets/c87e6e8e0589a13794ac1528d97dbf9d.png)
 
@@ -18,7 +18,7 @@ The  encounter section is an optional section that can be applied to the encount
 
 To key in notes into the Tracking Notes section, simply click anywhere in its grey title bar area to expand open the Tracking Notes encounter section.  Use the Observation date/time field to date/time stamp your note and free text in any notes in the Notes field.  Once done, click the ADD button to save your work. You can add another separate note.
 
-![](../tracking-notes.assets/599e385c1fcd23e5807a08b2cf4adfa2.png)
+![](../tracking-notes.assets/d31c3fc099c7c7d44a0787123413f717.png)
 
 ## Macros Tracking Notes - General Notes
 
