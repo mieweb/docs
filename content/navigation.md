@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-01T18:26:35.983Z'
-version: 1586
+date: '2025-07-02T17:13:54.821Z'
+version: 1592
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -166,6 +166,7 @@ links:
   - 'functions/encounters/clinical-education.md'
   - 'functions/encounters/depart-instructions.md'
   - 'functions/encounters/recommendations.md'
+  - 'functions/encounters/tracking-notes.md'
   - 'functions/encounters/goals.md'
   - 'functions/encounters/financials.md'
   - 'functions/encounters/negations-encounter-section.md'
@@ -950,6 +951,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Clinical Education Encounter Section](functions/encounters/clinical-education.md)
         * [Depart Instructions Encounter Section](functions/encounters/depart-instructions.md)
         * [Recommendations Encounter Section](functions/encounters/recommendations.md)
+        * [Tracking Notes Encounter Section](functions/encounters/tracking-notes.md)
         * [Goals Encounter Section](functions/encounters/goals.md)
         * [Financials Encounter Section](functions/encounters/financials.md)
         * [Negations Encounter Section](functions/encounters/negations-encounter-section.md)
