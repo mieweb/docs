@@ -2,13 +2,13 @@
 id: '1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
 title: 'Device Interface - Maico MA800'
 date: '2020-02-27T21:28:06.013Z'
-version: 27
+version: 28
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 This page provides instructions for retrieving results from the Teleaccoustics Maico MA800 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -51,4 +51,4 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-For a list of all supported devices, see our [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices, see our [Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
