@@ -1,13 +1,13 @@
 ---
 id: '1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
 title: 'Immunizations and Injections'
-date: '2025-06-03T14:14:10.790Z'
-version: 81
+date: '2025-06-03T16:58:03.057Z'
+version: 104
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The *Immunization / Injections* encounter section displays by default in the visit encounter Subjective. If the patient/employee has known immunizations or injections documented in the chart, the section here will display in a bulleted list on the left side of the Immunizations / Injections encounter section. Hovering over the imm/inj list will display options to manage each historical immunization or injection.
 
@@ -51,7 +51,7 @@ When using the Search field prior to clicking the "+" button, the user will see 
 
 ![](../immunizations-and-injections.assets/d3d5340e9bcd5609118b02578776cf21.png)
 
-It is recommended that users select from predefined options from the dropdown injection/immunization name field. Items in the dropdown are stored as coded/structured data within the system. The system will allow users to enter free text as a historical injection record, however when done so, this data is not structured and limits reporting capabilities.
+It is recommended that users select from predefined immunization/injection name options from the dropdown injection/immunization name field. Items in the dropdown are stored as coded/structured data within the system. The system will allow users to enter free text as a historical injection record, however when done so, this data is not structured and limits reporting capabilities.
 
 ### Add Injection
 
