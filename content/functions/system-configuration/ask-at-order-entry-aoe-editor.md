@@ -1,13 +1,13 @@
 ---
 id: '1IHfW0DrfMPy4xX-pNIsYZ4LVV8CNNoBf373Hbo_i__c'
 title: 'Ask at Order Entry AOE Editor'
-date: '2024-05-20T16:52:42.890Z'
-version: 89
-lastAuthor: 'janderson'
+date: '2025-04-07T17:29:25.616Z'
+version: 100
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IHfW0DrfMPy4xX-pNIsYZ4LVV8CNNoBf373Hbo_i__c'
-wikigdrive: '37774c813cb40b3c0329e2e7ebc29deda8058d16'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 ## Overview
 
@@ -29,7 +29,7 @@ The Orders List Editor, found in the Control Panel > Orders > Orders-List Editor
 
 **Code:** The Code is typically used within an interface transmission to clearly identify the order to the receiving Lab/interface engine, etc.
 
-**Billing Code:** CPT or external code used for billing purposes
+**Billing Code:** Billing or external code used for billing purposes
 
 **LOINC Code:**  Logical Observation Identifiers Names and Codes (LOINC) are used primarily for results coming into the system, to match "apples to apples". Enterprise Health's Medical Codify may be used to search for or reference LOINC codes, as well as other online resources.
 
