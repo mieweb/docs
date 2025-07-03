@@ -1,16 +1,16 @@
 ---
 id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
 title: 'Device Interface - MI 7000'
-date: '2020-02-27T21:28:12.911Z'
-version: 28
-lastAuthor: 'aquandt'
+date: '2025-07-03T15:40:54.219Z'
+version: 35
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
-This page provides instructions for retrieving results from the MI 7000 audiometer with {{% system-name %}} ( {{% sys-name %}} ), and lists the fields that the interface retrieves.
+This page provides instructions for retrieving results from the MI 7000 audiometer with the product, and lists the fields that the interface retrieves.
 
 ## Instructions
 
@@ -43,7 +43,7 @@ To retrieve results for multiple patients:
 5. Instruct the audiometer to send the results. A new window opens with the received test.
 6. Verify the expected patients were found and click the Upload button.
     1. If a patient is incorrect or not found, click the pencil icon and choose the correct patient.
-    2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    2. If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
     3. Click the information icon (?) to see all the details of a test.
     4. If no tests should be uploaded, close the new window; nothing is saved.
 
@@ -73,4 +73,4 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices see the [Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
