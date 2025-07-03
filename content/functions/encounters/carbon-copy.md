@@ -1,15 +1,15 @@
 ---
 id: '1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
 title: 'Carbon Copy'
-date: '2025-05-30T14:41:48.122Z'
-version: 109
+date: '2025-07-03T14:28:55.327Z'
+version: 125
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'landingpages/contributing-providers.md'
+  - 'contributing-providers.md'
   - '../system-administration/system-controls/auto-routes.md'
 source: 'https://drive.google.com/open?id=1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 Within an encounter, there is an optional Carbon Copy **CC** encounter section that can be utilized.
 
@@ -41,7 +41,7 @@ Contributing Providers (a separate encounter section) will also be listed in the
 
 NOTE: if you edit or delete any CC entries that are also contributing providers on the encounter, it will reflect that also up in the Contributing Providers separate section of the encounter.
 
-Please see separate guide regarding [Contributing Providers encounter section](landingpages/contributing-providers.md) for more information.
+Please see separate guide regarding [Contributing Providers encounter section](contributing-providers.md) for more information.
 
 ## Add New Provider to System via CC Encounter Section
 
