@@ -1,14 +1,14 @@
 ---
 id: '1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
 title: 'Device Interface - Tremetrics RA500 , RA300, RA800'
-date: '2021-08-31T14:16:27.353Z'
-version: 81
-lastAuthor: 'kkocks'
+date: '2025-07-03T15:48:34.286Z'
+version: 88
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 This page provides instructions for retrieving results from the Tremetrics RA500 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -44,7 +44,7 @@ To retrieve results for multiple patients:
 6. Click the Request All Tests link. A new window opens with all received tests.
 7. Verify the expected patients were found and click the Upload button.
     1. If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-    2. If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    2. If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
     3. Click the information icon (?) to see all the details of a test.
     4. If no tests should be uploaded, close the new window; nothing is saved.
 
@@ -69,4 +69,4 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices see the [Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
