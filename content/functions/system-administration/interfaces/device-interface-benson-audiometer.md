@@ -1,15 +1,15 @@
 ---
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
-date: '2024-10-09T13:03:11.058Z'
-version: 339
-lastAuthor: 'kkocks'
+date: '2025-07-03T15:25:39.266Z'
+version: 363
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
   - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
 This page provides instructions for retrieving results from the Benson software with , and lists the fields that the interface retrieves.
@@ -52,7 +52,7 @@ The following fields are collected in {{% system-name %}} :
 * Calibration Date/Time
 * Test comment
 * User that performed the test
-    * Translations are used to map users from the device to  {{% system-name %}} users. The translations have name of "Device" and category of "tech."
+    * Translations are used to map users from the device to  {{% system-name %}} users. The translations have the name of "Device" and the category of "tech."
 
 ## Installation Help
 
@@ -68,7 +68,7 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 
 ## Related Pages
 
-[Devices List](../../../resources/system-specifications/interface-specifications.md)
+[Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
 
 ### Configuration File
 
