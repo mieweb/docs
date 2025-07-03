@@ -2,7 +2,7 @@
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
 date: '2025-04-07T17:39:15.605Z'
-version: 428
+version: 429
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -37,7 +37,7 @@ links:
   - '../../functions/encounters/encounter-worklists.md'
   - '../../functions/encounters/make-order-feature-encounter-plan-section.md'
   - '../../functions/encounters/encounter-plan-section-medications.md'
-  - '../../functions/encounters/encounters-tab-search-and-list-view.md'
+  - '../../functions/encounters/encounters-tab.md'
   - '../../functions/document-management/documents-and-forms/link-documents-to-encounters.md'
   - '../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - '../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -354,7 +354,7 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Encounters-Worklist-Open Encounters](../../functions/encounters/encounter-worklists.md)
 * [Encounters Plan Section-Make Order Feature](../../functions/encounters/make-order-feature-encounter-plan-section.md)
 * [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.md)
-* [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab-search-and-list-view.md)
+* [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab.md)
 * [Link Documents to Encounters](../../functions/document-management/documents-and-forms/link-documents-to-encounters.md)
 * [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
 * [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
