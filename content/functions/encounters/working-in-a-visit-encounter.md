@@ -1,15 +1,24 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-06-10T15:43:41.100Z'
-version: 483
+date: '2025-07-03T15:07:42.664Z'
+version: 524
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
+  - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - 'tests-and-procedures-section-remove-delete-edit.md'
+  - '../injury-care/adding-restrictions.md'
+  - '../injury-care/viewing-restrictions.md'
+  - '../injury-care/adding-accommodations.md'
+  - '../injury-care/viewing-accommodations.md'
+  - 'carbon-copy.md'
+  - 'clinical-education.md'
+  - 'final-summary-encounter-sections.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 
@@ -131,7 +140,7 @@ The same list of data shows, but expands to show more detail such as dates, reac
 
 ![](../working-in-a-visit-encounter.assets/0e6fa6c1384cceaa543515cb60ddec5d.png)
 
-If you click a section to be the "detailed" view, the system will remember that. If you were to get out of this encounter and back in at some time, it will keep those section(s) on detailed view. If you go into a the dynamic encounter but for a different patient, those same section(s) will be shown as detailed view. It remembers your preference and what you last set that section to be.
+If you click a section to be in "detailed" view, the system will remember that. If you were to get out of this encounter and back in at some time, it will keep those section(s) on detailed view. If you go into a dynamic encounter but for a different patient, those same section(s) will be shown as detailed view. It remembers your preference and what you last set that section to be.
 
 To get back to display as "summary view" simply click the icon labeled "Summary View" in that section.
 
@@ -243,15 +252,15 @@ Past medical history section of dynamic encounters include concluded conditions.
 
 ### Tests & Procedures
 
-See separate help documentation named *Tests and Procedures-Adding,Applying,Completing & Resulting* and *Tests and Procedures-Edit,Delete,Remove*
+See separate help documentation named [Tests & Procedures Section-Applying/Adding, Completing, Resulting](tests-and-procedures-section-applying-adding-completing-resulting.md) and [Tests & Procedures Section-Remove, Delete, Edit](tests-and-procedures-section-remove-delete-edit.md).
 
 ### Assessment (or Impression)
 
-See separate help documentation named *Encounters-Impression Section*
+There are several encounter sections that comprise the Assessment of an encounter.  Please refer to each encounter section's own help guide.
 
 ### Plan
 
-See separate help documentation named *Encounters Plan Section-Meds* and *Encounters Plan Section-Make Order Feature*
+There are several encounter sections that comprise the Plan of an encounter. Please refer to each encounter section's own help guide.
 
 ### Quick Visit Orders in Plan
 
@@ -259,9 +268,13 @@ In the Visit Orders section of a dynamic encounter, you have the ability to show
 
 ![](../working-in-a-visit-encounter.assets/89241a38b26fa2aeb686936b0b36cce0.png)
 
-### Restrictions and Accommodations
+### Restrictions
 
-See separate help documentation regarding Restrictions and Accommodations-Adding and Restrictions and Accommodations-Viewing
+See separate help documentation regarding [Adding Restrictions](../injury-care/adding-restrictions.md) and [Viewing Restrictions](../injury-care/viewing-restrictions.md).
+
+### Accommodations
+
+See separate help documentation regarding [Adding Accommodations](../injury-care/adding-accommodations.md) and [Viewing Accommodations](../injury-care/viewing-accommodations.md).
 
 ### CC
 
@@ -270,6 +283,8 @@ When the Co-Signing Provider is set for a user within My Settings, and that user
 ![](../working-in-a-visit-encounter.assets/1b3bc90be7b6353cc69052aadcc01040.png)
 
 ![](../working-in-a-visit-encounter.assets/8b2ecff6296e623fdb8b17ad1c1dd937.png)
+
+Refer to [Carbon Copy Encounter](carbon-copy.md) Section guide for detailed information on this section.
 
 ### CCDA Settings
 
@@ -284,6 +299,8 @@ The ability to mark CDA Document as Not Restricted or Restricted provides the ab
 The Clinical Education section provides the ability to Generate Clinical Education from your forms library if custom configured to batch forms and allows user to acknowledge clinical education material given to the patient and document what was given.
 
 ![](../working-in-a-visit-encounter.assets/a9e1a540a8651f71d0aaa27e5e6a7e73.png)
+
+Refer to [Clinical Education Encounter Section](clinical-education.md) guide for detailed information on this section.
 
 ### Future Appointments
 
@@ -303,7 +320,7 @@ Any section with a date picker (calendar icon) will expand to open a calendar wh
 
 ![](../working-in-a-visit-encounter.assets/06ad18b89f7aaa745193314a87f37f50.png)
 
-Obviously clicking a date from the calendar will insert the date in the field and close the calendar, but if you opened the date picker and didn't want to use it, you can now simply click your ESC (escape) key on keyboard and it will close the date picker/calendar on the screen. This is easier than trying to position your mouse over the X to close out the date picker.
+Obviously clicking a date from the calendar will insert the date in the field and close the calendar, but if you opened the date picker and didn't want to use it, you can now simply click your ESC (escape) key on the keyboard and it will close the date picker/calendar on the screen. This is easier than trying to position your mouse over the X to close out the date picker.
 
 ### Storing a Template in the System
 
@@ -370,6 +387,8 @@ If observations are deleted, they will also show as deleted in the encounter pro
 At the end of the encounter entry screen you will see a section named *Summary*. This displays a quick final summary of some sections above that were keyed in. It's yet another way to quickly see your summary of this current encounter data but is not editable. This final Summary also displays on the "view" and final stored document.
 
 ![](../working-in-a-visit-encounter.assets/444113140311dc2d001826d33a7fcef5.png)
+
+Please refer to the [Final Summary Encounter Sections](final-summary-encounter-sections.md) guide for more detailed information.
 
 ## Closed Encounters
 
