@@ -1,14 +1,14 @@
 ---
 id: '1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
 title: 'Device Interface - Amplivox CA850'
-date: '2020-03-19T19:02:19.406Z'
-version: 37
-lastAuthor: ''
+date: '2025-07-03T15:10:43.492Z'
+version: 46
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
@@ -31,7 +31,7 @@ To retrieve results for multiple patients:
 8. Click the Upload button
 9. Verify the expected patients were found and click the Upload button.
     a.  If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-    b.  If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    b.  If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
     c.  Click the information icon (?) to see all the details of a test.
     d.  If no tests should be uploaded, close the new window; nothing is saved.
 
@@ -46,7 +46,7 @@ The following fields are collected in EH:
 * Audiometer Serial Number
 * Calibration Date/Time
 * User that performed the test
-    * Translations are used to map users from the device to EH users. The translations have name of "Device" and category of "tech."
+    * Translations are used to map users from the device to EH users. The translations have the name of "Device" and the category of "tech."
 
 ## Installation Help
 
@@ -58,4 +58,4 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-[Devices List](../../../resources/system-specifications/interface-specifications.md)
+[Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
