@@ -14,7 +14,7 @@ links:
   - '../../functions/reports/using-datavis-grids-data-tools.md'
   - '../../functions/reports/appointment-report.md'
   - '../../functions/reports/checkin-reports.md'
-  - '../../functions/reports/conditions-icd-9-report.md'
+  - '../../functions/reports/conditions-report.md'
   - 'https://drive.google.com/open?id=0B5Hsu0mf2-tkS2NLYzZVTzdNdHM'
   - '../../functions/reports/demographics-report.md'
   - '../../functions/reports/dictation-without-transcription-report.md'
@@ -43,7 +43,7 @@ links:
   - '../../functions/reports/to-restrict-report-access.md'
   - '../../functions/reports/panel-definition-report.md'
 source: 'https://drive.google.com/open?id=1HBDLPvHAyvO8K1g2gk8mlzBn76G84bBxUUiFlgbFzbQ'
-wikigdrive: '9b54d57b334ab6e65183ff1f8d720a685ad59e87'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 ## Agenda
 
@@ -109,7 +109,7 @@ Determine if Open Database Connectivity (ODBC) access is necessary. MIE supports
 * [DataVis Grids](../../functions/reports/using-datavis-grids-data-tools.md)
 * [Appointment Report](../../functions/reports/appointment-report.md)
 * [Checkin Report](../../functions/reports/checkin-reports.md)
-* [Conditions-ICD9 Report](../../functions/reports/conditions-icd-9-report.md)
+* [Conditions-ICD9 Report](../../functions/reports/conditions-report.md)
 * [CPOE Report](https://drive.google.com/open?id=0B5Hsu0mf2-tkS2NLYzZVTzdNdHM)
 * [Demographics Report](../../functions/reports/demographics-report.md)
 * [Dictation without Transcription Report](../../functions/reports/dictation-without-transcription-report.md)
