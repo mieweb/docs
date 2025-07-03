@@ -1,14 +1,14 @@
 ---
 id: '1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
 title: 'Device Interface - Welch Allyn CardioPerfect'
-date: '2022-07-27T20:50:14.964Z'
-version: 103
-lastAuthor: 'kkocks'
+date: '2025-07-03T15:54:56.861Z'
+version: 112
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 This page describes the interface between Enterprise Health (EH) and the Welch Allyn EKG and Spirometry Monitoring system known as CardioPerfect.
 
@@ -65,10 +65,6 @@ A list of devices known to work with this interface:
 * See Layout (EKG Search) for details
 * The PFT Tool has the CardioPerfect option installed by default
 
-## Subject Matter Experts
-
-George Jones, Aaron Capriglione
-
 ## Related Pages
 
-For a list of all supported devices see the [Devices List](../../../resources/system-specifications/interface-specifications.md)
+For a list of all supported devices see the [Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
