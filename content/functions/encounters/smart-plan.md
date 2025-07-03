@@ -1,22 +1,22 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-02-25T13:37:02.748Z'
-version: 1155
+date: '2025-07-03T14:47:17.543Z'
+version: 1165
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
-  - 'landingpages/goals.md'
+  - 'goals.md'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
-wikigdrive: '4877557a92bc296ec58d6bfc335c6143133d522b'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
-# Smart Plan Quick Lists
+The Smart Plan is an optional encounter section that is displayed near the top of the Visit Encounter. The Smart Plan is similar to the Symptoms/Diagnosis encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections. This section is ideal for providers who prefer to drive the encounter based on patient conditions.
 
-The Smart Plan is an optional section that is displayed at the top of the Visit Encounter. The Smart Plan is similar to the Assessment, however, it is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections. This section is ideal for providers who prefer to drive the encounter based on patient conditions.
+![](../smart-plan.assets/6e8a8427243180805dd37428272ba5b7.png)
 
 Providers will use the Smart Plan Quick List (right side of the blue vertical bar) to populate the Smart Plan Assessment with conditions and orders for today's visit (left side of the blue vertical bar). Providers can leverage a combination of features, such as pre-configured libraries, pre-populated data based on existing data in the patient chart and/or database, organize conditions, as well as quickly order and perform tests, add procedures, and manage medications from the Smart Plan.
 
@@ -354,7 +354,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 * Goals also display in the Goals encounter section.
 
-For more detailed information, please refer to the [Goals](landingpages/goals.md) guide.
+For more detailed information, please refer to the [Goals](goals.md) guide.
 
 ## RAF Scoring - (risk score)
 
@@ -569,17 +569,15 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 # Goals
 
-* Goals are added from the Goals Quick List
-* Goals will display in black with the heading "Goals".
+Goals are added from the Goals Quick List. Goals will display in black with the heading "Goals". For more detailed information, please see [Goals Encounter Section](goals.md) guide.
 
 ![](../smart-plan.assets/51c887b0e23bcd327c7102465a51b400.png)
 
 ## Archive & Close Encounters
 
-* The Smart Plan section itself does not display by default on the encounter view.
-* Actions defined in the Smart Plan will display under the Assessment and Plan sections of the encounter view.
-* With customization, the Smart Plan section can display on the encounter view, just as it does in the open encounter.
-* With customization, the Assessment and Plan encounter view can be combined to display as one section rather than two.
+The Smart Plan section itself does not display by default on the encounter view/stored document.  Actions defined in the Smart Plan will instead display under the Assessment & Plan sections of the encounter view/stored document.  With customization, the Smart Plan section can display on the encounter view, just as it does in the open encounter.  With customization, the Assessment and Plan encounter view can be combined to display as one section rather than two.
+
+![](../smart-plan.assets/4bd720550e930babfad6de6850a302fe.png)
 
 # My Settings
 

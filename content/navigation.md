@@ -918,7 +918,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Encounter Top Section](functions/encounters/encounter.md)
         * [Encounter Section](functions/encounters/encounter-section.md)
         * [Encounter Owners](functions/encounters/encounter-owners.md)
-        * [Smart Plan Encounter Section](functions/encounters/smart-plan.md#smart-plan-quick-lists)
+        * [Smart Plan Encounter Section](functions/encounters/smart-plan.md#_ce65n7x31c0m)
         * [Contributing Providers Encounter Section](functions/encounters/contributing-providers.md)
         * [Chief Complaint Encounter Section](functions/encounters/chief-complaint.md)
         * [HPI Encounter Section](functions/encounters/history-of-present-illness.md)
