@@ -7,9 +7,9 @@ lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.eclinicalworks.com/'
-  - '../../../resources/system-specifications/interface-specifications.md'
+  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: '5455bbab25cad2721229bfc1e0cf5316add944a5'
+wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
 **E-ClinicalWorks**
 
@@ -263,4 +263,4 @@ Dennis Jah Project Manager –Integration eClinicalWorks 555 North Point Center 
 
 ## Related Pages
 
-[Interface Specifications](../../../resources/system-specifications/interface-specifications.md)
+[Interface Specifications](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
