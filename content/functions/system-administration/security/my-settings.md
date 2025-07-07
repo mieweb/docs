@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-03-14T15:19:03.401Z'
-version: 741
-lastAuthor: 'dvilamaa'
+date: '2025-07-07T20:05:10.394Z'
+version: 758
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
@@ -137,6 +137,10 @@ When looking at preference choices available in the drop-down:
     * In the presenting meds section, if you dictated directly into that, or used the Flex Visit encounter dictation method, the "sparkles" icon shows there also, and if you click that, it shows a popup with possible actions based on what the AI interpreted the dictation for that section to mean.
 * Fax Manager Datavis: Allows the Fax Manager to be viewed in DataVis output.
 * Detail Patient Search Datavis: If enabled as your preference, when using Detailed Search within the Patient Search of E-Chart, the Search fields will display cosmetically different and your search output will be in a datavis format, where one can filter, sort, pivot, etc as needed.  Utilizing a datavis method for Detailed patient chart search will also allow columns to be added to the output as needed.
+* Use DataVis in MAR/Inject Tab: By default, the setting is set to No" which displays the summary tab in the legacy list view on the MAR/Injections tab. If set to Yes, the Medication Administration and Immunizations lists update to a DataVis view.
+* Use DataVis in Tasklist: By default, the preference is set to No which displays the Your Task List in the legacy list view within the Tasklist.  If set to Yes, the ‘Your Task List' tab of tasks will be listed in a datavis and can be worked on in a datavis format.
+* Use Datavis in Meds/Agy Tab: Choose Yes or No.  If set to No, the Medications/Allergies stand alone chart tab  displays the legacy version of the meds/allergies listings.  If set to Yes, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
+* Use DataVis in E-Sign: By default, the preference is set to No which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If set to Yes, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
 
 ### E-Chart
 
@@ -211,8 +215,6 @@ When looking at preference choices available in the drop-down:
 * Flowsheet "Most Recent" Source: Some encounter sections (such as the Physical Exam encounter section) offer a "Set all to most recent" icon/function.  When that icon/function is selected to be used, the contents will populate into the flowsheet based on what the provider's preference is set for this.
     * Any previous result for the observation: will populate the last most recent value (content) ever entered for that observation, no matter where it was entered (encounter, chart tab, import, etc) for that specific chart.
     * Only results from encounters w/ same provider: will do the same as the above option, but limited to only observations that were entered on encounters with the same provider as the current encounter using this icon/function.
-* Use DataVis in MAR/Inject Tab: By default, the setting is set to No" which displays the summary tab in the legacy list view on the MAR/Injections tab. If set to Yes, the Medication Administration and Immunizations lists update to a DataVis view.
-* Use DataVis in Tasklist: By default, the preference is set to No which displays the Your Task List in the legacy list view within the Tasklist.  If set to Yes, the ‘Your Task List' tab of tasks will be listed in a datavis and can be worked on in a datavis format.
 
 #### Meds/Allergies
 
@@ -237,7 +239,6 @@ When looking at preference choices available in the drop-down:
 * Show Only Best Formulary: Default is no, but if set to Yes, then if you have the SureScripts Advanced functionality, you would only see the one best formulary for the patients when prescribing.
 * Cross-Browser EPCS: Recommend this to be set to ‘Yes' utilizing EPCS.  Setting this to Yes, and after downloading 2 apps needed to make it work (from the Plugins page), users can perform EPCS using a browser other than Internet Explorer (IE).
 * Unsent Scripts in Alert Bar: This alert (found in the alerts toolbar) displays a count of prescriptions that have been prescribed in the system, with that logged in user's name as the Prescriber, that have not been printed, faxed, or transmitted.  The count will display ALL unsent prescriptions, regardless of medication schedule, for the logged in Prescriber (user) where those prescriptions are unsent.
-* Use Datavis in Meds/Agy Tab: Choose Yes or No.  If set to No, the Medications/Allergies stand alone chart tab  displays the legacy version of the meds/allergies listings.  If set to Yes, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
 * Use Quick Prescribe: Choose Yes or No.  If set to No, the Prescribe portion of the Medications/Allergies stand alone chart tab will use the legacy entry method. If set to Yes, the Prescribe portion of the Medications/Allergies stand alone chart tab will be an entry screen that mimics the Medication Orders quick list prescribe function within an encounter exam.
 
 #### Conditions
@@ -258,7 +259,6 @@ When looking at preference choices available in the drop-down:
 
 * Number Documents in Multi-Sign: Choose in increments of 10. The number you choose here will set the number of documents that pull up at one time when you click Multi-Review in your E-Sign pending queue.
 * Notify me on E-Sign Addition:  If this is set to YES, it will send the user an email when someone assigns an E-Sign request to them. The user's full email address must be put in their username access control in the email field for this to function.
-* Use DataVis in E-Sign: By default, the preference is set to No which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If set to Yes, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
 
 #### Dashboard (Summary Tab)
 
