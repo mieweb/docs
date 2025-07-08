@@ -1,9 +1,9 @@
 ---
 id: '1O4s5YPHkNa_EGcmZ9rlsWai2yIrqQnQrEnQHLnTigTk'
 title: 'Injection Tab'
-date: '2024-10-22T19:01:38.342Z'
-version: 313
-lastAuthor: 'auhrick'
+date: '2025-07-08T13:34:39.635Z'
+version: 321
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
@@ -244,13 +244,17 @@ Here you have a different editor style to configure the injection system setting
 
 ## MAR/Injections Datavis
 
-A user preference (*My Setting*), "Use Datavis in MAR/Inject Tab" is available to clients on 202409 and newer. As clients upgrade, this setting will default to the value of "No", which will leave users on the current/ legacy view. Users may change their setting to "Yes" to change the *Medication* *Administration* and *Immunization* list edits to datavis.
+A user preference (*My Setting*), "Use Datavis in MAR/Inject Tab" is available to clients on 202409 and newer. As clients upgrade, this setting will default to the value of "Disabled", which will leave users on the current/ legacy view. Users may change their setting to "Enabled" to change the *Medication* *Administration* and *Immunization* list edits to datavis.
 
-![](../injection-tab.assets/03a8d0ae8676c87469ac08a7f0e120e2.png)
+![](../injection-tab.assets/a5ce1344195304c6ecc7ba114e2ee563.png)
 
-Users may click on the injection name to edit the medication and use the datavis filters to sort and/or make custom perspectives.
+Users may click on the injection name to edit the medication and use the datavis filters to sort and/or make custom perspectives. If they wish to return to the Legacy View, they can click on the Legacy View button. This will return them to the standard list view.
 
-![](../injection-tab.assets/af16234723b57c2c75ea9ac8ff452a78.png)
+![](../injection-tab.assets/a34741ee6aa18b7c66b54c1b22c756e7.png)
+
+To return to the DataVis View, click the DataVis View button.
+
+![](../injection-tab.assets/66c324deda6431ca77a8ada5853816a6.png)
 
 ## Learning Management System
 
