@@ -1,8 +1,8 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2024-07-18T18:14:38.236Z'
-version: 175
+date: '2025-07-08T15:06:38.179Z'
+version: 184
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -227,11 +227,15 @@ Other categories found below the edit section are:
 
 A new My Settings user preference, Use Datavis in Meds/Allergies Chart Tab**_,_** is available in the 202409 release. This setting allows the user to change from the legacy Meds/Allergies chart tab view/lists to the new view, which is in a new datavis format.
 
-![](../allergies-medications-tab-summary-view.assets/70f47b204663e56d82d1c27b889f5dec.png)
+![](../allergies-medications-tab-summary-view.assets/e10d5c6a3b576a54fd85e4370b37a6ab.png)
 
-When the Use Datavis in Meds/Allergies Chart Tab setting is set to "Yes", the Allergies/Medications Summary is updated to display a DataVis under the Allergies and Intolerance, Refills Due and Medication History sections.
+When the Use Datavis in Meds/Allergies Chart Tab setting is set to "Enabled", the Allergies/Medications Summary is updated to display a DataVis under the Allergies and Intolerance, Refills Due and Medication History sections. If the user would like to switch back to the list view, they can click on the Legacy View button.
 
-![](../allergies-medications-tab-summary-view.assets/9afead7d7af02a8bfbf596b0f006a9a5.png)
+![](../allergies-medications-tab-summary-view.assets/cde0f370254dd125954641a45e3be40e.png)
+
+To return to the DataVis view, click on the DataVis View button.
+
+![](../allergies-medications-tab-summary-view.assets/9a949c5443e6d7fa8757ca63fbc5a5d4.png)
 
 ## Learning Management System
 
