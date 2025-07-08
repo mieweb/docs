@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2025-05-20T14:59:38.591Z'
-version: 368
-lastAuthor: 'dmartinez'
+date: '2025-07-08T14:14:14.101Z'
+version: 380
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -262,9 +262,15 @@ Permitted users can add and create a new fast task template into the system here
 
 A new user preference (*My Setting*) has been added which will allow users to switch from the legacy Task List view to the Datavis format. The task list has been converted into 4 datavis: Reminders, Overdue Tasks, User Tasks, Realm Tasks. Select items in the datavis to display action options at the bottom. The Realm datavis will compile all departmental tasks into one list and sort them by department. Corporate demographic filters display at the top of the Datavis for Enterprise Health customers only. However all users, Enterprise Health and WebChart, have the the option to sort and filter on each individual datavis, as well as make their own perspectives. These changes are available in a BETA testing mode for customers on RC202309.
 
-![](../task-list.assets/fd18ec9481901bfd1736793580d2f902.png)
+![](../task-list.assets/14c1837675ba83576e431e3c85bf8009.png)
 
-![](../task-list.assets/059a1fa748202054fd0b4c4e7aa9b3eb.png)
+The user can return to the Legacy View, which is a list view, by clicking on the Legacy View button.
+
+![](../task-list.assets/6967330bc0dc8d9f37beda30a42ec553.png)
+
+To return to the DataVis View, click on the DataVis View button.
+
+![](../task-list.assets/137e5bfb78cfb8ed1ede943d3828e41f.png)
 
 ### Grab Task
 
