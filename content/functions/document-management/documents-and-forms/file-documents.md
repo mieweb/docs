@@ -1,9 +1,9 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-04-24T14:55:03.289Z'
-version: 98
-lastAuthor: 'auhrick'
+date: '2025-07-08T17:50:13.308Z'
+version: 130
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
@@ -19,61 +19,49 @@ Though users may upload and store any type of file into a chart,  {{% system-na
 
 ## Add a File to a Chart
 
-To begin adding a file to a chart, navigate into the specific chart and click the **Add Document** link accessible throughout the chart.
+To begin adding a file to a chart, navigate into the specific chart and click the **Add Document** link or from the lightning bolt icon accessible throughout the chart.
 
-Once the document/form library loads, select the **File** link, to filter the options. This will load an *Add Document Properties* screen, where users can browse for a file and upload it into the chart.
+![](../file-documents.assets/f4ff0d2ba8c74dfd5da941bb4de84180.png)
 
-{{% system-name %}} systems on RC202403 or older, the File Upload will look like this:
+Within the *Add Documents* screen, simply filter by File.  This will display the File Upload screen, where you can upload a file to be inserted into the chart.
 
-![](../file-documents.assets/a68c9fbb18e17cc2071f8935c8c25d96.png)
+![](../file-documents.assets/76e9434a10b18e1f85d5c7189508109a.png)
 
-{{% system-name %}} systems on RC202403 or newer, the File Upload will look like this:
+Within the *Add Document Properties* screen, users can signify the document details within the fields and then browse for a file to upload into the chart.
 
 ![](../file-documents.assets/ff49f7cbeba2067055e8c144f14d6cad.png)
 
-Once the *Add Document Properties* screen opens, begin filling in the necessary fields:
+*Add Document Properties* fields:
 
-**Authored By**: Given the proper security permission, select for whom this file document is authored by or click the **Me** button if the logged-in user is the *author*. The logged-in user uploading a file document into the chart is considered the Creator and will be logged as such in the document properties. Authored By is who authored the specific document being uploaded.
+* <strong>Document Type:</strong> Select the document type being uploaded and stored in the chart.  Note: if left blank, the file will be uploaded without a document type noted and will not assume any specific document type.
+* <strong>Authored By</strong>: Given the proper security permission, select for whom this file document is authored by or click the <strong>Me</strong> button if the logged-in user is the <em>author</em>. The logged-in user uploading a file document into the chart is considered the Creator and will be logged as such in the document properties. Authored By is who authored the specific document being uploaded. Note: if left blank, the file will be uploaded without an author noted and will not assume any specific author.
+    * Users must have <strong>Transcribe for Others</strong> security access to author documents on behalf of others. If this setting is not enabled for the user, this field will not be an option.
+* <strong>Date of Service:</strong> Provide the date of service for the document. Note: if left blank, the file will be uploaded without a date of service noted and will not assume any specific date.
+* <strong>Service Location:</strong> This drop-down can be used to choose the service location of the document. Note: if left blank, the file will be uploaded without a service location noted and will not assume any specific location.
+* <strong>Subject:</strong> Use this free-text field to provide a subject for the file document. The subject displays on List View summary pages where documents are displayed and can be searched using the Document Search report. Note: if left blank, the file will be uploaded without any subject noted.
+* <strong>Encounter:</strong>  {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded file document to the specified encounter. If the document does not need to be linked to an encounter, simply keep the field blank.
+    * For the Encounter field, a <strong>Search</strong> button is provided to allow for searching specific encounters to obtain the ID for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
+    * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
+    * Click the <em>Search Within [#] days</em> hyperlink (at the bottom of the pop-up screen) to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-{{% note %}}
-Users must have **Transcribe for Others** security access to author documents on behalf of others. If this setting is not enabled for the user, this field will not be an option.
-{{% /note %}}
-
-**Document Type:** Select the document type being uploaded and stored in the patient chart.
-
-**Storage Type:** This option only displays for {{% system-name %}} systems on RC202403 or older. This dropdown allows users to specify the storage type of the file being uploaded. If the wrong storage type is selected, the document will not display correctly, and an error may present when the **Add Document** button is clicked. For example, an email is stored as an Email storage type, or an XML file is a CCD or CCR Document, etc. For help determining and selecting a specific storage type, do not hesitate to contact Helpdesk.
-
-![](../file-documents.assets/0ec7505ae4472d4093a7966af322eb07.png)
-
-**Date of Service:** Provide the date of service for the document.
-
-**Service Location:** This drop-down can be used to choose the service location of the document.
-
-**Subject:** Use this free-text field to provide a subject for the file document. The subject displays on List View summary pages where documents are displayed and can be searched using the Document Search report.
-
-**Encounter:**  {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded file document to the specified encounter. If the document does not need to be linked to an encounter, simply keep the field blank.
-
-* For the Encounter field, a <strong>Search</strong> button is provided to allow for searching specific encounters to obtain the ID for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
-* Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
-
-![](../file-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+![](../file-documents.assets/9cf368609c37462e90d929065466525e.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the **Encounter** field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and the details from the encounter field.
 {{% /info %}}
 
-**Link to Orders:** Like linking to encounters, file documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders to link the file document to, and once the file is uploaded, the order will automatically be marked as Complete status.
+* <strong>Link Order:</strong> Like linking to encounters, file documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the <em>Link to Orders</em> field. Select any of the orders to link the file document to, and once the file is uploaded, the order will automatically be marked as Complete status.
+* <strong>Case:</strong> Use this field to link a file document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the <em>Case</em> field.
+* <strong>CC</strong> (<strong>Physicians</strong>)<strong>:</strong> Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md).
+* <strong>Choose Files:</strong> Users may drop and drag files to the ‘Drop files here' area/box or use the ‘Choose Files' button to browse on your device to select the specific file document for upload. This version of the File Upload feature allows users to upload several different documents/files at once and can change the field information per file/document needing to be uploaded.
 
-**Case:** Use this field to link a file document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
+Once a file(s) have been chosen (via drag & drop or browse & select), the file(s) will display at the right side area of the File Upload screen.
 
-**CC** (**Physicians**)**:** Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md).
+![](../file-documents.assets/b1524c7d1faf72d54195dff7a3a3c780.png)
 
-**File:** This option only displays for {{% system-name %}} systems on RC202403 or older. The *Browse/Choose File* button allows users to browse to their local hard drive to select the file document for upload.
+Users may then select the *Upload Document* button to upload all document(s)/file(s) into the chart at once.
 
-After the file is selected, click the **Add Document** button. The page will refresh and display a confirmation message that the document was uploaded successfully, along with visibility to the uploaded document. This version of the File Upload allows uploading one document at a time.
-
-**Choose Files:** This option only displays for {{% system-name %}} systems on RC202403 or newer. Users may drop and drag files to the *Drop files here* box or select the *Choose Files* button to browse to the local hard drive to select the file document for upload. This version of the File Upload feature allows users to upload several different documents at once. Once a file(s) has been selected, the file(s) will display in the lower side corner of the File Upload screen. Users may then select the *Upload Document* button to upload all document(s) at once.
+![](../file-documents.assets/5b4edc50aaa5c22a3e4991cd6d696174.png)
 
 ## Learning Management System
 
