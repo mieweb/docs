@@ -155,7 +155,7 @@ links:
   - 'functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/images.md'
-  - 'functions/encounters/encounters-impression-section.md'
+  - 'functions/encounters/symptoms-diagnosis-encounter-section.md'
   - 'functions/encounters/warnings-and-guidelines-encounter-section.md'
   - 'functions/encounters/encounters-open-order-request-section.md'
   - 'functions/encounters/plan-narrative.md'
@@ -942,7 +942,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Tests & Procedures Encounter Section - Applying/Adding, Completing, Resulting](functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
         * [Tests & Procedures Encounter Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
         * [Images Encounter Section](functions/encounters/images.md)
-        * [Symptoms/Diagnosis Encounter Section](functions/encounters/encounters-impression-section.md)
+        * [Symptoms/Diagnosis Encounter Section](functions/encounters/symptoms-diagnosis-encounter-section.md)
         * [Warnings and Alerts Encounter Section](functions/encounters/warnings-and-guidelines-encounter-section.md)
         * [Open Order Request Encounters Section](functions/encounters/encounters-open-order-request-section.md)
         * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
