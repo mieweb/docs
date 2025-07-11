@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-07-07T20:05:10.394Z'
-version: 758
+date: '2025-07-11T18:03:41.438Z'
+version: 777
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -137,10 +137,13 @@ When looking at preference choices available in the drop-down:
     * In the presenting meds section, if you dictated directly into that, or used the Flex Visit encounter dictation method, the "sparkles" icon shows there also, and if you click that, it shows a popup with possible actions based on what the AI interpreted the dictation for that section to mean.
 * Fax Manager Datavis: Allows the Fax Manager to be viewed in DataVis output.
 * Detail Patient Search Datavis: If enabled as your preference, when using Detailed Search within the Patient Search of E-Chart, the Search fields will display cosmetically different and your search output will be in a datavis format, where one can filter, sort, pivot, etc as needed.  Utilizing a datavis method for Detailed patient chart search will also allow columns to be added to the output as needed.
-* Use DataVis in MAR/Inject Tab: By default, the setting is set to No" which displays the summary tab in the legacy list view on the MAR/Injections tab. If set to Yes, the Medication Administration and Immunizations lists update to a DataVis view.
-* Use DataVis in Tasklist: By default, the preference is set to No which displays the Your Task List in the legacy list view within the Tasklist.  If set to Yes, the ‘Your Task List' tab of tasks will be listed in a datavis and can be worked on in a datavis format.
-* Use Datavis in Meds/Agy Tab: Choose Yes or No.  If set to No, the Medications/Allergies stand alone chart tab  displays the legacy version of the meds/allergies listings.  If set to Yes, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
-* Use DataVis in E-Sign: By default, the preference is set to No which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If set to Yes, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
+* WebScan AI: This feature is currently in development. When development is completed and if enabled, a button will display when indexing that when pressed will send the image to the AI engine which will read the fields.
+* Guided Schedules: This feature was formally known as Guided Templates and viewable in the Scheduling module. It is currently in the redesign/development queue. Until all updates are complete, the feature has been removed from view in the Scheduling module. The Guided Schedules feature is designed to help users more easily create and manage schedules and can be enabled by users wishing to test progress or changes within the application prior to its official re-release.
+* Use DataVis in MAR/Inject Tab: By default, the setting is set to Disabled which displays the summary tab in the legacy list view on the MAR/Injections tab. If Enabled, the Medication Administration and Immunizations lists update to a DataVis view.
+* Use DataVis in Tasklist: By default, the preference is set to Disabled which displays the ‘Your Task List' in the legacy list view within the Tasklist. If set to Enabled, the ‘Your Task List' tab of tasks will be listed in a datavis and can be worked on in a datavis format.
+* Use Datavis in Meds/Agy: If set to Disabled, the Medications/Allergies stand alone chart tab displays the legacy version of the meds/allergies listings. If Enabled, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
+* Use DataVis in E-Sign: By default, the preference is set to Disabled which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If Enabled, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
+* Use Legacy Report Page: By default, the preference is set to Disabled which displays the new report page. If Enabled, the legacy report page will be displayed instead of the new report page.
 
 ### E-Chart
 
