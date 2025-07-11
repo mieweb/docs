@@ -172,6 +172,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Visit Orders](functions/encounters/visit-orders.md)
          * [Visual Exam](functions/encounters/visual-exam.md)
          * [Vitals](functions/encounters/vitals.md)
+         * [Warnings and Guidelines Encounter Section](functions/encounters/warnings-and-guidelines-encounter-section.md)
          * [Work-Related Exams](functions/encounters/work-related-exams.md)
          * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
          * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
