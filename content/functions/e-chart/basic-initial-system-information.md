@@ -1,9 +1,9 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2024-09-05T19:23:17.888Z'
-version: 217
-lastAuthor: 'anichols'
+date: '2025-07-15T16:40:35.399Z'
+version: 227
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
@@ -102,6 +102,20 @@ To save any changes to the My Settings screen,click on the **Submit Settings** b
 Once the changes have been saved, the user will receive a message to indicate that the setting updates were successful.
 
 ![](../basic-initial-system-information.assets/be3353ba04cfa6eb9d9462af8fb9658c.png)
+
+### Online Help
+
+The Question Mark help bubble is located in the upper right corner on most screens within the application. Click the help bubble to search for a feature or functionality or watch online help videos.
+
+![](../basic-initial-system-information.assets/6b0834a8cc85d0eb9f09cfd544b16da9.png)
+
+![](../basic-initial-system-information.assets/ec59a403630c809fa2c4aa830755dda5.png)
+
+In RC202509 and new, targeted help bubbles have also been added within the Patient Summary tab and Encounter sections to provide users with more detailed, section-specific guidance.
+
+![](../basic-initial-system-information.assets/6e45d21da4c1ccc86185c2272e476fab.png)
+
+![](../basic-initial-system-information.assets/a056fed4ea65348913cd7179b8e60977.png)
 
 ### Logging Out
 
