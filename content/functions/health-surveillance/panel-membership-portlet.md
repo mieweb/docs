@@ -1,9 +1,9 @@
 ---
 id: '1ciYNrQdDiP0yQ9oC8t_LQ3zLCsydAEMRKODVSFdHfzQ'
 title: 'Panel Membership Portlet'
-date: '2025-05-14T19:24:44.406Z'
-version: 116
-lastAuthor: 'anichols'
+date: '2025-07-15T22:01:26.984Z'
+version: 125
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
@@ -25,7 +25,7 @@ From within the Summary dashboard chart tab, there is a portlet available for di
 
 Any current health surveillance panel memberships (for the chart) are listed in **bold** in a bullet point.
 
-The overall Panel Due Date is within the parenthesis next to the panel membership name.
+The overall Panel Due Date is within the parenthesis next to the panel membership name.  If a panel is listed without a due date, it signifies current membership but an unset due date.
 
 ![](../panel-membership-portlet.assets/d98718694510b3bcbadcf533497e0d78.png)
 
