@@ -1,8 +1,8 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-07-08T17:50:13.308Z'
-version: 130
+date: '2025-07-15T16:30:03.169Z'
+version: 141
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -33,10 +33,10 @@ Within the *Add Document Properties* screen, users can signify the document de
 
 *Add Document Properties* fields:
 
-* <strong>Document Type:</strong> Select the document type being uploaded and stored in the chart.  Note: if left blank, the file will be uploaded without a document type noted and will not assume any specific document type.
-* <strong>Authored By</strong>: Given the proper security permission, select for whom this file document is authored by or click the <strong>Me</strong> button if the logged-in user is the <em>author</em>. The logged-in user uploading a file document into the chart is considered the Creator and will be logged as such in the document properties. Authored By is who authored the specific document being uploaded. Note: if left blank, the file will be uploaded without an author noted and will not assume any specific author.
+* <strong>Document Type:</strong> This is a required field. Select the document type being uploaded and stored in the chart.
+* <strong>Authored By</strong>: This is a required field. Given the proper security permission, select for whom this file document is authored by or click the <strong>Me</strong> button if the logged-in user is the <em>author</em>. The logged-in user uploading a file document into the chart is considered the Creator and will be logged as such in the document properties. Authored By is who authored the specific document being uploaded.
     * Users must have <strong>Transcribe for Others</strong> security access to author documents on behalf of others. If this setting is not enabled for the user, this field will not be an option.
-* <strong>Date of Service:</strong> Provide the date of service for the document. Note: if left blank, the file will be uploaded without a date of service noted and will not assume any specific date.
+* <strong>Date of Service:</strong> This is a required field. Provide the date of service for the document.
 * <strong>Service Location:</strong> This drop-down can be used to choose the service location of the document. Note: if left blank, the file will be uploaded without a service location noted and will not assume any specific location.
 * <strong>Subject:</strong> Use this free-text field to provide a subject for the file document. The subject displays on List View summary pages where documents are displayed and can be searched using the Document Search report. Note: if left blank, the file will be uploaded without any subject noted.
 * <strong>Encounter:</strong>  {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded file document to the specified encounter. If the document does not need to be linked to an encounter, simply keep the field blank.
@@ -58,6 +58,10 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 Once a file(s) have been chosen (via drag & drop or browse & select), the file(s) will display at the right side area of the File Upload screen.
 
 ![](../file-documents.assets/b1524c7d1faf72d54195dff7a3a3c780.png)
+
+However, if any of the 3 required document property fields are blank (document type, or author, or service date), a popup warning window will appear to set those when trying to drag/drop or browse to upload the file.
+
+![](../file-documents.assets/841379bf4f1beee45966f745cb6470cd.png)
 
 Users may then select the *Upload Document* button to upload all document(s)/file(s) into the chart at once.
 
