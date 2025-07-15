@@ -1,15 +1,15 @@
 ---
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
-date: '2024-11-04T22:42:34.821Z'
-version: 124
-lastAuthor: 'anichols'
+date: '2025-07-15T16:22:41.378Z'
+version: 130
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
-There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App** and the **MIE SSL App**.
+There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App, MIE Device App 2** and the **MIE SSL App**.
 
 1. Go to the <strong>Control Panel</strong> and navigate to {{% syslink "Plugins" "f=admin&s=plugins" %}} .
 
@@ -20,9 +20,9 @@ There are required applications that may be needed for some programs, as well as
 3. The miesslappsetup.exe will download and be used to install the application. Click the downloaded file, and follow the prompts.
 
     ![](../installing-mie-device-app.assets/91da4da5c6ea02ef4c69969acdf4c669.png)
-4. After installing the MIE SSL App, click the <strong>Download MIE Device App</strong> in the upper-right corner of the page.
+4. After installing the MIE SSL App, click the <strong>Download MIE Device App or MIE Device App 2</strong> in the upper-right corner of the page.
 
-    ![](../installing-mie-device-app.assets/988cfed79179354ade0a390036734716.png)
+    ![](../installing-mie-device-app.assets/633abec15d0ece219fde9fa0957759fd.png)
 5. The miedeviceappsetup.exe will download and be used to install the application. Click the downloaded file, and follow the prompts.
 
     ![](../installing-mie-device-app.assets/f4cc68b416d7ca7cbbd5d20ac66bd17b.png)
