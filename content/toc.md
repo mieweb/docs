@@ -327,7 +327,6 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Patient Registration Tab - Manual Patient Entry](functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
       * Portal Management
          * [Applicant Portal](functions/portal-management/applicant-portal.md)
-         * [Employer Portal Setup](functions/portal-management/employer-portal-setup.md)
          * [Employer/Employee Second Portal Setup](functions/portal-management/employer-employee-second-portal-setup.md)
          * [Kiosk](functions/portal-management/kiosk.md)
          * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
@@ -340,6 +339,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Portal Portlet](functions/portal-management/portal-portlet.md)
          * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
          * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
+         * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
       * Quality of Care
          * Measures
             * Improvement Activities Measures

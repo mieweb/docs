@@ -113,7 +113,7 @@ links:
   - 'functions/portal-management.md'
   - 'functions/portal-management/applicant-portal.md'
   - 'functions/portal-management/employer-employee-second-portal-setup.md'
-  - 'functions/portal-management/employer-portal-setup.md'
+  - 'functions/portal-management/supervisor-portal-setup.md'
   - 'functions/portal-management/kiosk.md'
   - 'functions/portal-management/linking-users-for-portal-access.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
@@ -901,7 +901,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
     * [Portal Management](functions/portal-management.md)
         * [Applicant Portal](functions/portal-management/applicant-portal.md)
         * [Employer/Employee Second Portal Setup](functions/portal-management/employer-employee-second-portal-setup.md)
-        * [Employer Portal Setup](functions/portal-management/employer-portal-setup.md)
+        * [Employer Portal Setup](functions/portal-management/supervisor-portal-setup.md)
         * [Kiosk](functions/portal-management/kiosk.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
