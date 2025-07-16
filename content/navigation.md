@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-16T12:48:04.131Z'
-version: 1617
+date: '2025-07-16T13:46:22.231Z'
+version: 1624
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -901,7 +901,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
     * [Portal Management](functions/portal-management.md)
         * [Applicant Portal](functions/portal-management/applicant-portal.md)
         * [Employer/Employee Second Portal Setup](functions/portal-management/employer-employee-second-portal-setup.md)
-        * [Employer Portal Setup](functions/portal-management/supervisor-portal-setup.md)
+        * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
         * [Kiosk](functions/portal-management/kiosk.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
