@@ -1,9 +1,9 @@
 ---
 id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
 title: 'Using DataVis Grids - Data Tools'
-date: '2025-04-15T15:18:49.187Z'
-version: 258
-lastAuthor: 'auhrick'
+date: '2025-07-17T14:30:45.295Z'
+version: 307
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
@@ -16,7 +16,7 @@ The actual grid you use may differ slightly in appearance from the examples belo
 
 The grid starts with "plain output" which shows the raw data. This is useful for examining all the details, and allows you to sort and filter.
 
-![](../using-datavis-grids-data-tools.assets/05c43f905aecde83975b4bd12adc7d92.png)
+![](../using-datavis-grids-data-tools.assets/6dfa4c1b9854c7972d00445722bd1e3b.png)
 
 *initial view of the grid*
 
@@ -26,13 +26,12 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 4. Click the double-arrow icon to show a menu that allows sorting the data.
 5. Click the filter icon to add a filter for the column.
 6. The <strong>view toolbar section</strong> — use the back/forward arrows to navigate view history, the dropdown to select a view, and the undo button to reset all views.
-7. The <strong>limit toolbar section</strong> — initially, only the first 500 rows are shown. More will be shown as you scroll down; the checkbox can be used to turn that behavior on/off. The "Show All Rows" button will immediately show all rows, without having to scroll down repeatedly.
 
-![](../using-datavis-grids-data-tools.assets/9b7ec4290cb1e8a4ee5cc6eafa8bb7ee.png)
+![](../using-datavis-grids-data-tools.assets/12612183705c72c94adc89044628f600.png)
 
 *after clicking the gear icon to show the grid controls*
 
-1. The <strong>filter control</strong> — here we have filtered by Order ID. To add more filters, select the column name from the dropdown and click the "+" button, or drag the column header into the control, or click the filter icon in the column header. Use the "–" button next to each filter to remove it.
+1. The <strong>filter control</strong> — here we have filtered by Appt ID. To add more filters, select the column name from the dropdown and click the "+" button, or drag the column header into the control, or click the filter icon in the column header. Use the "–" button next to each filter to remove it.
 2. The <strong>group control</strong> — allows you to group the data by the value of certain columns. To group by a column, select the column name from the dropdown and click the "+" button, or drag the column header into the control.
 
 ### Other Features
@@ -42,23 +41,31 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Group Output
 
-![](../using-datavis-grids-data-tools.assets/0213863c2425a3b6cda34eb0ff097810.png)
+![](../using-datavis-grids-data-tools.assets/e8a94e6ad248d2edbf69933bed63e731.png)
 
 *after grouping by Product*
 
 1. Click the "+" or "–" button to expand/collapse the rows that belong to that group.
 2. The <strong>group mode toolbar section</strong> — "summary" mode shows only the group and the result of the aggregate function. "Detail" mode shows all the rows that go into each group.
 
+![](../using-datavis-grids-data-tools.assets/db83a3a1eadc53d2a6739bb17f5d93b0.png)
+
+3. With the "Detail" radio button selected, when the "<strong>Expand All Groups</strong>" button is also selected the grouping of each chart now defaults in an expanded view to display each line item of data.
+
+![](../using-datavis-grids-data-tools.assets/257871816e0287d2e4068ea6fe086b86.png)
+
+4. With the "Summary" radio button selected, the "Total Row" button can be selected to display a total of the data
+
 ## Pivot Output
 
-![](../using-datavis-grids-data-tools.assets/50e1c664967399bbc1836dda8d3f7ff6.png)
+![](../using-datavis-grids-data-tools.assets/9b4fbd8264ac7055199f69d00f20b4b0.png)
 
-*after adding Category to the group, and pivoting by Country*
+*after adding Resource to the group, and pivoting by Location*
 
-1. The <strong>filter control</strong> — here we have added a filter for Country. To add more filters, select the column name from the dropdown and click the "+" button.
-2. The <strong>group control</strong> — here we're grouping first by Category, then by Product. You can drag & drop these fields to reorder them. To add more columns to the grouping, select the column name from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
-3. The <strong>pivot control</strong> — we are pivoting by Country in this example. Like the group control, these fields can be reordered; to pivot by additional columns, select them from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
-4. The <strong>aggregate control</strong> — in this example, we are calculating the count (number of matching rows) and the sum of the Amount column. Some aggregate functions operate on fields (e.g. sum), whereas others do not (e.g. count). Like the other controls, to add a new aggregate function, select it from the dropdown and click the "+" button. To remove an aggregate function, click the "–" button next to the function name.
+1. The <strong>filter control</strong> — To add filters, select the column name from the dropdown and click the "+" button.
+2. The <strong>group control</strong> — here we're grouping by Resource. You can drag & drop these fields to reorder them. To add more columns to the grouping, select the column name from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
+3. The <strong>pivot control</strong> — we are pivoting by Location in this example. Like the group control, these fields can be reordered; to pivot by additional columns, select them from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
+4. The <strong>aggregate control</strong> — in this example, we are calculating the count (number of matching rows). Some aggregate functions operate on fields (e.g. sum), whereas others do not (e.g. count). Like the other controls, to add a new aggregate function, select it from the dropdown and click the "+" button. To remove an aggregate function, click the "–" button next to the function name.
 5. Show/hide total rows and columns.
 
 ## Drill Down
@@ -66,12 +73,12 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 You can double-click a cell in the group output (summary mode) or pivot output to "drill down" and see all the rows from the data that contribute to the value of that cell. This works by adding a new view called "Drill Down" with filters to show only the contributing rows. The "Drill Down" view will not be saved, so reloading the page will cause the grid to load the previous view.
 
 {{% note %}}
-Filters you are already using still apply, if they don't conflict with the drill down filters (in this case, the Order ID filter applies, but the Country filter does not).
+Filters you are already using still apply, if they don't conflict with the drill down filters.
 {{% /note %}}
 
-![](../using-datavis-grids-data-tools.assets/0b70be7a43eb324a7701cc7f418b6fb9.png)
+![](../using-datavis-grids-data-tools.assets/245af1cc149068effd90ce77b7eadbd2.png)
 
-*after drilling down into Germany's banana orders*
+*after drilling down into the Resource Selenium, Selenium*
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.
 
@@ -104,7 +111,7 @@ where <SPECS> is a comma-separated list of format specifiers:
 
 The property to allow formatting is *allowFormatting* and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
 
-![](../using-datavis-grids-data-tools.assets/17b0b8452d98d6b92b8af7f68e00457c.png)
+![](../using-datavis-grids-data-tools.assets/1d87ee7cb206588503860dca9d51e293.png)
 
 ## Placement of DataVis Controls
 
