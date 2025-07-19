@@ -2,7 +2,7 @@
 id: '15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
 title: 'Encryption Statement'
 date: '2020-02-27T20:35:59.932Z'
-version: 40
+version: 42
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Encryption'

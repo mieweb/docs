@@ -2,7 +2,7 @@
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
 date: '2025-07-11T18:03:41.438Z'
-version: 777
+version: 782
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

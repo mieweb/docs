@@ -2,7 +2,7 @@
 id: '1LHkaV4HiAFPWKnKnOzRcFO76OCqe48TRZdKkrglX6Pc'
 title: 'Work Comp Monitor Report'
 date: '2025-07-15T17:43:30.164Z'
-version: 79
+version: 84
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

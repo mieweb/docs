@@ -1,9 +1,9 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
-date: '2024-12-11T14:18:29.784Z'
-version: 129
-lastAuthor: 'kkocks'
+date: '2025-07-16T15:03:15.820Z'
+version: 195
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'

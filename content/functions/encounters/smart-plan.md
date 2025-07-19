@@ -1,9 +1,9 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-07-03T14:47:17.543Z'
-version: 1165
-lastAuthor: 'anichols'
+date: '2025-07-15T16:33:59.429Z'
+version: 1173
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'

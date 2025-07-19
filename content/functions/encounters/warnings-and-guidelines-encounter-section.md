@@ -2,7 +2,7 @@
 id: '1ulcCUTSXD3HAw1B-OOjsCkOGqe1qhIrZUyFSctcEONs'
 title: 'Warnings and Guidelines Encounter Section'
 date: '2025-07-11T17:58:41.932Z'
-version: 22
+version: 27
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
