@@ -334,6 +334,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
          * [Outside Contact Portal - SMP Portal Clinic Sender User Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md)
          * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
+         * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
          * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
          * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
          * [Portal Portlet](functions/portal-management/portal-portlet.md)
