@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-16T13:46:22.231Z'
-version: 1632
-lastAuthor: 'auhrick'
+date: '2025-07-21T17:46:03.465Z'
+version: 1648
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -118,6 +118,7 @@ links:
   - 'functions/portal-management/linking-users-for-portal-access.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
+  - 'functions/portal-management/password-reset-non-sso.md'
   - 'functions/portal-management/portal-portlet.md'
   - 'functions/portal-management/supervisor-portal-scheduling.md'
   - 'functions/portal-management/supervisor-portal-questionnaires.md'
@@ -906,6 +907,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
         * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
+        * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
         * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
         * [Supervisor Portal Questionnaires](functions/portal-management/supervisor-portal-questionnaires.md)
