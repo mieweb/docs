@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2025-07-16T13:46:22.231Z'
-version: 1631
+version: 1632
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -120,7 +120,7 @@ links:
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/portal-management/portal-portlet.md'
   - 'functions/portal-management/supervisor-portal-scheduling.md'
-  - 'https://drive.google.com/open?id=1QgZBsXYK6JVCFQ87zZ4HDjAm4HAj505DgW1ighx9Xjc'
+  - 'functions/portal-management/supervisor-portal-questionnaires.md'
   - 'functions/portal-management/portal-virtual-waiting-room.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md'
   - 'functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
@@ -908,7 +908,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
         * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
-        * [Supervisor Portal Questionnaires](https://drive.google.com/open?id=1QgZBsXYK6JVCFQ87zZ4HDjAm4HAj505DgW1ighx9Xjc)
+        * [Supervisor Portal Questionnaires](functions/portal-management/supervisor-portal-questionnaires.md)
         * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
         * [Outside Contact Portal - SMP Portal Clinic Sender Experience](functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience.md#managing-the-smp-worklist)
         * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)

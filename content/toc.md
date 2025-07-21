@@ -338,6 +338,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
          * [Portal Portlet](functions/portal-management/portal-portlet.md)
          * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)
+         * [Supervisor Portal Questionnaires](functions/portal-management/supervisor-portal-questionnaires.md)
          * [Supervisor Portal Scheduling](functions/portal-management/supervisor-portal-scheduling.md)
          * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
       * Quality of Care
@@ -969,6 +970,9 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
             * [Email Templates from Chart](resources/system-specifications/system-email-templates/email-templates-from-chart.md)
             * [Email Templates from Scheduler](resources/system-specifications/system-email-templates/email-templates-from-scheduler.md)
          * VPAT
+            * VPAT 2.5
+               * [Patient Portal VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/patient-portal-vpat2.5rev_int_february2025.md)
+               * [VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/vpat2.5rev_int_february2025.md)
             * [Clinical Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/clinical-portal-voluntary-product-accessibility-template-vpat.md)
             * [Employer Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/employer-portal-voluntary-product-accessibility-template-vpat.md)
             * [Patient Portal Voluntary Product Accessibility Template (VPAT)](resources/system-specifications/vpat/patient-portal-voluntary-product-accessibility-template-vpat.md)

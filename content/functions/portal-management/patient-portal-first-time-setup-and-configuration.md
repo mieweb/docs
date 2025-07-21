@@ -1,13 +1,13 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-05-12T18:32:47.057Z'
-version: 730
-lastAuthor: 'janderson'
+date: '2025-07-21T13:41:33.519Z'
+version: 739
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
-  - 'https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true'
+  - 'portal-activation-code-employee-experience.md'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
@@ -83,7 +83,7 @@ After running the portal setup, click the **General Configuration/Portal** head
 
 **Branding**
 
-**Logo - Upload new logo**: Click the **upload new logo** link to replace the default logo. The page will refresh after confirming the image selection. If the logo does not appear in the portal as it should for all users, check to see if doc type WCPHOTO is restricted to certain department or users and adjust as needed.
+**Logo - Upload new logo**: Click the **upload new logo** link to replace the default logo. The page will refresh after confirming the image selection. If the logo does not appear in the portal as it should for all users, check to see if doc type WCPHOTO is restricted to certain departments or users and adjust as needed.
 
 **Features**
 
@@ -93,7 +93,7 @@ After running the portal setup, click the **General Configuration/Portal** head
 
 **Enable Employer Portal**: Select to enable employer/supervisor portal.
 
-**Enable Activation Code Redemption**: This option will require an activation code for new portal users to create a portal account. Select to enable activation code redemption, which will allow users to generate a code for each chart needing to activate a portal account. To generate an activation code for a chart, the portal user must have a relationship to the applicable portal Provider Organization.
+**Enable Activation Code Redemption**: This option will require an activation code for new portal users to create a portal account. Select to enable activation code redemption, which will allow users to generate a code for each chart needing to activate a portal account. To generate an activation code for a chart, the portal user must have a relationship to the applicable portal Provider Organization. See separate guide [Portal Activation Code Experience](portal-activation-code-employee-experience.md).
 
 * This relationship can be set manually using the Contacts patient portlet (Relationships section) on the Patient Summary chart tab.
 * It can also be automated by enabling the NMC, Portal, Default Portal system setting. In the <em>Value</em> field of the system setting enter the Pat ID of the portal, which can be found at the end of the portal URL address. Once the default portal system setting is configured with the appropriate Pat ID, clinic users will generate an activation code and this step will automatically link the applicable provider organization to the patient chart.
@@ -411,38 +411,6 @@ Layouts are simply HTML pages that have been developed and used in {{% system-na
 Any layouts that list the MIE helpdesk number for portal assistance must be changed to the client's preferred contact support number, unless specific contracting between the client and MIE has been finalized, where MIE will provide portal support and/or password reset support.
 {{% /note %}}
 
-#### Portal Activation Code Instruction Layout
-
-When an activation code is generated from the Portal portlet from the patient summary screen, a layout is triggered with an available link designed to create a Portal Activation Code Instructions document. Once the Portal Activation Code Instruction document is generated from the patient summary screen, it will store in the Document Summary chart tab by default. The document can also be mapped to additional chart tabs if desired.  A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
-
-![](../patient-portal-first-time-setup-and-configuration.assets/4bc8ea2d5ba0d0bddfa5df790c7bb660.png)
-
-#### Welcome to the Portal Email Layout
-
-When a patient/employee signs up for the portal successfully, the following layout will be triggered, sending out the email below. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
-
-![](../patient-portal-first-time-setup-and-configuration.assets/fb2e8e453d660f5226053c6d78dc29b7.png)
-
-#### Password Reset Email Notification Layout
-
-To enable automation of resetting portal passwords, the system setting of ‘Reset PinCode Call URL' should be set as follows: https://asterisk.med-web.com/password_reset_caller.php?greeting=mie&short=true
-
-Whenever a portal user attempts to reset their portal password, an email notification will be sent to the portal user. This email is sent as soon as the portal user clicks the Forget Password link and enters their username and security question.  The verbiage in this screen is C code and the phone number listed pulls from the value in the system setting of System>Tech Support>Phone Number
-
-![](../patient-portal-first-time-setup-and-configuration.assets/6ca78e460bbc731d865ebbff0a965848.png)
-
-#### Resetting Portal Password via Email Layout
-
-When portal users want to reset their password using the email option, versus other options, such as cell or home phone, this is the email users will receive. This screen is layout driven and may need to be added if it doesn't exist in the database.  The layout name is ‘Password Reset PinCode Email'. A ticket may be opened with MIE to edit and modify this layout, as appropriate, per the client's business needs.
-
-![](../patient-portal-first-time-setup-and-configuration.assets/0821f4b1b4b1e42345f9f2035ef58da6.png)
-
-#### Identity Verification Layout
-
-When users click the Forget Password link and provide their username and security question answer, the following dialogue box displays. Users will be asked how they wish to reset their password (i.e., email, cell phone, home phone, work phone). The MIE technical support number should be replaced with the client's phone number and that is controlled from the value entered in the System>Tech Support>Phone Number system setting.
-
-![](../patient-portal-first-time-setup-and-configuration.assets/7173443336ac2697d6e40a6533f6a42b.png)
-
 ### Help Bubble Icons
 
 Every page or screen of a portal can have a help bubble available in the top bar of the portal page. Each help bubble on every page can point to different help documentation, as needed. The following portal pages can support customized help documentation:
@@ -484,12 +452,6 @@ To add a new layout for the Message Center/My Medical Information screen:
 In some cases, portal users may have access to more than one portal that has been setup/configured in the same WebChart database. In such cases, users who have access to more than one portal will see **Portal Selection** from the menu options. Once the user has established their username and password for one portal, that same username and password can be used to gain access to any of the additional portals that are set up in the database. There is no need to generate a new activation code for each additional portal a portal user accesses.
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/8d168f72cd3be66d15d81af9b1463d9e.png)
-
-### Portal Activation Code Report
-
-The Portal Activation Code report will display the date an activation code was generated for a patient chart along with the date (if applicable) that the activation code was used to create a portal account. The users listed on this report are only those users who have actually created their portal account. The report columns include MRN, patient name, DOB, Sex, Code Creation Date, Activation Date, Portal Name (i.e., the name of the provider organization). This report can be found by going to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} side menu tab and then selecting the {{% syslink "Utilization" "f=layout&module=reports&name=Utilization&tabmodule=reports&tabmodule=reports&t=Utilization&tabselect=Utilization" %}} chart tab. This report can be filtered by a date range, partition, and provider organization (portal).
-
-![](../patient-portal-first-time-setup-and-configuration.assets/0f5aef5dcb513d20cb907a240bff2129.png)
 
 ### WebChart Database Gaps/Punchlist
 
