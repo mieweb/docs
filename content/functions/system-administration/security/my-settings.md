@@ -1,22 +1,22 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-07-11T18:03:41.438Z'
-version: 782
-lastAuthor: 'janderson'
+date: '2025-07-22T13:27:24.894Z'
+version: 792
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
-Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences.
+Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences. Click the question mark help bubble next to each setting to learn more about each individual user preference (available in release 202509 and newer only).
 
 Changes to any of the *My Setting* preferences will only affect you, the logged in user, and no one else when you are set in Yourself mode.  The user you are logged in as will be the only user affected by these preferences.
 
 From the *Control* left sidebar menu, find the *My Settings* tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click the *Submit Settings* box at the top or bottom of the screen to save your changes.
 
-![](../my-settings.assets/025ce3b3ca6afbacfc7625975bcb82df.png)
+![](../my-settings.assets/3139f731ba42603f090479b68c266c26.png)
 
 ## Edit Preferences For
 
