@@ -1,14 +1,21 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-07-15T16:33:59.429Z'
-version: 1173
-lastAuthor: 'auhrick'
+date: '2025-07-22T19:58:54.279Z'
+version: 1195
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
+  - 'past-medical-history-encounter-section.md'
+  - '../injection-immunization-management/vaccine-compliance.md'
+  - 'presenting-medications-encounter-section.md'
+  - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
+  - 'visit-orders.md'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
+  - 'recommendations.md'
   - 'goals.md'
+  - '../quality-of-care/raf-score-risk-adjustment-factor.md'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
@@ -51,7 +58,10 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 ## Problem List Quick List
 
 * See [My Settings](#my-settings) section of this document for related user preferences.
-* The Problem list should indicate problems being assessed at today's visit.
+* The Problem list within the smart plan is a list of Past Medical History.  The separate [Past Medical History encounter section](past-medical-history-encounter-section.md) contains the same information.
+
+![](../smart-plan.assets/25a39ea3644878fb7aa2d54793007802.png)
+
 * Conditions on the Problem List in the Smart Plan section will also display in the Assessment, Symptoms/Diagnosis section of the encounter.
 * Select the "Yes" radio button in the Add Assessment screen to populate the Problem List Quick List in today's encounter (right side of the blue bar).  This will also add the condition to today's Smart Plan (left side of the blue bar).
 * Items populated in the Past Medical History section of the encounter or Quick List do not automatically populate the Problem List Quick List of the Smart Plan.
@@ -60,7 +70,7 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 * Once the condition has been added to the Problem List Quick List, hover over the condition to see additional options.
 
-![](../smart-plan.assets/b96518714746eeb4b9a0a1a72e97aa28.png)
+![](../smart-plan.assets/4b3b71349ccb2caa3655fd3bf482d1d9.png)
 
 * Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment [notes](#notes)". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
 * The options are:
@@ -110,7 +120,7 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 ## Employee/Patient Past Medical History Quick List
 
 * This list will display as Employee Past Medical History in Enterprise Health databases and Patient Past Medical History in Webchart databases.
-* Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
+* Existing conditions in the [Past Medical History encounter section](past-medical-history-encounter-section.md) and the Conditions chart tab will pre-populate the Past Medical History Quick List.
 * Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment [notes](#notes)". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
 * When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
 
@@ -156,7 +166,7 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ![](../smart-plan.assets/f3cc16bda9049b4ef1c3454e74120df7.png)
 
-* These conditions will NOT display in the Past Medical History Section of the Encounter.
+* These conditions will NOT display in the [Past Medical History Section](past-medical-history-encounter-section.md) of the Encounter.
 * These conditions will display on the "Other Problems" section of the Conditions chart tab.
 * Conditions in this list have additional options to Edit, Remove or Add to Assessment, similar as to what has been illustrated in the above screenshots.
 
@@ -227,14 +237,14 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ## Forecasted Immunizations
 
-* Users can now click on the Smart Plan Forecasted Immunization list and see applicable order items in a pop up box. Users can then select the desired injection and add that order to the Due List.
+* Users can now click on the Smart Plan Forecasted Immunization list and see applicable order items in a pop up box. Users can then select the desired injection and add that order to the Due List.  Additional information is found in [Vaccine Compliance](../injection-immunization-management/vaccine-compliance.md) guide.
 
 ![](../smart-plan.assets/1905e89c644e19d85b03d3b3e75fc394.png)
 
 ## Current Meds Quick List
 
 * Shows a list of all current medications.
-* These medications also populate the Presenting medications section of the encounter.
+* These medications also populate the [Presenting medications section](presenting-medications-encounter-section.md) of the encounter.
 * Click the "+" icon next to the Other option to Prescribe a Medication.
 * The Prescribe Medication screen allows users to add prescriptions to Libraries.
 
@@ -256,7 +266,7 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ## Due List Quick List
 
-* This Quick List displays a list of Pending Due List Order Items.
+* This Quick List displays a list of Pending Due List Order Items. This lists the same in the separate [Tests & Procedures encounter section](tests-and-procedures-section-applying-adding-completing-resulting.md).
 * Click the "+" icon next to the Other option to add an order.
 * The Add Encounter Order screen allows users to add orders to Libraries.
 
@@ -301,6 +311,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ## Visit Orders
 
+* The Visit Orders area of the smart plan is essentially the same as the separate [Visit Orders encounter section](visit-orders.md).
 * Click the "+" icon next to the Other option to add an order.
 
 ![](../smart-plan.assets/dd45183775fdb4d88c3a19b0c8248037.png)
@@ -321,7 +332,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 * This Quick List displays a list of all order items configured in the Quick Visit Order Picklist. (Control->Order-Pick Builder->Quick Visit Orders)
 * See more information in the [Order Picklist online Help Guide](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/#order-picklists).
-* Order items on this list can be quickly added to the encounter to be performed or added to the Due List.
+* Order items on this list can be quickly added to the encounter to be performed or added to the Due List.  This is similar to the Order Quick Links portlet of the Summary dashboard tab of the chart, but the list is here within the encounter's smart plan for use.
 
 ![](../smart-plan.assets/ccd977ba3935bbacc856127a9f75aced.png)
 
@@ -333,8 +344,9 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ## Recommendations
 
-* This Quick List displays a list of all order items in the REcommendations Order Picklist.
+* This Quick List displays a list of all order items in the Recommendations Order Picklist.
 * See more information in the [Order Picklist online Help Guide](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/#order-picklists).
+* Any Recommendations in this quick list that are checkmarked as blue, mean that specific recommendation is on the chart's due list to be performed (usually by a specific due date) within the chart's due list.  See [Recommendations Encounter Section](recommendations.md) guide for more information, but within the Smart Plan one can perform a recommendation/written opinion.
 
 ## Goals
 
@@ -352,13 +364,11 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ![](../smart-plan.assets/9f11baaf51d6e31fe40312071593ffc3.png)
 
-* Goals also display in the Goals encounter section.
-
-For more detailed information, please refer to the [Goals](goals.md) guide.
+* Goals also display (and can be added) in the [Goals encounter section](goals.md).
 
 ## RAF Scoring - (risk score)
 
-For clients that wish to utilize RAF Scoring, the system setting for "Alert if Diagnosis has not been assessed in the past year", must be enabled. By default this is Disabled in all systems.
+To utilize [RAF Scoring](../quality-of-care/raf-score-risk-adjustment-factor.md#what-is-a-risk-adjustment-factor?), the system setting for "Alert if Diagnosis has not been assessed in the past year", must be enabled. By default this is Disabled in all systems.
 
 ![](../smart-plan.assets/d256e10633d365adffcf0fc37c3b3dda.png)
 
