@@ -1,9 +1,9 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2025-04-07T17:26:00.923Z'
-version: 260
-lastAuthor: 'anichols'
+date: '2025-07-22T13:40:32.943Z'
+version: 272
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
@@ -13,7 +13,7 @@ source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 markup: 'pandoc'
 ---
-# About Appt Types tab
+## About Appt Types tab
 
 Use the *Appt Types* tab to view, add, edit, and delete appointment types and appointment templates.
 
@@ -21,13 +21,13 @@ Appointment types are used to set up basic information about frequently-used app
 
 Appointment templates are based on appointment types and refine them by associating with them a service location, a default encounter type for documenting the encounter visit resulting from the appointment, and clinical and scheduling instructions for staff.
 
-To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [Security Role Settings](../system-administration/security/security-role-settings.md).
+To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [](../system-administration/security/security-role-settings.md).
 
 ## Viewing appointment types
 
 1. Select the side menu. The side menu appears.
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
-3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).
+3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [](../reports/using-datavis-grids-data-tools.md).
     ![](../appt-types-tab.assets/f98c6e8b6d13c17911c0fa2b33fb42f4.png)
 
 ## Viewing appointment type templates
@@ -35,9 +35,13 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 1. Select the side menu. The side menu appears.
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
-4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [Using DataVis Grids - Data Tools](../reports/using-datavis-grids-data-tools.md).
+4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [](../reports/using-datavis-grids-data-tools.md).
 
 ![](../appt-types-tab.assets/a769e526984f2a6bd4e7954737bb8734.png)
+
+5. For users on RC202503 and newer, a new default perspective of <em>Active in Display Order</em> has been introduced in the Appt Types Editor DataVis listing. This perspective lists all active appointment types for the system and in ascending order according to Display Order.
+
+![](../appt-types-tab.assets/e8cc5f2315d43ca95a1490d23adf5b2e.png)
 
 ## Adding appointment types
 
@@ -51,7 +55,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
     b.  <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202203 this field is limited to 10 characters. For release RC202203 and newer the character count was increased to 15 characters.
     c.  <em>Billing code</em>: Type the appropriate Billing code if licensed to use AMA Billing codes or enter a custom code for billing, auditing, or report purposes. You may also leave this field empty.
     d.  <em>Duration</em>: Type the amount of time this type of appointment is expected to take.
-    e.  <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [Viewing appointment types](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
+    e.  <em>Display order</em>: Type a number by which the system will sort the appointment type for display in the table of appointment types (see [](#viewing-appointment-types)) and when scheduling an appointment. The lower the number in this field, the closer to the top of the table and when scheduling this appointment type appears.
     f.  <em>Duration given to patient</em>: Type the duration of the appointment in minutes to provide to the patient. The system provides this duration when the patient views the appointment, for example when it sends a reminder email. For example, medical staff may be required for 15 minutes of a 60-minute appointment. In this case, the appointment type duration appears on the schedule of the medical staff as a 15-minute appointment and the duration given to patient is 60 minutes.
     g.  <em>Description</em>: Type in the full name of appointment type you are creating.
     h.  <em>Default Encounter Type</em>: If your practice uses the <em>Checkin</em> module, select <strong>Checkin</strong>. If your practice uses encounters and wishes to have the systems automatically create and open a type of encounter when a patient is checked in for the visit based on this appointment type, select that <strong>encounter type</strong>.
