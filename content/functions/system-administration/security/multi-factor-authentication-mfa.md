@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA'
-date: '2024-10-29T15:57:18.464Z'
-version: 242
+date: '2025-07-22T16:18:48.416Z'
+version: 247
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -142,9 +142,9 @@ Which displays the OTP for counter=0:
 
 ### Setup
 
-Set the WebChart/Login/Require2FA system setting value to ‘Encourage'. When this system setting is configured with the value of "Encourage", users will be prompted to set up 2 factor authentication after completing their initial login. Users can opt to bypass the 2FA set up process upon logging in, but they will be prompted each time they log in to set up 2FA until they do so.
+The Require 2FA (two factor authentication) system setting has been removed and replaced with a Security Role setting as of RC202509 and newer. System Administrators may select the Require 2FA (require it for all users in the designated security role), Encourage (request users in the designated security role to set up 2FA when logging in, but let the user choose to bypass the set up process, however, users will be prompted each time they log in to set up 2FA until they do so. Or Force, which will require all users in the designated security role to set up 2FA.
 
-![](../multi-factor-authentication-mfa.assets/090a891e00e8c4b0c20e40e467e5e2a5.png)
+![](../multi-factor-authentication-mfa.assets/4963f432e9c42dcb8a786243747bc438.png)
 
 The user must also have a valid username and password set.
 
