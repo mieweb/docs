@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2025-07-22T13:40:56.886Z'
-version: 273
+date: '2025-07-22T14:01:34.238Z'
+version: 277
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -29,6 +29,9 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [](../reports/using-datavis-grids-data-tools.md).
     ![](../appt-types-tab.assets/f98c6e8b6d13c17911c0fa2b33fb42f4.png)
+4. For users on RC202503 and newer, a new default perspective of <em>Active in Display Order</em> has been introduced in the Appt Types Editor DataVis listing. This perspective lists all active appointment types for the system and in ascending order according to Display Order.
+
+![](../appt-types-tab.assets/e8cc5f2315d43ca95a1490d23adf5b2e.png)
 
 ## Viewing appointment type templates
 
@@ -38,10 +41,6 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [](../reports/using-datavis-grids-data-tools.md).
 
 ![](../appt-types-tab.assets/a769e526984f2a6bd4e7954737bb8734.png)
-
-5. For users on RC202503 and newer, a new default perspective of <em>Active in Display Order</em> has been introduced in the Appt Types Editor DataVis listing. This perspective lists all active appointment types for the system and in ascending order according to Display Order.
-
-![](../appt-types-tab.assets/e8cc5f2315d43ca95a1490d23adf5b2e.png)
 
 ## Adding appointment types
 
