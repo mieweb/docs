@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2025-07-22T13:40:32.943Z'
-version: 272
+date: '2025-07-22T13:40:56.886Z'
+version: 273
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
