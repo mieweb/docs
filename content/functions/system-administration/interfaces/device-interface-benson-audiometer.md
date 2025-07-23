@@ -1,8 +1,8 @@
 ---
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
-date: '2025-07-03T15:25:40.677Z'
-version: 368
+date: '2025-07-23T16:17:02.080Z'
+version: 373
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -60,7 +60,10 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 
 * The interface uses files exported from the Benson audio software
 * To get the correct export format a configuration file must be imported into the Benson software
-    * Please talk to an implementer to get the configuration file
+    * The configuration file is available in the Plugins page of the Control Panel in {{% system-name %}}
+
+![](../device-interface-benson-audiometer.assets/62de28659970757f10b439a76974c5b2.png)
+
     * Use "Merge" file option in the Plus Package software
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.
     * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
