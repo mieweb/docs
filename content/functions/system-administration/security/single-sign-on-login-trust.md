@@ -1,9 +1,9 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
-date: '2025-07-16T15:03:15.820Z'
-version: 195
-lastAuthor: 'mpierzchala'
+date: '2025-07-23T14:53:01.354Z'
+version: 201
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language'
@@ -181,3 +181,51 @@ There may be multiple options for **SingleSignOnService**. It is important to pi
 19. Select X509 from the <strong>Key Format</strong> dropdown.
 20. Click the <strong>Submit</strong> button. A status message displays.
 21. Click the <strong>View List</strong> button to view the login trusts.
+
+### Updating a Certificate for SSO Login Trust
+
+Do not perform this action unless you are certain that the new certificate is valid and has been configured as the **primary** certificate on the identity provider side.
+
+During the certificate update process, **SSO authentication will be temporarily unavailable**, which means users will not be able to log in via SSO during the switchover. Plan the update accordingly to minimize user impact.
+
+{{% info %}}
+To access the Login Trust section, the user must have the Manage Login Trust role.
+
+![](../single-sign-on-login-trust.assets/8cced263aef44e59008bd9429e161012.png)
+{{% /info %}}
+
+Starting with **RC202409**, the certificate associated with a login trust can be updated in two ways:
+
+#### Option 1: Manual Update via the Login Trust Record
+
+1. Navigate to the <strong>Control Panel</strong> on the left side menu.
+2. Click the <strong>Login Trusts</strong> tab.
+3. Open the relevant Login Trust record.
+4. Locate the <strong>Signature Verification</strong> section.
+5. Paste the updated certificate content (typically in PEM format).
+
+![](../single-sign-on-login-trust.assets/3ffb12f26609622bf9c17a3cb2d779a2.png)
+
+6. Click the Submit button.
+
+#### Option 2: Importing Metadata (Available from RC202409)
+
+Starting with **RC202409**, certificate updates can be streamlined by importing metadata:
+
+1. Navigate to <strong>Control Panel > Login Trust</strong>.
+2. Use the <strong>Import Metadata</strong> option.
+3. Provide the metadata URL or upload a metadata file containing the updated certificate.
+
+If the certificate contained in the metadata is identical to the currently configured one, the system will return the message:
+
+![](../single-sign-on-login-trust.assets/692afaf69d305b3b2c0798e958d2db36.png)
+
+If the certificate differs, a comparison view will be presented, showing the current and new certificate side by side. It is important to verify the certificate's validity period to ensure that the new certificate is active and correctly configured.
+
+![](../single-sign-on-login-trust.assets/af9f841555138b66d672cb9173f30f6b.png)
+
+4. Click the <strong>Update public key</strong> button.
+
+![](../single-sign-on-login-trust.assets/a15d9ec23f2ae62392e95d3c14e34333.png)
+
+The certificate from the metadata will automatically replace the existing public key.
