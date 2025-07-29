@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2025-07-08T14:14:14.101Z'
-version: 386
-lastAuthor: 'janderson'
+date: '2025-07-29T12:18:45.671Z'
+version: 408
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -24,9 +24,9 @@ There are two ways to access your pending tasks:
 
 -OR-
 
-2. Click Task List on the left sidemenu.
+2. Click the <em>Task List</em> item' on the left sidemenu.
 
-Either way will take uers to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
+Either way will take users to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
 
 ![](../task-list.assets/1de0692a0b3d887d2771a0f31e7a4a65.png)
 
@@ -272,15 +272,23 @@ To return to the DataVis View, click on the DataVis View button.
 
 ![](../task-list.assets/137e5bfb78cfb8ed1ede943d3828e41f.png)
 
-### Grab Task
+### Grab Task - Realm Tasks
 
-In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks from the combined Realm Task list.
+In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks, but only from the combined *Realm Tasks* grouping list.
 
 ![](../task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
 
 When grabbing multiple tasks, selected tasks will be assigned to the logged in user. The user will also be prompted with a message "Open new tabs for all X tasks you grabbed?" with a yes/no response button option. Selecting **Yes**, will open each grabbed task in separate browser tabs. Selecting **No**, will close the dialogue box and return to the user to their task list where they can proceed to their next task.
 
 ![](../task-list.assets/4c084170b444679e67f53ddf226cf9a8.png)
+
+When grabbing any Realm Tasks, you may get a Permission Denied for Tasks error.
+
+![](../task-list.assets/c2c65435c5dc064a9701c6bb44a2c90f.png)
+
+For the ability to grab realm tasks using the DataVis method, the specific security role(s) need to have the JSON security permission ‘tasks' table added to their roles.  Contact your MIE Deployment Consultant or MIE Help Desk for configuration.
+
+![](../task-list.assets/57648e9e50e422bc9beaddef6d4c2857.png)
 
 ## Learning Management System
 
