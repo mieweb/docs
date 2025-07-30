@@ -1,61 +1,114 @@
 ---
 id: '15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
 title: 'Work Locations Tab - Work Regions'
-date: '2020-02-27T19:32:54.120Z'
-version: 80
+date: '2025-07-30T17:21:05.077Z'
+version: 133
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15E6hML4fxFd1XvQEpRfClxdjy4YQ97I3KB89XBc_Rfc'
 wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
 ---
-Panels can be assigned to work regions to limit the selection for what is appropriate for that region.  Panels displayed in the panel membership page for selection are based on work region and filters out panels not tied to the employee's work region.
-
-The system setting *Use Work Regions* must be enabled if want to utilize work regions for health surveillance panels.
-
-![](../work-locations-tab-work-regions.assets/5ae5b8b79a04ea23de59193ea368c61f.png)
-
-If the system setting is enabled, it enables the Work Locations tab in the Control sidemenu. One or more work regions can be assigned to a panel and this can be used as search criteria from the panel page. {{% system-name %}} filters out the panels not tied to the patient's work region in the orders panel picklist.
-
 ## Work Locations Tab
 
-The *Work Locations* tab is found in the Control sidemenu tab. When you click in the Work Locations tab, three (3) Work Location Management selections will display. These are editors to set up regions, sites, and locations for your system related to campaigns and/or panels.
+The *Work Locations* tab is found in the Control Panel sidemenu tab.
 
-![](../work-locations-tab-work-regions.assets/bf3721eb57a1b5fdd3954e79cf8b1388.png)
+![](../work-locations-tab-work-regions.assets/5201b518b3003827fe99add77aed7d3a.png)
 
-### Work Region Manager
+When you click Work Locations from the Control Panel sidemenu tab, the search screen displays. If you click the Search button, all active Work Locations will be displayed. To add a new Work Location, click on the Add New Work Location hyperlink.
 
-When you click Work Region Manager the listing of current and active work regions set up (for your system) will display. If you need to see the *inactive* work regions also simply click the show inactive link at the top left. It will then display all work regions that are active *and* inactive. You can tell which is which by looking at the *Active* column.
+![](../work-locations-tab-work-regions.assets/8dc15d8c28058bead8c01b8ae1f58694.png)
 
-![](../work-locations-tab-work-regions.assets/83e70b778c59da20a140245e4a47daaf.png)
+An Employer Organization can also be a Work Location. To create a Work Location from an Employer Organization, click on the Employer Organization tab from the Control Panel. Search for the Employer Organization and click on it. Click on the gray bar for the Chart Types section of the Summary tab. Select Work Location from the dropdown of Chart Types and Save. This will create the Work Location.
 
-You can use the [edit] button to edit a few things on existing work regions. It will track when and who edited a work region entry. You can also enter/add a new work region by free-typing in the name of the work region you wish to add, setting it as active or inactive and click the ADD button to have it display in the listing above. However, edits and/or adds are saved until you click the SUBMIT button at the bottom of the screen.
+![](../work-locations-tab-work-regions.assets/55e77c84d52202e223b77d1d1d78fc33.png)
 
-When in any work location editor, the top right links are quick ways to get to the other work locations editors if you wish.
+## Locations Hierarchy
 
-![](../work-locations-tab-work-regions.assets/83e70b778c59da20a140245e4a47daaf.png)
+The Location Hierarchy is located under the System Editor within the Control Panel. The Locations Hierarchy datavis list displays (by default) **active** onsite location choices but also includes Checkin Stations (in the list) that are used in the Checkin module.  This datavis list is a cross-reference table in the system.  Do not alter any known Checkin stations for your system here.  You would use the Station Manager instead. Any line item listed here that has **Type** of **0**, indicates it is a Checkin module location, not an injury onsite location for the system. You can also create a perspective to weed out locations with Type 0 in the list. *Note: To view inactive locations in the hierarchy screen, choose the perspective available, or clear the datavis filter.*
 
-### Work Site Manager
+Locations used in this hierarchy give your system superusers the ability to add or update locations that indicate where an injury/incident is reported as having occurred for system wide use and reporting.  This onsite location hierarchy is used on OSHA reportable cases & reporting.
 
-When you click Work Site Manager the listing of current and active work sites set up (for your system) will display. If you need to see the *inactive* work sites also simply click the show inactive link at the top left. It will then display all work sites that are active *and* inactive. You can tell which is which by looking at the *Active* column.
+![](../work-locations-tab-work-regions.assets/67d84728acd2edbfcebf73c383b46c3b.png)
 
-![](../work-locations-tab-work-regions.assets/9a9550f514528142e24a714ca266c44f.png)
+Specific work locations are part of an overall Group or Main Work Location.  Meaning, specific work locations are part of location groups.  Locations are part of location groups (for instance one Hospital ie: Indiana Hospital with 5 separate areas for work/business establishments would be one group with 5 locations).
 
-You can use the [edit] button to edit a few things on existing work sites. It will track when and who edited a work site entry. You can also enter/add a new work site:
+The Locations Hierarchy provides a way to configure onsite injury locations (used in Injury cases/incidents and reporting) as well as be able to indicate a hierarchy of the onside injury location choices.
 
-* <strong>Name:</strong> begin free-typing in the name of the work site you wish to add. Sites are considered the supervising site.
-* <strong>Work Region:</strong> use the drop-down provided in the <em>Work Region</em> setting to link this site to a work region.
-* <strong>Responsible User:</strong> you can enter in the name of a user (using the auto-complete) that is responsible for this work site, or you can leave blank.
-* <strong>Active:</strong> set the new work site as active or inactive and click the ADD button to have it display in the listing above. However, edits and/or adds are saved until you click the SUBMIT button at the bottom of the screen.
+**Name:** This is a required field and would need to be an overall Group Name/Work Location (example: Indiana Hospital) and/or can be a specific location/establishment where employees perform work and/or could be injured at (ex: Emergency Room or Ambulatory Surgery Center).  Make sure you enter the name correctly, as you cannot edit this NAME after you save. You would have to delete the entry and rekey in.
 
-### Work Location Manager
+![](../work-locations-tab-work-regions.assets/38737458e74ddba02631fe60613cc6af.png)
 
-When you click Work Location Manager the listing of current and active work locations set up (for your system) will display. If you need to see the *inactive* work locations also simply click the show inactive link at the top left. It will then display all work locations that are active *and* inactive. You can tell which is which by looking at the *Active* column.
+Entries into the Locations Hierarchy (name field) depend on how granular the client wants to get for onsite injury reporting.   Names (from this location hierarchy) are reflected then in the case/incident onsite location ‘please select location' auto-complete as choices (and the auto-complete reflects the hierarchy noted in this editor separated by a comma).
 
-![](../work-locations-tab-work-regions.assets/bb65851961ddbf84f27424f31b2da745.png)
+![](../work-locations-tab-work-regions.assets/eb72edf43434d5505a07d6b9e34f92a4.png)
 
-You can use the [edit] button to edit a few things on existing work locations. It will track when and who edited a work site entry. You can also enter/add a new work site:
+**Site ID:** This is a required field and would need to be a unique Site ID code to give to this Group Name/Work Location and/or specific location/establishment.
 
-* <strong>Name:</strong> begin free-typing in the name of the work location you wish to add.
-* <strong>Work Region:</strong> use the drop-down provided in the <em>Work Site</em> setting to link this site to a work site. Sites are considered the supervising site.
-* <strong>Responsible User:</strong> you can enter in the name of a user (using the auto-complete) that is responsible for this work location, or you can leave blank.
-* <strong>Active:</strong> set the new work site as active or inactive and click the ADD button to have it display in the listing above. However, edits and/or adds are saved until you click the SUBMIT button at the bottom of the screen.
+![](../work-locations-tab-work-regions.assets/6639957a65b3d5ce90022ce2eaf2becb.png)
+
+**Parent ID:** This is an optional field.  If you indicate a Parent ID here in this field, it will indicate that the specific location/establishment/location group etc is a child (sub)-injury location or child (sub)-site (where an injury could occur) of the Parent site indicated.  In order to set a Parent ID to a specific location, the Parent must exist in the Locations Hierarchy list (the Parent is also a site in the list with its own specific Site ID).
+
+If a Parent ID code is set here for a specific group name/work location and/or specific location/establishment, it signifies that the specific listed group/work location and/or specific location/establishment is a sub (child)-location of the parent indicated.
+
+To set a Parent ID code here, the Parent location (group name/work location, etc) itself must exist in this Locations Hierarchy with its own unique Site ID code.  The Parent field is an auto-complete field to indicate which other Location (from this editor) is its parent.  You would begin typing in the exact location **name** (not site code abbreviation) and then select its Parent using the auto-complete.
+
+![](../work-locations-tab-work-regions.assets/f8ec282dcc7375441802ff67d6f1ce79.png)
+
+Once a Parent is selected (for the specific location) and the work is saved, the Parent is set and the Site ID code for that parent is what is visible in the datavis list view.  The Parent ID (shown on the Location Hierarchy list view of any sub/child locations) is the unique site ID code of the parent this sub-location is tied to.
+
+![](../work-locations-tab-work-regions.assets/dba7a1fd1dae7a1bbad59f2c9b704188.png)
+
+*Using the above example, Indiana Hospital (site code IHL) has 5 sub (child)-locations where injuries (at Indiana Hospital) could occur.  The configuration of the Location Hierarchy (with sites & parents) signifies that this system offers 5 sub (child)-location levels as onsite injury locations for OSHA reporting wrapped up to the parent of Indiana Hospital.*
+
+![](../work-locations-tab-work-regions.assets/1a109985385152c06315a617d1dca666.png)
+
+Parent/child location hierarchy is reflected then as such in the case/incident onsite location choices (sub (child)-locations followed by **,** comma and its indicated Parent) as well as in reporting to be able to filter a report based on injury happening at a sub(child)-location and/or its Parent:
+
+![](../work-locations-tab-work-regions.assets/eb72edf43434d5505a07d6b9e34f92a4.png)
+
+**Chart ID:** This is an optional field.  If you indicate an EO (Employer Org) type Chart or a Work Location type Chart here in this Chart ID field, it signifies the EO or Work Location chart that this location (usually a parent location) would have reporting reflected for OSHA.   You can also set this for any sub (child)-locations if needed.
+
+![](../work-locations-tab-work-regions.assets/1caf7826925926958a8b5ba42256e754.png)
+
+![](../work-locations-tab-work-regions.assets/ff7104618ab0c1f03643c4d0d1c9df5c.png)
+
+The Chart ID is an auto-complete giving you selections of charts (configured in the system) that have a chart type of EO/Employer Organization on them or have a chart type of Work Location on them.
+
+![](../work-locations-tab-work-regions.assets/77c84849b54948fe7a0b96576bdbb1fc.png)
+
+**Type:** When adding a location to this hierarchy editor, it will automatically assign a Type of 1.  This datavis list is a cross-reference table in the system. Any line item listed here that has **Type** of **0**, indicates it is a Checkin module location, not an injury onsite location for the system and you would use the Station Manager editor for those instead. You can also create a perspective to weed out locations with Type 0 in the list.
+
+**Active:** If the location listed in the hierarchy is active, the Active column will indicate a 1.  Inactive locations would be signified with a 0 in this column. When adding or editing locations in the hierarchy, the Active status can be set using the appropriate radio button indications.
+
+![](../work-locations-tab-work-regions.assets/a3d99b57f236972bc8e3f0990f6f0e9e.png)
+
+### Add
+
+To add a new location to the Location Hierarchy editor, simply click the Add Location Hierarchy hyperlink found at the top right corner of the Location Hierarchy editor.
+
+![](../work-locations-tab-work-regions.assets/685aaaaac6ba298e2b9add4c8128b878.png)
+
+An Add screen will appear as a pop-up, where you key in the required fields and any optional fields as needed.  For detailed information on each field, please see above in prior pages of this document that give explanation of each field.  Save your entry to the hierarchy editor by clicking the Save button.
+
+![](../work-locations-tab-work-regions.assets/60b86e37ce3bf3e83c1b84483b241be3.png)
+
+### Edit
+
+To edit an existing location in the Location Hierarchy editor, simply checkmark which location you need to edit, and then click the Edit button at the bottom of the datavis.  Only certain fields can be edited.
+
+![](../work-locations-tab-work-regions.assets/ab414491da88431fdcb34538d65f0362.png)
+
+### Delete
+
+Deleting a location entry from the hierarchy should be done cautiously.  If you just entered a new location into the hierarchy and need to delete it (perhaps you spelled it wrong etc), that's understandable.  But if you delete an existing entry that may have already been used as an onsite location for cases/incidents of charts, you should take warning that it will remove that data from any cases/incidents also.  If it's a location (in the hierarchy) that is no longer a location where injuries would occur (but has been in the past with existing cases/incidents on charts), then you would want to instead EDIT it and mark it as *inactive*, instead of deleting it entirely (historical and future use) from the system.
+
+![](../work-locations-tab-work-regions.assets/72c8e6a8bc4b72584e2dfe1d6091b058.png)
+
+Will ask you to confirm the deletion through a pop-up.  Click Yes if you wish to permanently delete the location entry from the hierarchy.
+
+![](../work-locations-tab-work-regions.assets/7cc09a030edea7b2a81765717e258c59.png)
+
+It will tell you it has successfully processed the deletion. The location is permanently deleted from the locations hierarchy and cannot be brought back.
+
+![](../work-locations-tab-work-regions.assets/c1be4f5f4c44064895180f91e7678f45.png)
