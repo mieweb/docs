@@ -2,7 +2,7 @@
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
 date: '2025-07-15T16:34:16.429Z'
-version: 733
+version: 735
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

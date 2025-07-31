@@ -2,7 +2,7 @@
 id: '1a8VIyANjRZuFtrKt84cyvyzzr5m9qKKH1EsC6Gj0ZOc'
 title: 'PSPA 5 - Annual registration in the Prescription Drug Monitoring Program'
 date: '2020-02-27T20:55:53.999Z'
-version: 21
+version: 22
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

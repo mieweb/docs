@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA'
-date: '2025-07-22T16:18:48.416Z'
-version: 247
+date: '2025-07-22T16:18:55.952Z'
+version: 252
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
