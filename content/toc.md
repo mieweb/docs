@@ -780,7 +780,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
          * [Provider Management](functions/system-configuration/provider-management.md)
          * [Side Chart Configuration](functions/system-configuration/side-chart-configuration.md)
          * [System Files Management](functions/system-configuration/system-files-management.md)
-         * [Work Locations Tab - Work Regions](functions/system-configuration/work-locations-tab-work-regions.md)
+         * [Work Locations Tab](functions/system-configuration/work-locations-tab.md)
       * Task Management
          * [Adding Tasks](functions/task-management/adding-tasks.md)
          * [Fast Task Templates](functions/task-management/fast-task-templates.md)

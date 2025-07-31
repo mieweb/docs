@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-21T17:46:03.465Z'
-version: 1648
-lastAuthor: 'anichols'
+date: '2025-07-31T13:50:20.455Z'
+version: 1663
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -307,7 +307,7 @@ links:
   - 'functions/system-configuration/system-files-management.md'
   - 'functions/system-configuration/locations-management.md'
   - 'functions/system-configuration/locations-manager-tab.md'
-  - 'functions/system-configuration/work-locations-tab-work-regions.md'
+  - 'functions/system-configuration/work-locations-tab.md'
   - 'functions/system-configuration/managing-departments.md'
   - 'functions/system-configuration/encounters-protocol-configuration-and-programming.md'
   - 'functions/system-configuration/macros.md'
@@ -1096,7 +1096,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
         * [System Files Management](functions/system-configuration/system-files-management.md)
         * [Locations Management](functions/system-configuration/locations-management.md)
         * [Locations Manager Tab](functions/system-configuration/locations-manager-tab.md)
-        * [Work Locations Tab - Work Regions](functions/system-configuration/work-locations-tab-work-regions.md)
+        * [Work Locations Tab](functions/system-configuration/work-locations-tab.md)
         * [Managing Departments](functions/system-configuration/managing-departments.md)
         * [Encounters Protocol Configuration & Programming](functions/system-configuration/encounters-protocol-configuration-and-programming.md)
         * [Macros](functions/system-configuration/macros.md#_5o515kp11yd8)
