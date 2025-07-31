@@ -972,7 +972,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
             * [Email Templates from Scheduler](resources/system-specifications/system-email-templates/email-templates-from-scheduler.md)
          * VPAT
             * VPAT 2.5
-               * [Patient Portal VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/patient-portal-vpat2.5rev_int_february2025.md)
+               * [Accessibility Conformance Report VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/accessibility-conformance-report-vpat2.5rev_int_february2025.md)
                * [VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/vpat2.5rev_int_february2025.md)
             * [Clinical Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/clinical-portal-voluntary-product-accessibility-template-vpat.md)
             * [Employer Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/employer-portal-voluntary-product-accessibility-template-vpat.md)
