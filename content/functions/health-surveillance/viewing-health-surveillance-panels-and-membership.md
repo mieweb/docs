@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Various security permissions apply to the Health Surveillance editor for the system within the Control Panel.
 

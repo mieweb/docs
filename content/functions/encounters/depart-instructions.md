@@ -9,7 +9,7 @@ links:
   - '../system-configuration/macros.md'
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Depart Instructions encounter section is available to document depart instructions to the patient within an encounter.  Depart Instructions encounter section utilizes flowsheet configuration functionality.
 

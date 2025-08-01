@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 

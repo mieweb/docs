@@ -11,7 +11,7 @@ links:
   - 'https://system/?f=admin&s=cron&tabmodule=admin&tabselect=Scheduled+Jobs'
   - 'https://system/?f=admin&s=cron&opp=add'
 source: 'https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 As an  {{% system-name %}} standard, all user application access is regularly reviewed and validated, ensuring all user access–including of employees, clients, vendors, and partners–is appropriate, given the users' roles and responsibilities. This provides assurance that object access and account management practices support the MIE Information Security Policies. For example, the security principle of *least privilege* requires all users to be granted the most restrictive set of privileges needed for the performance of their authorized tasks. Simply applying this principle limits the damage that can result from accident, error, or unauthorized use.
 

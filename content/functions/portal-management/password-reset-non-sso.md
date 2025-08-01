@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1LUQDaYVkwIlzJeQVnhKNNptNldHsZFO23GmfXdkv_d8'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Though we recommend system access to be utilizing Single Signon (SSO) functionality, there may be a need for manual login and password configured access. Such as pickup code/activation code portal methods.  For any systems that do have a manual login/password configured access, password management can be cumbersome for a help desk.  There is a PINCODE method for those such users to manually reset their password themselves.
 

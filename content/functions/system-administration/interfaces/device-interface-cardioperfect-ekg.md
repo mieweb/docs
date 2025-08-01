@@ -6,7 +6,7 @@ version: 48
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Must have security permission to access observations code manager and to merge them.
 

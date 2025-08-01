@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.

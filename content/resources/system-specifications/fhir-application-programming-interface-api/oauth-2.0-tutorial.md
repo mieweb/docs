@@ -20,7 +20,7 @@ links:
   - 'https://pm.mieweb.com/issues/106834'
   - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 # OAuth 2.0 Overview
 

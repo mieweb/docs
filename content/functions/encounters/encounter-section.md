@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The Encounter section is the first section in every visit encounter. This information contained in the section includes patient/employee identifiers, performing provider, location and billing information.
 

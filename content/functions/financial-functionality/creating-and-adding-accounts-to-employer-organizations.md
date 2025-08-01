@@ -9,7 +9,7 @@ links:
   - 'editing-employer-organization-accounts.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1BiAg3NNKItfczDawRTAiRmzjL7LyiE3AKSdrfQLTXR0'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Add accounts like checking accounts against which to record credits and debits or an insurance account against which to charge some costs, such as worker's compensation.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../e-chart/alerts-errors-failures-interactive-tab.md'
 source: 'https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 {{% note %}}
 The CC Physicians feature from word documents will not work until the practice has the new ActiveX word control version 1.0.0.23. If you wish to utilize this feature, please contact your MIE Implementer to have the new word control pushed out to your {{% system-name %}} system. Your MIE Implementer also has to install datasend for your {{% system-name %}} system for this feature to work.

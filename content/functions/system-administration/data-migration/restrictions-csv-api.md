@@ -17,7 +17,7 @@ links:
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](case-management-csv-api.md).
 

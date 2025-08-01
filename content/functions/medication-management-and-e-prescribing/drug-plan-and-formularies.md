@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 {{% note %}}
 Currently {{% system-name %}} only displays Medicare Part D drug plans and formularies. Currently, you only need to set a drug plan for a Medicare patient with this type of drug part D coverage.

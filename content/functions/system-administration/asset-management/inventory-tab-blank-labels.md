@@ -6,7 +6,7 @@ version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 If your system is set up to print Blank labels on special label paper, the Blank Labels tab can be found in the sidemenu tab of Inventory.
 

@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XPNwuIDF8ySb9bU9mhYXrYBic4JcJ2Ut1YnZPTkzZ3I'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 This interface uses the Resonance cloud interface to import results from the audiometer to {{% system-name %}}.
 

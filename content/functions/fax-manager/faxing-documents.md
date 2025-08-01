@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'outbound-faxing-email-notifications-of-sent-failed-faxes.md'
 source: 'https://drive.google.com/open?id=1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 ## Fax or Print an Individual Document from Chart
 

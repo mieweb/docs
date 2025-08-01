@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EHSRSPV&old_module=Email&old_name=Pat+HS+Reminder+to+Spv&active=0'
 source: 'https://drive.google.com/open?id=1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EHSRSPV&old_module=Email&old_name=Pat+HS+Reminder+to+Spv&active=0), as needed.

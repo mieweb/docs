@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The Quick View side menu offers various summary portlets that are used as a quick reference, to view modules and data in the {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.
 

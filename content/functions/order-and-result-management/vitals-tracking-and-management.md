@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOQHRKMF'
 source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vital Signs layout allows {{% system-name %}} users to view and add measurements of a patient's essential body functions. Whether it is from within the Vitals chart tab or within the patient's encounter, the body's most basic functions can be measured and recorded, quickly and easily.
 

@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Encounter section heading names can be renamed to be something different than the out of the box product displays.  Sections (when renamed) on an encounter would then display as such on the date entry encounter side, the encounter view side, and the encounter stored document (once the encounter is closed & archived).
 

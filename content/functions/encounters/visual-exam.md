@@ -10,7 +10,7 @@ links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The Visual Exam encounter section is found within the Objective area of an encounter.  The Physical Exam encounter section can be toggled to be a Visual Exam encounter section (and vice versa).
 

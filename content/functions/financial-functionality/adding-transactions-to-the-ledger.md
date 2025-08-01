@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'accessing-the-ledger.md'
 source: 'https://drive.google.com/open?id=1VuohA2vzHB3mq7i4j-79u8d7CF6ZUDi5LtoUhM0w5Yk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 1. [Access the ledger](accessing-the-ledger.md).
 2. Select <strong>Add Transaction</strong> button. The <em>Add Transaction</em> window appears.

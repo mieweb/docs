@@ -11,7 +11,7 @@ links:
   - '../../functions/system-administration/security/my-settings.md'
   - '../../functions/system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=14cjYMBfnZUbxg9D9hYYkg938x50UzNfG-l0SYmkmG4Y'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 ## Agenda
 

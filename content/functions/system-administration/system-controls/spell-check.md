@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AZLHRKMF'
 source: 'https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 {{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.
 

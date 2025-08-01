@@ -6,7 +6,7 @@ version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=14D4jugRUV60ZlpKzbFhIJtsqz_dnwy15jlyn66sUvxM'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 You can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top.
 

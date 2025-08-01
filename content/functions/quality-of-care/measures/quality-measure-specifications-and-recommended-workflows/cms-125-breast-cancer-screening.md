@@ -12,7 +12,7 @@ links:
   - '../../../document-management/scanning-and-indexing.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms125v10'
 source: 'https://drive.google.com/open?id=1zRb6sMWOXB4U1PqYWAwJhixvIaeGsAPINYdcvedUPHk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 ## Overview
 

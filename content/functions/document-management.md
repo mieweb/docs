@@ -11,7 +11,7 @@ links:
   - 'document-management/printing-and-print-definitions.md'
   - 'document-management/imaging.md'
 source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Document Management is an essential component of the {{% system-name %}} EHR portfolio. With our document management solutions, clients will experience the conveniences of easy chart access, anywhere, anytime, as well as hassle-free interoperability and integrated workflows, intended to streamline operations and communication.
 

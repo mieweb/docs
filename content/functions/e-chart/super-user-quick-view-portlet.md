@@ -19,7 +19,7 @@ links:
   - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://system/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 If you are a superuser and need access to view or edit the following areas of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) sidemenu, you will need additional security access to do so.
 

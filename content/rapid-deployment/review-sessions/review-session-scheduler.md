@@ -30,7 +30,7 @@ links:
   - '../../functions/scheduling/schedule-management.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447'
 source: 'https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 ## Agenda
 

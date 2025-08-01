@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
 

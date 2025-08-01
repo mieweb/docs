@@ -15,7 +15,7 @@ links:
   - 'delete-move-lock-documents.md'
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
 source: 'https://drive.google.com/open?id=1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Every document contains metadata that identifies the document or describes the data of the document. These details are found in the document properties. The document properties accessed by clicking the **Properties** link, found in the upper-right corner of the stored document.
 

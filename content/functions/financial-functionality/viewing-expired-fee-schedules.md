@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13Vqoc-fzNNDUkmHn6m-JNdEv9i0jiTh96DmBiJD1TW8'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 By default, the system displays fee schedules that expire within 90 days from the current date. Therefore, when initially viewing expired fee schedules, a fee schedule currently in effect may appear.

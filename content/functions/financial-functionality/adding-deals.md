@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 A Deal is created on an Employer Organization chart.
 

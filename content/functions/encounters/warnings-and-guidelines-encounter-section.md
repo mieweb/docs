@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../e-chart/alerts-tab-warnings.md'
 source: 'https://drive.google.com/open?id=1ulcCUTSXD3HAw1B-OOjsCkOGqe1qhIrZUyFSctcEONs'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 When working in any encounter, there is a *Warnings and Guidelines* encounter section available.  By default, this lists all presenting warnings and guidelines for the specific chart in a summary format. The presenting warnings & guidelines alerts are current for the chart as of today's logged in date, that have not been dismissed.  This section is for visibility purposes to quickly see any warnings or guideline alerts a chart has when working in an encounter exam.
 

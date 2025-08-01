@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jGaWi0ayC4q75S9sLJlcEXPLSouwWi20S_zAlYD979s'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 MIE must first turn on the ability to transfer Olympus DS-330 dictation if you are using Olympus mikes. If you are using SpeechMikes, please see other help documentation named *SpeechMike Dictation*.
 

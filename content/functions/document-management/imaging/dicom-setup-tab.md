@@ -12,7 +12,7 @@ links:
   - 'https://system/?f=dicom&s=app_entities&opp=add'
   - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
 

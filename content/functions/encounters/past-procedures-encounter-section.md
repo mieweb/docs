@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Within an encounter's Subjective section, there is an optional **Past Procedures** encounter section that can be utilized.   If the chart has any known past procedures, the procedure will display in a bulleted list on the left hand side of the encounter section. The procedure name will display first, along with the date of the procedure if it was documented. Any notes added on the procedure will display after the date. Hover over the procedure name to display additional options.
 

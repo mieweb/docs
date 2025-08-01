@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 An optional encounter section is available named E&M Calculator. The section includes items contents to help calculate a billing code using E& M Calculator (Evaluation & Management).
 

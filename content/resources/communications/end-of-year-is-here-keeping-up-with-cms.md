@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/mips/mips-value-pathways'
   - '../communications.md'
 source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 It is that time of year, again! Quality reporting is upon us, and {{% system-name %}} wants to keep you informed of the basics:
 

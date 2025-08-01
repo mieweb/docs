@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../injury-care/viewing-restrictions.md'
 source: 'https://drive.google.com/open?id=16JBWvGb7bIvJC1fcMrJduxDVD_3aKK-tOr_UL5ix93w'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 When working in any encounter, there is a *Presenting Restrictions* encounter section available.  By default, this lists all presenting restrictions along with any accommodations in a summary format. The presenting restrictions displayed are active, current restrictions that are valid as of today's logged in date.  This section is for visibility purposes to quickly see any active restrictions a chart has when working in an encounter exam.
 

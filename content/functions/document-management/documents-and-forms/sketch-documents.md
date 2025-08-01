@@ -11,7 +11,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZAQDNHRK'
 source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 The  {{% system-name %}} system is designed to allow sketches to be uploaded as documents into charts, as needed. A user can sketch on a blank background or over a templated background image, and then immediately upload the image to the chart. This is particularly useful when documenting an area of an injury and a visual representation provides added context to the documentation.
 

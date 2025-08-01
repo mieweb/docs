@@ -11,7 +11,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
 source: 'https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Within the immunization/injections module is the ability to manage Allergy Vials and Allergy Injections administered from those vials.
 
