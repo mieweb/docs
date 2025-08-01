@@ -1,9 +1,9 @@
 ---
 id: '1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
 title: 'Tracking Notes'
-date: '2025-07-02T17:51:07.716Z'
-version: 58
-lastAuthor: 'anichols'
+date: '2025-08-01T18:40:20.340Z'
+version: 70
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../system-configuration/macros.md'
@@ -22,7 +22,11 @@ To key in notes into the Tracking Notes section, simply click anywhere in its gr
 
 ## Macros Tracking Notes - General Notes
 
-Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input.  At least one macro must be configured for the Tracking Notes section for the Macros rightside area to appear and be utilized.
+Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input. To add Macros, the security setting Use Macros needs to be set to Yes.
+
+![](../tracking-notes.assets/060e96c0c0458280d937b27f344752e5.png)
+
+At least one macro must be configured for the Tracking Notes section for the Macros rightside area to appear and be utilized.
 
 ![](../tracking-notes.assets/1baf403e65cde0ad67ea0bae87be7350.png)
 
@@ -30,7 +34,11 @@ For additional information on configuring and utilizing macros that can be utili
 
 ## Macros Tracking Notes - Case Management Notes
 
-The Tracking Notes encounter section of a Case Management encounter are Case Management Notes and also offer Macros as a way to quickly insert predefined text with minimal user input.  At least one macro must be configured for the Case Management Notes section for the Macros rightside area to appear and be utilized.
+The Tracking Notes encounter section of a Case Management encounter are Case Management Notes and also offer Macros as a way to quickly insert predefined text with minimal user input. To add Macros, the security setting Use Macros needs to be set to Yes.
+
+![](../tracking-notes.assets/060e96c0c0458280d937b27f344752e5.png)
+
+At least one macro must be configured for the Case Management Notes section for the Macros rightside area to appear and be utilized.
 
 ![](../tracking-notes.assets/343faa5d7f44c74e09273c4e4af52f5e.png)
 
