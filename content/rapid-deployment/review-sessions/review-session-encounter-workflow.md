@@ -2,7 +2,7 @@
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
 date: '2025-04-07T17:39:15.605Z'
-version: 429
+version: 431
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -29,7 +29,7 @@ links:
   - '../../functions/encounters/archiving-closing-re-archiving-encounters.md'
   - '../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md'
   - '../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md'
-  - '../../functions/encounters/encounters-impression-section.md'
+  - '../../functions/encounters/symptoms-diagnosis-encounter-section.md'
   - '../../functions/encounters/encounters-labs-results-section.md'
   - '../../functions/system-configuration/encounters-protocol-configuration-and-programming.md'
   - '../../functions/encounters/encounter-protocols.md'
@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -346,7 +346,7 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 * [Encounters-Archiving-Closing-ReArchiving](../../functions/encounters/archiving-closing-re-archiving-encounters.md)
 * [Encounters-Closing Dictation](../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md)
 * [Encounters-Editing Dictation](../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md)
-* [Encounters-Impression Section](../../functions/encounters/encounters-impression-section.md)
+* [Encounters-Impression Section](../../functions/encounters/symptoms-diagnosis-encounter-section.md)
 * [Encounters-Labs Results Section](../../functions/encounters/encounters-labs-results-section.md)
 * [Encounters-Protocol Configuration-Programming](../../functions/system-configuration/encounters-protocol-configuration-and-programming.md)
 * [Encounters-Protocols](../../functions/encounters/encounter-protocols.md)
