@@ -1,8 +1,8 @@
 ---
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
-date: '2025-02-17T14:51:29.826Z'
-version: 717
+date: '2025-08-04T13:20:25.863Z'
+version: 736
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,14 +10,14 @@ links:
   - 'https://drive.google.com/open?id=1kdoY2-_e0I-ST4fa9LVuAdTRmAZ9nByq8vs3JFb5w4s'
   - '../../functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
   - '../../functions/portal-management/linking-users-for-portal-access.md'
-  - '../../functions/portal-management/employer-portal-setup.md'
+  - '../../functions/portal-management/supervisor-portal-setup.md'
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://employee-mie.talentlms.com/catalog/info/id:165'
   - 'https://employee-mie.talentlms.com/catalog/info/id:436'
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -90,7 +90,7 @@ The pre-placement health surveillance panel (without membership) may be triggere
 
 #### Check-in
 
-The applicant will bring copies of all questionnaires and paperwork completed on the portal to the appointment. Front desk staff will mark the appointment as checked in and scan pre-placement documents into the system if needed. A pre-placement encounter is automatically initiated when the employee checkin in and the system tracks the amount of time sprint in the clinic for this visit. A pre-placement encounter may also be created manually for walk-in visits.
+The applicant will bring copies of all questionnaires and paperwork completed on the portal to the appointment. Front desk staff will mark the appointment as checked in and scan pre-placement documents into the system if needed. A pre-placement encounter is automatically initiated when the employee checks in and the system tracks the amount of time spent in the clinic for this visit. A pre-placement encounter may also be created manually for walk-in visits.
 
 #### Pre-placement Exam - Intake
 
@@ -173,7 +173,7 @@ By default, any {{% system-name %}} user with the necessary user-patient relatio
 
 The **Portal** section includes options to make label and verbiage changes, to update the logo, to disable either the employee or supervisor portal, and to add a consent form that would need to be electronically signed before being granted access to the portal.
 
-Some of the options needing to be customized or addressed include
+Some of the options needing to be customized or addressed include:
 
 * <strong>Replacement text for Enterprise Health</strong>: This field is used to replace the <em>Enterprise Health</em> label with the provided text. The replacement text should be the business name.
 * <strong>Logo - Upload new logo</strong>: Click the <em>Upload new logo</em> link to replace the default logo. The page will refresh after confirming the image selection.
@@ -227,7 +227,7 @@ This is the opportunity to go into the listed chart(s) and fix that via edit dem
 
 ![](../review-session-pre-placement.assets/6238ce4791c029a3ae959468bd02e54a.png)
 
-In the the edit demographics screen, checkmark the *Is Applicant* box and click Save to save your work.
+In the edit demographics screen, checkmark the *Is Applicant* box and click Save to save your work.
 
 ![](../review-session-pre-placement.assets/4a84dee27538245b46dc8dc6266bf621.png)
 
@@ -235,7 +235,7 @@ In the the edit demographics screen, checkmark the *Is Applicant* box and click 
 
 1. Determine the abbreviation that will be used for the applicant partition (APP is the default)
 2. Review applicant portal setup and collect all consent and questionnaires that are needed
-3. Determine which registration fields are needed on the applicant portal (choices are name, DOB,  SSN, email, or mobile phone number)
+3. Determine which registration fields are needed on the applicant portal (choices are name, DOB, SSN, email, or mobile phone number)
 4. Determine whether online scheduling is needed on the applicant portal (determines whether the no login portal may be used vs using pick-up codes)
 5. Determine whether HR/Talent needs the ability to schedule appointments for applicants (determine whether they will need a license to have a restricted login to the clinical side for registration and scheduling vs the supervisor portal for reporting only)
 6. Determine the criteria for tasking notifications for applicants and which department should be notified (are different departments needed by location?)
@@ -258,7 +258,7 @@ In the the edit demographics screen, checkmark the *Is Applicant* box and click 
 
 * [Linking Users for Portal Access](../../functions/portal-management/linking-users-for-portal-access.md)
 * [Patient Portal Setup](../../functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-* [Employer Portal Setup](../../functions/portal-management/employer-portal-setup.md)
+* [Employer Portal Setup](../../functions/portal-management/supervisor-portal-setup.md)
 * [Employer-Employee Second Portal Setup](../../functions/portal-management/employer-employee-second-portal-setup.md)
 
 ### LMS Courses/Videos
