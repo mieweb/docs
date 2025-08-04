@@ -1,13 +1,13 @@
 ---
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
-date: '2025-02-12T17:02:46.167Z'
-version: 1070
-lastAuthor: 'anichols'
+date: '2025-08-01T12:38:52.559Z'
+version: 1083
+lastAuthor: 'dcornewell'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 This documentation applies to writing a system report in the system report writer as well as in layouts with a query in an {{#each}} statement or the legacy <WCQUERY> tag. For our customers with ODBC connections, this document is a good primer for understanding key parts of the schema.
 
@@ -147,17 +147,21 @@ WHERE d.service_date>=DATE_SUB(CURDATE(), INTERVAL 1 WEEK) AND d.storage_type=15
 GROUP BY d.doc_id
 ```
 
-This is an example of how we store a lab result and also questionnaires
+### Lab results and Questionnaires![](../system-report-writing.assets/321ee2dfe50da2239747e04b9861c2fa.png)
+
+Both lab results and answers to questions on a questionnaire store
+
+as a document with storage_type=13.
+
+This is an example of how we query a lab result / questionnaire
 ```
 SELECT d.doc_id,o.obs_name,o.obs_result,o.obs_range,o.obs_units,o.obs_flag,
 o.free_text,o.test_comments
-
 FROM documents d
 INNER JOIN lab_requests lr ON lr.doc_id=d.doc_id
 INNER JOIN observations o ON o.request_id=lr.request_id
 WHERE d.storage_type=13
 AND d.service_date>=DATE_SUB(CURDATE(), INTERVAL 1 WEEK)
-
 ```
 
 ## Locations
