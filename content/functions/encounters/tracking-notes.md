@@ -1,9 +1,9 @@
 ---
 id: '1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
 title: 'Tracking Notes'
-date: '2025-08-01T18:40:20.340Z'
-version: 70
-lastAuthor: 'janderson'
+date: '2025-08-04T13:08:41.161Z'
+version: 77
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../system-configuration/macros.md'
@@ -22,7 +22,7 @@ To key in notes into the Tracking Notes section, simply click anywhere in its gr
 
 ## Macros Tracking Notes - General Notes
 
-Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input. To add Macros, the security setting Use Macros needs to be set to Yes.
+Macros offered in the Tracking Notes encounter section are a way to quickly insert predefined text with minimal user input. To utilize macros, users must have the security setting Use Macros set to Yes. If set to No, users will not be able to utilize macros.
 
 ![](../tracking-notes.assets/060e96c0c0458280d937b27f344752e5.png)
 
