@@ -18,11 +18,11 @@ links:
   - 'https://system/?f=chart&s=pat&t=Employer+Portal&v=dashboard&pat_id=41'
   - 'https://drive.google.com/open?id=1W8gXhKK-ETBkdynNZHQxNUg6EL3X9Zn_qUKB8QGy0rA'
   - '../../functions/portal-management/linking-users-for-portal-access.md'
-  - '../../functions/portal-management/employer-portal-setup.md'
+  - '../../functions/portal-management/supervisor-portal-setup.md'
   - '../../functions/portal-management/employer-employee-second-portal-setup.md'
   - 'https://mie.talentlms.com/unit/view/id:2687'
 source: 'https://drive.google.com/open?id=1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -395,7 +395,7 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 
 * [Linking Users for Portal Access](../../functions/portal-management/linking-users-for-portal-access.md)
 * [Patient Portal Setup](../../functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-* [Employer Portal Setup](../../functions/portal-management/employer-portal-setup.md)
+* [Employer Portal Setup](../../functions/portal-management/supervisor-portal-setup.md)
 * [Employer-Employee Second Portal Setup](../../functions/portal-management/employer-employee-second-portal-setup.md)
 
 **LMS Courses/Videos**
