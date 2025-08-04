@@ -1,21 +1,21 @@
 ---
 id: '1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
 title: 'E-Refills - My Pending Refills Tab'
-date: '2020-03-16T11:48:41.502Z'
-version: 65
-lastAuthor: ''
+date: '2025-07-22T18:32:09.308Z'
+version: 79
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 In order for you to receive e-refill requests from pharmacies in this queue, you must be a verified E-Prescriber by MIE and SureScripts and have had the box *Receive Refill Requests* check-marked in your {{% system-name %}} username screen (see other help documentation named *Setting up E-Prescriber.pdf)*. You will not receive incoming electronic refill requests from pharmacies (that are capable to do so) if you do not have that feature check-marked in your username screen. You do not have to receive refill requests electronically in {{% system-name %}} . You can continue to receive them by fax or phone calls as you currently do. However, if you have check-marked that you want to receive refill requests electronically, once MIE and SureScripts verifies your information, you will then receive electronic refill requests via this queue in {{% system-name %}} .
 
-E-Refill requests are electronic refill transmission requests from the pharmacy to you, the certified e-prescriber via {{% system-name %}} /SureScripts. You will see any pending e-refill requests from a pharmacy to you in the E-REFILLS alert bar at the top of your screen.
+E-Refill requests are electronic refill transmission requests from the pharmacy to you, the certified e-prescriber via {{% system-name %}} /SureScripts. You will see any pending e-refill requests from a pharmacy to you in the **E-Rx** alert bar at the top of your screen.
 
-If you are a certified e-prescriber, you will notice any incoming e-refill requests in the top of your screen view. It will show the **E-Refills** alert at the top, along with the number of e-refill requests to you. These are your personal incoming e-refill requests specific to you, the specific logged in user/certified e-prescriber. These are you pending refill requests to work on.
+If you are a certified e-prescriber, you will notice any incoming e-refill requests in the top of your screen view. It will show the **E-Rx** alert at the top, along with the number of e-refill requests to you. These are your personal incoming e-refill requests specific to you, the specific logged in user/certified e-prescriber. These are your pending refill requests to work on.
 
-![](../e-refills-my-pending-refills-tab.assets/e07f73db629eb4776fa02d1b7bf6b738.png)
+![](../e-refills-my-pending-refills-tab.assets/7d7c65023a28106522569d2f7ec54e65.png)
 
 When you receive a refill request, SureScripts has a requirement that you must respond and work each request within 48 hours. Pharmacies, as a general rule, will expect your reply to a request for refill within 24 hours, barring holidays and weekends. If they do not see a response within that time, they may send additional requests. By checking consistently and frequently for refill requests, designated staff can respond to the pharmacy promptly, thereby minimizing the chance of pharmacists making the same request multiple times (your staff will also become more adept at getting value from the system through frequent usage). Also, Prescribers must respond electronically to refill requests within 48 hours. A later response or lack of response will result in an increase in faxes and calls from pharmacies to prescribers. If you don't consistently respond within the 48 hour timeframe, SureScripts may disable/disconnect your ability to receive future e-refill (electronic refill) requests if a pharmacy lodges a complaint.
 
@@ -31,17 +31,17 @@ The security setting for being able to work on incoming e-refill requests across
 
 If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would have to go into E-Chart sidemenu tab and go into the E-Rx tab at the top. If you have security permission to manage e-rx refills for others, this is where you would find those pending refills to work on. The ALL E-REFILLS TAB is where you go to work those (see other help instructions named *E-Refills-ALL E-REFILLS tab.pdf*).
 
-![](../e-refills-my-pending-refills-tab.assets/1c26e9b801f608ea49b7b1a462e5e9be.png)
+![](../e-refills-my-pending-refills-tab.assets/07981e9151026898d6e2c649a593f825.png)
 
 ### E-Refills Alert Bar
 
 A certified e-Prescriber will see their incoming e-refills alerts at the top of any screen in {{% system-name %}} .
 
-You can click on this alert E-Refills link and it will take you directly to your pending electronic refill requests to work on.
+You can click on this alert E-Rx link and it will take you directly to your pending electronic refill requests to work on.
 
-![](../e-refills-my-pending-refills-tab.assets/e07f73db629eb4776fa02d1b7bf6b738.png)
+![](../e-refills-my-pending-refills-tab.assets/7d7c65023a28106522569d2f7ec54e65.png)
 
-Upon clicking the E-Refills link in the top alert bar, it directly opens you to the tab named **MY PENDING E-REFILLS**. These are your personal pending e-refill (electronic refill) requests from pharmacies that have come in for you.
+Upon clicking the E-Rx link in the top alert bar, it directly opens you to the tab named **MY PENDING E-REFILLS**. These are your personal pending e-refill (electronic refill) requests from pharmacies that have come in for you.
 
 ## My Pending E-Refills Tab
 
