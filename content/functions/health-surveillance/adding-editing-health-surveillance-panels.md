@@ -7,11 +7,11 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'health-surveillance-panels-actions.md'
-  - '../system-configuration/work-locations-tab-work-regions.md'
+  - '../system-configuration/work-locations-tab.md'
   - 'health-surveillance-matrix-descriptions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 Users must have security access to be in the Health Surveillance Panel editor. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, find (in the listing) *Health Surveillance* **or** click the HSP tab at the top menu of tabs.
 
@@ -83,7 +83,7 @@ The search results will display below columns on the screen for each panel:
         * If you don't see the procedure/test/order item selectable in the auto-complete field, then it wasn't added to the system and doesn't currently exist in the Orders-List Editor.
     * <strong>Encounter:</strong> If the event type of <strong>Encounter</strong> is selected (albeit rarely used), then use the drop-down field below it to select the specific encounter type that should be created and opened automatically when the HSPanel triggers as the specific panel action.
         * Selecting an encounter event type may not be applicable to a Panel Action or even desired functionality by the client. The workflow should be defined clearly if Encounter is selected.
-* <strong>Work Regions:</strong> This field is where you set one or more work regions to limit this panel to. This field will only show if you have system setting "Use Work Regions" enabled and have work regions manager tab configured in your system set up.  Setting work regions would be for clients who have different panels for employees in other regions of the world.  It helps you limit the visibility of panel choices in the panel membership and the panels search for other users in the system. See other help documentation titled [Work Locations Tab-Work Regions](../system-configuration/work-locations-tab-work-regions.md).
+* <strong>Work Regions:</strong> This field is where you set one or more work regions to limit this panel to. This field will only show if you have system setting "Use Work Regions" enabled and have work regions manager tab configured in your system set up.  Setting work regions would be for clients who have different panels for employees in other regions of the world.  It helps you limit the visibility of panel choices in the panel membership and the panels search for other users in the system. See other help documentation titled [Work Locations Tab-Work Regions](../system-configuration/work-locations-tab.md).
 * <strong>Open Membership:</strong> Selecting this causes this panel to display on the Panel Membership Overview of a chart, whether the chart is a current member or not of that panel.
 * <strong>Restricted:</strong> Selecting this indicates managing this HSPanel's membership will be limited to specific users and/or departments. Only permitted/allowed users/ departments are the ones allowed to add employees/charts to be members of the panel and create membership rules for it.
 * <strong>Comments:</strong> These are comments for/on the main panel level. These are displayed as <em>Health Surveillance Comments</em> in a section of the Due List chart tab and in Tests/Procedures section of dynamic encounters. These comments may include instructions on the ‘panel level' that may be useful for staff to see.
