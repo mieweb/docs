@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-07-31T13:50:20.455Z'
-version: 1673
-lastAuthor: 'janderson'
+date: '2025-08-04T11:54:05.775Z'
+version: 1681
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -791,7 +791,6 @@ links:
   - 'resources/intro-to-the-system.md'
   - 'resources/intro-to-the-system/system-anatomy.md'
   - 'videos-and-demonstrations.md'
-  - 'https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
@@ -1582,4 +1581,3 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
     * [Intro to the System](resources/intro-to-the-system.md)
         * [System Anatomy](resources/intro-to-the-system/system-anatomy.md)
 * [Videos & Demonstrations](videos-and-demonstrations.md)
-* [Contributing](https://drive.google.com/open?id=1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-)
