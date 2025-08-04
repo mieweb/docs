@@ -2,7 +2,7 @@
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
 date: '2025-03-21T12:23:32.561Z'
-version: 660
+version: 663
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -14,12 +14,12 @@ links:
   - '../system-administration/data-migration/panel-membership-import-tool.md'
   - 'health-surveillance-panels-add-memberships-manually.md'
   - 'panel-action-evaluator.md'
-  - '../system-configuration/work-locations-tab-work-regions.md'
+  - '../system-configuration/work-locations-tab.md'
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 markup: 'pandoc'
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
@@ -139,7 +139,7 @@ Otherwise, users may add panels manually, completing the following fields, accor
 
 * <strong>Panel</strong>: Required. This is the abbreviated, unique name of the panel. This field cannot be modified once saved.
 * <strong>Full name</strong>: Required. This is the full name/description of the panel; usually the same as the Panel field, but it may be different. The full name will be displayed for this panel in listings and dialogues throughout the system.
-* <strong>Work Regions</strong>: This field is used to set one or more work regions to which the panel is to be limited. This field will only show if the Use Work Regions system setting is enabled and the Work Regions manager tab is configured in the system. Setting work regions would be for clients who have different panels for charts in other regions of the world. This functionality assists with searching for other users within the system, as well as limiting the visibility of panel choices in panel membership. See the [Work Regions-Work Locations Tab](../system-configuration/work-locations-tab-work-regions.md) documentation for more information.
+* <strong>Work Regions</strong>: This field is used to set one or more work regions to which the panel is to be limited. This field will only show if the Use Work Regions system setting is enabled and the Work Regions manager tab is configured in the system. Setting work regions would be for clients who have different panels for charts in other regions of the world. This functionality assists with searching for other users within the system, as well as limiting the visibility of panel choices in panel membership. See the [Work Regions-Work Locations Tab](../system-configuration/work-locations-tab.md) documentation for more information.
 * <strong>Description</strong>: Free text field. This field may be as descriptive as necessary. Displays any length of text providing any helpful information to explain the panel, what the panel is for, who is to be included in it, etc.
 * <strong>Regulatory Source</strong>: Use this field to add the regulatory source/group that has issued a requirement for these actions to be done. This is a free text field; however  will remember prior sources entered in the system.
 * <strong>Regulatory Reference</strong>: Use this field to provide an identifier, or number that identified the regulation or rule being tracked (e.g., the OSHA code used to support the order items required for surveillance); otherwise, this field may be left blank/no data.
