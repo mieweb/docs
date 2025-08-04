@@ -47,7 +47,7 @@ links:
   - 'review-sessions/review-session-health-surveillance.md'
   - '../functions/health-surveillance/introduction-to-health-surveillance-panels.md'
   - '../functions/health-surveillance/panel-action-evaluator.md'
-  - '../functions/system-configuration/work-locations-tab-work-regions.md'
+  - '../functions/system-configuration/work-locations-tab.md'
   - 'review-sessions/review-session-order-and-result-management.md'
   - '../functions/order-and-result-management/e-orders-chart-tab.md'
   - 'review-sessions/review-session-medication-management-electronic-prescribing.md'
@@ -73,7 +73,7 @@ links:
   - '../functions/system-administration/security/security-role-settings.md'
   - '../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
 source: 'https://drive.google.com/open?id=1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
 ## Project Initiation
 
@@ -214,7 +214,7 @@ wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
     * Scheduling
     * Questionnaires
     * Email Templates/Notifications
-    * [Work Locations/Work Sites/Regions](../functions/system-configuration/work-locations-tab-work-regions.md)
+    * [Work Locations/Work Sites/Regions](../functions/system-configuration/work-locations-tab.md)
 * [Order and Result Management](review-sessions/review-session-order-and-result-management.md)
     * Review Session Demonstration
     * [Order Items](../functions/order-and-result-management/e-orders-chart-tab.md)
