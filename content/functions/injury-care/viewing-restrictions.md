@@ -1,8 +1,8 @@
 ---
 id: '1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
 title: 'Viewing Restrictions'
-date: '2024-11-19T19:12:18.828Z'
-version: 174
+date: '2025-08-05T17:59:18.532Z'
+version: 180
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ Security permission **Manage Restr and Accom** allows a user to manage restricti
 
 ![](../viewing-restrictions.assets/60140c574ab7a6e73a97e879234d1109.png)
 
-Based on your permission, you may or may not have restrictions/accommodations listings visible or you may or may not be able to add or edit existing or new restrictions/accommodations for a chart.
+Based on your permission, you may or may not have restrictions/accommodations listings visible or you may or may not be able to view, add or edit existing or new restrictions/accommodations for a chart.
 
 ![](../viewing-restrictions.assets/ecd3ede4ae2d53e7c2db7301c3c2f454.png)
 
