@@ -1,8 +1,8 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2025-08-06T17:22:23.390Z'
-version: 206
+date: '2025-08-06T18:04:21.491Z'
+version: 210
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -125,11 +125,7 @@ Using the *Print* window that opens, select your printer and click Print. Once t
 
 To reprint a label, click the label link provided in any listing or after successfully inserting the order.
 
-It will automatically print the label to your printer.
-
-![](../e-orders-chart-tab.assets/e6ac43861dcb815608a5c61523c0eafa.png)
-
-Labels can also be performed from the list of standing orders for the patient (in orders module)
+Labels can also be performed from the list of standing orders for the patient (in order requests module)
 
 ![](../e-orders-chart-tab.assets/589021353c7d7d8c048bb64f48490ac9.png)
 
