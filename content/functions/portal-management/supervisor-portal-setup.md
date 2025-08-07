@@ -1,8 +1,8 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Supervisor Portal Setup'
-date: '2025-07-16T13:36:31.708Z'
-version: 475
+date: '2025-08-07T18:47:34.699Z'
+version: 488
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -125,6 +125,18 @@ The EJTA module can be updated with a more specific name, as well as any employe
 2. <strong>Specify EJTA document type</strong>: Specify the document type to be used for EJTA.
 3. <strong>Specify EJTA employee approved task template name</strong>: Use the drop-down to select the appropriate employee-approved task template to be associated with the module.
 
+#### Questionnaire Link 1
+
+It is not recommended for use in databases on RC202503. Opt to use the Message Center - Send a Message feature instead. If utilized in databases on RC202503, the questionnaires utilized should be non-patient/non-employee specific.
+
+#### Questionnaire Link 2
+
+It is not recommended for use in databases on RC202503. Opt to use the Message Center - Send a Message feature instead. If utilized in databases on RC202503, the questionnaires utilized should be non-patient/non-employee specific.
+
+#### Questionnaire Link 3
+
+It is not recommended for use in databases on RC202503. Opt to use the Message Center - Send a Message feature instead. If utilized in databases on RC202503, the questionnaires utilized should be non-patient/non-employee specific.
+
 #### Reports
 
 The Reports module
@@ -206,6 +218,16 @@ The Send a Message module can have its name and header customized, the sending i
 {{% tip %}}
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
 {{% /tip %}}
+
+![](../supervisor-portal-setup.assets/2ac5c4427f4680b2abbd0d0806354722.png)
+
+{{% note %}}
+Supervisor Message Types are Questionnaire ORDERS. The list of available message types are configured in the *Orders-Pick Builder* *Supervisor Messages* picklist. Once the orders picklist has been configured, the orders (message types) will display within the portal configuration **Send a Message** configuration portlet.
+
+
+{{% /note %}}
+
+![](../supervisor-portal-setup.assets/e29a7ac049a8b078cb0e0812c4bfc429.png)
 
 ## Adding Users & Linking to Supervisors (supported for databases on release 202503 and newer)
 
