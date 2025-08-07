@@ -1,11 +1,12 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2025-03-27T20:08:52.815Z'
-version: 135
-lastAuthor: 'auhrick'
+date: '2025-08-07T13:14:06.598Z'
+version: 144
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
@@ -13,11 +14,11 @@ You can create orders for a patient outside of being in an *encounter exam*.
 
 Click *E-Chart* on the left sidebar menu.
 
-Search for patient in *E-Chart* and open the patient's file.
+Search for a patient in *E-Chart* and open the patient's file.
 
-Click the *Orders* or *E-Orders* chart tab **or** the Add Order link when in a patient's chart.
+Click the *Order Requests* chart tab from the Medical Record tab.
 
-It most likely will default and open to the ADD ORDER module. This means it automatically would default to the screen that allows you to add an order for the patient. The other ‘view' for this module that it may default to is the RECENT orders where it lists completed and incomplete orders for the patient. You can change this default action view in MY SETTINGS. (See description of MY SETTINGS default action for Orders on the last page of this document.)
+The Order Requests module shows the recent completed and incomplete orders for the patient.
 
 ## Add Order (Legacy Screens)
 
@@ -179,20 +180,22 @@ PICKLIST order types are typically used in Vaccine Compliance, Quality Measures 
 
 If your system is set up to print a label from the e-orders submission, after saving an order and the summary page is displayed, if the system setting "Auto Print on Summary" is turned on, it will also pop up the window to print any configured labels for the order.
 
-Using the *Print* window that opens, select your printer and click OK to print. Once this software is installed and the printer has been chosen, when you click the label link provided at any future time, it will just automatically print that label to that printer.
+Using the *Print* window that opens, select your printer and click Print. Once this software is installed and the printer has been chosen, when you click the label link provided at any future time, it will just automatically print that label to that printer.
 
-![](../e-orders-add-order-requests.assets/ad2368d0cbc502b5c6229034c5e7a01d.png)
+![](../e-orders-add-order-requests.assets/e5a6fdac99a4cde764d7248dc5e5a4c7.png)
 
 To reprint a label, click the label link provided in any listing or after successfully inserting the order.
 
-It will automatically print the label to your printer.
+Labels can also be performed from the list of standing orders for the patient (in order requests module)
 
-![](../e-orders-add-order-requests.assets/e6ac43861dcb815608a5c61523c0eafa.png)
-
-Labels can also be performed from the list of standing orders for the patient (in orders module)
-
-![](../e-orders-add-order-requests.assets/fee45a2741f36220464b936bb17792d0.png)
+![](../e-orders-add-order-requests.assets/589021353c7d7d8c048bb64f48490ac9.png)
 
 Or from the "view" of the encounter at the very bottom of the order was done by *"Create xxx Order*" method from within the encounter.
 
-![](../e-orders-add-order-requests.assets/fb93abe99a7e38c643f03308113ccb88.png)
+![](../e-orders-add-order-requests.assets/8448f64e259b491a60a73cac9607f01b.png)
+
+## Learning Management System
+
+To learn more about the E-Orders Chart Tab, follow the link below to the Learning Management System course:
+
+* [Order and Result Management](https://mie.talentlms.com/shared/start/key:LATIDNHR)
