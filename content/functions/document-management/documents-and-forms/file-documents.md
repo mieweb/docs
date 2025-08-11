@@ -1,9 +1,9 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-07-15T16:30:03.169Z'
-version: 144
-lastAuthor: 'anichols'
+date: '2025-08-11T13:32:39.520Z'
+version: 149
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'word-documents-cc-physicians-feature.md'
@@ -29,7 +29,7 @@ Within the *Add Documents* screen, simply filter by File.  This will display the
 
 Within the *Add Document Properties* screen, users can signify the document details within the fields and then browse for a file to upload into the chart.
 
-![](../file-documents.assets/ff49f7cbeba2067055e8c144f14d6cad.png)
+![](../file-documents.assets/3858af51c69ac5cc525a18ca108d18bf.png)
 
 *Add Document Properties* fields:
 
