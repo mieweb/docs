@@ -654,7 +654,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-cholestech-ldx.md'
   - 'functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md'
   - 'functions/system-administration/interfaces/device-interface-ekg-system.md'
-  - 'https://drive.google.com/open?id=1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
+  - 'functions/system-administration/interfaces/device-interface-luna-audiometer-interface.md'
   - 'functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md'
   - 'functions/system-administration/interfaces/device-interface-portacount-fitpro-ultra.md'
   - 'functions/system-administration/interfaces/device-interface-pft-system.md'
@@ -1443,7 +1443,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
             * [Device Interface - Cholestech LDX](functions/system-administration/interfaces/device-interface-cholestech-ldx.md)
             * [Device Interface - Clinitek Status+Analyzer](functions/system-administration/interfaces/device-interface-clinitek-statusurine-analyzer.md)
             * [Device Interface - EKG System](functions/system-administration/interfaces/device-interface-ekg-system.md)
-            * [Device Interface - Luna Audiometer Interface](https://drive.google.com/open?id=1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8)
+            * [Device Interface - Luna Audiometer Interface](functions/system-administration/interfaces/device-interface-luna-audiometer-interface.md)
             * [Device Interface - NDD EasyOne Connect vbase](functions/system-administration/interfaces/device-interface-ndd-easyone-connect-vbase.md)
             * [Device Interface - PortaCount FitPro](functions/system-administration/interfaces/device-interface-portacount-fitpro-ultra.md)
             * [Device Interface - PFT System](functions/system-administration/interfaces/device-interface-pft-system.md)
