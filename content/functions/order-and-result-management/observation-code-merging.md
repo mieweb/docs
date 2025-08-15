@@ -1,8 +1,8 @@
 ---
 id: '17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
 title: 'Observation Code Merging'
-date: '2024-07-11T19:11:50.849Z'
-version: 78
+date: '2025-08-15T15:05:00.034Z'
+version: 98
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -14,11 +14,11 @@ Must have security permission to access observations code manager and to merge t
 
 Look to see which is the most commonly used code. Either clicking on the obs code value or ‘View' gives the observation count. Find the one used the most. Summary: whatever you want to merge, you simply click ‘Merge' on the code you're eliminating, and then enter the obs code number that you want it to become in the ‘Destination' box.
 
-Click on the Control sidetab menu.
+Click on the Control Panel sidetab menu.
 
-Click on the Observation Codes tab at the top.
+Click on the Observation Codes tab under the Chart tab at the top.
 
-![](../observation-code-merging.assets/a17c58c59957d7e6132ee9f031760103.png)
+![](../observation-code-merging.assets/6f697c5c8800540d5dc7983cc255fc20.png)
 
 You can search as you wish, but we recommend that in the Criteria search field, choose the **Contains** option by using the drop-down.
 
@@ -28,17 +28,17 @@ In the By field, choose **Observation Name** using the drop-down.
 
 Click on the **Go** button.
 
-![](../observation-code-merging.assets/798455e793ee1b9921266b2c6507ce80.png)
+![](../observation-code-merging.assets/46b0243d3fc5e48703133b1b095abf41.png)
 
-When merging an observation code you will want to merge from the observation code that you want to be *removed/overwritten*. For example, if want to merge observation code 792 Glucose to observation 212 glucose you will merge **from** observation 792 glucose.
+When merging an observation code you will want to merge from the observation code that you want to be *removed/overwritten*. For example, if you want to merge observation code 9983 glucose test to observation 76 Glucose you will merge **from** observation 9983 glucose.
 
-Click on the Merge option to the right of the observation you want to be removed and is to merge into the other. Using the above example, you would click merge on 792 because you will be merging it into 212. Then, 212 will be the saved/stored observation and 792 will go away.
+Click on the Merge option to the right of the observation you want to be removed and merge into the other. Using the above example, you would click merge on 9983 because you will be merging it into 76. Then, 9983 will be the saved/stored observation and 76 will go away.
 
-![](../observation-code-merging.assets/5e5df8a4846bbc478716408192f81760.png)
+![](../observation-code-merging.assets/72246b13bc3568794caf1823a1065a7b.png)
 
 You will then need to type in the Observation code number that you want to be the primary Observation code. The one you are merging this one into. The observation code typed here will be the one *saved/stored*.
 
-![](../observation-code-merging.assets/908a054abebeed77fd7afa21ef56e00a.png)
+![](../observation-code-merging.assets/ed080ba824823f41f611a8a74fd9b3bf.png)
 
 Click on the Continue button.
 
@@ -50,15 +50,13 @@ To continue the Observation code merging you must checkmark the Verify box. The 
 
 Once you have check-marked the verify box, the merge button is no longer greyed out. The Merge button becomes available and you are able to proceed with the merging. Click MERGE button to merge the observation codes. Again, please verify that you have chosen the correct observation code to merge from and into.
 
-![](../observation-code-merging.assets/6035e207b9a742ef87a6d9a0f4617ce2.png)
+![](../observation-code-merging.assets/33ed1abf7adcc750c77066461c896cf4.png)
 
-![](../observation-code-merging.assets/b29a2bd5a9054d66844b4937e52aa1aa.png)
-
-![](../observation-code-merging.assets/dc08ce092259b18321ef1104748b89ab.png)
+![](../observation-code-merging.assets/c7f510d27ae6f0a3ae72f7a479d91f30.png)
 
 You will receive confirmation of the observation code merging and you will notice that there is now only one Glucose observation.
 
-![](../observation-code-merging.assets/cd05abc55fb3b93ef0ea46fc62668d5f.png)
+![](../observation-code-merging.assets/9a6f741bce0e2a42c86d702407bd6a1d.png)
 
 When observation codes are merged, a record of the merge will be stored. The ID of the user performing the merge and the date will be stored, along with the fields of the code being merged away and the number of the new observation code.
 
