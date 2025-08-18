@@ -1,11 +1,12 @@
 ---
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
-date: '2025-06-02T13:18:56.662Z'
-version: 162
+date: '2025-08-18T13:50:35.726Z'
+version: 172
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
+  - 'panel-membership-portlet.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
@@ -132,6 +133,14 @@ There are several columns of additional information such as:
 * <strong>Imp/Exp:</strong> This will signify <em>explicit</em> if the membership is explicit. Explicit membership means a user individually (manually) identifies/puts an employee as a member of a panel. <em>Note: The |system| Panel Membership Import Tool (if used) places employee/patient into those panels as an explicit membership also.</em> Explicit membership is "sticky" meaning the membership to a panel does not automatically end when the employee changes jobs, work locations, departments, etc. if automated membership rules are in place. This will signify <em>implicit</em> if the employee/patient membership is created when an automated {{% system-name %}} panel membership rule indicates that an employee should be placed as a member of a panel.
 * <strong>User:</strong> The user initials of whom last edited/added/removed membership on the employee to this panel.
 * <strong>Reason:</strong> The free text comments that a user types to signify reason for edit/add/removal on the employee to the panel.
+
+### Panel Membership Summary Dashboard Portlet
+
+Within the Summary chart tab dashboard, there is a Panel Membership portlet available when working in an individual chart.  This portlet allows clinicians visibility of any health surveillance panels that a chart is a member of.  The subsequent *Due List* portlet also relates to panel memberships, as it shows the items (tests & procedures) that are pending as ‘due' for the chart, including those items related to their health surveillance panel memberships.
+
+![](../viewing-health-surveillance-panels-and-membership.assets/e75c64c2f0312d5a156b58f290561a38.png)
+
+For more detailed information on the Panel Membership portlet, please refer to the [Panel Membership Portlet guide](panel-membership-portlet.md).
 
 ## Learning Management System
 
