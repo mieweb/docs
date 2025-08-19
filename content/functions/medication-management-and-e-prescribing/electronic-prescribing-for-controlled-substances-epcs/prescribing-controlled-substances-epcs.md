@@ -1,8 +1,8 @@
 ---
 id: '1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
 title: 'Prescribing Controlled Substances (EPCS)'
-date: '2025-05-19T17:20:57.901Z'
-version: 153
+date: '2025-08-19T17:25:07.555Z'
+version: 158
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -102,3 +102,11 @@ For any prescriptions not automatically sent to the pharmacy, the provider may t
 Staff may view the status of Unsent prescriptions via the All Unsent Prescriptions, but they will not be able to sign or transmit prescriptions for controlled substances.
 
 ![](../prescribing-controlled-substances-epcs.assets/82e24321f017dbe40e6efb44d788f06f.png)
+
+## System Setting Allow Batch Signing
+
+As of RC202509, a new system setting "E-Chart, Meds, Allow Batch Signing" has been added. When enabled this settings allows providers to sign multiple prescriptions for multiple patients at once.
+
+![](../prescribing-controlled-substances-epcs.assets/2f3da29ddb33ef2fe5c6f9086345ab42.png)
+
+![](../prescribing-controlled-substances-epcs.assets/6486755a4d2540c0faa4882456e3b3a5.png)
