@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2025-04-14T20:40:31.122Z'
-version: 345
-lastAuthor: 'anichols'
+date: '2025-08-19T14:28:12.273Z'
+version: 354
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
@@ -173,6 +173,14 @@ Click on the Plus Sign icon or use the Past Meds Quick List to prescribe.
 Users will also be prompted with the new Prescribe Medication entry screen.
 
 ![](../prescribing-adding-medications.assets/1bb5b86e918de9440f71fe8af775dcab.png)
+
+## Medications - Do Not Expire
+
+Available in RC202409 and newer, providers can now mark the medication as "Do Not Expire" in order to prevent the medication refill from expiring. The "Use Do Not Expire" feature is available in the My Settings Experiments section and is disabled by default.  Users interested in utilizing this feature may enable this feature if desired.
+
+![](../prescribing-adding-medications.assets/868169428dc7716a3350232ebf9be7e6.png)
+
+![](../prescribing-adding-medications.assets/a46175bb0ac044386cadfc2a1ea86fc7.png)
 
 ## Prescription Samples
 
