@@ -1,9 +1,9 @@
 ---
 id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 title: 'Due List'
-date: '2025-05-12T17:06:26.121Z'
-version: 215
-lastAuthor: 'janderson'
+date: '2025-08-19T20:38:15.738Z'
+version: 223
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
@@ -244,6 +244,10 @@ Due List items that have a status other than pending or in progress, will be fou
 ![](../due-list.assets/ed603e84cf2125ee3d8c435f844b6baa.png)
 
 There is a left to right scrollable bar to see additional columns of information for each past due list item.  The section is a sortable, filterable list in grid format. For more details on how to work the DataVis grid (Data Tool), please refer to [DataVis Grids-Data Tool](../reports/using-datavis-grids-data-tools.md) documentation.
+
+Beginning, in RC202509, A comment explanation will now be inserted on orders that are automatically deleted as a result of panel membership removal. Once the orders have been deleted, the order items display in the Past Items List.
+
+![](../due-list.assets/646949c311b5e233ce7fb35dd88f5edb.png)
 
 ### Edit Items
 
