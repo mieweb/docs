@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-07-22T13:27:35.407Z'
-version: 797
+date: '2025-08-19T19:26:47.819Z'
+version: 805
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -144,6 +144,8 @@ When looking at preference choices available in the drop-down:
 * Use Datavis in Meds/Agy: If set to Disabled, the Medications/Allergies stand alone chart tab displays the legacy version of the meds/allergies listings. If Enabled, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
 * Use DataVis in E-Sign: By default, the preference is set to Disabled which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If Enabled, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
 * Use Legacy Report Page: By default, the preference is set to Disabled which displays the new report page. If Enabled, the legacy report page will be displayed instead of the new report page.
+* Use Medication Quick Notes: By default, the preference is set to Disabled. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as<strong> ‘</strong>Unknown', ‘Taking', ‘Not Taking/PRN' or ‘Discontinued'. Available in RC202409 and newer only.
+* User Do Not Expire: By default, the preference is set to Disabled. When enabled, providers are allowed to mark a prescription as ‘Do Not Expire' in order to prevent the prescription from expiring. Available in RC202409 and newer only.
 
 ### E-Chart
 
