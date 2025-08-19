@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-07-03T15:07:42.664Z'
-version: 527
-lastAuthor: 'anichols'
+date: '2025-08-19T16:57:48.548Z'
+version: 532
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
@@ -407,6 +407,12 @@ The Clinical/Visit Summary is also a standard additional view that is generated.
 The Patient Clinical Visit Summary has been updated to make it more uniform, compact, and easier to read as a handout given to the patient (or shared to the portal) on the conclusion of their visit. The updated Visit Summary uses 3 main layouts of: Clinical Summary, Vitals, & Vitals_list to populate the contents.
 
 ![](../working-in-a-visit-encounter.assets/b9afe047a4eb6cc49c710affdbd3d417.png)
+
+## Save Encounter Data If Logged Out
+
+Beginning in RC202403, If a user's login session expires before submitting an encounter, all entered data will now be saved/submitted as expected *once* the re-login has been completed.
+
+![](../working-in-a-visit-encounter.assets/f72968eb2150733278893a90aaf68ab5.png)
 
 ## Learning Management System
 
