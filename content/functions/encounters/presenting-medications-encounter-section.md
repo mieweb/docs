@@ -1,8 +1,8 @@
 ---
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
-date: '2025-06-26T20:26:35.146Z'
-version: 135
+date: '2025-08-19T14:08:59.692Z'
+version: 159
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -55,7 +55,7 @@ Select the X icon to remove the section from the Visit encounter. The section ca
 
 Manage existing presenting medications by hovering over the medication name. Additional tools to manage the medications will display to the right of the medication. The **My Setting** for *Show Dynamic List Options* defaults to the recommended option of "On hover". Users may force the Dynamic List Options to always display by changing this setting to "Always".
 
-![](../presenting-medications-encounter-section.assets/a8e256a8c7e47623b3a9d808139f044f.png)
+![](../presenting-medications-encounter-section.assets/537c8ac426ccd99e1380cb97d4dc289e.png)
 
 ![](../presenting-medications-encounter-section.assets/8674d2b033cc421cc5a5db5aaef67e3f.png)
 Select the open in new window icon to view the drug guide for this medication.
@@ -67,18 +67,37 @@ Select the open in new window icon to view the drug guide for this medication.
 
 ![](../presenting-medications-encounter-section.assets/431b844b713613431a585f6cef30d50c.png)
 
-![](../presenting-medications-encounter-section.assets/c347ef7a0e85a3a6be84b0a14d4cc572.png)
- Select this icon to remove a medication from the presenting medication list. Medications must be marked as **Discontinued** or as an **Entry Error** when removing a medication from the presenting medication list. Users may also *Show All Details* regarding the medication. If the medication was prescribed from the system, additional information regarding the original prescription will display.
+![](../presenting-medications-encounter-section.assets/5c2962399d602d1bd389cfcbc099ed60.png)
+The Refill button is available in databases on RC202309 and newer. Once refilled the medication will continue to display in the presenting meditations list, but it will also display in the Medication Orders encounter section for the user to send/print the prescription at the end of the visit.
 
-![](../presenting-medications-encounter-section.assets/5ad6ec47fe84cbf5487433f6af2c5262.png)
+![](../presenting-medications-encounter-section.assets/358b5f96b1fb7e6a5bdbe620ac5492ba.png)
 
 ![](../presenting-medications-encounter-section.assets/e18189ffd9129d5e4e79d40a34456451.png)
- Select this icon to add a task regarding this medication.
+Select this icon to add a task regarding this medication.
 
 ![](../presenting-medications-encounter-section.assets/27528ab1339b6d367381fe1acdd5fa22.png)
 
+![](../presenting-medications-encounter-section.assets/c347ef7a0e85a3a6be84b0a14d4cc572.png)
+ Select this icon to remove a medication from the presenting medication list. Medications must be marked as **Discontinued** or as an **Entry Error** when removing a medication from the presenting medication list. Users may also *Show All Details* regarding the medication. If the medication was prescribed from the system, additional information regarding the original prescription will display. Beginning on RC202409, when a Presenting Medication is added in the current encounter or on another encounter on the same day it is discontinued, the medication will now visually indicate that the medication was discontinued, but still continue to display on the presenting medication list.
+
+![](../presenting-medications-encounter-section.assets/5ad6ec47fe84cbf5487433f6af2c5262.png)
+
+![](../presenting-medications-encounter-section.assets/fe7a5776fe5cc2b59c28f2d6d6246605.png)
+
 ![](../presenting-medications-encounter-section.assets/9dffcd6083676f247619db51d06f769a.png)
  Select the up/down arrow icon to reorder the presenting medication list by drop and drag.
+
+## Medication Reconciliation
+
+A new My Settings user preference called "Use Medication Quick Notes" is available for users on RC202409 and newer. The experimental feature is disabled by default, but can be enabled by users wishing to utilize this feature. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as** Unknown, Taking, Not Taking/PRN or Discontinued**. When a new encounter is opened all presenting medications will display under the Unknown subsection. Users are presented with additional buttons to mark each medication as **Taking, Not Taking/PRN, Unknown**, or **Discontinued**.  As each medication is reconciled, the presenting medication will build out to display applicable subsections.
+
+![](../presenting-medications-encounter-section.assets/1545c4292ff49036a99b2586a44c4e7d.png)
+
+![](../presenting-medications-encounter-section.assets/1a09d646fcbc2942459f86ff489bfa64.png)
+
+Presenting Medications list view after marking a medication as Taking, Not Taking/PRN, Unknown or Discontinued.
+
+![](../presenting-medications-encounter-section.assets/50d4a4de55f7e17d749ee7f1583a5f48.png)
 
 ## Using the Presenting Medications Quick List
 
