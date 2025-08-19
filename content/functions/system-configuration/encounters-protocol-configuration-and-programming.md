@@ -1,8 +1,8 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2025-08-18T20:19:40.778Z'
-version: 329
+date: '2025-08-19T13:26:46.816Z'
+version: 336
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 ---
-*This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Please see other help guide named* [*Encounter Protocols*](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/)* to read on workflow usage of Protocols within a Visit Encounter.*
+*This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Review the additional help documentation for workflow usage of Protocols within the Visit Encounter. Follow the link to the documentation called* [*Encounter Protocols*](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
 
 Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 
