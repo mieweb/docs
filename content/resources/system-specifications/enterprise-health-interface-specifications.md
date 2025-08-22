@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Enterprise Health Interface Specifications'
-date: '2025-08-19T18:19:55.608Z'
-version: 4300
-lastAuthor: 'mpierzchala'
+date: '2025-08-22T20:08:45.225Z'
+version: 4307
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -153,6 +153,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Medgate/Cority
 * MUMPS (home grown Dow system)
 * OHM
+* Pure OHS
 * ReadySet
 * Sentry (home grown Lilly system)
 * Systoc
@@ -403,6 +404,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Ohio Immunization Registry (ImpactSIIS) - currently uni-directional to SIIS
 * Oklahoma Immunization Registry
 * Oregon Immunization Registry
+* Pennsylvania (PIERS) bi-directional
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * South Carolina Immunization Registry (SIMON) (inbound uni-directional)
 * Tennessee (TENNIIS) (unidirectional)
