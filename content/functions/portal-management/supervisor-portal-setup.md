@@ -2,7 +2,7 @@
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Supervisor Portal Setup'
 date: '2025-08-07T18:47:34.699Z'
-version: 488
+version: 502
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

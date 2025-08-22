@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Enterprise Health Interface Specifications'
-date: '2025-05-23T15:14:10.168Z'
-version: 4282
-lastAuthor: 'bhamm'
+date: '2025-08-19T18:19:55.608Z'
+version: 4300
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'

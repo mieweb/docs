@@ -2,7 +2,7 @@
 id: '1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
 title: 'Getting Down to Basics'
 date: '2020-02-27T20:33:05.282Z'
-version: 65
+version: 66
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit'

@@ -2,7 +2,7 @@
 id: '1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U'
 title: 'PM 3 - RHC, IHS, or FQHC Quality Improvement Activities'
 date: '2020-02-27T20:48:24.529Z'
-version: 19
+version: 21
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'

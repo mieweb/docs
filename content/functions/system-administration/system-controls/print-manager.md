@@ -2,7 +2,7 @@
 id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 title: 'Print Manager'
 date: '2025-06-23T19:23:09.659Z'
-version: 55
+version: 56
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
