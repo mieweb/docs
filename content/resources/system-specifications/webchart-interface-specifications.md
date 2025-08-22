@@ -1,8 +1,8 @@
 ---
 id: '1sTO8fOnVnhnSGfkWnaXFP0L4KUzTva8PVlPnFodoKIw'
 title: 'WebChart Interface Specifications'
-date: '2025-05-23T15:14:41.677Z'
-version: 19
+date: '2025-08-22T20:12:56.233Z'
+version: 24
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -153,6 +153,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * Medgate/Cority
 * MUMPS (home grown Dow system)
 * OHM
+* Pure OHS
 * ReadySet
 * Sentry (home grown Lilly system)
 * Systoc
@@ -403,6 +404,7 @@ Our preferred methods of transport are HTTP Post and MLLP (secure socket communi
 * Ohio Immunization Registry (ImpactSIIS) - currently uni-directional to SIIS
 * Oklahoma Immunization Registry
 * Oregon Immunization Registry
+* Pennsylvania (PIERS) bi-directional
 * Rhode Island Child and Adult Immunization Registry (RICAIR)
 * South Carolina Immunization Registry (SIMON) (inbound uni-directional)
 * Tennessee (TENNIIS) (unidirectional)
