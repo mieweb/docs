@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-08-13T19:16:59.276Z'
-version: 1706
+date: '2025-08-25T14:54:28.900Z'
+version: 1713
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -569,6 +569,7 @@ links:
   - 'functions/system-administration/system-controls/interface-manager.md'
   - 'functions/system-administration/system-controls/encounter-types.md'
   - 'functions/system-administration/system-controls/auto-routes.md'
+  - 'https://drive.google.com/open?id=1_wsrlxxeNCZJC_c-ZUajGFEEsgiZ8bpGuIo5JRwXU60'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/eh-data-migration-etl-approach.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
@@ -1358,6 +1359,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
             * [Interface Manager](functions/system-administration/system-controls/interface-manager.md)
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
+            * [System Maintenance Lockout](https://drive.google.com/open?id=1_wsrlxxeNCZJC_c-ZUajGFEEsgiZ8bpGuIo5JRwXU60)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [EH Data Migration ETL Approach](functions/system-administration/data-migration/eh-data-migration-etl-approach.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
