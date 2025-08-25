@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-07-01T19:15:16.996Z'
-version: 563
+date: '2025-08-25T14:33:22.488Z'
+version: 571
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -91,8 +91,10 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Dynamic Security Roles: Requires user to also have permission to ‘Switch Security Roles'.  Having Manage Dynamic Security Roles permission allows the user to manage the addition and removal of alternate security roles to ‘Add Allowed Roles' section of an entire security role.
 * Switch User Account: This allows the user to create a valid login session as another user.
 * Enable AI Assistant: This allows the user to utilize Artificial Intelligence by clicking the dark gray AI icon at the top right of the system.
+* Require 2FA: This setting controls whether to encourage or force users to set up 2FA (two factor authentication). This setting is available in RC202509 and newer.
+* System Maintenance: Allows users to lock the system for maintenance and access it while others are restricted. Used in conjunction with the system setting System/Maintenance/Lock. This option is only available in RC202403 and newer.
 
-### E-Chart
+**E-Chart**
 
 * Limited Access: This permission controls user access to specific patients. A user has access to a patient either through a direct relationship (such as provider to patient or supervisor to employee), or through the department they belong to (such as the nursing department to a patient). The following settings are available:
     * Yes: The user can access only the specific patients they have a direct relationship with. Relationships are defined in the setting Edit Patients Linked to User under Access Control > Edit User. If the Limited Access field is set to "Yes," it overrides the Restrict Access By Partition setting, and partition restrictions are ignored.
