@@ -752,6 +752,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
             * [Secure Email to Whitelisted Domain(s)](functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
             * [Setting Up E-Prescribers](functions/system-administration/system-controls/setting-up-e-prescribers.md)
             * [Spell Check](functions/system-administration/system-controls/spell-check.md)
+            * [System Maintenance Lockout](functions/system-administration/system-controls/system-maintenance-lockout.md)
             * [System Plugins](functions/system-administration/system-controls/system-plugins.md)
             * [System Report Writing](functions/system-administration/system-controls/system-report-writing.md)
             * [Terminated Provider Configuration Recommendations](functions/system-administration/system-controls/terminated-provider-configuration-recommendations.md)
