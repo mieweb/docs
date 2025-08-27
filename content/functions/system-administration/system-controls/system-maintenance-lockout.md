@@ -1,8 +1,8 @@
 ---
 id: '1_wsrlxxeNCZJC_c-ZUajGFEEsgiZ8bpGuIo5JRwXU60'
 title: 'System Maintenance Lockout'
-date: '2025-08-25T16:13:19.509Z'
-version: 22
+date: '2025-08-27T13:47:28.218Z'
+version: 36
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -38,3 +38,8 @@ To disable the message, return to the System Maintenance portlet (Quickview) and
 A Success message will display confirming that the system maintenance mode has been disabled.
 
 ![](../system-maintenance-lockout.assets/5e03d771dae159827af523a36896385a.png)
+
+End User Experience:  
+If users are still viewing the System Maintenance page when the setting has been disabled, the user will be notified that the maintenance is complete and provided a button to refresh their browser and either login or return to their previous logged in session.
+
+![](../system-maintenance-lockout.assets/c3c0ae9bb40b2ac9b80f82a6cceafba7.png)
