@@ -1,9 +1,9 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
-date: '2025-04-07T17:12:00.463Z'
-version: 109
-lastAuthor: 'anichols'
+date: '2025-08-27T14:00:47.146Z'
+version: 126
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
@@ -68,7 +68,7 @@ In the Charges section, select ‘Show/Hide Quick Lists'. Quick List appears on 
 
 The Add Charge window appears. Enter in each field as appropriate.
 
-![](../adding-deals.assets/2b1d09cb46cbc12a36eab5e60300e690.png)
+![](../adding-deals.assets/2d0db55937fdd79ab926e0ddb3ad1773.png)
 
 * In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
 * In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
@@ -81,11 +81,12 @@ The Add Charge window appears. Enter in each field as appropriate.
 * In the ‘Price' field, type the contracted price of the item as dollars and cents.
     * Note: a system default for pricing can be loaded on the procedure/order codes in the Orders-List Editor.
 * In the ‘Memo' field, type any information applicable to the item not otherwise contained in the window.
+* The Recurring Charge check box is used when utilizing the Ledger in Enterprise Health only. This box is used to indicate the item entered is a capitated service and not fee for service.
 * To save this item and add more, select Add Another. Otherwise, select Save.
 
 Once all items have been added to the Charges section, the complete list of the procedures, associated conditions, and pricing will display. Hover over the items to view, edit, delete or rearrange order icons.
 
-![](../adding-deals.assets/f19e6ee0104ee38108ddcce5d81ec5a4.png)
+![](../adding-deals.assets/e4c6e1d739ada6e86a2e18aa724a589d.png)
 
 ### Documents
 
