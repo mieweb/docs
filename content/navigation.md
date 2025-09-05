@@ -218,7 +218,7 @@ links:
   - 'functions/injury-care/adding-accommodations.md'
   - 'functions/injury-care/viewing-accommodations.md'
   - 'functions/injury-care/work-status.md'
-  - 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
+  - 'functions/injury-care/multiple-exposures.md'
   - 'functions/health-surveillance.md'
   - 'functions/health-surveillance/introduction-to-health-surveillance-panels.md'
   - 'functions/health-surveillance/adding-editing-health-surveillance-panels.md'
@@ -1009,7 +1009,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
         * [Adding Accommodations](functions/injury-care/adding-accommodations.md)
         * [Viewing Accommodations](functions/injury-care/viewing-accommodations.md)
         * [Work Status](functions/injury-care/work-status.md)
-        * [Multiple Exposures](https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ)
+        * [Multiple Exposures](functions/injury-care/multiple-exposures.md)
     * [Health Surveillance](functions/health-surveillance.md)
         * [Introduction to Health Surveillance Panels](functions/health-surveillance/introduction-to-health-surveillance-panels.md)
         * [Adding/Editing Health Surveillance Panels](functions/health-surveillance/adding-editing-health-surveillance-panels.md)

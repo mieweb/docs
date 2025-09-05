@@ -277,6 +277,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
          * [Adding Restrictions](functions/injury-care/adding-restrictions.md)
          * [Case Management](functions/injury-care/case-management.md)
          * [Editing Restriction Types](functions/injury-care/editing-restriction-types.md)
+         * [Multiple Exposures](functions/injury-care/multiple-exposures.md)
          * [Viewing Accommodations](functions/injury-care/viewing-accommodations.md)
          * [Viewing Restrictions](functions/injury-care/viewing-restrictions.md)
          * [Work Status](functions/injury-care/work-status.md)
