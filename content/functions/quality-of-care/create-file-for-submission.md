@@ -24,7 +24,7 @@ links:
   - 'https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be'
   - 'https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be'
 source: 'https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 Health IT and data collection is integral in assisting the various arms of the healthcare industry to reduce costs while consistently improving patient care and outcomes. Organizations such as the [U.S. Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), the [Agency for Healthcare Research & Quality](https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html) (AHRQ), or even the [National Committee of Quality Assurance](https://www.ncqa.org/) (NCQA), offer many tools and various programs designed to assist health IT vendors, clinical practices, and the like to ensure accurate data collection for analysis and critical decision making of value-based contract arrangements.
 

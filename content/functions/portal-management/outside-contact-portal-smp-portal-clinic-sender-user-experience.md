@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/'
 source: 'https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The system has the ability to send system contacts documents utilizing a secure ‘Outside Contact Portal' EO chart setup (or whatever you wish to name it). This portal is often referred to as the "Secure Message Portal" When a Contact is added to the system, the system will automatically create a Contact Chart and tie it to the EO chart that has portal access for Contacts. End users may share/send a copy of a document from the originating patient chart to the Contact Chart. In turn, the Contact is sent a portal invitation to create a secure portal login account which will allow them to view the shared document(s). Utilizing this ‘Send Document' feature reduces the risk of end users from emailing PHI out of the system.
 

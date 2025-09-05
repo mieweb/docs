@@ -9,7 +9,7 @@ links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
   - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 markup: 'pandoc'
 ---
 This page provides instructions for retrieving results from the Benson software with , and lists the fields that the interface retrieves.

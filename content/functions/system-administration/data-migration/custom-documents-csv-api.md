@@ -7,7 +7,7 @@ lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 Custom documents can be designed at the storage type level. When a layout is present in the system with module=Storage Type and name=<storage type>, this layout will be used to render the document.
 

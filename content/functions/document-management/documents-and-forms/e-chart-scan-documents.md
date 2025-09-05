@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 With {{% system-name %}}, users have the ability to scan individual documents into a chart using a flatbed or shell scanner from within the document library. This should not be confused with the high-speed scanning functionality of the WebScan module. Rather, navigating to the documents library by clicking any of the Add Document links found throughout the chart, and filtering down to scan document types by clicking the **E-Chart Scan** filter link, allows users to upload any of the relevant documents necessary. This can include any full-sized documents, or even smaller (e.g. card-sized) items, such as photo IDs or insurance cards.
 

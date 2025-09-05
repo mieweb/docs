@@ -6,7 +6,7 @@ version: 33
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=11RzKrMGUG5KgCpWzyz04rJE9g4wcuH0p6NlJWv9s-10'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The following is referring to a Cholestech LDX system. Contact your MIE Implementer to see if your Cholesterol system model can be interfaced or quoted.
 

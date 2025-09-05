@@ -9,7 +9,7 @@ links:
   - 'configuring-access-to-ledger.md'
   - 'configuring-access-to-encounter-charges.md'
 source: 'https://drive.google.com/open?id=1TAzMICd2BvvJW5UQAB0sYb8ey1_ni3MS5Sc5neKFysg'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 Use the financial ledger functionality to track and reconcile periodic revenue and transactions, like an accounting system. Each employer organization (EO) has a ledger to view open or historical activity. The financial ledger provides a bird's-eye view of the overall account balance and has a friendly view of all the transactions and includes a credit/debit column for itemized details.
 

@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The *Past Medical History* encounter section displays in the visit encounter Subjective. If the patient/employee has a known past medical history, the conditions will display by default in a bulleted list on the left side of the *Past Medical History* encounter section. Additional options are located on the far right side of the encounter section header.
 

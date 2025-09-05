@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-administration/security/security-role-settings.md'
 source: 'https://drive.google.com/open?id=1Nk51k7eFk7sbCADxwOlfsWb4sxLGdc6kkva5tWhS1GU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 For each user security role or user account that needs to view or edit financial funding sources when working with charges or payments, change its security role or user account settings according to [Security Role Settings](../system-administration/security/security-role-settings.md).
 

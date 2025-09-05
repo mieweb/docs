@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lmP_-n3hs3BFggxqKrCghcY6azLuGzFBUKU5psM70tw'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 When working in any encounter, there is a *Questionnaire* encounter section available.  By default, this lists any stored questionnaires (mapped to the Health Questionnaires chart tab) with a date of service within the past 60 days of today's logged in session. You can review stored questionnaires while working in an encounter.  Prior stored/submitted questionnaires may be applicable to the visit which you are working in.
 

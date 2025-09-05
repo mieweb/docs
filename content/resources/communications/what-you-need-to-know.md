@@ -13,7 +13,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'mailto:support@mieweb.com'
 source: 'https://drive.google.com/open?id=1l64IjN7y0I0QHoM7e8hyy80El5GBEv4DC_WN8zFGt1Q'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The Ifs, Ands, and Buts About It
 

@@ -12,7 +12,7 @@ links:
   - '../system-configuration/macros.md'
   - 'libraries.md'
 source: 'https://drive.google.com/open?id=1LVSJbbksfR6TAPzipWqYCWKsP_n5Td5vzCVhKhJWi7g'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The Physical Exam encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document a Physical Exam regarding the visit within an encounter.
 

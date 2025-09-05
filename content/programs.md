@@ -6,7 +6,7 @@ version: 56
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TbYl56bYzCZsXjAtsF3wMay92vryJzpt7YrLOm22oyk'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 {{% system-name %}} offers various solutions for your clinical, regulatory, and administrative needs. With everything from recording and tracking health care needs to compliance and regulatory programs, we've got you covered.
 

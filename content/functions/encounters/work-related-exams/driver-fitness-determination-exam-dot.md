@@ -11,7 +11,7 @@ links:
   - 'https://www.fmcsa.dot.gov/regulations/medical'
   - 'https://mie.talentlms.com/shared/start/key:LGAIDNHR'
 source: 'https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The [Federal Motor Carrier Safety Administration](https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty) (FMCSA) requires every driver undergo a physical examination to determine their fitness for duty. A Driver Fitness Determination encounter, often shortened to Driver Fitness or referred to as a DOT encounter, is modeled off of the standards (49 CFR 391.41-391.49) for the Medical Examination Report for Commercial Driver Fitness Determination–FMCSA Form MCSA-5875 and Certificate MCSA-5876–which are used to show and certify a driver's fitness for duty. {{% system-name %}} has designed its Driver Fitness encounter with these standards in mind. With this encounter clinicians are able to easily capture all necessary data, electronically and discretely, making documenting the various components of Form MCSA-5875 and Certificate MCSA-5876 easier than it ever has been.
 

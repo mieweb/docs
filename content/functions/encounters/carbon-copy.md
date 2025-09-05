@@ -9,7 +9,7 @@ links:
   - 'contributing-providers.md'
   - '../system-administration/system-controls/auto-routes.md'
 source: 'https://drive.google.com/open?id=1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 Within an encounter, there is an optional Carbon Copy **CC** encounter section that can be utilized.
 

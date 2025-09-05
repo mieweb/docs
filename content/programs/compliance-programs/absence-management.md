@@ -6,7 +6,7 @@ version: 38
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1r3l2pmS7U-rYZe8ZNf8ETPpuYh1F2OH7eaX3nZl-92s'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The absence management module tracks absence requests, intermittent time off, eligibility and approvals, and coordinates communication among all involved parties. The employee portal allows the employee to print any necessary paperwork. Standard email templates are pre-loaded to send to the employee and/or their supervisor, manually.
 

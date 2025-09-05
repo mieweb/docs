@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://www.alternatiff.com/install/reinstall.html'
 source: 'https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 markup: 'pandoc'
 ---
 The {{% system-name %}} system can efficiently scan and index the paper charts a practice currently has, as well as paper reports that most medical practices continue to receive. Further, {{% system-name %}} facilitates the reception of digital documents sent via HL7 interfaces, or using such standards as LOINC. The AlternaTIFF ActiveX Control and MIEScanner Plug-in must to be installed in order for WebScan, as well as for other features, to function properly.

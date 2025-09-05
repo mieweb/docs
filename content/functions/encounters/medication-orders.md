@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/prescribing-adding-medications.md'
 source: 'https://drive.google.com/open?id=1hrlqlawjLHtIBlBYmj4FxEP2ME2ULlsxdDyXk0I7lBw'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The Medication Orders encounter section provides the necessary tools for ordering, prescribing, managing, and tracking medications for the chart.
 

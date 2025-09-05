@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 This documentation applies to writing a system report in the system report writer as well as in layouts with a query in an {{#each}} statement or the legacy <WCQUERY> tag. For our customers with ODBC connections, this document is a good primer for understanding key parts of the schema.
 

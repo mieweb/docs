@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/translation-manager/'
 source: 'https://drive.google.com/open?id=1C5IsXjz0r1av5vusmT8ud4GsjtI9kOOY7Z5dqTVhvZ0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 The Clinitek Status device interface is compatible with the Clinitek Status Software version lower than 2.0.
 

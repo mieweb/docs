@@ -11,7 +11,7 @@ links:
   - 'measures/improvement-activities-measures.md'
   - 'measures/quality-measure-configuration.md'
 source: 'https://drive.google.com/open?id=1ZFrvk1XjXGNKZ0lwYpndDv1GyviiEASJRNY85ZynUzQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified measures for participation in the various incentive programs available.
 

@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
   - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
 ---
 This document explains how to import your pulmonary function testing data into {{% system-name %}} .
 
