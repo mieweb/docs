@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-08-25T14:54:28.900Z'
-version: 1715
+date: '2025-09-05T14:41:43.075Z'
+version: 1720
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -218,6 +218,7 @@ links:
   - 'functions/injury-care/adding-accommodations.md'
   - 'functions/injury-care/viewing-accommodations.md'
   - 'functions/injury-care/work-status.md'
+  - 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
   - 'functions/health-surveillance.md'
   - 'functions/health-surveillance/introduction-to-health-surveillance-panels.md'
   - 'functions/health-surveillance/adding-editing-health-surveillance-panels.md'
@@ -1008,6 +1009,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
         * [Adding Accommodations](functions/injury-care/adding-accommodations.md)
         * [Viewing Accommodations](functions/injury-care/viewing-accommodations.md)
         * [Work Status](functions/injury-care/work-status.md)
+        * [Multiple Exposures](https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ)
     * [Health Surveillance](functions/health-surveillance.md)
         * [Introduction to Health Surveillance Panels](functions/health-surveillance/introduction-to-health-surveillance-panels.md)
         * [Adding/Editing Health Surveillance Panels](functions/health-surveillance/adding-editing-health-surveillance-panels.md)
