@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2025-08-25T14:54:28.900Z'
-version: 1713
+version: 1715
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
 date: '2024-12-18T13:24:22.116Z'
-version: 84
+version: 86
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:

@@ -1,8 +1,8 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Enterprise Health Interface Specifications'
-date: '2025-08-22T20:08:45.225Z'
-version: 4307
+date: '2025-08-22T20:13:26.824Z'
+version: 4321
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
