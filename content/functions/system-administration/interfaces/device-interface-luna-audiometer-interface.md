@@ -1,8 +1,8 @@
 ---
 id: '1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
 title: 'Device Interface - Luna Audiometer Interface'
-date: '2025-08-13T18:17:52.961Z'
-version: 31
+date: '2025-09-08T18:27:48.858Z'
+version: 40
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -29,10 +29,10 @@ Once the file has been selected, the test(s) to be imported will display on the 
 
 ![](../device-interface-luna-audiometer-interface.assets/7f8c9398f7b24973db35a782fcce8bc6.png)
 
-Users will see a confirmation message in the upper right hand corner of the application confirming the file uploaded successfully. Each test that is uploaded will display in green and display a message that the upload was complete and display the document ID of the document that was imported.
+Users will see a confirmation message in the upper right hand corner of the application confirming the file uploaded successfully. Each test that is uploaded will display in green and display a message that the upload was complete, as well as display the document ID of the document that was imported. Click the numbered document link to browse to the document and navigate away from the file upload tool.
 
-![](../device-interface-luna-audiometer-interface.assets/e142786d41b1ff9e7ecda6a2ea63d5b4.png)
+![](../device-interface-luna-audiometer-interface.assets/06540709ecbabfb17ed94c8f3a64d3e9.png)
 
 Users will see the discrete summary of uploaded results in the **Medical Record:Audiogram** chart tab, as well as a stand alone document in the **Documents** tab.
 
-![](../device-interface-luna-audiometer-interface.assets/6340d49c9ed30461fb6719d9efa4a11f.png)
+![](../device-interface-luna-audiometer-interface.assets/ff613c82ce80ee209f9e7f2ff04b352f.png)
