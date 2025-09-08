@@ -690,6 +690,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
             * [Device Interface - PortaCount FitPro Ultra](functions/system-administration/interfaces/device-interface-portacount-fitpro-ultra.md)
             * [Device Interface - Quantifit 2](functions/system-administration/interfaces/device-interface-quantifit-2.md)
             * [Device Interface - Resonance R17A ](functions/system-administration/interfaces/device-interface-resonance-r17a.md)
+            * [Device Interface - Sibelsound Duo Audiometer Interface](functions/system-administration/interfaces/device-interface-sibelsound-duo-audiometer-interface.md)
             * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
             * [Device Interface - Tremetrics RA500 , RA300, RA800](functions/system-administration/interfaces/device-interface-tremetrics-ra500-ra300-ra800.md)
             * [Device Interface - VeriPRO Hearing Fit](functions/system-administration/interfaces/device-interface-veripro-hearing-fit.md)
