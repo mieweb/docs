@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-09-08T19:13:16.606Z'
-version: 1735
-lastAuthor: 'auhrick'
+date: '2025-09-11T15:02:20.699Z'
+version: 1743
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -106,6 +106,7 @@ links:
   - 'functions/scheduling/cancel-no-show-edit-appointments.md'
   - 'functions/scheduling/scheduler-views.md'
   - 'functions/scheduling/schedules-tab.md'
+  - 'functions/scheduling/scheduler-guided-template.md'
   - 'functions/scheduling/appt-types-tab.md'
   - 'functions/scheduling/waiting-list-tab.md'
   - 'functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md'
@@ -898,6 +899,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
         * [Cancel/No-Show/Edit Appointments](functions/scheduling/cancel-no-show-edit-appointments.md)
         * [Scheduler Views](functions/scheduling/scheduler-views.md)
         * [Schedules Tab](functions/scheduling/schedules-tab.md)
+        * [Guided Template Schedules](functions/scheduling/scheduler-guided-template.md)
         * [Appt Types Tab](functions/scheduling/appt-types-tab.md)
         * [Waiting List Tab](functions/scheduling/waiting-list-tab.md)
         * [Scheduler Inputs Editor Required/Recommended Fields](functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md)
