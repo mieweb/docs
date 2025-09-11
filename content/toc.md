@@ -595,6 +595,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
          * [Checkin](functions/scheduling/checkin.md)
          * [Pat/Appt Wizard Tab](functions/scheduling/pat-appt-wizard-tab.md)
          * [Schedule Management](functions/scheduling/schedule-management.md)
+         * [Scheduler Guided Template](functions/scheduling/scheduler-guided-template.md)
          * [Scheduler Inputs Editor Required/Recommended Fields](functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md)
          * [Scheduler Views](functions/scheduling/scheduler-views.md)
          * [Schedules Tab](functions/scheduling/schedules-tab.md)
