@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-06-25T12:31:10.504Z'
-version: 472
+date: '2025-09-17T19:20:02.378Z'
+version: 501
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -328,3 +328,78 @@ The Job History lists the specific scheduled job name, and the date/time the sch
 ![](../enabled-and-disabled-scheduled-jobs.assets/5f6113ec3db119ef62e846b60b0c5723.png)
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/19876ab46331bd694894c1a49d156f34.png)
+
+## Revision History of Scheduled Job Configuration
+
+Within the listing of scheduled jobs (whether active or inactive), is an option to view Revisions.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/d2fa8904a8ac537d2f182b3870ccacd6.png)
+
+When looking at the Revisions of a scheduled job (in a pop-up window), each revision is listed with whom (user) made a change to the scheduled job, including a date/time stamp of that revision, and which field(s) were revised, and the field(s) revised show what the value or data was entered in by that user during the revision that was saved.  Revisions gives a chronological history of any revisions to the scheduled job that was selected to view.  Newest revisions would be at the bottom of the pop-up window and oldest revisions at the top.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/5f58ad399f24b0c4d15f6e5c6799dc2d.png)
+
+**Recurrence Mapping**
+
+When you set up a scheduled job, you pick a recurrence type (how often it repeats) and, depending on the type, a recurrence number (which days/months/etc. it runs).
+
+A revision to the ‘recurrence' field of a scheduled job will display a value or calculation that may not be intuitive.  The revision value shows the raw numeric codes (e.g., 258, 32, 0 etc), and currently we are unable to convert these into clear descriptive text (e.g., specific months or weekdays).   Therefore, this is the mapping to decipher that revision's value when looking at revision history that may involve a Recurrence revision:
+
+![](../enabled-and-disabled-scheduled-jobs.assets/a7f10060c0366d800ca2ba27a6b823e1.png)
+
+**Recurrence Type**
+
+* 0 = No Recurrence → Runs once at the start time.
+* 1 = Minutely → Runs every 1, 5, 10, 15, 20, 30, or 45 minutes.
+* 2 = Hourly → Runs every 1, 2, 3, 4, 5, 6, 7, 8, or 12 hours.
+* 3 = Daily → Runs once every day at the chosen time.
+* 4 = Weekly → Runs on the specific days of the week you select.
+
+**Weekly Recurrence (Type 4)**
+
+Each day of the week has its own number:
+
+* Sunday = 1
+* Monday = 2
+* Tuesday = 4
+* Wednesday = 8
+* Thursday = 16
+* Friday = 32
+* Saturday = 64
+
+If you check multiple days, the system adds them up:
+
+All week (Sun–Sat) = 127  
+Weekdays (Mon–Fri) = 62  
+Weekends (Sat+Sun) = 65
+
+**Example:** Mon + Wed + Fri = 2 + 8 + 32 = 42
+
+* 5 = Monthly → Runs in the specific months you select.
+
+**Monthly Recurrence (Type 5)**
+
+Each month has its own number:
+
+* January = 1
+* February = 2
+* March = 4
+* April = 8
+* May = 16
+* June = 32
+* July = 64
+* August = 128
+* September = 256
+* October = 512
+* November = 1024
+* December = 2048
+
+If you check multiple months, the system adds them up:
+
+All months = 4095  
+Q1 (Jan–Mar) = 7  
+Even months only = 2730
+
+**Example:** Feb + Sept = 2 + 256 = 258
+
+* 6 = Yearly → Runs once a year on the chosen date.
