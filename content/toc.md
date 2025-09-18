@@ -144,6 +144,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
          * [Goals](functions/encounters/goals.md)
          * [Gynecology History](functions/encounters/gynecology-history.md)
          * [History of Present Illness](functions/encounters/history-of-present-illness.md)
+         * [ICD11 Tool](functions/encounters/icd11-tool.md)
          * [Images](functions/encounters/images.md)
          * [Immunizations and Injections](functions/encounters/immunizations-and-injections.md)
          * [Libraries](functions/encounters/libraries.md)
