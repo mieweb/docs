@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-09-11T15:02:20.699Z'
-version: 1743
+date: '2025-09-18T16:13:29.645Z'
+version: 1751
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -159,6 +159,7 @@ links:
   - 'functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
   - 'functions/encounters/images.md'
   - 'functions/encounters/symptoms-diagnosis-encounter-section.md'
+  - 'functions/encounters/icd11-tool.md'
   - 'functions/encounters/warnings-and-guidelines-encounter-section.md'
   - 'functions/encounters/encounters-open-order-request-section.md'
   - 'functions/encounters/plan-narrative.md'
@@ -952,6 +953,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
         * [Tests & Procedures Encounter Section - Remove, Delete, Edit](functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
         * [Images Encounter Section](functions/encounters/images.md)
         * [Symptoms/Diagnosis Encounter Section](functions/encounters/symptoms-diagnosis-encounter-section.md)
+        * [ICD11 Tool](functions/encounters/icd11-tool.md)
         * [Warnings and Alerts Encounter Section](functions/encounters/warnings-and-guidelines-encounter-section.md)
         * [Open Order Request Encounters Section](functions/encounters/encounters-open-order-request-section.md)
         * [Plan Narrative Encounter Section](functions/encounters/plan-narrative.md)
