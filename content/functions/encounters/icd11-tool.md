@@ -1,8 +1,8 @@
 ---
 id: '1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
 title: 'ICD11 Tool'
-date: '2025-09-18T16:06:02.733Z'
-version: 61
+date: '2025-09-18T16:39:12.134Z'
+version: 67
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -25,7 +25,7 @@ ICD11 coding can be enabled via system setting *Show ICD11 on Conditions*, which
 
 The ICD-11 is the eleventh revision of the International Classification of Diseases (ICD).  ICD11 integration is available in {{% system-name %}} via the system setting *Show ICD11 on Conditions*.  This enables ICD11 on Conditions for system wide use.
 
-### Phase 1 ICD11 Integration within {{% system-name%}}
+### Phase 1 ICD11 Integration within our system
 
 For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into the system:
 
@@ -65,7 +65,7 @@ For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into
 * Post Coordination How To Video by WHO: https://youtu.be/dcz7MUXeN2M?feature=shared
 * Coding Notes help guide: https://icd.who.int/docs/codingtool/en/Coding-note/
 
-### Phase 2 ICD11 Integration within {{% system-name%}}
+### Phase 2 ICD11 Integration within our system
 
 A future TBD Phase 2 in {{% system-name %}} will include visibility to selected ICD11 code/condition in orders, prescriptions, injections and interfaces that send diagnosis information (ie. billing, radiology orders, lab orders, HIE, etc).
 
