@@ -1,8 +1,8 @@
 ---
 id: '13jOk33Y1SJkreIkd5pt3QzR7QY28FQvZOcLsMSPA1MM'
 title: 'Observations Report'
-date: '2024-12-20T17:39:14.765Z'
-version: 93
+date: '2025-09-23T13:36:53.881Z'
+version: 108
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -45,12 +45,23 @@ You can rearrange or sort by clicking the column title.
 
 These are optional fields.
 
-* <strong>Entered Date Start/End:</strong> You can enter a date range to show patient observations entered on a specific date range. This is different than the observed date.
+* <strong>Entered Date Start/End:</strong> You can enter a date range to show patient observations entered on a specific date range. This is different from the observed date.
+* <strong>Last Encounter Location:</strong> You can select a specific location of where encounters were performed at, to filter down resulting observations that were keyed in via an encounter that has a performing location set on it.
+    * If running the report system wide (no <em>Last Encounter Location</em> filter set), then any observation data will result regardless of where it was keyed in (encounter vs elsewhere in the system).  That is the ‘Location' column that results on the output.  Blank locations mean the observation was keyed in elsewhere in the product.  A specific location identified means the observation was keyed in within an encounter with that performing location set on the encounter.
+
+![](../observations-report.assets/caf51ee15020e7a45a869d338c00c213.png)
+
+    * This example shows limiting the same report by a specific Encounter Location that was set on the encounter as the performing location.  This results only the observation data (that is being filtered by) to a specific performing encounter location.
+
+![](../observations-report.assets/3698181b8dd32392557d1af7a584e751.png)
+
+    * The performing encounter location is set in the Encounter top section when working in an encounter to document visit data.
+
+![](../observations-report.assets/c350d7a08d3f8d2ed4ee3551b95277f6.png)
+
 * <strong>Entered By:</strong> You can begin typing in the first or last name of a user in your {{% system-name %}} system. It will auto-complete to give you choices. Select the user you wish to narrow down this report by. This will show those patient observations that were entered by that user only.
 
-![](../observations-report.assets/64c880ba592f7ba903a4c1da46e890a3.png)
-
-You can click the Show CSV link and download your search results into an excel spreadsheet which you can save, sort, etc in spreadsheet form. There is a view printable link to print your search results in the format shown on your results screen.
+You can click the Show CSV link and download your search results into an excel spreadsheet which you can save, sort, etc in spreadsheet form. There is a view printable link to print your search results in the format shown on your results screen.  You can also throw the results into a datavis grid via Show Grid option, however we do offer a separate Patient Observations-DataVis report on its own in the system for use.
 
 ![](../observations-report.assets/187599c9dbe809846c5ccfa1115611d2.png)
 
