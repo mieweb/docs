@@ -19,7 +19,7 @@ links:
   - 'https://www.w3.org/WAI/WCAG20/errata/'
   - 'https://www.w3.org/WAI/WCAG21/errata/'
 source: 'https://drive.google.com/open?id=1ynchkbKzWhhaIYl6ZC0JuArvelIFEa61YAf6pgsCn14'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
 ---
 * [<strong>Medical Informatics Engineering</strong>	](#medical-informatics-engineering)<strong>1</strong>
 * [<strong>Accessibility Conformance Report</strong>	](#accessibility-conformance-report)<strong>1</strong>

@@ -10,7 +10,7 @@ links:
   - 'https://pages.nist.gov/800-63-4/'
   - '../system-administration/security.md'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
 ---
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures.
 
