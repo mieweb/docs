@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../injury-care/work-status.md'
 source: 'https://drive.google.com/open?id=1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Recommendations are written opinion panel action items that are programmed as unique representative events within a health surveillance panel.  Recommendations are the final determination of the overall panel status for the patient/employee. When a health surveillance panel ‘evaluates' to trigger all tests/procedures that need completed for a specific panel, the pending written opinion/recommendation will display as such in the Due List portlet, Due List chart tab, and in the Recommendations section of an encounter.
 

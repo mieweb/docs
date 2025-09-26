@@ -11,7 +11,7 @@ links:
   - '../../portal-management/linking-users-for-portal-access.md'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
-wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 

@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 *You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} .*
 

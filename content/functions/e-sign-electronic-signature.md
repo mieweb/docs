@@ -6,7 +6,7 @@ version: 41
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eOjuYvCVKoiTlMeMzqy6HG8-S3ony9TFD_qIZvh3854'
-wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 {{% system-name %}} offers the ability for electronic signature, or an e-sign option, designed to improve workflow efficiency. E-signatures can be requested manually, with notes and comments, or automatically, using e-sign routing rules. The built-in alerts and notifications allow users to review e-sign requests and queues, completed correspondences, transcription reports, lab and test results, and hospital documents. The E-Sign module also allows for adding documents, tasks, and dictations, as well as requesting co-signers, or multiple signatures, as needed.
 

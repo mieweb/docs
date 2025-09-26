@@ -10,7 +10,7 @@ links:
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtpurgerules'
   - 'https://system/?f=chart&s=dteditor&t=Document+Types&dtopp=dtpurgerules&opp=add'
 source: 'https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Removing items from a {{% system-name %}} system requires establishing what are called *purge rules*. Purge rules are used for deleting an assortment of file types. Deleting documents in {{% system-name %}} is somewhat different than purging DICOM images, dictations, or batches. For instance, when DICOM images are purged, their database record is retained. Therefore, if a purged DICOM image was archived before purging, the purged image would be able to be restored.
 

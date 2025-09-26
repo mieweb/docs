@@ -7,7 +7,7 @@ lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Add Inventory Tab is located within the sidemenu tab named *Inventory*. The *Add Inventory* tab is where you go to add inventory quantity and details to begin dispensing from your inventory module or to add quantity and details of more inventory items received from your supplier that you want to add to your current inventory.
 

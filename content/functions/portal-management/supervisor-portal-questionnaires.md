@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/portal-management/supervisor-portal-setup/'
 source: 'https://drive.google.com/open?id=1QgZBsXYK6JVCFQ87zZ4HDjAm4HAj505DgW1ighx9Xjc'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The **Supervisor Portal** can be configured to allow supervisors to submit questionnaires on behalf of their direct subordinates. When a questionnaire is submitted from the supervisor portal, the document created from that questionnaire will reside in the selected employee's chart. This feature may be particularly helpful for supervisors where their employees may not have a computer as part of their job and/or need to initiate an action or submit job task information to the clinical examiner for medical evaluation. Examples of questionnaires that can be configured for supervisors to submit on behalf of their subordinates include: Incident Report (report of work related injuries), Incident Investigation, Animal Exposure Questionnaire, and Request an Appointment. Supervisors may submit questionnaires on behalf of their subordinates in {{% system-name %}} databases on release 202503 or newer.
 

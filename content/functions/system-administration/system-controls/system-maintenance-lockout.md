@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_wsrlxxeNCZJC_c-ZUajGFEEsgiZ8bpGuIo5JRwXU60'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 System Administrators now have the ability to enable/disable a system lock that locks out system users and displays a system wide message informing the user that the system is currently undergoing maintenance. The feature is available to customers on version RC202403 and newer.
 

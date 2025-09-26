@@ -9,7 +9,7 @@ links:
   - 'https://system/?func=scheduler&s=wait_list'
   - '../scheduling/waiting-list-tab.md'
 source: 'https://drive.google.com/open?id=10fff_QiwKMY3vgw0nl4cTi8Jl3S6OUYQTsk-9gz17hE'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The **Due List portlet** found on the Quick View page is a grid-like report of any chart with at least one pending due list item. By default, the portlet lists any and all charts and MRNs that have something in a **Pending** status on their **Due List**. There are other columns of information, as well as function buttons at the bottom of the report, to work pending due list items en masse for the system. This grid can be sorted, filtered, and arranged as you prefer, without affecting other users.
 

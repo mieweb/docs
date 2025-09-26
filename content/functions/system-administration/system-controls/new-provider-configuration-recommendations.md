@@ -10,7 +10,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 markup: 'pandoc'
 ---
 Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique employee chart with a linked user profile, and a unique provider chart. Employee and/or Provider charts and user profiles should NEVER be reused or recycled for any reason.

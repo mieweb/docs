@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The Future Appointments encounter section displays a bulleted list of any future appointments for this chart, that have already been scheduled.   Future scheduled appointments cannot be managed nor edited from here. This is simply providing visibility to the chart's future scheduled appointments.
 

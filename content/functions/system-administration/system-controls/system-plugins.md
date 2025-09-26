@@ -6,7 +6,7 @@ version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Certain modules, screens, functionalities require additional plugins to be installed on your computer before they will function. These are extensions to the program that are needed.
 

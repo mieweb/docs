@@ -2,13 +2,13 @@
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
 date: '2025-09-10T14:39:23.518Z'
-version: 159
+version: 161
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.
 

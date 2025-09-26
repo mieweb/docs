@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Fd2U9H2oVYLZTFlV-O14M0Do4xnMGP9rufSET8OhIZo'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The Portal Virtual Waiting Room feature can be configured on db's on RC202403 or newer. The Portal Virtual Waiting Room allows clients to mitigate the risk of high login usage by portal users. The virtual waiting room utilizes a queue that tracks login attempts in order received. The portal will display a message to end users letting them know they are in queue and how many people are in line ahead of them.
 

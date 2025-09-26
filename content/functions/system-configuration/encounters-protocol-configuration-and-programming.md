@@ -11,7 +11,7 @@ links:
   - '../order-and-result-management/observation-flowsheets.md'
   - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 *This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Review the additional help documentation for workflow usage of Protocols within the Visit Encounter. Follow the link to the documentation called* [*Encounter Protocols*](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
 

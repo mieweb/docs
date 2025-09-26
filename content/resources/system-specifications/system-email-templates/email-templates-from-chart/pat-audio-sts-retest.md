@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ESTSRET&old_module=Email&old_name=Pat+Audio+STS+Retest&active=0'
 source: 'https://drive.google.com/open?id=1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE'
-wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ESTSRET&old_module=Email&old_name=Pat+Audio+STS+Retest&active=0), as needed.

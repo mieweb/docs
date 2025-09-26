@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFMC&old_module=Email&old_name=Pat+FMLA+Med+Cert+Missing+Info&active=0'
 source: 'https://drive.google.com/open?id=16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
-wikigdrive: 'a089f188505e78981d76f5d8cf7827afb7a63200'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFMC&old_module=Email&old_name=Pat+FMLA+Med+Cert+Missing+Info&active=0), as needed.

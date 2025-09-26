@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Before users can import FitPro Ultra test results into {{% system-name %}} they must first create an export file from the FitPro Ultra software. Once the file has been exported from the FitPro Ultra software and saved to the user's local computer, navigate to the FitPro Ultra Upload tool in {{% system-name %}}.
 

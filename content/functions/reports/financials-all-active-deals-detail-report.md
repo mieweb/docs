@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
 source: 'https://drive.google.com/open?id=1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The All Active Deals-Detail Report displays a detailed list of all order items used in Deals. Use the Datavis filters to filter by EO, Order Description, Order Code, Order Charge Code, Deal Charge Code, Deal Price, Standard Price, Price Difference, EncID or Layout name.
 

@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 Warnings & Guideline Alerts for certain criteria as it pertains to a chart are in the product.  However, utilizing Scripted Rules, additional custom warnings & alert criteria can be configured system wide.  Warnings & Alerts are visible in various areas of the chart, but can only be dismissed by users with specific security permission.
 

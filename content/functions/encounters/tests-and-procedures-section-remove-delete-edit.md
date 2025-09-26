@@ -9,7 +9,7 @@ links:
   - '../health-surveillance/due-list.md'
   - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
 source: 'https://drive.google.com/open?id=1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 The Tests & Procedures encounter section can be found in the Objective section.  This section mimics the stand alone "Due List" chart tab.  The Tests & Procedures section displays items that are "due" so when a patient comes in, and the staff is working in an encounter, the clinician has visibility of items that the patient is due for, here in this encounter section.  Note: These same items are also visible from the separate chart tab named Due List.   For more information on the Due List stand alone chart tab, please see [Due List](../health-surveillance/due-list.md) guide.
 

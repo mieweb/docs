@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../injury-care/viewing-restrictions.md'
 source: 'https://drive.google.com/open?id=16JBWvGb7bIvJC1fcMrJduxDVD_3aKK-tOr_UL5ix93w'
-wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
+wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 When working in any encounter, there is a *Presenting Restrictions* encounter section available.  By default, this lists all presenting restrictions along with any accommodations in a summary format and is security permission dependent.
 
