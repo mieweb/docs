@@ -1,9 +1,9 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2025-08-07T13:14:06.598Z'
-version: 149
-lastAuthor: 'janderson'
+date: '2025-09-10T14:39:23.518Z'
+version: 159
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
@@ -86,9 +86,9 @@ Continue the order by check-marking the specific items/orders you wish to have d
 
 * <strong>Additional:</strong> This auto-complete field is available if system setting Number Order Autocompletes is enabled.
 
+It will show an auto-complete field named *Additional* where a user can key in an additional order 
 ![](../e-orders-add-order-requests.assets/346e57e7e99e6928773636d4eb89b0e3.png)
-
-It will show an auto-complete field named *Additional* where a user can key in an additional order that isn't found on the pre-templated Order set checkmark picklist. The autocomplete "additional" field is pointed to *all* existing order items in the system. It is not a free text.
+that isn't found on the pre-templated Order set checkmark picklist. The autocomplete "additional" field is pointed to *all* existing order items in the system. It is not a free text.
 
 * <strong>Set Name:</strong> this is the name of the order picklist you are currently viewing. Different selectable order items display on the screen based on what main picklist you are working in. You can use the drop-down to select a different picklist.
 

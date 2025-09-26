@@ -546,6 +546,7 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
          * [DOT Interface Status Report](functions/reports/dot-interface-status-report.md)
          * [Duplicate Charts-Merge Report](functions/reports/duplicate-charts-merge-report.md)
          * [E-Meds Report](functions/reports/e-meds-report.md)
+         * [Employer Reports](functions/reports/employer-reports.md)
          * [Encounter Report](functions/reports/encounter-report.md)
          * [Executive Dashboard Report](functions/reports/executive-dashboard-report.md)
          * [Exporting Report Data](functions/reports/exporting-report-data.md)
@@ -815,6 +816,8 @@ wikigdrive: '0fcf231afc718eb196d7e9411fc515dfca8afcb6'
       * [System Administration](functions/system-administration.md)
       * [System Configuration](functions/system-configuration.md)
       * [Task Management](functions/task-management.md)
+   * mie
+      * [Guidance on making a short for MIE application for hire](mie/guidance-on-making-a-short-for-mie-application-for-hire.md)
    * Programs
       * Compliance Programs
          * Medical Surveillance

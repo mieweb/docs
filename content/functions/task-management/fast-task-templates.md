@@ -1,9 +1,9 @@
 ---
 id: '1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 title: 'Fast Task Templates'
-date: '2025-04-24T17:09:43.180Z'
-version: 201
-lastAuthor: 'dmartinez'
+date: '2025-09-10T16:44:45.168Z'
+version: 208
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'http://doc.id/'
@@ -30,7 +30,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 
 ![](../fast-task-templates.assets/b1e8f50c51f5896d1950828a46693ae8.png)
 
-* Name: Name of the fast task link that will show for users to utilize.
+* Name: Name of the fast task link that will show for users to utilize. Must be a unique name.
 * Due Date: Optional field.  Type in the amount of time from the creation of the fast task, to the time the task is considered due to complete.  Example: If you want to give users 1d 4h = 1 day 4 hours from the day the task was created, until it's due, then type 1d 4h  (putting spaces between increments do not matter). When the fast task is saved to the system, the system will then convert 1d 4h into minutes.  Due Dates (when creating fast task templates) are stored in minutes. Therefore, 1d 4h will be converted to 1680 minutes when the Save button is clicked.  Either the due date or a remind date field is required when adding a fast task template to the system.
 * Remind Date: Optional field.  If want to automate reminders to appear about this fast task when utilized, a remind date value here must be prior to the due date/time value entered in the Due Date field above.  Entering a remind date will ‘remind' the user this task still needs to be done, places the task in the Reminders category of the task list for that user/dept, and will allow them to snooze this reminder.
 * Description: Usually type the same as the Name field has, but can be a bit more descriptive if needed.
