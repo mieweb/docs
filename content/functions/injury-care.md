@@ -1,8 +1,8 @@
 ---
 id: '111B4lq1O-rlxqSGXZpADmFAnK_djV5fVFecDJ4R6mXY'
 title: 'Injury Care'
-date: '2025-09-19T15:19:53.776Z'
-version: 104
+date: '2025-09-19T15:36:47.735Z'
+version: 107
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links: []

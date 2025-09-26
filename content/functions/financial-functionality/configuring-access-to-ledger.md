@@ -2,7 +2,7 @@
 id: '16mRc8J0pBrOwb2iPNF4WzPxSkPCkqj0XzH_iZORsJco'
 title: 'Configuring access to ledger'
 date: '2021-02-18T15:53:28.874Z'
-version: 22
+version: 23
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

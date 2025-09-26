@@ -2,7 +2,7 @@
 id: '1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
 title: 'MIPS: Pick Your Pace'
 date: '2020-02-27T20:36:50.258Z'
-version: 20
+version: 22
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/learn/eligibility'

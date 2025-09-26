@@ -2,7 +2,7 @@
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet'
 date: '2025-02-04T19:02:34.104Z'
-version: 67
+version: 69
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

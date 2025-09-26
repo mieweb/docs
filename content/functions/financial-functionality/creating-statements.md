@@ -2,7 +2,7 @@
 id: '1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
 title: 'Creating Statements'
 date: '2021-02-18T16:19:45.481Z'
-version: 27
+version: 28
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

@@ -1,8 +1,8 @@
 ---
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
-date: '2025-09-05T14:47:49.354Z'
-version: 517
+date: '2025-09-05T14:48:35.375Z'
+version: 532
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

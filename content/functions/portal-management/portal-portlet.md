@@ -2,7 +2,7 @@
 id: '1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
 title: 'Portal Portlet'
 date: '2025-02-20T19:13:00.645Z'
-version: 77
+version: 79
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

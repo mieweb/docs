@@ -2,7 +2,7 @@
 id: '1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
 title: 'Viewing Cases'
 date: '2025-06-05T12:33:06.922Z'
-version: 105
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

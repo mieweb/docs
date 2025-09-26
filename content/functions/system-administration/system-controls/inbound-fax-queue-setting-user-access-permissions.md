@@ -2,7 +2,7 @@
 id: '1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
 title: 'Inbound Fax Queue - Setting User Access Permissions'
 date: '2025-06-20T14:09:43.766Z'
-version: 144
+version: 147
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

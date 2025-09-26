@@ -1,8 +1,8 @@
 ---
 id: '1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
 title: 'ICD11 Tool'
-date: '2025-09-18T16:39:12.134Z'
-version: 67
+date: '2025-09-18T16:39:34.077Z'
+version: 69
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
