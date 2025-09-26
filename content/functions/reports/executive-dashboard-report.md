@@ -1,8 +1,8 @@
 ---
 id: '1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
 title: 'Executive Dashboard Report'
-date: '2023-03-01T19:25:28.680Z'
-version: 131
+date: '2025-09-26T16:57:15.359Z'
+version: 137
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,7 +11,7 @@ wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
 ---
 **Executive Dashboard Report**
 
-The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity.
+The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  Partition restriction checks are not applicable from the executive dashboard queries due to improved performance.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity.
 
 The top of the dashboard contains a search engine that can limit information that displays in the portlets based on time frame, location (PO) and Employer Organization (EO).
 
