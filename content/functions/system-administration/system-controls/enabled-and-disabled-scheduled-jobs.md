@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-09-17T19:20:02.378Z'
-version: 511
+date: '2025-09-29T11:22:16.023Z'
+version: 517
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -285,6 +285,14 @@ Sends an instruction email with the portal activation/pickup code to patient cha
 
 * Email Template - The default is "Portal Activation Code Instructions Default"
 * Looking if doc.type PORTACTINS exists already for the generated code
+
+### Vaccination Post Declination Update System Report
+
+A *Vaccination Post Declination Update* system report is available to be configured as a scheduled job.  This system (when executed) looks for charts that declined the flu injection, but then end up becoming vaccinated within the same season (8/1-4/30).  This report (when executed) will find charts that declined the flu injection item (with auto-declined status), yet now also have a flu injection administered (of specific CVX codes) in the same season.  If any matching charts are found, the executed report will populate a completed flu injection order item with comment *Previous Declination to Vaccination* so charts show up appropriately on reports.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/6d32717b1d6dbd02cc406deeec88e9df.png)
+
+NOTE: If any systems wish to have this (that are not on 2025-09 or newer yet), can simply request their deployment consultant to import the system report JSON file and set up the scheduled job.
 
 ## Max Records
 
