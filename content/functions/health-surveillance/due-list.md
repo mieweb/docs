@@ -1,9 +1,9 @@
 ---
 id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
 title: 'Due List'
-date: '2025-08-19T20:39:40.291Z'
-version: 228
-lastAuthor: 'auhrick'
+date: '2025-09-29T11:10:32.167Z'
+version: 235
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/patient-summary-interactive-chart-tab.md'
@@ -230,6 +230,10 @@ From any due list item regardless of which section the item is listed in, there 
 Clicking on the View Details link on a specific due list item will show details about the due list order item, along with revision history.
 
 ![](../due-list.assets/60d74ab71aa483e2baeb2f718adc5a35.png)
+
+In RC2025-09 and newer, an update to layout: EncOrderDetailsTopForm was made to include visible verbiage of *Originated from a chart merged into this chart* if a due list item is in the chart from a chart that was merged into this chart. This is visible when in the View Details window of an individual due list item.
+
+![](../due-list.assets/71ec0839af85fa53b66c828ac6c83325.png)
 
 ## In Progress Items Section
 
