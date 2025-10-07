@@ -6,7 +6,7 @@ version: 22
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QQ_PCqt0R3IeEpLRUSPy4GkOJDqV93UCYzdqrWMEXbQ'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 **Description**:  At least one permissible prescription written by the MIPS eligible clinician is queried for a drug formulary and transmitted electronically using CEHRT.
 

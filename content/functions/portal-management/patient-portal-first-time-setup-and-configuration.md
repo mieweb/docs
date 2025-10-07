@@ -10,7 +10,7 @@ links:
   - 'portal-activation-code-employee-experience.md'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 markup: 'pandoc'
 ---
 With the **Patient Portal** (WebChart databases), also referred to as an **Employee Portal** (Enterprise Health databases, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!

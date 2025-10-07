@@ -11,7 +11,7 @@ links:
   - 'https://github.mieweb.com/mie/ssep/tree/master/schema/2017071/NCPDP_20170715'
   - 'https://mie.talentlms.com/shared/start/key:ZOQDNHRK'
 source: 'https://drive.google.com/open?id=1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for drug coverage in the patient benefit table for future reference (this data is stored in a document named *Insurance/Prescription Eligibility* and defaults to the ‘Documents' chart tab). A drug eligibility request can‘t be sent more than once every 72 hours, however a Medication History query is not restricted to that same timeframe. This help document discusses the Medication History functionality.
 

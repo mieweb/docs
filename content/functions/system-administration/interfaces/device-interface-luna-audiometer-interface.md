@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Before users can import Luna Audiometer test results into {{% system-name %}} they must first create an export file from the Luna Screening Audiometer software. Once the file has been exported from the Luna Screening Audiometer software and saved to the user's local computer, navigate to the Luna Audio Import tool in {{% system-name %}}.
 

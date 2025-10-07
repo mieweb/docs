@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FGL6h5bBnZElah8GEUQV24UBOH1TdrC4FAbp8XhsAbA'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Within an encounter, there is a Pregnancy History section that can be utilized.  There, within the encounter, a chart's pregnancy history can be recorded or updated.  The Pregnancy History optional encounter section is available on charts where demographic information states Female and age is older than 12 years old.
 

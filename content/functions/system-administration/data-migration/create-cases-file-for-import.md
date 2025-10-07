@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 This document explains how to import your cases into {{% system-name %}} .
 

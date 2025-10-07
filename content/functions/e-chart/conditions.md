@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LAGIDNHR'
 source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 ## Viewing a Patient Chart's Conditions
 

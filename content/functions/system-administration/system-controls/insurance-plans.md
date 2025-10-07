@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../e-chart/insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 With proper security rights, System Administrators can manage a list of insurance plans available for use in the system. **_Insurance Plans_** can be found under the Control Panel. For more information on how insurance plans are used in the registration and patient demographics see additional help labeled [Insurance Summary in Demographics Tab](../../e-chart/insurance-summary-in-demographics-tab.md).
 

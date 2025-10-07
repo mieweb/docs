@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=16AgcK4vJ6iK8GaD6OvbIGeLya65G1r1YJrCH6C1mTWE'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 You can edit the text of the alert comment. You cannot change the color of the text, the color of the text background, nor where the comment appears.
 

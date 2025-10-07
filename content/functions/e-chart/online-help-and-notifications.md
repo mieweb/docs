@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Help is always available in {{% system-name %}} . At the top right corner of your  {{% system-name %}} screen session is a help (?) bubble. Click that to access  {{% system-name %}} Online Help. Once you click the (?) a pop-up window of  {{% system-name %}} Online Help will open on your screen. Out-of-the box videos and documentation can be found under any orange help bubble
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
 source: 'https://drive.google.com/open?id=1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The Pending Billing Report is populated by billing records generated from orders with billing codes/prices and/or Deals. This report can be used in a number of ways to help users monitor billing records.
 

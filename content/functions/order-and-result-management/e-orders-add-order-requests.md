@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 You can create orders for a patient outside of being in an *encounter exam*.
 

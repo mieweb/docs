@@ -6,7 +6,7 @@ version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13k9nhRuRl5D_RWT3l9VE64JqMfF-jl1KQuvCda69nGo'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 In order to view or edit Par Levels, the user must have security permission level for *Manage Stock Warning Levels* set.
 

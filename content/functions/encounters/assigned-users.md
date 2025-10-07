@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/encounter-types/'
 source: 'https://drive.google.com/open?id=1R93vjLpsr5E2ca9p6vbRU-8C2i-lcK62KAWizcMQQ4c'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Some workflows may benefit from using the *Assigned Users* feature rather than using [Staging](https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/#stage-buttons) buttons from within the encounter. *Assigned Users* allow users to assign encounters to **one** individual at a time.  However, assigning the encounter to a user does not prevent others from viewing or working in the encounter.
 

@@ -6,7 +6,7 @@ version: 41
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DIVVSjNfv48-LekRsKDHFuHEm1gBYphsCC18iR2WikU'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The electronic chart, or E-Chart, is an essential component of the {{% system-name %}} solution. It allows for a single, integrated view of all scanned and electronic documents, as well as all recorded data. Users can register new charts, update existing charts, and manage individual records using the E-Chart module.
 

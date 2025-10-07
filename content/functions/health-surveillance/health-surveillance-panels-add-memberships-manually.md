@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 ## Add Memberships Individually via the Due List
 

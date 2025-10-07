@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences. Click the question mark help bubble next to each setting to learn more about each individual user preference (available in release 202509 and newer only).
 

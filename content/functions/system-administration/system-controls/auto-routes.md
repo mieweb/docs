@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Auto Routes contain information regarding interfaces that are configured in {{% system-name %}}. Auto Routes define each interface, what information is sent out of the system via that interface, how information is sent and when information is sent from {{% system-name %}}. Typically, Auto Routes are configured by the {{% system-name %}} EDI team when an interface is configured with an outside vendor. Only users with advanced training and Superuser access who are responsible for interface configuration should make changes to rules defined in this editor. Without superuser system admin access, only the  {{% system-name %}} EDI team will be able to access.
 

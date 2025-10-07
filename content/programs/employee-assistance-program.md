@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQBIDNHR'
 source: 'https://drive.google.com/open?id=1j0P-A7K9-lWMUiN-sX5Ez7XPFEDX-FKlFNzfNC5rBy8'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The {{% system-name %}} system includes an Employee Assistance Program (EAP) encounter to document cases for an individual/dependent or an organized event. Cases are organized on a worklist by follow-up date, with detailed EAP reports available. EAP staff document case notes in a secure partition. Access is limited to authorized users and is not accessible by the Health and Medical staff.
 

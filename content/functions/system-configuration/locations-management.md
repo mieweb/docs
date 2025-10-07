@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZGZDNHRK'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The {{% system-name %}} solution allows varying degrees of customization with regard to locations, namely office-specific types or work sites, regions, and locations. There is also the corporate, or managing, location which is used and can be updated, as needed.
 

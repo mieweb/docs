@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Using the "Control" tab in the Inventory module is the first step to getting your inventory module set up. This is where you key in to tell the system any and all inventory items that you will want to track. This isn't where you add quantity or tell the system specific lot's, quantity, etc. This is just keying in a name of an item that you want shown on inventory reports, to users to dispense inventory for, etc.
 

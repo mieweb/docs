@@ -6,7 +6,7 @@ version: 27
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
 

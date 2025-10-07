@@ -10,7 +10,7 @@ links:
   - 'libraries.md'
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Plan Narrative encounter section is available to document a plan narrative regarding the visit within an encounter.
 

@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Working in an encounter, there is a Summary section that offers 4 optional sections.  The Summary encounter section offers Final Medications, Final Allergies, Final Medical History, and Final Restrictions & Accommodations.  These individual sections are optional for use on the encounter and its encounter view and stored/archived document once an encounter is closed & archived.
 

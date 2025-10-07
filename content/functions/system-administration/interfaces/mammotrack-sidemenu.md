@@ -6,7 +6,7 @@ version: 47
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Click *MammoTrack* from left sidebar tab. This opens the specific tabs related to mammograms. It shows all data related to patients who have or have had mammograms tracked in the system and their mammogram result.
 

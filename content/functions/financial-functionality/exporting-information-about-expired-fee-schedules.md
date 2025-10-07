@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'viewing-expired-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1jVx-TyKaSysXg-bHQxx-s-rUXXdPST_m4N2xs69HJNw'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Export information about expired fee schedules as comma-separated value (CSV) or extensible markup language (XML) file formats for use in spreadsheet programs. The exported information about expired fee schedules contains the following:
 

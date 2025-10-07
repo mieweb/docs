@@ -11,7 +11,7 @@ links:
   - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
   - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
 

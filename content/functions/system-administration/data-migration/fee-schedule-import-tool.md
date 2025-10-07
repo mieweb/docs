@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
 

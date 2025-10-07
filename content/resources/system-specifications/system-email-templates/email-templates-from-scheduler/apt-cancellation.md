@@ -7,7 +7,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Apt+Cancellation&active=0'
 source: 'https://drive.google.com/open?id=1LQAvQDYNP9KYnjyCjqJyGbTUxC4F2no7MXTOT-bNe0M'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Apt+Cancellation&active=0), as needed.

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/sites/default/files/OSHA-RK-Forms-Package.pdf'
 source: 'https://drive.google.com/open?id=1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Capturing case (incident) detail on a patient or employee is done through encounters using the *Case* section.
 

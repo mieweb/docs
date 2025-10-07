@@ -7,7 +7,7 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ewns-apqZ6Qp6EPtrnaVj-FixLxSNYlQ0qz4V8-zOe0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Most X-Ray images are found within the  chart, under the **Test Results** chart tab and subtab named **Radiology**.
 

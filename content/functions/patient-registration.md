@@ -6,7 +6,7 @@ version: 31
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Managing patient flow is vital to the effectiveness of any practice. Because of this, the {{% system-name %}} system provides fast and easily-navigated functionality for searching current charts and documents, as well as for registering new patients.
 

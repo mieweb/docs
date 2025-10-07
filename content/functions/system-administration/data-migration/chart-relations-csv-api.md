@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 

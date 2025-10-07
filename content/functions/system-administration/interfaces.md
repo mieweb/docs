@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Navigate the documentation, below, to get a feel for how to set up or utilize the various interfaces available from the {{% system-name %}} system.
 

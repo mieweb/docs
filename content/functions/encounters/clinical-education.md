@@ -11,7 +11,7 @@ links:
   - 'copy-from-previous-exam.md'
   - '../system-administration/interfaces/patient-education-interface.md'
 source: 'https://drive.google.com/open?id=1BMQbUu4dtP5zu3RrRMyg-MVFiH0acXyiEX0_n3zZnRg'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The Patient Education encounter section name has changed to Clinical Education and is found within the Plan area of an encounter.
 

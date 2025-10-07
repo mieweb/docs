@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ntlhpzabiQoEOQMKqMOFSwlLfdJSWljfj8S-NpCMMpo'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Within an encounter, there is a Gynecology History section that can be utilized.  There, within the encounter, a chart's gynecology history can be recorded or updated.
 

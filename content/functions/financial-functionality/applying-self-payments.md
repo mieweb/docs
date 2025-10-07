@@ -9,7 +9,7 @@ links:
   - '../encounters/working-in-a-visit-encounter.md'
   - '../document-management/printing-and-print-definitions/printing-documents.md'
 source: 'https://drive.google.com/open?id=1B7Df4vCyxBjC_iv5DUyiHU8fdRWlxsjp5OTx-D0W6YY'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Apply self payments when a patient is paying for the services at the time they were received.
 

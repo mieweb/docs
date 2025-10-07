@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=chart&s=docq'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.
 

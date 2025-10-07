@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WHWf3KtGAsf_86VV1hJkFxguktz8RP_hQejN55HOyIY'
-wikigdrive: '6734a553a9b9ad6d6322fa22a9088c47069cc5a0'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 Health surveillance panels are composed of various action items (tests & procedures) which are then individually listed in the chart's Due List when triggered pending to be due.  If a related action item (test or procedure) is configured on the health surveillance panel level as *required for certification*, that means the action item (test or procedure) is required to have done (versus voluntary).
 
