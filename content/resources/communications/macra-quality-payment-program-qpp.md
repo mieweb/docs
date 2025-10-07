@@ -2,7 +2,7 @@
 id: '12p7Iy880e45Q2ET2g2wDFFRzSW5kUkrwhO8Y77UhkfQ'
 title: 'MACRA: Quality Payment Program (QPP)'
 date: '2020-02-27T20:36:42.236Z'
-version: 35
+version: 36
 mimeType: 'text/x-markdown'
 links:
   - 'https://innovation.cms.gov/'

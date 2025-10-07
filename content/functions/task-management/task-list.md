@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2025-07-29T12:18:45.671Z'
-version: 435
-lastAuthor: 'anichols'
+date: '2025-10-01T02:02:59.198Z'
+version: 462
+lastAuthor: 'squarterman'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'

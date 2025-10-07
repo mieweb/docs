@@ -2,7 +2,7 @@
 id: '1m6v3HgyiGVoT4r2LTce3OC0uSMx00sczOS4Pu10rU-g'
 title: 'Faxing Documents'
 date: '2020-03-16T16:21:29.768Z'
-version: 83
+version: 84
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

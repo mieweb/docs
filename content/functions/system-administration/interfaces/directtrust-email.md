@@ -2,7 +2,7 @@
 id: '1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
 title: 'DirectTrust Email'
 date: '2025-04-07T15:50:08.793Z'
-version: 60
+version: 62
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
