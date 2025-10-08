@@ -1,12 +1,13 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-07-07T17:15:15.118Z'
-version: 382
-lastAuthor: 'janderson'
+date: '2025-10-07T12:11:56.396Z'
+version: 393
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'indexing.md'
+  - '../../reports/webscan-report.md'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
@@ -19,9 +20,9 @@ In order to access and use WebScan, users must have the appropriate security per
 
 To begin using the WebScan capabilities, first click the **WebScan** sidemenu option.
 
-Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *checked-in* batches shown below, in the list view. Checked-in batches are simply batches of scanned documents that need indexed into the appropriate charts.
+Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *New* batches shown below, in the list view. *New* batches are simply batches of scanned documents that need indexed into the appropriate charts.
 
-![](../scanning.assets/72185b14f767ce0f8d132c3fa25770b5.png)
+![](../scanning.assets/6d2dc2a0c9f51d9e33e8333cd4e75578.png)
 
 To begin scanning, simply click the **Add Batch** link found in the upper-right corner of the screen. Once clicked, the Batch Upload screen will open. Here, users may scan and index documents,accordingly.
 
@@ -89,7 +90,7 @@ Users may close a batch by clicking the **X** icon from the Batch Upload windo
 
 ### Upload a Batch
 
-To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the checked-in batch list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
+To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the New batch status list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
 
 ![](../scanning.assets/62686b7b65ca7102e28e4b70fbf724bf.png)
 
@@ -97,16 +98,21 @@ To save a batch for later, users may use the **Upload** button. Clicking the U
 
 ### Upload and Index a Batch
 
-To upload and index the scanned documents, click the **Upload and Index** button. This feature is available in release 202403 and newer. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
+To upload and index the scanned documents, click the **Upload and Index** button. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
 
 ![](../scanning.assets/64310a1a06cad86013289f9a2e373826.png)
 
 {{% tip %}}
-If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan Checked-In queue for indexing later.
+If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan *New* batch status for indexing later.
 
 ![](../scanning.assets/33e037d0581e7997846a194ef9b0087f.png)
 {{% /tip %}}
 
+## Reporting
+
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+
+![](../scanning.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
 ## Learning Management System
 
 To learn more about Scanning, follow the link below to the Learning Management System course:
