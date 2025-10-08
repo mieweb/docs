@@ -1,8 +1,8 @@
 ---
 id: '1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
 title: 'ICD11 Tool'
-date: '2025-09-18T16:39:34.077Z'
-version: 69
+date: '2025-10-01T12:30:48.356Z'
+version: 76
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -34,10 +34,10 @@ For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into
 ![](../icd11-tool.assets/8e2a21b2263ffe2417893799a69713fe.png)
 
 * ICD-11 offers an integrated online Browse and Coding Tool for routine use. For cases that require additional detail, ICD-11 supports post-coordination (combining stem and extension codes, or stem and stem codes) through tool-assisted workflows.
-* The ICD11 Tool button opens an ICD11 Post-Coordination Tool screen to search for a condition which then results in an output of various matching condition names with ICD11 codes for selection.
+* The ICD11 Tool button opens an ICD11 Post-Coordination Tool screen to search for a condition name which then results in an output of various matching condition names with ICD11 codes for selection.
     * The ICD11 Post-Coordination Tool screen also allows other functionality.
 
-![](../icd11-tool.assets/64fa137c208487cee6dc4bb6f2458f72.png)
+![](../icd11-tool.assets/fb7a74f1e403013376795129cd330715.png)
 
 * Allows ICD11 codes for conditions selected using the ICD11 Tool will be visible in these areas of  {{% system-name %}} :
     * Summary Chart Tab → Past Medical History portlet
