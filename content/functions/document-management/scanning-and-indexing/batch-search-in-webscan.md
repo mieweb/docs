@@ -1,46 +1,67 @@
 ---
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
-date: '2024-10-29T15:00:21.528Z'
-version: 49
-lastAuthor: 'janderson'
+date: '2025-10-07T12:06:53.301Z'
+version: 65
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'scanning.md'
+  - '../../reports/webscan-report.md'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.
 
-To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any Checked-In batches will be listed under the Batch list view, by default. The Checked-in batches are various scanned documents ready to be indexed into the system.
+To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any New batches will be listed under the Batch list view, by default. The New batches are various scanned documents ready to be indexed into the system.
 
-![](../batch-search-in-webscan.assets/4dd8e397d14f595a6b41e9b49f7681cc.png)
+![](../batch-search-in-webscan.assets/ba4961794c4ade64ed7fb5531f348268.png)
 
-To search for a scan batch, use the Batch Search Criteria search fields at the top of the page. Fill in the available fields to narrow the search, as appropriate.
+### Searching Batches
 
-**Batch ID**: These fields allow users to search a range of batches in the system. When entering a range, the lower batch number must be accompanied by a valid upper batch number. If only a lower batch number is provided, the upper batch number will be set to the same lower batch number value, meaning only the one batch will be searched. Likewise, if the upper batch number is invalid (e.g., non-numeric value or lower than the lower batch number), only the batch matching the lower batch number will be searched. If only an upper batch number is provided, the system will search all batches from zero up through the upper batch number specified.
+The WebScan module will display all *New* batches, by default. However, a user may search for a batch by its batch ID number, its comments, a specific patient or user, or the batch date. Use the search filters to narrow search results, and after clicking the **Search** button, matching results will populate below the search in a ListView.
 
-**Batch Status**: The Batch Status dropdown can be used to search batches of a specific status. WebScan defaults to searching Checked In batches. However, users may select **all**, which will search all batches, regardless of batch status. Selecting **Checked Out** will only search in Checked Out batches. Similarly, **Complete** will only search in batches marked Completed, and **Deleted** will only search in batches marked Deleted. The **Complete w/ non-uploaded pages** option will search batches that are marked as completed, but have at least one page that has not been processed. An unprocessed page is one that does not have a document ID and the status is undefined, or empty. The intent of this status option is to allow users a way to search for batches that may have been marked completed, even though the batch contains unprocessed pages.
+![](../batch-search-in-webscan.assets/51c17a6d74053712dfe1ff9470569949.png)
 
-{{% warning %}}
-Completed and Deleted batches are purged from the system every 90 days. The Deployment Specialist can change this system setting, so that purging occurs at a different interval (e.g., 60 days, 180 days, etc.), if preferred. The other batch statuses (i.e., Checked In, Checked Out, and Complete w/non-uploaded pages) will remain in the queue until marked Completed or Deleted.
-{{% /warning %}}
+#### Columns in Batch ListView
 
-**Comment**: This field is intended to allow users the ability to search comments provided on batches, and can be limited by a BEGINS WITH search, or an EXACT search, as needed.
+The **Batch** section of the screen lists various columns of information. Click any of the column headers to sort in ascending/descending alphabetical or numerical order.
 
-**Patient**: Searching can be narrowed down to a specific patient/chart, MRN, Date of Birth, or SSN. Begin typing the *last name*, and the autocomplete will list potential matches alphabetically. There is a three character minimum before the autocomplete suggests any results. Choose the appropriate patient, and tab to the next field. For more information on how to utilize the autocomplete search, click the help bubble to the right of the field.
+![](../batch-search-in-webscan.assets/218f52092de3d49968cad6eaa392d4c0.png)
 
-**User**: Searching can be narrowed down to a specific user, if necessary. Simply type the first or last name of the user, and select the name from the autocomplete list of choices. Leaving this field blank will search by all users.
+The columns include:
 
-**Account**: This field is intended for the account number created from the encounter. This is mostly used by hospital clients. The account number should not be confused for the encounter ID or the MRN.
+* <strong>Batch ID</strong>: Identification number assigned to the batch.
+* <strong>User</strong>: User that scanned in the batch.
+* <strong>Comment</strong>: Displays any comments that were added when the batch was scanned, opened, or completed.
+* <strong>Partition</strong>: Used to determine the partition the batch is scanned into. Users in systems with multiple partitions will have access to only those batches and partitions they are restricted to. Those batches with partitions that display as blank are open to every WebScan user for working and completing.
+* <strong>Project</strong>: Displays the program that batched the documents (e.g., MIEWebScan).
+* <strong>Creation date</strong>: Date the batch was scanned into the system.
+* <strong>Modified Date</strong>: Date of last modification, or the date the batch was last opened.
+* <strong>Pages</strong>: Displays the number of pages in the batch.
+* <strong>Priority</strong>: Displays the level of priority of the batch. Default is zero, given when no priority is set. The higher the priority to index the batch, the higher the number given.
+* <strong>Status</strong>: Displays the status of the batch.
+* <strong>Options:</strong> Quick links for performing necessary actions when managing batches. Options include <em>Open</em>, <em>View</em>, and <em>Delete</em>.
 
-**Batch Date**: A provided date range will search for all batches created within the specified range.
+### Purged Batches
 
-With the limiting criteria provided, simply click the **Search** button to show any applicable search results. The search results will display in the Batch list view, found below the search criteria fields. To perform another search, modify the fields as necessary, or click the **Clear** button to begin again.
+By default, Completed batches are purged from the {{% system-name %}} system after 90 days. However, the system setting ("MIEWebScan", "Settings", "Purge age in days") can be updated to purge at different intervals, if preferred.
 
-![](../batch-search-in-webscan.assets/83b4d654af20d61517918e552da581dc.png)
-
-{{% warning %}}
 Any batches that display Purge in the Options column are batches with scanned documents that have been purged. Only Completed or Deleted batches are purged after a period of time. When batches are Completed or Deleted, the files are set with an expiration date, according to the system setting, and though these batches can be opened, the TIFF images (i.e., the scanned documents) of the batch cannot be viewed. The batch *cannot* be restored after it has been purged.
-{{% /warning %}}
+
+## My Settings Preference
+
+My Settings Preference **Show Pending Batches:** If your My Settings Preference for *Show Pending Batches* is On (and you have security permission to at least view MIEScan), the system will display the WebScan (x) count hyperlink at the top of every screen.
+
+![](../batch-search-in-webscan.assets/0648372bb9ec6f9de23131655d61e146.png)
+
+* The WebScan (x) count hyperlink is a quick visual of how many New <strong>and</strong> Incomplete total batches there are that need worked.  The user can also easily click on the WebScan (x) count hyperlink to be taken directly to the WebScan batches, where the Batch Status will automatically be populated as <em>New and Incomplete</em>, to begin working those batches to completed status.
+
+![](../batch-search-in-webscan.assets/d7964dac86590b8c652cfe27ce60e97d.png)
+
+## Reporting
+
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+
+![](../batch-search-in-webscan.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
