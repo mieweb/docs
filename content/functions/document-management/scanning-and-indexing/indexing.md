@@ -1,13 +1,14 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2025-01-06T13:34:17.850Z'
-version: 285
-lastAuthor: 'janderson'
+date: '2025-10-07T12:01:06.828Z'
+version: 314
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?f=miewebscan'
   - 'indexing-bubble-forms.md'
+  - '../../reports/webscan-report.md'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
@@ -20,23 +21,40 @@ As expected, using the WebScan module and being able to index documents is secur
 
 To access the scanning and indexing module, simply navigate to the WebScan sidemenu.
 
-The WebScan module will load, displaying the landing page, where existing scan batches can be viewed and indexed, as well as where new batches can be created. The WebScan module default is to display the **Batch Search Criteria** search function, as well as the ListView of any *checked-in* batches. This will be explained in more detail when discussing batch statuses; however, for the purposes of understanding the function of the **Batch** ListView, note that batches are simply a set of, or quantity of, items needing indexed, which display in the *Batch* ListView according to priority. Therefore, any batches with a *High* priority will appear first on the list.
+The WebScan module will load, displaying the landing page, where existing scan batches can be viewed and indexed, as well as where new batches can be created. The WebScan module default is to display the **Batch Search Criteria** search function, as well as the ListView of any *New* batches. This will be explained in more detail when discussing batch statuses; however, for the purposes of understanding the function of the **Batch** ListView, note that batches are simply a set of, or quantity of, items needing indexed, which display in the *Batch* ListView according to priority. Therefore, any batches with a *High* priority will appear first on the list.
 
-Additionally, the ListView of the checked-in scanned batches will only show batches from partitions the logged-in user is able to access. There is a system setting that allows clients to specify chart partitions, therefore restricting storage of and access to document types according to specific business needs, consequently limiting a user's accessibility to specific document types, whenever appropriate. If the **Show Partition Restrict** system setting is enabled, batches can be scanned into specific partitions, as needed. If a batch is scanned into a specific partition, only indexers with access to that partition will see the batch in the ListView. The *Partition* column in the ListView displays the partition of the batch.
+Additionally, the ListView of the New scanned batches will only show batches from partitions the logged-in user is able to access. There is a system setting that allows clients to specify chart partitions, therefore restricting storage of and access to document types according to specific business needs, consequently limiting a user's accessibility to specific document types, whenever appropriate. If the **Show Partition Restrict** system setting is enabled, batches can be scanned into specific partitions, as needed. If a batch is scanned into a specific partition, only indexers with access to that partition will see the batch in the ListView. The *Partition* column in the ListView displays the partition of the batch.
 
 ![](../indexing.assets/6979d26c3e8d3593d864941035252d90.png)
 
 ### Batch Statuses
 
-There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *checked-in* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function. Both *Checked In* and *Checked Out* batches will need to be indexed in order to be removed from the queue.
+There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *New* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function.
 
-![](../indexing.assets/67f35f705bf636a93cc042fd29f7aa97.png)
+![](../indexing.assets/09cfe3f36d0c39bd3b12bc112ff073f4.png)
 
-* <strong>Checked In</strong>: Batches that have been scanned into {{% system-name %}} requiring indexing. These batches have not been viewed, opened, or completed. Once viewed or opened, the batch status will become <em>Checked Out</em>.
-* <strong>Checked Out</strong>: Batches that a user has viewed, opened, or begun indexing, without completing. Any batch that is opened and not completed, closed, or deleted will appear in the <em>Checked Out</em> ListView of batches. Simply change the Batch Status filter to <strong>Checked Out</strong>, and click the <strong>Search</strong> button to view.
+* <strong>New</strong> <strong>(Legacy name: Checked In)</strong>: Batches that have been scanned into {{% system-name %}} requiring indexing. These batches have not been viewed, opened, or completed. Once viewed or opened but is not completed, the batch status will become <em>Incomplete</em>.
+
+![](../indexing.assets/cfeb2c24f4241436664a1010214ab1e2.png)
+
+* <strong>Incompete</strong><strong> (Legacy name: Checked Out)</strong>: Batches that a user has viewed, opened, or begun indexing, without completing. Any batch that is opened and not completed, closed, or deleted will appear in the <em>Incomplete</em> ListView of batches. Simply change the Batch Status filter to <strong>Incomplete</strong>, and click the <strong>Search</strong> button to view.
+
+![](../indexing.assets/99c6bd4e15308f8378273ba34eaf7199.png)
+
+* <strong>New and Incomplete:</strong> This is a new search status filter that (when selected) will display all the New <strong>and</strong> will also display all the Incomplete batches for the system together in the output list, based on any other search filter preferences set.  It is important to work both New as well as Incomplete batches to get them to completed status.
+
+![](../indexing.assets/9c6456cfd22625e1ed77935ec549a228.png)
+
+* My Settings Preference <strong>Show Pending Batches:</strong> If your My Settings Preference for <em>Show Pending Batches</em> is On (and you have security permission to at least view MIEScan), the system will display the WebScan (x) count hyperlink at the top of every screen.
+
+![](../indexing.assets/0648372bb9ec6f9de23131655d61e146.png)
+
+    * The WebScan (x) count hyperlink is a quick visual of how many New <strong>and</strong> Incomplete total batches there are that need worked.  The user can also easily click on the WebScan (x) count hyperlink to be taken directly to the WebScan batches, where the Batch Status will automatically be populated as <em>New and Incomplete</em>, to begin working those batches to completed status.
+
+![](../indexing.assets/d7964dac86590b8c652cfe27ce60e97d.png)
 
 {{% info %}}
-It is important to regularly check both Checked In and Checked Out batch statuses, in order to work and complete batches in the queue.
+It is important to regularly check both New and Incomplete batch statuses, to work them to completed status.
 {{% /info %}}
 
 * <strong>Complete</strong>: Scanned batches with each page fully indexed, uploaded into the appropriate chart(s). When all pages are fully indexed, the batch will be marked as Complete.
@@ -49,20 +67,20 @@ By default, Completed batches are purged from the {{% system-name %}} system aft
 * <strong>Complete w/ non-uploaded pages</strong>: Scanned batches that have been marked as Complete; however, the {{% system-name %}} system detects pages that exist but still need indexed.
 
 {{% info %}}
-*Checked In*, *Checked Out* & *Complete w/non-uploaded pages* batches will remain in the queue until every page is indexed and the batch is completed or deleted.
+*New, Incomplete, and* *Complete w/non-uploaded pages* batches will remain in the queue until every page is indexed and the batch is completed or deleted.
 {{% /info %}}
 
 ### Searching Batches
 
-As explained, the WebScan module will display all *Checked In* batches, by default. However, a user may search for a batch by its batch ID number, its comments, a specific patient or user, or the batch date. Use the search filters to narrow search results, and after clicking the **Search** button, matching results will populate below the search in a ListView.
+As explained, the WebScan module will display all *New* batches, by default. However, a user may search for a batch by its batch ID number, its comments, a specific patient or user, or the batch date. Use the search filters to narrow search results, and after clicking the **Search** button, matching results will populate below the search in a ListView.
 
-![](../indexing.assets/763e37400bb93c453ff8701a08b58cdf.png)
+![](../indexing.assets/51c17a6d74053712dfe1ff9470569949.png)
 
 #### Columns in Batch ListView
 
-The **Batch** ListView shows various columns of information. Click any of the column headers to sort in ascending/descending alphabetical or numerical order.
+The **Batch** section of the screen lists various columns of information. Click any of the column headers to sort in ascending/descending alphabetical or numerical order.
 
-![](../indexing.assets/4d7df124f149dd26d66b847c4c9149bf.png)
+![](../indexing.assets/218f52092de3d49968cad6eaa392d4c0.png)
 
 The columns include:
 
@@ -82,12 +100,12 @@ The columns include:
 
 In the **Options** column of the Batch List View are the functions that can be done to a batch. A scanned batch can be opened, viewed, or deleted from any of the status categories.
 
-![](../indexing.assets/31f90445fab2bff714ddfbddc0cb95f6.png)
+![](../indexing.assets/02f14878d8451a77c27ab74b8e491132.png)
 
 **Open**: Opens the batch for indexing. Opening a batch allows the user to begin indexing the items of the batch. Any batch, regardless of status, can be opened.
 
 {{% tip %}}
-Once a batch is in the status of Checked Out, Completed, or Deleted, users may choose to open the batch. However, the user may receive an error requesting to **Force Checkout**. This means the Checked Out, Completed, or Deleted batch was closed by another user. Forcing checkout will place the logged-in user's username on the batch.
+Once a batch is in the status of Incomplete, Completed, or Deleted, users may choose to open the batch. However, the user may receive an error requesting to **Force Checkout**. This means the Incomplete, Completed, or Deleted batch was closed by another user. Forcing checkout will place the logged-in user's username on the batch.
 {{% /tip %}}
 
 ![](../indexing.assets/efe2e3fd8104bb97f8ac4fb78f9da0b6.png)
@@ -99,14 +117,14 @@ Once a batch is in the status of Checked Out, Completed, or Deleted, users may c
 ![](../indexing.assets/d386106868f46c10f1bf2489f0de4943.png)
 
 {{% tip %}}
-A deleted batch can be retrieved, if necessary. From the WebScan module, filter down the batch search to Deleted batch statuses. Find the batch needing retrieved, and click the **Open** link. The deleted batch will then open with its contents in the indexing screen. Whenever a deleted batch is opened, the system will move it out of deleted status. The retrieved batch can have pages uploaded, can be worked on (indexed), or closed again. If the batch is closed without marking it as complete, {{% system-name %}} places the batch into the *Checked In* queue. If a user only *views* a deleted batch, the batch remains in the deleted status.
+A deleted batch can be retrieved, if necessary. From the WebScan module, filter down the batch search to Deleted batch statuses. Find the batch needing retrieved, and click the **Open** link. The deleted batch will then open with its contents in the indexing screen. Whenever a deleted batch is opened, the system will move it out of deleted status. The retrieved batch can have pages uploaded, can be worked on (indexed), or closed again. If the batch is closed without marking it as complete, {{% system-name %}} places the batch into the *New* batch status queue. If a user only *views* a deleted batch, the batch remains in the deleted status.
 {{% /tip %}}
 
 ## Navigating WebScan
 
 To begin indexing a batch, users must click the **Open** link from the *Options* column of the specific batch being indexed. This will open the batch in a separate Indexing window.
 
-![](../indexing.assets/bebf8b9cfd8800364ed275565e467e75.png)
+![](../indexing.assets/a01ee447872aff68594cc438c4c3aada.png)
 
 The first page of the batch will display on the right side of the window. The fields on the left are used while indexing, and the toolbar at the top will provide tools for navigating and indexing.
 
@@ -235,6 +253,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 Indexing preferences include:
 
+* <strong>Show Pending Batches:</strong> Choose On or Off. This controls whether the WebScan link with the count of New with Incomplete batches displays at the top of every screen (providing you have View or higher security permission to MIEScan also).
 * <strong>Blank Page Threshold</strong>: Setting will automatically detect and purge/delete blank pages when using the Process BarCodes button. The threshold is the percentage (%) of ink, or black on the page, that designates the page as <em>not blank</em>. This preference determines the minimum percentage of black required on the page before the program considers the page blank, marking it for deletion. If any scanned pages contain little content, a low percentage threshold would need to be set in order to detect the small amount of text, or black on the page. This setting is usually set to lower numbers. If a blank page is undetected and is not deleted, the scanner may be dirty, or the page may be smudgy and tripping the threshold sensor.
 * <strong>Default Mouse Mode</strong>: Sets what function is executed when using the mouse to click the document image.
     * <strong>Zoom</strong>: Perform zoom function when document image is clicked. Equivalent toolbar option is the magnifying glass.
@@ -267,7 +286,7 @@ The highlighted blue bar in **Image Info** section indicates the page number and
 **Print**: When the Print button is clicked, a new print window is opened. Then the user is able to print the entire batch.
 
 {{% note %}}
-Exiting the WebScan module is possible by clicking the X, found in the upper-right corner of the window. Any incomplete batches will be marked as Checked Out after opening. However, using the X is not the proper way to close a batch. Whenever possible, be sure to close the batch following the prompts and using the Close button, when all items have been indexed.
+Exiting the WebScan module is possible by clicking the X, found in the upper-right corner of the window. Any incomplete batches will be marked as Incomplete batch status after opening. However, using the X is not the proper way to close a batch. Whenever possible, be sure to close the batch following the prompts and using the Close button, when all items have been indexed.
 {{% /note %}}
 
 ### Index Information Section
@@ -381,7 +400,7 @@ In cases where the entire batch cannot be completed and indexed in one sitting, 
 
 ## Closing a Batch after Upload
 
-After successfully uploading and indexing all pages of a batch, the batch must be marked as Complete. Doing this will not only close the batch, but also signify to the system that all pages have been addressed and are completed, moving the batch from the *Checked In* queue to the *Complete* queue..
+After successfully uploading and indexing all pages of a batch, the batch must be marked as Complete. Doing this will not only close the batch, but also signify to the system that all pages have been addressed and are completed, moving the batch from the *New* queue to the *Complete* queue.
 
 First, to close the batch, click the **Close** button, near the top-left of the toolbar.
 
@@ -396,12 +415,18 @@ Once the **Close Batch** window opens, continue filling out the necessary inform
 ![](../indexing.assets/a590aa0aa62ef6d5d1213d83d8a55af2.png)
 
 * <strong>Comments</strong>: Any previous comments or text attributed to the batch will display in this field. These comments can be left as-is, or they may be modified, removed, or added to, if necessary. Comments on a batch provide helpful information that will display in the ListView when users are working batches.
-* <strong>Mark as Complete</strong> (<strong>checkbox</strong>): A check mark will populate when all pages have successfully been uploaded. If any pages remain, no check mark will populate. If pages remain in the batch, a message just above the Comments field will display how many pages remain un-indexed. This checkbox should only be checked if the batch is considered entirely complete. When this box is checked, the system will move the batch from the <em>Checked In</em> queue to the <em>Completed Batches</em> category. Closed batches that are not marked as Complete will remain in the <em>Checked In</em> queue.
+* <strong>Mark as Complete</strong> (<strong>checkbox</strong>): A check mark will populate when all pages have successfully been uploaded. If any pages remain, no check mark will populate. If pages remain in the batch, a message just above the Comments field will display how many pages remain un-indexed. This checkbox should only be checkmarked if the batch is considered entirely complete. When this box is checkmarked, the system will move the batch from the <em>New</em> queue to the <em>Completed Batches</em> category. Closed batches that are not marked as Complete will remain in the <em>New</em> queue.
 * <strong>Priority</strong>: Options include Low, Normal, and High. This field defaults to the priority the batch was set to when opened. As noted, High priority batches will display at the top of batch category ListViews, followed by Normal and then Low priority batches.
 * <strong>Patient's Chart Online</strong>: Though not often used, this section provides a view of all charts uploaded to, and allows users with the proper security permissions to update the status of a chart (i.e., Offline, Partial, or Online). Or all charts can be flagged as Online by simply using the <strong>All Online</strong> button.
 * <strong>Close / Cancel buttons</strong>: Clicking the <strong>Close</strong> button is the proper way to close an opened batch. Clicking the <strong>Cancel</strong> button will keep the user in the WebScan module.
 
 After a batch is closed, the page will refresh back to the WebScan landing page, where users may continue to another batch.
+
+## Reporting
+
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+
+![](../indexing.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
 
 ## Learning Management System
 
