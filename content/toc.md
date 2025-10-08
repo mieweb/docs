@@ -634,6 +634,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [Clinical Encounter CSV API](functions/system-administration/data-migration/clinical-encounter-csv-api.md)
             * [Completed Orders Import Tool](functions/system-administration/data-migration/completed-orders-import-tool.md)
             * [Conditions CSV API](functions/system-administration/data-migration/conditions-csv-api.md)
+            * [Copy of Data Import Tab](functions/system-administration/data-migration/copy-of-data-import-tab.md)
             * [Create Audiometric Data File for Import](functions/system-administration/data-migration/create-audiometric-data-file-for-import.md)
             * [Create Cases File for Import](functions/system-administration/data-migration/create-cases-file-for-import.md)
             * [Create Employees File for Import](functions/system-administration/data-migration/create-employees-file-for-import.md)
