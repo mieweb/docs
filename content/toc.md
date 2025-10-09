@@ -712,6 +712,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [Outbound Interface Install Instructions](functions/system-administration/interfaces/outbound-interface-install-instructions.md)
             * [Outbound Sample HL7 Messages](functions/system-administration/interfaces/outbound-sample-hl7-messages.md)
             * [Patient Education Interface](functions/system-administration/interfaces/patient-education-interface.md)
+            * [Query ODG Integration](functions/system-administration/interfaces/query-odg-integration.md)
             * [Receiving HL7 Messages from System](functions/system-administration/interfaces/receiving-hl7-messages-from-system.md)
             * [Sample HL7 Messages](functions/system-administration/interfaces/sample-hl7-messages.md)
             * [Sending HL7 Messages to System](functions/system-administration/interfaces/sending-hl7-messages-to-system.md)
