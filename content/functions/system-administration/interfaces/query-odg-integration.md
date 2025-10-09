@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-10-09T17:25:57.947Z'
-version: 146
+date: '2025-10-09T17:48:35.718Z'
+version: 153
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -142,6 +142,8 @@ Then you can easily toggle between ODG's system and your {{% system-name %}} enc
 The Case Management Enc (Encounter) Details report compiles detailed occupational health case management data for employees, including demographics, employment details, encounter information, diagnoses, restrictions, accommodations, and key case management milestones. It outputs a comprehensive, filterable summary of each case, supporting tracking, compliance, and analysis of employee health and return-to-work outcomes. The report searches for open or closed Case Management encounters that have a service date within the start/end date range selected (and any other search criteria entered). Note: Excluded from Quality Care charts are omitted from the report output.
 
 A separate section of the report offers a visual with graphing on any grouped data.  You can favorite this report to be accessible more easily.  Simply follow the [Reports guide](../../reports.md) that provides the steps.
+
+NOTE: If your system is on 202509RC and you do not see this report in your system, please contact your {{% system-name %}} helpdesk for assistance getting it configured for use.
 
 ### Search Filters of Case Management Enc Details Report
 
