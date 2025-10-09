@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-08T13:26:47.300Z'
-version: 1762
-lastAuthor: 'janderson'
+date: '2025-10-09T17:40:24.320Z'
+version: 1774
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -677,6 +677,7 @@ links:
   - 'functions/system-administration/interfaces/device-interface-titmus-v4.md'
   - 'functions/system-administration/interfaces/device-interface-veripro-hearing-fit.md'
   - 'functions/system-administration/interfaces/installing-mie-device-app.md'
+  - 'functions/system-administration/interfaces/query-odg-integration.md'
   - 'functions/system-administration/asset-management.md'
   - 'functions/system-administration/asset-management/asset-management-module.md'
   - 'functions/system-administration/asset-management/tracking-donated-inventory.md'
@@ -1471,6 +1472,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [Device Interface - Titmus V4](functions/system-administration/interfaces/device-interface-titmus-v4.md)
             * [Device Interface - VeriPRO Hearing Fit](functions/system-administration/interfaces/device-interface-veripro-hearing-fit.md)
             * [Installing MIE Device App](functions/system-administration/interfaces/installing-mie-device-app.md)
+            * [Query ODG Integration](functions/system-administration/interfaces/query-odg-integration.md)
         * [Asset Management](functions/system-administration/asset-management.md)
             * [Asset Management Module](functions/system-administration/asset-management/asset-management-module.md)
             * [Tracking Donated Inventory](functions/system-administration/asset-management/tracking-donated-inventory.md)
