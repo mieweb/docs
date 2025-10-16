@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-10-09T18:17:13.812Z'
-version: 163
+date: '2025-10-15T17:22:43.675Z'
+version: 178
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -24,16 +24,18 @@ An integration between {{% system-name %}} and [ODG by MCG ](https://www.mcg.com
 
 Our Phase 1 ODG by MCG Application Programming Interface (API) delivers ODG content directly into your
 
-{{% system-name %}} system along with expedited access to the following endpoints:
+{{% system-name %}} system by using our *Query ODG* button that expedites access to the following endpoints:
 
 * <strong>Calculator:</strong> Forecasts and benchmarks return-to-work (RTW) durations and costs at the claim level while scoring claims for risk assessments.
 
-The Open ODG button to get into the ODG's own website application will also offer:
+While the separate *Open ODG* button takes you into ODG's own website application to offer additional functionality in a separate window tab:
 
 * <strong>Treatment Analyzer on Outcomes (TAO) | UR Advisor:</strong> Correlates medical interventions to outcomes and determines risk. The UR Adviser provides auto-adjudication of utilization (UR) and bill review operations, focusing resources only on those referrals facilitating early access to quality care.
 * <strong>Fee Schedule:</strong> Retrieves the procedure code-specific medical fees listed by the state where treatment was obtained and billed. Fees can be filtered down to the region (by zip code), modifier, type of service, and place of service levels.
 * <strong>Formulary:</strong> Provides the formulary advisor maps National Drug Codes (USA) and PBS codes (Australia) to the ODG Drug Formulary.
 * <strong>Best Practice (BP) Guidelines:</strong> Proactively manages toward an appropriate return to work for injuries.
+
+![](../query-odg-integration.assets/38f520ad7a46ebc4a4a60b78d5b4de73.png)
 
 ## Prerequisites of an integration
 
@@ -42,7 +44,7 @@ The following prerequisites are for organizations using the ODG by MCG API.
 1. To use ODG by MCG web services, there must be a valid agreement in place with ODG by MCG.
 2. You must first receive a client ID and client secret to obtain a bearer token before making a web services request from {{% system-name %}} to ODG.
 3. Authorization for each available service must be given to access ODG content.
-4. An {{% system-name %}} deployment consultant must set up the RTS (refer to systems) and enabled the system setting to initiate the ODG integration with your {{% system-name %}} system wide.
+4. An {{% system-name %}} deployment consultant must set up the RTS (refer to systems) and an enabled system setting to initiate the ODG integration with your {{% system-name %}} system wide.
 
 ## Overview of the Calculator Portion of the Query ODG button functionality
 
