@@ -1,9 +1,9 @@
 ---
 id: '1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
 title: 'Link Documents to Encounters'
-date: '2020-03-23T17:58:18.072Z'
-version: 113
-lastAuthor: ''
+date: '2025-10-16T14:36:41.068Z'
+version: 124
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing.md'
@@ -122,6 +122,16 @@ A stored document can be accessed from either the appropriate chart tab the docu
 The linked encounters of documents can easily viewed from the **Encounters** chart tab, as well. Once the Encounters ListView loads, locate the appropriate encounter and click the **View Links** hyperlink, in the Options column. Clicking this will open a pop-up window displaying a list of documents linked to the selected encounter.
 
 ![](../link-documents-to-encounters.assets/01f86c86391b45cfd848243fc97fee6d.png)
+
+## Print Encounter and Linked Documents
+
+When printing an encounter, users may also want to print all the documents linked to that encounter. There is a system setting to enable printing documents linked to the encounter by default. To enable this setting, go to the Control Panel and the System Settings. The system setting is E-Chart > Print Chart > Print linked documents with encounters and it is disabled by default.
+
+![](../link-documents-to-encounters.assets/1b944e869986aadf59c4340a0b652e8c.png)
+
+When the system setting is enabled, there will be an additional setting that displays on the pop-up print window. The Include documents in the linked documents section of encounters setting will be checked, which means that any encounter printed will also print all linked documents associated with that encounter.
+
+![](../link-documents-to-encounters.assets/b724aa3a5eac386a602ac75eee9f935f.png)
 
 ## Move Link via Encounter Properties
 
