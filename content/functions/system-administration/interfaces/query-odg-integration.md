@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-10-22T12:35:29.403Z'
-version: 190
+date: '2025-10-22T12:43:56.150Z'
+version: 191
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -99,7 +99,7 @@ These are the specific {{% system-name %}} encounter data elements of the Chart 
     * Confounding factor items in the Case Management encounter Plan Narrative flowsheet section will appear if system setting Query ODG is enabled
 * <strong>Date of Surgery</strong>: from the Case Management encounter Plan Narrative flowsheet section
     * Illness type of Surgery selection can have a surgery date entered and/or Confounding Factors Surgery can have a surgery date entered.
-        * Thus, if there happen to be both surgery date fields entered, we will send the earliest date that is today or in the future, otherwise will send the nearest past date
+        * Thus, if there happen to be both surgery date fields entered, we will send the earliest date that is today or in the future, otherwise will send the nearest past date.
 
 ![](../query-odg-integration.assets/41a5b7d5154b94cf91e63499e091eba5.png)
 
