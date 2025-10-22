@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-10-15T17:22:43.675Z'
-version: 178
+date: '2025-10-22T12:35:29.403Z'
+version: 190
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -101,7 +101,7 @@ These are the specific {{% system-name %}} encounter data elements of the Chart 
     * Illness type of Surgery selection can have a surgery date entered and/or Confounding Factors Surgery can have a surgery date entered.
         * Thus, if there happen to be both surgery date fields entered, we will send the earliest date that is today or in the future, otherwise will send the nearest past date
 
-### ![](../query-odg-integration.assets/41a5b7d5154b94cf91e63499e091eba5.png)
+![](../query-odg-integration.assets/41a5b7d5154b94cf91e63499e091eba5.png)
 
 ### Query ODG Data that Sends Back Into Your Encounter
 
