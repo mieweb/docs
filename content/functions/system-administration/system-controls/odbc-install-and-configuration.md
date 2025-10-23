@@ -1,13 +1,13 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-03-26T20:42:46.709Z'
-version: 328
-lastAuthor: 'auhrick'
+date: '2025-10-23T18:05:04.498Z'
+version: 332
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.youtube.com/watch?v=9F2KUHstZ-E'
-  - 'system-report-writing.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/'
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
@@ -24,7 +24,7 @@ Video demonstrating how to pull data: [How to get data ODBC and JSON - video 15m
 
 ### System Report Writing
 
-For help on system report writing, please refer to separate guide [System Report Writing](system-report-writing.md)
+For help on system report writing, please refer to separate guide [System Report Writing](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/)
 
 ### 3rd Party Tools
 
