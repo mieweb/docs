@@ -1,9 +1,9 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2025-06-20T15:12:23.410Z'
-version: 223
-lastAuthor: 'anichols'
+date: '2025-10-23T16:53:04.674Z'
+version: 229
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../financial-functionality/adding-deals.md'
@@ -79,6 +79,12 @@ An *Add Payment* pop-up window will display.
 * Memo: Enter in any additional information needed such as check or transaction number
 
 Select the SAVE button to save the charge.  The charge details will then reflect within the Financials encounter section.
+
+### Non-Billing Records
+
+The Financials encounter section will display a subsection called "Non-Billing Records" if a completed order item on the encounter does not contain a billing code. If all completed order items are billable and contain a billing code, then the "Non-Billing Records" label will not display.
+
+![](../financials.assets/f946d196d41e73c59b31d714996861f7.png)
 
 ### Encounter View & Encounter Document
 
