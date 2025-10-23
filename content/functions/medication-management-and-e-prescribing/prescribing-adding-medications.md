@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2025-08-19T14:28:32.039Z'
-version: 361
-lastAuthor: 'auhrick'
+date: '2025-10-23T15:14:05.526Z'
+version: 370
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
@@ -127,18 +127,10 @@ The prescribe feature is not the most favorable place to prescribe DME or suppli
 * <strong>Print Drug Guide:</strong> Check-mark the box if you wish to print the drug guide for this prescription. It adds it to the print/fax queue if check-marked.
 * <strong>Special Instructions for Patient Education/Med Sheet:</strong> Type in the free-text box. This <strong>will not</strong> print on the script. But, this <strong>will</strong> appear in patient's Medication History under Sig column and in Pat.Ed sheet and Med Sheet. An example of something a physician would type in here might be example: Put 1 tablet under tongue as needed for chest pain. If chest pain continues, you may repeat 2 more times. Wait 5 minutes between each dose. If chest pain still persists call 911. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script.
 * <strong>Office Comments:</strong> This is for comments for office use only.
-    * This will*  
-        not*  
-        print on the script.
-    * This*  
-        will*  
-        appear in a Comments column on the Medication History Summary Screen.
-    * This will*  
-        not*  
-        appear in the Pat.Ed sheet.
-    * This*  
-        will*  
-        appear in the Med Sheet in comments column.
+    * This will not print on the script.
+    * This will appear in a Comments column on the Medication History Summary Screen.
+    * This will not appear in the Pat.Ed sheet.
+    * This will appear in the Med Sheet in comments column.
 * <strong>Note to Pharmacist:</strong> You can free type in a note to the pharmacist. It will also be transmitted to the pharmacy and will print on the script when rendered. When you view or edit the med details, this will show there also. This field is limited to 210 characters by SureScripts. Anything typed in here when using the <em>Remembered Script</em> feature will also be saved with the remembered script. This Notes field should only include information to the pharmacist that does not already have structured fields designated for such information, so long as it does not conflict with information sent in other structured fields. Inappropriate use of this Notes field includes information that already has a structured and codified field within the e-prescription message. The most concerning inappropriate use of this field is for patient directions, either supplemental or conflicting. This can lead to critical information not being conveyed to the patient. However, <strong>patient instructions on medication use should be contained entirely within the Sig field.</strong>
     * Instructions should not be split between the Sig and Notes fields. The Notes field should be reserved for information to assist the pharmacist in dispensing, benefits determination and other pharmacy staff activities.
     * Populating multiple fields with patient instructions may result in some instructions being missed and not conveyed to the patient.
@@ -181,6 +173,14 @@ Available in RC202409 and newer, providers can now mark the medication as "Do No
 ![](../prescribing-adding-medications.assets/868169428dc7716a3350232ebf9be7e6.png)
 
 ![](../prescribing-adding-medications.assets/a46175bb0ac044386cadfc2a1ea86fc7.png)
+
+## Medication Adherence
+
+A new field, Medication Adherence, will display when utilizing Quick Prescribe. This functionality was added to comply with FHIR 2025 certification standards. For providers that utilize the medication reconciliation/Quick Notes in the Presenting Medication section, these options have been mapped to default to the appropriate Medication Adherence code when prescribing/refilling.
+
+![](../prescribing-adding-medications.assets/751368816ae0f94b78dc9dce911670b5.png)
+
+![](../prescribing-adding-medications.assets/cdefd2618a4dfe414c263e4be10a83bf.png)
 
 ## Prescription Samples
 
