@@ -2,7 +2,7 @@
 id: '1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
 title: 'ICD11 Tool'
 date: '2025-10-01T12:30:48.356Z'
-version: 76
+version: 82
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

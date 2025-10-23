@@ -1,8 +1,8 @@
 ---
 id: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 title: 'Printing Documents'
-date: '2024-07-02T20:26:29.313Z'
-version: 90
+date: '2025-10-16T14:18:15.104Z'
+version: 99
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

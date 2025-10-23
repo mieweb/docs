@@ -1,9 +1,9 @@
 ---
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
-date: '2025-01-06T21:53:45.549Z'
-version: 141
-lastAuthor: 'auhrick'
+date: '2025-10-08T16:28:26.626Z'
+version: 150
+lastAuthor: 'dmartinez'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LEQIDNHR'

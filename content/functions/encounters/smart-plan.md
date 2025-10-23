@@ -2,7 +2,7 @@
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
 date: '2025-07-22T19:58:54.279Z'
-version: 1200
+version: 1201
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

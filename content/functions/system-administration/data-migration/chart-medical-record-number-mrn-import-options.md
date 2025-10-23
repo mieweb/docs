@@ -2,7 +2,7 @@
 id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 title: 'Chart Medical Record Number (MRN) Import Options'
 date: '2020-02-28T15:25:27.336Z'
-version: 47
+version: 48
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

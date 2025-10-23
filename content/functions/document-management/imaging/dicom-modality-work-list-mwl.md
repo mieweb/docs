@@ -2,7 +2,7 @@
 id: '1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
 title: 'DICOM Modality Work List (MWL)'
 date: '2020-03-24T15:53:13.829Z'
-version: 54
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []

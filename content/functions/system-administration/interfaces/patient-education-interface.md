@@ -1,9 +1,9 @@
 ---
 id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
 title: 'Patient Education Interface'
-date: '2025-02-05T19:20:41.779Z'
-version: 342
-lastAuthor: 'auhrick'
+date: '2025-10-21T02:06:47.919Z'
+version: 357
+lastAuthor: 'slodish'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSOIDNHR'

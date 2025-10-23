@@ -2,7 +2,7 @@
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
 date: '2025-09-12T13:23:17.416Z'
-version: 771
+version: 772
 lastAuthor: 'sbarber'
 mimeType: 'text/x-markdown'
 links:
