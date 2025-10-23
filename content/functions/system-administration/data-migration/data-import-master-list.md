@@ -1,9 +1,9 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2025-04-07T17:31:14.464Z'
-version: 232
-lastAuthor: 'anichols'
+date: '2025-10-23T16:29:34.609Z'
+version: 243
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -402,6 +402,12 @@ Fee schedule information may be imported from a template. There is an editor wit
 ![](../data-import-master-list.assets/7080b2a3bade8a49881d60c20e875d8b.png)
 
 * [Fee Schedule CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/)
+
+### Fee Schedules New
+
+The Fee Schedule CSV API manages data for setting costs and prices for orders. Required columns include Fee Schedule Name, Order Name, and Amount. Please note the the Order Name column corresponds to the Order Name column in the Orders dataset. The difference between the two Fee Schedule Imports is that Billing Code is not a required field in this import.
+
+![](../data-import-master-list.assets/04047b99bdf1d3ef40626c4e06b9bf37.png)
 
 ### Assets
 
