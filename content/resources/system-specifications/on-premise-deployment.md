@@ -1,9 +1,9 @@
 ---
 id: '1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
 title: 'On-Premise Deployment'
-date: '2020-02-27T21:26:18.802Z'
-version: 43
-lastAuthor: 'aquandt'
+date: '2025-10-24T12:34:45.293Z'
+version: 50
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html'
@@ -332,3 +332,11 @@ Successful Go-Live of an On-Premise {{% system-name %}}  System requires planni
 
 * [Application Managed Service Summary](on-premise-deployment/application-managed-service-summary.md)
 * [Database Managed Services](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs)
+
+## Hotfix Release Notes
+
+Hotfix Release Notes are available on the Version tab (Control Panel->Version). Release Notes will continue to be emailed to System Administrators on the hotfix notes email distribution list. If the Version tab does not display in your database, please contact your implementer for assistance installing it.
+
+![](../on-premise-deployment.assets/cbe35d7df2423dc8b562230dec956380.png)
+
+![](../on-premise-deployment.assets/8117f87f4bda5d8174a141d0770bd52e.png)
