@@ -162,6 +162,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
          * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
          * [Recommendations](functions/encounters/recommendations.md)
          * [Rename a Heading](functions/encounters/rename-a-heading.md)
+         * [Results Encounter](functions/encounters/results-encounter.md)
          * [Review of Systems](functions/encounters/review-of-systems.md)
          * [Smart Plan](functions/encounters/smart-plan.md)
          * [Social History](functions/encounters/social-history.md)

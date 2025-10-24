@@ -202,7 +202,7 @@ links:
   - 'functions/encounters/dictation-and-transcription/olympus-digital-dictation.md'
   - 'functions/absence-management.md'
   - 'functions/absence-management/absence-management-workflow.md'
-  - 'https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
+  - 'functions/encounters/results-encounter.md'
   - 'functions/encounters/work-related-exams.md'
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/injury-care.md'
@@ -998,7 +998,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [Olympus Digital Dictation](functions/encounters/dictation-and-transcription/olympus-digital-dictation.md)
         * [Absence Management](functions/absence-management.md)
             * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
-        * [Results Encounter](https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag)
+        * [Results Encounter](functions/encounters/results-encounter.md)
         * [Work-Related Exams](functions/encounters/work-related-exams.md)
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
     * [Injury Care](functions/injury-care.md)
