@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-09T17:40:24.320Z'
-version: 1776
-lastAuthor: 'anichols'
+date: '2025-10-24T15:21:36.775Z'
+version: 1785
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -202,6 +202,7 @@ links:
   - 'functions/encounters/dictation-and-transcription/olympus-digital-dictation.md'
   - 'functions/absence-management.md'
   - 'functions/absence-management/absence-management-workflow.md'
+  - 'https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
   - 'functions/encounters/work-related-exams.md'
   - 'functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md'
   - 'functions/injury-care.md'
@@ -997,6 +998,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [Olympus Digital Dictation](functions/encounters/dictation-and-transcription/olympus-digital-dictation.md)
         * [Absence Management](functions/absence-management.md)
             * [Absence Management Workflow](functions/absence-management/absence-management-workflow.md)
+        * [Results Encounter](https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag)
         * [Work-Related Exams](functions/encounters/work-related-exams.md)
             * [Driver Fitness Determination Exam (DOT)](functions/encounters/work-related-exams/driver-fitness-determination-exam-dot.md)
     * [Injury Care](functions/injury-care.md)
