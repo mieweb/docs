@@ -1,9 +1,9 @@
 ---
 id: '1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
 title: 'Duplicate Charts-Merge Report'
-date: '2025-10-21T17:15:38.467Z'
-version: 188
-lastAuthor: 'nwallace'
+date: '2025-10-28T17:19:27.979Z'
+version: 203
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
@@ -31,21 +31,25 @@ The Duplicate Charts-Merge report offers various search criteria filters to narr
 
 * <strong>Minimum Rating:</strong> <strong>Is a required field</strong>.  Select a Match rating range from 1 through 9 with the higher rating being more certain it is the same person.
     * If DOB matches and the following criteria apply:
-        * Rating 9: Last Name, First Name matches
-        * Rating 8: SSN matches
-        * Rating 8: Last Name, First Name sound similar (e.g., Bob and Rob)
-        * Rating 7: First Name and Last Name are swapped
-        * Rating 6: Last Name, First Name Initial matches
-        * Rating 5: Only Last Name matches
-        * Rating 4: Only First Name matches
-        * Rating 3: Only First Name sounds similar (e.g., Bob and Rob)
+        * Rating: 9  - Last and first names both match exactly
+        * Rating: 9  - Both SSNs are valid and match
+        * Rating: 8  - Last and first names sound alike
+        * Rating: 7  - Last name matches first name and first name matches last name (names may be reversed)
+        * Rating: 6  - Last names match and first letters of first names match
+        * Rating: 5  - Only last names match
+        * Rating: 4  - Only first names match
+        * Rating: 3  - First names sound alike
+        * Rating: 0  - Both SSNs are valid but do not match
+        * Rating: 0  - None of the above
     * If DOB does not match and the following criteria apply:
-        * Rating 6: SSN matches
-        * Rating 5: Last Name, First Name matches
-        * Rating 4: Last Name, First Name sound similar (e.g., Bob and Rob)
-        * Rating 3: First Name sounds similar (e.g., Bob and Rob)
-        * Rating 2: First Name and Last Name are swapped
-        * Rating 1: First Name Initial matches
+        * Rating: 9  - Both SSNs are valid and match
+        * Rating: 5  - Last and first names both match exactly
+        * Rating: 4  - Last and first names sound alike
+        * Rating: 3  - First names sound alike
+        * Rating: 2  - Last name matches first name and first name matches last name (names may be reversed)
+        * Rating: 1  - Last names match and first letters of first names match
+        * Rating: 0  - Both SSNs are valid but do not match
+        * Rating: 0  - None of the above
 * <strong>Include Deactivated Partitions:</strong> This option determines whether deactivated partitions are included in the search.
     * If enabled as search criteria: The search results will include matches from all partitions, including those marked as inactive.
     * If disabled from search criteria: Only matches from active partitions are considered.
