@@ -1,9 +1,9 @@
 ---
 id: '1uv5mwow3lT430CsvNRNmaqPdiIVF1OetG4jPTRQbk4Y'
 title: 'Real World Testing Plan 2026'
-date: '2025-06-23T15:30:48.518Z'
-version: 20
-lastAuthor: 'nwelsh'
+date: '2025-10-30T13:34:18.481Z'
+version: 184
+lastAuthor: 'shuq'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.webchartnow.com/resources/system-specifications/ehr-certification/real-world-testing/'
@@ -14,6 +14,7 @@ links:
   - 'https://www.healthit.gov/test-method/data-segmentation-privacy-receive'
   - 'https://www.healthit.gov/test-method/care-plan'
   - 'https://www.healthit.gov/test-method/electronic-health-information-export'
+  - 'https://www.healthit.gov/test-method/decision-support-interventions'
   - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
   - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
   - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
@@ -31,8 +32,11 @@ links:
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://www.healthit.gov/test-method/data-export'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
+  - 'https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/'
+  - 'https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/'
+  - 'https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-170/subpart-C/section-170.315'
 source: 'https://drive.google.com/open?id=1uv5mwow3lT430CsvNRNmaqPdiIVF1OetG4jPTRQbk4Y'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 ## General Information
 
@@ -63,7 +67,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 </tr>
 <tr>
 <td><strong>Plan Submission Date</strong></td>
-<td>10/31/2024</td>
+<td>10/31/2025</td>
 </tr>
 </table>
 
@@ -77,6 +81,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
     * § 170.315(b)(8) Security tags - summary of care - receive
     * § 170.315(b)(9) Care plan
     * § 170.315(b)(10) Electronic Health Information export
+    * § 170.315(b)(11) Decision Support Interventions
 * Clinical Quality Measures
     * § 170.315(c)(1)—record and export
     * § 170.315(c)(2)—import and calculate
@@ -277,6 +282,31 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 <tr>
 <td>(b)(10)(iii) - Documentation</td>
 <td>34</td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/decision-support-interventions">§ 170.315(b)(11) Decision Support Interventions</a></td>
+<td>(b)(11)(i) - Decision support intervention interaction</td>
+<td>37</td>
+</tr>
+<tr>
+<td>(b)(11)(ii) - Decision support configuration</td>
+<td>37</td>
+</tr>
+<tr>
+<td>(b)(11)(iii) - Decision support intervention selection</td>
+<td>37</td>
+</tr>
+<tr>
+<td>(b)(11)(iv) - Source attributes (categories)</td>
+<td>35</td>
+</tr>
+<tr>
+<td>(b)(11)(v) - Source attribute access and modification</td>
+<td>35, 36</td>
+</tr>
+<tr>
+<td>(b)(11)(vi) - Intervention Risk management</td>
+<td>35</td>
 </tr>
 <tr>
 <td><a href="https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export#test_procedure">§170.315(c)(1): CQMs – record and export</a></td>
@@ -505,78 +535,17 @@ WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified func
 
 ## Standards Updates (SVAP and USCDI)
 
-All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2025 Real World Testing period unless stated in the table below. Key current versions include the following:
+All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2026 Real World Testing period unless stated in the table below. Key current versions include the following:
 
+* HL7 CDA® Release 2 Implementation Guide for: Quality Reporting Document Architecture – Category I (QRDA I); Release 1, DSTU Release 3 (US Realm), Volume 1
 * QRDA Category I, Release 1, [Standard for Trial Use](https://ecqi.healthit.gov/glossary/standard-trial-use-stu) Release 5.3 with errata (published December 2022)
 * QRDA Category III, Release 1 (published September 2021)
 * [](https://www.w3.org/WAI/WCAG2-Conformance#level-AA)
 * HL7® CDA R2 Implementation Guide: C-CDA Templates for Clinical Notes R2.1 Companion Guide, Release 2-US Realm, October 2019
-* United States Core Data for Interoperability (USCDI), Version 1, July 2020 Errata
-* HL7® FHIR® US Core Implementation Guide STU 3.1.1, August 8, 2020
-* HL7® FHIR® SMART Application Launch Framework Implementation Guide Release 1.0.0, November 13, 2018
-* HL7® FHIR® Bulk Data Access (Flat FHIR®) (v1.0.0: STU 1), August 22, 2019
-
-### FHIR SVAP - Planned
-
-<table>
-<tr>
-<td><strong>Standard and version</strong></td>
-<td><ul><li>HL7® FHIR® US Core Implementation Guide STU 6.1.0, June 30, 2023</li><li>HL7® FHIR® SMART Application Launch Framework Implementation Guide Release 2.0.0, November 26, 2021</li><li>HL7® FHIR® Bulk Data Access (Flat FHIR®) (v2.0.0: STU 2), November 26, 2021</li></ul></td>
-</tr>
-<tr>
-<td><strong>Updated certification criteria</strong></td>
-<td>§ 170.315(g)(10) - Standardized API for patient and population services</td>
-</tr>
-<tr>
-<td><strong>Associated product</strong></td>
-<td>WebChart EHR v8.4</td>
-</tr>
-<tr>
-<td><strong>Health IT Module CHPL ID</strong></td>
-<td><strong>0015E8UJ8KHX8QL</strong></td>
-</tr>
-<tr>
-<td><strong>Method used for standard update</strong></td>
-<td>SVAP</td>
-</tr>
-<tr>
-<td><strong>Date of ONC ACB notification</strong></td>
-<td>TBD 2025, through quarterly attestation</td>
-</tr>
-<tr>
-<td><strong>Date of customer notification (SVAP only)</strong></td>
-<td>TBD 2025</td>
-</tr>
-</table>
-
-### USCDI SVAP - Planned
-
-<table>
-<tr>
-<td><strong>Updated product</strong></td>
-<td>WebChart EHR v8.4</td>
-</tr>
-<tr>
-<td><strong>Health IT Module CHPL ID</strong></td>
-<td><strong>0015E8UJ8KHX8QL</strong></td>
-</tr>
-<tr>
-<td><strong>Method used for standard update</strong></td>
-<td>HTI-1 update attestation</td>
-</tr>
-<tr>
-<td><strong>USCDI updated certification criteria</strong></td>
-<td><ul><li>§ 170.315(b)(1) Transitions of care</li><li>§ 170.315(b)(2) Clinical information reconciliation and incorporation</li><li>§ 170.315(b)(9) Care Plan</li><li>§ 170.315(e)(1) View, download, and transmit to 3rd party</li><li>§ 170.315(g)(9) Application access - all data request</li><li>§ 170.315(g)(10) - Standardized API for patient and population services</li></ul></td>
-</tr>
-<tr>
-<td><strong>Planned SVAP version</strong></td>
-<td>United States Core Data for Interoperability (USCDI), Version 3, October 2022 Errata</td>
-</tr>
-<tr>
-<td><strong>Planned SVAP date</strong></td>
-<td>Q1 2025</td>
-</tr>
-</table>
+* United States Core Data for Interoperability (USCDI), Version 4, March 2025 Errata
+* HL7® FHIR® US Core Implementation Guide STU 7.0.0, May 8, 2024
+* HL7® FHIR® SMART Application Launch Framework Implementation Guide Release 2.2.0, March 1, 2023
+* HL7® FHIR® Bulk Data Access (Flat FHIR®) (v2.0.0: STU 2), November 26, 2021
 
 ## Care Setting(s)
 
@@ -2038,6 +2007,128 @@ It is expected that updates to the EHI documentation will be rarely necessary; h
 
 Primary care, specialties, pediatrics, small, large
 
+### Measure 35: Source Attributes and IRM Summary View
+
+#### Description
+
+Source Attribute documentation and Intervention Risk Management Summary information should remain current, accurate, and available to users at all times.
+
+#### Associated Certification Criteria
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/decision-support-interventions">§ 170.315(b)(11) Decision Support Interventions</a></td>
+<td>(b)(11)(iv) - Source attributes (categories)</td>
+</tr>
+<tr>
+<td>(b)(11)(v) - Source attribute access and modification</td>
+</tr>
+<tr>
+<td>(b)(11)(vi) - Intervention Risk management</td>
+</tr>
+</table>
+
+#### Justification
+
+Source Attribute documentation and Intervention Risk Management Summary information should remain current, accurate, and available for users to view at all times.
+
+#### Test Methodology
+
+An external uptime monitor will check the availability of all documentation available at https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/ and https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+
+#### Expected Outcome(s)
+
+It is expected that all documentation will maintain an uptime of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
+
+#### Care Setting(s)
+
+Primary care, specialties, pediatrics, small, large
+
+### Measure 36: Source Attribute Modify
+
+#### Description
+
+A select group of authorized users should be able to modify and create source attribute information.
+
+#### Associated Certification Criteria
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/decision-support-interventions">§ 170.315(b)(11) Decision Support Interventions</a></td>
+<td>(b)(11)(v) - Source attribute access and modification</td>
+</tr>
+</table>
+
+#### Justification
+
+A select group of authorized users should be able to modify and create source attribute information.
+
+#### Test Methodology
+
+#### Expected Outcome(s)
+
+It is expected to be a rare occurrence that WebChart EHR users will create new source attributes or modify existing content; however, any attempts should be successful >95% of the time as determined by log files and user feedback.
+
+#### Care Setting(s)
+
+Primary care, specialties, pediatrics, small, large
+
+### Measure 37: Ozwell AI Integration and Access Test
+
+#### Description
+
+Users must be able to select and use Ozwell from within WebChart EHR (WC). Access to Ozwell must be limited to select users based on security role or individual security exception, and users must be able to provide feedback to developers directly from within Ozwell.
+
+#### Associated Certification Criteria
+
+<table>
+<tr>
+<td><strong>Certification Criteria</strong></td>
+<td><strong>Requirement(s)</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.healthit.gov/test-method/decision-support-interventions">§ 170.315(b)(11) Decision Support Interventions</a><br />
+<br />
+<a href="https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-170/subpart-C/section-170.315">https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-170/subpart-C/section-170.315</a></td>
+<td>(b)(11)(i)<br />
+(b)(11)(ii)<br />
+(b)(11)(iii)</td>
+</tr>
+</table>
+
+#### Justification
+
+Ozwell AI is integrated into WC and is accessible via the AI icon in the header bar on every page. Access is controlled by user security role or individual security exception. Only users with the appropriate permissions are presented with the AI icon; users without access do not see the icon and therefore cannot access Ozwell. Users can provide feedback to developers through the "Report Session" link at the top of the Ozwell session page or by creating a support ticket from the menu. These mechanisms ensure only authorized users can access Ozwell and that user feedback is efficiently routed to developers.
+
+#### Test Methodology
+
+Testing will be conducted as follows:
+
+* A user with appropriate security permissions will log in to WC and confirm the presence of the AI icon in the header bar, then access Ozwell.
+* A user without the required permissions will log in to WC and confirm the absence of the AI icon, ensuring Ozwell is not accessible.
+* A user will submit feedback using both the "Report Session" link and the support ticket option to verify feedback mechanisms are functional and feedback is received by developers.
+
+The number of successful and unsuccessful access attempts, as well as feedback submissions, will be tracked and reviewed.
+
+#### Expected Outcome(s)
+
+* Only users with the appropriate security role or exception are presented with the AI icon and can access Ozwell from within WC.
+* Users without access do not see the AI icon and cannot access Ozwell.
+* Users are able to provide feedback to developers using the available in-app mechanisms.
+* All care settings (primary care, specialties, pediatrics, small, large) are supported.
+
+#### Care Setting(s)
+
+Primary care, specialties, pediatrics, small, large
+
 ## Schedule of Key Milestones
 
 <table>
@@ -2049,42 +2140,42 @@ Primary care, specialties, pediatrics, small, large
 <tr>
 <td>Release of documentation for the Real World Testing to be provided to ACB and providers</td>
 <td>All settings</td>
-<td>October 31, 2024</td>
+<td>October 31, 2025</td>
 </tr>
 <tr>
 <td>Begin collection of information as laid out by the plan</td>
 <td>All settings</td>
-<td>January 1, 2025</td>
+<td>January 1, 2026</td>
 </tr>
 <tr>
 <td>Follow-up with providers and authorized representatives to understand any issues arising with the data collection.</td>
 <td>All settings</td>
-<td>Quarterly, 2025</td>
+<td>Quarterly, 2026</td>
 </tr>
 <tr>
 <td>Data collection and review.</td>
 <td>All settings</td>
-<td>Quarterly, 2025</td>
+<td>Quarterly, 2026</td>
 </tr>
 <tr>
 <td>Additional CQM or criteria certification as determined by the developer</td>
 <td>All settings</td>
-<td>Q3, 2025</td>
+<td>Q3, 2026</td>
 </tr>
 <tr>
 <td>Update standards via SVAP as determined by the developer</td>
 <td>All settings</td>
-<td>Q3, 2025</td>
+<td>Q3, 2026</td>
 </tr>
 <tr>
 <td>End of Real World Testing period/final collection of all data for analysis</td>
 <td>All settings</td>
-<td>December 31, 2025</td>
+<td>December 31, 2026</td>
 </tr>
 <tr>
 <td>Data analysis and report creation</td>
 <td>All settings</td>
-<td>January, 2026</td>
+<td>January, 2027</td>
 </tr>
 <tr>
 <td>Submission of Real World Testing Results to ACB</td>
@@ -2100,22 +2191,31 @@ This Real World Testing plan is complete with all required elements, including m
 <table>
 <tr>
 <td><strong>Authorized Representative Name</strong></td>
-<td>Doug Horner</td>
+<td>Pleasant Sarha Huq</td>
 </tr>
 <tr>
 <td><strong>Authorized Representative Email</strong></td>
-<td>horner@mieweb.com</td>
+<td>shuq@mieweb.com</td>
 </tr>
 <tr>
 <td><strong>Authorized Representative Phone</strong></td>
-<td>260-459-6270</td>
+<td>2606689601</td>
 </tr>
 <tr>
 <td><strong>Authorized Representative Signature</strong></td>
-<td>Doug Horner</td>
+<td><svg style="width: 25.79mm; height: 6.28mm;" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<style>* { fill: transparent; }</style>
+<g>
+<svg style="" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<style>* { fill: transparent; }</style>
+<path d="M 0 0 L 2579 0 2579 628 0 628 Z" transform="undefined" style=" stroke-width: 0in;" ></path>
+</svg>
+</g>
+</svg>
+<br /><strong>INSTEAD OF EMBEDDED DIAGRAM ABOVE USE EMBEDDED DIAGRAM FROM DRIVE AND PUT LINK TO IT IN THE DESCRIPTION. See: https://github.com/mieweb/wikiGDrive/issues/353</strong></td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
-<td>10/30/2024</td>
+<td></td>
 </tr>
 </table>
