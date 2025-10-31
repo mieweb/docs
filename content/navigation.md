@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-31T13:04:07.071Z'
-version: 1803
+date: '2025-10-31T15:35:04.716Z'
+version: 1808
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -825,7 +825,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
         * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
         * [Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-        * [Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
+        * [Schedule Portlet & My Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
         * [Condition Portlets and Alert Bar](functions/e-chart/conditions.md)
         * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
         * [Warnings & Alerts Portlet](functions/e-chart/alerts-tab-warnings.md)
