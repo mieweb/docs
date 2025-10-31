@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-30T17:04:36.129Z'
-version: 1792
-lastAuthor: 'auhrick'
+date: '2025-10-31T13:04:07.071Z'
+version: 1803
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -151,6 +151,7 @@ links:
   - 'functions/encounters/review-of-systems.md'
   - 'functions/encounters/questionnaire-encounter-section.md'
   - 'functions/encounters/vitals.md'
+  - 'functions/encounters/vitals-system-wide-defaults.md'
   - 'functions/encounters/nurse-physical-exam.md'
   - 'functions/encounters/physical-exam.md'
   - 'functions/encounters/visual-exam.md'
@@ -948,6 +949,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Review of Systems Encounter Section](functions/encounters/review-of-systems.md)
         * [Questionnaire Encounter Section](functions/encounters/questionnaire-encounter-section.md)
         * [Vitals Encounter Section](functions/encounters/vitals.md)
+            * [Vitals System Wide Defaults](functions/encounters/vitals-system-wide-defaults.md)
         * [Nurse Physical Exam Encounter Section](functions/encounters/nurse-physical-exam.md)
         * [Physical Exam Encounter Section](functions/encounters/physical-exam.md)
         * [Visual Exam Encounter Section](functions/encounters/visual-exam.md)
