@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-31T15:35:04.716Z'
-version: 1808
+date: '2025-10-31T17:33:38.476Z'
+version: 1816
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -21,13 +21,14 @@ links:
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
   - 'functions.md'
   - 'functions/e-chart/basic-initial-system-information.md'
+  - 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
   - 'functions/e-chart/online-help-and-notifications.md'
   - 'functions/e-chart/quick-view-sidemenu.md'
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
   - 'functions/e-chart/quick-view-alerts-portlet.md'
   - 'functions/e-chart/alerts-errors-failures-interactive-tab.md'
   - 'functions/e-chart/quick-view-due-list-portlet.md'
-  - 'functions/e-chart/quick-view-schedule-portlet.md'
+  - 'functions/e-chart/quick-view-schedule-portlet-and-my-schedule-portlet.md'
   - 'functions/e-chart/conditions.md'
   - 'functions/e-chart/preventive-care-portlet.md'
   - 'functions/e-chart/alerts-tab-warnings.md'
@@ -819,13 +820,14 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 * [Functions](functions.md)
     * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
+        * [Timeout Logout](https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w)
     * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
     * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
         * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
         * [Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
         * [Alerts, Errors, Failures - Interactive Tab](functions/e-chart/alerts-errors-failures-interactive-tab.md)
         * [Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-        * [Schedule Portlet & My Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
+        * [Schedule Portlet & My Schedule Portlet](functions/e-chart/quick-view-schedule-portlet-and-my-schedule-portlet.md)
         * [Condition Portlets and Alert Bar](functions/e-chart/conditions.md)
         * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
         * [Warnings & Alerts Portlet](functions/e-chart/alerts-tab-warnings.md)

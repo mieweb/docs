@@ -84,7 +84,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
          * [Preventive Care Portlet](functions/e-chart/preventive-care-portlet.md)
          * [Quick View - Alerts Portlet](functions/e-chart/quick-view-alerts-portlet.md)
          * [Quick View - Due List Portlet](functions/e-chart/quick-view-due-list-portlet.md)
-         * [Quick View - Schedule Portlet](functions/e-chart/quick-view-schedule-portlet.md)
+         * [Quick View - Schedule Portlet and My Schedule Portlet](functions/e-chart/quick-view-schedule-portlet-and-my-schedule-portlet.md)
          * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
          * [Security Best Practices](functions/e-chart/security-best-practices.md)
          * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
