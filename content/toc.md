@@ -89,6 +89,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
          * [Security Best Practices](functions/e-chart/security-best-practices.md)
          * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
          * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
+         * [Timeout Logout](functions/e-chart/timeout-logout.md)
       * E-Sign (Electronic Signature)
          * [E-Sign All Pending Tab](functions/e-sign-electronic-signature/e-sign-all-pending-tab.md)
          * [E-Sign Chart Tab](functions/e-sign-electronic-signature/e-sign-chart-tab.md)

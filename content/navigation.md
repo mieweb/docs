@@ -21,7 +21,7 @@ links:
   - 'programs/quality-reporting/brief-introduction-to-quality-reporting.md'
   - 'functions.md'
   - 'functions/e-chart/basic-initial-system-information.md'
-  - 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
+  - 'functions/e-chart/timeout-logout.md'
   - 'functions/e-chart/online-help-and-notifications.md'
   - 'functions/e-chart/quick-view-sidemenu.md'
   - 'functions/e-chart/sidemenu-thumbtack-feature.md'
@@ -820,7 +820,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
 * [Functions](functions.md)
     * [Basic Initial System Information](functions/e-chart/basic-initial-system-information.md)
-        * [Timeout Logout](https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w)
+        * [Timeout Logout](functions/e-chart/timeout-logout.md)
     * [Online Help and Notifications](functions/e-chart/online-help-and-notifications.md)
     * [Quick View Sidemenu](functions/e-chart/quick-view-sidemenu.md)
         * [Sidemenu Thumbtack Feature](functions/e-chart/sidemenu-thumbtack-feature.md)
