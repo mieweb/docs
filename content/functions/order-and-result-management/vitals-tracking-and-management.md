@@ -1,11 +1,12 @@
 ---
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
-date: '2025-06-19T13:33:37.642Z'
-version: 214
+date: '2025-10-31T14:32:30.147Z'
+version: 226
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
+  - '../encounters/vitals-system-wide-defaults.md'
   - 'https://mie.talentlms.com/shared/start/key:AOQHRKMF'
 source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
@@ -45,6 +46,28 @@ After all vitals have been entered and comments added where necessary, simply cl
 ![](../vitals-tracking-and-management.assets/5b1b43062f0def6f489f81e930bef64b.png)
 
 NOTE: To save another set of vitals, simply save the first set of vitals in the section, then expand open the Vitals section back up and set the date/time to record the second set of vitals.
+
+## Automated Default Vital Field Values
+
+When keying in vitals within the Vitals encounter section, or within the stand alone Vital Signs chart tab, certain fields are configured to automatically default, but can be changed manually by the user when documenting vitals data.
+
+### Default Vitals Fields
+
+The following 5 fields in the vitals section will default to a selection after keying in data for the vital:
+
+* <strong>BP Site:</strong> defaults to Left Arm system wide if a Blood Pressure is keyed in
+* <strong>BP Position:</strong> defaults to Sitting system wide if a Blood Pressure is keyed in
+* <strong>Pulse Regularity:</strong> defaults to Regular system wide if a Pulse is keyed in
+* <strong>Pulse Site:</strong> defaults to Radial system wide if a Pulse is keyed in
+* <strong>Exertion:</strong> defaults to Resting system wide if a Pulse is keyed in
+
+Users can always manually change the selection within the field's drop-down when needed.
+
+![](../vitals-tracking-and-management.assets/bf5a7e874d5139989104c5d864901319.png)
+
+### Changing System Wide Vital Field Defaults
+
+The default(s) for the above 5 fields in the vitals section can be configured to default to a different discrete selection system wide. Each default can be configured within the Observation Codes editor of the Control Panel.  NOTE: Configuring a different default will also change it system wide.  Please refer to the separate guide [Vitals System Wide Defaults](../encounters/vitals-system-wide-defaults.md#changing-system-wide-vital-field-defaults) for configuration help.
 
 ## Adding Vitals via Chart Tab
 
