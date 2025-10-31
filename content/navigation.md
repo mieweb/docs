@@ -831,7 +831,6 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Warnings & Alerts Portlet](functions/e-chart/alerts-tab-warnings.md)
         * [Super User Quick View Portlet](functions/e-chart/super-user-quick-view-portlet.md)
     * [Artificial Intelligence](functions/artificial-intelligence.md)
-        * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Ozwell AI Assistant](functions/artificial-intelligence/ozwell-ai-assistant.md#ozwell-ai-assistant)
         * [Whisper AI - Dictation - Summarize](functions/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
     * [E-Chart](functions/e-chart.md)
@@ -1536,7 +1535,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Review Session - System Administration](rapid-deployment/review-sessions/review-session-system-administration.md)
 * [Resources](resources.md)
     * [System Specifications](resources/system-specifications.md)
-        * EHR Certification
+        * [EHR Certification](resources/system-specifications/ehr-certification/real-world-testing.md)
             * [Real World Testing](resources/system-specifications/ehr-certification/real-world-testing.md#rwt-plans)
                 * [Real World Testing Plan 2021](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2021.md)
                 * [Real World Testing Plan 2025](resources/system-specifications/ehr-certification/real-world-testing/real-world-testing-plan-2025.md#general-information)
@@ -1591,7 +1590,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
                 * [Apt Reminder 1 with Portal](resources/system-specifications/system-email-templates/email-templates-from-scheduler/apt-reminder-1-with-portal.md)
                 * [Apt Spv Reminder 15 Days](resources/system-specifications/system-email-templates/email-templates-from-scheduler/apt-spv-reminder-15-days.md)
                 * [Default](resources/system-specifications/system-email-templates/email-templates-from-scheduler/default.md)
-        * NEW Interface Specifications
+        * [Interface Specifications](resources/system-specifications/interface-specifications.md)
     * [Quality Resources](resources/quality-resources.md)
     * [Communications](resources/communications.md)
         * [MACRA: Quality Payment Program (QPP)](resources/communications/macra-quality-payment-program-qpp.md)
