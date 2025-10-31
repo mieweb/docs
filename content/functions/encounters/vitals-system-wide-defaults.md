@@ -2,7 +2,7 @@
 id: '1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM'
 title: 'Vitals System Wide Defaults'
 date: '2025-10-31T14:10:13.034Z'
-version: 55
+version: 56
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
