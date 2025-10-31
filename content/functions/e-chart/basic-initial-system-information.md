@@ -1,16 +1,15 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2025-07-15T16:41:01.667Z'
-version: 235
-lastAuthor: 'auhrick'
+date: '2025-10-31T17:31:54.012Z'
+version: 248
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
-## Basic Initial System Information
-
 We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}}, you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 
 ### Chart Simple Search Screen
@@ -124,5 +123,5 @@ To log out of the system, click the Logout sidemenu option.
 ![](../basic-initial-system-information.assets/32a0061c3ae80b276b91694780283f32.png)
 
 {{% note %}}
-A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).
+A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).  Please refer to the [Timeout Logout](https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w) guide.
 {{% /note %}}
