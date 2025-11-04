@@ -1,8 +1,8 @@
 ---
 id: '1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
 title: 'Enabled & Disabled Scheduled Jobs'
-date: '2025-09-29T11:22:16.023Z'
-version: 522
+date: '2025-11-04T16:21:01.122Z'
+version: 540
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
@@ -15,7 +15,13 @@ To access the Scheduled Jobs, from the Sidemenu, click on the Control Panel, the
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/fa33bcdef08df5ba3e427eaa29000811.png)
 
-## Enabled Scheduled Jobs
+## Scheduled Jobs System Enable
+
+The Deployment Consultant must configure the scheduled jobs functionality to be enabled for the system.  Otherwise you will be notified that scheduled jobs are not yet enabled system wide.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/223d984c14c51d4df109a3cb531dbb99.png)
+
+## Enabled Individual Scheduled Jobs
 
 The standard scheduled jobs are displayed upon initial entry to the Scheduled Job screen.
 
@@ -126,7 +132,7 @@ This scheduled job will convert Task Extended Flu Review Determination Reasons (
 
 This scheduled job sends a list of security roles and number of users in each security role to Medical Informatics Engineering. This job is used to ensure that clients are being billed for the appropriate number of software licenses.
 
-## Disabled Scheduled Jobs
+## Disabled Individual Scheduled Jobs
 
 To view the Disabled Scheduled jobs, select the *Show Disabled* option.
 
@@ -326,6 +332,20 @@ The Status column will show a colored status circle.
 * Red status circle means the scheduled job has errored out during every run as the recurrence is set to.
 
 ![](../enabled-and-disabled-scheduled-jobs.assets/286a3ac2b49c16b9ebe9efa434d9bdb5.png)
+
+### Scheduled Job Failures Notification
+
+There is a system setting that can be configured with an email(s) of who should receive email notifications of a scheduled job failure.  The system setting is *Email Failures To*.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/d9baa71c9a52efaa549ece475ba636e1.png)
+
+This is an email notification example that could be received:
+
+![](../enabled-and-disabled-scheduled-jobs.assets/f8c8d7a5e2ec3421ba1f25d9c337e8d9.png)
+
+Another system setting related to scheduled job failures is *Error Emails From*.  By default the email will be ‘from address' scheduledjobs@med-web.com, but this can be changed to be any email ‘from' address.
+
+![](../enabled-and-disabled-scheduled-jobs.assets/c54a91c950570f9b75c3f2513ae9980a.png)
 
 ### Status History
 
