@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-11-04T20:14:29.984Z'
-version: 796
+date: '2025-11-04T21:13:55.422Z'
+version: 801
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -40,10 +40,10 @@ If the default provider/employer organization chart will be utilized, clients ma
 
 Complete the following steps to setup the patient portal within the provider organization chart:
 
-1. Navigate to the <strong>Provider Management</strong> side menu.
+1. Navigate to the <em>Provider Management</em> side menu.
 2. Type the name of the PO/EO, and click the <strong>Search</strong> button. In this example, we will be using <em>Provider Portal</em>
 3. Locate the PO/EO Name, and click the hyperlink.
-4. Locate and select the <strong>Portal Setup</strong> tab.
+4. Locate and select the <em>Portal Setup</em> tab.
 5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information.  
     ![](../patient-portal-first-time-setup-and-configuration.assets/11edec3c3df31e71caad76ea63099aa8.png)
 6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.    
