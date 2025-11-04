@@ -1,8 +1,8 @@
 ---
 id: '1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ'
 title: 'Allergy/Medication Tab - Quick Links'
-date: '2025-11-04T15:02:51.656Z'
-version: 52
+date: '2025-11-04T15:20:47.313Z'
+version: 56
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -58,7 +58,3 @@ It lists everything in the patient's Medication History screen. It lists *Allerg
 **Medication Sheet - example:**
 
 ![](../allergy-medication-tab-quick-links.assets/188d8a276521f18287a3f301085bb968.png)
-
-![](../allergy-medication-tab-quick-links.assets/87534fa53ca867dde9e65212fc8a9e6d.png)
-
-Updates will always be blank. This is a spot to physically write in changes first on paper before entering them into the system.
