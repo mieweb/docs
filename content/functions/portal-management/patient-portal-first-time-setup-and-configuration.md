@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-11-04T19:19:01.417Z'
-version: 790
+date: '2025-11-04T20:14:29.984Z'
+version: 796
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -282,7 +282,7 @@ There are certain modules enabled, by default. How to activate or deactivate the
 1. Clicking on the Select Modules header will open a dialog window where modules can be added to or removed from the portal functionality. With the necessary modules selected/deselected, simply click the Save button to retain all changes.
 2. All of the modules can be given a custom name using the Custom Module Name field, under each of the respective section headings.
 
-#### My Appointments
+### My Appointments
 
 The *My Appointments* module can be updated to allow certain functionality, as well as to display warnings or specified text, as needed.
 
@@ -318,7 +318,7 @@ This field will only display if *Allow scheduling past due appointments* IS NOT 
 
 **Alert text to show at top of form**: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
 
-#### My Medical Information
+### My Medical Information
 
 The *My Medical Information* module is intended for displaying pre-defined documents in this section of the portal. The *My Medical Information* module will point to the My Medical Information chart tab, by default. The section within the portal will display the documents that are linked to whatever chart tab is selected during the portal setup.
 
@@ -333,7 +333,7 @@ If a document (such as a lab result document) should not display on the portal u
 d.storage_type>0 AND IF(d.doc_type = 'WCLAB', EXISTS (SELECT sig.doc_id FROM document_sign sig WHERE sig.doc_id = d.doc_id AND sig.status = 1), 1)
 {{% /note %}}
 
-#### Send a Message
+### Send a Message
 
 The *Send a Message* module can have its name and header customized, the sending instructions modified, or the message types configured, to determine what can/cannot be sent to and from the portal.
 
@@ -368,7 +368,7 @@ Portal messages are sent to WebChart in the form of a task. WebChart clients wil
 
 When replying to portal messages, users will navigate to the forms library via the Add Document link and select the appropriate Text document to send the reply for portal messages.  If no portal reply text documents exist, one or more will need to be created.  The text document(s) will need to be added to the Message Center chart tab so that portal replies can be viewed within the patient portal.
 
-#### Questionnaires
+### Questionnaires
 
 Adding Questionnaire modules will allow users to add custom questionnaires to the portal, as needed. Questionnaires 1, 2, and 3 can all be used to allow portal users to view or update their medical information (e.g., medications, allergies, immunizations), as appropriate. By default, systems will have a flowsheet created: My Medical Information. This flowsheet contains three layouts–one for medications, one for allergies, and one for immunizations. These flowsheets can be modified, if necessary. The My Medical Information flowsheet will allow portal users to update their medications, allergies, and immunizations within the portal. These changes will update the patient's chart in real-time.
 
@@ -376,7 +376,7 @@ Databases on RC202009 and newer now have the ability to allow demographic inform
 
 If users should only be allowed to view but not edit their medical information (i.e., allergies, medications and immunizations), a new flowsheet will need to be created. Users can create a new flowsheet or simply copy the My Medical Information flowsheet and edit it, where necessary. For example, the *view only* flowsheet could contain four (4) layouts labeled Demographics, Allergies View Only, Medications View Only, and Immunizations View Only.
 
-#### Other Health Resources
+### Other Health Resources
 
 The *Other Health Resources* module allows for additional resources to be added to the portal, as needed. These resources can be internet or intranet resources, and there is no limit to the number of resources that can be added.
 
@@ -422,7 +422,7 @@ Every page or screen of a portal can have a help bubble available in the top bar
 
 **My Medical Information & Message Center**: Every portal comes with pre-loaded help documentation and verbiage for the My Medical Information and Message Center modules. These two modules use the same layout and currently cannot be separated; however, they can be customized, as needed.
 
-#### Layout Manager
+### Layout Manager
 
 All of the portal help bubbles and help documentation and verbiage is managed from the *Layout Manager* of the *Control Panel*. To see a list of existing help bubble layouts, simply search for MIEHELP.
 
