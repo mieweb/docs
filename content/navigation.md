@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-10-31T17:33:38.476Z'
-version: 1816
-lastAuthor: 'anichols'
+date: '2025-11-04T20:53:10.568Z'
+version: 1826
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -917,7 +917,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
         * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
         * [Kiosk](functions/portal-management/kiosk.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
-        * [Patient Portal Setup](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
+        * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
