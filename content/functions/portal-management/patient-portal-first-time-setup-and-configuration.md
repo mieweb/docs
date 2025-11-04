@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-11-04T19:01:41.004Z'
-version: 786
+date: '2025-11-04T19:19:01.417Z'
+version: 790
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -318,7 +318,7 @@ This field will only display if *Allow scheduling past due appointments* IS NOT 
 
 **Alert text to show at top of form**: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
 
-### My Medical Information
+#### My Medical Information
 
 The *My Medical Information* module is intended for displaying pre-defined documents in this section of the portal. The *My Medical Information* module will point to the My Medical Information chart tab, by default. The section within the portal will display the documents that are linked to whatever chart tab is selected during the portal setup.
 
@@ -396,7 +396,7 @@ The *Other Health Resources* module allows for additional resources to be added 
 
 Below is information pertaining to a few aspects of portal management and utilization (e.g., toggling between portals, editing layouts, or customizing help bubbles), which is intended to help with improving understanding and overall use of the portal functionality.
 
-#### Portal Access
+### Portal Access
 
 Certain relationships need to exist before a patient can access the patient portal. For example, a patient chart must have a relationship to the applicable provider organization (the portal). This can be done manually from the Summary chart tab of a patient's chart, by using the Contacts patient portlet and adding the Provider Organization relationship. Automation of setting the provider organization relationship will occur if the NMC, Portal, Default Portal system setting has been configured to include the Pat ID of the portal, which can be found at the end of the portal website URL. Once a patient uses their activation code to create their portal account, a user account (found under the Access chart tab of the Control Panel) will also be created. This creates a link between the patient chart and the user account. A relationship of portal user will automatically be set.
 
