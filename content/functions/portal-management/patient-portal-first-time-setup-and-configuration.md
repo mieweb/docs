@@ -1,13 +1,14 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-09-12T13:23:17.416Z'
-version: 772
-lastAuthor: 'sbarber'
+date: '2025-11-04T19:01:41.004Z'
+version: 786
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://ehdocs.med-web.com/wcdocs/patient-portal-first-time-setup-and-configuration.html'
-  - 'portal-activation-code-employee-experience.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/provider-management/'
+  - 'https://docs.enterprisehealth.com/functions/portal-management/portal-activation-code-employee-experience/'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
@@ -23,15 +24,15 @@ Many WebChart databases, especially legacy systems, may lack the necessary compo
 
 WebChart clients will configure portals in the Provider Organization Chart (PO Chart), while Enterprise Health clients will configure in (EO Charts).  For Enterprise Health clients, please note that anywhere PO is listed below, it should be referenced at EO.
 
-Configuration of a patient or employee portal is done within a provider organization (PO) or employer organization (EO) chart. To add or modify provider organization charts, click the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)/Overview (EO)** chart tab within the respective chart.
+Configuration of a patient or employee portal is done within a provider organization (PO) or employer organization (EO) chart. To add or modify provider organization charts, click the [Provider Management](https://docs.enterprisehealth.com/functions/system-configuration/provider-management/) sidemenu option. In order to configure the portal from the PO, the **Portal** chart type must be associated with the chart. The chart type(s) can be viewed and edited from the **Overview (PO)/Overview (EO)** chart tab within the respective chart.
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/888c4f9cdaecc3be851eb0d1580a522f.png)
 
-In order to begin configuring the Patient Portal, it first must be enabled from the **General Configuration** section of the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}} tab.
+In order to begin configuring the Patient Portal, it first must be enabled from the **General Configuration** section of the Portal Setup tab.
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/a10c2129b98c04b32bac7c8890433637.png)
 
-Utilize the Provider Management menu search to locate the Provider Organization (PO)/Employer Organization *chart* that will house the portal configurations. By default, a {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} provider organization or employer organization will exist in the {{% system-name %}} system. This default provider/employer organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created.
+Utilize the Provider Management menu search to locate the Provider Organization (PO)/Employer Organization *chart* that will house the portal configurations. By default, a Provider Portal provider organization or employer organization will exist in the {{% system-name %}} system. This default provider/employer organization can be used to setup/configure the patient portal; otherwise, a new provider organization can be created.
 
 {{% tip %}}
 If the default provider/employer organization chart will be utilized, clients may wish to edit the Provider/Employer Organization (portal) name. This is done in the Overview (PO)/Overview(EO) chart tab by expanding the Provider Organization/Employer Organization header and updating the **Search Name** field.
@@ -39,10 +40,10 @@ If the default provider/employer organization chart will be utilized, clients ma
 
 Complete the following steps to setup the patient portal within the provider organization chart:
 
-1. Navigate to the {{% syslink "Provider Management" "f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+" %}} side menu.
-2. Type the name of the PO/EO, and click the <strong>Search</strong> button. In this example, we will be using  {{% syslink "Provider Portal" "f=chart&s=pat&pat_id=41" %}} .
+1. Navigate to the <strong>Provider Management</strong> side menu.
+2. Type the name of the PO/EO, and click the <strong>Search</strong> button. In this example, we will be using <em>Provider Portal</em>
 3. Locate the PO/EO Name, and click the hyperlink.
-4. Locate and select the {{% syslink "Portal Setup" "f=chart&s=pat&t=Portal+Setup&v=dashboard&pat_id=41" %}}  tab.
+4. Locate and select the <strong>Portal Setup</strong> tab.
 5. Once there, click the <strong>First Time Setup</strong> header, to expand and review the information.  
     ![](../patient-portal-first-time-setup-and-configuration.assets/11edec3c3df31e71caad76ea63099aa8.png)
 6. Once the <em>First Time Setup</em> section is expanded, select which security roles will have access to the portal. After selecting all of the appropriate security roles, click the <strong>Submit</strong> button, and the first-time portal setup will initiate.    
@@ -93,7 +94,7 @@ After running the portal setup, click the **General Configuration/Portal** head
 
 **Enable Employer Portal**: Select to enable employer/supervisor portal.
 
-**Enable Activation Code Redemption**: This option will require an activation code for new portal users to create a portal account. Select to enable activation code redemption, which will allow users to generate a code for each chart needing to activate a portal account. To generate an activation code for a chart, the portal user must have a relationship to the applicable portal Provider Organization. See separate guide [Portal Activation Code Experience](portal-activation-code-employee-experience.md).
+**Enable Activation Code Redemption**: This option will require an activation code for new portal users to create a portal account. Select to enable activation code redemption, which will allow users to generate a code for each chart needing to activate a portal account. To generate an activation code for a chart, the portal user must have a relationship to the applicable portal Provider Organization. See separate guide [Portal Activation Code Experience](https://docs.enterprisehealth.com/functions/portal-management/portal-activation-code-employee-experience/).
 
 * This relationship can be set manually using the Contacts patient portlet (Relationships section) on the Patient Summary chart tab.
 * It can also be automated by enabling the NMC, Portal, Default Portal system setting. In the <em>Value</em> field of the system setting enter the Pat ID of the portal, which can be found at the end of the portal URL address. Once the default portal system setting is configured with the appropriate Pat ID, clinic users will generate an activation code and this step will automatically link the applicable provider organization to the patient chart.
@@ -181,7 +182,7 @@ To *fully* add a consent form to the list:
     a.  <em>Observations will likely need to be created prior to building and utilizing this flowsheet.</em>
     b.  Add a WHERE clause to the Required section of this flowsheet, to ensure that portal users not accepting the terms and conditions of the consent form will not be permitted access or be able to proceed further in the portal. Add the following WHERE clause to the Required section:  
         `  
-        observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1`
+        `observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1
 
 {{% /note %}}
 
@@ -197,7 +198,7 @@ Once all of the appropriate fields have been addressed, click the **Next** butto
 
 ## Customizations
 
-With the initial setup complete, navigate to the {{% syslink "Patient Portal" "f=chart&s=pat&t=Patient+Portal&v=dashboard&pat_id=41" %}} tab to finish any remaining portal customizations. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
+With the initial setup complete, navigate to the *Patient Portal* tab to finish any remaining portal customizations. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
 
 While on the *Patient Portal* tab, click the **Configuration** header to expand and review the available options. Fill out the appropriate fields, as needed.
 
@@ -229,7 +230,7 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 
 **Description for Welcome Message**: The description provided for the Portal Welcome Message. Click Show Sample to see where this occurs.
 
-**Welcome Image ID**: Using the link to the {{% syslink "System Files Manager" "f=admin&s=system_files&tabmodule=admin&tabselect=System+Files" %}} , upload an image to be seen on the portal Welcome screen. Click **Add System File**, select the preferred image, storing it as a *JPEG image file*, and set the alias as **portal-landing-####** (e.g., portal-landing-40307, portal-landing-431, etc.). The desired dimensions are 650 x 412.
+**Welcome Image ID**: From the *System Files Manager*, upload an image to be seen on the portal Welcome screen. Click **Add System File**, select the preferred image, storing it as a *JPEG image file*, and set the alias as **portal-landing-####** (e.g., portal-landing-40307, portal-landing-431, etc.). The desired dimensions are 650 x 412.
 
 **Message Ticker**: Use the message ticker to display important information, or messages, at the bottom of the portal Welcome page. The ticker will rotate through each message and scroll right to left, for long messages. Additional messages can be added, updated, or edited using the **Add/Edit Messages** links. A SuperUser security permission is required for adding or editing messages
 
@@ -287,7 +288,7 @@ The *My Appointments* module can be updated to allow certain functionality, as w
 
 **Custom Module Name**: The name defaults to *My Appointments*. Customize up to 60 characters.
 
-**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Provider Organization chart. Appointment types that are available for selection are managed from the {{% syslink "Appt Types" "func=scheduler&s=apttypes" %}} chart tab of the {{% syslink "Scheduler" "func=scheduler%23Now" %}} . Selecting **Available For Portal** on the respective appointment type indicates that the appointment type will be made available within the portal. Not selecting this option indicates that the appointment type linked to the schedule will NOT be available within the portal.
+**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Provider Organization chart. Appointment types that are available for selection are managed from the *Appt Types*. Selecting **Available For Portal** on the respective appointment type indicates that the appointment type will be made available within the portal. Not selecting this option indicates that the appointment type linked to the schedule will NOT be available within the portal.
 
 **Request an Appointment**: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's *My Appointments* page.
 
@@ -423,7 +424,7 @@ Every page or screen of a portal can have a help bubble available in the top bar
 
 #### Layout Manager
 
-All of the portal help bubbles and help documentation and verbiage is managed from the {{% syslink "Layout Manager" "f=admin&subfunc=layout_manager&t=Layout+Manager" %}} of the {{% syslink "Control Panel" "f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin" %}} . To see a list of existing help bubble layouts, simply search for MIEHELP.
+All of the portal help bubbles and help documentation and verbiage is managed from the *Layout Manager* of the *Control Panel*. To see a list of existing help bubble layouts, simply search for MIEHELP.
 
 ![](../patient-portal-first-time-setup-and-configuration.assets/239857ccbce689cf1d890668f9e36350.png)
 
