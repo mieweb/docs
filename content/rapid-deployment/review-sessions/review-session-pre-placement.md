@@ -1,9 +1,9 @@
 ---
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
-date: '2025-08-04T13:20:25.863Z'
-version: 737
-lastAuthor: 'anichols'
+date: '2025-11-05T16:06:55.488Z'
+version: 743
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
@@ -59,18 +59,18 @@ The words Pre-Placement, Candidate, or Applicant are used interchangeably. New h
 
 Standard functionality for the pre-placement workflow includes
 
-    * Client-specific branding with logo
-    * Applicant portal
-    * Applicant (APP) partition
-    * Pre-placement questionnaire
-    * Appointment scheduling requests/tasking
-    * Real-time portal appointment scheduling using pick-up codes
-    * Appointment invitation, confirmation, and reminder emails
-    * Pre-placement visit encounter
-    * Quick View Pre-placement worklist
-    * Health surveillance pre-placement panel
-    * Document queue tool available for the customer to merge duplicate records
-    * Purge editor is available for customer use to purge documents for applicants that aren't hired after a predetermined time
+* Client-specific branding with logo
+* Applicant portal
+* Applicant (APP) partition
+* Pre-placement questionnaire
+* Appointment scheduling requests/tasking
+* Real-time portal appointment scheduling using pick-up codes
+* Appointment invitation, confirmation, and reminder emails
+* Pre-placement visit encounter
+* Quick View Pre-placement worklist
+* Health surveillance pre-placement panel
+* Document queue tool available for the customer to merge duplicate records
+* Purge editor is available for customer use to purge documents for applicants that aren't hired after a predetermined time
 
 ## [Pre-placement Workflow Demonstration](https://drive.google.com/open?id=1kdoY2-_e0I-ST4fa9LVuAdTRmAZ9nByq8vs3JFb5w4s)
 
@@ -153,11 +153,11 @@ The Document Queue may be used to merge charts on-demand in between custom-tailo
 
 To more fully address preferred configurations and review available options and features, utilize the Employer Organization tab under the Control Panel to access and edit the applicant portal. These configurations will be visible from the respective portal when accessed. To begin the initial setup and finalize the configuration of the portal, there is additional information that is important to understand before getting started. The Deployment Consultant will ensure the portal configurations are suited to the business needs in the following areas:
 
-    * <strong>Applicant partition</strong>
-    * <strong>Applicant portal setup</strong>
-    * <strong>Task rule and department setup</strong>
-    * <strong>Consent and questionnaire flowsheets</strong>
-    * <strong>Schedule job - auto-merging applicant chart to employee chart</strong>
+* Applicant partition
+* Applicant portal setup
+* Task rule and department setup
+* Consent and questionnaire flowsheets
+* Schedule job - auto-merging applicant chart to employee chart
 
 ### Portal Setup
 
