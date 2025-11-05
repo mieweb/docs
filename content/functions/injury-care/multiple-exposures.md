@@ -1,9 +1,9 @@
 ---
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
-date: '2025-10-14T20:06:17.788Z'
-version: 594
-lastAuthor: 'adavis'
+date: '2025-11-05T14:51:18.015Z'
+version: 610
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
@@ -11,7 +11,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 The Multiple Exposures module is used to collect and store data on source patients. The exposure chart also identifies any individuals that were potentially exposed to the source patient. The purpose of the module is to collect data regarding the exposure case/incident and copy that information to individually exposed patient/employee charts. This module is not used for BBP/BFE (Body Fluid Exposures). Use the BBP/BFE Initial and Follow up encounters for BBP/BFE's type exposures.
 
-## Searching for Existing Multiple Exposures
+### Searching for Existing Multiple Exposures
 
 1. Navigate to and click on the sidemenu item for Multiple Exposures.
 
@@ -23,7 +23,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 ![](../multiple-exposures.assets/d314cae2aa6f34ab2cf0e0e50ef14440.png)
 
-## Adding a New Multiple Exposure
+### Adding a New Multiple Exposure
 
 1. Click the Add New button to the far right of the Multiple Exposure Search.
 
@@ -38,7 +38,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 ![](../multiple-exposures.assets/251f3ae69113e996e22769d55fc352a1.png)
 
 4. No other sections need to be completed on Overview (MEXP) at this time. Proceed to entering the exposure details.
-## Closing a Multiple Exposure
+### Closing a Multiple Exposure
 
 1. When a multiple exposure case can be closed or is no longer needed the exposure can be deactivated. To deactivate a multiple exposure, navigate to the multiple exposure chart and open the "Multiple Exposure" section on the Overview (MEXP) chart tab.
 2. Enter the deactivation date in the "Date Deactivated" field and then save.
@@ -47,7 +47,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 3. Once the chart is deactivated, it is no longer searchable in the Multiple Exposure module. The chart, however, can still be located using the Detailed Chart Search (E-Chart side menu tab) or the "Demographic Report (EH)" located in the Reports module. If needed, a multiple exposure chart can be reactivated by simply removing the deactivation date.
 
-# Completing the Multiple Exposure
+### Completing the Multiple Exposure
 
 1. Click the "Add Multiple Exposure" link on the right hand side of the screen.
 
@@ -87,12 +87,12 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 8. Once the multiple exposure has been copied to the individual charts, archive and close the encounter. Users may still select and copy incident data to individual charts. However, if new contacts are added to the Overview MEXP after the encounter is closed, the encounter will need reopened, so the contact list can refresh.
 
-## Administrative Notes
+### Administrative Notes
 
 * You can only copy the case to a patient chart once. Any changes made on the Multiple Exposure Case (source patient) can not be re-copied nor auto-updated to the exposed patient chart(s)/contacts. You must make any updates directly in the exposed contact's chart(s) after it has been copied from the Multiple Exposure (source patient) encounter.
 * Only one Multiple Exposure encounter should be opened per Multiple Exposure chart. Multiple Exposure charts should be deactivated when no longer in use to prevent using more than once.
 
-## Reports
+### Reports
 
 The Incident Report (Reports module) will no longer display the Multiple Exposure (last plan) data in the Incident report. If this module is manually installed on older legacy systems, then EH will display the Source Patient Multiple Exposures in addition to each chart the multiple exposure was copied to. When running the Incident Report, users may need to filter out multiple exposures, depending on the use case for running the report.
 
