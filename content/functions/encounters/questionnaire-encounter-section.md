@@ -1,9 +1,9 @@
 ---
 id: '1lmP_-n3hs3BFggxqKrCghcY6azLuGzFBUKU5psM70tw'
 title: 'Questionnaire Encounter Section'
-date: '2025-06-02T19:08:47.238Z'
-version: 51
-lastAuthor: 'anichols'
+date: '2025-11-05T16:55:04.820Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lmP_-n3hs3BFggxqKrCghcY6azLuGzFBUKU5psM70tw'
@@ -29,7 +29,7 @@ When you click Hide/Show Tasks, it will show the task details that are linked (i
 
 ![](../questionnaire-encounter-section.assets/1308cd79628fd81caa1b5fa851acbd52.png)
 
-### Link with Interpretation
+## Link with Interpretation
 
 Jumping back up to the stored questionnaire document in Detail View, you can hover your mouse (or swipe left if on an ipad or touchscreen detected device) at the top left of the stored questionnaire document details to see icons. The **Link with Interpretation** is an available icon.  **Link with Interpretation** will link this selected stored questionnaire document to the encounter you are working in (meaning, this stored questionnaire document that is listed, will be linked to the encounter being worked in and noted as such in the *Linked Documents* separate encounter section).  Anything in the *Linked Document* section is also visibly noted on the closed/archived encounter document.  However, the **Linked with Interpretation** will also allow the user to key in an interpretation regarding the selected questionnaire.  Any interpretation notes will also be visible in the Linked Documents separate encounter section within the view and also within the closed/archived encounter document.
 
@@ -47,19 +47,19 @@ Upon submit, the selected questionnaire will be *linked* to the encounter being 
 
 ![](../questionnaire-encounter-section.assets/df224b4591b32ecebc16219e20129386.png)
 
-#### Add another Interpretation
+### Add another Interpretation
 
 After a selected questionnaire stored document is linked to the encounter you are working in (and has an interpretation), you are able to add more than one interpretation.  Perhaps you need to add another interpretation or another provider is now seeing the colleague and needs to add their interpretation. Once the stored questionnaire document is linked (and visible in the Linked Documents separate encounter section), there is an **_Add Interpretation_****** icon at the far right of the listed linked document in that section.
 
 ![](../questionnaire-encounter-section.assets/7a9066d90db2c7c582c33fa9df415dfb.png)
 
-#### Stored encounter document once closed & archived
+### Stored encounter document once closed & archived
 
 If using the *Link with Interpretation* icon, once the encounter itself is finally closed & archived and made into a document that can be shared, the encounter document itself will have the selected Linked Documents listed (with the questionnaire/document titles and date of service), **and** Interpretations embedded and part of the encounter document itself.
 
 ![](../questionnaire-encounter-section.assets/660056de2491c375a154cca6d26d0931.png)
 
-### Unlink from Encounter
+## Unlink from Encounter
 
 If you made a mistake or change your mind and do not want the selected Questionnaire document to be linked to the encounter you are working in (nor the interpretation), you can use the *unlink icon* from the listed questionnaire within the Linked Documents encounter section.  If you hover over the linked document (or swipe left if on an ipad or touchscreen device), you will see the icons there and one is the ability to *unlink from encounter. *
 
@@ -73,7 +73,7 @@ Once you've submitted another interpretation, all interpretations will continue 
 
 ![](../questionnaire-encounter-section.assets/640b44c8e4650af585cbc4d76ce38af8.png)
 
-### Add Details to Encounter
+## Add Details to Encounter
 
 After linking a stored questionnaire document to the encounter you are working in, from the Linked Documents encounter section, you could also (optional) use the *Add Details to Encounter* icon.  This icon is available at the far right of the listed Linked Documents encounter section (again, if on an ipad or touchscreen device you would swipe left to see those icons)
 
@@ -83,7 +83,7 @@ The **Add Details to Encounter** icon will actually embed ALL the questionnaire 
 
 ![](../questionnaire-encounter-section.assets/06a0f463f3395de08e1fae6d7e15d545.png)
 
-#### Stored encounter document once closed & archived
+### Stored encounter document once closed & archived
 
 If using the *Add Details to Encounter* icon, once the encounter itself is finally closed & archived and made into a document that can be shared, the encounter document itself will have the selected Linked Documents, Interpretations **and** the full questionnaire document contents (questions & answers) embedded and part of the encounter document itself.  Essentially a document within a document.
 
