@@ -1,9 +1,9 @@
 ---
 id: '1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
 title: 'Add Inventory Tab'
-date: '2022-08-09T15:38:32.584Z'
-version: 36
-lastAuthor: 'horner'
+date: '2025-11-05T19:58:07.177Z'
+version: 43
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
@@ -17,7 +17,7 @@ Depending on how your practice is set up and what all inventory details you trac
 
 ![](../add-inventory-tab.assets/38b86d015aab3d7667c9ef3390244975.png)
 
-## To add inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this **_Add Inventory_** screen.
+To add inventory quantity and detailed information to be tied to your inventory master item, fill out the fields in this *Add Inventory* screen.
 
 {{% tip %}}
 Use your tab key to advance to each field.
