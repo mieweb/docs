@@ -1,9 +1,9 @@
 ---
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
-date: '2024-11-15T20:03:27.314Z'
-version: 483
-lastAuthor: 'auhrick'
+date: '2025-11-06T14:06:18.076Z'
+version: 489
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M'
@@ -105,7 +105,7 @@ markup: 'pandoc'
     * Documentation
     * LMS Courses/Videos
 
-# Pre-requisites
+## Pre-requisites
 
 Before the review session, please provide corresponding documentation:
 
@@ -131,11 +131,11 @@ Standard functionality includes:
 * WR Case Management Worklist portlet for tracking and managing cases.
 * Case Management Reports
 
-# WR Case Management Workflow Demonstration
+## WR Case Management Workflow Demonstration
 
 * [WR Case Management Demonstration](https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M)
 
-# Tasking
+## Tasking
 
 There are several out-of-the-box Tasklist Events for the Case Management department. When an employee submits a Report of Injury form on the portal, the Case Management department is tasked with reviewing the report and the incident. If a Medical Certificate (document type ‘medcert') is created, a task for the Case Management department is also created for review. And lastly, if an Outside Case (document type ‘injury') is reported, a task is created to review.
 
@@ -287,7 +287,7 @@ Other work-related case reports can be found in the [Safety](https://system/?f=l
 
 All clients should review the available reports to determine if any additional reports are needed for case management.
 
-# Key Decision Points
+## Key Decision Points
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
     a.  Do Case Managers need to have limited/restricted access?
@@ -301,10 +301,6 @@ All clients should review the available reports to determine if any additional r
 6. What choices for incident on-site locations are needed (in the Case section)?
 7. Audit Restriction choices and provide a list of any to add or remove
 8. Audit Nature of Injury/Illness drop-down choices and provide a list of any to add or remove
-
-# Action Items/Timelines
-
-***Link to Homework Tracker**
 
 ## Resources
 
