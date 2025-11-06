@@ -1,9 +1,9 @@
 ---
 id: '16MPyw6475DzP6o9eH2Er9hFVv-fWs2VbjSUJJ6DxBl0'
 title: 'Review of Systems'
-date: '2025-06-26T17:30:46.464Z'
-version: 31
-lastAuthor: 'anichols'
+date: '2025-11-06T20:54:50.848Z'
+version: 35
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'encounter-protocols.md'
@@ -17,7 +17,7 @@ The *Review of Systems* encounter section is an optional section that can be app
 
 ![](../review-of-systems.assets/43c56a0bcb120a511e4422bc3f9a0bd0.png)
 
-### Add a Review of Systems - Flowsheet
+## Add a Review of Systems - Flowsheet
 
 The Review of Systems encounter section points to a specific flowsheet configured in the system.  This flowsheet can be customized for your needs.  A configured flowsheet named *Review of Systems* in the flowsheet editor will display the data capture fields in the encounter Review of Systems section. Using the Review of Systems flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Review of Systems encounter section.
 
