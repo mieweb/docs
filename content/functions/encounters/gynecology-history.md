@@ -1,9 +1,9 @@
 ---
 id: '1ntlhpzabiQoEOQMKqMOFSwlLfdJSWljfj8S-NpCMMpo'
 title: 'Gynecology History'
-date: '2025-07-01T15:04:40.342Z'
-version: 25
-lastAuthor: 'anichols'
+date: '2025-11-06T15:08:20.394Z'
+version: 31
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ntlhpzabiQoEOQMKqMOFSwlLfdJSWljfj8S-NpCMMpo'
@@ -19,7 +19,7 @@ To record or edit Gynecology History information within the encounter, simply cl
 
 Use the free text fields, speech to text dictation icon, or use the previous value quick text or library macros on the far right to quickly get the Gynecology History documented.
 
-### Gynecology History - Flowsheet
+## Gynecology History - Flowsheet
 
 The gynecology history encounter section can instead point to a specific flowsheet configured in the system.  A configured flowsheet named *Gynecology History* in the flowsheet editor will display in the encounter Gynecology History section if desired.  Using a Gynecology History flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Gynecology History encounter section.
 
