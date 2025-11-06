@@ -2,7 +2,7 @@
 id: '1ZOGOaZqB2_SoMwy14nI5Z4C2Ih3Fi1j0GG6A6KHL_vM'
 title: "Configuring access to encounter charges\_"
 date: '2021-02-18T15:52:33.084Z'
-version: 24
+version: 25
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:

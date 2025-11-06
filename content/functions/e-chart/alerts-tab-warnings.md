@@ -2,7 +2,7 @@
 id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
 title: 'Alerts Tab - Warnings'
 date: '2025-07-11T17:58:13.627Z'
-version: 177
+version: 178
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

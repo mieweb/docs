@@ -2,7 +2,7 @@
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
 date: '2025-10-23T18:05:04.498Z'
-version: 332
+version: 333
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

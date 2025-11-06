@@ -2,7 +2,7 @@
 id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
 title: 'Plan Narrative'
 date: '2025-06-03T18:47:59.679Z'
-version: 65
+version: 66
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

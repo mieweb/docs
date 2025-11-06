@@ -2,7 +2,7 @@
 id: '1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
 title: 'Results Encounter'
 date: '2025-10-24T15:53:42.319Z'
-version: 76
+version: 81
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 title: 'Picture-Photo Documents'
 date: '2024-07-02T16:54:34.725Z'
-version: 93
+version: 96
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

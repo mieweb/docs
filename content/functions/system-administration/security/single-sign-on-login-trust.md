@@ -2,7 +2,7 @@
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
 date: '2025-07-23T14:53:01.471Z'
-version: 230
+version: 232
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

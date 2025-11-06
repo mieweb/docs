@@ -2,7 +2,7 @@
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
 date: '2025-10-31T14:32:30.147Z'
-version: 226
+version: 227
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
