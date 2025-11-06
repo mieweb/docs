@@ -1,9 +1,9 @@
 ---
 id: '1FGL6h5bBnZElah8GEUQV24UBOH1TdrC4FAbp8XhsAbA'
 title: 'Pregnancy History'
-date: '2025-07-02T18:45:31.537Z'
-version: 25
-lastAuthor: 'anichols'
+date: '2025-11-06T15:22:53.567Z'
+version: 31
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FGL6h5bBnZElah8GEUQV24UBOH1TdrC4FAbp8XhsAbA'
@@ -19,7 +19,7 @@ To record or edit Pregnancy History information within the encounter, simply cli
 
 Use the free text fields, speech to text dictation icon, or use the previous value quick text or library macros on the far right to quickly get the Pregnancy History documented.
 
-### Pregnancy History - Flowsheet
+## Pregnancy History - Flowsheet
 
 The pregnancy history encounter section can instead point to a specific flowsheet configured in the system.  A configured flowsheet named *Pregnancy Details* in the flowsheet editor will display contents for the encounter Pregnancy History section.  Using a Pregnancy History flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Pregnancy History encounter section.
 

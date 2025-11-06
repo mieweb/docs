@@ -725,7 +725,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [ADFS 3.0 Configuration for SSO](functions/system-administration/security/adfs-3.0-configuration-for-sso.md)
             * [Compare Security Roles](functions/system-administration/security/compare-security-roles.md)
             * [Disabling Inactive User Access & Accounts](functions/system-administration/security/disabling-inactive-user-access-and-accounts.md)
-            * [Multi-Factor Authentication MFA](functions/system-administration/security/multi-factor-authentication-mfa.md)
+            * [Multi-Factor Authentication MFA / Require 2FA](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa.md)
             * [My Settings](functions/system-administration/security/my-settings.md)
             * [SAML-Based Single Sign-On](functions/system-administration/security/saml-based-single-sign-on.md)
             * [Security Role Settings](functions/system-administration/security/security-role-settings.md)

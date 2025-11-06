@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2025-11-04T20:53:10.568Z'
-version: 1826
+version: 1830
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -641,7 +641,7 @@ links:
   - 'functions/system-administration/security/adfs-3.0-configuration-for-sso.md'
   - 'functions/system-administration/security/single-sign-on-login-trust.md'
   - 'functions/system-administration/security/saml-based-single-sign-on.md'
-  - 'functions/system-administration/security/multi-factor-authentication-mfa.md'
+  - 'functions/system-administration/security/multi-factor-authentication-mfa-require-2fa.md'
   - 'functions/system-administration/interfaces.md'
   - 'functions/system-administration/interfaces/setup-custom-pharmacy.md'
   - 'functions/system-administration/interfaces/mammotrack-chart-tab.md'
@@ -1440,7 +1440,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [ADFS 3.0 Configuration for SSO](functions/system-administration/security/adfs-3.0-configuration-for-sso.md)
             * [Single Sign-On Login Trust](functions/system-administration/security/single-sign-on-login-trust.md)
             * [SAML-Based Single Sign-On](functions/system-administration/security/saml-based-single-sign-on.md)
-            * [Multi-Factor Authentication MFA](functions/system-administration/security/multi-factor-authentication-mfa.md)
+            * [Multi-Factor Authentication MFA](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa.md)
         * [Interfaces](functions/system-administration/interfaces.md)
             * [Setup Custom Pharmacy](functions/system-administration/interfaces/setup-custom-pharmacy.md)
             * [MammoTrack Chart Tab](functions/system-administration/interfaces/mammotrack-chart-tab.md)
