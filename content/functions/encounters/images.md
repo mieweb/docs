@@ -1,9 +1,9 @@
 ---
 id: '1GnmXZCmcrEl2iSdffMsfP1CCd613PCvGc5lVy1NS2HY'
 title: 'Images'
-date: '2025-06-03T18:39:09.612Z'
-version: 48
-lastAuthor: 'anichols'
+date: '2025-11-06T21:13:16.042Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GnmXZCmcrEl2iSdffMsfP1CCd613PCvGc5lVy1NS2HY'
@@ -29,7 +29,7 @@ When you close and archive the encounter, the image(s) uploaded will become part
 
 ![](../images.assets/e79b71e42a3b8752545af03d61f43f5e.png)
 
-### Removing a Linked Image from Encounter
+## Removing a Linked Image from Encounter
 
 If there is an image within the encounter section, you cannot remove it from the Images encounter section.  The uploaded image(s) store as document type ENCPHOTO (Encounter Image) in the chart.  You can go into the chart and find the stored ENCPHOTO document (typically found in the Documents catch all chart tab), then go to Properties.
 
