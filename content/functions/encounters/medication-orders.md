@@ -1,9 +1,9 @@
 ---
 id: '1hrlqlawjLHtIBlBYmj4FxEP2ME2ULlsxdDyXk0I7lBw'
 title: 'Medication Orders'
-date: '2025-06-27T14:20:46.240Z'
-version: 61
-lastAuthor: 'anichols'
+date: '2025-11-07T17:31:00.791Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../medication-management-and-e-prescribing/prescribing-adding-medications.md'
@@ -14,13 +14,13 @@ The Medication Orders encounter section provides the necessary tools for orderin
 
 ![](../medication-orders.assets/a37a488ac31495886fad24aa6744e409.png)
 
-### Medication Orders Right Side Quick List Method
+## Medication Orders Right Side Quick List Method
 
 A banner or bookmark icon is located on the right side of the Medication Orders encounter section.  This can be clicked to expand open to utilize the right side quick list functionality for the Medication Orders section.
 
 ![](../medication-orders.assets/e620bc84c041d4b17df2272aca17c216.png)
 
-#### Search field and + of Right Side Quick List Method
+### Search field and + of Right Side Quick List Method
 
 A medication that you need to order can be added to the encounter, which is entered as a prescription.  You can simply search for a medication name using the search field or click the + icon to search for a specific order item.
 
@@ -36,19 +36,19 @@ Then within the Medication Orders section (after creating a prescription), you c
 
 ![](../medication-orders.assets/7bc8ad47e8513c7202944aec7e82fabe.png)
 
-#### Current Meds of Right Side Quick List Method
+### Current Meds of Right Side Quick List Method
 
 The *Current Meds* right side quick list section method allows you to manage the patient's current medication list from this section.  Current Meds that show (with option icons) are medications documented for the chart, that do not have discontinue date on them or the discontinue date is in the future.  One can use the option icons next to the current med(s) listed to document to continue the medication (creates a new prescription), or view its drug guide info, edit/change the current med (creates a new prescription), or mark the medication as discontinued.
 
 ![](../medication-orders.assets/b180e55559bbc205106911ff98352e53.png)
 
-#### Past Meds of Right Side Quick List Method
+### Past Meds of Right Side Quick List Method
 
 The *Past Meds* right side quick list section method allows you to manage the patient's past medication list from this section.  Past Meds that show (with option icons) are medications documented for the chart that have a discontinue date on them (in the past or a future date).  One can use the option icons next to the past med(s) listed to document to view its drug guide info, or prescribe it again (creates a new prescription).
 
 ![](../medication-orders.assets/12566ecf6f49fd196d69dea0a670e46c.png)
 
-#### Quick List of Right Side Quick List Method
+### Quick List of Right Side Quick List Method
 
 The encounter in its entirety can be set to a specific chosen Library, or the Medication Orders encounter section can be set to a specific library.  The Library chart that is set for the Medication Orders encounter section to respect those specific remembered library order items (common medications) will be listed in the Medications Orders right side quick list method section that can be utilized.
 

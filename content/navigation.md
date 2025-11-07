@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-11-04T20:53:10.568Z'
-version: 1830
-lastAuthor: 'janderson'
+date: '2025-11-07T13:25:34.124Z'
+version: 1859
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -641,7 +641,10 @@ links:
   - 'functions/system-administration/security/adfs-3.0-configuration-for-sso.md'
   - 'functions/system-administration/security/single-sign-on-login-trust.md'
   - 'functions/system-administration/security/saml-based-single-sign-on.md'
-  - 'functions/system-administration/security/multi-factor-authentication-mfa-require-2fa.md'
+  - 'functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration.md'
+  - 'functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-overview.md'
+  - 'functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-overview.md'
+  - 'functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
   - 'functions/system-administration/interfaces.md'
   - 'functions/system-administration/interfaces/setup-custom-pharmacy.md'
   - 'functions/system-administration/interfaces/mammotrack-chart-tab.md'
@@ -803,7 +806,7 @@ links:
   - 'resources/intro-to-the-system/system-anatomy.md'
   - 'videos-and-demonstrations.md'
 source: 'https://drive.google.com/open?id=15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 * [Programs](programs.md)
     * [Medical Programs](programs/medical-programs.md)
@@ -1440,7 +1443,10 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
             * [ADFS 3.0 Configuration for SSO](functions/system-administration/security/adfs-3.0-configuration-for-sso.md)
             * [Single Sign-On Login Trust](functions/system-administration/security/single-sign-on-login-trust.md)
             * [SAML-Based Single Sign-On](functions/system-administration/security/saml-based-single-sign-on.md)
-            * [Multi-Factor Authentication MFA](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa.md)
+            * [Multi-Factor Authentication MFA/Require 2FA System Configuration](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration.md)
+                * [Encourage Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-overview.md)
+                * [Force Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-overview.md)
+                * [One Time Password Authentication via Email User Experience](functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
         * [Interfaces](functions/system-administration/interfaces.md)
             * [Setup Custom Pharmacy](functions/system-administration/interfaces/setup-custom-pharmacy.md)
             * [MammoTrack Chart Tab](functions/system-administration/interfaces/mammotrack-chart-tab.md)
