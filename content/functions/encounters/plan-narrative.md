@@ -1,14 +1,14 @@
 ---
 id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
 title: 'Plan Narrative'
-date: '2025-06-03T18:47:59.679Z'
-version: 66
-lastAuthor: 'anichols'
+date: '2025-11-06T21:24:21.104Z'
+version: 74
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-configuration/macros.md'
-  - 'libraries.md'
-  - 'encounter-protocols.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/macros/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
 source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
 wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
@@ -16,12 +16,12 @@ Plan Narrative encounter section is available to document a plan narrative regar
 
 ![](../plan-narrative.assets/fbe926886eb84d06ea9399496c3ac687.png)
 
-### Add a Plan Narrative - Free Text
+## Add a Plan Narrative - Free Text
 
 Plan narrative encounter section utilizes a free text box configuration functionality out of the box.  Click anywhere on the Plan Narrative encounter section title bar to expand open the section.
 ![](../plan-narrative.assets/84b0e587acdd23c44b3aed02cf10f196.png)
 
-### Add a Plan Narrative - Flowsheet
+## Add a Plan Narrative - Flowsheet
 
 The plan narrative encounter section can instead point to a specific flowsheet configured in the system.  A configured flowsheet named *Plan Narrative* in the flowsheet editor will display in the encounter Plan Narrative section if desired.  Using a Plan Narrative flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Plan Narrative encounter section.
 
@@ -37,7 +37,7 @@ If utilizing a Plan Narrative flowsheet, library macros offered in the Plan Narr
 
 ![](../plan-narrative.assets/fc91add7bad55c160e8187ba0be5961a.png)
 
-For additional information on configuring and utilizing macros that can be utilized within the Plan Narrative encounter section, please see separate guide [Macros](../system-configuration/macros.md#properties-of-a-macro) and/or [Libraries](libraries.md).
+For additional information on configuring and utilizing macros that can be utilized within the Plan Narrative encounter section, please see separate guide [Macros](https://docs.enterprisehealth.com/functions/system-configuration/macros/) and/or [Libraries](https://docs.enterprisehealth.com/functions/encounters/libraries/).
 
 ## Chief Complaint Protocol
 
@@ -45,4 +45,4 @@ The Plan Narrative encounter section can also change to reflect specific questio
 
 ![](../plan-narrative.assets/598201a7eb623831c9ffb81e2b895ad5.png)
 
-For additional information on configuring and utilizing Chief Complaint protocols that can be utilized within the Plan Narrative encounter section, please see separate guide [Encounter Protocols](encounter-protocols.md).
+For additional information on configuring and utilizing Chief Complaint protocols that can be utilized within the Plan Narrative encounter section, please see separate guide [Encounter Protocols](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
