@@ -1,9 +1,9 @@
 ---
 id: '1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
 title: 'ICD11 Tool'
-date: '2025-10-01T12:30:48.356Z'
-version: 82
-lastAuthor: 'anichols'
+date: '2025-11-06T21:19:06.784Z'
+version: 89
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://icd.who.int/en/'
@@ -17,7 +17,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 ---
 RC202509 in {{% system-name %}} supports ICD11 coding alongside the existing ICD10 and SNOMED codes, bringing the latest WHO International classification standards to condition management workflows.
 
-### Show ICD11 on Conditions System Setting
+## Show ICD11 on Conditions System Setting
 
 ICD11 coding can be enabled via system setting *Show ICD11 on Conditions*, which then displays an ICD11 Post Coordination Search Tool within the {{% system-name %}} product.
 
@@ -25,7 +25,7 @@ ICD11 coding can be enabled via system setting *Show ICD11 on Conditions*, which
 
 The ICD-11 is the eleventh revision of the International Classification of Diseases (ICD).  ICD11 integration is available in {{% system-name %}} via the system setting *Show ICD11 on Conditions*.  This enables ICD11 on Conditions for system wide use.
 
-### Phase 1 ICD11 Integration within our system
+## Phase 1 ICD11 Integration within our system
 
 For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into the system:
 
@@ -55,7 +55,7 @@ For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into
 
 ![](../icd11-tool.assets/6d9fdfc6a54095320284e4c07dc1876d.png)
 
-### Additional Video's & Guides by WHO regarding their ICD11 Tool
+## Additional Video's & Guides by WHO regarding their ICD11 Tool
 
 * ICD11 Home Page by WHO: https://icd.who.int/en/
 * Searching & Sorting help guide: https://icd.who.int/docs/codingtool/en/Searching/
@@ -65,11 +65,11 @@ For Phase 1 within {{% system-name %}} , ICD11 will integrate the following into
 * Post Coordination How To Video by WHO: https://youtu.be/dcz7MUXeN2M?feature=shared
 * Coding Notes help guide: https://icd.who.int/docs/codingtool/en/Coding-note/
 
-### Phase 2 ICD11 Integration within our system
+## Phase 2 ICD11 Integration within our system
 
 A future TBD Phase 2 in {{% system-name %}} will include visibility to selected ICD11 code/condition in orders, prescriptions, injections and interfaces that send diagnosis information (ie. billing, radiology orders, lab orders, HIE, etc).
 
-### API Server URL System Setting
+## API Server URL System Setting
 
 An additional system setting in {{% system-name %}} of *API Server URL* can be configured to set the server to use for the ICD11 Tool endpoint for ICD11 services. If this system setting string (value) is not uniquely configured, the API Server used will be one hosted locally by {{% system-name %}} as the default.
 
