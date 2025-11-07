@@ -1,17 +1,17 @@
 ---
 id: '1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
 title: 'Visit Orders'
-date: '2025-06-02T19:10:08.728Z'
-version: 230
-lastAuthor: 'anichols'
+date: '2025-11-07T17:44:37.719Z'
+version: 240
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/system-controls/encounter-types.md'
-  - '../order-and-result-management/order-requests-grid.md'
-  - 'make-order-feature-encounter-plan-section.md'
-  - 'encounters-open-order-request-section.md'
-  - '../../rapid-deployment/review-sessions/review-session-order-and-result-management.md'
-  - 'https://mie.talentlms.com/unit/view/id:2280'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/encounter-types/'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/order-requests-grid/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/make-order-feature-encounter-plan-section/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/encounters-open-order-request-section/'
+  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
+  - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
 source: 'https://drive.google.com/open?id=1hsKVxA92VxeRYJn89EtUIV7ipS3NfIqM3CsDJRsDUEY'
 wikigdrive: 'v2.15.27'
 ---
@@ -19,13 +19,13 @@ The Visit Orders encounter section provides the necessary tools for ordering, cu
 
 ![](../visit-orders.assets/4e99ac98b7401670b8685f344bc13b06.png)
 
-### Visit Orders Right Side Quick List Method
+## Visit Orders Right Side Quick List Method
 
 A banner or bookmark icon is located on the right side of the Visit Orders encounter section.  This can be clicked to expand open to utilize the right side quick list functionality for the Visit Orders section.
 
 ![](../visit-orders.assets/d2cebef3ca386275768818c82b33691d.png)
 
-#### Search field and + of Right Side Quick List Method
+### Search field and + of Right Side Quick List Method
 
 A test or procedure item, or even a Health Surveillance Panel can be added to the encounter and due list as a pending order item (or whatever status you determine).  You can simply search for an order item (test/procedure etc) using the search field or click the + icon to search for a specific order item.
 
@@ -43,7 +43,7 @@ Then within the Visit Order section (after your selected order items are applied
 
 NOTE: This method inserts the order item(s) as individual order items within the Visit Orders encounter section.  Therefore, those individual orders would be their own individual order requisition(s) when/if made into an order requisition to be referred out.  Using this method does not allow order items to be combined into one order requisition.  If need to make an order requisition for multiple items on one requisition form, please scroll back up to the Tests & Procedures encounter section to generate from there.
 
-#### Protocol Orders
+### Protocol Orders
 
 The Visit Orders section can have specific protocol orders available that store specific orderable items in a Protocol Orders picklist (with its own section in the Protocol Orders picklist) named what the protocol is. Once a protocol is selected in Chief Complaint, any matching Protocol Orders will display here in Visit Orders in section expanded view or in right side quicklist view.
 
@@ -53,7 +53,7 @@ The Protocol Order picklist contents of items are configured within the Order-Pi
 
 ![](../visit-orders.assets/d76246fa52de4d2373ade30e0753531e.png)
 
-#### Add Referral of Right Side Quick List Method
+### Add Referral of Right Side Quick List Method
 
 The *Add Referral* right side quick list method allows you to select a preconfigured Order Picklist category to immediately create an order requisition for specific order tests/procedure items preconfigured within a specific categorized order picklists of that category selected.
 
@@ -63,19 +63,19 @@ The Order Picklist categories and its contents of items are configured within th
 
 ![](../visit-orders.assets/151192b79cd8aa4bf8a0e72bf9d64e4e.png)
 
-NOTE: The preconfigured Order Picklist categories that display as an ‘Add Referral' option selection are managed within the Encounter Types editor (within the control panel) for the specific encounter type configured for your system.  Therefore, various Order Picklists could show or be hidden based on what encounter type you are working in.  For more information on how Encounter Types are configured, please refer to the [Encounter Types](../system-administration/system-controls/encounter-types.md) guide.
+NOTE: The preconfigured Order Picklist categories that display as an ‘Add Referral' option selection are managed within the Encounter Types editor (within the control panel) for the specific encounter type configured for your system.  Therefore, various Order Picklists could show or be hidden based on what encounter type you are working in.  For more information on how Encounter Types are configured, please refer to the [Encounter Types](https://docs.enterprisehealth.com/functions/system-administration/system-controls/encounter-types/) guide.
 
-Once you select a referral category (ex: Imaging), a pop-up window to Create Requisition will display where you can select specific items to order in one requisition and fill out order details.  Upon save, this will create an order requisition document that can be shared (printed, faxed, etc) and tracked to completion of results being received back. Please visit guide [Order Requests Grid](../order-and-result-management/order-requests-grid.md) for more information on how to manage Order Requisitions.
+Once you select a referral category (ex: Imaging), a pop-up window to Create Requisition will display where you can select specific items to order in one requisition and fill out order details.  Upon save, this will create an order requisition document that can be shared (printed, faxed, etc) and tracked to completion of results being received back. Please visit guide [Order Requests Grid](https://docs.enterprisehealth.com/functions/order-and-result-management/order-requests-grid/) for more information on how to manage Order Requisitions.
 
 ![](../visit-orders.assets/dd36a314f8ebe1a872d80b45811d46a8.png)
 
-For more detailed information on how to utilize the Create Requisition pop-up screen of Visit Orders encounter section, please visit guide [Make Order Feature - Encounter Plan Section](make-order-feature-encounter-plan-section.md).
+For more detailed information on how to utilize the Create Requisition pop-up screen of Visit Orders encounter section, please visit guide [Make Order Feature - Encounter Plan Section](https://docs.enterprisehealth.com/functions/encounters/make-order-feature-encounter-plan-section/).
 
 Any Order Requisitions created, from the *Add Referral* right side quick list method, will display in the Open Order Requests separate encounter section.
 
 ![](../visit-orders.assets/1b4ab9905c054593855afb8b81dd45ec.png)
 
-#### Visit Orders of Right Side Quick List Method
+### Visit Orders of Right Side Quick List Method
 
 The *Visit Orders* right side quick list method allows you to select tests/procedures (order items) that are preconfigured on the Library chart you are currently set to on the encounter or are set to within this specific Visit Orders section.
 
@@ -93,7 +93,7 @@ Any test or procedures selected from the Visit Orders right side quick list meth
 
 * The Add To Due List (+ icon) will place that item (test/procedure etc) onto the Visit Orders section (and applies it to the due list module also)  without having to go back up to the encounter Tests & Procedures section to do it.  Then within the Visit Order section, you can do further things to the applied item (test/procedure) using the function icons on each row.  Such as create an order requisition of it, or evaluate it if it is a health surveillance panel order item, or add a task regarding it, etc.
 
-#### Quick Visit Orders of Right Side Quick List Method
+### Quick Visit Orders of Right Side Quick List Method
 
 The *Quick Visit Orders* right side quick list method allows you to select tests/procedures (order items) that are preconfigured within a Quick Visit order picklist for the system.
 
@@ -111,7 +111,7 @@ Any test or procedures selected from the Quick Visit Orders right side quick lis
 
 * The Add To Due List (+ icon) will place that item (test/procedure etc) onto the Visit Orders section (and applies it to the due list module also)  without having to go back up to the encounter Tests & Procedures section to do it.  Then within the Visit Order section, you can do further things to the applied item (test/procedure) using the function icons on each row.  Such as create an order requisition of it, or evaluate it if it is a health surveillance panel order item, or add a task regarding it, etc.
 
-#### Blue icon
+### Blue icon
 
 A checkmark blue circle icon next to an order item on the Visit Orders right side quick list method signifies that selection has been applied to the encounter.
 
@@ -129,7 +129,7 @@ If the selected item was added to the exam (lightning bolt icon), then the item 
 
 ![](../visit-orders.assets/01eb5c9b1dfc7e7ea00bf60a3ccaeb46.png)
 
-#### Updating
+### Updating
 
 Any test/procedure or item applied to the Visit Orders section (done via using the + add to due list icon) can be updated using the icons to the right of the applied item.  These icons allow you to create/make an order requisition of it or even edit the item to change its status or due date or other things.  The applied item can also be removed (deleted), or you can create a task regarding this item, or change the order of how it displays within the encounter and the encounter view.
 
@@ -139,22 +139,22 @@ These same function icons can also be used in the Tests & Procedures encounter s
 
 ![](../visit-orders.assets/2f5dc5f9a6e186ad025518ec8f1ca587.png)
 
-An Order Requisition, listed in the Open Order Requests encounter section, can be cloned, edited, printed, etc using the icons to the right of the created order request.  For more detailed information on how the Open Order Requests section can be utilized, please refer to [Encounters Open Order Request Section](encounters-open-order-request-section.md) guide.
+An Order Requisition, listed in the Open Order Requests encounter section, can be cloned, edited, printed, etc using the icons to the right of the created order request.  For more detailed information on how the Open Order Requests section can be utilized, please refer to [Encounters Open Order Request Section](https://docs.enterprisehealth.com/functions/encounters/encounters-open-order-request-section/) guide.
 
 ![](../visit-orders.assets/6018fda707dd61e4682e3d3f9a196785.png)
 
-### Clinical Visit Summary
+## Clinical Visit Summary
 
 The clinical visit summary (if produced upon close & archive of the encounter) will list any order items and order requisitions that were documented during the visit.
 
 ![](../visit-orders.assets/96c03bc79a07b37e93c5309f0cf34e22.png)
 
-### Other Product Documentation
+## Other Product Documentation
 
-For more information on system settings and reporting that relate to Orders Management, please see guide [Review Session - Order and Result Management](../../rapid-deployment/review-sessions/review-session-order-and-result-management.md)
+For more information on system settings and reporting that relate to Orders Management, please see guide [Review Session - Order and Result Management](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/)
 <table>
 <tr>
-<td><a href="https://mie.talentlms.com/unit/view/id:2280">Order and Result Management</a> (LMS Course - 35 min)</td>
+<td><a href="https://mie.talentlms.com/shared/start/key:LATIDNHR">Order and Result Management</a> (LMS Course - 35 min)</td>
 <td></td>
 </tr>
 <tr>
