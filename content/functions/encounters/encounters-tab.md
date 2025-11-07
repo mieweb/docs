@@ -1,8 +1,8 @@
 ---
 id: '1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
 title: 'Encounters Tab'
-date: '2025-06-10T14:56:21.589Z'
-version: 132
+date: '2025-11-07T18:18:37.075Z'
+version: 136
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,7 +11,7 @@ wikigdrive: 'v2.15.27'
 ---
 When you are in the patient's chart, you can click the MEDICAL RECORD chart tab and then get into the ENCOUNTERS sub-tab.
 
-### Encounters Tab
+## Encounters Tab
 
 Under the Encounters tab, it shows the full encounters datavis for this patient. You can click the List All Encounters link at the top of this tab to get back to the full listing of encounters for the patient.
 
