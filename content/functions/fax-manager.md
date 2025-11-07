@@ -6,7 +6,7 @@ version: 29
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1h4WYryKs4DeyPgg4oCW6NTLGr5yOYsEgUz8h7dkJXjg'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 The {{% system-name %}} Fax Manager allows practices to streamline and manage outbound faxing workflows, simplifying routine tasks and reducing labor, paper, and printing costs.
 

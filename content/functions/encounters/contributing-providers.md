@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 Within an encounter, there is an optional **Contributing Providers** encounter section that can be utilized.
 

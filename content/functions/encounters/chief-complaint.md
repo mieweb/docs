@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1_EFI6XA7aSkCqugmBfqh1FudkauR-2j6DWBM1nLAfVE'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 A patient's Chief Complaint can be documented when scheduling an appointment and/or when working in an encounter.  An appointment's chief complaint will populate the encounter chief complaint section, when the patient checks in for their appointment where an encounter is configured to automatically create upon checkin.  Chief Complaints on appointments and/or encounters are reportable and visible throughout the system.
 

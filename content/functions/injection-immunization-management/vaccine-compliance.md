@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
   - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
 source: 'https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 Enterprise Health utilizes the Preventive Care encounter section and custom quality measures to capture and report on Vaccine Compliance. The Enterprise Health system/database must be enrolled in the quality/vaccine programs
 

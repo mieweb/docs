@@ -10,7 +10,7 @@ links:
   - 'goals.md'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 markup: 'pandoc'
 ---
 The Symptoms/Diagnosis is an optional encounter section that is displayed in the Assessment grouping of the Visit Encounter. The Symptoms/Diagnosis section is similar to the Smart Plan encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections.

@@ -12,7 +12,7 @@ links:
   - '../quality-measure-specifications-and-recommended-workflows/cms-165-controlling-high-blood-pressure.md'
   - 'https://ecqi.healthit.gov/ecqm/ec/2024/cms0165v12?qt-tabs_measure=measure-information'
 source: 'https://drive.google.com/open?id=1kyoIAZ_NN1bCSho6fz2m91OzDZH4lAI1Ps80HpVxcTk'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## Overview
 

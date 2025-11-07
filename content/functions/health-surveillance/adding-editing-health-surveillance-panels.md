@@ -11,7 +11,7 @@ links:
   - 'health-surveillance-matrix-descriptions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 Users must have security access to be in the Health Surveillance Panel editor. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, find (in the listing) *Health Surveillance* **or** click the HSP tab at the top menu of tabs.
 

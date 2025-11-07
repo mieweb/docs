@@ -12,7 +12,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/encounters/recommendations/'
   - 'https://docs.enterprisehealth.com/functions/encounters/financials/'
 source: 'https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## Results Encounter
 

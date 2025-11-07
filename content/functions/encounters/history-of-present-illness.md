@@ -9,7 +9,7 @@ links:
   - 'encounter-protocols.md'
   - 'copy-from-previous-exam.md'
 source: 'https://drive.google.com/open?id=1rAmscj43iNpKmNuQPbQOteZhZwD20Mq2pR3_FfAijM8'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 Within an encounter, there is an HPI (History of Present Illness) section that can be utilized.
 

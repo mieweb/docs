@@ -9,7 +9,7 @@ links:
   - 'schedules-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 To enable the Guided Template ability in Schedules, go to the My Settings preference *Guided Schedules* and set it to enabled.
 

@@ -18,7 +18,7 @@ links:
   - 'https://www.mcg.com/odg/client-resources/learning-resources/self-training-pdfs/'
   - 'https://www.odgbymcg.com/help/Disability/Content/ODG/PDFLibrary/ODG%20by%20MCG%20Best%20Practices%20FAQ.pdf'
 source: 'https://drive.google.com/open?id=118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 An integration between {{% system-name %}} and [ODG by MCG ](https://www.mcg.com/odg/)is available in the 2025-09RC.  This integration can improve patient outcomes, reduce administrative costs, and streamline workflows by aligning with industry-standard guidelines. Integration with the ODG by MCG system to access evidence-based guidelines, benchmarking tools, and predictive modeling for best practice and average or maximum days away from work, improving return-to-work (RTW) timelines, medical costs, and quality of care. This integration provides a common framework based on extensive historical claims data (over 10 million lost-time cases), which helps manage costs, reduce inappropriate medical utilization, decrease indemnity costs, and improve worker and patient outcomes.
 

@@ -13,7 +13,7 @@ links:
   - 'https://youtu.be/dcz7MUXeN2M?feature=shared'
   - 'https://icd.who.int/docs/codingtool/en/Coding-note/'
 source: 'https://drive.google.com/open?id=1VwJxhYJnqELhJy469Infyw4bSkPZJUG9quLyRPEnXQA'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 RC202509 in {{% system-name %}} supports ICD11 coding alongside the existing ICD10 and SNOMED codes, bringing the latest WHO International classification standards to condition management workflows.
 

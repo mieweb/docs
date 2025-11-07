@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 The *Immunization / Injections* encounter section displays by default in the visit encounter Subjective. If the patient/employee has known immunizations or injections documented in the chart, the section here will display in a bulleted list on the left side of the Immunizations / Injections encounter section. Hovering over the imm/inj list will display options to manage each historical immunization or injection.
 

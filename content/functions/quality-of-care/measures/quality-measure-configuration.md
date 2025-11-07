@@ -11,7 +11,7 @@ links:
   - 'quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md'
   - 'quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md'
 source: 'https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## Active
 

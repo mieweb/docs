@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
 source: 'https://drive.google.com/open?id=1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## Copy Existing Visits
 

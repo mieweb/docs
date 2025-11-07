@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 Within an encounter, there is a Social History section that can be utilized.  There, within the encounter, a chart's social history can be recorded or updated.
 

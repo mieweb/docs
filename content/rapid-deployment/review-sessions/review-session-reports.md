@@ -43,7 +43,7 @@ links:
   - '../../functions/reports/to-restrict-report-access.md'
   - '../../functions/reports/panel-definition-report.md'
 source: 'https://drive.google.com/open?id=1HBDLPvHAyvO8K1g2gk8mlzBn76G84bBxUUiFlgbFzbQ'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## Agenda
 
