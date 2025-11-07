@@ -1,20 +1,19 @@
 ---
 id: '1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
 title: 'Alert Comments'
-date: '2020-03-10T16:38:22.823Z'
-version: 80
-lastAuthor: ''
+date: '2025-11-07T19:22:53.512Z'
+version: 88
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtview&dtsopp=dt_val&doc_type=WCALERT'
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - '../document-management/documents-and-forms/text-documents.md'
-  - '../document-management/documents-and-forms/document-properties.md'
-  - '../document-management/documents-and-forms/delete-move-lock-documents.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/text-documents/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/delete-move-lock-documents/'
 source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
 wikigdrive: 'v2.15.27'
 ---
-The **Alert Comments** document ([WCALERT document type](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtview&dtsopp=dt_val&doc_type=WCALERT)) is found in the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
+The **Alert Comments** document (WCALERT document type) is found in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
 
 ![](../alert-comments.assets/4ee9922b66a83eb55922ed7161fcc963.png)
 
@@ -28,7 +27,7 @@ If there is more than one alert comment in a patient's chart, they will be shown
 
 To add an alert comment, go to **Add Document** from the patient's chart and filter by **Text**.
 
-Select **Alert Comment**.  (For more information, see our [Text Documents](../document-management/documents-and-forms/text-documents.md) online help.)
+Select **Alert Comment**.  (For more information, see our [Text Documents](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/text-documents/) online help.)
 
 ![](../alert-comments.assets/980b96ecdf487c728314032ca537dadd.png)
 
@@ -56,7 +55,7 @@ From there, with the proper security permissions, the user will be able to selec
 
 ![](../alert-comments.assets/8bd60e4e0eb4cf679c6bec2a1967b0c8.png)
 
-See additional information in our [Document Properties](../document-management/documents-and-forms/document-properties.md) and [Delete-Move-Lock Documents](../document-management/documents-and-forms/delete-move-lock-documents.md) online help content.
+See additional information in our [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/) and [Delete-Move-Lock Documents](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/delete-move-lock-documents/) online help content.
 
 {{% tip %}}
 The system setting E-Chart, Defaults, Alert Comment Cutoff can be set with a numerical value.  The number set here as the value will be the number of characters an alert comment will cut off within the Warnings & Alerts portlet of the Patient Summary chart tab.  This system setting does not affect or cut any alert text off the patient header where alerts show or the sidechart feature.
