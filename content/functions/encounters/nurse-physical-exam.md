@@ -1,9 +1,9 @@
 ---
 id: '1AWRERARQlFkZyzQ-Z6Gk9AyRDwnMBljDFz5I8EOcq40'
 title: 'Nurse Physical Exam'
-date: '2025-06-04T13:27:48.624Z'
-version: 51
-lastAuthor: 'anichols'
+date: '2025-11-06T21:08:49.558Z'
+version: 60
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../system-configuration/macros.md'
@@ -15,7 +15,7 @@ The *Nurse Physical Exam* encounter section is an optional section that can be a
 
 ![](../nurse-physical-exam.assets/5c68794ff19f77b5326378eeff710bd7.png)
 
-### Add a Nurse Physical Exam - Flowsheet
+## Add a Nurse Physical Exam - Flowsheet
 
 The Nurse Physical Exam encounter section points to a specific flowsheet configured in the system.  This flowsheet can be customized for your needs.  A configured flowsheet named *Nurse Physical Exam* in the flowsheet editor will display the data capture fields in the encounter Nurse Physical Exam section. Using the Nurse Physical Exam flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Nurse Physical Exam encounter section.
 
