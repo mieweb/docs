@@ -1,9 +1,9 @@
 ---
 id: '1LVSJbbksfR6TAPzipWqYCWKsP_n5Td5vzCVhKhJWi7g'
 title: 'Physical Exam'
-date: '2025-07-02T16:31:47.479Z'
-version: 60
-lastAuthor: 'anichols'
+date: '2025-11-06T21:10:53.318Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'visual-exam.md'
@@ -20,7 +20,7 @@ The Physical Exam encounter section is an optional section that can be applied t
 
 NOTE: If performing a Visual Exam (for example in a Telehealth/virtual event), you can toggle this Physical Exam encounter section to be a Visual Exam section instead.  See more information in the [Visual Exam](visual-exam.md) guide.
 
-### Add a Physical Exam - Flowsheet
+## Add a Physical Exam - Flowsheet
 
 The Physical Exam encounter section points to a specific flowsheet configured in the system.  This flowsheet can be customized for your needs.  A configured flowsheet named *Physical Exam* in the flowsheet editor will display the data capture fields in the encounter Physical Exam section. Using the Physical Exam flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Physical Exam encounter section.
 
