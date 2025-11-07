@@ -1,36 +1,30 @@
 ---
 id: '1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
 title: 'Super User Quick View Portlet'
-date: '2020-03-10T16:24:00.920Z'
-version: 55
-lastAuthor: ''
+date: '2025-11-07T19:14:25.933Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&subfunc=layout_manager&t=Layout+Manager&tabmodule=admin&tabselect=Layout+Manager'
-  - 'https://system/?f=admin&subfunc=rts_editor&t=Refer+to+Systems&tabmodule=admin&tabselect=Refer+to+Systems'
-  - 'https://system/?f=admin&s=system_report&tabmodule=admin&tabselect=System+Report'
-  - 'https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings'
-  - 'https://system/?f=esign&s=dbe&tabmodule=esign&tabselect=Esign+Editor'
-  - 'https://system/?func=esign'
-  - 'https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events'
-  - 'https://system/?func=tlist'
-  - 'https://system/?f=admin&s=sysconfigmgr&tabmodule=admin&tabselect=System+Configuration'
-  - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
-  - 'https://system/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/'
+  - 'https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/'
+  - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
 source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
 wikigdrive: 'v2.15.27'
 ---
-If you are a superuser and need access to view or edit the following areas of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) sidemenu, you will need additional security access to do so.
+If you are a superuser and need access to view or edit the following areas of the Control Panel sidemenu, you will need additional security access to do so.
 
-* [Layout Manager](https://system/?f=admin&subfunc=layout_manager&t=Layout+Manager&tabmodule=admin&tabselect=Layout+Manager)
-* [Refer to Systems](https://system/?f=admin&subfunc=rts_editor&t=Refer+to+Systems&tabmodule=admin&tabselect=Refer+to+Systems) editor
-* [System Report](https://system/?f=admin&s=system_report&tabmodule=admin&tabselect=System+Report) manager
-* [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) editor
-* [Esign Editor](https://system/?f=esign&s=dbe&tabmodule=esign&tabselect=Esign+Editor) ([E-Sign](https://system/?func=esign) sidemenu)
-* [Tasklist Events](https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events) ([Task List](https://system/?func=tlist) sidemenu)
-* [System Configuration](https://system/?f=admin&s=sysconfigmgr&tabmodule=admin&tabselect=System+Configuration)
-* Portions of the [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) editor
+* Layout Manager
+* Refer to Systems editor
+* [System Report](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/) manager
+* System Settings editor
+* Esign Editor ([E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/) sidemenu)
+* Tasklist Events ([Task List](https://docs.enterprisehealth.com/functions/task-management/task-list/) sidemenu)
+* [System Configuration](https://docs.enterprisehealth.com/functions/system-configuration/)
+* Portions of the [Chart Tabs](https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/) editor
 
 When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 
@@ -42,7 +36,7 @@ Any SuperUser that requires a password to access those areas above should consul
 
 To access and activate the SuperUser access required, the user must:
 
-1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://system/) sidemenu.
+1. Add the<strong> SuperUser portlet</strong> to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) sidemenu.
 
 ![](../super-user-quick-view-portlet.assets/c5610c005797da5a621b3bcdb2fd56a7.png)
 
