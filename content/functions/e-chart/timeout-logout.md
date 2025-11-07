@@ -1,9 +1,9 @@
 ---
 id: '1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
 title: 'Timeout Logout'
-date: '2025-10-31T18:15:13.162Z'
-version: 33
-lastAuthor: 'anichols'
+date: '2025-11-07T18:29:18.487Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
@@ -15,7 +15,7 @@ The system setting can be changed system wide to be a different value, but as a 
 
 ![](../timeout-logout.assets/6df1c5a18aefd966ee85a1c7db519195.png)
 
-### Example of the timeout logout and log back in workflow
+## Example of the timeout logout and log back in workflow
 
 These screenshots will go through an example of how the timeout logout displays on your screen (once the system timeout threshold has been reached) and how to relog back into where you left off.
 
