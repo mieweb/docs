@@ -1,13 +1,13 @@
 ---
 id: '1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
 title: 'Goals'
-date: '2025-07-01T16:55:58.377Z'
-version: 168
-lastAuthor: 'anichols'
+date: '2025-11-07T17:59:34.480Z'
+version: 173
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../order-and-result-management/observation-codes-editor.md'
-  - 'libraries.md'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-codes-editor/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
 source: 'https://drive.google.com/open?id=1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
 wikigdrive: 'v2.15.27'
 ---
@@ -25,13 +25,13 @@ Any goals that already exist as documented on the chart, appear in the Goals enc
 
 ![](../goals.assets/8cef5cbab64006864ee08abb95a76d7c.png)
 
-### Goals Right Side Quick List Method
+## Goals Right Side Quick List Method
 
 A banner or bookmark icon is located on the right side of the Goals encounter section.  This can be clicked to expand open to utilize the right side quick list functionality for the Goals section.
 
 ![](../goals.assets/9a1007ca3dddf35222bf92a64df62381.png)
 
-### Add Goal
+## Add Goal
 
 From the Goals section, using the right side Quick list method, a search is available to search for a specific preconfigured goal within the library you are set to, or click the + icon can be used to document a Goal to the encounter visit.
 
@@ -41,7 +41,7 @@ Using the + icon will display an Add Goal pop-up window to enter in details of t
 
 ![](../goals.assets/921ff98deb4204c79aef7938babffaeb.png)
 
-* <strong>Goal:</strong> use the autocomplete to select a specific observation that the system offers and stores.  This field does not allow freetext. For more information on where system wide observations are configured and managed, please refer to [Observation](../order-and-result-management/observation-codes-editor.md)[ Codes Editor](../order-and-result-management/observation-codes-editor.md).
+* <strong>Goal:</strong> use the autocomplete to select a specific observation that the system offers and stores.  This field does not allow freetext. For more information on where system wide observations are configured and managed, please refer to [Observation](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-codes-editor/)[ Codes Editor](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-codes-editor/).
 * <strong>Next Date:</strong> This field is optional, but can designate a specific date wanting this goal to be obtained by.
 * <strong>Target:</strong> This field is optional, but can free text the Target of this goal to have.
 
@@ -57,23 +57,23 @@ If the chart has had prior results/values documented for the specific observatio
 
 ![](../goals.assets/22b1d4e01b19959c04ada19732ece2d7.png)
 
-### Quick List - Library
+## Quick List - Library
 
 The Goals right side quick list method allows you to select Goals (observations) that are preconfigured on the Library chart you are currently set to on the encounter or are set to within this specific Goals section.
 
 ![](../goals.assets/7db8dcbc77a6cf2841f36fa7fc3df447.png)
 
-The encounter in its entirety can be set to a specific chosen Library, or the Goals encounter section can be set to a specific library.  If the chosen library has Goals preconfigured to it, those goals will display as Quick List selections.   Please refer to the [Libraries guide](libraries.md) for more detailed information.
+The encounter in its entirety can be set to a specific chosen Library, or the Goals encounter section can be set to a specific library.  If the chosen library has Goals preconfigured to it, those goals will display as Quick List selections.   Please refer to the [Libraries guide](https://docs.enterprisehealth.com/functions/encounters/libraries/) for more detailed information.
 
 ![](../goals.assets/7f2dfb5891405f81a68f42982945542b.png)
 
-#### Blue icon
+### Blue icon
 
 A checkmark blue circle icon next to an item on the Goals right side quick list method signifies that goal selection has been applied to the encounter section.
 
 ![](../goals.assets/4d1f1258436a20512cc4d38a39edc3d5.png)
 
-### Options
+## Options
 
 A goal has option buttons.  One can edit a goal, delete a goal, rearrange the display order of goals in that section, or generate a task about/related to that goal.
 
@@ -81,7 +81,7 @@ A goal has option buttons.  One can edit a goal, delete a goal, rearrange the di
 
 Goals cannot be marked as historical, nor as achieved.  Goals are meant to stay with the chart as a lifetime with a trending ‘most recent last 5' view.  Currently, there is no reporting around Goals in a system.
 
-### Symptoms/Diagnosis Encounter Section
+## Symptoms/Diagnosis Encounter Section
 
 Goals are also visible in the Symptoms/Diagnosis encounter section and goals can be managed there also.  When/if a goal is documented, it displays in Smart Plan encounter section, Goals encounter section, and Symptoms/Diagnosis encounter section.
 
