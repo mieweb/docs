@@ -2,7 +2,7 @@
 id: '1LVSJbbksfR6TAPzipWqYCWKsP_n5Td5vzCVhKhJWi7g'
 title: 'Physical Exam'
 date: '2025-11-06T21:10:53.318Z'
-version: 67
+version: 68
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
