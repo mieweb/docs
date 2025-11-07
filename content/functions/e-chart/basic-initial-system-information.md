@@ -1,24 +1,24 @@
 ---
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
-date: '2025-10-31T17:31:54.012Z'
-version: 248
-lastAuthor: 'anichols'
+date: '2025-11-07T18:29:57.490Z'
+version: 258
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}}, you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 
-### Chart Simple Search Screen
+## Chart Simple Search Screen
 
 Some users prefer to have their default landing page be the E-Chart sidemenu. The E-Chart side menu tab is the chart search screen. By default, users will be directed to the **Simple** search type, but a My Settings preference is available to change that default search type.
 
 ![](../basic-initial-system-information.assets/e747f5596bbde46aff2c4cd2aa89c990.png)
 
-The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you wanted to find any charts who have *erson* within their last name.  The simple search also looks at a chart's Preferred Name (starting in 03-2024RC) that may be entered in their demographics.
+The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you want to find any charts who have *erson* within their last name.  The simple search also looks at a chart's Preferred Name (starting in 03-2024RC) that may be entered in their demographics.
 
 Users can also search for charts by Medical Record Number, Social Security Number (entered with no dashes), Date of Birth, or by some phone number. Clicking the Phone number hyperlink allows users to toggle to search by alternate phone number, mobile phone number and work phone number as well.
 
@@ -32,7 +32,7 @@ Charts may be restricted to you.  You will find other help documentation guides 
 
 If desired, the system can be configured to turn off the *Search by Social Security Number* option.  This will remove the SSN search ability from the Simple and Detailed chart search screens. It will also remove the Social Security column from the Recent Employees/Patients listing.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
 
-### Documents Chart Tab
+## Documents Chart Tab
 
 Once accessing or working in a selected chart, {{% system-name %}} will include a **Documents** chart tab. By design, all documents stored in the chart will be mapped to this Documents catch-all chart tab unless otherwise changed by a system administrator.
 
@@ -64,7 +64,7 @@ You can change your document view preference when in any chart tab.  This is do
 ![](../basic-initial-system-information.assets/24190731570854b8b6390eb565551ae3.png)
 {{% /tip %}}
 
-### Other Chart Tabs Within a Chart
+## Other Chart Tabs Within a Chart
 
 Users can click on any chart tab located at the top of the charts to view or enter information, depending on the information needing recorded and the functionality of the chart tab. Some chart tabs are made up of sub-tabs.  Clicking on the main parent tab will expand the listing of sub-tabs available to access from that chart.
 
@@ -72,13 +72,13 @@ Users can click on any chart tab located at the top of the charts to view or ent
 
 Chart tabs that have stored documents mapped to them, will display a number in parentheses next to the chart tab name, indicating how many stored documents exist of that type, for that specific chart.  If no number exists, this indicates that no documents are stored in that particular chart tab or the chart tab functionality is not set up to store documents, but rather is setup to enter information such as medications/allergies, conditions, demographics, etc.
 
-### Home Landing Page
+## Home Landing Page
 
 Clicking the Home icon located towards the top-left corner of the screen will navigate you back to your default landing screen.  The default landing page is defined per user in the My Settings chart tab of the **Control Panel**. The *Default Page* preference selected setting drives this navigation.
 
 ![](../basic-initial-system-information.assets/d4fa053c533556a7d810c68ca4c59812.png)
 
-### Changing My Settings Preferences Per User
+## Changing My Settings Preferences Per User
 
 Users who have security access to My Settings within the Control Panel sidemenu tab are able to set their own preference defaults, but some administrators may be able to change My Setting preferences for other users, individually or system-wide.
 
@@ -102,7 +102,7 @@ Once the changes have been saved, the user will receive a message to indicate th
 
 ![](../basic-initial-system-information.assets/be3353ba04cfa6eb9d9462af8fb9658c.png)
 
-### Online Help
+## Online Help
 
 The Question Mark help bubble is located in the upper right corner on most screens within the application. Click the help bubble to search for a feature or functionality or watch online help videos.
 
@@ -116,12 +116,12 @@ In RC202509 and new, targeted help bubbles have also been added within the Patie
 
 ![](../basic-initial-system-information.assets/a056fed4ea65348913cd7179b8e60977.png)
 
-### Logging Out
+## Logging Out
 
 To log out of the system, click the Logout sidemenu option.
 
 ![](../basic-initial-system-information.assets/32a0061c3ae80b276b91694780283f32.png)
 
 {{% note %}}
-A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).  Please refer to the [Timeout Logout](https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w) guide.
+A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).  Please refer to the [Timeout Logout](https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/) guide.
 {{% /note %}}
