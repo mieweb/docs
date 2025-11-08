@@ -642,7 +642,7 @@ links:
   - 'functions/system-administration/security/single-sign-on-login-trust.md'
   - 'functions/system-administration/security/saml-based-single-sign-on.md'
   - 'functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration.md'
-  - 'functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-overview.md'
+  - 'functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-overview.md'
   - 'functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
   - 'functions/system-administration/interfaces.md'
@@ -1444,7 +1444,7 @@ wikigdrive: 'v2.15.27'
             * [Single Sign-On Login Trust](functions/system-administration/security/single-sign-on-login-trust.md)
             * [SAML-Based Single Sign-On](functions/system-administration/security/saml-based-single-sign-on.md)
             * [Multi-Factor Authentication MFA/Require 2FA System Configuration](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration.md)
-                * [Encourage Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-overview.md)
+                * [Encourage Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
                 * [Force Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-overview.md)
                 * [One Time Password Authentication via Email User Experience](functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
         * [Interfaces](functions/system-administration/interfaces.md)

@@ -725,7 +725,7 @@ wikigdrive: 'v2.15.27'
             * [ADFS 3.0 Configuration for SSO](functions/system-administration/security/adfs-3.0-configuration-for-sso.md)
             * [Compare Security Roles](functions/system-administration/security/compare-security-roles.md)
             * [Disabling Inactive User Access & Accounts](functions/system-administration/security/disabling-inactive-user-access-and-accounts.md)
-            * [Encourage Multi-Factor Authentication MFA/2FA Overview](functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-overview.md)
+            * [Encourage Multi-Factor Authentication MFA/2FA User Experience](functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
             * [Force Multi-Factor Authentication MFA/2FA Overview](functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-overview.md)
             * [Multi-Factor Authentication MFA / Require 2FA System Configuration](functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration.md)
             * [My Settings](functions/system-administration/security/my-settings.md)
