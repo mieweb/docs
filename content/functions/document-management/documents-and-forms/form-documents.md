@@ -1,18 +1,18 @@
 ---
 id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
 title: 'Form Documents'
-date: '2024-07-22T12:42:28.688Z'
-version: 313
+date: '2025-11-10T15:09:38.040Z'
+version: 320
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../printing-and-print-definitions/print-chart.md'
   - '../printing-and-print-definitions/print-definitions.md'
-  - 'https://system/?f=chart'
-  - 'https://system/?func=scheduler'
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - '../scanning-and-indexing/scanning.md'
-  - '../scanning-and-indexing/indexing.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/schedule-management/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZATDNHRK'
 source: 'https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
@@ -26,11 +26,11 @@ There are various places from within {{% system-name %}} to print an *individual
 
 Additionally, forms can be programmed to print specific information, automatically. This can improve speed and efficiency. Contact the Helpdesk for information and assistance with uploading forms and programming form variables.
 
-To access a form from a chart, click the [E-Chart sidemenu](https://system/?f=chart), navigate to the necessary chart, and when the *Summary* tab loads, click the **Add Document** link.
+To access a form from a chart, click the [E-Chart sidemenu](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/), navigate to the necessary chart, and when the *Summary* tab loads, click the **Add Document** link.
 
 ![](../form-documents.assets/04f883e99f3865fd1bdcc8b17b5a3dca.png)
 
-As noted, users can also access and print forms from the [Scheduler](https://system/?func=scheduler#Now). Locate the appropriate appointment, and click the **Add Document** link from the appointment view.
+As noted, users can also access and print forms from the [Scheduler](https://docs.enterprisehealth.com/functions/scheduling/schedule-management/). Locate the appropriate appointment, and click the **Add Document** link from the appointment view.
 
 ![](../form-documents.assets/60be3b15301a660d7195559d61610288.png)
 
@@ -55,7 +55,7 @@ The document will open a new window/tab, in either a PDF or TIFF format. Forms c
 ![](../form-documents.assets/7d49e6ebcd350f84411e7c4dbd6d1129.png)
 
 {{% tip %}}
-The Document View Format rendering (in PDF or TIFF) is a setting found in the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the Control Panel. This can be changed at the user level, if desired.
+The Document View Format rendering (in PDF or TIFF) is a setting found in the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) tab of the Control Panel. This can be changed at the user level, if desired.
 {{% /tip %}}
 
 ### Print Form from Chart
@@ -65,7 +65,7 @@ Once the appropriate form document has been rendered, simply click the printer i
 ![](../form-documents.assets/f38d47fb72df2043dfb47e908168d3a8.png)
 
 {{% note %}}
-Users should always scan and index printed forms back into {{% system-name %}} to ensure the documents are included in the respective charts. See the [Scanning](../scanning-and-indexing/scanning.md) and [Indexing](../scanning-and-indexing/indexing.md) documents for assistance with scanning and indexing in {{% system-name %}} .
+Users should always scan and index printed forms back into {{% system-name %}} to ensure the documents are included in the respective charts. See the [Scanning](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) and [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/) documents for assistance with scanning and indexing in {{% system-name %}} .
 {{% /note %}}
 
 ## Automatic Upload and Pen Feature
