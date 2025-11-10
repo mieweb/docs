@@ -1,12 +1,12 @@
 ---
 id: '1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 title: 'Delete/Move/Lock Documents'
-date: '2020-03-23T17:21:07.161Z'
-version: 82
-lastAuthor: ''
+date: '2025-11-10T16:37:51.607Z'
+version: 91
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=admin&s=recordman&tabmodule=admin&tabselect=Record+Locks'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/locking-individual-or-specific-charts/'
 source: 'https://drive.google.com/open?id=1uTO46APK2mbErCejVhXDlPSyVYOu3JHki92eUXmndz4'
 wikigdrive: 'v2.15.27'
 ---
@@ -20,7 +20,7 @@ The security permission **Document Delete** must be set to **Yes** in order to d
 Deleting a document in {{% system-name %}} will simply remove the contents from being visible. The document will continue to show as a line item on lists, marked as *deleted*. This provides visibility to documents that once existed and have since been removed, or deleted.
 {{% /warning %}}
 
-To delete a document from a chart, find and open the document needing deleted. While viewing the document, click the **Properties** link near the upper-right corner of the page.
+To delete a document from a chart, find and open the document needing to be deleted. While viewing the document, click the **Properties** link near the upper-right corner of the page.
 
 ![](../delete-move-lock-documents.assets/45c3efbfece2b0dfdd229cb41adcb026.png)
 
@@ -110,6 +110,6 @@ Users without permission to view locked documents will not see any contents when
 
 ## Remove Old Record Locks
 
-With the proper security permission, a user may review a full listing of current record locks on documents. Simply navigate to the **Control Panel** and select the [Record Locks](https://system/?f=admin&s=recordman&tabmodule=admin&tabselect=Record+Locks) tab. Authorized users can remove locks on individual documents, or utilize the **Remove Old Record Locks** link in the top-right corner of the page. This will remove all record locks on the list, en masse.
+With the proper security permission, a user may review a full listing of current record locks on documents. Simply navigate to the **Control Panel** and select the [Record Locks](https://docs.enterprisehealth.com/functions/system-administration/system-controls/locking-individual-or-specific-charts/) tab. Authorized users can remove locks on individual documents, or utilize the **Remove Old Record Locks** link in the top-right corner of the page. This will remove all record locks on the list, en masse.
 
 ![](../delete-move-lock-documents.assets/851c34487c0f16ce5024ef2052fc3ed9.png)
