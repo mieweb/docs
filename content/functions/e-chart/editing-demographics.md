@@ -1,12 +1,12 @@
 ---
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
-date: '2024-12-02T18:37:46.968Z'
-version: 130
-lastAuthor: 'anichols'
+date: '2025-11-10T14:34:06.432Z'
+version: 134
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=docq'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 wikigdrive: 'v2.15.27'
 ---
@@ -35,7 +35,7 @@ Following is additional information regarding specific fields found on the demog
 * <strong>Country</strong>:<strong></strong> This field is shown above the Postal Code field. The Country field is set to the United States, by default, when a user's Default Location preference has not been set by the logged-in user. The Default Country can also be set system-wide, via a system setting.
 * <strong>Exclude from Quality Care:</strong> This typically gets set to Yes if the chart is a test type chart and you don't want it to be included in reporting or automated jobs, etc.
 * <strong>Temporary Chart</strong>: Default is No and indicates this is a permanent medical record.  This radio button section should be used cautiously. Selecting Yes, indicates the chart is temporary and applies a red banner across the top (once the section is saved) of <em>Warning: Temporary Chart</em>. Some workflows (for example: applicants) may need their chart to be ‘temporary' until permanently hired.
-* <strong>Active Chart</strong>: Default is Yes and indicates this is an active chart.  Active charts can be searched for in various areas of the system. If the chart needs to be marked inactive, simply set it to No. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://system/?f=chart&s=docq).
+* <strong>Active Chart</strong>: Default is Yes and indicates this is an active chart.  Active charts can be searched for in various areas of the system. If the chart needs to be marked inactive, simply set it to No. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/).
 
 After all edits are done click the **Save** button at the bottom of the section.
 
