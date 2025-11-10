@@ -1,9 +1,9 @@
 ---
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
-date: '2025-06-18T18:59:15.564Z'
-version: 139
-lastAuthor: 'anichols'
+date: '2025-11-10T20:39:49.011Z'
+version: 146
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/vitals-tracking-and-management.md'
@@ -23,7 +23,7 @@ To record vitals information within the encounter, simply click anywhere on the 
 
 Use the date/time field to indicate the date & time the set of vitals was taken.  It is easy to advance through the fields using the keyboard **tab key**.  Measurement units will default as English, unless your My Settings preference for preferred unit system has been changed to use metric.   Please visit the [Vitals Tracking & Management page](../order-and-result-management/vitals-tracking-and-management.md) for additional detailed information regarding Vitals.
 
-### Vitals - Flowsheet
+## Vitals - Flowsheet
 
 The Vitals encounter section is pointed to a specific flowsheet configured in the system. The configured flowsheet named *Vitals* in the flowsheet editor will display in the encounter Vitals section.  Using a Vitals flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Vitals encounter section.
 
