@@ -1,31 +1,31 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2024-11-27T17:54:31.823Z'
-version: 113
-lastAuthor: 'bhamm'
+date: '2025-11-10T17:42:03.564Z'
+version: 123
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
-  - 'print-definitions.md'
-  - 'https://system/?f=chart'
-  - 'printing-documents.md'
-  - '../../fax-manager/faxing-documents.md'
-  - 'https://system/?func=scheduler&s=apttypes'
-  - 'https://system/?func=scheduler'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
+  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/schedule-management/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 wikigdrive: 'v2.15.27'
 ---
 Within every chart, there are several quick links available. One of these quick links is the **Print Chart** link, which allows users to fax or print pre-established or configured print definitions from the Scheduler, the Appointments chart tab, or from within the individual's E-Chart. In other words, using the Print Chart link provides users a way to print or fax predefined groupings of documents, forms, layouts, or the like, so that any specific packets of information, or stored documents, may easily be provided via fax, or else printed and provided to a performing facility or a patient, as needed. Print definitions can include individual documents or certain forms, multiple-page packets, or even chart information, such as a medication summary or a list of immunizations.
 
-The print definitions used for the Print Chart functionality can be set up using the [Print Definition editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions) of the **Control Panel**. Here, users with the appropriate security permissions may define the necessary print definitions and group the various types of documents, forms, and/or chart information needed for intake workflows, scheduled appointments, specific procedures, etc. These print definitions, can then be used to reduce costs and streamline workflows and communication, all by way of reducing unnecessary printing and simplifying the processes involved with potentially necessary printing.
+The print definitions used for the Print Chart functionality can be set up using the [Print Definition editor](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/) of the **Control Panel**. Here, users with the appropriate security permissions may define the necessary print definitions and group the various types of documents, forms, and/or chart information needed for intake workflows, scheduled appointments, specific procedures, etc. These print definitions, can then be used to reduce costs and streamline workflows and communication, all by way of reducing unnecessary printing and simplifying the processes involved with potentially necessary printing.
 
-For more information on how print definitions can be configured, see the [Print Definitions](print-definitions.md) help documentation.
+For more information on how print definitions can be configured, see the [Print Definitions](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/) help documentation.
 
 ## Print Chart from E-Chart
 
-After navigating to a specific chart from the [E-Chart module](https://system/?f=chart), users will find various places with the **Print Chart** link available. Clicking any of these Print Chart links will allow users to select and render a specific print definition, as needed.
+After navigating to a specific chart from the [E-Chart module](https://docs.enterprisehealth.com/functions/e-chart/), users will find various places with the **Print Chart** link available. Clicking any of these Print Chart links will allow users to select and render a specific print definition, as needed.
 
 ![](../print-chart.assets/f7ac202ce029bdaae27a59b007b7cb9c.png)
 
@@ -73,7 +73,7 @@ When the Use WebKit system setting is enabled, printed html documents will have 
 
 **Send To/Create New Batch**: The Send To section of the Print Chart dialog window allows users to choose how the selected print definition is to be handled. In other words, users may use the same dialog window to send the print definition to the printer, to the fax machine, through secure email, or if the documents being rendered are not being added to an existing batch, a new batch can be created. If an existing batch is being added to, simply select the **Add To** radio button and proceed. This will add the document(s) of the print definition into the pending batch selected. Otherwise, select the *Printer*, *Fax*, *Secure Email*, or *Create New Batch* radio button to proceed. If a new batch is needed for the print definition, for example, simply select the *Create New Batch* radio button and proceed by adding any necessary batch comment at the top of the dialog window and clicking the **Create Batch** button at the bottom. The print definition will then be housed in a batch until faxed/printed. When simply printing or faxing a print definition outside of a batch, users may skip this section and continue by clicking either the **Print** or **Fax** button, accordingly.
 
-For more detailed information on general faxing and printing, see our [Printing Documents](printing-documents.md) or [Faxing Documents](../../fax-manager/faxing-documents.md) help documentation.
+For more detailed information on general faxing and printing, see our [Printing Documents](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/) or [Faxing Documents](https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/) help documentation.
 
 ### Print Chart from Appointments Chart Tab
 
@@ -92,12 +92,12 @@ Once clicked, the Print Chart dialog window will open. Following the same instru
 **Use Appointment Type Print Definition If Exists**: This option, when selected, will render the print definition specific to the selected appointment type. In other words, print definitions associated in the configuration of a specific appointment type will be rendered when this option is selected. When an appointment type is configured with a print definition and this option is checked, any selection made in the Print Definition dropdown will be overridden. On the other hand, if the appointment type *does not* have an associated print definition, yet this option is selected, the print definition specified in the dropdown field will be respected and rendered.
 
 {{% tip %}}
-Appointment Type Print Definitions are configured in the [Appointment Types editor](https://system/?func=scheduler&s=apttypes) (i.e., Appt Types tab) of the **Scheduler** module. Here, users with the necessary permissions may configure appointment types with print definitions, as needed.
+Appointment Type Print Definitions are configured in the [Appointment Types editor](https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/) (i.e., Appt Types tab) of the **Scheduler** module. Here, users with the necessary permissions may configure appointment types with print definitions, as needed.
 {{% /tip %}}
 
 Print Chart from Scheduler
 
-In addition to the various locations users can access the Print Chart functionality within the chart,  {{% system-name %}} includes this same functionality from the [Scheduler](https://system/?func=scheduler#Now) module. When viewing scheduled appointments from the Scheduler, simply click the **Print Chart** link *within* the specific scheduled appointment block, and any printing or faxing needing to be done according to the scheduled appointment can be addressed.
+In addition to the various locations users can access the Print Chart functionality within the chart,  {{% system-name %}} includes this same functionality from the [Scheduler](https://docs.enterprisehealth.com/functions/scheduling/schedule-management/) module. When viewing scheduled appointments from the Scheduler, simply click the **Print Chart** link *within* the specific scheduled appointment block, and any printing or faxing needing to be done according to the scheduled appointment can be addressed.
 
 ![](../print-chart.assets/2df2ba3ba430de7be5aa490a4126a7af.png)
 
@@ -105,7 +105,7 @@ Additionally, users have the ability to utilize the **Print Charts** link, fou
 
 ![](../print-chart.assets/6491b52793ff4ea79d7582c4bc03fe99.png)
 
-Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](#print-chart-from-e-chart) and [Print Chart from Appointments Chart Tab](#print-chart-from-appointments-chart-tab)).
+Once either of these links are clicked, the Print Chart dialog window will open, allowing the user to print/fax, accordingly. The available options and workflow follow those explained in the preceding sections (i.e., [Print Chart from E-Chart](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/#print-chart-from-e-chart) and [Print Chart from Appointments Chart Tab](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/#print-chart-from-appointments-chart-tab)).
 
 ## Learning Management System
 
