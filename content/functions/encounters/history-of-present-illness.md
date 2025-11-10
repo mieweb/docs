@@ -1,13 +1,13 @@
 ---
 id: '1rAmscj43iNpKmNuQPbQOteZhZwD20Mq2pR3_FfAijM8'
 title: 'History of Present Illness'
-date: '2025-06-03T14:59:20.028Z'
-version: 51
-lastAuthor: 'anichols'
+date: '2025-11-10T20:24:24.136Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'encounter-protocols.md'
-  - 'copy-from-previous-exam.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
 source: 'https://drive.google.com/open?id=1rAmscj43iNpKmNuQPbQOteZhZwD20Mq2pR3_FfAijM8'
 wikigdrive: 'v2.15.27'
 ---
@@ -23,9 +23,9 @@ To add or edit HPI information in the encounter, simply click anywhere on the HP
 
 Use the free text fields, speech to text dictation icon, or use the macros on the far right to quickly get the HPI documented.
 
-NOTE: HPI fields (when in expanded mode) reflect any chief complaint protocol(s) selected.  Otherwise, if no chief complaint protocol is designated on the encounter, the HPI section will default to offering our standard work related HPI questions.  For more information on chief complaint protocols, please see separate guide [Encounter Protocols](encounter-protocols.md).
+NOTE: HPI fields (when in expanded mode) reflect any chief complaint protocol(s) selected.  Otherwise, if no chief complaint protocol is designated on the encounter, the HPI section will default to offering our standard work related HPI questions.  For more information on chief complaint protocols, please see separate guide [Encounter Protocols](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
 
-### Copy from Previous Exam
+## Copy from Previous Exam
 
 Within the HPI encounter section, there is an icon that offers *Copy from Previous Exam* functionality.
 
@@ -35,4 +35,4 @@ The *Copy from Previous Exam* icon pops up a window to allow you to select HPI d
 
 ![](../history-of-present-illness.assets/3916ffc9afcc8ed0b09d87a75486bd2b.png)
 
-For more detailed information, please refer to guide [Copy from Previous Exam](copy-from-previous-exam.md#copy-existing-visits).
+For more detailed information, please refer to guide [Copy from Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/).
