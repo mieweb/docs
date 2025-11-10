@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2025-04-09T17:27:28.244Z'
-version: 550
+date: '2025-11-10T18:04:59.339Z'
+version: 556
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -119,7 +119,7 @@ The next section is *Patient Visits*.
 ![](../adding-an-appointment-using-the-wizard-tab.assets/d9dd21d03177b823cfd5028afa5b2a15.png)
 
 * <strong>Date/Time:</strong> Pick the date for the scheduled appointment. Automatically pops-up today's date & time or the specific date & time of the slot you selected when you clicked the yellow time slot in a general scheduler view. Type in a different date using that format, or click <em>Pick Date</em> and it will pop up a calendar to choose your date from.
-    * <em>TIP: Use the</em> <strong><em>Find Time</em></strong>'<em> or</em> <strong><em>View Calendar</em></strong>'<em></em> buttons available, to find an empty slot to schedule this specific appointment for (according to the resource, appt type & location's schedule you selected above)
+    * TIP: Use the <strong>Find Time</strong> or <strong>View Calendar</strong><em></em> buttons available, to find an empty slot to schedule this specific appointment for (according to the resource, appt type & location's schedule you selected above)
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/75f1f01b6334b85597ca6df711cac499.png)
 
@@ -197,7 +197,7 @@ After you click ADD (APPT), you can change and modify the fields and enter anoth
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/7adab74bd46bb8fe41824803f73283c4.png)
 
-* With in the <strong>Free Times</strong> pop-up window, select a specific calendar date from the calendar picker
+* Within the <strong>Free Times</strong> pop-up window, select a specific calendar date from the calendar picker
 
 ![](../adding-an-appointment-using-the-wizard-tab.assets/63ce346af989ce667376b8e94190dfc0.png)
 
