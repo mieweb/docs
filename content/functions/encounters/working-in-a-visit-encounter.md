@@ -1,21 +1,21 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-08-19T16:58:51.223Z'
-version: 551
-lastAuthor: 'auhrick'
+date: '2025-11-10T19:38:35.987Z'
+version: 569
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'
-  - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
-  - 'tests-and-procedures-section-remove-delete-edit.md'
-  - '../injury-care/adding-restrictions.md'
-  - '../injury-care/viewing-restrictions.md'
-  - '../injury-care/adding-accommodations.md'
-  - '../injury-care/viewing-accommodations.md'
-  - 'carbon-copy.md'
-  - 'clinical-education.md'
-  - 'final-summary-encounter-sections.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-remove-delete-edit/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/adding-restrictions/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/viewing-restrictions/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/viewing-accommodations/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/carbon-copy/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/clinical-education/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/final-summary-encounter-sections/'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 wikigdrive: 'v2.15.27'
@@ -82,7 +82,7 @@ If a user has an encounter as ‘current' and has not manually released it, the 
 
 ## Multiple Users in Encounter
 
-Seeing the *Other Users InThis Encounter* yellow alert bar means another userI(s) has this specific encounter ID marked as "current" for themselves. They may be in the encounter working also, or they may just still have that patient's encounter still set as "current" for themselves and never clicked "release". Any user who has the same encounter marked as "current" for themselves will show that alert to other users who also get into the encounter to work. You can force to release the encounter from another user as current. Simply click the *release* hyperlink in the options column next to the specific user(s). If no other user has this same encounter ‘current' for themselves, you will not see any of this.
+Seeing the *Other Users In This Encounter* yellow alert bar means another user(s) has this specific encounter ID marked as "current" for themselves. They may be in the encounter working also, or they may just still have that patient's encounter still set as "current" for themselves and never clicked "release". Any user who has the same encounter marked as "current" for themselves will show that alert to other users who also get into the encounter to work. You can force the release of the encounter from another user as current. Simply click the *release* hyperlink in the options column next to the specific user(s). If no other user has this same encounter ‘current' for themselves, you will not see any of this.
 
 ![](../working-in-a-visit-encounter.assets/65b3a9b43328e41ed511c3687b267cc2.png)
 
@@ -252,7 +252,7 @@ Past medical history section of dynamic encounters include concluded conditions.
 
 ### Tests & Procedures
 
-See separate help documentation named [Tests & Procedures Section-Applying/Adding, Completing, Resulting](tests-and-procedures-section-applying-adding-completing-resulting.md) and [Tests & Procedures Section-Remove, Delete, Edit](tests-and-procedures-section-remove-delete-edit.md).
+See separate help documentation named [Tests & Procedures Section-Applying/Adding, Completing, Resulting](https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/) and [Tests & Procedures Section-Remove, Delete, Edit](https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-remove-delete-edit/).
 
 ### Assessment (or Impression)
 
@@ -270,11 +270,11 @@ In the Visit Orders section of a dynamic encounter, you have the ability to show
 
 ### Restrictions
 
-See separate help documentation regarding [Adding Restrictions](../injury-care/adding-restrictions.md) and [Viewing Restrictions](../injury-care/viewing-restrictions.md).
+See separate help documentation regarding [Adding Restrictions](https://docs.enterprisehealth.com/functions/injury-care/adding-restrictions/) and [Viewing Restrictions](https://docs.enterprisehealth.com/functions/injury-care/viewing-restrictions/).
 
 ### Accommodations
 
-See separate help documentation regarding [Adding Accommodations](../injury-care/adding-accommodations.md) and [Viewing Accommodations](../injury-care/viewing-accommodations.md).
+See separate help documentation regarding [Adding Accommodations](https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/) and [Viewing Accommodations](https://docs.enterprisehealth.com/functions/injury-care/viewing-accommodations/).
 
 ### CC
 
@@ -284,7 +284,7 @@ When the Co-Signing Provider is set for a user within My Settings, and that user
 
 ![](../working-in-a-visit-encounter.assets/8b2ecff6296e623fdb8b17ad1c1dd937.png)
 
-Refer to [Carbon Copy Encounter](carbon-copy.md) Section guide for detailed information on this section.
+Refer to [Carbon Copy](https://docs.enterprisehealth.com/functions/encounters/carbon-copy/) Encounter Section guide for detailed information on this section.
 
 ### CCDA Settings
 
@@ -300,7 +300,7 @@ The Clinical Education section provides the ability to Generate Clinical Educati
 
 ![](../working-in-a-visit-encounter.assets/a9e1a540a8651f71d0aaa27e5e6a7e73.png)
 
-Refer to [Clinical Education Encounter Section](clinical-education.md) guide for detailed information on this section.
+Refer to [Clinical Education Encounter Section](https://docs.enterprisehealth.com/functions/encounters/clinical-education/) guide for detailed information on this section.
 
 ### Future Appointments
 
@@ -388,7 +388,7 @@ At the end of the encounter entry screen you will see a section named *Summary*
 
 ![](../working-in-a-visit-encounter.assets/444113140311dc2d001826d33a7fcef5.png)
 
-Please refer to the [Final Summary Encounter Sections](final-summary-encounter-sections.md) guide for more detailed information.
+Please refer to the [Final Summary Encounter Sections](https://docs.enterprisehealth.com/functions/encounters/final-summary-encounter-sections/) guide for more detailed information.
 
 ## Closed Encounters
 
