@@ -1,13 +1,13 @@
 ---
 id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
 title: 'Indexing Bubble Forms'
-date: '2020-03-09T15:08:14.503Z'
-version: 58
-lastAuthor: ''
+date: '2025-11-10T17:16:07.742Z'
+version: 66
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=miewebscan'
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
 source: 'https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
 wikigdrive: 'v2.15.27'
 ---
@@ -23,7 +23,7 @@ In order to index data or address indexing tasks, users must have the appropriat
 
 To index a bubble sheet:
 
-1. Navigate to the [WebScan](https://system/?f=miewebscan) module from the sidemenu, and find the batch with the bubble forms to index. Click the <strong>Open</strong> link for the batch.
+1. Navigate to the [WebScan](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) module from the sidemenu, and find the batch with the bubble forms to index. Click the <strong>Open</strong> link for the batch.
 2. Once the batch opens to the <em>Index Information</em> screen, click the <strong>Process BarCodes</strong> button, found near the center of the toolbar, at the top of the window.
 3. Next, click the <strong>Bubble</strong> button on the toolbar. The system will read the optical marks (i.e., bubbles) on the form and populate the data into a confirmation pop-up window.
 
@@ -53,5 +53,5 @@ Once uploaded, the form image will be stored in the respective chart, and the di
 ![](../indexing-bubble-forms.assets/747f9d776d31651062a66b29871ac6ca.png)
 
 {{% tip %}}
-The observation flowsheets display the unit of measure set in the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) menu. Select *Metric* or *English* for the **Preferred Unit System**.
+The observation flowsheets display the unit of measure set in the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) menu. Select *Metric* or *English* for the **Preferred Unit System**.
 {{% /tip %}}
