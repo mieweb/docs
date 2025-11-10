@@ -1,14 +1,13 @@
 ---
 id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 title: 'Biometric Data Entry'
-date: '2024-03-18T18:07:32.722Z'
-version: 96
+date: '2025-11-10T16:19:09.172Z'
+version: 101
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
 wikigdrive: 'v2.15.27'
 ---
@@ -93,6 +92,6 @@ VIEW:
 
 ## Reporting
 
-Biometric reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) category. These reports enable a client to review the various data captured during a visit or encounter. The Patient Observations report is available here, as well.
+Biometric reports are generally found in the **Reports** sidemenu, under the Visits category. These reports enable a client to review the various data captured during a visit or encounter. The Patient Observations report is available here, as well.
 
 ![](../biometric-data-entry.assets/82b217840309964f1db169d4f763ef78.png)
