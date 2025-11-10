@@ -1,14 +1,13 @@
 ---
 id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 title: 'Print Definitions'
-date: '2024-07-08T15:24:45.615Z'
-version: 262
+date: '2025-11-10T17:31:26.945Z'
+version: 273
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'print-chart.md'
-  - 'https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions'
-  - 'https://system/?f=chart&s=printdefedit&item=def&opp=add'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LALIDNHR'
 source: 'https://drive.google.com/open?id=1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
@@ -16,13 +15,13 @@ wikigdrive: 'v2.15.27'
 ---
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print (or fax) job. Print definitions can be accessed from either the Scheduler module or any patient chart by clicking the **Print Chart** link. Users are then given the ability to select the desired print definition and set a date range and printing options, such as printing without headers and printing one document per page. In addition, users can not only print and fax, but can send the print definition as a secure email, or even create a batch so that the print definition can be printed or faxed at a later time.
 
-The following information covers how to create and restrict print definitions, as well as how to configure and customize them. For more information on how to use print definitions, see the [Print Chart](print-chart.md) online help documentation.
+The following information covers how to create and restrict print definitions, as well as how to configure and customize them. For more information on how to use print definitions, see the [Print Chart](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/) online help documentation.
 
 ## Create a Print Definition
 
-To create a print definition, users must first navigate to the from the **Control Panel** left sidebar menu, and then select the [Print Definitions tab](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions). This will load the Print Definition Search and listview, where all existing print definitions will display.
+To create a print definition, users must first navigate to the from the **Control Panel** left sidebar menu, and then select the [Print Definitions tab](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/). This will load the Print Definition Search and listview, where all existing print definitions will display.
 
-Click the [Add Definition](https://system/?f=chart&s=printdefedit&item=def&opp=add) link in the upper-right corner, to create a new print definition.
+Click the Add Definition link in the upper-right corner, to create a new print definition.
 
 ![](../print-definitions.assets/c47fdc1a687f144fe3f166e55109fb89.png)
 
@@ -44,7 +43,7 @@ The Add Print Definition page will load. Fill in the appropriate fields to creat
 
 **Number Pages**: By default, this field is checked, meaning all documents printed from the print definition will have page numbering. Do not check if page numbering is not preferred.
 
-**Restriction Control**: This is not typically checkmarked. When checked, only specified users will have permission to utilize the print definition. Users with the Manage Print Def Restrictions security setting enabled will have the ability to restrict the print definition to specific users/departments, when editing or adding print definitions. This is discussed in more detail above, under the [Restricting a Print Definition](#restricting-a-print-definition) section.
+**Restriction Control**: This is not typically checkmarked. When checked, only specified users will have permission to utilize the print definition. Users with the Manage Print Def Restrictions security setting enabled will have the ability to restrict the print definition to specific users/departments, when editing or adding print definitions. This is discussed in more detail below, under the [Restricting a Print Definition](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/#restricting-a-print-definition) section.
 
 **Scheduler Override Control**: The Scheduler Override Control was designed to allow users the ability to create print definitions that override selected print definitions, when specific appointment details are met. To enable this functionality, place a checkmark in the box, complete the remaining fields, and save. Additional information and how to establish this function can be found under the  section.
 
@@ -62,7 +61,7 @@ When using a print definition en masse (i.e., on multiple charts at one time), t
 
 **Definition Alert**: Use this free-text field to specify any alert(s) pertaining to the use or overall function of this print definition. If a Definition Alert is provided, a user will be shown the alert, when the print definition is selected for use.
 
-Once all of the fields have been addressed accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#creating-section-s-in-a-print-definition) section for more details.
+Once all of the fields have been addressed accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/#creating-sections-in-a-print-definition) section for more details.
 
 {{% info %}}
 Print definitions with Restriction Control enabled, and/or the Scheduler Override Control enabled, will be prompted to specify the restriction/override criteria upon saving. See the **Restricting a Print Definition** and **Scheduler Override Control** sections for more information.
@@ -119,11 +118,11 @@ To *remove* any overriding criteria from the list, simply click the minus button
 
 ![](../print-definitions.assets/74f6122cbf98d7e064e70502119130ff.png)
 
-Once all of the additional information has been updated accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](#creating-section-s-in-a-print-definition) section for more details.
+Once all of the additional information has been updated accordingly, click the **Save** button. If no additional details are needed, a confirmation message will display. Next, the sections and documents to be included in the print definition need to be defined. Skip to the [Creating Section(s) in a Print Definition](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/#creating-sections-in-a-print-definition) section for more details.
 
 ## Edit a Print Definition
 
-To begin editing an existing print definition, users with the appropriate security permissions can simply navigate to the **Control Panel** from the left sidemenu and open the [Print Definitions editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions). This will display a list of all existing active print definitions in alphabetical order, which can be filtered or searched, as needed.
+To begin editing an existing print definition, users with the appropriate security permissions can simply navigate to the **Control Panel** from the left sidemenu and open the Print Definitions editor. This will display a list of all existing active print definitions in alphabetical order, which can be filtered or searched, as needed.
 
 After locating the existing print definition needing edited, click the **Edit** link in the *Actions* column.
 
@@ -158,7 +157,7 @@ Set the *Status* by selecting the **Inactive** radio button. This will retain th
 
 If a print definition is no longer used and needs removed from the system, rather than simply inactivating the print definition, users with the appropriate security permissions may delete it from the system.
 
-After navigating to the [Print Definitions editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions), simply locate the print definition needing removed, and click the **Delete** link in the *Actions* column. A confirmation page will load, emphasizing *ALL print sections and appt override details associated with this Print Def will also be deleted*. Click the **Yes** button to proceed, and a message of successful deletion will appear at the top of the page.
+After navigating to the Print Definitions editor, simply locate the print definition needing removed, and click the **Delete** link in the *Actions* column. A confirmation page will load, emphasizing *ALL print sections and appt override details associated with this Print Def will also be deleted*. Click the **Yes** button to proceed, and a message of successful deletion will appear at the top of the page.
 
 ![](../print-definitions.assets/19ce040b942a6a00f1467002aace9502.png)
 
@@ -166,7 +165,7 @@ After navigating to the [Print Definitions editor](https://system/?f=chart&s=pr
 
 Once a print definition has been created, all of the appropriate documents, forms, flowsheets, and the like must be configured as sections of the print definition, in order for those items to be printable (or faxable) from the print definition.
 
-Navigate to the [Print Definitions editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions). All existing active print definitions will be displayed in alphabetical order. These can be filtered or searched, as needed. Locate the print definition needing a section added, and click the **Add Section** link in the *Actions* column.
+Navigate to the Print Definitions editor. All existing active print definitions will be displayed in alphabetical order. These can be filtered or searched, as needed. Locate the print definition needing a section added, and click the **Add Section** link in the *Actions* column.
 
 ![](../print-definitions.assets/627912ec099e022a1444d82050abc6e6.png)
 
@@ -225,7 +224,7 @@ Once all of the fields have been addressed as needed, scroll to the bottom of th
 
 ### Sections of a Print Definition
 
-To view the sections of a specific print definition, first navigate to the [Print Definitions editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions). This will display all of the existing print definitions in alphabetical order. Locate the print definition to which the necessary print section(s) being viewed/edited belongs. Click the *Name* of the print definition.
+To view the sections of a specific print definition, first navigate to the Print Definitions editor. This will display all of the existing print definitions in alphabetical order. Locate the print definition to which the necessary print section(s) being viewed/edited belongs. Click the *Name* of the print definition.
 
 ![](../print-definitions.assets/a4385dc7960d248c1278950946465038.png)
 
@@ -269,7 +268,7 @@ Once completed, a confirmation will display that the user *Successfully deleted 
 
 As a way to quickly create a print definition without having to start from scratch, the {{% system-name %}} system provides an ability for users to duplicate existing print definitions. This will duplicate every aspect of the original print definition, eliminating the need to address every step of the creation process. This is particularly helpful when working on a print definition that will closely resemble an existing one.
 
-To begin, first navigate to the [Print Definitions editor](https://system/?f=chart&s=printdefedit&tabmodule=admin&tabselect=Print+Definitions) of the Control Panel. All existing active print definitions will be displayed in alphabetical order. Locate the existing print definition intended to be duplicated, and click the **Duplicate** link in the *Actions* column.
+To begin, first navigate to the Print Definitions editor of the Control Panel. All existing active print definitions will be displayed in alphabetical order. Locate the existing print definition intended to be duplicated, and click the **Duplicate** link in the *Actions* column.
 
 ![](../print-definitions.assets/4346a78f6be52909ed7e82fb6347c53f.png)
 
