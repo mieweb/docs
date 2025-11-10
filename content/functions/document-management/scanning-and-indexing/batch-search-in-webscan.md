@@ -1,30 +1,29 @@
 ---
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
-date: '2025-10-07T12:06:53.301Z'
-version: 68
-lastAuthor: 'anichols'
+date: '2025-11-10T17:18:43.950Z'
+version: 74
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=miewebscan'
-  - 'scanning.md'
-  - '../../reports/webscan-report.md'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
+  - 'https://docs.enterprisehealth.com/functions/reports/webscan-report/'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 wikigdrive: 'v2.15.27'
 ---
-In order to access the [WebScan](https://system/?f=miewebscan) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](scanning.md) help documentation.
+In order to access the [WebScan](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) help documentation.
 
 To review and search scan batches, open the WebScan module. Once opened, users will see the Batch Search Criteria fields, and any New batches will be listed under the Batch list view, by default. The New batches are various scanned documents ready to be indexed into the system.
 
 ![](../batch-search-in-webscan.assets/ba4961794c4ade64ed7fb5531f348268.png)
 
-### Searching Batches
+## Searching Batches
 
 The WebScan module will display all *New* batches, by default. However, a user may search for a batch by its batch ID number, its comments, a specific patient or user, or the batch date. Use the search filters to narrow search results, and after clicking the **Search** button, matching results will populate below the search in a ListView.
 
 ![](../batch-search-in-webscan.assets/51c17a6d74053712dfe1ff9470569949.png)
 
-#### Columns in Batch ListView
+### Columns in Batch ListView
 
 The **Batch** section of the screen lists various columns of information. Click any of the column headers to sort in ascending/descending alphabetical or numerical order.
 
@@ -44,7 +43,7 @@ The columns include:
 * <strong>Status</strong>: Displays the status of the batch.
 * <strong>Options:</strong> Quick links for performing necessary actions when managing batches. Options include <em>Open</em>, <em>View</em>, and <em>Delete</em>.
 
-### Purged Batches
+## Purged Batches
 
 By default, Completed batches are purged from the {{% system-name %}} system after 90 days. However, the system setting ("MIEWebScan", "Settings", "Purge age in days") can be updated to purge at different intervals, if preferred.
 
@@ -62,6 +61,6 @@ My Settings Preference **Show Pending Batches:** If your My Settings Preference 
 
 ## Reporting
 
-From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report](https://docs.enterprisehealth.com/functions/reports/webscan-report/) guide.
 
 ![](../batch-search-in-webscan.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
