@@ -1,9 +1,9 @@
 ---
 id: '1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
 title: 'Social History'
-date: '2025-06-16T17:09:57.853Z'
-version: 70
-lastAuthor: 'anichols'
+date: '2025-11-10T20:35:14.397Z'
+version: 75
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'encounter-protocols.md'
@@ -22,7 +22,7 @@ Use the free text fields, speech to text dictation icon, or use the previous val
 
 NOTE: Social History fields (when in expanded mode) reflect any chief complaint protocol(s) selected.  Otherwise, if no chief complaint protocol is designated on the encounter, the Social History section will default to offering our standard Social History questions configured within the Social History flowsheet.  For more information on chief complaint protocols, please see separate guide [Encounter Protocols](encounter-protocols.md).
 
-### Social History - Flowsheet
+## Social History - Flowsheet
 
 The social history encounter section can instead point to a specific flowsheet configured in the system.  A configured flowsheet named *Social History* in the flowsheet editor will display in the encounter Social History section if desired.  Using a Social History flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Social History encounter section.
 
