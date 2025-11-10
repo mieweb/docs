@@ -1,19 +1,17 @@
 ---
 id: '1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
 title: 'Link Documents to Other Documents'
-date: '2020-02-27T21:10:21.480Z'
-version: 67
-lastAuthor: 'aquandt'
+date: '2025-11-10T15:36:36.444Z'
+version: 75
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?func=esign'
-  - 'https://system/?f=esign&t=Pending+Reviews&tabmodule=esign&tabselect=Pending+Reviews'
-  - '../../e-sign-electronic-signature/pending-e-sign-reviews.md'
-  - '../../e-sign-electronic-signature.md'
+  - 'https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/'
+  - 'https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/'
 source: 'https://drive.google.com/open?id=1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
 wikigdrive: 'v2.15.27'
 ---
-The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://system/?func=esign) module.
+The {{% system-name %}} system has the ability to link one document to another document, whenever necessary. For example, a radiology report may be linked to an x-ray image. Performing this type of link can be done from either the document properties or multi-review screen of the [E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/) module.
 
 {{% note %}}
 Documents can only be linked to other documents within the *same* chart.
@@ -71,9 +69,9 @@ Users may continue to other areas of the chart as needed, or they may click the 
 
 ## Link via E-Sign
 
-When a user has documents in the [Pending Reviews](https://system/?f=esign&t=Pending+Reviews&tabmodule=esign&tabselect=Pending+Reviews) tab of the E-Sign module, the document being electronically signed can be linked to another document, if needed. Sometimes, it may also be necessary to add another document to the chart, when e-signing a document. For example, an MRI Report is pending a review and e-sign, however, the user wishes to create a note in the chart, regarding that MRI Report being e-signed. Instances like these can be easily addressed from the [E-Sign](https://system/?func=esign) module, as well.
+When a user has documents in the [Pending Reviews](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/) tab of the E-Sign module, the document being electronically signed can be linked to another document, if needed. Sometimes, it may also be necessary to add another document to the chart, when e-signing a document. For example, an MRI Report is pending a review and e-sign, however, the user wishes to create a note in the chart, regarding that MRI Report being e-signed. Instances like these can be easily addressed from the [E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/) module, as well.
 
-When addressing Pending Reviews, users can go directly into the document to e-sign, or if multiple documents need reviewed, users may use the Multi-Review feature. For a refresher on working the e-sign queue, check out the [Pending E-Sign Reviews](../../e-sign-electronic-signature/pending-e-sign-reviews.md) help documentation.
+When addressing Pending Reviews, users can go directly into the document to e-sign, or if multiple documents need to be reviewed, users may use the Multi-Review feature. For a refresher on working the e-sign queue, check out the [Pending E-Sign Reviews](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/) help documentation.
 
 Regardless of the method used, the ability to add a document to the chart while reviewing and e-signing documents can be done using the quick links found at the bottom of each document being reviewed. Click the **Add Document** link to add a new document into the chart before signing the marked document.
 
@@ -87,17 +85,17 @@ After clicking the Add Document link, a new window/tab will open and display the
 
 ![](../link-documents-to-other-documents.assets/ba4facc936684174ab0d78f1dac61f8f.png)
 
-With the pending document still open in the previous window/tab, select the specific document type that needs added to the chart from the *Add Document* screen. The document type being added will be linked to the document being reviewed in the E-Sign module.
+With the pending document still open in the previous window/tab, select the specific document type that needs to be added to the chart from the *Add Document* screen. The document type being added will be linked to the document being reviewed in the E-Sign module.
 
 After selecting the new document type to add (e.g., Doctor Note text document), the *Add Document Properties* screen will load. Here, the **Document Links** section will display the link of the new document being added **Is a Reply to** the document being reviewed. Once added, the user can finish the review and e-sign the original document in the previous window/tab.
 
 ![](../link-documents-to-other-documents.assets/16b67440e8d4d53a4fef0e485e5df135.png)
 
-For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](../../e-sign-electronic-signature.md) help documentation.
+For more information on the E-Sign module and working the queue, please visit our directory of [E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/) help documentation.
 
 ## Unlink a Document
 
-Sometimes a document will no longer need linked to another document. Unlinking documents is just as easy as linking.
+Sometimes a document will no longer need to be linked to another document. Unlinking documents is just as easy as linking.
 
 Locate the document needing unlinked. Click the **Properties** link in the document header. Scroll down to the *Document is Linked To* section, where all document links are listed, and simply click the **Add Link** hyperlink, found next to the section title.
 
@@ -107,7 +105,7 @@ The ListEdit will load showing each of the links that exist for the document. To
 
 ![](../link-documents-to-other-documents.assets/7d19013ece0dd9e6407d588e5ef64f0d.png)
 
-Once clicked, the system will strikethrough the line. If an incorrect line was selected, simply click the plus [ + ] button found in the *Options* column, and this will reverse the action.
+Once clicked, the system will strike through the line. If an incorrect line was selected, simply click the plus [ + ] button found in the *Options* column, and this will reverse the action.
 
 ![](../link-documents-to-other-documents.assets/6bccfb125224642176d39a6567f4be06.png)
 
