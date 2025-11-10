@@ -1,12 +1,12 @@
 ---
 id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 title: 'Add Document - Legacy View vs. Current View'
-date: '2025-03-03T21:41:16.249Z'
-version: 140
+date: '2025-11-10T14:42:14.754Z'
+version: 146
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
 source: 'https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 wikigdrive: 'v2.15.27'
 ---
@@ -36,7 +36,7 @@ On RC 092024 and newer, the **Add Document** screen has been updated to include 
 
 ![](../add-document-legacy-view-vs.-current-view.assets/f5e32e9837e6ff59ec69e284b83f4dae.png)
 
-The Add Document library view is determined by the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) *Document Add Filter* preference. By default, the setting is **All**, though users may choose to update the view. Changing this setting will only affect the logged-in user. To set the *Document Add Filter* view, navigate to the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) tab of the **Control Panel** sidemenu and change the setting accordingly.
+The Add Document library view is determined by the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) *Document Add Filter* preference. By default, the setting is **All**, though users may choose to update the view. Changing this setting will only affect the logged-in user. To set the *Document Add Filter* view, navigate to the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) tab of the **Control Panel** sidemenu and change the setting accordingly.
 
 ![](../add-document-legacy-view-vs.-current-view.assets/885ab2acda98050173c159ffb5133872.png)
 
