@@ -1,9 +1,9 @@
 ---
 id: '1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
 title: 'X-Ray Results Data Entry'
-date: '2020-03-06T20:36:53.541Z'
-version: 44
-lastAuthor: ''
+date: '2025-11-10T17:05:31.654Z'
+version: 50
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
@@ -11,7 +11,6 @@ links:
   - '../imaging/dicom-setup-tab.md'
   - '../imaging/dicom-viewer.md'
   - '../imaging/burning-dicom-images-onto-cd-dvd.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
 source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
 wikigdrive: 'v2.15.27'
 ---
@@ -63,6 +62,6 @@ Though not the typical type of device interface, the {{% system-name %}} solutio
 
 ## Reporting
 
-These types of reports are generally found in the **Reports** sidemenu, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
+These types of reports are generally found in the **Reports** sidemenu, under the Visits grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
 
 ![](../x-ray-results-data-entry.assets/8963a7cbcad05e622538f80636491b02.png)
