@@ -1,9 +1,9 @@
 ---
 id: '1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
 title: 'Portal Portlet'
-date: '2025-02-20T19:13:00.645Z'
-version: 79
-lastAuthor: 'anichols'
+date: '2025-11-10T18:58:10.638Z'
+version: 86
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'portal-activation-code-employee-experience.md'
@@ -92,4 +92,4 @@ The *Generate* button will simply generate a unique pickup/activation code for t
 
 [Portal Activation Code Employee Experience](portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
 
-LMS Course: (201.Ab) [Activation Code Portal Method-Enterprise Health Focus](https://mie.talentlms.com/unit/view/id:3544) 49 minutes
+LMS Course: (201.Ab) [Activation Code Portal Method-Enterprise Health Focus](https://mie.talentlms.com/unit/view/id:3544) (49 minutes)
