@@ -1,12 +1,12 @@
 ---
 id: '1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y'
 title: 'Supervisor Portal Scheduling'
-date: '2025-04-08T16:33:49.346Z'
-version: 166
-lastAuthor: 'auhrick'
+date: '2025-11-10T19:01:07.231Z'
+version: 171
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.enterprisehealth.com/functions/portal-management/employer-portal-setup/'
+  - 'https://docs.enterprisehealth.com/functions/portal-management/supervisor-portal-setup/'
 source: 'https://drive.google.com/open?id=1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y'
 wikigdrive: 'v2.15.27'
 ---
@@ -63,4 +63,4 @@ The **Supervisor Portal** allows supervisors to schedule appointments on behalf 
 
 Employees/subordinates must have a direct relationship to the supervisor in order for the supervisor
 
-For more information on Employer/Supervisor scheduler configuration options, see [Employer Portal Setup](https://docs.enterprisehealth.com/functions/portal-management/employer-portal-setup/) in the online help directory.
+For more information on Employer/Supervisor scheduler configuration options, see [Employer Portal Setup](https://docs.enterprisehealth.com/functions/portal-management/supervisor-portal-setup/) in the online help directory.
