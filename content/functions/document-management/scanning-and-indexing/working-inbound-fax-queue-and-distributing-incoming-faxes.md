@@ -1,12 +1,12 @@
 ---
 id: '1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 title: 'Working Inbound Fax Queue & Distributing Incoming Faxes'
-date: '2025-06-18T18:54:07.766Z'
-version: 203
+date: '2025-11-10T17:20:47.468Z'
+version: 208
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'indexing.md'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
 wikigdrive: 'v2.15.27'
@@ -103,7 +103,7 @@ Creating a ‘batch' puts those faxes and all pages of the fax(es) into WebScan 
 If you click **Create Batch & Index** all those faxes/files you check-marked will become a batch, it will prompt you to type in a comment for that batch, then click *Create Batch & Index* then it will automatically take you directly to WebScan to index those documents immediately. **If you have pop-up blocker on, it will not automatically open WebScan from here.**
 
 {{% info %}}
-If you need instructions on how to index batches in WebScan, please see the [Indexing](indexing.md) help documentation.
+If you need instructions on how to index batches in WebScan, please see the [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/) help documentation.
 {{% /info %}}
 
 * <strong>Delete:</strong> When you have determined that this faxed document or file needs to be deleted out of the queue, it doesn't to be emailed to anyone, doesn't to be indexed into a patient's chart, etc. simply mark the file/fax you wish to delete, then click the "delete" button at the top and it will delete the files you have marked to (in options column).
