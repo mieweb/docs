@@ -1,20 +1,17 @@
 ---
 id: '19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 title: 'Checkin'
-date: '2025-01-30T17:19:18.332Z'
-version: 199
-lastAuthor: 'anichols'
+date: '2025-11-10T18:30:56.970Z'
+version: 209
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../e-chart/insurance-summary-in-demographics-tab.md'
-  - 'https://system/?f=chart&s=checkin'
-  - 'https://system/?func=scheduler'
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - 'https://system/?func=scheduler&s=apttypes'
-  - 'https://system/?f=chart&s=checkin&t=station_manager&tabmodule=checkin&tabselect=Station+Manager'
-  - 'https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control'
-  - 'https://system/?f=chart&s=checkin&t=station_manager&opp=add'
-  - '../reports/checkin-reports.md'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/schedule-management/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/insurance-summary-in-demographics-tab/'
+  - 'https://docs.enterprisehealth.com/functions/reports/checkin-reports/'
   - 'https://mie.talentlms.com/shared/start/key:ZTEDNHRK'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
 wikigdrive: 'v2.15.27'
@@ -61,7 +58,7 @@ Once the necessary information has been provided, click the **Save** button. Eve
 
 ## Checkin Sidemenu
 
-When navigating to the [Checkin module](https://system/?f=chart&s=checkin), the Checkin page will load. This page shows all the patients currently checked in, along with their station or location within the office/facility, and the time spent at each station. The Checkin page is designed to be a type of summary view with filtering options and statistics tracking. Filtering is available by location or provider, and the statistics can be found at the bottom of the page. The statistics section only tracks time daily, resetting each night.
+When navigating to the Checkin module, the Checkin page will load. This page shows all the patients currently checked in, along with their station or location within the office/facility, and the time spent at each station. The Checkin page is designed to be a type of summary view with filtering options and statistics tracking. Filtering is available by location or provider, and the statistics can be found at the bottom of the page. The statistics section only tracks time daily, resetting each night.
 
 The available categories consist of the top-most view, which tracks all patients in the Waiting Room, or lobby-like, station, as well as the bottom category, which shows checked-in patients across all stations, according to the filtered location(s). The *Patients in Waiting Room* category is a list of patients only in the Waiting Room station, currently. The *Checked In Patients - All Stations* category lists all patients checked in, showing their station and time in the Options column.
 
@@ -102,7 +99,7 @@ It is advised when using the Hide Occupied Stations system setting that administ
 
 ## Check In from Scheduler
 
-Navigate to the [Scheduler](https://system/?func=scheduler#Now) from the sidemenu, and view the necessary schedule(s). Under each patient name, in any of the scheduler views, the **Checkin** option is displayed in the Appointment Detail. Click the hyperlink to check in the patient.
+Navigate to the [Scheduler](https://docs.enterprisehealth.com/functions/scheduling/schedule-management/) from the sidemenu, and view the necessary schedule(s). Under each patient name, in any of the scheduler views, the **Checkin** option is displayed in the Appointment Detail. Click the hyperlink to check in the patient.
 
 {{% tip %}}
 If the Checkin link is not available in the Appointment Detail, click the **Preferences** button found at the right of the screen. Ensure the **Show Checkin** setting is set to **Yes**.
@@ -122,7 +119,7 @@ If a patient has already been checked in, the Scheduler will display a link with
 
 **One-Click Checkin** allows users to quickly and easily check in patients from the Scheduler, eliminating the additional steps of initiating an encounter and moving patients to their appropriate stations. All of this can be performed with just one click.
 
-To enable One-Click Checkin, users can utilize the **Preferences** button, found at the right of the screen, or navigate to My Settings, in the Control Panel. The *One-Click Checkin* preference must be set to **Yes** to enable the functionality. To check or set the default check-in station, go to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) and use the **My Station** setting dropdown to select the preferred default station, so that patients are automatically checked into that station, initially. The system default is *Waiting Room*.
+To enable One-Click Checkin, users can utilize the **Preferences** button, found at the right of the screen, or navigate to My Settings, in the Control Panel. The *One-Click Checkin* preference must be set to **Yes** to enable the functionality. To check or set the default check-in station, go to [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) and use the **My Station** setting dropdown to select the preferred default station, so that patients are automatically checked into that station, initially. The system default is *Waiting Room*.
 
 Once enabled, using One-Click Checkin is no different than checking in patients, normally. Simply click the Checkin link in the Appointment Detail on the Scheduler.
 
@@ -133,7 +130,7 @@ Now, with One-Click Checkin set to Yes, clicking the Checkin link will automatic
 Also, when checking in patients with the One-Click Checkin functionality, any chart alerts will be displayed when the Checkin link is clicked. This ensures chart alerts are not missed.
 
 {{% note %}}
-One-Click Checkin will not allow users to select an encounter. It is not recommended for those clients whose workflows require manual selection of specific encounter types. One-Click Checkin creates a new encounter based upon the specified visit type of the scheduled appointment, or upon the **Default Visit Type** found in My Settings. When a patient is checked in for an appointment using One-Click Checkin, the default visit type assigned to the scheduled appointment type will be used, unless there is no default encounter visit type set in the [Appointment Type editor](https://system/?func=scheduler&s=apttypes) for the scheduled appointment type. The Default Visit Type setting will then be used. This ensures every encounter created through One-Click Checkin has a visit type assigned to it.
+One-Click Checkin will not allow users to select an encounter. It is not recommended for those clients whose workflows require manual selection of specific encounter types. One-Click Checkin creates a new encounter based upon the specified visit type of the scheduled appointment, or upon the **Default Visit Type** found in My Settings. When a patient is checked in for an appointment using One-Click Checkin, the default visit type assigned to the scheduled appointment type will be used, unless there is no default encounter visit type set in the [Appointment Type editor](https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/) for the scheduled appointment type. The Default Visit Type setting will then be used. This ensures every encounter created through One-Click Checkin has a visit type assigned to it.
 {{% /note %}}
 
 #### Insurance Pre-Certifications
@@ -142,11 +139,11 @@ As noted above, insurances can be loaded into a chart through the *Demographics*
 
 ![](../checkin.assets/fce99f471c90396f5478442e5e8ad40f.png)
 
-If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](../e-chart/insurance-summary-in-demographics-tab.md) documentation.
+If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](https://docs.enterprisehealth.com/functions/e-chart/insurance-summary-in-demographics-tab/) documentation.
 
 ## Station Manager Tab
 
-In the Checkin module, there is a [Station Manager tab](https://system/?f=chart&s=checkin&t=station_manager&tabmodule=checkin&tabselect=Station+Manager) near the top of the page. The Station Manager allows users to manage stations for the Checkin module, given the appropriate security permissions. Stations can only be added or edited with the [Access Control](https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control) security setting **Station Manager** set to **Yes**.
+In the Checkin module, there is a Station Manager tab near the top of the page. The Station Manager allows users to manage stations for the Checkin module, given the appropriate security permissions. Stations can only be added or edited with the Access Control security setting **Station Manager** set to **Yes**.
 
 ![](../checkin.assets/3c3bbdab83c354b798b5aa90f411b306.png)
 
@@ -160,7 +157,7 @@ To update the threshold for displaying a red highlighted station time status, na
 
 ### Add a Station
 
-To add a new station, simply click the [Add Station link](https://system/?f=chart&s=checkin&t=station_manager&opp=add), found in the top-right corner of the Station Manager screen.
+To add a new station, simply click the Add Station link, found in the top-right corner of the Station Manager screen.
 
 ![](../checkin.assets/88763b112b4764f2cbbdc15acb5181ee.png)
 
@@ -205,7 +202,7 @@ The Checkin-Public dashboard only shows the Waiting Room station. Once the patie
 
 ## Checkin Reports
 
-A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](../reports/checkin-reports.md) documentation.
+A report is available for auditing check-in statistics. This can be used to review statistics from each station within {{% system-name %}} . Refer to separate [Checkin Reports](https://docs.enterprisehealth.com/functions/reports/checkin-reports/) documentation.
 
 {{% note %}}
 After hours, {{% system-name %}} can perform automated jobs/routines to clear the system of any patients that were missed during the checkout procedure. The system can be configured with an automatic function that checks out any patients not checked out by staff that day. Contact the Deployment Consultant for more information.
