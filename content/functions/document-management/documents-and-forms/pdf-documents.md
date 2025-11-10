@@ -1,13 +1,13 @@
 ---
 id: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 title: 'PDF Documents'
-date: '2024-07-02T16:43:18.729Z'
-version: 93
+date: '2025-11-10T15:29:12.324Z'
+version: 105
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'word-documents-cc-physicians-feature.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
 wikigdrive: 'v2.15.27'
@@ -22,19 +22,19 @@ Though users may upload and store any type of file to a chart, certain file type
 
 To add a PDF document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **PDF** filter link can be selected to reduce the available documents. Selecting the PDF filter link will show only document types that are available to upload as a PDF file.
 
-![](../pdf-documents.assets/05a52e02ef3a41c01fd9f09188d1ad5b.png)
+![](../pdf-documents.assets/04122ae5b10ea7c6dd254e4bff76c2ad.png)
 
 {{% note %}}
-If a specific document type is not listed, contact the system administrator to set up the necessary document type for PDF entry, from the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types).
+If a specific document type is not listed, contact the system administrator to set up the necessary document type for PDF entry, from the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/).
 {{% /note %}}
 
-Select the document type needing attached and uploaded to the chart by simply clicking the PDF link following the appropriate document name.
+Select the document type needing to be attached and uploaded to the chart by simply clicking the PDF link following the appropriate document name.
 
-![](../pdf-documents.assets/0e5418c78d7eb6776847e3ca74c6896a.png)
+![](../pdf-documents.assets/96a93d245a20689674317eb933f7f68f.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](../pdf-documents.assets/cb9f2e51a6a9dd3675aaa755a0c690ef.png)
+![](../pdf-documents.assets/a5aea252e7a27d2d94418b8401c3d75e.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this PDF document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -62,19 +62,19 @@ In order to author documents for others, the user must have the Access Control *
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
 {{% /info %}}
 
-**Link to Orders**: Like linking to encounters, PDF documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
+**Link to Orders**: Like linking to encounters, PDF documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 
 **Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
 
-**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md) help documentation.
+**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/) help documentation.
 
 **Drag n' Drop/Use File Upload**: This field is designed to allow the dragging and dropping of PDF files for upload, or the ability to browse to specific PDF files. The field tends to default to the Drag n' Drop option; however, clicking the **Use File Upload** link will switch to allow users to browse to local PDF files for upload.
 
-![](../pdf-documents.assets/1e0a497f6ef4fa92df8d5bc0d6989393.png)
+![](../pdf-documents.assets/a6d4cc9bfb2079309a7ff25697f9eccc.png)
 
 Multiple PDF files can be uploaded to the same chart within this session, if necessary. Any additional files will assume the same Date of Service, Location, Author, etc. To add multiple files, select the initial PDF file using the steps above, then click the **Add Another File** button, and repeat the same steps to find the necessary file(s) for upload.
 
-![](../pdf-documents.assets/1dec34166eff4aa5a928f63c62d555dd.png)
+![](../pdf-documents.assets/441460658326c7fc0e0a8cdd2c4017cb.png)
 
 Once the PDF(s) have been selected for upload, click the **Add Document** button. This will upload the document(s) into the chart and will display a confirmation message of successful upload.
 
