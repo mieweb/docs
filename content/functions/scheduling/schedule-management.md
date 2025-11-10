@@ -1,15 +1,14 @@
 ---
 id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 title: 'Schedule Management'
-date: '2025-08-04T17:51:00.386Z'
-version: 248
-lastAuthor: 'squarterman'
+date: '2025-11-10T18:00:12.532Z'
+version: 255
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/system-controls/resource-restrictions.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/'
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 wikigdrive: 'v2.15.27'
-markup: 'pandoc'
 ---
 ## Overview
 
@@ -116,7 +115,7 @@ This button allows schedules to be copied to multiple locations and/or resources
 
 Use the field to add a comment to the schedule for other users to see when viewing schedules from the schedule editor.
 
-1. When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
+* When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
 
 {{% tip %}}
 If this schedule detail is needing to be used again, perhaps at a later time, scroll to the top of the screen **before clicking the Save button**, and click the **Save info to use again** link and it will save the information as a template to be named and used at a later time. This allows the information to be used again, edited as needed, all without having to rekey each field, from scratch. It is a way to *copy* a schedule and save it as a template.
@@ -199,13 +198,13 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
 4. With the resource selected, click the <strong>Search</strong> button. This will refresh the page.
 5. The page has four (4) sections:
 
-    a.  <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
+    * <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-    b.  <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
+    * <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
 
-    c.  <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+    * <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
 
-    d.  <strong>Revision History</strong> – A view of all revision histories.
+    * <strong>Revision History</strong> – A view of all revision histories.
 
 6. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong> and click the <strong>Submit Changes</strong> button to create the restrictions.
 
@@ -220,4 +219,4 @@ To edit existing restrictions, removing or adding allowed users/departments:
 3. The existing allowed users and/or departments for the specific restricted resource will be listed.
 4. Utilize the <strong>minus</strong> button to remove users and/or departments no longer needing access. Add new users and/or departments with the <strong>Add</strong> button. Provide the Reason For Change and click the <strong>Submit Changes</strong> button.
 
-See additional information online help documentation on [Resource Restrictions](../system-administration/system-controls/resource-restrictions.md).
+See additional information online help documentation on [Resource Restrictions](https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/).
