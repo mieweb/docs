@@ -1,14 +1,14 @@
 ---
 id: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 title: 'Text Documents'
-date: '2024-07-02T16:07:53.510Z'
-version: 60
+date: '2025-11-10T14:51:44.331Z'
+version: 66
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'word-documents-cc-physicians-feature.md'
-  - 'document-properties.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 wikigdrive: 'v2.15.27'
@@ -22,10 +22,10 @@ To begin creating a text document in a chart, navigate to the Document Library b
 ![](../text-documents.assets/74a45f7f680e018af08f37b46f5e66ae.png)
 
 {{% note %}}
-If a specific document type is not listed, contact the system administrator to set up the necessary document type for Text entry, from the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types).
+If a specific document type is not listed, contact the system administrator to set up the necessary document type for Text entry, from the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/).
 {{% /note %}}
 
-Select the document type needing attached and uploaded to the chart by simply clicking the Text link following the appropriate document name.
+Select the document type needing to be attached and uploaded to the chart by simply clicking the Text link following the appropriate document name.
 
 ![](../text-documents.assets/255aa8859ce263bed38896c39e1bf464.png)
 
@@ -59,11 +59,11 @@ In order to author documents for others, the user must have the Access Control 
 If the user has a current encounter set in the chart, the *Encounter* field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
 {{% /info %}}
 
-**Link to Orders**: Like linking to encounters, Text documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
+**Link to Orders**: Like linking to encounters, Text documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 
 **Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
 
-**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md) help documentation.
+**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/) help documentation.
 
 **Textbox:** For Text documents, a textbox will be available for entering relevant content. Text templates can be configured by MIE or system administrators, if necessary. When there is no pre-programmed template, the textbox will be blank, and text can be added, accordingly. If a template has been configured for the document type, be sure to follow the template, filling it in and typing where is appropriate; however, additional text can always be added, even when a template is being used.
 
@@ -119,7 +119,7 @@ To view the details of the revision history of a text document, simply click the
 
 ![](../text-documents.assets/8096a163c284d60954c377a0eaee0f4e.png)
 
-For more information on how to view revisions or utilize the View Diff feature, please see our [Document Properties](document-properties.md) help documentation.
+For more information on how to view revisions or utilize the View Diff feature, please see our [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/) help documentation.
 
 ## Learning Management System
 
