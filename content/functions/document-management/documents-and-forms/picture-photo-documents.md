@@ -1,13 +1,13 @@
 ---
 id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
 title: 'Picture-Photo Documents'
-date: '2024-07-02T16:54:34.725Z'
-version: 97
+date: '2025-11-10T15:02:14.071Z'
+version: 104
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'word-documents-cc-physicians-feature.md'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LBEIDNHR'
 source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
@@ -22,10 +22,10 @@ To begin adding a photo as a document to a chart, navigate to the Document Libra
 ![](../picture-photo-documents.assets/f52a41b8eea9061d1be415eecd1101f5.png)
 
 {{% note %}}
-If a specific document type is not listed, contact the system administrator to set up the necessary document type for picture entries, from the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types).
+If a specific document type is not listed, contact the system administrator to set up the necessary document type for picture entries, from the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/).
 {{% /note %}}
 
-Select the document type needing attached and uploaded to the chart by simply clicking the **Picture** link following the appropriate document name.
+Select the document type needing to be attached and uploaded to the chart by simply clicking the **Picture** link following the appropriate document name.
 
 ![](../picture-photo-documents.assets/4c9bb377630784187a2e7cbe66702d74.png)
 
@@ -59,11 +59,11 @@ In order to author documents for others, the user must have the Access Control *
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
 {{% /info %}}
 
-**Link to Orders**: Like linking to encounters, documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
+**Link to Orders**: Like linking to encounters, documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 
 **Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
 
-**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md) help documentation.
+**CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/) help documentation.
 
 Once the necessary fields have been filled in, click the **Add Document** button to locate the file for upload. The *Document Capture Control* screen will open. By default, the scan control is automatically set to open and show image files from the **Pictures** folder on the local hard drive. This is typically where most photo/images are stored when downloading from a digital camera.
 
