@@ -1,12 +1,12 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-08-11T13:32:41.263Z'
-version: 152
-lastAuthor: 'auhrick'
+date: '2025-11-10T15:12:19.878Z'
+version: 161
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'word-documents-cc-physicians-feature.md'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 wikigdrive: 'v2.15.27'
@@ -52,10 +52,10 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 
 * <strong>Link Order:</strong> Like linking to encounters, file documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the <em>Link to Orders</em> field. Select any of the orders to link the file document to, and once the file is uploaded, the order will automatically be marked as Complete status.
 * <strong>Case:</strong> Use this field to link a file document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the <em>Case</em> field.
-* <strong>CC</strong> (<strong>Physicians</strong>)<strong>:</strong> Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](word-documents-cc-physicians-feature.md).
+* <strong>CC</strong> (<strong>Physicians</strong>)<strong>:</strong> Using this field allows users to attach any relevant clinicians/physicians as being carbon copied, immediately faxing or routing the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/).
 * <strong>Choose Files:</strong> Users may drop and drag files to the ‘Drop files here' area/box or use the ‘Choose Files' button to browse on your device to select the specific file document for upload. This version of the File Upload feature allows users to upload several different documents/files at once and can change the field information per file/document needing to be uploaded.
 
-Once a file(s) have been chosen (via drag & drop or browse & select), the file(s) will display at the right side area of the File Upload screen.
+Once a file(s) has been chosen (via drag & drop or browse & select), the file(s) will display at the right side area of the File Upload screen.
 
 ![](../file-documents.assets/b1524c7d1faf72d54195dff7a3a3c780.png)
 
