@@ -1,9 +1,9 @@
 ---
 id: '1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ'
 title: 'Outside Contact Portal - SMP Portal Contact User Experience'
-date: '2024-10-15T19:55:51.919Z'
-version: 94
-lastAuthor: 'auhrick'
+date: '2025-11-10T19:10:12.468Z'
+version: 101
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ'
@@ -79,7 +79,7 @@ Click on the "paper" icon for messages in the Relies list to view the document a
 
 ![](../outside-contact-portal-smp-portal-contact-user-experience.assets/5f802f115398836f53d1d84201bcfdd2.png)
 
-# SMP Portal New Registration
+## SMP Portal New Registration
 
 If required, optional configuration allows the Outside Portal Contacts to send information on "new" patients that may not already be registered in the system.
 
@@ -91,7 +91,7 @@ The Outside Contact may click on the "NEW REGISTRATION" button to create the cha
 
 ![](../outside-contact-portal-smp-portal-contact-user-experience.assets/92fba748ed8921631cf15c18f7a84a14.png)
 
-## Co-branding Support
+### Co-branding Support
 
 The "Outside Contact Portal", sometimes referred to as the "Secure Message Portal" will support standard portal headers and footers beginning in the 202409 release. The standard portal header will now display on this portal, including the co-brand logo and traditional portal signout method. The footer can be configured separately if desired.
 
