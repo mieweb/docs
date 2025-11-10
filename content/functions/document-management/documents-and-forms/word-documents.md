@@ -1,18 +1,18 @@
 ---
 id: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 title: 'Word Documents'
-date: '2024-07-02T16:52:33.941Z'
-version: 188
+date: '2025-11-10T15:16:47.440Z'
+version: 195
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view'
+  - 'https://mie.talentlms.com/shared/start/key:AASHRKMF'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 wikigdrive: 'v2.15.27'
 ---
 ## Add/Upload Word Document to Chart
 
-Watch a Video: [Doc Management](https://drive.google.com/file/d/19-blzw7r3Z13GQXzY0JjPT9Es1IkAgmN/view) at 15:34 the word demo begins.
+Watch a Video: [Doc Management](https://mie.talentlms.com/shared/start/key:AASHRKMF) at 15:34 the word demo begins.
 
 Click the left sidebar tab called *E-Chart.* Find and open a specific patient's chart.
 
@@ -190,7 +190,7 @@ When the document has been uploaded into a patient's chart, {{% system-name %}} 
 1. When the PRINT (select printer) mode pops up either a) Click CANCEL or b) click the red X to get out of the mode.
 
 {{% note %}}
-*If you click PRINT button from here, it will just print as normal portrait positioning.*
+*If you click the PRINT button from here, it will just print as normal portrait positioning.*
 {{% /note %}}
 
 ![](../word-documents.assets/e736dffe0fe598bae4459fe3bd7498b0.png)
