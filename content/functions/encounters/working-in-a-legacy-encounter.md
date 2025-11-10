@@ -1,11 +1,13 @@
 ---
 id: '16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
 title: 'Working in a Legacy Encounter'
-date: '2020-03-26T17:07:46.706Z'
-version: 116
-lastAuthor: ''
+date: '2025-11-10T19:25:20.956Z'
+version: 125
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/spell-check/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/'
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
 wikigdrive: 'v2.15.27'
 ---
@@ -100,7 +102,7 @@ If you hover your mouse over these 3 little buttons—it will tell you which is 
 ![](../working-in-a-legacy-encounter.assets/7820a387bd4953ea0117b3570708a1c5.png)![](../working-in-a-legacy-encounter.assets/7820a387bd4953ea0117b3570708a1c5.png)![](../working-in-a-legacy-encounter.assets/ba4c482f5a934071ec3b09e990813ad3.png)
 {{% /tip %}}
 
-When you spell-check and it finds something, the list of suggestions will appear in a box. You can change to one of the suggestions, or you can ignore or edit or add that word to your {{% system-name %}} system's spell check library. See other help documentation named *Spell Check.pdf*
+When you spell-check and it finds something, the list of suggestions will appear in a box. You can change to one of the suggestions, or you can ignore or edit or add that word to your {{% system-name %}} system's spell check library. See other help documentation named [Spell Check](https://docs.enterprisehealth.com/functions/system-administration/system-controls/spell-check/)*.*
 
 ![](../working-in-a-legacy-encounter.assets/a94ff8cfd1aac6a43d25f0cc95e0fc98.jpg)
 
@@ -193,7 +195,7 @@ Starred ( * ) checkboxes, in the Quality Measures window that opens, denotes tha
 
 ## Printing Scripts & E-Orders from Encounter
 
-After you have worked in the encounter and done documentation and have either saved it or submitted the encounter (see other help documentation *Encounters-Archiving-Closing-Rearchiving.pdf*) you will be taken to the ‘view' of the encounter. This is the ‘document view' of what all you entered and documented in this encounter. You can also get to the ‘view' by clicking the View (name of encounter) link at the top of your summary toolbar.
+After you have worked in the encounter and done documentation and have either saved it or submitted the encounter (see other help documentation [Archiving/Closing/Re-archiving Encounters](https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/)) you will be taken to the ‘view' of the encounter. This is the ‘document view' of what all you entered and documented in this encounter. You can also get to the ‘view' by clicking the View (name of encounter) link at the top of your summary toolbar.
 
 ![](../working-in-a-legacy-encounter.assets/df9e8d0b144b2e5692f9f05f4a6b39e6.png)
 
