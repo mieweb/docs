@@ -1,9 +1,9 @@
 ---
 id: '16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
 title: 'Auto Routes'
-date: '2025-08-27T18:02:13.608Z'
-version: 133
-lastAuthor: 'anichols'
+date: '2025-11-10T21:45:54.280Z'
+version: 141
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
@@ -78,7 +78,7 @@ The user is prompted with a pop-up window that reads "Are you sure you want to d
 
 An Auto Route can be enabled or disabled individually or in mass by checkmarking the auto route(s) and then selecting the Enable/Disable button below the list of auto routes.
 
-### ![](../auto-routes.assets/fda159c51844c41faf11dc51c1c3ceb6.png)
+![](../auto-routes.assets/fda159c51844c41faf11dc51c1c3ceb6.png)
 
 The user is prompted with a pop-up window to set the selected auto route(s) as enabled or disabled. It is not recommended that an auto route be disabled without consulting with the {{% system-name %}} EDI team.
 
