@@ -1,8 +1,8 @@
 ---
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet and My Schedule Portlet'
-date: '2025-10-31T16:22:40.584Z'
-version: 106
+date: '2025-11-10T20:05:35.368Z'
+version: 118
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -83,12 +83,13 @@ When users view the My Schedule Portlet, the search information will be empty up
 
 * Three differences from the other optional Schedules portlet:
 1. My Schedule portlet will default to populate today's date in the search
-2. Other search fields will not be remembered/do not stay sticky after performing a search (thus, refreshes to blank search/contents upon each time utilizing)
+2. Other search fields will populate/prefill with the saved resource(s) and saved location(s) that your <em>Scheduler</em> sidemenu tab views have applied/saved as your default view.
+
+![](../quick-view-schedule-portlet-and-my-schedule-portlet.assets/8bf536c316eff3b11b2e91fd85558c8d.png)
+
 3. Does not offer the ability to create the encounter for the appointment without also checking them in for their appointment (thus, only offers checkin)
 
-![](../quick-view-schedule-portlet-and-my-schedule-portlet.assets/9490920c940f14b85fb79222af3abf05.png)
-
-Users can select a location(s), a resource(s), the schedule date and time of day they wish to view on the portlet to list existing scheduled appointments.
+Users can select a location(s), a resource(s), the schedule date and time of day they wish to view on the portlet to list existing scheduled appointments, or go to the Scheduler sidemenu tab to set their default resource/location so it will be applied/prefill to this portlet also.
 
 * A resource and a date are required to get search results.  The Location field is optional to narrow down your search.
 
