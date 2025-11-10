@@ -1,11 +1,15 @@
 ---
 id: '1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
 title: 'Messages from NMC User'
-date: '2020-03-11T22:32:43.569Z'
-version: 85
-lastAuthor: ''
+date: '2025-11-10T19:19:39.051Z'
+version: 98
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
 source: 'https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
 wikigdrive: 'v2.15.27'
 ---
@@ -33,7 +37,7 @@ When you have grabbed the task, the task will open on your screen. The top porti
 
 ![](../messages-from-nmc-user.assets/0fd47f82bc742acf0ad9a77aa9bd20fa.png)
 
-### Reply to Messages from Portal Users
+## Reply to Messages from Portal Users
 
 *You can only use and see the reply feature if you have security* **Send Patient Data***.*
 
@@ -61,15 +65,15 @@ Click ADD DOCUMENT button below the text box when done. When you click the ADD D
 
 Some patients indicate in their message that they'd rather be called with the information they are requesting/asking from you. Even if you call them, you can also send a reply if you wish. Regardless of how you contact the patient with the requested information/question they sent you, you then need to proceed to mark the task done.
 
-When you are now done replying to the NMC user, you are now ready to mark this task done. Mark the task done like any other task (for more information see help document named *Tasking.pdf*).
+When you are now done replying to the NMC user, you are now ready to mark this task done. Mark the task done like any other task (for more information see help document named [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/)).
 
 Once you've marked the task done, it is taken out of your tasklist and marked as done.
 
-#### Verify Successful Transmission of Messages
+### Verify Successful Transmission of Messages
 
 From {{% system-name %}} , you can verify if your ‘reply' document went successfully into the NMC user's mailbox.
 
-When you have ‘replied' to a NMC user using the reply feature, after you uploaded that reply document, it states you've successfully uploaded the document. The ‘reply' document is now stored in the patient's e-chart and also sent the ‘reply' document/email to the patient's NMC mailbox. Since you have uploaded the ‘reply' document and it was successful, you can quickly click the Properties link in the successful uploaded document.
+When you have ‘replied' to a NMC user using the reply feature, after you uploaded that reply document, it states you've successfully uploaded the document. The ‘reply' document is now stored in the patient's e-chart and also sent the ‘reply' document/email to the patient's NMC mailbox. Since you have uploaded the ‘reply' document and it was successful, you can quickly click the Properties link in the successfully uploaded document.
 
 ![](../messages-from-nmc-user.assets/3fb317f8eba3ea2cb13bcda541047b86.png)
 
@@ -91,9 +95,9 @@ If your document route has an error on it or is pending, you can click the cance
 
 You can get into a document and check the route and status at any time. You don't have to do it right after you upload a ‘reply' document to a NMC user. This is just a way to check if the ‘reply' document did indeed get sent successfully or if you need to address an error.
 
-For more information on document properties, please see other help document named *Document Properties.pdf*
+For more information on document properties, please see other help document named [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/)*.*
 
-#### SendQueue Sidemenu
+### SendQueue Sidemenu
 
 This sidemenu tab is where you can then see Datasend routes in progress, pending routes, completed routes, and the error routes category. It's similar to outgoing faxes to check status (pending, errored, complete etc) but is for datasend routes of electronic data being sent from {{% system-name %}} to a system you are linked to. In this case…NoMoreClipboard is the system you are linked to and electronic data is being sent via routes from {{% system-name %}} into NoMoreClipboard. It's a full listing and can use a drop-down method to perform the desired selection to all the routes in that category in mass, or can individually perform an acknowledgement, resend, or deactivation to the individual failed route.
 
@@ -113,11 +117,11 @@ There is a security option for MIE/Tech support named "Break Sending Lock" optio
 
 ## Alert Toolbar
 
-The other way to be alerted if a ‘reply' document didn't go successfully to a NMC user is to have your alert toolbar turned on. Instead of doing into the individual reply document properties to check a document if it was successfully sent or not, you can simply be alerted of any errors and acknowledge them at that time. It is recommended to have this turned on for your view since you work with the NoMoreClipboard interface.
+The other way to be alerted if a ‘reply' document didn't go successfully to a NMC user is to have your alert toolbar turned on. Instead of going into the individual reply document properties to check a document if it was successfully sent or not, you can simply be alerted of any errors and acknowledge them at that time. It is recommended to have this turned on for your view since you work with the NoMoreClipboard interface.
 
 ![](../messages-from-nmc-user.assets/1f98f105aad86ae06b6c614780c5dbc3.png)
 
-For more details on this feature, please see other help documentation in EChart section named *Alerts/Errors/Failures-Interactive Tab.pdf*
+For more details on this feature, please see other help documentation in the E-Chart section named [Alerts, Errors, Failures - Interactive Tab](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)*.*
 
 ## Health Forms from Portal
 
@@ -129,7 +133,7 @@ The user/indexer works the WebScan module as usual to index batches. Any batch f
 
 ![](../messages-from-nmc-user.assets/6c07432d3d627de7d2b85ec655ad77f1.png)
 
-Simply open the batch and begin indexing. The PHR forms from NoMoreClipboard can be programmed with your {{% system-name %}} doc.type of which specific form it is. Click the *Process BarCodes* button before indexing so it will read the doc.type barcodes on the forms that came in from NoMoreClipboard. This will index the doc.type for you. The patient name is available on the NMC forms. Continue indexing the fields and delete any unwanted pages and upload the forms to the patient's chart. For more information on how to index, please see other help documentation named *Indexing.pdf*
+Simply open the batch and begin indexing. The PHR forms from NoMoreClipboard can be programmed with your {{% system-name %}} doc.type of which specific form it is. Click the *Process BarCodes* button before indexing so it will read the doc.type barcodes on the forms that came in from NoMoreClipboard. This will index the doc.type for you. The patient name is available on the NMC forms. Continue indexing the fields and delete any unwanted pages and upload the forms to the patient's chart. For more information on how to index, please see other help documentation named [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/)*.*
 
 You can ask your MIE Implementer to create any e-sign rules or tasking rules you wish to trigger after any of these doc.types are indexed and uploaded into a patient's chart if someone needs to be alerted that they came in and were indexed or if staff needs to look at the forms after they came in and were indexed.
 
@@ -173,7 +177,7 @@ The other sections that are ‘automatic' to come into {{% system-name %}} from 
 
 You now need to mark the task done since you have reconciled the CCR document into {{% system-name %}} . Click the sidemenu tab named TASKS.
 
-Look in your USER TASKS section and the CCR document you grabbed and reconciled is there. Since you grabbed it, it's now assigned to you specifically and will show here in the task section named USER TASKS. Simply check-mark the box in the options column and it will strikethrough the task marking it done. If your system isn't set up with a check-box, simply click MARK DONE in the options column and click the COMPLETE button. That task is now marked done and you can work on another.
+Look in your USER TASKS section and the CCR document you grabbed and reconciled is there. Since you grabbed it, it's now assigned to you specifically and will show here in the task section named USER TASKS. Simply check-mark the box in the options column and it will strike through the task marking it done. If your system isn't set up with a check-box, simply click MARK DONE in the options column and click the COMPLETE button. That task is now marked done and you can work on another.
 
 ![](../messages-from-nmc-user.assets/54de758cdbfdfc3d4909f382fde8823e.png)
 
@@ -221,7 +225,7 @@ Once you have sent the patient summary to the NMC user from {{% system-name %}} 
 
 ![](../messages-from-nmc-user.assets/28b05643814cd0a70dd1fe7f6541332f.jpg)
 
-How Portal Users Receive Patient Summary (CCR)
+#### How Portal Users Receive Patient Summary (CCR)
 
 When that NMC user is logged into their NMC account and is in their NMC mailbox, they will see that you sent a CCR document (electronic history) to them.
 
