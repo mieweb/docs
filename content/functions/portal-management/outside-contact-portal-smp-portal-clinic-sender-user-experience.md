@@ -1,12 +1,13 @@
 ---
 id: '15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
 title: 'Outside Contact Portal - SMP Portal Clinic Sender User Experience'
-date: '2025-05-12T19:04:29.293Z'
-version: 90
+date: '2025-11-10T19:06:31.194Z'
+version: 98
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/'
+  - 'https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/'
 source: 'https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
 wikigdrive: 'v2.15.27'
 ---
@@ -32,7 +33,7 @@ The ‘Outside Contact Portal' is an excellent alternative for clients that can 
 * <strong>Subject:</strong> will display the Document ID attached to this send request.
 * <strong>From:</strong> will default to the auto reply url indicated in the System Settings (WebChart/Email/Autoreply).
 * <strong>Recipient:</strong> Search for any existing <em>Recipient</em> in the system by using the autocomplete or click the ‘+' to add a new contact chart/details to the system to be able to send to. Upon selecting an existing contact or adding a contact, the contact name will display in this field. It is recommended that users always search for an existing contact so that duplicate contact charts are not created.
-* <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document.  See [Employer Search](#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
+* <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document.  See [Employer Search](https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
 * Click the <em>Send</em> button after all fields have been completed.
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/09852f45d803278879e86b9141baf8af.png)
@@ -67,7 +68,7 @@ Upon sending the document, a confirmation message will pop up in the upper right
 
 The recipient name field is cleared/resets. Should the user need to send the document to additional recipients. Additional recipients can be added at this time and sent immediately.
 
-Additionally, the user will see a history showing each time this specific document has been sent to a contact. The history will show who the document was shared with (the contact chart the document was sent or [emailed](#emailed) to), who sent it and on what date the document was sent. In parenthesis, a new ‘document id' will display for the document that is located within the contacts chart. In a second set of parenthesis, a portal activation code will display. This simply lets the end user know that an ‘Outside Contact Portal' invite has been sent to the contact, but the contact has not yet used the code. The contact can then use the invite to set up a portal account and login and view the document that has been sent to them. Once the contact makes a login using the activation code, the code will no longer display.
+Additionally, the user will see a history showing each time this specific document has been sent to a contact. The history will show who the document was shared with (the contact chart the document was sent or [emailed](https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/#emailed-documents) to), who sent it and on what date the document was sent. In parenthesis, a new ‘document id' will display for the document that is located within the contacts chart. In a second set of parenthesis, a portal activation code will display. This simply lets the end user know that an ‘Outside Contact Portal' invite has been sent to the contact, but the contact has not yet used the code. The contact can then use the invite to set up a portal account and login and view the document that has been sent to them. Once the contact makes a login using the activation code, the code will no longer display.
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/fa2ed70e858eeec741be3aca298ae5cc.png)
 
@@ -115,7 +116,7 @@ Since this document was emailed directly, rather than sent to the contact's port
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/06092a34011d6ca18d3cab7f60236cd4.png)
 
-### Received Documents- Contact Charts
+### Received Documents - Contact Charts
 
 Upon sending the document to the Contact, the sent history list contains links to the Contact Chart. Click on the Contact's name to navigate to the Contact chart. Or click the Document ID to navigate directly to the sent document within the Contact chart.
 
@@ -161,7 +162,7 @@ Once a document is sent to a contact, that contact will indefinitely have access
 
 ![](../outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/9e8f856b09174e13c0d9cfd4b9ac6938.png)
 
-# SMP Worklist
+## SMP Worklist
 
 When a contact "replies to" a message on the Outside Contact Porta/Secure Message Portal, the clinic is notified via the SMP Worklist. The clinic will need dedicated staff to review any messages received from Outside Contacts.
 
@@ -189,7 +190,7 @@ Hint: Remember, documents in the Outside Contact Chart are a "copy" of the origi
 
 **Reply Doc. Service Date:** This is the date when the Reply was sent.
 
-## Managing the SMP Worklist
+### Managing the SMP Worklist
 
 The Options column is pinned by default to display as the first column of the SMP Worklist. Clinical staff or clinic users delegated to work this list, must review replies and determine the next course of action.
 
