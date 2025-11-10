@@ -1,21 +1,21 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-07-22T19:58:54.279Z'
-version: 1202
-lastAuthor: 'anichols'
+date: '2025-11-10T20:18:04.012Z'
+version: 1233
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
-  - 'past-medical-history-encounter-section.md'
-  - '../injection-immunization-management/vaccine-compliance.md'
-  - 'presenting-medications-encounter-section.md'
-  - 'tests-and-procedures-section-applying-adding-completing-resulting.md'
-  - 'visit-orders.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/past-medical-history-encounter-section/'
+  - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/vaccine-compliance/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/presenting-medications-encounter-section/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/visit-orders/'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
-  - 'recommendations.md'
-  - 'goals.md'
-  - '../quality-of-care/raf-score-risk-adjustment-factor.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/recommendations/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/goals/'
+  - 'https://docs.enterprisehealth.com/functions/quality-of-care/raf-score-risk-adjustment-factor/'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 wikigdrive: 'v2.15.27'
@@ -58,7 +58,7 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 ## Problem List Quick List
 
 * See [My Settings](#my-settings) section of this document for related user preferences.
-* The Problem list within the smart plan is a list of Past Medical History.  The separate [Past Medical History encounter section](past-medical-history-encounter-section.md) contains the same information.
+* The Problem list within the smart plan is a list of Past Medical History.  The separate [Past Medical History encounter section](https://docs.enterprisehealth.com/functions/encounters/past-medical-history-encounter-section/) contains the same information.
 
 ![](../smart-plan.assets/25a39ea3644878fb7aa2d54793007802.png)
 
@@ -120,8 +120,8 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 ## Employee/Patient Past Medical History Quick List
 
 * This list will display as Employee Past Medical History in Enterprise Health databases and Patient Past Medical History in Webchart databases.
-* Existing conditions in the [Past Medical History encounter section](past-medical-history-encounter-section.md) and the Conditions chart tab will pre-populate the Past Medical History Quick List.
-* Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment [notes](#notes)". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
+* Existing conditions in the [Past Medical History encounter section](https://docs.enterprisehealth.com/functions/encounters/past-medical-history-encounter-section/) and the Conditions chart tab will pre-populate the Past Medical History Quick List.
+* Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment notes". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
 * When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
 
 ![](../smart-plan.assets/5f4f378956935653c77cab65bc95797c.png)
@@ -160,13 +160,14 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 ### Add to Assessment
 
 * When selected, this will add the condition to the Smart Plan for today's visit.
+
 ## Other Problems Quick List
 
 * These are conditions that were added and not indicated to be on the Problem List or the Past Medical History Quick Lists. These might include quality care or administrative codes.
 
 ![](../smart-plan.assets/f3cc16bda9049b4ef1c3454e74120df7.png)
 
-* These conditions will NOT display in the [Past Medical History Section](past-medical-history-encounter-section.md) of the Encounter.
+* These conditions will NOT display in the [Past Medical History Section](https://docs.enterprisehealth.com/functions/encounters/past-medical-history-encounter-section/) of the Encounter.
 * These conditions will display on the "Other Problems" section of the Conditions chart tab.
 * Conditions in this list have additional options to Edit, Remove or Add to Assessment, similar as to what has been illustrated in the above screenshots.
 
@@ -237,14 +238,14 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ## Forecasted Immunizations
 
-* Users can now click on the Smart Plan Forecasted Immunization list and see applicable order items in a pop up box. Users can then select the desired injection and add that order to the Due List.  Additional information is found in [Vaccine Compliance](../injection-immunization-management/vaccine-compliance.md) guide.
+* Users can now click on the Smart Plan Forecasted Immunization list and see applicable order items in a pop up box. Users can then select the desired injection and add that order to the Due List.  Additional information is found in the [Vaccine Compliance](https://docs.enterprisehealth.com/functions/injection-immunization-management/vaccine-compliance/) guide.
 
 ![](../smart-plan.assets/1905e89c644e19d85b03d3b3e75fc394.png)
 
 ## Current Meds Quick List
 
 * Shows a list of all current medications.
-* These medications also populate the [Presenting medications section](presenting-medications-encounter-section.md) of the encounter.
+* These medications also populate the [Presenting medications section](https://docs.enterprisehealth.com/functions/encounters/presenting-medications-encounter-section/) of the encounter.
 * Click the "+" icon next to the Other option to Prescribe a Medication.
 * The Prescribe Medication screen allows users to add prescriptions to Libraries.
 
@@ -261,12 +262,12 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ## Meds Quick List
 
-* Click the "+" icon next to the Other option to Prescribe a Medication
-    ![](../smart-plan.assets/54e217106ff31ea5b1314c1e0af713b5.png)
+Click the "+" icon next to the Other option to Prescribe a Medication
+![](../smart-plan.assets/54e217106ff31ea5b1314c1e0af713b5.png)
 
 ## Due List Quick List
 
-* This Quick List displays a list of Pending Due List Order Items. This lists the same in the separate [Tests & Procedures encounter section](tests-and-procedures-section-applying-adding-completing-resulting.md).
+* This Quick List displays a list of Pending Due List Order Items. This lists the same in the separate [Tests & Procedures encounter section](https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/).
 * Click the "+" icon next to the Other option to add an order.
 * The Add Encounter Order screen allows users to add orders to Libraries.
 
@@ -311,7 +312,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ## Visit Orders
 
-* The Visit Orders area of the smart plan is essentially the same as the separate [Visit Orders encounter section](visit-orders.md).
+* The Visit Orders area of the smart plan is essentially the same as the separate [Visit Orders encounter section](https://docs.enterprisehealth.com/functions/encounters/visit-orders/).
 * Click the "+" icon next to the Other option to add an order.
 
 ![](../smart-plan.assets/dd45183775fdb4d88c3a19b0c8248037.png)
@@ -326,7 +327,8 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 ![](../smart-plan.assets/19eda77a506afb7b308f81721bbe7a91.png)
 
 * Adding the order to the Smart Plan, will also add a resulting section in the Objective, under the Tests & Procedures.
-    ![](../smart-plan.assets/98ad07f5dbb8f81f0678667e96ec768c.png)
+
+![](../smart-plan.assets/98ad07f5dbb8f81f0678667e96ec768c.png)
 
 ## Quick Visit Orders
 
@@ -346,7 +348,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 * This Quick List displays a list of all order items in the Recommendations Order Picklist.
 * See more information in the [Order Picklist online Help Guide](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/#order-picklists).
-* Any Recommendations in this quick list that are checkmarked as blue, mean that specific recommendation is on the chart's due list to be performed (usually by a specific due date) within the chart's due list.  See [Recommendations Encounter Section](recommendations.md) guide for more information, but within the Smart Plan one can perform a recommendation/written opinion.
+* Any Recommendations in this quick list that are checkmarked as blue, mean that specific recommendation is on the chart's due list to be performed (usually by a specific due date) within the chart's due list. See [Recommendations Encounter Section](https://docs.enterprisehealth.com/functions/encounters/recommendations/) guide for more information, but within the Smart Plan one can perform a recommendation/written opinion.
 
 ## Goals
 
@@ -364,11 +366,11 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ![](../smart-plan.assets/9f11baaf51d6e31fe40312071593ffc3.png)
 
-* Goals also display (and can be added) in the [Goals encounter section](goals.md).
+* Goals also display (and can be added) in the [Goals encounter section](https://docs.enterprisehealth.com/functions/encounters/goals/).
 
 ## RAF Scoring - (risk score)
 
-To utilize [RAF Scoring](../quality-of-care/raf-score-risk-adjustment-factor.md#what-is-a-risk-adjustment-factor?), the system setting for "Alert if Diagnosis has not been assessed in the past year", must be enabled. By default this is Disabled in all systems.
+To utilize [RAF Scoring](https://docs.enterprisehealth.com/functions/quality-of-care/raf-score-risk-adjustment-factor/), the system setting for "Alert if Diagnosis has not been assessed in the past year", must be enabled. By default this is Disabled in all systems.
 
 ![](../smart-plan.assets/d256e10633d365adffcf0fc37c3b3dda.png)
 
@@ -387,7 +389,7 @@ If a condition has not been reviewed in the last year, then either a yellow or r
 
 ![](../smart-plan.assets/4521c4f6c41e29cf4faa32264e19d079.png)
 
-# Smart Plan-Today's Visit Assessment & Plan
+## Smart Plan-Today's Visit Assessment & Plan
 
 The first step in using the Smart Plan to drive the encounter visit is to add a condition to today's visit.
 
@@ -401,25 +403,26 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/73d6d85faf0c94ee2373d342bb7e9da4.png)
 
-## Edit
+### Edit
+
 * This selection will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](../smart-plan.assets/f5c315fdbdf5094818e94791aec36570.png)
 
-## Remove from Assessment
+### Remove from Assessment
 
 * Selecting this option will remove the condition from today's assessment.
 * The condition will continue to show on the Quick Lists, however the blue/white checkmark in the Quick List will no longer be illuminated.
 
-## ![](../smart-plan.assets/3d8380f2da24691590dbe96d4417f3e7.png)
+![](../smart-plan.assets/3d8380f2da24691590dbe96d4417f3e7.png)
 
-## Remove
+### Remove
 
 * Selecting this option will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or perhaps previously entered in error.
 
 ![](../smart-plan.assets/7260e63c4a0e43c03d27ae19ee8a202c.png)
 
-## Notes
+### Notes
 
 * Selecting this option will call the Notes screen.
 * Users may enter a free text note or utilize pre configured macros and submit.
@@ -444,7 +447,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/59fac1d92f105c8543e971c0624e7f4e.png)
 
-## Add Task
+### Add Task
 
 * Selecting this option will call the Add Task screen.
 * Since a task is generated from the condition and is not a document, the Regarding field in the task will read "doc ID is zero".
@@ -455,7 +458,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/504f2ccba45c24208f35d5626c09c2cb.png)
 
-## Prescribe Med
+### Prescribe Med
 
 * Selecting this option will call the Prescribe Medication screen.
 * Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar)
@@ -486,7 +489,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/9ca947fd1923d6de39e7e9c021b1d424.png)
 
-## Add Order
+### Add Order
 
 * Selecting this option will call the Add Encounter Order screen.
 * Use the order autocomplete to search any order in the database or,
@@ -509,13 +512,13 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/84e1a87dbed7563a11c2793cc822fc5c.png)
 
-## Move
+### Move
 
 * Users can ‘drag and drop' the Move icon to reorder conditions as they display in order in today's Smart Plan Assessment.
 
 ![](../smart-plan.assets/ccc5d67266993aad33f0a66a47ffc647.png)
 
-# Managing Smart Plan Order Items
+## Managing Smart Plan Order Items
 
 * Once orders have been selected for exam driven conditions in the Smart Plan, orders display under the orange "Future" heading.
 * Future orders are "Pending" orders on the Due List.
@@ -523,7 +526,8 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/28d8c41413c0c751d49871b7fe28010c.png)
 
-## Requisition
+### Requisition
+
 * Selecting this option on an order will call the order Requisition screen. An order requisition is typically created for orders that will be performed outside of the system. From here users can create an order to be electronically sent via an interface or printed/faxed from the system.
 * The order item selected will populate the order items list within the Requisition screen. All other orders on the Due list (including any orders selected as part of today's Smart Plan) will populate the Due List Quick List and can quickly be added to the Requisition so that all items are on one order request.
 
@@ -533,7 +537,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/2f3cbbd5f153db5feab7a9b7be532990.png)
 
-## Add to Exam
+### Add to Exam
 
 * "The Lightning Bolt/Add to Exam" option will add this test to the Tests & Procedures section of the encounter.
 * The order item will still display under the condition, but it will display under a green "Today" heading to indicate that it is to be performed today. The order item will indicate "Not complete" in red to the side of the order until the test has been resulted/entered AND the order marked as complete. This is done as a safety precaution to ensure that testing has been completed and for clients utilizing a billing interface to ensure charges are electronically sent to the billing system.
@@ -544,22 +548,23 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/c4e3d4081613cc5b7e3510c96986e676.png)
 
-## Edit
+### Edit
 
 * Selecting this option will generate the Edit Encounter Order screen.
 * Users can update the order status, due date, complete date, visible date, add order comments or change the condition for which this order item was created.
 * In some instances, users may need to task someone else in the clinic if an order is edited. If needed, users can add a task from the Edit Encounter Order screen as well.
 
 ![](../smart-plan.assets/16933d18944e6d7a573947c905ed4717.png)
-## Delete
+
+### Delete
 
 * Selecting this option will prompt the Remove Encounter Order screen
 * Users will be asked to confirm they wish to remove the order before the action is completed.
 * Users will also be able to view revision history including notes, revisions, tasks and links.
 
-## ![](../smart-plan.assets/ad1fa0e2bb7224e8e4bb66b8d3dfd9d3.png)
+![](../smart-plan.assets/ad1fa0e2bb7224e8e4bb66b8d3dfd9d3.png)
 
-## Add Task
+### Add Task
 
 * Selecting this option will call the Add Task screen.
 * Since a task is generated from the Order item and is not a document, the Regarding field in the task will read "doc ID is zero".
@@ -570,26 +575,27 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](../smart-plan.assets/c4d3aa8873bc17aee907417df72e74c3.png)
 
-## Move
+### Move
+
 * Users can ‘drag and drop' the Move icon to reorder orders as they display in order in today's Smart Plan Assessment.
 
 ![](../smart-plan.assets/46a5871d37def3df2bacfc8434af2a09.png)
 
 ![](../smart-plan.assets/96a9d0fa4946dcd78a6dc6deef548248.png)
 
-# Goals
+### Goals
 
-Goals are added from the Goals Quick List. Goals will display in black with the heading "Goals". For more detailed information, please see [Goals Encounter Section](goals.md) guide.
+Goals are added from the Goals Quick List. Goals will display in black with the heading "Goals". For more detailed information, please see [Goals Encounter Section](https://docs.enterprisehealth.com/functions/encounters/goals/) guide.
 
 ![](../smart-plan.assets/51c887b0e23bcd327c7102465a51b400.png)
 
-## Archive & Close Encounters
+### Archive & Close Encounters
 
 The Smart Plan section itself does not display by default on the encounter view/stored document.  Actions defined in the Smart Plan will instead display under the Assessment & Plan sections of the encounter view/stored document.  With customization, the Smart Plan section can display on the encounter view, just as it does in the open encounter.  With customization, the Assessment and Plan encounter view can be combined to display as one section rather than two.
 
 ![](../smart-plan.assets/4bd720550e930babfad6de6850a302fe.png)
 
-# My Settings
+## My Settings
 
 Problem List Default on New: Default is "No".
 
@@ -598,7 +604,7 @@ Problem List Default on New: Default is "No".
 * When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
 * When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment
 
-![](../smart-plan.assets/5eff512a05f951e095a8bacc6e748a59.png)
+![](../smart-plan.assets/41d421049046380b59984f6aab9ba2fb.png)
 
 * When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
 
