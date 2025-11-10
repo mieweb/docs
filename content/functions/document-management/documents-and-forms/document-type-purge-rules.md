@@ -1,14 +1,12 @@
 ---
 id: '1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
 title: 'Document Type Purge Rules'
-date: '2020-03-23T18:15:06.981Z'
-version: 67
-lastAuthor: ''
+date: '2025-11-10T17:06:26.073Z'
+version: 84
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtpurgerules'
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&dtopp=dtpurgerules&opp=add'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
 source: 'https://drive.google.com/open?id=1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
 wikigdrive: 'v2.15.27'
 ---
@@ -22,7 +20,7 @@ When {{% system-name %}} documents are purged, they are permanently deleted. Ret
 
 ## How to View Document Type Purge Rules
 
-Navigate to the [Document Types tab](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) found in the **Control Panel** sidemenu. Given the proper security permissions, there will be a link to [View Purge Rules](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&dtopp=dtpurgerules), found in the upper-right corner of the page.
+Navigate to the [Document Types tab](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) found in the **Control Panel** sidemenu. Given the proper security permissions, there will be a link to View Purge Rules, found in the upper-right corner of the page.
 
 ![](../document-type-purge-rules.assets/46e2f887444f03d13709b7c178758f69.png)
 
@@ -67,7 +65,7 @@ When creating or editing a purge rule, there are various elements to consider. F
 
 The first type of purge rule is the document type-based purge rule, which requires defining the document type(s), as well as the expected age of the document(s), before purging. In practice, these rules may not be used often. SQL-based purge rules allow for more flexibility and precision.
 
-After clicking the [Add Purge Rule](https://system/?f=chart&s=dteditor&t=Document+Types&dtopp=dtpurgerules&opp=add) link, the first available field is a drop-down multi-select menu, which allows users to select which document type(s) will be evaluated by the rule. By clicking the ellipsis (**…**) button to the right of the drop-down menu, users can see which document types are available in the system. From here, users may *select all*, *un-select all*, or check off specific document types to be included in the purge rule. To retract the drop-down menu, click the ellipsis button, again.
+After clicking the Add Purge Rule link, the first available field is a drop-down multi-select menu, which allows users to select which document type(s) will be evaluated by the rule. By clicking the ellipsis (**…**) button to the right of the drop-down menu, users can see which document types are available in the system. From here, users may *select all*, *un-select all*, or check off specific document types to be included in the purge rule. To retract the drop-down menu, click the ellipsis button, again.
 
 ![](../document-type-purge-rules.assets/50a9b9fd0b85409e55def8249f241636.png)
 
