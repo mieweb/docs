@@ -1,19 +1,19 @@
 ---
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
-date: '2024-07-08T14:54:17.439Z'
-version: 101
+date: '2025-11-10T14:36:51.433Z'
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/security/security-role-settings.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
   - 'https://mie.talentlms.com/shared/start/key:LAOIDNHR'
 source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 wikigdrive: 'v2.15.27'
 ---
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
 
-When in demographics tab or if click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named** Insurance Summary**.
+When in the demographics tab or if you click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named** Insurance Summary**.
 
 ![](../insurance-summary-in-demographics-tab.assets/3e794d98630c1b3d8ba0518db0645043.png)
 
@@ -21,7 +21,7 @@ When in demographics tab or if click manage information within the insurance por
 The Insurance Summary section does not display when in Edit Demographics mode.  Must be in the demographics summary tab or access this via the Insurance portlet by clicking the ‘manage info' icon in the portlet.
 {{% /tip %}}
 
-Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](../system-administration/security/security-role-settings.md) documentation for more information.
+Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/) documentation for more information.
 
 ## Add an Insurance Policy to a Chart
 
