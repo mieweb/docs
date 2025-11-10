@@ -1,12 +1,12 @@
 ---
 id: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 title: 'Printing Documents'
-date: '2025-10-16T14:18:15.104Z'
-version: 99
+date: '2025-11-10T17:22:48.290Z'
+version: 104
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 wikigdrive: 'v2.15.27'
@@ -42,7 +42,7 @@ Though users may choose to override the Rendering Engine system setting, it is i
 Once all of the necessary fields are addressed, click the **Print** button. Once clicked, users will be prompted to click **Print**, again, from the local print dialog window.
 
 {{% tip %}}
-Users may set the format of print documents to either PDF or TIFF, by way of the Document View Format [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preference.
+Users may set the format of print documents to either PDF or TIFF, by way of the Document View Format [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) preference.
 {{% /tip %}}
 
 ## Setup for Printing Full-Size Scanned Documents
