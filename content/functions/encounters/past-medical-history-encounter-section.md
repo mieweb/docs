@@ -1,9 +1,9 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2025-07-15T16:34:16.429Z'
-version: 741
-lastAuthor: 'auhrick'
+date: '2025-11-10T20:28:39.032Z'
+version: 748
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
@@ -267,11 +267,11 @@ The options are Add to PMH and Add to Problem List:
 
 #### Add to Past Medical History
 
-Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Employee/Patient Past Medical History Quick List.
+Selecting Add to PMH will add the condition to the encounter PMH (left side of the encounter section). This condition will also now display on the Employee/Patient Past Medical History Quick List.
 
 #### Add to Problem List
 
-Selecting Add to Problem List will add the condition to the encounter PMH (left side of the encounter section) . This condition will also now display on the Problem List Quick List.
+Selecting Add to Problem List will add the condition to the encounter PMH (left side of the encounter section). This condition will also now display on the Problem List Quick List.
 
 ## My Settings
 
