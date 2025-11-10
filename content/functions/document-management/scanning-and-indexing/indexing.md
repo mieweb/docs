@@ -1,14 +1,14 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2025-10-07T12:01:06.828Z'
-version: 318
-lastAuthor: 'anichols'
+date: '2025-11-10T17:14:22.179Z'
+version: 325
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=miewebscan'
-  - 'indexing-bubble-forms.md'
-  - '../../reports/webscan-report.md'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing-bubble-forms/'
+  - 'https://docs.enterprisehealth.com/functions/reports/webscan-report/'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 wikigdrive: 'v2.15.27'
@@ -29,7 +29,7 @@ Additionally, the ListView of the New scanned batches will only show batches fro
 
 ### Batch Statuses
 
-There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://system/?f=miewebscan), the default ListView displays all *New* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function.
+There are various statuses used within {{% system-name %}} for tracking batches. As noted, when accessing [WebScan](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/), the default ListView displays all *New* batches. This can be changed by using the **Batch Status** filter of the Batch Search Criteria search function.
 
 ![](../indexing.assets/09cfe3f36d0c39bd3b12bc112ff073f4.png)
 
@@ -245,7 +245,7 @@ There are keyboard hotkeys to help users perform functions quicker than when usi
 
 ![](../indexing.assets/a4b5f783ff4d0f78298bfef68be9d5c7.png)
 
-**Bubble**: This button is for clients using bubble forms in the {{% system-name %}} system. This triggers the reading of the bubble form optical marks and indexes and uploads the document. If a batch has bubble forms to index, first click the **Process Barcodes** button, and then click the **Scan Bubbles** button. {{% system-name %}} can be programmed to set required entry fields on bubble forms, as well as display expected result criteria, ultimately warning users if a value is not provided or out of range. If any errors are detected, a pop-up window will appear for making changes to the errored values. Clicking Submit at the bottom of the pop-up window will save the data. Continue indexing any additional pages of the batch and click the **Upload** button. Refer to [Indexing Bubble Forms](indexing-bubble-forms.md) for more details.
+**Bubble**: This button is for clients using bubble forms in the {{% system-name %}} system. This triggers the reading of the bubble form optical marks and indexes and uploads the document. If a batch has bubble forms to index, first click the **Process Barcodes** button, and then click the **Scan Bubbles** button. {{% system-name %}} can be programmed to set required entry fields on bubble forms, as well as display expected result criteria, ultimately warning users if a value is not provided or out of range. If any errors are detected, a pop-up window will appear for making changes to the errored values. Clicking Submit at the bottom of the pop-up window will save the data. Continue indexing any additional pages of the batch and click the **Upload** button. Refer to [Indexing Bubble Forms](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing-bubble-forms/) for more details.
 
 **Preferences**: Accesses the MIEWebScan Preferences. Changing these preferences will only change the preferences for the logged-in user.
 
@@ -424,7 +424,7 @@ After a batch is closed, the page will refresh back to the WebScan landing page,
 
 ## Reporting
 
-From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](https://docs.enterprisehealth.com/functions/reports/webscan-report/)guide.
 
 ![](../indexing.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
 
