@@ -1,9 +1,9 @@
 ---
 id: '1aP7q63xchddDvggtHiliuVHXjCv5R58oFXgx-DhZJ7E'
 title: 'Past Procedures Encounter Section'
-date: '2025-07-01T16:52:39.089Z'
-version: 117
-lastAuthor: 'anichols'
+date: '2025-11-10T20:32:04.599Z'
+version: 124
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'libraries.md'
@@ -18,7 +18,7 @@ Any past procedures that already exist as documented on the chart, appear in the
 
 ![](../past-procedures-encounter-section.assets/f8c8333b8f6e4f1249e1777be70b4d3a.png)
 
-### Past Procedures Right Side Quick List Method
+## Past Procedures Right Side Quick List Method
 
 A banner or bookmark icon is located on the right side of the Past Procedures encounter section.  This can be clicked to expand open to utilize the right side quick list functionality for the Past Procedures section.
 
@@ -81,6 +81,7 @@ There is a Past Procedures report available within the Reports sidemenu tab. Thi
 The Past Procedures encounter section does become part of the encounter visit note document once closed and archived.
 
 ![](../past-procedures-encounter-section.assets/7bba33961a58d6dab6786340435438cc.png)
+
 ## Visit Summary
 
 If the encounter is configured to generate a Patient Clinical Visit Summary upon close & archive, the past procedures encounter section contents will be included in that Patient Clinical Visit Summary document.
