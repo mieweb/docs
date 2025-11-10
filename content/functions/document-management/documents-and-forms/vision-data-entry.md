@@ -1,14 +1,14 @@
 ---
 id: '15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 title: 'Vision Data Entry'
-date: '2024-07-16T13:53:03.915Z'
-version: 78
+date: '2025-11-10T16:17:16.943Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
-  - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/'
   - 'https://mie.talentlms.com/shared/start/key:LGTIDNHR'
 source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 wikigdrive: 'v2.15.27'
@@ -78,7 +78,7 @@ When accessing the Test Results chart tab after adding a new vision screening, t
 
 ![](../vision-data-entry.assets/1729a184abfd46d775fdece5a9ff5a01.png)
 
-For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs).
+For more information on device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/).
 
 ## Reporting
 
