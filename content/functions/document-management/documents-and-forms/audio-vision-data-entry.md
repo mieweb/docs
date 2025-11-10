@@ -1,17 +1,16 @@
 ---
 id: '1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM'
 title: 'Audio-Vision Data Entry'
-date: '2020-03-06T20:09:17.824Z'
-version: 52
-lastAuthor: ''
+date: '2025-11-10T15:48:21.539Z'
+version: 62
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
   - '../scanning-and-indexing/indexing.md'
-  - 'https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs'
-  - '../../system-administration/interfaces/device-interface-audio-system.md'
-  - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/'
 source: 'https://drive.google.com/open?id=1_7hqvXyUU3mbM8rCJ8GvthD6asStMJ5d9pbZkBQv4FM'
 wikigdrive: 'v2.15.27'
 ---
@@ -68,10 +67,10 @@ When accessing the Test Results chart tab, after adding a new audio-vision scree
 
 ![](../audio-vision-data-entry.assets/1729a184abfd46d775fdece5a9ff5a01.png)
 
-For more information on audiogram device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://drive.google.com/open?id=112j-_cJ8cSB928KF-HNQFVZPcQiw_11x8p77UtzmqMs), [Device Interface - Audio System](../../system-administration/interfaces/device-interface-audio-system.md), or [Device Interfaces - Audio: Tremetrics/Maico](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md).
+For more information on audiogram device interfaces and file uploads, see the help documentation [Device Interfaces – Vision System](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/), [Device Interface - Audio System](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/), or [Device Interfaces - Audio: Tremetrics/Maico](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/).
 
 ## Reporting
 
-These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit, or encounter. The Vision Screenings report is available here, for example.
+These types of report links are generally found in the **Reports** sidemenu tab, under the Visits grouping of reports. These reports enable a client to review the various data captured during a visit, or encounter. The Vision Screenings report is available here, for example.
 
 ![](../audio-vision-data-entry.assets/04f5c30a649a36abbd640bf475de447e.png)
