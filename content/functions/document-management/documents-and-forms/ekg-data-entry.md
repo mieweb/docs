@@ -1,8 +1,8 @@
 ---
 id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 title: 'EKG Data Entry'
-date: '2025-03-28T18:22:08.961Z'
-version: 90
+date: '2025-11-10T16:20:25.615Z'
+version: 97
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,6 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
   - 'https://mie.talentlms.com/shared/start/key:ZOEDNHRK'
 source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 wikigdrive: 'v2.15.27'
@@ -79,7 +78,7 @@ For more information on device interfaces and file uploads, see the help documen
 
 ## Reporting
 
-These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
+These types of report links are generally found in the **Reports** sidemenu tab, under the Visits grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
 
 ![](../ekg-data-entry.assets/a57850af2a38f3b4acf4b361c87680b1.png)
 
