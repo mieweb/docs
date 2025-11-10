@@ -1,12 +1,12 @@
 ---
 id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 title: 'Waiting List Tab'
-date: '2025-04-09T19:53:05.608Z'
-version: 130
+date: '2025-11-10T18:21:18.955Z'
+version: 138
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'cancel-no-show-edit-appointments.md'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/cancel-no-show-edit-appointments/'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 wikigdrive: 'v2.15.27'
 ---
@@ -100,7 +100,7 @@ Scroll down to the very bottom and there is a field named *Cancel*. Select a can
 ![](../waiting-list-tab.assets/3f130e7f72679bfb273a6690ac977415.png)
 
 {{% tip %}}
-If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](cancel-no-show-edit-appointments.md).
+If the reason is not in this drop-down choice you can add Cancellation Code Reason if you have security role permission. See other help documentation titled [COPY-EDIT-DELETE-CANCEL-NO SHOW APPOINTMENTS](https://docs.enterprisehealth.com/functions/scheduling/cancel-no-show-edit-appointments/).
 {{% /tip %}}
 
 Click SAVE button. It will automatically take the patient off the waiting list by cancelling the appointment.
@@ -159,7 +159,7 @@ See other help documentation named *Email Reminders From |system|.pdf* on how to
 
 ## Print Charts from Waiting List
 
-You can print charts, using print definitions, for patient's on the waiting list by clicking the Print Charts link found in the Waiting List tab. Print Charts functions just like the print chart link found under list or multi-view.
+You can print charts, using print definitions, for patients on the waiting list by clicking the Print Charts link found in the Waiting List tab. Print Charts functions just like the print chart link found under list or multi-view.
 
 ![](../waiting-list-tab.assets/7985985790f62cc5c470cd64b01767d2.png)
 
