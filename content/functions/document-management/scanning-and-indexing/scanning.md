@@ -1,12 +1,12 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-10-07T12:11:56.396Z'
-version: 397
-lastAuthor: 'anichols'
+date: '2025-11-10T17:55:18.088Z'
+version: 409
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'indexing.md'
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
   - '../../reports/webscan-report.md'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
@@ -98,7 +98,7 @@ To save a batch for later, users may use the **Upload** button. Clicking the U
 
 ### Upload and Index a Batch
 
-To upload and index the scanned documents, click the **Upload and Index** button. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](indexing.md) online help documentation.
+To upload and index the scanned documents, click the **Upload and Index** button. When selected, the batch will upload and open the indexing screen in a new browser tab. For detailed information on how to index scanned documents, see our [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/) online help documentation.
 
 ![](../scanning.assets/64310a1a06cad86013289f9a2e373826.png)
 
@@ -110,9 +110,10 @@ If a user must index the documents at a later time, after clicking the Upload bu
 
 ## Reporting
 
-From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report ](../../reports/webscan-report.md)guide.
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report](../../reports/webscan-report.md) guide.
 
 ![](../scanning.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
+
 ## Learning Management System
 
 To learn more about Scanning, follow the link below to the Learning Management System course:
