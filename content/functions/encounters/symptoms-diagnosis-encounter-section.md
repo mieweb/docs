@@ -1,13 +1,13 @@
 ---
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Symptoms/Diagnosis Encounter Section'
-date: '2025-07-11T19:51:13.873Z'
-version: 138
-lastAuthor: 'anichols'
+date: '2025-11-10T21:04:54.921Z'
+version: 153
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
-  - 'goals.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/goals/'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 wikigdrive: 'v2.15.27'
@@ -105,7 +105,7 @@ C.  Set Library for this encounter section only
 
 * This list will display as Employee Past Medical History in Enterprise Health databases and Patient Past Medical History in Webchart databases.
 * Existing conditions in the Past Medical History encounter section and the Conditions chart tab will pre-populate the Past Medical History Quick List.
-* Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment [notes](#notes)". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
+* Hover over the condition name in the Problem List and Patient Past Medical history Quick Lists to see any previously entered "Plan/Assessment notes". The system displays 100 characters from the prior dated Condition Plan/Assessment note when hovering over the condition. The system can also display a "comment" as added directly on the condition, utilizing the add/edit condition. In this event, the comment is not dated.
 * When adding/editing a condition via the Quick List, if a condition is marked as "Yes" to the Problem List, and "Yes" to the Past Medical History, the condition will display in the Problem List Quick List only.
 
 ![](../symptoms-diagnosis-encounter-section.assets/5f4f378956935653c77cab65bc95797c.png)
@@ -144,6 +144,7 @@ C.  Set Library for this encounter section only
 ### Add to Assessment
 
 * When selected, this will add the condition to the Symptoms/Diagnosis for today's visit.
+
 ## Other Problems Quick List
 
 * These are conditions that were added and not indicated to be on the Problem List or the Past Medical History Quick Lists. These might include quality care or administrative codes.
@@ -278,8 +279,8 @@ C.  Set Library for this encounter section only
 
 ![](../symptoms-diagnosis-encounter-section.assets/d154e01fbe465b4a932c0a87298c669e.png)
 
-* Click the Lightning Bolt Icon to Add the order item to the exam. This will add a resulting section in the Objective, under the Tests & Procedures.
-    ![](../symptoms-diagnosis-encounter-section.assets/98ad07f5dbb8f81f0678667e96ec768c.png)
+Click the Lightning Bolt Icon to Add the order item to the exam. This will add a resulting section in the Objective, under the Tests & Procedures.
+![](../symptoms-diagnosis-encounter-section.assets/98ad07f5dbb8f81f0678667e96ec768c.png)
 
 ## Quick Visit Orders
 
@@ -314,7 +315,7 @@ C.  Set Library for this encounter section only
 
 ![](../symptoms-diagnosis-encounter-section.assets/797d55b10f75fda967e948aa0ca08368.png)
 
-* Goals also display in the Goals separate encounter section. For more detailed information, please refer to the [Goals](goals.md) guide.
+* Goals also display in the Goals separate encounter section. For more detailed information, please refer to the [Goals](https://docs.enterprisehealth.com/functions/encounters/goals/) guide.
 
 ## RAF Scoring - (risk score)
 
@@ -337,7 +338,7 @@ If a condition has not been reviewed in the last year, then either a yellow or r
 
 ![](../symptoms-diagnosis-encounter-section.assets/4b35ce335d89a33726b74718cdf5ca97.png)
 
-# Today's Symptoms/Diagnosis Assessment
+## Today's Symptoms/Diagnosis Assessment
 
 The first step in using the Symptoms/Diagnosis encounter section is to add a condition to today's visit.
 
@@ -351,16 +352,20 @@ To the right of each condition in the Symptoms/Diagnosis section, there are 8 op
 
 ![](../symptoms-diagnosis-encounter-section.assets/fa39020f4d8b1db5ef490cefa906f2ce.png)
 
-## Edit
+### Edit
+
 * This selection will call the Edit Condition screen. This allows the user to edit the condition description and/or attributes of the condition.
-## Remove from Assessment
+
+### Remove from Assessment
 
 * Selecting this option will remove the condition from today's assessment.
 * The condition will continue to show on the Quick Lists, however the blue/white checkmark in the Quick List will no longer be illuminated.
-## Remove
+
+### Remove
 
 * Selecting this option will call the Remove Condition screen. This allows users to remove/resolve the condition from the Problem List and Past Medical History Quick Lists. This may be because the condition was concluded or perhaps previously entered in error.
-## Notes
+
+### Notes
 
 * Selecting this option will call the Notes screen.
 * Users may enter a free text note or utilize pre configured macros and submit.
@@ -379,12 +384,13 @@ To the right of each condition in the Symptoms/Diagnosis section, there are 8 op
 
 ![](../symptoms-diagnosis-encounter-section.assets/44cc5de2ba088a7e2b9b36f182331d61.png)
 
-## Add Task
+### Add Task
 
 * Selecting this option will call the Add Task screen.
 * Since a task is generated from the condition and is not a document, the Regarding field in the task will read "doc ID is zero".
 * A task will be generated and appear on the task list for the appropriate user or department. See our online help for more information on [Tasking](https://docs.enterprisehealth.com/functions/task-management/task-list/).
-## Prescribe Med
+
+### Prescribe Med
 
 * Selecting this option will call the Prescribe Medication screen.
 * Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar)
@@ -412,7 +418,7 @@ To the right of each condition in the Symptoms/Diagnosis section, there are 8 op
 
 ![](../symptoms-diagnosis-encounter-section.assets/9ca947fd1923d6de39e7e9c021b1d424.png)
 
-## Add Order
+### Add Order
 
 * Selecting this option will call the Add Encounter Order screen.
 * Use the order autocomplete to search any order in the database or,
@@ -429,19 +435,19 @@ To the right of each condition in the Symptoms/Diagnosis section, there are 8 op
 
 ![](../symptoms-diagnosis-encounter-section.assets/caf0c58fa3a38398bc493f8b21b419dc.png)
 
-## Move
+### Move
 
 * Users can ‘drag and drop' the Move icon to reorder conditions as they display in order in today's Symptoms/Diagnosis Assessment.
 
 ![](../symptoms-diagnosis-encounter-section.assets/11eac43e5f49d58de70d2e689694cbc0.png)
 
-## Archive & Close Encounters
+### Archive & Close Encounters
 
 The Assessment of Symptoms/Diagnosis section will display on the encounter view & stored encounter document once archived & closed.
 
 ![](../symptoms-diagnosis-encounter-section.assets/4bd720550e930babfad6de6850a302fe.png)
 
-# My Settings Preferences
+## My Settings Preferences
 
 Problem List Default on New: Default is "No".
 
@@ -450,7 +456,7 @@ Problem List Default on New: Default is "No".
 * When set to No, the Problem list and Past Medical History radio button will default to "No" upon adding an assessment.
 * When set to Yes, the Problem list and Past Medical History radio button will default to "Yes" upon adding an assessment
 
-![](../symptoms-diagnosis-encounter-section.assets/5eff512a05f951e095a8bacc6e748a59.png)
+![](../symptoms-diagnosis-encounter-section.assets/41d421049046380b59984f6aab9ba2fb.png)
 
 * When set to Yes, but the Problem list and/or the Past Medical History radio button is set to "No" and you click one to be "Yes", then BOTH radio button options will change to yes.
 
