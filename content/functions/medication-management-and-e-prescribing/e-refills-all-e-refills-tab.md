@@ -1,12 +1,12 @@
 ---
 id: '1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
 title: 'E-Refills - All E-Refills Tab'
-date: '2025-07-22T19:05:34.067Z'
-version: 76
-lastAuthor: 'auhrick'
+date: '2025-11-11T15:51:54.869Z'
+version: 81
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/system-controls/setting-up-e-prescribers.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
   - 'e-refills-my-pending-refills-tab.md'
 source: 'https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
 wikigdrive: 'v2.15.27'
@@ -27,7 +27,7 @@ If this tab shows all zero, then it is because you are not an e-prescriber and a
 ![](../e-refills-all-e-refills-tab.assets/168be0981d24cc96d673570ec4988b4e.png)
 
 {{% tip %}}
-If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [*Setting Up E-Prescribers*](../system-administration/system-controls/setting-up-e-prescribers.md). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
+If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [*Setting Up E-Prescribers*](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
 {{% /tip %}}
 
 If you **do** have security to manage e-rx refills for others, then this tab will show all categorized e-refill requests for all certified e-Prescribers. A quick way to know this is that you **do** see the *prescriber* name column in the summaries which distinguishes which e-refill request was whose.
