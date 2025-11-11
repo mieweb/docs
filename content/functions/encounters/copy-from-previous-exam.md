@@ -1,9 +1,9 @@
 ---
 id: '1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
 title: 'Copy From Previous Exam'
-date: '2024-12-17T18:12:59.442Z'
-version: 67
-lastAuthor: 'auhrick'
+date: '2025-11-11T14:19:43.859Z'
+version: 74
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
@@ -94,7 +94,7 @@ Use the **_Collapse all_** link to collapse all encounters in the search results
 
 ![](../copy-from-previous-exam.assets/d1216203668d4e2ab871933e23bc9ebe.png)
 
-Use the **_uncheck all _**link to uncheck any selected items.
+Use the **_uncheck all_** link to uncheck any selected items.
 
 ![](../copy-from-previous-exam.assets/471d010ded68f1d5f2a4cb460f2efbd1.png)
 
