@@ -1,8 +1,8 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2025-03-03T21:30:33.755Z'
-version: 643
+date: '2025-11-11T15:23:52.919Z'
+version: 648
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -65,7 +65,7 @@ Providers who wish to electronically prescribe controlled medications must first
 EPCS prescribers must retain sole possession of the hard token. This hard token and password must not be shared with any other person. The prescriber must not allow any other individual use of the token, or to perform EPCS signing in the {{% system-name %}} system. Failure to secure the two-factor authentication credential may provide a basis for revocation or suspension.
 {{% /warning %}}
 
-### Access Control
+## Access Control
 
 According to the [Requirements for Establishing Logical Access Control](#requirements-for-establishing-logical-access-control), the prescriber must designate at least two (2) individuals to manage access control to the prescription application, with one required to be a DEA registrant with a two-factor authentication credential. What this means is there needs to be at least one (1) Designated Administrator and one (1) Designated DEA Registrant, for each location the prescriber is registered.
 
