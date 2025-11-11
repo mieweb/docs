@@ -1,15 +1,15 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-08-25T14:33:22.488Z'
-version: 580
-lastAuthor: 'auhrick'
+date: '2025-11-11T20:03:42.556Z'
+version: 611
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
 
@@ -93,6 +93,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Enable AI Assistant: This allows the user to utilize Artificial Intelligence by clicking the dark gray AI icon at the top right of the system.
 * Require 2FA: This setting controls whether to encourage or force users to set up 2FA (two factor authentication). This setting is available in RC202509 and newer.
 * System Maintenance: Allows users to lock the system for maintenance and access it while others are restricted. Used in conjunction with the system setting System/Maintenance/Lock. This option is only available in RC202403 and newer.
+* OTP Required: If Yes, this requires users who sign in to include a One-Time Password (OTP) in addition to their username and password. The OTP will be sent to their configured contact information.
 
 **E-Chart**
 
@@ -126,6 +127,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Patient Merge inside Partition: Users can merge patients together inside of the partition that they are working in, such as MR or other partition that they are set to.
 * Patient Merge outside Partition: Users can merge patients together over multiple partitions, but not inside the partition they are in (unless above option is marked).  This is crucial for some clients who have patients from multiple billing systems.
 * Patient Merge All MR#'s: Users can merge patients anywhere in the {{% system-name %}} system.
+* Merge Patient Documents and MRNs: Is set as No by default and should remain as No.  It will move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system.  When set to No, within the Merge Options radio button selector, this is a 4th option that will not be displayed for users to accidentally select.
 * Delete Patient From Doc Queue: Allows role to delete a patient from the Document Queue tab in {{% system-name %}} .
 * Patient Merge Match Rating Sync: Allows users to update the patient matches (ratings) through the doc.queue
 * Delete Patient MRNs: Allows users to delete MR#'s associated with a patient's medical record.
