@@ -1,9 +1,9 @@
 ---
 id: '1WHWf3KtGAsf_86VV1hJkFxguktz8RP_hQejN55HOyIY'
 title: 'Health Surveillance Panel Action Required for Certification'
-date: '2025-05-14T19:24:50.311Z'
-version: 75
-lastAuthor: 'anichols'
+date: '2025-11-11T14:53:01.924Z'
+version: 84
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WHWf3KtGAsf_86VV1hJkFxguktz8RP_hQejN55HOyIY'
@@ -13,13 +13,13 @@ Health surveillance panels are composed of various action items (tests & procedu
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/3c7790731e513b554542a85c781dcfd4.png)
 
-### Required for Certification
+## Required for Certification
 
 For a health surveillance panel membership that has an action item(s) set to *required for certification*, the panel member failing it or becoming overdue for it (the required for certification action item/test or procedure) will subsequently become *decertified* for the panel.
 
 * <strong>Required for Certification:</strong> Checkmark to indicate the specific panel action item is required (for panel certification purposes). Leave unchecked if panel action is voluntary/not required for certification purposes to be completed by the employee. If checkmarked, the HSPanel member (employee) failing or becoming overdue for this action will become decertified for the HSPanel.
 
-### Visibility to Required for Certification Action Items
+## Visibility to Required for Certification Action Items
 
 On the chart's health surveillance Due List, there is a column titled **Required** and shows if the action item is required for certification or not.
 
@@ -33,7 +33,7 @@ In the Panel Membership by Individual report, there is a column titled **Volunta
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/19321b3ee7ce0edae41e7c8f99aa1988.png)
 
-### Pending Decertification or Decertified
+## Pending Decertification or Decertified
 
 Health Surveillance Panels (that a chart is a member of) will automatically decertify charts based on being overdue for the required testing or having failed required testing. The system will visibly alert the end user in the Panel Membership portlet to this via the red message of *Decertified* upon the daily health surveillance evaluator run, which sets the decertification record on the chart.  Until then, you may see *Pending Decertification* as the status.
 
@@ -59,7 +59,7 @@ Pending Decertification status in Panel Membership Overview (via the red color/c
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/05686ef997c06581ed04ac9d11722fb2.png)
 
-### Documenting a Required for Certification Action Item/Test/Procedure
+## Documenting a Required for Certification Action Item/Test/Procedure
 
 Any action item/test procedure (of a health surveillance panel) that was configured to trigger as *required for certification*, will display a unique icon next to the applied test/procedure/action item when performed in an encounter.  The icon is a checkmark box and when hover over it, it displays *pass/fail* as the help verbiage.
 
@@ -81,9 +81,9 @@ The individual test/procedure/action item (aka: in this example the Resp Fit tes
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/59aeb12dffda99b6f8f79352796b8468.png)
 
-### Reporting
+## Reporting
 
-#### Non-Compliant Employees
+### Non-Compliant Employees
 
 The Non-Compliant Employees Report displays all charts that have EVER been non-compliant, or currently are decertified from health surveillance panels with required testing for compliance.  A health surveillance panel can be configured with various components set as Required for Certification (e.g., action items, testing).  This report does not include charts marked as ‘Exclude Patient from Quality Care'.
 
@@ -97,13 +97,13 @@ The other option to checkmark 'Currently Decertified Only' will limit results to
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/3301ee3a277426f7f4bd282f7438e3b7.png)
 
-#### Panel Membership by Individual
+### Panel Membership by Individual
 
 The Panel Membership by Individual report displays all charts included/excluded for health surveillance panel membership history. Search filters can be used to search for specific employees, locations, panel name, cost center, as well as when an individual was included (Start Date) in or excluded (Stop Date) from a given health surveillance panel membership history. Additional details include whether a panel is required or voluntary, decertification dates if applicable, as well as reasons for changes made to any of the given panel memberships history.  Charts excluded from Quality Care are not included in the results of this report. Once the results display in the datavis outputs, further filtering, grouping, graphing, etc can be done.
 
 ![](../health-surveillance-panel-action-required-for-certification.assets/de1a09469029602039f6d19024f292a1.png)
 
-#### Panel Metrics
+### Panel Metrics
 
 The Panel Metrics report displays charts with health surveillance panel memberships that are due within the specified due date range. This report displays each panel status, as well as other details organized in a variety of available datavis sections:
 
