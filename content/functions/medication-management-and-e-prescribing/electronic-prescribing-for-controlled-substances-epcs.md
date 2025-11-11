@@ -1,13 +1,13 @@
 ---
 id: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
 title: 'Electronic Prescribing for Controlled Substances (EPCS)'
-date: '2025-03-03T13:58:34.828Z'
-version: 88
-lastAuthor: 'auhrick'
+date: '2025-11-11T15:16:33.560Z'
+version: 96
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md'
-  - 'electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md'
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step/'
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/epcs-setup/'
   - 'https://surescripts.com/enhance-prescribing/e-prescribing/e-prescribing-for-controlled-substances/'
   - 'https://www.hidglobal.com/identrust'
   - 'https://www.deadiversion.usdoj.gov/'
@@ -23,13 +23,13 @@ Currently, this is a Windows-only solution. MIE is working toward a cross-browse
 
 ## EPCS Onboarding Process
 
-1. Review the [IdenTrust Certification and Registration Help Guide](electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step.md).
+1. Review the [IdenTrust Certification and Registration Help Guide](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/identrust-certificate-registration-step-by-step/).
     a.  The practitioner will access our IdenTrust Partner Page to purchase the IdenTrust Global Common (IGC) Certificate.
     b.  Follow the steps from the guide to successfully register for a new digital certificate.
     c.  Accept and agree to the IdenTrust Subscriber Agreement and Privacy Policy.
 2. IdenTrust will process the application and validate the prescriber. IdenTrust will mail a Starter Kit to the prescriber's home address, upon approval.
     a.  Install the Starter Kit on ALL Windows workstations that will be used for EPCS.
-3. Notify MIE once 2a has been completed. We will then forward the [EPCS Setup Guide](electronic-prescribing-for-controlled-substances-epcs/epcs-setup.md) for the Designated Administrator and Designated DEA Registrant.
+3. Notify MIE once 2a has been completed. We will then forward the [EPCS Setup Guide](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs/epcs-setup/) for the Designated Administrator and Designated DEA Registrant.
     a.  Utilize the EPCS Setup Guide to get started. Resources are available for all of the required setup and common workflows associated with EPCS in {{% system-name %}} .
 4. Contact your MIE Implementer to schedule a training session for the Designated Administrator and Physician.
 
