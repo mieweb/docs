@@ -1,9 +1,9 @@
 ---
 id: '1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
 title: 'Vaccine Compliance'
-date: '2025-01-22T14:58:15.027Z'
-version: 86
-lastAuthor: 'auhrick'
+date: '2025-11-11T16:07:32.591Z'
+version: 94
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/'
@@ -70,7 +70,7 @@ Select the "System" check box, enter a start and end date for the reporting peri
 </tr>
 </table>
 
-** Some laboratories send a quantitative analysis + interpretation with the qualitative analysis, in this case either value noted will be accepted.
+*Some laboratories send a quantitative analysis + interpretation with the qualitative analysis, in this case either value noted will be accepted.*
 
 ## Optional Immunization Surveillance
 
@@ -106,7 +106,7 @@ The optional immunization surveillance section is for non-required vaccines in t
 
 Additionally, if customers require a vaccine in the Optional Immunization Surveillance section, these can be moved and configured to display and function as a required vaccine.
 
-*Note for manual Legacy Installations: The LOINC code on the Titer results must have a corresponding LOINC on the lab order for that Titer.
+**Note for manual Legacy Installations:** The LOINC code on the Titer results must have a corresponding LOINC on the lab order for that Titer.
 
 ## Preventive Care Encounter Section
 
@@ -126,7 +126,7 @@ The preventive care section displays a compliance factor of Yes or No based on t
 
 ## Column definitions
 
-### Immunizations:
+### Immunizations
 
 This column lists the vaccine program being tracked. Hover over the program name to add orders specific to this program. If immunizations are needed, they must be manually added/ordered when/if appropriate by the clinician. Immunizations are not ‘automatically' added to the Due List. However, the module will forecast if an injection is recommended. If an immunization is forecasted, it will display in the *Pending* column.
 
@@ -136,7 +136,7 @@ When adding an order, a list of orders that may help achieve compliance will dis
 
 ![](../vaccine-compliance.assets/dfe5bfad05a674d25573036d044b8650.png)
 
-### Complaint:
+### Complaint
 
 **ALWAYS!!!!  Recalculate this section to ensure you are looking at the most recent compliance evaluation. Do this by clicking the** **_Calculator Icon_**** next to the** **_Compliant _****column header.**
 
@@ -144,11 +144,11 @@ When adding an order, a list of orders that may help achieve compliance will dis
 
 This column will indicate ‘Yes' if the employee has met the requirements defined in the Quality Measure. This column will indicate ‘No' if the employee has NOT met the requirements defined in the Quality Measure.
 
-### Past:
+### Past
 
 This column will display the last related **order** item for this program. This could be an order for an injection or titer test, or it could show the program compliance order. The program compliance order will only display if the employee/patient is calculated as being compliant. The Quality Measure logic will automatically add the compliance order when compliance is achieved.
 
-### Last Documented:
+### Last Documented
 
 This column will show the **last** document in the chart pertaining to this program. Examples include immunization record documents,declination documents,and titer results.
 
@@ -164,7 +164,7 @@ This column will show the **last** document in the chart pertaining to this prog
 
 ![](../vaccine-compliance.assets/f23594dec4411608db0b391d5242c54f.png)
 
-### Pending:
+### Pending
 
 This column will list recommended immunizations. These injections are NOT ordered. Providers may order them from the Immunization column picklist. The Pending column will list forecasted vaccines and the date the injection was recommended to be administered. Immunizations must be manually added/ordered when/if appropriate by the clinician. Forecasting will only display for non-required vaccines if the individual has received the first dose of the optional vaccine and subsequent doses are recommended to complete the series. Forecasted immunizations will also display when the encounter section is in view and edit mode.
 
