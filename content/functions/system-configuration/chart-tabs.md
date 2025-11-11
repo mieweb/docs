@@ -1,22 +1,21 @@
 ---
 id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 title: 'Chart Tabs'
-date: '2024-07-19T17:23:15.352Z'
-version: 286
+date: '2025-11-11T16:27:44.242Z'
+version: 296
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
   - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZELDNHRK'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
 wikigdrive: 'v2.15.27'
 ---
-{{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) from the Control Panel to update and maintain, as necessary.
+{{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the Chart Tabs editor from the Control Panel to update and maintain, as necessary.
 
 ## Summary
 
-When you click [Chart Tabs](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs) at the top, the entire listing of all chart tabs created in your system appears.
+When you click Chart Tabs at the top, the entire listing of all chart tabs created in your system appears.
 
 Users can click on any underlined column to sort the listing alphabetically, or by way of any of the other columns, as needed.
 
@@ -33,7 +32,7 @@ Available columns include:
 ![](../chart-tabs.assets/193fc6b0cba871d52faf3667dc6f844d.png)
 
 * <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context.
-* <strong>Sub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column.
+* <strong>S</strong><strong>ub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column.
 * <strong>Force Display</strong>: Shows `yes` or `no`. This indicates whether or not the chart tab in context is forced to display. If a tab is forced (i.e., `yes`), the tab will appear in all charts, regardless of whether or not documents reside in that tab.
 * <strong>Pocket Tab</strong>: This will be `yes` if the chart tab in context is to be displayed in the  {{% system-name %}} Pocket version (i.e., used on smart devices).
 * <strong>Tab Order</strong>: Shows the numerical order set to the chart tab in context. Chart tabs are ordered numerically, left to right, at the top of the chart.
@@ -122,7 +121,7 @@ If you select any default view that allows you to tag document types to it, you 
 * <strong>Chart Type</strong>: If this chart tab should only appear in specific Chart Types (your system needs configured for Chart Types), then you can set this chart tab to be a part of a specific chart type easily from here. This tab then would only appear in those specific chart types if this is set.
 * <strong>Default Document Add Type</strong>: This is usually None. However, this is the document type that will be used when a user clicks ‘add document' when in that specific chart tab. You can scroll your mouse over ‘add document' on any tab and a box will pop-up telling you what the default doc.type is for that tab.  If you designate a Default Document Add Type for this chart tab, only that document type will be displayed as the primary default document add type when the add document link is clicked on this chart tab.  Leave this field blank if you do not want to designate a default document add type for the tab.
 * <strong>HAP System</strong>: This is used by MIE only.
-* <strong>Force Display</strong>: If you select YES, it puts this chart-tab you are creating on all patients e-chart even if they do not have any of these types of documents.  If not check-marked, this chart-tab you created will only show up on patient's e-charts if they have documents attached to them.   Always force Demo and DocSum, and any others you wish to always show up on e-chart for a patient. If there is a document attached to the chart-tab, it would say : example  Labs (2). If it were forced and there were no documents, it would show : Labs as a tab and nothing next to it. If select No, it will only show this chart tab for a patient if they have any indexed documents for this particular chart tab.  Hidden, Conditional Show, & Conditionally Force are set up by MIE.  These chart tabs can be hidden and incorporate multiple (sub-tabs) tabs into one main tab.  Conditional Show & Force are set up by MIE and these chart tabs can be programmed to conditionally show or be forced to show on specific request.
+* <strong>Force Display</strong>: If you select YES, it puts this chart-tab you are creating on all patients e-chart even if they do not have any of these types of documents.  <strong>If not check-marked, this chart-tab you created will only show up o</strong>n patient's e-charts if they have documents attached to the<strong>m</strong>. Always force Demo and DocSum, and any others you wish to always show up on e-chart for a patient. If there is a document attached to the chart-tab, it would say : example  Labs (2). If it were forced and there were no documents, it would show : Labs as a tab and nothing next to it. If select No, it will only show this chart tab for a patient if they have any indexed documents for this particular chart tab.  Hidden, Conditional Show, & Conditionally Force are set up by MIE.  These chart tabs can be hidden and incorporate multiple (sub-tabs) tabs into one main tab.  Conditional Show & Force are set up by MIE and these chart tabs can be programmed to conditionally show or be forced to show on specific request.
 
 If you need to see a list of documents that haven't been tagged to a chart tab yet in your system, scroll up to the top and click the link Click here to see your unused document types in another window.  If you click that link provided, it will open a separate window on your computer screen.
 
@@ -164,7 +163,7 @@ The ‘view/summary' of the chart tab will show on your screen and a revision hi
 
 ![](../chart-tabs.assets/201581a7f170a2853c87af40c28a5642.png)
 
-If wish to delete (inactivate a chart tab), click delete and you will delete this entire chart tab from all patient's charts.  When you click delete, it will display the chart tab details and asks a confirmation message if you are sure you want to delete this chart tab.  Click Delete button again to confirm and delete the chart tab. Click cancel to escape and get out.
+If you wish to delete (inactivate a chart tab), click delete and you will delete this entire chart tab from all patient's charts.  When you click delete, it will display the chart tab details and asks a confirmation message if you are sure you want to delete this chart tab.  Click Delete button again to confirm and delete the chart tab. Click cancel to escape and get out.
 
 ![](../chart-tabs.assets/ab5b5790e01f23c860805a28f28093c9.png)
 
