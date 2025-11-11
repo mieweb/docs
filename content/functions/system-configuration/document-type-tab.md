@@ -1,11 +1,12 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2025-06-10T17:57:01.605Z'
-version: 269
-lastAuthor: 'auhrick'
+date: '2025-11-11T16:33:26.421Z'
+version: 276
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/'
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZATDNHRK'
 source: 'https://drive.google.com/open?id=1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
@@ -262,7 +263,8 @@ It means the document type is not restricted from view of anyone or department. 
 * <strong>Allow High Speed Scanning in WebScan</strong>: document would be scanned using a regular high-speed scanner and then indexed into {{% system-name %}} . Check-marking this allows the document name/doc.type to appear in the indexing module and allows a user to choose the document type/name and index it into a patient's chart.
 * <strong>Allow Scanning in E-Chart</strong>: Checkmark this to allow the ability to scan in a document with this name directly into a patient's E-Chart and bypassing regular scanning/indexing methods. This is mainly used it you have a flat-bed scanner and is mainly for insurance cards, drivers license type of doc.types. This is used for types of papers/cards etc that can't be fed through a regular high-speed scanner and indexed that way. When you select a doc.type that has this feature, then it will open the Document Scan Control and allow you to scan the document/card etc using the flatbed scanner and will upload it directly into the patient's chart as this document name. (See other instructions called WebScan).
 * <strong>Text Entry</strong>: document would be typed in either freely, or you'd set up a template by clicking <em>add template</em>. Check-marking this lets a user free-type or follow a text template.
-* <strong>Word Entry</strong>: document would be typed in using Word. Template would need to be set up after clicking Submit. After clicking submit, go back to the list of doc.types and click add in the word column next to the doc.type you created allowing Word entry. You then create your word template. This is used for all transcription templates, correspondence/letterhead letters, etc. MIE also programs these. | <strong>Excel Entry</strong>: If your system is enabled to allow Excel file entry, this will show up as a choice. You can upload excel files into a patient's chart as this document name/type. You add the Excel file from using add document when in the patient's chart. You will see this document to store the Excel file as.
+* <strong>Word Entry</strong>: document would be typed in using Word. Template would need to be set up after clicking Submit. After clicking submit, go back to the list of doc.types and click add in the word column next to the doc.type you created allowing Word entry. You then create your word template. This is used for all transcription templates, correspondence/letterhead letters, etc. MIE also programs these.
+* <strong>Excel Entry</strong>: If your system is enabled to allow Excel file entry, this will show up as a choice. You can upload excel files into a patient's chart as this document name/type. You add the Excel file from using add document when in the patient's chart. You will see this document to store the Excel file as.
 * <strong>PDF Entry</strong>: If your system is enabled to allow PDF file entry, this will show up as a choice. You can upload PDF files into a patient's chart as this document name/type. You add the PDF file from using add document when in the patient's chart. You will see this document to store the PDF file as.
 * <strong>Form Render</strong>: document would appear as a form to print off. MIE scans and loads in a form, then if this option is check-marked the form would pop-up to be printed off and scanned/indexed back in the patient's chart.
 * <strong>Track Form</strong>: if you checkmark this, it will track the form. Tracking a form makes sure that when users print the form(s) (if tracking is check-marked) it keeps track whether it was scanned back in or not. MIE can create a layout/chart tab to display a log of forms that were printed but not scanned back in, providing the <em>Track Form</em> box was check-marked for the specific form(s).
@@ -274,7 +276,7 @@ It means the document type is not restricted from view of anyone or department. 
 
 Click **Submit** at the bottom (or cancel to get out and start over).
 
-Click the SUBMIT button at the bottom of the screen to save and add the document type you just created/added. A document type must be tagged to chart tab(s). If you didn't tag it from this screen, you can do it from the edit screen of the doc.type, or go to Chart Tab module and tag it that way (see separate help instructions called *Chart Tab.pdf*)
+Click the SUBMIT button at the bottom of the screen to save and add the document type you just created/added. A document type must be tagged to chart tab(s). If you didn't tag it from this screen, you can do it from the edit screen of the doc.type, or go to Chart Tab module and tag it that way (see separate help instructions called [Chart Tabs](https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/))
 
 ## Deny Permission or Remove a User/Department from the Allowed List
 
