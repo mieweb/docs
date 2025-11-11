@@ -1,17 +1,18 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2024-07-17T12:36:41.034Z'
-version: 184
+date: '2025-11-11T20:52:12.283Z'
+version: 209
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html'
-  - 'https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ'
-  - '../../portal-management/linking-users-for-portal-access.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/'
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/'
+  - 'https://docs.enterprisehealth.com/functions/portal-management/linking-users-for-portal-access/'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 wikigdrive: 'v2.15.27'
+markup: 'pandoc'
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 
@@ -25,11 +26,11 @@ At the top of the Access Control default landing page are navigation links and
 
 Above the Search field and filters are two navigation links:
 
-1. View Departments: This link navigates to the default landing page–the Departments view.
+1. <strong>View Departments</strong>: This link navigates to the default landing page–the Departments view.
     * Departments are listed alphabetically, with options to edit or delete, by default.
     * This page can be returned to at any point during the user/department editing by simply clicking the View Departments link.
     * Additional links are available, at the top of the table, which allow filtering to Show User Counts (displays the number of users within each department) and to Show Inactive (lists all inactive departments).
-2. View User Access: This link navigates to the User Access view.
+2. <strong>View User Access</strong>: This link navigates to the User Access view.
     * This page displays all usernames, their security exceptions and statuses, as well as their associated security roles.
     * Options are available to review previous revisions to security exceptions and by whom they were made.
     * A Show CSV link is available to download a CSV of the user list.
@@ -66,7 +67,7 @@ To begin adding users, the TL;DR simply requires the privileged user to:
 1. Navigate to the Control Panel from the sidebar menu.
 2. Click the Access Control tab.
 3. Verify the user is unique and is not going to be a duplication.
-4. Click the Add User link in the upper-right corner. (To add multiple, active users en masse, refer to the [Quick Add](http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html#quick-add) section.)
+4. Click the Add User link in the upper-right corner. (To add multiple, active users en masse, refer to the [Quick Add](https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/#adding-a-user) section.)
 5. Fill in all necessary and relevant fields.
 6. Click the <strong>Submit Insert</strong> button.
 
@@ -140,7 +141,7 @@ This field must be set for any Referring Physician being added to the  {{% syst
 
 Electronic Prescriber
 
-These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) before making any selections.
+These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/) before making any selections.
 
 Meaningful Use
 
@@ -338,7 +339,7 @@ Depending on security permissions, when navigating the **Edit User** page, two
 
 **Customize User Security** is used to change security options and role permissions for the user in context, *only*. Modifying a user's Security Role, here, will not impact the Security Role, as it is used by the organization. Review the Security Role Documentation, for further instructions on this feature and its uses.
 
-**Edit Patients Linked to User** is most often used with regard to Portal management and use. For further instructions on how to use this feature, review the [Linking Users portal documentation](../../portal-management/linking-users-for-portal-access.md).
+**Edit Patients Linked to User** is most often used with regard to Portal management and use. For further instructions on how to use this feature, review the [Linking Users portal documentation](https://docs.enterprisehealth.com/functions/portal-management/linking-users-for-portal-access/).
 
 {{% /info %}}
 
@@ -358,12 +359,12 @@ When a user is *deleted*, it is not deleted permanently. The user is marked as�
 3. When a user is deleted, a warning displays, confirming deletion. Click <strong>Yes</strong> to confirm and complete.
 
 {{% note %}}
-If a prescriber is being deleted, see [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation for the correct steps on how to disable.
+If a prescriber is being deleted, see [E-Prescribe Management](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/) documentation for the correct steps on how to disable.
 {{% /note %}}
 
 #### Create Provider
 
-Creating a provider or physician follows the same steps as adding a user; however, if the provider/physician intends to prescribe medication, review the required fields and necessary information for SureScripts verification in the [E-Prescribe Management](https://drive.google.com/open?id=1edAwEslsoESrM2RH9GDOQvb_iAjb-kFdUOkH6FpNNqQ) documentation, or the **Set Up E-Prescriber** section, specifically.
+Creating a provider or physician follows the same steps as adding a user; however, if the provider/physician intends to prescribe medication, review the required fields and necessary information for SureScripts verification in the [E-Prescribe Management](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/) documentation, or the **Set Up E-Prescriber** section, specifically.
 
 Add a Referring Physician User
 
@@ -378,26 +379,26 @@ After searching, if the referring physician is not in the system, continue with 
 2. Click the Access Control tab.
 3. Click the Add User link.
 4. When adding a Referring Physician, ensure all of the fields, below, are addressed:
-* <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
-* <strong>Current Status</strong>: Select <em>Login Disabled</em>.
-* <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
-* <strong>First Name</strong>: Enter the referring physician's full legal first name.
-* <strong>Last Name</strong>: Enter the referring physician's full legal last name.
-* <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
-* <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-* <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
-* <strong>City</strong>: The full city name of the referring physician's location.
-* <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-* <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-* <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
+    a.  <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
+    b.  <strong>Current Status</strong>: Select <em>Login Disabled</em>.
+    c.  <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
+    d.  <strong>First Name</strong>: Enter the referring physician's full legal first name.
+    e.  <strong>Last Name</strong>: Enter the referring physician's full legal last name.
+    f.  <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
+    g.  <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+    h.  <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
+    i.  <strong>City</strong>: The full city name of the referring physician's location.
+    j.  <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
+    k.  <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
+    l.  <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
 
 {{% note %}}
 If **Direct Email** is being used, be sure to collect the referring physician's Direct email address, and record the address in the Email field.
 {{% /note %}}
 
-* <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
-* <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
-* <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
+    m.  <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
+    n.  <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
+    o.  <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
 
 {{% note %}}
 **Username** can be left blank. They are not a *user* accessing the system, therefore, they do not need a username provided.
@@ -418,7 +419,7 @@ There are several available departments included with the base product, that ass
 
 Adding a Department
 
-Adding a department is a quick, simple process. From the [Access Control](http://docs.enterprisehealth.com/latest/documentation/components/system_admin/user-provider_management.html) tab:
+Adding a department is a quick, simple process. From the [Access Control](https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/) tab:
 
 1. Click the Add Department link.
 2. Type in the full name of the department needing to be created.
@@ -511,13 +512,13 @@ Navigate to the Access Control manager tab, and search for the user needing au
 2. When the <em>View User</em> page loads, click the <strong>View Audit Log</strong> link.
 3. The <strong>Audit Log Search Criteria</strong> page will open in a new tab.
 4. Narrow the audit search using the provided fields:
-* <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
-* <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
-* <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
-* <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
-* <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
-* <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
-* <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
+    a.  <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
+    b.  <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
+    c.  <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
+    d.  <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
+    e.  <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
+    f.  <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
+    g.  <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
 5. Once the preferred filters are entered, click the <strong>Search</strong> button. The results are specific to the user in context.
 6. For further details, click the <strong>View Click Logs</strong> link in the <em>Activity Details</em> column and view the exact activity of the user.
 
