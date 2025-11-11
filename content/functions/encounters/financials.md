@@ -1,8 +1,8 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2025-10-23T16:53:04.674Z'
-version: 244
+date: '2025-11-11T14:12:05.684Z'
+version: 251
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -26,7 +26,7 @@ The financial functionality of the system allows you to:
 * View reports such as account details and pending billing and generate statements and forms.
 * Post payments and manage ledger transactions.
 
-## Financials encounter section
+## Financials Encounter Section
 
 The Financial encounter section lists and allows charge and payment capture.  Most charges are added automatically, but you can add or remove charges and payments as necessary using the right side quick list method.
 
