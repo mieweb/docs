@@ -1,11 +1,12 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2025-10-23T15:14:05.526Z'
-version: 377
+date: '2025-11-11T15:34:29.223Z'
+version: 385
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions/'
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 wikigdrive: 'v2.15.27'
@@ -146,7 +147,7 @@ Fill out next Prescription Detail box with the next prescription details for thi
 
 When done entering prescriptions, click any **Prescribe** button. Those prescriptions you created will then show the *Unprinted Prescriptions* box and the screen will refresh you to the Medication History summary screen.
 
-*To print/fax prescriptions, please see other help documentation named Print-Fax-Transmit Prescriptions.pdf*
+*To print/fax prescriptions, please see other help documentation named* [*Print/Fax/Transmit Prescriptions*](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions/)*.*
 
 ### Quick Prescribe User Preference
 
