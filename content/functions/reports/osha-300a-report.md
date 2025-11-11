@@ -1,11 +1,12 @@
 ---
 id: '1PpdjD2K4mv1ohcdofTrXyN_wGzQUGF2QuHfgGTnaYFk'
 title: 'OSHA 300A Report'
-date: '2024-05-20T19:10:45.796Z'
-version: 104
+date: '2025-11-11T20:01:33.980Z'
+version: 111
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/reports/common-case-search-report/'
 source: 'https://drive.google.com/open?id=1PpdjD2K4mv1ohcdofTrXyN_wGzQUGF2QuHfgGTnaYFk'
 wikigdrive: 'v2.15.27'
 ---
@@ -47,7 +48,7 @@ If you don't wish to filter, you can just scroll down to click the SEARCH button
 
 ![](../osha-300a-report.assets/b97e2eb83976acb2cf181e1f5ff9698c.png)
 
-See other help documentation titled *Common Incident Search Report.pdf* for detailed information on each search criteria field.
+See other help documentation titled [Common Case Search Report](https://docs.enterprisehealth.com/functions/reports/common-case-search-report/) for detailed information on each search criteria field.
 
 ### OSHA 300A Report Output
 
