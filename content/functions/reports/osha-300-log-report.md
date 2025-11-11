@@ -1,8 +1,8 @@
 ---
 id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
-date: '2024-09-11T19:46:50.174Z'
-version: 236
+date: '2025-11-11T19:54:54.518Z'
+version: 243
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -78,7 +78,7 @@ Our OSHA 300 Log report form displays data according to the data collected in th
 
 * <strong>Days Away from Work Case:</strong> If the employee has any Lost Time accommodations linked to the OSHA recordable case/incident, then the column will display a Y.  If the employee had no restrictions linked nor documented to the OSHA recordable case, then the column will display N on the overlay.<strong></strong>
 
-Lost Time accommodation types are any of the 5** Lost Time** accommodation options.
+Lost Time accommodation types are any of the 5 **Lost Time** accommodation options.
 
 ![](../osha-300-log-report.assets/f8f6f5f8706d5750c4ec2c11b7592406.png)
 
