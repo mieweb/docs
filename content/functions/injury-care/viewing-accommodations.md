@@ -1,12 +1,12 @@
 ---
 id: '1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
 title: 'Viewing Accommodations'
-date: '2025-01-27T18:31:32.772Z'
-version: 76
-lastAuthor: 'anichols'
+date: '2025-11-11T14:46:27.237Z'
+version: 83
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'adding-restrictions.md'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
 wikigdrive: 'v2.15.27'
@@ -55,7 +55,7 @@ While working in an encounter, there is a Plan section that you can jump to name
 
 Inactive accommodations are accommodations that have passed their end date.
 
-### Inactive Accommodations from Restrictions/Lost Time stand alone chart tab
+### Inactive Accommodations from Restrictions/Lost Time Stand Alone Chart Tab
 
 Inactive accommodations can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive accommodations within the Restrictions/Lost Time chart tab of the patient, simply click the *Show Inactive* hyperlink.
 
@@ -91,7 +91,7 @@ This color coded linear timeline gives a summary view in a color coded format, w
 
 ![](../viewing-accommodations.assets/859dd683f8975e4d9ca702ad3e82254b.png)
 
-Below that is an edit, delete and add new accommodations section.  See other help documentation [Adding Accommodations](adding-restrictions.md) for specific details.
+Below that is an edit, delete and add new accommodations section.  See other help documentation [Adding Accommodations](https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/) for specific details.
 
 ## Learning Management System
 
