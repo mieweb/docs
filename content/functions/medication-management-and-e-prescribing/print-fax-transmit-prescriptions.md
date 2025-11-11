@@ -1,11 +1,14 @@
 ---
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
-date: '2024-07-10T15:10:43.392Z'
-version: 150
+date: '2025-11-11T15:40:44.074Z'
+version: 159
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
+  - 'https://docs.enterprisehealth.com/functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes/'
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/e-refills-my-e-rx-errors-tab/'
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 wikigdrive: 'v2.15.27'
@@ -43,7 +46,7 @@ The easiest/quickest way is to have had the patient's Preferred Pharmacy set in 
 
 If you wish to search and transmit to a different pharmacy, just clear the *Pharmacy* field (click the CLEAR button) and type at least 3 characters of the pharmacy you want to search for. The system will show you a drop-down of matching choices according to what you typed. These pharmacy choices are within the patient's state/city or zip code range. The state/city and zip code defaults are read from the patient's demographics tab. If there is no zip code entered in the patient's demographics tab, it will show choices for pharmacies within the logged in user's zip code range.
 
-When you search for a pharmacy to send to, it shows the pharmacy name, address, phone and fax numbers. It also may show some pharmacies in grey and some pharmacies in bold **blue.** Pharmacies showing in **blue** are capable to e-transmit to using the SureScripts feature. It doesn't mean it will be electronically transmitted to that pharmacy though unless you are a certified e-prescriber with SureScripts (see other help documentation named *Setting up E-Prescribers.pdf* to become certified). The bold **blue** just signifies that this pharmacy is indeed capable to electronically transmit to via the SureScripts feature. The other pharmacies in grey are valid pharmacies, but they would be transmitted via standard fax from {{% system-name %}} because they are not capable of receiving via electronic transmit. *If the pharmacy isn't capable of receiving an electronic transmit, the prescription will automatically default to a fax to that pharmacy.*
+When you search for a pharmacy to send to, it shows the pharmacy name, address, phone and fax numbers. It also may show some pharmacies in grey and some pharmacies in bold **blue.** Pharmacies showing in **blue** are capable to e-transmit to using the SureScripts feature. It doesn't mean it will be electronically transmitted to that pharmacy though unless you are a certified e-prescriber with SureScripts (see other help documentation named [Setting Up E-Prescribers](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/) to become certified). The bold **blue** just signifies that this pharmacy is indeed capable to electronically transmit to via the SureScripts feature. The other pharmacies in grey are valid pharmacies, but they would be transmitted via standard fax from {{% system-name %}} because they are not capable of receiving via electronic transmit. *If the pharmacy isn't capable of receiving an electronic transmit, the prescription will automatically default to a fax to that pharmacy.*
 
 ![](../print-fax-transmit-prescriptions.assets/56610a8d06edb83ea4c9d3a10dd96058.png)
 
@@ -122,9 +125,9 @@ If someone clicks CANCEL FAX by accident in this preview mode, then they would j
 
 ### Email Notifications of Sent and/or Failed Faxes
 
-You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user. This is only for default manual faxes, not electronic SureScripts transmits. See other help documentation titled *Email Notification of Sent or Failed Faxes-Outbound Faxing.pdf* to set this preference.
+You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user. This is only for default manual faxes, not electronic SureScripts transmits. See other help documentation titled [Outbound Faxing Email Notifications of Sent/Failed Faxes](https://docs.enterprisehealth.com/functions/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes/) to set this preference.
 
-If there were any errors with the pharmacy receiving your electronic transmit, you would go to the E-Refills tab and view those in the My E-RX Errors tab. See other help documentation named *E-Refills-MY E-RX ERRORS.pdf*.
+If there were any errors with the pharmacy receiving your electronic transmit, you would go to the E-Refills tab and view those in the My E-RX Errors tab. See other help documentation named [E-Refills - My E-Rx Errors Tab](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/e-refills-my-e-rx-errors-tab/).
 
 ### Verify Prescription Printed/Faxed/Transmitted
 
