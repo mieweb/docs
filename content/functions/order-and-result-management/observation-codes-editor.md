@@ -1,21 +1,20 @@
 ---
 id: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
 title: 'Observation Codes Editor'
-date: '2024-07-11T19:00:10.516Z'
-version: 143
+date: '2025-11-11T15:12:28.731Z'
+version: 150
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'flowsheets-editor.md'
-  - 'https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
   - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
 source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
 wikigdrive: 'v2.15.27'
-markup: 'pandoc'
 ---
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 
-Additionally, because observation codes are often viewed for trend analysis, or in a graphical format, the Observation Codes Manager is also designed to allow easy access to the Flowsheet Manager for adding, editing, and viewing observation flowsheets. For more information on creating, using, and maintaining observation flowsheets, see the [Flowsheets Editor](flowsheets-editor.md) online help documentation.
+Additionally, because observation codes are often viewed for trend analysis, or in a graphical format, the Observation Codes Manager is also designed to allow easy access to the Flowsheet Manager for adding, editing, and viewing observation flowsheets. For more information on creating, using, and maintaining observation flowsheets, see the [Flowsheets Editor](https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/) online help documentation.
 
 ## Observation Codes
 
@@ -33,21 +32,27 @@ If an observation code is not available, or a new observation needs to be added,
 
 1. From the Observation Codes Manager, click the link in the upper-right corner of the page.
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
-    a.  <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
-    b.  <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
-        i. Decimal: Any numerical data.
-        ii. Text: Any non-numerical data, not classified under the alternative choices.
-        iii. Date/Time: Any date/time observations.
-        iv. Custom Discrete Values: User-defined data, or options.
-        v. Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
-    c.  <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
-    d.  <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
-    e.  <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.
-    f.  <strong>Default Add Unit</strong>: This field is intended for specifying the unit to be used when adding new observations of this type, namely in instances where no unit input is displayed. The specified unit also applies to the Observation Range, as well.
-    g.  <strong>Observation Range</strong>: If the Target Type dropdown is set to <em>Range</em> or <em>Abnormal Range</em>, this field can be used to specify the appropriate range (e.g., 25-50, <17, >=100, etc.), and the Target input field will be ignored. Remember, the units specified in the Default Add Unit field will be considered for the specified Observation Range.
-    h.  <strong>Target</strong>: If the Target Type dropdown is set to <em>Target</em>, users may specify the desired target in the input field (e.g., neg, pos, positive, negative, immune, etc.).
-    i.  <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. To use conditional logic, the appropriate script must be added to the Conditional field of the observation/question.
-    j.  <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script.
+    * <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
+    * <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
+
+Decimal: Any numerical data.
+
+Text: Any non-numerical data, not classified under the alternative choices.
+
+Date/Time: Any date/time observations.
+
+Custom Discrete Values: User-defined data, or options.
+
+Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
+
+    * <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
+    * <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
+    * <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.
+    * <strong>Default Add Unit</strong>: This field is intended for specifying the unit to be used when adding new observations of this type, namely in instances where no unit input is displayed. The specified unit also applies to the Observation Range, as well.
+    * <strong>Observation Range</strong>: If the Target Type dropdown is set to <em>Range</em> or <em>Abnormal Range</em>, this field can be used to specify the appropriate range (e.g., 25-50, <17, >=100, etc.), and the Target input field will be ignored. Remember, the units specified in the Default Add Unit field will be considered for the specified Observation Range.
+    * <strong>Target</strong>: If the Target Type dropdown is set to <em>Target</em>, users may specify the desired target in the input field (e.g., neg, pos, positive, negative, immune, etc.).
+    * <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. To use conditional logic, the appropriate script must be added to the Conditional field of the observation/question.
+    * <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script.
 3. Once all of the appropriate fields have been updated, click the <strong>Save</strong> button to submit all new information.
 
 ## Viewing/Editing Observation Codes
@@ -106,7 +111,7 @@ After continuing, users will be prompted with a verification page. Before the Me
 
 Because observations are used to populate Flowsheets, {{% system-name %}} has provided a quick link for accessing the Flowsheet Manager directly from the Observation Codes Manager. Simply click the link in the upper-right corner of the page, and the will load.
 
-For details regarding how to add, edit, and maintain Observation Flowsheets, see our [Flowsheet Manager](https://confluence.mieweb.com/display/DOCS10/Flowsheets+Manager) online help documentation.
+For details regarding how to add, edit, and maintain Observation Flowsheets, see our [Observation Flowsheets](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) online help documentation.
 
 ## Learning Management System
 
