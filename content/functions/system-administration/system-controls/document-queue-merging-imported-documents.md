@@ -1,9 +1,9 @@
 ---
 id: '1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
 title: 'Document Queue - Merging Imported Documents'
-date: '2025-10-21T17:15:44.742Z'
-version: 251
-lastAuthor: 'nwallace'
+date: '2025-11-11T20:27:56.547Z'
+version: 261
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
@@ -36,9 +36,9 @@ Match ratings range from 0 through 9 with the higher rating being more certain i
 <table>
 <tr>
 <td><strong>DOB matches and the following criteria apply:</strong><br />
-<ul><li>Rating 9: Last Name, First Name matches</li><li>Rating 8: SSN matches</li><li>Rating 8: Last Name, First Name sound similar (<em>e.g.,</em> Bob and Rob)</li><li>Rating 7: First Name and Last Name are swapped</li><li>Rating 6: Last Name, First Name Initial matches</li><li>Rating 5: Only Last Name matches</li><li>Rating 4: Only First Name matches</li><li>Rating 3: Only First Name sounds similar (<em>e.g.,</em> Bob and Rob)</li></ul></td>
+<ul><li>Rating: 9  - Last and first names both match exactly</li><li>Rating: 9  - Both SSNs are valid and match</li><li>Rating: 8  - Last and first names sound alike</li><li>Rating: 7  - Last name matches first name and first name matches last name (names may be reversed)</li><li>Rating: 6  - Last names match and first letters of first names match</li><li>Rating: 5  - Only last names match</li><li>Rating: 4  - Only first names match</li><li>Rating: 3  - First names sound alike</li><li>Rating: 0  - Both SSNs are valid but do not match</li><li>Rating: 0  - None of the above</li></ul></td>
 <td><strong>DOB does not match and the following criteria apply:</strong><br />
-<ul><li>Rating 6: SSN matches</li><li>Rating 5: Last Name, First Name matches</li><li>Rating 4: Last Name, First Name sound similar (<em>e.g.,</em> Bob and Rob)</li><li>Rating 3: First Name sounds similar (<em>e.g.,</em> Bob and Rob)</li><li>Rating 2: First Name and Last Name are swapped</li><li>Rating 1: First Name Initial matches</li></ul></td>
+<ul><li>Rating: 9  - Both SSNs are valid and match</li><li>Rating: 5  - Last and first names both match exactly</li><li>Rating: 4  - Last and first names sound alike</li><li>Rating: 3  - First names sound alike</li><li>Rating: 2  - Last name matches first name and first name matches last name (names may be reversed)</li><li>Rating: 1  - Last names match and first letters of first names match</li><li>Rating: 0  - Both SSNs are valid but do not match</li><li>Rating: 0  - None of the above</li></ul></td>
 </tr>
 </table>
 
@@ -72,18 +72,18 @@ If you did a manual search and found the patient account you want to merge to, y
 
 From this point, you need to scroll down on the top right side. Use the scroll bar indicated below for this section. You need to scroll down to see the **Merge Options** to continue the merging process.
 
-![](../document-queue-merging-imported-documents.assets/d0ccac7ae0e63823e6f15fe5d9148727.png)
+![](../document-queue-merging-imported-documents.assets/55480d6b204a567a0c3d3d4725a22363.png)
 
 It will bring up the patient's demographics screen in the right side column of the screen.
 
 Scroll down a little bit to the 4 **Merge Options** that are radio button choices (right under the demographics info).
 
-![](../document-queue-merging-imported-documents.assets/117f6e9ec868a9a5191baf85599c1141.png)
+![](../document-queue-merging-imported-documents.assets/91cd28e4ae584563c7137ee21a341c5e.png)
 
 * <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this employee's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
 * <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this employee's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em> partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
 * <strong>Choice 3:</strong> <strong>Merge this employee's chart & keep all MR#'s</strong>. What this means is that if selected, it will merge together the employee's entire chart and keep all MR numbers regardless of partitions.
-* <strong>Choice 4:</strong> <strong>Merge this employee's documents and MR Numbers Only.</strong> What this means is that if selected, it ONLY merges the documents in the "from" employee and the MR numbers on that employee to the merged "into" employee. No other data (demographics, meds, conditions, etc) would be merged.
+* <strong>WARNING:</strong> <strong>Do Not Use if a 4th Choice appears named:</strong> <strong>Merge this patient's documents and MR Numbers Only.</strong> This option will not display by default since security permission is set as No by default and should remain as No.  It would move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system.  Since permission to this merge option is set to No, this 4th option will not be displayed for users to accidentally select.
 
 Click the radio button of your choice then scroll again down to the bottom of that right side section and click the button that says **Merge Employees**. It will then merge the document from the left side to the account on the right side.
 
