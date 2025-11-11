@@ -1,8 +1,8 @@
 ---
 id: '1HjxLTED_HSHduFkL4z3w2Pe71mS3C37CwBLcpKaxZhk'
 title: 'Claims Report'
-date: '2024-07-15T13:39:25.363Z'
-version: 110
+date: '2025-11-11T19:21:05.720Z'
+version: 117
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ The Claims report is found within the Reports module, and within the Safety grou
 
 ![](../claims-report.assets/4554a07697ccf0f894de8df00bcadb95.png)
 
-## CLAIMS REPORT
+## Claims Report
 
 Some workflows require to document and identify what TPA (Third Party Administrator) a case/incident should be sent to.  This optional field can be configured for your system to be available in the case/incident encounter section to identify which TPA to send claim to.  The TPA choices can be customized for your system also.
 
@@ -41,7 +41,7 @@ The Claims Report has the following logic criteria/logic built in order to run t
 * Your case/incident workflows use the Case Management encounter with Notes/Tracking encounter section
 * The case/incident does <strong>not</strong> need to be documented as <em>OSHA Recordable</em> to appear on this report (date determined recordable field)
 
-### Claims Report output
+### Claims Report Output
 
 The Claims Report output displays in a datavis format with several columns of data pulled from the encounter case/incident and from the chart's demographics and employment information.
 
