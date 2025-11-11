@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-10-22T12:43:56.150Z'
-version: 213
+date: '2025-11-11T19:29:48.456Z'
+version: 219
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -17,6 +17,7 @@ links:
   - 'https://www.mcg.com/odg/client-resources/learning-resources/self-training-videos/'
   - 'https://www.mcg.com/odg/client-resources/learning-resources/self-training-pdfs/'
   - 'https://www.odgbymcg.com/help/Disability/Content/ODG/PDFLibrary/ODG%20by%20MCG%20Best%20Practices%20FAQ.pdf'
+  - 'https://mie.talentlms.com/shared/start/key:GETKMFPJ'
 source: 'https://drive.google.com/open?id=118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 wikigdrive: 'v2.15.27'
 ---
@@ -181,4 +182,4 @@ For more information on utilizing reports in a DataVis format or how to utilize 
 * [ODG by MDG Self-Training Videos](https://www.mcg.com/odg/client-resources/learning-resources/self-training-videos/)
 * [ODG by MDG Self-Training PDF Training Guides](https://www.mcg.com/odg/client-resources/learning-resources/self-training-pdfs/)
 * [ODG by MDG Best Practices FAQ](https://www.odgbymcg.com/help/Disability/Content/ODG/PDFLibrary/ODG%20by%20MCG%20Best%20Practices%20FAQ.pdf)
-* LMS Course (forthcoming)
+* LMS Course (18min) [200.G Query ODG Integration](https://mie.talentlms.com/shared/start/key:GETKMFPJ)
