@@ -1,12 +1,12 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-03-21T12:23:32.561Z'
-version: 674
+date: '2025-11-11T14:59:42.876Z'
+version: 679
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'health-surveillance-matrix-descriptions.md'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/'
   - '../system-administration/data-migration/completed-orders-import-tool.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
   - 'viewing-health-surveillance-panels-and-membership.md'
@@ -14,6 +14,7 @@ links:
   - '../system-administration/data-migration/panel-membership-import-tool.md'
   - 'health-surveillance-panels-add-memberships-manually.md'
   - 'panel-action-evaluator.md'
+  - 'health-surveillance-matrix-descriptions.md'
   - '../system-configuration/work-locations-tab.md'
   - 'health-surveillance-panels-action-rules.md'
   - '../health-surveillance.md'
@@ -32,7 +33,7 @@ The way {{% system-name %}} does it is through highly configurable, easily manag
 
 It is important to remember that the order in which health surveillance panels are configured matters, and what is done first, before other portions, will affect overall functionality. With that in mind, the following provides a very basic overview of health surveillance considerations and configuration, as seen in 10 steps.
 
-### [Step One: Utilize Matrix to Identify Panels and Needed Contents](health-surveillance-matrix-descriptions.md)
+### [Step One: Utilize Matrix to Identify Panels and Needed Contents](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/)
 
 Identify all necessary panels and what will be necessary for configuration. HS panels can be configured for tracking and managing the health and wellness of specific patient populations, exposure groups, etc. A panel defines a group of events or actions that will take place on specific charts on a regular/recurring schedule. A panel action can refer to a procedure that is completed for a chart, as part of a panel, for example. Utilize the matrix provided by the MIE Implementer to gather all necessary panel criteria. The Health Surveillance module is also used to document regularly scheduled voluntary health screenings or checkups using panels.
 
@@ -90,7 +91,7 @@ It is important to determine what will need to be considered for any automated, 
 
 Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
 
-### [Step ](panel-action-evaluator.md)[Ten: ](panel-action-evaluator.md)[Panel Action Evaluator](panel-action-evaluator.md)
+### [Step ](panel-action-evaluator.md)[Ten: Panel Action Evaluator](panel-action-evaluator.md)
 
 Clicking the **Panel Action Evaluator** link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
 
