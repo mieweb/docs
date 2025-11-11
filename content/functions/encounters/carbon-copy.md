@@ -1,9 +1,9 @@
 ---
 id: '1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
 title: 'Carbon Copy'
-date: '2025-07-03T14:28:55.327Z'
-version: 136
-lastAuthor: 'anichols'
+date: '2025-11-11T13:57:16.541Z'
+version: 156
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'contributing-providers.md'
@@ -70,8 +70,6 @@ The Referral Note separate document is an abbreviated/condensed additional view 
 You can use this stored document (once the encounter has been closed & archived) to print, fax, or have your MIE Consultant set up datasend auto routes to send to other CC users.  But, the Referral Note view/document will only be created if a Referring Physician has been noted in the CC encounter section.
 
 NOTE: If you did not put in a referring physician into the CC encounter section,  this additional view/document of Referral Note will not trigger/generate on the view of the encounter nor would it be stored in the chart as a Referral Note document.
-
-![](../carbon-copy.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
 
 ## System Setting prerequisite to using CC
 
