@@ -1,9 +1,9 @@
 ---
 id: '1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
 title: 'Duplicate Charts-Merge Report'
-date: '2025-10-28T17:19:27.979Z'
-version: 209
-lastAuthor: 'anichols'
+date: '2025-11-11T19:28:12.069Z'
+version: 215
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
@@ -79,7 +79,7 @@ The Duplicate Charts-Merge report offers various search criteria filters to narr
     * The Additional Details hyperlink pops-up a separate window. The pop-up window shows various Types of data in a list and next to each is the count of that data type that is  in the "From" chart and what the count of that same data type has  in the "To" chart (for the specific line item you selected).
     * The checkbox option means you are selecting that line item(s) of a "From" chart to merge into the "To" chart on the line item(s) you selected.  When a line item is checkmarked, the <em>Action: Merge</em> button functionality will activate for performable use.
 
-## ![](../duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
+![](../duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
 
 * <strong>Rating:</strong> Is the rating that the system gives when analyzing the "From" chart to the "To" chart.  The higher the rating, the more likely this is the same person with duplicate chart(s).
     * Remember, a possible duplicate chart will be listed 2 ways on the output of this report, because the chart that is duplicate may need to be the "From" chart or may need to be the "To" chart.  The "To" chart is the chart a "From" chart will merge into.  The "To" chart will be kept in the system.  So the listing output will list it each way and you would select <strong>one</strong> way to merge it.
