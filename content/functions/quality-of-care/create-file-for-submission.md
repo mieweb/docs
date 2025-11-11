@@ -1,17 +1,16 @@
 ---
 id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
 title: 'Create File for Submission'
-date: '2024-08-09T14:37:12.960Z'
-version: 63
-lastAuthor: 'nwelsh'
+date: '2025-11-11T19:10:29.184Z'
+version: 70
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.cms.gov/'
   - 'https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html'
   - 'https://www.ncqa.org/'
-  - 'https://system/?f=layout&module=reports&name=reports&tabmodule=reports'
-  - 'https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care'
-  - 'https://system/?f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
+  - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
   - 'https://qpp.cms.gov/login'
   - 'https://www.youtube.com/watch?v=DLBsBw55p7Y&feature=youtu.be'
   - 'https://www.youtube.com/watch?v=X8vHB2gfonU&feature=youtu.be'
@@ -35,11 +34,11 @@ The following instructions outline the general process for generating a file fro
 {{% /warning %}}
 
 1. Log into the {{% system-name %}} system.
-2. Navigate to the [Reports](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) sidemenu.
-3. Go to the [Quality of Care](https://system/?f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care) reports and tools.
+2. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
+3. Go to the [Quality of Care](https://docs.enterprisehealth.com/functions/quality-of-care/) reports and tools.
 
     ![](../create-file-for-submission.assets/18db19fee9484382067fc4a890a6076b.png)
-4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use [QPP JSON File Generator.](https://system/?f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports)
+4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use QPP JSON File Generator.
 
 {{% info %}}
 The QPP JSON File Generator allows QPP participants the ability to generate the necessary JSON file used for submission on the [QPP portal](https://qpp.cms.gov/login).
