@@ -1,9 +1,9 @@
 ---
 id: '1EXGZK3LY8tfnJ5AiPLCAsGSInA2sqSTESlQECm76pUY'
 title: 'Case Merge Tool'
-date: '2024-09-06T19:44:37.425Z'
-version: 78
-lastAuthor: 'anichols'
+date: '2025-11-11T19:19:19.174Z'
+version: 85
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
@@ -14,7 +14,7 @@ The Case Merge Tool is found within the Reports module, and within the Safety gr
 
 ![](../case-merge-tool.assets/e4436613833d19fbc14d272be4516beb.png)
 
-## CASE MERGE TOOL
+## Case Merge Tool
 
 The Case Merge Tool lists any cases/incidents (closed or open) for a chart that have the same Date of Injury or same Onset of Illness case date.  This merge tool allows merging of a duplicate case(s) to a specific one, so there is one source of truth case instead of duplicates.  Any duplicate cases merged, using this tool, will have the source of truth case tied to the encounter and/or document(s) then.
 
