@@ -1,9 +1,9 @@
 ---
 id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
 title: 'Vitals Tracking & Management'
-date: '2025-10-31T14:32:30.147Z'
-version: 227
-lastAuthor: 'anichols'
+date: '2025-11-11T15:02:18.803Z'
+version: 232
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../encounters/vitals-system-wide-defaults.md'
@@ -119,7 +119,7 @@ You can also *Delete* the existing recorded value from the vitals of the chart i
 
 {{% system-name %}} has the capability to interface with a vitals device such as Welch Allyn Spot Vital Signs Monitor.
 
-The Vitals data entry section in the stand alone Vital Signs chart tab allows for Device or Manual entry.  By default, the Vitals data entry screen defaults to the Manual method.  However, with an established interface, simply click the **Device****** hyperlink within the **Vitals From:** area.
+The Vitals data entry section in the stand alone Vital Signs chart tab allows for Device or Manual entry.  By default, the Vitals data entry screen defaults to the Manual method.  However, with an established interface, simply click the **Device** hyperlink within the **Vitals From:** area.
 
 Then select the device, scan the device and can refresh values using the buttons at the bottom of the Device entry screen method.
 
