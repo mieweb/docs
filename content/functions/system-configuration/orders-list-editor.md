@@ -1,9 +1,9 @@
 ---
 id: '1tDd1K4pAJM2OWgJtSob3r4xrSI-Fz8JQ3FeduEGjEHM'
 title: 'Orders List Editor'
-date: '2025-04-23T18:27:53.509Z'
-version: 290
-lastAuthor: 'anichols'
+date: '2025-11-11T16:48:33.450Z'
+version: 297
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'ask-at-order-entry-aoe-editor.md'
@@ -67,7 +67,7 @@ Fill in as many fields as applicable. **Note: Order Type and Order Name fields a
 
 * Department field is used to designate what department (in your system) should always handle this order item (lab, radiology etc)
 
-Click** Save** if you are finished adding new orders, or **Add Another** to add additional orders. (Click **Cancel** if you do not want to save the order.)
+Click **Save** if you are finished adding new orders, or **Add Another** to add additional orders. (Click **Cancel** if you do not want to save the order.)
 
 ### Edit an existing order item for the system
 
@@ -79,7 +79,7 @@ Checkmark the first column then select one of the buttons in order to make the e
 
 ![](../orders-list-editor.assets/9010f838d041f05d8a772fd85dabec5f.png)
 
-**Edit** displays the same input screen as Adding an order does. **Status** allows the user to change the order to *Active*** or** *Inactive***.** The **Revisions** button displays who and when and what changes were made to the order. Use the **Show Questions** button to display or edit the Ask at Order Entry Questions (AOE).
+**Edit** displays the same input screen as Adding an order does. **Status** allows the user to change the order to *Active* **or** *Inactive*. The **Revisions** button displays who and when and what changes were made to the order. Use the **Show Questions** button to display or edit the Ask at Order Entry Questions (AOE).
 
 ### Add Order Type for Grouping Types of Order Items
 
@@ -90,7 +90,7 @@ The **+Add Order Type** button is used to add new order types or *descriptions* 
 Click the Add Order Type button in the upper left and fill in the fields.
 
 * <strong>Type Name</strong> should be an abbreviation for this new order type and is usually in all capital letters.
-* <strong>Description</strong> should be a name to help describe what or how the order type..
+* <strong>Description</strong> should be a name to help describe what or how the order type.
 * <strong>Where?</strong> is the position in the Order Types list that it should be displayed in
 * <strong>Relative to…</strong> is dependent on what you selected in the "Where?" field. You can place this new Order type <em>"Last", "First",</em> or <em>"Before Type"</em> in the existing list.
 * <strong>Exclude this type from the due list?</strong> Prevents this order type from displaying on the due list.
