@@ -1,14 +1,15 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2025-03-12T16:15:21.056Z'
-version: 317
-lastAuthor: 'anichols'
+date: '2025-11-11T21:03:10.869Z'
+version: 326
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'access-control-quick-add-multiple-active-users.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/user-provider-and-department-management/'
   - 'setting-up-e-prescribers.md'
   - '../security/security-role-settings.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 wikigdrive: 'v2.15.27'
@@ -51,7 +52,7 @@ Click *Control* on the left sidebar menu.
 
 Click *Access Control* tab at the top
 
-Click the Add Chart link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](access-control-quick-add-multiple-active-users.md))
+Click the Add Chart link on the far right side. (To add multiple active users quickly at a time, see other help documentation named [Access Control-Quick Add Multiple Users](https://docs.enterprisehealth.com/functions/system-administration/system-controls/user-provider-and-department-management/#quick-add-multiple-active-users))
 
 ![](../access-control-adding-deleting-editing-users.assets/5c9c5405541d242a15f002d8be0273fd.png)
 
@@ -144,13 +145,10 @@ You can search for a user if you know what department(s) they are attached to an
 
 However, it is much easier to search by a user's last name. In the Search box at the top of the Access Control tab you are in:
 
-**Criteria**: leave as Begins With
-
-**Search**: Type in the **last name** (or the first few letters of the last name) for the user you are searching for.
-
-**By**: Use the drop-down arrow and select NAME
-
-**Show**: Click the … box to open your choices. Show only Active users, Show only Inactive users, Show only Deleted users. You can check-mark which or as many filters here as you wish to show results for.
+* <strong>Criteria</strong>: leave as Begins With
+* <strong>Search</strong>: Type in the <strong>last name</strong> (or the first few letters of the last name) for the user you are searching for.
+* <strong>By</strong>: Use the drop-down arrow and select NAME
+* <strong>Show</strong>: Click the … box to open your choices. Show only Active users, Show only Inactive users, Show only Deleted users. You can check-mark which or as many filters here as you wish to show results for.
 
 This will pop-up any matches to that last name (or first few letters of the last name if you entered).
 
@@ -222,7 +220,7 @@ Customize User Security
 
 When you are *within Edit User*, you will see this option. If you have security role permission to change security options for users, this link will appear. Click this to make changes to security role permissions that will be only applied to this specific username only. This does not affect the entire security role.
 
-In order to get to this *Customize User Security* section, you must click Edit User first, then this link/option will appear. Make changes, scroll down to the bottom of the security screen & type the reason why you made changes, then click *Update Individual Security* at the bottom of the screen. (See separate instructions called Security Role Settings)
+In order to get to this *Customize User Security* section, you must click Edit User first, then this link/option will appear. Make changes, scroll down to the bottom of the security screen & type the reason why you made changes, then click *Update Individual Security* at the bottom of the screen. (See separate instructions called [Security Role Settings](https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/))
 
 Change Signature
 
