@@ -1,14 +1,13 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2025-08-19T13:26:46.816Z'
-version: 362
+date: '2025-11-11T16:41:53.070Z'
+version: 369
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
   - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
-  - '../order-and-result-management/observation-flowsheets.md'
   - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
 source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 wikigdrive: 'v2.15.27'
@@ -196,7 +195,7 @@ Once the save button is clicked in the edit of that individual flowsheet observa
 Once the flowsheet is compiled and each is set to a specific input type and description edited, click the *SUBMIT* button to save all work.
 
 {{% info %}}
-More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](../order-and-result-management/observation-flowsheets.md) help guide in the {{% system-name %}} online help.
+More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) help guide in the {{% system-name %}} online help.
 {{% /info %}}
 
 Continue to create separate flowsheet and set input type and edit description entries (using previous steps above) for Review of Systems (ROS) encounter section if needed for the protocol. Here is an example of an ROS FLOWSHEET to be used in the Low Back Pain protocol example:
