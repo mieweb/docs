@@ -1,9 +1,9 @@
 ---
 id: '1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
 title: 'RAF Score - Risk Adjustment Factor'
-date: '2024-01-25T12:39:08.928Z'
-version: 251
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:14:27.002Z'
+version: 258
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
@@ -119,12 +119,13 @@ To visualize the status of conditions in Quick Lists that have been evaluated fo
 
 If a condition has not been reviewed in the last year, then either a yellow or red alert icon will display next to the condition.
 
-* ![](../raf-score-risk-adjustment-factor.assets/e18532205abfeb51d53bf7880d2caaf2.png)
-    - A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
+![](../raf-score-risk-adjustment-factor.assets/e18532205abfeb51d53bf7880d2caaf2.png)
+- A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
 
-* ![](../raf-score-risk-adjustment-factor.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
-     - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
-* No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
+![](../raf-score-risk-adjustment-factor.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
+ - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
+
+No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
 
 ![](../raf-score-risk-adjustment-factor.assets/648f00a41d541e410bf89ba45a8ae4ed.png)
 
