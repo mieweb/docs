@@ -1,9 +1,9 @@
 ---
 id: '1j3qbfN064R2A2dbosT_-JxkZtp7MD5D2aaAEd338yps'
 title: 'OpenPM Export Chart Insurance Policies'
-date: '2024-07-16T19:09:41.012Z'
-version: 29
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:39:05.532Z'
+version: 37
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j3qbfN064R2A2dbosT_-JxkZtp7MD5D2aaAEd338yps'
@@ -11,15 +11,15 @@ wikigdrive: 'v2.15.27'
 ---
 ## OpenPM Export Chart Insurance Policies
 
-**How To Run:**
+### How To Run:
 
 You must put a 1 in enter_1_to_run field
 
-#### Description:
+### Description:
 
 The "Chart Insurance Policies" report is designed to export detailed information about patient insurance policies to the OpenPM system. This report is essential for ensuring that the OpenPM interface has current and accurate insurance data, which is crucial for effective billing, claims processing, and overall patient management.
 
-#### Report Fields and Descriptions:
+### Report Fields and Descriptions:
 
 1. <strong>PatientID</strong>: Unique identifier for each patient within the system.
 2. <strong>LastName</strong>: The last name of the insurance policy holder, or the patient's last name if not specified.
