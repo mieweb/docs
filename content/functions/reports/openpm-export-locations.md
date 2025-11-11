@@ -1,9 +1,9 @@
 ---
 id: '1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw'
 title: 'OpenPM Export Locations'
-date: '2024-07-16T19:10:47.345Z'
-version: 27
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:47:00.670Z'
+version: 35
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw'
@@ -11,11 +11,11 @@ wikigdrive: 'v2.15.27'
 ---
 ## OpenPM Export Locations
 
-#### Description:
+### Description:
 
 The "Locations" report is designed to export detailed information about the various locations where appointments can be scheduled. This report is essential for managing and configuring appointment locations within the OpenPM interface, ensuring that users have access to accurate and comprehensive data regarding all available locations.
 
-#### Report Fields and Descriptions:
+### Report Fields and Descriptions:
 
 1. <strong>locations.id</strong>: Unique identifier for each location within the system.
 2. <strong>_related_to_pat_id</strong>: Identifier indicating the patient ID to which the location is related.
