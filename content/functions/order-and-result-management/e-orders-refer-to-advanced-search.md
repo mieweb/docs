@@ -1,8 +1,8 @@
 ---
 id: '1fpy2bWS8axvI2RAYvrKOr1g0iAJ-Lj5mO_y_fgM0EOU'
 title: 'E-Orders - Refer To Advanced Search'
-date: '2025-08-07T15:26:40.893Z'
-version: 91
+date: '2025-11-11T15:07:31.185Z'
+version: 98
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,9 @@ wikigdrive: 'v2.15.27'
 ---
 Companies using {{% system-name %}} may want a method to manage their external providers. System Administrators may compile as a directory of providers commonly referred to or utilized. The directory may contain providers within their own practice and/or contracted providers. Details captured on the provider include location and contact information, languages spoken, specialty and contracted procedures listing. Out of the box credentialing information includes NPI, TIN, License numbers and expiration dates, DEA numbers and expiration dates and a next credentialing due date. Standard reports include detailed lists of providers requiring re-credentialing. The module can be custom configured to capture other specific details practices may wish to track, as well as any custom reporting on those fields.
 
-If your practice manages external providers utilizing our Provider Management module and houses them as provider or provider organization ‘charts' within your {{% system-name %}} system, you will want the ability to Advanced Search when generating an e-order. Vendors (physician groups, ambulatory surgical centers, hospitals, transportation companies, etc.) are Provider Organizations in {{% system-name %}} . The Advanced Search functionality helps users identify who an in-network or referable entity/provider may be for when they need to generate a referral order on a patient. It can also be utilized to perhaps to help users identify providers or referable entities that specialize in a particular body part, service, or speak in another language to assist with the patient's needs. We call this module Provider Management in {{% system-name %}} . See additional help documentation titled *Provider Management.pdf* This help document is addressing the Advanced Search hyperlink found while generating an e-order on a patient.
+## Advanced Search
+
+If your practice manages external providers utilizing our Provider Management module and houses them as provider or provider organization ‘charts' within your {{% system-name %}} system, you will want the ability to Advanced Search when generating an e-order. Vendors (physician groups, ambulatory surgical centers, hospitals, transportation companies, etc.) are Provider Organizations in {{% system-name %}} . The Advanced Search functionality helps users identify who an in-network or referable entity/provider may be for when they need to generate a referral order on a patient. It can also be utilized to perhaps to help users identify providers or referable entities that specialize in a particular body part, service, or speak in another language to assist with the patient's needs. We call this module Provider Management in {{% system-name %}} . See additional help documentation titled [Provider Management](https://docs.enterprisehealth.com/functions/system-configuration/provider-management/). This help document is addressing the Advanced Search hyperlink found while generating an e-order on a patient.
 
 ![](../e-orders-refer-to-advanced-search.assets/4c9347fcd16d86600319f865c57d30d4.png)
 
