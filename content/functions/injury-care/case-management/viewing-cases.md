@@ -1,8 +1,8 @@
 ---
 id: '1e_bKkEQX8mrCMXpTNQR8QddEBfMVgEUgQVv-x6d49Ds'
 title: 'Viewing Cases'
-date: '2025-06-05T12:33:06.922Z'
-version: 106
+date: '2025-11-11T14:37:02.358Z'
+version: 115
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -106,8 +106,6 @@ To close a Case, you can do it from the Case chart tab via the Close hyperlink f
 
 The 301 hyperlink provides the ability to print the OSHA 301 form regarding the chart and case.  The 301 form will be overlaid with data that was captured from the case specified.
 
-.
-
 ![](../viewing-cases.assets/31159d45f42b93201e375d1a55b5fc08.png)
 
 ![](../viewing-cases.assets/39a0e233e58fd543f13ae00777575be0.png)
@@ -118,6 +116,6 @@ The Case section in encounters offers an Incident Links button.  Clicking on th
 
 ![](../viewing-cases.assets/7133c1b2d1dc8a297520fbf85e9c41de.png)
 
-The documents and encounters linked to that specific linked case will expand on your screen for viewing.  This gives visibility and accessibility to documents that are linked to the case, without having to get out of the encounter to look elsewhere for the information.  You can click on any document via it's hyperlink and it will open that in a separate window. When archiving an encounter that is linked to a case, the archived encounter document is automatically linked to the case as well.
+The documents and encounters linked to that specific linked case will expand on your screen for viewing.  This gives visibility and accessibility to documents that are linked to the case, without having to get out of the encounter to look elsewhere for the information.  You can click on any document via its hyperlink and it will open that in a separate window. When archiving an encounter that is linked to a case, the archived encounter document is automatically linked to the case as well.
 
 ![](../viewing-cases.assets/b4ee820710deb1671aab5c6c0bba2339.png)
