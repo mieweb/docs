@@ -1,13 +1,13 @@
 ---
 id: '12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
 title: 'Setting Up E-Prescribers'
-date: '2023-09-15T15:07:59.985Z'
-version: 185
-lastAuthor: 'auhrick'
+date: '2025-11-11T21:05:51.759Z'
+version: 192
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.webchartnow.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
-  - 'https://docs.webchartnow.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
 source: 'https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
 wikigdrive: 'v2.15.27'
 ---
@@ -15,7 +15,7 @@ The first step to being able to electronically transmit prescriptions from {{% s
 
 Click the *Control Panel* sidemenu tab then click the *Access Control* tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the *edit* link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the *add user* link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named *Access Control-Adding-Editing-Deleting Users.pdf).*
 
-Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique user chart and account. Provider accounts should NEVER be reused or recycled for any reason. For more information on setting up new providers, please review the [New Provider Configuration Recommendations](https://docs.webchartnow.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/).
+Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique user chart and account. Provider accounts should NEVER be reused or recycled for any reason. For more information on setting up new providers, please review the [New Provider Configuration Recommendations](https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/).
 
 ![](../setting-up-e-prescribers.assets/888dd7b07f9cebe2411743db7f6b22d3.png)
 
@@ -99,7 +99,7 @@ Please **do not delete** or inactivate the physician/prescriber in the Access Co
 
 Doing these steps will send this edit message and disabled status message to SureScripts so they know that the terminated prescriber should not be sent electronic refill requests, and pharmacies will not be able to accept new scripts from the terminated prescriber from this {{% system-name %}} system. The next day (24 hours later) you can delete the physician from your system (inactive their username, etc).
 
-For more information on terminated providers, review the [Terminated Provider Configuration Recommendations](https://docs.webchartnow.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/).
+For more information on terminated providers, review the [Terminated Provider Configuration Recommendations](https://docs.enterprisehealth.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/).
 
 ## E-Prescriber Works Other Practices
 
