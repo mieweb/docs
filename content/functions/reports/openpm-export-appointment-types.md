@@ -1,9 +1,9 @@
 ---
 id: '1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
 title: 'OpenPM Export Appointment Types'
-date: '2025-04-07T17:16:05.287Z'
-version: 42
-lastAuthor: 'anichols'
+date: '2025-11-11T19:38:07.945Z'
+version: 49
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
@@ -11,11 +11,11 @@ wikigdrive: 'v2.15.27'
 ---
 ## OpenPM Export Appointment Types
 
-#### Description:
+### Description:
 
 The "Appointment Types" report is designed to export detailed information about the different types of appointments available in the system. This report is essential for maintaining and configuring appointment types within the OpenPM interface, ensuring that users have access to accurate and comprehensive appointment type data.
 
-#### Report Fields and Descriptions:
+### Report Fields and Descriptions:
 
 1. _apt_type_id: Unique identifier for each appointment type within the system.
 2. _active: Indicates whether the appointment type is active (1 for active, 0 for inactive).
