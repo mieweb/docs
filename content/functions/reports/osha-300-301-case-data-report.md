@@ -1,9 +1,9 @@
 ---
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
-date: '2025-04-10T16:17:03.251Z'
-version: 364
-lastAuthor: 'anichols'
+date: '2025-11-11T20:16:43.569Z'
+version: 372
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'
@@ -26,7 +26,7 @@ More information from OSHA is at https://www.osha.gov/injuryreporting
 
 ![](../osha-300-301-case-data-report.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
 
-### OSHA 300/301 Case Data Report Criteria
+## OSHA 300/301 Case Data Report Criteria
 
 The OSHA 300/301 Case Data report has the following logic criteria/logic built in order to be listed on the output of this report:
 
@@ -56,7 +56,7 @@ Case encounter section for an OSHA recordable injury/illness example:
 ![](../osha-300-301-case-data-report.assets/233027c364977def799d5a760a365b9c.png)
 {{% /tip %}}
 
-### OSHA 300/301 Case Data Report Datavis Columns
+## OSHA 300/301 Case Data Report Datavis Columns
 
 The OSHA 300/301 Case Data report generates a list of results upon navigating to that report.  As stated above, the {{% system-name %}} OSHA 300/301 Case Data report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session. Meaning, it will look for and display information and counts that involve OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, will result here and be easily downloadable into a CSV file that can be used for your electronic reporting submission needs.
 
@@ -116,7 +116,7 @@ The below list of columns from the OSHA 300/301 Case Data report, will describe 
 This report **does** respect the Locations Hierarchy **_Parent_** with the data outputs.  Meaning, if an onsite injury/illness work location/site EO chart has a Parent (in the Locations Hierarchy) of another onsite injury/illness work location/site EO chart, then all its child sites plus any recordable injury/illnesses at the parent site will be counted/displayed on the Parent's establishment line of this report.
 {{% /note %}}
 
-### Download OSHA 300/301 Case Data report to a CSV format
+## Download OSHA 300/301 Case Data report to a CSV format
 
 The OSHA 300/301 Case Data report is easily downloadable into a CSV format.  Simply click the *Show CSV* button to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
 
@@ -126,8 +126,8 @@ The CSV file will be in the specific column order with column titles labeled as 
 
 ![](../osha-300-301-case-data-report.assets/20a6f0ff40a7ee92ff3d2cf39ff67c5b.png)
 
-### Review OSHA 300/301 Case Data report contents in CSV
+## Review OSHA 300/301 Case Data report contents in CSV
 
-You will need to review the entire CSV file for content.  [OSHA.gov/injuryreporting](http://osha.gov/injuryreporting) site has a checklist where they want you to not include special characters for certain columns, and also review to exclude any PII for certain columns, before uploading the CSV file to their API.   It is up to the establishment/individuals at the company to review the CSV file and replace or change any content needed according to their business needs, prior to using the file to upload into the OSHA API system.  {{% system-name %}} will not omit or replace data from the CSV output.  {{% system-name %}} will output the CSV with the contents as exactly how it was captured/documented in the system and case/incident.  Your business can use the ‘find and replace' tool in the CSV file and change/replace (according to business needs) any found PII or any found special characters.
+You will need to review the entire CSV file for content. [OSHA.gov/injuryreporting](http://osha.gov/injuryreporting) site has a checklist where they want you to not include special characters for certain columns, and also review to exclude any PII for certain columns, before uploading the CSV file to their API.   It is up to the establishment/individuals at the company to review the CSV file and replace or change any content needed according to their business needs, prior to using the file to upload into the OSHA API system.  {{% system-name %}} will not omit or replace data from the CSV output.  {{% system-name %}} will output the CSV with the contents as exactly how it was captured/documented in the system and case/incident.  Your business can use the ‘find and replace' tool in the CSV file and change/replace (according to business needs) any found PII or any found special characters.
 
 ![](../osha-300-301-case-data-report.assets/97f5c784ec4e239dc5df76ca9bae7d63.png)
