@@ -1,8 +1,8 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2025-07-08T16:38:11.916Z'
-version: 158
+date: '2025-11-11T16:16:21.907Z'
+version: 163
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ In the All Pending tab, it lists all users who have documents pending e-sign req
 
 ![](../e-sign-all-pending-tab.assets/72bc369a1725797e1a9e8da656057b9e.png)
 
-### Signing a Document in Pending Documents Queue
+## Signing a Document in Pending Documents Queue
 
 If you have security permission, you can click on the underlined user's name and view all the individual documents pending the user's e-sign.  By clicking on a specific Doc ID, you yourself can also sign that document to set your signature as preliminary signed. This is done by clicking the Sign Doc link found in the top right of the document header.
 
