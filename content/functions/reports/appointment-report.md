@@ -1,9 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2025-02-14T18:48:48.786Z'
-version: 199
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:17:32.985Z'
+version: 205
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -66,7 +66,7 @@ This will allow you to show any revisions to appointments also in this report se
 
 ![](../appointment-report.assets/7e00e49eaf730194cefd046155dfdc07.png)
 
-* <strong>Order By</strong> field*:* You can select from the drop-down the method for which you want your results displayed on the screen. The list of found appointments can be displayed in Patient Name order (last name alphabetically) or in Appointment Time order (will display the earliest appointments first in chronological time order).
+* <strong>Order By</strong>: You can select from the drop-down the method for which you want your results displayed on the screen. The list of found appointments can be displayed in Patient Name order (last name alphabetically) or in Appointment Time order (will display the earliest appointments first in chronological time order).
 
 ![](../appointment-report.assets/d77584f315d6fbb44112228f48e2e3d8.png)
 
@@ -158,7 +158,7 @@ Once you have clicked *Email Selected*, it will open to the Email Options screen
 * <strong>Carbon Copy Email:</strong>
     * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
     * <strong>Users to email:</strong> You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
-* <strong>Patients to Email:</strong> It will display the patient's that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patient's with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
+* <strong>Patients to Email:</strong> It will display the patients that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patients with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
 
 ![](../appointment-report.assets/ff31dccf0de76177fc9ea5fdec7bf7d1.png)
 
