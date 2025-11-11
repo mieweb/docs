@@ -1,15 +1,17 @@
 ---
 id: '1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
 title: 'E-Refills - My Pending Refills Tab'
-date: '2025-07-22T18:32:09.308Z'
-version: 89
-lastAuthor: 'auhrick'
+date: '2025-11-11T15:48:41.733Z'
+version: 105
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
+  - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/e-refills-all-e-refills-tab/'
 source: 'https://drive.google.com/open?id=1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
-In order for you to receive e-refill requests from pharmacies in this queue, you must be a verified E-Prescriber by MIE and SureScripts and have had the box *Receive Refill Requests* check-marked in your {{% system-name %}} username screen (see other help documentation named *Setting up E-Prescriber.pdf)*. You will not receive incoming electronic refill requests from pharmacies (that are capable to do so) if you do not have that feature check-marked in your username screen. You do not have to receive refill requests electronically in {{% system-name %}} . You can continue to receive them by fax or phone calls as you currently do. However, if you have check-marked that you want to receive refill requests electronically, once MIE and SureScripts verifies your information, you will then receive electronic refill requests via this queue in {{% system-name %}} .
+In order for you to receive e-refill requests from pharmacies in this queue, you must be a verified E-Prescriber by MIE and SureScripts and have had the box *Receive Refill Requests* check-marked in your {{% system-name %}} username screen (see other help documentation named [Setting Up E-Prescribers](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/)*)*. You will not receive incoming electronic refill requests from pharmacies (that are capable to do so) if you do not have that feature check-marked in your username screen. You do not have to receive refill requests electronically in {{% system-name %}} . You can continue to receive them by fax or phone calls as you currently do. However, if you have check-marked that you want to receive refill requests electronically, once MIE and SureScripts verifies your information, you will then receive electronic refill requests via this queue in {{% system-name %}} .
 
 E-Refill requests are electronic refill transmission requests from the pharmacy to you, the certified e-prescriber via {{% system-name %}} /SureScripts. You will see any pending e-refill requests from a pharmacy to you in the **E-Rx** alert bar at the top of your screen.
 
@@ -19,7 +21,7 @@ If you are a certified e-prescriber, you will notice any incoming e-refill reque
 
 When you receive a refill request, SureScripts has a requirement that you must respond and work each request within 48 hours. Pharmacies, as a general rule, will expect your reply to a request for refill within 24 hours, barring holidays and weekends. If they do not see a response within that time, they may send additional requests. By checking consistently and frequently for refill requests, designated staff can respond to the pharmacy promptly, thereby minimizing the chance of pharmacists making the same request multiple times (your staff will also become more adept at getting value from the system through frequent usage). Also, Prescribers must respond electronically to refill requests within 48 hours. A later response or lack of response will result in an increase in faxes and calls from pharmacies to prescribers. If you don't consistently respond within the 48 hour timeframe, SureScripts may disable/disconnect your ability to receive future e-refill (electronic refill) requests if a pharmacy lodges a complaint.
 
-To have your ability to receive e-refill requests turned back on (if you get disabled), please see the other help documentation named *Setting up E-Prescribers.pdf*. If you become delinquent in working your e-refill requests, you can still e-prescribe and electronically transmit prescriptions to pharmacies via SureScripts.  You just won't get e-refill requests from pharmacies that are capable by SureScripts in this queue.
+To have your ability to receive e-refill requests turned back on (if you get disabled), please see the other help documentation named [Setting Up E-Prescribers](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/). If you become delinquent in working your e-refill requests, you can still e-prescribe and electronically transmit prescriptions to pharmacies via SureScripts.  You just won't get e-refill requests from pharmacies that are capable by SureScripts in this queue.
 
 If a physician goes on vacation or calls in sick, there is a security setting that the superuser at your practice or your MIE Implementer can grant to another physician(s) or staff member(s) to work those e-refill requests that come in. That way, you have someone still working within the 48 hour timeframe for those requests even though the specific prescriber from your practice is gone or out. You may want user(s) also with this security permission to supervise the queue to make sure all are kept current.
 
@@ -29,7 +31,7 @@ The security setting for being able to work on incoming e-refill requests across
 
 ## E-Rx Tab
 
-If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would have to go into E-Chart sidemenu tab and go into the E-Rx tab at the top. If you have security permission to manage e-rx refills for others, this is where you would find those pending refills to work on. The ALL E-REFILLS TAB is where you go to work those (see other help instructions named *E-Refills-ALL E-REFILLS tab.pdf*).
+If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the e-refills alert at the top of your screen. You would have to go into E-Chart sidemenu tab and go into the E-Rx tab at the top. If you have security permission to manage e-rx refills for others, this is where you would find those pending refills to work on. The ALL E-REFILLS TAB is where you go to work those (see other help instructions named [E-Refills - All Refills Tab](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/e-refills-all-e-refills-tab/)).
 
 ![](../e-refills-my-pending-refills-tab.assets/07981e9151026898d6e2c649a593f825.png)
 
@@ -50,6 +52,12 @@ This is the tab that you view and work your incoming e-refill requests from. The
 The **My Pending E-Refills** screen shows a summary of all your pending e-refill requests that need worked on. The ID column is the specific e-refill ID. The Received column shows the date & time the request was received into {{% system-name %}} . The Patient column is the patient name. The Drug column is the name & form of the drug that the e-refill request is about. The Controlled column states if it is a controlled substance or not. If it is a controlled substance, the corresponding schedule will display.
 
 ![](../e-refills-my-pending-refills-tab.assets/9918090dd72b0cdf2ccd36d53c1f3f44.png)
+
+#### System Setting
+
+The system setting *Match Patient User Prescriber ID* is available to use the prescriber id matched to an eRx request as an additional match criteria for patients in the listing.  There are times a pending refill request has a blank patient name in the column for instance, when there are duplicate charts with the same name and/or date of birth, thus the system does not want to assume a match for the refill request.  This system setting will help find a chart match (to populate the Patient name column of this listing) based on prescriber id of the original medication pending a refill for.
+
+![](../e-refills-my-pending-refills-tab.assets/f7cfb2ed8314cd6e96971e316fcb7f8c.png)
 
 ### Working an E-Refill Request
 
