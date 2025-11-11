@@ -1,8 +1,8 @@
 ---
 id: '1a1tJA-GG4ImSovy154uFVTiIvCWOfBHwZcjXuMV0Fuk'
 title: 'OSHA 300 Form Log Overlay'
-date: '2024-05-20T19:06:25.256Z'
-version: 173
+date: '2025-11-11T19:51:23.583Z'
+version: 180
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -72,7 +72,7 @@ The **Establishment Name** and information overlaid on the form log will be the 
 
 ![](../osha-300-form-log-overlay.assets/252a579a3bb80359ec4e6791e4215d08.png)
 
-The OSHA recordable** cases**/incidents that have an onsite location noted being at this Employer Organization (or any cases/incidents with onsite locations marked as locations that are children of this parent employer organization), will be overlaid on the form log with all relevant information.
+The OSHA recordable cases/incidents that have an onsite location noted being at this Employer Organization (or any cases/incidents with onsite locations marked as locations that are children of this parent employer organization), will be overlaid on the form log with all relevant information.
 
 ![](../osha-300-form-log-overlay.assets/251ef8c889500b9f2532ecb79e7db250.png)
 
@@ -120,9 +120,9 @@ The following describes the Step 1 and Step 2 side of the Form log, which is col
 
 ![](../osha-300-form-log-overlay.assets/60dac98c0d870b04606b1345b34f8b2f.png)
 
-**H) Days Away from Work Case:** If the employee has any Lost Time accommodations linked to the OSHA recordable case/incident, then the column will display an X.  If the employee had no restrictions linked nor documented to the OSHA recordable case, then the column will be blank on the overlay.****
+**H) Days Away from Work Case:** If the employee has any Lost Time accommodations linked to the OSHA recordable case/incident, then the column will display an X.  If the employee had no restrictions linked nor documented to the OSHA recordable case, then the column will be blank on the overlay.
 
-Lost Time accommodation types are any of the 5** Lost Time** accommodation options.
+Lost Time accommodation types are any of the 5 **Lost Time** accommodation options.
 
 ![](../osha-300-form-log-overlay.assets/f8f6f5f8706d5750c4ec2c11b7592406.png)
 
