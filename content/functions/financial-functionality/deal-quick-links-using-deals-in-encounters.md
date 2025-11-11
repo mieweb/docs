@@ -1,9 +1,9 @@
 ---
 id: '1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
 title: 'Deal Quick Links - Using Deals in Encounters'
-date: '2024-10-18T15:08:17.745Z'
-version: 76
-lastAuthor: 'auhrick'
+date: '2025-11-11T16:21:14.036Z'
+version: 81
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
@@ -91,7 +91,7 @@ The Financials section of the encounter will display a list of completed orders 
 
 ![](../deal-quick-links-using-deals-in-encounters.assets/38a735ce2d308f98313549d26773dd38.png)
 
-# Ordering Labs from the Encounter Visit
+## Ordering Labs from the Encounter Visit
 
 When ordering Labs from a Deal, the user should select the labs on the due list (populated by the Deal) and create a lab requisition. The Bill Type on the lab requisition Bill Type needs to be set to "**Internal**". When set to Internal, the labs ordered will display as billed on today's encounter. The "Internal" Bill Type is only available on RC 202303 and newer.
 
