@@ -1,9 +1,9 @@
 ---
 id: '1qHBp70qSV9LSeHEg056zXY8YfXpetOJv2L77zGKOCLI'
 title: 'OSHA 300A Form Log Overlay'
-date: '2025-02-24T20:15:39.190Z'
-version: 250
-lastAuthor: 'anichols'
+date: '2025-11-11T19:58:37.368Z'
+version: 257
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'common-case-search-report.md'
@@ -79,7 +79,7 @@ From the Overview (EO) tab of the employer organization chart, find the *Other D
 
 ![](../osha-300a-form-log-overlay.assets/5a0e5530ca37a481328742ab0d09ca4d.png)
 
-The OSHA recordable** cases**/incidents that have an onsite location noted being at this Employer Organization (or any cases/incidents with onsite locations marked as locations that are children of this parent employer organization), will be overlaid on the form log with all relevant counts of information.
+The OSHA recordable cases/incidents that have an onsite location noted being at this Employer Organization (or any cases/incidents with onsite locations marked as locations that are children of this parent employer organization), will be overlaid on the form log with all relevant counts of information.
 
 ![](../osha-300a-form-log-overlay.assets/c31824442d13a0d1cf248606070c8a86.png)
 
@@ -97,7 +97,7 @@ The following describes columns G-J of the log:
 
 **H) Total number of cases with days away from work:** This gives the total number of recordable cases (for the year generated) that have any Lost Time accommodations linked to the OSHA recordable case/incident.  In columns G-J, only ONE of these categories is to apply to the recordable case and is classified by the OSHA recordable case having the most serious outcome with column G (Death) being the most serious and column J (Other recordable cases) being the least serious.
 
-Lost Time accommodation types are any of the 5** Lost Time** accommodation options.
+Lost Time accommodation types are any of the 5 **Lost Time** accommodation options.
 
 ![](../osha-300a-form-log-overlay.assets/f8f6f5f8706d5750c4ec2c11b7592406.png)
 
@@ -147,7 +147,7 @@ You can use your browser's *print* ability, to generate and print the employer o
 
 ![](../osha-300a-form-log-overlay.assets/fb4724fd9c1f5df91cde1f0aec029f58.png)
 
-### OSHA 300A Form for Last Year - hyperlink in Other Data EO Overview setion
+### OSHA 300A Form for Last Year - hyperlink in Other Data EO Overview section
 
 Within the *Overview (EO)* chart tab, the Other Data section has an OSHA 300A Form for Last Year totals and document generation hyperlink available.  This hyperlink will display if your system has doc.type OSHA300A configured with a form image and form variable data overlay.
 
