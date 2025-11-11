@@ -1,12 +1,11 @@
 ---
 id: '1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 title: 'Fast Task Templates'
-date: '2025-09-10T16:44:45.168Z'
-version: 215
-lastAuthor: 'anichols'
+date: '2025-11-11T16:22:48.807Z'
+version: 221
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'http://doc.id/'
+links: []
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 wikigdrive: 'v2.15.27'
 ---
@@ -90,5 +89,5 @@ Deleting a fast task also deletes any tasklist events that may be linked to it t
 {{% /warning %}}
 
 {{% info %}}
-Any automated fast tasks setup based on encounters will trigger for the encounter document if system setting Process Esign/Tasks on Preliminary Archive is set to value 1.  If this is enabled (value 1) once you create even just a preliminary archive of an encounter, it creates the encounter document ([doc.id](http://doc.id/)) and esign/tasks it as a final document even though it's preliminary.  Most clients keep this disabled (value 0) so only final documents of encounters that are closed & archived will trigger esign and tasking rules if any are setup.
+Any automated fast tasks setup based on encounters will trigger for the encounter document if system setting Process Esign/Tasks on Preliminary Archive is set to value 1.  If this is enabled (value 1) once you create even just a preliminary archive of an encounter, it creates the encounter document (doc.id) and esign/tasks it as a final document even though it's preliminary.  Most clients keep this disabled (value 0) so only final documents of encounters that are closed & archived will trigger esign and tasking rules if any are setup.
 {{% /info %}}
