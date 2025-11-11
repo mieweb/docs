@@ -1,13 +1,14 @@
 ---
 id: '1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 title: 'Quality Reporting Enrollment'
-date: '2024-10-15T19:25:04.561Z'
-version: 194
-lastAuthor: 'auhrick'
+date: '2025-11-11T16:53:25.282Z'
+version: 202
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'measures.md'
-  - '../reports/using-datavis-grids-data-tools.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
+  - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
 wikigdrive: 'v2.15.27'
 ---
@@ -17,14 +18,14 @@ The following information is intended to walk users through the basic enrollment
 
 ## Enroll via Quality Reporting Portlet
 
-1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
+1. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
 
 {{% tip %}}
 If the Quality Reporting portlet is not enabled, click the **Select Portlets** link toward the top of the page. Select the *Quality Reporting* portlet, and click the **Save** button.
 ![](../quality-reporting-enrollment.assets/9dcbd97303112d6e3f864e9c9381405d.png)
 {{% /tip %}}
 
-2. Click the {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}} hyperlink to begin the enrollment process.
+2. Click the <em>Enroll</em> hyperlink to begin the enrollment process.
 
     ![](../quality-reporting-enrollment.assets/0ddad2de40fa9ca8eb61cd9b194aa669.png)
 
@@ -43,7 +44,7 @@ Ensure all participating provider profiles are edited with the correct National 
     ![](../quality-reporting-enrollment.assets/6ab7ae2aff9a5d57c226d795b54b2336.png)
 
 {{% info %}}
-For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](../reports/using-datavis-grids-data-tools.md) help documentation.
+For more information on filtering tables and using the DataVis grids, see the [Using DataVis Grids](https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/) help documentation.
 {{% /info %}}
 
 {{% warning %}}
@@ -71,7 +72,7 @@ As a means to assist with determining the necessary number of measures associate
 To begin, perform the following:
 
 1. Navigate to the  {{% syslink "Quick View" "func=omniscope" %}}  from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
-2. Click the  {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}}  hyperlink to begin the enrollment process.  
+2. Click the <em>Enroll</em> hyperlink to begin the enrollment process.  
     ![](../quality-reporting-enrollment.assets/0ddad2de40fa9ca8eb61cd9b194aa669.png)
 3. After the page loads, click the <strong>Guided Enrollment</strong> link that corresponds with the preferred program or type of tracking being performed. In this example, the guided process will walk through the steps and necessities associated with the MIPS program, offered through the Centers for Medicare and Medicaid Services (CMS).
 
