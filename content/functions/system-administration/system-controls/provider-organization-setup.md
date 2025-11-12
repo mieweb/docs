@@ -1,12 +1,11 @@
 ---
 id: '1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
 title: 'Provider Organization Setup'
-date: '2024-11-04T16:37:14.907Z'
-version: 198
-lastAuthor: 'anichols'
+date: '2025-11-11T21:12:29.384Z'
+version: 203
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'about:blank'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1nfiZ9Ext0hYvOXTu4_62icSfxRg680q9pkZyrGBZwUY'
 wikigdrive: 'v2.15.27'
@@ -66,7 +65,7 @@ Set the Chart Tab Properties:
 
 Add Conditional Where Clause to the PO Contacts Chart Tab to prevent the chart tab from displaying in patient's charts. Edit the PO Contacts Chart Tab and select Advanced Editor. Under Advanced Features, in the Conditional Clause field, Enter the following clause:
 
-SELECT COUNT(*) FROM patient_mrns WHERE [pat_id=@pat_id](about:blank) AND partition='PO'
+SELECT COUNT(*) FROM patient_mrns WHERE pat_id=@pat_id AND partition='PO'
 
 ![](../provider-organization-setup.assets/625337e714d4ec012dd613a11e43cdff.png)
 
