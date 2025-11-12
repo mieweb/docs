@@ -1,9 +1,9 @@
 ---
 id: '1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
 title: 'Data Migration File Format Standard'
-date: '2020-03-17T01:50:37.727Z'
-version: 44
-lastAuthor: ''
+date: '2025-11-12T15:33:41.145Z'
+version: 52
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
