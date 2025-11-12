@@ -1,8 +1,8 @@
 ---
 id: '1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
 title: 'Data Migration File Format Standard'
-date: '2025-11-12T16:58:18.540Z'
-version: 58
+date: '2025-11-12T19:03:16.363Z'
+version: 68
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -59,7 +59,7 @@ The following sections show some common errors, with examples of how they should
 
 ```
 
-* Because the delimiter is an apostrophe and the string contains an apostrophe, the delimiter character within the string will need to be escaped. The string is now enclosed, and the apostrophe within the string has been escaped, (e.g., 'This time the string is enclosed, but the apostrophe isn''t escaped, which could be nasty'). Because the string <em>O'Reilly</em> is not enclosed with apostrophes, the apostrophe does not need to be escaped. 
+* Because the delimiter is an apostrophe and the string contains an apostrophe, the delimiter character within the string will need to be escaped. The string is now enclosed, and the apostrophe within the string has been escaped, (e.g., 'This time the string is enclosed, but the apostrophe isn''t escaped, which could be nasty'). Because the string <em>O'Reilly</em> is not enclosed with apostrophes, the apostrophe does not need to be escaped.
 
 {{% tip %}}
 A backslash ( \ ) can also be used to escape, as needed (e.g., 'isn''t' could also have been escaped like this: 'isn\'t').
