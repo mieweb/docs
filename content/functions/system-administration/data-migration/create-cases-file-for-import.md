@@ -1,14 +1,13 @@
 ---
 id: '12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
 title: 'Create Cases File for Import'
-date: '2020-03-17T02:53:32.574Z'
-version: 42
-lastAuthor: ''
+date: '2025-11-12T16:39:09.899Z'
+version: 50
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/'
-  - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
   - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
 source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
@@ -128,11 +127,11 @@ What you will need:
 ## Upload Injury Cases CSV File
 
 1. Login as a user with administrator rights.
-2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
+2. Navigate to the Control Panel from the side menu.
 
 ![](../create-cases-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
-3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
+3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
 ![](../create-cases-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
