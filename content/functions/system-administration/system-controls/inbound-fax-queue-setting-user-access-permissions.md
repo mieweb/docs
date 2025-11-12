@@ -1,11 +1,12 @@
 ---
 id: '1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
 title: 'Inbound Fax Queue - Setting User Access Permissions'
-date: '2025-06-20T14:09:43.766Z'
-version: 148
+date: '2025-11-12T13:52:00.752Z'
+version: 155
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
 wikigdrive: 'v2.15.27'
 ---
@@ -100,3 +101,9 @@ To search by recipient, select the dropdown list and click on the recipient fax 
 This will display the specific recipient that was selected below.
 
 ![](../inbound-fax-queue-setting-user-access-permissions.assets/1e11c68210b92bd763dd2910261bca10.png)
+
+## Learning Management System
+
+To learn more about the Inbound Fax Queue, follow the link below to the Learning Management System course:
+
+* [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)
