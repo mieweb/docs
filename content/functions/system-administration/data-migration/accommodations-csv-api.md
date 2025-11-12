@@ -1,9 +1,9 @@
 ---
 id: '1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
 title: 'Accommodations CSV API'
-date: '2024-12-18T14:36:25.859Z'
-version: 38
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:23:06.155Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/case-management-csv-api/'
@@ -29,11 +29,11 @@ The following CSV APIs import information used to build a case:
 * [Conditions CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/conditions-csv-api/)
 * [Nature of Injury CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/nature-of-injury-csv-api/)
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Clinical Encounter CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Case Management CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time from an existing system.
 
@@ -94,8 +94,6 @@ The required IDs listed here serve to correctly identify the patient and link to
 ## Examples
 
 * [Accommodations Downloadable CSV](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=1481656376&single=true&output=csv)
-
-## Validation
 
 ## Related Pages
 
