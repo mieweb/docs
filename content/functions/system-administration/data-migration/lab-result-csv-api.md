@@ -1,9 +1,9 @@
 ---
 id: '1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
 title: 'Lab Result CSV API'
-date: '2024-12-18T14:11:10.522Z'
-version: 44
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:42:19.963Z'
+version: 51
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
@@ -15,17 +15,17 @@ wikigdrive: 'v2.15.27'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the XYZ API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Lab Results CSV API imports data related to lab data. CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
 Lab results are stored in a chart as a document. A **document** in an EH system is used to record and store many forms data. HL7 messages send all of the information used to create a lab document. The common order segment (ORC) message with visit information (DOS) creates the document in the EH database. The observation request (OBR) message includes the order number and panel or test name to create the lab request. The observation segment (OBX) transmits the observed date, results, units, and range to create the observation. Revisions are stored as well as the date/time the results were received.
 
-All lab results are stored both as discrete data. Discrete data can be displayed in EH as a **flowsheet,**or collection of results.
+All lab results are stored both as discrete data. Discrete data can be displayed in EH as a **flowsheet**, or collection of results.
 
 ![](../lab-result-csv-api.assets/a227f45c633d223b420da98d1e1a7948.png)
 
