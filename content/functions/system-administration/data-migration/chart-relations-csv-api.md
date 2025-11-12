@@ -1,9 +1,9 @@
 ---
 id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
 title: 'Chart Relations CSV API'
-date: '2024-12-18T14:27:35.739Z'
-version: 62
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:54:46.589Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -14,11 +14,11 @@ wikigdrive: 'v2.15.27'
 ---
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Relations CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Chart Relations CSV API is used to import various relationships between charts; between patients, users, organizations, or other entities.
 
