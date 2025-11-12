@@ -1,9 +1,9 @@
 ---
 id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 title: 'Injections CSV API'
-date: '2024-12-18T14:15:48.608Z'
-version: 59
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:06:33.248Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -18,11 +18,11 @@ wikigdrive: 'v2.15.27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Injections CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 Enterprise Health stores discrete data for injections/immunizations, which can be displayed in multiple ways.
 
@@ -232,7 +232,7 @@ The CDC Immunization Information Systems CVX Codes are available here: http://w
 
 The following fields (indicated in the Data Name column) are noted as required (R) or are recommended as best practice (BP) in the Injections CSV API specification. Additional details and considerations are provided here.
 
-**Required**
+#### Required
 
 The following fields are required:
 
@@ -241,13 +241,13 @@ The following fields are required:
 * <em>Test Date/Time</em> (documents.service_date) is used to indicate when the test was conducted, and must be in SQL format. YYYY-MM-DD HH:MM:SS (2015-09-28 15:42:24).
 * <em>Injection Description</em> (injections.description) is the text description of the injection given.
 
-**Best Practice**
+#### Best Practice
 
 The following fields are optional, but provide useful details for record keeping purposes:
 
 * <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes.
 
-**Optional fields**
+#### Optional fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
