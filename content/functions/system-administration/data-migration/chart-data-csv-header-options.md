@@ -1,9 +1,9 @@
 ---
 id: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 title: 'Chart Data CSV Header Options'
-date: '2022-06-15T16:48:55.681Z'
-version: 612
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:03:27.937Z'
+version: 618
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'chart-data-csv-api.md'
@@ -18,7 +18,7 @@ The following page was created for technical staff involved in importing data to
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
-### Definitions
+## Definitions
 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.
