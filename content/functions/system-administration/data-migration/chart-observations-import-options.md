@@ -1,12 +1,12 @@
 ---
 id: '179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
 title: 'Chart Observations Import Options'
-date: '2020-02-27T21:31:09.639Z'
-version: 42
-lastAuthor: 'aquandt'
+date: '2025-11-12T20:34:57.836Z'
+version: 50
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/'
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
@@ -14,20 +14,20 @@ wikigdrive: 'v2.15.27'
 ---
 The following options are allowed. Any other options are unsupported and will be rejected.
 
-### Insert Options
+## Insert Options
 
 * REVISE
 * UPDATE
 * INSERT
 * DELETE_THEN_INSERT
 
-### Blank Options
+## Blank Options
 
 * ALLOW_BLANK
 * DELETE_BLANK
 * IGNORE_BLANK
 
-### Distinct Options
+## Distinct Options
 
 * ALLOW_DUPLICATE
 * DISTINCT
@@ -42,7 +42,7 @@ The following scenario provides examples of each type of processing possible for
 
 ### Initial Data
 
-We will start with the contents of [File:GenericImportTestOBS A.csv](https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv).
+We will start with the contents of [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/).
 
 {{% pre %}}
 ```
