@@ -1,8 +1,8 @@
 ---
 id: '1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
 title: 'Secure Email to Whitelisted Domain(s)'
-date: '2024-07-22T14:19:43.162Z'
-version: 98
+date: '2025-11-12T13:58:42.170Z'
+version: 108
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -20,14 +20,14 @@ Only certain storage types can be securely emailed using this secure email funct
 
 ## Permissions and Security
 
-Initially, the  {{% system-name %}} system must be setup with secure connection to other email domains. Work with your MIE Implementer and MIE developer for this connection. Once a secure connection between MIE and the  {{% system-name %}} system domain is established, the MIE Implementer or developer will set that domain into the system setting *Webchart*, *Email*, *Whitelist Domains* so the  {{% system-name %}} system knows which domains are setup as secure domains. You would never add gmail.com or those type of domains here in the system setting. MIE must establish a secure connection (via specific methods) to the domain you wish users to be able to email out to.
+Initially, the  {{% system-name %}} system must be setup with secure connection to other email domains. Work with your MIE Implementer and MIE developer for this connection. Once a secure connection between MIE and the  {{% system-name %}} system domain is established, the MIE Implementer or developer will set that domain into the system setting *Webchart*, *Email*, *Whitelist Domains* so the  {{% system-name %}} system knows which domains are setup as secure domains. You would never add gmail.com or those types of domains here in the system setting. MIE must establish a secure connection (via specific methods) to the domain you wish users to be able to email out to.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/91566388fd1673a88963046de201bbc4.png)
 
 Lastly, the  {{% system-name %}} users must have security access to *securely email documents* if they are permitted to email out documents from  {{% system-name %}} to any whitelisted domains.
 
 {{% tip %}}
-This security permission is different than the security permission to email patients. This security setting is for being able to securely email documents/records from patient charts to others who use a whitelisted domain email address.
+This security permission is different from the security permission to email patients. This security setting is for being able to securely email documents/records from patient charts to others who use a whitelisted domain email address.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/71173aa0c9b144a8d2dcc3106822ed6a.png)
 {{% /tip %}}
@@ -37,7 +37,7 @@ This security permission is different than the security permission to email pati
 When in the patient's chart and you wish to email a specific (one) document, click the *Print* or *Fax* option on the top right of the opened document screen view.
 
 {{% warning %}}
-Do not go to File, then down to Print in the Microsoft Windows toolbar at the very top. This is not compatible with any printing in  {{% system-name %}} .
+Do not go to File, then down to Print in the toolbar at the very top. This is not compatible with any printing in  {{% system-name %}} .
 {{% /warning %}}
 
 ![](../secure-email-to-whitelisted-domain-s.assets/be63f8e2b1318a70310281fc91bb3e68.png)
@@ -50,7 +50,7 @@ Once the *secure email* radio button is selected, the bottom portion of that s
 
 ![](../secure-email-to-whitelisted-domain-s.assets/ff4aa5325b8e3de3ed661612eab92daf.png)
 
-* <strong>Recipients:</strong> Begin typing in the email address to whom you want to send the document to. Hit the <em>tab</em> keyboard key or the <em>add</em>button. If need to add another email address to email the same document to, continue again. Otherwise even if just sending to one email address, you need to hit the <em>tab</em> key or the <em>add</em> button. Doing that will trigger the  {{% system-name %}} system to process if that email domain is a secure connected whitelist domain or a ‘direct' HISP domain connection or if the email address is insecure and cannot be transmitted to.
+* <strong>Recipients:</strong> Begin typing in the email address to whom you want to send the document to. Hit the <em>tab</em> keyboard key or the <em>add</em> button. If you need to add another email address to email the same document to, continue again. Otherwise even if just sending to one email address, you need to hit the <em>tab</em> key or the <em>add</em> button. Doing that will trigger the  {{% system-name %}} system to process if that email domain is a secure connected whitelist domain or a ‘direct' HISP domain connection or if the email address is insecure and cannot be transmitted to.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/08d595f62eea0358539c00a2d0bed44a.png)
 
@@ -66,7 +66,7 @@ In review, the  {{% system-name %}} system can only email documents via secure 
 
 ![](../secure-email-to-whitelisted-domain-s.assets/cc39f6c3d38697c579bcbfbef5d6e100.png)
 
-If you hover your mouse over the (?) help bubble in the recipients field, it will help explain the recipient must have a ‘direct' protocol exchange email address or an email address (domain) of what has been setup as whitelisted in your system. It will list those domains that were setup with secure connection in this (?) help bubble so you know what email address domains are secure to send documents to.
+If you hover your mouse over the (?) help bubble in the recipients field, it will help explain that the recipient must have a ‘direct' protocol exchange email address or an email address (domain) of what has been set up as whitelisted in your system. It will list those domains that were set up with secure connection in this (?) help bubble so you know what email address domains are secure to send documents to.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/1e23130c0b7b7672d39687d23fff0d72.png)
 
@@ -100,11 +100,11 @@ When you scroll all the way to the bottom you will see the bucket *Email Histor
 
 ![](../secure-email-to-whitelisted-domain-s.assets/7ee6c33a65b72a442f3f2493bef0fbd9.png)
 
-The generated email itself stores as a separate document within the patient/employee chart. It stores as a document named ‘email' with the date of service as the date the email was generated. This keeps record of what/when was emailed out as it's own separate document in the patient/employee chart.
+The generated email itself stores as a separate document within the patient/employee chart. It stores as a document named ‘email' with the date of service as the date the email was generated. This keeps record of what/when was emailed out as its own separate document in the patient/employee chart.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/277b0d8e9c08ab5995a31a4cb1763f5d.png)
 
-If you click to open the stored email document that stored to the patient/employee chart it will display the specific email that was send out (generated) from the system and what document was emailed out.
+If you click to open the stored email document that is stored to the patient/employee chart it will display the specific email that was sent out (generated) from the system and what document was emailed out.
 
 ![](../secure-email-to-whitelisted-domain-s.assets/72821c842635fb4d80a959de712e88c2.png)
 
