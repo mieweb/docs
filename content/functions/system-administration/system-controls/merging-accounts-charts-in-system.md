@@ -1,11 +1,12 @@
 ---
 id: '1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
 title: 'Merging Accounts/Charts in System'
-date: '2025-11-11T20:25:38.072Z'
-version: 348
-lastAuthor: 'anichols'
+date: '2025-11-12T14:14:55.105Z'
+version: 359
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZZQDNHRK'
 source: 'https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
 wikigdrive: 'v2.15.27'
 ---
@@ -209,3 +210,9 @@ You must have specific security permissions set to merge inside or outside or al
 This same "merging" functions & searches is available in the **Merge portlet** in the patient summary interactive tab if you have that portlet displayed for your view. The same security permissions respect for this portlet also.
 
 ![](../merging-accounts-charts-in-system.assets/46ffd14dd52dfa7cb05a896565e367c1.png)
+
+## Learning Management System
+
+To learn more about Merging Accounts/Charts, follow the link below to the Learning Management System course:
+
+* [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)
