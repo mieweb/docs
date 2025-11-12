@@ -1,11 +1,12 @@
 ---
 id: '1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
 title: 'Patient Chart File Export'
-date: '2025-06-24T14:13:20.657Z'
-version: 54
+date: '2025-11-12T18:58:03.590Z'
+version: 60
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/e-chart/patient-summary-interactive-chart-tab/'
 source: 'https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
 wikigdrive: 'v2.15.27'
 ---
@@ -31,7 +32,7 @@ The available portlets will open in a pop-up window for your selection. Checkmar
 
 It will refresh you back to the patient's summary view and it will show the section(s) you selected for your view at the end of the columns. You can ‘move' the section to where you want to on the Patient Summary view.
 
-See other help documentation named *Patient Summary-Interactive Chart Tab.pdf* for instructions on how to move and more details on how to manage the Patient Summary view screen to your preference.
+See other help documentation named [Patient Summary-Interactive Chart Tab](https://docs.enterprisehealth.com/functions/e-chart/patient-summary-interactive-chart-tab/) for instructions on how to move and more details on how to manage the Patient Summary view screen to your preference.
 
 ### Patient Chart File Export
 
