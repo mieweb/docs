@@ -1,11 +1,12 @@
 ---
 id: '1yKC2c9EtO3QjCF8EoLF52NjXzXSlSOxQv9_d4cmU7Tc'
 title: 'Add Referring Physician Users'
-date: '2025-06-20T16:57:07.287Z'
-version: 84
+date: '2025-11-11T21:08:37.087Z'
+version: 92
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/user-provider-and-department-management/'
 source: 'https://drive.google.com/open?id=1yKC2c9EtO3QjCF8EoLF52NjXzXSlSOxQv9_d4cmU7Tc'
 wikigdrive: 'v2.15.27'
 ---
@@ -92,6 +93,6 @@ At the very top will say in blue "user () was updated successfully". Or, it will
 
 ![](../add-referring-physician-users.assets/dbc9534d89446fc9098577e6ca899bcc.png)
 
-You can quickly tag multiple users (in mass) to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled *Adding A Department.pdf* for more information.
+You can quickly tag multiple users (in mass) to a specific department by going to "View Department" and using the listedit & autocomplete feature there. See help documentation titled [Adding A Department](https://docs.enterprisehealth.com/functions/system-administration/system-controls/user-provider-and-department-management/) for more information.
 
 ![](../add-referring-physician-users.assets/29353992fc60f3041d7c61bbfcae93b2.png)
