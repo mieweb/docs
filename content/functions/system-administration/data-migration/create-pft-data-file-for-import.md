@@ -1,14 +1,13 @@
 ---
 id: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
 title: 'Create PFT Data File for Import'
-date: '2020-03-17T02:47:24.604Z'
-version: 38
-lastAuthor: ''
+date: '2025-11-12T16:34:27.034Z'
+version: 46
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/'
-  - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
   - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
@@ -151,11 +150,11 @@ What you will need:
 ## Upload PFT Data CSV File
 
 1. Login as a user with administrator rights.
-2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
+2. Navigate to the Control Panel from the side menu.
 
 ![](../create-pft-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
-3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
+3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
 ![](../create-pft-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
