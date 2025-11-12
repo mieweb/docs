@@ -1,23 +1,23 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-11-11T14:59:42.876Z'
-version: 679
+date: '2025-11-12T16:26:21.237Z'
+version: 711
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/'
-  - '../system-administration/data-migration/completed-orders-import-tool.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
-  - 'viewing-health-surveillance-panels-and-membership.md'
-  - 'health-surveillance-panels-automated-membership.md'
-  - '../system-administration/data-migration/panel-membership-import-tool.md'
-  - 'health-surveillance-panels-add-memberships-manually.md'
-  - 'panel-action-evaluator.md'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/viewing-health-surveillance-panels-and-membership/'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-automated-membership/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/work-locations-tab/'
   - 'health-surveillance-matrix-descriptions.md'
-  - '../system-configuration/work-locations-tab.md'
-  - 'health-surveillance-panels-action-rules.md'
-  - '../health-surveillance.md'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-action-rules/'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 wikigdrive: 'v2.15.27'
@@ -57,29 +57,29 @@ Add all of the necessary HS panels by navigating to the Control Panel and utiliz
 
 Add all panel actions, as well as any necessary action rules. Panel actions are simply any and all required tests for a given panel. Adding panel actions and configuring them accordingly will add the necessary components to the HS panel, indicating to the {{% system-name %}} system when to notify the appropriate recipient(s) for scheduling or testing requirements of the panel.
 
-### [Step Six: ](../system-administration/data-migration/completed-orders-import-tool.md)[Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md)
+### [Step Six: Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/)
 
 Action items that are configured with a Trigger Date of **Prior Action (Completed)** will require an order item be specified, in order for there to be an available record in the chart history with a Last Completed Date. This is necessary, so that any additional triggered actions dependent upon the Last Completed Date of the specified order item will be triggered. It is important to have the Last Completed Date imported during the data migration process, prior to enabling any membership automated scheduled jobs, or enabling the HR interface (where applicable), to ensure that surveillance action items trigger with the appropriate Due Dates. This is needed for manual and/or automated panel membership requirements.
 
 Action items configured with a trigger of **Panel Expiration** require that a panel status due date be set or the employee will be considered immediately due upon enrollment into the panel. The panel status date can be manually entered on charts via the Panel Membership tab. Other options include migrating data from another system or manually imported with the [Data Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/). 
 
-### [Step Seven: ](viewing-health-surveillance-panels-and-membership.md)[Panel Memberships](viewing-health-surveillance-panels-and-membership.md)
+### [Step Seven:  Panel Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/viewing-health-surveillance-panels-and-membership/)
 
 Determine how charts will become members, or be included in HS panels. To establish membership criteria, navigate to the Control Panel and use the **Health Surveillance** menu, found under the **HSP** tab. Locate the panel needing membership criteria from the list and click the **Membership** hyperlink, found to the right, under the Options column. Out of the box, panel memberships will be maintained by staff, manually, unless there are panel membership rules programmed using these fields: Location, Building, Cost Center, or Job Class.
 
-* [Automated (Implicit) Memberships](health-surveillance-panels-automated-membership.md)
+* [Automated (Implicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-automated-membership/)
 
     {{% system-name %}} has the ability to automate panel memberships, placing charts into their respective panels, automatically, depending on fields such as Location, Building, Cost Center or Job Class. It is important to have the necessary system settings configured appropriately in order to have functional automated membership. Because the membership is automated from location, building, cost center, or job class, the membership is understood to be implicit. Additional automated membership programming clauses can be programmed and customized by MIE, if necessary.
 
-* [Panel Membership Import Tool](../system-administration/data-migration/panel-membership-import-tool.md)
+* [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/)
 
     When utilizing the Panel Membership Import Tool in {{% system-name %}} , every membership is inserted as explicit. The same is true when entering memberships manually. The Panel Membership Import Tool simply allows a large number of memberships to be added manually, quickly and easily, by way of a template and import tool.
 
-* [Manually Add (Explicit) Memberships](health-surveillance-panels-add-memberships-manually.md)
+* [Manually Add (Explicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/)
 
     Users may add individual charts to specific memberships, as needed.  This will insert the membership as explicit.
 
-* [Viewing Current Members of Panels](viewing-health-surveillance-panels-and-membership.md)
+* [Viewing Current Members of Panels](https://docs.enterprisehealth.com/functions/health-surveillance/viewing-health-surveillance-panels-and-membership/)
 
     Users may need to view current members of panels, as well as any current automated {{% system-name %}} panel membership rules that may be set up for a specific panel. Review and maintain regularly, to always ensure proper tracking and management.
 
@@ -91,7 +91,7 @@ It is important to determine what will need to be considered for any automated, 
 
 Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
 
-### [Step ](panel-action-evaluator.md)[Ten: Panel Action Evaluator](panel-action-evaluator.md)
+### [Step ](https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/)[Ten: Panel Action Evaluator](https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/)
 
 Clicking the **Panel Action Evaluator** link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
 
@@ -99,7 +99,7 @@ Clicking the **Panel Action Evaluator** link (found under the Health Surveillan
 
 Again, the **initial** steps to consider prior to configuring HS panels are as follows:
 
-1. <strong>Utilize the</strong> [<strong>Health Surveillance Matrix</strong>](health-surveillance-matrix-descriptions.md)<strong> to identify all necessary panels and their respective configurations.</strong>
+1. <strong>Utilize the</strong> [<strong>Health Surveillance Matrix</strong>](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/)<strong> to identify all necessary panels and their respective configurations.</strong>
 2. <strong>Add any necessary Appointment Types to the</strong> <strong><em>{{% system-name %}}</em></strong>'<strong> system for the HS panels.</strong>
 3. <strong>Add any necessary order items for the respective panel actions of the HS panels.</strong>
 
@@ -113,38 +113,33 @@ When access has been provided, designated users may utilize the Health Surveilla
 
 The current active panels, or the search results, will display below the following columns:
 
-**Panel**: Displays the abbreviated name of the panel.
-
-**Name**: Displays the full name/description of the panel.
-
-**Description**: Displays any length of text providing any helpful information to explain the panel, what the panel is for, who is to be included in it, etc.
-
-**Cert**: If Yes, at least one associated action on the panel is marked Required for Certification; if No, no actions are marked Required for Certification.
-
-**Modified**: Displays the username, along with the date and time, of when the panel was last modified.
-
-**Status**: Active or Inactive. Displays either Active or Inactive panels, depending on the search criteria set.
+* <strong>Panel</strong>: Displays the abbreviated name of the panel.
+* <strong>Name</strong>: Displays the full name/description of the panel.
+* <strong>Description</strong>: Displays any length of text providing any helpful information to explain the panel, what the panel is for, who is to be included in it, etc.
+* <strong>Cert</strong>: If Yes, at least one associated action on the panel is marked Required for Certification; if No, no actions are marked Required for Certification.
+* <strong>Modified</strong>: Displays the username, along with the date and time, of when the panel was last modified.
+* <strong>Status</strong>: Active or Inactive. Displays either Active or Inactive panels, depending on the search criteria set.
 
 ### Add HS Panels
 
 Looking at the 10 steps outlined at the beginning, users should now be able to begin adding panels, since all appointment types and order items have been added.
 
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. <strong>Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel. However, if a panel has a Representative Event and needs configured accordingly, see the instructions, below</strong>.
 
-Utilizing the information acquired with the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md), begin adding the specific HS panels needed. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md), to ease the burden of initial setup and configuration. This allows users to export from other systems and import to the {{% system-name %}} system, requiring just minimal review and potential tweaking to ensure all imported components still fit the triggers and action rules. When using this tool, order items will be created on the fly, rather than putting the burden of creating the orders on the user.
+Utilizing the information acquired with the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/), begin adding the specific HS panels needed. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/), to ease the burden of initial setup and configuration. This allows users to export from other systems and import to the {{% system-name %}} system, requiring just minimal review and potential tweaking to ensure all imported components still fit the triggers and action rules. When using this tool, order items will be created on the fly, rather than putting the burden of creating the orders on the user.
 
 Otherwise, users may add panels manually, completing the following fields, accordingly:
 
 * <strong>Panel</strong>: Required. This is the abbreviated, unique name of the panel. This field cannot be modified once saved.
 * <strong>Full name</strong>: Required. This is the full name/description of the panel; usually the same as the Panel field, but it may be different. The full name will be displayed for this panel in listings and dialogues throughout the system.
-* <strong>Work Regions</strong>: This field is used to set one or more work regions to which the panel is to be limited. This field will only show if the Use Work Regions system setting is enabled and the Work Regions manager tab is configured in the system. Setting work regions would be for clients who have different panels for charts in other regions of the world. This functionality assists with searching for other users within the system, as well as limiting the visibility of panel choices in panel membership. See the [Work Regions-Work Locations Tab](../system-configuration/work-locations-tab.md) documentation for more information.
+* <strong>Work Regions</strong>: This field is used to set one or more work regions to which the panel is to be limited. This field will only show if the Use Work Regions system setting is enabled and the Work Regions manager tab is configured in the system. Setting work regions would be for clients who have different panels for charts in other regions of the world. This functionality assists with searching for other users within the system, as well as limiting the visibility of panel choices in panel membership. See the [Work Regions-Work Locations Tab](https://docs.enterprisehealth.com/functions/system-configuration/work-locations-tab/) documentation for more information.
 * <strong>Description</strong>: Free text field. This field may be as descriptive as necessary. Displays any length of text providing any helpful information to explain the panel, what the panel is for, who is to be included in it, etc.
 * <strong>Regulatory Source</strong>: Use this field to add the regulatory source/group that has issued a requirement for these actions to be done. This is a free text field; however  will remember prior sources entered in the system.
 * <strong>Regulatory Reference</strong>: Use this field to provide an identifier, or number that identified the regulation or rule being tracked (e.g., the OSHA code used to support the order items required for surveillance); otherwise, this field may be left blank/no data.
-* <strong>Regulatory Status</strong>:  Add the status of the regulation (e.g., proposed, accepted, active, adopted, etc.). This is a free text field; howeverwill remember prior statuses entered in the system.
+* <strong>Regulatory Status</strong>:  Add the status of the regulation (e.g., proposed, accepted, active, adopted, etc.). This is a free text field; however will remember prior statuses entered in the system.
 * <strong>Open Membership</strong>: Selecting this causes the panel to display on the HS membership matrix even if the respective chart is not a member.
 * <strong>Active</strong>: Select this to mark the panel as active. If unchecked, the panel still saves in, but is marked as inactive.
 * <strong>Restricted</strong>: Selecting this indicates that managing this panel's membership will be limited, or restricted to specific users and/or departments. Only permitted/allowed users/departments are able to add charts to the panel and create membership rules.
@@ -224,12 +219,12 @@ If the panel action is for a type of exposure, users will not want to set any Le
 {{% /tip %}}
 
 * <strong>Required for Certification</strong>: Select this to indicate the panel action is required for members of the panel. Leave unchecked if the panel action is voluntary. If checked, a panel member failing or becoming overdue for the action will become de-certified from the panel.
-* <strong>Indication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. For more information on the Action Rules, see the [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation. The action rule must evaluate to <strong>True</strong> in order for this panel action to trigger for a panel member. [Action Rules](#action-rules) are usually configured by an MIE Developer after an MIE Implementer has collected all of the necessary details for the configuration.
+* <strong>Indication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. For more information on the Action Rules, see the [Health Surveillance Action Rules](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-action-rules/) documentation. The action rule must evaluate to <strong>True</strong> in order for this panel action to trigger for a panel member. [Action Rules](#action-rules) are usually configured by an MIE Developer after an MIE Implementer has collected all of the necessary details for the configuration.
 
     * Indication Rules can be used to only trigger the panel action for a member of the panel, if they are part of a specific department, for example. Or another more complex example would be a panel action configured to trigger a Hep3rd injection, only if the member of the panel had the second Hepatitis injection given within the last 8 weeks.
 
-* <strong>Contraindication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. The action rule must evaluate to <strong>False</strong> in order for this panel action to trigger for a panel member. For more information on the Action Rules, see the [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation.
-* <strong>Trigger Type</strong>: Entry, Routine, Exit. Select the type of trigger, to define at what point in the panel member's current role/job status, the regulating agency or company requires the panel action to be completed. Entry will trigger when a panel member is first put in the panel. The Panel Evaluator scheduled job will run every day, triggering panels as appropriate, based on the the configured panel actions and the trigger type selected.
+* <strong>Contraindication Rule</strong>: Users can select any action rule found in the Action Rules editor, using the drop-down. The action rule must evaluate to <strong>False</strong> in order for this panel action to trigger for a panel member. For more information on the Action Rules, see the [Health Surveillance Action Rules](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-action-rules/) documentation.
+* <strong>Trigger Type</strong>: Entry, Routine, Exit. Select the type of trigger, to define at what point in the panel member's current role/job status, the regulating agency or company requires the panel action to be completed. Entry will trigger when a panel member is first put in the panel. The Panel Evaluator scheduled job will run every day, triggering panels as appropriate, based on the configured panel actions and the trigger type selected.
 * <strong>Trigger Date</strong>: On what date should the panel action trigger? Use the drop-down to select one of the following Trigger Dates:
 
     * <strong>Date of Birth</strong>: Triggers the panel action on the panel member's date of birth, on a schedule determined by the starting age and frequency. Assumes the panel member's DOB has been captured in the chart demographics.
@@ -303,7 +298,7 @@ Action items to be used for the Trigger Date must be entered into the panel, fir
 
 Looking back to the 10-step process in order to stay on track, users should *still* be on Step 5:
 
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
@@ -345,18 +340,18 @@ After selecting the chart, the test rule result will display as True or False, a
 
 ![](../health-surveillance-playbook.assets/8b810077324b73d904ca2db741d6ffb0.png)
 
-For more information on Action Rules, be sure to check out our [Health Surveillance Action Rules](health-surveillance-panels-action-rules.md) documentation.
+For more information on Action Rules, be sure to check out our [Health Surveillance Action Rules](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-action-rules/) documentation.
 
 ### Completed Order Import Tool
 
 Looking back on the 10 steps outlined at the beginning, users should be considering step 6:
 
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
 5. Similarly, action items/representative events, as well as possible action rules need to be added to the panels to complete configuration.
-6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md).
+6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/).
 
 Action items that are configured with a Trigger Date of **Prior Action (Completed)** will require an order item be specified, in order for there to be an available record in the chart history with a Last Completed Date. This is necessary, so that any additional triggered actions dependent upon the Last Completed Date of the specified order item will be triggered. It is important to have the Last Completed Date imported during the data migration process, prior to enabling any membership automated scheduled jobs, or enabling the HR interface (where applicable), to ensure that surveillance action items trigger with the appropriate Due Dates. This is needed for manual and/or automated panel membership requirements.
 
@@ -364,12 +359,12 @@ Action items that are configured with a Trigger Date of **Prior Action (Complet
 
 Next in the 10-step process, is panel membership. Out of the box, panel memberships will be maintained by staff, manually, unless there are panel membership rules programmed using the default fields (i.e., Location, Building, Cost Center, or Job Class).
 
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
 5. Similarly, action items/representative events, as well as possible action rules need to be added to the panels to complete configuration.
-6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md).
+6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/).
 7. <strong>Determine how charts will become members, or be included in HS panels.</strong>
 
 When reviewing panel membership, it is important to understand the different types of membership available in the {{% system-name %}} system, as well as how membership can be configured and maintained. The most basic breakdown looks at automated membership ([Implicit](#implicit)) versus manual membership ([Explicit](#explicit)). More on that below.
@@ -412,7 +407,7 @@ Once the Panel Membership editor loads, users may add inclusion rules and/or exc
 
 ![](../health-surveillance-playbook.assets/7d11d768c59192ca4ee9e8eba467e039.png)
 
-It is recommended that configuring and testing surveillance panels be done in a DEV/QA system, first. Simply [export/import the panels to the system](#export-import-the-panels-to-the-system), set up the necessary rules, and test to validate. Utilize the [Panel Action Evaluator](panel-action-evaluator.md) to perform a spot-check.
+It is recommended that configuring and testing surveillance panels be done in a DEV/QA system, first. Simply [export/import the panels to the system](#export-import-the-panels-to-the-system), set up the necessary rules, and test to validate. Utilize the [Panel Action Evaluator](https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/) to perform a spot-check.
 
 {{% note %}}
 It is important for the MIE implementer to have the scheduled job enabled for the panel membership evaluator, as well as the panel action items evaluator, to run each night if automated membership rules are set in place. These scheduled jobs are what make the panel action evaluator run, and the automated membership rules run nightly.
@@ -476,24 +471,24 @@ The panel action items will also trigger on the chart **Due List**, as soon as t
 
 ![](../health-surveillance-playbook.assets/53080d1e62a1dc2a09139c03e502d759.png)
 
-Administrators needing additional information on checking or viewing panel membership, please see our [Health Surveillance](../health-surveillance.md) documentation for the relevant pages.
+Administrators needing additional information on checking or viewing panel membership, please see our [Health Surveillance](https://docs.enterprisehealth.com/functions/health-surveillance/) documentation for the relevant pages.
 
 ### Scheduled Jobs, Notifications, and Panel Action Evaluator
 
 With the HS panels configured and ready for final testing and implementation, the last few steps of the process involve automation, notification, and ongoing maintenance needs:
 
-1. Utilize the [Health Surveillance Matrix](health-surveillance-matrix-descriptions.md) to identify all necessary panels and their respective configurations.
+1. Utilize the [Health Surveillance Matrix](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-matrix-descriptions/) to identify all necessary panels and their respective configurations.
 2. Add any necessary Appointment Types to the {{% system-name %}} system for the HS panels.
 3. Add any necessary order items for the respective panel actions of the HS panels.
 4. Once initial configurations are completed, add all necessary panels via the Health Surveillance menu of the Control Panel.
 5. Similarly, action items/representative events, as well as possible action rules need to be added to the panels to complete configuration.
-6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](../system-administration/data-migration/completed-orders-import-tool.md).
+6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/).
 7. Determine how charts will become members, or be included in HS panels.
 8. <strong>Scheduled Jobs: Panel Evaluator and Membership</strong>
     a.  It is important to determine what will need to be considered for any automated, or scheduled, jobs. For instance, the Panel Evaluator and Membership scheduled jobs will need to have established setup times in the cut-over plan when ready for go-live, if automation will be needed in the {{% system-name %}} system.
 9. <strong>Email Notifications Driven by Scheduled Job</strong>
     a.  Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
-10. [<strong>Panel Action Evaluator</strong>](panel-action-evaluator.md)
+10. [<strong>Panel Action Evaluator</strong>](https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/)
     a.  Clicking the <strong>Panel Action Evaluator</strong> link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
 
 ## Data Migration Workflow Considerations
@@ -606,8 +601,6 @@ The {{% system-name %}} system also has a unique chart tab that resides within t
 
 
 ![](../health-surveillance-playbook.assets/0056a5262bad2745cae1b5813b2c9d49.png)
-
-
 {{% /note %}}
 
 Migrating completed orders from exams is one strategy, but that requires mapping hundreds of orders, and adds additional complexity, fees, and timeline. A slightly quicker strategy is to identify the legacy representative event for the exposure panel, and use the Next Due Date for the panel status Next Due. This screenshot shows the audio test (92551) as the representative event for the Hearing Protection (HCP) exposure panel.
@@ -688,8 +681,9 @@ Because the Export Panels link only pulls panels that are displayed on the scree
 
 1. Want to perform a panel search by keyword, clicking Search when ready.
 2. Click the Export Panels link.
-3. Make sure only the desired panel to be exported is selected. This ensures all other panels do not copy, avoiding the extra work of having to de-select any unwanted panels. 
-    ![](../health-surveillance-playbook.assets/55eec80228b6a0a266a36eab7055df62.png)
+3. Make sure only the desired panel to be exported is selected. This ensures all other panels do not copy, avoiding the extra work of having to de-select any unwanted panels.
+
+![](../health-surveillance-playbook.assets/55eec80228b6a0a266a36eab7055df62.png)
 
 {{% /tip %}}
 
