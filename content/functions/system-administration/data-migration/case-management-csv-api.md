@@ -1,9 +1,9 @@
 ---
 id: '1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
 title: 'Case Management CSV API'
-date: '2020-02-27T21:32:08.466Z'
-version: 27
-lastAuthor: 'aquandt'
+date: '2025-11-12T20:15:25.021Z'
+version: 36
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/recordkeeping/RKforms.html'
@@ -41,11 +41,11 @@ The Case Management CSV API includes encounter information, but a separate CSV A
 
 Although data may be imported separately, the specifications outlined on this page include all of the CSV APIs listed above to create cases and generate an OSHA 300 log.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Case Management CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Case Management CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time from an existing system.
 
@@ -90,7 +90,7 @@ The following sections provide insight for technical personnel working with the 
 
 [Case Management CSV API specifications are available here](https://docs.google.com/a/mieweb.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit?usp=sharing%7CThe).
 
-Additionally, [user instructions](#user-instructions) are available for importing data in EH.
+Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
@@ -133,7 +133,7 @@ The fields that follow are used to populate the OSHA 300 log.
 * <em>Workers' compensation related</em> (incidents.workcomp_completed_dt): Maps to EH incident field "Workers' comp related." Indicates that the incident is compensable by a work comp provider.
 * <em>Last date of work</em> (incidents.date_last_worked): Datetime the employee last time worked before the incident.
 * <em>Time patient began work on day of injury/illness</em> (incidents.employee_starttime): Maps to EH incident field "Time patient began work on day of injury/illness." Time employee began shift on day of injury.
-* <em>Date supervisor notified</em> (incidents.reported_super_datetime): Maps to EH incident field "Date/time supervisor notified"Datetime incident was reported to the employee's supervisor."
+* <em>Date supervisor notified</em> (incidents.reported_super_datetime): Maps to EH incident field "Date/time supervisor notified" "Datetime incident was reported to the employee's supervisor."
 * <em>Action employee performing before incident</em> (incidents.comment_activity): Maps to EH incidents field "What was the employee doing just before the incident occurred?" Documents action employee was performing before incident happened. Corresponds to OSHA form.
 * <em>Incident Explanation</em> (incidents.comment_explanation): Maps to EH incident field "What happened?" Explanation of how injury occurred. Corresponds to OSHA form.
 * <em>Incident Cause</em> (incidents.comment_cause): Maps to EH incident field "What object or substance directly harmed the employee?" Object or substance that harmed the employee. Corresponds to OSHA form.
