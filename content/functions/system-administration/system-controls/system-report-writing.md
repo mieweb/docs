@@ -1,9 +1,9 @@
 ---
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
-date: '2025-08-08T19:25:25.076Z'
-version: 1396
-lastAuthor: 'anichols'
+date: '2025-11-12T14:09:24.882Z'
+version: 1425
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
@@ -175,7 +175,7 @@ AND d.service_date>=DATE_SUB(CURDATE(), INTERVAL 1 WEEK)
 
 In clinical reports we usually like to exclude test patients and respect partition restrictions, as well as locked charts.
 
-### For test patients we do the following:
+### For test patients we do the following
 
 LEFT JOIN patient_extended_values AS px ON px.pat_id = p.pat_id AND px.ext_id = (SELECT ext_id FROM patient_extended_index WHERE name = ‘excluded_from_quality_care') AND px.value = ‘1'
 
@@ -183,7 +183,7 @@ LEFT JOIN patient_extended_values AS px ON px.pat_id = p.pat_id AND px.ext_id = 
 
 WHERE px.pat_id IS NULL
 
-### For restrictions we use this:
+### For restrictions we use this
 
 SELECT
 
