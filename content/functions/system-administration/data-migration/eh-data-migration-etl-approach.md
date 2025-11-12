@@ -1,9 +1,9 @@
 ---
 id: '1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
 title: ' EH Data Migration ETL Approach'
-date: '2025-02-07T23:54:24.173Z'
-version: 90
-lastAuthor: 'priley'
+date: '2025-11-12T15:06:22.608Z'
+version: 99
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.ietf.org/rfc/rfc4180.txt'
@@ -15,7 +15,7 @@ markup: 'pandoc'
 
 Data Migration Additional Documentation
 
-## OVERVIEW
+## Overview
 
 In an effort to transition in full or in part off of legacy system(s), Enterprise Health will migrate data modules in discrete and/or in a summary format as identified in the corresponding client-specific Data Migration Requirements Document.
 
@@ -157,6 +157,7 @@ The following kinds of work are excluded project deliverables.
 5. Data transformations using spreadsheets to map values in the legacy system to different values provided in a spreadsheet (unless otherwise described for CVX codes for immunizations, encounter orders or panel memberships for health surveillance, or other explicit callouts on the Legacy Data Migration Requirements Document).
 6. Users- No discrete users or providers will be mapped for any module. Instead, a generic user of "Legacy Data" will be used for the authoring user of all discrete data.
 7. Additional Data Migration Cycles.
+
 ## Assumptions
 
 1. Client shall complete validation to ensure the Integration meets requirements and specifications and shall provide written notification of acceptance of work. Any change requests provided after acceptance shall be subject to change request procedures and related charges.
