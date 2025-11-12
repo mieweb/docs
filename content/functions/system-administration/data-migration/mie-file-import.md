@@ -1,15 +1,15 @@
 ---
 id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 title: 'MIE File Import'
-date: '2023-04-06T15:39:01.966Z'
-version: 126
-lastAuthor: 'sstuck'
+date: '2025-11-12T15:37:37.041Z'
+version: 137
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/'
   - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
@@ -69,8 +69,8 @@ See also: [Data Migration File Format Standard](data-migration-file-format-stan
 ### Required Fields
 
 * <strong>Patient ID</strong> - Specifies the patient's chart in which the document will be stored.
-* <strong>Patient ID Type</strong> - See the [Patient ID Types section](#patient-id-types-section).
-* <strong>Document Type</strong> - The document type code is required and must be uppercase. Maximum 10 characters length. Document types label and group documents, and they may be customized for each MIE system, so the code required in the CSV is system-dependent. Document types are managed in the [Document Types editor](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin). Chart tabs in the MIE system display only associated/specified document types.
+* <strong>Patient ID Type</strong> - See the [Patient ID Types](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/#patient-id-types) section.
+* <strong>Document Type</strong> - The document type code is required and must be uppercase. Maximum 10 characters length. Document types label and group documents, and they may be customized for each MIE system, so the code required in the CSV is system-dependent. Document types are managed in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the Control Panel. Chart tabs in the MIE system display only associated/specified document types.
 * <strong>Interface Name</strong> - A unique identifier from a foreign system (such as an interface) that the document came from. Maximum 100 characters length.
 * <strong>External ID</strong> - An external identifier for this document. Maximum 128 characters length.
 * <strong>File Name</strong> - The relative path of the file.
@@ -84,7 +84,7 @@ See also: [Data Migration File Format Standard](data-migration-file-format-stan
 * <strong>User ID Type</strong> - See the User ID Types section.
 * <strong>Origin ID</strong> - The author of the document.
 * <strong>Origin ID Type</strong> - See the User ID Types section.
-* <strong>Service Location</strong> - The location code for the document's service location. These are stored in the [Locations Manager](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager) of the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin).
+* <strong>Service Location</strong> - The location code for the document's service location. These are stored in the [Locations Manager](https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/) of the Control Panel.
 * <strong>Origin Date</strong> - Date the document initially created. Defaults to an empty date if none is provided.
 * <strong>Enter Date</strong> - Date the document was entered into the MIE system. Defaults to the current date if none is provided.
 * <strong>Revision Date</strong> - Date the document was revised. Defaults to the current date if none is provided.
