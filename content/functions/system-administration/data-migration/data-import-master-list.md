@@ -1,8 +1,8 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2025-10-23T16:29:34.609Z'
-version: 246
+date: '2025-11-12T19:51:06.036Z'
+version: 255
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -39,7 +39,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/'
-  - 'https://docs.enterprisehealth.com/resources/system-specifications/interface-specifications/'
+  - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/system-conversion/'
@@ -52,11 +52,11 @@ This page provides an overview of the ways MIE imports data from a client's lega
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
-### Audience
+## Audience
 
 The sections that follow should be presented to decision-makers or stakeholders interested in a general explanation of MIE's import tools. Technical details are provided in the individual pages linked in each section.
 
-### Abstract
+## Abstract
 
 The following sections represent different data types that may be imported into {{% sys-name %}} using MIE's different tools and APIs. This page provides a brief description of the data, example functionality in {{% sys-name %}} , and links to specifications and other details on each API.
 
@@ -361,7 +361,7 @@ Specific discrete data fields may also be viewed in a flowsheet format.
 
 ## Other Flowsheets and Reports
 
-#### Vision Flowsheet and Reports
+### Vision Flowsheet and Reports
 
 The vision flowsheet displays specific discrete data in order by date of service.
 
@@ -371,7 +371,7 @@ Historical vision data is imported as a document in a chart.
 
 ![](../data-import-master-list.assets/ea84cbe657118b55a46c0aec51677f59.png)
 
-#### X-ray Flowsheet and Reports
+### X-ray Flowsheet and Reports
 
 Historical x-ray reports are imported as a document. Specific discrete data fields may also be viewed in a flowsheet format. In addition, the MIE system has the ability to store digital radiology (DICOM) images.
 
@@ -425,7 +425,7 @@ Orders questions may be added using a template. There is also an editor within t
 
 ## Related Pages
 
-* [Interface Specifications](https://docs.enterprisehealth.com/resources/system-specifications/interface-specifications/)
+* [Interface Specifications](https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/)
 * [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)
 * [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
 * [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
