@@ -1,11 +1,12 @@
 ---
 id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 title: 'Print Manager'
-date: '2025-06-23T19:23:09.659Z'
-version: 56
+date: '2025-11-12T13:34:05.336Z'
+version: 62
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
 source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
 wikigdrive: 'v2.15.27'
 ---
@@ -41,6 +42,6 @@ If you click the view link that is available next to the listed Print Job, you w
 
 ## Alerts/Errors Module
 
-You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named *Alert-Errors-Failures-Interactive Tab.pdf*
+You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named [*Alert-Errors-Failures-Interactive Tab*](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)
 
 ![](../print-manager.assets/1cc24151a8fc0a1045db173c6ca9fca2.png)
