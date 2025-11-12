@@ -1,9 +1,9 @@
 ---
 id: '1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
 title: 'Data Migration Questionnaire'
-date: '2020-03-17T00:54:23.101Z'
-version: 53
-lastAuthor: ''
+date: '2025-11-12T15:27:13.022Z'
+version: 62
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
@@ -217,7 +217,7 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
     * Termination procedure
     * Applicant procedure
 11. File name convention
-    * <client handle>_<hr system>_<system type>_YYYYMMDDHHMMSS.csv
+    * EG: <client handle>_<hr system>_<system type>_YYYYMMDDHHMMSS.csv
     * EG: eh_workday_dev_20170628095942.csv or eh_sap_prod_20170420000000.csv
 12. Are there any workflows that may be unique to your situation? Or do you have special input screens to facilitate a workflow in your legacy data systems?
 13. Will different employee/patient populations need to be restricted from certain clinical personnel? For example, would you want to restrict clinicians to work only with employees and personnel by country, person type (i.e. employee, applicant, contractor, etc), or employer organization (e.g. company, subsidiary, contractor, agency, prime, etc)?
