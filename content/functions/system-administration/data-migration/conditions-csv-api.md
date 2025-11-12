@@ -1,9 +1,9 @@
 ---
 id: '1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
 title: 'Conditions CSV API'
-date: '2020-02-27T21:32:21.297Z'
-version: 27
-lastAuthor: 'aquandt'
+date: '2025-11-12T21:15:08.942Z'
+version: 37
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'case-management-csv-api.md'
@@ -29,11 +29,11 @@ The following CSV APIs import information used to build a case:
 * Conditions Case Management CSV API
 * [Nature of Injury Case Management CSV API](nature-of-injury-csv-api.md)
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Case Management CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Case Management CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time from an existing system.
 
@@ -72,7 +72,7 @@ The following sections provide insight for technical personnel working with the 
 
 [Case Management CSV API specifications are available here](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=1082191839%7CThe).
 
-Additionally, [user instructions](#user-instructions) are available for importing data in EH.
+Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
@@ -109,12 +109,6 @@ The fields that follow are used to populate the OSHA 300 log.
 ## Examples
 
 * [Patient Conditions Downloadable CSV](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=388607337&single=true&output=csv)
-
-## Troubleshooting
-
-## Validation
-
-## Resources
 
 ## Related Pages
 
