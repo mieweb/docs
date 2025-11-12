@@ -1,9 +1,9 @@
 ---
 id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 title: 'System Conversion'
-date: '2024-12-18T14:52:40.243Z'
-version: 83
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:08:51.820Z'
+version: 90
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/'
@@ -39,7 +39,7 @@ The following worksheets appear in the spreadsheet:
 1. Data Mapping: a full list of every table and every field along with details about the data type, contents, and usage. The Data Mapping worksheet contains columns for mapping legacy fields to WebChart components and defining discrete data.
 2. Module Summary: used in conjunction with Data Mapping to define various metadata for the summary documents and discrete components. Examples of metadata include patient ID, user ID, doc type, location, and many other pieces of data that would apply to all of the items in a summary document or discrete component.
 
-### Data Mapping Worksheet
+## Data Mapping Worksheet
 
 * Columns A-C, R-Y: details about legacy database.
     * <strong>A. Legacy DB</strong>: The name of the legacy database.
@@ -60,9 +60,9 @@ The following worksheets appear in the spreadsheet:
 * <strong>Column F: Module</strong>: Handle used to refer to a WebChart component to be created. This must match a line in Module Summary to be created.
 * <strong>Column G: Order</strong>: Defines the order of component items.
 
-### Module Summary Worksheet
+## Module Summary Worksheet
 
-#### Columns
+### Columns
 
 * <strong>Column A: Module</strong>: Name of module used in Data Mapping.
 * <strong>Column B: Component</strong>: Name of WebChart component. e.g. Summary Document, Observation, PFT, Fit Test, Audiogram.
@@ -70,7 +70,7 @@ The following worksheets appear in the spreadsheet:
 * <strong>Columns E-G</strong>: Reserved for developer use.
 * <strong>Columns J-P</strong>: Define component metadata. See next section for documentation of options.
 
-#### Metadata options
+### Metadata options
 
 These are a set of functions that can dynamically define component metadata per row or have a static value defined. Whether these functions are used depends on the component.
 
@@ -84,7 +84,7 @@ These are a set of functions that can dynamically define component metadata per 
 * get_location -
 * get_encounter_id - Link component to an Encounter.
 
-#### Updating
+### Updating
 
 When entering data into the Google Spreadsheet, a menu item is available (WebChart Conversion>Update Module) to assist with completing the needed Module Summary lines. Click this at any point to update the module lines in this tab.
 
