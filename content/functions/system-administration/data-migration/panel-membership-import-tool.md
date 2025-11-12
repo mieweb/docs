@@ -1,15 +1,14 @@
 ---
 id: '1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
 title: 'Panel Membership Import Tool'
-date: '2020-03-17T03:14:54.850Z'
-version: 68
-lastAuthor: ''
+date: '2025-11-12T16:50:45.204Z'
+version: 77
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-tab.md'
-  - '../../health-surveillance/health-surveillance-panels-add-memberships-manually.md'
-  - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
 wikigdrive: 'v2.15.27'
 ---
@@ -18,7 +17,7 @@ This document explains how to import your health surveillance panel membership d
 The Panel Membership Import Tool uses partitions and medical record numbers (MRNs) to match patients' panel information to their charts. Therefore, work with your MIE Implementer, as needed, to import panel memberships, so that all data and columns are captured correctly, before importing via this tool.
 
 {{% warning %}}
-Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.md); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
+Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
 
 ![](../panel-membership-import-tool.assets/5cab3522106766df005f29e69b6fc35d.png)
 {{% /warning %}}
@@ -104,11 +103,11 @@ The following page defines data and fields that may be imported using the panel 
 ## Upload Panel Membership Data CSV File
 
 1. Login as a user with administrator privileges.
-2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
+2. Navigate to the Control Panel from the side menu.
 
 ![](../panel-membership-import-tool.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
-3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
+3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
 ![](../panel-membership-import-tool.assets/197af282190b350e97494ffba0636d29.png)
 
@@ -130,7 +129,7 @@ Use the help bubble to see what panel IDs your {{% system-name %}} system has to
     ![](../panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Troubleshooting
