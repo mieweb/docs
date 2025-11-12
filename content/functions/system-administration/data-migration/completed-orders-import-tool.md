@@ -1,16 +1,15 @@
 ---
 id: '1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
 title: 'Completed Orders Import Tool'
-date: '2020-03-17T02:25:23.687Z'
-version: 55
-lastAuthor: ''
+date: '2025-11-12T15:43:35.356Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
   - 'data-import-tab.md'
   - 'https://docs.google.com/spreadsheets/d/1OyCm9CuBEdQIlkXb7OtLIbnXB47UIFgnDzmR7J8j2Cw/edit'
   - 'data-import-standards.md'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
 wikigdrive: 'v2.15.27'
@@ -121,10 +120,6 @@ encounter_orders.order_id, encounter_orders.order_id, encounter_orders.comments
 01337, part:MIE, 09/20/2008, 09/22/2008, 4875, 6628, 2348, , , , Only three orders in this row
 
 ```
-
-## Sample CSV Files
-
-Example file with multiple order_id columns for four patients. Two of the patients will have their orders linked to the panel specified by the given panel_id [File:EncOrdCom Example.csv](https://miewiki.med-web.com/wiki/index.php/File:EncOrdCom_Example.csv)
 
 ## Related Pages
 
