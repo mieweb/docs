@@ -1,14 +1,13 @@
 ---
 id: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
 title: 'Create Health Surveillance File for Import'
-date: '2020-03-17T02:39:10.700Z'
-version: 45
-lastAuthor: ''
+date: '2025-11-12T15:48:51.781Z'
+version: 54
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/'
-  - 'https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
   - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
   - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
@@ -106,11 +105,11 @@ failcomply: Failure to comply</td>
 ## Upload Health Surveillance CSV File
 
 1. Login as a user with administrator rights.
-2. Navigate to the [Control Panel](https://system/?f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
+2. Navigate to the Control Panel from the side menu.
 
 ![](../create-health-surveillance-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
-3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
+3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
 ![](../create-health-surveillance-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
