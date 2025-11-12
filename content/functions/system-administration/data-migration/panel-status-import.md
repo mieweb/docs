@@ -1,9 +1,9 @@
 ---
 id: '1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
 title: 'Panel Status Import'
-date: '2024-12-18T15:31:07.853Z'
-version: 69
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:09:30.989Z'
+version: 76
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -15,11 +15,11 @@ wikigdrive: 'v2.15.27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create patient panel status records using the Panel Status CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Panel Status CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Panel Status CSV API imports discrete employee panel status records.
 
@@ -48,7 +48,7 @@ Definitions for the columns utilized in the specification, as well as commonly u
 
 The following fields (indicated in the Data Name column) are noted as required (R) or are recommended as best practice (BP) in the Panel Status CSV API specification. Additional details and considerations are provided here.
 
-**Required**
+#### Required
 
 The following fields are required:
 
@@ -59,13 +59,13 @@ The following fields are required:
 * <em>Status</em> indicates a person's progress through the testing process. "In-Flight" individuals, meaning those who were scheduled for testing by a different employee health system, but have not yet completed it, could be marked as pending or overdue. Other people that do not yet have scheduled testing could be marked as complete or one of the other statuses.
 * <em>Next Due</em> is conditionally required, based on the panel. An annual or otherwise recurring panel should have a next due date marked so that the system knows when to initiate future testing. A one-time panel, such as an acute exposure group, could leave this field blank except for those people who are considered "In-Flight".
 
-**Best Practice**
+#### Best Practice
 
 Although this information is not required, it is considered a best practice to use them:
 
 * <em>Effective Date</em> (patient_panel_status.effective_dt) is the date that a final status went into effect.
 
-**Optional Fields**
+#### Optional Fields
 
 These fields are optional:
 
