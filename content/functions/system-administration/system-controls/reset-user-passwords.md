@@ -1,8 +1,8 @@
 ---
 id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 title: 'Reset User Passwords'
-date: '2024-07-16T19:55:34.082Z'
-version: 192
+date: '2025-11-12T13:24:05.851Z'
+version: 199
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -50,7 +50,7 @@ Do the following 6 steps to reset a password:
 1. <strong>Password Expire Date:</strong> Must make it today's date. Simply click the TODAY button. Make it today's date. That way it prompts the user (when they login) to create their own unique password since the generic one you are setting will expire today. Passwords expire every 30 days and the user gets prompted to change their password when logging into {{% system-name %}} 30 days from when the password is set/changed. However, when creating a new user, you want it to expire ‘today' so they will be prompted immediately upon initial login so they can set their own unique password.
 2. <strong>Login Expire Date:</strong> Leave blank. If your company sets up a temporary user for a limited amount of time to access their {{% system-name %}} , they can enter a login expire date here and it will automatically (on this date entered) expire their login and they will not be allowed to log back in after the expiration date.
 3. <strong>Your Current Password:</strong> You must type in <strong>your</strong> password (you–the superuser/ the administrator). Not the other user's password, but <strong>your</strong> specific {{% system-name %}} password you have/use when you log into your {{% system-name %}} system. This is to verify that you are indeed a superuser and have access to this {{% system-name %}} system and have security to change/reset passwords. Make sure you type in <strong>your</strong> {{% system-name %}} login password you use when you log into {{% system-name %}} .
-4. <strong>New Password</strong>: Type in any generic password. Hover your mouse over the help bubble to see what password criteria your system is set to so you know what to program a password to. You must give this password to the new user so they know what to type in for the first time. It will then prompt them to change the password to their own unique one, which can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters and are stored using a one way encryption to prevent passwords from being decrypted. Any <em>active</em> users must have a password to access the system. Please have user read other help documentation named <em>Log On to |system|.pdf</em> for more specific information on passwords and the configurations, restrictions, and password expirations. If the user is disabled, no password is necessary as they aren't users who will be accessing the system so you can leave it blank
+4. <strong>New Password</strong>: Type in any generic password. Hover your mouse over the help bubble to see what password criteria your system is set to so you know what to program a password to. You must give this password to the new user so they know what to type in for the first time. It will then prompt them to change the password to their own unique one, which can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters and are stored using a one way encryption to prevent passwords from being decrypted. Any <em>active</em> users must have a password to access the system. If the user is disabled, no password is necessary as they aren't users who will be accessing the system so you can leave it blank
 
 ![](../reset-user-passwords.assets/c87a0a726234d718dc3fc3dbb20d6a63.png)
 
@@ -63,7 +63,7 @@ You must then click the **SUBMIT** button at the bottom of the user screen.
 
 ![](../reset-user-passwords.assets/4c1c0e22022fdb7307ece84d1117efc7.png)
 
-The user is now unlocked and can now log back into {{% system-name %}} with the password you reset it to and be prompted to change it to their own unique password can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters. Please have user read other help documentation named *Log On to |system|.pdf* for more specific information on passwords and the configurations, restrictions, and password expirations.
+The user is now unlocked and can now log back into {{% system-name %}} with the password you reset it to and be prompted to change it to their own unique password can hold up to 50 characters and can be configured with alpha, capital letters, lowercase, numbers or other extended characters.
 
 ## Portal Password Reset Option (Non-SSO portals only)
 
