@@ -1,9 +1,9 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2025-10-07T16:02:57.263Z'
-version: 257
-lastAuthor: 'godlewski8'
+date: '2025-11-12T16:43:03.261Z'
+version: 265
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
@@ -80,7 +80,7 @@ Once the CSV is uploaded, and if you had checkmarked *Verbose* in the upload req
 
 ![](../data-import-tab.assets/9a49430e65d2c53c337c228486891fb1.png)
 
-    * <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
+* <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
 
 Note: Any data that had errored, would not have been imported into the system.  Thus, those would need to be fixed and placed on their own unique CSV file to import later once you've worked any issues the Verbose Log displayed as having an error.  This is why using the *Validate File* button is also important to do before the upload file process.
 
@@ -94,7 +94,7 @@ Once the CSV is uploaded, and if you had **not** checkmarked *Verbose* in the up
 
 ![](../data-import-tab.assets/763515c9ebec2ac941f9b962f83363e1.png)
 
-    * <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
+* <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
 
 #### Specifications
 
