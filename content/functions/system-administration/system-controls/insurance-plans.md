@@ -1,9 +1,9 @@
 ---
 id: '1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU'
 title: 'Insurance Plans'
-date: '2025-04-24T20:44:18.819Z'
-version: 63
-lastAuthor: 'auhrick'
+date: '2025-11-12T14:23:35.137Z'
+version: 74
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../e-chart/insurance-summary-in-demographics-tab.md'
@@ -11,6 +11,8 @@ source: 'https://drive.google.com/open?id=1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG4
 wikigdrive: 'v2.15.27'
 ---
 With proper security rights, System Administrators can manage a list of insurance plans available for use in the system. **_Insurance Plans_** can be found under the Control Panel. For more information on how insurance plans are used in the registration and patient demographics see additional help labeled [Insurance Summary in Demographics Tab](../../e-chart/insurance-summary-in-demographics-tab.md).
+
+## Security Permission
 
 There are different levels of security that can be assigned to specific security roles and should be considered when adding or modifying system controls. The *Manage Insurance Plans* security role setting only applies to the *Insurance Plans* manager under the Control Panel. This setting does not apply to the ability to add an insurance plan to a patient chart. This security is only for managing the master list of insurance plans utilized by staff.
 
