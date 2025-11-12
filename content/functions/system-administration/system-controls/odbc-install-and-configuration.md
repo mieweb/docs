@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-10-23T18:05:04.498Z'
-version: 333
+date: '2025-11-12T14:27:12.471Z'
+version: 341
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://help.tableau.com/current/pro/desktop/en-us/examples_mysql.htm'
   - 'https://learn.microsoft.com/en-us/power-query/connectors/mysql-database'
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
-  - 'http://www.mieweb.com/mie-ca2.crt'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 wikigdrive: 'v2.15.27'
 markup: 'pandoc'
@@ -44,7 +44,7 @@ Navigate to the data visualization software products website and follow the on s
 
 Once the drivers have been downloaded and installed, users will need to set up a connection and set up the data source. Your {{% system-name %}} deployment consultant or support contact will work with our development team to send you additional information for this step of the installation process.
 
-1. You may download the {{% system-name %}} CA (Certificate Authority) from here: [Med-Web SSL CA](http://www.mieweb.com/mie-ca2.crt)[2](http://www.mieweb.com/mie-ca2.crt)
+1. You may download the {{% system-name %}} CA (Certificate Authority) from here: [Med-Web SSL CA](https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/)[2](https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/)
 2. You should have received an e-mail from the {{% system-name %}} development team containing the following information needed for configuration:
     a.  Hostname
     b.  Port: 3306
