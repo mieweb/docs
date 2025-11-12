@@ -1,14 +1,17 @@
 ---
 id: '1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 title: 'Partition Manager'
-date: '2025-01-06T13:45:09.900Z'
-version: 276
+date: '2025-11-12T13:38:31.224Z'
+version: 283
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/chart-types-editor/'
 source: 'https://drive.google.com/open?id=1Bt6c-VYustMe1qKSLapSrA9jDJ7z1TUAWamcS9sPzdU'
 wikigdrive: 'v2.15.27'
 ---
+## Overview
+
 The Partition Manager is a function of {{% system-name %}} that allows users the ability to create, update, and delete patient partitions used to assign MR numbers to patients. This powerful tool affects several areas of {{% system-name %}} including: Patient Registration, Document Queue, and Interfaces using Data send auto routes.
 
 There may be a need to create a new partition in the {{% system-name %}} system. An example could be a separate company or provider wanting to keep records in the {{% system-name %}} system. If it is a totally separate company, and the provider is completely independent and just using office space, then we would recommend to create a new partition and new set of charts, especially if all his/her billing is done separately.
@@ -16,6 +19,8 @@ There may be a need to create a new partition in the {{% system-name %}} system.
 If he/she is contracted to work on behalf of the {{% system-name %}} client, and billing under their TIN, then the {{% system-name %}} client should own the record and they can use the same current partition(s) already set up and same patient chart.  We recommend the provider sign a confidentiality statement, etc.
 
 Usually the billing TIN drives how the chart is sectioned off.  Whoever is billing for the service most likely owns the record.
+
+## Partition Manager
 
 In the Control sidemenu tab is a tab called Partition Manager.
 
@@ -27,7 +32,7 @@ It will open to the Partition Add screen:
 
 ![](../partition-manager.assets/221bdd23d0cadd0b6c2a39b3562eb88e.png)
 
-* <strong>Partition:</strong> Enter the abbreviation for the partition. <strong>Must</strong> be in uppercase letters. This is a coded name for the partition. This is what will be stored in the DB. Preferred format is no spaces and in all CAPS. Maximum 15 characters.
+* <strong>Partition:</strong> Enter the abbreviation for the partition. <strong>Must be in uppercase letters</strong>. This is a coded name for the partition. This is what will be stored in the DB. Preferred format is no spaces and in all CAPS. Maximum 15 characters.
 * <strong>WC GUID:</strong> This is a Globally Unique IDentifier. This is only needed if patients in this partition will be sent out of the system via Data Send Interface. Data send interface requires a unique identifier for each partition so that it's easy to understand which system it comes from. Technically, this field just has to be unique; but for sending data between {{% system-name %}} or NMC systems, this field needs to be the system OID (Object Identifier) followed by the next numeric value. For example: System OID = 1.2.840.114398.1.710; WC GUID (partition 1) = 1.2.840.114398.1.710.1; WC GUID (partition 2) = 1.2.840.114398.1.710.2
 * <strong>Name:</strong> This is the display name of the partition. This is what will be viewable on the chart and inside of {{% system-name %}} partition selections. This name is the human readable format of the partition name.
 * <strong>Description:</strong> This is a human readable short sentence describing what the partition is used for. This is displayed on the Patient Registration and Edit Demographic screens when assigning MRNs. It is also used in the partition list of the Document Queue within parenthesis next to the Partition name. Maximum 50 characters.
@@ -73,4 +78,4 @@ If a chart has a MRN in a restricted partition and a MRN in a non-restricted par
 
 Click SAVE when done.
 
-Partitions can also be related to "Chart Types". Please see other help documentation titled Chart Types Editor.pdf for information
+Partitions can also be related to "Chart Types". Please see other help documentation titled [Chart Types Editor](https://docs.enterprisehealth.com/functions/system-configuration/chart-types-editor/) for information
