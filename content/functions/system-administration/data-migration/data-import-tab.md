@@ -1,8 +1,8 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2025-11-12T16:43:03.261Z'
-version: 265
+date: '2025-11-12T19:30:47.495Z'
+version: 271
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -124,12 +124,12 @@ Once in the Legacy Data Import tab, use the drop down to select the {{% system-n
 
 ![](../data-import-tab.assets/377bbd7ac3d4ddba3129068de73fc449.png)
 
-### Learning Management System
+## Learning Management System
 
 To learn more about the Data Import Tab, follow the link below to the Learning Management System course:
 
 * [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)
 
-### Additional Information
+## Additional Information
 
 Additional help guide available: [Data Import Master List](data-import-master-list.md)
