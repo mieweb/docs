@@ -1,15 +1,18 @@
 ---
 id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 title: 'Language Tab - Create New Help Bubble Text'
-date: '2025-03-21T16:49:12.139Z'
-version: 51
+date: '2025-11-12T13:45:39.887Z'
+version: 60
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
 source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 wikigdrive: 'v2.15.27'
 ---
 The system has the ability to customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.
+
+## Create New Help Text
 
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.
 
@@ -40,3 +43,9 @@ The standard input help specific bubble customized translation that is now inact
 A customized help bubble that we support can be translated again. Simply search by inactive translations (uncheckmark the active only in the search filter) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.
 
 ![](../language-tab-create-new-help-bubble-text.assets/f2479a316d3ac923645cbafa6f2997fc.png)
+
+## Learning Management System
+
+To learn more about Creating New Help Bubble Text, follow the link below to the Learning Management System course:
+
+* [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)
