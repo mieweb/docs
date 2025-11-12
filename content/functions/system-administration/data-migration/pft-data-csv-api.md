@@ -1,9 +1,9 @@
 ---
 id: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 title: 'PFT Data CSV API'
-date: '2024-12-18T15:29:22.518Z'
-version: 57
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:14:49.287Z'
+version: 64
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -18,11 +18,11 @@ wikigdrive: 'v2.15.27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for spirometry (pulmonary function tests) using the PFT Data CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the PFT Data CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 PFT data is stored for individual employees, along with information on the employee's height and weight to compare to predicted results. The PFT Data CSV API imports data related to spirometry.
 
