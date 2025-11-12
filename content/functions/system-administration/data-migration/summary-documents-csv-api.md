@@ -1,9 +1,9 @@
 ---
 id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 title: 'Summary Documents CSV API'
-date: '2024-12-18T14:42:26.558Z'
-version: 74
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:25:43.177Z'
+version: 81
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -16,11 +16,11 @@ wikigdrive: 'v2.15.27'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Summary Documents CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Summary Documents CSV API imports non-discrete text data as an HTML document.
 
@@ -32,7 +32,7 @@ It is valuable to recognize the following terminology as it pertains to MIE syst
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
-#### Screenshots
+### Screenshots
 
 The following screenshots show a simple CSV file, and the resulting summary document in an EH system. Example data is available on the tab "DB_Example" in the specification (see link in Specification section of this page).
 
@@ -144,7 +144,7 @@ Definitions for the columns utilized in the specification, as well as commonly u
 
 The following fields (indicated in the Data Name column) are noted as required (R) or are recommended as best practice (BP) in the Summary Documents CSV API specification. Additional details and considerations are provided here.
 
-**Required**
+#### Required
 
 The following fields are required:
 
@@ -152,7 +152,7 @@ The following fields are required:
 * <em>External ID</em> (documents.ext_doc_id): Identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
 * <em>Document Types</em> (documents.ext_doc_id): Used to categorize documents, as mentioned above. All documents in EH have a document type. Note that the document type listed in the CSV must exist in the EH system (in EH, go to Control Panel > Document Types) or that line will be rejected. For further reading on document types, refer to the Enterprise Health online help titled Document Type Tab.
 
-**Best Practice**
+#### Best Practice
 
 Although this information is not required, it is considered a best practice to use at least some of these fields to populate information in the header of a document for identification and organizational purposes:
 
@@ -161,7 +161,7 @@ Although this information is not required, it is considered a best practice to u
 * <em>Document Title</em> (documents_txt.subject): Displays in the listing of documents in EH and helps identify a document quickly.
 * <em>Section header</em> (section_header), <em>Name Value Pair</em> (name_value.NAME), and <em>Narrative</em> (narrative) are used to structure the contents of the document.
 
-**Optional Fields**
+#### Optional Fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
@@ -170,7 +170,7 @@ The following optional fields are needed to link the document to a patient encou
 
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
-**Multi-Line Documents**
+#### Multi-Line Documents
 
 For complex queries (one-to-many) that generate CSV content, you may concatenate multiple rows into a single document in EH.
 
