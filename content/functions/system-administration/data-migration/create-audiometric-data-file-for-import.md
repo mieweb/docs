@@ -1,8 +1,8 @@
 ---
 id: '1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
 title: 'Create Audiometric Data File for Import'
-date: '2025-11-12T16:31:45.513Z'
-version: 53
+date: '2025-11-13T16:28:28.781Z'
+version: 60
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -205,7 +205,7 @@ What you will need:
     ![](../create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Resources
