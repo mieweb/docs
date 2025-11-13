@@ -1,8 +1,8 @@
 ---
 id: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
 title: 'Create Vital Signs File for Import'
-date: '2025-11-12T16:37:11.833Z'
-version: 56
+date: '2025-11-13T16:31:09.843Z'
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -198,7 +198,7 @@ Do not provide the percentage sign (%).<br />
     ![](../create-vital-signs-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Resources
