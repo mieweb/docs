@@ -1,16 +1,16 @@
 ---
 id: '10Zxz9-QWTUJR1vQqXlxPCAxG-E0C83HG-ASlv205eg8'
 title: 'Pat FMLA Approved Employee'
-date: '2020-02-27T20:38:12.258Z'
-version: 22
+date: '2025-11-13T17:01:09.517Z'
+version: 28
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFAE&old_module=Email&old_name=Pat+FMLA+Approved+Employee&active=0'
+links: []
 source: 'https://drive.google.com/open?id=10Zxz9-QWTUJR1vQqXlxPCAxG-E0C83HG-ASlv205eg8'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EFAE&old_module=Email&old_name=Pat+FMLA+Approved+Employee&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
