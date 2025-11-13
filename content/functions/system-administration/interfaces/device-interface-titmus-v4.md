@@ -1,11 +1,12 @@
 ---
 id: '1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
 title: 'Device Interface - Titmus V4'
-date: '2020-02-27T21:33:11.490Z'
-version: 41
-lastAuthor: 'aquandt'
+date: '2025-11-13T15:12:44.450Z'
+version: 48
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
   - 'installing-mie-device-app.md'
 source: 'https://drive.google.com/open?id=1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
 wikigdrive: 'v2.15.27'
@@ -13,7 +14,7 @@ wikigdrive: 'v2.15.27'
 This page provides instructions for interfacing the Titmus V4 Vision Screener with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.
 
 {{% note %}}
-Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](installing-mie-device-app.md) to communicate with {{% system-name %}} .
+Be sure to install the required applications for optimal functionality. The device interface uses the [MIE Device App](https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/) to communicate with {{% system-name %}} .
 {{% /note %}}
 
 ## Setup & Installation
