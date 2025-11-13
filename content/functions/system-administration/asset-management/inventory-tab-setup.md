@@ -1,11 +1,12 @@
 ---
 id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 title: 'Inventory Tab Setup'
-date: '2020-02-27T20:31:20.847Z'
-version: 61
-lastAuthor: 'aquandt'
+date: '2025-11-13T15:29:20.229Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/add-inventory-tab/'
 source: 'https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 wikigdrive: 'v2.15.27'
 ---
@@ -13,7 +14,7 @@ Using the "Control" tab in the Inventory module is the first step to getting you
 
 The second step is them to ‘map' the inventory master item to a specific recognized ‘type' of medication, CDC immunization or supply order (see other help documentation *Mappings Inventory Tab.pdf*)
 
-Then the third step is to ‘add received inventory' to your system so you can put in specific quantity and details of the specific inventory items that you will start your inventory system off with in order to decrement and use inventory. (see other help documentation *Add Inventory Tab.pdf*)
+Then the third step is to ‘add received inventory' to your system so you can put in specific quantity and details of the specific inventory items that you will start your inventory system off with in order to decrement and use inventory. (see other help documentation [Add Inventory tab](https://docs.enterprisehealth.com/functions/system-administration/asset-management/add-inventory-tab/))
 
 First, the system needs to know what items it will be tracking. This is done through the "control" tab (or Inv Master List tab). This is the initial base setup to tell the system it will be tracking a specific inventory item.
 
@@ -23,9 +24,9 @@ When you click on *Control/Inv Master List* tab, it will open to the default of 
 
 ![](../inventory-tab-setup.assets/7b512e8c71eca76a8f6395f7238d91ef.png)
 
-First search to see if the specific medication (strength, etc), immunization and/or supply order inventory item is already in the master inventory list and would possibly just need edited instead of added as completely new.
+First search to see if the specific medication (strength, etc), immunization and/or supply order inventory item is already in the master inventory list and would possibly just need to be edited instead of added as completely new.
 
-To search, us the *Search by* field at the top to narrow down your search results.
+To search, use the *Search by* field at the top to narrow down your search results.
 
 ![](../inventory-tab-setup.assets/0ef22408eaa26acb51c812c98148e857.png)
 
