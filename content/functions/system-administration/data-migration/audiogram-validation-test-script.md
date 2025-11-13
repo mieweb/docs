@@ -1,15 +1,16 @@
 ---
 id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
-date: '2024-05-21T16:55:37.702Z'
-version: 63
+date: '2025-11-13T13:26:44.940Z'
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../document-management/documents-and-forms/audiogram-data-entry.md'
   - 'https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-'
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
@@ -152,14 +153,14 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 ## [Validation Instructions](https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-)
 
 1. Log into the {{% system-name %}} system.
-2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
+2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
     ![](../audiogram-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
 * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
