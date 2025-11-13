@@ -1,9 +1,9 @@
 ---
 id: '1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
 title: 'Device Interface - Audio System'
-date: '2020-03-19T19:31:42.080Z'
-version: 58
-lastAuthor: ''
+date: '2025-11-13T16:33:25.543Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1hu1QV2S1gl-YwbmcZ9ppoJ8LNAaQ7hE5fKQ1OYcKE-c'
@@ -135,14 +135,6 @@ Make sure the audiogram result files are showing up in the file box.
     2. Select <strong>YES</strong> on the second box asking if you want to delete as the folder should remain empty and only the current results should be showing. By deleting after each upload this will keep the folder clean and remove any confusion of selecting the incorrect file.
 3. Audiogram results should populate in the Audio Tool.
 4. You can answer the additional questions via that button also at any time and they will save when you save the encounter.
-5. If working in an encounter, click the save button to save audiogram results to patients file.
+5. If working in an encounter, click the save button to save audiogram results to the patient's file.
 
-You will see the audio file results in the encounter and also in the Audio chart tab of the patient's chart. You can view the document, use the
-
-_
-
-compare
-
-_
-
-feature, etc. On the document stored in the patient's chart, the MR# that populates within the file document that you uploaded looks at the user's default starting partition to determine which MR number to display there.
+You will see the audio file results in the encounter and also in the Audio chart tab of the patient's chart. You can view the document, use the compare feature, etc. On the document stored in the patient's chart, the MR# that populates within the file document that you uploaded looks at the user's default starting partition to determine which MR number to display there.
