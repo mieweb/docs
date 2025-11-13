@@ -1,18 +1,17 @@
 ---
 id: '1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
 title: 'Pat NMC Invitation'
-date: '2020-03-10T14:07:47.497Z'
-version: 30
-lastAuthor: 'aquandt'
+date: '2025-11-13T19:07:02.084Z'
+version: 37
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0'
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
