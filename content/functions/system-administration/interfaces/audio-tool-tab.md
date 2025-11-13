@@ -1,9 +1,9 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2025-01-14T19:48:21.689Z'
-version: 456
-lastAuthor: 'anichols'
+date: '2025-11-13T14:50:12.701Z'
+version: 462
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
@@ -23,7 +23,7 @@ NOTE: The Audiogram Tool tab is no longer configured by default in favor of usin
 
 ![](../audio-tool-tab.assets/511d152edeb215741ae057eec955a369.png)
 
-### Show Questions
+## Show Questions
 
 Use the toggle button within the Audiogram screen to Show/Hide a limited Audiogram questionnaire. This questionnaire is the minimum set of pre exam questions as required by OSHA, however, additional questions can be configured upon request.
 
@@ -35,7 +35,7 @@ NOTE: typically a separate hearing or noise questionnaire is utilized via the po
 
 ![](../audio-tool-tab.assets/b6fe83c77b7be9f8b64dfee02490f5bd.png)
 
-### Audio Tool Data Entry Screen
+## Audio Tool Data Entry Screen
 
 Prior test result data displays on the top portion of the Audio tool. If there aren't any prior audiogram results on file, this box will be empty.
 
@@ -80,7 +80,7 @@ Once saved, users will see a confirmation message. Click OK to close the success
 
 The data will be stored in the **Audiogram** and **Documents** chart tabs. If the Outside Service Provider field is entered on the audio tool, then this name will display as the author of the audio document rather than the user that most recently modified the test.
 
-### Baselines and Alerts
+## Baselines and Alerts
 
 Click the *Baseline History* button to see a history of baseline studies.
 
@@ -90,11 +90,11 @@ Users may select a prior Audio result (baseline- highlighted in neon green) and 
 
 ![](../audio-tool-tab.assets/d72110f8ac9c70a2d280702a8627cef3.png)
 
-### Alerts
+## Alerts
 
 By default {{% system-name %}} will alert the user when an Standard Threshold Shift, or STS, or OSHA recordable shift has been calculated. If no shift is detected, then the red alerts will not display. Clients may optionally display an additional alert for NSTS, National Institute for Occupational Safety and Health Standard Threshold Shift.
 
-#### STS and OSHA Alert
+### STS and OSHA Alert
 
 A Standard Threshold Shift, or STS, is defined as a change in hearing threshold, relative to the baseline audiogram, of an average of 10 decibels (dB) or more at the 2, 3, 4 kHz in one or both ears. If an employee's hearing test reveals that the employee has experienced a work-related Standard Threshold Shift (STS) in hearing in one or both ears, and the employee's hearing level is 25 decibels (dB) or more above audiometric zero (averaged at 2, 3, 4 kHz) in the same ear(s) as the STS, an employer must record the case on the OSHA 300 Log. For customers that also log OSTS, please note that the OSHA alert definition is equivalent to the OSTS (Occupational Safety and Health Administration standard threshold shift) standard.
 
@@ -110,7 +110,7 @@ In the event a STS has been detected a second pop up message will display warnin
 
 The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See additional online help guide named* [*Adding OSHA Case*](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)*.*
 
-#### NSTS Alert
+### NSTS Alert
 
 When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) is enabled, {{% system-name %}} will display an **NSTS** alert on the Audio Tool data entry screen if an NSTS is calculated. Additionally, a column for the NSTS alert flag will display on the finalized document. By default this system setting is disabled. The NSTS shift is defined as any one frequency (except for 8 KHz) that has a shift of greater than 15 dB, AND is greater than or equal to 25 dB.
 
@@ -118,25 +118,25 @@ When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) 
 
 ![](../audio-tool-tab.assets/3d54e45325c2cb84bef3559f01295414.png)
 
-### STS, NSTS, and OSHA Alert Flags on the Cell View
+## STS, NSTS, and OSHA Alert Flags on the Cell View
 
 Columns and rows of Yes or No are displayed for any STS, STS (Non-Age Corrected), NSTS, and OSHA per audiogram captured and per ear.
 
 ![](../audio-tool-tab.assets/ef96889d6a78cafe52caf7d9c2ac7feb.png)
 
-### Stable
+## Stable
 
 If no STS is observed after a baseline has been set, results will display as **Stable** when looking at (or comparing) audiogram data.
 
 ![](../audio-tool-tab.assets/0bea7a501950a52c95b0673fd3e1329e.png)
 
-### Legend
+## Legend
 
 The audiogram document column/row view has a legend that explains what each color in a column or row indicates.  The plot graph has its own legend below each plot graph (see Graphing section further on this guide).
 
 ![](../audio-tool-tab.assets/35e806c39334a3e8008836e28150bd9e.png)
 
-### Graphing
+## Graphing
 
 Users may graph Audio results by clicking the *Graph* button. The *Graph* button is grayed out and not available to the user if the user has not selected 2 studies for comparison. Once 2 studies have been selected for comparison, click the *Graph* button to display the graph comparison. To select 2 studies for comparison, while on the first graph you hold the control key down and select the second test and then click the *Graph* button.
 
@@ -148,15 +148,15 @@ A legend for the plot graph view is below each graph.  The legend indicates whic
 
 ![](../audio-tool-tab.assets/675d7a3acda3440040d43b0922656e7e.png)
 
-### Importing Audiogram Results from a device
+## Importing Audiogram Results from a device
 
 At the bottom of the Audio Tool users are provided with an option to import audiogram data from external devices. If audio device imports were not included with your {{% system-name %}} deployment, please contact your support representative. Additional configuration is required to import from devices.
 
 ![](../audio-tool-tab.assets/f2bb4ffec262b708226112a51313289e.png)
 
-*See additional online help guide named* [*Device Interface-Audio System*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/)* (MI),* [*Device Interface- Audio: Tremetrics/Maico*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
+*See additional online help guide named* [*Device Interface-Audio System*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/) *(MI),* [*Device Interface- Audio: Tremetrics/Maico*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
 
-### Compare Audiograms
+## Compare Audiograms
 
 When the audiogram has been completed and the encounter exam is archived and closed, a finalized audiogram document is inserted into the chart with the audiogram test, data, graphs and supplemental questionnaire information if utilized. Additionally, users may click on the Compare hyperlink from within the document to open up an Audio Compare pop-up displaying any audiogram results with other audiogram results within the chart.
 
