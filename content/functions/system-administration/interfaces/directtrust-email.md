@@ -1,9 +1,9 @@
 ---
 id: '1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
 title: 'DirectTrust Email'
-date: '2025-04-07T15:50:08.793Z'
-version: 62
-lastAuthor: 'auhrick'
+date: '2025-11-13T14:38:34.796Z'
+version: 67
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
@@ -26,7 +26,7 @@ For {{% system-name %}} systems that have Direct Messaging configured, a DirectT
 
 ![](../directtrust-email.assets/bc812d654fc004e033afb4c5b0068e39.png)
 
-User Security & Setup
+## User Security & Setup
 
 ****
 
