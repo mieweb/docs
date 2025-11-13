@@ -1,14 +1,14 @@
 ---
 id: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 title: 'Encourage Multi-Factor Authentication MFA/2FA User Experience'
-date: '2025-11-07T20:29:17.743Z'
-version: 102
-lastAuthor: 'anichols'
+date: '2025-11-13T14:28:36.985Z'
+version: 123
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'multi-factor-authentication-mfa-require-2fa-system-configuration.md'
-  - 'force-multi-factor-authentication-mfa-2fa-overview.md'
-  - 'one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/'
 source: 'https://drive.google.com/open?id=139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 wikigdrive: 'v2.15.27'
 markup: 'pandoc'
@@ -18,7 +18,7 @@ The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two
 * Via authentication using an external device or app that generates the OTP
 * Via authentication based on an email that generates the OTP
 
-For information on system administrator configuration of MFA/2FA for the system and options, please refer to guide [Multi-Factor Authentication MFA/Require 2FA Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md).
+For information on system administrator configuration of MFA/2FA for the system and options, please refer to guide [Multi-Factor Authentication MFA/Require 2FA Configuration](https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/).
 
 ## Encourage MFA/2FA Security Permission
 
@@ -42,7 +42,7 @@ However, users get a screen (after keying in their username and password) to set
 
 ## Setting up MFA/2FA
 
-#### System Wide Setting Value 3 (allow both HOTP or TOTP) what user sees when logging in:
+### System Wide Setting Value 3 (allow both HOTP or TOTP) what user sees when logging in:
 
 System setting ‘Use 2FA' is set to value 3 (offers either HOTP or TOTP for the user to select):
 
@@ -50,13 +50,13 @@ System setting ‘Use 2FA' is set to value 3 (offers either HOTP or TOTP for the
 
 The User should click the *Create* button to advance.
 
-#### System Wide Setting Value 2 (allow only TOTP) what user sees when logging in:
+### System Wide Setting Value 2 (allow only TOTP) what user sees when logging in:
 
 System setting ‘Use 2FA' is set to value 2 (TOTP time based):
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/57d05d3b7428ab161d3ebf52706571ee.png)
 
-#### SystemWide Setting Value 1 (allow only HOTP) what user sees when logging in:
+### SystemWide Setting Value 1 (allow only HOTP) what user sees when logging in:
 
 System setting ‘Use 2FA' is set to value 1 (HOTP counter based):
 
@@ -66,10 +66,11 @@ System setting ‘Use 2FA' is set to value 1 (HOTP counter based):
 
 Make sure to have some authenticator app installed on your external device/phone (ex: Google Authenticator, Microsoft Authenticator).
 
-* On the {{% system-name %}} system screen:
-    * Select Yes for <em>Does device support scanning a barcode</em>
-    * It is recommended to utilize Time Based
-    * Click the <em>Create</em> button
+On the {{% system-name %}} system screen:
+
+* Select Yes for <em>Does device support scanning a barcode</em>
+* It is recommended to utilize Time Based
+* Click the <em>Create</em> button
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/e2b555c8cc736fe97708cf322b334a9e.png)
 
@@ -81,9 +82,9 @@ On your external device (ex: smartphone), open the authenticator app you utilize
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/6bb61372f006643a2f0bb0c5fb534dd8.png)
 
-1. Within the authenticator app, there is an icon ability to ‘Scan a QR code'.
-2. Point the device camera to the QR code on the {{% system-name %}} system screen.
-3. Your device authenticator app will now display a unique 6-digit OTP (one-time password) for you to use.
+* Within the authenticator app, there is an icon ability to ‘Scan a QR code'.
+* Point the device camera to the QR code on the {{% system-name %}} system screen.
+* Your device authenticator app will now display a unique 6-digit OTP (one-time password) for you to use.
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/fe8437b07508a101d78b752f190fa468.png)
 
@@ -101,10 +102,11 @@ You will now advance and gain access into the {{% system-name %}} system.
 
 Make sure to have some authenticator app installed on your external device/phone (ex: Google Authenticator, Microsoft Authenticator).
 
-* On the {{% system-name %}} system screen:
-    * Select No for <em>Does device support scanning a barcode</em>
-    * It is recommended to utilize Time Based
-    * Click the <em>Create</em> button
+On the {{% system-name %}} system screen:
+
+* Select No for <em>Does device support scanning a barcode</em>
+* It is recommended to utilize Time Based
+* Click the <em>Create</em> button
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/f03dd7915b3db2f2f20c9473b22f2efc.png)
 
@@ -116,12 +118,12 @@ On your external device (ex: smartphone), open the authenticator app you utilize
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/6bb61372f006643a2f0bb0c5fb534dd8.png)
 
-4. Within the authenticator app, there is an ability to ‘add a new account' typically found within a plus (+) button.
-5. Click, within the authenticator app, what kind of account you are adding.
-6. Then select the option, within the authenticator app, to manually enter a setup key instead of scanning a QR barcode.
-7. Enter the account details by giving it an account name, enter in the Key that the {{% system-name %}} system generated on the  {{% system-name %}} login screen.  Make sure to type it exactly as it appears.
+* Within the authenticator app, there is an ability to ‘add a new account' typically found within a plus (+) button.
+* Click, within the authenticator app, what kind of account you are adding.
+* Then select the option, within the authenticator app, to manually enter a setup key instead of scanning a QR barcode.
+* Enter the account details by giving it an account name, enter in the Key that the {{% system-name %}} system generated on the  {{% system-name %}} login screen.  Make sure to type it exactly as it appears.
     a.  Tap the Finish button or ‘add' or the checkmark within the authenticator app to save the account.
-8. Your device authenticator app will now display a unique 6-digit OTP (one-time password) for you to use.
+* Your device authenticator app will now display a unique 6-digit OTP (one-time password) for you to use.
 
 ![](../encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/164dabfb2dd11ead2fbcdff8e9fac419.png)
 
@@ -147,6 +149,6 @@ The user would open up their authenticator app on their other device, get the ra
 
 ## Additional Resources
 
-* [Multi-Factor Authentication MFA/Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md)
-* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-overview.md)
-* [One Time Password Authentication via Email User Experience](one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
+* [Multi-Factor Authentication MFA/Require 2FA System Configuration](https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/)
+* [Force Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/)
+* [One Time Password Authentication via Email User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/)
