@@ -1,16 +1,16 @@
 ---
 id: '17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU'
 title: 'Pat Non Compliance'
-date: '2020-02-27T20:40:39.609Z'
-version: 20
+date: '2025-11-13T19:08:32.910Z'
+version: 27
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+Non+Compliance&active=0'
+links: []
 source: 'https://drive.google.com/open?id=17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+Non+Compliance&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
