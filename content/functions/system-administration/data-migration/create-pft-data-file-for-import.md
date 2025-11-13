@@ -1,8 +1,8 @@
 ---
 id: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
 title: 'Create PFT Data File for Import'
-date: '2025-11-12T16:34:27.034Z'
-version: 46
+date: '2025-11-13T16:29:18.565Z'
+version: 52
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -167,7 +167,7 @@ What you will need:
     ![](../create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Resources
