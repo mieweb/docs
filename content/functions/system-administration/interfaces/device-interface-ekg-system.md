@@ -1,8 +1,9 @@
 ---
 id: '1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
 title: 'Device Interface - EKG System'
-date: '2020-02-27T20:28:15.111Z'
-version: 52
+date: '2025-11-13T14:58:15.873Z'
+version: 60
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
@@ -52,7 +53,7 @@ Once installed and MIE programmers have system and/or encounters configured, the
 2. Pull up correct patient.
 3. Choose correct encounter (or chart tab tool) and make sure there is an Electrocardiogram on the Due List; or you may need add an encounter and check the Due List for the procedure. If there is not one, you will need to add it to the Due List.
 
-### Doing the EKG
+### Performing the EKG
 
 1. Welch Allyn CardioPerfect program will open automatically if there is an EKG on the due list.
 
