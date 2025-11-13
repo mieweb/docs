@@ -1,17 +1,19 @@
 ---
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
-date: '2025-07-15T16:22:41.378Z'
-version: 155
-lastAuthor: 'auhrick'
+date: '2025-11-13T15:17:40.256Z'
+version: 167
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-plugins/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 wikigdrive: 'v2.15.27'
 ---
 There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App, MIE Device App 2** and the **MIE SSL App**.
 
-1. Go to the <strong>Control Panel</strong> and navigate to {{% syslink "Plugins" "f=admin&s=plugins" %}} .
+1. Go to the <strong>Control Panel</strong> and navigate to [Plugins](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-plugins/).
 
     ![](../installing-mie-device-app.assets/8cdaa7c931dd6fa249c559577d7fbe15.png)
 2. Click the <strong>Download the MIE SSL App</strong> link in the upper-right corner of the page. 
@@ -35,7 +37,7 @@ Ensure the Device Interface portlet is available from the Quick View page. This 
 6. Once installed, two new icons will appear in the system tray.
 
     ![](../installing-mie-device-app.assets/70922a4703d682fe7775dd07af9bead5.png)
-7. With the necessary applications installed, navigate to the {{% syslink "Quick View" "func=omniscope" %}} page. Click the <strong>One-time setup</strong> link in the Device Interfaces portlet and follow the prompts.
+7. With the necessary applications installed, navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) page. Click the <strong>One-time setup</strong> link in the Device Interfaces portlet and follow the prompts.
 
     ![](../installing-mie-device-app.assets/7deee7d1ecb39f6a60c78c0b6304f228.png)
 8. When the one-time setup is completed, click the <strong>Get client credentials</strong> link.
