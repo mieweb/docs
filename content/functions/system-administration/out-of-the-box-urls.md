@@ -1,9 +1,9 @@
 ---
 id: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
 title: 'Out-of-the-Box Urls'
-date: '2020-02-27T21:32:04.753Z'
-version: 31
-lastAuthor: 'aquandt'
+date: '2025-11-13T15:50:01.645Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC'
@@ -24,7 +24,7 @@ wikigdrive: 'v2.15.27'
 ---
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system.
 
-### Quick View → Administrator Welcome → News Feed Blog
+## Quick View → Administrator Welcome → News Feed Blog
 
 {{% pre %}}
 ```
@@ -35,7 +35,7 @@ http://blog.enterprisehealth.com/topic/news-and-events
 ```
 {{% /pre %}}
 
-### E-Chart → References
+## E-Chart → References
 
 {{% pre %}}
 ```
@@ -52,7 +52,7 @@ https://www.uptodate.com/home
 ```
 {{% /pre %}}
 
-### Warnings & Alerts Portlet in Summary Chart tab (ePSS)
+## Warnings & Alerts Portlet in Summary Chart tab (ePSS)
 
 {{% pre %}}
 ```
@@ -63,7 +63,7 @@ https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
 ```
 {{% /pre %}}
 
-### Case Management Encounter:
+## Case Management Encounter:
 
 {{% pre %}}
 ```
@@ -74,7 +74,7 @@ https://www.bls.gov/ncs/ors/physical-072015.htm
 ```
 {{% /pre %}}
 
-### Absence Management Encounter:
+## Absence Management Encounter:
 
 {{% pre %}}
 ```
@@ -85,9 +85,9 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-### Patient Portal → Other Health Resources website URLs (in the info cards) are OOTB for:
+## Patient Portal → Other Health Resources website URLs (in the info cards) are OOTB for:
 
-#### Mayo Clinic
+### Mayo Clinic
 
 {{% pre %}}
 ```
@@ -100,7 +100,7 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-#### American Heart Association
+### American Heart Association
 
 {{% pre %}}
 ```
@@ -113,7 +113,7 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-#### CDC
+### CDC
 
 {{% pre %}}
 ```
@@ -126,7 +126,7 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-#### American Cancer Society
+### American Cancer Society
 
 {{% pre %}}
 ```
@@ -139,7 +139,7 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-#### International SOS
+### International SOS
 
 {{% pre %}}
 ```
@@ -152,18 +152,18 @@ https://www.mdguidelines.com/
 ```
 {{% /pre %}}
 
-### Portal URLS
+## Portal URLS
 
 * URL to access Applicant Portal is unique per customer (if utilized)
 * URL to access Employee/Supervisor Portal is unique per customer (if utilized)
 
-### Patient Education
+## Patient Education
 
 * Due to the need of a unique key for access, Healthwise would use a unique URL per customer, which will be configured for the client if this functionality is utilized.
 
 **Example**: [https://clinicianIx.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC](https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC)
 
-### Injections Module or Tests/Procedures (VIS handouts)
+## Injections Module or Tests/Procedures (VIS handouts)
 
 {{% pre %}}
 ```
@@ -174,7 +174,7 @@ https://www.immunize.org/vis/vis_english.asp
 ```
 {{% /pre %}}
 
-### Implantable Devices
+## Implantable Devices
 
 {{% pre %}}
 ```
@@ -185,7 +185,7 @@ https://accessgudid.nlm.nih.gov/devices/
 ```
 {{% /pre %}}
 
-### DOT encounter
+## DOT encounter
 
 {{% pre %}}
 ```
@@ -196,7 +196,7 @@ https://www.fmcsa.dot.gov
 ```
 {{% /pre %}}
 
-### FroozHIE tool (CCDA/CCR/CDA)
+## FroozHIE tool (CCDA/CCR/CDA)
 
 {{% pre %}}
 ```
@@ -207,7 +207,7 @@ https://www.froozhie.com/froo.cgi
 ```
 {{% /pre %}}
 
-### Online Help
+## Online Help
 
 {{% pre %}}
 ```
