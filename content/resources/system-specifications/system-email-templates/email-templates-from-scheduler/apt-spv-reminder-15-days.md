@@ -1,16 +1,16 @@
 ---
 id: '11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk'
 title: 'Apt Spv Reminder 15 Days'
-date: '2020-02-27T20:40:34.949Z'
-version: 18
+date: '2025-11-13T19:54:13.265Z'
+version: 25
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ESPVR15&old_module=Email&old_name=Apt+Spv+Reminder+15+Days&active=0'
+links: []
 source: 'https://drive.google.com/open?id=11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&opp=edit&doc_type=ESPVR15&old_module=Email&old_name=Apt+Spv+Reminder+15+Days&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
