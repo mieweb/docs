@@ -1,16 +1,16 @@
 ---
 id: '1L-bM3HlPu7UQOX8wk6h2YWAwWhmaK6qzkCXPRHWC77M'
 title: 'Apt Employee Reminder 30 Days'
-date: '2020-02-27T20:39:54.571Z'
-version: 18
+date: '2025-11-13T19:31:02.828Z'
+version: 25
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EER30&old_module=Email&old_name=Apt+Employee+Reminder+30+days&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1L-bM3HlPu7UQOX8wk6h2YWAwWhmaK6qzkCXPRHWC77M'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EER30&old_module=Email&old_name=Apt+Employee+Reminder+30+days&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
