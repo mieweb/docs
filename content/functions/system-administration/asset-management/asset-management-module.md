@@ -1,8 +1,8 @@
 ---
 id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 title: 'Asset Management Module'
-date: '2025-11-13T15:24:51.892Z'
-version: 176
+date: '2025-11-13T21:38:42.899Z'
+version: 180
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
