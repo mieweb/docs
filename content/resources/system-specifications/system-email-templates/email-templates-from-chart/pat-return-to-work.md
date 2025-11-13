@@ -1,16 +1,16 @@
 ---
 id: '1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE'
 title: 'Pat Return to Work'
-date: '2020-02-27T20:39:12.405Z'
-version: 20
+date: '2025-11-13T19:15:25.610Z'
+version: 26
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERTW&old_module=Email&old_name=Pat+Return+to+Work&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERTW&old_module=Email&old_name=Pat+Return+to+Work&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
