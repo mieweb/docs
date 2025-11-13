@@ -1,8 +1,8 @@
 ---
 id: '13jOk33Y1SJkreIkd5pt3QzR7QY28FQvZOcLsMSPA1MM'
 title: 'Observations Report'
-date: '2025-11-11T22:04:58.333Z'
-version: 127
+date: '2025-11-13T21:39:44.952Z'
+version: 146
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -43,7 +43,7 @@ You can rearrange or sort by clicking the column title.
 
 ## Additional Search Criteria
 
-These are optional fields.
+These are optional fields:
 
 * <strong>Entered Date Start/End:</strong> You can enter a date range to show patient observations entered on a specific date range. This is different from the observed date.
 * <strong>Last Encounter Location:</strong> You can select a specific location of where encounters were performed at, to filter down resulting observations that were keyed in via an encounter that has a performing location set on it.
