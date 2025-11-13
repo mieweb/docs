@@ -1,20 +1,22 @@
 ---
 id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 title: 'Observations Validation Test Script'
-date: '2024-05-21T18:18:20.348Z'
-version: 88
+date: '2025-11-13T13:36:09.169Z'
+version: 99
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view'
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
-  - '../../order-and-result-management/observations-tab.md'
-  - '../../order-and-result-management/observation-flowsheets.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
   - 'https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi'
   - '../../reports/observations-report.md'
-  - 'https://docs.enterprisehealth.com/observations-report-7345005.html'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
+  - 'https://docs.enterprisehealth.com/functions/reports/observations-report/'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
 wikigdrive: 'v2.15.27'
 ---
@@ -59,14 +61,14 @@ Some charts/records may not have all data elements, and in some circumstances, t
 ## [Validation Instructions](https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view)
 
 1. Log into the {{% system-name %}} system.
-2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
+2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
     ![](../observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
 * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
@@ -98,11 +100,11 @@ Observation names are displayed alphabetically, by default, with all data listed
 
 ![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
-To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](../../order-and-result-management/observations-tab.md).)
+To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/).)
 
 ![](../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
 
-Within each chart, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
+Within each chart, it is possible a [Flowsheet](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
 ![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 {{% /tip %}}
@@ -117,12 +119,12 @@ The date displayed will be the date the data was imported to {{% system-name %}}
 * Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
 * Contact {{% system-name %}} with the findings.
 
-Reports ([video](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi))
+## [Reports](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi)
 
 The [Patient Observations report](../../reports/observations-report.md) is particularly helpful in validating data between systems. To access and utilize this report:
 
-1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
+1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
+2. Select the Visits report list.
 
     ![](../observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png)
 3. Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen. 
@@ -133,7 +135,7 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 
 **Q:** I am only validating specific observations. Is there a way to filter to just the ones I need?
 
-**A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/observations-report-7345005.html), described [above](#above), to search specific observation values. Otherwise, it is possible a [Flowsheet](../../order-and-result-management/observation-flowsheets.md) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
+**A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/functions/reports/observations-report/), described [above](#above), to search specific observation values. Otherwise, it is possible a [Flowsheet](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
 ![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 
