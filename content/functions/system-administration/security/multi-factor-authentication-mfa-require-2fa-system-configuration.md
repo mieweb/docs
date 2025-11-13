@@ -1,14 +1,16 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-07T20:18:01.704Z'
-version: 511
-lastAuthor: 'anichols'
+date: '2025-11-13T14:28:59.533Z'
+version: 549
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'encourage-multi-factor-authentication-mfa-2fa-overview.md'
-  - 'force-multi-factor-authentication-mfa-2fa-overview.md'
-  - 'one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
+  - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
+  - 'force-multi-factor-authentication-mfa-2fa-user-experience.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/'
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 wikigdrive: 'v2.15.27'
 ---
@@ -176,8 +178,8 @@ A pop-up window offering TOTP and/or HOTP (depending on system setting configure
 
 The rest of the steps will mimic the user experience side. Please refer to the other user experience guides:
 
-* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-overview.md)
-* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-overview.md)
+* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
+* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-user-experience.md)
 
 After clicking *Complete Setup*, you will receive a pop-up message if 2 Step Verification was successfully completed for the user.
 
@@ -233,10 +235,10 @@ Requiring an OTP as part of the sign in experience can be enabled in a user's se
 
 ![](../multi-factor-authentication-mfa-require-2fa-system-configuration.assets/2758271fa8310044c28b896c0d4b0bbc.png)
 
-For more information on utilizing an additional level of security to a user's sign-in to the system without requiring them to have an external device or app, please refer to [One-Time Password (OTP) without requiring an external device or application](one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md) guide.
+For more information on utilizing an additional level of security to a user's sign-in to the system without requiring them to have an external device or app, please refer to [One-Time Password (OTP) without requiring an external device or application](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/) guide.
 
 ### Additional Resources
 
-* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-overview.md)
-* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-overview.md)
-* [One Time Password Authentication via Email User Experience](one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
+* [Encourage Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience/)
+* [Force Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/)
+* [One Time Password Authentication via Email User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/)
