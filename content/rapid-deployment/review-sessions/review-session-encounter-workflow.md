@@ -1,9 +1,9 @@
 ---
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
-date: '2025-04-07T17:39:15.605Z'
-version: 436
-lastAuthor: 'anichols'
+date: '2025-11-13T16:41:19.450Z'
+version: 452
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/unit/view/id:2703'
@@ -49,7 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -70,9 +70,6 @@ markup: 'pandoc'
     * <strong>Worklists</strong>
     * <strong>Clinical Decision Support / Scripted Rules</strong>
     * <strong>Esign / Tasking</strong>
-
-**Clinical Decision Support/Scripted Rules**
-
     * <strong>System Settings</strong>
     * <strong>Security Role Permissions</strong>
     * <strong>My Settings Preferences</strong>
@@ -80,7 +77,6 @@ markup: 'pandoc'
 * <strong>Reporting</strong>
 * <strong>Key Decision Points</strong>
 * <strong>Action Items / Timelines</strong>
-
 * <strong>Resources</strong>
     * <strong>Documentation</strong>
     * <strong>LMS Courses / Videos</strong>
@@ -179,7 +175,7 @@ If using the Checkin module, it is suggested to always set the Default Encounter
 
 Depending upon the nature of the encounter or the condition being assessed, protocols are designed to automate configurations meant to guide clinician documentation of visits based on specific issues or conditions (e.g, headache, burn, fall, bite, etc.). Protocols can be configured to use various encounter sections, as well as observations, flowsheets, macros, and orders.
 
-Several protocols come preloaded as part of the the standard {{% system-name %}} system. To review each protocol and the associated configurations, navigate to the Chief Complaint section of a dynamic encounter. Begin by selecting a protocol from the autocomplete field. After clicking the **Next** button, or collapsing the section, the encounter will refresh with the necessary encounter components defined by the protocol (i.e., History of Present Illness [HPI], Review of Systems [ROS], Physical Exam [PE], Tests and Procedures, Symptoms/Diagnosis, Quality, Plan Narrative, Patient Education, and Depart Instructions).
+Several protocols come preloaded as part of the standard {{% system-name %}} system. To review each protocol and the associated configurations, navigate to the Chief Complaint section of a dynamic encounter. Begin by selecting a protocol from the autocomplete field. After clicking the **Next** button, or collapsing the section, the encounter will refresh with the necessary encounter components defined by the protocol (i.e., History of Present Illness [HPI], Review of Systems [ROS], Physical Exam [PE], Tests and Procedures, Symptoms/Diagnosis, Quality, Plan Narrative, Patient Education, and Depart Instructions).
 
 Be sure to review all protocols, and edit, remove, or add specific protocol section flowsheets from the [Flowsheets editor](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet&tabmodule=admin&tabselect=Flowsheets), as needed.
 
