@@ -1,9 +1,9 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2024-06-06T21:34:39.461Z'
-version: 464
-lastAuthor: 'jnguyen'
+date: '2025-11-13T14:41:38.291Z'
+version: 472
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
@@ -16,7 +16,7 @@ The following document describes how to interface with MIE via an HL7 interface.
 
 {{% anchor sys="assumptions" %}}
 
-#### Assumptions
+## Assumptions
 
 The following assumptions have been made concerning the implementation of the interface:
 
@@ -25,7 +25,7 @@ The following assumptions have been made concerning the implementation of the in
 * The HL7 interface is real-time using TCP/IP protocol, TCP/IP protocol over SSL/TLS, HTTPS restful web service post.
 * The Hl7 Messages sent through the interface will have codes/descriptions/identifiers in the HL7 message foreign to the {{% system-name %}} system and that translations of this data will be handled within {{% system-name %}} (when required).
 
-### Interface Overview
+## Interface Overview
 
 In order to process the data successfully, the following items must be supplied/completed:
 
@@ -33,7 +33,7 @@ In order to process the data successfully, the following items must be supplied/
 * Interface system parameters must be setup in order to direct the interface on how to format the data for the external system.
 * Translation files (if the practice is using translations) must be setup that will convert Master File Values (Physician, Location, Insurance Company, Appointment Codes, Document Types and Observation Result Codes) into {{% system-name %}} values.
 
-#### How it Works
+### How it Works
 
 The following describes the process as it occurs:
 
