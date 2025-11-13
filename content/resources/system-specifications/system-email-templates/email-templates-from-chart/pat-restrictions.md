@@ -1,17 +1,16 @@
 ---
 id: '1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
 title: 'Pat Restrictions'
-date: '2020-03-10T14:08:19.239Z'
-version: 30
-lastAuthor: 'aquandt'
+date: '2025-11-13T19:10:51.061Z'
+version: 36
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERES&old_module=Email&old_name=Pat+Restrictions&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ERES&old_module=Email&old_name=Pat+Restrictions&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
