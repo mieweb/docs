@@ -1,14 +1,13 @@
 ---
 id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
 title: 'Device Interface - PFT System'
-date: '2025-03-27T20:04:21.900Z'
-version: 234
-lastAuthor: 'auhrick'
+date: '2025-11-13T15:04:08.360Z'
+version: 252
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
 wikigdrive: 'v2.15.27'
-markup: 'pandoc'
 ---
 The following is referring to a pulmonary OMI Sensormedics model number 922 system. Contact your MIE Implementer to see if your pulmonary system model can be interfaced or quoted
 
@@ -17,7 +16,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Open {{% system-name %}} .
 2. Pull up correct patient.
 3. Go to PFT Tool chart tab or add encounter for patient and make sure there is a PFT on the due list for your patient.
-    a.  If there is not, you will need to add the procedure.
+    * If there is not, you will need to add the procedure.
 
 ## Doing the PFT Calibration
 
@@ -39,9 +38,9 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 5. If you put your initials in and select ok you may see the error above. If so, select cancel to get past the error.
 6. You can also select "Cancel" on the Operator screen without putting in initials and proceed.
 7. Performing Calibration:
-    a.  Select the "Perform Cal/Leak Check" button. 
+    * Select the "Perform Cal/Leak Check" button. 
         ![](../device-interface-pft-system.assets/12f73aaf7f9de8bd835aeeeb6a9c0c2a.png)
-    b.  The following screen will appear
+    * The following screen will appear
 
 ![](../device-interface-pft-system.assets/692c63c94b60b1e590914d1f91362f59.png)
 
@@ -64,7 +63,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 
 1. Choose Select/Add Client 
     ![](../device-interface-pft-system.assets/e48ffca15620882b12024a718cd014c5.png)
-    a.  Select correct patient and select use selected match
+    * Select correct patient and select use selected match
 
 ![](../device-interface-pft-system.assets/0a567ec25328740844f757d7560634fb.png)
 
@@ -75,33 +74,33 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 3. Select ok
 4. Select yes
 5. If this patient is not in the list select New Client
-    a.  Fill out correct information for current client
+    * Fill out correct information for current client
 
 ![](../device-interface-pft-system.assets/a6a4ec6a1806267e0caa6d910dd75bbc.png)
 
 6. Select ok
 7. Select yes
 8. Select Perform FVC test
-    a.  If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
-    b.  If you want to continue, select yes.
+    * If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
+    * If you want to continue, select yes.
 9. Select Proceed with testing
 10. Check yes for any pre-test questions
 11. Select ok
 12. Make sure your PFT machine is set up correctly and do any patient teaching at this point.
 13. Select ok to start test
 14. Machine will make you wait 60 seconds before giving interpretation and between blows.
-    a.  Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 15. Next select do another trial
 16. Select ok
 17. Wait 60 seconds for interpretation
-    a.  Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 18. Next select do another trial
 19. Select ok
 20. Wait 60 seconds for interpretation
-    a.  Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-        1. Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 21. Select done
 22. Fill out post test Q & A.
 23. Select ok
@@ -111,8 +110,8 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Choose the Copy File link at the top of the page in OMI
 2. Choose Create ERS/ATS PFTVALS.Txt All Curves
 3. Choose current date for selected date range
-    a.  Mark copy all dates
-    b.  Mark Selected client
+    * Mark copy all dates
+    * Mark Selected client
 4. Select show number
 5. Select Ok
 6. Add patients MR number to file when saving and select save
@@ -126,6 +125,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 ![](../device-interface-pft-system.assets/f0d4fe4b0061964f7bac24e20217c771.png)
 
 If an existing order for a PFT does not exist, select the PFT order from the *In House Testing Pick List* and add the procedure to the exam.
+
 ![](../device-interface-pft-system.assets/471ef7b74b8a96cd3d927c05c28a978e.png)
 
 3. <strong><em>For client</em></strong>'<em></em> <strong><em>databases on release 202409 and older</em></strong>', select the file type (OMI, Easy On, or Cardio Perfect – whichever your device type is using). <strong><em>For client databases on release 202503 and newer</em></strong>', these steps are not needed and not available so proceed to step 17.
@@ -144,9 +144,9 @@ If an existing order for a PFT does not exist, select the PFT order from the *In
 ![](../device-interface-pft-system.assets/d3606a75d388e86ec3dc28d3a821b693.png)
 
 8. Change the smartcard to point to the correct folder.
-    a.  Changing smartcard:
-        1. Right click on filebox/data box
-        2. Choose set smartcard folder
+    * Changing smartcard:
+    * Right click on filebox/data box
+    * Choose set smartcard folder
 
 ![](../device-interface-pft-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
