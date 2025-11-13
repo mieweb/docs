@@ -1,9 +1,9 @@
 ---
 id: '157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
 title: 'Med Queue and Fill Requests'
-date: '2024-10-10T14:15:03.289Z'
-version: 295
-lastAuthor: 'auhrick'
+date: '2025-11-13T15:40:18.917Z'
+version: 304
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
@@ -44,8 +44,6 @@ The Med Queue shows a worklist of the outstanding Phone Fill Requests and any pe
 ## Grab Fill Request(s) via Med Queue
 
 The Med Queue shows a list of charts that have a Fill Request task pending. Selecting a Med Queue request to work or grabbing the fill request via this tab, it's all linked together and will all complete the same fill request. To work on a fill request, click on the patient's name from the Med Queue worklist tab.
-
-.
 
 ![](../med-queue-and-fill-requests.assets/74805ace587ba136394463e103f55402.png)
 
