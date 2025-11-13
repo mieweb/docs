@@ -1,8 +1,8 @@
 ---
 id: '12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
 title: 'Create Cases File for Import'
-date: '2025-11-12T16:39:09.899Z'
-version: 50
+date: '2025-11-13T16:32:42.991Z'
+version: 56
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -144,7 +144,7 @@ What you will need:
     ![](../create-cases-file-for-import.assets/3e7c9ba795ce233807938a4d203c6d43.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Resources
