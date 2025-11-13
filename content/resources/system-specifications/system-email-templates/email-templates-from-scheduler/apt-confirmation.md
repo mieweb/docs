@@ -1,16 +1,16 @@
 ---
 id: '1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg'
 title: 'Apt Confirmation'
-date: '2020-02-27T20:39:50.764Z'
-version: 28
+date: '2025-11-13T19:27:47.869Z'
+version: 35
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1R5lYGh6lWozZjm6XieOIBw5H9DisckgDcPTq_BaRRZg'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EAPTC&old_module=Email&old_name=Apt+Confirmation&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
