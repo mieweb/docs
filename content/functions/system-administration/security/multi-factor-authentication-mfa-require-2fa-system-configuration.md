@@ -1,16 +1,14 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-13T14:28:59.533Z'
-version: 549
-lastAuthor: 'janderson'
+date: '2025-11-13T18:08:57.793Z'
+version: 559
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'force-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/'
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 wikigdrive: 'v2.15.27'
 ---
@@ -239,6 +237,6 @@ For more information on utilizing an additional level of security to a user's si
 
 ### Additional Resources
 
-* [Encourage Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience/)
-* [Force Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/)
+* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
+* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-user-experience.md)
 * [One Time Password Authentication via Email User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/)
