@@ -1,8 +1,8 @@
 ---
 id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 title: 'Asset Management Module'
-date: '2024-07-16T15:00:08.964Z'
-version: 167
+date: '2025-11-13T15:24:51.892Z'
+version: 175
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -32,35 +32,11 @@ Click the Add New Asset hyperlink found in the Asset module at the top left corn
 
 ![](../asset-management-module.assets/b8b404740f0711675fb28982eafc9de1.png)
 
-The
-
-_
-
-Enter Asset Information
-
-_
-
-screen will appear. Type in the name of the asset you wish to add to the system and click
-
-_
-
-Register Asset
-
-_
-
-button.
+The Enter Asset Information screen will appear. Type in the name of the asset you wish to add to the system and click Register Asset button.
 
 ![](../asset-management-module.assets/8716e81be8112811e9a21c06848d1de6.png)
 
-Once you've registered a new asset, the system will automatically assign it an Asset ID # (Asset Medical Record partition number) and will open you to the
-
-_
-
-Asset Details
-
-_
-
-screen. Here you enter in all the detailed information for the new asset.
+Once you've registered a new asset, the system will automatically assign it an Asset ID # (Asset Medical Record partition number) and will open you to the Asset Details screen. Here you enter in all the detailed information for the new asset.
 
 ![](../asset-management-module.assets/f10bca002576a07eb499c771e7bfc136.png)
 
@@ -84,9 +60,7 @@ Add an Asset Category using the auto-complete. You can hit the ↓ down arrow ke
 
 By default there is an AED asset category available which expands to open other component entry fields regarding dates of the AED.
 
-{{% system-name %}}
-
-will monitor these expiration dates and send email notification to the asset custodian 90 days and 30 days in advance of the expiration dates so that replacements may be ordered.
+{{% system-name %}} will monitor these expiration dates and send email notification to the asset custodian 90 days and 30 days in advance of the expiration dates so that replacements may be ordered.
 
 ![](../asset-management-module.assets/0ec12e8344d1b3096e80b98a212dc53e.png)
 
@@ -100,25 +74,7 @@ Continue to complete the remaining fields for your asset if applicable:
 * Sold Date (future – Displays when Status is Sold )
 * Sold Price(future – Displays when Status is Sold)
 
-Add the Custodian or Owner of the Asset. The username field is an auto-complete from the list of users in the system.
-
-*
-
-Custodian
-
-*
-
-is usually someone responsible in the department for all the maintenance, calibration schedules and the equipment is communal (such as an audiometer). An
-
-*
-
-owner
-
-*
-
-is someone that has possession of the equipment and it is dedicated to their use like a laptop or cell phone.
-
-Select the appropriate Role from the drop-down and click the ADD button.
+Add the Custodian or Owner of the Asset. The username field is an auto-complete from the list of users in the system. Custodian is usually someone responsible in the department for all the maintenance, calibration schedules and the equipment is communal (such as an audiometer). An owner is someone that has possession of the equipment and it is dedicated to their use like a laptop or cell phone. Select the appropriate Role from the drop-down and click the ADD button.
 
 ![](../asset-management-module.assets/474590c46780f8bc313106cc8d708c29.png)
 
