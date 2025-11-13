@@ -1,9 +1,9 @@
 ---
 id: '1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
 title: 'Device Interface - VeriPRO Hearing Fit'
-date: '2024-10-29T16:41:11.835Z'
-version: 54
-lastAuthor: 'auhrick'
+date: '2025-11-13T15:14:29.299Z'
+version: 61
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
@@ -11,7 +11,7 @@ wikigdrive: 'v2.15.27'
 ---
 This interface uses the VeriPRO database export functionality to save the results to a CSV file that is uploaded to {{% system-name %}}
 
-# Import Instructions
+## Import Instructions
 
 * Perform the test in the VeriPRO software.
 * Use the Export Data feature in the VeriPRO software.
@@ -41,7 +41,7 @@ This interface uses the VeriPRO database export functionality to save the result
 
 ![](../device-interface-veripro-hearing-fit.assets/8cf29dde3cd89f5f507dbf2969197779.png)
 
-# Collected Fields
+## Collected Fields
 
 The following fields are collected
 
@@ -59,7 +59,7 @@ The following fields are collected
 * PEL
 * SEL
 
-# Installation Help
+## Installation Help
 
 This interface is not accessible in our out of the box system.  To add it, a link to the following layout needs to be added: ?f=layout&module=MIEDevice&name=Veripro%20Upload&tabmodule=+
 
