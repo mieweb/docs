@@ -1,19 +1,19 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-11-11T20:03:42.556Z'
-version: 611
-lastAuthor: 'anichols'
+date: '2025-11-13T13:59:22.455Z'
+version: 617
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/security/compare-security-roles/'
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 wikigdrive: 'v2.15.27'
 ---
 The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
 
-Review user security settings for individual users or role based needing access to the various functionality, and give permission, as appropriate. The feature on how to compare security role based permissions is available in the[ ](https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html)[Compare Security Roles](https://docs.enterprisehealth.com/latest/documentation/components/system_admin/compare_security_roles.html) online help.
+Review user security settings for individual users or role based needing access to the various functionality, and give permission, as appropriate. The feature on how to compare security role based permissions is available in the [Compare Security Roles](https://docs.enterprisehealth.com/functions/system-administration/security/compare-security-roles/) online help.
 
 ## Editing Security Settings
 
