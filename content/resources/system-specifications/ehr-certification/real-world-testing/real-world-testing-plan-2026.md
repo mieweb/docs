@@ -1,8 +1,8 @@
 ---
 id: '1uv5mwow3lT430CsvNRNmaqPdiIVF1OetG4jPTRQbk4Y'
 title: 'Real World Testing Plan 2026'
-date: '2025-10-30T13:34:18.481Z'
-version: 184
+date: '2025-11-13T22:02:32.048Z'
+version: 306
 lastAuthor: 'shuq'
 mimeType: 'text/x-markdown'
 links:
@@ -28,15 +28,14 @@ links:
   - 'https://www.healthit.gov/test-method/direct-project'
   - 'https://ecqi.healthit.gov/glossary/standard-trial-use-stu'
   - 'https://www.w3.org/WAI/WCAG2-Conformance'
-  - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
   - 'https://www.healthit.gov/test-method/data-export'
-  - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/'
+  - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/?utm_source=bluehive&utm_medium=chat&utm_campaign=bluehive-ai'
   - 'https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/'
   - 'https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/'
   - 'https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-170/subpart-C/section-170.315'
 source: 'https://drive.google.com/open?id=1uv5mwow3lT430CsvNRNmaqPdiIVF1OetG4jPTRQbk4Y'
-wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
+wikigdrive: 'v2.15.27'
 ---
 ## General Information
 
@@ -59,7 +58,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 </tr>
 <tr>
 <td><strong>Certified Health IT Product List ID(s)</strong></td>
-<td><strong>0015E8UJ8KHX8QL</strong></td>
+<td>15.04.04.1932.WebC.84.01.0.221117</td>
 </tr>
 <tr>
 <td><strong>Developer Real World Testing Page URL</strong></td>
@@ -67,7 +66,7 @@ wikigdrive: '9a3c47814c851f1e3ce25659ea66b7640ddaf209'
 </tr>
 <tr>
 <td><strong>Plan Submission Date</strong></td>
-<td>10/31/2025</td>
+<td>10/30/2025</td>
 </tr>
 </table>
 
@@ -662,11 +661,11 @@ WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(
 
 #### Test Methodology
 
-MIE will install an instance of Cypress 7+ on our production servers following all of our protocols for maintaining the security of PHI.  Automated testing will download QRDA I files from Cypress for each certified CQM, import the files to WebChart EHR, calculate the CQMs, and export the QRDA files for Cypress validation of both the content and calculations to verify that the import was successful.  Any errors identified by Cypress will be tracked, reported, and addressed.
+MIE will install an instance of Cypress 7+ on our production servers, following all protocols for maintaining the security of PHI. Automated testing will download QRDA I files from Cypress for each certified CQM, import the files to WebChart EHR, calculate the CQM rates, and export the QRDA files for Cypress validation of both the content and the calculated rates. Each CQM rate is defined as the proportion of patients meeting the measure criteria (numerator) out of the total eligible patient population (denominator) for that measure. Cypress will validate that both the content and the calculated rates (numerator/denominator) are accurate to verify that the import was successful. Any errors in rates or content identified by Cypress will be tracked, reported, and addressed.
 
 #### Expected Outcome(s)
 
-It is expected that calculation, reporting, and QRDA format errors will be rare.  Any formatting, content, or calculation errors identified by Cypress will be tracked, reported, and resolved.  These errors are expected to be rare both before and after using SVAP to update the version of QRDA WebChart EHR supports.
+It is expected that errors affecting the calculation or reporting of CQM rates, as well as QRDA format errors, will be rare. Each CQM rate is defined as the number of patients meeting the measure criteria (numerator) divided by the total eligible patient population (denominator) for that measure. Any formatting, content, or rate calculation errors identified by Cypress will be tracked, reported, and resolved. These errors are expected to be rare both before and after using SVAP to update the version of QRDA supported by WebChart EHR.
 
 #### Care Setting(s)
 
@@ -736,11 +735,11 @@ MIE will report a count of messages for each supported message type:
     * Error
     * Verify
 
-The report will also include a count of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the results.
+The report will also include the rate of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This rate will be calculated as the number of failed outbound messages (numerator) divided by the total number of outbound messages attempted (denominator) for each message type. The report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the rate results.
 
 #### Expected Outcome(s)
 
-Each of the supported message types should have a total greater than zero,and the number of outbound messages with errors should be significantly lower than the total number attempted to be sent. Based on past usage patterns of outbound message types, the number of NewRx messages is anticipated to be greater than RxChangeResponse, CancelRx, or RxRenewalResponse.
+Each supported message type should have a transmission attempt rate greater than zero, and the rate of outbound messages with errors should be significantly lower than the overall transmission attempt rate. Based on past usage patterns, the rate of NewRx messages is anticipated to be higher than that of RxChangeResponse, CancelRx, or RxRenewalResponse.
 
 #### Care Setting(s)
 
@@ -771,11 +770,11 @@ WebChart EHR must be able to send Diagnosis codes in outbound e-prescribing mess
 
 #### Test Methodology
 
-MIE will report the contents of each stored message in a client's local database table of stored messages, and counts the inbound and outbound messages that include Diagnosis elements. MIE will run the report for each client under consideration and aggregate the results.
+MIE will report the contents of each stored message in a client's local database table of stored messages and calculate the rate of inbound and outbound messages that include Diagnosis elements. This rate will be defined as the number of messages containing Diagnosis elements (numerator) divided by the total number of inbound or outbound messages (denominator) for each client. MIE will run the report for each client under consideration and aggregate the rate results.
 
 #### Expected Outcome(s)
 
-As Diagnosis code is not a required element for transmission, we expect that these elements will be present in some, but not all inbound and outbound messages.
+As Diagnosis code is not a required element for transmission, it is expected that the rate of messages containing Diagnosis elements will be greater than zero but less than 100% for both inbound and outbound messages. These elements will be present in some, but not all, messages.
 
 #### Care Setting(s)
 
@@ -806,11 +805,11 @@ WebChart EHR should prevent prescriptions of oral liquid medications from being 
 
 #### Test Methodology
 
-MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages, limiting to oral liquid medications, and provides a count of each distinct quantity unit of measure used. MIE will run the report for each client under consideration and aggregate the results.
+MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages, limited to oral liquid medications, and calculates the rate of use for each distinct quantity unit of measure. This rate will be defined as the number of oral liquid NewRx messages using a specific unit of measure (numerator) divided by the total number of oral liquid NewRx messages (denominator) for each client. MIE will run the report for each client under consideration and aggregate the rate results.
 
 #### Expected Outcome(s)
 
-It is expected that code C28254 (milliliters) to be the most commonly sent unit of measure for oral liquid medications. Others should be extremely rare.
+It is expected that the rate of oral liquid NewRx messages using code C28254 (milliliters) as the unit of measure will be the highest among all units, with the rates for other units of measure being extremely low.
 
 #### Care Setting(s)
 
@@ -841,11 +840,11 @@ WebChart EHR should prevent prescriptions from being sent electronically if they
 
 #### Test Methodology
 
-MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages, and provides a count of prescription messages that include inappropriate trailing zeros, and a count of those missing leading zeros. MIE will run the report for each client under consideration and aggregate the results.
+MIE will create a system report that examines the contents of each stored NewRx message in a client's local database table of stored messages and calculates the rate of prescription messages that include inappropriate trailing zeros, as well as the rate of those missing required leading zeros. Each rate will be defined as the number of NewRx messages with the specific error (numerator) divided by the total number of NewRx messages (denominator) for each client. MIE will run the report for each client under consideration and aggregate the rate results.
 
 #### Expected Outcome(s)
 
-It is expected that prescriptions sent including inappropriate trailing zeros, or missing needed leading zeros will be very rare.
+It is expected that the rates of prescriptions sent with inappropriate trailing zeros or missing required leading zeros will be very low.
 
 #### Care Setting(s)
 
@@ -883,14 +882,14 @@ Webchart EHR should be able to accept a CDA document and place it into the corre
 
 #### Test Methodology
 
-MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files.
+MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files. This will be reported as a CDA success rate (successful uploads/uploads attempts).
 
 MIE will report on the number of requests to view a CDA document within the system, and the number of times it displayed correctly, and when there were errors in display.  
-Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
+Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.  This will be reported as a CDA View success rate (successful CDA views/Attempted CDA views).
 
 #### Expected Outcome(s)
 
-It is expected that CDA upload and stylesheet errors will be rare.  Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.
+It is expected that CDA upload and stylesheet errors will be rare.  A 99% rate will be expected on both rates listed in test methodology.  Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.
 
 #### Care Setting(s)
 
@@ -940,11 +939,11 @@ WebChart EHR should provide public access to all API documentation, implementati
 
 #### Test Methodology
 
-An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html?utm_source=bluehive&utm_medium=chat&utm_campaign=bluehive-ai. Both uptime and downtime rates will be logged and reported quarterly. The uptime rate will be defined as the total time the documentation is available (numerator) divided by the total monitoring period (denominator), while the downtime rate will reflect the proportion of time the documentation is unavailable. The cause and duration of each downtime event will also be logged. In the event of any downtime, the downtime rate can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be included in the report.
 
 #### Expected Outcome(s)
 
-It is expected that all documentation will maintain an uptime of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
+It is expected that all documentation will maintain an uptime rate of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
 
 #### Care Setting(s)
 
@@ -979,11 +978,11 @@ Webchart EHR should be able to reconcile CCDA data for medications, allergies, a
 
 MIE will report on the number of CDA formatted documents reconciled via our reconciliation process.
 
-Following each reconcile, if a temporary CDA for the chart is created as part of the process, it will be validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported.
+Following each reconcile, if a temporary CDA for the chart is created as part of the process, it will be validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported.  This will be reported as a CDA validation rate.
 
 #### Expected Outcome(s)
 
-It is expected that errored reconciliations and invalid CDA checks should be extremely rare.
+It is expected that errored reconciliations and invalid CDA checks should be rare.  Our success rate should be at least 90%, and any failures should be in CDA failures only and not XML failures that do not allow processing of the documents.
 
 #### Care Setting(s)
 
@@ -1014,11 +1013,11 @@ WebChart EHR should be able to generate and send valid VXU messages.
 
 #### Test Methodology
 
-MIE will report from the database the number of successfully sent VXU messages acknowledged as received by the state immunization registry. MIE will also report from the database on the number of records rejected by the state registry due to error, whether the failure was due to registry internal errors, clinical data entry issues or a not well-formed message. Finally, MIE will report from the database the number of messages which declined to be generated due to data entry issues failing message pre-validation.
+MIE will report from the database the rate of successfully sent VXU messages acknowledged as received by the state immunization registry. This rate will be defined as the number of VXU messages acknowledged by the registry (numerator) divided by the total number of VXU messages attempted (denominator). MIE will also report the rate of records rejected by the state registry due to errors, with separate rates for failures caused by registry internal errors, clinical data entry issues, or not well-formed messages. Additionally, MIE will report the rate of messages that were not generated due to data entry issues failing message pre-validation, calculated as the number of messages declined for generation (numerator) divided by the total number of message attempts (denominator). All rates will be aggregated for each client.
 
 #### Expected Outcome(s)
 
-It is expected that failures to generate messages will be rare, as will rejections of generated messages by the registry. In all cases of failures, users will be made aware of the failure through a registry status dashboard with information pertaining to how the errors may be resolved and options for attempting a resubmission of the vaccination record to the registry.
+It is expected that the rates of failures to generate messages and rejections of generated messages by the registry will be very low. In all cases of failure, users will be notified through a registry status dashboard, which will provide information on how to resolve the errors and options for attempting resubmission of the vaccination record to the registry.
 
 #### Care Setting(s)
 
@@ -1049,11 +1048,11 @@ WebChart EHR should be able to request, consume and display an evaluated patient
 
 #### Test Methodology
 
-MIE will report the number of successful retrievals of evaluated history and forecasting operations from the database. MIE will report the number of failed retrievals, including those resulting from an internal error in the registry resulting in an inability to consume a response from the database. MIE will manually track, resolve and report issues resulting from WebChart EHR application errors as reported by end users.
+MIE will report the rate of successful retrievals of evaluated history and forecasting operations from the database. This rate will be defined as the number of successful retrievals (numerator) divided by the total number of retrieval attempts (denominator). MIE will also report the rate of failed retrievals, including those resulting from internal registry errors that prevent consumption of a response from the database. Additionally, MIE will manually track, resolve, and report the rate of issues resulting from WebChart EHR application errors as reported by end users.
 
 #### Expected Outcome(s)
 
-It is expected that failures will be rare. In the case of reported WebChart applications errors, issues shall be tracked and resolved. In the case of registry internal errors, the registry shall be notified of the issue.
+It is expected that the rates of failures will be very low. In the case of reported WebChart application errors, issues will be tracked and resolved. In the case of registry internal errors, the registry will be notified of the issue.
 
 #### Care Setting(s)
 
@@ -1090,11 +1089,11 @@ WebChart EHR should be able to generate valid S/MIME messages, transmit them via
 
 #### Test Methodology
 
-MIE will report from log files the number of messages transmitted. MIE will report from logs the number of messages which failed to be transmitted whether due to internal error, external failures or inability to verify trust of the recipient. MIE will report from logs the number of Processed MDN messages received. MIE will report from logs the number of Failed MDN messages received.
+MIE will report from log files the rate of messages successfully transmitted, defined as the number of messages transmitted (numerator) divided by the total number of transmission attempts (denominator). MIE will also report the rate of messages that failed to be transmitted, whether due to internal errors, external failures, or inability to verify trust of the recipient. Additionally, MIE will report the rate of Processed MDN messages received and the rate of Failed MDN messages received, each calculated as the number of respective MDN messages (numerator) divided by the total number of MDN messages received (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that errors will be rare with the most common cause of error being a lack of verified trust with the intended recipient.
+It is expected that error rates will be very low, with the most common cause of error being a lack of verified trust with the intended recipient.
 
 #### Care Setting(s)
 
@@ -1125,11 +1124,11 @@ WebChart EHR should be able to receive, validate and deliver Direct Project mess
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients.
+MIE will report from logs the rate of messages transmitted to the HISP, defined as the number of messages transmitted (numerator) divided by the total number of message attempts (denominator). MIE will also report the rate of messages failing to conform to Direct Project specifications, calculated as the number of non-conforming messages (numerator) divided by the total number of messages transmitted to the HISP (denominator). Additionally, MIE will report the rate of messages successfully delivered to recipients, defined as the number of successfully delivered messages (numerator) divided by the total number of conforming messages (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that many messages transmitted to the public facing HISP listener will not meet the requirements for Direct Project messages and will be rejected by the HISP.  It is expected that failures for conforming messages from receipt through delivery will be rare.
+It is expected that a significant rate of messages transmitted to the public-facing HISP listener will not meet the requirements for Direct Project messages and will be rejected by the HISP. Failures for conforming messages from receipt through delivery are expected to be very rare.
 
 #### Care Setting(s)
 
@@ -1174,9 +1173,11 @@ MIE will report a number of measurements surrounding documents, including:
 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files as well as any client reported issues tracked during the testing period.
 
+The patient "read" rate will be calculated as the number of patient documents read (numerator) divided by the number of patient documents created (denominator). The patient read success rate will be calculated as the number of patient documents successfully viewed (numerator) divided by the number of patient documents attempted to be read (denominator).
+
 #### Expected Outcome(s)
 
-The percentage of messages read in the portal may be influenced by the engagement of the patients themselves and will be analyzed if it appears to be lower than expected.  In the case of low viewership, MIE will encourage clients to investigate methods of increasing patient engagement, or validate sends of documents to patients truly interested in using an online patient portal.
+The rate of messages read in the portal may be influenced by patient engagement and will be analyzed if the numerator/denominator ratio is lower than expected. In cases of low viewership, MIE will encourage clients to investigate methods for increasing patient engagement or to validate that documents are being sent to patients who are interested in using the online patient portal. The expected patient read rate (numerator: documents read, denominator: documents created) is at least 50%, and the expected successfully viewed rate (numerator: documents successfully viewed, denominator: documents attempted to be read) is at least 99%.
 
 #### Care Setting(s)
 
@@ -1221,11 +1222,11 @@ MIE will report a number of measurements surrounding documents, including:
 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
+The patient "download" rate will be calculated as the number of patient documents downloaded (numerator) divided by the number of patient documents created (denominator). The patient download success rate will be calculated as the number of patient documents successfully downloaded (numerator) divided by the number of patient documents attempted to be downloaded (denominator).
+
 #### Expected Outcome(s)
 
-There is expected to be an extremely low occurrence of messages unable to be downloaded from the patient portal.
-
-If there is a lack of downloads in a certain timeframe by patients within the workflow, MIE may conduct internal testing of message downloads to maintain measure compliance.
+It is expected that the rate of messages unable to be downloaded from the patient portal will be extremely low, with the download success rate (numerator: documents successfully downloaded, denominator: documents attempted to be downloaded) at 99%. If there is a lack of downloads within a certain timeframe by patients in the workflow, MIE may conduct internal testing of message downloads to maintain measure compliance. The expected download rate (numerator: documents downloaded, denominator: documents created) is 5%, but this may vary based on patient demand for downloading documents versus only viewing them.
 
 #### Care Setting(s)
 
@@ -1270,11 +1271,11 @@ MIE will report a number of measurements surrounding documents, including:
 
 Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
+The patient "transmit" rate will be calculated as the number of patient documents transmitted (numerator) divided by the number of patient documents created (denominator). The patient transmit success rate will be calculated as the number of patient documents successfully transmitted (numerator) divided by the number of patient documents attempted to be transmitted (denominator).
+
 #### Expected Outcome(s)
 
-There is expected to be an possibly extremely low occurrence of messages unable to be transmitted from the patient portal to third parties.
-
-MIE may produce test messages to transmit to mieweb.com and ccme.com (our Direct compliant email domain) to validate this functionality if necessary.
+It is expected that the rate of messages unable to be transmitted from the patient portal to third parties will be extremely low, with the transmit success rate (numerator: documents successfully transmitted, denominator: documents attempted to be transmitted) at 99%. MIE may produce test messages to transmit to mieweb.com and ccme.com (our Direct compliant email domain) to validate this functionality if necessary. The goal for the transmit rate (numerator: documents transmitted, denominator: documents created) is 1%, though this will depend on patient engagement with the transmit feature.
 
 #### Care Setting(s)
 
@@ -1311,11 +1312,11 @@ WebChart EHR should be able to receive and send Direct Project messages to a HIS
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP by SMTP.  MIE will report from logs the number of messages received from the HISP by SMTP.  MIE will report from logs the number of XDM packages processed.  In the case where insufficient real-world data is available, data resulting from regular testing with DirectTrust shall be included in the reporting.
+MIE will report from logs the rate of messages transmitted to the HISP by SMTP, calculated as the number of messages transmitted by SMTP (numerator) divided by the total number of message transmission attempts by SMTP (denominator). MIE will also report the rate of messages received from the HISP by SMTP, defined as the number of messages received by SMTP (numerator) divided by the total number of message receipt attempts by SMTP (denominator). Additionally, MIE will report the rate of XDM packages processed, calculated as the number of XDM packages processed (numerator) divided by the total number of XDM packages attempted to be processed (denominator). In cases where insufficient real-world data is available, data from regular testing with DirectTrust will be included in the reporting.
 
 #### Expected Outcome(s)
 
-It is expected that the current usage shall be low, with the exception of regular DirectTrust testing.  Any errors resulting from real-world transmission of messages are expected to be rare, but may skew results due to the low volume of transmitted messages.
+It is expected that the current usage rates will be low, except for regular DirectTrust testing. Any errors resulting from real-world transmission of messages are expected to be rare, but may have a noticeable impact on rates due to the low volume of transmitted messages.
 
 #### Care Setting(s)
 
@@ -1347,11 +1348,11 @@ WebChart EHR should allow a user to export the designated record of a patient in
 
 #### Test Methodology
 
-When a user requests data to be exported, if the response fails, an automatic error message will be generated and stored in a searchable database.  Total number of attempts will be tracked based on activity logs in the EHR.  Additionally, an example patient will be tested nightly to make sure that all expected data is returned and new errors are not introduced.
+The data export failure rate will be calculated as the number of failed data export attempts (numerator) divided by the total number of data export attempts (denominator), with failures automatically generating an error message stored in a searchable database. Total number of export attempts will be tracked based on activity logs in the EHR. Additionally, an example patient export will be tested nightly to ensure all expected data is returned and to monitor for new errors.
 
 #### Expected Outcome(s)
 
-It is expected that failures will be rare and that exports will succeed 95% of the time.  Some potential causes of failure would be a failure in network connectivity or system timeout due to unexpected size of data.  These will be tracked as they happen and resolved.
+It is expected that the failure rate (numerator: failed export attempts, denominator: total export attempts) will be very low, with exports succeeding at least 95% of the time. Potential causes of failure, such as network connectivity issues or system timeouts due to unexpected data size, will be tracked and resolved as they occur.
 
 #### Care Setting(s)
 
@@ -1385,13 +1386,13 @@ Webchart EHR should be able to validate that CDAs that are stored within webchar
 
 #### Test Methodology
 
-All CDAs stored within a Webchart EHR will be run through schema validation regardless of the document's origin.  Documents may originate within the WebChart EHR system or be imported from a third party application of manual upload.  The schema validator will be installed within the MIE production environment to ensure the security of all PHI contained in the documents.  Only results of the validation will be made available, document content will not be revealed to developers during testing.
+All CDAs stored within a WebChart EHR will be run through schema validation, regardless of the document's origin. Documents may originate within the WebChart EHR system, be imported from a third-party application, or be manually uploaded. The schema validator will be installed within the MIE production environment to ensure the security of all PHI contained in the documents. Only the results of the validation will be made available; document content will not be revealed to developers during testing.
 
-The number of valid vs. invalid CDAs and their sources will be reported.
+The CDA validation rate will be calculated as the number of CDAs successfully validated (numerator) divided by the total number of CDAs generated (denominator). The number and rate of valid versus invalid CDAs, along with their sources, will be reported.
 
 #### Expected Outcome(s)
 
-Any formatting or stylesheet errors identified by the CDA validator will be tracked, reported, and resolved.  These errors are expected to be rare for documents created by WebChart EHR.  If CDA documents received from third parties are identified to have schematic errors, those third parties will be notified whenever possible.
+Any formatting or stylesheet errors identified by the CDA validator will be tracked, reported, and resolved. These errors are expected to be rare for documents created by WebChart EHR. If CDA documents received from third parties are identified to have schematic errors, those third parties will be notified whenever possible. The expectation is that 90% of CDAs (numerator: CDAs validated, denominator: CDAs generated) will be validated, with any invalid CDAs only failing the CDA schematron (e.g., due to missing information), and not being invalid XML that cannot be processed.
 
 #### Care Setting(s)
 
@@ -1438,10 +1439,10 @@ To address the overall automated testing, the following test requests will be ma
 * Issue a request in the browser to request demographics of a patient (data category request)
 * Issue a request using the export tool described in the documentation.
 
-All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
+All API requests made in production systems are recorded in log files. The API success rate will be calculated as the number of successful API requests (numerator) divided by the total number of API requests logged (denominator). The rate of reported issues with API functionality will be calculated as the number of reported issues (numerator) divided by the total number of API requests logged (denominator).
 #### Expected Outcome(s)
 
-It is expected that automated testing will be successful more than 97% of the time.  Any errors will be logged and reported; however, errors are expected to be minimal, such as a lost server connection.  Both production uses of the API and reports of errors are expected to be rare.
+It is expected that automated testing will result in a success rate (numerator: successful API requests, denominator: total API requests logged) greater than 97%. Any errors will be logged and reported, but errors are expected to be minimal, such as a lost server connection. Both production uses of the API and reports of errors are expected to be rare.
 
 #### Care Setting(s)
 
@@ -1472,11 +1473,11 @@ The certified content of the patient portal should be accessible to all users re
 
 #### Test Methodology
 
-MIE will conduct monthly third-party production accessibility scanning as well as automated nightly internal accessibility scanning of a test system in a production environment.
+MIE will conduct monthly third-party production accessibility scanning, as well as automated nightly internal accessibility scanning of a test system in a production environment. The accessibility non-conformance rate will be calculated as the number of non-conformance issues identified (numerator) divided by the total number of accessibility scans performed (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that no urgent non-conformance issues will be identified and that the number of secondary issues will be minimal.  Any non-conformance that reaches a production system will be tracked and reported.
+It is expected that the rate of urgent non-conformance issues (numerator: urgent issues identified, denominator: total scans performed) will be zero, and the rate of secondary issues will be minimal. Any non-conformance that reaches a production system will be tracked and reported.
 
 #### Care Setting(s)
 
@@ -1507,11 +1508,11 @@ WebChart EHR should provide public access to all FHIR API documentation, softwar
 
 #### Test Methodology
 
-An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/ and the linked subpages.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/?utm_source=bluehive&utm_medium=chat&utm_campaign=bluehive-ai and the linked subpages. The uptime rate will be calculated as the total time the documentation is available (numerator) divided by the total monitoring period (denominator). The downtime rate will be calculated as the total time the documentation is unavailable (numerator) divided by the total monitoring period (denominator). Both up- and downtime rates, along with the cause and duration of any downtime, will be logged and reported quarterly. In the event of downtime, the downtime rate can also be reported at daily, weekly, or monthly intervals, and the cause of each downtime occurrence will be included in the report.
 
 #### Expected Outcome(s)
 
-It is expected that all documentation will maintain an uptime of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
+It is expected that all documentation will maintain an uptime rate (numerator: total time available, denominator: total monitoring period) greater than 99.9%. Any downtime is expected to be caused by minor errors, such as connection timeouts or planned maintenance, and last for a duration of 10 minutes or less.
 
 #### Care Setting(s)
 
@@ -1542,11 +1543,11 @@ WebChart EHR should generate CCDAs that can generate the sections required by US
 
 #### Test Methodology
 
-We will have weekly automated tests that will choose a certain number of random patient CCDAs in specific live systems and test for the given sections to exist in the documents.
+Weekly automated tests will select a random sample of patient CCDAs from specific live systems and test for the presence of required sections in each document. The USCDI measure rate will be calculated for each tracked document as the number of required sections present (numerator) divided by the total number of required sections applicable to that document (denominator).
 
 #### Expected Outcome(s)
 
-All CCDAs tested should include all of the sections required, if applicable.
+All CCDAs tested should include all required sections, if applicable. The expected USCDI measure rate (numerator: required sections present, denominator: required sections applicable) is 99% conformance.
 
 #### Care Setting(s)
 
@@ -1586,7 +1587,7 @@ We will report on the following data elements being created or edited in patient
 
 #### Expected Outcome(s)
 
-We expect to see user engagement in editing care plan data.
+We expect to see user engagement in editing care plan data.  This is not a "rate" measurement.  We hope to see increasing usage as the year progresses.
 
 #### Care Setting(s)
 
@@ -1617,11 +1618,11 @@ WebChart EHR per certification requirements must be able to generate Care Plan C
 
 #### Test Methodology
 
-We will report on the number of encounters with Care Plan information, and the number of Care Plan CCDAs generated.
+We will report the number of encounters with Care Plan information and the number of Care Plan CCDAs generated. The Care Plan CCDA generation rate will be calculated as the number of Care Plan CCDAs generated (numerator) divided by the number of encounters with Care Plan data (denominator).
 
 #### Expected Outcome(s)
 
-The number of CCDA Care Plans generated should be the same as the number of encounters with Care Plan information.
+The Care Plan CCDA generation rate (numerator: Care Plan CCDAs generated, denominator: encounters with Care Plan data) should be 100%. Any issues will be reported, including whether they were due to technical coding issues or system setup issues preventing creation.
 
 #### Care Setting(s)
 
@@ -1652,14 +1653,11 @@ WebChart EHR per certification requirements must be able to receive Care Plan CC
 
 #### Test Methodology
 
-We will report on:
-
-    * the number of Care Plan CCDAs received from outside sources.
-    * Pass or fail count on the Care Plan CCDAs received.
+We will report the number of Care Plan CCDAs received from outside sources. The Care Plan CCDA success rate will be calculated as the number of Care Plan CCDAs that pass validation (numerator) divided by the total number of Care Plan CCDAs received (denominator). Pass and fail counts will be tracked and reported.
 
 #### Expected Outcome(s)
 
-The number of CCDA Care Plans received into systems may not be very high.  MIE may produce test Care Plans to send into test systems to validate this functionality.
+The number of Care Plan CCDAs received into systems may be low. MIE may produce test Care Plans to send into test systems to validate this functionality. The success rate (numerator: Care Plan CCDAs passing validation, denominator: Care Plan CCDAs received) will depend on the quality of CCDAs sent by external systems, which is outside of MIE's control.
 
 #### Care Setting(s)
 
@@ -1690,18 +1688,11 @@ WebChart EHR per certification requirements must be able to generate CCDA Docume
 
 #### Test Methodology
 
-We will have automated tests that run at minimum weekly to test that the software is still able to generate CCDAs with Security Tags.
-
-If we determine that we are seeing usage of the security tagging within Production systems, we will report:
-
-    * the number of CCDAs generated during the RWT period.
-    * The number of CCDAs with security tags generated during the RWT period.
+Automated tests will run at least weekly to verify that the software continues to generate CCDAs with Security Tags. If usage of security tagging is detected within Production systems, the security tag generation rate will be calculated as the number of CCDAs with security tags generated during the RWT period (numerator) divided by the total number of CCDAs generated during the RWT period (denominator). Both the total number of CCDAs generated and the number with security tags will be reported.
 
 #### Expected Outcome(s)
 
-We expect our software to show constant ability to generate CCDA documents with Security Tags.
-
-From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently.   We do not anticipate client usage of security tags in generated CCDA documents as well either, at least to start with in 2025.  If this changes we will update the testing to accommodate tracking those numbers as listed above.
+The software is expected to consistently generate CCDA documents with Security Tags. Based on industry discussions, usage of DS4P within documents created by systems is currently minimal to nonexistent, and client usage of security tags in generated CCDA documents is not anticipated in 2026. If this changes, testing and reporting will be updated to track the security tag generation rate (numerator: CCDAs with security tags, denominator: CCDAs generated) as described above.
 
 #### Care Setting(s)
 
@@ -1732,18 +1723,11 @@ WebChart EHR per certification requirements must be able to receive CCDA Documen
 
 #### Test Methodology
 
-We will have automated tests that run at minimum weekly to test that the software is still able to receive and display generate CCDAs with Security Tags.
-
-From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently. If we determine that we are seeing usage of the security tagging within Production systems, we will report:
-
-    * the number of CCDAs received during the RWT period.
-    * The number of CCDAs with security tags received during the RWT period.
+Automated tests will run at least weekly to verify that the software continues to receive and display CCDAs with Security Tags. If usage of security tagging is detected within Production systems, the security tag receipt rate will be calculated as the number of CCDAs with security tags received during the RWT period (numerator) divided by the total number of CCDAs received during the RWT period (denominator). Both the total number of CCDAs received and the number with security tags will be reported.
 
 #### Expected Outcome(s)
 
-We expect our software to show constant ability to display CCDA documents with Security Tags.
-
-From discussions with others around the industry who interact with large usage of CDA creation and transmission, there is little to no usage of DS4P within documents created by systems currently.   We do not anticipate security tags in received CCDA documents as well either to our clients, at least to start with in 2025.   If this changes we will update the testing to accommodate tracking those numbers as listed above.
+The software is expected to consistently display CCDA documents with Security Tags. Based on industry discussions, usage of DS4P within documents created by systems is currently minimal to nonexistent, and security tags in received CCDA documents are not anticipated for clients in 2026. If this changes, testing and reporting will be updated to track the security tag receipt rate (numerator: CCDAs with security tags received, denominator: CCDAs received) as described above.
 
 #### Care Setting(s)
 
@@ -1792,11 +1776,11 @@ WebChart EHR's FHIR API is still newly available to clients and has no adoption 
 
 #### Test Methodology
 
-MIE will run nightly automated testing on the public FHIR R4 sandbox system using Inferno, and using log files stored in a QA database, MIE will report the success rate of the full (g)(10) test suite.  Any errors will be tracked, reported, and addressed.
+MIE will run nightly automated testing on the public FHIR R4 sandbox system using Inferno. Using log files stored in a QA database, MIE will report the test suite success rate as the number of successful (g)(10) test suite runs (numerator) divided by the total number of nightly test suite runs (denominator). Any errors will be tracked, reported, and addressed.
 
 #### Expected Outcome(s)
 
-It is expected that test failures will be rare and that the automated tests will pass successfully in a minimum of 95% of nightly runs.  Any failures are expected to be due to a failure in the testing infrastructure rather than in the functionality of the API.
+It is expected that test failures will be rare, with the automated tests passing successfully in at least 95% of nightly runs (numerator: successful test suite runs, denominator: total nightly runs). Any failures are expected to be due to issues in the testing infrastructure rather than in the functionality of the API.
 
 #### Care Setting(s)
 
@@ -1838,14 +1822,14 @@ This measure will review WebChart EHR's ability to connect to an app within a pa
 
 #### Justification
 
-WebChart EHR's FHIR API is still newly available to clients, and has no adoption as of writing this plan.  FHIR adoption is expected to be slow, but increasing, throughout 2025 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
+FHIR adoption is expected to be slow, but increasing, throughout 2026 leading to improved app support in WebChart EHR as well as increased real world data being available.  Until that time when clients are actively using the FHIR API, MIE will conduct testing using a publicly available production sandbox system and a patient app recommended to our clients.  As clients continue adoption of the FHIR API, real patient use of the patient app will be reported.
 #### Test Methodology
 
-MIE will report from de-identified log files an analysis of authentication and data searches using a patient app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world patient data since we cannot estimate failures due to patients correctly being denied access.
+MIE will analyze de-identified log files to assess authentication and data searches using a patient app. In the sandbox system, specific rates will be reported based on automated testing, which will indicate which actions should yield successful authentication or data return. For real-world patient data, an overall analysis will be reported, acknowledging that some failures are expected due to appropriate access denials. The FHIR message creation success rate will be calculated as the number of successful FHIR message creations (numerator) divided by the total number of FHIR message creation attempts (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that WebChart EHR will be conformant to all (g)(10) requirements and that overall error rates will be low.
+It is expected that WebChart EHR will be conformant to all (g)(10) requirements and that overall error rates will be low (under 1%).
 
 #### Care Setting(s)
 
@@ -1887,11 +1871,11 @@ WebChart EHR's FHIR API is still newly available to clients, and has no adoption
 
 #### Test Methodology
 
-MIE will report from de-identified log files an analysis of authentication and data searches using a provider app.  Specific rates can be reported from the sandbox system as the automated testing setup will indicate what actions should yield successful authentication or data return.  An overall analysis will be reported for the real world provider data since we cannot estimate failures due to providers correctly being denied access.
+MIE will analyze de-identified log files to assess authentication and data searches using a provider app. In the sandbox system, specific rates will be reported based on automated testing, which will indicate which actions should yield successful authentication or data return. For real-world provider data, an overall analysis will be reported, recognizing that some failures are expected due to appropriate access denials. The FHIR message creation success rate will be calculated as the number of successful FHIR message creations (numerator) divided by the total number of FHIR message creation attempts (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that WebChart EHR will be conformant to all (g)(10) requirements and that overall error rates will be low.
+It is expected that WebChart EHR will be conformant to all (g)(10) requirements and that the overall error rate (numerator: failed FHIR message creations, denominator: total FHIR message creation attempts) will be low, under 1%.
 
 #### Care Setting(s)
 
@@ -1921,11 +1905,11 @@ WebChart EHR per certification requirements must be able to produce HL7 v2 ADT m
 
 #### Test Methodology
 
-We have automated tests that perform the scenarios to Register a patient, admit them both for ambulatory and urgent care, make demographic updates, and discharge them. The automated tests validate that the HL7 interface constructs valid ADT messages that conform to the certification specification. RWT in Webchart EHR would include creating 3 separate Refer to Systems end points with interface specific configuration configured and 3 separate Auto Routes to capture the new registrations, demographic updates, admissions, and discharges.  When using Webchart EHR to register a patient, update demographics, admit, or discharge the system will automatically produce the HL7 messages and send them to the configured end point with the HL7 format that meets the requirements of the NIST validation tool to be accepted by the public health agency.
+Automated tests will perform scenarios to register a patient, admit them for both ambulatory and urgent care, make demographic updates, and discharge them. These tests validate that the HL7 interface constructs valid ADT messages conforming to certification specifications. RWT in WebChart EHR will include creating three separate Refer to Systems endpoints with interface-specific configuration and three separate Auto Routes to capture new registrations, demographic updates, admissions, and discharges. When using WebChart EHR to register a patient, update demographics, admit, or discharge, the system will automatically produce HL7 messages and send them to the configured endpoint in the HL7 format required by the NIST validation tool for acceptance by the public health agency. The HL7 message success rate will be calculated as the number of successful HL7 messages generated and accepted (numerator) divided by the total number of HL7 message generation attempts (denominator).
 
 #### Expected Outcome(s)
 
-It is expected that test failures will be rare and that the automated tests will pass successfully in a minimum of 95% of nightly runs.  Any failures are expected to be due to a failure in the testing infrastructure rather than in the functionality of the API. In the case of reported WebChart applications errors, issues shall be tracked and resolved. In the case of public health agency internal errors, the public health agency shall be notified of the issue.
+It is expected that test failures will be rare, with automated tests passing successfully in at least 95% of nightly runs (numerator: successful HL7 messages, denominator: total HL7 message attempts). Any failures are expected to be due to issues in the testing infrastructure rather than the functionality of the API. In the case of reported WebChart application errors, issues will be tracked and resolved. In the case of public health agency internal errors, the public health agency will be notified of the issue.
 
 #### Care Setting(s)
 
@@ -1962,11 +1946,11 @@ When a system is configured to report electronic case reports to the appropriate
 
 #### Test Methodology
 
-The number of eCR documents generated in configured systems will be tracked throughout the year using database queries which can be spliced by date to report various trends.  Again using database queries, we will report on which codes trigger the eCR generation.
+The number of eCR documents generated in configured systems will be tracked throughout the year using database queries, which can be filtered by date to report on various trends. Additionally, database queries will be used to report which codes trigger eCR generation. The eCR generation success rate will be calculated as the number of successfully generated eCR documents (numerator) divided by the total number of eCR generation attempts (denominator).
 
 #### Expected Outcome(s)
 
-Failures should be rare, with a success rate of at least 99% expected when systems are properly configured.
+Failures should be rare, with a success rate (numerator: successfully generated eCR documents, denominator: total eCR generation attempts) of at least 99% expected when systems are properly configured.
 
 #### Care Setting(s)
 
@@ -1997,11 +1981,11 @@ EHI export is designed to export the designated record set for a single patient 
 
 #### Test Methodology
 
-During a standing bi-weekly code review meeting, code changes will be reviewed to determine if any modifications of the EHI export documentation are required.  Reviews of the overall documentation, independent of the software lifecycle, will also be conducted on a quarterly basis.  The number of documentation reviews and modifications will be tracked.  Any required modifications to documentation will be made within 2 weeks of the code change and before the code change is pushed to live client systems.
+During a standing bi-weekly code review meeting, code changes will be reviewed to determine if any modifications to the EHI export documentation are required. Independent of the software lifecycle, overall documentation reviews will also be conducted quarterly. The documentation modification rate will be calculated as the number of documentation modifications made (numerator) divided by the total number of documentation reviews conducted (denominator). Any required modifications to documentation will be made within 2 weeks of the code change and before the code change is pushed to live client systems.
 
 #### Expected Outcome(s)
 
-It is expected that updates to the EHI documentation will be rarely necessary; however, all updates will be made promptly prior to the live EHI functionality changing in client systems.
+It is expected that the rate of updates to the EHI documentation (numerator: documentation modifications, denominator: documentation reviews) will be low; however, all updates will be made promptly prior to any live EHI functionality changes in client systems.
 
 #### Care Setting(s)
 
@@ -2038,11 +2022,11 @@ Source Attribute documentation and Intervention Risk Management Summary informat
 
 #### Test Methodology
 
-An external uptime monitor will check the availability of all documentation available at https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/ and https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+An external uptime monitor will check the availability of all documentation available at https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/ and https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/. The uptime rate will be calculated as the total time the documentation is available (numerator) divided by the total monitoring period (denominator). The downtime rate will be calculated as the total time the documentation is unavailable (numerator) divided by the total monitoring period (denominator). Both up- and downtime rates, along with the cause and duration of any downtime, will be logged and reported quarterly. In the event of downtime, the downtime rate can also be reported at daily, weekly, or monthly intervals, and the cause of each downtime occurrence will be included in the report.
 
 #### Expected Outcome(s)
 
-It is expected that all documentation will maintain an uptime of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
+It is expected that all documentation will maintain an uptime rate (numerator: total time available, denominator: total monitoring period) greater than 99.9%. Any downtime is expected to be caused by minor errors, such as connection timeouts or planned maintenance, and last for a duration of 10 minutes or less.
 
 #### Care Setting(s)
 
@@ -2106,7 +2090,7 @@ Users must be able to select and use Ozwell from within WebChart EHR (WC). Acces
 
 #### Justification
 
-Ozwell AI is integrated into WC and is accessible via the AI icon in the header bar on every page. Access is controlled by user security role or individual security exception. Only users with the appropriate permissions are presented with the AI icon; users without access do not see the icon and therefore cannot access Ozwell. Users can provide feedback to developers through the "Report Session" link at the top of the Ozwell session page or by creating a support ticket from the menu. These mechanisms ensure only authorized users can access Ozwell and that user feedback is efficiently routed to developers.
+Ozwell AI is integrated into WC as an optional feature and is accessible via the AI icon in the header bar on every page. Access is controlled by user security role or individual security exceptions. Only users with the appropriate permissions are presented with the AI icon; users without access do not see the icon and therefore cannot access Ozwell. Users can provide feedback to developers through the "Report Session" link at the top of the Ozwell session page or by creating a support ticket from the menu. These mechanisms ensure only authorized users can access Ozwell and that user feedback is efficiently routed to developers.
 
 #### Test Methodology
 
@@ -2116,14 +2100,11 @@ Testing will be conducted as follows:
 * A user without the required permissions will log in to WC and confirm the absence of the AI icon, ensuring Ozwell is not accessible.
 * A user will submit feedback using both the "Report Session" link and the support ticket option to verify feedback mechanisms are functional and feedback is received by developers.
 
-The number of successful and unsuccessful access attempts, as well as feedback submissions, will be tracked and reviewed.
+The access success rate will be calculated as the number of successful access attempts by authorized users (numerator) divided by the total number of access attempts by authorized users (denominator). The unauthorized access prevention rate will be calculated as the number of unsuccessful access attempts by unauthorized users (numerator) divided by the total number of access attempts by unauthorized users (denominator). The feedback submission success rate will be calculated as the number of successful feedback submissions (numerator) divided by the total number of feedback submission attempts (denominator). All rates and counts will be tracked and reviewed.
 
 #### Expected Outcome(s)
 
-* Only users with the appropriate security role or exception are presented with the AI icon and can access Ozwell from within WC.
-* Users without access do not see the AI icon and cannot access Ozwell.
-* Users are able to provide feedback to developers using the available in-app mechanisms.
-* All care settings (primary care, specialties, pediatrics, small, large) are supported.
+Only users with the appropriate security role or exception (numerator: successful authorized accesses, denominator: total authorized access attempts) are presented with the AI icon and can access Ozwell from within WC. Users without access (numerator: unsuccessful unauthorized access attempts, denominator: total unauthorized access attempts) do not see the AI icon and cannot access Ozwell. Users are able to provide feedback to developers using the available in-app mechanisms (numerator: successful feedback submissions, denominator: total feedback submission attempts).
 
 #### Care Setting(s)
 
@@ -2216,6 +2197,15 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Date</strong></td>
-<td></td>
+<td><svg style="width: 25.79mm; height: 6.28mm;" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<style>* { fill: transparent; }</style>
+<g>
+<svg style="" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<style>* { fill: transparent; }</style>
+<path d="M 0 0 L 2579 0 2579 628 0 628 Z" transform="undefined" style=" stroke-width: 0in;" ></path>
+</svg>
+</g>
+</svg>
+<br /><strong>INSTEAD OF EMBEDDED DIAGRAM ABOVE USE EMBEDDED DIAGRAM FROM DRIVE AND PUT LINK TO IT IN THE DESCRIPTION. See: https://github.com/mieweb/wikiGDrive/issues/353</strong></td>
 </tr>
 </table>
