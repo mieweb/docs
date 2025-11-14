@@ -1,8 +1,8 @@
 ---
 id: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
 title: 'Lost Time Import Tool'
-date: '2025-11-13T22:05:12.725Z'
-version: 77
+date: '2025-11-14T13:27:54.649Z'
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -644,7 +644,7 @@ Maps to {{% system-name %}} incidents field "Patient died". Indicates if employe
 <tr>
 <td>incidents.reported_datetime</td>
 <td><br />
-Datetime incident was reported. When manually creating a new case in {{% system-name %}} via an encounter in an employee's chart, the reported date assumes "current date/time" as the reported date in the background and this is displayed in view only on encounter and a column in the Common Case Report. There is no editable field in front-end of {{% system-name %}} for this reported date. If client has ability for their employee's to report incidents via their portal, it would be the date they reported it via the portal.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
+Datetime incident was reported. When manually creating a new case in {{% system-name %}} via an encounter in an employee's chart, the reported date assumes "current date/time" as the reported date in the background and this is displayed in view only on encounter and a column in the Common Case Report. There is no editable field in front-end of {{% system-name %}} for this reported date. If client has ability for their employees to report incidents via their portal, it would be the date they reported it via the portal.Must be in date format of YYYY-MM-DD and time format of HH:MM:SS</td>
 <td>19</td>
 <td>2001-01-08 08:30:00</td>
 </tr>
