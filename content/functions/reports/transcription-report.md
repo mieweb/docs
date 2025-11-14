@@ -1,8 +1,8 @@
 ---
 id: '1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
 title: 'Transcription Report'
-date: '2025-11-13T21:46:19.747Z'
-version: 120
+date: '2025-11-14T13:34:37.773Z'
+version: 125
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,6 +12,8 @@ wikigdrive: 'v2.15.27'
 markup: 'pandoc'
 ---
 The Transcription Report and/or Transcription Report - DataVis provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
+
+## Transcription Report
 
 Use transcription reports to view statistics on transcription output. The report can present information based on department, provider, user, document type, and ranges of dates. A transcription report includes the following information:
 
