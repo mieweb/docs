@@ -1,8 +1,8 @@
 ---
 id: '1uv5mwow3lT430CsvNRNmaqPdiIVF1OetG4jPTRQbk4Y'
 title: 'Real World Testing Plan 2026'
-date: '2025-11-13T22:02:32.048Z'
-version: 306
+date: '2025-11-14T19:31:50.885Z'
+version: 337
 lastAuthor: 'shuq'
 mimeType: 'text/x-markdown'
 links:
@@ -29,7 +29,6 @@ links:
   - 'https://ecqi.healthit.gov/glossary/standard-trial-use-stu'
   - 'https://www.w3.org/WAI/WCAG2-Conformance'
   - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party-0'
-  - 'https://www.healthit.gov/test-method/data-export'
   - 'https://docs.webchartnow.com/resources/system-specifications/fhir-application-programming-interface-api/?utm_source=bluehive&utm_medium=chat&utm_campaign=bluehive-ai'
   - 'https://ozwell.ai/2025/01/30/introduction-to-bluehive-healths-irm-practices/'
   - 'https://ozwell.ai/2025/05/27/ozwell-pdsi-source-attributes/'
@@ -1374,10 +1373,6 @@ This measure will verify that CDAs both created by and received by a Webchart EH
 <td><a href="https://www.healthit.gov/test-method/transitions-care#cures_tp">§170.315(b)(1): Transitions of Care</a></td>
 <td>(b)(1)(ii)(A)</td>
 </tr>
-<tr>
-<td><a href="https://www.healthit.gov/test-method/data-export">§170.315(b)(6): Data Export</a></td>
-<td>(b)(6)(ii), (A)-(F)</td>
-</tr>
 </table>
 
 #### Justification
@@ -2184,28 +2179,10 @@ This Real World Testing plan is complete with all required elements, including m
 </tr>
 <tr>
 <td><strong>Authorized Representative Signature</strong></td>
-<td><svg style="width: 25.79mm; height: 6.28mm;" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-<style>* { fill: transparent; }</style>
-<g>
-<svg style="" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-<style>* { fill: transparent; }</style>
-<path d="M 0 0 L 2579 0 2579 628 0 628 Z" transform="undefined" style=" stroke-width: 0in;" ></path>
-</svg>
-</g>
-</svg>
-<br /><strong>INSTEAD OF EMBEDDED DIAGRAM ABOVE USE EMBEDDED DIAGRAM FROM DRIVE AND PUT LINK TO IT IN THE DESCRIPTION. See: https://github.com/mieweb/wikiGDrive/issues/353</strong></td>
+<td><img src="../real-world-testing-plan-2026.assets/bb103740741f74a0e6d7d5f01ed99d7c.png" /></td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
-<td><svg style="width: 25.79mm; height: 6.28mm;" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-<style>* { fill: transparent; }</style>
-<g>
-<svg style="" width="2579" height="628" viewBox="0 0 2579 628" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-<style>* { fill: transparent; }</style>
-<path d="M 0 0 L 2579 0 2579 628 0 628 Z" transform="undefined" style=" stroke-width: 0in;" ></path>
-</svg>
-</g>
-</svg>
-<br /><strong>INSTEAD OF EMBEDDED DIAGRAM ABOVE USE EMBEDDED DIAGRAM FROM DRIVE AND PUT LINK TO IT IN THE DESCRIPTION. See: https://github.com/mieweb/wikiGDrive/issues/353</strong></td>
+<td>11/14/2025</td>
 </tr>
 </table>
