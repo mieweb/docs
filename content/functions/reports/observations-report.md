@@ -1,8 +1,8 @@
 ---
 id: '13jOk33Y1SJkreIkd5pt3QzR7QY28FQvZOcLsMSPA1MM'
 title: 'Observations Report'
-date: '2025-11-13T21:39:44.952Z'
-version: 146
+date: '2025-11-14T13:20:22.496Z'
+version: 154
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -51,11 +51,11 @@ These are optional fields:
 
 ![](../observations-report.assets/caf51ee15020e7a45a869d338c00c213.png)
 
-    * This example shows limiting the same report by a specific Encounter Location that was set on the encounter as the performing location.  This results only the observation data (that is being filtered by) to a specific performing encounter location.
+* This example shows limiting the same report by a specific Encounter Location that was set on the encounter as the performing location.  This results only the observation data (that is being filtered by) to a specific performing encounter location.
 
 ![](../observations-report.assets/3698181b8dd32392557d1af7a584e751.png)
 
-    * The performing encounter location is set in the Encounter top section when working in an encounter to document visit data.
+* The performing encounter location is set in the Encounter top section when working in an encounter to document visit data.
 
 ![](../observations-report.assets/c350d7a08d3f8d2ed4ee3551b95277f6.png)
 
