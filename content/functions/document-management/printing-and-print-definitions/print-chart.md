@@ -1,8 +1,8 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2025-11-10T17:42:03.564Z'
-version: 123
+date: '2025-11-17T20:31:30.198Z'
+version: 130
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -60,8 +60,6 @@ When the **Print without headers** option is selected, another option will be 
 **Print only documents that have NOT been printed**: Selecting this option will ensure only those documents not included previously will be rendered from the print definition when used again. This will reduce waste by printing only those things that have not been printed or rendered before.
 
 **Use legacy print formatting**: By default, the Enterprise Health system prints documents using WebKit formatting, which is to say formatting designed with indentations, bulletting, and specific parsing for the document structure. Alternatively, legacy print formatting simply renders a generic html document (no indentations, bullets, etc.) for printing.
-
-![](../print-chart.assets/100000000000027000000158A53F33EA6C6A6370.gif)
 
 Legacy printing is possible when the *Use legacy print formatting* option is available (i.e., the Use Webkit system setting is enabled) and selected.
 
