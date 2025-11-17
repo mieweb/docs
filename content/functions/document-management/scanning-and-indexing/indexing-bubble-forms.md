@@ -1,8 +1,8 @@
 ---
 id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
 title: 'Indexing Bubble Forms'
-date: '2025-11-10T17:16:07.742Z'
-version: 66
+date: '2025-11-17T20:06:33.480Z'
+version: 73
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,6 +18,8 @@ Generating a bubble form is as simple as navigating to the **Forms Library** and
 {{% note %}}
 It is important to scan in batches as black/white. If a bubble form is scanned in as grayscale, the system may not read the bubbles on the form correctly.
 {{% /note %}}
+
+## Indexing a Bubble Form
 
 In order to index data or address indexing tasks, users must have the appropriate security permissions provided. The *Add Observations* security permission requires a minimum of **Add** ability, in order to perform the necessary functions. An error notification will display if the user does not have the necessary permissions granted.
 
