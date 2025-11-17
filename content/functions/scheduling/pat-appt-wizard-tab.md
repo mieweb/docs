@@ -1,11 +1,13 @@
 ---
 id: '12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 title: 'Pat/Appt Wizard Tab'
-date: '2025-04-09T18:09:22.171Z'
-version: 77
+date: '2025-11-17T20:59:08.259Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/patient-registration/patient-registration-tab-manual-patient-entry/'
+  - 'https://docs.enterprisehealth.com/functions/scheduling/adding-an-appointment-using-the-wizard-tab/'
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
 wikigdrive: 'v2.15.27'
@@ -32,7 +34,7 @@ All this information populates the *Demographics* tab of the patient's chart.
 
 Fill out the registration screen fields and click the **Save** button at the bottom.
 
-For detailed information on each Patient Registration field, please see other help documentation titled *Patient Registration Tab-Manual Patient Entry.pdf*
+For detailed information on each Patient Registration field, please see other help documentation titled [Patient Registration Tab - Manual Patient Entry](https://docs.enterprisehealth.com/functions/patient-registration/patient-registration-tab-manual-patient-entry/).
 
 It then goes to the *Appointment Wizard* screen for this new registered patient. It has also assigned an MR number (account number) for the patient you manually registered.
 
@@ -40,7 +42,7 @@ Manual Registration in {{% system-name %}} shows this new registered patient in 
 
 ![](../pat-appt-wizard-tab.assets/e7275a758e818766f895e8a35a7cd57b.png)
 
-Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled *Adding An Appointment Using Wizard Tab.pdf*
+Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled [Adding an Appointment Using the Wizard Tab](https://docs.enterprisehealth.com/functions/scheduling/adding-an-appointment-using-the-wizard-tab/).
 
 If you click the **Close** button in the Appointment Wizard screen without making an appointment—it will still save/keep the patient registration you just did manually and still puts that patient in {{% system-name %}} as a registered patient. You will see a message once the patient was added and you have the option to return to the scheduler if you didn't add an appointment through the wizard.
 
