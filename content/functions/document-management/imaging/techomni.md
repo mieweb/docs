@@ -1,9 +1,9 @@
 ---
 id: '1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
 title: 'TechOmni'
-date: '2025-04-07T17:27:18.903Z'
-version: 47
-lastAuthor: 'anichols'
+date: '2025-11-17T20:49:13.383Z'
+version: 53
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'radomni.md'
@@ -40,7 +40,8 @@ TechOmni is a powerful tool that can be used in conjunction with the [RadOmni](r
 See additional Order Types available under the Orders-List Editor tab of the Control Panel.
 {{% /tip %}}
 
-    * Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
+* Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
+
 * <strong>Order Status</strong>
     * Every order is assigned an order status. Though TechOmni will likely be used for Pending orders, exclusively, the following is a list of all available order statuses and their respective identifiers:
     * REPEAT = -5
