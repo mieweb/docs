@@ -1,9 +1,9 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-13T18:08:57.793Z'
-version: 559
-lastAuthor: 'anichols'
+date: '2025-11-19T19:31:24.024Z'
+version: 596
+lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
   - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
@@ -240,3 +240,15 @@ For more information on utilizing an additional level of security to a user's si
 * [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
 * [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-user-experience.md)
 * [One Time Password Authentication via Email User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/)
+
+{{% only sys="wc" type="INLINE" %}}
+
+#### Enabling 2FA/MFA for users
+
+{{ youtube m5bUwJ63xyI >}}
+
+#### Enabling 2FA/MFA for admin
+
+{{ youtube F2t7S0aCkAk >}}
+
+{{% /only %}}
