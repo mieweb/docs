@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-19T19:31:24.024Z'
-version: 596
+date: '2025-11-19T19:43:03.745Z'
+version: 599
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -245,10 +245,10 @@ For more information on utilizing an additional level of security to a user's si
 
 #### Enabling 2FA/MFA for users
 
-{{ youtube m5bUwJ63xyI >}}
+{{< youtube m5bUwJ63xyI >}}
 
 #### Enabling 2FA/MFA for admin
 
-{{ youtube F2t7S0aCkAk >}}
+{{< youtube F2t7S0aCkAk >}}
 
 {{% /only %}}
