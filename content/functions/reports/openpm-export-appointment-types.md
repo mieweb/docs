@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Appointment Types
 
@@ -32,4 +32,4 @@ The "Appointment Types" report is designed to export detailed information about 
 13. Active: Indicates whether the appointment type is currently active (Yes or No).
 14. Options: A link to edit the appointment type.
 
-![](../openpm-export-appointment-types.assets/9b222cf25ece5bcf54945ce940d085aa.png)
+![](./openpm-export-appointment-types.assets/9b222cf25ece5bcf54945ce940d085aa.png)

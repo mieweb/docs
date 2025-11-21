@@ -10,7 +10,7 @@ links:
   - 'quality-of-care/measures.md'
   - 'https://mmshub.cms.gov/about-quality/quality-at-CMS/quality-programs'
 source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified Electronic Clinical Quality Measures (eCQMs), and other quality measures.  Certified eCQMs have been developed to the specifications of CMS for use in Quality Payment Programs (QPP), such as MIPS.  Additional measures have been developed to support compliance tracking for payer, employer, and other incentive programs. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
 
@@ -26,8 +26,8 @@ Participants can utilize the {{% system-name %}} system to track and report on t
 
 ### Running QRDA Reports
 
-![](../quality-of-care.assets/60e7a1d96c634d9eef25b32cef8082ae.png)
+![](./quality-of-care.assets/60e7a1d96c634d9eef25b32cef8082ae.png)
 
 Example of QRDA Category I Options report filters:
 
-![](../quality-of-care.assets/e26839a1bd38f3ef43728006c23f1cec.png)
+![](./quality-of-care.assets/e26839a1bd38f3ef43728006c23f1cec.png)

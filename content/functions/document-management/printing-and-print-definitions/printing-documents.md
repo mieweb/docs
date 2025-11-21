@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
   - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
 source: 'https://drive.google.com/open?id=1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Printing documents from the {{% system-name %}} system is a simple process. The intent of this help documentation is to go over the steps for printing individual documents and full-size scanned documents, as well as some additional details, as they relate to the printing processes.
 
@@ -17,11 +17,11 @@ Printing documents from the {{% system-name %}} system is a simple process. The 
 
 While in the appropriate chart, locate and open the document needing printed. Click the **Print** link, found in the upper-right corner of the document header.
 
-![](../printing-documents.assets/9ebee05891b9e75c4a66e281ad6af394.png)
+![](./printing-documents.assets/9ebee05891b9e75c4a66e281ad6af394.png)
 
 Once clicked, the Print Dialog window will open, with **Send To** *Printer* marked, by default.
 
-![](../printing-documents.assets/48cf39f44fef0b120d4955c6345c6941.png)
+![](./printing-documents.assets/48cf39f44fef0b120d4955c6345c6941.png)
 
 Users may choose to **Print without headers** or **Use legacy print formatting**, if preferred.
 
@@ -49,17 +49,17 @@ Users may set the format of print documents to either PDF or TIFF, by way of the
 
 Printing full-size scanned documents requires a simple adjustment in the default printing settings. To begin, locate and open the specific scanned document needing printed.
 
-![](../printing-documents.assets/f7b776194c27e97a3dec66acd6704166.png)
+![](./printing-documents.assets/f7b776194c27e97a3dec66acd6704166.png)
 
 Depending on the web browser used, when the document is opened, the scanned image will either appear within an AlternaTIFF workspace (e.g., IE), or when clicked, the image will appear in a viewer of a new tab/window (e.g., Chrome). The focus here is on Internet Explorer web browsers, using the AlternaTIFF control.
 
 Right-click the grey toolbar area, just above the scanned image. Select **More Settings**.
 
-![](../printing-documents.assets/8cb30ac3ae60bc0c004966263c6f704e.png)
+![](./printing-documents.assets/8cb30ac3ae60bc0c004966263c6f704e.png)
 
 Once clicked, the AltneraTIFF: More Settings dialog window will open. Ensure the **Always print full page** option is selected, and click the **OK** button.
 
-![](../printing-documents.assets/3729042e8f57b6b6c755dcce0f4f626b.png)
+![](./printing-documents.assets/3729042e8f57b6b6c755dcce0f4f626b.png)
 
 {{% note %}}
 This setting only needs to be done one time for each workstation, and only needs performed on workstations intending to print insurance cards, driver's licenses, or other scanned documents.

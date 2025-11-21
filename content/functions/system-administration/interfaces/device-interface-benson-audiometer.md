@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'
   - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This page provides instructions for retrieving results from the Benson software with , and lists the fields that the interface retrieves.
 
@@ -61,7 +61,7 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 * To get the correct export format a configuration file must be imported into the Benson software
     * The configuration file is available in the Plugins page of the Control Panel in {{% system-name %}}
 
-![](../device-interface-benson-audiometer.assets/62de28659970757f10b439a76974c5b2.png)
+![](./device-interface-benson-audiometer.assets/62de28659970757f10b439a76974c5b2.png)
 
 * Use "Merge" file option in the Plus Package software
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.

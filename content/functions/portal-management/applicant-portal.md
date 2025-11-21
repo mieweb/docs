@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
@@ -107,15 +107,15 @@ Only create an Applicant Security Role if you are on a legacy database build. Th
 4. Locate and select the Portal Setup tab.
 5. Once there, click the <strong>Applicant Portal</strong> header, to expand the section. Click the <strong>Run Setup</strong> button.
 
-![](../applicant-portal.assets/29d4e5695d2713714eff548176adfbd5.png)
+![](./applicant-portal.assets/29d4e5695d2713714eff548176adfbd5.png)
 
 6. The Setup Wizard will run.
 
-![](../applicant-portal.assets/8906c3043ebd71669874a941070b0bc7.png)
+![](./applicant-portal.assets/8906c3043ebd71669874a941070b0bc7.png)
 
 7. After running the portal setup, review the <strong>Security Requirements</strong> and update, as necessary.
 
-![](../applicant-portal.assets/d5734a4f26ad1e498b4fa3925958040a.png)
+![](./applicant-portal.assets/d5734a4f26ad1e498b4fa3925958040a.png)
 
 {{% note %}}
 These Security Requirements should always be followed for ensuring the proper security role settings.
@@ -123,7 +123,7 @@ These Security Requirements should always be followed for ensuring the proper se
 
 ## Applicant Portal Configuration
 
-![](../applicant-portal.assets/040bcb95b6e9afb5b26835e7645ef480.png)
+![](./applicant-portal.assets/040bcb95b6e9afb5b26835e7645ef480.png)
 
 **Features**
 
@@ -189,7 +189,7 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 5. Click the <strong>Save</strong> button.
 6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.
 
-    ![](../applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png)
+    ![](./applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png)
 
 ## Configure Applicant Portal
 

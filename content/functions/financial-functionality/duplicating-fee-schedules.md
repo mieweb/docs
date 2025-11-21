@@ -10,7 +10,7 @@ links:
   - 'viewing-all-fee-schedules.md'
   - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=14vLHPlYfqemFhoLO8lssEsb-0UjUSXtwfD9J8M2uxg4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Duplicate fee schedules to create a new fee schedule with the same fee schedule items and a different fee schedule name.
 
@@ -21,7 +21,7 @@ When duplicating a fee schedule, you can also set the prices of all items in the
 3. In the <em>Add New Fee Schedule</em> window, in the <em>Fee Schedule</em> Name field, enter a <strong>name for the new fee schedule</strong>.
 
 
-    ![](../duplicating-fee-schedules.assets/8e6bdbf140ca9f4522995d1466647361.png)
+    ![](./duplicating-fee-schedules.assets/8e6bdbf140ca9f4522995d1466647361.png)
 4. In the <em>Begin Date and End Date</em> fields, modify <strong>the dates</strong> if necessary.
 5. In the <em>Cost Percentage</em> field, do one:
     1. To not change the costs of all items in the duplicate fee schedule, do not make an entry.

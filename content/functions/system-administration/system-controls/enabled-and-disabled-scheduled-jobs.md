@@ -7,25 +7,25 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1pN9DzGzqbdEeR5BRFtr7JltGc4UTtFel20pPFK_g6J0'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The {{% system-name %}} solution allows for numerous scheduled jobs to be enabled. Out of the box there are many already enabled and available to be used. There are also available scheduled jobs that are disabled, by default.
 
 To access the Scheduled Jobs, from the Sidemenu, click on the Control Panel, then Scheduled Jobs.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/fa33bcdef08df5ba3e427eaa29000811.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/fa33bcdef08df5ba3e427eaa29000811.png)
 
 ## Scheduled Jobs System Enable
 
 The Deployment Consultant must configure the scheduled jobs functionality to be enabled for the system.  Otherwise you will be notified that scheduled jobs are not yet enabled system wide.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/223d984c14c51d4df109a3cb531dbb99.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/223d984c14c51d4df109a3cb531dbb99.png)
 
 ## Enabled Individual Scheduled Jobs
 
 The standard scheduled jobs are displayed upon initial entry to the Scheduled Job screen.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/b97c53813ace0bf6e49b478b6c86d09a.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/b97c53813ace0bf6e49b478b6c86d09a.png)
 
 ### Health Surveillance Membership
 
@@ -136,7 +136,7 @@ This scheduled job sends a list of security roles and number of users in each se
 
 To view the Disabled Scheduled jobs, select the *Show Disabled* option.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/4c6ad40cf80b3041b2ac019e5b380dd5.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/4c6ad40cf80b3041b2ac019e5b380dd5.png)
 
 ### HSPDocCmpOrders
 
@@ -296,7 +296,7 @@ Sends an instruction email with the portal activation/pickup code to patient cha
 
 A *Vaccination Post Declination Update* system report is available to be configured as a scheduled job.  This system (when executed) looks for charts that declined the flu injection, but then end up becoming vaccinated within the same season (8/1-4/30).  This report (when executed) will find charts that declined the flu injection item (with auto-declined status), yet now also have a flu injection administered (of specific CVX codes) in the same season.  If any matching charts are found, the executed report will populate a completed flu injection order item with comment *Previous Declination to Vaccination* so charts show up appropriately on reports.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/6d32717b1d6dbd02cc406deeec88e9df.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/6d32717b1d6dbd02cc406deeec88e9df.png)
 
 NOTE: If any systems wish to have this (that are not on 2025-09 or newer yet), can simply request their deployment consultant to import the system report JSON file and set up the scheduled job.
 
@@ -306,13 +306,13 @@ Any active scheduled job with a specific number in the *Max Records* field of th
 
 Using *Max Records* functionality may be helpful for email scheduled jobs.  Where a system admin wants to receive a warning and approve all scheduled jobs that will be triggered if the number of email recipients exceeds a specified threshold (X) max records.  This would ensure proper oversight of communications and prevent unauthorized or accidental dissemination of information.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/354ea872cda624c6cdad292d047b3ef1.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/354ea872cda624c6cdad292d047b3ef1.png)
 
 ### Max Records Exceeds Notification
 
 The notification of the blocked scheduled job(s) being executed will be sent to the email address that is configured in the system setting *System / Cron / Email Failures To*.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/97a2a506c55890894ac7a46493061f6f.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/97a2a506c55890894ac7a46493061f6f.png)
 
 ### Max Records Exceeds Approval Process
 
@@ -320,7 +320,7 @@ The "approval" process refers to stopping the execution of scheduled jobs that e
 
 A system admin can then manually run the associated system report, review and decide whether to proceed with performing it (Perform All button). This manual execution serves as the approval step.  The other method is to simply remove the Max Records value from the scheduled job itself and manually execute the scheduled job to run, and after it has run entirely, the system admin can place back the Max Records value to take effect in the next run.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/017ed371f2938e1268b0f3b50904e21c.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/017ed371f2938e1268b0f3b50904e21c.png)
 
 ## Status
 
@@ -331,21 +331,21 @@ The Status column will show a colored status circle.
 * Grey status circle means the scheduled job has not run as of yet.
 * Red status circle means the scheduled job has errored out during every run as the recurrence is set to.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/286a3ac2b49c16b9ebe9efa434d9bdb5.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/286a3ac2b49c16b9ebe9efa434d9bdb5.png)
 
 ### Scheduled Job Failures Notification
 
 There is a system setting that can be configured with an email(s) of who should receive email notifications of a scheduled job failure.  The system setting is *Email Failures To*.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/d9baa71c9a52efaa549ece475ba636e1.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/d9baa71c9a52efaa549ece475ba636e1.png)
 
 This is an email notification example that could be received:
 
-![](../enabled-and-disabled-scheduled-jobs.assets/f8c8d7a5e2ec3421ba1f25d9c337e8d9.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/f8c8d7a5e2ec3421ba1f25d9c337e8d9.png)
 
 Another system setting related to scheduled job failures is *Error Emails From*.  By default the email will be ‘from address' scheduledjobs@med-web.com, but this can be changed to be any email ‘from' address.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/c54a91c950570f9b75c3f2513ae9980a.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/c54a91c950570f9b75c3f2513ae9980a.png)
 
 ### Status History
 
@@ -353,19 +353,19 @@ Clicking on a colored status circle for the specific scheduled job row, will dis
 
 The Job History lists the specific scheduled job name, and the date/time the scheduled job has run (according to recurrence it's set to), the total duration of how long the scheduled job took (in seconds) and another colored status circle within each listed run, to see which runs the scheduled job may have run successfully, or failed, etc.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/5f6113ec3db119ef62e846b60b0c5723.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/5f6113ec3db119ef62e846b60b0c5723.png)
 
-![](../enabled-and-disabled-scheduled-jobs.assets/19876ab46331bd694894c1a49d156f34.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/19876ab46331bd694894c1a49d156f34.png)
 
 ## Revision History of Scheduled Job Configuration
 
 Within the listing of scheduled jobs (whether active or inactive), is an option to view Revisions.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/d2fa8904a8ac537d2f182b3870ccacd6.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/d2fa8904a8ac537d2f182b3870ccacd6.png)
 
 When looking at the Revisions of a scheduled job (in a pop-up window), each revision is listed with whom (user) made a change to the scheduled job, including a date/time stamp of that revision, and which field(s) were revised, and the field(s) revised show what the value or data was entered in by that user during the revision that was saved.  Revisions gives a chronological history of any revisions to the scheduled job that was selected to view.  Newest revisions would be at the bottom of the pop-up window and oldest revisions at the top.
 
-![](../enabled-and-disabled-scheduled-jobs.assets/5f58ad399f24b0c4d15f6e5c6799dc2d.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/5f58ad399f24b0c4d15f6e5c6799dc2d.png)
 
 **Recurrence Mapping**
 
@@ -373,7 +373,7 @@ When you set up a scheduled job, you pick a recurrence type (how often it repeat
 
 A revision to the ‘recurrence' field of a scheduled job will display a value or calculation that may not be intuitive.  The revision value shows the raw numeric codes (e.g., 258, 32, 0 etc), and currently we are unable to convert these into clear descriptive text (e.g., specific months or weekdays).   Therefore, this is the mapping to decipher that revision's value when looking at revision history that may involve a Recurrence revision:
 
-![](../enabled-and-disabled-scheduled-jobs.assets/a7f10060c0366d800ca2ba27a6b823e1.png)
+![](./enabled-and-disabled-scheduled-jobs.assets/a7f10060c0366d800ca2ba27a6b823e1.png)
 
 **Recurrence Type**
 

@@ -16,7 +16,7 @@ links:
   - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Deployment Strategy
 
@@ -107,4 +107,4 @@ In summary, Amazon S3 emerges as a powerhouse for file storage due to its multi-
 
 ## Data Flow Diagram
 
-![](../aws-deployment.assets/aa76d715a968cf87547b343b7d90609e.png)
+![](./aws-deployment.assets/aa76d715a968cf87547b343b7d90609e.png)

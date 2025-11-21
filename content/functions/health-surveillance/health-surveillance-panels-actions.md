@@ -10,13 +10,13 @@ links:
   - 'health-surveillance-panels-action-rules.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Within the Health Surveillance tab, lists existing Health Surveillance Panels configured for the system, and is where user(s) can manage them or add Health Surveillance (HS) Panels to the system from this editor. A panel defines a group of events or actions that will take place on certain profiles of charts on a regular schedule in the Health Surveillance module.
 
 To manage or configure Health Surveillance Panels and actions/components for your overall system, users must have security permission to the Health Surveillance Management tab, which is found within the Control Panel. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs.
 
-![](../health-surveillance-panels-actions.assets/5b8ab10f00cdd2af73ab9edfa0de5526.png)
+![](./health-surveillance-panels-actions.assets/5b8ab10f00cdd2af73ab9edfa0de5526.png)
 
 The Health Surveillance tab of the system lists the various configured Health Surveillance Panels (HSPanels) for your overall system.
 
@@ -30,25 +30,25 @@ Panel Actions on an HSPanel tells {{% system-name %}} what tests/components shou
 
 To view existing configured Panel Actions on a specific HSPanel, simply find the specific HSPanel and click the + plus icon to branch open the configuration of that HSPanel.
 
-![](../health-surveillance-panels-actions.assets/7fecb9e1e795f697b77ac316f5d1bcc4.png)
+![](./health-surveillance-panels-actions.assets/7fecb9e1e795f697b77ac316f5d1bcc4.png)
 
 The individual Panel Actions configured on a specific HSPanel will then be displayed as a branched list below the overall HSPanel name.
 
-![](../health-surveillance-panels-actions.assets/068993b1041a54df4d498ce5fb4a2656.png)
+![](./health-surveillance-panels-actions.assets/068993b1041a54df4d498ce5fb4a2656.png)
 
 The individual Panel Actions can also then be branched open to display some limited configuration of the Panel Action related to Timing and Criteria.  This can be branched open to display by clicking on the + icon of the individual Panel Action item.
 
-![](../health-surveillance-panels-actions.assets/6d74cefd88f9dc420fba4354ebe82d53.png)
+![](./health-surveillance-panels-actions.assets/6d74cefd88f9dc420fba4354ebe82d53.png)
 
 To view more details of the specific Panel Action item configured, simply click the eyeball icon on a specific Panel Action item.
 
-![](../health-surveillance-panels-actions.assets/07afd4d44b5e20098a7e47246c66f32b.png)
+![](./health-surveillance-panels-actions.assets/07afd4d44b5e20098a7e47246c66f32b.png)
 
 That will pop-up the *View Panel Action* window that displays all the configuration on the specific Panel Action item, without being in edit mode for it.  This pop-up shows all the additional configuration details for the Panel Action item.
 
 Once the + icon is clicked, the View Panel Action pop-up window will display all configuration entry details for the specific Panel Action item selected.
 
-![](../health-surveillance-panels-actions.assets/adbbc0836e1565b8eef8b88ec070f27a.png)
+![](./health-surveillance-panels-actions.assets/adbbc0836e1565b8eef8b88ec070f27a.png)
 
 ### Add a Panel Action to an HSPanel
 
@@ -60,11 +60,11 @@ In the HSPanel list within the Health Surveillance control panel tab, view the H
 
 In the HSPanel list, find the specific HSPanel you want to add a Panel Action to.  Click on the + icon next to the overall HSPanel name needing to add a Panel Action item to.
 
-![](../health-surveillance-panels-actions.assets/15e74ce20bb3e95665c50fe2732bcfc6.png)
+![](./health-surveillance-panels-actions.assets/15e74ce20bb3e95665c50fe2732bcfc6.png)
 
 Once the + icon is clicked, the *Add Panel Action* pop-up window will display for configuration options.
 
-![](../health-surveillance-panels-actions.assets/def23465955219b956f618e32bec8bb0.png)
+![](./health-surveillance-panels-actions.assets/def23465955219b956f618e32bec8bb0.png)
 
 It is recommended to add the representative event panel action item to the HSPanel first for entry, routine (if applicable), and then for exit (if applicable).
 
@@ -104,7 +104,7 @@ Each *Add Panel Action* field has a (?) help bubble next to it, but please see b
 * <strong>Employee End Age (in years):</strong> Specify a specific end age requirement to be used for this action or leave blank to signify no specific end age is required. Assumes the person's date of birth has been captured data into the chart's demographics.
 * <strong>Indication Rule:</strong> Can select from the drop-down any action rule preconfigured in the Action Rules hyperlink editor which must evaluate to be ‘true' in order for this specific panel action (that you are adding to the HSPanel) to trigger. Action Rules are coded and configured by an MIE Developer and MIE Deployment needs the details for an indication rule.  An example of an action rule is to only trigger this action item (procedure) on an employee if they are part of department xxx or another example is an action rule configured in the system that can be applied to this specific action (procedure) in this panel that only would trigger a Hep 3rd injection action (procedure) on an employee in this panel if they've had their 2nd Hepatitis injection given with a date in last 8 weeks.  See other help documentation titled [Health Surveillance Tab-Action Rules.](health-surveillance-panels-action-rules.md)
 
-![](../health-surveillance-panels-actions.assets/317f58f38492cdb14e28f0c8a06ba30f.png)
+![](./health-surveillance-panels-actions.assets/317f58f38492cdb14e28f0c8a06ba30f.png)
 
 * <strong>Contraindication Rule:</strong> Can select from the drop-down any action rule preconfigured in the Action Rules hyperlink editor which must evaluate to be ‘false' in order for this specific panel action (that you are adding to the HSPanel) to trigger. Action Rules are coded and configured by an MIE Developer and MIE Deployment needs the details for a contraindication rule.  See other help documentation titled [Health Surveillance Tab-Action Rules.](health-surveillance-panels-action-rules.md)
 * <strong>Required for Certification:</strong> Checkmark to indicate this specific panel action item is required (for panel certification purposes). Leave unchecked if panel action is voluntary/not required for certification purposes to be completed by the employee. If checkmarked, the HSPanel member (employee) failing or becoming overdue for this action will become decertified for the HSPanel.
@@ -119,29 +119,29 @@ Below are timeline images for the 3 most common trigger dates for panel action i
 
 This timeline diagram shows an example of a panel action item that is set for **On Date of Birth** as the routine trigger type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
 
-![](../health-surveillance-panels-actions.assets/0a2783e29e98b5528b85721fce2d4b8d.png)
+![](./health-surveillance-panels-actions.assets/0a2783e29e98b5528b85721fce2d4b8d.png)
 
 ### Routine: From Last Event
 
 This timeline diagram shows an example of a panel action item that is set for **From Last Event** as the routine trigger type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
 
-![](../health-surveillance-panels-actions.assets/cfc27a29c68a017093bea4f88651be97.png)
+![](./health-surveillance-panels-actions.assets/cfc27a29c68a017093bea4f88651be97.png)
 
 ### Route: From Last Event-On Medical Anniversary
 
 This timeline diagram shows an example of a panel action item that is set for **From Last Event-On Medical Anniversary** as the routine type.  You can visually see how the programming of all fields (ex: frequency, grace period,etc) in the panel action item relate in this graphic.
 
-![](../health-surveillance-panels-actions.assets/65bb3f15bc1b57b92d30600c48d06300.png)
+![](./health-surveillance-panels-actions.assets/65bb3f15bc1b57b92d30600c48d06300.png)
 
 ## New System Setting: Use Date Range for Entry Actions
 
 A new system setting: WebChart | Health Surveillance | Use Date Range for Entry Actions has been added to databases on RC202503 and newer.
 
-![](../health-surveillance-panels-actions.assets/5a9619c464de91061c4734779a850bfd.png)
+![](./health-surveillance-panels-actions.assets/5a9619c464de91061c4734779a850bfd.png)
 
 The system setting is disabled by default, but when/if enabled, it will allow health surveillance panel action item configuration to be configured with start and end dates *upon Entry*.  When/if enabled and if a start and end date range is entered for upon entry items (or its representative entry event it may trigger with), those entry actions will only trigger during the specified start and end timeframe and be due by the end date.
 
-![](../health-surveillance-panels-actions.assets/ee354039c7217745696a46fccc0147bd.png)
+![](./health-surveillance-panels-actions.assets/ee354039c7217745696a46fccc0147bd.png)
 
 Configuration Options:
 

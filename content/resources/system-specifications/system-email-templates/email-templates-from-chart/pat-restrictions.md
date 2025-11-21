@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
@@ -29,7 +29,7 @@ RE: Frederick J Anderson
 
 This is to notify you that Frederick J Anderson has the following work restriction:
 
-![](../pat-restrictions.assets/0a671614f08236a1dc80e50c42fab3d7.png)
+![](./pat-restrictions.assets/0a671614f08236a1dc80e50c42fab3d7.png)
 
 If you have any additional questions regarding this notification, please contact Health Services.
 

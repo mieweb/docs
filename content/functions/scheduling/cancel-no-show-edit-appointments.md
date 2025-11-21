@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1lyik1Jxgyjxb5ShoXI_abWZEsIxoJ8R43RqRaOE0Ous'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Log into {{% system-name %}}
 
@@ -30,15 +30,15 @@ It will list Waiting List, Pending, Past & Cancelled Appointments in separate se
 
 Click Edit on the appointment that you need to cancel or no show.
 
-![](../cancel-no-show-edit-appointments.assets/7af67dcfde0a116c3fd03009ddf16121.png)
+![](./cancel-no-show-edit-appointments.assets/7af67dcfde0a116c3fd03009ddf16121.png)
 
-![](../cancel-no-show-edit-appointments.assets/3493b51d34bdf3792712625b3369e181.png)
+![](./cancel-no-show-edit-appointments.assets/3493b51d34bdf3792712625b3369e181.png)
 
 It will open the appointment wizard screen. The patient's name should be in the top of this screen along with the appointment details for that patient's appointment.
 
 Scroll down towards the bottom of this Reschedule/Cancel Appt screen and there is a button *Cancel* under the comments section.
 
-![](../cancel-no-show-edit-appointments.assets/70dc51275854da03717ff72adc6877d8.png)
+![](./cancel-no-show-edit-appointments.assets/70dc51275854da03717ff72adc6877d8.png)
 
 1. You must go to the <em>Cancel</em> field and use the drop-down arrow to select a reason for why you are canceling the appointment or select NO SHOW if the patient was a no show.
 2. Click the <em>SAVE</em> button to cancel or no show the appointment for the reason you selected. Your screen will refresh to the scheduler view you were on and remove that appointment from the schedule you are viewing.
@@ -49,11 +49,11 @@ Scroll down towards the bottom of this Reschedule/Cancel Appt screen and there i
 
 If you have security role permission, you may see the *New Reason* selection from the drop-down choices. If you have security rights, you can add another cancel reason to the list if you don't find a cancel reason that is suitable for the reason you are canceling this appointment. Simply highlight and select *New Reason* from the drop-down.
 
-![](../cancel-no-show-edit-appointments.assets/f3d78086b775793f31d62b70b11bc190.png)
+![](./cancel-no-show-edit-appointments.assets/f3d78086b775793f31d62b70b11bc190.png)
 
 It will then open the ADD CANCELLATION CODE window. Enter the fields to add a new cancellation reason to the list.
 
-![](../cancel-no-show-edit-appointments.assets/f67ece839c4bab87be612fd23a775ecb.png)
+![](./cancel-no-show-edit-appointments.assets/f67ece839c4bab87be612fd23a775ecb.png)
 
 * <strong>Cancellation Code</strong>: Just enter a brief abbreviation for this cancel reason. This does not show anywhere except the main Cancellation Code tab to manage codes.
 * <strong>No Show:</strong> Check-mark this box if this reason is related and to be categorized as a No Show. Any patient with this reason used on their appointment will be in the category of <em>No shows</em> instead of <em>Cancelled</em> when looking at appointments.
@@ -63,7 +63,7 @@ Click ADD CODE button when done and it will add your code to the list or click C
 
 If you have security rights, you can manage/add/edit/delete existing cancellation codes from the *Cancellation Codes* top tab from within the Scheduler module.
 
-![](../cancel-no-show-edit-appointments.assets/0270fcc0442a21c329e90131b2a8d037.png)
+![](./cancel-no-show-edit-appointments.assets/0270fcc0442a21c329e90131b2a8d037.png)
 
 ### Cancel Appointments from Scheduler
 
@@ -73,13 +73,13 @@ Click *Scheduler* tab from left sidebar menu.
 
 Select a schedule view (list, multi, or week) and find the resource, location, and day you are looking for.
 
-![](../cancel-no-show-edit-appointments.assets/c51c018f94dc0b3c8fd5738388abda19.png)
+![](./cancel-no-show-edit-appointments.assets/c51c018f94dc0b3c8fd5738388abda19.png)
 
 It will then pop-up the appointment wizard screen. The patient's name should be in the top of this screen along with the appointment details for that patient's appointment.
 
 Scroll down towards the bottom of this Reschedule/Cancel Appt screen and there is a button *Cancel* under the comments section.
 
-![](../cancel-no-show-edit-appointments.assets/415be1a2fb15dac00268090bd059b7c9.png)
+![](./cancel-no-show-edit-appointments.assets/415be1a2fb15dac00268090bd059b7c9.png)
 
 1. You must go to the <em>Cancel</em> field and use the drop-down arrow to select a reason for why you are canceling the appointment or select NO SHOW if the patient was a no show.
 2. Click the <em>SAVE</em> button to cancel or no show the appointment for the reason you selected. Your screen will refresh to the scheduler view you were on and remove that appointment from the schedule you are viewing.
@@ -89,18 +89,18 @@ Scroll down towards the bottom of this Reschedule/Cancel Appt screen and there i
 
 You can always view canceled appointments at the very bottom of the schedulers view screen if you have changed your MY SETTINGS or preferences to reflect this.
 
-![](../cancel-no-show-edit-appointments.assets/f219fe0d689286983572866e80b5d101.png)
+![](./cancel-no-show-edit-appointments.assets/f219fe0d689286983572866e80b5d101.png)
 
 * <strong>Cancelled Appointments:</strong> Shows list of cancelled appointments for that specific day & physician. Can select options of Add Document or Print Chart by clicking these OPTIONS on the far right column. Add Document takes you to the Add Document program and you would select what type of note (text, etc) that you want to enter.
 * <strong>No Show Appointments:</strong> Shows list of patients that were no shows for that specific day & physician. Can select options of Add Document or Print Chart by clicking these OPTIONS on the far right column. Add Document takes you to the Add Document program and you would select what type of note (text, etc) that you want to enter.
 
 Otherwise, in any schedule view (list, multi, or weekly) click the link *Cancelled* on the top, right side of the List or Multi or Week scheduler view.
 
-![](../cancel-no-show-edit-appointments.assets/fa0a69ccf5781f915be56969d52d10f8.png)
+![](./cancel-no-show-edit-appointments.assets/fa0a69ccf5781f915be56969d52d10f8.png)
 
 This opens a printable screen of the cancelled appointments for the person and date you are viewing on the schedule. You can also print out the list of cancelled appointments from this screen. Go to File, then Print.
 
-![](../cancel-no-show-edit-appointments.assets/f06eec98ff0174bffe8c78f76e8b55a0.png)
+![](./cancel-no-show-edit-appointments.assets/f06eec98ff0174bffe8c78f76e8b55a0.png)
 
 #### Reactivate a Cancelled Appointment
 
@@ -108,25 +108,25 @@ If an appointment was cancelled and you wish to reactivate it to be an active ap
 
 Click on the time-slot link to open that cancelled appointment.
 
-![](../cancel-no-show-edit-appointments.assets/5698a7d084847a82aa4ae9d6acf24e21.png)
+![](./cancel-no-show-edit-appointments.assets/5698a7d084847a82aa4ae9d6acf24e21.png)
 
 The appointment will open on your screen. Scroll down toward the bottom to the *Cancel* field. It will show the reason the appointment was cancelled.
 
-![](../cancel-no-show-edit-appointments.assets/f6995a3cd52681c40127ce2d7f4f78da.png)
+![](./cancel-no-show-edit-appointments.assets/f6995a3cd52681c40127ce2d7f4f78da.png)
 
 Change the *Cancel* field drop-down and select the very first choice that is totally blank. This will reverse the cancellation of the appointment and clear out the cancel reason field for the appointment. Then click the SAVE button when done reversing the cancelled appointment to make active again.
 
-![](../cancel-no-show-edit-appointments.assets/306b4ce3224d306b3a11d6156342c64f.png)
+![](./cancel-no-show-edit-appointments.assets/306b4ce3224d306b3a11d6156342c64f.png)
 
 Once you've cleared the *Cancel* field drop-down and clicked SAVE button, it will refresh your screen to that day's schedule and show/place that re-activated appointment back on that day's schedule of appointments.
 
-![](../cancel-no-show-edit-appointments.assets/f3ca05aa0cbf5ff4207ccf1adf4bc519.png)
+![](./cancel-no-show-edit-appointments.assets/f3ca05aa0cbf5ff4207ccf1adf4bc519.png)
 
 You can also reactivate a cancelled appointment from the patient's chart in their Appointments chart tab.
 
 Find the cancelled appointment bucket in that specific patient's medical record. Click the *edit* link for that cancelled appointment. Then follow the same steps above to change the *cancel* field to be "clear" and it will reactivate the appointment to be back to its original date/time it was scheduled for.
 
-![](../cancel-no-show-edit-appointments.assets/55980775fae3ec98ebd666ff0b93eaf1.png)
+![](./cancel-no-show-edit-appointments.assets/55980775fae3ec98ebd666ff0b93eaf1.png)
 
 ## Copy an Appointment
 
@@ -138,13 +138,13 @@ You can find an appointment for a patient by clicking *E-Chart* on left side bar
 
 Click Edit on the appointment that you need to copy.
 
-![](../cancel-no-show-edit-appointments.assets/99746c71403928e84f9176bd84204553.png)
+![](./cancel-no-show-edit-appointments.assets/99746c71403928e84f9176bd84204553.png)
 
 It will open the appointment wizard screen.
 
 In the appointment wizard, scroll down and click *COPY* button.
 
-![](../cancel-no-show-edit-appointments.assets/1ec8740afe90fa4838f4a83f45462bdb.png)
+![](./cancel-no-show-edit-appointments.assets/1ec8740afe90fa4838f4a83f45462bdb.png)
 
 After you click this Copy button, it will then open up the "Add Appointment" wizard screen.
 
@@ -152,7 +152,7 @@ All of the information will still appear in the Appointment Details that you cop
 
 However, make changes by selecting a new appointment date/time for this copied appointment, and made any other changes you wish, click *SAVE* button to add and save that new appointment you created from a copy.
 
-![](../cancel-no-show-edit-appointments.assets/71747fa77fca08656912c2ecfdef3513.png)
+![](./cancel-no-show-edit-appointments.assets/71747fa77fca08656912c2ecfdef3513.png)
 
 Once you save the appointment you created from the copy, it will refresh back to the scheduler view for that day and show the appointment you scheduled/created.
 
@@ -166,9 +166,9 @@ After find the patient, click their chart tab called *Appointments*. The patient
 
 Click Edit on the appointment that you need worked.
 
-![](../cancel-no-show-edit-appointments.assets/7af67dcfde0a116c3fd03009ddf16121.png)
+![](./cancel-no-show-edit-appointments.assets/7af67dcfde0a116c3fd03009ddf16121.png)
 
-![](../cancel-no-show-edit-appointments.assets/3493b51d34bdf3792712625b3369e181.png)
+![](./cancel-no-show-edit-appointments.assets/3493b51d34bdf3792712625b3369e181.png)
 
 It will open the appointment wizard screen.
 
@@ -176,7 +176,7 @@ In the appointment wizard for that specific appointment, make your changes/edits
 
 When done, click the *SAVE* button at the bottom of the screen.
 
-![](../cancel-no-show-edit-appointments.assets/1ead52c280ba78b81d72239979e93d80.png)
+![](./cancel-no-show-edit-appointments.assets/1ead52c280ba78b81d72239979e93d80.png)
 
 After you click *SAVE*, it will then pop-up to the scheduler view and show you the appointment as you have edited it.
 

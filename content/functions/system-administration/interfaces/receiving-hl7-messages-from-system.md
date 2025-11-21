@@ -10,7 +10,7 @@ links:
   - 'outbound-sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
@@ -34,7 +34,7 @@ ___In order to process the data successfully, the following items must be suppli
 
 To specify the IP address to send, read: [Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview) and make sure [Auto Routes](outbound-interface-install-instructions.md#auto-routes) are setup to send events from within {{% system-name %}}  to the interface.
 
-![](../receiving-hl7-messages-from-system.assets/4646fbdde45da1a81be6ea94849def45.png)
+![](./receiving-hl7-messages-from-system.assets/4646fbdde45da1a81be6ea94849def45.png)
 
 1. Some document or event occurs within the system.
 2. Autoroute get evaluated and a message is created and queued for delivery to a "Refer to System"

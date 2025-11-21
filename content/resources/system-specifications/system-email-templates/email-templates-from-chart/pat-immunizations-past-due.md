@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
@@ -29,7 +29,7 @@ TO: Frederick J Anderson
 
 Our records indicate that you are past due to receive the following immunizations:
 
-![](../pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)
+![](./pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)
 
 At your earliest convenience, please schedule an appointment using the electronic scheduling portal below.
 

@@ -11,7 +11,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiogram-validation-test-script/'
 source: 'https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import your historical audiometric testing data into {{% system-name %}} .
 
@@ -179,9 +179,9 @@ What you will need:
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an audiometric testing record. Below is a screenshot of the Audiometric Data CSV File Example for guidance.
 
-![](../create-audiometric-data-file-for-import.assets/3a9601c10c2a8623073d67224cbecfbf.png)
+![](./create-audiometric-data-file-for-import.assets/3a9601c10c2a8623073d67224cbecfbf.png)
 
-![](../create-audiometric-data-file-for-import.assets/4a8bca39f6b6909fa421579520bd56bd.png)
+![](./create-audiometric-data-file-for-import.assets/4a8bca39f6b6909fa421579520bd56bd.png)
 
 3. Save the file as CSV format.
 
@@ -190,19 +190,19 @@ What you will need:
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](../create-audiometric-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
+![](./create-audiometric-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
 3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
-![](../create-audiometric-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
+![](./create-audiometric-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 4. Select <strong>Audiometric Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-![](../create-audiometric-data-file-for-import.assets/26f0c136d467c54503c9ad3361c1e33a.png)
+![](./create-audiometric-data-file-for-import.assets/26f0c136d467c54503c9ad3361c1e33a.png)
 
 5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.
 
-    ![](../create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
+    ![](./create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.

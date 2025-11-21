@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import your language translation data into  {{% system-name %}} .
 
@@ -57,26 +57,26 @@ See: <a href="https://www.iana.org/assignments/language-subtag-registry/language
 
 In Excel, save the sheet as Unicode Text.  This is important because **saving as CSV will NOT work** for many languages.
 
-![](../create-language-translation-file-for-import.assets/25dc2afd0528e1c7a27167edd30ed8d1.png)
+![](./create-language-translation-file-for-import.assets/25dc2afd0528e1c7a27167edd30ed8d1.png)
 
 ## Upload Language Translation Text File
 
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](../create-language-translation-file-for-import.assets/8ab961d7a89701d2402e688b375da2e1.png)
+![](./create-language-translation-file-for-import.assets/8ab961d7a89701d2402e688b375da2e1.png)
 
 3. Select the Data Import tab.
 
-![](../create-language-translation-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
+![](./create-language-translation-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 4. Select the Language Translation CSV API from the drop-down menu and click Go.
 
-![](../create-language-translation-file-for-import.assets/54cd31630e4b044a2caeb7278c721a22.png)
+![](./create-language-translation-file-for-import.assets/54cd31630e4b044a2caeb7278c721a22.png)
 
 5. Choose Delimiter: (tab), select the Language Translation Text File and click Upload.
 
-![](../create-language-translation-file-for-import.assets/a20e7b30d9fd81f1bcb85dc70d3b93ec.png)
+![](./create-language-translation-file-for-import.assets/a20e7b30d9fd81f1bcb85dc70d3b93ec.png)
 
 ## Example Files
 

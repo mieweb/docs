@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZGZDNHRK'
 source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The {{% system-name %}} solution allows varying degrees of customization with regard to locations, namely office-specific types or work sites, regions, and locations. There is also the corporate, or managing, location which is used and can be updated, as needed.
 
@@ -16,13 +16,13 @@ The {{% system-name %}} solution allows varying degrees of customization with re
 
 With the necessary security permissions to manage locations, the Locations Manager chart tab, found within the Control Panel, allows adding, editing, and deactivating of locations. The locations found here are the areas the practices utilize for any and all aspects of the delivery of care. Some examples of locations are any facilities or sites an appointment needs scheduled for, any locality needing associated with created documents, or any places at which services are provided. Locations should also be entered for any sites at which physicians may practice, perform surgeries, or round. Another type of location to consider is an affiliated or referring site, such as locations that provide results (e.g., labs and lab interfaces) or receive referrals (e.g., x-ray, lab draw, consult, etc.).
 
-![](../locations-management.assets/1645e10ab03d729def7a41db0b37cb4b.png)
+![](./locations-management.assets/1645e10ab03d729def7a41db0b37cb4b.png)
 
 ### Utilization & Initial Use
 
 In order to use the Locations Manager chart tab, a user must have either the **Add** or **Edit** security setting for the **E-Chart: Manage Locations** security option. With this setting appropriately enabled, clicking the tab will display all active locations set up within the system. Some locations may have been entered by an Implementer; however, any and all locations, can be manually added, edited, or deactivated from this screen.
 
-![](../locations-management.assets/130b1aed634e07d8adef7410d872c79d.png)
+![](./locations-management.assets/130b1aed634e07d8adef7410d872c79d.png)
 
 Upon accessing a new {{% system-name %}} database with no locations previously added, a default location will always display, with the code **OFFICE** and the description of **Corporate Office** or **Office**. Use this entry as the primary location for the organization. To view and update:
 
@@ -34,7 +34,7 @@ Upon accessing a new {{% system-name %}} database with no locations previously a
 6. Click the <strong>Save</strong> button to submit the changes.
 7. A confirmation message will display at the top of the page.
 
-![](../locations-management.assets/263c95463307d05f1118966054fcd0e3.png)
+![](./locations-management.assets/263c95463307d05f1118966054fcd0e3.png)
 
 Additional locations can be added after the primary location has been edited and updated to reflect the appropriate location information.
 
@@ -62,7 +62,7 @@ To **add** a new location to the  {{% system-name %}}  solution:
 
 Once all fields have been provided for, as necessary, click the **Save** button to submit the location to the system. A confirmation message will display at the top of the page.
 
-![](../locations-management.assets/8070f1f44280522ec7b2e7ca8ca9e78e.png)
+![](./locations-management.assets/8070f1f44280522ec7b2e7ca8ca9e78e.png)
 
 **Edit Locations**
 
@@ -108,7 +108,7 @@ Only locations no longer being used should ever be deactivated. To **deactivate
 2. Click on the STATUS button.
 3. Click No for the Active status.
 
-![](../locations-management.assets/567c8da1bed5ad9882f0632316b6b76d.png)
+![](./locations-management.assets/567c8da1bed5ad9882f0632316b6b76d.png)
 
 4. Click the SAVE button.
 
@@ -122,21 +122,21 @@ Deactivated and locations do not display in the table on the Locations Manager, 
 
 If a location was deactivated or set as outside, or external, use the filters provided in the DataVis within Location Manager:
 
-![](../locations-management.assets/4c477861099e1860b08b548144e76d3d.png)
+![](./locations-management.assets/4c477861099e1860b08b548144e76d3d.png)
 
 ## Work Location Management
 
 The *Work Locations* tab is found in the Control Panel sidemenu tab.
 
-![](../locations-management.assets/d4e737fd55751016e64a3b665ac333b9.png)
+![](./locations-management.assets/d4e737fd55751016e64a3b665ac333b9.png)
 
 When you click Work Locations from the Control Panel sidemenu tab, the search screen displays. If you click the Search button, all active Work Locations will be displayed. To add a new Work Location, click on the Add New Work Location hyperlink.
 
-![](../locations-management.assets/921f92487df4af342cf432298a17dd82.png)
+![](./locations-management.assets/921f92487df4af342cf432298a17dd82.png)
 
 An Employer Organization can also be a Work Location. To create a Work Location from an Employer Organization, click on the Employer Organization tab from the Control Panel. Search for the Employer Organization and click on it. Click on the gray bar for the Chart Types section of the Summary tab. Select Work Location from the dropdown of Chart Types and Save. This will create the Work Location.
 
-![](../locations-management.assets/143526d0d370cfafbbc7d557ecd88f5f.png)
+![](./locations-management.assets/143526d0d370cfafbbc7d557ecd88f5f.png)
 
 ## Learning Management System
 

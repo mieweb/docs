@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The Interface Manager contains a list of custom demographic or HR interfaces that have been configured. This module is not primarily used for custom Enterprise Health demographic interfaces. The Interface Manager editor gives system administrators the ability to manage specific patient fields that come over interfaces.
 
@@ -17,13 +17,13 @@ Navigate to the *Interface Manager* from the *Control Panel*. Any custom interfa
 
 *Note:* Users may toggle to the legacy Interface Manager by clicking the *Legacy Interface Manager* link located at the bottom of the Interface List.
 
-![](../interface-manager.assets/0be3993b8d4a68d2d715023409908b38.png)
+![](./interface-manager.assets/0be3993b8d4a68d2d715023409908b38.png)
 
 ## Add Interface
 
 To Add a new Interface, click the *Add Interface* button. When clicked, a new window will open prompting the user to enter the *Interface Name* of the new interface and select the type of interface (*Select Template*) from a drop down menu. When both fields are filled, click the *Save* button and a new interface will be added to the list. All interface templates should come with default values, so once selected there should be no need to make any other changes unless there is custom work involved.
 
-![](../interface-manager.assets/aeec520e9427d3ffc51160fa3a4f49ae.png)
+![](./interface-manager.assets/aeec520e9427d3ffc51160fa3a4f49ae.png)
 
 ## Properties
 
@@ -31,7 +31,7 @@ When the *Properties* button is selected, a new window will appear that will all
 
 HR Feed Properties:
 
-![](../interface-manager.assets/70d2c88ae677777cf86cd60f5437384c.png)
+![](./interface-manager.assets/70d2c88ae677777cf86cd60f5437384c.png)
 
 ## Fields
 
@@ -39,7 +39,7 @@ When the *Fields* button is selected, a new window will appear that will allow t
 
 HR Feed Example:
 
-![](../interface-manager.assets/1216b38fa9e89caa6414d6b3950cbcfb.png)
+![](./interface-manager.assets/1216b38fa9e89caa6414d6b3950cbcfb.png)
 
 ## Edit Columns
 
@@ -56,4 +56,4 @@ Anytime the user presses the save button for either the Properties or Fields the
 
 When the *Delete* button is selected, the row will be marked as inactive and removed from the list. Users will be asked to confirm before deleting the interface.
 
-![](../interface-manager.assets/c05783bb656b4925802c349ab4c7756e.png)
+![](./interface-manager.assets/c05783bb656b4925802c349ab4c7756e.png)

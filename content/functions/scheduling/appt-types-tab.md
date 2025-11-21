@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## About Appt Types tab
 
@@ -28,10 +28,10 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 1. Select the side menu. The side menu appears.
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types. To work with the table, see [](../reports/using-datavis-grids-data-tools.md).
-    ![](../appt-types-tab.assets/f98c6e8b6d13c17911c0fa2b33fb42f4.png)
+    ![](./appt-types-tab.assets/f98c6e8b6d13c17911c0fa2b33fb42f4.png)
 4. For users on RC202503 and newer, a new default perspective of <em>Active in Display Order</em> has been introduced in the Appt Types Editor DataVis listing. This perspective lists all active appointment types for the system and in ascending order according to Display Order.
 
-![](../appt-types-tab.assets/e8cc5f2315d43ca95a1490d23adf5b2e.png)
+![](./appt-types-tab.assets/e8cc5f2315d43ca95a1490d23adf5b2e.png)
 
 ## Viewing appointment type templates
 
@@ -40,7 +40,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates. To work with the table, see [Using DataVis Grids - Data Tools](https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/).
 
-![](../appt-types-tab.assets/a769e526984f2a6bd4e7954737bb8734.png)
+![](./appt-types-tab.assets/a769e526984f2a6bd4e7954737bb8734.png)
 
 ## Adding appointment types
 
@@ -48,7 +48,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>Add Type</strong>. The <em>Appointment Type</em> section appears.  
-    ![](../appt-types-tab.assets/2f27e6dbec1f191ff5704cc5c4f8ddf5.png)
+    ![](./appt-types-tab.assets/2f27e6dbec1f191ff5704cc5c4f8ddf5.png)
 5. In the <em>Appointment Type</em> section, make entries or selections in fields as appropriate:
     * <em>Active</em>: To make the appointment type active in the system and available to be used after it is created, enable this check box. To make the appointment type inactive in the system and unavailable to be used after it is created, clear this check box.
     * <em>Code</em>: Enter the appointment code. The entry in this field appears in the schedule next to the patient. Type in an alpha-numeric abbreviation of the name of the appointment type. In releases prior to RC202203 this field is limited to 10 characters. For release RC202203 and newer the character count was increased to 15 characters.
@@ -62,7 +62,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
     * <em>Dictation Job Type</em>: Select the appropriate dictation job type that the system will apply to dictation added to the encounter from this appointment type.
     * <em>Print Definitions</em>: Print definitions can be attached to appointment types. Print definitions that are attached to an appointment type this way are noted as appointment type print definitions. Resource options in this section show users in the scheduling realm. To undo print definitions being attached to appt types, you need to remove the print definition(s) from all appointment types and use the print definition editor to remove the appt type designation.
     * <em>Title Color</em>: Type a hexadecimal color value or select the <strong>eye dropper button</strong> to select a color from a palette. This color applies to the title bar, the first line of an appointment in the scheduler view that shows the appointment time and patient name. If you do not select a color, the system displays the title without a color.   
-        ![](../appt-types-tab.assets/163ddebd0bfb29f36970a0513e336838.png)
+        ![](./appt-types-tab.assets/163ddebd0bfb29f36970a0513e336838.png)
     * <em>Color</em>: Type a hexadecimal color value or select the <strong>eye dropper button</strong> to select a color from a palette. If you do not select a color, the system displays the appointment body  without a color.
     * <em>Comment</em>: Type comments to appear in the <em>Comments</em> field when scheduling an appointment based on this appointment type. This entry also appears in the <em>Scheduler</em> view under the patient's appointment date and time.
 6. Do one:
@@ -75,7 +75,7 @@ To create, edit, and delete appointment types and appointment templates, the *Ma
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>Add Template</strong>. The <em>Add Appointment Type Template</em> section appears.  
-    ![](../appt-types-tab.assets/fb571890839d91f2b9f88641e8dee447.png)
+    ![](./appt-types-tab.assets/fb571890839d91f2b9f88641e8dee447.png)
 5. In the <em>Add Appointment Type Template</em> section, make entries or selections in fields as appropriate:
     * <em>Apt Type</em>: Select the appointment type the template will create when used to schedule an appointment.
     * <em>Resource</em>: Select the resource (such as a physician) that when scheduled, this appointment type template will reserve.
@@ -135,7 +135,7 @@ If you try to create multiple appointment type templates for a combination of re
 2. From the side menu, select <strong>Scheduler</strong>. A schedule for the day appears.
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. At the top-right of the page, select <strong>Add Multiple Templates</strong>. The <em>Add Multiple Templates</em> section appears.  
-    ![](../appt-types-tab.assets/e30e9df46e140f828a32288c32b31b89.png)
+    ![](./appt-types-tab.assets/e30e9df46e140f828a32288c32b31b89.png)
 5. In the <em>Appointment Type</em> field, do the following to select one or more appointment types:
     * To create appointment templates based on all appointment types, select <strong>Select All</strong>.
     * To clear selected appointment types, select <strong>Un-Select All</strong>.
@@ -157,7 +157,7 @@ If you try to create multiple appointment type templates for a combination of re
 
 1. [View appointment type templates](#view-appointment-type-templates).
 2. In the <em>Options</em> column of the appointment type template to edit, select <strong>Edit</strong>. The <em>Edit Appointment Type Template</em> section appears.
-    ![](../appt-types-tab.assets/73bf2c81e8a2a81f72be6a9b35f3f92e.png)
+    ![](./appt-types-tab.assets/73bf2c81e8a2a81f72be6a9b35f3f92e.png)
 3. Edit the template.
 4. Depending on whether appointments have already been scheduled with this appointment type template, do one:
     * To update the appointment type template list with the edits you made and any future appointments, select <strong>Submit</strong>. This does not change any appointments already scheduled using this appointment type template. If you click this, it will give you a confirmation at the top. If you are editing appointment type <em>codes</em> (the abbreviation), please make sure you click submit & update instead, otherwise the system will not be able to find that appointment type for any existing appointments already scheduled using that type.
@@ -171,12 +171,12 @@ If you try to create multiple appointment type templates for a combination of re
 4. At the top-right of the page, select <strong>View Type Templates</strong>. The system displays a table of appointment type templates.
 5. Select the checkbox next to the template you wish to delete
 
-![](../appt-types-tab.assets/d675e8a5a6f2ddcf1be520a678b8c9f6.png)
+![](./appt-types-tab.assets/d675e8a5a6f2ddcf1be520a678b8c9f6.png)
 
 6. Select the <strong>Delete</strong> button
 7. Select the <strong>Yes</strong> button in the pop-up window to confirm you wish to delete the template.
 
-![](../appt-types-tab.assets/febeb3acb9571b0720f84874f4a522b3.png)
+![](./appt-types-tab.assets/febeb3acb9571b0720f84874f4a522b3.png)
 
 ## Editing appointment types
 
@@ -185,7 +185,7 @@ If you try to create multiple appointment type templates for a combination of re
 3. At the top of the page, select <strong>Appt Types</strong> tab. The system displays a table of appointment types.
 4. In the <em>Options</em> column of the appointment type to edit, select <strong>Edit</strong>. The <em>Appointment Type</em> section appears.
 
-![](../appt-types-tab.assets/0a1b394a0c04e9a451062eb820651272.png)
+![](./appt-types-tab.assets/0a1b394a0c04e9a451062eb820651272.png)
 
 5. Edit the appointment type.
 6. Depending on whether appointments have already been scheduled with this appointment type template, do one:
@@ -200,11 +200,11 @@ If you try to create multiple appointment type templates for a combination of re
 4. Select the checkbox next to the appointment type you wish to inactivate
 5. Select the Set Status button. The Set Status window appears.
 
-![](../appt-types-tab.assets/6d9b7ac3f6d09c225f2eb2c36cedb1c3.png)
+![](./appt-types-tab.assets/6d9b7ac3f6d09c225f2eb2c36cedb1c3.png)
 
 6. To set the status of the appointment type to Inactive, select No. If the status needs to be set to Active, select Yes.
 
-![](../appt-types-tab.assets/db465bd8d7e5bccde998f3dd2887010e.png)
+![](./appt-types-tab.assets/db465bd8d7e5bccde998f3dd2887010e.png)
 
 7. Select <strong>Submit</strong>
 

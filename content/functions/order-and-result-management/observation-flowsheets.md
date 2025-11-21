@@ -10,13 +10,13 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSTDNHRK'
 source: 'https://drive.google.com/open?id=15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Observation flowsheets are used throughout {{% system-name %}} . They are methods of entering in results and values to stored observations in a quick flowsheet manner. This could be used for specific lab panels that have a lot of individual lab test results that make up that one panel or even patient questionnaires as a way to get the data in quickly in a flowsheet type method. Observation flowsheets are used in the observation chart tab, flowsheets are used in encounters and applied in dynamic encounters from the tests/procedures section, flowsheets are used with *complete with results* or *complete with encounter* functionality and various other {{% system-name %}} modules.
 
 Data collected by means of an Observation Flowsheet can be accessed via the patient's chart tab named *Observations/Flowsheets*. Users with the appropriate permissions, may also link to the Flowsheet editor from the patient chart.
 
-![](../observation-flowsheets.assets/1a4f9e71b266e793b41a7088da9a7001.png)
+![](./observation-flowsheets.assets/1a4f9e71b266e793b41a7088da9a7001.png)
 
 ## Accessing Flowsheets
 
@@ -24,25 +24,25 @@ Managing Observation Flowsheets requires the appropriate security permission in 
 
 The Flowsheet Editor may be accessed via the Control Panel->Chart->Flowsheets tab.
 
-![](../observation-flowsheets.assets/62fd91829f40772fe691949f866e730b.png)
+![](./observation-flowsheets.assets/62fd91829f40772fe691949f866e730b.png)
 
 Users may also navigate to the Flowsheet Editor from the *Observation Codes* Tab (Control Panel->Observation Codes).
 
-![](../observation-flowsheets.assets/d9c15fcf5a4da6966a4c7da7a78a6231.png)
+![](./observation-flowsheets.assets/d9c15fcf5a4da6966a4c7da7a78a6231.png)
 
 The Flowsheet tab displays the current existing active flowsheets and have the # count displayed. Users may also display inactive observation flowsheets by clicking the *Show Inactive* hyperlink. Observation Flowsheets cannot be deleted. They are only marked as inactive if not being utilized anymore.
 
-![](../observation-flowsheets.assets/9bbcb1bee0d51395f64e606e52721d37.png)
+![](./observation-flowsheets.assets/9bbcb1bee0d51395f64e606e52721d37.png)
 
 Along with the active, existing named flowsheets displaying by default, users can hover their mouse over the *observation codes* column of a built flowsheet to see the components (individual observations) of that flowsheet quickly.
 
-![](../observation-flowsheets.assets/f71a77c987a5cde97adb0d630c0f833d.png)
+![](./observation-flowsheets.assets/f71a77c987a5cde97adb0d630c0f833d.png)
 
 ## Add a New Flowsheet
 
 1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-![](../observation-flowsheets.assets/a8108faf5f21ae178dc78eb98949af76.png)
+![](./observation-flowsheets.assets/a8108faf5f21ae178dc78eb98949af76.png)
 
 {{% note %}}
 Any custom discrete values will not be interoperable when communicating with other systems.
@@ -108,11 +108,11 @@ For detailed instructions on configuring flowsheets, please view the online help
 
 Users may also copy an existing flowsheet and add/delete/edit it to make another unique flowsheet but without starting from scratch. From the Flowsheets tab, click the **Copy** link to copy the existing flowsheet and to create a new one that contains all the data from the source flowsheet.
 
-![](../observation-flowsheets.assets/a46305c366c7a2e43a951889b30801b8.png)
+![](./observation-flowsheets.assets/a46305c366c7a2e43a951889b30801b8.png)
 
 At the top of the screen, the system will tell you which flowsheet you are copying. Then you are required to put in a unique flowsheet name for this new flowsheet you are building from a copy. You type this in the **Flowsheet Name** field.
 
-![](../observation-flowsheets.assets/7159d5297a8a966a2318ba24f9b43c3a.png)
+![](./observation-flowsheets.assets/7159d5297a8a966a2318ba24f9b43c3a.png)
 
 Make sure to name the new flowsheet with a unique name. The copy feature is a quick feature to copy an existing flowsheet, but to name the new flowsheet something unique and make any other edits/tweaks to that flowsheet, along with the observations to make up that new flowsheet, to make it unique but have a lot of the components that an existing flowsheet may already have.
 
@@ -122,17 +122,17 @@ Make any changes to add different observations or remove or ordering the content
 
 You can edit an existing flowsheet from the Flowsheet Editor. Editing a flowsheet will edit that flowsheet for the entire system.
 
-![](../observation-flowsheets.assets/79b87355afc4d39794090d082253b622.png)
+![](./observation-flowsheets.assets/79b87355afc4d39794090d082253b622.png)
 
 Upon clicking **Edit**, the *Edit Flowsheet* screen will open.
 
-![](../observation-flowsheets.assets/8608dc928a9a5f7ebc58d9075428612a.png)
+![](./observation-flowsheets.assets/8608dc928a9a5f7ebc58d9075428612a.png)
 
 Here you can add new observations or edit existing or change ordering to the flowsheet. To add new observations to the flowsheet type the name of the observation to add in the Observation Search field, this is an auto-complete.
 
 The included observation names listed in the flowsheet are hyperlinks which will open up a new window taking you to that specific observation's details view. Simply click on the observation name on the left and it will take you to the specific observation details view.
 
-![](../observation-flowsheets.assets/64f9e9885a45435b6c97657c1a9519f0.png)
+![](./observation-flowsheets.assets/64f9e9885a45435b6c97657c1a9519f0.png)
 
 ## Inactivate a Flowsheet
 
@@ -140,11 +140,11 @@ Users with the appropriate security permissions may Inactivate Flowsheets
 
 Simply uncheck-mark the *Active* checkbox. This will then mark the flowsheet as ‘inactive' then scroll down and click the SUBMIT button.
 
-![](../observation-flowsheets.assets/e3e5de0118988eda97bab47c90a44aee.png)
+![](./observation-flowsheets.assets/e3e5de0118988eda97bab47c90a44aee.png)
 
 The ‘inactive' flowsheet(s) will then not be shown in the drop-down selections of Flowsheets to run. However, a user can click the show inactive link to display and show inactive flowsheets and still run them if they wish from the patient's chart tab.
 
-![](../observation-flowsheets.assets/c674306e3e17921d1bae0b9ddc62b047.png)
+![](./observation-flowsheets.assets/c674306e3e17921d1bae0b9ddc62b047.png)
 
 ## Order Items and Flowsheets
 
@@ -152,41 +152,41 @@ Observation flowsheets automatically display in the Observation chart tab while 
 
 This is an example of a test/procedure order item applied to the encounter where a user can key in results for the test/procedure using the flowsheet method. The order item name is INR/PT and the flowsheet name is INR/PT.
 
-![](../observation-flowsheets.assets/e2d26a626e1e25053206ab122de35008.png)
+![](./observation-flowsheets.assets/e2d26a626e1e25053206ab122de35008.png)
 
 A test/procedure order item that renders in the encounter as a flowsheet (meaning it has a matching name of an observation flowsheet set up), can be stored as a specific document type. This gets set in the test/procedures order item in the *document type* field. If nothing is set here, the doc.type of {{% sys-name %}} LAB will be the default that it stores as.
 
-![](../observation-flowsheets.assets/3333fae560a1a27063d0d2949b8ac5f5.png)
+![](./observation-flowsheets.assets/3333fae560a1a27063d0d2949b8ac5f5.png)
 
 The order item (named same as the flowsheet) must have a Layout field set. In the previous pages of this help document, it was shown how to set specific observations to specific input types and looks. Along with that, you can set the flowsheet to appear (as a whole) a specific way when applied & utilized in a dynamic encounter by selecting one of the Obs layout choices. The choices are *Obs Procedure, Obs Series* or *Obs Test.* See explanation and example of each layout type on next page.
 
-![](../observation-flowsheets.assets/5876158022119b1092a82cf55329d188.png)
+![](./observation-flowsheets.assets/5876158022119b1092a82cf55329d188.png)
 
 * <strong>Obs Procedure:</strong> This is used for a series of observations made in a specific order where each will be date/time stamped for the result. Each observation that composes the flowsheet will be its own row. Each observation row will also have its own observed date/time in the ‘completed' column. This is the date/time to denote a date/time for when that observation value was resulted/observed. Using the <em>Obs Procedure</em> layout on a flowsheet allows different date/time stamps on observed values. Each observation row has its own observed date/time that can be set. Use cases: surgical procedure documentation; anesthesia record, etc. The "All Normals" checkbox in flowsheets only appears if an observation(s) contains a target set on the specific observation
 
-![](../observation-flowsheets.assets/1d8d11d5dd6c547be3d5e755a7c7424f.png)
+![](./observation-flowsheets.assets/1d8d11d5dd6c547be3d5e755a7c7424f.png)
 
 * <strong>Obs Series:</strong> This is used for keying in results in a rapid fire method and has only one date/time stamp that gets applied to all resulted observations in the flowsheet. The date/time stamp noted is the observed date/time that will be applied to all the multiple observations in that flowsheet. The observations value fields are also listed in a quick sequence (left to right) for a user to quickly key in values. Other details (such as range, flag, units, comments, etc) are stripped off to allow a user to quickly key in results only. Upon ‘save' of the flowsheet section, the list view would show the details such as range, flag, units, etc). Use cases: notes type flowsheet; collecting a series of vitals (multiple BP's), etc.
 
-![](../observation-flowsheets.assets/d3c1112d98f611ea4cb769bcce7f3925.png)
+![](./observation-flowsheets.assets/d3c1112d98f611ea4cb769bcce7f3925.png)
 
 * <strong>Obs Series No Encounter:</strong> This allows users to add data in a flowsheet without limiting to the encounter. Tests/procedures order items that are set up with this flowsheet Obs Series No Encounter layout and matching flowsheet name, it will display the past 5 values on a given flowsheet into an encounter. This will look similar to the vitals section, without all of the graphics on the flowsheets. Also, the previous 5 values (as well as any documented on today's visit) will archive on the encounter view.
 
-![](../observation-flowsheets.assets/fd9d2dea392d62cd4b9a9138847e3edc.png)
+![](./observation-flowsheets.assets/fd9d2dea392d62cd4b9a9138847e3edc.png)
 
 It allows users to insert new values as well. Simply click on the section title of the test/procedure flowsheet to expand that section open and you will have the option to add more observation data to the flowsheet along with marking the test/procedure as completed, declined, waived, etc. The values you enter will also all archive on the encounter view.
 
-![](../observation-flowsheets.assets/7012eb63d9b431a28578b9ae6f19d02f.png)
+![](./observation-flowsheets.assets/7012eb63d9b431a28578b9ae6f19d02f.png)
 
 * <strong>Obs Survey:</strong> This type of entry will only show 3 entry columns. It will show the item, the value field and a comments field (if you have <em>comments</em> field checkmarked on the flowsheet item). The date of the result/value will be stored as today's date that you enter in a value.
 
-![](../observation-flowsheets.assets/dcea8c83f5d37366f9e154e3924a1e3e.png)
+![](./observation-flowsheets.assets/dcea8c83f5d37366f9e154e3924a1e3e.png)
 
 * <strong>Obs Test:</strong> The date/time set in this type of layout applies the one date/time to <strong>all</strong> observations that make up the flowsheet. Use cases: individual result (ex: CBC); drug test; Physical Exam section; Review of Systems section; Provider Organization Other Data section in Provider Management module; Questionnaires, etc. This is similar to Obs Procedure layout (showing details like range, units, flag, etc), but this Obs Test layout displays only one observed date/time field to be applied to all, instead of a date/time field being on each individual observation row. The "All Normals" checkbox in flowsheets only appears if an observation(s) contains a target set on the specific observation. If an observation is marked as required and a user attempts to skip, the system to pop-up a warning message. The section will not save or allow the user to proceed to the next encounter section until all required items are completed. <em>Note: if using the Obs Test layout for questionnaire(s) flowsheets, your MIE Implementer can put in a layout tag request to hide the range/units column(s) in the backend as those details aren't usually used in questionnaire type entries.</em>
 
-![](../observation-flowsheets.assets/186289ab66345031ba67d9afe2623800.png)
+![](./observation-flowsheets.assets/186289ab66345031ba67d9afe2623800.png)
 
-![](../observation-flowsheets.assets/8606ef3b0aff74cdc02769693f203f1e.png)
+![](./observation-flowsheets.assets/8606ef3b0aff74cdc02769693f203f1e.png)
 
 Result date/time fields can be removed entirely for a specific flowsheet(s) if needed. A flowsheet can have the ability to be displayed without a date visible to the user. If such a flowsheet has that programming, then **all** observations in that type of flowsheet will have the date observed set to when the flowsheet values are submitted (saved). Your MIE Implementer can put in a layout tag request to hide the observed date/time field(s) in the backend.
 

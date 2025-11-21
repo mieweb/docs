@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Click *Control* tab from left sidebar menu.
 
@@ -16,7 +16,7 @@ Click *Security Role Editor* tab from top menu.
 
 Click the Compare Roles link found at the top right corner. This allows you to compare security roles and each individual security setting that each may have. If you need to audit security or configure a new security role, you can work on all your roles at the same time while you compare them.
 
-![](../compare-security-roles.assets/cc4e88e27305fb0b2b5211b1d0d33061.png)
+![](./compare-security-roles.assets/cc4e88e27305fb0b2b5211b1d0d33061.png)
 
 It displays (reports) on the security settings, values and security roles along with the # of users that are tied to each specific security role.
 
@@ -29,7 +29,7 @@ The next columns are each of the security roles you have in your {{% system-name
 
 It shows the first 20 securities/modules by default.
 
-![](../compare-security-roles.assets/70bddbe0f6096ac97771bc55f3eddb93.png)
+![](./compare-security-roles.assets/70bddbe0f6096ac97771bc55f3eddb93.png)
 
 ## Compare/Show Specific Security Roles
 
@@ -39,11 +39,11 @@ By default, the screen automatically opens and displays *all* security roles in 
 
 So, to narrow down and compare specific security roles, click the **Roles to Display** button in the fields at the top.
 
-![](../compare-security-roles.assets/80cf86448ee9817a93e506ae488660bf.png)
+![](./compare-security-roles.assets/80cf86448ee9817a93e506ae488660bf.png)
 
 A box will open where you can check-mark the specific security roles you want to display. You can un-select all to start fresh, or you can select all security roles to display, or individually check-mark which specific security roles you want to display and compare settings of.
 
-![](../compare-security-roles.assets/7201e7b38ff62343d57f8c270066004e.png)
+![](./compare-security-roles.assets/7201e7b38ff62343d57f8c270066004e.png)
 
 Once done with your selections, click the SEARCH button to the right.
 
@@ -59,7 +59,7 @@ Type in a keyword of the security setting name (description) or module you are l
 
 It will display only those security settings with that in the security name (description) and/or module if it finds any matches.
 
-![](../compare-security-roles.assets/b269bf6527ee4ae5563e9991da13d922.png)
+![](./compare-security-roles.assets/b269bf6527ee4ae5563e9991da13d922.png)
 
 ## Edit/Change Security Settings for Security Role
 
@@ -67,7 +67,7 @@ You can choose what security roles to display as a side by side comparison on yo
 
 In the example below, I searched for keyword of fax. It then displays the 5 security permissions {{% system-name %}} has regarding ‘fax' that it found as a match.
 
-![](../compare-security-roles.assets/fe2e4fc626139f52312b817937c24290.png)
+![](./compare-security-roles.assets/fe2e4fc626139f52312b817937c24290.png)
 
 Upon looking at what that security role is set to, I can edit the security permission from here easily and in mass for every user in a specific security role.
 
@@ -81,15 +81,15 @@ When you use the drop-down to change the value for a security role in the drop-d
 
 See other help documentation named *Security Role Settings.pdf* for detailed information on what each security setting and value means and affects.
 
-![](../compare-security-roles.assets/82ac23873f0f21d6c28e985561df83a6.png)
+![](./compare-security-roles.assets/82ac23873f0f21d6c28e985561df83a6.png)
 
 When you change a value for a security role, it does not input a comment for each change.
 
 The Show CSV link will download what you are showing/viewing/comparing on your screen and put it into an excel spreadsheet that you can view, print, save, sort, etc.
 
-![](../compare-security-roles.assets/fc9ba318d930a832234999747159850c.png)
+![](./compare-security-roles.assets/fc9ba318d930a832234999747159850c.png)
 
-![](../compare-security-roles.assets/d05141bbbf212cd76a7d5b69efb2d11c.png)
+![](./compare-security-roles.assets/d05141bbbf212cd76a7d5b69efb2d11c.png)
 
 ## Learning Management System
 

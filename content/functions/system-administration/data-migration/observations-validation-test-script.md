@@ -18,7 +18,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/reports/'
   - 'https://docs.enterprisehealth.com/functions/reports/observations-report/'
 source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
 
@@ -63,7 +63,7 @@ Some charts/records may not have all data elements, and in some circumstances, t
 1. Log into the {{% system-name %}} system.
 2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-    ![](../observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
+    ![](./observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
@@ -74,10 +74,10 @@ Some charts/records may not have all data elements, and in some circumstances, t
 
 3. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-    ![](../observations-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+    ![](./observations-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
 4. Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.
 
-    ![](../observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png)
+    ![](./observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png)
 
 {{% tip %}}
 The number in parenthesis indicates the number of items in each tab. 
@@ -85,7 +85,7 @@ The number in parenthesis indicates the number of items in each tab. 
 
 5. The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.
 
-    ![](../observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png)
+    ![](./observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png)
 
 {{% tip %}}
 Observation names are displayed alphabetically, by default, with all data listed *horizontally* across the page.
@@ -94,19 +94,19 @@ Observation names are displayed alphabetically, by default, with all data listed
 
 
 
-![](../observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)
+![](./observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)
 
 
 
-![](../observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
+![](./observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
 To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/).)
 
-![](../observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
+![](./observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
 
 Within each chart, it is possible a [Flowsheet](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) of logically grouped observations may exist. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a Flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
+![](./observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 {{% /tip %}}
 
 6. With the observations displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.
@@ -126,10 +126,10 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
 2. Select the Visits report list.
 
-    ![](../observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png)
+    ![](./observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png)
 3. Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen. 
 
-    ![](../observations-validation-test-script.assets/f958f0553b53bc389064f532fa9d8b33.png)
+    ![](./observations-validation-test-script.assets/f958f0553b53bc389064f532fa9d8b33.png)
 
 ## FAQs
 
@@ -137,7 +137,7 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 
 **A:** Yes. Users may use the [Patient Observations Report](https://docs.enterprisehealth.com/functions/reports/observations-report/), described [above](#above), to search specific observation values. Otherwise, it is possible a [Flowsheet](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) of logically grouped observations may exist within each chart. A Flowsheet is a grouping of observations, such as Vitals, Glucose levels, Questionnaire responses, etc. If a flowsheet is available, select it from the Flowsheet drop-down to load the results.
 
-![](../observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
+![](./observations-validation-test-script.assets/15b6e3739fd26076b613c843cfb41634.png)
 
 **Q:** Why are some observations only listed once, even though they apply across all dates (e.g., Race, Ethnicity, Email, etc.)?
 

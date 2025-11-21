@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Demographics
 
@@ -60,4 +60,4 @@ The "Demographics" report is designed for exporting patient demographic data for
 28. <strong>ReminderPreference</strong>: Placeholder for reminder preference (currently not populated).
 29. <strong>Language</strong>: The primary language spoken by the patient.
 
-![](../openpm-export-demographics.assets/594ce5f65334dfb507e3ebde252ab39c.png)
+![](./openpm-export-demographics.assets/594ce5f65334dfb507e3ebde252ab39c.png)

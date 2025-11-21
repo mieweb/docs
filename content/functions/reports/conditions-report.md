@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side menu tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
 
@@ -15,11 +15,11 @@ Click the *Reports* sidemenu tab.
 
 Click the *Conditions Report* tab from the top tab menu.
 
-![](../conditions-report.assets/25a4ac8dfc6505280982c0d64b30dfae.png)
+![](./conditions-report.assets/25a4ac8dfc6505280982c0d64b30dfae.png)
 
 The Conditions Report search filter screen will open. This is a searchable report to render documented conditions found within charts based on search criteria.
 
-![](../conditions-report.assets/47e0566ec41c39db272be05743ceb004.png)
+![](./conditions-report.assets/47e0566ec41c39db272be05743ceb004.png)
 
 These fields are optional. The more fields you enter and fill out, the more narrowed your search will be.
 
@@ -48,4 +48,4 @@ Additional report output options:
 * Show Grid will convert the output into a DataVis on the same screen, where you can filter, group, pivot, and do any graphing needs.
 * View Printable will put the output into a printable format in a separate tab, to use your browser's print method.
 
-![](../conditions-report.assets/b2ccfe87d3c3c1cae58ba81757d641aa.png)
+![](./conditions-report.assets/b2ccfe87d3c3c1cae58ba81757d641aa.png)

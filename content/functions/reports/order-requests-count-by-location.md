@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This is a searchable report that lists all created order requests/requisitions and document details by ordering location for a specific date range entered.
 
@@ -15,11 +15,11 @@ Click *Reports* tab on the left sidebar menu.
 
 Click *Order Requests - Count by Location* link.
 
-![](../order-requests-count-by-location.assets/0467018d19733121f222f9ad6dae7387.png)
+![](./order-requests-count-by-location.assets/0467018d19733121f222f9ad6dae7387.png)
 
 The Order Requests - Count by Location search will open. The Start Date, End Date, and Locations fields are required and must be completed to search.
 
-![](../order-requests-count-by-location.assets/b2addc8346ecdf8c3a0bf697392c20b8.png)
+![](./order-requests-count-by-location.assets/b2addc8346ecdf8c3a0bf697392c20b8.png)
 
 **Start/End Date:** You must enter a date range. Both dates must be entered.
 
@@ -27,4 +27,4 @@ The Order Requests - Count by Location search will open. The Start Date, End Dat
 
 Click the *Search* button to render your results.
 
-![](../order-requests-count-by-location.assets/feb6880cc783517d346a80d653ee1303.png)
+![](./order-requests-count-by-location.assets/feb6880cc783517d346a80d653ee1303.png)

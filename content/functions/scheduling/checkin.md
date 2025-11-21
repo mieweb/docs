@@ -14,7 +14,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/reports/checkin-reports/'
   - 'https://mie.talentlms.com/shared/start/key:ZTEDNHRK'
 source: 'https://drive.google.com/open?id=19rm5d6W5KlJXERbF31IyvjcGek3Bx_lhUNMrM1nvXT8'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The {{% system-name %}} Checkin module significantly improves patient flow by ensuring communication lines between the front office and clinicians are always open. The Checkin module will function in a patient kiosk setting, or within {{% system-name %}} as used by the clinical staff.
 
@@ -24,17 +24,17 @@ The module allows for initiation of patient encounters, notifications for clinic
 
 Checking in patients can be performed from various areas throughout {{% system-name %}} , depending on preferred system settings and workflow. In this case, using the Checkin link throughout the patient's chart provides a quick and easy method for initiating the encounter.
 
-![](../checkin.assets/95eddc2c73bad425e6a66f4cd1e56e1f.png)
+![](./checkin.assets/95eddc2c73bad425e6a66f4cd1e56e1f.png)
 
 After clicking the **Checkin** link, the current encounter screen will display, where the patient can be checked into the appropriate station, based upon their place during their visit. As will be discussed in more detail later, it is important to note that encounters are useful for tracking a patient's health status and either conditions or appointments (i.e., hospitals track conditions, rather than appointments).
 
 When a patient arrives with a scheduled appointment or as a walk-in, a user can utilize the Checkin link to update the station, notifying staff where the patient is within the facility. This action initiates a new encounter for the patient. If an appointment was scheduled the same day, clicking the Checkin link from the chart will display a prompt suggesting to link the check-in request to the existing appointment. Click the hyperlink with the date and chief complaint to link to the scheduled appointment. Otherwise, click the Checkin With New Encounter button.
 
-![](../checkin.assets/71d1b7b495d2b435391ffdcf912ba16c.png)
+![](./checkin.assets/71d1b7b495d2b435391ffdcf912ba16c.png)
 
 Clicking the **Checkin With New Encounter** button will load the *Encounter (new)* page, where additional encounter details can be recorded and updated, as needed.
 
-![](../checkin.assets/04c2edab882f1556eae82613a2c820e2.png)
+![](./checkin.assets/04c2edab882f1556eae82613a2c820e2.png)
 
 The available fields are as follows:
 
@@ -64,7 +64,7 @@ The available categories consist of the top-most view, which tracks all patients
 
 The *Patients in Waiting Room* category can also be configured to show patients in any lobby-like stations. Reach out to Helpdesk for assistance in turning this feature on. If enabled, the category view would display a Station Name column, showing patients in *any* waiting room, or lobby-like station, that is listed in the System Setting ("Checkin", "Settings", "Lobby-Like Stations").
 
-![](../checkin.assets/2705c1558f13d2cc0d83375eff2fd436.png)
+![](./checkin.assets/2705c1558f13d2cc0d83375eff2fd436.png)
 
 The columns available in each category's list view can be sorted, as needed. The Checkin module is designed to remember sorting preferences per user. To sort a column, simply click the column header, and the column will be sorted in ascending or descending order. The next time the Checkin module is accessed the sorting preferences will be retained. Available columns are, as follows:
 
@@ -87,7 +87,7 @@ With the patient checked in, the station location of the patient will display in
 
 When the link is clicked, the *Enter New Station Details* pop-up opens. Move the patient to the appropriate station by using the *New Station* dropdown menu. Comments (limited to 100 characters) will display to users when using the Checkin module screen. Click the **Save** button, when finished.
 
-![](../checkin.assets/26cb63cfc6face05ced20167423a489f.png)
+![](./checkin.assets/26cb63cfc6face05ced20167423a489f.png)
 
 {{% note %}}
 The **Hide Occupied Stations** system setting can be turned off. This setting is enabled by default and will hide any station already occupied by another patient, to prevent double-booking stations. If a selected room is occupied when moving a patient, an alert will display, prompting the user to make another selection, as the station is currently occupied.
@@ -105,13 +105,13 @@ Navigate to the [Scheduler](https://docs.enterprisehealth.com/functions/scheduli
 If the Checkin link is not available in the Appointment Detail, click the **Preferences** button found at the right of the screen. Ensure the **Show Checkin** setting is set to **Yes**.
 {{% /tip %}}
 
-![](../checkin.assets/7f0e162a51b48e48a9d35621feb5ad06.png)
+![](./checkin.assets/7f0e162a51b48e48a9d35621feb5ad06.png)
 
 Depending on the preferences of My Settings, the Checkin link may automatically check in the patient to the default station and create a default encounter from the appointment type. This is the One-Click Checkin functionality and will be explained in more detail, below.
 
 If One-Click Checkin is not enabled, users will be directed to the *Encounter (new)* screen, where all necessary information can be provided and updated, as explained earlier. After which, a confirmation message will display on the Checkin module page. Here, the patient will be tracked under the specific station category and/or under the *Checked in Patients - All Stations* category, depending on personal settings.
 
-![](../checkin.assets/2e87782fa2cc793b94e6be1af3e7c235.png)
+![](./checkin.assets/2e87782fa2cc793b94e6be1af3e7c235.png)
 
 If a patient has already been checked in, the Scheduler will display a link with the station and duration of time spent at the station, rather than the Checkin link. After checking in a patient, users can use the Back to Scheduler link in the Checkin module, to continue working in the Scheduler. Otherwise, they may navigate elsewhere in {{% system-name %}} , as needed.
 
@@ -123,7 +123,7 @@ To enable One-Click Checkin, users can utilize the **Preferences** button, found
 
 Once enabled, using One-Click Checkin is no different than checking in patients, normally. Simply click the Checkin link in the Appointment Detail on the Scheduler.
 
-![](../checkin.assets/7f0e162a51b48e48a9d35621feb5ad06.png)
+![](./checkin.assets/7f0e162a51b48e48a9d35621feb5ad06.png)
 
 Now, with One-Click Checkin set to Yes, clicking the Checkin link will automatically check the patient into the user-default station. Additionally, settings can be adjusted to **Link Referrers to Encounter** or **Link Referrers to Patient**, by using the *Preferences* button and ensuring these settings are set to **Yes**. These are set to Yes by default.
 
@@ -137,7 +137,7 @@ One-Click Checkin will not allow users to select an encounter. It is not recomme
 
 As noted above, insurances can be loaded into a chart through the *Demographics* chart tab, where specific pre-certification details can be provided. One-click Checkin displays an insurance verification screen when a patient is checked in from this method.
 
-![](../checkin.assets/fce99f471c90396f5478442e5e8ad40f.png)
+![](./checkin.assets/fce99f471c90396f5478442e5e8ad40f.png)
 
 If checking in a patient with no need for a pre-certification to be applied, simply select the radio button with Plan Name (none). Otherwise, with the appropriate insurance plan selected, the {{% system-name %}} system will reduce the pre-certification count by one, when saved. For more information on entering insurances, see the [Insurance Summary in Demographics Tab](https://docs.enterprisehealth.com/functions/e-chart/insurance-summary-in-demographics-tab/) documentation.
 
@@ -145,11 +145,11 @@ If checking in a patient with no need for a pre-certification to be applied, sim
 
 In the Checkin module, there is a Station Manager tab near the top of the page. The Station Manager allows users to manage stations for the Checkin module, given the appropriate security permissions. Stations can only be added or edited with the Access Control security setting **Station Manager** set to **Yes**.
 
-![](../checkin.assets/3c3bbdab83c354b798b5aa90f411b306.png)
+![](./checkin.assets/3c3bbdab83c354b798b5aa90f411b306.png)
 
 The Station Manager displays all stations being used system-wide, and allows for the creation of new stations, as well as the updating and editing of existing stations.
 
-![](../checkin.assets/4681b12eeb5b7f027cd397fb3a0b8f17.png)
+![](./checkin.assets/4681b12eeb5b7f027cd397fb3a0b8f17.png)
 
 {{% tip %}}
 To update the threshold for displaying a red highlighted station time status, navigate to the system setting ("Checkin", "Defaults", "Station Alert Threshold Minutes") to increase or decrease the threshold. The setting value is measured in minute increments and is defaulted to fifteen (15). This can be changed by an administrator, as needed.
@@ -159,11 +159,11 @@ To update the threshold for displaying a red highlighted station time status, na
 
 To add a new station, simply click the Add Station link, found in the top-right corner of the Station Manager screen.
 
-![](../checkin.assets/88763b112b4764f2cbbdc15acb5181ee.png)
+![](./checkin.assets/88763b112b4764f2cbbdc15acb5181ee.png)
 
 The *Station Add* page will load, where the Station ID and Name can be provided.
 
-![](../checkin.assets/2d6c51b3c7584397ab12069c1398c68d.png)
+![](./checkin.assets/2d6c51b3c7584397ab12069c1398c68d.png)
 
 * <strong>Station ID</strong>: Station ID is the unique identifier of a given station. Station IDs tend to use the format STATION + number.
 * <strong>Station Name</strong>: Enter the name of the station. This name will display to users when moving patients between stations.
@@ -178,11 +178,11 @@ Remember, adding a station with the Hide Occupied Stations system setting enable
 
 To edit a station, click the **Edit** link next to the specific station needing updated.
 
-![](../checkin.assets/4b4a7385b87a64554e6632816834f093.png)
+![](./checkin.assets/4b4a7385b87a64554e6632816834f093.png)
 
 The *Station Edit* screen will open, where edits can be made to the Station ID and/or Station Name.
 
-![](../checkin.assets/dd3babd54024367797d988e5cddcb909.png)
+![](./checkin.assets/dd3babd54024367797d988e5cddcb909.png)
 
 Click the **Change** button to submit the edit(s), or the Cancel button to return to the Station Manager. When the Change button is clicked and the changes saved, the system will display a confirmation message.
 
@@ -194,7 +194,7 @@ Stations cannot be deleted. Stations can only be set as active/inactive. To dele
 
 A **Checkin-Public** sidemenu option can be programmed into a {{% system-name %}} system, to be used as a type of public-facing dashboard. This menu is typically used *in lobbies* as a means for monitoring and tracking wait times and current averages. The Checkin-Public dashboard only shows medical record numbers, appointment resources, appointment dates/times, check-in times, and wait times. Checkin Statistics also shows at the bottom of the page, displaying average waiting time and checkin-to-checkout total time.
 
-![](../checkin.assets/f4156afa46a2e749981f4f255d609701.png)
+![](./checkin.assets/f4156afa46a2e749981f4f255d609701.png)
 
 {{% info %}}
 The Checkin-Public dashboard only shows the Waiting Room station. Once the patient is moved to a different station, their details will be removed from the list, though they will continue to count toward the total statistics.

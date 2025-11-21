@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1X6opZY4DTFuninr0FzJwwV3E7z6c3m9kl2NYnXnA5D8'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Future Appointments
 
@@ -37,4 +37,4 @@ The "Future Appointments" report is designed to export data on upcoming patient 
 14. <strong>Phone</strong>: Work phone number of the resource.
 15. <strong>WC Apt ID</strong>: Unique identifier for the appointment within the system.
 
-![](../openpm-export-future-appointments.assets/56e1f7c5cc226d66aa482f6c79885201.png)
+![](./openpm-export-future-appointments.assets/56e1f7c5cc226d66aa482f6c79885201.png)

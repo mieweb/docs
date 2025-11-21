@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 The Transcription Report and/or Transcription Report - DataVis provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
@@ -43,7 +43,7 @@ You must have security role access to reports and to viewing transcription stati
 2. From the side menu, select <strong>Reports</strong>.
 3. Select <strong>Dictation/Transcription</strong>. The <em>Dictation/Transcription</em> section appears.
 4. From the <em>Dictation/Transcription</em> section, select <strong>Transcription Reports</strong>. The <em>Transcription Statistics</em> section appears.  
-    ![](../transcription-report.assets/3216d1211586a09cb5a01a0538d4e9c4.png)
+    ![](./transcription-report.assets/3216d1211586a09cb5a01a0538d4e9c4.png)
 5. In the <em>Transcription Statistics</em> section, make selections and type in fields to generate the report:
     a.  <em>Select</em>  <em>Department</em>: Select department for which to view transcription statistics.
     b.  <em>Select User:</em> To limit the report to transcriptions performed by a system user, select that user.
@@ -64,4 +64,4 @@ You must have security role access to reports and to viewing transcription stati
         iv. To show transcription statistics from all time to a date, type in the right month, day, and year fields or select <strong>Today</strong> to use today's date or select <strong>Calendar</strong> to pick a date from a calendar.
 6. Select <strong>Run Query</strong> button. At the bottom of the screen, the system displays the report.
 
-![](../transcription-report.assets/2d3508c79c37c6c0cc2c2a6567453fc7.png)
+![](./transcription-report.assets/2d3508c79c37c6c0cc2c2a6567453fc7.png)

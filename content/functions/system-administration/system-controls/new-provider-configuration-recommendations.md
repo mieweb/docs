@@ -10,7 +10,7 @@ links:
   - 'https://docs.webchartnow.com/functions/system-administration/system-controls/setting-up-e-prescribers.html'
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1R681IN5AuI7tQTdTOaVQsJX2N8l292859LsMM_S_YH4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique employee chart with a linked user profile, and a unique provider chart. Employee and/or Provider charts and user profiles should NEVER be reused or recycled for any reason.
@@ -53,7 +53,7 @@ It is advised to keep P (provider) charts and patient/employee charts separate a
 * If<strong></strong> a chart has both Provider and Patient chart types on it, you will see ATTENTION!
 * When you move your mouse over the ATTENTION!, you will see the full alert verbiage
 
-![](../new-provider-configuration-recommendations.assets/d9d803700f11b416793ceb51d7d964e2.png)
+![](./new-provider-configuration-recommendations.assets/d9d803700f11b416793ceb51d7d964e2.png)
 
 {{% /info %}}
 

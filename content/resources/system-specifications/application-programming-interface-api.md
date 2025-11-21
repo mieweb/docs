@@ -23,7 +23,7 @@ links:
   - 'https://github.com/mieweb/wcexport'
   - 'https://github.com/mieweb/wcexport/blob/master/README.md'
 source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 
@@ -39,15 +39,15 @@ Explore the {{% system-name %}} API, below.
 
 Interactive, dynamic documentation of the {{% system-name %}} API can be found inside the product. Navigate to the API tab of the Control Panel or use the Search tool located in the upper right hand corner of the application for full visibility of the various objects and their APIs.
 
-![](../application-programming-interface-api.assets/8657b05072273ffb0c081e0e54e89de7.png)
+![](./application-programming-interface-api.assets/8657b05072273ffb0c081e0e54e89de7.png)
 
 System Administrators can explore each object type and then click on the Object to experiment with the javascript api.  The **>_Run Code** button on the lower right allows System Administrators to experiment in real time.
 
-![](../application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
+![](./application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
 
 Every object has a URL. For example: patients:
 
-![](../application-programming-interface-api.assets/611e76c09a736d9808e3ca2335ec13cb.png)
+![](./application-programming-interface-api.assets/611e76c09a736d9808e3ca2335ec13cb.png)
 
 ### JavaScript API
 
@@ -63,7 +63,7 @@ Example in python: [wcjson.py](https://github.com/mieweb/wcexport/blob/master/wc
 
 Other examples can be found here: https://github.com/mieweb/webchart-interface-examples
 
-![](../application-programming-interface-api.assets/d573f388d7e42804e6450203b5a315b0.png)
+![](./application-programming-interface-api.assets/d573f388d7e42804e6450203b5a315b0.png)
 
 ## Session Establishment
 
@@ -467,7 +467,7 @@ if __name__ == '__main__':
 
 {{% system-name %}}  has functional tools for importing and exporting documents to the system. The Export Tool is written in Python and can be run on Windows, Mac, or Linux. Conversely, importing documents is done with the [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/) utility.
 
-![](../application-programming-interface-api.assets/e2b6a93dd8fecf5478d5122ba16e713d.png)
+![](./application-programming-interface-api.assets/e2b6a93dd8fecf5478d5122ba16e713d.png)
 
 ### Requirements
 

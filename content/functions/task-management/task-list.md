@@ -10,7 +10,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSEDNHRK'
 source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Viewing Your Task & Department Task Alerts
 
@@ -18,7 +18,7 @@ There are two ways to access your pending tasks:
 
 1. If you have the Show Pending Esign/Tasks My Settings preference on, click on the red task summary notification link at the very top of {{% system-name %}} from any screen, any tab, etc. titled My Tasks.
 
-![](../task-list.assets/2058b9778b09de3e34c0d5b1436e9d7a.png)
+![](./task-list.assets/2058b9778b09de3e34c0d5b1436e9d7a.png)
 
 * This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
 
@@ -28,13 +28,13 @@ There are two ways to access your pending tasks:
 
 Either way will take users to the Task List.  It will default to open to Your Task List tab.  It then lists all tasks assigned to your username and/or department(s).
 
-![](../task-list.assets/1de0692a0b3d887d2771a0f31e7a4a65.png)
+![](./task-list.assets/1de0692a0b3d887d2771a0f31e7a4a65.png)
 
 ## Task Notifications of Tasks Assigned to You
 
 Users can be alerted via email and/or SMS Text when a task gets assigned to you  There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
 
-![](../task-list.assets/f1ac148f3f29cf6c70182080966a68f0.png)
+![](./task-list.assets/f1ac148f3f29cf6c70182080966a68f0.png)
 
 **Email me on task addition:** The user **must** have an email address on their user account in the Control Panel.  If this preference is set to Yes, the system will email the user whenever a task gets assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
 
@@ -42,7 +42,7 @@ Users can be alerted via email and/or SMS Text when a task gets assigned to you 
 
 The text does not contain any hyperlinks to the system login.  The text's intent is only for informational notification and reads "Task Added:" followed by the specific Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
 
-![](../task-list.assets/aaa035b2340aac186b78def517fd1aef.png)
+![](./task-list.assets/aaa035b2340aac186b78def517fd1aef.png)
 
 ## Your Task List Tab
 
@@ -50,7 +50,7 @@ The **Your Task List** tab shows any tasks you are to complete if someone specif
 
 Note: As of RC202503, providers who are also patients will no longer see tasks where they are the patient. This prevents the provider from performing tasks regarding themselves.
 
-![](../task-list.assets/25d9e05410af030d3a7e2d0e7df93c5c.png)
+![](./task-list.assets/25d9e05410af030d3a7e2d0e7df93c5c.png)
 
 ### Categories of Your Task List
 
@@ -58,64 +58,64 @@ Note: As of RC202503, providers who are also patients will no longer see tasks w
 
 Reminders will appear first if any tasks assigned to you have a reminder date in the format.  You cannot hide ‘Reminder' tasks, however you can snooze them (option on the right column).  If you snooze the reminder that this task still needs done, then a snooze feature will appear, at the top, where you can fill out the time frame of how long you want to snooze this reminder before it will remind you again in your task list.  Fill out time frame, then click snooze button.  Once you complete the original task, this will be automatically taken out of the reminder category.  A task will remain in this Reminders category until you either complete the task or snooze it.
 
-![](../task-list.assets/fb72f499aabbedacd0b21606a9428c68.png)
+![](./task-list.assets/fb72f499aabbedacd0b21606a9428c68.png)
 
 There are two additional features in the Reminders bucket of the Task List.  View Printable link will open to a text version of your reminder tasks that you can print using the browser.  Show Future link will display any assigned reminders that have a future reminder date set in the future from today's date.
 
-![](../task-list.assets/28f7c37bc6cb66ac3b5626f8f10f133e.png)
+![](./task-list.assets/28f7c37bc6cb66ac3b5626f8f10f133e.png)
 
 #### Overdue Tasks
 
 Overdue Tasks are tasks assigned you you that are past the due date set on the task.  Meaning, a task was sent to you with a due date in the field, and the task has not been completed or marked done as of that date specified.
 
-![](../task-list.assets/93c0890cf12cbe193300518124745b1b.png)
+![](./task-list.assets/93c0890cf12cbe193300518124745b1b.png)
 
 There is an additional features in the Overdue Tasks bucket of the Task List.  View Printable link will open to a text version of your reminder tasks that you can print using the browser.
 
-![](../task-list.assets/0963648bdf0fca7da416a4c73f44917f.png)
+![](./task-list.assets/0963648bdf0fca7da416a4c73f44917f.png)
 
 #### User Tasks
 
 User tasks are all tasks assigned specifically to your username.  These are tasks that have your username as being assigned to and are waiting to be completed by you. These are your individual tasks, department tasks assigned to you specifically, that are current or overdue.
 
-![](../task-list.assets/52f30562ade4a7afca5f9d360de92a65.png)
+![](./task-list.assets/52f30562ade4a7afca5f9d360de92a65.png)
 
 There are two additional features in the User Tasks bucket of the Task List.  View Printable link will open to a text version of your reminder tasks that you can print using the browser.  Show Future link will display any assigned tasks that have a future start date set in the future from today's date.  Tasks can be assigned with a future start date.  Meaning, an assigned task will not display on Your Task List until the start date is the same as today's date or past.  Using the Show Future feature allows you to see tasks that are set with future start dates and can work on them prior to the start date if needed, or at minimum gain visibility to them.
 
-![](../task-list.assets/70a06d1e58c28e413c8169d6f3a9ae3f.png)
+![](./task-list.assets/70a06d1e58c28e413c8169d6f3a9ae3f.png)
 
 #### Tasks: [Department Name(s)]
 
 These tasks will follow you (unless you click hide to not show a specific department's tasks).  All tasks for all departments that you are tied to will be displayed (unless you click hide to not show a department).  If you click show assigned it will show all the tasks for the department(s) you are tied to and which ones are assigned to an owner/username.  If you see your username as owner to tasks in any department category, they will also be in your User Tasks category above.
 
-![](../task-list.assets/f8f08eb67d8259e69905f6074a0505d9.png)
+![](./task-list.assets/f8f08eb67d8259e69905f6074a0505d9.png)
 
 There are four additional features in the Department Tasks buckets of the Task List.  View Printable link will open to a text version of your reminder tasks that you can print using the browser.  Show Future link will display any assigned department tasks, you are a member of, that have a future start date set in the future from today's date.  Tasks can be assigned with a future start date.  Meaning, an assigned department task will not display on the list until the start date is the same as today's date or past.  Using the Show Future feature allows you to see your department tasks that are set with future start dates and can work on them prior to the start date if needed, or at minimum gain visibility to them.  Get Next Task link will ‘grab' the first listed department task displayed, and assigns it to your specific username.  After grabbing a department task using the Get Next Task method, it removes the task from the department tasks bucket so no one else can grab and work it.  It then assigns the department task to your specific username and is displayed in your User Tasks bucket to work. Show Assigned link will show all the tasks that are assigned to the department you are a member of and displays a column of ‘owner' to see who owns a department task.
 
-![](../task-list.assets/0da6ba8d429659766d9a2d46a6f10f98.png)
+![](./task-list.assets/0da6ba8d429659766d9a2d46a6f10f98.png)
 
 ## Working/Completing User Tasks
 
 Overdue and User Tasks buckets are tasks specifically assigned to you that are awaiting completion.  There are two ways to work a task:
 
 1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link.  
-    ![](../task-list.assets/8eaec7ef17b7993044f52efc582d80a9.png)
+    ![](./task-list.assets/8eaec7ef17b7993044f52efc582d80a9.png)
 
 2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  
-    ![](../task-list.assets/942ee437e988017891a2ffafb331acdf.png)
+    ![](./task-list.assets/942ee437e988017891a2ffafb331acdf.png)
 
 ### Quick Options
 
 * Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing.  
-    ![](../task-list.assets/b74e3c1896ca0fb20db156a94c41ac85.png)
+    ![](./task-list.assets/b74e3c1896ca0fb20db156a94c41ac85.png)
 
 * If you checkmark this box, it considers it complete (inserts a strikethrough) and when you refresh the page or work elsewhere in {{% system-name %}} and return to the Task List, the checkmarked tasks will be gone and taken out of the queue since indicated ‘complete' using this method.
 * Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed.  
-    ![](../task-list.assets/f35781ca3b92037eb1c8c75369f0b632.png)
+    ![](./task-list.assets/f35781ca3b92037eb1c8c75369f0b632.png)
 
 * Reply: This will show if you have My Settings preference of Show Reply Link in Task enabled. By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
     * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.  
-        ![](../task-list.assets/a08cd215c9456ddf7f4bbd8df66bca6f.png)
+        ![](./task-list.assets/a08cd215c9456ddf7f4bbd8df66bca6f.png)
 
 * You then choose Add Task or Add Task and Mark Done buttons to indicate how to mark the original task that was assigned to you.
     * If you click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.
@@ -124,10 +124,10 @@ Overdue and User Tasks buckets are tasks specifically assigned to you that are a
 ### Task ID Method
 
 * Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.    
-    ![](../task-list.assets/71df33020a5e264806b91044b1c575a3.png)
+    ![](./task-list.assets/71df33020a5e264806b91044b1c575a3.png)
 
 * Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document.  
-    ![](../task-list.assets/4ecfd4f5d0dfc93a2e9bfc2cba13f2aa.png)
+    ![](./task-list.assets/4ecfd4f5d0dfc93a2e9bfc2cba13f2aa.png)
 
 Options in Task ID method view:
 
@@ -136,7 +136,7 @@ Options in Task ID method view:
 * Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
 * Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
     * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient.  
-        ![](../task-list.assets/44076b23676cc5b79397f7698059bd7e.png)
+        ![](./task-list.assets/44076b23676cc5b79397f7698059bd7e.png)
 
 * Sign & Mark Done w/o (without) Note:  This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click. You will not be prompted to enter any text completion notes from this link.  This signs the document & marks the task done only. This is a quicker way to sign & mark done without have to go thru the text comment notes screen in the previous option.
 * Mark Done: If click this, it will pop up a Notes to Complete text box where you can free-text notes, your result, etc for this task and then click Complete box to mark it as completed.  This option allows you to mark the task done and make any notes to the task to keep on record.  It marks it as completed at the top. And then takes this task out of Your Task List and puts it in the completed task tab.
@@ -166,27 +166,27 @@ If a task was assigned to a department that you are a member of, you will see th
 
 The two methods to work a department task are the same as the above described User Tasks, however the most important option in the department tasks is the Grab option. Because there are several users tied to departments, it's important to grab a department task so that another user cannot open and complete the same task at the same time, thus duplicating efforts.
 
-![](../task-list.assets/ccb8d7ca2b20975cbc2cd63e11634aa2.png)
+![](./task-list.assets/ccb8d7ca2b20975cbc2cd63e11634aa2.png)
 
 Grab will assign the task to you (makes you the owner of that department task), open that task for you and removes the task from the department task bucket for others to grab.
 
 {{% tip %}}
 Using the ‘Show Assigned' hyperlink in the department tasks title bar will display any open department tasks and who has grabbed any to work (indicated by the Owner column).
 
-![](../task-list.assets/c7e09df425fd3134d4cbab45a18c8f4f.png)
+![](./task-list.assets/c7e09df425fd3134d4cbab45a18c8f4f.png)
 {{% /tip %}}
 
 ### Task List Tabs
 
 When in the Task List, there are several other tabs at the top than the Your Task List tab that was detailed in prior pages of this document.
 
-![](../task-list.assets/6ee4ec50fd5192c13f27f42728ac3563.png)
+![](./task-list.assets/6ee4ec50fd5192c13f27f42728ac3563.png)
 
 ### Delegated
 
 The Delegated tab within the Task List module lists all pending tasks that you delegated (assigned) to someone or a department to complete.
 
-![](../task-list.assets/8800b6cbc9a3b32ea8bd9ce886bc2389.png)
+![](./task-list.assets/8800b6cbc9a3b32ea8bd9ce886bc2389.png)
 
 Search criteria fields are provided at the top to narrow down the search by Owner department and/or user, along with create date range filters. The owner is the person or department the task is assigned to. Click Update button to render a list of delegated tasks based on search criteria entered.
 
@@ -200,7 +200,7 @@ The Mark Done option is shown as an option if the delegated task is assigned t
 
 The Completed tab within the Task List module is accessible to users who have security permission. This tab lists all of My Completed Tasks and below that shows Completed Delegated Tasks.  These are tasks that were assigned or grabbed by you (which makes you the owner) that you have completed.
 
-![](../task-list.assets/a708f63d661380562f1e3f494c98c78e.png)
+![](./task-list.assets/a708f63d661380562f1e3f494c98c78e.png)
 
 Completed tasks you performed can be un-completed if you have security permission.  If click the Un-Complete link, the task will be put back in Your Task List to complete.
 
@@ -214,7 +214,7 @@ The All Pending tab within the Task List module is accessible to users who have 
 In this tab, if a task is assigned to a user who has no last name entered into {{% system-name %}} , we show the username only instead of first and last name. If the username is empty somehow, then the system will show the user id number instead of first and last name of whom the task is assigned pending to.
 {{% /note %}}
 
-![](../task-list.assets/5556afed301849dce017caa8d72a2cda.png)
+![](./task-list.assets/5556afed301849dce017caa8d72a2cda.png)
 
 The user names in the All Users Pending Tasks bucket and the department names in the All Dept. Pending Tasks bucker are hyperlinks.  Clicking on them will open the screen up directly to that specific user's pending tasklist or that specific department's pending tasklist.  When in the task lists for other users or departments you can (with proper security permission) grab, mark done, or reply on any other specific users/departments task(s) if you wish to work on their tasks.  A use case for this is if nurse #1 is on vacation and has asked nurse #2 to complete her specific assigned tasks. Nurse #2 needs permission to view All Pending tab and can click on nurse #1's name and complete her specific user assigned tasks.
 
@@ -222,17 +222,17 @@ Back on the All Pending task list tab, there are columns of counts per user's pe
 
 Total (Future) column is the count of tasks that the user or department has that have a start-date after today so are considered ‘future' tasks.  These are tasks that are assigned but are not needing started yet or not needing to be visible just yet. Future tasks have start-dates set in the task as a date after today's date.
 
-![](../task-list.assets/1d3a59e1b3743ae0e12d6083fecb530b.png)
+![](./task-list.assets/1d3a59e1b3743ae0e12d6083fecb530b.png)
 
 #### Clear All Tasks
 
 If users have security permission to clear tasks, the option Clear all tasks will be displayed in the options column for pending user and department tasks.
 
-![](../task-list.assets/de507d790933bcb097b6b4f889e3705f.png)
+![](./task-list.assets/de507d790933bcb097b6b4f889e3705f.png)
 
 If you click Clear All Tasks for a specific user's pending tasks, it will allow you to clear their entire pending tasks quickly and in mass.  From either user or department section, clicking clear all tasks will ask you to confirm that you want to clear all the tasks.  It also shows a list of all pending tasks found for that user or department.  Scroll down and click the confirm button to clear their task queue.
 
-![](../task-list.assets/183abbf91f1817212df12a041becbad9.png)
+![](./task-list.assets/183abbf91f1817212df12a041becbad9.png)
 
 When you scroll down to click the confirm button, you will also see another option to Check this box to mark all the documents associated to these tasks as deleted.  If you wish to delete the task documents in the chart that get created when someone enters a task, you would check-mark that box then click the confirm button.
 
@@ -244,7 +244,7 @@ Upon confirmation button being clicked, it will tell you a message at the top th
 
 You can only access and perform options in this tab if you have security access. It shows all templated task list events. These are events that are set up to automatically create a task when a certain function, procedure, or document, etc is performed within {{% system-name %}} .  Typically MIE configures tasklist events or edits and deletes them if deemed needed during review sessions and workflow processes.
 
-![](../task-list.assets/e6ae3aff0c685b271e20ac7c1a6989ae.png)
+![](./task-list.assets/e6ae3aff0c685b271e20ac7c1a6989ae.png)
 
 MIE programs these Tasklist Events because it requires specific where-clause programming.
 
@@ -254,7 +254,7 @@ Evaluate is a feature in the options column for a task list even which will proc
 
 The Fast Tasks taab is also only accessible if the user has security permission.  This tab shows the list of all fast task templates that have been created.
 
-![](../task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
+![](./task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
 
 Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
 
@@ -262,33 +262,33 @@ Permitted users can add and create a new fast task template into the system here
 
 A new user preference (*My Setting*) has been added which will allow users to switch from the legacy Task List view to the Datavis format. The task list has been converted into 4 datavis: Reminders, Overdue Tasks, User Tasks, Realm Tasks. Select items in the datavis to display action options at the bottom. The Realm datavis will compile all departmental tasks into one list and sort them by department. Corporate demographic filters display at the top of the Datavis for Enterprise Health customers only. However all users, Enterprise Health and WebChart, have the the option to sort and filter on each individual datavis, as well as make their own perspectives. These changes are available in a BETA testing mode for customers on RC202309.
 
-![](../task-list.assets/14c1837675ba83576e431e3c85bf8009.png)
+![](./task-list.assets/14c1837675ba83576e431e3c85bf8009.png)
 
 The user can return to the Legacy View, which is a list view, by clicking on the Legacy View button.
 
-![](../task-list.assets/6967330bc0dc8d9f37beda30a42ec553.png)
+![](./task-list.assets/6967330bc0dc8d9f37beda30a42ec553.png)
 
 To return to the DataVis View, click on the DataVis View button.
 
-![](../task-list.assets/137e5bfb78cfb8ed1ede943d3828e41f.png)
+![](./task-list.assets/137e5bfb78cfb8ed1ede943d3828e41f.png)
 
 ### Grab Task - Realm Tasks
 
 In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks, but only from the combined *Realm Tasks* grouping list.
 
-![](../task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
+![](./task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
 
 When grabbing multiple tasks, selected tasks will be assigned to the logged in user. The user will also be prompted with a message "Open new tabs for all X tasks you grabbed?" with a yes/no response button option. Selecting **Yes**, will open each grabbed task in separate browser tabs. Selecting **No**, will close the dialogue box and return to the user to their task list where they can proceed to their next task.
 
-![](../task-list.assets/4c084170b444679e67f53ddf226cf9a8.png)
+![](./task-list.assets/4c084170b444679e67f53ddf226cf9a8.png)
 
 When grabbing any Realm Tasks, you may get a Permission Denied for Tasks error.
 
-![](../task-list.assets/c2c65435c5dc064a9701c6bb44a2c90f.png)
+![](./task-list.assets/c2c65435c5dc064a9701c6bb44a2c90f.png)
 
 For the ability to grab realm tasks using the DataVis method, the specific security role(s) need to have the JSON security permission ‘tasks' table added to their roles.  Contact your MIE Deployment Consultant or MIE Help Desk for configuration.
 
-![](../task-list.assets/57648e9e50e422bc9beaddef6d4c2857.png)
+![](./task-list.assets/57648e9e50e422bc9beaddef6d4c2857.png)
 
 ## Learning Management System
 

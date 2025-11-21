@@ -8,17 +8,17 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
 source: 'https://drive.google.com/open?id=1EXGZK3LY8tfnJ5AiPLCAsGSInA2sqSTESlQECm76pUY'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The Case Merge Tool is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
-![](../case-merge-tool.assets/e4436613833d19fbc14d272be4516beb.png)
+![](./case-merge-tool.assets/e4436613833d19fbc14d272be4516beb.png)
 
 ## Case Merge Tool
 
 The Case Merge Tool lists any cases/incidents (closed or open) for a chart that have the same Date of Injury or same Onset of Illness case date.  This merge tool allows merging of a duplicate case(s) to a specific one, so there is one source of truth case instead of duplicates.  Any duplicate cases merged, using this tool, will have the source of truth case tied to the encounter and/or document(s) then.
 
-![](../case-merge-tool.assets/454798bb77c08c20fbffc39e99f4db47.png)
+![](./case-merge-tool.assets/454798bb77c08c20fbffc39e99f4db47.png)
 
 ### Case Merge Tool Output
 
@@ -34,7 +34,7 @@ The output on the Case Merge Tool will omit charts that are excluded from qualit
 * <strong>Incident Date:</strong> the Date of Injury or Onset of Illness date that the system found more than 1 case/incident for on the chart.
 * <strong>Count:</strong> the number of cases, in the chart, that have the same incident date
 
-![](../case-merge-tool.assets/f725c05e32ef149e4aaecbe143e28bfd.png)
+![](./case-merge-tool.assets/f725c05e32ef149e4aaecbe143e28bfd.png)
 
 ### Triage/Determine if Indeed Duplicates
 
@@ -42,43 +42,43 @@ It is recommended to advance into the chart and/or specific cases and view the C
 
 The Chart and Cases are hyperlinks to advance you right into the chart or the specific case, in a separate tab, where you can see granular information to make your determination.
 
-![](../case-merge-tool.assets/eaa48ef6c1c6feb67e389b13c970b841.png)
+![](./case-merge-tool.assets/eaa48ef6c1c6feb67e389b13c970b841.png)
 
 When in the chart, you can advance to the *Cases* stand alone chart tab to see the cases (open or closed) on this person.  The Case Number is also a hyperlink to advance you directly to the Case Report details of that case.
 
-![](../case-merge-tool.assets/4c5af0122df5104648d61fc3df7e0711.png)
+![](./case-merge-tool.assets/4c5af0122df5104648d61fc3df7e0711.png)
 
 ### Merging Duplicate Cases
 
 In the Case Merge Tool datavis listing, the checkmark boxes to the left do not do anything.  These are there because that's a core look of datavis grids.
 
-![](../case-merge-tool.assets/0f2b857075372cd861b71e21fa684375.png)
+![](./case-merge-tool.assets/0f2b857075372cd861b71e21fa684375.png)
 
 To merge duplicate cases, you must click on the radio button for the Case number you wish to keep as the source of truth for the chart.  Any other cases listed for the chart (in that row) will then be merged and any documents or encounters linked to the other cases, would be then linked to the case of the radio button you signify to keep as the source of truth.
 
-![](../case-merge-tool.assets/3924cc53ae5dcc656c71ba4129dbd4ac.png)
+![](./case-merge-tool.assets/3924cc53ae5dcc656c71ba4129dbd4ac.png)
 
 Once you have a radio button selected for the rows you want to work from this tool and have the radio button of the case you wish to be the source of truth for the incident/case date indicated, you then can click the MERGE button.
 
-![](../case-merge-tool.assets/5c81bde33dff85a090d5ec21fa4f53a9.png)
+![](./case-merge-tool.assets/5c81bde33dff85a090d5ec21fa4f53a9.png)
 
 The MERGE button will instantly merge the duplicate cases to be the source of truth case indicated with the radio button.  The screen shows it has merged the rows indicated and lists the unique incident ID numbers that the system houses in the tables.
 
-![](../case-merge-tool.assets/5f9b0fdf29f19f9c1d65dc8baa56009f.png)
+![](./case-merge-tool.assets/5f9b0fdf29f19f9c1d65dc8baa56009f.png)
 
 The chart's Cases stand-alone chart tab will show only that source of truth case/incident for that specific case date.  Also, any documents or encounters that were linked to the other duplicate cases will now be linked to the source of truth case/incident that was signified in the merge tool.
 
-![](../case-merge-tool.assets/4d678918b7dbe601e0160123b08769f6.png)
+![](./case-merge-tool.assets/4d678918b7dbe601e0160123b08769f6.png)
 
 The Case Merge Tool report will remove the row of duplicate cases for the chart for that specific incident date since it's now been worked.
 
-![](../case-merge-tool.assets/cc5d4dbde734aebb56f30110beda0334.png)
+![](./case-merge-tool.assets/cc5d4dbde734aebb56f30110beda0334.png)
 
 #### Skip N/A radio button
 
 The N/A button is there to indicate you do not wish to merge any duplicate cases listed for that row.  It will not remove the chart from being listed on the tool again though.  It does not act as a ‘dismiss' button or function.
 
-![](../case-merge-tool.assets/ff4b5b51b58472a75de1cf0b6e3f9688.png)
+![](./case-merge-tool.assets/ff4b5b51b58472a75de1cf0b6e3f9688.png)
 
 ## Learning Management System
 

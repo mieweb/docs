@@ -46,7 +46,7 @@ links:
   - 'https://drive.google.com/open?id=1Hh-Up6MnYTqvnc2vEx38lXyRG5rbm4ln3jnd8Qy_G7Q'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=b79e8477f8cdb0cabd019dcd7f998b16'
 source: 'https://drive.google.com/open?id=1kZu9kGFhNMnnQ5p3t__nuU5O-ahq96DygXSRPqH41ZU'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -137,7 +137,7 @@ Do not use Default library.
 
 To change the library from *Default*, click the **Current Library** hyperlink, and select the preferred library from the dropdown options. Once the selection has been made, click the **Set** button to save the setting.
 
-![](../review-session-medication-management-electronic-prescribing.assets/6bc868075fb05ac911f25153bf48115b.png)
+![](./review-session-medication-management-electronic-prescribing.assets/6bc868075fb05ac911f25153bf48115b.png)
 
 {{% tip %}}
 Most libraries are differentiated by provider (name), office (location), or specialty (taxonomy).
@@ -151,7 +151,7 @@ To create a remembered prescription:
 4. Fill out all of the remaining fields, as appropriate. The next field, <strong>Form</strong>, will display the most common option, with a list of alternatives below it. The Form will save with the remembered prescription, if an autocomplete option is chosen; however, if the Form is free-texted, it will not be remembered.
 5. Use the <strong>Remember As</strong> field to enter the keyword being used to recall the remembered prescription. Generally, a physician last name, medical condition abbreviation, or what the medication is being used for, are all types of keywords often used. Enter the keyword in this field.
 
-![](../review-session-medication-management-electronic-prescribing.assets/1077ec858d2a1c8e5d09f3545a2944db.png)
+![](./review-session-medication-management-electronic-prescribing.assets/1077ec858d2a1c8e5d09f3545a2944db.png)
 
 6. Once all fields have been entered, click the <strong>Prescribe</strong> button to submit the prescription. When the medication is finished being prescribed, that medication will be available for reuse. It will populate all of the same data entered, originally.
 
@@ -159,7 +159,7 @@ To create a remembered prescription:
 
 To prescribe that same medication with all of the associated details, navigate back to the Prescription Details page by clicking the **Prescribe** link in the patient's chart. As long as the library the medication was saved to is set as the Current Library, the medication and its remembered name and associated details will populate when selected from the Medication autocomplete.
 
-![](../review-session-medication-management-electronic-prescribing.assets/f9680e36133c4c671496cf3a23d6c584.png)
+![](./review-session-medication-management-electronic-prescribing.assets/f9680e36133c4c671496cf3a23d6c584.png)
 
 {{% tip %}}
 The Medication autocomplete choices are not alphabetical, but rather based on frequency of use. Type more characters to limit the list choices.
@@ -169,7 +169,7 @@ The Medication autocomplete choices are not alphabetical, but rather based on fr
 
 Updating or changing a remembered prescription is just as easy, if not easier. To begin, load the remembered prescription, as shown above. Once all of the fields populate as expected, make any and all changes necessary. With the changes made, ensure the **Remember As** keyword is set accordingly, and click the **Update** button. This is used to change previously saved scripts anytime after the initial save.
 
-![](../review-session-medication-management-electronic-prescribing.assets/d1d117c6eea6e024c6fcd189a1f4aefa.png)
+![](./review-session-medication-management-electronic-prescribing.assets/d1d117c6eea6e024c6fcd189a1f4aefa.png)
 
 ## System Configuration
 
@@ -190,10 +190,10 @@ As a means to maintain best practices, prior to submitting any requests to SureS
 
 1. Navigate to the DMS, locate the client, and Add Task of <strong>New Prescriber Verified</strong>.
 
-![](../review-session-medication-management-electronic-prescribing.assets/f8196fa51f53e2c309a59c8e8c393026.png)
+![](./review-session-medication-management-electronic-prescribing.assets/f8196fa51f53e2c309a59c8e8c393026.png)
 
 1. Once the request is processed, a reply to the task will be provided, and a SureScripts Prescriber ID (SPI) will be assigned to the provider. Always check the provider prior to notifying the client. 
-    ![](../review-session-medication-management-electronic-prescribing.assets/1035ccdacc8e6a8023f33d2ac9ea7e68.png)
+    ![](./review-session-medication-management-electronic-prescribing.assets/1035ccdacc8e6a8023f33d2ac9ea7e68.png)
 
 ### Enroll Providers in SureScripts
 
@@ -240,16 +240,16 @@ Additional steps are required for both setting up the provider, as well as presc
 * The E-Token Signature App needs installed on the workstation(s) being used by the provider.
 * Two-factor authentication, with a token (e.g., USB thumb drive) and token password, is needed in order to prescribe medications.
 
-![](../review-session-medication-management-electronic-prescribing.assets/d6ab34900a8148c1753496f50c860b6f.png)
+![](./review-session-medication-management-electronic-prescribing.assets/d6ab34900a8148c1753496f50c860b6f.png)
 
 An EPCS Prescription will not transmit without a Prescriber's Token **AND** Passcode. Failure to provide both will place the medication(s) in an unsigned prescription queue.
 
-![](../review-session-medication-management-electronic-prescribing.assets/171b2ccb50c539709834c4cf657e79d4.png)
+![](./review-session-medication-management-electronic-prescribing.assets/171b2ccb50c539709834c4cf657e79d4.png)
 
 {{% info %}}
 Even though providers are capable of electronically prescribing controlled substances, not all pharmacies are capable of receiving these electronic requests. {{% system-name %}} displays which pharmacies are EPCS-enabled when a pharmacy is selected for a patient.
 
-![](../review-session-medication-management-electronic-prescribing.assets/a51079a0ee86a362d06554219f0c4442.png)
+![](./review-session-medication-management-electronic-prescribing.assets/a51079a0ee86a362d06554219f0c4442.png)
 {{% /info %}}
 
 Prescriptions that CANNOT be Transmitted Electronically
@@ -296,7 +296,7 @@ Performing these steps will send an edit message and a disable status message to
 
 The Surescripts Advanced functionality includes access to Prescription Benefits (i.e., insurance eligibility and prescription formulary benefit information), as well as access to an individual's Medication History and the ability to perform Prescription Routing to Mail Order Pharmacies using specified formularies. The System Setting (i.e., "Drug Lookup", "Formulary", "Show Surescripts") must be enabled (Value = 1) in order to use these features.
 
-![](../review-session-medication-management-electronic-prescribing.assets/5b1f95f6b3cfe03dc9860929c4343235.png)
+![](./review-session-medication-management-electronic-prescribing.assets/5b1f95f6b3cfe03dc9860929c4343235.png)
 
 #### Prescription Benefits
 
@@ -306,7 +306,7 @@ Dose/Formulary
 
 In order to use the Dose/Formulary functionality and see the in-system button, the **Dose Range Calculator** system setting must be enabled. The button will be available when prescribing medications.
 
-![](../review-session-medication-management-electronic-prescribing.assets/2d78526d9e5ffdd80cd6583ed148cd0b.png)
+![](./review-session-medication-management-electronic-prescribing.assets/2d78526d9e5ffdd80cd6583ed148cd0b.png)
 
 To see the Dosing and Formulary screen in its entirety when prescribing a med, the Form of the medication must be selected.
 
@@ -332,7 +332,7 @@ In additional to system settings, it is important to review the security setting
 
 Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) preferences of security roles and individuals, and ensure access and restrictions are established, as needed. Set each restriction or permission, accordingly. This information is also detailed within the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation.
 
-![](../review-session-medication-management-electronic-prescribing.assets/2e9af662cf6e3d9ea680a61cf29d4397.png)
+![](./review-session-medication-management-electronic-prescribing.assets/2e9af662cf6e3d9ea680a61cf29d4397.png)
 
 ## Resources
 

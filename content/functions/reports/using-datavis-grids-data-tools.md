@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
 source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.
 
@@ -16,7 +16,7 @@ The actual grid you use may differ slightly in appearance from the examples belo
 
 The grid starts with "plain output" which shows the raw data. This is useful for examining all the details, and allows you to sort and filter.
 
-![](../using-datavis-grids-data-tools.assets/6dfa4c1b9854c7972d00445722bd1e3b.png)
+![](./using-datavis-grids-data-tools.assets/6dfa4c1b9854c7972d00445722bd1e3b.png)
 
 *initial view of the grid*
 
@@ -27,7 +27,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 5. Click the filter icon to add a filter for the column.
 6. The <strong>view toolbar section</strong> — use the back/forward arrows to navigate view history, the dropdown to select a view, and the undo button to reset all views.
 
-![](../using-datavis-grids-data-tools.assets/12612183705c72c94adc89044628f600.png)
+![](./using-datavis-grids-data-tools.assets/12612183705c72c94adc89044628f600.png)
 
 *after clicking the gear icon to show the grid controls*
 
@@ -41,24 +41,24 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ## Group Output
 
-![](../using-datavis-grids-data-tools.assets/e8a94e6ad248d2edbf69933bed63e731.png)
+![](./using-datavis-grids-data-tools.assets/e8a94e6ad248d2edbf69933bed63e731.png)
 
 *after grouping by Product*
 
 1. Click the "+" or "–" button to expand/collapse the rows that belong to that group.
 2. The <strong>group mode toolbar section</strong> — "summary" mode shows only the group and the result of the aggregate function. "Detail" mode shows all the rows that go into each group.
 
-![](../using-datavis-grids-data-tools.assets/db83a3a1eadc53d2a6739bb17f5d93b0.png)
+![](./using-datavis-grids-data-tools.assets/db83a3a1eadc53d2a6739bb17f5d93b0.png)
 
 3. With the "Detail" radio button selected, when the "<strong>Expand All Groups</strong>" button is also selected the grouping of each chart now defaults in an expanded view to display each line item of data.
 
-![](../using-datavis-grids-data-tools.assets/257871816e0287d2e4068ea6fe086b86.png)
+![](./using-datavis-grids-data-tools.assets/257871816e0287d2e4068ea6fe086b86.png)
 
 4. With the "Summary" radio button selected, the "Total Row" button can be selected to display a total of the data
 
 ## Pivot Output
 
-![](../using-datavis-grids-data-tools.assets/9b4fbd8264ac7055199f69d00f20b4b0.png)
+![](./using-datavis-grids-data-tools.assets/9b4fbd8264ac7055199f69d00f20b4b0.png)
 
 *after adding Resource to the group, and pivoting by Location*
 
@@ -76,7 +76,7 @@ You can double-click a cell in the group output (summary mode) or pivot output t
 Filters you are already using still apply, if they don't conflict with the drill down filters.
 {{% /note %}}
 
-![](../using-datavis-grids-data-tools.assets/245af1cc149068effd90ce77b7eadbd2.png)
+![](./using-datavis-grids-data-tools.assets/245af1cc149068effd90ce77b7eadbd2.png)
 
 *after drilling down into the Resource Selenium, Selenium*
 
@@ -86,7 +86,7 @@ Click the **view history back arrow** in the **view toolbar section** to go back
 
 Datavis reports can be updated to apply formatting to various cells. For example, reports can be updated with embedded formatting strings which will highlight test results that fall outside of a normal range.
 
-![](../using-datavis-grids-data-tools.assets/a60dc069debd74b74ced4fc81112762e.png)
+![](./using-datavis-grids-data-tools.assets/a60dc069debd74b74ced4fc81112762e.png)
 
 Data values that contain embedded formatting strings can be rendered when the column configuration allows it. The formatting strings have the following format:
 
@@ -103,7 +103,7 @@ where <SPECS> is a comma-separated list of format specifiers:
 * u for underline
 * cls=C sets CSS class(es) for the HTML element; multiple classes can be separated by spaces, or use several cls formatters.
 
-![](../using-datavis-grids-data-tools.assets/3cff2fbb858e1e9c3017bf49076635be.png)
+![](./using-datavis-grids-data-tools.assets/3cff2fbb858e1e9c3017bf49076635be.png)
 
 **WARNING:** Because formatting strings are part of the value, they affect the ordering of data when grouping, sorting, and computing aggregate functions. They will also appear in the dropdown when filtering, and will cause numeric values to be treated as strings. These limitations may be addressed in future updates.
 
@@ -111,7 +111,7 @@ where <SPECS> is a comma-separated list of format specifiers:
 
 The property to allow formatting is *allowFormatting* and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
 
-![](../using-datavis-grids-data-tools.assets/1d87ee7cb206588503860dca9d51e293.png)
+![](./using-datavis-grids-data-tools.assets/1d87ee7cb206588503860dca9d51e293.png)
 
 ## Placement of DataVis Controls
 
@@ -119,13 +119,13 @@ For systems on RC202403 or newer, the perspective controls have been moved into 
 
 View of DataVis in RC202403 and newer:
 
-![](../using-datavis-grids-data-tools.assets/1624b33b4fd70d20ceda3b99482a95f3.png)
+![](./using-datavis-grids-data-tools.assets/1624b33b4fd70d20ceda3b99482a95f3.png)
 
-![](../using-datavis-grids-data-tools.assets/7159d7b2a3c08f99670cc9e55d7c6860.png)
+![](./using-datavis-grids-data-tools.assets/7159d7b2a3c08f99670cc9e55d7c6860.png)
 
 Legacy view prior to RC202403:
 
-![](../using-datavis-grids-data-tools.assets/31f3b94c783da50b2f7505ccb59d2ce3.png)
+![](./using-datavis-grids-data-tools.assets/31f3b94c783da50b2f7505ccb59d2ce3.png)
 
 ## Learning Management System
 

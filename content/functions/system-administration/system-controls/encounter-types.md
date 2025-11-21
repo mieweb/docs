@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The *Encounter Types* module allows users to view system *Encounter Visit Types* and *Service Types*. *Encounter Visit Types* are typically used in clinical/ in-office workflows to capture data. *Service Types* are used on a limited basis for {{% system-name %}} utilizing custom hospital workflows only. The system comes preloaded with several preconfigured *Encounter Visit Types*. Service Types are typically custom and not preloaded. System Administrators can also add custom encounter and service types.
 
@@ -15,13 +15,13 @@ The *Encounter Types* module allows users to view system *Encounter Visit Types*
 
 The *Encounter Visit Types* datavis will display a list of all active visit types. Legacy or historical encounter types are hidden by default, but can be viewed by clicking the *Clear Filter* link on the *Encounter Visit Types* Datavis. Select the *Visit Types* link or the *Service Types* link located in the upper right hand corner to toggle between the two lists.
 
-![](../encounter-types.assets/0b10da719d783593299824545e5bc463.png)
+![](./encounter-types.assets/0b10da719d783593299824545e5bc463.png)
 
 ## Edit Encounter Types
 
 To edit an encounter type or modify configuration attributes, click the Edit link in the *Options* column. Edit the appropriate information, then select *Save* to save the new encounter type, *Reset* to clear all values entered or *Cancel* to return to the *Encounter Visit Type* datavis.
 
-![](../encounter-types.assets/6d94504505818ec334a92dbd0c087c49.png)
+![](./encounter-types.assets/6d94504505818ec334a92dbd0c087c49.png)
 
 **Visit Type:** This field is the db code used to identify this *Visit Type*. This value is typically in ALL CAPITAL letters and brief. It is not recommended to change or edit the visit type after it has initially been created. This value is highly utilized in reporting, tasking, ensign rules, where clauses, etc. Changing it could have an impact on daily workflow operations.
 
@@ -57,19 +57,19 @@ To edit an encounter type or modify configuration attributes, click the Edit lin
 
 On rare occasions, a custom encounter visit type is needed. When necessary, select the *Add Visit Type* link located in the upper right hand corner of the *Encounter Types* module. Enter the appropriate information to configure this encounter based on the fields as defined in the section above. Select *Save* to save the new encounter type, *Reset* to clear all values entered or *Cancel* to return to the *Encounter Visit Type* datavis.
 
-![](../encounter-types.assets/dae5d2bf3e26de6eed0b98b91017522d.png)
+![](./encounter-types.assets/dae5d2bf3e26de6eed0b98b91017522d.png)
 
 ## Service Type
 
 Select the *Service Types* link located in the upper right hand corner of the *Encounter Types* module to display the *Encounter Service Types*. By default, no service types come preloaded in the system.
 
-![](../encounter-types.assets/16d73a3bc63c9401ba24f4a3787f1d16.png)
+![](./encounter-types.assets/16d73a3bc63c9401ba24f4a3787f1d16.png)
 
 ## Add Service Type
 
 Select the* Add Service Type* link to add a new service type.
 
-![](../encounter-types.assets/5309b6f9af30ab8b53b859a53af37abc.png)
+![](./encounter-types.assets/5309b6f9af30ab8b53b859a53af37abc.png)
 
 **Service Type:** This field is the db code used to identify this* Service Type*. This value is typically in ALL CAPITAL letters and brief. It is not recommended to change or edit the service type after it has initially been created.
 
@@ -85,8 +85,8 @@ Enter the appropriate information, then select *Save* to save the new service ty
 
 To edit a service type or modify configuration attributes, click the Edit link in the *Options* column.
 
-![](../encounter-types.assets/b5ed8c1961d1d1506fc2717ff0ba1b6d.png)
+![](./encounter-types.assets/b5ed8c1961d1d1506fc2717ff0ba1b6d.png)
 
 Edit the appropriate information, then select *Save* to save the new service type, *Reset* to clear all values entered or *Cancel* to return to the *Service Type* datavis.
 
-![](../encounter-types.assets/917fdecb6c4ca5fe4c9ba6499e8b473b.png)
+![](./encounter-types.assets/917fdecb6c4ca5fe4c9ba6499e8b473b.png)

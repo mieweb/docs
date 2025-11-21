@@ -18,7 +18,7 @@ links:
   - 'https://www.enterprisehealth.com/blog/video-standard-reporting-software-demo-enterprise-health'
   - 'https://www.enterprisehealth.com/blog/video-osha-recordkeeping-and-reporting-software-demo'
 source: 'https://drive.google.com/open?id=1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 All {{% system-name %}} training videos and demonstrations can be found below. Peruse the various overviews, and spend some time with the in-depth looks at the available functionality within the product, or even get acquainted with some of the more common workflows used.
 
@@ -52,7 +52,7 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 {{% /column %}}
 
 {{% column %}}
-![](../videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)
+![](./videos-and-demonstrations.assets/e6f9431ad83fc70ead4f3905698728d0.png)
 {{% /column %}}
 
 {{% /section %}}

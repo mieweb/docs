@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FM-Bx8fVSojYtqK0VN_VG1R69EAzJFO05_M4uSCLGCA'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Click *E-Chart* on the left sidebar menu.
 
@@ -15,7 +15,7 @@ Click *Document Queue* tab at the top.
 
 The Document Queue only shows patients that are marked as temporary. In the QUEUE drop-down it will list each partition and will show the count to the right of how many patients are marked as temporary.
 
-![](../document-queue-merging-imported-documents.assets/f0e67ae313901ed818b0cf31d2ef7050.png)
+![](./document-queue-merging-imported-documents.assets/f0e67ae313901ed818b0cf31d2ef7050.png)
 
 The definition of temporary is a patient that comes across an interface that does not match in any existing partitions.  The criteria for the match is MR#, name, & dob.
 
@@ -28,7 +28,7 @@ It's best to merge the 9 ratings first.
 
 Then click the SEARCH box off to the right.
 
-![](../document-queue-merging-imported-documents.assets/40bf9e989ff1beaf16d67d82fb50c854.png)
+![](./document-queue-merging-imported-documents.assets/40bf9e989ff1beaf16d67d82fb50c854.png)
 
 ## Merge Ratings
 
@@ -52,33 +52,33 @@ The big box at the **bottom** is the actual document that is imported. Can look 
 
 The system may not automatically find good choices of matches. In that case, you should always do a manual search just to make sure that patient doesn't exist in your system to merge to. You can also use the fields at the top of that right side to search for your own match (search by MR#, Name, SSN, DOB, Phone, Doc id) and do a manual search.
 
-![](../document-queue-merging-imported-documents.assets/b988cd527ef76e45a2a57158f2d3e694.png)
+![](./document-queue-merging-imported-documents.assets/b988cd527ef76e45a2a57158f2d3e694.png)
 
 The system will try to find matching accounts for you to merge to on the right side. If you verify this is indeed the patient you want to merge the document to, you would click the **select** radio button to select that account to merge into. If you see Q-Merge that means *Quick Merge*. Instead of selecting the radio button for this patient, you can click Q-Merge to skip some merging steps. If wish to go thru all the merging steps, then select the radio button.
 
 Scroll down then click **Merge to Selected Employee** button.
 
-![](../document-queue-merging-imported-documents.assets/813b029f3643182f9e046d2bbfc438bc.png)
+![](./document-queue-merging-imported-documents.assets/813b029f3643182f9e046d2bbfc438bc.png)
 
 Then scroll and click the **Preview Merge** button.
 
-![](../document-queue-merging-imported-documents.assets/677d71ba16654cce3c13f35a55bae747.png)
+![](./document-queue-merging-imported-documents.assets/677d71ba16654cce3c13f35a55bae747.png)
 
 {{% note %}}
 If you did a manual search and found the patient account you want to merge to, you need to click the patient's MR# account you found on the right side during your search.
 {{% /note %}}
 
-![](../document-queue-merging-imported-documents.assets/8b02c21cab2db1b85614d77b2fc0e4b3.png)
+![](./document-queue-merging-imported-documents.assets/8b02c21cab2db1b85614d77b2fc0e4b3.png)
 
 From this point, you need to scroll down on the top right side. Use the scroll bar indicated below for this section. You need to scroll down to see the **Merge Options** to continue the merging process.
 
-![](../document-queue-merging-imported-documents.assets/55480d6b204a567a0c3d3d4725a22363.png)
+![](./document-queue-merging-imported-documents.assets/55480d6b204a567a0c3d3d4725a22363.png)
 
 It will bring up the patient's demographics screen in the right side column of the screen.
 
 Scroll down a little bit to the 4 **Merge Options** that are radio button choices (right under the demographics info).
 
-![](../document-queue-merging-imported-documents.assets/91cd28e4ae584563c7137ee21a341c5e.png)
+![](./document-queue-merging-imported-documents.assets/91cd28e4ae584563c7137ee21a341c5e.png)
 
 * <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this employee's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
 * <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this employee's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em> partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
@@ -87,11 +87,11 @@ Scroll down a little bit to the 4 **Merge Options** that are radio button choice
 
 Click the radio button of your choice then scroll again down to the bottom of that right side section and click the button that says **Merge Employees**. It will then merge the document from the left side to the account on the right side.
 
-![](../document-queue-merging-imported-documents.assets/699ed676c2e9ca88014a7bafb3113c3a.png)
+![](./document-queue-merging-imported-documents.assets/699ed676c2e9ca88014a7bafb3113c3a.png)
 
 It gives you a list of what was merged (on the right side) and what wasn't.
 
-![](../document-queue-merging-imported-documents.assets/ef8663185f62139c192b6c2b2d61b2f2.png)
+![](./document-queue-merging-imported-documents.assets/ef8663185f62139c192b6c2b2d61b2f2.png)
 
 This patient is now done and is taken out of the left side queue. Continue to work on the next patient document on the left side by doing the above steps.
 
@@ -109,20 +109,20 @@ To Auto Match, select the queue you wish to work. Set the Min Rating field to 9,
 
 Click Auto Match link to auto-match these quickly and in mass without having to do individual merges and steps on the previous pages. The system will only *auto-match* ratings that have a 9 because it's indicating a very high match to an account in your system. The ratings of 8 and lower have to be done individually/manually to verify and insure that the patient's account does match an account in your system. You may receive a document that isn't even yours, so you would want to verify the merge instead of doing the ‘auto-match' method.
 
-![](../document-queue-merging-imported-documents.assets/8f92316a264916ef66cf65680045eb54.png)
+![](./document-queue-merging-imported-documents.assets/8f92316a264916ef66cf65680045eb54.png)
 
 The **Auto Merge** screen opens up.
 
 * Merge from Queue: Select the partition your documents are coming from.
 * Search in Partition: Change to MR or whatever partition/record #'s you use for {{% system-name %}} . This is the partition you want the documents/accounts to merge to. These partition drop-down selections respect the partitions the logged-in user has access to.
 
-![](../document-queue-merging-imported-documents.assets/3ab5e48cd6187d3d953d0955a9f88f27.png)
+![](./document-queue-merging-imported-documents.assets/3ab5e48cd6187d3d953d0955a9f88f27.png)
 
 Click **NEXT** box.
 
 It will give you a warning message that you are about to merge.
 
-![](../document-queue-merging-imported-documents.assets/b7fe5a32b36233bcd51531212db4306d.png)
+![](./document-queue-merging-imported-documents.assets/b7fe5a32b36233bcd51531212db4306d.png)
 
 You can preview, or merge the accounts by clicking the appropriate box.
 
@@ -134,21 +134,21 @@ Click Search again and it should only show what needs to be done after the Auto 
 
 There is a security setting available to allow users to update the patient matches/ratings through the document queue.
 
-![](../document-queue-merging-imported-documents.assets/f7bdd11afdc379b1c44339b8e51fc4af.png)
+![](./document-queue-merging-imported-documents.assets/f7bdd11afdc379b1c44339b8e51fc4af.png)
 
 If user has security permission to this, they can update all patient match ratings through the document queue.
 
 In the Document Queue you will then see a link Update All Patient Match Ratings.You can click that to update all patient match ratings. You may want to do this if the records in the document queue have been sitting there awhile as unmerged and perhaps permanent medical records on the {{% system-name %}} side were created or altered for any of those patient. Then the patient(s) in the document queue would then have a better/higher updated ‘match' rating against something found in {{% system-name %}} as opposed to when it first fell into the document queue.
 
-![](../document-queue-merging-imported-documents.assets/5b6749cd379e711be919e2c382179624.png)
+![](./document-queue-merging-imported-documents.assets/5b6749cd379e711be919e2c382179624.png)
 
 You will get a pop up when you click update all patient match ratings.
 
-![](../document-queue-merging-imported-documents.assets/9746e46b94fc266bb008005f05c9cd6e.png)
+![](./document-queue-merging-imported-documents.assets/9746e46b94fc266bb008005f05c9cd6e.png)
 
 It will display a new window and run the update. At the end you will see *done syncing patient duplicates* and you can simply X out of that window.
 
-![](../document-queue-merging-imported-documents.assets/b38f232565298bc92e6c6ff7286a8496.png)
+![](./document-queue-merging-imported-documents.assets/b38f232565298bc92e6c6ff7286a8496.png)
 
 Then this will update the match ratings the patients have that are sitting in the document queue to be worked.
 
@@ -160,29 +160,29 @@ Verify the document is indeed not yours by clicking on the MR# of the patient on
 
 The document that is coming in will fully display at the bottom so you can verify you wish to delete this.
 
-![](../document-queue-merging-imported-documents.assets/78ca7869a5e7a902b0e5718adb45356a.png)
+![](./document-queue-merging-imported-documents.assets/78ca7869a5e7a902b0e5718adb45356a.png)
 
 To delete an incoming document without merging it to a {{% system-name %}} account, click the *Delete* link in the left side section for the patient's incoming document. On the right side it will open *Verify De-Activation*. It will ask you if you want to deactivate this patient.
 
-![](../document-queue-merging-imported-documents.assets/0057a7e2bde61ba41d9807cce972ced3.png)
+![](./document-queue-merging-imported-documents.assets/0057a7e2bde61ba41d9807cce972ced3.png)
 
 It will display the confirmation screen. You must type in *yes* in that field then click the YES I'M SURE button to delete.
 
-![](../document-queue-merging-imported-documents.assets/0a4ed419245edbb07e9e9d4faf049fbd.png)
+![](./document-queue-merging-imported-documents.assets/0a4ed419245edbb07e9e9d4faf049fbd.png)
 
 Once you've typed *yes* and clicked the Yes, I'm Sure button, it will show the message that the documents have been de-activated/deleted and the patient has been de-activated. This is that specific patient mr# account from the left side.
 
-![](../document-queue-merging-imported-documents.assets/57b0eb5b0cae5c11c230c3375843b9ac.png)
+![](./document-queue-merging-imported-documents.assets/57b0eb5b0cae5c11c230c3375843b9ac.png)
 
 It marks those documents as deleted. It doesn't delete the patient, but keeps the chart marked as **temporary record** (if it's not merged to any active {{% system-name %}} account) and marks the chart as an **Inactive Record.**
 
-![](../document-queue-merging-imported-documents.assets/35add1020ced08c8da4d282055511949.png)
+![](./document-queue-merging-imported-documents.assets/35add1020ced08c8da4d282055511949.png)
 
 If the Record is marked as "Temporary", shows this in the record header in the ALERT Background and Font Color in bold. This is simply a notice to the user letting them know they are viewing a record that is considered temporary.
 
 If the Record is marked as "Inactive", shows this in the record header in the ALERT Background and Font Color in bold. This is simply a notice to the user letting them know they are viewing a record is not active.
 
-![](../document-queue-merging-imported-documents.assets/a7dcbd092f55f9c5882d2ea6adcaa8d4.png)
+![](./document-queue-merging-imported-documents.assets/a7dcbd092f55f9c5882d2ea6adcaa8d4.png)
 
 If you merge an MR# chart with another partition, and the user makes the "other" partition the primary account number (which is incorrect to do), you get this warning on the patient charts.
 
@@ -199,7 +199,7 @@ There are differences in the ‘queues' that the record lands in. The top partit
 * the MRN does not exist in {{% system-name %}}
 * the patient name/dob pair doesn't match if vendor provides SSN in message then that is used to lookup as well (name/dob/ssn lookup)
 
-![](../document-queue-merging-imported-documents.assets/1e84ee69564a934889e4176c3f414c3d.png)
+![](./document-queue-merging-imported-documents.assets/1e84ee69564a934889e4176c3f414c3d.png)
 
 For a patient record to be in the doc queue in an NX (Non-Indexed) partition (the bottom queue partition choices), this has to happen:
 
@@ -211,4 +211,4 @@ For a patient record to be in the doc queue in an NX (Non-Indexed) partition (th
 
 When the system setting "Filter by PO #" is enabled (value=1), partitions that contain patient charts and documents related to the logged in user via document "send" are shown regardless of the partition restriction setting. This allows users to view documents related to themselves even though the partition is restricted.
 
-![](../document-queue-merging-imported-documents.assets/224dac4cd61593d77c91d2b9421b7aba.png)
+![](./document-queue-merging-imported-documents.assets/224dac4cd61593d77c91d2b9421b7aba.png)

@@ -11,7 +11,7 @@ links:
   - 'data-import-standards.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create observation codes using the Observation Codes CSV API.
 
@@ -29,15 +29,15 @@ CSV refers to the type of file and format of data needed to import information i
 
 The first screenshot shows a simple CSV file containing the required field and several of the best practice fields. This example data is available for full inspection on the tab "Example" in the specification (see link in Specification section of this page).
 
-![](../observation-codes-csv-api.assets/cef09692e03cb03054ab91c1411c2470.png)
+![](./observation-codes-csv-api.assets/cef09692e03cb03054ab91c1411c2470.png)
 
 This screenshot shows how the Bilirubin observation code should appear when viewing in the Observation Codes Manager after the import has been run with the example CSV file.
 
-![](../observation-codes-csv-api.assets/84d12580bd892a66c650da0c83b9b56a.png)
+![](./observation-codes-csv-api.assets/84d12580bd892a66c650da0c83b9b56a.png)
 
 And this final screenshot shows how the RBC observation code should appear when viewing in the Observation Codes Manager after the import has been run with the example CSV file.
 
-![](../observation-codes-csv-api.assets/ae6a07dce32ff15f74570760117ea338.png)
+![](./observation-codes-csv-api.assets/ae6a07dce32ff15f74570760117ea338.png)
 
 ## Specifications
 

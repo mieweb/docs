@@ -20,7 +20,7 @@ links:
   - 'https://pm.mieweb.com/issues/106834'
   - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 # OAuth 2.0 Overview
 
@@ -29,11 +29,11 @@ OAuth 2.0 is the industry standard for allowing external applications access to 
 OAuth 2.0 is a widely adopted standard that provides a secure method for external applications to access protected resources, such as user data, on behalf of the resource owner without needing to expose the user's credentials. It enables third-party apps to interact with systems like Electronic Health Records (EHRs) while maintaining strict privacy and security standards, especially within healthcare environments. OAuth 2.0 introduces workflows that cater to different use cases, ensuring flexible access management while aligning with specific healthcare and security requirements. These workflows include:
 <table>
 <tr>
-<td><img src="../oauth-2.0-tutorial.assets/0ea7b68fa0b53d9b3a3f57924ba3985e.png" /><br />
+<td><img src="./oauth-2.0-tutorial.assets/0ea7b68fa0b53d9b3a3f57924ba3985e.png" /><br />
 <a href="#patient-standalone-launch">Patient Standalone Launch</a>: This method allows patients to directly authorize applications to access their personal health information through an OAuth 2.0 authorization code flow. It enables a seamless, user-initiated connection between patient applications and the healthcare system PORTAL, granting permission for data access based on defined scopes.</td>
-<td><img src="../oauth-2.0-tutorial.assets/8b91751a10e2605d3eac3241f2bf577c.png" /><br />
+<td><img src="./oauth-2.0-tutorial.assets/8b91751a10e2605d3eac3241f2bf577c.png" /><br />
 <a href="#physician-ehr-launch">Physician EHR Launch</a>: Designed for healthcare providers, this workflow supports OAuth access for applications within the EHR that LAUNCH from a patient chart. By integrating with the healthcare provider's systems, practitioners can access and utilize third-party applications directly within their EHR interface, improving workflow efficiency and interoperability.</td>
-<td><img src="../oauth-2.0-tutorial.assets/04e74bcd714b65cdc21d4acc8a89abe4.png" /><br />
+<td><img src="./oauth-2.0-tutorial.assets/04e74bcd714b65cdc21d4acc8a89abe4.png" /><br />
 <a href="#smart-bulk-backend-services">SMART Bulk Backend Services</a>: For more extensive data operations, this workflow enables large-scale, system-level access to healthcare data using backend services. It is typically utilized for bulk data transfer, supporting use cases like data analysis, reporting, and research that require programmatic access to large datasets.</td>
 </tr>
 </table>
@@ -103,7 +103,7 @@ If you have access to the Login Trust screens in your system, use the informatio
 
 Example screenshot of Create/Edit Login Trust in webchart:
 
-![](../oauth-2.0-tutorial.assets/640fd9675415a734b06608a084d759a1.png)
+![](./oauth-2.0-tutorial.assets/640fd9675415a734b06608a084d759a1.png)
 
 ### FINISH THE CONFIG
 
@@ -144,7 +144,7 @@ Typical scope for patients would be:
 
 Example app: https://github.com/mieweb/webchart-oauth-example
 
-![](../oauth-2.0-tutorial.assets/2f98e9d3c8a8bff93d51cde1ccbc5fd4.png)
+![](./oauth-2.0-tutorial.assets/2f98e9d3c8a8bff93d51cde1ccbc5fd4.png)
 
 https://youtu.be/-YaW9Qa5wvc
 
@@ -152,7 +152,7 @@ On this page, individual accesses may be customized or denied altogether.
 
 By clicking on the item, it will turn "grey" indicated access to that resource will be **DENIED**. The first four (`launch/patient openid fhirUser offline_access`) are mandatory and cannot be denied.
 
-![](../oauth-2.0-tutorial.assets/6a805673f87cb3e0a1ae5a9cfb96588f.png)
+![](./oauth-2.0-tutorial.assets/6a805673f87cb3e0a1ae5a9cfb96588f.png)
 
 If allowed, the application will then be permitted to access the user's data via the FHIR API.
 
@@ -160,7 +160,7 @@ If allowed, the application will then be permitted to access the user's data via
 
 Aka: [SMART "launch sequence" ](http://hl7.org/fhir/smart-app-launch/app-launch.html)
 
-![](../oauth-2.0-tutorial.assets/9866a51b932bf0a393c78af3867dca89.png)
+![](./oauth-2.0-tutorial.assets/9866a51b932bf0a393c78af3867dca89.png)
 
 The Quickview contains a FHIR Launch portlet which allows launching configured applications.
 
@@ -168,27 +168,27 @@ Navigate to the Quickview sidemenu tab
 
 Open the Select Portlets manager
 
-![](../oauth-2.0-tutorial.assets/c1629683b0a19ba5d8c3a9b36295fa1c.png)
+![](./oauth-2.0-tutorial.assets/c1629683b0a19ba5d8c3a9b36295fa1c.png)
 
-![](../oauth-2.0-tutorial.assets/04d97094b29274c805888eb83963ad69.png)
+![](./oauth-2.0-tutorial.assets/04d97094b29274c805888eb83963ad69.png)
 
 Utilizing the links to the configured applications present in the FHIR Launch portlet will allow EHR Practitioner access to those applications.
 
-![](../oauth-2.0-tutorial.assets/758ff21d8af26d1e930bcb8aed3706e4.png)
+![](./oauth-2.0-tutorial.assets/758ff21d8af26d1e930bcb8aed3706e4.png)
 
-![](../oauth-2.0-tutorial.assets/d3dc42af01980adbd1604ca8dbb7e8e3.png)
+![](./oauth-2.0-tutorial.assets/d3dc42af01980adbd1604ca8dbb7e8e3.png)
 
 JWT created:
 
-![](../oauth-2.0-tutorial.assets/bba95e49f0c20704e35bc30924cf4933.png)
+![](./oauth-2.0-tutorial.assets/bba95e49f0c20704e35bc30924cf4933.png)
 
-![](../oauth-2.0-tutorial.assets/8bb6d92978d2f0ff8a8daccc03e44dbf.png)
+![](./oauth-2.0-tutorial.assets/8bb6d92978d2f0ff8a8daccc03e44dbf.png)
 
 # SMART Bulk Backend Services
 
 Applications may utilize the [FHIR Backend Services](http://hl7.org/fhir/smart-app-launch/backend-services.html) for bulk workflow order to consume EHR resources.
 
-![](../oauth-2.0-tutorial.assets/dbb20092fb5262d7d592da024cb36062.png)
+![](./oauth-2.0-tutorial.assets/dbb20092fb5262d7d592da024cb36062.png)
 
 # Management of Interfaces
 
@@ -198,7 +198,7 @@ Admins may revoke access to any applications previously granted access via the T
 
 URL: ?f=layout&module=Login&name=OAuthCodes
 
-![](../oauth-2.0-tutorial.assets/1c635a0c5501b22f3688af9a5ba043cd.png)
+![](./oauth-2.0-tutorial.assets/1c635a0c5501b22f3688af9a5ba043cd.png)
 ### JWT
 
 webchart.cgi/jwt/
@@ -209,9 +209,9 @@ https://github.mieweb.com/webchart/webchart/blob/e887aebeb0fb7e3747a25fb177855a3
 
 https://fhirr4sandbox.webch.art/webchart.cgi/jwks/
 
-![](../oauth-2.0-tutorial.assets/90bec505d8d1e0b046dd6ef40b737442.png)
+![](./oauth-2.0-tutorial.assets/90bec505d8d1e0b046dd6ef40b737442.png)
 
-![](../oauth-2.0-tutorial.assets/78a24893c83f5ccd4dac4fea40628e7e.png)
+![](./oauth-2.0-tutorial.assets/78a24893c83f5ccd4dac4fea40628e7e.png)
 
 webchart.cgi/jwks/
 

@@ -7,11 +7,11 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1aNUvYavTU9Mf1-pm2ldYoIdOk8gzf_7B-H9PWgVaFWE'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 From RC202403 and newer, the DoT Interface Status report can be found within the Reports module, and within the Health Surveillance grouping of reports available in {{% system-name %}}.
 
-![](../dot-interface-status-report.assets/1e633f6b4044b608a8cb6ae89c334ba6.png)
+![](./dot-interface-status-report.assets/1e633f6b4044b608a8cb6ae89c334ba6.png)
 
 The DoT Interface Status report would be utilized by any client who has the Federal Motor Carrier Safety Administration (FMCSA)/DOT Interface set-up. The report is run to monitor whether the encounter was successfully sent over the interface.
 
@@ -23,4 +23,4 @@ The below list of columns from the DoT Interface Status report, will describe wh
 * Submitted - Pulls the date and time when the DoT Encounter Exam was transmitted electronically to the Federal Motor Carrier Safety Administration (FMCSA)
 * Status - Pulls the response message from the Federal Motor Carrier Safety Administration (FMCSA) and the Status of the transmission
 
-![](../dot-interface-status-report.assets/56954026d61698017f56dcb36bd33d4b.png)
+![](./dot-interface-status-report.assets/56954026d61698017f56dcb36bd33d4b.png)

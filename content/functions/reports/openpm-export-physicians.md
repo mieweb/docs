@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Physicians (aka "ACUsersByDept")
 
@@ -42,4 +42,4 @@ The "Physicians" report, also referred to as "ACUsersByDept" due to its realm se
 23. <strong>Revised By</strong>: The name of the user who last revised the profile.
 24. <strong>Options</strong>: Links for actions that can be taken on the user's profile, such as view, edit, delete, or activate, based on the user's permissions and status.
 
-![](../openpm-export-physicians.assets/be748556a63466932e4dd9c198da25fe.png)
+![](./openpm-export-physicians.assets/be748556a63466932e4dd9c198da25fe.png)

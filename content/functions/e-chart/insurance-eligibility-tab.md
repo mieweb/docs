@@ -7,13 +7,13 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.
 
 From the **Insurance Eligibility** chart tab, the **Insurance Eligibility Request** screen will display. Users must have the *Patient Insurance Policies* security permission set to at least View, in order to run the individual eligibility inquiries.
 
-![](../insurance-eligibility-tab.assets/f06138c371e652701d22fcdfed0fac0f.png)
+![](./insurance-eligibility-tab.assets/f06138c371e652701d22fcdfed0fac0f.png)
 
 The chart's information will populate on the screen along with the primary insurance policy number that is stored in the chart's insurance section of the demographics. You can change the **Policy Number** field if you wish to search for a policy on the chart besides what is defaulted.
 
@@ -23,7 +23,7 @@ In the **Payer** field, begin typing in the name of the payer (patient's insuran
 
 When you click the Send Request button, the request will be sent and eligibility information will be received in real-time. The **Eligibility Information** screen will appear with the subscriber information and eligibility information sections.
 
-![](../insurance-eligibility-tab.assets/f87c22b33d8223b4c2c240af66331c79.png)
+![](./insurance-eligibility-tab.assets/f87c22b33d8223b4c2c240af66331c79.png)
 
 You can gather the information you need from that screen, you can scroll down to the bottom and click the **Save as Document** button.  This will save the entire page of information as a stored document in the patient's chart.
 

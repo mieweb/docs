@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
 source: 'https://drive.google.com/open?id=1cVM6kOokD8qoZ7i7IdJY4lVB2RIXhgOoDG1fNBPY5kQ'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## View Injections/Immunizations Record
 
@@ -16,14 +16,14 @@ Navigate to the **MAR/Injections** tab in the patient chart.
 
 The **MAR/Injections** tab will display the Medication Administration list, Immunizations list, a display only version of the Titer Results flowsheet, Injection Documents list, Vials list, and the Contraindications list.
 
-![](../injection-tab-with-chirp-interface.assets/95793a61ee88cf0d92fc4d8c01172cde.png)
+![](./injection-tab-with-chirp-interface.assets/95793a61ee88cf0d92fc4d8c01172cde.png)
 
 To view any deleted immunizations or any other deleted injections or vials for the specific patient, click the **Show Deleted** link. Active and deleted records will display for each category.
 
-![](../injection-tab-with-chirp-interface.assets/79607fd94db04ff53ce53eb21f696016.png)
+![](./injection-tab-with-chirp-interface.assets/79607fd94db04ff53ce53eb21f696016.png)
 
 Deleted injection/immunization will have the word **deleted** beneath the name column.
-![](../injection-tab-with-chirp-interface.assets/ceb04c603c820a94aa313830335e835e.png)
+![](./injection-tab-with-chirp-interface.assets/ceb04c603c820a94aa313830335e835e.png)
 
 Click Hide Deleted link to only display the active injections and immunizations records for the patient.
 
@@ -31,11 +31,11 @@ Click Hide Deleted link to only display the active injections and immunizations 
 
 The **Get Updates** link will query the bidirectional interface for the most up to date results on the selected patient
 
-![](../injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
+![](./injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
 
 If a matching immunization record for the patient is not found, a message will be displayed to let the end user know that there isn't any information available for this patient.
 
-![](../injection-tab-with-chirp-interface.assets/8122395e0f429e9022b7915404305999.png)
+![](./injection-tab-with-chirp-interface.assets/8122395e0f429e9022b7915404305999.png)
 
 If a match has been found, the user will be taken to the Immunization Reconciliation.
 
@@ -49,23 +49,23 @@ Click the Trashcan icon on the right side of the **Patient Record** column to DE
 
 When all updates are completed, click the **SAVE** button to save all updates.
 
-![](../injection-tab-with-chirp-interface.assets/355f3de457b590a86e7d2c031545f127.png)
+![](./injection-tab-with-chirp-interface.assets/355f3de457b590a86e7d2c031545f127.png)
 
 For systems on 03-2024RC and newer a new system setting (E-Chart/Chirp/Smoothie on Delete Warning) can be enabled. Simply enter a "warning message" in the Current Value field. Any text/words typed into the 'value' field (of this system setting) will be displayed to end users as a message when 'delete' from the patient record is used on/doing updates on the Injection History query screen.
 
-![](../injection-tab-with-chirp-interface.assets/8b58023881eea5667b0ced22f6ff149e.png)
+![](./injection-tab-with-chirp-interface.assets/8b58023881eea5667b0ced22f6ff149e.png)
 
 ## The Get Updates Link for CHIRP Immunization Interface
 
 If your system is interfaced bi-directionally with an injection program example: CHIRP (Children and Hoosiers Immunization Registry Program in Indiana), users will see a **Get Updates** link on the MAR/Injections tab.
 
-![](../injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
+![](./injection-tab-with-chirp-interface.assets/1a97978d40024ca51acdab7b5b864920.png)
 
 The **Get Updates** link will query the bidirectional interface for the most up to date results on the selected patient.
 
 Once the query has been run and no updates are available, a message will display to indicate this.
 
-![](../injection-tab-with-chirp-interface.assets/f1f9c62b3df10e3825ed51ff15a8b206.png)
+![](./injection-tab-with-chirp-interface.assets/f1f9c62b3df10e3825ed51ff15a8b206.png)
 
 If there are updates, you'll either get a list of matching patients or a list of the matched patient's injections to bring into {{% system-name %}} .
 
@@ -73,17 +73,17 @@ If the {{% system-name %}} patient needs to be matched/linked to their CHIRP acc
 
 If there are multiple matching CHIRP choices with same name, same DOB, etc we suggest you log into the CHIRP web app and look up the patient's identifier in there. We are displaying the CHIRP MR#, so that would make it easy to pick the right one then in {{% system-name %}} which then links the two. Once you select one in {{% system-name %}} – it will be linked to that patient. So the correct one needs to be selected. If you do select the wrong one, contact your MIE Implementer to have that CHIRP MR# removed and then when you go back to get updates you'll see the choices again to link to the correct one for CHIRP.
 
-![](../injection-tab-with-chirp-interface.assets/ec6edc150fa45ca8615c2798698e7da7.png)
+![](./injection-tab-with-chirp-interface.assets/ec6edc150fa45ca8615c2798698e7da7.png)
 
 To link/connect the CHIRP account to the {{% system-name %}} account, simply click on the CHIRP MR of the specific patient found in the first column on the left.
 
-![](../injection-tab-with-chirp-interface.assets/be25553eadce23480cd1b8cbfc3797cc.png)
+![](./injection-tab-with-chirp-interface.assets/be25553eadce23480cd1b8cbfc3797cc.png)
 
 Next you will see the confirmation page that you are linking these patients. Keep the CHIRP mr# checkmarked.
 
 Then click GET UPDATES FOR THIS PATIENT button if you wish to proceed to link/connect the accounts and proceed to get the injection updates from CHIRP into {{% system-name %}} . If you wish to cancel and get back, click BACK TO LIST.
 
-![](../injection-tab-with-chirp-interface.assets/5722102f563ac26952bbb4a8c8d3b1fb.png)
+![](./injection-tab-with-chirp-interface.assets/5722102f563ac26952bbb4a8c8d3b1fb.png)
 
 Once you click GET UPDATES FOR THIS PATIENT, it will grab any and all injection updates from the CHIRP database. It will show the Injection Updates screen. On the left is the CHIRP updates. On the right is the {{% system-name %}} patient record. You then select which injection updates from the left side (CHIRP side) to bring into and store into the patient's {{% system-name %}} record on the right side.
 
@@ -92,20 +92,20 @@ You can select individual injection updates from the left and bring over to the 
 If you wish to bring over ALL injection updates from the left side to the right side (in mass and quickly with one click) click the >> button at the very top in between the titles. This is the quick >> button to bring over everything from the left side to the right side.
 
 Clicking the >> button will bring over that CHIRP injection update and bring it over to the right 
-![](../injection-tab-with-chirp-interface.assets/ef8054e3dbe0865eeb5850a574a23278.png)
+![](./injection-tab-with-chirp-interface.assets/ef8054e3dbe0865eeb5850a574a23278.png)
 side which is what you will be placing and storing in the patient's {{% system-name %}} record. When you click the >> you will see the injection then appear on the right side.
 
-![](../injection-tab-with-chirp-interface.assets/fa023d77300d71e4296791288e18a529.png)
+![](./injection-tab-with-chirp-interface.assets/fa023d77300d71e4296791288e18a529.png)
 
 When you are done selecting the injection updates to bring over into the patient's {{% system-name %}} account, click the SAVE button at the bottom.
 
 Once you've clicked the SAVE button, it will refresh your screen and show a successfully updated injections message at the top. You will also see in the injections tab summary those injections/updates you brought over into {{% system-name %}} .
 
-![](../injection-tab-with-chirp-interface.assets/894dc1a1d49ff78cf076872381ef21b9.png)
+![](./injection-tab-with-chirp-interface.assets/894dc1a1d49ff78cf076872381ef21b9.png)
 
 If there were not any updates for the specific patient's injection record, you would see a message that No Updates are Available and you wouldn't see the >> screen to bring over any updates.
 
-![](../injection-tab-with-chirp-interface.assets/f1f9c62b3df10e3825ed51ff15a8b206.png)
+![](./injection-tab-with-chirp-interface.assets/f1f9c62b3df10e3825ed51ff15a8b206.png)
 
 The purpose of this Get Updates query is to make sure the patient's chart has the most up to date injection information available.
 
@@ -117,18 +117,18 @@ CHIRP sends in 999 as the dose to identify that no dose information was collecte
 
 From the MAR/Injections tab, click Add Inj/Imm at the top right of the injection screen.
 
-![](../injection-tab-with-chirp-interface.assets/94d87f6110f3265c09374f47ab3cb5df.png)
+![](./injection-tab-with-chirp-interface.assets/94d87f6110f3265c09374f47ab3cb5df.png)
 
 The Injection screen will appear. The Injection screen has fields to fill out pertaining to the injection / immunization that you want to record.
 
-![](../injection-tab-with-chirp-interface.assets/797b224b14a1b178062df76e8583981c.png)
+![](./injection-tab-with-chirp-interface.assets/797b224b14a1b178062df76e8583981c.png)
 
 * <strong>Injection/Immunization:</strong> This is a required field. Type the name of the injection/immunization. The system will attempt to auto-complete your typing & give you choices that match. You can highlight & select if you wish. Otherwise, you can continue to free-type in text. Certain immunizations are automatically programmed to look for specific allergies or conditions.
     * <strong>Influenza injections:</strong> When you select any of the influenza injections, the system will notify you in an alert box if the patient is allergic to eggs, allergic to influenza vaccine, allergic to flu vaccine, allergic to influenza virus vaccine or if has Gullian-Barre syndrome. These allergies must be previously documented in the patient's E-Meds allergy tab. Guillian-Barre syndrome must be previously documented in the patient's conditions tab.
 
-![](../injection-tab-with-chirp-interface.assets/0d3c592e825a1d4e38c0a442a50946a0.png)
+![](./injection-tab-with-chirp-interface.assets/0d3c592e825a1d4e38c0a442a50946a0.png)
 
-![](../injection-tab-with-chirp-interface.assets/31758435046560ef88db8637ba820e10.png)
+![](./injection-tab-with-chirp-interface.assets/31758435046560ef88db8637ba820e10.png)
 
 * <strong>Egg allergy alert:</strong> When you select other specific injections or immunizations to record, some specific injections will also look for egg allergies and give you an alert. These injections that look for egg allergies and give a pop-up alert are: MMR, Influenza split (incl.purified surface antigen), Influenza whole, Influenza NOS, Influenza live intranasal, Rabies intramuscular injection, Rabies intradermal injection, Rabies NOS and Yellow Fever.
 * <strong>Contraindications:</strong> This is an optional field that is on by default.  If you wish to have it turned on, you will see a contraindications field you can select from and the rest of the fields minimize for documenting.
@@ -153,33 +153,33 @@ The Injection screen will appear. The Injection screen has fields to fill out pe
 
 Users can document what VIS handout was given to the patient by clicking the VIS Handouts link at the bottom of the injections/immunizations add/edit screen.
 
-![](../injection-tab-with-chirp-interface.assets/8790fe9e5c90a0292cdd42f74ca57d97.png)
+![](./injection-tab-with-chirp-interface.assets/8790fe9e5c90a0292cdd42f74ca57d97.png)
 
 Once you click on the link VIS Handouts, use the autocomplete to type in the name of the VIS handout provider, enter the date the VIS hand outs were given. Click the Add button to add multiple VIS hand outs. Once completed, click the **Submit** button to save and record the immunization.
 
-![](../injection-tab-with-chirp-interface.assets/0910281c700c323a10177953212e0646.png)
+![](./injection-tab-with-chirp-interface.assets/0910281c700c323a10177953212e0646.png)
 
 Click the VIS Website to visit http://immunize.org/VIS/ to select from a list of current VIS handouts to print on demand.
 
-![](../injection-tab-with-chirp-interface.assets/65e46f9a90de6f2049f54777380550d3.png)
+![](./injection-tab-with-chirp-interface.assets/65e46f9a90de6f2049f54777380550d3.png)
 
 Click the **Submit** button at the bottom of the screen to submit the injection / immunization record with the VIS Handout information to the patient's chart.
 
-![](../injection-tab-with-chirp-interface.assets/0868f7187d0ca9d47e00052dd79e5c9c.png)
+![](./injection-tab-with-chirp-interface.assets/0868f7187d0ca9d47e00052dd79e5c9c.png)
 
 {{% system-name %}} will display a confirmation message towards the top of the MAR/Injections tab upon saving the injection.
 
-![](../injection-tab-with-chirp-interface.assets/c537ec4b637939a7380883992f78fbe2.png)
+![](./injection-tab-with-chirp-interface.assets/c537ec4b637939a7380883992f78fbe2.png)
 
 In the injection/immunization listing, users will see the VIS information stored in the **Comments/Reaction** column. The "Pub" information is the date entered as the published date from the VIS handout selected from the autocomplete when entering the VIS data.
 
-![](../injection-tab-with-chirp-interface.assets/090e9133fcaab5f29b7ebdbd32b7f597.png)
+![](./injection-tab-with-chirp-interface.assets/090e9133fcaab5f29b7ebdbd32b7f597.png)
 
 ## Quick Add - Add Multiple Injection Records
 
 From the injections tab, click Quick Add at the top right of the injection screen. Click Quick Add at the top right of the injection screen to add multiple injection records to a patient's chart. Using Quick Add only allows you to quickly add multiple historical injections. This is a way to add injections that a patient has previously received. It is not as specific of a record as using Add Injection. Using quick add, you can add 10 injections at a time on the screen.
 
-![](../injection-tab-with-chirp-interface.assets/95884680f1f431699ad72be23825d1a0.png)
+![](./injection-tab-with-chirp-interface.assets/95884680f1f431699ad72be23825d1a0.png)
 
 The Add Injections screen appears to allow you to record multiple injection records at one time, but not as many option fields (specifics) as Add Injection.
 
@@ -202,4 +202,4 @@ Clicking [ Inj/Imm List ] link will bring up the same screen/view as when you fi
 
 Injection/Immunization List is the complete, active summary list of injection / immunization records for the patient & vials entered.
 
-![](../injection-tab-with-chirp-interface.assets/8fbf58f34153ab08dab9a2ed73b49df0.png)
+![](./injection-tab-with-chirp-interface.assets/8fbf58f34153ab08dab9a2ed73b49df0.png)

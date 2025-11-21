@@ -9,19 +9,19 @@ links:
   - 'https://www.osha.gov/injuryreporting'
   - 'https://www.osha.gov/sites/default/files/osha_ita_api_documentation_revised.pdf'
 source: 'https://drive.google.com/open?id=1y75-zBcAX1xWPT3-GOl3RRm9wqTRdYvFF54JjU5VtLQ'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OSHA Statistics Report
 
 The OSHA Statistics report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
-![](../osha-statistics-report.assets/90bd87f92f192cd0c318bf813fa133f9.png)
+![](./osha-statistics-report.assets/90bd87f92f192cd0c318bf813fa133f9.png)
 
 The OSHA Statistics report will display columns of data that mimics the Injury Tracking Application (ITA) published by OSHA.gov website. Our {{% system-name %}} OSHA Statistics report helps provide a method for injury and illness data submissions you may be required to submit by OSHA.  Our OSHA Statistics report displays OSHA recordable cases/incidents for the *PRIOR year* of this current logged in session according to establishments (EO charts) that have that establishment/onsite work location noted as having any recordable injury/illness occurrences there. Meaning, it will look for and display information regarding OSHA recordable cases/incidents that have an injury/illness onset date of the *prior* year to today's logged in date, broken down by where it occurred (work location or site EO establishments) to result here.
 
 More information from OSHA is at https://www.osha.gov/injuryreporting
 
-![](../osha-statistics-report.assets/a153bc59d5459adf0bcdaa83bbd20910.png)
+![](./osha-statistics-report.assets/a153bc59d5459adf0bcdaa83bbd20910.png)
 
 ### OSHA Statistics Report Criteria
 
@@ -45,19 +45,19 @@ Screenshot examples that describe the above criteria:
 
 EO or PO Chart for the onsite work location example:
 
-![](../osha-statistics-report.assets/0e5efcc177737cb5692bdb5ec818bf90.png)
+![](./osha-statistics-report.assets/0e5efcc177737cb5692bdb5ec818bf90.png)
 
 
 
 Locations Hierarchy example:
 
-![](../osha-statistics-report.assets/919cd464ac60bc9a4dfb8c38a16382e5.png)
+![](./osha-statistics-report.assets/919cd464ac60bc9a4dfb8c38a16382e5.png)
 
 
 
 Case encounter section for an OSHA recordable injury/illness example:
 
-![](../osha-statistics-report.assets/ef819e90f6fdc12457017ef418e4854f.png)
+![](./osha-statistics-report.assets/ef819e90f6fdc12457017ef418e4854f.png)
 {{% /tip %}}
 
 ### OSHA Statistics Report Datavis Columns
@@ -105,8 +105,8 @@ This report **does** respect the Locations Hierarchy **_Parent_** with the data 
 
 The OSHA Statistics report is easily downloadable into a CSV format.  Simply click the *Generate CSV* icon (looks like a corner fold paper icon), which will then turn into a *Download CSV* icon to click (looks like an in-box tray icon) to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
 
-![](../osha-statistics-report.assets/3e8d409c4ba1fae9733eba7015cc7207.png)
+![](./osha-statistics-report.assets/3e8d409c4ba1fae9733eba7015cc7207.png)
 
 The CSV file will be in the specific column order with column titles labeled as the OSHA injury and illness data submission requires.
 
-![](../osha-statistics-report.assets/d1028abf5ed9b799a02d098f96f60a20.png)
+![](./osha-statistics-report.assets/d1028abf5ed9b799a02d098f96f60a20.png)

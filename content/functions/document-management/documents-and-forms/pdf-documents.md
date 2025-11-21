@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.
 
@@ -22,7 +22,7 @@ Though users may upload and store any type of file to a chart, certain file type
 
 To add a PDF document to a chart, navigate to the Document Library by clicking any **Add Document** link, found throughout the chart. Once clicked, the library will load, and the **PDF** filter link can be selected to reduce the available documents. Selecting the PDF filter link will show only document types that are available to upload as a PDF file.
 
-![](../pdf-documents.assets/04122ae5b10ea7c6dd254e4bff76c2ad.png)
+![](./pdf-documents.assets/04122ae5b10ea7c6dd254e4bff76c2ad.png)
 
 {{% note %}}
 If a specific document type is not listed, contact the system administrator to set up the necessary document type for PDF entry, from the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/).
@@ -30,11 +30,11 @@ If a specific document type is not listed, contact the system administrator to s
 
 Select the document type needing to be attached and uploaded to the chart by simply clicking the PDF link following the appropriate document name.
 
-![](../pdf-documents.assets/96a93d245a20689674317eb933f7f68f.png)
+![](./pdf-documents.assets/96a93d245a20689674317eb933f7f68f.png)
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](../pdf-documents.assets/a5aea252e7a27d2d94418b8401c3d75e.png)
+![](./pdf-documents.assets/a5aea252e7a27d2d94418b8401c3d75e.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this PDF document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
@@ -56,7 +56,7 @@ In order to author documents for others, the user must have the Access Control *
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
 * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](../pdf-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+![](./pdf-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
@@ -70,11 +70,11 @@ If the user has a current encounter set in the chart, the Encounter field will a
 
 **Drag n' Drop/Use File Upload**: This field is designed to allow the dragging and dropping of PDF files for upload, or the ability to browse to specific PDF files. The field tends to default to the Drag n' Drop option; however, clicking the **Use File Upload** link will switch to allow users to browse to local PDF files for upload.
 
-![](../pdf-documents.assets/a6d4cc9bfb2079309a7ff25697f9eccc.png)
+![](./pdf-documents.assets/a6d4cc9bfb2079309a7ff25697f9eccc.png)
 
 Multiple PDF files can be uploaded to the same chart within this session, if necessary. Any additional files will assume the same Date of Service, Location, Author, etc. To add multiple files, select the initial PDF file using the steps above, then click the **Add Another File** button, and repeat the same steps to find the necessary file(s) for upload.
 
-![](../pdf-documents.assets/441460658326c7fc0e0a8cdd2c4017cb.png)
+![](./pdf-documents.assets/441460658326c7fc0e0a8cdd2c4017cb.png)
 
 Once the PDF(s) have been selected for upload, click the **Add Document** button. This will upload the document(s) into the chart and will display a confirmation message of successful upload.
 

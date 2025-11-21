@@ -23,7 +23,7 @@ links:
   - '../../functions/reports/task-report.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=7cae93a5fb5435af1677ba54618fcc37'
 source: 'https://drive.google.com/open?id=1wn-EDEazDlPH2aGw3GtSSqu7Y8FIOWHNXSr1KK0fOUA'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -145,15 +145,15 @@ All available Tasklist Events will be audited with the client, in order to asses
 
 Review user security settings for users needing access to Tasking, and give permission, as appropriate. There is also information available within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help.
 
-![](../review-session-tasking.assets/ea38ab5861f813c9a41e0bed507444bb.png)
+![](./review-session-tasking.assets/ea38ab5861f813c9a41e0bed507444bb.png)
 
 ### My Settings Preferences
 
 Review security roles and individual My Settings preferences of those needing access to the Task List module. Review permissions and set, as appropriate. This information is also available within the [My Settings](../../functions/system-administration/security/my-settings.md) online help.
 
-![](../review-session-tasking.assets/1862f2bcec4387e1d4533a514c481962.png)
+![](./review-session-tasking.assets/1862f2bcec4387e1d4533a514c481962.png)
 
-![](../review-session-tasking.assets/0ca506dc81f836108273a3a65ae1280c.png)
+![](./review-session-tasking.assets/0ca506dc81f836108273a3a65ae1280c.png)
 
 ## Resources
 

@@ -7,27 +7,27 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Within the Reports sidemenu, is a performable report has been created named **Duplicate Charts-Merge.**
 
-![](../duplicate-charts-merge-report.assets/7f3033db7ca187878509c107f2f2cb90.png)
+![](./duplicate-charts-merge-report.assets/7f3033db7ca187878509c107f2f2cb90.png)
 
 This performable report displays a list of charts that may have a duplicate chart(s) in the system based on search criteria entered. The results output in a datavis format and a chart merge can then be performed from this report. This new report can be found in the Utilization grouping of the Reports sidemenu.
 
 Various scenarios can lead to possible duplicate charts in the system. One example could be from where a chart was created via an interface then a duplicate chart was created manually. Another example could be where a patient had duplicate charts with a different last name or first name. In any case, the new **Duplicate Chart-Merge** report makes it easy to search and output possible charts that may have duplicates (based on a rating). The Duplicate Chart-Merge report also easily allows a user to validate possible duplicate charts and merge a "from" chart into a "to" chart.
 
-![](../duplicate-charts-merge-report.assets/24b077c99b27627d9877d15ddfa5f892.png)
+![](./duplicate-charts-merge-report.assets/24b077c99b27627d9877d15ddfa5f892.png)
 
 Being able to merge charts requires security permissions.  Also, the various merge options available, depend on security permissions.
 
-![](../duplicate-charts-merge-report.assets/e089dcff9557a4a8a4311b8b5df3699a.png)
+![](./duplicate-charts-merge-report.assets/e089dcff9557a4a8a4311b8b5df3699a.png)
 
 ## Search Criteria
 
 The Duplicate Charts-Merge report offers various search criteria filters to narrow down your output results if needed. Both active and non-active charts will result on the report output, according to any search criteria set.
 
-![](../duplicate-charts-merge-report.assets/ce705d900e4ae6d298f59585077b6ec7.png)
+![](./duplicate-charts-merge-report.assets/ce705d900e4ae6d298f59585077b6ec7.png)
 
 * <strong>Minimum Rating:</strong> <strong>Is a required field</strong>.  Select a Match rating range from 1 through 9 with the higher rating being more certain it is the same person.
     * If DOB matches and the following criteria apply:
@@ -79,12 +79,12 @@ The Duplicate Charts-Merge report offers various search criteria filters to narr
     * The Additional Details hyperlink pops-up a separate window. The pop-up window shows various Types of data in a list and next to each is the count of that data type that is  in the "From" chart and what the count of that same data type has  in the "To" chart (for the specific line item you selected).
     * The checkbox option means you are selecting that line item(s) of a "From" chart to merge into the "To" chart on the line item(s) you selected.  When a line item is checkmarked, the <em>Action: Merge</em> button functionality will activate for performable use.
 
-![](../duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
+![](./duplicate-charts-merge-report.assets/1b4c37b71f206f2964d358c3ab14dcd6.png)
 
 * <strong>Rating:</strong> Is the rating that the system gives when analyzing the "From" chart to the "To" chart.  The higher the rating, the more likely this is the same person with duplicate chart(s).
     * Remember, a possible duplicate chart will be listed 2 ways on the output of this report, because the chart that is duplicate may need to be the "From" chart or may need to be the "To" chart.  The "To" chart is the chart a "From" chart will merge into.  The "To" chart will be kept in the system.  So the listing output will list it each way and you would select <strong>one</strong> way to merge it.
 
-![](../duplicate-charts-merge-report.assets/95914c9291e30d72d23413191897cae1.png)
+![](./duplicate-charts-merge-report.assets/95914c9291e30d72d23413191897cae1.png)
 
 * <strong>From MRN/Partition:</strong> This is the MRNumber(s) and partition(s) of a possible duplicate chart being identified in a line as a "From", meaning if selected, all the "From" chart data would merge into this "To" chart listed on a specific row.
 * <strong>To MRN/Partition:</strong> This is the MRNumber(s) and partition(s) of a possible duplicate chart being identified in a row as a "To" chart, meaning if selected, all the "From" chart data would merge into this "To" chart.
@@ -109,13 +109,13 @@ The Duplicate Charts-Merge report offers various search criteria filters to narr
 
 To perform a chart merge from this report, simply checkmark the specific "From" and "To" chart merge you would like to perform.  Once the line is checkmarked, the **_Merge_** action button will be available.  Next, click the **_Merge_** action button.
 
-![](../duplicate-charts-merge-report.assets/448f60ca01cc4a8ed07b49de687e07c3.png)
+![](./duplicate-charts-merge-report.assets/448f60ca01cc4a8ed07b49de687e07c3.png)
 
 ### Merge Options
 
 There are 4 available options to merge a chart.  One must be selected to perform a chart merge.
 
-![](../duplicate-charts-merge-report.assets/0e93206ae5d3c1d529decb4ffdf869cf.png)
+![](./duplicate-charts-merge-report.assets/0e93206ae5d3c1d529decb4ffdf869cf.png)
 
 * <strong>Merge Chart and Demographics and ignore this employee's duplicate MR Numbers:</strong> (This is the most common selection used)  This option will merge the entire chart and keep both MR numbers when merging MRs from two different partitions. If merging two MR numbers from the same partition, only the MR number of the chart that the documents are being merged to will be kept.
 * <strong>Merge this employee's chart and keep all MR:</strong> This option will merge the entire chart and keep all MR numbers regardless of partitions.
@@ -124,19 +124,19 @@ There are 4 available options to merge a chart.  One must be selected to perform
 
 NOTE: Depending on what your security permission(s) are set to, you may not see all 4 options.
 
-![](../duplicate-charts-merge-report.assets/1b4f1fb8fa1466ae86d93178df66fdee.png)
+![](./duplicate-charts-merge-report.assets/1b4f1fb8fa1466ae86d93178df66fdee.png)
 
 On this Merge Options pop-up screen, indicate the merge option to be applied to all chart line item you had selected initially.  You must click the **_Select_** blue button to indicate your specific merge option choice.
 
-![](../duplicate-charts-merge-report.assets/c572307727c37407d3f2ae261695935d.png)
+![](./duplicate-charts-merge-report.assets/c572307727c37407d3f2ae261695935d.png)
 
 You will be asked to confirm your merge option.
 
-![](../duplicate-charts-merge-report.assets/d2188b104290b44e271495f87445f2ec.png)
+![](./duplicate-charts-merge-report.assets/d2188b104290b44e271495f87445f2ec.png)
 
 Once it's confirmed, the duplicate chart merge will process.
 
-![](../duplicate-charts-merge-report.assets/418174aeebb0e1fe38a85622c072257b.png)
+![](./duplicate-charts-merge-report.assets/418174aeebb0e1fe38a85622c072257b.png)
 
 As the pop-up screen states, once the merge process is completed, the pop-up window will close and the Duplicate Chart Merge datavis report will refresh automatically and will have removed any duplicate charts that were merged according to the search criteria you are set to.
 
@@ -146,15 +146,15 @@ The report can be used to select/checkmark multiple lines of charts to merge at 
 
 From the report, simply checkmark which "From" chart into "To" chart lines you wish to merge.  Then, click the **_Merge_** action button.
 
-![](../duplicate-charts-merge-report.assets/fb900ebd42fa7be568fcfe9eae9f0eea.png)
+![](./duplicate-charts-merge-report.assets/fb900ebd42fa7be568fcfe9eae9f0eea.png)
 
 On the next pop-up screen, indicate the merge option to be applied to all chart line items you had selected initially.  You must click the **_Select_** blue button to indicate your specific merge option choice.
 
-![](../duplicate-charts-merge-report.assets/c572307727c37407d3f2ae261695935d.png)
+![](./duplicate-charts-merge-report.assets/c572307727c37407d3f2ae261695935d.png)
 
 The system will ask you to confirm the merge option you selected.  Upon confirmation, the duplicate chart merge will be processed.  The merge process will be executed top down. So the first checkbox row will execute first, then the second, then third, and so on.
 
-![](../duplicate-charts-merge-report.assets/418174aeebb0e1fe38a85622c072257b.png)
+![](./duplicate-charts-merge-report.assets/418174aeebb0e1fe38a85622c072257b.png)
 
 As the pop-up screen states, once the merge process is completed, the pop-up window will close and the Duplicate Chart Merge datavis report will refresh automatically and will have removed any duplicate charts that were merged according to the search criteria you are set to.
 
@@ -162,19 +162,19 @@ As the pop-up screen states, once the merge process is completed, the pop-up win
 
 You can "save" a duplicate chart merge report's search criteria to be used again in the future. You may run the same report filter criteria fields often and instead of putting in the report search criteria fields individually every time, you can "save" the report filters to run again at a future time without having to manually key everything in again. You can save and access previous saved filter reports using the link options at the top: Save Filter Template and Show Saved Filters.
 
-![](../duplicate-charts-merge-report.assets/ee18e20b4f566d2786991bfa59f0e703.png)
+![](./duplicate-charts-merge-report.assets/ee18e20b4f566d2786991bfa59f0e703.png)
 
 ### Save Filter Template
 
 To "save" a new report filter template, you need to enter in all the search criteria fields for the report from the Duplicate Charts-Merge report. When you are done, you can click SEARCH to run the report and still access the save filter templates link even after you run a report.
 
-![](../duplicate-charts-merge-report.assets/c83f6d1649437004932bc57dfdf699b1.png)
+![](./duplicate-charts-merge-report.assets/c83f6d1649437004932bc57dfdf699b1.png)
 
 All the search criteria you entered in for the report can be stored as a "saved template" to run that same report again without having to rekey in each field manually. All search criteria fields are able to be stored in a filter template.
 
 When you click the save filter template all search criteria fields can be "saved" to this template to run the report again in the future quickly. You can "uncheckmark" any search criteria line items that you don't want to be included in this future "filter template", but by default it assumes you want to save all and it places a checkmark beside each. You must type a "Name" to name this saved report filter template.
 
-![](../duplicate-charts-merge-report.assets/ee75aaca7917c75b128f94942f904819.png)
+![](./duplicate-charts-merge-report.assets/ee75aaca7917c75b128f94942f904819.png)
 
 Click the SAVE button to save your template. You and others can now access the saved report filter template by clicking show saved filters link and quickly run the same report in the future without having to manually key in each filter criteria field individually.
 
@@ -187,12 +187,12 @@ Click the saved duplicate chart merge report template name you wish to run, from
 * <em>Personal Templates</em> are saved Duplicate Charts Merge report templates you (the logged in user) have saved & created to be in the library.
 * <em>Global Templates</em> are saved Duplicate Charts Merge report templates that other users have saved & created in this library and you can access them also.
 
-![](../duplicate-charts-merge-report.assets/a3fec42ce99dd5286a3734bbbef542e9.png)
+![](./duplicate-charts-merge-report.assets/a3fec42ce99dd5286a3734bbbef542e9.png)
 
 It will open a pop-up with a list of fields that are attached to this saved template (to run the report by) and all will be checkmarked by default. If you wish to run the same report that the saved template states, simply click the **APPLY** button.  If you wish to not include a previously saved filter item, then uncheckmark it and then run the report by clicking the **APPLY** button and it populates the Duplicate Charts Merge Report search filter fields based on what you have checkmarked from the saved template.
 
-![](../duplicate-charts-merge-report.assets/0754dbf5b7a835474f5deffed95ff6eb.png)
+![](./duplicate-charts-merge-report.assets/0754dbf5b7a835474f5deffed95ff6eb.png)
 
 The search field fields are populated with the saved template contents you selected, so next, click the SEARCH button (on the report) to run the report.
 
-![](../duplicate-charts-merge-report.assets/69d3d26b2f89692e4adedf9a3c77c943.png)
+![](./duplicate-charts-merge-report.assets/69d3d26b2f89692e4adedf9a3c77c943.png)

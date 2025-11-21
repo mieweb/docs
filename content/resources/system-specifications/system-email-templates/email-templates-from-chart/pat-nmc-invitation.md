@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
@@ -40,7 +40,7 @@ To create a NoMoreClipboard.com Online Personal Health Record please follow the 
 2. In the create a new account section enter a username, email address, and secure password.
 3. Review and Accept the Terms and Conditions. Then click the "Create Account" button to proceed.
 4. In the "Member Activation Code" field enter L9SYXUSCS6CY .  
-    ![](../pat-nmc-invitation.assets/916f864aede06dde73af55788aae7eb0.png)
+    ![](./pat-nmc-invitation.assets/916f864aede06dde73af55788aae7eb0.png)
 5. Complete any remaining fields on the account registration screen and click on the "Submit" button to proceed to your personal health record.
 
 If you have any questions regarding your NoMoreClipboard account please contact us toll free at (877) 643-3463 or by email at [support@nomoreclipboard.com](mailto:support@nomoreclipboard.com).

@@ -54,9 +54,9 @@ links:
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1sTO8fOnVnhnSGfkWnaXFP0L4KUzTva8PVlPnFodoKIw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
-![](../webchart-interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
+![](./webchart-interface-specifications.assets/d912cb0c635d6c123d58766f966c3ccf.png)
 
 WebChart Interface Specifications
 

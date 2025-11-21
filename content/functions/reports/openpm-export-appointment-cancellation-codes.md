@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1yAJnohrmp9qZYhYKXbHCaAt1TTnfyks9P6uESH93hjo'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Appointment Cancellation Codes
 
@@ -22,4 +22,4 @@ The "Appointment Cancellation Codes" report is designed to export detailed infor
 3. <strong>Reason</strong>: The reason associated with the cancellation code.
 4. <strong>No Show</strong>: Indicates whether the cancellation code is also used for no-show appointments (Yes or No).
 
-![](../openpm-export-appointment-cancellation-codes.assets/0573edff693c95fcb259979340fb8d99.png)
+![](./openpm-export-appointment-cancellation-codes.assets/0573edff693c95fcb259979340fb8d99.png)

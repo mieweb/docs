@@ -12,7 +12,7 @@ links:
   - '../imaging/dicom-viewer.md'
   - '../imaging/burning-dicom-images-onto-cd-dvd.md'
 source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
@@ -27,12 +27,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the x-ray results bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](../x-ray-results-data-entry.assets/b20620034a1e2e749389598673fedfef.png)
+![](./x-ray-results-data-entry.assets/b20620034a1e2e749389598673fedfef.png)
 
 3. Print out the bubble form.
 4. Record results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](../x-ray-results-data-entry.assets/ddacdb3fd2d74a5fc7157f9fdbc233a9.png)
+![](./x-ray-results-data-entry.assets/ddacdb3fd2d74a5fc7157f9fdbc233a9.png)
 
 {{% info %}}
 Bubble forms can also be generated as generic, or unassociated with a specific chart, to allow for mass use. Print a stack of generic forms to take onsite, and afterward, scan/index them into the respective charts.
@@ -46,15 +46,15 @@ There are alternative, manual and semi-manual processes outside of using and sca
 
 This method of data entry can be achieved by selecting the x-ray order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
 
-![](../x-ray-results-data-entry.assets/597abd62e618f8bdf74ccce338b8c3f6.png)
+![](./x-ray-results-data-entry.assets/597abd62e618f8bdf74ccce338b8c3f6.png)
 
 If the x-ray order is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter.
 
-![](../x-ray-results-data-entry.assets/69dc2c32a17f010f74ef38c6e9b83db4.png)
+![](./x-ray-results-data-entry.assets/69dc2c32a17f010f74ef38c6e9b83db4.png)
 
 Alternatively, the x-ray order may be selected using the **Picklist** icon, by selecting the order from the list and adding it to the encounter.
 
-![](../x-ray-results-data-entry.assets/776dd760b786fb68e2bb11d513be5525.png)
+![](./x-ray-results-data-entry.assets/776dd760b786fb68e2bb11d513be5525.png)
 
 ### Import Data From Device
 
@@ -64,4 +64,4 @@ Though not the typical type of device interface, the {{% system-name %}} solutio
 
 These types of reports are generally found in the **Reports** sidemenu, under the Visits grouping of reports. These reports enable clients to review the various data captured during a visit or encounter, as well as that stored in documents. The Document Reports is available here, for example, along with the Patient Observations report.
 
-![](../x-ray-results-data-entry.assets/8963a7cbcad05e622538f80636491b02.png)
+![](./x-ray-results-data-entry.assets/8963a7cbcad05e622538f80636491b02.png)

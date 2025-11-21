@@ -37,7 +37,7 @@ links:
   - 'https://www.hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/'
   - 'http://healthitsecurity.com/news/encrypting-healthcare-data-at-rest-nist-best-practices'
 source: 'https://drive.google.com/open?id=15tLB374Dvnd8zPo3U-URgzCbbHjIOxekGfR71xc1dLA'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Introduction
 
@@ -80,7 +80,7 @@ Also available for information regarding encryption processes of data in motion 
 
 As a resource for encryption technologies that mitigate potential threats, NIST has also developed 800-111, [Guide to Storage Encryption Technologies for End User Devices](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-111.pdf), where the information provided is summarized in a useful grid seen below.
 
-![](../encryption-statement.assets/1f745477860bb16c6fc999eb767ae2f8.png)
+![](./encryption-statement.assets/1f745477860bb16c6fc999eb767ae2f8.png)
 
 ## Overhead
 
@@ -99,13 +99,13 @@ Benchmarking can be seen below, where we have utilized the Sysbench tool for Fil
 * <strong>sdased</strong> - SDA / SED is a Spinning 15K disk with Self Encryption
 * <strong>ssd-r10wbLUKSc7</strong> - SSD RAID 1+0 LUKS / CentOS 7 AES-IN encryption
 
-![](../encryption-statement.assets/b63673422b4cf082965426a736310adc.png)
+![](./encryption-statement.assets/b63673422b4cf082965426a736310adc.png)
 
 ### Comparison
 
 Based on benchmarking findings, it is clear that SSD is faster than a 7200 RPM hard disk with SED. At 128 threads, the SSD with LUKS AES-IN is 261 times faster.
 
-![](../encryption-statement.assets/4db7653485e198114cbc7e2abc231717.png)
+![](./encryption-statement.assets/4db7653485e198114cbc7e2abc231717.png)
 
 ## Encryption is NOT a panacea
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 
@@ -20,13 +20,13 @@ If patient has NO allergies/intolerances entered, and/or NO medications entered,
 
 Same for *Medications have NOT been entered for this patient*. You would enter or prescribe medications (see other instructions within this document) or you click the *Document patient has No Medications* from this screen.
 
-![](../allergies-medications-tab-summary-view.assets/f7ba8b84419baae3c12b11354053e69e.png)
+![](./allergies-medications-tab-summary-view.assets/f7ba8b84419baae3c12b11354053e69e.png)
 
 You can *undo* NKDA or *undo* No Medications for the patient. Undo would mean that a user has tagged this patient as having No allergies and/or No Medications. A user can *undo* the category because either 1) it was done as a mistake/in error or 2) now need to add an allergy/intolerance and/or medication for this patient.
 
 You do not have to *undo* a category. You can bypass this by clicking the *prescribe* or *quick add* hyperlinks in the Meds tab to add/prescribe meds or add allergies/intolerances.
 
-![](../allergies-medications-tab-summary-view.assets/48cc9cba1a13a4b91fe6a17947eb4a32.png)
+![](./allergies-medications-tab-summary-view.assets/48cc9cba1a13a4b91fe6a17947eb4a32.png)
 
 If a patient does have allergies or medications entered into the Meds tab, it will list the allergies, refills due (if any) and medication history on this screen (instead of showing the previous).
 
@@ -43,17 +43,17 @@ This will list any entered allergies or intolerances. If a patient does have all
 * <strong>Date Modified</strong>: Date this allergy or intolerance entered or last modified.
 * <strong>Options</strong>: Delete. Click this to delete the allergy or intolerance from this patient's history. Type in a reason and submit.
 
-![](../allergies-medications-tab-summary-view.assets/898a9327f48e0e05724edb1a3f3d89e9.png)
+![](./allergies-medications-tab-summary-view.assets/898a9327f48e0e05724edb1a3f3d89e9.png)
 
 If a user has entered NKDA for the patient, it will say *This patient has no known drug allergies (NKDA)* and the list view shows zero results.
 
-![](../allergies-medications-tab-summary-view.assets/b8422ce76c3c09e033ee624fdd8ef717.png)
+![](./allergies-medications-tab-summary-view.assets/b8422ce76c3c09e033ee624fdd8ef717.png)
 
 Next to the heading title **Allergies and Intolerances** there is the option to show/hide deleted.
 
 If click *show deleted* the Allergy/Intolerance summary screen will show **all** allergies/intolerances ever entered for this patient. It shows the deleted ones and under *reaction* will be the reason it was deleted (if a user typed something).
 
-![](../allergies-medications-tab-summary-view.assets/6f5e17f76287dd1bd0e4cf2af4db8db8.png)
+![](./allergies-medications-tab-summary-view.assets/6f5e17f76287dd1bd0e4cf2af4db8db8.png)
 
 Under options it shows *deleted* if allergy/intolerance was deleted which gives no further option to modify, etc. If only want to see active allergies/intolerances then click hide deleted and it does not show any deleted allergies/intolerances in your view.
 
@@ -62,7 +62,7 @@ To add an allergy or intolerance: click either hyperlink Add Allergy/Intol or Qu
 * <strong>Add Allergy/Intol</strong>: Will allow you to add an allergy and/or intolerance one at a time.
 * <strong>Quick Allergy</strong>: Will allow you to add 10 allergies and/or intolerances at a time.
 
-![](../allergies-medications-tab-summary-view.assets/378f8d1d11c179b73ef58ff1e5f81cdc.png)
+![](./allergies-medications-tab-summary-view.assets/378f8d1d11c179b73ef58ff1e5f81cdc.png)
 
 #### Add Allergy/Intol.
 
@@ -78,31 +78,31 @@ This will only show up if your practice is using the E-RX tab and has that featu
 
 If your physician is set up to work the e-refills queue, they will now see pending e-refill requests in the patient's e-meds tab. They can see any pending e-refills specific to that patient that need worked (are pending) if they're working in a patient's chart. This saves a step of having to go to the E-RX tab to find the refill for that patient. This will only show up for the physician who has been set up with SureScripts to receive E-Refill requests. Other users will not see this *pending e-refill requests* section, unless they have security rights to manage e-refills for others.
 
-![](../allergies-medications-tab-summary-view.assets/5eebaeb5db3a7ff030a684b95d8df5f6.png)
+![](./allergies-medications-tab-summary-view.assets/5eebaeb5db3a7ff030a684b95d8df5f6.png)
 
 IF the physician or any other user has security to MANAGE E-RX REFILLS FOR OTHERS, then they will also see ALL pending e-refill requests specific for that patient and it will denote which prescriber the e-refill is pending for.  These people with rights can work these refills from here also instead of going out to the E-RX tab also.
 
-![](../allergies-medications-tab-summary-view.assets/1a1ed7838d269c04107bca6923ad0d18.jpg)
+![](./allergies-medications-tab-summary-view.assets/1a1ed7838d269c04107bca6923ad0d18.jpg)
 
-![](../allergies-medications-tab-summary-view.assets/cfe542d9cb4791660598cd7a62cb5f0b.png)
+![](./allergies-medications-tab-summary-view.assets/cfe542d9cb4791660598cd7a62cb5f0b.png)
 
 ### Refills Due
 
 This summary box will show if your system setting for it is on to display this section.
 
-![](../allergies-medications-tab-summary-view.assets/4bc5a5aeebecdc473bb4e6aa9d6510b5.png)
+![](./allergies-medications-tab-summary-view.assets/4bc5a5aeebecdc473bb4e6aa9d6510b5.png)
 
 This section shows medications that are due for refills according to the Medications in the history input below. Only meds that were prescribed **without** a discontinue date will appear here.
 
 This refill screen means that the prescription has expired according to the original duration and original number of refills on the original prescription.
 
-![](../allergies-medications-tab-summary-view.assets/1f5e20ac73fd5da3185baec5ee478cc7.png)
+![](./allergies-medications-tab-summary-view.assets/1f5e20ac73fd5da3185baec5ee478cc7.png)
 
 * <strong>Drug Name:</strong> Shows brand name on the left. Under that at the right it shows the generic brand name. Can click on these underlined drug names to view drug info that was input (also shows below in the Medication History). If you click on the specific drug name in the refills due column, it will show detail and also will show any comments. If longer than 20 characters, it will have a trailing (…). The whole comment can be read by hovering the computer mouse over the comment text.
 * <strong>Next Refill Due:</strong> Due date of refill.
 * <strong>Pharmacy Note:</strong> Displays any notes to pharmacist for that medication if system setting is turned on.
 
-![](../allergies-medications-tab-summary-view.assets/55267f7d357853090c7d290c52967100.png)
+![](./allergies-medications-tab-summary-view.assets/55267f7d357853090c7d290c52967100.png)
 
 To refill from this queue, simply click the *Refill* hyperlink in the options column. Medications fall into this queue when the original prescription is marked ‘expired' according to the duration and number of refills that were entered on the original prescription. Down in Medication History it shows this medication as *expired* also.
 
@@ -117,17 +117,17 @@ To refill from this queue, simply click the *Refill* hyperlink in the options co
 * <strong>Print/Fax Script:</strong> Select if you want to print/fax this or not. If you don't, it will just input this prescription into {{% system-name %}} and not print for the patient or fax to a pharmacy. Click <em>Prescribe Refill</em> to submit. (Or Cancel to get out and start over). It then takes it out of the Refills Due summary and puts this new refilled prescription therapy down in Medication History. Shows when it was refilled (what you just did) under Office Comment column.
 * <strong>Task Prescriber for Approval:</strong> This may or may not show up depending on how your system is programmed. If your system setting is set to have the ‘option' to be able to task a provider, you will see a check-mark option to task this refill for approval. Check-marking it will task the provider for refill approval via a task before anyone can print or fax the refill. Uncheck-marked means the user can go ahead and refill this medication without approval and render it in the print/fax queue.
 
-![](../allergies-medications-tab-summary-view.assets/8ff595877d85e50845fe2fcbdb287ad0.png)
+![](./allergies-medications-tab-summary-view.assets/8ff595877d85e50845fe2fcbdb287ad0.png)
 
 If your system setting is set to mandate all refills are to be tasked and approved by a provider before rendering the printed or faxed refill, you will see this message at the top. Upon prescribing the refill, it will then task the provider first for approval. (See other help documentation named *Refill All Meds.pdf* for further explanations.)
 
-![](../allergies-medications-tab-summary-view.assets/2d0dce7f158707995cb017a20131a798.png)
+![](./allergies-medications-tab-summary-view.assets/2d0dce7f158707995cb017a20131a798.png)
 
 ### Medication History
 
 View the detailed list of medications that this patient is on, has been prescribed, or has discontinued, etc.
 
-![](../allergies-medications-tab-summary-view.assets/2fc6e1fa073f927c6811dd60c1a28c91.png)
+![](./allergies-medications-tab-summary-view.assets/2fc6e1fa073f927c6811dd60c1a28c91.png)
 
 * <strong>Drug Name</strong>: Shows brand name on the left. Under that at the right it shows the generic brand name. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. Can click on these underlined drug names to view drug information that was input. (When it was refilled, when it was modified, when it was printed or faxed or e-sent (electronically transmitted via SureScripts feature). If click the blue-circled for this drug, it will pop up the drug guide and information concerning this drug. This is an information link that brings up drug guide information for recommended dosage, drug interaction information, side effects, etc. Close out this screen using the X at the top right. If the drug has an asterisk next to it, that means it is a drug that is not found in the known drug listing/guide.
 
@@ -140,7 +140,7 @@ If you see a printer icon next to the drug name, it is a quick link to the drug 
 * <strong>Ref</strong>: Number of refills the original prescription was written to include.
 * <strong>Comment</strong>: Shows office comments that were typed in those fields when prescribing a drug. Shows any conflicts with this medication vs patient's allergies. Shows any duplicated drug therapies and what the drugs are. Shows date of a prescription refill a {{% system-name %}} user did for this drug. Shows reason why changed or edited. If viewing deleted meds then shows reason why drug was deleted. Also will any fax information (when prescription was faxed and who to) and shows any transmit information (electronic transmit to pharmacies). If this drug prescription was electronically transmitted, each prescription will now show the date it was initially sent to the pharmacy as well as when any e-refill requests were approved or denied (if your practice utilizes the SureScripts e-refills feature). Additional information of who prescribed the medication, the pharmacy it was sent to, and any additional notes can be found by clicking on the date. To see this information, simply click on the E-sent or E-Refill date link in this comments column for the drug.
 
-![](../allergies-medications-tab-summary-view.assets/c508b9d7f237afccd7d0f1385f0092d1.png)
+![](./allergies-medications-tab-summary-view.assets/c508b9d7f237afccd7d0f1385f0092d1.png)
 
 * <strong>Start Date</strong>: Date that was entered when to start this drug or date prescription was given.
 * <strong>Options</strong>: Shows end date, discontinued, if drug is expired, changed or will discontinue. (If wish to see/hide the meds in this list that are discontinued, click the Show/Hide Discontinued option). Also gives you these options:
@@ -154,7 +154,7 @@ If you see a printer icon next to the drug name, it is a quick link to the drug 
 
 In the options column, it will also show status of prescriptions. For example it will show if the prescription has been **Changed** or if the prescription has been **Discontinued** or if the prescription is **Expired**, etc.
 
-![](../allergies-medications-tab-summary-view.assets/73ed64665be36c808d4c69ff3708122c.png)
+![](./allergies-medications-tab-summary-view.assets/73ed64665be36c808d4c69ff3708122c.png)
 
 * If it says <strong>Changed</strong> on the far right options column then someone changed the therapy of the original prescription and the modified one is in this summary with the other options available (if you are "Showing Discontinued). This history summary screen saves and shows any changed/discontinued drug prescriptions—unless you choose to hide discontinued from the top.
 * If it says <strong>Discontinued</strong> then the prescription had a discontinue date entered upon prescribing, or it was manually discontinued by a user so the patient should or did stop taking the drug.
@@ -186,33 +186,33 @@ If this is turned on, you will see 2 categories:
 
 You **can** turn this off of your view by clicking *Outside Meds Together* (see below screenshot) and it will merge all the medication lists together and you won't see them separated by In-House vs Other. It will show them all as MEDICATION HISTORY.
 
-![](../allergies-medications-tab-summary-view.assets/39d990d5ed8c1b3056cdb5c55965ed84.png)
+![](./allergies-medications-tab-summary-view.assets/39d990d5ed8c1b3056cdb5c55965ed84.png)
 
 If you wish to view them as separate categories again, then simply click *Separate Outside Meds* and it will show them as separate categories again.
 
-![](../allergies-medications-tab-summary-view.assets/73413a16525f42fb9caaf8d12f57270a.png)
+![](./allergies-medications-tab-summary-view.assets/73413a16525f42fb9caaf8d12f57270a.png)
 
 ### Unmatched Refill Requests
 
 This is where you can view any unmatched electronic refill (e-refill) requests for that specific patient's medication history if you utilize the SureScripts e-refills feature. The drug requests showing in this *unmatched refill requests* section means an electronic refill request was able to be matched to this specific patient, but not matched to an actual drug/medication on the patient's medication list.
 
-![](../allergies-medications-tab-summary-view.assets/c6b3453958bd65c2ad3b3e0d05028f8a.png)
+![](./allergies-medications-tab-summary-view.assets/c6b3453958bd65c2ad3b3e0d05028f8a.png)
 
 ## List Quick Link
 
 Click this to show the list of everything. It is exactly the same view/list as you see when you click on the tab called **MEDS** above in the patient's e-chart tabs. You can do everything here as you can when you click MEDS tab and see the summary view.
 
-![](../allergies-medications-tab-summary-view.assets/45706abc24c1fd426fe8f7b777c2f7f1.png)
+![](./allergies-medications-tab-summary-view.assets/45706abc24c1fd426fe8f7b777c2f7f1.png)
 
 ### Medication History Specifics
 
 When in the Medication History (list) section of a patient's e-meds screen, you can hover over a medication and click on the underlined name of the medication in their system to view a few status categories for that prescribed med.
 
-![](../allergies-medications-tab-summary-view.assets/941921fed0eb3613e0e668472d18e7e9.png)
+![](./allergies-medications-tab-summary-view.assets/941921fed0eb3613e0e668472d18e7e9.png)
 
 A summary of the prescription will appear in the center. You can *edit* a prescription from here.
 
-![](../allergies-medications-tab-summary-view.assets/b2622d7647713195ed07cbf9f6a92199.png)
+![](./allergies-medications-tab-summary-view.assets/b2622d7647713195ed07cbf9f6a92199.png)
 
 Other categories found below the edit section are:
 
@@ -227,15 +227,15 @@ Other categories found below the edit section are:
 
 A new My Settings user preference, Use Datavis in Meds/Allergies Chart Tab**_,_** is available in the 202409 release. This setting allows the user to change from the legacy Meds/Allergies chart tab view/lists to the new view, which is in a new datavis format.
 
-![](../allergies-medications-tab-summary-view.assets/e10d5c6a3b576a54fd85e4370b37a6ab.png)
+![](./allergies-medications-tab-summary-view.assets/e10d5c6a3b576a54fd85e4370b37a6ab.png)
 
 When the Use Datavis in Meds/Allergies Chart Tab setting is set to "Enabled", the Allergies/Medications Summary is updated to display a DataVis under the Allergies and Intolerance, Refills Due and Medication History sections. If the user would like to switch back to the list view, they can click on the Legacy View button.
 
-![](../allergies-medications-tab-summary-view.assets/cde0f370254dd125954641a45e3be40e.png)
+![](./allergies-medications-tab-summary-view.assets/cde0f370254dd125954641a45e3be40e.png)
 
 To return to the DataVis view, click on the DataVis View button.
 
-![](../allergies-medications-tab-summary-view.assets/9a949c5443e6d7fa8757ca63fbc5a5d4.png)
+![](./allergies-medications-tab-summary-view.assets/9a949c5443e6d7fa8757ca63fbc5a5d4.png)
 
 ## Learning Management System
 

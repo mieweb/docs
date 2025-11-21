@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j3qbfN064R2A2dbosT_-JxkZtp7MD5D2aaAEd338yps'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Chart Insurance Policies
 
@@ -47,4 +47,4 @@ The "Chart Insurance Policies" report is designed to export detailed information
 24. <strong>Expiration</strong>: End date and time of the insurance policy.
 25. <strong>Copay</strong>: Placeholder for copay information (currently not populated).
 
-![](../openpm-export-chart-insurance-policies.assets/c4d83c8d5f95696437cad27a1fae3fa9.png)
+![](./openpm-export-chart-insurance-policies.assets/c4d83c8d5f95696437cad27a1fae3fa9.png)

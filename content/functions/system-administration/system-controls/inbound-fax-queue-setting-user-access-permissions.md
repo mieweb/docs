@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Providing Access to Inbound Fax Queue
 
@@ -22,13 +22,13 @@ In Access Control, search and find the user you wish to set security privileges 
 
 When you find the user, click edit so you can get into the edit user ( ) screen. Once there, click *Customize User Security* link to set security for this specific user only.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/495aff1ea2229a10c3ba33c6e8cf07fb.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/495aff1ea2229a10c3ba33c6e8cf07fb.png)
 
 Next, you need to customize user security by setting the security permission for the user to have access to the **Incoming File Queue**. The security settings to change for a user are *Incoming File Queue and Permission Editor.*
 
 Set these 2 security permissions for that user:
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/64e60e32decb1da101c02a4ff6bdb851.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/64e60e32decb1da101c02a4ff6bdb851.png)
 
 * <strong>Incoming File Queue:</strong>
     * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
@@ -44,17 +44,17 @@ From the Fax/file Q side-menu tab (or whatever your practice has this tab named 
 
 Once in the Fax Q side-menu tab, click the Mappings link.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
 
 This displays all the users with phone number permissions.
 
 To add a user to an incoming fax#, click Mapping link at the top right corner.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/691105e17c9d440c2b1072c405c64dab.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/691105e17c9d440c2b1072c405c64dab.png)
 
 The Add Recipient window will display. The super-user will fill out this section to allow a user to a practice's fax number so they can process faxes coming into that specific fax # for their practice. Users need to be set there to even be able to see the file if they are emailed or tasked.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/908c8f28339e23bccc32c8184d6d2c1c.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/908c8f28339e23bccc32c8184d6d2c1c.png)
 
 * <strong>Recipient:</strong> Select the fax number for your practice that you want this new user to have access to. It should display in the drop-down. If the fax number does not show in the drop-down, then you need to manually type the entire 10-digit fax number in the field below.
 * <strong>Or add recipient:</strong> If no recipient exists, use this box to add a new one.
@@ -74,33 +74,33 @@ If you need to inactivate a mapping, you can do so by the following steps. Inact
 
 Once in the Fax/file Q side-menu tab, click the Mappings link.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
 
 This displays all the mappings.
 
 Click on the checkbox next to the recipient you wish to inactivate.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/ed6abf430459194aeb882a4c31bf6731.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/ed6abf430459194aeb882a4c31bf6731.png)
 
 Click on the **Set Status** button to display the Set Status window. Click the *No* radio button in the **Active** field to Inactivate the status. Click the **Save** button. Once saved the Recipient is now Inactive.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/5a25e718aff3ff3b9b26119bf2b86441.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/5a25e718aff3ff3b9b26119bf2b86441.png)
 
 ## Search Recipient Fax Numbers
 
 From the Fax Q side-menu tab (or whatever your practice has this tab named as), click the Mappings link.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/ab18548d825c41a6ab4d2c5104e53831.png)
 
 This displays all the recipient mappings.
 
 To search by recipient, select the dropdown list and click on the recipient fax number and then click the **Search** button.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/0c0afbbbf3c8da7d6c8a189c1d2f65e8.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/0c0afbbbf3c8da7d6c8a189c1d2f65e8.png)
 
 This will display the specific recipient that was selected below.
 
-![](../inbound-fax-queue-setting-user-access-permissions.assets/1e11c68210b92bd763dd2910261bca10.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/1e11c68210b92bd763dd2910261bca10.png)
 
 ## Learning Management System
 

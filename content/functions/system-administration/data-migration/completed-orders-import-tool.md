@@ -12,7 +12,7 @@ links:
   - 'data-import-standards.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1kGK2cFMtPN8GSfO9bTam5OR7Kzc26nnEnAh1LKT2uVI'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create completed order records using the Completed Orders CSV API.
 
@@ -40,11 +40,11 @@ Access the Data Import tab found in Control. See the [Data Import Tab](data-imp
 
 Make sure all order items are listed in the import template tool that are part of the panel w/ a completion date, along w/ the representative event order item. Work with your MIE Implementer to import completed orders for Health Surveillance Panel needs.
 
-![](../completed-orders-import-tool.assets/b0bffbd5c9285eafb567f3850be952d3.png)
+![](./completed-orders-import-tool.assets/b0bffbd5c9285eafb567f3850be952d3.png)
 
 Importing prior order id's as ‘completed' will show them as completed along w/ the date in the Due List View along w/ the comment from the import tool spreadsheet.
 
-![](../completed-orders-import-tool.assets/ed1c588f98b3f68c001e36251d2d9f8c.png)
+![](./completed-orders-import-tool.assets/ed1c588f98b3f68c001e36251d2d9f8c.png)
 
 ## Specifications
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/'
 source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
 
@@ -16,7 +16,7 @@ Weekly Review tab shows you a worklist of problem inventory items that should be
 
 Your MIE Implementer can also set up an email cron job to email someone in your organization when inventory items hit a low Par level set or quantity specific. To narrow down the results, the Weekly Review report has several filters one can fill in to limit and reduce results at the top. When done entering in anything to filter by, simply click the Filter button to show the results limited to those filters.
 
-![](../inventory-weekly-review.assets/e3a5b3050cd1353ad11995da583dbcbc.png)
+![](./inventory-weekly-review.assets/e3a5b3050cd1353ad11995da583dbcbc.png)
 
 By default, the Weekly Review will open to show you 2 buckets. The *General Inventory Review* section and the *Patient Assistance Inventory* *Review* section.
 
@@ -24,13 +24,13 @@ By default, the Weekly Review will open to show you 2 buckets. The *General Inve
 
 The General Inventory Review section shows any inventory items that have a zero quantity (out of stock), have a negative quantity, items that have hit a min or max PAR level for it (this is the ‘Limit' column), and inventory items that are expired according to the expiration date entered for the item details.
 
-![](../inventory-weekly-review.assets/e188071a96d716311e948be596fa10a2.png)
+![](./inventory-weekly-review.assets/e188071a96d716311e948be596fa10a2.png)
 
 The item name and Lot number fields are hyperlinks. If you click an item name or lot number shown there, it will take you to the *Transaction Report* screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you.
 
 In the Weekly Review, you have options to Edit Med, Expire Lot and Expire Med. Even though the hyperlinks have the word ‘med' in them, the functionality is used for immunization and supply order inventory items. For explanation on these options, please see the other help documentation named [Show Inventory](https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/).
 
-![](../inventory-weekly-review.assets/1496e1c9938b226e1f982ddf9f270915.png)
+![](./inventory-weekly-review.assets/1496e1c9938b226e1f982ddf9f270915.png)
 
 ## Patient Assistance Inventory Review
 
@@ -40,4 +40,4 @@ You have options to Edit Med, Expire Med or Transfer Med to General Inventory.
 
 For explanations on these options, please see the other help documentation named [Show Inventory](https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/).
 
-![](../inventory-weekly-review.assets/27dc532e4710a9a726ed0a7e3057bd54.png)
+![](./inventory-weekly-review.assets/27dc532e4710a9a726ed0a7e3057bd54.png)

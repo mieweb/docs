@@ -43,7 +43,7 @@ links:
   - '../../functions/health-surveillance/respirator-info-chart-tab.md'
   - '../../functions/system-configuration/locations-management.md'
 source: 'https://drive.google.com/open?id=1T16_8p-6mg-K4LsNEn0kCKOUhMv0ujQ7jRfi40BNrqQ'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -129,7 +129,7 @@ When there is a member of a health surveillance panel, the panel will need to be
 
 [Health Surveillance](https://system/?f=layout&module=reports&name=HealthSurveillance&tabmodule=reports&t=Health+Surveillance&tabmodule=reports&tabselect=Health+Surveillance) has several helpful reports available in the **Reports** sidemenu.
 
-![](../review-session-health-surveillance.assets/638d71f61f4d243a2dc94c2b5e3d7300.png)
+![](./review-session-health-surveillance.assets/638d71f61f4d243a2dc94c2b5e3d7300.png)
 
 ### Beryllium Health Surveillance
 
@@ -253,7 +253,7 @@ A default declination form is mapped to the **Decline Form** link, found under t
 
 Review the security settings for users needing access to Health Surveillance (and Case Management). Review settings and give permissions, enable, or set, as appropriate. These settings can be found under the Health Surveillance section of the Access Control user settings. Additional information can be found within the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation, if needed.
 
-![](../review-session-health-surveillance.assets/9ac9db18c8826a9471a86f38c6d5e9b5.png)
+![](./review-session-health-surveillance.assets/9ac9db18c8826a9471a86f38c6d5e9b5.png)
 
 ## Resources
 

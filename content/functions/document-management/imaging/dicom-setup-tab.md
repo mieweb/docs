@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
 
@@ -18,7 +18,7 @@ Access to the DICOM Setup tab requires the DICOM Queue security permission.  DI
 
 The DICOM Setup tab is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
-![](../dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)
+![](./dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)
 
 ## Application Entities Editor
 
@@ -26,11 +26,11 @@ Access to view and manage Application Entities requires the Application Entities
 
 To view application entities, simply click the View Application Entities hyperlink in the DICOM Setup tab found within the **Control Panel** sidemenu.
 
-![](../dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)
+![](./dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)
 
 To add an Application Entity, once in the Application Entities, simply select the Add Entity link.
 
-![](../dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)
+![](./dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)
 
 The following information is displayed on the application entities screen:
 

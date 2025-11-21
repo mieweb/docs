@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/scheduling/adding-an-appointment-using-the-wizard-tab/'
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=12DhgFX2P8NXljS6zARG12TObHNQZy73Q1ys9iqXSYwM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Log into {{% system-name %}}
 
@@ -30,7 +30,7 @@ Click *Pat/Apt Wizard* tab from the top menu of tabs.
 
 All this information populates the *Demographics* tab of the patient's chart.
 
-![](../pat-appt-wizard-tab.assets/856c8b2bad9dcf4072e5eba6e2273411.png)
+![](./pat-appt-wizard-tab.assets/856c8b2bad9dcf4072e5eba6e2273411.png)
 
 Fill out the registration screen fields and click the **Save** button at the bottom.
 
@@ -40,7 +40,7 @@ It then goes to the *Appointment Wizard* screen for this new registered patient.
 
 Manual Registration in {{% system-name %}} shows this new registered patient in {{% system-name %}} only. It will not merge/appear in any other practice management system that your company uses (example: Medical Manager, Experior, Medic, etc.)
 
-![](../pat-appt-wizard-tab.assets/e7275a758e818766f895e8a35a7cd57b.png)
+![](./pat-appt-wizard-tab.assets/e7275a758e818766f895e8a35a7cd57b.png)
 
 Fill out the Appointment Wizard fields to create/add/save an appointment for the newly registered patient. For detailed descriptions on each field in the Appointment Wizard screen, please see other help documentation titled [Adding an Appointment Using the Wizard Tab](https://docs.enterprisehealth.com/functions/scheduling/adding-an-appointment-using-the-wizard-tab/).
 

@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The  {{% system-name %}} solution has a system setting that allows users to browse and upload any local file types into a specific chart. This setting is known as the **Generic File Upload** setting, and it is enabled by default.
 
@@ -21,15 +21,15 @@ Though users may upload and store any type of file into a chart,  {{% system-na
 
 To begin adding a file to a chart, navigate into the specific chart and click the **Add Document** link or from the lightning bolt icon accessible throughout the chart.
 
-![](../file-documents.assets/f4ff0d2ba8c74dfd5da941bb4de84180.png)
+![](./file-documents.assets/f4ff0d2ba8c74dfd5da941bb4de84180.png)
 
 Within the *Add Documents* screen, simply filter by File.  This will display the File Upload screen, where you can upload a file to be inserted into the chart.
 
-![](../file-documents.assets/76e9434a10b18e1f85d5c7189508109a.png)
+![](./file-documents.assets/76e9434a10b18e1f85d5c7189508109a.png)
 
 Within the *Add Document Properties* screen, users can signify the document details within the fields and then browse for a file to upload into the chart.
 
-![](../file-documents.assets/3858af51c69ac5cc525a18ca108d18bf.png)
+![](./file-documents.assets/3858af51c69ac5cc525a18ca108d18bf.png)
 
 *Add Document Properties* fields:
 
@@ -44,7 +44,7 @@ Within the *Add Document Properties* screen, users can signify the document de
     * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters to assist with linking. If an encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and it will place the encounter ID and details into the <em>Encounter</em> field.
     * Click the <em>Search Within [#] days</em> hyperlink (at the bottom of the pop-up screen) to search for and display encounters occurring in increments further out. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](../file-documents.assets/9cf368609c37462e90d929065466525e.png)
+![](./file-documents.assets/9cf368609c37462e90d929065466525e.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the **Encounter** field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and the details from the encounter field.
@@ -57,15 +57,15 @@ If the user has a current encounter set in the chart, the **Encounter** field 
 
 Once a file(s) has been chosen (via drag & drop or browse & select), the file(s) will display at the right side area of the File Upload screen.
 
-![](../file-documents.assets/b1524c7d1faf72d54195dff7a3a3c780.png)
+![](./file-documents.assets/b1524c7d1faf72d54195dff7a3a3c780.png)
 
 However, if any of the 3 required document property fields are blank (document type, or author, or service date), a popup warning window will appear to set those when trying to drag/drop or browse to upload the file.
 
-![](../file-documents.assets/841379bf4f1beee45966f745cb6470cd.png)
+![](./file-documents.assets/841379bf4f1beee45966f745cb6470cd.png)
 
 Users may then select the *Upload Document* button to upload all document(s)/file(s) into the chart at once.
 
-![](../file-documents.assets/5b4edc50aaa5c22a3e4991cd6d696174.png)
+![](./file-documents.assets/5b4edc50aaa5c22a3e4991cd6d696174.png)
 
 ## Learning Management System
 

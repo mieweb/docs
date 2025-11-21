@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Locations
 
@@ -36,4 +36,4 @@ The "Locations" report is designed to export detailed information about the vari
 17. <strong>Active</strong>: Indicates whether the location is active (Yes or No).
 18. <strong>Place of Service</strong>: The place of service code for the location.
 
-![](../openpm-export-locations.assets/57eec28c9d3f4b2e4decc7053c7a2edb.png)
+![](./openpm-export-locations.assets/57eec28c9d3f4b2e4decc7053c7a2edb.png)

@@ -10,11 +10,11 @@ links:
   - 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.46'
   - 'http://osha.gov/injuryreporting'
 source: 'https://drive.google.com/open?id=1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The OSHA 300/301 Case Data report is found within the Reports module, and within the Safety grouping of reports available in {{% system-name %}}.
 
-![](../osha-300-301-case-data-report.assets/e50f2058d66f9a203696ab65cc800db9.png)
+![](./osha-300-301-case-data-report.assets/e50f2058d66f9a203696ab65cc800db9.png)
 
 The Department of Labor (DOL) Occupational Safety and Health Administration (OSHA) Injury Tracking Application (ITA) provides a system to securely access and submit information related to workplace injuries. The application is being enhanced to begin collecting details on individual injury and illness cases. Our OSHA 300/301 Case Data Report is a method to produce a large data output to bulk upload larger data sets using API endpoints. This report provides the fields that make up the body of most of the Request API calls involving the Case Data form.
 
@@ -24,7 +24,7 @@ NOTE: Job Title, Incident Location, and Incident Description columns are limited
 
 More information from OSHA is at https://www.osha.gov/injuryreporting
 
-![](../osha-300-301-case-data-report.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
+![](./osha-300-301-case-data-report.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
 
 ## OSHA 300/301 Case Data Report Criteria
 
@@ -47,13 +47,13 @@ Screenshot examples that describe the above criteria:
 
 Locations Hierarchy example:
 
-![](../osha-300-301-case-data-report.assets/919cd464ac60bc9a4dfb8c38a16382e5.png)
+![](./osha-300-301-case-data-report.assets/919cd464ac60bc9a4dfb8c38a16382e5.png)
 
 
 
 Case encounter section for an OSHA recordable injury/illness example:
 
-![](../osha-300-301-case-data-report.assets/233027c364977def799d5a760a365b9c.png)
+![](./osha-300-301-case-data-report.assets/233027c364977def799d5a760a365b9c.png)
 {{% /tip %}}
 
 ## OSHA 300/301 Case Data Report Datavis Columns
@@ -120,14 +120,14 @@ This report **does** respect the Locations Hierarchy **_Parent_** with the data 
 
 The OSHA 300/301 Case Data report is easily downloadable into a CSV format.  Simply click the *Show CSV* button to generate the report's output into a CSV downloadable file.  Store to your folder location of choice.
 
-![](../osha-300-301-case-data-report.assets/36af6824cd0950b159566b1702844345.png)
+![](./osha-300-301-case-data-report.assets/36af6824cd0950b159566b1702844345.png)
 
 The CSV file will be in the specific column order with column titles labeled as the OSHA injury and illness data submission requires.
 
-![](../osha-300-301-case-data-report.assets/20a6f0ff40a7ee92ff3d2cf39ff67c5b.png)
+![](./osha-300-301-case-data-report.assets/20a6f0ff40a7ee92ff3d2cf39ff67c5b.png)
 
 ## Review OSHA 300/301 Case Data report contents in CSV
 
 You will need to review the entire CSV file for content. [OSHA.gov/injuryreporting](http://osha.gov/injuryreporting) site has a checklist where they want you to not include special characters for certain columns, and also review to exclude any PII for certain columns, before uploading the CSV file to their API.   It is up to the establishment/individuals at the company to review the CSV file and replace or change any content needed according to their business needs, prior to using the file to upload into the OSHA API system.  {{% system-name %}} will not omit or replace data from the CSV output.  {{% system-name %}} will output the CSV with the contents as exactly how it was captured/documented in the system and case/incident.  Your business can use the ‘find and replace' tool in the CSV file and change/replace (according to business needs) any found PII or any found special characters.
 
-![](../osha-300-301-case-data-report.assets/97f5c784ec4e239dc5df76ca9bae7d63.png)
+![](./osha-300-301-case-data-report.assets/97f5c784ec4e239dc5df76ca9bae7d63.png)

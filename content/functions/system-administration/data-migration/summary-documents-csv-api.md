@@ -12,7 +12,7 @@ links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 
@@ -38,21 +38,21 @@ The following screenshots show a simple CSV file, and the resulting summary docu
 
 The first several columns in the example CSV dictate some discrete metadata for the document, such as the *Chart ID*, (documents.pat_id) and *External ID* (documents.ext_doc_id).
 
-![](../summary-documents-csv-api.assets/288bd57ecf884552d143c3599983ad29.png)
+![](./summary-documents-csv-api.assets/288bd57ecf884552d143c3599983ad29.png)
 
 Following the discrete fields, a *Section Header* (section_header) several *Name Value Pairs* (name_value.NAME), and a *Narrative with Prefix*(narrative.PREFIX) follow to create the body of a case summary.
 
-![](../summary-documents-csv-api.assets/d41dcac076f7937e4736107d80c01d11.png)
+![](./summary-documents-csv-api.assets/d41dcac076f7937e4736107d80c01d11.png)
 
-![](../summary-documents-csv-api.assets/16bbd7794b3a28cd5526541c86aafbd2.png)
+![](./summary-documents-csv-api.assets/16bbd7794b3a28cd5526541c86aafbd2.png)
 
 Each column in the CSV above corresponds to a line of text in the resulting summary document. In this example, there are two section headers centered at the top of the document, several field name and value pairs, and at least one narrative block of text under each section header. These fields are all optional, repeatable, and may be ordered in any way to create a custom document to fit the needs of the client's data. Keep in mind that any of the data in the body of the document composed of the section headers, field name and value pairs, and narratives are not discrete and not searchable.
 
-![](../summary-documents-csv-api.assets/1e50342c1e7a212cffe9936eef3cf23d.png)
+![](./summary-documents-csv-api.assets/1e50342c1e7a212cffe9936eef3cf23d.png)
 
 The last screenshot displays a list of the Document Summary in EH. This is a listing of all of the documents in a patient's (employee's) chart. This view allows a user to see at a glance service dates, locations, document types, and the document title or subject of all of the documents on a chart.
 
-![](../summary-documents-csv-api.assets/570a4b0acc99c1d3e88d518abf1cc597.png)
+![](./summary-documents-csv-api.assets/570a4b0acc99c1d3e88d518abf1cc597.png)
 
 ## Workflow Considerations
 
@@ -90,19 +90,19 @@ The CSV Summary Document headers *Section Header* (section_header), *Name Val
 
 The first screenshot shows a list (listview) in EH. This can be seen by selecting the Document Summary tab from a chart. A list of documents is displayed showing dates, location, doc type, and title.
 
-![](../summary-documents-csv-api.assets/1bd31b9c7c2f08f9db2d0c03fc2c0399.png)
+![](./summary-documents-csv-api.assets/1bd31b9c7c2f08f9db2d0c03fc2c0399.png)
 
 The second screenshot shows a document's header, which contains much of the discrete data discussed above.
 
-![](../summary-documents-csv-api.assets/f2702d4b192dca30ff7cb979279f76f1.png)
+![](./summary-documents-csv-api.assets/f2702d4b192dca30ff7cb979279f76f1.png)
 
 Document properties display discrete information about a document that is not available in the document header.
 
-![](../summary-documents-csv-api.assets/67805c3dc9585f35d6cd8716e7496006.png)
+![](./summary-documents-csv-api.assets/67805c3dc9585f35d6cd8716e7496006.png)
 
 Documents may be searched using the following criteria in EH: patient name, entering user, authoring user, interface name, location, service date, creation date, revision date, subject, storage type (this API always creates HTML files), and Doc ID, which is an internally assigned identifier.
 
-![](../summary-documents-csv-api.assets/05c2570b017b944ea1d669c59364f927.png)
+![](./summary-documents-csv-api.assets/05c2570b017b944ea1d669c59364f927.png)
 
 ### Creating Discrete Data from a Summary Document
 
@@ -112,17 +112,17 @@ Many clients have opted to create summary documents for their medications, injec
 
 It is sometimes valuable to import questionnaire data as a summary document. In this example, the *Name Value Pairs* (name_value.NAME) columns function as questions from a questionnaire with the responses listed in the corresponding column.
 
-![](../summary-documents-csv-api.assets/cd1b224b46529a0f9b19fe5d515f223d.png)
+![](./summary-documents-csv-api.assets/cd1b224b46529a0f9b19fe5d515f223d.png)
 
-![](../summary-documents-csv-api.assets/a0b85ac880b25687c4632520a973d5b4.png)
+![](./summary-documents-csv-api.assets/a0b85ac880b25687c4632520a973d5b4.png)
 
 The questionnaire document is listed for the specified patient (Dolly Bacon).
 
-![](../summary-documents-csv-api.assets/dbd79660c95068284dc38a6635d313dc.png)
+![](./summary-documents-csv-api.assets/dbd79660c95068284dc38a6635d313dc.png)
 
 Questions and corresponding responses are listed in the questionnaire summary document.
 
-![](../summary-documents-csv-api.assets/00d64a0641ee6b443861ed5f7c8786bd.png)
+![](./summary-documents-csv-api.assets/00d64a0641ee6b443861ed5f7c8786bd.png)
 
 ## Specifications
 
@@ -176,13 +176,13 @@ For complex queries (one-to-many) that generate CSV content, you may concatenate
 
 Documents are grouped by required fields. The screenshots below show an example that creates two documents.
 
-![](../summary-documents-csv-api.assets/9764a5889fcce434dd402393d0999ef6.png)
+![](./summary-documents-csv-api.assets/9764a5889fcce434dd402393d0999ef6.png)
 
-![](../summary-documents-csv-api.assets/bda63f8520bf3a2a1be0e9bc3ba729ed.png)
+![](./summary-documents-csv-api.assets/bda63f8520bf3a2a1be0e9bc3ba729ed.png)
 
 The combined summary documents display on the patient's chart.
 
-![](../summary-documents-csv-api.assets/772fc5d035f7b21b41521a8676d4198e.png)
+![](./summary-documents-csv-api.assets/772fc5d035f7b21b41521a8676d4198e.png)
 
 ## Examples
 

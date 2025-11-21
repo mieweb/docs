@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 ## EH Data Migration ETL Approach
@@ -41,7 +41,7 @@ The data migration shall be performed in a series of one (or two if needed) cycl
 
 ### ETL
 
-![](../eh-data-migration-etl-approach.assets/80d3174745af3a733611d915f1a64230.png)
+![](./eh-data-migration-etl-approach.assets/80d3174745af3a733611d915f1a64230.png)
 
 Data Migration follows the steps of Extraction, Transformation, and Loading, commonly referred to as ETL. The ETL strategy for this project is outlined in this section.
 

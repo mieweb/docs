@@ -20,7 +20,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:GETKMFPJ'
   - 'https://www.youtube.com/watch?v=RFdsZYHCULw'
 source: 'https://drive.google.com/open?id=118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 An integration between {{% system-name %}} and [ODG by MCG ](https://www.mcg.com/odg/)is available in the 2025-09RC.  This integration can improve patient outcomes, reduce administrative costs, and streamline workflows by aligning with industry-standard guidelines. Integration with the ODG by MCG system to access evidence-based guidelines, benchmarking tools, and predictive modeling for best practice and average or maximum days away from work, improving return-to-work (RTW) timelines, medical costs, and quality of care. This integration provides a common framework based on extensive historical claims data (over 10 million lost-time cases), which helps manage costs, reduce inappropriate medical utilization, decrease indemnity costs, and improve worker and patient outcomes.
 
@@ -37,7 +37,7 @@ While the separate *Open ODG* button takes you into ODG's own website applicatio
 * <strong>Formulary:</strong> Provides the formulary advisor maps National Drug Codes (USA) and PBS codes (Australia) to the ODG Drug Formulary.
 * <strong>Best Practice (BP) Guidelines:</strong> Proactively manages toward an appropriate return to work for injuries.
 
-![](../query-odg-integration.assets/38f520ad7a46ebc4a4a60b78d5b4de73.png)
+![](./query-odg-integration.assets/38f520ad7a46ebc4a4a60b78d5b4de73.png)
 
 ## Prerequisites of an integration
 
@@ -67,15 +67,15 @@ You can retrieve the following ODG data values/content in our Phase 1 integratio
     * Best Practice (BP) Duration in Days
     * Average Duration in Days
 
-![](../query-odg-integration.assets/d6d13907be2b27f34c4ec37bf3c7ab5b.png)
+![](./query-odg-integration.assets/d6d13907be2b27f34c4ec37bf3c7ab5b.png)
 
 * Risk Assessment Score (RAS)
 
-![](../query-odg-integration.assets/ace1e95b9058a014cb14fdc2669896c2.png)
+![](./query-odg-integration.assets/ace1e95b9058a014cb14fdc2669896c2.png)
 
 The ODG data values then populate into the {{% system-name %}}  Case Management encounter Plan Narrative flowsheet section.
 
-![](../query-odg-integration.assets/566b60cefec1bccceff7fabc4826d277.png)
+![](./query-odg-integration.assets/566b60cefec1bccceff7fabc4826d277.png)
 
 ### Data Fields from our System Integration that get sent to Query ODG
 
@@ -86,7 +86,7 @@ These are the specific {{% system-name %}} encounter data elements of the Chart 
     * If country code is not in chart demographics nor passed to ODG, the ODG system will query to use US data
     * Any chart's demographic for any other country will return a query failed for invalid country because it is not supported by ODG
 
-![](../query-odg-integration.assets/89f26c24c10115729adfc1c9c0be0972.png)
+![](./query-odg-integration.assets/89f26c24c10115729adfc1c9c0be0972.png)
 
 * <strong>State (state or province)</strong>: from the chart's demographics
 * <strong>Age</strong>: from the chart's demographics)
@@ -103,13 +103,13 @@ These are the specific {{% system-name %}} encounter data elements of the Chart 
     * Illness type of Surgery selection can have a surgery date entered and/or Confounding Factors Surgery can have a surgery date entered.
         * Thus, if there happen to be both surgery date fields entered, we will send the earliest date that is today or in the future, otherwise will send the nearest past date.
 
-![](../query-odg-integration.assets/41a5b7d5154b94cf91e63499e091eba5.png)
+![](./query-odg-integration.assets/41a5b7d5154b94cf91e63499e091eba5.png)
 
 ### Query ODG Data that Sends Back Into Your Encounter
 
 These 5 specific fields of data return from ODG into the {{% system-name %}} Case Management encounter once successfully queried (thus eliminating the need to manually key in data for these fields):
 
-![](../query-odg-integration.assets/e54f3058ee427b984f3cf67917621cd1.png)
+![](./query-odg-integration.assets/e54f3058ee427b984f3cf67917621cd1.png)
 
 * <strong>Maximum Duration in Days:</strong> is the evidence-based upper limit for the expected length of disability or treatment for a specific medical condition or procedure based on the data elements sent in the query.
 * <strong>Best Practice Duration in Day:</strong> is the recommended number of days for optimal recovery or work absence for a specific medical condition or procedure, based on evidence and typical outcomes.
@@ -117,7 +117,7 @@ These 5 specific fields of data return from ODG into the {{% system-name %}} Cas
 * <strong>ODG Risk Score:</strong> is a numerical value that estimates the likelihood of delayed recovery or extended disability for a specific case, based on patient factors, diagnosis, and other clinical variables, helping to identify cases that may require additional attention or intervention.
     * The ODG system itself displays a round gauge chart and a thermometer chart for its risk score ranges, if you need an additional visual by going to the ODG site.
 
-![](../query-odg-integration.assets/7cfae30e7572e1744b0bc5c809aa41c1.png)
+![](./query-odg-integration.assets/7cfae30e7572e1744b0bc5c809aa41c1.png)
 
 * <strong>ODG URL:</strong> Inserts the specific URL that was passed back from ODG with all of the criteria used back into {{% system-name %}} to reference.  This URL deep links to ODG (when copy/pasted in a different browser that is logged into ODG) with the encounter entered field criteria and data passed to ODG being used to determine the days and risk score.  The ODG system url will take you to the specific ODG duration tab by prepopulating the data within this url and will allow you to use the ODG system in more detail for any other needs.  See ODG's [How to Use the Duration Tab](https://www.mcg.com/odg/wp-content/uploads/sites/2/2025/09/HowToUseTheODGDurationTab.pdf) self training PDF guide.
 
@@ -127,19 +127,19 @@ The *Open ODG* button within the Plan Narrative flowsheet section of a Case Mana
 
 Your company must still have an ODG license initiated with ODG that includes a login/password to the ODG system, but you can easily access the ability to log in manually into the ODG system using the *Open ODG* button available directly here in the encounter.
 
-![](../query-odg-integration.assets/7f8b5a333b0ccfa48b2185ab998649e0.png)
+![](./query-odg-integration.assets/7f8b5a333b0ccfa48b2185ab998649e0.png)
 
 Once successfully logged into the ODG system, you can manually key in any data and include any refinement. See ODG's [How to Use the Duration Tab](https://www.mcg.com/odg/wp-content/uploads/sites/2/2025/09/HowToUseTheODGDurationTab.pdf) self training PDF guide.
 
-![](../query-odg-integration.assets/0f80c1b87bea7e5e82cc8d9eb6f83c3c.png)
+![](./query-odg-integration.assets/0f80c1b87bea7e5e82cc8d9eb6f83c3c.png)
 
 Then will be able to see the retrieved return to work duration guidelines and other information.  See ODG's [How to Use the Duration Tab](https://www.mcg.com/odg/wp-content/uploads/sites/2/2025/09/HowToUseTheODGDurationTab.pdf) self training PDF guide.
 
-![](../query-odg-integration.assets/1d71bdd8a72c496dd02b8c75774d69df.png)
+![](./query-odg-integration.assets/1d71bdd8a72c496dd02b8c75774d69df.png)
 
 Then you can easily toggle between ODG's system and your {{% system-name %}} encounter to manually key in the days for benchmark durations, as well as capture the risk score and url manually.
 
-![](../query-odg-integration.assets/f751b1f7b257835a51f464612ce2b379.png)
+![](./query-odg-integration.assets/f751b1f7b257835a51f464612ce2b379.png)
 
 ## Case Management Enc Details Report
 
@@ -153,23 +153,23 @@ NOTE: If your system is on 202509RC and you do not see this report in your syste
 
 By default, the report will open up to be blank.  It is recommended that you key in at least a date range before rendering the report.  There are other search filter criteria data fields available to help narrow down your report results.  However, you can get report results for the lifetime of the system by simply clicking on the first title section *Case Management Enc Details Report* below the search filter criteria area.
 
-![](../query-odg-integration.assets/6ef798307bb8b25e4ca8aea06b3a5035.png)
+![](./query-odg-integration.assets/6ef798307bb8b25e4ca8aea06b3a5035.png)
 
 ### Case Management Enc Details Report section
 
 Based on any search filter criteria entered, the *Case Management Enc Details Report* section will output the data into a DataVis format.  This report offers a plethora of columns with the appropriate data captured for you to have visibility to the data needed.  For more information on utilizing reports in a DataVis format please refer to [Using DataVis Grids](../../reports/using-datavis-grids-data-tools.md) guide.
 
-![](../query-odg-integration.assets/c59ec992e2d5f30aef4d792d0c6bd3f9.png)
+![](./query-odg-integration.assets/c59ec992e2d5f30aef4d792d0c6bd3f9.png)
 
 ### Case Management Enc Details Report - Graph section
 
 If report data in the Case Management Enc Details Report section of the output is grouped, then the subsequent section titled *Case Management Enc Details Report-Graph* will output a graph.  The user can select the Graph Type from the drop-down to change the graph shown.
 
-![](../query-odg-integration.assets/0c136f6c64b45c9287a2754aa1605b9e.png)
+![](./query-odg-integration.assets/0c136f6c64b45c9287a2754aa1605b9e.png)
 
 The graph can also be saved to your device as a PNG file image using the download icon available in that section.
 
-![](../query-odg-integration.assets/4a0aef782897e718492c73a0741e24ff.png)
+![](./query-odg-integration.assets/4a0aef782897e718492c73a0741e24ff.png)
 
 For more information on utilizing reports in a DataVis format or how to utilize grouping please refer to [Using DataVis Grids](../../reports/using-datavis-grids-data-tools.md) guide.
 

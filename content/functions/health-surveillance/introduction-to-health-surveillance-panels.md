@@ -7,17 +7,17 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1IPkv7nQyNjg2KisIdIAJUuoJfUF6Le7iK5-HHq6ssik'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, click the HSP tab and then the HEALTH SURVEILLANCE tab listed below.
 
-![](../introduction-to-health-surveillance-panels.assets/7fd697db4f15437a787391a079bbb627.png)
+![](./introduction-to-health-surveillance-panels.assets/7fd697db4f15437a787391a079bbb627.png)
 
 ## Security & Settings
 
 Review Security Settings for users who need access to Health Surveillance. Review Settings and give rights as needed by client. This information is also available within the online help.
 
-![](../introduction-to-health-surveillance-panels.assets/963239a38c751779a3ce16c7b4baaee8.png)
+![](./introduction-to-health-surveillance-panels.assets/963239a38c751779a3ce16c7b4baaee8.png)
 
 ## Health Surveillance Panels
 

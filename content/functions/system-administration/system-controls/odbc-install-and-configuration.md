@@ -13,7 +13,7 @@ links:
   - 'https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html'
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
@@ -55,6 +55,6 @@ Once the drivers have been downloaded and installed, users will need to set up a
     g.  SSL CA
     h.  SSL Cipher
 
-![](../odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)
+![](./odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)
 
 Instructions on connecting and setting up the data source will vary depending on the 3rd party report data visualization software utilized. If you are having trouble connecting via ODBC, your {{% system-name %}} deployment consultant or support contact will facilitate a meeting with the {{% system-name %}} database administrator.

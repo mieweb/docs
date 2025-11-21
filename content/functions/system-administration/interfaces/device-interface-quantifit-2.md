@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Overview
 
@@ -25,10 +25,10 @@ The Quantifit 2 uses the OHD Logic software to operate the device and save resul
 
 1. Go to the Quantifit 2 File Upload page
 2. Select the file exported from OHD  
-    ![](../device-interface-quantifit-2.assets/1290b57dbb9fe67d0779189d66fd9749.png)
+    ![](./device-interface-quantifit-2.assets/1290b57dbb9fe67d0779189d66fd9749.png)
 3. Click the Upload Device File button
 4. A notification will appear with the status of the file upload and how many records were saved.  
-    ![](../device-interface-quantifit-2.assets/cfa0509fec9d81f8f338519ae1363308.png)
+    ![](./device-interface-quantifit-2.assets/cfa0509fec9d81f8f338519ae1363308.png)
 
 ## Notes
 
@@ -36,6 +36,6 @@ The Quantifit 2 uses the OHD Logic software to operate the device and save resul
 * When the file is processed, if there is another test on the same day for the same sized mask, that record will be updated.  This is to prevent duplicate records from being created.
 * For users utilizing RC202303 and newer, the Quantifit Data Import tool has been updated to pull the "EqFitFactor" as the Final Fit Factor when creating respirator fit records. This will get the overall fit factor from all tests instead of just the fit factor for the specific step from the row.
 
-![](../device-interface-quantifit-2.assets/1d514ce2ec8e2082b40ddf44d58bf213.png)
+![](./device-interface-quantifit-2.assets/1d514ce2ec8e2082b40ddf44d58bf213.png)
 
-![](../device-interface-quantifit-2.assets/192b8edb07824f055ef833a8f74dcbd5.png)
+![](./device-interface-quantifit-2.assets/192b8edb07824f055ef833a8f74dcbd5.png)

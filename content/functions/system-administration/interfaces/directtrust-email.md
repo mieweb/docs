@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 ## DirectTrust Email
@@ -18,13 +18,13 @@ When DIRECT email has been set up, providers will be issued an email address fro
 
 Provider's Direct email address should be stored in the demographics section of their provider or Provider organization chart.
 
-![](../directtrust-email.assets/7b4f481b5d7e005a1964be6ed52e69a9.png)
+![](./directtrust-email.assets/7b4f481b5d7e005a1964be6ed52e69a9.png)
 
 ## Direct Trust Directory
 
 For {{% system-name %}} systems that have Direct Messaging configured, a DirectTrust Directory will display in a datavis format under the Provider Management DataVis. Clients not set up with Direct Messaging will not see a Direct Trust Directory in their system.
 
-![](../directtrust-email.assets/bc812d654fc004e033afb4c5b0068e39.png)
+![](./directtrust-email.assets/bc812d654fc004e033afb4c5b0068e39.png)
 
 ## User Security & Setup
 
@@ -32,7 +32,7 @@ For {{% system-name %}} systems that have Direct Messaging configured, a DirectT
 
 1. Users that need to "send" messages/documents will need the "Send Patient Data" security permissions.
 
-![](../directtrust-email.assets/987bd37e4234a0f27d99d316e2be35e0.png)
+![](./directtrust-email.assets/987bd37e4234a0f27d99d316e2be35e0.png)
 
 2. Additional configuration is required before users will be able to see documents coming/going from {{% system-name %}}.
     a.  Ensure that any additional users that will be sending messages/documents via Direct have been configured with a user account and have the proper security to send patient data.
@@ -40,7 +40,7 @@ For {{% system-name %}} systems that have Direct Messaging configured, a DirectT
     c.  Click on the <strong>manage info icon</strong> (pencil) of the <strong>Medical Contacts</strong> portlet.
     d.  Find and link those users with the role of ‘Direct Email' and then click the <strong>Submit</strong> button to save.
 
-![](../directtrust-email.assets/c811215fe3612b2f1f338da91f910a01.png)
+![](./directtrust-email.assets/c811215fe3612b2f1f338da91f910a01.png)
 
 ## Working with ‘Incoming' DIRECT emails
 
@@ -49,15 +49,15 @@ When Direct is configured, 2 ‘test' emails will be placed in the document queu
 1. Working incoming documents can be found in the Doc Queue
     a.  Direct messages coming into the document queue are not patient identified. They come into the system as unique non-identified messages.
 
-![](../directtrust-email.assets/dedda907e25d1e33f9a9767f80faa0be.png)
+![](./directtrust-email.assets/dedda907e25d1e33f9a9767f80faa0be.png)
 
     b.  Users must go into the document (via the document queue) to see who it's pertaining to. Click on the DIRECT message to view the document on the bottom half of the screen.  View the document to determine who it's pertaining to. Process the message by setting the DOS (or leave marked as "unknown" if you want the date to be a blank DOS, which will default the document at the bottom of list views in chart tabs), then on the right side of the document queue to manually search who to merge this document to.
 
-![](../directtrust-email.assets/ef8838d65bfe8b40ab8116d323c50c87.png)
+![](./directtrust-email.assets/ef8838d65bfe8b40ab8116d323c50c87.png)
 
     c.  It's very important to always select the 1st merge option when working the DIRECT partition in the document queue. Every message comes in with a unique direct id# (mr#) and we don't want to keep those on patients for tracking purposes. This 1st option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged), meaning it will keep the patient's current MR#'s and not apply the direct lengthy unique MR/ID # one.
 
-![](../directtrust-email.assets/b343db2352c7f61bb97afc50ba511dc4.png)
+![](./directtrust-email.assets/b343db2352c7f61bb97afc50ba511dc4.png)
 
 ## Workflows to send ‘Outgoing' DIRECT messages
 
@@ -65,11 +65,11 @@ When Direct is configured, 2 ‘test' emails will be placed in the document queu
 
 1. To send a document via Direct, click on the ‘send' link near the properties of the document.
 
-![](../directtrust-email.assets/652a87430043e177569a357fb2ecd348.png)
+![](./directtrust-email.assets/652a87430043e177569a357fb2ecd348.png)
 
 2. It's important to remember to ‘TAB' through these fields.
 
-![](../directtrust-email.assets/177e50edf6055aec8a8bfe5af2294c62.png)
+![](./directtrust-email.assets/177e50edf6055aec8a8bfe5af2294c62.png)
 
     a.  <strong>Recipient</strong>: Search & select an existing configured referring physician user (configured in your system) from the auto-complete (Tab). If the person isn't found, you can add a user to the recipient selections by using ADD USER button (see separate steps)
     b.  <strong>Method:</strong> Select ‘Direct Email' from the drop-down if isn't already (Tab)
@@ -82,11 +82,11 @@ When Direct is configured, 2 ‘test' emails will be placed in the document queu
 
 If the referring physician recipient isn't found in the auto-complete search, you can ADD USER to the system from this screen.
 
-![](../directtrust-email.assets/dbea0ef7c373fc35b0451ef313c77cdc.png)
+![](./directtrust-email.assets/dbea0ef7c373fc35b0451ef313c77cdc.png)
 
 Click on Add User button and the *Create User* window and fields will display.
 
-![](../directtrust-email.assets/34dc861ce83e17fd3755853196fbde96.png)
+![](./directtrust-email.assets/34dc861ce83e17fd3755853196fbde96.png)
 
 Key in all the information fields that are applicable, especially the Preferred Route field (set this to Direct Email).
 
@@ -94,7 +94,7 @@ Click the ADD USER button to save your work.  That added new user will now displ
 
 Note: after clicking ADD USER button, if you receive a warning message that you need to select a department for the user to be added to the system, it is because the system setting **NULL Username Realm** is not set to a value of Referring Physicians.  Simply have your implementer or support get that system setting value set.
 
-![](../directtrust-email.assets/b3bc1b943f279b1b670836f11b84f0b0.png)
+![](./directtrust-email.assets/b3bc1b943f279b1b670836f11b84f0b0.png)
 
 ## Storage types to use when sending/receiving DIRECT emails
 

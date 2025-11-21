@@ -9,7 +9,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:ZELDNHRK'
 source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 {{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the Chart Tabs editor from the Control Panel to update and maintain, as necessary.
 
@@ -19,7 +19,7 @@ When you click Chart Tabs at the top, the entire listing of all chart tabs creat
 
 Users can click on any underlined column to sort the listing alphabetically, or by way of any of the other columns, as needed.
 
-![](../chart-tabs.assets/2c876e6d4153a312245b1b9294bb82d2.png)
+![](./chart-tabs.assets/2c876e6d4153a312245b1b9294bb82d2.png)
 
 Available columns include:
 
@@ -29,7 +29,7 @@ Available columns include:
 * <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab.
 * <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
 
-![](../chart-tabs.assets/193fc6b0cba871d52faf3667dc6f844d.png)
+![](./chart-tabs.assets/193fc6b0cba871d52faf3667dc6f844d.png)
 
 * <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context.
 * <strong>S</strong><strong>ub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column.
@@ -46,7 +46,7 @@ There are also checkboxes available to change your search results to find what y
 
 Click the SEARCH button when ready to show the results of the search criteria you have set.
 
-![](../chart-tabs.assets/09bc54d423c038bdd4a096f1a49a2fed.png)
+![](./chart-tabs.assets/09bc54d423c038bdd4a096f1a49a2fed.png)
 
 ## Add a New Chart Tab (Basic Editor Option)
 
@@ -58,11 +58,11 @@ Click Chart Tabs at the top.
 
 To add, click Add Tab link at the top right of the screen.
 
-![](../chart-tabs.assets/25558c3842d39746ae9ec595bdc6015d.png)
+![](./chart-tabs.assets/25558c3842d39746ae9ec595bdc6015d.png)
 
 After you click Add Tab, the Chart Tab Basic Editor Information screen will appear.  This is where you type in the name of your new chart tab and select specifications for the chart tab.
 
-![](../chart-tabs.assets/01b221270989e99ac4e7a4d1a40f53ed.png)
+![](./chart-tabs.assets/01b221270989e99ac4e7a4d1a40f53ed.png)
 
 * <strong>Tab Name</strong>: Type in the name of the tab you want to add. This will appear as a tab in e-chart for patients.
 * <strong>Description</strong>: Optional field to type in the purpose of this chart tab. This only displays here and in the Chart Tab summary screen of Control.
@@ -106,9 +106,9 @@ If you select any default view that allows you to tag document types to it, you 
 
 * <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
 
-![](../chart-tabs.assets/36f3a80b48c600d74279d02b63498e10.png)
+![](./chart-tabs.assets/36f3a80b48c600d74279d02b63498e10.png)
 
-![](../chart-tabs.assets/a09957f4b10305be035e29b31674009f.png)
+![](./chart-tabs.assets/a09957f4b10305be035e29b31674009f.png)
 
 * <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
 * <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
@@ -125,11 +125,11 @@ If you select any default view that allows you to tag document types to it, you 
 
 If you need to see a list of documents that haven't been tagged to a chart tab yet in your system, scroll up to the top and click the link Click here to see your unused document types in another window.  If you click that link provided, it will open a separate window on your computer screen.
 
-![](../chart-tabs.assets/14bedfde7c5f1d5b45384c66a6ea8e85.png)
+![](./chart-tabs.assets/14bedfde7c5f1d5b45384c66a6ea8e85.png)
 
 A list of document types not tagged to any inclusive tab will display.  It will open to display in document type alphabetic order. You can sort and group Active vs Inactive document types by clicking the active? column header title.
 
-![](../chart-tabs.assets/16388a2cc030dd0f6a11ea0f94b7537b.png)
+![](./chart-tabs.assets/16388a2cc030dd0f6a11ea0f94b7537b.png)
 
 Unfortunately, you cannot select the document type from here to add to the chart tab. This is for viewing only. If you click the document type name in this screen, it will take you to the document type details for that document. To get out of this screen you can simply click the X at the top right of this opened screen.  Then you will be back at your Chart Tab and can add that document type you found wasn't tagged to any chart tab yet.
 
@@ -139,7 +139,7 @@ Click Save button when done creating your Chart Tab. Your chart tab has been add
 
 This is for MIE syntax programmer use to program instructions for specific client needs. Only MIE will be using this entry method. However, if setting restrictions to the chart tab, it will automatically set you to this Advanced Editor mode so you can enter in any allowed users/departments to the chart tab you are creating.
 
-![](../chart-tabs.assets/dcb09e18501d0d4ab34f8b713ceaee4f.png)
+![](./chart-tabs.assets/dcb09e18501d0d4ab34f8b713ceaee4f.png)
 
 ### Edit or Delete/Inactivate an Existing Chart Tab
 
@@ -151,29 +151,29 @@ Click Chart Tabs at the top.
 
 Find the chart tab you wish to edit by using the search engine or by scrolling through the list. To edit a chart tab, click edit at the right end of the line description for that tab, under options.
 
-![](../chart-tabs.assets/a9c2b55866b454bb01d69600676d14ed.png)
+![](./chart-tabs.assets/a9c2b55866b454bb01d69600676d14ed.png)
 
 Edit the chart tab information fields you wish and click SAVE at the bottom.
 
 Revisions done to a chart tab are tracked. If you wish to view the revisions ever done to a chart tab simply click the name of the chart tab in the tab name column.
 
-![](../chart-tabs.assets/75e58f3e221e24dfd569977556eeb94c.png)
+![](./chart-tabs.assets/75e58f3e221e24dfd569977556eeb94c.png)
 
 The ‘view/summary' of the chart tab will show on your screen and a revision history is shown at the very bottom.
 
-![](../chart-tabs.assets/201581a7f170a2853c87af40c28a5642.png)
+![](./chart-tabs.assets/201581a7f170a2853c87af40c28a5642.png)
 
 If you wish to delete (inactivate a chart tab), click delete and you will delete this entire chart tab from all patient's charts.  When you click delete, it will display the chart tab details and asks a confirmation message if you are sure you want to delete this chart tab.  Click Delete button again to confirm and delete the chart tab. Click cancel to escape and get out.
 
-![](../chart-tabs.assets/ab5b5790e01f23c860805a28f28093c9.png)
+![](./chart-tabs.assets/ab5b5790e01f23c860805a28f28093c9.png)
 
 A confirmation message will appear at the top to confirm you successfully deleted the chart tab.
 
-![](../chart-tabs.assets/ee83940891362277fb01eb0c9f2fe828.png)
+![](./chart-tabs.assets/ee83940891362277fb01eb0c9f2fe828.png)
 
 To "reactivate/undelete" a chart tab, you can click the UnDelete link in its options column. (Make sure Hide Deleted Tabs is not checkmarked).  It will ask you to confirm you wish to un-delete the tab.  To confirm, click the UNDELETE button to confirm/reactivate the tab and it will give you a successful message.
 
-![](../chart-tabs.assets/f8e173dee4cc46bcac9163f3b239b0c0.png)
+![](./chart-tabs.assets/f8e173dee4cc46bcac9163f3b239b0c0.png)
 
 ## Restricted Chart Tabs
 
@@ -183,11 +183,11 @@ Find the chart tab that is restricted from the Chart Tab summary screen.  Chart
 
 Click the Restrictions link in the options column next to the chart tab name to set allowed users/departments access.
 
-![](../chart-tabs.assets/2f95e278a440b4922bb5fa49c878494d.png)
+![](./chart-tabs.assets/2f95e278a440b4922bb5fa49c878494d.png)
 
 The Allowed Users / Allowed Departments to the restricted chart tab will display. This is where you search for specific user(s) and set them to Yes to be allowed to this restricted chart tab or set the specific department(s) to yes to view this restricted chart tab.
 
-![](../chart-tabs.assets/c9df91c1c56096770b18b1cce4b3a506.png)
+![](./chart-tabs.assets/c9df91c1c56096770b18b1cce4b3a506.png)
 
 ### Allowed Users
 
@@ -201,23 +201,23 @@ You can select an entire department to be allowed to this restricted chart tab. 
 
 If you want to deny permission to a user and/or department or need to edit a permission level for an allowed user/department on the list for the restricted tab, simply get into the chart tab by clicking the EDIT link or get into just the restrictions by clicking the Restrictions link provided in the options column of the chart tab listing screen.
 
-![](../chart-tabs.assets/5222e76d7ba0cbac9a681305b259065c.png)
+![](./chart-tabs.assets/5222e76d7ba0cbac9a681305b259065c.png)
 
 Once in either link, find the Allowed Users / Allowed Departments section. To change a permission level to NO for a user or department (No meaning that the user or department is no longer allowed permission to view/work in that restricted chart tab) then find the specific user or department and click the EDIT button where they are listed.
 
-![](../chart-tabs.assets/54ec2deb1ed866b664da626cc4d3493d.png)
+![](./chart-tabs.assets/54ec2deb1ed866b664da626cc4d3493d.png)
 
 Once in the ‘edit' mode, change their permission level, using the drop-down, to NO.  Continue to edit/change any other users/departments you wish for the restricted tab. Changing a user or department's level to NO means they are not allowed into this restricted chart tab.  Only users or departments with YES permission can access the restricted chart tab.
 
 When done editing the users or departments to change their permission level, click the SAVE button at the bottom of the screen.  Nothing is submitted until the SAVE button is performed.
 
-![](../chart-tabs.assets/76a4cf8bd18a52406a1c1b2b281061a9.png)
+![](./chart-tabs.assets/76a4cf8bd18a52406a1c1b2b281061a9.png)
 
 Another quick way to change a user or departments permission level to NO (when they currently are set to YES permission) is to just click the [ - ] delete button next to their username or department name.  Doing so will then put a strikethrough in the user name or department name.  When done, click the SAVE button at the bottom of the screen.
 
 Any user or department who is removed from the allowed list using the [ - ] button is simply removed from the allowed list and is automatically changed to permission level NO in the background of the system once the SAVE button is performed.
 
-![](../chart-tabs.assets/9906654476e74755381fbc10dff2fd4e.png)
+![](./chart-tabs.assets/9906654476e74755381fbc10dff2fd4e.png)
 
 ## Learning Management System
 

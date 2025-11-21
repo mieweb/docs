@@ -43,7 +43,7 @@ links:
   - '../../functions/system-configuration/locations-management.md'
   - '../../functions/system-configuration/system-files-management.md'
 source: 'https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -78,23 +78,23 @@ System configurations are any necessary arrangements or modifications for automa
 
 To begin addressing the requirements for effective use of the {{% system-name %}} system, navigate to the **Administrator Welcome** section of the **Quick View**, and click the [Admin Get Started link](https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+). Here, users are presented with various areas of the system that require initial setup and consideration for configuration.
 
-![](../review-session-system-configuration.assets/0c5c29f4aed3b7f28c0b275df812e7b5.png)
+![](./review-session-system-configuration.assets/0c5c29f4aed3b7f28c0b275df812e7b5.png)
 
-![](../review-session-system-configuration.assets/7f89d296157f31d6971042170643b258.png)
+![](./review-session-system-configuration.assets/7f89d296157f31d6971042170643b258.png)
 
 ### Corporate Branding
 
 From the **Corporate Branding** section, clients may browse to local files of their required logo, for both document letterheads and the system/portal logo(s). Click **Upload** after the appropriate files have been selected, and the system will store the files and display them, accordingly.
 
-![](../review-session-system-configuration.assets/1374089c9b9c24ad9aae4a5dd611ebe2.png)
+![](./review-session-system-configuration.assets/1374089c9b9c24ad9aae4a5dd611ebe2.png)
 
 ### Add/Update Locations
 
 Adding and updating locations can be done using the **Update Office Location** section. Clients click the [here](https://system/?f=chart&s=leditor&opp=Edit&oldcode=OFFICE) link to edit the primary location of the business. Once this is updated, simply click the **Modify** button, and the page will refresh the **Locations Manager**, where additional locations can be added, as needed. This editor may also be accessed by navigating to the **Control Panel** and selecting the [Locations Manager tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
 
-![](../review-session-system-configuration.assets/f92586f9ef585bc5adac716d4e743895.png)
+![](./review-session-system-configuration.assets/f92586f9ef585bc5adac716d4e743895.png)
 
-![](../review-session-system-configuration.assets/7164497fa7539e90b932a1eb0789a152.png)
+![](./review-session-system-configuration.assets/7164497fa7539e90b932a1eb0789a152.png)
 
 Though all fields are not necessary, it is best practice to be as detailed as possible. Default required fields are:
 
@@ -115,11 +115,11 @@ Users and providers utilizing the {{% system-name %}} system can be added manual
 
 Though there are several methods for adding a new user manually, the simplest is to navigate to the [Quick View](https://system/?func=omniscope) sidemenu. Within the **Administrator Welcome** portlet, there is an [Admin Get Started link](https://system/?f=layout&s=pat&module=MASTER&name=AdministratorPortlets&tabmodule=+) available. After clicking the link, the **Add User** section will be available, where the [here](https://system/?f=admin&s=pat&t=security&opp=auser) hyperlink can be used to begin manually entering a new user.
 
-![](../review-session-system-configuration.assets/681925922c8088d3a5f08f8e34e3752d.png)
+![](./review-session-system-configuration.assets/681925922c8088d3a5f08f8e34e3752d.png)
 
 Enter all of the necessary information, as it relates to the user profile being created.
 
-![](../review-session-system-configuration.assets/1c727eb0834c606031b519f264066141.png)
+![](./review-session-system-configuration.assets/1c727eb0834c606031b519f264066141.png)
 
 {{% info %}}
 Every user in the system must have an associated chart in order to access the portal.
@@ -133,11 +133,11 @@ Relationships can be established between charts/users within the {{% system-name
 In this context, the term *Patients* refers to any available chart in the {{% system-name %}} system, including employee charts.
 {{% /info %}}
 
-![](../review-session-system-configuration.assets/8f183ec2d1301825613e47a49f0a2a37.png)
+![](./review-session-system-configuration.assets/8f183ec2d1301825613e47a49f0a2a37.png)
 
 The **Patients Linked to User** page will load. Begin typing the last name of the patient to be linked to the user, and select the name from the autocomplete. In order to gain access to the portal, the patient and user accounts require the role of **No More Clipboard User**. A supervisor should be linked with the **Supervisor** role.
 
-![](../review-session-system-configuration.assets/377fb73bc0fda116e5fc384b8284721e.png)
+![](./review-session-system-configuration.assets/377fb73bc0fda116e5fc384b8284721e.png)
 
 #### Provider Setup
 
@@ -151,19 +151,19 @@ In order to provide a "wet" signature on documentation, each provider will need 
 
 Chart Types are an important concept in {{% system-name %}} . Chart Types are used to differentiate between *types* of records in the system, allowing for different chart tabs, as needed. These should only be managed by a Deployment Consultant. To view chart types, navigate to the **Chart Types** tab in the Control Panel.
 
-![](../review-session-system-configuration.assets/7540c7574ae3f8e8cb2256a86e423b52.png)
+![](./review-session-system-configuration.assets/7540c7574ae3f8e8cb2256a86e423b52.png)
 
 ### Chart Tabs
 
 Chart tabs, too, are very important in the {{% system-name %}} system. Chart tabs hold the various contents of a chart type, or specific record. One aspect of chart tabs is to designate the types of documents to be available or used from a given chart tab. Though their color can be modified, and they can be added, removed, or renamed, as needed, they should only be managed by a Deployment Consultant. To view the default chart tabs, navigate to the **Chart Tabs** tab in the Control Panel.
 
-![](../review-session-system-configuration.assets/8106b3ab7ffe93a635b1b775ce22f89b.png)
+![](./review-session-system-configuration.assets/8106b3ab7ffe93a635b1b775ce22f89b.png)
 
 ### Document Types
 
 Document types are a foundational element of the {{% system-name %}} system. Document types establish the type of document, so that {{% system-name %}} understands what to do with the content, or data. Each document type gets mapped so that specific documents can display in one or more designated areas, or chart tabs. These are set up by default and should only be managed by the Deployment Consultant, from the [Document Types tab](https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types) of the Control Panel, if necessary.
 
-![](../review-session-system-configuration.assets/0c754ac3fcd1ea0bc421e1c8cd71741c.png)
+![](./review-session-system-configuration.assets/0c754ac3fcd1ea0bc421e1c8cd71741c.png)
 
 ### Load Employer Organizations
 
@@ -173,17 +173,17 @@ Depending on the needs of the business, Employer Organizations can be added and 
 
 The ability to add a Provider Organization is a feature designed to assist with provider management and to establish, or build provider directories. The provider directory is accessible when creating an order, where it pulls the provider name, address, and phone number onto the order form. This allows referring by provider. Provider Organizations may be added by clients from the [Provider Management sidemenu](https://system/?f=layout&module=MASTER&name=EPM_Maintenance&tabmodule=+).
 
-![](../review-session-system-configuration.assets/954217dcbe3485b04aec7fd3a29fb061.png)
+![](./review-session-system-configuration.assets/954217dcbe3485b04aec7fd3a29fb061.png)
 
 ### Billing Codes
 
 To assist with streamlining billing and charges, a Billing editor is available for managing Billing codes, picklists, and modifiers. To access the editor, navigate to the [Billing Codes tab](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&t=CPT+Codes&tabmodule=admin&tabselect=CPT+Codes) of the **Control Panel**.
 
-![](../review-session-system-configuration.assets/68023cb066b830280741949ee7564e0a.png)
+![](./review-session-system-configuration.assets/68023cb066b830280741949ee7564e0a.png)
 
 To begin adding Billing codes and their associated descriptions to the {{% system-name %}} system, simply click the [Add Billing code link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&opp=add_cpt), in the upper-right corner of the page.
 
-![](../review-session-system-configuration.assets/3f1377660fadcdce1c9acf8dc3f42e7b.png)
+![](./review-session-system-configuration.assets/3f1377660fadcdce1c9acf8dc3f42e7b.png)
 
 Duplicate Billing codes cannot be added to the system. An error message will appear, if attempted.
 
@@ -191,7 +191,7 @@ Duplicate Billing codes cannot be added to the system. An error message will app
 
 Once all Billing codes and descriptions have been entered, picklists can be created. Picklists provide a means to limit the number of available Billing codes by encounter type, or what's more is the ability to group Billing codes according to their function (e.g., Immunization Billing codes can be grouped into an individual picklist). Depending on the business needs, *all* picklists can be shown in the Billing and Charges section of encounters, by default; or certain picklists can be set to display in any encounter, as needed.
 
-![](../review-session-system-configuration.assets/96bfd63426e24308f464d4303eb9b57b.png)
+![](./review-session-system-configuration.assets/96bfd63426e24308f464d4303eb9b57b.png)
 
 To begin building picklists, click the [Add Picklist link](https://system/?f=encounter&s=cpt_manage&tabmodule=admin&tabmodule=admin&tabselect=CPT+Codes&view=picklist&opp=add_list) from the Billing Codes editor. This will open the Billing Picklist editor. Enter the name of the picklist in the **Name** field (must be unique). This field is limited to 30 characters. Next, enter the Billing codes needed to display within this picklist. The order in which they are entered is the way in which they display. When finished, click the **Save** button. Alternatively, clicking the **Save & Alphabetize** button will change the way the Billing codes display within the picklist, making them display alphabetically by description, rather than in the order in which they were entered.
 
@@ -213,10 +213,10 @@ Fee schedules are used to manage pricing for provided services, dependent upon a
 
 Adding and updating insurance to a chart is quick and easy with {{% system-name %}} . While in the individual's chart, navigate to the **Admin** chart tab, and select **Demographics** from the menu. Scroll to the bottom of the page, to the **Insurance Summary** section. To begin entering insurance information, click the **Add Insurance** link. The page will refresh and display the *Add Insurance Policy* screen, where the insurance policy and pre-certification information may be added to the patient's chart.
 
-![](../review-session-system-configuration.assets/72b466d4e537f71090d53852c0da2982.png)
+![](./review-session-system-configuration.assets/72b466d4e537f71090d53852c0da2982.png)
 .
 
-![](../review-session-system-configuration.assets/133fa97437f0188b472a4d574f11f7b7.png)
+![](./review-session-system-configuration.assets/133fa97437f0188b472a4d574f11f7b7.png)
 
 When adding an insurance plan to a chart, it is important the insurance plan is available within {{% system-name %}} . To view and manage available insurance plans within the system, navigate to the [Insurance Plans tab](https://system/?f=chart&s=insplan&tabmodule=admin&t=Insurance+Plans&tabmodule=admin&tabselect=Insurance+Plans) of the **Control Panel**. Here, administrators may add and update available insurance plans, as needed. The plans that are added will be available for selection from the *Insurance Plan* autocomplete, found when adding a policy to the patient's chart.
 
@@ -234,7 +234,7 @@ As a means to automate varying types of system maintenance and necessary workflo
 
 Users have the ability to manage specific settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, to begin editing these options. For information on each of the preferences, check out the [My Settings](../../functions/system-administration/security/my-settings.md) and [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) help documentation.
 
-![](../review-session-system-configuration.assets/9c86b4fc26a76c79c00321b07a9f60e6.png)
+![](./review-session-system-configuration.assets/9c86b4fc26a76c79c00321b07a9f60e6.png)
 
 Some of the most commonly changed user preferences are:
 

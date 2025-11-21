@@ -11,7 +11,7 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
   - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import your pulmonary function testing data into {{% system-name %}} .
 
@@ -143,7 +143,7 @@ What you will need:
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a pulmonary function test record. Below is a screenshot of the PFT Data CSV File Example for guidance.
 
-![](../create-pft-data-file-for-import.assets/5f64a31781e850897d6720b84d7bb4e2.png)
+![](./create-pft-data-file-for-import.assets/5f64a31781e850897d6720b84d7bb4e2.png)
 
 3. Save the file as CSV format.
 
@@ -152,19 +152,19 @@ What you will need:
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](../create-pft-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
+![](./create-pft-data-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
 3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
-![](../create-pft-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
+![](./create-pft-data-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 4. Select <strong>PFT Data CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-![](../create-pft-data-file-for-import.assets/30d41df38dfbd6662a6ce0a367d7c487.png)
+![](./create-pft-data-file-for-import.assets/30d41df38dfbd6662a6ce0a367d7c487.png)
 
 5. Select the PFT Data CSV File and click <strong>Upload</strong>.
 
-    ![](../create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
+    ![](./create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.

@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.
 
@@ -19,15 +19,15 @@ Before adding a fast task template, check the existing fast task listing to make
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
+![](./fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
 
 To configure and add a new Fast Task template selection to the system, click the Add link found on the right side of the Fast Tasks screen.
 
-![](../fast-task-templates.assets/30f06c204c4ff2333e1656ac6ccf60e5.png)
+![](./fast-task-templates.assets/30f06c204c4ff2333e1656ac6ccf60e5.png)
 
 The Task Template (NEW) screen opens.  Enter information into any applicable fields to create the new fast task selection for the system.
 
-![](../fast-task-templates.assets/b1e8f50c51f5896d1950828a46693ae8.png)
+![](./fast-task-templates.assets/b1e8f50c51f5896d1950828a46693ae8.png)
 
 * Name: Name of the fast task link that will show for users to utilize. Must be a unique name.
 * Due Date: Optional field.  Type in the amount of time from the creation of the fast task, to the time the task is considered due to complete.  Example: If you want to give users 1d 4h = 1 day 4 hours from the day the task was created, until it's due, then type 1d 4h  (putting spaces between increments do not matter). When the fast task is saved to the system, the system will then convert 1d 4h into minutes.  Due Dates (when creating fast task templates) are stored in minutes. Therefore, 1d 4h will be converted to 1680 minutes when the Save button is clicked.  Either the due date or a remind date field is required when adding a fast task template to the system.
@@ -43,7 +43,7 @@ The Task Template (NEW) screen opens.  Enter information into any applicable fi
 * Layout:  Leave as None/Std Comment.  However, MIE can program a specific layout to allow users to input task details that displays in the Notes section when creating a text.  Layouts allow a different look instead of just a plain text-box if needed. It can also pull other {{% system-name %}} information into the task automatically (ex: patient's conditions, patient's allergies, etc).  Layouts are billable time done by MIE and the layout type/name would show here as a choice after it's developed.
 * Notes: Fast Tasks can show pretemplated text here in the notes field.  This may help prompt other users to remember what to key in or do or specific information that is standard for this fast task.  Whatever is typed here in the template will display in the ‘notes' field of the fast task when users create this fast task or when system automatically sends the fast task if based on a tasklist event rule.  This notes field can be left blank to indicate a free-text notes field. If a Layout is programmed by MIE (see layout field above), then the layout would display in the Note field when users create the fast task. This is an example of a layout being used for the Notes section.  This layout is designed to have the user document specific things to be entered in the task of this type.
 
-![](../fast-task-templates.assets/43f1604b4581c61ebc7e2bfee0fbfaa2.png)
+![](./fast-task-templates.assets/43f1604b4581c61ebc7e2bfee0fbfaa2.png)
 
 * Insert as Completed:  Checkmark this only if the task is to be considered completed automatically when this specific fast task is created and used.
 * Assign to: Fast Tasks can be templated to know who to assign it to and then the user doesn't have to always set who to assign this fast task type to.  Typically repetitive tasks or common tasks always go to the same person or department. The Assign To field here is to indicate whom the fast task is to be assigned to when used.  It is ok to leave the Assign To field blank, but when a user goes to use this type of fast task template in the system, the user needs to manually assign the task each time the fast task is used.
@@ -62,13 +62,13 @@ To access the Fast Tasks Template tab within the Task List sidemenu module, user
 
 When in the Task List sidemenu tab, the Fast Tasks tab at the top displays a list of all existing ‘Fast Tasks' that are already set up in the system.
 
-![](../fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
+![](./fast-task-templates.assets/4752b033f85fb899a7ec5a593bc94508.png)
 
 ### Edit
 
 To edit, find the specific fast task template that needs edited and simply click the respective Edit link in the options column.
 
-![](../fast-task-templates.assets/f2ef4ce5656c8312767b852c6e0e3ccd.png)
+![](./fast-task-templates.assets/f2ef4ce5656c8312767b852c6e0e3ccd.png)
 
 Change and edit any of the fast task template fields and click Save when done editing.
 
@@ -80,7 +80,7 @@ To delete, find the specific fast task template and simply click the respective 
 
 It will ask you to confirm that you are sure you want to delete the fast task.
 
-![](../fast-task-templates.assets/d8369533c83a7f58b92b536a13b18dfc.png)
+![](./fast-task-templates.assets/d8369533c83a7f58b92b536a13b18dfc.png)
 
 Click the Yes button to proceed and delete the fast task template from the system. It will display a message that you successfully deleted the fast task.
 

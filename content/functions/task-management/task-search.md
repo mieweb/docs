@@ -7,11 +7,11 @@ lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 To access the Task Search tab within the Task List sidemenu module, users must have security for Task Search.
 
-![](../task-search.assets/40fce06d834968e81be9b252d8a9c73c.png)
+![](./task-search.assets/40fce06d834968e81be9b252d8a9c73c.png)
 
 The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.
 
@@ -37,7 +37,7 @@ The search criteria fields are described as:
 
 Once any applicable search criteria fields are filled out, click the Submit button to display matching results. Task Search Results will display on the screen.
 
-![](../task-search.assets/9846d07054cc39c0837b9ddf80ffa82e.png)
+![](./task-search.assets/9846d07054cc39c0837b9ddf80ffa82e.png)
 
 {{% tip %}}
 The Show CSV link is available to export the results into an excel spreadsheet to do further filtering or sorting if needed.
@@ -45,6 +45,6 @@ The Show CSV link is available to export the results into an excel spreadsheet 
 
 If need to run another Task Search, but want to keep most of the search criteria fields the same as previously entered and only modify a few, simply click the Modify Search Criteria hyperlink found at the top right corner of the results screen.
 
-![](../task-search.assets/4921706f28c20b0fc52cceb4e6f42e84.png)
+![](./task-search.assets/4921706f28c20b0fc52cceb4e6f42e84.png)
 
 Clicking that will take you back to the Task Search, but keeps all the search criteria fields set to the previously entered criteria.  At that point, you can simply modify any specific search field(s) needed, without having to enter fields and data again from scratch. Click the Submit button to run a modified search.

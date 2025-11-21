@@ -7,7 +7,7 @@ lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1loA7Jvim_szKhdMqNVFK2GVtdFR2-dodvINyIdqtI7U'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 The following is referring to a Welch Allyn Spot Vital Signs monitor system. Contact your MIE Implementer to see if your vision system model can be interfaced or quoted.
 
@@ -18,7 +18,7 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 3. Add encounter for patient or add vitals by choosing the Vitals chart tab
 4. Once Encounter has been added scroll down to Vitals section or enter in via Vitals chart tab. Make sure <em>device</em> mode is selected.
 
-![](../device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)
+![](./device-interface-vital-signs.assets/6df787e03e853bc8427d84a6e7c5ee43.png)
 
 1. Select the Get readings button in {{% system-name %}}
     1. Vital signs will appear on page.
@@ -29,7 +29,7 @@ The following is referring to a Welch Allyn Spot Vital Signs monitor system. Con
 6. Please note that for metrics the process above is the preferred method for entering vital signs
 7. Take patient's vital signs.
 
-![](../device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)
+![](./device-interface-vital-signs.assets/f6584808957858c2fc350ab898e32c1e.png)
 
 1. Select the Get readings button.
     1. Vital signs will appear on page.

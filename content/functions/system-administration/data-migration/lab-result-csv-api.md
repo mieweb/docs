@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 
@@ -27,7 +27,7 @@ Lab results are stored in a chart as a document. A **document** in an EH syste
 
 All lab results are stored both as discrete data. Discrete data can be displayed in EH as a **flowsheet**, or collection of results.
 
-![](../lab-result-csv-api.assets/a227f45c633d223b420da98d1e1a7948.png)
+![](./lab-result-csv-api.assets/a227f45c633d223b420da98d1e1a7948.png)
 
 ## Specifications
 

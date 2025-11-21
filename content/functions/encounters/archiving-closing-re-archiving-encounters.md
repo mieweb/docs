@@ -11,7 +11,7 @@ links:
   - '../../resources/intro-to-the-system.md'
   - '../../resources/intro-to-the-system/system-anatomy.md'
 source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.
 
@@ -29,17 +29,17 @@ Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit
 
 **Encounter Info Toolbar** - Provides quick links to the current encounter, allowing users quick access to the encounter while working from within an E-chart or another encounter.
 
-![](../archiving-closing-re-archiving-encounters.assets/2fec98df1e637eec53d7de30184d73b3.png)
+![](./archiving-closing-re-archiving-encounters.assets/2fec98df1e637eec53d7de30184d73b3.png)
 
 **Encounter Navigation Toolbar** - Provides navigation tabs which allow users to jump to different sections of the encounter. Hovering over any tab will display the sections that are available from within that portion of the encounter.
 
-![](../archiving-closing-re-archiving-encounters.assets/3b9280bc6e4a35b32d4e5503eb4ed9b7.png)
+![](./archiving-closing-re-archiving-encounters.assets/3b9280bc6e4a35b32d4e5503eb4ed9b7.png)
 
 **Standard Encounter Buttons** - Buttons related to an open encounter:
 
-![](../archiving-closing-re-archiving-encounters.assets/d1f38ff929e82fcf75d3363245f3c9bf.png)
+![](./archiving-closing-re-archiving-encounters.assets/d1f38ff929e82fcf75d3363245f3c9bf.png)
 
-![](../archiving-closing-re-archiving-encounters.assets/1be662cfed89c36a1456f6982a2a0392.png)
+![](./archiving-closing-re-archiving-encounters.assets/1be662cfed89c36a1456f6982a2a0392.png)
 
 **Release** - This button will not only save the current progress of the encounter, but it will simply discharge, or release the current active editor from the encounter, allowing other users to modify the encounter without risk of overwriting each other's documentation.
 
@@ -54,27 +54,27 @@ If any transcription is pending on an encounter, users will not have the option 
 **Archive & Close** - Saves the progress of the encounter, releases all dictation performed within the encounter, closes (finalizes), and then archives it with a designated document ID.
 
 {{% info %}}
-Clicking the encounter section header or the![](../archiving-closing-re-archiving-encounters.assets/fa0325139c383d1d04c4602a1ae696f5.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
+Clicking the encounter section header or the![](./archiving-closing-re-archiving-encounters.assets/fa0325139c383d1d04c4602a1ae696f5.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
 {{% /info %}}
 
 **Encounter Stage buttons** - To assist users in pushing the encounter through the established workflow, these buttons can be configured with any necessary stages and be placed at the top and bottom of the encounter for ease of access. These buttons simply change the *stage* of the open encounter, indicating it is ready for the next user.
 
-![](../archiving-closing-re-archiving-encounters.assets/1cdb6b4601c9f112899e2c0f3b002257.png)
+![](./archiving-closing-re-archiving-encounters.assets/1cdb6b4601c9f112899e2c0f3b002257.png)
 
-![](../archiving-closing-re-archiving-encounters.assets/a8e00206ceb430eeae08065a3f13625b.png)
+![](./archiving-closing-re-archiving-encounters.assets/a8e00206ceb430eeae08065a3f13625b.png)
 
 ## Archiving and Closing Encounters
 
 As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will *archive the document with a designated doc ID*.
 
-![](../archiving-closing-re-archiving-encounters.assets/9c7ac5e2f617c509d1e1f22bebc0bf67.png)
+![](./archiving-closing-re-archiving-encounters.assets/9c7ac5e2f617c509d1e1f22bebc0bf67.png)
 
 {{% note %}}
 By default, encounters require that any orders that have been marked as In Progress during the visit are either Completed or set back to a Pending status before Closing and Archiving the encounter. In **rare** instances, a customer may require order items stay in an In Progress order status upon closing and archiving. In such an event, a system setting "Allow Close w/ In Progress Items" has been created.  When enabled and a provider attempts to close and archive an encounter, the provider will be prompted with a message displaying all In Progress orders and asking if they wish to proceed. If the provider selects, yes, they wish to proceed, then the encounter will close and archive with the order items still In Progress.
 
-![](../archiving-closing-re-archiving-encounters.assets/8f0c5c6a3b5b462982e0cc907cc26303.png)
+![](./archiving-closing-re-archiving-encounters.assets/8f0c5c6a3b5b462982e0cc907cc26303.png)
 
-![](../archiving-closing-re-archiving-encounters.assets/3beebe6845cbebb23c9347c21c02b696.png)
+![](./archiving-closing-re-archiving-encounters.assets/3beebe6845cbebb23c9347c21c02b696.png)
 {{% /note %}}
 
 ### Creating a Preliminary Archive

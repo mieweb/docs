@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 {{% system-name %}} offers various portal options, depending on the needs of the client. The **Supervisor Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, schedule appointments, submit questionnaires on the employee's behalf, or any additional information custom to the business needs.
@@ -26,19 +26,19 @@ Again, before configuring the Supervisor Portal, it must be enabled within the s
 4. Locate and select the <em>Portal Setup</em> tab.
 5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.
 
-![](../supervisor-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
+![](./supervisor-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
 7. With the Supervisor Portal setup completed, navigate to the <em>Supervisor Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.
 
-    ![](../supervisor-portal-setup.assets/9bd7dd812d2246dd843404a5617e1a0d.png)
+    ![](./supervisor-portal-setup.assets/9bd7dd812d2246dd843404a5617e1a0d.png)
 
 8. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
 
-![](../supervisor-portal-setup.assets/2c0a5dafb3b0047cd8e1d88e1916da63.png)
+![](./supervisor-portal-setup.assets/2c0a5dafb3b0047cd8e1d88e1916da63.png)
 
 9. To begin the customization, click the <strong>Configuration</strong> section header to open and begin editing.  
-    ![](../supervisor-portal-setup.assets/07e395c554d7eba9264c011cbbc31e76.png)
+    ![](./supervisor-portal-setup.assets/07e395c554d7eba9264c011cbbc31e76.png)
 
 ### Configuration
 
@@ -56,10 +56,10 @@ Miscellaneous
 Home Page
 
 * <strong>View Sample</strong> (
-    ![](../supervisor-portal-setup.assets/e90ca94852bca1255ff5a0074613a42c.png)
+    ![](./supervisor-portal-setup.assets/e90ca94852bca1255ff5a0074613a42c.png)
     ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
-![](../supervisor-portal-setup.assets/67b5ef8147665c28980e597991cfdc80.png)
+![](./supervisor-portal-setup.assets/67b5ef8147665c28980e597991cfdc80.png)
 
 * <strong>Brand for portal welcome message</strong>: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
 * <strong>Description for portal welcome message</strong>: The description provided for the Portal Welcome Message. Click Show Sample to see where this occurs.
@@ -87,7 +87,7 @@ The expanded Select Module section allows for configuration of each module, if n
 
 1. Clicking on the <strong>Select Modules</strong> header will open a window with all of the default-enabled modules of the Supervisor Portal checked. Add or remove modules, as needed, and click the <strong>Save</strong> button.
 
-![](../supervisor-portal-setup.assets/86e2f7eeb4c04afdb176c19e6f1601a8.png)
+![](./supervisor-portal-setup.assets/86e2f7eeb4c04afdb176c19e6f1601a8.png)
 
 2. There are twenty-one (21) modules that can be selected within the Supervisor Portal.
     a.  <strong>Case Review Status</strong>
@@ -219,7 +219,7 @@ The Send a Message module can have its name and header customized, the sending i
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
 {{% /tip %}}
 
-![](../supervisor-portal-setup.assets/2ac5c4427f4680b2abbd0d0806354722.png)
+![](./supervisor-portal-setup.assets/2ac5c4427f4680b2abbd0d0806354722.png)
 
 {{% note %}}
 Supervisor Message Types are Questionnaire ORDERS. The list of available message types are configured in the *Orders-Pick Builder* *Supervisor Messages* picklist. Once the orders picklist has been configured, the orders (message types) will display within the portal configuration **Send a Message** configuration portlet.
@@ -227,7 +227,7 @@ Supervisor Message Types are Questionnaire ORDERS. The list of available message
 
 {{% /note %}}
 
-![](../supervisor-portal-setup.assets/e29a7ac049a8b078cb0e0812c4bfc429.png)
+![](./supervisor-portal-setup.assets/e29a7ac049a8b078cb0e0812c4bfc429.png)
 
 ## Adding Users & Linking to Supervisors (supported for databases on release 202503 and newer)
 
@@ -238,21 +238,21 @@ Every user intending to use the portal needs to be added by associating the user
 1. In most cases employee's charts and user accounts are automatically created via an HR interface. User accounts and passwords are typically configured for Single Sign On (SSO) and managed outside of {{% system-name %}}.
 2. Users requiring Supervisor Portal access must have a <strong>Username/Email</strong>, <strong>Primary Department</strong> set to ‘Employees', <strong>Current Status</strong> set to ‘Active', <strong>Security Role</strong> set to ‘Employees', and <strong>Def. User Role</strong> set to ‘User - Limited Access'.
 
-![](../supervisor-portal-setup.assets/55c162e811dcba10068693a145792eda.png)
+![](./supervisor-portal-setup.assets/55c162e811dcba10068693a145792eda.png)
 
 3. User accounts must also have Contact Relationship types set for ‘Self' and "Portal User' to access the portal. Typically, this is automatically preconfigured by an HR Interface and/or during the manual registration process. The contact relationship types can be added or viewed from the user account by selecting <strong>Edit Patients Linked to User</strong>.
 
-![](../supervisor-portal-setup.assets/03e6792cda58b21710300fd147a05074.png)
+![](./supervisor-portal-setup.assets/03e6792cda58b21710300fd147a05074.png)
 
 However, it is often easier to manage **Contact** relationship types from the **Contacts** portlet on the patient chart **Summary** tab.
 
-![](../supervisor-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
+![](./supervisor-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
 
-![](../supervisor-portal-setup.assets/666ae59974a4d9ceff2e6ee12bf4896e.png)
+![](./supervisor-portal-setup.assets/666ae59974a4d9ceff2e6ee12bf4896e.png)
 
 4. Employees must also have a <strong>Relationship</strong> to the employer's portal, as identified in the <strong>Name</strong> field, with the <strong>Relation Type</strong> set to ‘Employer'. This relationship is also typically managed by an HR feed.
 
-![](../supervisor-portal-setup.assets/58dcb87ee7e970a1e3c56d3f261a0290.png)
+![](./supervisor-portal-setup.assets/58dcb87ee7e970a1e3c56d3f261a0290.png)
 
 {{% tip %}}
 To remove a role from the table, simply click the minus button. After all changes are made, click the **Submit** button.
@@ -264,8 +264,8 @@ Linking users to a supervisor allows the managing user to log into the portal an
 
 1. Navigate to the employee chart <strong>Summary</strong> tab and manage the information from the <strong>Contacts</strong> portlet.
 
-![](../supervisor-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
+![](./supervisor-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
 
 2. Use the autocomplete in the <strong>Contacts</strong> list and search for the supervisor's name (<strong>User Name</strong> field), enter the <strong>Role</strong> of ‘Supervisor' and click the <strong>Add</strong> button. When complete, select the <strong>Submit</strong> button to save any edits. The Supervisor should not be listed multiple times and/or with multiple role types. The supervisor name should display once only with the Role of Supervisor.
 
-![](../supervisor-portal-setup.assets/36e2f8812af3014a2f2780246458f075.png)
+![](./supervisor-portal-setup.assets/36e2f8812af3014a2f2780246458f075.png)

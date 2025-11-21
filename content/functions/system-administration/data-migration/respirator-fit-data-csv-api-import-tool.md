@@ -9,7 +9,7 @@ links:
   - 'data-import-tab.md'
   - 'https://docs.google.com/spreadsheets/d/1gRbT7ksHUvDXqjHijTF4ipHbyyRDruMgjjx8zbcHqWI/view?gid=0'
 source: 'https://drive.google.com/open?id=1JYGKWOt98LpnXr20Rr4VDkhfgb1cYX7-72aWGkB0JMM'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import Respirator Fit Test data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
 
@@ -43,11 +43,11 @@ The following defines data and fields that may be imported using the Respirator 
 
 The following table provides optional or required **Field Names** and **Descriptions**, as indicated by the **Required** column. Items marked as O are Optional are not required and may be left blank, or omitted entirely. We recommend using Partition and MRN as the unique chart identifier to match the data to.  Then the first name, middle name, last name, SSN, and DOB columns can be omitted from the spreadsheet.
 
-![](../respirator-fit-data-csv-api-import-tool.assets/3505621dc9fb11cbf7857cf36fa5b9c0.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/3505621dc9fb11cbf7857cf36fa5b9c0.png)
 
 Using the table, above, determine the data to be imported. Starting with the PARTITION field, enter all required and desired data, verifying at minimum the required data is present. Note that each row represents a Respirator Fit Test data record. Below is a screenshot of the Respirator Fit Text sample example using Partition & MRN columns as the unique identifier (for helpful guidance):
 
-![](../respirator-fit-data-csv-api-import-tool.assets/2f7c2bfa39efe0a4ee5905548435088d.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/2f7c2bfa39efe0a4ee5905548435088d.png)
 
 When done keying in the information into the templated spreadsheet, save it as a CSV file type. The {{% system-name %}} data import tool only supports importing CSV file type.  *Note: you can also save as an excel file type to be able to make changes to, but when ready to import, it must be saved and uploaded as a* **_CSV_** *file type as the only supported type.*
 
@@ -57,15 +57,15 @@ Accessing the Data Import tool in the system requires security permissions.
 
 Navigate to the Control Panel from the side menu and select the Data Import tab.
 
-![](../respirator-fit-data-csv-api-import-tool.assets/fa5d875628c1142eff9bf1e72600a996.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/fa5d875628c1142eff9bf1e72600a996.png)
 
 Select **Respirator Fit Test Data CSV API** from the datavis listing and click **Upload Data** button.
 
-![](../respirator-fit-data-csv-api-import-tool.assets/454ba8a34175fe33daeaa44173d18548.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/454ba8a34175fe33daeaa44173d18548.png)
 
 Checkmark the **Verbose** item, keep the **Delimiter** as comma, then in the **CVS File** line, click the **Choose File** button, and browse to insert your Respirator Fit Test data CSV file (from earlier steps) and click **Upload File** button.
 
-![](../respirator-fit-data-csv-api-import-tool.assets/fad9a83f0556ab7352f289e46da1b1cf.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/fad9a83f0556ab7352f289e46da1b1cf.png)
 
 For more detailed information on using the Data Import Tool options, please see the [Data Import Tab](data-import-tab.md) guide.
 
@@ -87,13 +87,13 @@ Once the data has been imported, you can browse to an employee chart to their Re
 
 This is the maximum Respirator Fit Testing data you can import.  This example shows data for all fields since we imported data from all columns that were *required* **_and_*** optional.*
 
-![](../respirator-fit-data-csv-api-import-tool.assets/7821f57f88b3f581de65184ceb182296.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/7821f57f88b3f581de65184ceb182296.png)
 
 ### Example of Respirator Fit Testing that was Imported with ONLY the REQUIRED columns of the spreadsheet populated:
 
 This is the minimum Respirator Fit Testing data you can import.  This example shows data imported for only the *required* fields using the data import method and without any optional columns of data in the respirator fit templated spreadsheet populated:
 
-![](../respirator-fit-data-csv-api-import-tool.assets/9480aba82d36ed2f8c6183b0f2e7790a.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/9480aba82d36ed2f8c6183b0f2e7790a.png)
 
 It's up to business decisions on what data to import to upload for Respirator Fit Tests, but there are minimum *required fields* in the spreadsheet in order to be able to upload a successful file for respirator fit test data.
 
@@ -101,8 +101,8 @@ It's up to business decisions on what data to import to upload for Respirator Fi
 
 This is utilizing the optional *encounter order id* column with your system's specific unique order item code for respirator fit tests.  This example shows a completed order for Respirator Fit Test being inserted as completed in the due list.
 
-![](../respirator-fit-data-csv-api-import-tool.assets/c5325ae12827e6ec4a5f11503c48f0e1.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/c5325ae12827e6ec4a5f11503c48f0e1.png)
 
 And this example shows a completed order for Respirator Fit Test being inserted as completed in the due list that completed a pending or in-progress Respirator Fit Test on the chart's due list (regardless of its pending or in-progress due date).
 
-![](../respirator-fit-data-csv-api-import-tool.assets/0f0c975ed025d17b003ecd77e5df29c8.png)
+![](./respirator-fit-data-csv-api-import-tool.assets/0f0c975ed025d17b003ecd77e5df29c8.png)
