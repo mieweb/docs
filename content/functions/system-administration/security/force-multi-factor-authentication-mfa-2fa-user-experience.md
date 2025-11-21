@@ -1,14 +1,14 @@
 ---
 id: '15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
 title: 'Force Multi-Factor Authentication MFA/2FA User Experience'
-date: '2025-11-13T14:28:47.996Z'
-version: 63
-lastAuthor: 'janderson'
+date: '2025-11-13T18:15:48.419Z'
+version: 79
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/'
+  - 'multi-factor-authentication-mfa-require-2fa-system-configuration.md'
+  - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
+  - 'one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
 source: 'https://drive.google.com/open?id=15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
 wikigdrive: 'v2.15.27'
 markup: 'pandoc'
@@ -18,7 +18,7 @@ The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two
 * Via authentication using an external device or app that generates the OTP
 * Via authentication based on an email that generates the OTP
 
-For information on system administrator configuration of MFA/2FA for the system and options, please refer to guide [Multi-Factor Authentication MFA/Require 2FA Configuration](https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/).
+For information on system administrator configuration of MFA/2FA for the system and options, please refer to guide [Multi-Factor Authentication MFA/Require 2FA Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md).
 
 ## Force MFA/2FA Security Permission
 
@@ -149,6 +149,6 @@ The user would open up their authenticator app on their other device, get the ra
 
 ## Additional Resources
 
-* [Multi-Factor Authentication MFA/Require 2FA System Configuration](https://docs.enterprisehealth.com/functions/system-administration/security/multi-factor-authentication-mfa-require-2fa-system-configuration/)
-* [Encourage Multi-Factor Authentication MFA/2FA User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience/)
-* [One Time Password Authentication via Email User Experience](https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/)
+* [Multi-Factor Authentication MFA/Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md)
+* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
+* [One Time Password Authentication via Email User Experience](one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)

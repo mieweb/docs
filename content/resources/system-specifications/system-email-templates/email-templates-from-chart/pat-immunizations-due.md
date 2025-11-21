@@ -1,17 +1,16 @@
 ---
 id: '18cyXlgTRUM7ANFk3Ho_NODVuaG2Ml5u3VSIxlflECHI'
 title: 'Pat Immunizations Due'
-date: '2020-03-10T14:06:41.621Z'
-version: 29
-lastAuthor: 'aquandt'
+date: '2025-11-13T18:07:36.774Z'
+version: 34
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMUN&old_module=Email&old_name=Pat+Immunizations+Due&active=0'
+links: []
 source: 'https://drive.google.com/open?id=18cyXlgTRUM7ANFk3Ho_NODVuaG2Ml5u3VSIxlflECHI'
 wikigdrive: 'v2.15.27'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMUN&old_module=Email&old_name=Pat+Immunizations+Due&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com

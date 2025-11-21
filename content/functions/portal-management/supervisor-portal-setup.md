@@ -1,9 +1,9 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Supervisor Portal Setup'
-date: '2025-08-07T18:47:34.699Z'
-version: 526
-lastAuthor: 'auhrick'
+date: '2025-11-17T21:56:19.717Z'
+version: 535
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
@@ -26,7 +26,7 @@ Again, before configuring the Supervisor Portal, it must be enabled within the s
 4. Locate and select the <em>Portal Setup</em> tab.
 5. Click on the <strong>General Configuration</strong> section header to open and select the appropriate features to enable all portals that are necessary.
 
-    ![](../supervisor-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
+![](../supervisor-portal-setup.assets/1944d98e352760503335666f8275eb27.png)
 
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
 7. With the Supervisor Portal setup completed, navigate to the <em>Supervisor Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.

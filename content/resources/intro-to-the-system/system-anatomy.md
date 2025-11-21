@@ -1,11 +1,12 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-08-19T18:57:55.074Z'
-version: 159
-lastAuthor: 'auhrick'
+date: '2025-11-14T15:25:43.060Z'
+version: 177
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/resources/intro-to-the-system/'
   - '../intro-to-the-system.md'
   - '../../functions/encounters/working-in-a-visit-encounter.md'
   - 'https://mie.talentlms.com/shared/start/key:AZGHRKMF'
@@ -15,7 +16,7 @@ markup: 'pandoc'
 ---
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.
 
-For an overview on basic {{% system-name %}} navigation and functionality, see [Intro to the System](../intro-to-the-system.md).
+For an overview on basic {{% system-name %}} navigation and functionality, see [Intro to the System](https://docs.enterprisehealth.com/resources/intro-to-the-system/).
 
 ## Header and Side Navigation
 
@@ -45,11 +46,12 @@ C. Patient info toolbar: Displays patient name and MR # when working in an E-cha
 
 1. Side chart icon: Opens the side chart when working in an encounter. Displays pertinent patient information (demographics, notes, medical records, orders/tests, comments) on the right side of the page.
 
-    ![](../system-anatomy.assets/bd97d467d82a6d81f00bc02a2cab0eb0.png)
+
+![](../system-anatomy.assets/bd97d467d82a6d81f00bc02a2cab0eb0.png)
 
 D. Patient Extended toolbar: Displays demographic, encounter, and other related information (such as incidents) while working in an E-chart or an encounter.
 
-E. Alerts toolbar: Displays available alert information for patient while working in an E-chart or encounter.
+E. Alerts toolbar: Displays available alert information for patients while working in an E-chart or encounter.
 
 F. Encounter info toolbar: Displays links to open encounters while working in an E-chart or encounter.
 
@@ -104,15 +106,15 @@ G.  The world icon allows users to switch between different languages (as config
 
 ![](../system-anatomy.assets/3de3b8eb932206934414e564ab033ec5.png)
 
-H. The Keyboard icon displays a list of Keyboard shortcuts.
+H.  The Keyboard icon displays a list of Keyboard shortcuts.
 
 ![](../system-anatomy.assets/bbd2fda5bca27c4fb3c1cddb658b3dcf.png)
 
-I. The orange questionmark bubbles directs users to the online helpguides and videos.
+I.  The orange question mark bubbles directs users to the online help guides and videos.
 
 ![](../system-anatomy.assets/a4a41c0e343ffef2519737570adbe6bd.png)
 
-J. The gray circle icon displays page performance data.
+J.  The gray circle icon displays page performance data.
 
 ![](../system-anatomy.assets/59f4e79f1c6ef26ee62f49a04c39373d.png)
 

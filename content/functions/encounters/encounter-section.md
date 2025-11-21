@@ -1,9 +1,9 @@
 ---
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
-date: '2025-05-08T16:13:57.092Z'
-version: 106
-lastAuthor: 'auhrick'
+date: '2025-11-14T13:08:22.668Z'
+version: 115
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
@@ -45,7 +45,7 @@ Use the Edit icon or simply click on the gray header bar for the Encounter secti
 
 ![](../encounter-section.assets/47d04da09b81e900355c348ad6649b75.png)
 
-**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an *Employer Organization* has been created for *Self Pay* and/or for *Commercial Pay*. These are typically configured for clients at the time the interface is installed.
+**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an *Employer Organization* chart has been created for *Self Pay* and/or for *Commercial Pay*. These are typically configured for clients at the time the interface is installed.
 
 ![](../encounter-section.assets/87619c7638438672c73169908666b4b5.png)
 

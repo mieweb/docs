@@ -1,9 +1,9 @@
 ---
 id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
 title: 'Intro to the System'
-date: '2022-11-02T12:52:40.975Z'
-version: 102
-lastAuthor: 'wreiske'
+date: '2025-11-14T14:59:14.146Z'
+version: 115
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'intro-to-the-system/system-anatomy.md'
@@ -41,15 +41,9 @@ Searching for a patient's chart still begins at the E-Chart tab. The overall loo
 
 E-chart navigation includes a number of toolbars, including:
 
-* The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower
-
-right corner.
-
+* The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower right corner.
 * The Patient Info toolbar displays the patient's name and medical record number.
-    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past
-
-encounters, notes and comments.
-
+    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past encounters, notes and comments.
 * The Patient Extended Toolbar displays demographic, encounter, and other related information.
 * The Alerts toolbar displays available alert information — such as allergies or do not release requests.
 * The Encounter toolbar displays information and links to the open patient encounter.
