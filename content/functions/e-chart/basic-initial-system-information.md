@@ -2,7 +2,7 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2025-11-07T18:29:57.490Z'
-version: 258
+version: 261
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

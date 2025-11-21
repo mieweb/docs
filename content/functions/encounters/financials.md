@@ -2,7 +2,7 @@
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
 date: '2025-11-11T14:12:05.684Z'
-version: 251
+version: 252
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

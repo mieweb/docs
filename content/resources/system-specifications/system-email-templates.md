@@ -2,7 +2,7 @@
 id: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
 title: 'System Email Templates'
 date: '2020-02-27T21:26:58.722Z'
-version: 39
+version: 40
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

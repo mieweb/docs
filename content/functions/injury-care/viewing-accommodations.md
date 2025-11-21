@@ -2,7 +2,7 @@
 id: '1oK6ySGjUdGxJ6kMIzWCA7Z4YoMukmyapVc01Wb9cEvs'
 title: 'Viewing Accommodations'
 date: '2025-11-11T14:46:27.237Z'
-version: 83
+version: 84
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

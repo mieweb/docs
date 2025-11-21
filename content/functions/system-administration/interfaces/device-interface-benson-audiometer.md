@@ -1,9 +1,9 @@
 ---
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
-date: '2025-11-13T14:52:01.178Z'
-version: 399
-lastAuthor: 'janderson'
+date: '2025-11-17T18:52:28.438Z'
+version: 412
+lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'

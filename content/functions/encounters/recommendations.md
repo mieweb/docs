@@ -2,7 +2,7 @@
 id: '1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE'
 title: 'Recommendations'
 date: '2025-11-11T14:09:29.812Z'
-version: 75
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

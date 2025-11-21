@@ -2,7 +2,7 @@
 id: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
 title: 'Out-of-the-Box Urls'
 date: '2025-11-13T15:50:01.645Z'
-version: 39
+version: 40
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1H7WtbjdWRFk16DZx2HZK1GANzpRJH4FQiDhAuFAY4zE'
 title: 'OSHA 300 Log Report'
 date: '2025-11-11T19:54:54.518Z'
-version: 243
+version: 244
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

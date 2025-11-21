@@ -2,7 +2,7 @@
 id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 title: 'Inventory Tab Setup'
 date: '2025-11-13T15:29:20.229Z'
-version: 69
+version: 70
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

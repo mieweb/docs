@@ -2,7 +2,7 @@
 id: '1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
 title: 'Apt Invite Reminder'
 date: '2025-11-13T19:46:24.171Z'
-version: 26
+version: 27
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
 date: '2025-11-05T14:51:18.015Z'
-version: 610
+version: 615
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

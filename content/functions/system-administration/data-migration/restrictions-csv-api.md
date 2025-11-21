@@ -2,7 +2,7 @@
 id: '1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
 title: 'Restrictions CSV API'
 date: '2025-11-12T20:20:53.287Z'
-version: 37
+version: 38
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

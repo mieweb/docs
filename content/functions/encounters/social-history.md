@@ -2,7 +2,7 @@
 id: '1_IRVio8ps0MPf2Sr115O8HCtkFNOUJ3LU662l--4l_s'
 title: 'Social History'
 date: '2025-11-10T20:35:14.397Z'
-version: 75
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

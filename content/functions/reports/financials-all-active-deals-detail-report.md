@@ -2,7 +2,7 @@
 id: '1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg'
 title: 'Financials All Active Deals-Detail Report'
 date: '2025-11-11T19:31:58.290Z'
-version: 31
+version: 32
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

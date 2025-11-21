@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-19T19:43:03.745Z'
-version: 599
+date: '2025-11-19T19:43:06.564Z'
+version: 605
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:

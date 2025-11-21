@@ -2,7 +2,7 @@
 id: '1wmHfsyGscBIZTDK5wh9OHKFLvqomOaudvXI4KtKFjqo'
 title: 'Goals'
 date: '2025-11-07T17:59:34.480Z'
-version: 173
+version: 177
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

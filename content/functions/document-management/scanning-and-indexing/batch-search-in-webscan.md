@@ -2,7 +2,7 @@
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
 date: '2025-11-10T17:18:43.950Z'
-version: 74
+version: 75
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

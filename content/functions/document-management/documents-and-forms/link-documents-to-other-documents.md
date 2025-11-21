@@ -2,7 +2,7 @@
 id: '1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
 title: 'Link Documents to Other Documents'
 date: '2025-11-10T15:36:36.444Z'
-version: 75
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

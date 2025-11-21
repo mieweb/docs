@@ -1,8 +1,8 @@
 ---
 id: '1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
 title: 'Endpoints'
-date: '2023-01-19T20:01:24.657Z'
-version: 62
+date: '2025-11-10T16:07:25.657Z'
+version: 79
 lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links: []

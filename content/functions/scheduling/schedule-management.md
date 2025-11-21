@@ -2,7 +2,7 @@
 id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 title: 'Schedule Management'
 date: '2025-11-10T18:00:12.532Z'
-version: 255
+version: 260
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1Ac4wN2_76DgVyWJwojqbeTzRDlcLPs18fcePYEADJRg'
 title: 'Document Type Purge Rules'
 date: '2025-11-10T17:06:26.073Z'
-version: 84
+version: 93
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
