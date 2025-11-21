@@ -1,54 +1,54 @@
-{{- $u := urls.Parse .Destination -}}
-{{- $src := $u.String -}}
-{{- if not $u.IsAbs -}}
-{{ $parsedURL := urls.Parse .Page.Site.BaseURL }}
-{{ $basePath := $parsedURL.Path }}
-{{ $markdownDir := .Page.File.Dir }}
-{{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
-{{ $imageRelativePath := .Destination }}
-{{ $imgPath := path.Join $fullURLDir $imageRelativePath }}
-{{ $imgUrl := $imgPath | relURL }}
-{{ $siteUrl := .Page.RelPermalink }}
+{{- /* render_image.html */ -}}
 
-{{- $baseSegs   := split (trim $siteUrl "/") "/" -}}
-{{- $targetSegs := split (trim $imgUrl  "/") "/" -}}
+{{- $dest := .Destination | default "" -}}
+{{- $alt  := .PlainText | default "" -}}
+{{- $title := .Title -}}
 
-{{- $s := newScratch -}}
-{{- $s.Set "common" 0 -}}
-{{- $s.Set "done" false -}}
-{{- range $i, $seg := $baseSegs -}}
-  {{- if not ($s.Get "done") -}}
-    {{- if and (lt $i (len $targetSegs)) (eq $seg (index $targetSegs $i)) -}}
-      {{- $s.Set "common" (add ($s.Get "common") 1) -}}
+{{- /* If destination is absolute URL, use it as-is */ -}}
+{{- if strings.Contains $dest "://" -}}
+  {{- $src := $dest -}}
+
+{{- else -}}
+  {{- /* Try to find as page resource (page bundle). Match by base filename. */ -}}
+  {{- $basename := path.Base $dest -}}
+  {{- $img := .Page.Resources.GetMatch (printf "*%s" $basename) -}}
+
+  {{- if $img -}}
+    {{- $src := $img.RelPermalink -}}
+  {{- else -}}
+    {{- /*
+         Not a page resource. Consider three cases:
+         - $dest starts with '/' -> treat as site-rooted path (use relURL/absURL as desired)
+         - $dest is relative -> join with page file dir to create relative path
+       */ -}}
+    {{- if strings.HasPrefix $dest "/" -}}
+      {{- $src := $dest | relURL -}}
     {{- else -}}
-      {{- $s.Set "done" true -}}
+      {{- /* join page dir and destination then relURL it */ -}}
+      {{- $joined := path.Join .Page.File.Dir $dest -}}
+      {{- $src := $joined | relURL -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- $common := $s.Get "common" -}}
-{{- $ups := sub (len $baseSegs) $common -}}
-{{- $tail := delimit (after $common $targetSegs) "/" -}}
-
-{{- $s.Set "up" "" -}}
-{{- range seq $ups -}}
-  {{- $s.Set "up" (printf "%s../" ($s.Get "up")) -}}
+{{- /* Use the computed $src value above (we need one canonical variable scope) */ -}}
+{{- /* The previous if/else blocks declared $src inside branches; repeat logic cleanly below for output. */ -}}
+{{- /* Simpler: compute $src in local var first, then choose tag. */ -}}
+{{- $src := "" -}}
+{{- if strings.Contains $dest "://" -}}
+  {{- $src = $dest -}}
+{{- else if $img := .Page.Resources.GetMatch (printf "*%s" (path.Base $dest)) -}}
+  {{- $src = $img.RelPermalink -}}
+{{- else if strings.HasPrefix $dest "/" -}}
+  {{- $src = $dest | relURL -}}
+{{- else -}}
+  {{- $src = (path.Join .Page.File.Dir $dest) | relURL -}}
 {{- end -}}
-{{- $src := printf "%s%s" ($s.Get "up") $tail -}}
 
-{{ if strings.HasSuffix .Destination ".svg" }}
-<object type="image/svg+xml" data="{{ $src }}" >
-    <img src="{{ $src }}" alt="{{ .PlainText }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{- if strings.HasSuffix $dest ".svg" }}
+<object type="image/svg+xml" data="{{ $src }}">
+  <img src="{{ $src }}" alt="{{ $alt }}" {{ with $title }} title="{{ . }}" {{ end }} />
 </object>
-{{ else }}
-<img src="{{ $src }}" alt="{{ .PlainText }}" {{ with .Title }} title="{{ . }}" {{ end }} />
-{{ end }}
-{{ else }}
-{{ if strings.HasSuffix .Destination ".svg" }}
-<object type="image/svg+xml" data="{{ $src }}" >
-    <img src="{{ $src }}" alt="{{ .PlainText }}" {{ with .Title }} title="{{ . }}" {{ end }} />
-</object>
-{{ else }}
-<img src="{{ $src }}" alt="{{ .PlainText }}" {{ with .Title }} title="{{ . }}" {{ end }} />
-{{ end }}
+{{- else }}
+<img src="{{ $src }}" alt="{{ $alt }}" {{ with $title }} title="{{ . }}" {{ end }} />
 {{- end -}}
