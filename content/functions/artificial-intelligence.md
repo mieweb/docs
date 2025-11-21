@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p1ZXuXBzJdb-eO2oxRbpCyafytuwXTJYhcGl9-2_OyU'
-wikigdrive: 'v2.15.27'
+wikigdrive: 'v2.15.30'
 ---
 # Artificial Intelligence (AI) Overview
 
