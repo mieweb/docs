@@ -2,7 +2,7 @@
 id: '15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
 title: 'Force Multi-Factor Authentication MFA/2FA User Experience'
 date: '2025-11-13T18:15:48.419Z'
-version: 79
+version: 81
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
