@@ -1,9 +1,9 @@
 ---
 id: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 title: 'Encourage Multi-Factor Authentication MFA/2FA User Experience'
-date: '2025-11-13T18:15:42.093Z'
-version: 133
-lastAuthor: 'anichols'
+date: '2025-11-24T19:42:59.252Z'
+version: 141
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'multi-factor-authentication-mfa-require-2fa-system-configuration.md'
@@ -11,7 +11,6 @@ links:
   - 'one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
 source: 'https://drive.google.com/open?id=139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA) using one-time passwords (OTP):
 
@@ -122,7 +121,7 @@ On your external device (ex: smartphone), open the authenticator app you utilize
 * Click, within the authenticator app, what kind of account you are adding.
 * Then select the option, within the authenticator app, to manually enter a setup key instead of scanning a QR barcode.
 * Enter the account details by giving it an account name, enter in the Key that the {{% system-name %}} system generated on the  {{% system-name %}} login screen.  Make sure to type it exactly as it appears.
-    a.  Tap the Finish button or ‘add' or the checkmark within the authenticator app to save the account.
+    * Tap the Finish button or ‘add' or the checkmark within the authenticator app to save the account.
 * Your device authenticator app will now display a unique 6-digit OTP (one-time password) for you to use.
 
 ![](./encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/164dabfb2dd11ead2fbcdff8e9fac419.png)
