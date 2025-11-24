@@ -1,8 +1,8 @@
 ---
 id: '1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
 title: 'E-Refills - My Pending Refills Tab'
-date: '2025-11-11T15:48:41.733Z'
-version: 106
+date: '2025-11-24T17:00:57.458Z'
+version: 113
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -53,7 +53,7 @@ The **My Pending E-Refills** screen shows a summary of all your pending e-refill
 
 ![](./e-refills-my-pending-refills-tab.assets/9918090dd72b0cdf2ccd36d53c1f3f44.png)
 
-#### System Setting
+### System Setting
 
 The system setting *Match Patient User Prescriber ID* is available to use the prescriber id matched to an eRx request as an additional match criteria for patients in the listing.  There are times a pending refill request has a blank patient name in the column for instance, when there are duplicate charts with the same name and/or date of birth, thus the system does not want to assume a match for the refill request.  This system setting will help find a chart match (to populate the Patient name column of this listing) based on prescriber id of the original medication pending a refill for.
 
