@@ -1,9 +1,9 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2024-10-15T19:25:36.105Z'
-version: 409
-lastAuthor: 'auhrick'
+date: '2025-11-24T16:56:10.864Z'
+version: 425
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'
@@ -33,13 +33,13 @@ CLICK [ [HERE](https://www.identrust.com/igc/mie/) ] TO BEGIN
 
 It's as Easy as 1 - 2 - 3!
 
-### Apply
+## Apply
 
 When prescribers are ready to purchase the certificate and/or token, there is a simple 3-step process provided through IdenTrust. Simply fill out the application, verify your information, and receive your certificate and generate its key for use.
 
 There is a recording walking to watch someone walk through all the steps (the video has no sound).  If you start at about 3:30 on the normal speed video in this folder:[](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)[https://drive.google.com/drive/folders/1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG?usp=sharing](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)
 
-#### Select a Certificate
+### Select a Certificate
 
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
@@ -53,15 +53,15 @@ The first step requires the selection of the certificate. There are 3 types of C
 
 ![](./identrust-certificate-registration-step-by-step.assets/1267da7bd410bb66b035e0c6d917348d.png)
 
-#### Select the Storage Device (pricing shown is for Mobile Authentication)
+### Select the Storage Device (pricing shown is for Mobile Authentication)
 
 #### ![](./identrust-certificate-registration-step-by-step.assets/dfc940f087ea58d274b38d9c862e666c.png)
 
-#### Select the Storage Device (pricing shown is for USB Token)
+### Select the Storage Device (pricing shown is for USB Token)
 
 ![](./identrust-certificate-registration-step-by-step.assets/f20b181b78fbd07ad90e11f3593c5d65.png)
 
-#### Select the Storage Device (pricing shown is for Identity Proofing only)
+### Select the Storage Device (pricing shown is for Identity Proofing only)
 
 ![](./identrust-certificate-registration-step-by-step.assets/1f64f07128b523dc2c4d82c6044419a3.png)
 
@@ -104,7 +104,7 @@ A passcode is required for the hardware that will store your certificate.You wil
 
 9. Click <strong>Yes</strong> to continue.
 
-#### Paying for Your Digital Certificate
+### Paying for Your Digital Certificate
 
 1. Select the form of payment, provide the payment details, and select the preferred shipping for the Activation Letter.
 
@@ -112,9 +112,10 @@ A passcode is required for the hardware that will store your certificate.You wil
 
 2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.
 
-    ![](./identrust-certificate-registration-step-by-step.assets/a7e7d8aff8c9b95457d2d968d720a47c.png)
 
-### Get Verified
+![](./identrust-certificate-registration-step-by-step.assets/a7e7d8aff8c9b95457d2d968d720a47c.png)
+
+## Get Verified
 
 Congratulations! You have just completed the **first** phase. Thank you for applying for your IGC Basic Assurance Hardware Unaffiliated Certificate 2 Year. You have completed the application phase, so now IdenTrust will initiate the approval of your application.
 
@@ -124,7 +125,7 @@ Remember, there are **3 phases** in the process of obtaining your IGC Basic Assu
 
 Part of the Approval Phase includes verifying your email address and allowing IdenTrust to verify your identity.
 
-#### How Do I Verify My Email Address?
+### How Do I Verify My Email Address?
 
 **Step 1.** Go to your email to check for your Verification Code sent from [trustsource@identrust.com](mailto:trustsource@identrust.com)
 
@@ -140,7 +141,7 @@ If you have not received your Verification Code from [trustsource@identrust.com]
 Email verification must be completed (within 30 days) for IdenTrust to approve your account. The email verification MUST be completed before IdenTrust can begin processing your application.
 {{% /note %}}
 
-#### IdenTrust Verification of Identity
+### IdenTrust Verification of Identity
 
 This portion of the second phase (carried out by IdenTrust) consists of validating the information you provided against independent data sources. You will not need to do anything during this stage; you will receive a retrieval kit from IdenTrust in the mail if your application is approved. You will be able to check on the Application Status under Your Account Information:
 
@@ -148,7 +149,7 @@ This portion of the second phase (carried out by IdenTrust) consists of validati
 
 **Your New IGC Token will be mailed to you. Expect arrival between 3-5 days.**
 
-### Retrieval - Get Your Certificate
+## Retrieval - Get Your Certificate
 
 You have entered the **third** and final phase, which consists of obtaining your digital certificate and generating your keys for use of certificate. This phase begins once you have received your retrieval kit in the mail. Included in your kit will be a letter explaining how to do the following:
 
@@ -205,9 +206,10 @@ After the retrieval and key generation is complete, it is important that you tes
 
 3. You will then be prompted to provide two factor authentication with the token and passcode. When ready, click <strong>OK</strong>.
 
-    ![](./identrust-certificate-registration-step-by-step.assets/8fc95e0f2c34475b2ec99acd5c577b68.png)
 
-    ![](./identrust-certificate-registration-step-by-step.assets/b7c7d0e2e053d71e50068460b29f4b07.png)
+![](./identrust-certificate-registration-step-by-step.assets/8fc95e0f2c34475b2ec99acd5c577b68.png)
+
+![](./identrust-certificate-registration-step-by-step.assets/b7c7d0e2e053d71e50068460b29f4b07.png)
 
 *****You can now begin Electronically Signing Controlled Substances*****
 
