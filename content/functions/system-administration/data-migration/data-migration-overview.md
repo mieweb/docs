@@ -1,9 +1,9 @@
 ---
 id: '1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
 title: 'Data Migration Overview'
-date: '2020-03-17T16:06:56.394Z'
-version: 55
-lastAuthor: ''
+date: '2025-11-24T21:36:26.802Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'
@@ -25,9 +25,9 @@ Although much of any system's data can be stored discretely in the {{% sys-name 
 
 The client should weigh the cost of users or clinicians manually adding discrete values of the data after reviewing historical summary documents with the patient. The approach of converting discrete data into documents is more cost-effective for medications, injections, and other types of discrete data that may have limited quality and are routinely reviewed/entered in the course of patient visits.
 
-### Process Stages
+## Process Stages
 
-#### Data Acquisition and Analysis
+### Data Acquisition and Analysis
 
 The client must provide a backup or snapshot of their legacy database (DB). Including a mysqldump database backup is ideal. MS Access Database files, CSV, or other delimited text (UTF-8) backup files are also acceptable. Text files of legacy data must follow MIE's [data requirements](data-migration-file-format-standard.md) for formatting.
 
@@ -39,7 +39,7 @@ Data acquisition must be completed correctly and must be repeatable for "final d
 
 {{% sys-name %}} takes the table and column data provided by the backup or snapshot of the legacy DB and loads the schema into a data migration map in a spreadsheet. The data migration map documents all tables and columns from the DB along with usage statistics and (optionally) sample data from the backup for each column.
 
-**Tools for Data Acquisition**
+#### Tools for Data Acquisition
 
 The following tools may be useful in exporting data to something we can consume.
 
@@ -49,7 +49,7 @@ The following tools may be useful in exporting data to something we can consume.
 
 See [this document](https://docs.google.com/a/mieweb.com/document/d/1Gi7Fv7P9de_CoRfDoZT85hrg89PAk65zQKGyBjS-DLQ/edit?usp=sharing) for notes on building Python RPMs and packages for csvkit, wc-map-database, and MIE File Import.
 
-#### Migration Mapping
+### Migration Mapping
 
 The Onboarding Coordinators and Electronic Data Interchange (EDI) team review the data migration map with the client's legacy DB subject matter experts (SMEs) to assist in the data mapping. It is imperative that the client understands the legacy DB and specifies which tables and columns should be extracted either as historical summary documents or discrete data where necessary.
 
@@ -59,7 +59,7 @@ Discrete data that is not supported by the standard legacy data import tools req
 
 The contract or statement of work may also dictate what is or is not considered in scope for a data migration project. These issues are fleshed out during discovery.
 
-#### Development, Testing, and Validation
+### Development, Testing, and Validation
 
 Once the scope is understood, {{% sys-name %}} loads the legacy data into the client's development (dev) system or a separate sandbox for legacy data conversion testing. The EDI team uses the in-house library of migration code and/or the data migration map to pull data from the legacy tables into historical summary documents, encounters, and discrete data.
 
@@ -73,7 +73,7 @@ During this phase, rapid development and testing occurs in the following manner:
 6. Modules that the client finds incomplete or were not mapped correctly during the data migration mapping phase are subject to the {{% sys-name %}} change control process.
 7. Repeat these steps until all modules are verified by the client.
 
-#### Final Dress Rehearsal
+### Final Dress Rehearsal
 
 After the client has verified the migration modules, {{% sys-name %}} and the client complete a timed final dress rehearsal. The following process is completed for the timed dress rehearsal:
 
@@ -89,7 +89,7 @@ After the client has verified the migration modules, {{% sys-name %}} and the cl
 
 If a "no-go" is provided, a discussion is scheduled to discuss the issues that prevented a successful conversion. Changes are made as needed, adhering to the change control process if applicable. The data is converted in the dev system or sandbox if possible or the system is cleaned and reloaded if necessary, and the client validates again.
 
-#### Go-Live
+### Go-Live
 
 The go-live procedure is similar to the dress rehearsal. The data migration checklist created during the dress rehearsal is used to migrate the data step-by-step. The following is a sample procedure for the go-live of a migrated system:
 
