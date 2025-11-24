@@ -1,14 +1,13 @@
 ---
 id: '1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
 title: 'Data Migration File Format Standard'
-date: '2025-11-13T21:47:15.476Z'
-version: 77
+date: '2025-11-24T19:00:57.182Z'
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1d6JDOjLPbEZ4hDhR-Qj9-DmT3-zskOyTRgJQaYmTfYg'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 This is an overview of what MIE expects from data files that are received from clients for data migration. Because it is time consuming and often unreliable to find and fix any problems with these files, MIE will return to the client any files that do not meet the following requirements.
 
@@ -93,7 +92,7 @@ The following steps are used to export an Access table as a Unicode CSV file:
 2. Click the <strong>External Data</strong> tab.
 3. In the <strong>Exports</strong> section, click <strong>Text File</strong>.
 4. In the export wizard, enter the file name.
-    a.  Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
+    * Ensure that the <em>Export data with formatting and layout</em> checkbox is <strong>unchecked.</strong>
 5. Click <strong>OK</strong>.
 6. Select <strong>Delimited</strong>.
 7. Click <strong>Next</strong>.
