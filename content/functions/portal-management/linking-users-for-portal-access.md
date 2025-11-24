@@ -1,8 +1,8 @@
 ---
 id: '1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
 title: 'Linking Users for Portal Access'
-date: '2025-11-24T15:39:10.094Z'
-version: 93
+date: '2025-11-24T15:40:26.519Z'
+version: 95
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
