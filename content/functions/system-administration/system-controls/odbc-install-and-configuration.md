@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-11-12T14:27:12.471Z'
-version: 342
+date: '2025-11-24T18:55:02.269Z'
+version: 349
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,19 +18,19 @@ markup: 'pandoc'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
 
-### Video
+## Video
 
 Video demonstrating how to pull data: [How to get data ODBC and JSON - video 15min](https://youtube.be/v/9F2KUHstZ-E)
 
-### System Report Writing
+## System Report Writing
 
 For help on system report writing, please refer to separate guide [System Report Writing](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/)
 
-### 3rd Party Tools
+## 3rd Party Tools
 
 There are several data visualization software products that clients can utilize with an {{% system-name %}} ODBC connection. Examples of recommended products include Tableau, Power BI/Power Query and Informatica.
 
-### Installation of the MySQL ODBC Driver
+## Installation of the MySQL ODBC Driver
 
 Navigate to the data visualization software products website and follow the on screen instructions to download and install the applicable MySQL ODBC drivers.
 
@@ -40,7 +40,7 @@ Navigate to the data visualization software products website and follow the on s
 
 [Informatica Documentation](https://docs.informatica.com/integration-cloud/data-integration-connectors/h2l/1243-configuring-ssl-for-mysql-connector-in-cloud-data-integrati/configuring-ssl-for-mysql-connector-in-cloud-data-integration/installing-the-mysql-odbc-driver.html)
 
-### ODBC Data Source Configuration
+## ODBC Data Source Configuration
 
 Once the drivers have been downloaded and installed, users will need to set up a connection and set up the data source. Your {{% system-name %}} deployment consultant or support contact will work with our development team to send you additional information for this step of the installation process.
 
