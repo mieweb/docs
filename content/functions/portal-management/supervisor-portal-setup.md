@@ -1,8 +1,8 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Supervisor Portal Setup'
-date: '2025-11-17T21:56:19.717Z'
-version: 535
+date: '2025-11-24T15:05:44.735Z'
+version: 545
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -31,14 +31,17 @@ Again, before configuring the Supervisor Portal, it must be enabled within the s
 6. Click the <strong>Next</strong> button, or close the section by simply clicking the section header, to save the changes.
 7. With the Supervisor Portal setup completed, navigate to the <em>Supervisor Portal</em> tab of the EO, to begin work on that portal's configurations. In most systems, this tab is a subtab under the <em>Portal Management</em> tab.
 
-    ![](./supervisor-portal-setup.assets/9bd7dd812d2246dd843404a5617e1a0d.png)
+
+![](./supervisor-portal-setup.assets/9bd7dd812d2246dd843404a5617e1a0d.png)
 
 8. Any permissions or settings that need to be addressed can be found under the Security Requirements section near the top of the page, and the configuration and modules can be adjusted, using the remaining sections, as needed.
 
 ![](./supervisor-portal-setup.assets/2c0a5dafb3b0047cd8e1d88e1916da63.png)
 
-9. To begin the customization, click the <strong>Configuration</strong> section header to open and begin editing.  
-    ![](./supervisor-portal-setup.assets/07e395c554d7eba9264c011cbbc31e76.png)
+9. To begin the customization, click the <strong>Configuration</strong> section header to open and begin editing.
+
+
+![](./supervisor-portal-setup.assets/07e395c554d7eba9264c011cbbc31e76.png)
 
 ### Configuration
 
