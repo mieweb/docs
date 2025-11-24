@@ -1,8 +1,8 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2025-11-11T20:52:12.283Z'
-version: 210
+date: '2025-11-24T18:44:09.798Z'
+version: 222
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -472,12 +472,12 @@ To quickly add multiple, new users, navigate to the Access Control manager tab
 1. Click the Quick Add Users link, in the upper-right corner of the page.
 2. The <strong>Add Users</strong> page will load.
 3. Using either the <strong>Add Physicians</strong> or the <strong>Add Users</strong> (<strong>Non-Physicians</strong>) sections, supply:
-* <strong>First Name</strong>: Enter the referring physician's full legal first name.
-* <strong>Last Name</strong>: Enter the referring physician's full legal last name.
-* <strong>User Role/Department</strong>: This is the Default User Role (of the physician) or the Primary Department (of the non-physician). Choose from the provided dropdown.
-* <strong>Security Role</strong>: This field dictates the level of access a user is permitted. Use the dropdown to select the appropriate Security Role for the user in context.
-* <strong>Username</strong>: Enter a unique username.
-* <strong>Password</strong>: Enter a password.
+    * <strong>First Name</strong>: Enter the referring physician's full legal first name.
+    * <strong>Last Name</strong>: Enter the referring physician's full legal last name.
+    * <strong>User Role/Department</strong>: This is the Default User Role (of the physician) or the Primary Department (of the non-physician). Choose from the provided dropdown.
+    * <strong>Security Role</strong>: This field dictates the level of access a user is permitted. Use the dropdown to select the appropriate Security Role for the user in context.
+    * <strong>Username</strong>: Enter a unique username.
+    * <strong>Password</strong>: Enter a password.
 4. When adding users in either section, click the <strong>Add</strong> button to store that user for submission. Click the minus (-) button, if a user needs to be removed or an error was made.
 5. Continue adding users, as needed.
 6. When all users have been added, click either <strong>Submit</strong> button.
