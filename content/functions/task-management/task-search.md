@@ -1,9 +1,9 @@
 ---
 id: '1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
 title: 'Task Search'
-date: '2020-03-10T14:50:47.829Z'
-version: 42
-lastAuthor: 'aquandt'
+date: '2025-11-24T17:05:19.847Z'
+version: 51
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kK4-VsEd_9DgH2j0H5pW-TwjwAqXTQ7gg84IjhMMszw'
@@ -14,6 +14,8 @@ To access the Task Search tab within the Task List sidemenu module, users must h
 ![](./task-search.assets/40fce06d834968e81be9b252d8a9c73c.png)
 
 The Task Search screen contains search criteria fields to help render a listing of created tasks in the {{% system-name %}} system.
+
+## Search Criteria
 
 The search requires at least one search criteria field to be specified before any results can generate.  Using the search criteria fields can help narrow down the results to as granular as needed.
 
