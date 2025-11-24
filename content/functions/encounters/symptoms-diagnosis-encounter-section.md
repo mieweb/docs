@@ -1,8 +1,8 @@
 ---
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Symptoms/Diagnosis Encounter Section'
-date: '2025-11-11T13:46:48.146Z'
-version: 199
+date: '2025-11-24T16:11:43.649Z'
+version: 209
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
