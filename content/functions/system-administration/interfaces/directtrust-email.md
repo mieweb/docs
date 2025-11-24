@@ -1,14 +1,13 @@
 ---
 id: '1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
 title: 'DirectTrust Email'
-date: '2025-11-13T14:38:34.796Z'
-version: 68
+date: '2025-11-24T19:52:14.433Z'
+version: 74
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XZfnbZ7NfDo3BGeGQ1cR_9iGJeX8xowFaZvB_AuGSq4'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ## DirectTrust Email
 
@@ -28,17 +27,15 @@ For {{% system-name %}} systems that have Direct Messaging configured, a DirectT
 
 ## User Security & Setup
 
-****
-
 1. Users that need to "send" messages/documents will need the "Send Patient Data" security permissions.
 
 ![](./directtrust-email.assets/987bd37e4234a0f27d99d316e2be35e0.png)
 
 2. Additional configuration is required before users will be able to see documents coming/going from {{% system-name %}}.
-    a.  Ensure that any additional users that will be sending messages/documents via Direct have been configured with a user account and have the proper security to send patient data.
-    b.  On the "Direct PO, Direct" chart add these users, by adding them to the Medical Contacts portlet.
-    c.  Click on the <strong>manage info icon</strong> (pencil) of the <strong>Medical Contacts</strong> portlet.
-    d.  Find and link those users with the role of ‘Direct Email' and then click the <strong>Submit</strong> button to save.
+    * Ensure that any additional users that will be sending messages/documents via Direct have been configured with a user account and have the proper security to send patient data.
+    * On the "Direct PO, Direct" chart add these users, by adding them to the Medical Contacts portlet.
+    * Click on the <strong>manage info icon</strong> (pencil) of the <strong>Medical Contacts</strong> portlet.
+    * Find and link those users with the role of ‘Direct Email' and then click the <strong>Submit</strong> button to save.
 
 ![](./directtrust-email.assets/c811215fe3612b2f1f338da91f910a01.png)
 
@@ -47,15 +44,15 @@ For {{% system-name %}} systems that have Direct Messaging configured, a DirectT
 When Direct is configured, 2 ‘test' emails will be placed in the document queue for users to preview/experiment with.
 
 1. Working incoming documents can be found in the Doc Queue
-    a.  Direct messages coming into the document queue are not patient identified. They come into the system as unique non-identified messages.
+    * Direct messages coming into the document queue are not patient identified. They come into the system as unique non-identified messages.
 
 ![](./directtrust-email.assets/dedda907e25d1e33f9a9767f80faa0be.png)
 
-    b.  Users must go into the document (via the document queue) to see who it's pertaining to. Click on the DIRECT message to view the document on the bottom half of the screen.  View the document to determine who it's pertaining to. Process the message by setting the DOS (or leave marked as "unknown" if you want the date to be a blank DOS, which will default the document at the bottom of list views in chart tabs), then on the right side of the document queue to manually search who to merge this document to.
+    * Users must go into the document (via the document queue) to see who it's pertaining to. Click on the DIRECT message to view the document on the bottom half of the screen.  View the document to determine who it's pertaining to. Process the message by setting the DOS (or leave marked as "unknown" if you want the date to be a blank DOS, which will default the document at the bottom of list views in chart tabs), then on the right side of the document queue to manually search who to merge this document to.
 
 ![](./directtrust-email.assets/ef8838d65bfe8b40ab8116d323c50c87.png)
 
-    c.  It's very important to always select the 1st merge option when working the DIRECT partition in the document queue. Every message comes in with a unique direct id# (mr#) and we don't want to keep those on patients for tracking purposes. This 1st option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged), meaning it will keep the patient's current MR#'s and not apply the direct lengthy unique MR/ID # one.
+    * It's very important to always select the 1st merge option when working the DIRECT partition in the document queue. Every message comes in with a unique direct id# (mr#) and we don't want to keep those on patients for tracking purposes. This 1st option will merge and only keep the MR number of the chart the documents & chart are being merged to (regardless of partitions being merged), meaning it will keep the patient's current MR#'s and not apply the direct lengthy unique MR/ID # one.
 
 ![](./directtrust-email.assets/b343db2352c7f61bb97afc50ba511dc4.png)
 
@@ -71,12 +68,12 @@ When Direct is configured, 2 ‘test' emails will be placed in the document queu
 
 ![](./directtrust-email.assets/177e50edf6055aec8a8bfe5af2294c62.png)
 
-    a.  <strong>Recipient</strong>: Search & select an existing configured referring physician user (configured in your system) from the auto-complete (Tab). If the person isn't found, you can add a user to the recipient selections by using ADD USER button (see separate steps)
-    b.  <strong>Method:</strong> Select ‘Direct Email' from the drop-down if isn't already (Tab)
-    c.  <strong>Detail:</strong> If you've already added the referring physician's direct email address, it should pull up here. If it  does NOT pull up, you will need to go back to the control panel à access control and add or correct the address.
-    d.  <strong>Send On:</strong> The default for this is usually ‘All Revision'
-    e.  Click the ‘add' button & then ‘Update & Close'
-    f.  You can check the send progress either through the document properties or from the Send Queue
+    * <strong>Recipient</strong>: Search & select an existing configured referring physician user (configured in your system) from the auto-complete (Tab). If the person isn't found, you can add a user to the recipient selections by using ADD USER button (see separate steps)
+    * <strong>Method:</strong> Select ‘Direct Email' from the drop-down if isn't already (Tab)
+    * <strong>Detail:</strong> If you've already added the referring physician's direct email address, it should pull up here. If it  does NOT pull up, you will need to go back to the control panel à access control and add or correct the address.
+    * <strong>Send On:</strong> The default for this is usually ‘All Revision'
+    * Click the ‘add' button & then ‘Update & Close'
+    * You can check the send progress either through the document properties or from the Send Queue
 
 ### Add New Recipient
 
@@ -99,8 +96,8 @@ Note: after clicking ADD USER button, if you receive a warning message that you 
 ## Storage types to use when sending/receiving DIRECT emails
 
 1. These are the file types that can be sent & received via Direct:
-    a.  For Outgoing Messages, these WebChart storage types are supported:  CDA, E-Order, CCR, Plain Text, TIFF, PNG, PDF, DOC, JPEG, Binary and XLS. Additionally, PDF is supported on client db's on RC202503 and newer.
-    b.  For Incoming (received) Messages, these WebChart storage types are supported:  CDA, CCR, Plain Text, PDF, HTML
+    * For Outgoing Messages, these WebChart storage types are supported:  CDA, E-Order, CCR, Plain Text, TIFF, PNG, PDF, DOC, JPEG, Binary and XLS. Additionally, PDF is supported on client db's on RC202503 and newer.
+    * For Incoming (received) Messages, these WebChart storage types are supported:  CDA, CCR, Plain Text, PDF, HTML
 
 ## Not receiving Direct emails?
 
