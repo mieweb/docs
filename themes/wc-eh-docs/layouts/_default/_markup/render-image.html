@@ -4,8 +4,12 @@
 {{ $parsedURL := urls.Parse .Page.Site.BaseURL }}
 {{ $basePath := $parsedURL.Path }}
 {{ $markdownDir := .Page.File.Dir }}
-{{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
 {{ $imageRelativePath := .Destination }}
+{{- /* Handle ./ prefix - image is in same directory as markdown file */ -}}
+{{- if strings.HasPrefix $imageRelativePath "./" -}}
+  {{ $imageRelativePath = strings.TrimPrefix "./" $imageRelativePath }}
+{{- end -}}
+{{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
 {{ $imgPath := path.Join $fullURLDir $imageRelativePath }}
 {{ $imgUrl := $imgPath | relURL }}
 {{ $siteUrl := .Page.RelPermalink }}
