@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-11-13T13:59:22.455Z'
-version: 618
+date: '2025-11-24T19:15:51.940Z'
+version: 624
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -95,7 +95,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * System Maintenance: Allows users to lock the system for maintenance and access it while others are restricted. Used in conjunction with the system setting System/Maintenance/Lock. This option is only available in RC202403 and newer.
 * OTP Required: If Yes, this requires users who sign in to include a One-Time Password (OTP) in addition to their username and password. The OTP will be sent to their configured contact information.
 
-**E-Chart**
+### E-Chart
 
 * Limited Access: This permission controls user access to specific patients. A user has access to a patient either through a direct relationship (such as provider to patient or supervisor to employee), or through the department they belong to (such as the nursing department to a patient). The following settings are available:
     * Yes: The user can access only the specific patients they have a direct relationship with. Relationships are defined in the setting Edit Patients Linked to User under Access Control > Edit User. If the Limited Access field is set to "Yes," it overrides the Restrict Access By Partition setting, and partition restrictions are ignored.
