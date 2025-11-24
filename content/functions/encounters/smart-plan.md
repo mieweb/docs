@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-11-10T20:18:04.012Z'
-version: 1234
+date: '2025-11-24T16:00:44.243Z'
+version: 1251
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -262,7 +262,8 @@ For users on RC202309 and newer, a new feature to copy from Previous Exam has be
 
 ## Meds Quick List
 
-Click the "+" icon next to the Other option to Prescribe a Medication
+Click the "+" icon next to the Other option to Prescribe a Medication.
+
 ![](./smart-plan.assets/54e217106ff31ea5b1314c1e0af713b5.png)
 
 ## Due List Quick List
