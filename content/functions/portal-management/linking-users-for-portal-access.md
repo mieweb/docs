@@ -1,9 +1,9 @@
 ---
 id: '1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
 title: 'Linking Users for Portal Access'
-date: '2020-03-25T18:42:13.576Z'
-version: 88
-lastAuthor: ''
+date: '2025-11-24T15:39:10.094Z'
+version: 93
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
