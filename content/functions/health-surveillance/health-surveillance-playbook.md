@@ -1,8 +1,8 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-11-12T16:26:21.237Z'
-version: 716
+date: '2025-11-24T16:57:37.579Z'
+version: 735
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -667,7 +667,7 @@ An MIE Implementer will most likely be utilizing this functionality the most; ho
 
 Similar to a copy/paste function, users will want to be in the system from which panels will be exported, or copied.
 
-Navigate to the Health Surveillance tab of the Control Panel, and click the **Export Panels** link, found at the bottom of the page below the listed panels. Select all panels needing to be exported by placing a check in the box of each needed panel
+Navigate to the Health Surveillance tab of the Control Panel, and click the **Export Panels** link, found at the bottom of the page below the listed panels. Select all panels needing to be exported by placing a check in the box of each needed panel.
 
 ![](./health-surveillance-playbook.assets/2f67b541ef325a857aa1255d6fddea65.png)
 
