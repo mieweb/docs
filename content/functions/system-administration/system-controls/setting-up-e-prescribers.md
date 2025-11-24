@@ -1,11 +1,12 @@
 ---
 id: '12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
 title: 'Setting Up E-Prescribers'
-date: '2025-11-11T21:05:51.759Z'
-version: 193
+date: '2025-11-24T18:49:37.132Z'
+version: 200
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
 source: 'https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
@@ -13,7 +14,7 @@ wikigdrive: 'v2.15.30'
 ---
 The first step to being able to electronically transmit prescriptions from {{% system-name %}} to a pharmacy using the SureScripts feature is to properly have that prescribing user set up in {{% system-name %}} . You must have security rights to edit or set up users in {{% system-name %}} . Once you set up the Prescriber to become an electronic prescriber, SureScripts goes through a verification process. Once verified, your prescriptions will be e-sent via electronic transmission.
 
-Click the *Control Panel* sidemenu tab then click the *Access Control* tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the *edit* link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the *add user* link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named *Access Control-Adding-Editing-Deleting Users.pdf).*
+Click the *Control Panel* sidemenu tab then click the *Access Control* tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the *edit* link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the *add user* link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named [Access Control - Adding, Deleting, Editing Users](https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/)*).*
 
 Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique user chart and account. Provider accounts should NEVER be reused or recycled for any reason. For more information on setting up new providers, please review the [New Provider Configuration Recommendations](https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/).
 
