@@ -1,9 +1,9 @@
 ---
 id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 title: 'Chart Medical Record Number (MRN) Import Options'
-date: '2020-02-28T15:25:27.336Z'
-version: 48
-lastAuthor: 'aquandt'
+date: '2025-11-24T19:10:04.558Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'chart-data-csv-api.md'
@@ -16,7 +16,7 @@ The following page was created for technical staff involved in importing data to
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
-### Definitions
+## Definitions
 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.
