@@ -1,14 +1,13 @@
 ---
 id: '1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 title: 'Supervisor Portal Setup'
-date: '2025-11-24T15:05:44.735Z'
-version: 545
+date: '2025-11-25T17:31:54.261Z'
+version: 557
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FEbsPBy4cewT-M-3sUVazzJyqgUV6XfXTMY9xoKNezs'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 {{% system-name %}} offers various portal options, depending on the needs of the client. The **Supervisor Portal**, often referred to as the **Supervisor Portal**, **Agency Portal**, or **Leadership Portal**, streamlines employee engagement and tracking, offering easy access to due lists, employee work statuses, as well as health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, schedule appointments, submit questionnaires on the employee's behalf, or any additional information custom to the business needs.
 
@@ -93,27 +92,27 @@ The expanded Select Module section allows for configuration of each module, if n
 ![](./supervisor-portal-setup.assets/86e2f7eeb4c04afdb176c19e6f1601a8.png)
 
 2. There are twenty-one (21) modules that can be selected within the Supervisor Portal.
-    a.  <strong>Case Review Status</strong>
-    b.  <strong>EJTA</strong>
-    c.  <strong>Form Link 1</strong>
-    d.  <strong>Form Link 2</strong>
-    e.  <strong>Form Link 3</strong>
-    f.  <strong>Health Surveillance</strong>
-    g.  <strong>Layout Link 1</strong>
-    h.  <strong>Layout Link 2</strong>
-    i.  <strong>Layout Link 3</strong>
-    j.  <strong>Order Status</strong>
-    k.  <strong>Orders</strong>
-    l.  <strong>Questionnaire Link 1</strong>
-    m.  <strong>Questionnaire Link 2</strong>
-    n.  <strong>Questionnaire Link 3</strong>
-    o.  <strong>Reports</strong>
-    p.  <strong>Schedule Appointments</strong>
-    q.  <strong>Send a Message</strong>
-    r.  <strong>Supervisor Other Health Resources</strong>
-    s.  <strong>Supervisor Scheduling</strong>
-    t.  <strong>Support</strong>
-    u.  <strong>Work Status</strong>
+    * <strong>Case Review Status</strong>
+    * <strong>EJTA</strong>
+    * <strong>Form Link 1</strong>
+    * <strong>Form Link 2</strong>
+    * <strong>Form Link 3</strong>
+    * <strong>Health Surveillance</strong>
+    * <strong>Layout Link 1</strong>
+    * <strong>Layout Link 2</strong>
+    * <strong>Layout Link 3</strong>
+    * <strong>Order Status</strong>
+    * <strong>Orders</strong>
+    * <strong>Questionnaire Link 1</strong>
+    * <strong>Questionnaire Link 2</strong>
+    * <strong>Questionnaire Link 3</strong>
+    * <strong>Reports</strong>
+    * <strong>Schedule Appointments</strong>
+    * <strong>Send a Message</strong>
+    * <strong>Supervisor Other Health Resources</strong>
+    * <strong>Supervisor Scheduling</strong>
+    * <strong>Support</strong>
+    * <strong>Work Status</strong>
 3. All of the module names can be edited or renamed using the <strong>Custom Module Name</strong> field, under each section heading.
 
 {{% info %}}
@@ -152,57 +151,41 @@ The Reports module
 
 The *Schedule Appointments* module can be updated to allow certain functionality, as well as to display warnings or specified text, as needed.
 
-**Custom Module Name**: The name defaults to *Schedule Appointments*. Customize up to 60 characters.
-
-**Schedule an Appointment**: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the **Locations** chart tab of the Employer Organization chart. Appointment types that are available for selection are managed from the appointment *Schedules* tab in the *Scheduling* module.
-
-**Request an Appointment**: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's *My Appointments* page.
+* <strong>Custom Module Name</strong>: The name defaults to <em>Schedule Appointments</em>. Customize up to 60 characters.
+* <strong>Schedule an Appointment</strong>: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the <strong>Locations</strong> chart tab of the Employer Organization chart. Appointment types that are available for selection are managed from the appointment <em>Schedules</em> tab in the <em>Scheduling</em> module.
+* <strong>Request an Appointment</strong>: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's <em>My Appointments</em> page.
 
 {{% note %}}
 System Administrators can select either ‘Schedule an Appointment' or ‘Request an Appointment' for the type of portal scheduling desired. Only one method may be selected.
 {{% /note %}}
 
-**Use Checkin:** When checked, allows employees to check into the Waiting Room station for their existing appointment. The following system settings control when the option will appear on the portal: ‘Minutes Allowed Before Start','Minutes Allowed After Start'.
+* <strong>Use Checkin:</strong> When checked, allows employees to check into the Waiting Room station for their existing appointment. The following system settings control when the option will appear on the portal: ‘Minutes Allowed Before Start','Minutes Allowed After Start'.
 
 {{% note %}}
 System Administrators should note that Schedule Appointment configuration options selected will apply to both the Employee **and** Supervisor Portal.
 {{% /note %}}
 
-**Disable appointment confirmation/cancellation emails:** When checked, appointment confirmation and cancellation emails will not be sent.
-
-**Allow scheduling past due appointments**: With this enabled, users will be able to schedule past due appointments.
-
-**Disable calendar searching:** Hides the calendar when scheduling an appointment, to prevent selecting dates not present in the current drop-down list.
-
-**Show "First available provider" option when selecting a provider**: If enabled, the option for *First available provider* will display to users when scheduling appointments.
-
-**Force any available provider**: This disables the Select Provider field from displaying on the portal, automatically assigning a provider based on the appointment type and availability.
-
-**Show appointments regardless of visible date:** When checked, appointments will be displayed on the portal regardless of their visible date. When scheduling these appointments the available times will begin from the appointment's visible date.
-
-**Days to show past appointments**: Use this field to set the number of days of past appointments to display.
-
-**Days out to search for**: This field can be used to set the number of days being searched, out from the present day.
-
-**Days out before showing days**: This field determines how many days before having to show additional days, out from the present day.
-
-**Warning message for past due appointments**: Use this field to free text a warning message that will be displayed next to an appointment past due date.
+* <strong>Disable appointment confirmation/cancellation emails:</strong> When checked, appointment confirmation and cancellation emails will not be sent.
+* <strong>Allow scheduling past due appointments</strong>: With this enabled, users will be able to schedule past due appointments.
+* <strong>Disable calendar searching:</strong> Hides the calendar when scheduling an appointment, to prevent selecting dates not present in the current drop-down list.
+* <strong>Show "First available provider" option when selecting a provider</strong>: If enabled, the option for <em>First available provider</em> will display to users when scheduling appointments.
+* <strong>Force any available provider</strong>: This disables the Select Provider field from displaying on the portal, automatically assigning a provider based on the appointment type and availability.
+* <strong>Show appointments regardless of visible date:</strong> When checked, appointments will be displayed on the portal regardless of their visible date. When scheduling these appointments the available times will begin from the appointment's visible date.
+* <strong>Days to show past appointments</strong>: Use this field to set the number of days of past appointments to display.
+* <strong>Days out to search for</strong>: This field can be used to set the number of days being searched, out from the present day.
+* <strong>Days out before showing days</strong>: This field determines how many days before having to show additional days, out from the present day.
+* <strong>Warning message for past due appointments</strong>: Use this field to free text a warning message that will be displayed next to an appointment past due date.
 
 {{% note %}}
 This field will only display if *Allow scheduling past due appointments* IS NOT selected.
 {{% /note %}}
 
-**Alert text to show at top of form**: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
-
-**Appointment types excluded from portal:** Excludes these types of appointments from being displayed in the portal.
-
-**Disable portal scheduling comments:** Hides the ‘Comments' section on the portal scheduling page.
-
-**Appointment types that require comments:** Require comments to be entered for these appointment types when scheduled**.**
-
-**Comments input instructions:** This field will update the placeholder text for the comments input when an appointment type that requires comments is enabled.
-
-**Schedule a new appointment button text:** This field will replace the button text that is used to schedule a new appointment; displayed at the bottom of the 'My Appointments' module within the portal.
+* <strong>Alert text to show at top of form</strong>: Use this field to display an alert or memo at the top of the page (e.g., "If this is a medical emergency, please dial 9-1-1.").
+* <strong>Appointment types excluded from portal:</strong> Excludes these types of appointments from being displayed in the portal.
+* <strong>Disable portal scheduling comments:</strong> Hides the ‘Comments' section on the portal scheduling page.
+* <strong>Appointment types that require comments:</strong> Require comments to be entered for these appointment types when scheduled<strong>.</strong>
+* <strong>Comments input instructions:</strong> This field will update the placeholder text for the comments input when an appointment type that requires comments is enabled.
+* <strong>Schedule a new appointment button text:</strong> This field will replace the button text that is used to schedule a new appointment; displayed at the bottom of the 'My Appointments' module within the portal.
 
 If the Employer Organization has defined specific locations in which this supervisor may schedule appointments and configured the location on the Employer Organization **Locations** tab, then any schedules associated with that location will display at the bottom of the Additional Options section.
 
@@ -215,8 +198,8 @@ The Send a Message module can have its name and header customized, the sending i
 3. <strong>Instruction text</strong>: Use this field to add any additional, optional instructions for the <em>Send a Message</em> page.
 4. <strong>Restrict employee autocomplete by partition</strong>: Use this field to add optional partition restrictions for the employee autocomplete available to Supervisor Contact users.
 5. <strong>Allowed message types for sending within portal</strong>: These message types determine what types of messages can/cannot be sent to/from the portal. The defaults are:
-    a.  Incident Report
-    b.  Incident Report Supervisor Review
+    * Incident Report
+    * Incident Report Supervisor Review
 
 {{% tip %}}
 Click the minus button to remove any message type, or click the Add message types link, to add an additional message type, as needed.
@@ -247,7 +230,7 @@ Every user intending to use the portal needs to be added by associating the user
 
 ![](./supervisor-portal-setup.assets/03e6792cda58b21710300fd147a05074.png)
 
-However, it is often easier to manage **Contact** relationship types from the **Contacts** portlet on the patient chart **Summary** tab.
+* However, it is often easier to manage <strong>Contact</strong> relationship types from the <strong>Contacts</strong> portlet on the patient chart <strong>Summary</strong> tab.
 
 ![](./supervisor-portal-setup.assets/d4ecd850a8062de903da1df0a3e2bcf7.png)
 
