@@ -1,9 +1,9 @@
 ---
 id: '1fO8TgCn20ax3Y_DZgsTc0Q3wSuOPRX-LD_vyxJhwAJs'
 title: 'Allergies Intolerances Encounter Section'
-date: '2024-04-17T18:19:29.434Z'
-version: 117
-lastAuthor: 'auhrick'
+date: '2025-11-25T17:55:52.960Z'
+version: 124
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1fO8TgCn20ax3Y_DZgsTc0Q3wSuOPRX-LD_vyxJhwAJs'
@@ -76,7 +76,7 @@ It is recommended that users select from predefined options from the dropdown al
 
 Once the allergy **_Name_** has been entered, indicate by radio button if it is an Allergy or an Intolerance.
 
-Begin typing the type of reaction encountered by this allergy. The **_Reaction_**** field will accept free text, however, selecting from the autocomplete is recommended.  To the right of the **_Reaction_** field is a drop down for **_Severity_**. Severity options include, Mild, Moderate or Severe. Comments may be added in the **_Comments_** field, as well as a **_Start Date_** and **_End Date_**, if applicable.
+Begin typing the type of reaction encountered by this allergy. The **_Reaction_** field will accept free text, however, selecting from the autocomplete is recommended.  To the right of the **_Reaction_** field is a drop down for **_Severity_**. Severity options include, Mild, Moderate or Severe. Comments may be added in the **_Comments_** field, as well as a **_Start Date_** and **_End Date_**, if applicable.
 
 If the allergy entered is common and you would like to add it as a default choice to the current encounter Library, click the **_Save to Library_** button. This will only add the allergy to the library and it will not add it to the encounter.
 
