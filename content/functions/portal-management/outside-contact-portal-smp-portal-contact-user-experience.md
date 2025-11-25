@@ -1,8 +1,8 @@
 ---
 id: '1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ'
 title: 'Outside Contact Portal - SMP Portal Contact User Experience'
-date: '2025-11-10T19:10:12.468Z'
-version: 102
+date: '2025-11-25T17:42:04.349Z'
+version: 109
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -21,7 +21,9 @@ The Contact will click on the ‘portal' link in the email. The Activation code 
 
 The ‘myself' radio button should default for the Contact user. The Contact will then need to verify their Email, create their own username and password. **_It is recommended that users use their email address as their username_**.
 
-**NOTE:**** databases on 202403 and newer will require email to be used as the user name.**
+{{% note %}}
+**Databases on 202403 and newer will require email to be used as the user name.**
+{{% /note %}}
 
 ![](./outside-contact-portal-smp-portal-contact-user-experience.assets/374d3fddad74b66f2c154e54c25c2970.png)
 
