@@ -1,9 +1,9 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-05-30T17:49:05.652Z'
-version: 389
-lastAuthor: 'anichols'
+date: '2025-11-25T17:21:50.941Z'
+version: 397
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
@@ -50,16 +50,18 @@ Following the instructions below, *update* these system settings, if you are on 
 * Webchart, Login, New Signups
     * Allows new WebChart sign-ups.
 
+Updating the System Settings:
+
 1. Navigate to <strong>System Settings</strong> in the Control Panel.
 2. Search for the appropriate system setting to be updated.
 3. Once located, click the <strong>Edit</strong> link in the Options column.
 4. Update the security setting by typing the appropriate value in the <strong>Value</strong> field.
-    a.  NMC, Registrations, Set New Patient at Temporary = 1
-    b.  NMC, User Security, Force Security Role = 1
-    c.  NMC, Pages, Client = Applicant
+    * NMC, Registrations, Set New Patient at Temporary = 1
+    * NMC, User Security, Force Security Role = 1
+    * NMC, Pages, Client = Applicant
         i. Assigns <em>Applicant</em> as the layout module.
-    d.  NMC, Signup, Custom Site Realm = Applicant
-    e.  Webchart, Login, New Signups = 1
+    * NMC, Signup, Custom Site Realm = Applicant
+    * Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
 
 ## Create APP Partition
@@ -68,18 +70,18 @@ This partition will only need to be configured if you are on a legacy database b
 
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
-    a.  <strong>Partition</strong>:  APP
-        i. The partition must match the <em>Default on Signup</em> system setting.
-    b.  <strong>WC GUID</strong>:  Blank
-    c.  <strong>Name</strong>:  APP
-    d.  <strong>Description</strong>:  Applicant
-    e.  <strong>MR Sequence</strong>:  Blank
-    f.  <strong>Partition View</strong>:  Auto Increment
-    g.  <strong>Required</strong>:  No
-    h.  <strong>Active Types</strong>:  Active with Doc Queue
-    i.  <strong>Part Order</strong>:  0
-    j.  <strong>Allow Access to Restricted Users</strong>:  Unchecked
-    k.  <strong>Identifier</strong>:  Medical Record Number
+    * <strong>Partition</strong>:  APP
+        * The partition must match the <em>Default on Signup</em> system setting.
+    * <strong>WC GUID</strong>:  Blank
+    * <strong>Name</strong>:  APP
+    * <strong>Description</strong>:  Applicant
+    * <strong>MR Sequence</strong>:  Blank
+    * <strong>Partition View</strong>:  Auto Increment
+    * <strong>Required</strong>:  No
+    * <strong>Active Types</strong>:  Active with Doc Queue
+    * <strong>Part Order</strong>:  0
+    * <strong>Allow Access to Restricted Users</strong>:  Unchecked
+    * <strong>Identifier</strong>:  Medical Record Number
 
 ## Create Applicant Department
 
@@ -189,7 +191,8 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 5. Click the <strong>Save</strong> button.
 6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.
 
-    ![](./applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png)
+
+![](./applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png)
 
 ## Configure Applicant Portal
 
