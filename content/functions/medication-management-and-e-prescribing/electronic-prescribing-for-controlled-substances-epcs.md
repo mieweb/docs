@@ -1,8 +1,8 @@
 ---
 id: '1zkK1rl_jKldqym-JOp7lpddt1zs9chV76LmPVcn4UAg'
 title: 'Electronic Prescribing for Controlled Substances (EPCS)'
-date: '2025-11-24T21:00:06.949Z'
-version: 117
+date: '2025-11-25T14:21:40.709Z'
+version: 123
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
