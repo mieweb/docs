@@ -1,8 +1,8 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-11-14T15:25:43.060Z'
-version: 177
+date: '2025-11-24T21:14:30.509Z'
+version: 187
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,7 +38,8 @@ A. Application toolbar: Displays application ( {{% system-name %}} ) navigation:
 4. Subscription status icon: Chain links icon indicates whether or not the signed in user is connected to the database. This connection also displays messages to notify a user if another user is working in a document that is currently open.
 5. Help bubble: Links to available help documentation.
 
-    ![](./system-anatomy.assets/9e013b714cc8409722c8257f383bbc31.png)
+
+![](./system-anatomy.assets/9e013b714cc8409722c8257f383bbc31.png)
 
 B. Tab toolbar: Displays any tabs that pertain to the page that is currently open. Tabs in this toolbar are sometimes referred to as "chart tabs."
 
@@ -68,7 +69,8 @@ H. Encounter links: Links related to an open encounter, as well as a number of t
 7. Edit all sections button: Opens all sections of the encounter for editing.
 8. Show hidden section list button: Displays the list of all additional encounter sections that are not displayed. Click a section to add it to the encounter.
 
-    ![](./system-anatomy.assets/ff661c073f6a045ad0591b820299c861.png)
+
+![](./system-anatomy.assets/ff661c073f6a045ad0591b820299c861.png)
 
 ### Header Bar (Right Side)
 
