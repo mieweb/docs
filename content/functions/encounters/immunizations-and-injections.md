@@ -1,9 +1,9 @@
 ---
 id: '1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
 title: 'Immunizations and Injections'
-date: '2025-06-03T16:58:03.057Z'
-version: 115
-lastAuthor: 'anichols'
+date: '2025-11-25T17:58:02.628Z'
+version: 121
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
@@ -57,7 +57,7 @@ It is recommended that users select from predefined immunization/injection name 
 
 Once the injection **_Name_** has been entered and selected, type the date the historical injection was given.
 
-Begin typing the type of reaction encountered by this injection The **_Reaction_**** field will accept free text.
+Begin typing the type of reaction encountered by this injection The **_Reaction_** field will accept free text.
 
 Click the **_Save_** button to add the historical injection record to the patient's immunization/injection list. Click the **_Add Another_** to save the historical injection record to the patient's list and it will refresh the screen to immediately proceed and add another.
 
