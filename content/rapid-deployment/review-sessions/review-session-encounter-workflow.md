@@ -1,8 +1,8 @@
 ---
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
-date: '2025-11-13T16:41:19.450Z'
-version: 452
+date: '2025-11-24T20:42:23.194Z'
+version: 462
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -50,7 +50,6 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ## Agenda
 
@@ -313,14 +312,14 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 **System Configuration/Key Decision Points**
 
 1. What encounter types need to be configured?
-    a.  What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-    b.  Which encounter types need to be tied to the appointment types?
-    c.  What should the encounter be archived as?
+    * What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+    * Which encounter types need to be tied to the appointment types?
+    * What should the encounter be archived as?
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-    a.  Which protocols will drive the flowsheets?
-    b.  What area within the encounter will that flowsheet belong to?
+    * Which protocols will drive the flowsheets?
+    * What area within the encounter will that flowsheet belong to?
 5. What in-house testing can be performed?
 6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
 7. Need list/address of vendors commonly refer to
