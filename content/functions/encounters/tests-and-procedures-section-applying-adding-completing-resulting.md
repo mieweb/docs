@@ -1,9 +1,9 @@
 ---
 id: '1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 title: 'Tests & Procedures Section - Applying/Adding, Completing, Resulting'
-date: '2025-06-23T16:02:58.026Z'
-version: 188
-lastAuthor: 'anichols'
+date: '2025-11-25T18:11:47.453Z'
+version: 197
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../health-surveillance/due-list.md'
@@ -91,7 +91,7 @@ Within the Tests & Procedures encounter section, you will see a picklist icon.  
 
 ![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/3eb6ade3a651b46f08049f455b07b576.png)
 
-When you click the picklist icon, it opens the default order picklist set within the Encounter Type configuration, or the order picklist that is set in your My Settings picklist, which typically is a picklist named* In House Testing.*
+When you click the picklist icon, it opens the default order picklist set within the Encounter Type configuration, or the order picklist that is set in your My Settings picklist, which typically is a picklist named *In House Testing*.
 
 The In-House Testing picklist is configured to display choices of all the order items your practice can perform in-house and result.  This can encompass various orders/items/procedures in a pickable list.  If you need to add an additional test or procedure to do on the patient during today's encounter visit (that's not already shown on their pending "due list" in the Tests & Procedures section) the Picklist icon is where you go to add something to perform on their encounter.  This is essentially on-demand In-House ordering and/or resulting.
 
