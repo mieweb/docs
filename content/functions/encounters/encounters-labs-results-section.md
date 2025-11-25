@@ -1,9 +1,9 @@
 ---
 id: '14u88iIQ9MPABiJ1Yb_8gk0JYuSNf9m1GD0FPs1MQlp0'
 title: 'Encounters Labs Results Section'
-date: '2020-03-26T17:39:27.991Z'
-version: 79
-lastAuthor: ''
+date: '2025-11-25T18:09:13.388Z'
+version: 88
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/observations-tab.md'
@@ -54,9 +54,9 @@ To edit the Lab names that show in the encounters Labs Results section, go into 
 
 If you have security permission to Manage Observation Flowsheets and are trained on this feature, you can edit these observation flowsheets named EH Results Set 1 and EH Results Set 2.
 
-The **Labs Results** section that has FBS, HgbA1C fields, etc is pointing to flowsheet named** Results Set 1**
+The **Labs Results** section that has FBS, HgbA1C fields, etc is pointing to flowsheet named **Results Set 1**
 
-The **Labs Results (cont'd)** section that has AST, ALT fields etc is pointing to flowsheet named** Results Set 2**
+The **Labs Results (cont'd)** section that has AST, ALT fields etc is pointing to flowsheet named **Results Set 2**
 
 ![](./encounters-labs-results-section.assets/5aab51aea0db346d2abc60bf4bdb142a.png)
 
