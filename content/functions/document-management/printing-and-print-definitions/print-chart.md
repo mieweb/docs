@@ -1,8 +1,8 @@
 ---
 id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
 title: 'Print Chart'
-date: '2025-11-17T20:31:30.198Z'
-version: 131
+date: '2025-11-25T17:05:04.146Z'
+version: 139
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -93,7 +93,7 @@ Once clicked, the Print Chart dialog window will open. Following the same instru
 Appointment Type Print Definitions are configured in the [Appointment Types editor](https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/) (i.e., Appt Types tab) of the **Scheduler** module. Here, users with the necessary permissions may configure appointment types with print definitions, as needed.
 {{% /tip %}}
 
-Print Chart from Scheduler
+## Print Chart from Scheduler
 
 In addition to the various locations users can access the Print Chart functionality within the chart,  {{% system-name %}} includes this same functionality from the [Scheduler](https://docs.enterprisehealth.com/functions/scheduling/schedule-management/) module. When viewing scheduled appointments from the Scheduler, simply click the **Print Chart** link *within* the specific scheduled appointment block, and any printing or faxing needing to be done according to the scheduled appointment can be addressed.
 
