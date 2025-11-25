@@ -1,9 +1,9 @@
 ---
 id: '1noQHOYvPFVbNgLmHU-5MNMagJQNwAhyXxV_7XIuRz1E'
 title: 'Tests & Procedures Section - Remove, Delete, Edit'
-date: '2025-06-23T16:05:59.996Z'
-version: 113
-lastAuthor: 'anichols'
+date: '2025-11-25T18:18:57.209Z'
+version: 122
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../health-surveillance/due-list.md'
@@ -178,7 +178,7 @@ The X may be needed because perhaps you had marked an item as *Add to Exam* to b
 
 ## Due List Portlet
 
-Within the Summary dashboard chart tab, there is a portlet available named** Due List.**  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed or worked (such as declined, waived, etc). This list is managed in the Due List chart tab and/or from the Tests & Procedures section within encounters.
+Within the Summary dashboard chart tab, there is a portlet available named **Due List**. This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed or worked (such as declined, waived, etc). This list is managed in the Due List chart tab and/or from the Tests & Procedures section within encounters.
 
 ![](./tests-and-procedures-section-remove-delete-edit.assets/ce14d3297848f044de91a6418f97a73a.png)
 
