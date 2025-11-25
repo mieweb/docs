@@ -1,12 +1,13 @@
 ---
 id: '17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 title: 'Waiting List Tab'
-date: '2025-11-10T18:21:18.955Z'
-version: 139
+date: '2025-11-25T17:16:19.909Z'
+version: 147
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/scheduling/cancel-no-show-edit-appointments/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/email-reminders-from-system/'
 source: 'https://drive.google.com/open?id=17VNUnZWvZm1Fl-N0pr-rm1o7COpnZsVN0PxfA_QO1qM'
 wikigdrive: 'v2.15.30'
 ---
@@ -155,7 +156,7 @@ In the Waiting List screen view, click **Notify Patient by Email** link at the t
 
 ![](./waiting-list-tab.assets/ae6861370496062159b579a4164c33f1.png)
 
-See other help documentation named *Email Reminders From |system|.pdf* on how to send emails to patient from here. You can also send emails for waiting list appointments from the Appointment Report. See other help documentation regarding the Appointment Report.
+See other help documentation named [Email Reminders From System](https://docs.enterprisehealth.com/functions/system-administration/system-controls/email-reminders-from-system/) on how to send emails to patient from here. You can also send emails for waiting list appointments from the Appointment Report. See other help documentation regarding the Appointment Report.
 
 ## Print Charts from Waiting List
 
