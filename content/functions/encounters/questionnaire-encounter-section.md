@@ -1,8 +1,8 @@
 ---
 id: '1lmP_-n3hs3BFggxqKrCghcY6azLuGzFBUKU5psM70tw'
 title: 'Questionnaire Encounter Section'
-date: '2025-11-05T16:55:04.820Z'
-version: 63
+date: '2025-11-25T18:03:04.526Z'
+version: 72
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -49,7 +49,7 @@ Upon submit, the selected questionnaire will be *linked* to the encounter being 
 
 ### Add another Interpretation
 
-After a selected questionnaire stored document is linked to the encounter you are working in (and has an interpretation), you are able to add more than one interpretation.  Perhaps you need to add another interpretation or another provider is now seeing the colleague and needs to add their interpretation. Once the stored questionnaire document is linked (and visible in the Linked Documents separate encounter section), there is an **_Add Interpretation_****** icon at the far right of the listed linked document in that section.
+After a selected questionnaire stored document is linked to the encounter you are working in (and has an interpretation), you are able to add more than one interpretation.  Perhaps you need to add another interpretation or another provider is now seeing the colleague and needs to add their interpretation. Once the stored questionnaire document is linked (and visible in the Linked Documents separate encounter section), there is an **_Add Interpretation_** icon at the far right of the listed linked document in that section.
 
 ![](./questionnaire-encounter-section.assets/7a9066d90db2c7c582c33fa9df415dfb.png)
 
@@ -61,7 +61,7 @@ If using the *Link with Interpretation* icon, once the encounter itself is final
 
 ## Unlink from Encounter
 
-If you made a mistake or change your mind and do not want the selected Questionnaire document to be linked to the encounter you are working in (nor the interpretation), you can use the *unlink icon* from the listed questionnaire within the Linked Documents encounter section.  If you hover over the linked document (or swipe left if on an ipad or touchscreen device), you will see the icons there and one is the ability to *unlink from encounter. *
+If you made a mistake or change your mind and do not want the selected Questionnaire document to be linked to the encounter you are working in (nor the interpretation), you can use the *unlink icon* from the listed questionnaire within the Linked Documents encounter section.  If you hover over the linked document (or swipe left if on an ipad or touchscreen device), you will see the icons there and one is the ability to *unlink from encounter*.
 
 ![](./questionnaire-encounter-section.assets/34ddccad754c4e641b713275ce1ad454.png)
 
@@ -79,7 +79,7 @@ After linking a stored questionnaire document to the encounter you are working i
 
 ![](./questionnaire-encounter-section.assets/e62ba95ce94a91f12e48ca84afd1e5d8.png)
 
-The **Add Details to Encounter** icon will actually embed ALL the questionnaire document contents into the encounter being worked in.  So instead of just the questionnaire being linked and the title of the questionnaire being listed as linked (with interpretations), the entire questionnaire document CONTENTS (questions & answers and document details) gets embedded into the encounter being worked in.  Interpretations continue to be visible and are still part of the encounter being worked in.
+The **Add Details to Encounter** icon will actually embed ALL the questionnaire document contents into the encounter being worked in.  So instead of just the questionnaire being linked and the title of the questionnaire being listed as linked (with interpretations), the entire questionnaire document CONTENTS (questions & answers and document details) gets embedded into the encounter being worked in. Interpretations continue to be visible and are still part of the encounter being worked in.
 
 ![](./questionnaire-encounter-section.assets/06a0f463f3395de08e1fae6d7e15d545.png)
 
