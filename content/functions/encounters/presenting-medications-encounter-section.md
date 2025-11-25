@@ -1,9 +1,9 @@
 ---
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
-date: '2025-08-19T14:10:36.194Z'
-version: 165
-lastAuthor: 'auhrick'
+date: '2025-11-25T17:53:47.769Z'
+version: 173
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
@@ -40,7 +40,7 @@ The Presenting Medications section contains tools to assist the user.
 ![](./presenting-medications-encounter-section.assets/1bc4f95305310d39462d6605e09b7d13.png)
 
 ![](./presenting-medications-encounter-section.assets/81126ae8f7015b161ef8c63a320ee8ca.png)
- Select the pencil icon to open the legacy List Edit tool. Users may use an autocomplete to search for medications and click the** Add** button to update the list edit. Once all medications have been added to the list, click the **save** or **advance** button to save the medication to the presenting medications list. Users may click the **Edit** button on the medication line item to edit a medication. As of RC202309, users will no longer be able to delete from the legacy list edit. Users must use the 
+ Select the pencil icon to open the legacy List Edit tool. Users may use an autocomplete to search for medications and click the **Add** button to update the list edit. Once all medications have been added to the list, click the **save** or **advance** button to save the medication to the presenting medications list. Users may click the **Edit** button on the medication line item to edit a medication. As of RC202309, users will no longer be able to delete from the legacy list edit. Users must use the 
 ![](./presenting-medications-encounter-section.assets/c347ef7a0e85a3a6be84b0a14d4cc572.png)
  icon on the presenting medication list and designate if the medication being deleted is being discontinued or deleted due to an entry error.
 
@@ -89,7 +89,7 @@ Select this icon to add a task regarding this medication.
 
 ## Medication Reconciliation
 
-A new My Settings user preference called "Use Medication Quick Notes" is available for users on RC202409 and newer. The experimental feature is disabled by default, but can be enabled by users wishing to utilize this feature. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as** Unknown, Taking, Not Taking/PRN or Discontinued**. When a new encounter is opened all presenting medications will display under the Unknown subsection. Users are presented with additional buttons to mark each medication as **Taking, Not Taking/PRN, Unknown**, or **Discontinued**.  As each medication is reconciled, the presenting medication will build out to display applicable subsections.
+A new My Settings user preference called "Use Medication Quick Notes" is available for users on RC202409 and newer. The experimental feature is disabled by default, but can be enabled by users wishing to utilize this feature. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as **Unknown, Taking, Not Taking/PRN or Discontinued**. When a new encounter is opened all presenting medications will display under the Unknown subsection. Users are presented with additional buttons to mark each medication as **Taking, Not Taking/PRN, Unknown**, or **Discontinued**.  As each medication is reconciled, the presenting medication will build out to display applicable subsections.
 
 ![](./presenting-medications-encounter-section.assets/1545c4292ff49036a99b2586a44c4e7d.png)
 
