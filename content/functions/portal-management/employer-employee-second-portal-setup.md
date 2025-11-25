@@ -1,14 +1,16 @@
 ---
 id: '1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
 title: 'Employer/Employee Second Portal Setup'
-date: '2020-02-27T19:50:32.374Z'
-version: 35
+date: '2025-11-25T17:26:06.834Z'
+version: 44
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/portal-management/patient-portal-first-time-setup-and-configuration/'
 source: 'https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
 wikigdrive: 'v2.15.30'
 ---
-Setting up a portal for your employee's to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named *Employer-Employee Portal Setup.pdf*
+Setting up a portal for your employees to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named [Patient Portal First-Time Set-Up & Configuration](https://docs.enterprisehealth.com/functions/portal-management/patient-portal-first-time-setup-and-configuration/)*.*
 
 There may be a need for a second portal of a different url and different users related to different provider organizations, etc accessing that specific portal than accessing the initial Generic Portal that comes by default. To set up an additional portal:
 
@@ -32,7 +34,7 @@ After you click NEXT, click the *Overview* chart tab again to refresh the entire
 
 ![](./employer-employee-second-portal-setup.assets/ef67960eb0304f6cf7c738704acd0dff.png)
 
-Click the *Portal Setup* tab and begin configuration. See other help guide titled *Employer-Employee Portal Setup.pdf*. Then see additional help guide titled *Employer-Employee Portal Menu Layout.pdf* to set up the portal options for this new second portal.
+Click the *Portal Setup* tab and begin configuration. See other help guide titled [Patient Portal First-Time Set-Up & Configuration](https://docs.enterprisehealth.com/functions/portal-management/patient-portal-first-time-setup-and-configuration/).
 
 At any time, you can see what your real second portal will look like. First make sure you have a "supervisor" relationship on your username to another test user. Also make sure you are linked to your own chart as NoMoreClipboard User role (MIE Implementers can link to a test patient).
 
