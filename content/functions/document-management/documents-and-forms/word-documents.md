@@ -1,12 +1,15 @@
 ---
 id: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 title: 'Word Documents'
-date: '2025-11-10T15:16:47.440Z'
-version: 197
+date: '2025-11-25T15:36:02.635Z'
+version: 208
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AASHRKMF'
+  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
 wikigdrive: 'v2.15.30'
 ---
@@ -103,7 +106,8 @@ When a word document is uploaded into the patient's chart and you view the docum
 
 ![](./word-documents.assets/b681c70a35c11350c251c387bc0de2e9.png)
 
-If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters. 
+If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters.
+
 ![](./word-documents.assets/501dc3359c1dc6e598f50a43e0f9a762.png)
 
 ![](./word-documents.assets/7c9a5c82f9383a871eae8501ac7dfa15.png)
@@ -116,7 +120,7 @@ Click [ Print ] or [ Fax ] from the top right corner of choices when you are in 
 
 ![](./word-documents.assets/0a8b44b429ab6edd37ea3bdd70551987.png)
 
-(See other help instructions named Faxing Document.pdf or Printing Documents.pdf )
+(See other help instructions named [Faxing Document](https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/) or [Printing Documents](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/))
 
 ## Preliminary Watermarks
 
@@ -132,7 +136,7 @@ The watermark system setting in {{% system-name %}} is applicable to Word and En
 
 ![](./word-documents.assets/1ccdad998258c25f97dfc921858568e3.png)
 
-For more information on Preliminary Watermarks on encounter documents, please see other help documentation named *Encounters-Archiving-Closing-ReArchiving.pdf*
+For more information on Preliminary Watermarks on encounter documents, please see other help documentation named [Encounters-Archiving-Closing-ReArchiving](https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/)
 
 ## Pop-Up Boxes (One Choice/Item to Select)
 
