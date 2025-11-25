@@ -1,8 +1,8 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2025-11-10T17:14:22.179Z'
-version: 326
+date: '2025-11-25T16:55:20.763Z'
+version: 332
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -49,7 +49,7 @@ There are various statuses used within {{% system-name %}} for tracking batches.
 
 ![](./indexing.assets/0648372bb9ec6f9de23131655d61e146.png)
 
-    * The WebScan (x) count hyperlink is a quick visual of how many New <strong>and</strong> Incomplete total batches there are that need worked.  The user can also easily click on the WebScan (x) count hyperlink to be taken directly to the WebScan batches, where the Batch Status will automatically be populated as <em>New and Incomplete</em>, to begin working those batches to completed status.
+* The WebScan (x) count hyperlink is a quick visual of how many New <strong>and</strong> Incomplete total batches there are that need worked.  The user can also easily click on the WebScan (x) count hyperlink to be taken directly to the WebScan batches, where the Batch Status will automatically be populated as <em>New and Incomplete</em>, to begin working those batches to completed status.
 
 ![](./indexing.assets/d7964dac86590b8c652cfe27ce60e97d.png)
 
