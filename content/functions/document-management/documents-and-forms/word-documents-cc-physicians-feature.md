@@ -1,11 +1,12 @@
 ---
 id: '1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
 title: 'Word Documents - CC Physicians Feature'
-date: '2020-03-23T16:31:35.134Z'
-version: 88
-lastAuthor: ''
+date: '2025-11-25T15:39:51.761Z'
+version: 95
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
   - '../../e-chart/alerts-errors-failures-interactive-tab.md'
 source: 'https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
 wikigdrive: 'v2.15.30'
@@ -110,7 +111,7 @@ Simply find the stored/uploaded document in the patient's chart (doc id). Then c
 
 ![](./word-documents-cc-physicians-feature.assets/551c37bcedd1151b7487cf9deb1c0fb5.png)
 
-The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named *Document Properties.pdf*. For other specific information on how to be notified of a datasend error, please see other help documentation named [*Alert-Errors-Failures-Interactive Tab*](../../e-chart/alerts-errors-failures-interactive-tab.md)*.*
+The document properties will show various sections and scroll down to the sections named **Current Routes for Document** and **Routing History for Document**. There you will see which cc'd user/physician this document went to, how it was sent (printed, faxed, etc), date/time sent and if the datasend was successful or pending or has an error you need to acknowledge or you can resend a document via this route from here also. For other specific information on document properties and routes, please see other help documentation named [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/). For other specific information on how to be notified of a datasend error, please see other help documentation named [*Alert-Errors-Failures-Interactive Tab*](../../e-chart/alerts-errors-failures-interactive-tab.md)*.*
 
 ![](./word-documents-cc-physicians-feature.assets/a3c0ab622d9d9c5e90d1c2afc9e03a10.png)
 
