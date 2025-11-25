@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-11-24T16:00:44.243Z'
-version: 1251
+date: '2025-11-25T18:26:05.493Z'
+version: 1263
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -377,12 +377,13 @@ To utilize [RAF Scoring](https://docs.enterprisehealth.com/functions/quality-of-
 
 If a condition has not been reviewed in the last year, then either a yellow or red alert icon will display next to the condition.
 
-* ![](./smart-plan.assets/e18532205abfeb51d53bf7880d2caaf2.png)
-    - A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
+![](./smart-plan.assets/e18532205abfeb51d53bf7880d2caaf2.png)
+- A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
 
-* ![](./smart-plan.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
-     - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
-* No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
+![](./smart-plan.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
+ - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
+
+No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
 
 ![](./smart-plan.assets/648f00a41d541e410bf89ba45a8ae4ed.png)
 
