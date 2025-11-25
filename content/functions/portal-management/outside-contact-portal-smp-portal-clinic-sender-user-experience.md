@@ -1,8 +1,8 @@
 ---
 id: '15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
 title: 'Outside Contact Portal - SMP Portal Clinic Sender User Experience'
-date: '2025-11-10T19:06:31.194Z'
-version: 99
+date: '2025-11-25T17:39:46.201Z'
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -88,7 +88,7 @@ If a Contact's email is manually removed from the contact chart and the user att
 
 ### Batch Sending of Documents to Contacts
 
-Multiple documents can be batched and sent using the Batch feature.  Navigate to the patient chart and click on the "Batch" icon link (List View) or "Batch link (Detail View).
+Multiple documents can be batched and sent using the Batch feature.  Navigate to the patient chart and click on the "Batch" icon link (List View) or "Batch" link (Detail View).
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/8bac0d8f7b083fa375611cc27c84b48e.png)
 
@@ -102,7 +102,7 @@ Enter the appropriate information in the "Send Batch" detail box and click the "
 
 ### Sent Documents
 
-When documents are ‘Sent' to the Contact Chart, the actual document does not leave the patient chart and the original document is not actually ‘sent' to the contact chart or emailed to the contact. The system will ‘duplicate' the sent/shared document and create a new document id for that document. A link to this document is in the first set of parentheses on the sent history list that displays in the ‘Send Document" details box. This is the document ID of a new document that has been essentially copied and stored on the contact chart. When the contact user logs in the ‘Outside Contact Portal', the contact is only able to view documents on their contact chart. Outside contacts are not actually able to view or enter the patient chart. They will only have access to specific/individual documents purposely sent/copied by the clinic to the contact chart.
+When documents are ‘Sent' to the Contact Chart, the actual document does not leave the patient chart and the original document is not actually ‘sent' to the contact chart or emailed to the contact. The system will ‘duplicate' the sent/shared document and create a new document id for that document. A link to this document is in the first set of parentheses on the sent history list that displays in the "Send Document" details box. This is the document ID of a new document that has been essentially copied and stored on the contact chart. When the contact user logs in the ‘Outside Contact Portal', the contact is only able to view documents on their contact chart. Outside contacts are not actually able to view or enter the patient chart. They will only have access to specific/individual documents purposely sent/copied by the clinic to the contact chart.
 
 ### Emailed Documents
 
