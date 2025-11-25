@@ -1,8 +1,8 @@
 ---
 id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
 title: 'Insurance Summary in Demographics Tab'
-date: '2025-11-10T14:36:51.433Z'
-version: 107
+date: '2025-11-25T15:23:02.653Z'
+version: 116
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ wikigdrive: 'v2.15.30'
 ---
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
 
-When in the demographics tab or if you click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named** Insurance Summary**.
+When in the demographics tab or if you click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named **Insurance** **Summary**.
 
 ![](./insurance-summary-in-demographics-tab.assets/3e794d98630c1b3d8ba0518db0645043.png)
 
@@ -21,7 +21,7 @@ When in the demographics tab or if you click manage information within the insur
 The Insurance Summary section does not display when in Edit Demographics mode.  Must be in the demographics summary tab or access this via the Insurance portlet by clicking the ‘manage info' icon in the portlet.
 {{% /tip %}}
 
-Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for** Patient Insurance Policies** in {{% system-name %}} or refer to [Security Role Settings](https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/) documentation for more information.
+Insurances current for the chart display here, as well as the ability to add, edit or delete insurances for the chart can be done here.  Access, viewing, adding, editing and deleting insurance policies in the Insurance Summary of a chart are security permission driven. Contact your MIE Implementer or administrative superuser to obtain specific security permission level for **Patient** **Insurance** **Policies** in {{% system-name %}} or refer to [Security Role Settings](https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/) documentation for more information.
 
 ## Add an Insurance Policy to a Chart
 
@@ -115,7 +115,7 @@ If there are no existing e-scan documents (insurance card documents, etc) in the
 
 If an insurance card document image is already linked to the chart's specified insurance policy, you can unlink it. Unlinking an existing insurance card would be done if perhaps the insurance card changed and you needed to unlink the existing card from the policy and scan in a new card.  Or perhaps unlinking needs performs because an existing insurance card document was scanned and stored into the wrong chart. If that were the case, one would unlink it, then either delete the insurance card scanned document image, or move it to the correct chart.
 
-To unlink a stored document image from a specific insurance policy in the chart, simply click the** Card-Options** link, and then click** Unlink Existing Insurance Card**.    If you instead need to simply view the insurance card that is linked to this policy, you can click **View Linked Insurance Card** instead to view it or preview it before you unlink it.
+To unlink a stored document image from a specific insurance policy in the chart, simply click the **Card-Options** link, and then click **Unlink** **Existing** **Insurance** **Card**. If you instead need to simply view the insurance card that is linked to this policy, you can click **View Linked Insurance Card** instead to view it or preview it before you unlink it.
 
 ![](./insurance-summary-in-demographics-tab.assets/865a65f1674e3071e841652bd44cf906.png)
 
@@ -135,7 +135,7 @@ It is recommended to have separate document types for insurance card-primary, in
 For the **Scan Insurance Card** link to function when you click Card-Options from a listed policy in the Insurance Summary section, you must have **WCINS** as a doc.type in your system as **Insurance Card** (or distinguish it as primary).  If WCINS is not in your system as a doc.type, this link will not function.
 {{% /note %}}
 
-You can scan in an insurance card via **Add Document** method and select the filter E-Chart Scan to upload/scan in an insurance card to the insurance card document(s) that way.  The other option is to click** Card-Options** next to the specific policy listed in the Insurance Summary of demographics, then select **Scan New Insurance Card**.
+You can scan in an insurance card via **Add Document** method and select the filter E-Chart Scan to upload/scan in an insurance card to the insurance card document(s) that way.  The other option is to click **Card-Options** next to the specific policy listed in the Insurance Summary of demographics, then select **Scan New Insurance Card**.
 
 ![](./insurance-summary-in-demographics-tab.assets/af3161ff9ac605a14d565760c866ed49.png)
 
