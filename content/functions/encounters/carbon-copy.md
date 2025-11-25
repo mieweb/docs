@@ -1,9 +1,9 @@
 ---
 id: '1JxQAWY4nwYAQJwq4NQ5DYvP3RYMml3wz_KejI5gb4dQ'
 title: 'Carbon Copy'
-date: '2025-11-14T20:14:50.898Z'
-version: 208
-lastAuthor: 'thabecker'
+date: '2025-11-25T18:39:19.627Z'
+version: 216
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'contributing-providers.md'
@@ -25,9 +25,7 @@ In the User Name field, you can begin typing in the name of a physician you wish
 
 ![](./carbon-copy.assets/e999be12ce3b2fdd4b6c147441c07b37.png)
 
-By default the carbon copy user, co-signing provider, family physician, and/or referring physician roles are accessible from the drop-down. Link to Patient can be removed if you use a PM system where you maintain the physicians tagged to a patient. Otherwise the* link to patient* (if checkmarked) will set that provider onto the patient's demographics tab and overwrite anything already there.
-
-![](./carbon-copy.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
+By default the carbon copy user, co-signing provider, family physician, and/or referring physician roles are accessible from the drop-down. Link to Patient can be removed if you use a PM system where you maintain the physicians tagged to a patient. Otherwise the *link to patient* (if checkmarked) will set that provider onto the patient's demographics tab and overwrite anything already there.
 
 There is a user preference in *My Settings* that you can set to yes and have the referring & family physician(s) and any other patient physicians (roles) that are already set to the patient's demographics screen to pre-populate here in the Carbon Copy section of an encounter that is created. That way you don't have to look up who their referring and/or family physician, etc is or manually re-key in the name(s). You can also remove it from the section even if it pre-populates and you don't want to send it to that physician. In order to bring in the patient's physicians listed on their record into this CC section, make sure your *my settings* preference is set to "yes" for Link Patient Doctors New Enc.
 
