@@ -1,18 +1,19 @@
 ---
 id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 title: 'Inventory Tab Setup'
-date: '2025-11-13T15:29:20.229Z'
-version: 70
+date: '2025-11-24T20:28:54.181Z'
+version: 77
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/inventory-mappings/'
   - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/add-inventory-tab/'
 source: 'https://drive.google.com/open?id=1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 wikigdrive: 'v2.15.30'
 ---
 Using the "Control" tab in the Inventory module is the first step to getting your inventory module set up. This is where you key in to tell the system any and all inventory items that you will want to track. This isn't where you add quantity or tell the system specific lot's, quantity, etc. This is just keying in a name of an item that you want shown on inventory reports, to users to dispense inventory for, etc.
 
-The second step is them to ‘map' the inventory master item to a specific recognized ‘type' of medication, CDC immunization or supply order (see other help documentation *Mappings Inventory Tab.pdf*)
+The second step is them to ‘map' the inventory master item to a specific recognized ‘type' of medication, CDC immunization or supply order (see other help documentation [Inventory Mappings](https://docs.enterprisehealth.com/functions/system-administration/asset-management/inventory-mappings/))
 
 Then the third step is to ‘add received inventory' to your system so you can put in specific quantity and details of the specific inventory items that you will start your inventory system off with in order to decrement and use inventory. (see other help documentation [Add Inventory tab](https://docs.enterprisehealth.com/functions/system-administration/asset-management/add-inventory-tab/))
 
