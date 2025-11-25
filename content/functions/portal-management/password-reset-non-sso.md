@@ -1,8 +1,8 @@
 ---
 id: '1LUQDaYVkwIlzJeQVnhKNNptNldHsZFO23GmfXdkv_d8'
 title: 'Password Reset - Non SSO'
-date: '2025-11-10T18:56:42.167Z'
-version: 90
+date: '2025-11-25T17:35:34.771Z'
+version: 97
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -39,7 +39,7 @@ At the time of submit, an email will be sent to that user indicating that a pass
 
 ![](./password-reset-non-sso.assets/fadb5cffb317ade533c743974526969c.png)
 
-Back on the *password reset* screen, the Identity Verification pop-up window will appear.  This is where the user can select the appropriate radio button as to how to receive the unique PIN code that will be sent to allow them to reset their password.  Typically, only the *email* radio button option will appear for the PIN code to be sent to, however depending on how your system is set up to utilize other functions such as SMS or Phone Calls (and depending on what demographic data the chart contains), there may be other radio button options that appear.
+Back on the *password reset* screen, the Identity Verification pop-up window will appear.  This is where the user can select the appropriate radio button as to how to receive the unique PIN code that will be sent to allow them to reset their password. Typically, only the *email* radio button option will appear for the PIN code to be sent to, however depending on how your system is set up to utilize other functions such as SMS or Phone Calls (and depending on what demographic data the chart contains), there may be other radio button options that appear.
 
 ![](./password-reset-non-sso.assets/31d391fc94e1a0546574dc0b27dd30f5.png)
 
