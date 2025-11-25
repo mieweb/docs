@@ -1,11 +1,13 @@
 ---
 id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 title: 'Batched Documents - Printing, Faxing, Burning'
-date: '2024-02-12T15:22:26.042Z'
-version: 113
+date: '2025-11-25T16:58:38.729Z'
+version: 120
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
+  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
 source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 wikigdrive: 'v2.15.30'
 ---
@@ -81,7 +83,7 @@ If you wish to close the individually listed batch items, simply click the [ - ]
 
 To perform your printing or faxing or burning of the batch, simply click Print or Fax or Burner radio buttons in the window.
 
-(See separate help instructions titled *Printing Documents.pdf* and/or *Faxing Documents.pdf*).
+(See separate help instructions titled [Printing Documents](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/) and/or [Faxing Documents](https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/)).
 
 ![](./batched-documents-printing-faxing-burning.assets/40873832f9319a33c649dc5970005e5d.png)
 
