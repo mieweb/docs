@@ -2,7 +2,7 @@
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Symptoms/Diagnosis Encounter Section'
 date: '2025-11-25T18:24:23.355Z'
-version: 230
+version: 231
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
