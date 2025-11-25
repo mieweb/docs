@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2025-11-10T18:04:59.339Z'
-version: 557
+date: '2025-11-25T17:08:28.237Z'
+version: 564
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -278,25 +278,25 @@ Below the appointment add wizard screen (while you are scheduling an appointment
 
 ## Common Messages When Scheduling an Appointment
 
-#### Time is not templated
+### Time is not templated
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/b810cc96f19b74d3262eec3c437430cf.png)
 
 Time is not templated means the time of the appointment is not within the resource/provider's schedule that is set up. It means that a schedule is entered, but you are trying to schedule an appointment for a time not within those hours the provider will see patients or at the location specified in the schedule. It could also mean that the resource/provider is off that day and not seeing patients, so that time is blocked off in a schedule. This is a general warning message that the time you are trying to schedule for is not matching what is in the schedule. If you have security rights, you can force the appointment and schedule it anyway. Otherwise, it is suggested to use the View Calendar button to see why you cannot schedule that appointment or pick another day. The scheduler will not warn for non-templated times when adding an appointment for a resource that has no schedule(s) set up. All time will show as free if a resource/provider doesn't have a schedule set up.
 
-#### Start time is before current time
+### Start time is before current time
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/fc5f4e181bf1056ee80a98101fed27bb.png)
 
 Start time is before the current time means the appointment you are trying to schedule is before today's date or today's current time that your workstation shows. You are trying to schedule an appointment in the past.
 
-#### Overbooked
+### Overbooked
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/053eca52784f70586bd209b53b45bfa4.png)
 
 Overbooked is a message telling you that the appointment you are trying to schedule is overbooking that time slot. For example, there may be a schedule set up for the resource/provider to only allow 2 patient appointments per time slot. If you are scheduling an appointment and are trying to schedule a 3rd appt for that time slot, it will give you this message that the time slot is overbooked. If you have security permission, you can force it and overbook the appointment anyway. Otherwise, it is suggested to use the View Calendar button or Find Time button to find a different open time to schedule that appointment, so it doesn't overbook their schedule.
 
-#### Deceased Patient
+### Deceased Patient
 
 **Deceased patient:** If the patient has been marked as deceased in the demographics tab and you try to add/schedule an appointment for that patient, the system will alert you when you try to click SAVE.  The system notifies you that the patient chart is marked as deceased and asks if you still want to add/schedule the appointment.
 
