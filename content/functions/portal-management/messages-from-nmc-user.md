@@ -1,8 +1,8 @@
 ---
 id: '1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
 title: 'Messages from NMC User'
-date: '2025-11-10T19:19:39.051Z'
-version: 99
+date: '2025-12-01T21:43:08.068Z'
+version: 105
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -39,7 +39,7 @@ When you have grabbed the task, the task will open on your screen. The top porti
 
 ## Reply to Messages from Portal Users
 
-*You can only use and see the reply feature if you have security* **Send Patient Data***.*
+*You can only use and see the reply feature if you have security* **Send Patient Data**.
 
 After you have grabbed the task and read the document/message that came in, you should click OPEN CHART to get to the patient's chart. When you go to OPEN CHART, it opens the patient's chart in a separate window and leaves your grabbed task in the background still in its own window. When you go to OPEN CHART, you can go to the scheduler and schedule an appointment (if you schedule directly into the {{% system-name %}} scheduler and not via interface), or you can go into the patient's chart to verify the meds they are requesting a refill on and refill it from the patient's e-meds tab directly then print/fax/transmit it, or go to the patient's chart to verify any other patient information or look at the patient's chart to help you respond to the patient and or process their request.
 
