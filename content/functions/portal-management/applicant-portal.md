@@ -1,15 +1,14 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-11-25T17:21:50.941Z'
-version: 397
+date: '2025-12-01T20:05:26.347Z'
+version: 410
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
 
@@ -59,7 +58,7 @@ Updating the System Settings:
     * NMC, Registrations, Set New Patient at Temporary = 1
     * NMC, User Security, Force Security Role = 1
     * NMC, Pages, Client = Applicant
-        i. Assigns <em>Applicant</em> as the layout module.
+        * Assigns <em>Applicant</em> as the layout module.
     * NMC, Signup, Custom Site Realm = Applicant
     * Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
@@ -168,18 +167,18 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
 3. Using the <strong>Basic Editor</strong>, create the Applicant Portal chart tab, accordingly:
-    a.  <strong>Tab Name</strong>:  Applicant Portal
-    b.  <strong>Description</strong>:  Blank
-    c.  <strong>Open in new window?</strong>:  No
-    d.  <strong>Default View</strong>:  Dashboard View
-    e.  <strong>Tab Order</strong>:  No Change
-    f.  <strong>Tab Color</strong>:  No Change
-    g.  <strong>Restrict Access</strong>:  Unchecked
-    h.  <strong>Show Tab in Pocket</strong>:  Unchecked
-    i.  <strong>Show Link Header</strong>:  Checked
-    j.  <strong>Chart Type</strong>:  Portal
-    k.  <strong>Force Display</strong>:  Yes
-    l.  <strong>Layout Name</strong>:  Applicant Portal
+    * <strong>Tab Name</strong>:  Applicant Portal
+    * <strong>Description</strong>:  Blank
+    * <strong>Open in new window?</strong>:  No
+    * <strong>Default View</strong>:  Dashboard View
+    * <strong>Tab Order</strong>:  No Change
+    * <strong>Tab Color</strong>:  No Change
+    * <strong>Restrict Access</strong>:  Unchecked
+    * <strong>Show Tab in Pocket</strong>:  Unchecked
+    * <strong>Show Link Header</strong>:  Checked
+    * <strong>Chart Type</strong>:  Portal
+    * <strong>Force Display</strong>:  Yes
+    * <strong>Layout Name</strong>:  Applicant Portal
 4. Click the <strong>Save</strong> button, when finished.
 
 ## Add Applicant Portal Questionnaires
