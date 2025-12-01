@@ -144,6 +144,7 @@ wikigdrive: 'v2.15.30'
          * [Future Appointments](functions/encounters/future-appointments.md)
          * [Goals](functions/encounters/goals.md)
          * [Gynecology History](functions/encounters/gynecology-history.md)
+         * [Heading Levels in Encounters](functions/encounters/heading-levels-in-encounters.md)
          * [History of Present Illness](functions/encounters/history-of-present-illness.md)
          * [ICD11 Tool](functions/encounters/icd11-tool.md)
          * [Images](functions/encounters/images.md)
