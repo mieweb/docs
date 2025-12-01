@@ -1,8 +1,8 @@
 ---
 id: '1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 title: 'Smart Plan'
-date: '2025-11-25T18:26:05.493Z'
-version: 1263
+date: '2025-12-01T21:13:45.051Z'
+version: 1275
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,6 @@ links:
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 The Smart Plan is an optional encounter section that is displayed near the top of the Visit Encounter. The Smart Plan is similar to the Symptoms/Diagnosis encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections. This section is ideal for providers who prefer to drive the encounter based on patient conditions.
 
@@ -31,9 +30,11 @@ Providers will use the Smart Plan Quick List (right side of the blue vertical ba
 
 ![](./smart-plan.assets/39d9644826ffbcfe34117e1d43c6e99a.png)
 
-A.  Set Library for entire encounter
-B.  Hide/Show Quick Links
-C.  Set Library for this section only
+A - Set Library for entire encounter
+
+B - Hide/Show Quick Links
+
+C - Set Library for this section only
 
 For users on RC202309 and newer, a new feature to copy from Previous Exam has been added to the Smart Plan encounter section toolbar. For more information on this feature see [Copy From Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/) online help documentation.
 
@@ -323,7 +324,7 @@ If an Health Surveillance Panel RE order type/representative event is listed on 
 
 ![](./smart-plan.assets/62b54f708651f40e8f2c8c1004cb6c8f.png)
 
-* Click the Lightning Bolt Icon to Add the order item to the exam. This will add the order the Smart Plan for today's visit.
+* Click the Lightning Bolt Icon to Add the order item to the exam. This will add the order to the Smart Plan for today's visit.
 
 ![](./smart-plan.assets/19eda77a506afb7b308f81721bbe7a91.png)
 
@@ -378,10 +379,10 @@ To utilize [RAF Scoring](https://docs.enterprisehealth.com/functions/quality-of-
 If a condition has not been reviewed in the last year, then either a yellow or red alert icon will display next to the condition.
 
 ![](./smart-plan.assets/e18532205abfeb51d53bf7880d2caaf2.png)
-- A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
+ A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
 
 ![](./smart-plan.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
- - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
+ A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
 
 No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
 
@@ -501,7 +502,7 @@ To the right of each condition in the Smart Plan Assessment Eight (8) options:
 
 ![](./smart-plan.assets/aee30485f700c7352d7c9d8afbd40b17.png)
 
-* To the right of the blue bar and in the upper right hand corner of the Add Encounter Order screen, users may also select from a pre populated list of tests. The "By Reason" Quick List is automatically built by the system based on the most frequently ordered tests for the specified condition.
+* To the right of the blue bar and in the upper right hand corner of the Add Encounter Order screen, users may also select from a pre-populated list of tests. The "By Reason" Quick List is automatically built by the system based on the most frequently ordered tests for the specified condition.
 * Users may also select existing orders on the Due List Quick List and add them to today's Smart Plan.
 * Click on the "+" icon to the right of the test to add it to today's Smart Plan.
 * The bottom half of the Add Encounter Order screen allows for the user to change or update the condition for which the orders are being generated.
