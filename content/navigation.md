@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-11-07T13:25:34.124Z'
-version: 1871
+date: '2025-12-01T15:07:41.314Z'
+version: 1877
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -133,6 +133,7 @@ links:
   - 'functions/encounters/working-in-a-legacy-encounter.md'
   - 'functions/encounters/working-in-a-visit-encounter.md'
   - 'functions/encounters/rename-a-heading.md'
+  - 'functions/encounters/heading-levels-in-encounters.md'
   - 'functions/encounters/encounter.md'
   - 'functions/encounters/encounter-section.md'
   - 'functions/encounters/encounter-owners.md'
@@ -935,6 +936,7 @@ wikigdrive: 'v2.15.30'
         * [Working in a Legacy Encounter](functions/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](functions/encounters/working-in-a-visit-encounter.md)
             * [Rename an Encounter Section Heading](functions/encounters/rename-a-heading.md)
+            * [Heading Levels in Encounters](functions/encounters/heading-levels-in-encounters.md)
         * [Encounter Top Section](functions/encounters/encounter.md)
         * [Encounter Section](functions/encounters/encounter-section.md)
         * [Encounter Owners](functions/encounters/encounter-owners.md)
