@@ -1,8 +1,8 @@
 ---
 id: '15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
 title: 'Outside Contact Portal - SMP Portal Clinic Sender User Experience'
-date: '2025-11-25T17:39:46.201Z'
-version: 107
+date: '2025-12-01T21:40:15.247Z'
+version: 114
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -176,7 +176,7 @@ Hint: Remember, documents in the Outside Contact Chart are a "copy" of the origi
 
 **Contact Name:** This is the Outside Contact that has replied or sent a message to the clinic.
 
-**Chart Name: ** This is the name of the patient/employee the message is regarding. Click on the name to browse directly to the chart.
+**Chart Name:** This is the name of the patient/employee the message is regarding. Click on the name to browse directly to the chart.
 
 **Orig. Doc. ID:** This is the original document id of the document that was "copied" to the Outside Contact chart. Click on the document Id to browse directly to the original document.
 
