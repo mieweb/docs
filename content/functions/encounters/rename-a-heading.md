@@ -1,11 +1,12 @@
 ---
 id: '1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
 title: 'Rename a Heading'
-date: '2025-03-12T18:58:01.010Z'
-version: 49
+date: '2025-12-01T15:02:52.849Z'
+version: 56
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'heading-levels-in-encounters.md'
 source: 'https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
 wikigdrive: 'v2.15.30'
 ---
@@ -71,3 +72,7 @@ After renaming any encounter section(s) as needed, an encounter template can be 
 ![](./rename-a-heading.assets/a24d164ff54dc6bbdb39a7469ea26eb6.png)
 
 Once an encounter template is saved (new or existing template override), with renamed encounter sections it is available for use system wide.
+
+## Additional information
+
+* [Heading Levels in Encounters](heading-levels-in-encounters.md)
