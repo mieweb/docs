@@ -1,8 +1,8 @@
 ---
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Symptoms/Diagnosis Encounter Section'
-date: '2025-11-25T21:42:30.021Z'
-version: 235
+date: '2025-12-01T19:56:28.332Z'
+version: 254
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,6 @@ links:
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 The Symptoms/Diagnosis is an optional encounter section that is displayed in the Assessment grouping of the Visit Encounter. The Symptoms/Diagnosis section is similar to the Smart Plan encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections.
 
@@ -23,9 +22,11 @@ Providers will use the Quick List (right side of the blue vertical bar) to popul
 
 ![](./symptoms-diagnosis-encounter-section.assets/617f7e893b68dce778d593392f7c8c31.png)
 
-a.  Set Library for entire encounter
-b.  Hide/Show Quick Links for this encounter section
-c.  Set Library for this encounter section only
+A - Set Library for entire encounter
+
+B - Hide/Show Quick Links for this encounter section
+
+C - Set Library for this encounter section only
 
 ## Quick List
 
@@ -292,10 +293,10 @@ Systems that wish to utilize RAF Scoring, the system setting for "Alert if Diagn
 If a condition has not been reviewed in the last year, then either a yellow or red alert icon will display next to the condition.
 
 ![](./symptoms-diagnosis-encounter-section.assets/e18532205abfeb51d53bf7880d2caaf2.png)
-- A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
+ A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
 
 ![](./symptoms-diagnosis-encounter-section.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
- - A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
+ A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
 
 No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
 
