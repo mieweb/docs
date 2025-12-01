@@ -1,11 +1,12 @@
 ---
 id: '1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
 title: 'Work Status'
-date: '2023-10-16T17:47:07.508Z'
-version: 122
-lastAuthor: 'anichols'
+date: '2025-12-01T21:56:24.849Z'
+version: 130
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/encounters/recommendations/'
 source: 'https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
 wikigdrive: 'v2.15.30'
 ---
@@ -25,7 +26,7 @@ Under the grid showing any recommendations (medical opinions) that are on the pa
 
 The free text box for *Work Status Introductions* is an optional area to free type an introduction if this work status document is going to go to someone specific (ie: shared to a supervisor) and you want to type in some free text for an introduction making it more personal or offering expanded content.
 
-Then apply the specific recommendation to the encounter exam that an opinion will be generated on. See separate help documentation titled *Encounters-Recommendations Section.*
+Then apply the specific recommendation to the encounter exam that an opinion will be generated on. See separate help documentation titled [Encounters Recommendations](https://docs.enterprisehealth.com/functions/encounters/recommendations/)*.*
 
 When done working in the Recommendations section of the encounter, when you go to the encounter ‘view', the Recommendations section is shown along with any work status report generated introduction verbiage.
 
