@@ -1,9 +1,9 @@
 ---
 id: '1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 title: 'Conditions Report'
-date: '2025-06-10T15:27:13.100Z'
-version: 67
-lastAuthor: 'anichols'
+date: '2025-12-02T19:12:55.119Z'
+version: 78
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
@@ -49,3 +49,7 @@ Additional report output options:
 * View Printable will put the output into a printable format in a separate tab, to use your browser's print method.
 
 ![](./conditions-report.assets/b2ccfe87d3c3c1cae58ba81757d641aa.png)
+
+Beginning in RC202509 and newer, the Conditions Report is available as a DataVis. All Optional Columns will display by default and do not require the user to select the optional fields. Users may use the DataVis Grid Controls to hide columns, pivot data and/or save custom perspectives.
+
+![](./conditions-report.assets/bf00fa28fe2080d472d63bac2ae8f02e.png)
