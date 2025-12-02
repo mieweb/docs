@@ -1,9 +1,9 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2025-05-16T17:46:52.288Z'
-version: 247
-lastAuthor: 'janderson'
+date: '2025-12-02T17:05:46.363Z'
+version: 255
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
@@ -110,10 +110,10 @@ Use the *Choose Files* button to browse out to find the file needing to be uploa
 ![](./e-chart-scan-documents.assets/7815abb4e572249e97ef6a8c97b7374f.png)
 
 {{% note %}}
-The *File Upload* method from the Scan functionality only supports .TIFF file types.  If needing to upload any other file type (ex: PDF, JPG, PNG, etc), you will need to use the **File** filter method from the Add Document screen, instead of this Scan/E-Chart Scan method.
+The *File Upload* method from the Scan functionality supportsTIFF file types.  It supports other file types such as PDF, JPG, and PNG in 202403RC and newer.
 {{% /note %}}
 
-After you have chosen the .TIFF file you wish to upload, set the document properties in the portion below this screen, then click the UPLOAD SCANNED FILE button to upload the file to the chart as the document type you indicated.
+After you have chosen the file you wish to upload, set the document properties in the portion below this screen, then click the UPLOAD SCANNED FILE button to upload the file to the chart as the document type you indicated.
 
 ## Learning Management System
 
