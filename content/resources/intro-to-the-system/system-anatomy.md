@@ -1,9 +1,9 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-11-24T21:14:30.509Z'
-version: 187
-lastAuthor: 'janderson'
+date: '2025-12-02T19:51:04.334Z'
+version: 196
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/resources/intro-to-the-system/'
@@ -86,7 +86,7 @@ B.  The person icon may display in a blue or black color depending on user secur
 
 C.  The logged in user's name and security role will display to the right of the person icon. If the logged in user has access to edit user profiles, the name becomes a clickable link that takes the end user to the user account information.
 
-![](./system-anatomy.assets/176a0967e4199a97bb034a11e53146f1.png)
+![](./system-anatomy.assets/e209643ee96dc7ca409d21e5a5a7f9c7.png)
 
 As of database RC202409, a new system setting is available to determine how the users names displays on screens and on authored documents.
 
