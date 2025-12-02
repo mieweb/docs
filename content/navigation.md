@@ -577,7 +577,7 @@ links:
   - 'functions/system-administration/system-controls/encounter-types.md'
   - 'functions/system-administration/system-controls/auto-routes.md'
   - 'functions/system-administration/system-controls/system-maintenance-lockout.md'
-  - 'https://drive.google.com/open?id=13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
+  - 'functions/system-administration/system-controls/datasend-queue.md'
   - 'functions/system-administration/data-migration.md'
   - 'functions/system-administration/data-migration/eh-data-migration-etl-approach.md'
   - 'functions/system-administration/data-migration/data-migration-questionnaire.md'
@@ -1381,7 +1381,7 @@ wikigdrive: 'v2.15.30'
             * [Encounter Types](functions/system-administration/system-controls/encounter-types.md)
             * [Auto Routes](functions/system-administration/system-controls/auto-routes.md)
             * [System Maintenance Lockout](functions/system-administration/system-controls/system-maintenance-lockout.md)
-            * [Datasend Queue](https://drive.google.com/open?id=13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY#heading=h.711y4536uh3m)
+            * [Datasend Queue](functions/system-administration/system-controls/datasend-queue.md#overview)
         * [Data Migration](functions/system-administration/data-migration.md)
             * [EH Data Migration ETL Approach](functions/system-administration/data-migration/eh-data-migration-etl-approach.md)
             * [Data Migration Questionnaire](functions/system-administration/data-migration/data-migration-questionnaire.md)
