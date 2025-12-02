@@ -1,8 +1,8 @@
 ---
 id: '1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
 title: 'E-Refills - All E-Refills Tab'
-date: '2025-12-02T18:56:14.523Z'
-version: 93
+date: '2025-12-02T19:22:07.120Z'
+version: 105
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -54,12 +54,6 @@ From the Pending Refill Requests category, clicking the *ID* column will open up
 
 Beginning in RC202409 and newer, providers may also query a new PDMP (Prescription Drug Monitoring Program) request from the E-refill Request.
 
-If the system is unable to match the electronic refill request with a patient and users notice that there are more unmatched patients than matched patients, then providers may want to consider enabling the "Match Patient using Prescriber ID" system setting.  By default this system setting is Disabled. This system setting is available on databases on 202409 and newer.
-
-![](./e-refills-all-e-refills-tab.assets/b9dff1e01ceb388703baf363177e72a5.png)
-
-![](./e-refills-all-e-refills-tab.assets/08514453f387f7dc67badc3b0b4c95d7.png)
-
 ![](./e-refills-all-e-refills-tab.assets/e1e9898473564879473d2d4ada39e10e.png)
 
 ## Categories
@@ -93,3 +87,11 @@ This section will probably not ever show anything because the e-Prescriber recei
 E-refill request messages for prescribers that are Active or Login Disabled show up in the All E-Refills list. To stop receiving these (ex: for a provider who terminated the practice and their login is disabled), the *Receive Refill Requests* checkbox needs to be unchecked for a user, regardless of their status.
 
 ![](./e-refills-all-e-refills-tab.assets/4cebd33b817efea0924981eff581f4d2.png)
+
+### Unmatched Patients
+
+If the system is unable to match the electronic refill request with a patient and users notice that there are more unmatched patients than matched patients, then providers may want to consider enabling the "Match Patient using Prescriber ID" system setting. Enabling this system setting will use the prescriber ID as an additional criteria when attempting to match the refill request with a patient.  By default this system setting is Disabled. This system setting is available on databases on 202409 and newer.
+
+![](./e-refills-all-e-refills-tab.assets/250de7d5a95118f56c59eb04bd07c6a7.png)
+
+![](./e-refills-all-e-refills-tab.assets/08514453f387f7dc67badc3b0b4c95d7.png)
