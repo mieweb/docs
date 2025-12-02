@@ -2,7 +2,7 @@
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
 date: '2025-12-02T19:51:04.334Z'
-version: 197
+version: 198
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
