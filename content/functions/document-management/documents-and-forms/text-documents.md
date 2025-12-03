@@ -1,9 +1,9 @@
 ---
 id: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
 title: 'Text Documents'
-date: '2025-11-10T14:51:44.331Z'
-version: 67
-lastAuthor: 'janderson'
+date: '2025-12-03T19:37:14.660Z'
+version: 75
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
@@ -35,9 +35,10 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
-{{% note %}}
-In order to author documents for others, the user must have the Access Control **Transcribe for Others** setting set to **Yes**. If this setting is not enabled for the user, the Authored By field will not be an option.
-{{% /note %}}
+* In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
+* The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
+
+![](./text-documents.assets/7635812e7191ecb60d4cd0288da5b217.png)
 
 **Document Type**: Select the document type being uploaded and stored in the chart.
 
