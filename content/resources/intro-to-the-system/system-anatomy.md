@@ -1,8 +1,8 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-12-02T19:51:04.334Z'
-version: 200
+date: '2025-12-02T21:44:39.141Z'
+version: 206
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -84,7 +84,7 @@ B.  The person icon may display in a blue or black color depending on user secur
 
 ![](./system-anatomy.assets/9e4c37de0dff899c776cc078a612ea85.png)
 
-C.  The logged in user's name and security role will display to the right of the person icon. If the logged in user has access to edit user profiles, the name becomes a clickable link that takes the end user to the user account information.
+C.  The logged in user's name and security role will display to the right of the person icon. If the logged in user has access to edit user profiles, the name becomes a clickable link that takes the end user to the user account information. Beginning with RC202603, the User Detail box has been updated to display Eprescribe feature enrollment statuses and Meaningful Use (Quality) opt-in status and start dates.
 
 ![](./system-anatomy.assets/e209643ee96dc7ca409d21e5a5a7f9c7.png)
 
