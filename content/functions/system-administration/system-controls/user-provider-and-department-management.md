@@ -1,8 +1,8 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2025-11-24T18:44:09.798Z'
-version: 222
+date: '2025-12-03T20:25:23.886Z'
+version: 234
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -301,7 +301,7 @@ Re-enter and confirm your PIN.
 
 Security Question
 
-Type a question the user wishes to refer to if he/she needs access to their profile or their password reset. This is used to verify the individual's identify.
+Type a question the user wishes to refer to if he/she needs access to their profile or their password reset. This is used to verify the individual's identity.
 
 Security Answer
 
