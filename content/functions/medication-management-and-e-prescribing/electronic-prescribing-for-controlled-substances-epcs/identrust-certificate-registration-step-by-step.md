@@ -1,8 +1,8 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2025-12-03T20:01:19.930Z'
-version: 439
+date: '2025-12-03T21:38:32.448Z'
+version: 446
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,6 @@ links:
   - 'http://www.indentrust.com/install'
 source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ![](./identrust-certificate-registration-step-by-step.assets/e714b45dbc80ccc03a7bd9d5253800b8.png)
 
@@ -44,9 +43,9 @@ There is a recording walking to watch someone walk through all the steps (the vi
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
 1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $96.00-$232.00 (Prices subject to change by IdenTrust)</strong>
-    a.  Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
+    * Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
 2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $258.00 (Pricing subject to change by IdenTrust)</strong>
-    a.  Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
+    * Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
 3. <strong>Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $84.00-$198.00</strong>
 
 ******Note: Enterprise Health and WebChart will be deprecating support for USB tokens. Customers should opt for the Mobile Authentication certificate.**
@@ -67,9 +66,9 @@ The first step requires the selection of the certificate. There are 3 types of C
 
 1. Every certificate provided through IdenTrust for EPCS has different year options for the validity period. The 2-year option is automatically selected for mobile authentication.
 2. The USB Token option requires the purchase of the HID USB Token, used to store the digital certificate.
-    a.  <strong>HID USB Token - $92.00</strong>
-        i. This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
-    b.  SafeNet USB Token use existing - $0.00
+    * <strong>HID USB Token - $92.00</strong>
+        * This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
+    * SafeNet USB Token use existing - $0.00
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.
 
@@ -158,14 +157,14 @@ You have entered the **third** and final phase, which consists of obtaining your
 ![](./identrust-certificate-registration-step-by-step.assets/5b7229ad05c916bcce395f084067a36c.png)
 
 2. <strong>Change the Passcode for the USB Token</strong> – Please note that this passcode reset process is intended for new, unused USB Tokens, or tokens where certificates have not already been installed. If you are using a USB Token that contains previous certificates, you will not see this prompt and can proceed to the next step.
-    a.  Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
-    b.  Click <strong>Ok</strong>.
+    * Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
+    * Click <strong>Ok</strong>.
 
 ![](./identrust-certificate-registration-step-by-step.assets/f1ade27a5d5de5ee1716868a16fd6d76.png)
 
 3. Retrieve the Current Token Passcode from the Activation Letter you received, and set the New Token Passcode.
-    c.  <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter)
-    d.  <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
+    * <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter)
+    * <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
 
 ![](./identrust-certificate-registration-step-by-step.assets/669b6e199338b55b40d64e5a9b29dddb.png)
 
