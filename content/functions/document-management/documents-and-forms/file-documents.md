@@ -1,9 +1,9 @@
 ---
 id: '1PaBNyPuSASuXOWiDUToeTPjuyqzBrMI1qET5jEgLXKw'
 title: 'File Documents'
-date: '2025-11-10T15:12:19.878Z'
-version: 162
-lastAuthor: 'janderson'
+date: '2025-12-03T19:31:25.737Z'
+version: 170
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
@@ -36,6 +36,10 @@ Within the *Add Document Properties* screen, users can signify the document de
 * <strong>Document Type:</strong> This is a required field. Select the document type being uploaded and stored in the chart.
 * <strong>Authored By</strong>: This is a required field. Given the proper security permission, select for whom this file document is authored by or click the <strong>Me</strong> button if the logged-in user is the <em>author</em>. The logged-in user uploading a file document into the chart is considered the Creator and will be logged as such in the document properties. Authored By is who authored the specific document being uploaded.
     * Users must have <strong>Transcribe for Others</strong> security access to author documents on behalf of others. If this setting is not enabled for the user, this field will not be an option.
+    * The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
+
+![](./file-documents.assets/7899005db163fcae333b8d6b3bed4d75.png)
+
 * <strong>Date of Service:</strong> This is a required field. Provide the date of service for the document.
 * <strong>Service Location:</strong> This drop-down can be used to choose the service location of the document. Note: if left blank, the file will be uploaded without a service location noted and will not assume any specific location.
 * <strong>Subject:</strong> Use this free-text field to provide a subject for the file document. The subject displays on List View summary pages where documents are displayed and can be searched using the Document Search report. Note: if left blank, the file will be uploaded without any subject noted.
