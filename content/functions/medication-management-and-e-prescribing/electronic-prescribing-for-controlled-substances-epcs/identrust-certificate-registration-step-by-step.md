@@ -1,8 +1,8 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2025-12-03T20:01:11.135Z'
-version: 437
+date: '2025-12-03T20:01:19.930Z'
+version: 439
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
