@@ -1,8 +1,8 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2025-12-03T20:25:23.886Z'
-version: 234
+date: '2025-12-03T21:10:33.555Z'
+version: 257
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,6 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LAQIDNHR'
 source: 'https://drive.google.com/open?id=1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 With the proper security permissions, adding, editing, and removing users can be easily managed from within the  {{% system-name %}} solution's Access Control editor. Following is a detailed outline of the processes of managing users, providers, referring physicians, and departments. There are varying types of user access to consider, in addition to methods by which users can be added to the  {{% system-name %}} solution. Therefore, consider the organization's needs and follow the guided workflows, below, as appropriate.
 
@@ -99,213 +98,123 @@ Creating new users within the  {{% system-name %}} solution can be executed and
 1. Click the Add User link in the upper-right corner.
 2. When adding users, consider their role, and fill all fields as thoroughly as possible. Fields marked with a red asterisk are <strong>required</strong>. All fields available are as follows:
 
-Username
+**Username:** This is the user login credential. Common conventions for usernames tend to be lowercase characters, first initial with last name, and no spaces.
 
-This is the user login credential. Common conventions for usernames tend to be lowercase characters, first initial with last name, and no spaces.
-
-Alias
-
-The Alias field offers an alternative to a user's Full Name being used for any Authored By fields within the  {{% system-name %}} solution. Text in this field will show in the Authored By field of all documents (i.e., that are created, uploaded, printed, faxed, etc.). Authored By fields pull the Alias first; however, if nothing is entered in the Alias field, the Full Name will be pulled for authoring purposes.
+**Alias:** The Alias field offers an alternative to a user's Full Name being used for any Authored By fields within the  {{% system-name %}} solution. Text in this field will show in the Authored By field of all documents (i.e., that are created, uploaded, printed, faxed, etc.). Authored By fields pull the Alias first; however, if nothing is entered in the Alias field, the Full Name will be pulled for authoring purposes.
 
 {{% tip %}}
 Some clients prefer an Alias such as: First Name and Last Initial; Last Name, First Initial; only initials; or Username. This provides a level of privacy for clinical staff, if preferred.
 {{% /tip %}}
 
-Primary Dept
+**Primary Dept:** Using the dropdown, choose the **Primary** Department the user will be associated with. If the appropriate Department is not listed, create a New Department.
 
-Using the dropdown, choose the **Primary** Department the user will be associated with. If the appropriate Department is not listed, create a New Department.
+**Organization:** Type the name of the facility, practice, or company, as appropriate.
 
-Organization
-
-Type the name of the facility, practice, or company, as appropriate.
-
-Current Status
-
-When adding new users, this field defaults to *Active*. Choices are **Active**, **Login Disabled**, or **Deleted**.
+**Current Status:** When adding new users, this field defaults to *Active*. Choices are **Active**, **Login Disabled**, or **Deleted**.
 
 {{% note %}}
 *Active* users require a Username and Password to be provided. Users and entities that will not access the system directly (e.g., pharmacies), the Login Disabled status will be selected, and no password will be required.
 {{% /note %}}
 
-Security Role
+**Security Role:** A Security Role must be selected, otherwise an error will populate at the top of the page upon submission. This field dictates the level of access a user is permitted. The default message is **WARNING: No Security Role for User!**. Use the dropdown to select the appropriate Security Role for the user in context.
 
-A Security Role must be selected, otherwise an error will populate at the top of the page upon submission. This field dictates the level of access a user is permitted. The default message is **WARNING: No Security Role for User!**. Use the dropdown to select the appropriate Security Role for the user in context.
-
-Def. User Role
-
-Default User Role. The default message is **WARNING: No Default User Role for User!**. If this field is skipped, the system automatically defaults and saves the role as **User-Limited Access**.
+**Def. User Role:** Default User Role. The default message is **WARNING: No Default User Role for User!**. If this field is skipped, the system automatically defaults and saves the role as **User-Limited Access**.
 
 {{% note %}}
 This field must be set for any Referring Physician being added to the  {{% system-name %}} solution. If creating a referring physician, set to **Referring Physician**.
 {{% /note %}}
 
-Electronic Prescriber
+**Electronic Prescriber:** These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/) before making any selections.
 
-These fields are intended for physicians or users legally allowed to prescribe medications. Refer to [E-Prescribe Management](https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/) before making any selections.
+**Meaningful Use:** This field notes the Meaningful Use status of the user. Upon adding a new user, this field will show the status as **Inactive**. To opt-in for Meaningful Use reporting and incentives from CMS, refer to the Meaningful Use Documentation.
 
-Meaningful Use
+**Title:** Honorifics or preferred titles (e.g., Mr., Ms., Mrs., Dr., etc.) may be entered in this field. This is an optional field.
 
-This field notes the Meaningful Use status of the user. Upon adding a new user, this field will show the status as **Inactive**. To opt-in for Meaningful Use reporting and incentives from CMS, refer to the Meaningful Use Documentation.
+**First Name:** Enter the user's full legal first name. This is a required field, therefore a new user cannot be created without an entry.
 
-Title
+**Middle Name:** Enter the user's full middle name or initial.
 
-Honorifics or preferred titles (e.g., Mr., Ms., Mrs., Dr., etc.) may be entered in this field. This is an optional field.
+**Last Name:** Enter the user's full legal last name. This is a required field, therefore a new user cannot be created without an entry.
 
-First Name
+**Suffix:** If the user has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field.
 
-Enter the user's full legal first name. This is a required field, therefore a new user cannot be created without an entry.
+**Degree:** This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
 
-Middle Name
+**Address1:** The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
 
-Enter the user's full middle name or initial.
+**Address2:** The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
 
-Last Name
+**City:** The full city name of the location.
 
-Enter the user's full legal last name. This is a required field, therefore a new user cannot be created without an entry.
+**State/Province:** A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
 
-Suffix
+**Country:** Field defaults to **United States**; however, other countries are available for selection.
 
-If the user has a suffix (e.g., Jr., Sr., IV, etc.), this field must be used. Do not place suffixes in the Last Name field.
+**Postal Code:** Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
 
-Degree
-
-This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
-
-Address1
-
-The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-
-Address2
-
-The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
-
-City
-
-The full city name of the location.
-
-State/Province
-
-A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-
-Country
-
-Field defaults to **United States**; however, other countries are available for selection.
-
-Postal Code
-
-Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-
-Preferred Route
-
-This field records the default method the user prefers to send information, as it relates to the the  {{% system-name %}} solution's DataSend functionality. DataSend allows the communication between systems and/or clients.
+**Preferred Route:** This field records the default method the user prefers to send information, as it relates to the the  {{% system-name %}} solution's DataSend functionality. DataSend allows the communication between systems and/or clients.
 
 {{% note %}}
 If the user will be faxing encounters to referring physicians or the like, this field must be set to **Fax** on the referring physician's profile.
 {{% /note %}}
 
-Route Comments
+**Route Comments:** This is a text field used as a comment, or note, about why the specific Preferred Route was chosen.
 
-This is a text field used as a comment, or note, about why the specific Preferred Route was chosen.
-
-Work Number
-
-Enter the full work number, including any international access code, country calling code, area code, or exit code.
+**Work Number:** Enter the full work number, including any international access code, country calling code, area code, or exit code.
 
 {{% tip %}}
 To enter an international number, precede the number with a plus sign (+) before continuing to type the number. This prevents any automatic formatting done to entries.
 {{% /tip %}}
 
-Pager Number
+**Pager Number:** Enter the full pager number.
 
-Enter the full pager number.
+**Phone Number:** Enter the full phone number, including any international access code, country calling code, area code, or exit code.
 
-Phone Number
+**Cell Number:** Enter the full mobile number, including any international access code, country calling code, area code, or exit code.
 
-Enter the full phone number, including any international access code, country calling code, area code, or exit code.
+**Cell Number Carrier:** Select the appropriate cell phone service provider from the dropdown.
 
-Cell Number
+**Fax Number:** Enter full fax number, including any international access code, country calling code, area code, or exit code.
 
-Enter the full mobile number, including any international access code, country calling code, area code, or exit code.
+**E-Mail:** Enter the user's E-Mail address. An entry in this field allows for tasking and/or e-signing requests to be sent as E-Mail notifications, if the corresponding preference is set in **My Settings**.
 
-Cell Number Carrier
+**Preferred Alert Method:** The preferred method of receiving alerts. Select either **Email** or **Text Message**.
 
-Select the appropriate cell phone service provider from the dropdown.
+**PIN:** {{% system-name %}}  will provide a PIN for any physician using phone dictation.
 
-Fax Number
+**Universal ID:** Intended for the Unique Physician Identification Number (UPIN), an identifier used by Medicare to identify clinicians. Do not use for the National Provider Identifier (NPI).
 
-Enter full fax number, including any international access code, country calling code, area code, or exit code.
+**DEA Number:** Enter the user's 9-character DEA Registration number.
 
-E-Mail
+**National Provider Id (NPI):** Enter the user's 10-character NPI number.
 
-Enter the user's E-Mail address. An entry in this field allows for tasking and/or e-signing requests to be sent as E-Mail notifications, if the corresponding preference is set in **My Settings**.
+**License Number:** Enter the user's State License number.
 
-Preferred Alert Method
+**Tax Identification Number:** This field is reserved for a Tax Identification Number (TIN), provided for tax purposes, by either the Social Security Administration or Internal Revenue Service.
 
-The preferred method of receiving alerts. Select either **Email** or **Text Message**.
-
-PIN
-
-{{% system-name %}}  will provide a PIN for any physician using phone dictation.
-
-Universal ID
-
-Intended for the Unique Physician Identification Number (UPIN), an identifier used by Medicare to identify clinicians. Do not use for the National Provider Identifier (NPI).
-
-DEA Number
-
-Enter the user's 9-character DEA Registration number.
-
-National Provider Id (NPI)
-
-Enter the user's 10-character NPI number.
-
-License Number
-
-Enter the user's State License number.
-
-Tax Identification Number
-
-This field is reserved for a Tax Identification Number (TIN), provided for tax purposes, by either the Social Security Administration or Internal Revenue Service.
-
-Password Expire Date
-
-For new users, set this date to **Today** by clicking the clock icon. This will cause the new user to be prompted upon login to create a unique password. Otherwise, passwords expire every 30 days from the date of last change/reset, and the user will be prompted to change their password upon login.
+**Password Expire Date:** For new users, set this date to **Today** by clicking the clock icon. This will cause the new user to be prompted upon login to create a unique password. Otherwise, passwords expire every 30 days from the date of last change/reset, and the user will be prompted to change their password upon login.
 
 {{% warning %}}
 Never set a *generic* password without setting the Password Expire Date to **Today**.
 {{% /warning %}}
 
-Login Expire Date
+**Login Expire Date:** This field is intended for organizations using temporary user logins for users needing access to the  {{% system-name %}} solution for a limited amount of time. A Login Expire Date can be set, which will automatically (on the specified date) expire the user's login credentials.
 
-This field is intended for organizations using temporary user logins for users needing access to the  {{% system-name %}} solution for a limited amount of time. A Login Expire Date can be set, which will automatically (on the specified date) expire the user's login credentials.
-
-Password
-
-For new users, enter a generic password. You must give this password to the new user, so they can perform their initial login. As long as the **Password Expire Date** is set to *Today*, the user will be prompted to change the password upon login. Any active users must have a password to access the system. Review the Password documentation for more specific information regarding password configurations, restrictions, and expirations.
+**Password:** For new users, enter a generic password. You must give this password to the new user, so they can perform their initial login. As long as the **Password Expire Date** is set to *Today*, the user will be prompted to change the password upon login. Any active users must have a password to access the system. Review the Password documentation for more specific information regarding password configurations, restrictions, and expirations.
 
 {{% info %}}
 Passwords may have any configuration of up to 50 alphanumeric characters, with numbers, uppercase/lowercase letters, or other characters. They are stored using a one-way encryption to prevent from being decrypted.
 {{% /info %}}
 
-Verify Password
+**Verify Password:** Re-enter and confirm the password.
 
-Re-enter and confirm the password.
+**Your New PIN Vericode:** This field is for a PIN used in practices that have their E-Orders module locked. A PIN is required to create orders for patients. Enter a PIN.
 
-Your New PIN Vericode
+**Verify New PIN Vericode:** Re-enter and confirm your PIN.
 
-This field is for a PIN used in practices that have their E-Orders module locked. A PIN is required to create orders for patients. Enter a PIN.
+**Security Question:** Type a question the user wishes to refer to if he/she needs access to their profile or their password reset. This is used to verify the individual's identity.
 
-Verify New PIN Vericode
-
-Re-enter and confirm your PIN.
-
-Security Question
-
-Type a question the user wishes to refer to if he/she needs access to their profile or their password reset. This is used to verify the individual's identity.
-
-Security Answer
-
-Type the answer to the Security Question that the user must provide to verify authority to access/change personal settings.
+**Security Answer:** Type the answer to the Security Question that the user must provide to verify authority to access/change personal settings.
 
 1. Place a checkmark in each box that corresponds to a department the user is expected to be associated with, if more than one, and be sure to include the department listed in the Primary Department field, above.
 2. When completed, click the <strong>Submit Insert</strong> button.
@@ -345,7 +254,7 @@ Depending on security permissions, when navigating the **Edit User** page, two
 
 3. After all modifications have been made, click <strong>Submit Edit</strong> at the bottom of the page.
 
-Delete User
+#### Delete User
 
 To disable/inactivate or delete a user, navigate to the Access Control manager tab:
 
@@ -379,26 +288,26 @@ After searching, if the referring physician is not in the system, continue with 
 2. Click the Access Control tab.
 3. Click the Add User link.
 4. When adding a Referring Physician, ensure all of the fields, below, are addressed:
-    a.  <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
-    b.  <strong>Current Status</strong>: Select <em>Login Disabled</em>.
-    c.  <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
-    d.  <strong>First Name</strong>: Enter the referring physician's full legal first name.
-    e.  <strong>Last Name</strong>: Enter the referring physician's full legal last name.
-    f.  <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
-    g.  <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    h.  <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
-    i.  <strong>City</strong>: The full city name of the referring physician's location.
-    j.  <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-    k.  <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-    l.  <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
+    * <strong>Primary Dept</strong>: Must select the referring physician's primary department (otherwise, select <em>Referring Physicians</em>).
+    * <strong>Current Status</strong>: Select <em>Login Disabled</em>.
+    * <strong>Def. User Role</strong>: This field must be set to <em>Referring Physician</em>, because many components of the system know which entities are referring physicians, based on this field. If this field is skipped, the system automatically defaults and saves the role as <em>User-Limited Access</em>.
+    * <strong>First Name</strong>: Enter the referring physician's full legal first name.
+    * <strong>Last Name</strong>: Enter the referring physician's full legal last name.
+    * <strong>Degree</strong>: This field is reserved for degree titles (e.g., MD, NP, FACS, RN, LLM, MSc, etc.).
+    * <strong>Address1</strong>: The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+    * <strong>Address2</strong>: The secondary element of the location address (e.g., suite, unit, building, floor, etc.).
+    * <strong>City</strong>: The full city name of the referring physician's location.
+    * <strong>State</strong>: A dropdown of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
+    * <strong>Postal Code</strong>: Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
+    * <strong>Preferred Route</strong>: If the office uses encounters and faxes documents to referring physicians, select <em>Fax</em> from the dropdown. If the office uses Direct Messaging to send direct email messages (as part of an EHR Incentive Program) select <em>Direct Email</em> from the dropdown.
 
 {{% note %}}
 If **Direct Email** is being used, be sure to collect the referring physician's Direct email address, and record the address in the Email field.
 {{% /note %}}
 
-    m.  <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
-    n.  <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
-    o.  <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
+    * <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
+    * <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
+    * <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
 
 {{% note %}}
 **Username** can be left blank. They are not a *user* accessing the system, therefore, they do not need a username provided.
@@ -512,13 +421,13 @@ Navigate to the Access Control manager tab, and search for the user needing au
 2. When the <em>View User</em> page loads, click the <strong>View Audit Log</strong> link.
 3. The <strong>Audit Log Search Criteria</strong> page will open in a new tab.
 4. Narrow the audit search using the provided fields:
-    a.  <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
-    b.  <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
-    c.  <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
-    d.  <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
-    e.  <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
-    f.  <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
-    g.  <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
+    * <strong>Date</strong>: This is a required field. Use the Now, Clear, or Calendar icons, as needed.
+    * <strong>Patient</strong>: This is an autocomplete field that helps limit an audit log to a specified chart. Use the Help Bubble for assistance on how to search various types of charts.
+    * <strong>Reference ID</strong>: Enter a specific Reference ID to be searched against the user's activity.
+    * <strong>Event Type</strong>: The type of events to be searched can be selected individually, or in multiples.
+    * <strong>Event Action</strong>: This is the event that occurred (e.g., Stream, View, Edit, Add, etc.).
+    * <strong>Event Description</strong>: A description of the specific aspects of the event; usually contains the document type description.
+    * <strong>Outcome</strong>: Whether the event was a <em>Success</em>, <em>Failure</em>, or <em>All</em>.
 5. Once the preferred filters are entered, click the <strong>Search</strong> button. The results are specific to the user in context.
 6. For further details, click the <strong>View Click Logs</strong> link in the <em>Activity Details</em> column and view the exact activity of the user.
 
