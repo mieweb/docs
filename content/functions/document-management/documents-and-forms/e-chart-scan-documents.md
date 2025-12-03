@@ -1,8 +1,8 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2025-12-02T17:05:46.363Z'
-version: 255
+date: '2025-12-03T19:33:15.923Z'
+version: 266
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -59,10 +59,10 @@ After scanning the document(s) using the above method, scroll down to the *Add D
 ![](./e-chart-scan-documents.assets/8e557d606f124578750b91c6c58b91c1.png)
 
 * <strong>Authored By</strong>: Given the proper security permission, use this field to select for whom this document is being authored, or click the <strong>Me</strong> button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the <em>Creator</em> and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
+* In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
+* The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
 
-{{% note %}}
-In order to author documents for others, the user must have the Access Control **Transcribe for Others** setting set to **Yes**. If this setting is not enabled for the user, the Authored By field will not be available as an option.
-{{% /note %}}
+![](./e-chart-scan-documents.assets/7635812e7191ecb60d4cd0288da5b217.png)
 
 * <strong>Document Type</strong>: Select the document type being uploaded and stored in the chart.
 * <strong>Date of Service</strong>: Provide the date of service for the document.
