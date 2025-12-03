@@ -1,8 +1,8 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-11-24T16:57:37.579Z'
-version: 735
+date: '2025-12-02T16:19:44.221Z'
+version: 752
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,6 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 {{% system-name %}} offers much in the way of tracking and monitoring individual health and wellness. One key feature is our Health Surveillance module, which allows users to easily track and manage overall health for risk groups and various patient populations. Electronic tool-sets drive the process to significantly decrease risk of compliance failure.
 
@@ -67,21 +66,10 @@ Action items configured with a trigger of **Panel Expiration** require that a pa
 
 Determine how charts will become members, or be included in HS panels. To establish membership criteria, navigate to the Control Panel and use the **Health Surveillance** menu, found under the **HSP** tab. Locate the panel needing membership criteria from the list and click the **Membership** hyperlink, found to the right, under the Options column. Out of the box, panel memberships will be maintained by staff, manually, unless there are panel membership rules programmed using these fields: Location, Building, Cost Center, or Job Class.
 
-* [Automated (Implicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-automated-membership/)
-
-    {{% system-name %}} has the ability to automate panel memberships, placing charts into their respective panels, automatically, depending on fields such as Location, Building, Cost Center or Job Class. It is important to have the necessary system settings configured appropriately in order to have functional automated membership. Because the membership is automated from location, building, cost center, or job class, the membership is understood to be implicit. Additional automated membership programming clauses can be programmed and customized by MIE, if necessary.
-
-* [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/)
-
-    When utilizing the Panel Membership Import Tool in {{% system-name %}} , every membership is inserted as explicit. The same is true when entering memberships manually. The Panel Membership Import Tool simply allows a large number of memberships to be added manually, quickly and easily, by way of a template and import tool.
-
-* [Manually Add (Explicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/)
-
-    Users may add individual charts to specific memberships, as needed.  This will insert the membership as explicit.
-
-* [Viewing Current Members of Panels](https://docs.enterprisehealth.com/functions/health-surveillance/viewing-health-surveillance-panels-and-membership/)
-
-    Users may need to view current members of panels, as well as any current automated {{% system-name %}} panel membership rules that may be set up for a specific panel. Review and maintain regularly, to always ensure proper tracking and management.
+* [Automated (Implicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-automated-membership/): {{% system-name %}} has the ability to automate panel memberships, placing charts into their respective panels, automatically, depending on fields such as Location, Building, Cost Center or Job Class. It is important to have the necessary system settings configured appropriately in order to have functional automated membership. Because the membership is automated from location, building, cost center, or job class, the membership is understood to be implicit. Additional automated membership programming clauses can be programmed and customized by MIE, if necessary.
+* [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/): When utilizing the Panel Membership Import Tool in {{% system-name %}} , every membership is inserted as explicit. The same is true when entering memberships manually. The Panel Membership Import Tool simply allows a large number of memberships to be added manually, quickly and easily, by way of a template and import tool.
+* [Manually Add (Explicit) Memberships](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/): Users may add individual charts to specific memberships, as needed.  This will insert the membership as explicit.
+* [Viewing Current Members of Panels](https://docs.enterprisehealth.com/functions/health-surveillance/viewing-health-surveillance-panels-and-membership/): Users may need to view current members of panels, as well as any current automated {{% system-name %}} panel membership rules that may be set up for a specific panel. Review and maintain regularly, to always ensure proper tracking and management.
 
 ### Step Eight: Scheduled Jobs--Panel Evaluator and Membership
 
@@ -228,34 +216,22 @@ If the panel action is for a type of exposure, users will not want to set any Le
 * <strong>Trigger Date</strong>: On what date should the panel action trigger? Use the drop-down to select one of the following Trigger Dates:
 
     * <strong>Date of Birth</strong>: Triggers the panel action on the panel member's date of birth, on a schedule determined by the starting age and frequency. Assumes the panel member's DOB has been captured in the chart demographics.
-
     * <strong>Last Event</strong>: The Last Event trigger date assumes the last event/panel action Complete Date has been entered in the panel member's chart, so {{% system-name %}} can calculate when the next action item is due. This can be configured to trigger a specified amount of time after the last time the action was performed, if necessary.
-
     * <strong>Last Event – On Campaign Date</strong>: The On Campaign Date Last Event trigger date is a custom option for clients. Due on the Campaign's birth date, per se, on a schedule determined by the last time the action was performed and the frequency. This option is not utilized by any other client.
-
     * <strong>Last Event – On Date of Birth</strong>: The On Date of Birth Last Event trigger date takes the date of birth of the panel member and triggers based on specified frequency of an action item (e.g., a test is indicated to be completed specifically at age 19, 22, 25, 28, etc.).
-
     * <strong>Last Event- On Date of Hire</strong>: The On Date of Hire Last Event triggers the action item on the Date of Hire captured in the panel member's chart demographics. Hire Date should show in the demographics header (grey bar). For example, a test is indicated to be completed at specific intervals, based on the date of hire (e.g.,1999, 2002, 2005, 2008).
-
     * <strong>Other Action (Triggered)</strong>: The Other Action (Triggered) trigger date allows users to trigger a panel action at the same time as another action item, indicated in this panel action. For example, an action to trigger an Audiogram may be for Entry, Routine, or Exit actions; if checked, other actions may use this panel action as a trigger. This option must be selected for the action to display in the Related Action list. The Related Action list displays when the Trigger Date is set to Other Action (Triggered) or Prior Action (Completed). Additionally, action items can be configured to trigger with the Representative Events, as needed, if that programming is utilized. This allows all action items to trigger together for a panel. Triggers with all the same date are usually tied to representative event
-
     * <strong>Point in Time</strong>: The Point in Time trigger date allows users to trigger an action item on the same day and month, each year (must be MM/DD format).
-
     * <strong>Prior Action (Completed)</strong>: The Prior Action (Completed) trigger date works similarly to Other Action (Triggered). Utilize this option to trigger off of action items needing to be completed, prior to this action item being triggered. This triggers the action item at a given amount of time, specified by the time value/unit entered for Frequency, after another prior action in this panel has been performed. For example, in order for the second in the series for a Hep B injection to trigger, the first injection would need to be marked Complete in the panel member's chart.
-
     * <strong>Medical Anniversary Date</strong>: This option triggers on the panel member's medical anniversary date, assuming the date has been captured in the chart demographics. Triggers on the panel member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.
-
     * <strong>Panel Expiration</strong>: Triggers on the expiration date specified in the panel status. Most panels will be configured with a representative event as the medical/written opinion, which then has a Next Due Date to key in the medical/written opinion recommendation.
-
 * <strong>Trigger Others</strong>: If checked, other panel actions may use this action item as a trigger. This must be set for the action to display in the Related Action list.
 
     * <strong>Auto-Waive (this action item) if none (no other actions) Triggered</strong>: In instances where a Representative Event may be added after the completion of all other panel actions, this selection will automatically waive creating the orders or re-triggering the previously completed panel actions, just because the representative event is being completed. Since the previous action items were completed within their Valid For window, nothing will be triggered, therefore, auto-waived.
-
 * <strong>Frequency</strong>: Day, Weeks, Months, Years. Use the drop-down to define the time period of how often the panel action should be triggered. Actions with zero (0) frequency values will trigger whenever the parent action is set to trigger.
 * <strong>Valid For</strong>: Day, Weeks, Months, Years. Use the drop-down to define the acceptable time period for which the panel action may be performed, <em>prior to the action Due Date</em>, and still count as acceptable by the regulating body or company. For example, a panel action for an audiogram can be configured to be needed every year, on September 1st AND Valid For 3 Months. The system will check for audiograms completed 3 months prior to September 1st, and if one was completed within that time frame, {{% system-name %}} will not generate the panel action. By defining 3 months in the Valid For field, the user is stating that an audiogram within 3 months of the due date is within the regulating agency/company threshold.
 
     * <strong>Current Panel Only</strong>: This is a checkbox that is associated with the Valid For field. If checked, this panel action will be triggered, regardless of whether the same encounter or procedure was completed for a different panel. For example, if a panel member is included in both the Asbestos panel and Benzene panel, and both require a Chest Xray, then {{% system-name %}} would (by default) only populate Chest Xray once on the Due List. With the Current Panel Only option selected, in this example, the Chest Xray will display twice, once for each panel.
-
 * <strong>Grace Period</strong>: Day, Weeks, Months, Years. Use the drop-down to define how much time the panel member is allotted to complete the panel action, from the time it is visible till the time it is considered overdue. Periodic email notifications can be set up with scheduled jobs, if preferred. The Grace Period is <strong>before</strong> the Due Date, meaning the Grace Period is the amount of time before the Due Date that the invitations, emails, and questionnaire become available. The panel member gets notified at the point of the Grace Period plus Lead Time.
 * <strong>Event Type</strong>: Procedure or Encounter. Choose the specific procedure or encounter that this panel action will create when the action item is triggered for the panel member. Typically, Procedure is selected. If procedure is selected, then choose the procedure/order that is to be associated to the panel action, from the drop-down to the right of the Event Type. Usually order items are named similarly, if not the same as, the panel action being added. If the appropriate order item cannot be found, the item was not added to the Orders-List Editor. If Encounter is selected, then select the encounter that should be opened automatically when the panel triggers the panel actions to create the orders on the Due List. Selecting an encounter may not be applicable to all actions or even desired functionality by the client. The workflow should be defined clearly if Encounter is selected.
 
@@ -485,11 +461,11 @@ With the HS panels configured and ready for final testing and implementation, th
 6. When adding HS panels for the first time, administrators have the option of utilizing the [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/).
 7. Determine how charts will become members, or be included in HS panels.
 8. <strong>Scheduled Jobs: Panel Evaluator and Membership</strong>
-    a.  It is important to determine what will need to be considered for any automated, or scheduled, jobs. For instance, the Panel Evaluator and Membership scheduled jobs will need to have established setup times in the cut-over plan when ready for go-live, if automation will be needed in the {{% system-name %}} system.
+    * It is important to determine what will need to be considered for any automated, or scheduled, jobs. For instance, the Panel Evaluator and Membership scheduled jobs will need to have established setup times in the cut-over plan when ready for go-live, if automation will be needed in the {{% system-name %}} system.
 9. <strong>Email Notifications Driven by Scheduled Job</strong>
-    a.  Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
+    * Determine any necessary information needed for email notifications generated and driven by scheduled jobs, and be sure to configure these, accordingly.
 10. [<strong>Panel Action Evaluator</strong>](https://docs.enterprisehealth.com/functions/health-surveillance/panel-action-evaluator/)
-    a.  Clicking the <strong>Panel Action Evaluator</strong> link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
+    * Clicking the <strong>Panel Action Evaluator</strong> link (found under the Health Surveillance menu of the HSP tab in the Control Panel) allows users to manually run the evaluator, so that configured HS panels can be tested, or in some cases triggered, as needed. It does evaluate and will trigger any action items (if applicable) on the chart(s) being evaluated. Clicking the Panel Action Evaluator link, providing any necessary criteria, and clicking the Evaluate button will run and evaluate the panel(s) selected, on all members (or individual charts selected), and will trigger any action items applicable. Make sure to use this functionality on test patients before a scheduled go-live. Most clients have a nightly panel evaluator scheduled job, but the manual method described above is also available for real-time use, or for testing purposes.
 
 ## Data Migration Workflow Considerations
 
