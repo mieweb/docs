@@ -1,15 +1,14 @@
 ---
 id: '1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
 title: ' EH Data Migration ETL Approach'
-date: '2025-11-12T15:06:22.608Z'
-version: 100
+date: '2025-12-04T14:39:28.402Z'
+version: 108
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.ietf.org/rfc/rfc4180.txt'
 source: 'https://drive.google.com/open?id=1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ## EH Data Migration ETL Approach
 
@@ -46,22 +45,22 @@ The data migration shall be performed in a series of one (or two if needed) cycl
 Data Migration follows the steps of Extraction, Transformation, and Loading, commonly referred to as ETL. The ETL strategy for this project is outlined in this section.
 
 1. Extraction: The customer is responsible for delivering the following data:
-    a.  If applicable, legacy database backup(s) shall be exported and delivered to Enterprise Health for transformation and loading. New database exports shall be required for each cycle, plus dress rehearsal, plus final cutover.
-    b.  Decrypted scanned documents shall be packaged and delivered to EH.  One initial delivery (Delta) and additional documents for Dress Rehearsal and Go Live
-    c.  Excel or CSV reports
-        i. Shall be collected as mutually agreed and discussed from one or more sources such as, but not limited to:
-            1. Report exports from legacy systems
-            2. Spreadsheets used for data tracking (e.g., GDrive Sheets, MS Teams, OneDrive)
-            3. Spreadsheets collected from supervisors tracking HS memberships
-        ii. CSV files must conform to [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt). The delimiter may be any single ascii character. Special characters must be escaped properly, and fields with newlines must be quoted.
+    * If applicable, legacy database backup(s) shall be exported and delivered to Enterprise Health for transformation and loading. New database exports shall be required for each cycle, plus dress rehearsal, plus final cutover.
+    * Decrypted scanned documents shall be packaged and delivered to EH.  One initial delivery (Delta) and additional documents for Dress Rehearsal and Go Live
+    * Excel or CSV reports
+        * Shall be collected as mutually agreed and discussed from one or more sources such as, but not limited to:
+            * Report exports from legacy systems
+            * Spreadsheets used for data tracking (e.g., GDrive Sheets, MS Teams, OneDrive)
+            * Spreadsheets collected from supervisors tracking HS memberships
+        * CSV files must conform to [RFC 4180](https://www.ietf.org/rfc/rfc4180.txt). The delimiter may be any single ascii character. Special characters must be escaped properly, and fields with newlines must be quoted.
 1. Transformation & Mapping
-    a.  Client shall perform deduplication and any cleanup required where the source is CSV or Spreadsheets
-    b.  Wherever possible, client shall manipulate the Excel/CSV reports to  conform to EH SQL API Specifications
-    c.  EH shall map and transform data from the source databases and tables listed in the client-specific Legacy Data Migration Requirements Document for each kind of data.
-        i. For areas of data where no migration scripts exist in the EH transformation repository, additional discovery will be required to find data in the legacy systems, or a report may be requested by EH instead of pulling the data directly from the legacy system backup.
-    d.  EH shall map and transform data from the deduplicated CSV and Excel sources to the EH SQL API formats for each kind of data.
+    * Client shall perform deduplication and any cleanup required where the source is CSV or Spreadsheets
+    * Wherever possible, client shall manipulate the Excel/CSV reports to  conform to EH SQL API Specifications
+    * EH shall map and transform data from the source databases and tables listed in the client-specific Legacy Data Migration Requirements Document for each kind of data.
+        * For areas of data where no migration scripts exist in the EH transformation repository, additional discovery will be required to find data in the legacy systems, or a report may be requested by EH instead of pulling the data directly from the legacy system backup.
+    * EH shall map and transform data from the deduplicated CSV and Excel sources to the EH SQL API formats for each kind of data.
 2. Loading
-    a.  EH shall load data to client's DM system for validation by client.
+    * EH shall load data to client's DM system for validation by client.
 
 ### Expectations for Data Migration Cycles
 
@@ -122,23 +121,23 @@ During the Dress Rehearsal, for every step of the data migration process on the 
 
 1. Work described in the Project Deliverables section of the client-specific Legacy Data Migration Requirements Document and supported by the client-provided data migration documentation.
 2. SFTP interface(s) where required to facilitate transport for the Integration.
-    a.  EH will host SFTP to accept encrypted files of the backup data.
-    b.  Exchange of SSH public keys to facilitate login where available
+    * EH will host SFTP to accept encrypted files of the backup data.
+    * Exchange of SSH public keys to facilitate login where available
 3. Exchange of Public PGP keys where required to facilitate encryption for the Integration.
 4. Legacy database backups, CSV files, scanned documents along with any other legacy data distribution shall be encrypted using EH's PGP Public Key and transferred to the SFTP hosted by EH.
 5. All data provided to Enterprise Health shall be loaded as-is in EH
 6. Legacy database backups provided shall be compatible with MSSQL database restore functionality.
 7. Legacy documents shall be individually decrypted, though their distribution shall be accomplished  in a zipped, encrypted format using MIE's GPG public encryption key.
 8. CSV Processing.
-    a.  EH consulting to help client understand all data elements to include for each type of API.
-    b.  Client will create CSV files conforming as much as possible to EH APIs Specification and deliver them to the SFTP site setup by EH.
-    c.  EH will apply additional transformation and logic to the inbound data to conform to EH APIs Specification processing logic
-    d.  Training on each module to facilitate validation
-    e.  EH will load all data and provide preliminary verification results.
-    f.  EH will remediate any issues with the loading of data found during validation.
-    g.  Client will remediate issues related to mapping, data selection, data transformation, CSV creation, or other data integrity or mapping issues.
-    h.  One to two cycles of data migration/validation and one dress rehearsal (if time allows) will be completed prior to final cutover, although fewer cycles may be required if validation and signoff are completed ahead of the plan in Migration Strategies.
-    i.  All testing will be performed in non-production environments cloned from the EH system being used as the configuration environment.
+    * EH consulting to help client understand all data elements to include for each type of API.
+    * Client will create CSV files conforming as much as possible to EH APIs Specification and deliver them to the SFTP site setup by EH.
+    * EH will apply additional transformation and logic to the inbound data to conform to EH APIs Specification processing logic
+    * Training on each module to facilitate validation
+    * EH will load all data and provide preliminary verification results.
+    * EH will remediate any issues with the loading of data found during validation.
+    * Client will remediate issues related to mapping, data selection, data transformation, CSV creation, or other data integrity or mapping issues.
+    * One to two cycles of data migration/validation and one dress rehearsal (if time allows) will be completed prior to final cutover, although fewer cycles may be required if validation and signoff are completed ahead of the plan in Migration Strategies.
+    * All testing will be performed in non-production environments cloned from the EH system being used as the configuration environment.
 
 ## Out of Scope
 
@@ -147,13 +146,13 @@ The following kinds of work are excluded project deliverables.
 1. Data migration of any kinds of data not specified in the Project Deliverable section of  the client-specific Legacy Data Migration Requirements Document.
 2. Any items specifically called out as Out Of Scope in the client-specific Legacy Data Migration Requirements Document.
 3. Customization to EH API's to allow for any data that is considered non-standard based on past customer migrations unless Custom R&D is specified as in the following cases:
-    a.  observations in flowsheets
-    b.  medications
-    c.  restricting EAP encounters, documents
-    d.  data scrubbing
+    * observations in flowsheets
+    * medications
+    * restricting EAP encounters, documents
+    * data scrubbing
 4. Data scrubbing (cleaning) to fix data formatting issues or inconsistencies between data extractions between cycles.
-    a.  Correcting faulty data stored in legacy tables or CSV files. For example, incorrect values from prior data migrations or improper data entry.
-    b.  Correcting or removing duplicated data contained in legacy applications. For example, finding duplicate immunizations or diagnoses/conditions in the legacy application.
+    * Correcting faulty data stored in legacy tables or CSV files. For example, incorrect values from prior data migrations or improper data entry.
+    * Correcting or removing duplicated data contained in legacy applications. For example, finding duplicate immunizations or diagnoses/conditions in the legacy application.
 5. Data transformations using spreadsheets to map values in the legacy system to different values provided in a spreadsheet (unless otherwise described for CVX codes for immunizations, encounter orders or panel memberships for health surveillance, or other explicit callouts on the Legacy Data Migration Requirements Document).
 6. Users- No discrete users or providers will be mapped for any module. Instead, a generic user of "Legacy Data" will be used for the authoring user of all discrete data.
 7. Additional Data Migration Cycles.
