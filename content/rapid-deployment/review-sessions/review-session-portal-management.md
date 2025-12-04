@@ -1,8 +1,8 @@
 ---
 id: '1zEfFcB-6HplW3UUQOH5xkmMH0zUYNTy781hBg_unQpk'
 title: 'Review Session - Portal Management'
-date: '2025-11-24T20:49:44.297Z'
-version: 338
+date: '2025-12-04T16:14:29.411Z'
+version: 344
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -386,7 +386,7 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 16. Who should have access to what portal? What is the relationship to the EO (or PO)  for the portal access (typically an ‘employer' relationship)? How is that identified via the HR interface?
     * For our Health System clients who do occupational health, do they need client-branded portals? Or can all occupational health clients utilize the same portal?
 
-# Action Items/Timelines
+## Action Items/Timelines
 
 ## Resources
 
