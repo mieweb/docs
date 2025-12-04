@@ -1,8 +1,8 @@
 ---
 id: '1Lt21m84aiIU-XrGla23WxJDEqtnSk4WH5fRcCHuO3Nk'
 title: 'User/Provider & Department Management'
-date: '2025-12-03T21:10:33.555Z'
-version: 257
+date: '2025-12-03T21:57:08.465Z'
+version: 263
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -305,9 +305,9 @@ After searching, if the referring physician is not in the system, continue with 
 If **Direct Email** is being used, be sure to collect the referring physician's Direct email address, and record the address in the Email field.
 {{% /note %}}
 
-    * <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
-    * <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
-    * <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
+* <strong>Work Number</strong>: Enter the full work number, including any international access code, country calling code, area code, or exit code.
+* <strong>Fax Number</strong>: This field is required if encounters are used and documents are faxed to referring physicians. Enter full fax number, including any international access code, country calling code, area code, or exit code.
+* <strong>Email</strong>: If the Preferred Route is set to <em>Direct Email</em>, enter the referring physician's Direct email address in this field. Otherwise, the Preferred Route is set to <em>Fax</em>, and the referring physician's general email address can be entered in this field.
 
 {{% note %}}
 **Username** can be left blank. They are not a *user* accessing the system, therefore, they do not need a username provided.
