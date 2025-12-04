@@ -1,8 +1,8 @@
 ---
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
-date: '2025-11-25T13:51:38.834Z'
-version: 502
+date: '2025-12-04T16:39:13.183Z'
+version: 510
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -37,7 +37,6 @@ links:
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ## Agenda
 
@@ -45,12 +44,12 @@ markup: 'pandoc'
 * Overview
 * WR Case Management Workflow Demonstration
     * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
-* Linked documentation
-* Case details
-* Referrals
-            * Case management notes
-* Restrictions/Accommodations
-* Disposition/Work Status
+        * Linked documentation
+        * Case details
+        * Referrals
+        * Case management notes
+        * Restrictions/Accommodations
+        * Disposition/Work Status
     * Tasking
     * Work Related (WR) Case Management Encounter
         * Case Manager
@@ -112,9 +111,9 @@ Before the review session, please provide corresponding documentation:
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes
 3. Types of Cases currently being utilized for Case Management
-    a.  Injury/Illness
-    b.  COVID
-    c.  Absence Management (if purchased)
+    * Injury/Illness
+    * COVID
+    * Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
@@ -290,10 +289,10 @@ All clients should review the available reports to determine if any additional r
 ## Key Decision Points
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
-    a.  Do Case Managers need to have limited/restricted access?
-        i. If so, List of all Case Managers needed for restricted access setup
-        ii. What restricted Chart tabs, print definitions, or documents are needed?
-        iii. What access is needed for Case Managers?
+    * Do Case Managers need to have limited/restricted access?
+        * If so, List of all Case Managers needed for restricted access setup
+        * What restricted Chart tabs, print definitions, or documents are needed?
+        * What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?
