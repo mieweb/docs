@@ -1,8 +1,8 @@
 ---
 id: '10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 title: 'ODBC Install & Configuration'
-date: '2025-11-24T18:55:02.269Z'
-version: 349
+date: '2025-12-04T13:58:18.667Z'
+version: 357
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,6 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/'
 source: 'https://drive.google.com/open?id=10DpLTmdJcar4ZJVANM1AB7wCDKMtLUV3fUtrWwst2dk'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 As an add-on feature, some clients may choose to implement ODBC (Open Database Connectivity). ODBC access allows customers to access and datamine their {{% system-name %}} database tables. Clients familiar with MySQL, can create their own custom reports using 3rd party report data visualization software products.
 
@@ -46,14 +45,14 @@ Once the drivers have been downloaded and installed, users will need to set up a
 
 1. You may download the {{% system-name %}} CA (Certificate Authority) from here: [Med-Web SSL CA](https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/)[2](https://docs.enterprisehealth.com/functions/system-administration/system-controls/med-web-ssl-certificate-authority/)
 2. You should have received an e-mail from the {{% system-name %}} development team containing the following information needed for configuration:
-    a.  Hostname
-    b.  Port: 3306
-    c.  Username
-    d.  Password
-    e.  SSL Key
-    f.  SSL Cert
-    g.  SSL CA
-    h.  SSL Cipher
+    * Hostname
+    * Port: 3306
+    * Username
+    * Password
+    * SSL Key
+    * SSL Cert
+    * SSL CA
+    * SSL Cipher
 
 ![](./odbc-install-and-configuration.assets/656f758b59bf8a742b7b69957828a0c9.png)
 
