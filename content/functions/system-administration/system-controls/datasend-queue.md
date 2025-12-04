@@ -1,16 +1,15 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2025-12-02T20:32:35.483Z'
-version: 987
-lastAuthor: 'auhrick'
+date: '2025-12-04T13:33:51.735Z'
+version: 1011
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www2.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx'
   - 'https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=mvx'
 source: 'https://drive.google.com/open?id=13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 wikigdrive: 'v2.15.30'
-markup: 'pandoc'
 ---
 ## Datasend Queue (Outbound messages)
 
@@ -22,7 +21,7 @@ At a glance, the user can see if there are patterns of errored routes, or if the
 
 ### Location: Control Panel > Interface > Datasend Queue
 
-{%system%} includes this tab where the user can monitor the routed items sent electronically, such as lab orders, appointments/cancellations, immunizations, and billing transactions. This is called the Datasend Queue or Send Queue, and it shows which routes are**_ In Progress_**, which routes are **_Pending_**, any that are in the**_ Error _**status, as well as the **_Completed/Acknowledged_** routes.
+{{% system-name %}} includes this tab where the user can monitor the routed items sent electronically, such as lab orders, appointments/cancellations, immunizations, and billing transactions. This is called the Datasend Queue or Send Queue, and it shows which routes are**_ In Progress_**, which routes are **_Pending_**, any that are in the**_ Error _**status, as well as the **_Completed/Acknowledged_** routes.
 
 A route is how {%system%} sends an order, appointment, demographic update, immunization, etc. through the interface. Routes are initially created by the Auto Route, with the editor typically found under the Interface (parent) tab. The Auto Route includes rules on when and how to send information through an interface.
 
@@ -38,25 +37,16 @@ Let's examine each of the sections in the DataSend queue.
 
 ### Item Type – *make a selection if you know what type of data you're searching for.*
 
-i. 	Document
-
-ii. 	Encounter
-
-iii. 	Patient Encounter
-
-iv. 	Dictation
-
-v. 	Patient
-
-vi. 	Patient Merge
-
-vii. 	Appointment
-
-viii.     Procedure (Billing)
-
-ix. 	Patient Encounter Closed
-
-x. 	Incident
+* Document
+* Encounter
+* Patient Encounter
+* Dictation
+* Patient
+* Patient Merge
+* Appointment
+* Procedure (Billing)
+* Patient Encounter Closed
+* Incident
 
 ### Item ID - use if you know the exact ID of the item record
 
@@ -66,53 +56,29 @@ x. 	Incident
 
 #### Method (type of message being sent)
 
-i. 	*Blank (when left blank, all methods/types are shown)*
-
-ii. 	Print
-
-iii. 	Fax
-
-iv. 	HL7 Send
-
-v. 	HL7 Outbound Interface
-
-vi. 	Text Export
-
-vii. 	Dictaphone HL7
-
-viii.     NMC - Med Access
-
-ix. 	NMC – Cannot send (per physician)
-
-x. 	Word2TIFF FTP
-
-xi. 	ORDER RESULTS HL7
-
-xii. 	OSHA
-
-xiii.     Work Comp
-
-xiv. 	Webchart Post
-
-xv. 	Esign Request
-
-xvi. 	Remove IFQ Batch
-
-xvii.     Scripted Export
-
-xviii.     MDM Reports HL7
-
-xix. 	Immunization Export
-
-xx. 	Kareo Billing
-
-xxi. 	Incident
-
-xxii.     Direct Email
-
-xxiii.     Syndromic Surveillance
-
-xxiv.     837 Professional Claims
+* <em>Blank (when left blank, all methods/types are shown)</em>
+* Print
+* Fax
+* HL7 Send
+* HL7 Outbound Interface
+* Text Export
+* Dictaphone HL7
+* NMC - Med Access
+* NMC – Cannot send (per physician)
+* Word2TIFF FTP
+* ORDER RESULTS HL7
+* Work Comp
+* Webchart Post
+* Esign Request
+* Remove IFQ Batch
+* Scripted Export
+* MDM Reports HL7
+* Immunization Export
+* Kareo Billing
+* Incident
+* Direct Email
+* Syndromic Surveillance
+* 837 Professional Claims
 
 ### Method Detail - The endpoint, typically stored in a Refer to Systems record (displays for certain selections based on the method selected)
 
@@ -128,7 +94,7 @@ xxiv.     837 Professional Claims
 
 This section displays any routes that are being sent to the endpoint. Routes begin in the Pending Routes section, then move to Routes in Progress as they are being sent. Most routes do not remain in the In Progress queue for very long.
 
-Sometimes a route cannot send and shows up with an "Error" progress, such as a Socket Error, which means the {%system%} cannot connect to the endpoint for some reason. These routes will drop back into the Pending Routes queue and retry as many times as the interface is configured for.
+Sometimes a route cannot send and shows up with an "Error" progress, such as a Socket Error, which means the {{% system-name %}} cannot connect to the endpoint for some reason. These routes will drop back into the Pending Routes queue and retry as many times as the interface is configured for.
 
 ### Pending:
 
@@ -146,25 +112,25 @@ These are routes that have either timed out, reached the maximum number of tries
 You may see Progress statuses like:
 
 * Invalid job_id in HTTP Response
-        * Datasend was unable to print the document, most likely due to an invalid user configured to the client's DataSend
+    * Datasend was unable to print the document, most likely due to an invalid user configured to the client's DataSend
 * From Address not specified
-        * Add the FROM address and resend
-    * To Address not specified
-        * Add a valid TO address and resend
+    * Add the FROM address and resend
+* To Address not specified
+    * Add a valid TO address and resend
 * Error: could not get account number …
-        * Determine if an account number should be mapped and if so, map then resend. If not, ACK the route.
+    * Determine if an account number should be mapped and if so, map then resend. If not, ACK the route.
 * Error: could not get account number for location (ABC:OFFICE) from translation mapping (labcorp-account_numbers)! - Will Retry
-        * Determine if an account number should be mapped and if so, map then resend. If not, ACK the route.
+    * Determine if an account number should be mapped and if so, map then resend. If not, ACK the route.
 * Invalid WC User Specified (). Check DataSend's Local WC Configuration
-        * Caused if the username is empty or not in the system
+    * Caused if the username is empty or not in the system
 * Print Failed: Unknown Printer - (null)
-        * Happens when an invalid printer is selected
+    * Happens when an invalid printer is selected
 * SMTP HISP Not Configured
-        * If the client communicates with SMTP, and not HTTP, but does not have a SMTP location
+    * If the client communicates with SMTP, and not HTTP, but does not have a SMTP location
 * Receiving Application said: XXX not found for vaccine code: 104
-        * Find the appropriate [CDC CVX](https://www2.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx) code and add it to the translation
+    * Find the appropriate [CDC CVX](https://www2.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx) code and add it to the translation
 * Error: None of the supplied Patient Identifiers were recognized. Check the available Partitions for this patient.
-        * The partition(s) that the patient is in do not have a Global ID (GUID) assigned. This needs to be assigned to at least one of the partitions on the chart in order to send via HL7.  Datasend constructs HL7 v2.5 style HL7 messages and sends the partition and it's GUID in subcomponents of the ID sent in PID.3.
+    * The partition(s) that the patient is in do not have a Global ID (GUID) assigned. This needs to be assigned to at least one of the partitions on the chart in order to send via HL7.  Datasend constructs HL7 v2.5 style HL7 messages and sends the partition and it's GUID in subcomponents of the ID sent in PID.3.
 
 ## Completed/Acknowledged Routes:
 
@@ -267,26 +233,26 @@ Individual document properties will also show the routes and status, but will no
 1. Is it possible to restrict the Datasend Queue tab in Control Panel to specific security roles? (Y/N)  <strong>NO</strong>.
 2. All routes in the Completed/Acknowledged queue were sent successfully. (True/False)  <strong>FALSE</strong>
 3. Why would a user use the Datasend Queue? (pick all that apply) (<strong>b, c, d, f)</strong>
-    a.  To check for print jobs
-    b.  Check to see if datasend is running
-    c.  Determine if an interface is working
-    d.  To view the HL7 message
-    e.  Check the log file
-    f.  Deactivate a route
-    g.  All of the above
+    * To check for print jobs
+    * Check to see if datasend is running
+    * Determine if an interface is working
+    * To view the HL7 message
+    * Check the log file
+    * Deactivate a route
+    * All of the above
 4. Abby at the Lab calls and says she hasn't received any orders from the Client in two weeks. How can you troubleshoot this? <strong>(c, d)</strong>
-    a.  Call the Help Desk
-    b.  Have the Lab call the Client
-    c.  Check the Pending and Error Routes in the Datasend Queue to see if there is any helpful information
-    d.  Check specific doc ids > properties for the route information and troubleshoot based on your findings
-    e.  None of the above
+    * Call the Help Desk
+    * Have the Lab call the Client
+    * Check the Pending and Error Routes in the Datasend Queue to see if there is any helpful information
+    * Check specific doc ids > properties for the route information and troubleshoot based on your findings
+    * None of the above
 5. What needs to be enabled to view the raw HL7 message in the Datasend Queue? <strong>(d)</strong>
-    a.  Change the default to View All
-    b.  Change the security setting ‘View HL7' for only the individuals who need access
-    c.  Change the My Setting ‘Document View Format' to PDF
-    d.  None of the above
+    * Change the default to View All
+    * Change the security setting ‘View HL7' for only the individuals who need access
+    * Change the My Setting ‘Document View Format' to PDF
+    * None of the above
 6. How does a Datasend route primarily get created? <strong>(a)</strong>
-    a.  By an Auto Route trigger
-    b.  From an inbound interface
-    c.  By clicking the 'Add Route' link in Datasend Queue
-    d.  Magic
+    * By an Auto Route trigger
+    * From an inbound interface
+    * By clicking the 'Add Route' link in Datasend Queue
+    * Magic
