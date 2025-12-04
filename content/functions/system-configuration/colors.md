@@ -1,8 +1,8 @@
 ---
 id: '1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
 title: 'Colors'
-date: '2025-06-04T15:50:48.517Z'
-version: 154
+date: '2025-12-04T18:57:59.742Z'
+version: 162
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -41,7 +41,7 @@ Down at the bottom is a *Refresh Image Cache* button. You may want to scroll dow
 
 ![](./colors.assets/ca85765949a0d160beec050aae7cbe90.png)
 
-The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field *or* if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied this color.
+The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field *or* if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied to this color.
 
 ![](./colors.assets/35e8066c06448e794b0df99af5a16ed7.png)
 
