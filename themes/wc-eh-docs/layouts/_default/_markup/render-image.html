@@ -1,50 +1,41 @@
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
 {{- if not $u.IsAbs -}}
-  {{- /* Parse base configuration */ -}}
-  {{- $parsedURL := urls.Parse .Page.Site.BaseURL -}}
-  {{- $basePath := $parsedURL.Path -}}
-  {{- $markdownDir := .Page.File.Dir -}}
-  {{- $fullURLDir := printf "%s%s" $basePath $markdownDir -}}
+{{ $parsedURL := urls.Parse .Page.Site.BaseURL }}
+{{ $basePath := $parsedURL.Path }}
+{{ $markdownDir := .Page.File.Dir }}
+{{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
+{{ $imageRelativePath := .Destination }}
+{{ $imgPath := path.Join $fullURLDir $imageRelativePath }}
+{{ $imgUrl := $imgPath | relURL }}
+{{ $siteUrl := .Page.RelPermalink }}
 
-  {{- /* Handle ./ prefix - remove it since image is in same directory */ -}}
-  {{- $cleanPath := .Destination -}}
-  {{- if strings.HasPrefix .Destination "./" -}}
-    {{- $cleanPath = strings.TrimPrefix "./" .Destination -}}
-  {{- end -}}
 
-  {{- /* Build full image path and convert to relative URL */ -}}
-  {{- $imgPath := path.Join $fullURLDir $cleanPath -}}
-  {{- $imgUrl := $imgPath | relURL -}}
-  {{- $siteUrl := .Page.RelPermalink -}}
+{{- $baseSegs   := split (trim $siteUrl "/") "/" -}}
+{{- $targetSegs := split (trim $imgUrl  "/") "/" -}}
 
-  {{- /* Calculate relative path with ../ prefixes */ -}}
-  {{- $baseSegs   := split (trim $siteUrl "/") "/" -}}
-  {{- $targetSegs := split (trim $imgUrl  "/") "/" -}}
-
-  {{- $s := newScratch -}}
-  {{- $s.Set "common" 0 -}}
-  {{- $s.Set "done" false -}}
-  {{- range $i, $seg := $baseSegs -}}
-    {{- if not ($s.Get "done") -}}
-      {{- if and (lt $i (len $targetSegs)) (eq $seg (index $targetSegs $i)) -}}
-        {{- $s.Set "common" (add ($s.Get "common") 1) -}}
-      {{- else -}}
-        {{- $s.Set "done" true -}}
-      {{- end -}}
+{{- $s := newScratch -}}
+{{- $s.Set "common" 0 -}}
+{{- $s.Set "done" false -}}
+{{- range $i, $seg := $baseSegs -}}
+  {{- if not ($s.Get "done") -}}
+    {{- if and (lt $i (len $targetSegs)) (eq $seg (index $targetSegs $i)) -}}
+      {{- $s.Set "common" (add ($s.Get "common") 1) -}}
+    {{- else -}}
+      {{- $s.Set "done" true -}}
     {{- end -}}
   {{- end -}}
-
-  {{- $common := $s.Get "common" -}}
-  {{- $ups := sub (len $baseSegs) $common -}}
-  {{- $tail := delimit (after $common $targetSegs) "/" -}}
-
-  {{- $s.Set "up" "" -}}
-  {{- range seq $ups -}}
-    {{- $s.Set "up" (printf "%s../" ($s.Get "up")) -}}
-  {{- end -}}
-  {{- $src := printf "%s%s" ($s.Get "up") $tail -}}
 {{- end -}}
+
+{{- $common := $s.Get "common" -}}
+{{- $ups := sub (len $baseSegs) $common -}}
+{{- $tail := delimit (after $common $targetSegs) "/" -}}
+
+{{- $s.Set "up" "" -}}
+{{- range seq $ups -}}
+  {{- $s.Set "up" (printf "%s../" ($s.Get "up")) -}}
+{{- end -}}
+{{- $src := printf "%s%s" ($s.Get "up") $tail -}}
 
 {{ if strings.HasSuffix .Destination ".svg" }}
 <object type="image/svg+xml" data="{{ $src }}" >
