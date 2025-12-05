@@ -38,11 +38,19 @@
           </div>
         </div>
         <div class="col-12 col-xl-8 content-print order-1">
-          {{ .Content | safeHTML }}
+          {{ if eq .Markup "pandoc" }}
+            {{ .Page.RenderString .RawContent | safeHTML }}
+          {{ else }}
+            {{ .Content | safeHTML }}
+          {{ end }}
         </div>
       </div>
       {{ else }}
-      {{ .Content | safeHTML}}
+      {{ if eq .Markup "pandoc" }}
+        {{ .Page.RenderString .RawContent | safeHTML}}
+      {{ else }}
+        {{ .Content | safeHTML}}
+      {{ end }}
       {{ end }}
       {{ partial "footer-call-to-action.html" . }}
       {{ partial "date-info.html" . }}
