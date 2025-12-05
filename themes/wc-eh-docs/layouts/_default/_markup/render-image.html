@@ -8,6 +8,11 @@
 {{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
 {{ $imageRelativePath := .Destination }}
 
+{{- /* Remove ./ prefix if present */ -}}
+{{ if strings.HasPrefix $imageRelativePath "./" }}
+  {{ $imageRelativePath = strings.TrimPrefix "./" $imageRelativePath }}
+{{ end }}
+
 {{- /* For Pandoc files, check if image is in .assets folder */ -}}
 {{ $imgPath := $imageRelativePath }}
 {{ if eq .Page.Markup "pandoc" }}
