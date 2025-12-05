@@ -39,7 +39,7 @@
         </div>
         <div class="col-12 col-xl-8 content-print order-1">
           {{ if eq .Markup "pandoc" }}
-            {{ .Page.RenderString .Inner | safeHTML }}
+            {{ .Content | replaceRE `src="\./` `src="../` | safeHTML }}
           {{ else }}
             {{ .Content | safeHTML }}
           {{ end }}
@@ -47,7 +47,7 @@
       </div>
       {{ else }}
       {{ if eq .Markup "pandoc" }}
-        {{ .Page.RenderString .Inner | safeHTML}}
+        {{ .Content | replaceRE `src="\./` `src="../` | safeHTML}}
       {{ else }}
         {{ .Content | safeHTML}}
       {{ end }}
