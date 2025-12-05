@@ -5,7 +5,6 @@
   {{- $parsedURL := urls.Parse .Page.Site.BaseURL -}}
   {{- $basePath := $parsedURL.Path -}}
   {{- $markdownDir := .Page.File.Dir -}}
-  {{- $markdownFileBase := .Page.File.BaseFileName -}}
   {{- $fullURLDir := printf "%s%s" $basePath $markdownDir -}}
 
   {{- /* Handle ./ prefix - remove it since image is in same directory */ -}}
@@ -14,17 +13,8 @@
     {{- $cleanPath = strings.TrimPrefix "./" .Destination -}}
   {{- end -}}
 
-  {{- /* For Pandoc markup, check if image is in .assets folder */ -}}
-  {{- $imgPath := $cleanPath -}}
-  {{- if eq .Page.Markup "pandoc" -}}
-    {{- $assetsDirName := printf "%s.assets" (strings.TrimSuffix ".md" $markdownFileBase) -}}
-    {{- $assetsPath := path.Join $fullURLDir $assetsDirName $cleanPath -}}
-    {{- $imgPath = $assetsPath -}}
-  {{- else -}}
-    {{- $imgPath = path.Join $fullURLDir $cleanPath -}}
-  {{- end -}}
-
   {{- /* Build full image path and convert to relative URL */ -}}
+  {{- $imgPath := path.Join $fullURLDir $cleanPath -}}
   {{- $imgUrl := $imgPath | relURL -}}
   {{- $siteUrl := .Page.RelPermalink -}}
 
