@@ -2,7 +2,7 @@
 id: '1clySsAxaHtCaH6Fbu2DkPG8tYBjFYeFj32WIa9oi3wI'
 title: 'Encounter Summary Toolbar'
 date: '2025-02-13T14:32:22.576Z'
-version: 65
+version: 66
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

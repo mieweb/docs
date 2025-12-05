@@ -1,9 +1,9 @@
 ---
 id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 title: 'MIE File Import'
-date: '2025-11-12T15:37:37.041Z'
-version: 137
-lastAuthor: 'janderson'
+date: '2025-11-24T17:09:50.997Z'
+version: 148
+lastAuthor: 'rgalagate'
 mimeType: 'text/x-markdown'
 links:
   - 'data-migration-file-format-standard.md'

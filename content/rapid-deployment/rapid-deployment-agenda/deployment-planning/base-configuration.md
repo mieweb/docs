@@ -2,7 +2,7 @@
 id: '1zDU5yZeJT4MJnGGZwJ_3aE-NNoSUkTUSPn2X-YwcnQg'
 title: 'Base Configuration'
 date: '2025-04-07T17:15:20.310Z'
-version: 44
+version: 45
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

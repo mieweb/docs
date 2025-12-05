@@ -2,7 +2,7 @@
 id: '1oa6cDVnwyM1DcdhGwQG26CgadBfOnlGn7iMHjG-WY3k'
 title: 'RAF Score - Risk Adjustment Factor'
 date: '2025-11-11T19:14:27.002Z'
-version: 259
+version: 262
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

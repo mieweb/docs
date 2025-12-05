@@ -2,7 +2,7 @@
 id: '1s0CKXnoFiWCnOBilqW1BRHQSuM0N5Be2iU1vaaVOeeA'
 title: 'Scheduler & Check-in'
 date: '2020-02-27T21:27:23.979Z'
-version: 26
+version: 27
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:

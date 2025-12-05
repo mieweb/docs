@@ -2,7 +2,7 @@
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
 date: '2025-11-14T13:08:22.668Z'
-version: 115
+version: 116
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

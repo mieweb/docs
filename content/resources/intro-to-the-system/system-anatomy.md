@@ -1,9 +1,9 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-12-02T21:44:39.141Z'
-version: 206
-lastAuthor: 'auhrick'
+date: '2025-12-05T14:40:43.852Z'
+version: 213
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/resources/intro-to-the-system/'
