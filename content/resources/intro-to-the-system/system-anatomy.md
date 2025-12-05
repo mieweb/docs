@@ -1,8 +1,8 @@
 ---
 id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
 title: 'System Anatomy'
-date: '2025-12-05T14:40:43.852Z'
-version: 213
+date: '2025-12-05T17:12:17.970Z'
+version: 224
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
