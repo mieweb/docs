@@ -4,9 +4,20 @@
 {{ $parsedURL := urls.Parse .Page.Site.BaseURL }}
 {{ $basePath := $parsedURL.Path }}
 {{ $markdownDir := .Page.File.Dir }}
+{{ $markdownFileBase := .Page.File.BaseFileName }}
 {{ $fullURLDir := printf "%s%s" $basePath $markdownDir }}
 {{ $imageRelativePath := .Destination }}
-{{ $imgPath := path.Join $fullURLDir $imageRelativePath }}
+
+{{- /* For Pandoc files, check if image is in .assets folder */ -}}
+{{ $imgPath := $imageRelativePath }}
+{{ if eq .Page.Markup "pandoc" }}
+  {{- $assetsDirName := printf "%s.assets" (strings.TrimSuffix ".md" $markdownFileBase) -}}
+  {{- $assetsPath := path.Join $fullURLDir $assetsDirName $imageRelativePath -}}
+  {{ $imgPath = $assetsPath }}
+{{ else }}
+  {{ $imgPath = path.Join $fullURLDir $imageRelativePath }}
+{{ end }}
+
 {{ $imgUrl := $imgPath | relURL }}
 {{ $siteUrl := .Page.RelPermalink }}
 
