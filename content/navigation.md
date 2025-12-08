@@ -634,7 +634,7 @@ links:
   - 'functions/system-administration/data-migration/audiogram-validation-test-script.md'
   - 'functions/system-administration/data-migration/observations-validation-test-script.md'
   - 'functions/system-administration/data-migration/respirator-fit-data-csv-api-import-tool.md'
-  - 'https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
+  - 'functions/system-administration/data-migration/locations-hierarchy-csv-api.md'
   - 'functions/system-administration/security.md'
   - 'functions/system-administration/security/security-role-settings.md'
   - 'functions/system-administration/security/compare-security-roles.md'
@@ -1439,7 +1439,7 @@ wikigdrive: 'v2.15.30'
             * [Audiogram Validation Test Script](functions/system-administration/data-migration/audiogram-validation-test-script.md)
             * [Observations Validation Test Script](functions/system-administration/data-migration/observations-validation-test-script.md)
             * [Respirator Fit Data CSV API Import Tool](functions/system-administration/data-migration/respirator-fit-data-csv-api-import-tool.md)
-            * [Locations Hierarchy CSV API](https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c)
+            * [Locations Hierarchy CSV API](functions/system-administration/data-migration/locations-hierarchy-csv-api.md)
         * [Security](functions/system-administration/security.md)
             * [Security Role Settings](functions/system-administration/security/security-role-settings.md)
             * [Compare Security Roles](functions/system-administration/security/compare-security-roles.md)

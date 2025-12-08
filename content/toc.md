@@ -660,6 +660,7 @@ wikigdrive: 'v2.15.30'
             * [Import/Export JSON Files](functions/system-administration/data-migration/import-export-json-files.md)
             * [Injections CSV API](functions/system-administration/data-migration/injections-csv-api.md)
             * [Lab Result CSV API](functions/system-administration/data-migration/lab-result-csv-api.md)
+            * [Locations Hierarchy CSV API](functions/system-administration/data-migration/locations-hierarchy-csv-api.md)
             * [Lost Time Import Tool](functions/system-administration/data-migration/lost-time-import-tool.md)
             * [MIE File Import](functions/system-administration/data-migration/mie-file-import.md)
             * [Nature of Injury CSV API](functions/system-administration/data-migration/nature-of-injury-csv-api.md)
