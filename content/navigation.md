@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-12-02T20:23:37.018Z'
-version: 1889
-lastAuthor: 'auhrick'
+date: '2025-12-08T15:08:02.752Z'
+version: 1898
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -116,9 +116,9 @@ links:
   - 'functions/portal-management/applicant-portal.md'
   - 'functions/portal-management/employer-employee-second-portal-setup.md'
   - 'functions/portal-management/supervisor-portal-setup.md'
-  - 'functions/portal-management/kiosk.md'
   - 'functions/portal-management/linking-users-for-portal-access.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
+  - 'functions/portal-management/kiosk.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/portal-management/password-reset-non-sso.md'
   - 'functions/portal-management/portal-portlet.md'
@@ -920,9 +920,9 @@ wikigdrive: 'v2.15.30'
         * [Applicant Portal](functions/portal-management/applicant-portal.md)
         * [Employer/Employee Second Portal Setup](functions/portal-management/employer-employee-second-portal-setup.md)
         * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
-        * [Kiosk](functions/portal-management/kiosk.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
         * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
+        * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](functions/portal-management/kiosk.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
