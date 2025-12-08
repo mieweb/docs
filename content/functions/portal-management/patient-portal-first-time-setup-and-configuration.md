@@ -1,14 +1,16 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-11-10T18:51:27.988Z'
-version: 834
-lastAuthor: 'janderson'
+date: '2025-12-08T15:48:22.446Z'
+version: 858
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-configuration/provider-management/'
   - 'https://docs.enterprisehealth.com/functions/portal-management/portal-activation-code-employee-experience/'
   - 'https://mie.talentlms.com/shared/start/key:AGLHRKMF'
+  - 'https://mie.talentlms.com/unit/view/id:3307'
+  - 'kiosk.md'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 wikigdrive: 'v2.15.30'
 ---
@@ -115,7 +117,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 * <strong>Logo Alternate Text</strong>: Alternative text is used for accessibility purposes. The alternative text should contain the same text that is used in the logo. If no text is used within the logo, the alternative text should be the organization name represented by the logo.
 * <strong>Replacement Text for Enterprise Health</strong>: The text provided will replace, or substitute, the <em>Enterprise Health</em> label.
-* <strong>Checkin Kiosk Verbiage</strong>: Use this field to update the description displayed on the Check-in Kiosk.
+* <strong>Checkin Kiosk Verbiage</strong>: Use this field to update the description displayed on the Check-in Kiosk if a unique no-login checkin kiosk URL is being utilized for workflows.
 * <strong>Redirect on Logout</strong>: Provide the website users should be redirected to when logged out of the portal.
 * <strong>Preferred Partition</strong>: Use the drop-down to determine which partition will be used to populate the appropriate record numbers, displayed next to a patient name (e.g., Hart, William (MR-1234))
 
@@ -262,6 +264,11 @@ The *My Appointments* module can be updated to allow certain functionality, as w
 * <strong>Custom Module Name</strong>: The name defaults to <em>My Appointments</em>. Customize up to 60 characters.
 * <strong>Schedule an Appointment</strong>: This selection allows users to schedule appointments from their portal by signing up for an appointment slot, based on appointment types and schedules set up within the system. In order for the schedules to interact with the portal, the location linked to each schedule needs to be added to the <strong>Locations</strong> chart tab of the Provider Organization chart. Appointment types that are available for selection are managed from the <em>Appt Types</em>. Selecting <strong>Available For Portal</strong> on the respective appointment type indicates that the appointment type will be made available within the portal. Not selecting this option indicates that the appointment type linked to the schedule will NOT be available within the portal.
 * <strong>Request an Appointment</strong>: This selection allows users to request appointments through their portal by sending an appointment request with their preferences and appointment information to the clinic. Once verified, appointments will display on the user's <em>My Appointments</em> page.
+* <strong>Use Checkin</strong>: This selection allows the logged in portal user to see a ‘Check Into Waiting Room' button next to their existing scheduled appointment(s) from their My Appointments portal screen.
+    * There are 2 system settings that control when the 'Check Into Waiting Room' button will appear to the portal user when viewing their scheduled appointments listing: 'Minutes Allowed Before Start', 'Minutes Allowed After Start'.
+    * Make sure to review the default minutes these are set to, and have your Deployment Consultant/System Admin get these updated to appropriate minutes for workflow needs.
+        * Minutes Allowed Before Start system setting: When portal users are checking into appointments from the portal, this is the amount of time (in minutes) that checkin is allowed BEFORE the appointment's scheduled start time. Meaning, if value for this setting is 360, then a portal user can checkin for their existing scheduled appointment via a portal up to 360 minutes (6 hours) before their existing scheduled start appointment time.
+        * Minutes Allowed After Start system setting: When portal users are checking into appointments from the portal, this is the amount of time (in minutes) that checkin is allowed AFTER the appointment's scheduled start time. Meaning, if value for this setting is 15, then a portal user can still checkin for their existing scheduled appointment via a portal up to 15 minutes past the existing scheduled start appointment time.
 
 {{% note %}}
 To use this feature, a *Request an Appointment* message type must be enabled. Review the Send a Message section of this help documentation for further information on how to add message types.
@@ -458,3 +465,8 @@ A provider Organization partition needs added if it does not already exist, usin
 To learn more about the Patient Portal First-Time Setup & Configuration, follow the link below to the Learning Management System course:
 
 * [Patient Portal](https://mie.talentlms.com/shared/start/key:AGLHRKMF)
+* [Checkin/Checkout and No -Login Checkin Kiosk](https://mie.talentlms.com/unit/view/id:3307)
+
+## Additional Documentation
+
+* [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](kiosk.md)
