@@ -334,7 +334,6 @@ wikigdrive: 'v2.15.30'
       * Portal Management
          * [Applicant Portal](functions/portal-management/applicant-portal.md)
          * [Employer/Employee Second Portal Setup](functions/portal-management/employer-employee-second-portal-setup.md)
-         * [Kiosk](functions/portal-management/kiosk.md)
          * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
          * [Messages from NMC User](functions/portal-management/messages-from-nmc-user.md)
          * [NoMoreClipboard](functions/portal-management/nomoreclipboard.md)
@@ -342,6 +341,7 @@ wikigdrive: 'v2.15.30'
          * [Outside Contact Portal - SMP Portal Contact User Experience](functions/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
          * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
          * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
+         * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](functions/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
          * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md)
          * [Portal Portlet](functions/portal-management/portal-portlet.md)
          * [Portal Virtual Waiting Room](functions/portal-management/portal-virtual-waiting-room.md)

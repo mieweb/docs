@@ -118,7 +118,7 @@ links:
   - 'functions/portal-management/supervisor-portal-setup.md'
   - 'functions/portal-management/linking-users-for-portal-access.md'
   - 'functions/portal-management/patient-portal-first-time-setup-and-configuration.md'
-  - 'functions/portal-management/kiosk.md'
+  - 'functions/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md'
   - 'functions/portal-management/portal-activation-code-employee-experience.md'
   - 'functions/portal-management/password-reset-non-sso.md'
   - 'functions/portal-management/portal-portlet.md'
@@ -922,7 +922,7 @@ wikigdrive: 'v2.15.30'
         * [Supervisor Portal Setup](functions/portal-management/supervisor-portal-setup.md)
         * [Linking Users for Portal Access](functions/portal-management/linking-users-for-portal-access.md)
         * [Patient Portal First-Time Setup & Configuration](functions/portal-management/patient-portal-first-time-setup-and-configuration.md)
-        * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](functions/portal-management/kiosk.md)
+        * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](functions/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
         * [Portal Activation Code Employee Experience](functions/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Password Reset - Non SSO](functions/portal-management/password-reset-non-sso.md)
         * [Portal Portlet](functions/portal-management/portal-portlet.md)
