@@ -1,8 +1,8 @@
 ---
 id: '1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
 title: 'Incidents Report'
-date: '2025-12-08T19:52:33.087Z'
-version: 70
+date: '2025-12-09T15:23:01.863Z'
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,9 +11,11 @@ wikigdrive: 'v2.15.30'
 ---
 Capturing incident detail on a patient is done through the office visit encounter or though the Incidents chart tab. There is reporting available based on patient incident data.
 
+## Incident Report
+
 From the Reports sidemenu, click on the Safety tab and select the Incident Report.
 
-![](./incidents-report.assets/9247d85d8dcf22e095e23aea7aa3ea83.png)
+![](./incidents-report.assets/3725d5a3933852003818c600a1f41bb6.png)
 
 After clicking on the Incident Report, you will be taken to the Incident Search screen.
 
