@@ -1,21 +1,23 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2025-11-11T19:17:32.985Z'
-version: 207
+date: '2025-12-10T16:51:35.439Z'
+version: 214
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Appointment Report
 
 The Appointment Report displays a report of found appointments
 
 Click *Reports* tab on the left side-bar menu.
 
-Click *Appt Report* tab from the top tab menu.
+Click the Appointments tab at the top tab menu and select *Appointment Report*.
 
 It will open to the Appointment Reports search fields.
 
