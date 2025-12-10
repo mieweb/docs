@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-11-19T19:43:06.564Z'
-version: 605
+date: '2025-12-10T17:31:48.101Z'
+version: 650
 lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two
 
 ### Security Role Permission - Require 2FA
 
-Security Role based authentication via a security role permission.  Each individual security role of users can be configured to a specific option in Require 2FA security permission.  The **Require 2FA** security permission has 3 options:
+Security Role based authentication via a security role permission. Each individual security role of users can be configured to a specific option in Require 2FA security permission. The **Require 2FA** security permission has 3 options:
 
 * <strong>No</strong> - users can access the system with a username and password only.  MFA/2FA would not be utilized.
 * <strong>Encourage</strong> - users get a screen (after keying in their username and password) to set up MFA/2FA, but allows the user to select ‘set up later' to bypass the set up process.  Users will be prompted each time they log in to set up MFA/2FA until they do so.
@@ -245,10 +245,10 @@ For more information on utilizing an additional level of security to a user's si
 
 #### Enabling 2FA/MFA for users
 
-{{< youtube m5bUwJ63xyI >}}
+{{< youtube dh3RHK0W6mw >}}
 
 #### Enabling 2FA/MFA for admin
 
-{{< youtube F2t7S0aCkAk >}}
+{{< youtube xTC1GB8jWrQ >}}
 
 {{% /only %}}
