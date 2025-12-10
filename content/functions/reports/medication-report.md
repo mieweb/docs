@@ -1,19 +1,21 @@
 ---
 id: '1R15V9vD7TWaOwf81dKXw0Fw4EfTL6gIJGJY1o8uVwbk'
 title: 'Medication Report'
-date: '2025-12-08T20:48:52.271Z'
-version: 40
+date: '2025-12-09T15:19:38.482Z'
+version: 49
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1R15V9vD7TWaOwf81dKXw0Fw4EfTL6gIJGJY1o8uVwbk'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
-Click *Reports* tab on the left side-bar menu.
+## Meds Report
 
-Find the *Med Reports* tab from the top tab menu or within the Medications/Allergies/Scripts report tab.
+Click *Reports* tab on the sidemenu.
+
+Find the *Meds Report* tab from the top tab menu or within the Medications/Allergies/Scripts report tab.
 
 You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
 
