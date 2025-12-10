@@ -1,15 +1,15 @@
 ---
 id: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
 title: 'Activity Log Report'
-date: '2024-10-29T14:14:47.338Z'
-version: 116
+date: '2025-12-10T16:24:11.411Z'
+version: 122
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
 wikigdrive: 'v2.15.30'
 ---
-To access the Activity Log in the Control tab, ensure you have the necessary security permissions.
+To access the Activity Log in the Control Panel, ensure you have the necessary security permissions.
 
 ## Activity Log
 
@@ -17,9 +17,9 @@ To access the Activity Log in the Control tab, ensure you have the necessary sec
 
 ### Navigate to the Activity Log
 
-Click on the Control tab in the side menu.
+Click on the Control Panel tab in the sidemenu.
 
-Select the Activity Log from the top tab (or access it through the Reports tab).
+Select the *Access* tab from the top tab menu and click on *Activity Log* (or access it through the Reports tab).
 
 ![](./activity-log-report.assets/7474b2e06ee53d375a6caaec2af7da97.png)
 
