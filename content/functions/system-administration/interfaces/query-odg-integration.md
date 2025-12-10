@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-12-09T22:34:18.254Z'
-version: 233
+date: '2025-12-09T23:45:05.043Z'
+version: 242
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -82,7 +82,7 @@ The ODG data values then populate into the {{% system-name %}}  Case Management 
 These are the specific {{% system-name %}} encounter data elements of the Chart and Case Management encounter's Plan Narrative encounter data elements using the Case Management chief complaint protocol that will send to ODG when queried:
 
 * <strong>Country (2 digit country code)</strong>: from the chart's demographics
-    * ODG only supports US (United States), CA (Canada), and AU (Australia)
+    * ODG supports best practice timelines used in over 40 countries. The US (United States), CA (Canada), and AU (Australia) has some differences in average, best practice, and maximum duration values that are country specific.
     * If country code is not in chart demographics nor passed to ODG, the ODG system will query to use US data
     * Any chart's demographic for any other country will return a query failed for invalid country because it is not supported by ODG
 
