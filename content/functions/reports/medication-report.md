@@ -1,8 +1,8 @@
 ---
 id: '1R15V9vD7TWaOwf81dKXw0Fw4EfTL6gIJGJY1o8uVwbk'
 title: 'Medication Report'
-date: '2025-12-09T15:19:38.482Z'
-version: 49
+date: '2025-12-10T15:58:57.553Z'
+version: 55
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -15,7 +15,7 @@ You must have security role access to the Reports module/tab. This setting is in
 
 Click *Reports* tab on the sidemenu.
 
-Find the *Meds Report* tab from the top tab menu or within the Medications/Allergies/Scripts report tab.
+Find the *Medications/Allergies/Scripts* tab from the top tab menu and select the *Meds Report.*
 
 You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
 
