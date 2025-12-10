@@ -2,7 +2,7 @@
 id: '16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
 title: 'Working in a Legacy Encounter'
 date: '2025-11-10T19:25:20.956Z'
-version: 127
+version: 128
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

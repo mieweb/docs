@@ -2,7 +2,7 @@
 id: '1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
 title: 'Device Interface - Welch Allyn CardioPerfect'
 date: '2025-07-03T15:54:56.861Z'
-version: 123
+version: 124
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

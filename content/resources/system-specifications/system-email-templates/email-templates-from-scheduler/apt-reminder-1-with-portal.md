@@ -2,7 +2,7 @@
 id: '1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
 title: 'Apt Reminder 1 with Portal'
 date: '2025-11-13T19:53:46.174Z'
-version: 25
+version: 26
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk'
 title: 'Pat Guideline Reminder'
 date: '2025-11-13T17:15:43.554Z'
-version: 25
+version: 26
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
 title: 'Add Inventory Tab'
 date: '2025-11-05T19:58:07.177Z'
-version: 44
+version: 45
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

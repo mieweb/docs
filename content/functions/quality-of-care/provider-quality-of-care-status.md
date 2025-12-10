@@ -2,7 +2,7 @@
 id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
 title: 'Provider Quality of Care Status'
 date: '2025-11-11T19:07:16.027Z'
-version: 47
+version: 48
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

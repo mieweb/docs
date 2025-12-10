@@ -2,7 +2,7 @@
 id: '1EHgA_fUZw1elKqO93WHidXgIbGAskkj0ibyxAMYVZ_Y'
 title: 'Open Encounters Report'
 date: '2025-12-09T14:37:04.070Z'
-version: 38
+version: 39
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

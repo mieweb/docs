@@ -2,7 +2,7 @@
 id: '1MqVltFMwAvH2R5x6vhUqekj8fdzyW6dWcLseooVtdCo'
 title: 'Device Interface - Titmus V4'
 date: '2025-11-13T15:12:44.450Z'
-version: 49
+version: 50
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

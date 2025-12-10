@@ -2,7 +2,7 @@
 id: '16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
 title: 'Apt Released to Full Duty'
 date: '2025-11-13T19:49:53.160Z'
-version: 25
+version: 26
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

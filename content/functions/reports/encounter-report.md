@@ -2,7 +2,7 @@
 id: '1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
 title: 'Encounter Report'
 date: '2025-12-08T18:07:09.508Z'
-version: 70
+version: 72
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

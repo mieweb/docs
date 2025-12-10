@@ -2,7 +2,7 @@
 id: '1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
 title: 'Super User Quick View Portlet'
 date: '2025-11-07T19:14:25.933Z'
-version: 70
+version: 71
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

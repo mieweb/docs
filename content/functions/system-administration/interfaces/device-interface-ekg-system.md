@@ -2,7 +2,7 @@
 id: '1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
 title: 'Device Interface - EKG System'
 date: '2025-11-13T14:58:15.873Z'
-version: 63
+version: 64
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

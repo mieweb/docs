@@ -2,7 +2,7 @@
 id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 title: 'Client Hardware and Software Specifications'
 date: '2025-10-03T16:50:23.838Z'
-version: 204
+version: 205
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

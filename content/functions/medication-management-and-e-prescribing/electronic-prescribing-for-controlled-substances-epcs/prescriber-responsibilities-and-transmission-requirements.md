@@ -2,7 +2,7 @@
 id: '1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
 title: 'Prescriber Responsibilities & Transmission Requirements'
 date: '2025-11-11T15:28:23.169Z'
-version: 54
+version: 55
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

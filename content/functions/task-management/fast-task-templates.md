@@ -2,7 +2,7 @@
 id: '1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
 title: 'Fast Task Templates'
 date: '2025-11-11T16:22:48.807Z'
-version: 222
+version: 223
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

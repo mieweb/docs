@@ -2,7 +2,7 @@
 id: '1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI'
 title: 'Apt Reminder'
 date: '2025-11-13T19:50:37.658Z'
-version: 25
+version: 26
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

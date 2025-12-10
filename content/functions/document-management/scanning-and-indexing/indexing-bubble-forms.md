@@ -2,7 +2,7 @@
 id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
 title: 'Indexing Bubble Forms'
 date: '2025-11-17T20:06:33.480Z'
-version: 76
+version: 77
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

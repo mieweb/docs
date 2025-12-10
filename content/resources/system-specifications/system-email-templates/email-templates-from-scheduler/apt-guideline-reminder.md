@@ -2,7 +2,7 @@
 id: '1v8AzGmcED_QmF-RwhztZuJZjpq99NKLFVUkacCV474A'
 title: 'Apt Guideline Reminder'
 date: '2025-11-13T19:33:15.631Z'
-version: 25
+version: 26
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

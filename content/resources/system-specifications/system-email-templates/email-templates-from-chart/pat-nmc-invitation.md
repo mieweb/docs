@@ -2,7 +2,7 @@
 id: '1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
 title: 'Pat NMC Invitation'
 date: '2025-11-13T19:07:02.084Z'
-version: 37
+version: 38
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

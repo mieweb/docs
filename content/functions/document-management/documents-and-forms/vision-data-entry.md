@@ -2,7 +2,7 @@
 id: '15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
 title: 'Vision Data Entry'
 date: '2025-11-10T16:17:16.943Z'
-version: 84
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

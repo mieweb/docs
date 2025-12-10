@@ -2,7 +2,7 @@
 id: '1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
 title: 'Endpoints'
 date: '2025-11-10T16:07:25.657Z'
-version: 83
+version: 84
 lastAuthor: 'dcarlson'
 mimeType: 'text/x-markdown'
 links: []

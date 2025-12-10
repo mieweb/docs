@@ -2,7 +2,7 @@
 id: '1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
 title: 'Pat Restrictions'
 date: '2025-11-13T19:10:51.061Z'
-version: 37
+version: 38
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

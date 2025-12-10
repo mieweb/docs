@@ -2,7 +2,7 @@
 id: '1UjHeKBG_-NqC_E63USzFXrmo9BOyG9WuZ5yNv5ZXFkQ'
 title: 'Allergy/Medication Tab - Quick Links'
 date: '2025-11-04T15:20:47.313Z'
-version: 57
+version: 58
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

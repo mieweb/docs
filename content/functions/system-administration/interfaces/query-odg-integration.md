@@ -1,9 +1,9 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-12-09T23:45:05.043Z'
-version: 242
-lastAuthor: 'bhamm'
+date: '2025-12-10T12:55:55.712Z'
+version: 256
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.mcg.com/odg/'

@@ -2,7 +2,7 @@
 id: '1IxQLpFZso4bcZg-hMLA2M1nBJW4mVauo38F2vHiSYzE'
 title: 'Pat Audio STS Retest'
 date: '2025-11-13T16:59:46.290Z'
-version: 26
+version: 27
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
