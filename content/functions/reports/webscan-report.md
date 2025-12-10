@@ -1,19 +1,21 @@
 ---
 id: '1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA'
 title: 'WebScan Report'
-date: '2024-03-14T19:32:20.154Z'
-version: 53
+date: '2025-12-10T13:32:12.541Z'
+version: 61
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1DErw1fNJ_zxpvnxFQ-ECAl7ukpHNOHQHR4i8wnOjhuA'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
-Click *Reports* tab on the left sidebar menu.
+## WebScan Report
 
-Click *WebScan* *Reports* tab from the top tab menu. The Search fields will appear on the screen.
+Click the *Reports* tab on the left sidebar menu.
+
+Click the *Utilization* tab and select *WebScan* *Reports* from the top tab menu. The Search fields will appear on the screen.
 
 You do not have to fill out every single field. These fields are different ways to report stats and each field gets more specific and narrows your search down.
 
