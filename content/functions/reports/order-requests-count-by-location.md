@@ -1,21 +1,25 @@
 ---
 id: '1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw'
 title: 'Order Requests - Count by Location'
-date: '2025-04-07T13:00:53.602Z'
-version: 42
+date: '2025-12-10T15:30:29.007Z'
+version: 49
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw'
 wikigdrive: 'v2.15.30'
 ---
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Order Requests - Count by Location
+
 This is a searchable report that lists all created order requests/requisitions and document details by ordering location for a specific date range entered.
 
-Click *Reports* tab on the left sidebar menu.
+Click the *Reports* tab on the left sidebar menu.
 
-Click *Order Requests - Count by Location* link.
+Click the Orders tab on the top menu and select the *Order Requests - Count by Location* report.
 
-![](./order-requests-count-by-location.assets/0467018d19733121f222f9ad6dae7387.png)
+![](./order-requests-count-by-location.assets/47c2ea11a09f0a84e1666d93ad991262.png)
 
 The Order Requests - Count by Location search will open. The Start Date, End Date, and Locations fields are required and must be completed to search.
 
