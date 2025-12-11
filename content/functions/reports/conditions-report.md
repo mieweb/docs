@@ -1,8 +1,8 @@
 ---
 id: '1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 title: 'Conditions Report'
-date: '2025-12-11T15:08:18.431Z'
-version: 101
+date: '2025-12-11T15:52:32.727Z'
+version: 105
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
