@@ -1,21 +1,23 @@
 ---
 id: '1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 title: 'Conditions Report'
-date: '2025-12-02T19:12:55.119Z'
-version: 81
-lastAuthor: 'auhrick'
+date: '2025-12-11T14:15:42.356Z'
+version: 91
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side menu tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Conditions Report
 
 Click the *Reports* sidemenu tab.
 
-Click the *Conditions Report* tab from the top tab menu.
+Click the *Visits* tab from the top tab menu and select the *Conditions Report*.
 
-![](./conditions-report.assets/25a4ac8dfc6505280982c0d64b30dfae.png)
+![](./conditions-report.assets/1a126ae8ea51721ae6ba35b5c01f19fd.png)
 
 The Conditions Report search filter screen will open. This is a searchable report to render documented conditions found within charts based on search criteria.
 
@@ -37,7 +39,6 @@ These fields are optional. The more fields you enter and fill out, the more narr
 * <strong>Deleted:</strong> Can limit the search for conditions marked as deleted, or not as deleted, or any.  The report output will place a 1 in the column if the condition is marked as deleted on their problem list.
 * <strong>Optional Columns:</strong> Check any optional demographic information that you want resulted as columns in the output.
 * <strong>Current Status:</strong> Default will be at Positive. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
-
 * <strong>Format:</strong> Default will be at ListView. However, you can change the status to whatever you wish. Hover or click your mouse on the help icon for explanations of each status.
 
 Click the SEARCH button to output the Conditions Report based on your search criteria.
@@ -52,4 +53,4 @@ Additional report output options:
 
 Beginning in RC202509 and newer, the Conditions Report is available as a DataVis. All Optional Columns will display by default and do not require the user to select the optional fields. Users may use the DataVis Grid Controls to hide columns, pivot data and/or save custom perspectives.
 
-![](./conditions-report.assets/bf00fa28fe2080d472d63bac2ae8f02e.png)
+![](./conditions-report.assets/d99b25bd764829f83bc5c56eaadb5ac4.png)
