@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-12-10T13:32:18.306Z'
-version: 1917
-lastAuthor: 'anichols'
+date: '2025-12-11T18:25:14.756Z'
+version: 1921
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -499,6 +499,7 @@ links:
   - 'functions/reports/dot-interface-status-report.md'
   - 'functions/reports/duplicate-charts-merge-report.md'
   - 'functions/reports/e-meds-report.md'
+  - 'functions/reports/employer-reports.md'
   - 'functions/reports/encounter-report.md'
   - 'functions/reports/exporting-report-data.md'
   - 'functions/reports/fill-reports.md'
@@ -1302,6 +1303,7 @@ wikigdrive: 'v2.15.30'
         * [DOT Interface Status Report](functions/reports/dot-interface-status-report.md)
         * [Duplicate Charts-Merge Report](functions/reports/duplicate-charts-merge-report.md)
         * [E-Meds Report](functions/reports/e-meds-report.md)
+        * [Employer Reports](functions/reports/employer-reports.md)
         * [Encounter Report](functions/reports/encounter-report.md)
         * [Exporting Report Data](functions/reports/exporting-report-data.md)
         * [Fill Reports](functions/reports/fill-reports.md)
