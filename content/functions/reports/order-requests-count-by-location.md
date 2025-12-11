@@ -1,8 +1,8 @@
 ---
 id: '1zDTWZCjWNzXuPstOr85fTtQ1CY8SC89qYuxg1E0hLaw'
 title: 'Order Requests - Count by Location'
-date: '2025-12-10T15:30:29.007Z'
-version: 49
+date: '2025-12-11T21:10:13.264Z'
+version: 54
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -17,7 +17,7 @@ This is a searchable report that lists all created order requests/requisitions a
 
 Click the *Reports* tab on the left sidebar menu.
 
-Click the Orders tab on the top menu and select the *Order Requests - Count by Location* report.
+Click the *Orders* tab on the top menu and select the *Order Requests - Count by Location* report.
 
 ![](./order-requests-count-by-location.assets/47c2ea11a09f0a84e1666d93ad991262.png)
 
