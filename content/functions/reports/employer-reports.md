@@ -1,9 +1,9 @@
 ---
 id: '10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE'
 title: 'Employer Reports'
-date: '2025-12-11T18:24:19.050Z'
-version: 197
-lastAuthor: 'auhrick'
+date: '2025-12-11T21:01:13.973Z'
+version: 203
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE'
@@ -15,7 +15,7 @@ A new reports tab called **Employer** has been added to the Reports module (only
 
 ## Compliance Report
 
-The** **_Compliance Report_** tracks and manages compliance requirements based on orders generated from Health Surveillance programs for an employer organization (EO) and sub-employer organizations.
+The **_Compliance Report_** tracks and manages compliance requirements based on orders generated from Health Surveillance programs for an employer organization (EO) and sub-employer organizations.
 
 ![](./employer-reports.assets/2e2aa2d5b3791d5f3d672f7e566accf9.png)
 
@@ -45,7 +45,7 @@ Clinic Location: This is the clinic location and/or provider location that has p
 
 ## Quarterly Summary by Body Part
 
-The **_Quarterly Summary by Body Part Report_**** contains specific fields (e.g., Body Part Affected, Totals by Quarter, Totals by Year) grouped by client and location to track and manage injury-related data.
+The **_Quarterly Summary by Body Part Report_** contains specific fields (e.g., Body Part Affected, Totals by Quarter, Totals by Year) grouped by client and location to track and manage injury-related data.
 
 ![](./employer-reports.assets/7d7f6d6fc0ba6cb0fcb5c000c5457f64.png)
 
@@ -67,7 +67,7 @@ By default, a Stacked Column Chart graph will display below the report Data. Hov
 
 ## Visit Detail By Scheduled Appointment
 
-The **_Visit Detail by Scheduled Appointment Report_**** contains specific fields (e.g., EO, Sub EO, Encounter/visit Location, Service Date, Employee ID, Employee Name, and Date/time of the Scheduled appointment). Visits will only display on this report if an encounter has been opened.
+The **_Visit Detail by Scheduled Appointment Report_** contains specific fields (e.g., EO, Sub EO, Encounter/visit Location, Service Date, Employee ID, Employee Name, and Date/time of the Scheduled appointment). Visits will only display on this report if an encounter has been opened.
 
 ![](./employer-reports.assets/e7a88d329def8401957990c5c377aa52.png)
 
