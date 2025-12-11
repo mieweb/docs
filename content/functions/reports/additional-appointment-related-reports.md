@@ -1,15 +1,15 @@
 ---
 id: '1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
 title: 'Additional Appointment-Related Reports'
-date: '2025-12-05T16:07:09.984Z'
-version: 70
+date: '2025-12-11T20:34:25.563Z'
+version: 76
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
 ## Appointment Cancel Reason Report
 
