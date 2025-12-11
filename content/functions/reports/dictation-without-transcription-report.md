@@ -1,8 +1,8 @@
 ---
 id: '1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4'
 title: 'Dictation without Transcription Report'
-date: '2025-12-11T16:25:58.597Z'
-version: 45
+date: '2025-12-11T19:47:56.603Z'
+version: 49
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
