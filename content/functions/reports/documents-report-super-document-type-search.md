@@ -1,8 +1,8 @@
 ---
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
-date: '2025-12-11T15:31:16.477Z'
-version: 164
+date: '2025-12-11T20:56:16.796Z'
+version: 171
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ Use this report if you wish to locate a specific document with some information 
 
 Click *Reports* tab on the left side-bar menu.
 
-Click the Visits tab from the top tab menu and select the *Document Report*.
+Click the *Visits* tab from the top tab menu and select the *Document Report*.
 
 You do not have to fill out every single field. These fields are different ways to find a document and each field gets more specific and narrows your search down.
 
