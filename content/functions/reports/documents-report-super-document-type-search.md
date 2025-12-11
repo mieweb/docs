@@ -1,8 +1,8 @@
 ---
 id: '1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 title: 'Documents Report / Super Document Type Search'
-date: '2024-10-29T14:26:27.886Z'
-version: 156
+date: '2025-12-11T15:31:16.477Z'
+version: 164
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,13 +10,15 @@ links:
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Documents Report / Super Document Type Search
 
 Use this report if you wish to locate a specific document with some information you have, or wish to locate specific documents in general, etc.
 
 Click *Reports* tab on the left side-bar menu.
 
-Click *Document Reports* tab from the top tab menu.
+Click the Visits tab from the top tab menu and select the *Document Report*.
 
 You do not have to fill out every single field. These fields are different ways to find a document and each field gets more specific and narrows your search down.
 
