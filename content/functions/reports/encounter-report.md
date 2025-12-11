@@ -1,21 +1,23 @@
 ---
 id: '1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
 title: 'Encounter Report'
-date: '2025-12-08T18:07:09.508Z'
-version: 72
+date: '2025-12-11T16:23:35.892Z'
+version: 79
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Encounter Report
 
 Encounter Report lists encounters by a given date range, pending, completed, etc.
 
 Click *Reports* tab on the left side-bar menu.
 
-Click *Encounter Report* tab from the top tab menu.
+Click the *Visits* tab from the top tab menu and select the *Encounter Report*.
 
 The Encounter search screen will open.
 
