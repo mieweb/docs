@@ -1,9 +1,9 @@
 ---
 id: '1hC2eNGlT7-hlJL8e0UtDCtFdjzHuswjFqxryMOzc8zU'
 title: 'Respirator Info Chart Tab'
-date: '2025-05-12T17:23:31.492Z'
-version: 185
-lastAuthor: 'janderson'
+date: '2025-12-11T13:12:02.211Z'
+version: 189
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'mass-manual-entry-of-respirator-fit-data.md'
@@ -95,7 +95,7 @@ Proceed to use the pop-up data entry fields to document the fit test
 
 **NOTE:** your system can be programmed to offer a drop-down of mask choices instead of an auto-complete/free text method. Contact our helpdesk or Deployment Consultant for that configuration change.
 
-**Size (this is a required field):** Choose the size of the mask using the drop-down of choices. The ‘Universal' selection means one size fits all.
+**Size (this is a required field):** Choose the size of the mask using the drop-down of choices.
 
 **Type:** Qualitative or Quantitative if wish to collect that
 
