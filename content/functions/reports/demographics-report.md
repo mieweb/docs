@@ -1,8 +1,8 @@
 ---
 id: '1xV8LjYenQ4Ypmbno3hav_Iz_VNKt2q_ZUhuf-iV1FUg'
 title: 'Demographics Report'
-date: '2025-12-11T15:07:38.777Z'
-version: 45
+date: '2025-12-11T20:37:05.649Z'
+version: 52
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -17,7 +17,7 @@ Demographic Report shows all patient demographics by criteria for label printing
 
 Click *Reports* tab on the left side-bar menu.
 
-Click the Utilization tab from the top tab menu and select the *Demographic Report*.
+Click the *Utilization* tab from the top tab menu and select the *Demographic Report*.
 
 The demographics search fields will display on the screen.
 
