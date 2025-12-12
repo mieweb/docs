@@ -1,8 +1,8 @@
 ---
 id: '1EHgA_fUZw1elKqO93WHidXgIbGAskkj0ibyxAMYVZ_Y'
 title: 'Open Encounters Report'
-date: '2025-12-09T14:37:04.070Z'
-version: 39
+date: '2025-12-12T18:37:22.614Z'
+version: 47
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ You must have security role access to the Reports module/tab. This setting is in
 
 ## Encounter Exams - Still Open
 
-There is a report available to run to see any open encounters for the practice. If you have security rights, you can access this report by going to the Reports sidemenu tab, then click the Visits tab, then find the report named *Encounter Exams - Still Open*.
+There is a report available to run to see any open encounters for the practice. If you have security rights, you can access this report by going to the *Reports* sidemenu tab, then click the *Visits* tab, then find the report named *Encounter Exams - Still Open*.
 
 ![](./open-encounters-report.assets/d5b77e9732f8b5fea4e601dacc829e14.png)
 
