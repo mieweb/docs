@@ -1,8 +1,8 @@
 ---
 id: '10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE'
 title: 'Employer Reports'
-date: '2025-12-11T21:01:13.973Z'
-version: 203
+date: '2025-12-12T13:18:55.688Z'
+version: 210
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -19,11 +19,11 @@ The **_Compliance Report_** tracks and manages compliance requirements based on 
 
 ![](./employer-reports.assets/2e2aa2d5b3791d5f3d672f7e566accf9.png)
 
-#### Search Filter Criteria:
+### Search Filter Criteria:
 
 Employer: This filter searches for Employer Organization by name (EO). Enter one or more organizations, then click the Search button to view results.
 
-#### Report Data:
+### Report Data:
 
 Employer: Identifies the employer for which the Employee is associated.
 
@@ -49,7 +49,7 @@ The **_Quarterly Summary by Body Part Report_** contains specific fields (e.g., 
 
 ![](./employer-reports.assets/7d7f6d6fc0ba6cb0fcb5c000c5457f64.png)
 
-#### Search Filter Criteria:
+### Search Filter Criteria:
 
 Employer: This filter searches for Employer Organization by name (EO). Enter one or more organizations.
 
@@ -57,11 +57,11 @@ Quarter: Leave blank to display all quarters for a year or select the individual
 
 Year: This field is required. Free text enter the year to query.
 
-#### Report Data:
+### Report Data:
 
 By default, the report is grouped by Body Part as indicated on a Case/incident. Then by Quarter and Year as selected in the search filter criteria. The total quantity for each body part will display in the groups quarter and year. The column will count the total for all quarters selected. A blank/null Nature of Injury Body Part indicates that a Case/incident was created, but a Nature of Injury Body Part was not entered on the case.
 
-#### Report Graph:
+### Report Graph:
 
 By default, a Stacked Column Chart graph will display below the report Data. Hover over the colored sections on the graph to see the quarter/year information.
 
@@ -71,13 +71,13 @@ The **_Visit Detail by Scheduled Appointment Report_** contains specific fields 
 
 ![](./employer-reports.assets/e7a88d329def8401957990c5c377aa52.png)
 
-#### Search Filter Criteria:
+### Search Filter Criteria:
 
 Service Date: This filter searches a date range of open encounters linked to appointments.
 
 Employer: This filter searches for Employer Organization by name (EO). Enter one or more organizations.
 
-#### Report Data:
+### Report Data:
 
 Employer: The name of the employer associated with the encounter.
 
@@ -99,13 +99,13 @@ The **_Visit Log Report_** details encounter data specific to an employer organi
 
 ![](./employer-reports.assets/f1adc79ea8864b512bedc3f633c5db7b.png)
 
-#### Search Filter Criteria:
+### Search Filter Criteria:
 
 Date Range: This filter searches a date range of encounter visits.
 
 Employer: This filter searches for Employer Organization by name (EO). Enter one or more organizations.
 
-#### Report Data:
+### Report Data:
 
 Employer: The name of the employer associated with the encounter.
 
@@ -131,13 +131,13 @@ The **_Visit Status by Service Type Report_** contains specific fields (e.g., EO
 
 ![](./employer-reports.assets/1bf42d936980d2e5d58cf9b4d27059a7.png)
 
-#### Search Filter Criteria:
+### Search Filter Criteria:
 
 Service Date: This filter searches a date range of encounter visits.
 
 Employer: This filter searches for Employer Organization by name (EO). Enter one or more organizations.
 
-#### Report Data:
+### Report Data:
 
 Employer: The name of the employer associated with the encounter.
 
