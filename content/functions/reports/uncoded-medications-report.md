@@ -1,8 +1,8 @@
 ---
 id: '1Z0c1FY1ZqEntX3pswcGHqWaRPELUHJXY_AA_bWqkRC0'
 title: 'Uncoded Medications Report'
-date: '2025-12-10T13:42:00.964Z'
-version: 35
+date: '2025-12-12T18:41:37.114Z'
+version: 43
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -13,7 +13,7 @@ You must have security role access to the Reports module/tab. This setting is in
 
 ## Uncoded Meds
 
-There is a report available from the Reports sidemenu tab. Found in the Medications/Allergies/Scripts bucket of reports, there is a report named *Uncoded Meds*.
+There is a report available from the *Reports* sidemenu tab. Found in the *Medications/Allergies/Scripts* bucket of reports, there is a report named *Uncoded Meds*.
 
 ![](./uncoded-medications-report.assets/c4ef6b9e9e838ded37a1096d89e7f352.png)
 
