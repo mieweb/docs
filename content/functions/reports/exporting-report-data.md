@@ -1,8 +1,8 @@
 ---
 id: '1uKwVExlu2rx0upDsTsYNLLFuCSVGp0LI0GHZhXXg_I0'
 title: 'Exporting Report Data'
-date: '2025-12-12T14:31:59.029Z'
-version: 50
+date: '2025-12-12T16:49:47.379Z'
+version: 70
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -11,13 +11,11 @@ wikigdrive: 'v2.15.30'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
-## Export/Show Spreadsheet
+## Show/Export Spreadsheet
 
 Many of the {{% system-name %}} reports offer a hyperlink to export spreadsheet or show spreadsheet.
 
-![](./exporting-report-data.assets/db0134e66bb4d05762650a41688304f6.png)
-
-![](./exporting-report-data.assets/be76e31130c0f58aaeb3e46f47099ea7.png)
+![](./exporting-report-data.assets/a8a70498aa864d17457886d17bb2b8dd.png)
 
 The functionality of this is to take the data that rendered on your screen and export it to an XML file that you can open with Excel. From the excel document, you can manipulate or sort the data further as you wish and/or save the report in an excel format or distribute as you wish.
 
@@ -25,7 +23,7 @@ If you open the XML file via the *export or show spreadsheet* functionality, you
 
 These are the steps on how to set Excel to be the default to open XML documents:
 
-Generate a report using the *export or show spreadsheet* hyperlinks from a {{% system-name %}} report. Save the XML file to your desktop after you clicked *show or export spreadsheet* hyperlink. It will save the report data as an XML file type..
+Generate a report using the *export or show spreadsheet* hyperlinks from a {{% system-name %}} report. Save the XML file to your desktop after you clicked *show or export spreadsheet* hyperlink. It will save the report data as an XML file type.
 
 Go to that file, right click and select *Properties*
 
@@ -59,8 +57,8 @@ You have now completed and successfully changed the default of XML files to open
 
 Many of the {{% system-name %}} reports offer a hyperlink to download CSV or show CSV.
 
-![](./exporting-report-data.assets/9bc09bb974f55d098ea1cfa2c11ac5db.png)
+![](./exporting-report-data.assets/bf1e1bf48b9e9766f9584c7fb3fdf922.png)
 
-![](./exporting-report-data.assets/e06e68317ed21cbe666bf0fbcabf02b9.png)
+![](./exporting-report-data.assets/561e6135959202409c04a676c89397e5.png)
 
 The functionality of this is to take the data that rendered on your screen and export it to a CSV file type. From the CSV file, you can manipulate or sort the data further as you wish and/or save the report in an excel type spreadsheet or distribute as you wish. A CSV is a comma separated values file, which allows data to be saved in a table structured format. CSV files can be used with any spreadsheet program, such as Microsoft Excel, OpenOffice Calc, or Google Spreadsheets. You can save as a CSV file type, but most users change the file type and save it as an Excel (xls) file type when you go to save the file and select a different file type to save it as.
