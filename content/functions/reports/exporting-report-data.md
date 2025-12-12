@@ -1,14 +1,17 @@
 ---
 id: '1uKwVExlu2rx0upDsTsYNLLFuCSVGp0LI0GHZhXXg_I0'
 title: 'Exporting Report Data'
-date: '2020-02-27T20:14:13.281Z'
-version: 31
+date: '2025-12-12T14:31:59.029Z'
+version: 50
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uKwVExlu2rx0upDsTsYNLLFuCSVGp0LI0GHZhXXg_I0'
 wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Export/Show Spreadsheet
 
 Many of the {{% system-name %}} reports offer a hyperlink to export spreadsheet or show spreadsheet.
 
@@ -22,35 +25,35 @@ If you open the XML file via the *export or show spreadsheet* functionality, you
 
 These are the steps on how to set Excel to be the default to open XML documents:
 
-Generate a report using the *export or show spreadsheet* hyperlinks from a {{% system-name %}} report. Save the XML file to your desktop after you clicked *show or export spreadsheet* hyperlink. It will save the report data as an XML file type to your desktop.
+Generate a report using the *export or show spreadsheet* hyperlinks from a {{% system-name %}} report. Save the XML file to your desktop after you clicked *show or export spreadsheet* hyperlink. It will save the report data as an XML file type..
 
-Go to that report file icon on your desktop and on it, right click and select *Properties*
+Go to that file, right click and select *Properties*
 
-![](./exporting-report-data.assets/af480702bf7a99e32fc822f21f47b3cb.png)
+![](./exporting-report-data.assets/1cf8dd5bc9d3c039a33ed58a92638cbb.png)
 
-Choose the *Change* button
+Click the *Change* button
 
-![](./exporting-report-data.assets/f89155092904fceee72a884dec322da3.png)
+![](./exporting-report-data.assets/7174ce709112595b80e3ad1e4d2019fb.png)
 
-Choose the *Browse* button
+Click the *Choose an app on your PC* hyperlink
 
-![](./exporting-report-data.assets/bb61aa4d59dfeb6ce0db77da31c29519.png)
+![](./exporting-report-data.assets/e3264b124891cedd5db92956948194e6.png)
 
 In the search field begin typing the word *excel*
 
-![](./exporting-report-data.assets/fccdc828ee7e4471f06e3cb31a9e2c44.png)
+![](./exporting-report-data.assets/970a9991b30d1073359f08e86e683cb6.png)
 
-Choose *Excel.exe* and choose the *open* button
+Click *EXCEL* and then click the *Open* button
 
-![](./exporting-report-data.assets/1b5896d7deb0168dc9089a6c7f0a927b.png)
+![](./exporting-report-data.assets/ec3e5b3f18dd84d8c27edbacb142afd5.png)
 
-When you are at the *Open with* screen, choose the *Exce_l program (icon) and click the _OK* button
+When you are at the *Select a default app for .xml files* screen, click the *Excel program (icon)* and then click the *Set default* button
 
-![](./exporting-report-data.assets/57d1b75b059b0b7e4bf6edb1bc42f88b.png)
+![](./exporting-report-data.assets/2e87d5bc9f47460885c6d513644bd59e.png)
 
 You have now completed and successfully changed the default of XML files to open with Excel. The properties screen should look like this where it states the type of file is XML and it will open with Excel.
 
-![](./exporting-report-data.assets/c91941e99695625a03575e0478267599.png)
+![](./exporting-report-data.assets/7388c54fae7fdcd88d6a63d9c98ee3f5.png)
 
 ## Exporting to CSV/Excel
 
