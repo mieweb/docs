@@ -1,8 +1,8 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2025-12-15T19:01:00.329Z'
-version: 1028
+date: '2025-12-15T19:26:20.201Z'
+version: 1032
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -215,7 +215,7 @@ The **_User_** field is an autocomplete of the user's name. The **_Department_**
 
 ## Viewing the Raw HL7
 
-The security setting **_View Sent Messages _**allows the user to be able to view the raw HL7. This is off by default, as a HIPAA precaution. Once this setting is enabled, the user can see PHI contained within the HL7 message (PHI highlighted below).
+The security setting **_View Sent Messages_** allows the user to be able to view the raw HL7. This is off by default, as a HIPAA precaution. Once this setting is enabled, the user can see PHI contained within the HL7 message (PHI highlighted below).
 ![](./datasend-queue.assets/5b3d242b3bbeadf6c74fac4362f6aeb3.png)
 
 MSH|^~\&|WCDataSend|mauidev|wc_hl7d|recv_facil|20240617040007||ORM^O01^ORM_O01|DSD1718632807482597|P|2.5|||||||||||||
