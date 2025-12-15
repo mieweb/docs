@@ -1,8 +1,8 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2025-12-04T14:08:06.824Z'
-version: 1016
+date: '2025-12-15T19:01:00.329Z'
+version: 1028
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -31,11 +31,15 @@ Let's examine each of the sections in the DataSend queue.
 
 ## Search criteria
 
-#### ![](./datasend-queue.assets/b9007677f266fe2f1a2055346f338e59.png)
+![](./datasend-queue.assets/b9007677f266fe2f1a2055346f338e59.png)
 
-### Route ID – *use if you know the route ID number of the message. Each route has a unique identifier.*
+### Route ID
 
-### Item Type – *make a selection if you know what type of data you're searching for.*
+*Use if you know the route ID number of the message. Each route has a unique identifier.*
+
+### Item Type
+
+Make a selection if you know what type of data you're searching for.
 
 * Document
 * Encounter
@@ -48,13 +52,21 @@ Let's examine each of the sections in the DataSend queue.
 * Patient Encounter Closed
 * Incident
 
-### Item ID - use if you know the exact ID of the item record
+### Item ID
 
-### Auto Route - use to allow limiting the queue results to items which were routed by a specific rule.
+Use if you know the exact ID of the item record
 
-### Recipient – *this is an autocomplete of users**** in the system, but also allows for free-text. It is not recommended to be the only field to search by.*
+### Auto Route
 
-#### Method (type of message being sent)
+Use to allow limiting the queue results to items which were routed by a specific rule.
+
+### Recipient
+
+This is an autocomplete of users in the system, but also allows for free-text. It is not recommended to be the only field to search by.
+
+#### Method
+
+Type of message being sent
 
 * <em>Blank (when left blank, all methods/types are shown)</em>
 * Print
@@ -80,11 +92,17 @@ Let's examine each of the sections in the DataSend queue.
 * Syndromic Surveillance
 * 837 Professional Claims
 
-### Method Detail - The endpoint, typically stored in a Refer to Systems record (displays for certain selections based on the method selected)
+### Method Detail
 
-### Date – enter a From & To date to narrow the search on when the item was sent
+The endpoint, typically stored in a Refer to Systems record (displays for certain selections based on the method selected
 
-### Progress – Free text input to search for route progresses that begin with the text
+### Date
+
+Enter a From & To date to narrow the search on when the item was sent
+
+### Progress
+
+Free text input to search for route progresses that begin with the text
 
 ## Route Status Categories
 
