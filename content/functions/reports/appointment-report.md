@@ -1,8 +1,8 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2025-12-10T16:51:35.439Z'
-version: 214
+date: '2025-12-11T14:05:45.556Z'
+version: 219
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -17,7 +17,7 @@ The Appointment Report displays a report of found appointments
 
 Click *Reports* tab on the left side-bar menu.
 
-Click the Appointments tab at the top tab menu and select *Appointment Report*.
+Click the *Appointments* tab at the top tab menu and select *Appointment Report*.
 
 It will open to the Appointment Reports search fields.
 
