@@ -1,9 +1,9 @@
 ---
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
-date: '2025-04-07T17:25:01.180Z'
-version: 204
-lastAuthor: 'anichols'
+date: '2025-12-15T20:30:44.728Z'
+version: 210
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
@@ -67,11 +67,11 @@ Select the *Service Types* link located in the upper right hand corner of the *E
 
 ## Add Service Type
 
-Select the* Add Service Type* link to add a new service type.
+Select the *Add Service Type* link to add a new service type.
 
 ![](./encounter-types.assets/5309b6f9af30ab8b53b859a53af37abc.png)
 
-**Service Type:** This field is the db code used to identify this* Service Type*. This value is typically in ALL CAPITAL letters and brief. It is not recommended to change or edit the service type after it has initially been created.
+**Service Type:** This field is the db code used to identify this *Service Type*. This value is typically in ALL CAPITAL letters and brief. It is not recommended to change or edit the service type after it has initially been created.
 
 **Description:** The description is a free text field to help label or describe this service type.
 
