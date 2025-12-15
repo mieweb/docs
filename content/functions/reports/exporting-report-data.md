@@ -1,8 +1,8 @@
 ---
 id: '1uKwVExlu2rx0upDsTsYNLLFuCSVGp0LI0GHZhXXg_I0'
 title: 'Exporting Report Data'
-date: '2025-12-12T16:49:47.379Z'
-version: 70
+date: '2025-12-15T16:54:29.376Z'
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -31,7 +31,7 @@ Go to that file, right click and select *Properties*
 
 Click the *Change* button
 
-![](./exporting-report-data.assets/7174ce709112595b80e3ad1e4d2019fb.png)
+![](./exporting-report-data.assets/2b889810f0318dc5f0daf6a61fd727dd.png)
 
 Click the *Choose an app on your PC* hyperlink
 
@@ -51,7 +51,7 @@ When you are at the *Select a default app for .xml files* screen, click the *Exc
 
 You have now completed and successfully changed the default of XML files to open with Excel. The properties screen should look like this where it states the type of file is XML and it will open with Excel.
 
-![](./exporting-report-data.assets/7388c54fae7fdcd88d6a63d9c98ee3f5.png)
+![](./exporting-report-data.assets/2df596dd7ab6e453cd6a278c07a2475f.png)
 
 ## Exporting to CSV/Excel
 
