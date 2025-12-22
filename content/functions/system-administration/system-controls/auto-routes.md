@@ -1,8 +1,8 @@
 ---
 id: '16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
 title: 'Auto Routes'
-date: '2025-11-10T21:45:54.280Z'
-version: 150
+date: '2025-12-22T16:18:16.961Z'
+version: 162
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -25,7 +25,7 @@ By default, enabled auto routes will display in the datavis listing.  To access 
 
 ### Add Auto Route
 
-Select the** +Add Auto Route** button to add a new Auto Route.
+Select the **+Add Auto Route** button to add a new Auto Route.
 
 ![](./auto-routes.assets/ce212c8ca69697a4f6f4e3fcc7dd6df6.png)
 
