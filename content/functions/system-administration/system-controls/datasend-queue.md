@@ -1,8 +1,8 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2025-12-15T19:26:20.201Z'
-version: 1032
+date: '2025-12-22T16:13:02.169Z'
+version: 1040
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,9 +21,9 @@ At a glance, the user can see if there are patterns of errored routes, or if the
 
 ### Location: Control Panel > Interface > Datasend Queue
 
-{{% system-name %}} includes this tab where the user can monitor the routed items sent electronically, such as lab orders, appointments/cancellations, immunizations, and billing transactions. This is called the Datasend Queue or Send Queue, and it shows which routes are**_ In Progress_**, which routes are **_Pending_**, any that are in the**_ Error _**status, as well as the **_Completed/Acknowledged_** routes.
+{{% system-name %}} includes this tab where the user can monitor the routed items sent electronically, such as lab orders, appointments/cancellations, immunizations, and billing transactions. This is called the Datasend Queue or Send Queue, and it shows which routes are **_In Progress_**, which routes are **_Pending_**, any that are in the **_Error_** status, as well as the **_Completed/Acknowledged_** routes.
 
-A route is how {%system%} sends an order, appointment, demographic update, immunization, etc. through the interface. Routes are initially created by the Auto Route, with the editor typically found under the Interface (parent) tab. The Auto Route includes rules on when and how to send information through an interface.
+A route is how {{% system-name %}} sends an order, appointment, demographic update, immunization, etc. through the interface. Routes are initially created by the Auto Route, with the editor typically found under the Interface (parent) tab. The Auto Route includes rules on when and how to send information through an interface.
 
 When a message/document/appointment, etc. matches the rules created in the auto route editor, then a route is created and displayed in the Datasend queue.
 
