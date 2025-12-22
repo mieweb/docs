@@ -1,8 +1,8 @@
 ---
 id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 title: 'Locking Individual or Specific Charts'
-date: '2025-02-17T21:19:54.756Z'
-version: 93
+date: '2025-12-22T15:26:14.715Z'
+version: 100
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ A user with security can lock patient chart records which then can only be acces
 
 When you are locked from a patient's chart and click to get into that patient's chart, it will tell you that you do not have access and it will not open the patient's chart.
 
-![](./locking-individual-or-specific-charts.assets/14aa3aa11d7910ffd89cbe696baae85a.png)
+![](./locking-individual-or-specific-charts.assets/b1b7fa675ab230d8f975c4574d4ad636.png)
 
 ## Lock a Chart
 
