@@ -1,8 +1,8 @@
 ---
 id: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
 title: 'Create Health Surveillance File for Import'
-date: '2025-11-12T15:48:51.781Z'
-version: 57
+date: '2025-12-22T18:18:31.549Z'
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -122,7 +122,7 @@ failcomply: Failure to comply</td>
 ![](./create-health-surveillance-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+*For extra information on what happens during the import, click the* **_Verbose_** *checkbox*.
 {{% /tip %}}
 
 ## Resources
