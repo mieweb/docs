@@ -1,9 +1,9 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2025-09-10T14:39:23.518Z'
-version: 167
-lastAuthor: 'anichols'
+date: '2025-12-22T20:15:08.479Z'
+version: 182
+lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
@@ -58,9 +58,6 @@ After you have entered your PIN Authenticate number (if applicable) in the order
 ![](./e-orders-add-order-requests.assets/524d5c7eceffd60a38fd3aacfb70ae75.png)
 
 * <strong>Schedule Lab In:</strong> You can use the drop-down arrow to select an automated selection if the date for the order is not a specific date (more of a general time frame). You can also free-type in the free-text field next to it any other general date time frame, etc. You can also get date/time specific by going to the next field of Scheduled Date.
-
-Or
-
 * <strong>Scheduled Date:</strong> You can type in the specific date (month/date/year) that this order is to be done on. Your MIE Implementer can also change a system setting to make this <em>Scheduled Date</em> a required field.
 * <strong>Recurrence:</strong> If this is a standing order, you can free type the amount of recurrences in this field if a standing order is to be done a specific number of times. Standing orders that should only be completed a finite number of times are then closed when that final order has been completed.
 * <strong>Location:</strong> Select the location that this order was generated for/from (optional field). The layout can be modified by MIE so that location of this Make Order feature shows all locations in your system, only outside locations or no outside locations. The setting is -1 for all, 1 for just outside, 0 for no outside. Please contact your MIE representative for this change. Your MIE Implementer can also change the system setting to make this a required field. This field also respects the orders location default you have set for yourself in MY SETTINGS.
@@ -68,8 +65,8 @@ Or
 * <strong>Refer to:</strong> Ability to document whom you are referring this patient to via the order (mainly used when making Referral Orders). This <em>Refer To</em> field is a user autocomplete that only shows user choices that are in departments set via the system setting: <em>Orders, Settings, Refer To Departments</em>. If system is set up for {{% system-name %}} , the Refer To field will be an auto-complete of referable entity PO/Provider charts from the EPM module. This is via system setting <em>System, External Provider, Use Chart</em> as enabled. Then it looks at system setting <em>System, External Provider, Chart Types</em>. The Refer To auto-complete field is further limited by active charts and charts flagged as <em>referable entity=yes</em> in the chart. Contact your MIE Implementer to have that set.
 * <strong>Ordering Physician:</strong> This will automatically insert the name of the physician that you are defaulted to in MY SETTINGS for Ordering Physician. (See description of MY SETTINGS default action for Orders on the last page of this document.) To select a different Ordering Physician, simply use the drop-down arrow to select the physician that is ordering this. If the user's default ordering physician is set to ‘nothing' in <em>my settings</em> preference, then the name of the last physician they used to create an order will populate. _Note: If system setting "Orders", "Settings", "Ignore Recent Documents for Ordering Physician" is s_et to value=1 to ignore the recent documents last authored, then when going to "add order" this ordering physician field to not prepopulate with that last remembered you used in recent documents.
 * <strong>Status:</strong> not currently used. Leave blank.
-* <strong>Diagnosis:</strong> This field will display all diagnoses from the Assessment (Impression) section. If there are fewer conditions in the Assessment section than specified in the system setting: <em>Orders, Defaults, Number of patient conditions</em>, the remainder will be pulled from the patient's active conditions that are not already in the Assessment section. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnosis to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. MIE can also program a diagnosis picklist here if you wish to have a pop-up window of most common diagnoses for this particular e-order set. When you are done, simply go to the next tab called Patient Instructions.
-* <strong>Bill Type:</strong> Order requests can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are four options: The default is None (unspecified), Self, Client, and Third Party. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option.
+* <strong>Diagnosis:</strong> This field will display all diagnoses from the Assessment (Impression) section. If there are fewer conditions in the Assessment section than specified in the system setting: <em>Orders, Defaults, Number of patient conditions</em>, the remainder will be pulled from the patient's active conditions that are not already in the Assessment section. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnoses to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. MIE can also program a diagnosis picklist here if you wish to have a pop-up window of most common diagnoses for this particular e-order set. When you are done, simply go to the next tab called Patient Instructions.
+* <strong>Bill Type:</strong> Order requests can specify a bill type. If system setting <em>Require Bill Type</em> is enabled, this field will appear. There are five options: The default is None (unspecified), Self, Client, Third Party and Workers Comp. The system setting (Orders, Settings, Require Bill Type) will control whether this field is required or not on the order. If this setting is on (value set to 1), and ‘None' is chosen in the bill type dropdown, the user will be asked to choose a different option.
 
 ![](./e-orders-add-order-requests.assets/30b5063563a11a4211260a89897ca1a9.png)
 
@@ -147,12 +144,6 @@ You will then still be in the patient's orders module.
 ![](./e-orders-add-order-requests.assets/99bba57371239bc62afb4563f960632c.png)
 
 You can complete another order for this patient by clicking Add from this e-orders module/tab or you can go to E-Chart and work elsewhere, etc.
-
-## Electronic Orders Submitted to Labs
-
-If your practice is set up with an orders interface with a lab vendor to submit lab orders electronically to a lab facility (ex: LabCorp), the lab's location account number for that specific location must be entered in the location tab of control tab.  When we send the order electronically to the lab that account number for the location gets sent with it.
-
-![](./e-orders-add-order-requests.assets/5dc80590957183a92274367c58f0c7bb.png)
 
 ## Add Requisition (Up to date version)
 
