@@ -1,8 +1,8 @@
 ---
 id: '1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
 title: 'Data Migration Overview'
-date: '2025-12-23T17:40:42.445Z'
-version: 100
+date: '2025-12-23T19:06:51.469Z'
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -77,13 +77,13 @@ During this phase, rapid development and testing occurs in the following manner:
 
 After the client has verified the migration modules, {{% sys-name %}} and the client complete a timed final dress rehearsal. The following process is completed for the timed dress rehearsal:
 
-1. {{% sys-name %}} creates a clean configured environment where the data may be loaded for testing. Typically, this is a clone of the configured production system before go-live.
+1. The system creates a clean configured environment where the data may be loaded for testing. Typically, this is a clone of the configured production system before go-live.
 2. The client provides a new snapshot/backup of the data.
-3. {{% sys-name %}} obtains the data.
-4. {{% sys-name %}} optionally converts the data to the client's {{% sys-name %}} DB as custom tables in the newly created target environment.
-5. {{% sys-name %}} performs the data migration along with any custom interfaces to convert the data to documents and discrete data. Each step is timed. A data migration checklist is used to document the steps and timing for all steps.
-6. {{% sys-name %}} onboarding specialists perform internal verification as data is loaded in the system.
-7. {{% sys-name %}} onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
+3. The system obtains the data.
+4. The system optionally converts the data to the client's {{% sys-name %}} DB as custom tables in the newly created target environment.
+5. The system performs the data migration along with any custom interfaces to convert the data to documents and discrete data. Each step is timed. A data migration checklist is used to document the steps and timing for all steps.
+6. The system onboarding specialists perform internal verification as data is loaded in the system.
+7. The system onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
 8. The client validates that the data in the dev system or sandbox is correct. Validation is also timed and documented.
 9. A "go" or "no-go" is provided by the client to {{% sys-name %}} to signal the end of timing.
 
