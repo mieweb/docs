@@ -1,8 +1,8 @@
 ---
 id: '1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
 title: 'Data Migration Overview'
-date: '2025-12-23T19:06:51.469Z'
-version: 107
+date: '2025-12-23T19:32:28.181Z'
+version: 111
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -95,14 +95,14 @@ The go-live procedure is similar to the dress rehearsal. The data migration chec
 
 1. The client stops using their historical product and puts it in a read-only state. Depending on the size of the database and timing of the migration, this is often done on a Friday after the end of normal business hours while data is migrated over a weekend. If more time is needed to load the data and allow for validation, then the schedule is adjusted to allow for extra time. Note that while the historical product is in a read-only state and the {{% sys-name %}} system is not yet loaded with data, clinics will only be able to reference the legacy system. Any new data will have to be logged on paper charts and entered into the  {{% sys-name %}} system after go-live.
 2. The client exports the data.
-3. {{% sys-name %}} obtains the data via a secure connection established from the sample data that was provided.
-4. {{% sys-name %}} converts the data if necessary and imports the data to the client's production DB.
-5. {{% sys-name %}} disables all cron jobs (HR Feed Import, Health Surveillance Evaluations/Enrollments, etc.).
-6. {{% sys-name %}} runs the migration into the client's dev or production system, following the data migration checklist.
-7. {{% sys-name %}} onboarding specialists perform internal verification as data is loaded in the system.
-8. {{% sys-name %}} onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
-9. The client validates final production run on the following day(s) and signs off.
-10. {{% sys-name %}} enables all cron jobs disabled before the import.
+3. The system obtains the data via a secure connection established from the sample data that was provided.
+4. The system converts the data if necessary and imports the data to the client's production DB.
+5. The system disables all cron jobs (HR Feed Import, Health Surveillance Evaluations/Enrollments, etc.).
+6. The system runs the migration into the client's dev or production system, following the data migration checklist.
+7. The system onboarding specialists perform internal verification as data is loaded in the system.
+8. The system onboarding specialists perform any post-process configuration that is required after data is migrated. Again--all steps are documented on the data migration checklist.
+9. The client validates the final production run on the following day(s) and signs off.
+10. The system enables all cron jobs disabled before the import.
 11. The client turns off their old system and goes live with the  {{% sys-name %}} system.
 
 ## Pre-developed Custom Modules from Specific Legacy Systems
