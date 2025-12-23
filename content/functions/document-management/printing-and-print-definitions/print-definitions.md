@@ -1,9 +1,9 @@
 ---
 id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 title: 'Print Definitions'
-date: '2025-11-10T17:31:26.945Z'
-version: 275
-lastAuthor: 'janderson'
+date: '2025-12-23T21:39:28.245Z'
+version: 287
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/'
@@ -212,7 +212,11 @@ A MIE Deployment Consultant can assist with any WHERE clauses needed for Conditi
 
 **One Document per Page**: When checked, each document of the print definition will be printed/faxed as an individual page, or as its own page. For example, text entries (e.g., Nurse Notes, Tasks, etc.) are typically short, and when printed/faxed, they will be grouped together onto a page, according to what will fit on the page. Enabling this option would ensure each note, task, or overall content of the print definition be printed/faxed as individual pages.
 
-**Documents since last encounter**: When selected, the print definition/section in context will only retrieve and print/fax documents created since the last encounter.
+**Documents since last encounter**: This feature has been deprecated from the product. However, a conditional query may be configured to the Additional Expressions field that will print documents since the last encounter.
+
+d.enter_date >= (SELECT serv_date FROM encounters WHERE pat_id = d.pat_id ORDER BY serv_date DESC LIMIT 1)
+
+![](./print-definitions.assets/67384c2ef0e48beec7834fcbc39d27a1.png)
 
 **Render on Background**: This feature is enabled by MIE and requires setup. It is typically used for printing encounter forms. Clients may use this feature to have plain text data overlaid on forms. For example, data from the PM system will come into the {{% system-name %}} system as a text document, and that data will then be rendered on a form with barcodes and can be used as a document.
 
