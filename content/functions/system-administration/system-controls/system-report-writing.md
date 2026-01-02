@@ -2,7 +2,7 @@
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
 date: '2025-11-12T14:09:24.882Z'
-version: 1453
+version: 1478
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

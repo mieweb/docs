@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2025-12-11T18:25:14.756Z'
-version: 1921
+date: '2025-12-11T18:25:28.985Z'
+version: 1928
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

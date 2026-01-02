@@ -2,7 +2,7 @@
 id: '1FRJl6rXtMAnjU9IXbFrWRxcvho07gnV6qMypq1E421Q'
 title: 'Printing Documents'
 date: '2025-11-10T17:22:48.290Z'
-version: 106
+version: 107
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

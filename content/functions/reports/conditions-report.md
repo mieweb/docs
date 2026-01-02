@@ -2,7 +2,7 @@
 id: '1khW9jXd8a8psZUg1FhRqHGGIGdvDgSSU9xhzRsT5ofE'
 title: 'Conditions Report'
 date: '2025-12-11T15:52:32.727Z'
-version: 105
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1QmHuie56PpaTx4U5VitJGztEabDIhpA7ukvq0Jj_eP4'
 title: 'Dictation without Transcription Report'
 date: '2025-12-11T19:48:02.569Z'
-version: 51
+version: 52
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

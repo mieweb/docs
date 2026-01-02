@@ -1,8 +1,8 @@
 ---
 id: '1PFDV9CkSZ7zurZN_gdy7-8ZqUXHU1Hp-DFaMu6CDdok'
 title: 'Print Definitions'
-date: '2025-12-23T21:39:28.245Z'
-version: 287
+date: '2025-12-23T21:39:58.662Z'
+version: 290
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1uKwVExlu2rx0upDsTsYNLLFuCSVGp0LI0GHZhXXg_I0'
 title: 'Exporting Report Data'
 date: '2025-12-15T16:54:29.376Z'
-version: 78
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
 title: 'Inventory Transaction Report'
 date: '2025-12-12T18:33:05.766Z'
-version: 58
+version: 59
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

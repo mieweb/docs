@@ -2,7 +2,7 @@
 id: '1dIk_2xbQpzTvTX8Gy2WlTYY4TR_4q2rRg1J8Qy9e8fs'
 title: 'Panel Definition Report'
 date: '2025-12-10T15:08:31.251Z'
-version: 51
+version: 52
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1aNUvYavTU9Mf1-pm2ldYoIdOk8gzf_7B-H9PWgVaFWE'
 title: 'DOT Interface Status Report'
 date: '2025-12-11T15:43:41.586Z'
-version: 82
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

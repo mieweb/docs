@@ -1,9 +1,9 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2025-12-03T21:38:32.448Z'
-version: 447
-lastAuthor: 'janderson'
+date: '2025-12-18T15:58:05.909Z'
+version: 465
+lastAuthor: 'towens'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'
