@@ -2,13 +2,13 @@
 id: '1NM21bUDsEVAbMZ-hJ4USGD5OqjUAbosvbnKr_HbA44s'
 title: 'Printing information about expired fee schedules'
 date: '2021-02-18T18:55:24.956Z'
-version: 20
+version: 21
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'viewing-expired-fee-schedules.md'
 source: 'https://drive.google.com/open?id=1NM21bUDsEVAbMZ-hJ4USGD5OqjUAbosvbnKr_HbA44s'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Print the following information about expired fee schedules:
 

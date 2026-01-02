@@ -1,9 +1,9 @@
 ---
 id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
 title: 'Review Session - Case Management'
-date: '2024-11-15T20:03:27.314Z'
-version: 469
-lastAuthor: 'auhrick'
+date: '2025-12-04T16:39:13.183Z'
+version: 512
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M'
@@ -36,8 +36,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
   - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
 source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
-markup: 'pandoc'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -45,12 +44,12 @@ markup: 'pandoc'
 * Overview
 * WR Case Management Workflow Demonstration
     * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
-* Linked documentation
-* Case details
-* Referrals
-            * Case management notes
-* Restrictions/Accommodations
-* Disposition/Work Status
+        * Linked documentation
+        * Case details
+        * Referrals
+        * Case management notes
+        * Restrictions/Accommodations
+        * Disposition/Work Status
     * Tasking
     * Work Related (WR) Case Management Encounter
         * Case Manager
@@ -105,16 +104,16 @@ markup: 'pandoc'
     * Documentation
     * LMS Courses/Videos
 
-# Pre-requisites
+## Pre-requisites
 
 Before the review session, please provide corresponding documentation:
 
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes
 3. Types of Cases currently being utilized for Case Management
-    a.  Injury/Illness
-    b.  COVID
-    c.  Absence Management (if purchased)
+    * Injury/Illness
+    * COVID
+    * Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
@@ -131,11 +130,11 @@ Standard functionality includes:
 * WR Case Management Worklist portlet for tracking and managing cases.
 * Case Management Reports
 
-# WR Case Management Workflow Demonstration
+## WR Case Management Workflow Demonstration
 
 * [WR Case Management Demonstration](https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M)
 
-# Tasking
+## Tasking
 
 There are several out-of-the-box Tasklist Events for the Case Management department. When an employee submits a Report of Injury form on the portal, the Case Management department is tasked with reviewing the report and the incident. If a Medical Certificate (document type ‘medcert') is created, a task for the Case Management department is also created for review. And lastly, if an Outside Case (document type ‘injury') is reported, a task is created to review.
 
@@ -287,13 +286,13 @@ Other work-related case reports can be found in the [Safety](https://system/?f=l
 
 All clients should review the available reports to determine if any additional reports are needed for case management.
 
-# Key Decision Points
+## Key Decision Points
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
-    a.  Do Case Managers need to have limited/restricted access?
-        i. If so, List of all Case Managers needed for restricted access setup
-        ii. What restricted Chart tabs, print definitions, or documents are needed?
-        iii. What access is needed for Case Managers?
+    * Do Case Managers need to have limited/restricted access?
+        * If so, List of all Case Managers needed for restricted access setup
+        * What restricted Chart tabs, print definitions, or documents are needed?
+        * What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?
@@ -301,10 +300,6 @@ All clients should review the available reports to determine if any additional r
 6. What choices for incident on-site locations are needed (in the Case section)?
 7. Audit Restriction choices and provide a list of any to add or remove
 8. Audit Nature of Injury/Illness drop-down choices and provide a list of any to add or remove
-
-# Action Items/Timelines
-
-***Link to Homework Tracker**
 
 ## Resources
 

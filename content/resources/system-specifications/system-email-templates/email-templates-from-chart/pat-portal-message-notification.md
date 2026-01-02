@@ -1,16 +1,16 @@
 ---
 id: '17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4'
 title: 'Pat Portal Message Notification'
-date: '2020-02-27T20:39:03.308Z'
-version: 23
+date: '2025-11-13T19:10:19.651Z'
+version: 31
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+Portal+Message+Notifcation&active=0'
+links: []
 source: 'https://drive.google.com/open?id=17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+Portal+Message+Notifcation&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com

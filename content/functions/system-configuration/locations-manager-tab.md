@@ -7,23 +7,23 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 If you have security permission to manage locations (and depending on your security level) you can view, edit or delete locations in the Locations Manager tab found in control. These are the locations your practice utilizes. Locations that would need to be entered and stored here are the locations you would schedule your patient appointments for, create documents for, or where you provide services. Locations should also be entered for any location that a physician may do surgeries at and/or do rounds (ie: hospitals). Other locations that should be entered are locations that you receive results from (via any interface also) or where you may send a patient for an order (lab draw, xray, etc).
 
 When you click the *Locations Manager* tab, it will open up to display all active locations in your system. Your MIE Implementer may have already entered in some locations for your practice. However, you can manage any locations here in this tab. If you are a new {{% system-name %}} database with no locations previously added, the default will show an active OFFICE location in your system. Use this as the ‘main' location for your practice. Click edit to change that description to your practice and add address/phone/fax information. You can continue to add other locations after the main one has been edited to your specific location information.
 
-![](../locations-manager-tab.assets/df08a99e8bd5ac316543f53f75e85c6e.png)
+![](./locations-manager-tab.assets/df08a99e8bd5ac316543f53f75e85c6e.png)
 
 ## Add a New Location
 
 To add a new location to your {{% system-name %}} system, click the Add Location link found at the top right while in the Location Manager tab.
 
-![](../locations-manager-tab.assets/9624f36d5017ba016433a9f14e9ee762.png)
+![](./locations-manager-tab.assets/9624f36d5017ba016433a9f14e9ee762.png)
 
 The *modify location* screen will open. The fields are described below.
 
-![](../locations-manager-tab.assets/762ffa1e6fcc41c00dd1b48bf5e676b0.png)
+![](./locations-manager-tab.assets/762ffa1e6fcc41c00dd1b48bf5e676b0.png)
 
 * <strong>Code:</strong> This is a required field. You must type in a brief abbreviated code for this specific location. It has to be unique and cannot be left blank. It only allows up to 10 characters.
 * <strong>Description:</strong> Type in the full name of the location.
@@ -47,13 +47,13 @@ Postal Code field will accommodate international postal codes and display as the
 
 Click the SAVE button to add the location to the system and it will give you a confirmation message at the top.
 
-![](../locations-manager-tab.assets/eef550176e88e9030344a0a18c0b31c1.png)
+![](./locations-manager-tab.assets/eef550176e88e9030344a0a18c0b31c1.png)
 
 ## View Outside or Deactivated Locations
 
 If you inactivated a location, or set a location as ‘outside', use the filters provided in the locations manager tab to show only those.
 
-![](../locations-manager-tab.assets/cd6922871bf52bf3dbdad64e65264369.png)
+![](./locations-manager-tab.assets/cd6922871bf52bf3dbdad64e65264369.png)
 
 If there was a location that was deactivated in error, you can select that location, then click the Set Status button for that location. Click Yes for the Active option and then the SAVE button. That location would be reactivated and set as active.
 
@@ -61,11 +61,11 @@ If there was a location that was deactivated in error, you can select that locat
 
 You would only deactivate a location if you no longer utilized a specific location. To ‘deactivate' a location from the main location summary listing screen click the deactivate link on the right options column. Any location set as ‘inactive' will not appear in any {{% system-name %}} module to choose as a location selection. The location must be set as ‘active' in order for it to be used elsewhere in {{% system-name %}} as a selection.
 
-![](../locations-manager-tab.assets/519258de0c2c3daf54c81a0ca3f6c02a.png)
+![](./locations-manager-tab.assets/519258de0c2c3daf54c81a0ca3f6c02a.png)
 
 Once you click the SET STATUS button for that location, it will show a screen for you to deactivate this location. Click No for the Active status.
 
-![](../locations-manager-tab.assets/91421dcc62f33fa688408add73ee2286.png)
+![](./locations-manager-tab.assets/91421dcc62f33fa688408add73ee2286.png)
 
 Continue to deactivate the location by clicking the SAVE button. It will then give you a confirmation message at the top that the location was successfully deactivated.
 
@@ -75,15 +75,15 @@ If there was a location that was deactivated in error, you can select that locat
 
 If you need to edit a location for any reason (phone number change, address change, name change, etc), simply select the location and click the EDIT button. click the edit link found in the options column at the right of the specific location listed in the summary.
 
-![](../locations-manager-tab.assets/c690dbdea9ab2872d05d07455fef3068.png)
+![](./locations-manager-tab.assets/c690dbdea9ab2872d05d07455fef3068.png)
 
 Once you click edit to modify a location, the edit/modification screen will appear. You can change anything you wish.
 
 The Location Manager will display revision history when editing a location. Revision history will display on any new revisions at the bottom of the Modify Location window.
 
-![](../locations-manager-tab.assets/45fb343f011a0e4eb87787fbb431f535.png)
+![](./locations-manager-tab.assets/45fb343f011a0e4eb87787fbb431f535.png)
 
-![](../locations-manager-tab.assets/0bcaee5370eb2921fd28f3e9f4c48b92.png)
+![](./locations-manager-tab.assets/0bcaee5370eb2921fd28f3e9f4c48b92.png)
 
 When done editing the location fields, click the SAVE button to save and submit the changes.
 

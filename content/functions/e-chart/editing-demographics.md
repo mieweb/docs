@@ -1,14 +1,14 @@
 ---
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
-date: '2024-12-02T18:37:46.968Z'
-version: 127
-lastAuthor: 'anichols'
+date: '2025-11-10T14:34:06.432Z'
+version: 136
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=chart&s=docq'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.
 
@@ -18,15 +18,15 @@ If your practice has an interface from your practice management (PM) system or a
 
 From the **Demographics** portlet of the Summary dashboard tab, one can click on the **Manage Info** icon that looks like a pencil.
 
-![](../editing-demographics.assets/7cbcc8fb7aa18a6c581260a72926a1fc.png)
+![](./editing-demographics.assets/7cbcc8fb7aa18a6c581260a72926a1fc.png)
 
 That will take the user to the **Demographics** chart tab page. To manually update any demographics, simply click anywhere on the grey *Demographic Information* title bar area.
 
-![](../editing-demographics.assets/70173554d95c6ae72cbc5ba1a99b969e.png)
+![](./editing-demographics.assets/70173554d95c6ae72cbc5ba1a99b969e.png)
 
 The Demographic Information screen is a layout that can be altered to collect the specific data fields needed for the business workflows or reporting needs. Contact your MIE Implementer if you need to add additional fields to capture specific data on this screen.
 
-![](../editing-demographics.assets/0f3c57edb6569c24cadd76fe01a10a8d.png)
+![](./editing-demographics.assets/0f3c57edb6569c24cadd76fe01a10a8d.png)
 
 Following is additional information regarding specific fields found on the demographics screen:
 
@@ -35,19 +35,19 @@ Following is additional information regarding specific fields found on the demog
 * <strong>Country</strong>:<strong></strong> This field is shown above the Postal Code field. The Country field is set to the United States, by default, when a user's Default Location preference has not been set by the logged-in user. The Default Country can also be set system-wide, via a system setting.
 * <strong>Exclude from Quality Care:</strong> This typically gets set to Yes if the chart is a test type chart and you don't want it to be included in reporting or automated jobs, etc.
 * <strong>Temporary Chart</strong>: Default is No and indicates this is a permanent medical record.  This radio button section should be used cautiously. Selecting Yes, indicates the chart is temporary and applies a red banner across the top (once the section is saved) of <em>Warning: Temporary Chart</em>. Some workflows (for example: applicants) may need their chart to be ‘temporary' until permanently hired.
-* <strong>Active Chart</strong>: Default is Yes and indicates this is an active chart.  Active charts can be searched for in various areas of the system. If the chart needs to be marked inactive, simply set it to No. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://system/?f=chart&s=docq).
+* <strong>Active Chart</strong>: Default is Yes and indicates this is an active chart.  Active charts can be searched for in various areas of the system. If the chart needs to be marked inactive, simply set it to No. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/).
 
 After all edits are done click the **Save** button at the bottom of the section.
 
 Subsequent sections are available for manually editing other information besides just chart demographics.  Such as Employment Information, Marital/Emergency Contact Information, and Other Data.
 
-![](../editing-demographics.assets/ac24c4559d78e4d4cbafa4b67bce327b.png)
+![](./editing-demographics.assets/ac24c4559d78e4d4cbafa4b67bce327b.png)
 
 ## Viewing All Revisions to the Demographics Tab
 
 If you have security permission, you can view all revisions in a list format that were done to that chart's demographics.  When in the Demographics chart tab, click the **Patient**** Revisions** hyperlink found just above the chart's demographic information.
 
-![](../editing-demographics.assets/29843962a40e8a3df036c0906e1ddf61.png)
+![](./editing-demographics.assets/29843962a40e8a3df036c0906e1ddf61.png)
 
 ### Demographics Data revisions
 
@@ -55,7 +55,7 @@ The system will display a **Demographics Data** datavis section which displays t
 
 The chart's most current demographics is the last known revision on this listing (highest revision number listed), but as you scroll down you will see all prior revision history listed, the details of each revision (within columns), be able to compare between revisions, as well as revision dates/times and who revised.
 
-![](../editing-demographics.assets/dfa3bf7886de4b6e854048ce02cf4d62.png)
+![](./editing-demographics.assets/dfa3bf7886de4b6e854048ce02cf4d62.png)
 
 ### Employment Data revisions
 
@@ -63,8 +63,8 @@ The system will display an **Employment Data** datavis section which displays th
 
 The chart's most current employment data/information is the last known revision on this listing (highest revision number listed), but as you scroll down you will see all prior revision history listed, the details of each revision (within columns), be able to compare between revisions, as well as revision dates/times and who revised.
 
-![](../editing-demographics.assets/988c10e6a0884fef23e06f1eaed38187.png)
+![](./editing-demographics.assets/988c10e6a0884fef23e06f1eaed38187.png)
 
 Click **Back to Patient Demographics** hyperlink to get back to the general demographics tab summary in order to exit out of patient revision mode.
 
-![](../editing-demographics.assets/c0ac3d67f0b00c3bbfaddfe371dda25d.png)
+![](./editing-demographics.assets/c0ac3d67f0b00c3bbfaddfe371dda25d.png)

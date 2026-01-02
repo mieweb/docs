@@ -2,11 +2,11 @@
 id: '1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
 title: 'System Plugins'
 date: '2020-02-27T20:17:38.936Z'
-version: 29
+version: 30
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Certain modules, screens, functionalities require additional plugins to be installed on your computer before they will function. These are extensions to the program that are needed.
 
@@ -18,6 +18,6 @@ There is support for Firefox in the Plugins page. The three plugins that are sup
 
 There is support for Chrome in the Plugins page. Newer versions of Chrome have tighter restrictions on installing third party extensions. To give {{% system-name %}} permission to use its own plugins, the plugin manager displays an "Import To Registry to Allow Plugins" link. Downloading and executing that link's file will give Chrome permission to run any plugin coming from the {{% system-name %}} system's domain.
 
-![](../system-plugins.assets/ad9bbeb6ba8baa8940739e14a9516f47.png)
+![](./system-plugins.assets/ad9bbeb6ba8baa8940739e14a9516f47.png)
 
 At the top right corner of the Plugins page, there is a link Download all controls in a single CAB file that will perform that download to your system in CAB file format.

@@ -1,19 +1,21 @@
 ---
 id: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
 title: 'Allergy Data Validation Test Script'
-date: '2024-05-21T13:59:53.547Z'
-version: 40
+date: '2025-11-12T20:57:49.814Z'
+version: 52
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../../e-chart/basic-initial-system-information.md'
-  - '../../e-chart/detailed-searching-in-e-chart.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
   - 'https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
   - 'https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U'
   - '../../reports/using-datavis-grids-data-tools.md'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit.
 
@@ -94,23 +96,23 @@ Options include:<br />
 ## Validation Instructions
 
 1. Log into the {{% system-name %}} system.
-2. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} , and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
+2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-    ![](../allergy-data-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
+    ![](./allergy-data-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
 * Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](../../e-chart/basic-initial-system-information.md) or [Detailed Searching in E-Chart](../../e-chart/detailed-searching-in-e-chart.md).)
+* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
 3. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-    ![](../allergy-data-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+    ![](./allergy-data-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
 4. Select <strong>Allergies/Medications</strong> from the Medical Record chart tab.
 
-    ![](../allergy-data-validation-test-script.assets/3e3a569788287f0ab5e976e5bc3610a2.png)
+    ![](./allergy-data-validation-test-script.assets/3e3a569788287f0ab5e976e5bc3610a2.png)
 5. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
     1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
     2. Contact {{% system-name %}} with the findings.
@@ -125,10 +127,10 @@ The **Allergy Report** and **Allergy Report - DV** can both be particularly h
 
 To access and utilize these reports:
 
-1. Navigate to the  {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}}  sidemenu.
-2. Select the  {{% syslink "Medications/Allergies/Scripts" "f=layout&module=reports&name=MedsAllergiesScripts&tabmodule=reports&tabmodule=reports&t=Medications%2FAllergies%2FScripts&tabselect=Medications%2FAllergies%2FScripts" %}}  report list.
+1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/)  sidemenu.
+2. Select the Medications/Allergies/Scripts report list.
 
-    ![](../allergy-data-validation-test-script.assets/900ac3a98042d7338093aa2698c33d88.png)
+    ![](./allergy-data-validation-test-script.assets/900ac3a98042d7338093aa2698c33d88.png)
 3. Criteria may be added to filter or drill down data.
 
-    ![](../allergy-data-validation-test-script.assets/676d1259f36139c0656a87e5dad00edb.png)
+    ![](./allergy-data-validation-test-script.assets/676d1259f36139c0656a87e5dad00edb.png)

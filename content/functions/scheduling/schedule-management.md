@@ -1,15 +1,14 @@
 ---
 id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
 title: 'Schedule Management'
-date: '2025-06-06T18:01:48.819Z'
-version: 222
+date: '2025-11-10T18:00:12.532Z'
+version: 261
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../system-administration/system-controls/resource-restrictions.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/'
 source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
-markup: 'pandoc'
+wikigdrive: 'v2.15.30'
 ---
 ## Overview
 
@@ -28,7 +27,7 @@ To add a schedule:
 3. Click the Add link.
 4. The Scheduler Editor screen opens. Fill out all of the appropriate fields:
 
-![](../schedule-management.assets/1804755d96bd799721f039a7dfa34715.png)
+![](./schedule-management.assets/1804755d96bd799721f039a7dfa34715.png)
 
 **Start/End time**
 
@@ -96,7 +95,7 @@ The **Required** and **Portal** checkboxes allow for specific appointment types 
 
 **Recurrence (button)**
 
-![](../schedule-management.assets/fe2e00f4e777dc11b40e3e8ebe737a47.png)
+![](./schedule-management.assets/fe2e00f4e777dc11b40e3e8ebe737a47.png)
 
 This section allows recurrences to be set for a given schedule. Click the **Recurrence** button to set any recurrences to a given schedule. When the button is clicked, the window will expand to show the additional fields to be set. Use the **Occur every** dropdown to choose and set an occurrence interval. This field will default to *Every*. **Duration** is the following dropdown that defaults as a blank entry. Use this dropdown to set the type of time during which the occurrence is expected to continue (e.g., Day(s), Week(s), Month(s), Year(s), etc.). If *Week(s)* is selected as the type of time, then the days of the week will display, below. Select the days the resource is intended to work this schedule
 
@@ -108,7 +107,7 @@ If a resource works Mon-Thurs 8 am - 5 pm, with Fridays 8 am - Noon, then Week(s
 
 **Copy Schedule To (button)**
 
-![](../schedule-management.assets/b700490fcd069f61117e503a99509644.png)
+![](./schedule-management.assets/b700490fcd069f61117e503a99509644.png)
 
 This button allows schedules to be copied to multiple locations and/or resources. When you click on the **Copy Schedule To** button, the fields will expand. You can click the underlined links to perform the specified action (i.e., **Add All Locations w/ Selected Resource** and/or **Add All Resources w/ Selected Location**). The **Clear All** link can be used to start over, if necessary. Additionally, individual locations and/or resources can be set at the bottom, entering each individually and clicking the **Add** button. The Copy Schedule function shows and tracks how many schedules are being copied to. Click **Cancel copying to # schedules** if the copy is no longer needed or needs to be cancelled.
 
@@ -116,7 +115,7 @@ This button allows schedules to be copied to multiple locations and/or resources
 
 Use the field to add a comment to the schedule for other users to see when viewing schedules from the schedule editor.
 
-1. When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
+* When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
 
 {{% tip %}}
 If this schedule detail is needing to be used again, perhaps at a later time, scroll to the top of the screen **before clicking the Save button**, and click the **Save info to use again** link and it will save the information as a template to be named and used at a later time. This allows the information to be used again, edited as needed, all without having to rekey each field, from scratch. It is a way to *copy* a schedule and save it as a template.
@@ -129,7 +128,7 @@ To edit or delete a schedule:
 1. Locate the resource's schedule in the Schedules list view by either scrolling through the list, or use the autocomplete fields (at the top of the screen) to filter schedules by resource(s), location(s), or specific appointment type(s).
 2. Once the particular schedule has been located, click the <strong>Edit</strong> or <strong>Delete</strong> link in the <strong>Options</strong> column.
 
-![](../schedule-management.assets/a71d8817afc968dfd1cfa51d99b853b7.png)
+![](./schedule-management.assets/a71d8817afc968dfd1cfa51d99b853b7.png)
 
 {{% note %}}
 Editing or deleting options are only available if the appropriate security permission is set on the user, to all schedule edits and deletes.
@@ -137,11 +136,11 @@ Editing or deleting options are only available if the appropriate security permi
 
 3. After clicking <strong>Delete</strong>, a message will display at the top of the confirmation page, indicating how many appointments exist for that schedule, which may need to be rescheduled prior to deletion. Either confirm deletion, or move scheduled appointments, prior to deleting.
 
-![](../schedule-management.assets/429827c8439c8950b6caad962b99ea41.png)
+![](./schedule-management.assets/429827c8439c8950b6caad962b99ea41.png)
 
 4. After clicking <strong>Edit</strong>, a message will display at the top of the page, indicating how many appointments already exist for that schedule. If no appointments are found, the alert message does not display. Only appointments expected to occur within the upcoming four (4) weeks of the schedule's configured time frame are tracked.
 
-![](../schedule-management.assets/fb656ab357a25ab42fcd2723dc022cd0.png)
+![](./schedule-management.assets/fb656ab357a25ab42fcd2723dc022cd0.png)
 
 {{% info %}}
 A link is available to navigate to an appointment report, which allows appointments to be rescheduled or moved, as necessary. This link loads the Appointments Report and Found Appointments, allowing block moving, as well, so if multiple, or a block of appointments need moved, they can be rescheduled, en masse. For more information, see Reports documentation.
@@ -155,20 +154,20 @@ Moving appointments can be done by clicking the available link found when editin
 
 1. When the Found Appointments display, place a check mark in the <strong>Select</strong> column to select any/all appointments that need moved.
 
-![](../schedule-management.assets/0b88a2630caec4cc926ed32fa5e92630.png)
+![](./schedule-management.assets/0b88a2630caec4cc926ed32fa5e92630.png)
 
 2. Click the <strong>Email Selected</strong> button, if an email needs to go to each patient having their appointment moved. This feature also allows additional emails to be generated, if individuals need added or carbon copied.
 
-![](../schedule-management.assets/f9273c9b4052a6f1e32d09e989d19896.png)
+![](./schedule-management.assets/f9273c9b4052a6f1e32d09e989d19896.png)
 
 3. If emailing, click the <strong>Send Emails</strong> button.
 
-![](../schedule-management.assets/0c682ec03d1318967cf52d06ba88df57.png)
+![](./schedule-management.assets/0c682ec03d1318967cf52d06ba88df57.png)
 
 4. Place a check mark in the Select column to select any/all appointments that need moved.
 5. Click the <strong>Move Selected</strong> button.
 
-![](../schedule-management.assets/bace3f151145c15b79b6b07d18bbc603.png)
+![](./schedule-management.assets/bace3f151145c15b79b6b07d18bbc603.png)
 
 6. The page will load with the options to select a resource/location, if different, and to cancel or place on a waiting list, if necessary.
 
@@ -178,7 +177,7 @@ If moving the appointment to a different resource/location, the date/time of the
 
 7. Click the <strong>Update</strong> button, when completed.
 
-![](../schedule-management.assets/c0ec8a9936067fdb5401b2cf6fa2e78b.png)
+![](./schedule-management.assets/c0ec8a9936067fdb5401b2cf6fa2e78b.png)
 
 ## Resource Restrictions
 
@@ -199,13 +198,13 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
 4. With the resource selected, click the <strong>Search</strong> button. This will refresh the page.
 5. The page has four (4) sections:
 
-    a.  <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
+    * <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-    b.  <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
+    * <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
 
-    c.  <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+    * <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
 
-    d.  <strong>Revision History</strong> – A view of all revision histories.
+    * <strong>Revision History</strong> – A view of all revision histories.
 
 6. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong> and click the <strong>Submit Changes</strong> button to create the restrictions.
 
@@ -220,4 +219,4 @@ To edit existing restrictions, removing or adding allowed users/departments:
 3. The existing allowed users and/or departments for the specific restricted resource will be listed.
 4. Utilize the <strong>minus</strong> button to remove users and/or departments no longer needing access. Add new users and/or departments with the <strong>Add</strong> button. Provide the Reason For Change and click the <strong>Submit Changes</strong> button.
 
-See additional information online help documentation on [Resource Restrictions](../system-administration/system-controls/resource-restrictions.md).
+See additional information online help documentation on [Resource Restrictions](https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/).

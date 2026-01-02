@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 In the *Dictation* tab pending screen:
 
@@ -15,7 +15,7 @@ If the Physician used the phone to dictate or the general add dict link in the *
 
 If the Physician used the SpeechMike or microphone into {{% system-name %}} directly and in the specific patient's E-Chart, it **will** show patient's name & DOB.
 
-![](../basic-transcription-all-users.assets/75da7f48e2e06d7dbf794703ec168d8b.png)
+![](./basic-transcription-all-users.assets/75da7f48e2e06d7dbf794703ec168d8b.png)
 
 ## Transcribe Dictation (No Patient Name Identifier)
 
@@ -23,7 +23,7 @@ Log into {{% system-name %}} and click on *Dictation* tab on left sidebar menu.
 
 The screen will open to the *All Pending* tab of dictation jobs to do that are *unassigned*. By default, you view only unassigned dictation files. To view All Pending or your Assigned Pending, click on the underlined Assigned or All link right under that chart tab name at the top.
 
-![](../basic-transcription-all-users.assets/2907c01a8f5e9ec9b4826ff708135327.png)
+![](./basic-transcription-all-users.assets/2907c01a8f5e9ec9b4826ff708135327.png)
 
 If you wish to grab an unassigned dictation to do, simply click grab. If you wish to assign dictation to someone then use the Select buttons below the list of unassigned dictation (see other instruction pages).
 
@@ -37,17 +37,17 @@ Click *[Grab Next Job]* towards the middle top of the screen. Or grab next to th
 The jobs that were phoned in dictation or generic dictation without being tagged to a patient will **not** have patient names in those columns.
 {{% /note %}}
 
-![](../basic-transcription-all-users.assets/955c84287ff7389baba13f0ae5b3872a.png)
+![](./basic-transcription-all-users.assets/955c84287ff7389baba13f0ae5b3872a.png)
 
 The MIEPlayer box will pop-up and automatically start playing. (Unless you have set the *config* to not automatically start playing each dictation. See instructions on next page.)
 
-![](../basic-transcription-all-users.assets/a1618a4adfb67882797ae51d786c531d.png)
+![](./basic-transcription-all-users.assets/a1618a4adfb67882797ae51d786c531d.png)
 
 Listen to the dictation and then hit stop after the doctor dictates the patient name or MR#. You can search by patient's name by typing in the last name of the patient and the field will auto-complete and give you patient choices w/ that name. Select the patient from the drop-down choices. Or you can search by birthdate or MR#, etc. (Click the help icon for other search methods).
 
 After you select a patient for this dictation to be linked to, it will say UNDO next to the patient's name. Click this if you selected the wrong patient.
 
-![](../basic-transcription-all-users.assets/cf15b751ecff99f4238f399afce787d1.png)
+![](./basic-transcription-all-users.assets/cf15b751ecff99f4238f399afce787d1.png)
 
 Now that you have specified the dictation to a patient's file, click *add doc* link next to the patient's name. If the *Job Type* is already specified, that particular document tied to that job type will open after you click add doc.
 
@@ -67,15 +67,15 @@ There is also an add enc link next to the add doc link. The add enc link will on
 
 If you **right click** on the MIEPlayer in the red/beige area right above the "faster/slower" and scroll to click on *Config.*
 
-![](../basic-transcription-all-users.assets/3f04c17ad1f2ff2525a9d132814111e4.png)
+![](./basic-transcription-all-users.assets/3f04c17ad1f2ff2525a9d132814111e4.png)
 
-![](../basic-transcription-all-users.assets/faee1a0bd9ec9046c34ece498f5bf842.png)
+![](./basic-transcription-all-users.assets/faee1a0bd9ec9046c34ece498f5bf842.png)
 
 There is a box where you can enter the number of seconds you would like to "backup how many seconds on stop". You can then set it for 2 or 3 seconds so that when you hit stop, you can auto-rewind when starting. To make the MIEPlayer **not** play the dictation automatically when grabbed/opened, there is an option to make it not automatically play. Un-checkmark the box next to *Automatic Play* then click the OK box. If this is un-checkmarked, then each time you grab/open a dictation, it will not play automatically. You would initiate play by hitting the foot pedal or using the mouse to click Play on the MIEPlayer.
 
 Jobs do not auto-complete unless you use the ‘grab' or ‘grab next job' option. If you do not use the ‘grab' option, you must click on **edit** next to each job and change to *completed.*
 
-![](../basic-transcription-all-users.assets/2067ab81f326f0bb5f913149bcdc81c4.png)
+![](./basic-transcription-all-users.assets/2067ab81f326f0bb5f913149bcdc81c4.png)
 
 When you are done with the dictation in the MIEPlayer, click any of the following options:
 
@@ -87,7 +87,7 @@ If you just X out and close the MIEPlayer without selecting any of these status'
 
 To move it: Go to IN PROGRESS tab and find your job. Click on edit next to the job you want to move in Dictation ID column. Find the field called *STATUS* and use the drop-down arrow box to select the correct status to move this dictation. Click *MODIFY* when done. It will then move it where you specified.
 
-![](../basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
+![](./basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
 
 ## Transcribe Dictation (Birthdate Identifier But No Patient Name Identifier)
 
@@ -95,13 +95,13 @@ If you grab a dictation that has a birthdate entered, but no patient name, it wi
 
 It is up to you now to find the specific patient after you grab the dictation.
 
-![](../basic-transcription-all-users.assets/9bd0b1209432ed22ce4001c032b4d981.png)
+![](./basic-transcription-all-users.assets/9bd0b1209432ed22ce4001c032b4d981.png)
 
 After you grab the dictation, you will see the MIE Player window open. It will begin playing the dictation. You can stop it so you can work on the patient identifier.
 
 In the **Patient** field you will see ex: #09081929. This is the birthdate of the patient. It is not an mr# or any other kind of number.
 
-![](../basic-transcription-all-users.assets/474240fde20c540ac745451dcb4d0f1b.png)
+![](./basic-transcription-all-users.assets/474240fde20c540ac745451dcb4d0f1b.png)
 
 Simply place your mouse on the patient field (where the birthdate is entered) and click one time. It will then pop-up a list of patient's w/ that matching birthdate. You can then select the appropriate patient by clicking on the patient's name from the drop-down list of choices.
 
@@ -111,15 +111,15 @@ If you have selected the wrong patient for this dictation, simply click UNDO and
 
 Continue to listen to dictation, add/upload a document and complete the dictation.
 
-![](../basic-transcription-all-users.assets/cf15b751ecff99f4238f399afce787d1.png)
+![](./basic-transcription-all-users.assets/cf15b751ecff99f4238f399afce787d1.png)
 
 ## Edit a Dictation
 
 Find the dictation, and click edit on the dictation job you want to change. (If you have security role access)
 
-![](../basic-transcription-all-users.assets/a38a1cc2d27d314cee1a6c8206f7d611.png)
+![](./basic-transcription-all-users.assets/a38a1cc2d27d314cee1a6c8206f7d611.png)
 
-![](../basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
+![](./basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
 
 * <strong>Current Patient</strong>: Shows the current patient this dictation is currently linked to. If no patient is identified to the dictation, it will say <em>None Currently Set.</em>
 * <strong>Move to Patient</strong>: You can change it to a different patient by searching for a patient's name, MR#, etc and selecting it.
@@ -143,7 +143,7 @@ Log into {{% system-name %}} and click on *Dictation* tab on left sidebar menu.
 
 The screen will open to the *All Pending* tab of dictation jobs to do that are *unassigned*. By default, you view only unassigned dictation files. To view All Pending or your Assigned Pending, click on the underlined Assigned or All link right under that chart tab name at the top.
 
-![](../basic-transcription-all-users.assets/2907c01a8f5e9ec9b4826ff708135327.png)
+![](./basic-transcription-all-users.assets/2907c01a8f5e9ec9b4826ff708135327.png)
 
 If you wish to grab an unassigned dictation to do, simply click grab. If you wish to assign dictation to someone then use the Select buttons below the list of unassigned dictation (see other instruction pages).
 
@@ -159,7 +159,7 @@ The patient's name will be displayed along with *add doc* next to the name.
 
 Click *add doc* link there and it will pop-up the word template that is set to be used for this dictation. This was set when the user selected the job type when dictating. Click on MIEPlayer again to start playing the dictation. Start typing in the template.
 
-![](../basic-transcription-all-users.assets/b86c9e1179ea1b16fa07e4df467744dd.png)
+![](./basic-transcription-all-users.assets/b86c9e1179ea1b16fa07e4df467744dd.png)
 
 ### For Dictation With No Doc.Type in the MIE Player/Dictation
 
@@ -177,9 +177,9 @@ Then it opens the template. Click on MIEPlayer again to start playing the dictat
 
 If a job type is specified in the MIE Player for the patient then you can click add doc next to the patient identifier name in the MIE Player and it will automatically pop-up the correct Word template that is tagged to use for this Job Type.
 
-![](../basic-transcription-all-users.assets/dfb3452726ff472f97594e8516db6ada.png)
+![](./basic-transcription-all-users.assets/dfb3452726ff472f97594e8516db6ada.png)
 
-![](../basic-transcription-all-users.assets/2c7115bc30ec96009162192492f9f5b4.png)
+![](./basic-transcription-all-users.assets/2c7115bc30ec96009162192492f9f5b4.png)
 
 #### Config
 
@@ -218,17 +218,17 @@ Click edit to open that dictation job.
 
 In the **Transcriber** field, it will say your username. Click **(release job)** link and it will release this job that you grabbed.
 
-![](../basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
+![](./basic-transcription-all-users.assets/3f671023ae7cd9a68cbfad83a1c6b86f.png)
 
 It will release the job (put it back into the pending queue) and will display a confirmation message that the dictation was successfully released.
 
-![](../basic-transcription-all-users.assets/6d99f4dbecc745de64f77b181c2892fb.png)
+![](./basic-transcription-all-users.assets/6d99f4dbecc745de64f77b181c2892fb.png)
 
 ## Dictation All Pending Tab
 
 You must have security permission to access the All Pending tab. The All Pending tab shows all pending dictation jobs. This tab gives you the link options to view all pending dictation that is Assigned, Unassigned, or all (every pending) dictation. You will see the links to view assigned, unassigned, all dictation at the top left corner of that opened tab.
 
-![](../basic-transcription-all-users.assets/c64a2687d7db14cce5c3bf224e7f8e32.png)
+![](./basic-transcription-all-users.assets/c64a2687d7db14cce5c3bf224e7f8e32.png)
 
 If you do not have security permission to view the All Pending tab, that tab will not show up in your view.
 
@@ -240,13 +240,13 @@ If you do not have permission to view all & unassigned dictation jobs, the ALL P
 
 These above settings are for clients who are concerned about users selecting only certain dictation jobs to pick & choose to do.
 
-![](../basic-transcription-all-users.assets/a20f5a41cfa13b3768091677a79d181b.png)
+![](./basic-transcription-all-users.assets/a20f5a41cfa13b3768091677a79d181b.png)
 
 The dictation Show All/ Unassigned security permission also affects the My Pending tab.  Usually in My Pending you, by default, can see assigned jobs but you can also jump to unassigned and all jobs by clicking on the links. The new security right takes away to view all jobs other than those assigned to you. You are only viewing your assigned jobs. To do a job in the pending queue that is not specifically assigned to you, you would click grab next job.
 
 You can checkmark to select specific pending dictation jobs and assign them out. To do this, checkmark the specific Dictation ID's and then go to the bottom and select the person in the *Assign Selected To* drop-down. Then click the ASSIGN button. Any user who is tagged as a member of the transcription department will show in this drop-down as able to assign to.
 
-![](../basic-transcription-all-users.assets/59fd11446a2059720833418ac08af021.png)
+![](./basic-transcription-all-users.assets/59fd11446a2059720833418ac08af021.png)
 
 ## Dictation Incomplete Tab
 
@@ -256,16 +256,16 @@ There is an incomplete tab in the dictation tab. This is a security permission t
 
 When transcribing from a point and click exam, some dictation may be inaudible or have questions regarding the dictation. The user/transcriber can then click an inaudible button to put it in the *incomplete* tab and the transcription supervisor can then review their work and make any changes or user can task the provider for clarification and keep the dictation marked in this incomplete tab until then. Another workflow could be for the transcriptionist to make preliminary archive. This creates a document that would be sent to esign (make sure esign rules are set up). The physician would review the document in his/her esign and see the **inaudible** marking on the document, then he/she would reject the document and type his update in the rejection section. The rejected esign then is tasked back to the transcriptionist (this is default {{% system-name %}} functionality). The transcriptionist then would go back into the dictation and update it, then archive and close, which would then again send the completed document back to the physicians esign queue. When a dictation job is marked as "incomplete/inaudible" it releases it from being assigned to the transcriptionist.
 
-![](../basic-transcription-all-users.assets/8cb7801125b840f448f9cdc2ece1eabd.png)
+![](./basic-transcription-all-users.assets/8cb7801125b840f448f9cdc2ece1eabd.png)
 
 ## Dictation Held Tab
 
 Any encounter dictation is ‘Held by the Dictator' until the encounter exam is submitted. Systems can be setup to have a "Save Exam" and a "Save and Release to Transcription" button, in which case all voice files are held until save and release is clicked. This ‘held' tab shows held dictations that a physician (dictator) is working on or wants to edit within an encounter exam. The transcriptionist cannot grab the dictation job until the physician releases his dictation.
 
-![](../basic-transcription-all-users.assets/17d7474b18435d84bcfed8906d820482.png)
+![](./basic-transcription-all-users.assets/17d7474b18435d84bcfed8906d820482.png)
 
 ## Dictation Completed Tab
 
 This tab shows the last 4 weeks worth of completed dictations (dictations jobs marked as ‘complete'). It's limited to the last 4 weeks worth in order to improve the speed that the tab opens. If anything beyond that is needed, the search tab should be used.
 
-![](../basic-transcription-all-users.assets/57672dfb3eb1c5174f3ab619dde76077.png)
+![](./basic-transcription-all-users.assets/57672dfb3eb1c5174f3ab619dde76077.png)

@@ -1,13 +1,13 @@
 ---
 id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
 title: 'HL7 - RESTful'
-date: '2025-04-30T16:57:13.063Z'
-version: 178
-lastAuthor: 'mpierzchala'
+date: '2025-12-04T16:22:06.341Z'
+version: 200
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## CGI Vars Explained
 

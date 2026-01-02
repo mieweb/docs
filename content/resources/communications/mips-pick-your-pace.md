@@ -2,7 +2,7 @@
 id: '1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
 title: 'MIPS: Pick Your Pace'
 date: '2020-02-27T20:36:50.258Z'
-version: 20
+version: 22
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/learn/eligibility'
@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## MIPS Transition Year 2017
 
@@ -42,7 +42,7 @@ For this year, there are four paths under the *Pick-Your-Pace* design that MIE
 
 #### Do Nothing
 
-![](../mips-pick-your-pace.assets/3796ae62e7b11530a4fb4aad738b9a5c.png)
+![](./mips-pick-your-pace.assets/3796ae62e7b11530a4fb4aad738b9a5c.png)
 
 This is the most basic and easiest path to understand; do nothing while eligible, and CY 2019 will come with a **negative four percent (-4%) downward payment adjustment**.
 
@@ -115,7 +115,7 @@ If you are eligible and planning to get ahead of the game, opt into MIPS, now! K
 3. Select any and all Quality measures you are interested in tracking.
 4. Click <strong>Submit</strong>.
 
-![](../mips-pick-your-pace.assets/d1e8ec479baa3ec81eaf3b173c006423.png)
+![](./mips-pick-your-pace.assets/d1e8ec479baa3ec81eaf3b173c006423.png)
 
 #### Questions
 

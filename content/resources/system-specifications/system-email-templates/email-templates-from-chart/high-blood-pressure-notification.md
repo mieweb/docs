@@ -2,11 +2,11 @@
 id: '1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
 title: 'High Blood Pressure Notification'
 date: '2020-02-27T20:37:48.697Z'
-version: 26
+version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Dear Sally Sample,
 

@@ -2,12 +2,12 @@
 id: '1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
 title: 'Macros'
 date: '2024-11-12T21:48:33.857Z'
-version: 100
+version: 113
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Properties of a Macro
 
@@ -29,11 +29,11 @@ The FQN can be used to access macros in libraries and contexts outside the defau
 
 Observations in flowsheets can use macros either by typing or by the menu. When expanding by typing, the default library is that set in the section, and the default context is the observation name, so typically it's only necessary to type ".[name]" (followed by a space) to get the macro you want. The menu appears to the right of the text input.
 
-![](../macros.assets/ef64e71d6f6800a0b063be30279d7fe7.png)
+![](./macros.assets/ef64e71d6f6800a0b063be30279d7fe7.png)
 
 You can also set flowsheet observations to normal. This can be done on individual observations, or all at once.
 
-![](../macros.assets/234871be3821c3619283fa5f1d8cc5b1.png)
+![](./macros.assets/234871be3821c3619283fa5f1d8cc5b1.png)
 
 When setting as normal, the following options are tried in order:
 
@@ -53,15 +53,15 @@ You can also use any macro's FQN to get exactly the macro you want, regardless o
 
 Enter the text you want into the input. Then, with the text selected, click the "magic wand" icon in the top right corner of the page.
 
-![](../macros.assets/d14933a5884cbf5ddd6f4da95eafd4e4.png)
+![](./macros.assets/d14933a5884cbf5ddd6f4da95eafd4e4.png)
 
 Enter the "quick text" (i.e. the name) of the macro and make sure the library is correct. The context is set automatically based on the input, and the full text is taken from what you selected before clicking the magic wand. Click the save button to save. You'll receive a notification and the form will clear, allowing you to quickly enter another macro.
 
-![](../macros.assets/166158e7c20e408be27905f71ce801c7.png)
+![](./macros.assets/166158e7c20e408be27905f71ce801c7.png)
 
 You may need to close & reopen the section to see the new macro appear. You can now select it from the menu, or — in this example — type ".new" into the input to expand it.
 
-![](../macros.assets/25682ee09dc0db820c3fc66aad6e6707.png)
+![](./macros.assets/25682ee09dc0db820c3fc66aad6e6707.png)
 
 ## Search/Edit/Delete
 
@@ -69,39 +69,39 @@ You may need to close & reopen the section to see the new macro appear. You can 
 
 For users with the proper security, macros can be edited and deleted from the flowsheet within the encounter. Hover over the item to display the edit or delete icons.
 
-![](../macros.assets/2d10e3d254066e0a12fc18f697e5a4b5.png)
+![](./macros.assets/2d10e3d254066e0a12fc18f697e5a4b5.png)
 
 ### Option 2
 
 Click the magic wand, enter something into the search bar and press enter (or click the magnifying glass) to see matching macros in any library. **Edit** and **Delete** options display at the bottom of the screen in the **Options** column.
 
-![](../macros.assets/eee8bc81954f7391d61f82954ba79c59.png)
+![](./macros.assets/eee8bc81954f7391d61f82954ba79c59.png)
 
 ### Option 3
 
 Users can also click the **Show Macros** link to view all macros in the system at once in DataVis.
 
-![](../macros.assets/4ddb24cbd618ec3b3118c97579cba050.png)
+![](./macros.assets/4ddb24cbd618ec3b3118c97579cba050.png)
 
 From here users can filter, sort, and group from the datavis grid controls.
 
-![](../macros.assets/31a812296577d3dad991002e3c6dea22.png)
+![](./macros.assets/31a812296577d3dad991002e3c6dea22.png)
 
 For example, search and locate the oral exam macros. Select the item to edit/delete and the **Edit** and **Delete** icons at the bottom of the datavis. Selecting Edit will display the edit macro box and Delete will display a message asking the user to confirm that they wish to delete the macro.
 
-![](../macros.assets/cbfd78e6714f5380842c3d435169ed21.png)
+![](./macros.assets/cbfd78e6714f5380842c3d435169ed21.png)
 
 #### Edit
 
 Select the **Pencil icon/edit link** and the Edit Macros dialogue box will display. Make changes to the text and click the Edit button at the bottom of the box to save the changes.
 
-![](../macros.assets/8c90faaa59eff31ee983046ded230a95.png)
+![](./macros.assets/8c90faaa59eff31ee983046ded230a95.png)
 
 #### Delete
 
 Select the **Trash can icon/delete link** to delete the macro. A confirmation deletion message will display asking the user to confirm that they wish to delete the marco. Click **Yes** to proceed and delete the macro and return to the encounter or click **No** to cancel and return back to the encounter.
 
-![](../macros.assets/8d165b9c546f382fedd5ec1742822f04.png)
+![](./macros.assets/8d165b9c546f382fedd5ec1742822f04.png)
 
 ## Security Role Settings
 

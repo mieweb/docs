@@ -1,9 +1,9 @@
 ---
 id: '1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
 title: 'On-Premise Deployment'
-date: '2020-02-27T21:26:18.802Z'
-version: 43
-lastAuthor: 'aquandt'
+date: '2025-10-24T12:34:45.293Z'
+version: 54
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html'
@@ -20,7 +20,7 @@ links:
   - 'on-premise-deployment/application-managed-service-summary.md'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Change Log
 
@@ -94,7 +94,7 @@ During the installation and configuration period, all instances **must** have 
 
 ### State Diagram of Services
 
-![](../on-premise-deployment.assets/d211dccb65f0856106cbfad4dde718c1.png)
+![](./on-premise-deployment.assets/d211dccb65f0856106cbfad4dde718c1.png)
 
 ## Environments
 
@@ -124,19 +124,19 @@ There are three typical deployment footprints:
 
 All the required services run within a single server. This approach is best utilized in small (~50 concurrent users) deployments or for sandbox development use-cases. The "all-in-one" strategy for production is best when a virtualized environment is available for scaling and redundancy underneath the {{% system-name %}}  System. A VM image that contains all necessary services for the {{% system-name %}}  System to operate can be provided. This approach can also be used for Development and QA lifecycles. The All-in-one footprint enables quick and easy deployment and can serve as a stepping stone to larger deployments with dedicated services.
 
-![](../on-premise-deployment.assets/7d5cb0a17e2777bb92ec9d77d89fa1a8.png)
+![](./on-premise-deployment.assets/7d5cb0a17e2777bb92ec9d77d89fa1a8.png)
 
 ### Dedicated DB
 
 The Dedicated DB is the first useful step to scaling up to handle more load. The database I/O patterns tend to compete with other I/O so it is useful to split the database to another server with dedicated resources.
 
-![](../on-premise-deployment.assets/e1d3f075856a1dbff66a3fee6aee6179.png)
+![](./on-premise-deployment.assets/e1d3f075856a1dbff66a3fee6aee6179.png)
 
 ### High Availability / Horizontal Scalability
 
 The High Availability (HA) and Horizontal Scalability (HS) environment distributes low-level services across multiple systems to provide redundancy and high availability. The {{% system-name %}}  System is optimized to distribute the components across multiple servers and automatically failover to balanced redundant hardware. Managing a cluster requires expert skills in load balancing, routing, networking and monitoring.
 
-![](../on-premise-deployment.assets/4e48c59fc286cf34ae8121788269fa6b.png)
+![](./on-premise-deployment.assets/4e48c59fc286cf34ae8121788269fa6b.png)
 
 ## Minimum Hardware Requirement
 
@@ -332,3 +332,11 @@ Successful Go-Live of an On-Premise {{% system-name %}}  System requires planni
 
 * [Application Managed Service Summary](on-premise-deployment/application-managed-service-summary.md)
 * [Database Managed Services](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs)
+
+## Hotfix Release Notes
+
+Hotfix Release Notes are available on the Version tab (Control Panel->Version). Release Notes will continue to be emailed to System Administrators on the hotfix notes email distribution list. If the Version tab does not display in your database, please contact your implementer for assistance installing it.
+
+![](./on-premise-deployment.assets/cbe35d7df2423dc8b562230dec956380.png)
+
+![](./on-premise-deployment.assets/8117f87f4bda5d8174a141d0770bd52e.png)

@@ -2,13 +2,13 @@
 id: '1AWtRR0K-hVwnz27RBadPBBgzQUk4CC-thrR1nxVc1zI'
 title: 'Adding existing employer organizations as subordinates to employer organizations'
 date: '2021-02-17T22:42:13.835Z'
-version: 27
+version: 28
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1AWtRR0K-hVwnz27RBadPBBgzQUk4CC-thrR1nxVc1zI'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 1. [Find the employer organization](finding-employer-organizations.md) to which to add a sub-employer organization.
 2. When viewing the employer organization to which to add a sub-employer organization, select the <strong>Overview (EO)</strong> tab.

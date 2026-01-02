@@ -2,13 +2,13 @@
 id: '1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
 title: 'Device Interface - Tremetrics RA500 , RA300, RA800'
 date: '2025-07-03T15:48:34.286Z'
-version: 95
+version: 99
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1QVYsGl9zxe8qBxICbS2cW2qKMt2mnGY_L0H0UcsDLDc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This page provides instructions for retrieving results from the Tremetrics RA500 audiometer with Enterprise Health (EH), and lists the fields that the interface retrieves.
 

@@ -2,7 +2,7 @@
 id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
 title: 'Review Session - Patient Registration'
 date: '2024-12-18T14:21:50.961Z'
-version: 47
+version: 48
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,7 @@ links:
   - '../../functions/patient-registration/medical-record-numbers.md'
   - '../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -50,7 +50,7 @@ Depending on the needs of the organization, entering and loading demographics ca
 
 As noted, a standard chart is typically created through an established HR interface; however, the customer may manually register new patients by navigating to the **E-Chart** sidemenu and selecting the [Patient Registration tab](https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration) at the top of the page.
 
-![](../review-session-patient-registration.assets/ab1beee22b2e7404f4e4999814dc85f8.png)
+![](./review-session-patient-registration.assets/ab1beee22b2e7404f4e4999814dc85f8.png)
 
 Begin by entering some of the individual's information:
 
@@ -73,7 +73,7 @@ The Postal Code field will accommodate international postal codes and will displ
 
 To view any of the demographic information entered upon registration, navigate to the **Admin** chart tab of the individual's chart. The **Demographics** menu option is available from the Admin chart tab. When Demographics is selected, the page will load all of the information captured upon registration. Quick links are available for modifying or updating this information, as needed.
 
-![](../review-session-patient-registration.assets/94ae9e6d26b6be8e1a1fbceb548ae4c4.png)
+![](./review-session-patient-registration.assets/94ae9e6d26b6be8e1a1fbceb548ae4c4.png)
 
 #### E-Chart Photos
 

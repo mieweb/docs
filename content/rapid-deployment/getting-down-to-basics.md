@@ -1,14 +1,15 @@
 ---
 id: '1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
 title: 'Getting Down to Basics'
-date: '2020-02-27T20:33:05.282Z'
-version: 65
+date: '2025-12-04T16:12:16.083Z'
+version: 76
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit'
   - 'https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0'
 source: 'https://drive.google.com/open?id=1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following is a checklist of the functional and non-functional requirements needed to effectively define and scope the {{% system-name %}} system according to the basic needs of the organization. Please keep in mind that the quality and accuracy of the provided information and data is of utmost importance, so please ensure all details are unambiguous, complete, and correct.
 <table>
@@ -26,8 +27,7 @@ The following is a checklist of the functional and non-functional requirements n
 </tr>
 <tr>
 <td>3</td>
-<td><br />
-<a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1533361337">Provider Users</a> & <a href="https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0">Signatures</a> - List all of the physicians, nurse practitioners, physician assistants, and any additional clinician with an NPI, DEA, and/or state license, in the spreadsheet. All clinicians intending to prescribe or order from the {{% system-name %}} system must also perform a signature capture, to upload into the system for electronic signature needs. Please print and return the linked form, also.</td>
+<td><a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1533361337">Provider Users</a> & <a href="https://drive.google.com/open?id=1CofebAnz02InLwE8PxHVRFBfvRbzoSjBajFEk9RjaJ0">Signatures</a> - List all of the physicians, nurse practitioners, physician assistants, and any additional clinician with an NPI, DEA, and/or state license, in the spreadsheet. All clinicians intending to prescribe or order from the {{% system-name %}} system must also perform a signature capture, to upload into the system for electronic signature needs. Please print and return the linked form, also.</td>
 </tr>
 <tr>
 <td>4</td>
@@ -55,12 +55,10 @@ The following is a checklist of the functional and non-functional requirements n
 </tr>
 <tr>
 <td>10</td>
-<td><br />
-<a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1973161138">Schedule Resources</a> - List all schedule resources (e.g., physician, lab, radiology tech, etc.), or all resources found within the Practice Management (PM) system, needing a schedule built in the {{% system-name %}} system. Include any and all locations associated with the schedule resource, as well as any type of recurring vacations, time-off, or out-of-office time. Also, detail any appointment types needing included in or excluded from each schedule resource.</td>
+<td><a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1973161138">Schedule Resources</a> - List all schedule resources (e.g., physician, lab, radiology tech, etc.), or all resources found within the Practice Management (PM) system, needing a schedule built in the {{% system-name %}} system. Include any and all locations associated with the schedule resource, as well as any type of recurring vacations, time-off, or out-of-office time. Also, detail any appointment types needing included in or excluded from each schedule resource.</td>
 </tr>
 <tr>
 <td>11</td>
-<td><br />
-<a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1682651183">Scheduled Jobs</a> - Provide all scheduled jobs needed to simplify and streamline arbitrary processes in the {{% system-name %}} system. Provide the description and report criteria for each scheduled job, along with its start time and rate of recurrence. Also, provide an email to whom reports will be delivered, per scheduled job.</td>
+<td><a href="https://docs.google.com/spreadsheets/d/1a8espCwCKr2iq57b9DSzd-8Kuu-5wP1WwOzr4fSsqSw/edit#gid=1682651183">Scheduled Jobs</a> - Provide all scheduled jobs needed to simplify and streamline arbitrary processes in the {{% system-name %}} system. Provide the description and report criteria for each scheduled job, along with its start time and rate of recurrence. Also, provide an email to whom reports will be delivered, per scheduled job.</td>
 </tr>
 </table>

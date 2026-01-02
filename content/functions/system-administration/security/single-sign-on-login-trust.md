@@ -2,7 +2,7 @@
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Single Sign-On Login Trust'
 date: '2025-07-23T14:53:01.471Z'
-version: 213
+version: 235
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'single-sign-on-sso.md'
   - 'saml-based-single-sign-on.md'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following instructions provide users with the necessary procedural details to enable single sign-on (SSO) via [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) in the {{% system-name %}} system.
 
@@ -34,7 +34,7 @@ For additional client requirements information, see our [SAML-based SSO document
 
 {{% system-name %}} is able to publish it's SAML SP metadata in three ways: an Internet URL, a file download which may be emailed to the client or block of text which may be copy/pasted in communications to the client.
 
-![](../single-sign-on-login-trust.assets/ec8f773bd17136ba2f4591319fc7f746.png)
+![](./single-sign-on-login-trust.assets/ec8f773bd17136ba2f4591319fc7f746.png)
 
 Once this metadata has been shared with them, most IDPs will then share their metadata with us.
 
@@ -42,19 +42,19 @@ Once this metadata has been shared with them, most IDPs will then share their me
 
 The IDP metadata file will be imported into the {{% system-name %}} system via the Import Metadata link in the Login Trusts editor.
 
-![](../single-sign-on-login-trust.assets/8a941ddf026b2fe6f2337b4a9261149b.png)
+![](./single-sign-on-login-trust.assets/8a941ddf026b2fe6f2337b4a9261149b.png)
 
 The relevant data will be extracted from the metadata file and displayed in the Add Login Trust screen, as described below in Login Trust Fields.
 
-![](../single-sign-on-login-trust.assets/c94bfa4f462f8f07512a0851dd30858a.png)
+![](./single-sign-on-login-trust.assets/c94bfa4f462f8f07512a0851dd30858a.png)
 
 Verify the information and then click the Submit button at the bottom.
 
-![](../single-sign-on-login-trust.assets/c6b03998c837ea7301b199f9c8147272.png)
+![](./single-sign-on-login-trust.assets/c6b03998c837ea7301b199f9c8147272.png)
 
 The SAML IDP will now be available on the system's Login page under the Remote Log In heading.
 
-![](../single-sign-on-login-trust.assets/d014dffed34b89b8324b7fb00b2539c1.png)
+![](./single-sign-on-login-trust.assets/d014dffed34b89b8324b7fb00b2539c1.png)
 
 ## Removing the Login page
 
@@ -62,13 +62,13 @@ Once an SSO connection has been configured and tested, the  login page can now 
 
 In the listing of the Login Trusts editor, there is an option for "Make Default". This link is used to disable the login page and direct all authentication requests to that specific SSO server.
 
-![](../single-sign-on-login-trust.assets/9f69feed9741896e1942c8dbe414ff9c.png)
+![](./single-sign-on-login-trust.assets/9f69feed9741896e1942c8dbe414ff9c.png)
 
 ## Login Trust Fields
 
 The {{% system-name %}} **Add Login Trust** screen displays the following options:
 
-![](../single-sign-on-login-trust.assets/074115e061da6d47093885424d8d46fc.png)
+![](./single-sign-on-login-trust.assets/074115e061da6d47093885424d8d46fc.png)
 
 The following list provides details and insight on using the fields available on the Add Login Trust screen:
 
@@ -156,11 +156,11 @@ To create a login trust for SSO:
 3. Navigate to the <strong>Control Panel</strong> on the left side menu.
 4. Click the <strong>Login Trusts</strong> tab.
 
-    ![](../single-sign-on-login-trust.assets/37e061e9810bc8a611cbc3f4417cec8d.png)
+    ![](./single-sign-on-login-trust.assets/37e061e9810bc8a611cbc3f4417cec8d.png)
 5. Click the <strong>Add Login Trust</strong> link, in the top-right of the page.
 6. In the received metadata file, search for <strong>entityID</strong>, to locate the <strong>Domain</strong>.
 
-    ![](../single-sign-on-login-trust.assets/3bac18e766b99b1015cc7c94af23c2d7.png)
+    ![](./single-sign-on-login-trust.assets/3bac18e766b99b1015cc7c94af23c2d7.png)
 7. Enter that URL into the <strong>Domain</strong> field.
 8. Enter the appropriate client information into the <strong>Description</strong> field.
 9. Select the <strong>Allow SAML requests from this domain</strong> checkbox.
@@ -191,7 +191,7 @@ During the certificate update process, **SSO authentication will be temporarily 
 {{% info %}}
 To access the Login Trust section, the user must have the Manage Login Trust role.
 
-![](../single-sign-on-login-trust.assets/8cced263aef44e59008bd9429e161012.png)
+![](./single-sign-on-login-trust.assets/8cced263aef44e59008bd9429e161012.png)
 {{% /info %}}
 
 Starting with **RC202409**, the certificate associated with a login trust can be updated in two ways:
@@ -204,7 +204,7 @@ Starting with **RC202409**, the certificate associated with a login trust can be
 4. Locate the <strong>Signature Verification</strong> section.
 5. Paste the updated certificate content (typically in PEM format).
 
-![](../single-sign-on-login-trust.assets/3ffb12f26609622bf9c17a3cb2d779a2.png)
+![](./single-sign-on-login-trust.assets/3ffb12f26609622bf9c17a3cb2d779a2.png)
 
 6. Click the Submit button.
 
@@ -218,14 +218,14 @@ Starting with **RC202409**, certificate updates can be streamlined by importing 
 
 If the certificate contained in the metadata is identical to the currently configured one, the system will return the message:
 
-![](../single-sign-on-login-trust.assets/692afaf69d305b3b2c0798e958d2db36.png)
+![](./single-sign-on-login-trust.assets/692afaf69d305b3b2c0798e958d2db36.png)
 
 If the certificate differs, a comparison view will be presented, showing the current and new certificate side by side. It is important to verify the certificate's validity period to ensure that the new certificate is active and correctly configured.
 
-![](../single-sign-on-login-trust.assets/af9f841555138b66d672cb9173f30f6b.png)
+![](./single-sign-on-login-trust.assets/af9f841555138b66d672cb9173f30f6b.png)
 
 4. Click the <strong>Update public key</strong> button.
 
-![](../single-sign-on-login-trust.assets/a15d9ec23f2ae62392e95d3c14e34333.png)
+![](./single-sign-on-login-trust.assets/a15d9ec23f2ae62392e95d3c14e34333.png)
 
 The certificate from the metadata will automatically replace the existing public key.

@@ -2,13 +2,13 @@
 id: '1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
 title: 'Viewing financial reports'
 date: '2021-02-18T19:11:41.072Z'
-version: 25
+version: 28
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - '../reports/using-datavis-grids-data-tools.md'
 source: 'https://drive.google.com/open?id=1Cj8xqTUIVxjRuCJPKOHbaYyKc2vdb-Rbm6NVzXHLX64'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 If you customize a report using DataVis Grids Data Tools, the customized report will only be available to you.
 

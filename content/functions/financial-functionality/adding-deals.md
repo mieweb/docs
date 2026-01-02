@@ -1,20 +1,20 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
-date: '2025-04-07T17:12:00.463Z'
-version: 104
-lastAuthor: 'anichols'
+date: '2025-08-27T14:00:47.146Z'
+version: 156
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SOLRKMFP'
 source: 'https://drive.google.com/open?id=1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 A Deal is created on an Employer Organization chart.
 
 Navigate to the Employer Organization chart (the chart that the EH client is entering into business with) and click the Add Deal link.
 
-![](../adding-deals.assets/bb48f9db6ee45c9bafbf511fd3bf87fb.png)
+![](./adding-deals.assets/bb48f9db6ee45c9bafbf511fd3bf87fb.png)
 
 ## Deal Encounter
 
@@ -24,13 +24,13 @@ Complete each section of the Deal.
 
 The Employer Organization will default to the EO for which the deal is being created. Use the autocomplete to enter the Provider Organization (the EH Client), then proceed to the next section. Adding a PO is **REQUIRED**.
 
-![](../adding-deals.assets/8f6c39aa4df15617df2a543853dec8c6.png)
+![](./adding-deals.assets/8f6c39aa4df15617df2a543853dec8c6.png)
 
 ### Contacts
 
 Enter the Signatory for both the EO and PO **(REQUIRED)**.
 
-![](../adding-deals.assets/3cc3b6d414bf565fc3a7df29ec3a03dc.png)
+![](./adding-deals.assets/3cc3b6d414bf565fc3a7df29ec3a03dc.png)
 
 In the ‘Name' field, type the name of the contact for the employer or provider organization. The system shows matching contacts. Select the contact.
 
@@ -40,7 +40,7 @@ In the ‘Role' field, select ‘Signatory Contact'. Select the ‘Add' button. 
 
 Enter a Title, Start Date and End Date. These items are **REQUIRED**. Before the deal is considered active, the Deal must also indicate that the contract has been executed (Executed=Yes). In some client configuration scenarios, a deal may be created, but an official contract between the two has not yet been finalized. A Deal can be made and set to Executed=No, meaning this Deal has not been executed yet and not "live" in the system. Executed=Yes is **REQUIRED** before the deal is recognized in the system.
 
-![](../adding-deals.assets/3d7b57aa7d7e17c9e7467e16b3c73057.png)
+![](./adding-deals.assets/3d7b57aa7d7e17c9e7467e16b3c73057.png)
 
 Title:
 
@@ -64,11 +64,11 @@ In the Executed field, select Yes or No to indicate if the deal is in effect bet
 
 In the Charges section, select ‘Show/Hide Quick Lists'. Quick List appears on the right hand side of the Charges section. Then click the ‘+' icon to add procedures/orders and pricing for items covered in the Deal.
 
-![](../adding-deals.assets/cb103d05a58810ccb868268815e77050.png)
+![](./adding-deals.assets/cb103d05a58810ccb868268815e77050.png)
 
 The Add Charge window appears. Enter in each field as appropriate.
 
-![](../adding-deals.assets/2b1d09cb46cbc12a36eab5e60300e690.png)
+![](./adding-deals.assets/2d0db55937fdd79ab926e0ddb3ad1773.png)
 
 * In the Date field, enter the month, day and year on which the charge is created or select Today to use today's month, day, and year or select Calendar to select the month, date, and year from a calendar.
 * In the ‘Funding Source' field, select an account against which this charge will be made. Please note that this will not be passed to OpenPM for billing purposes.
@@ -81,11 +81,12 @@ The Add Charge window appears. Enter in each field as appropriate.
 * In the ‘Price' field, type the contracted price of the item as dollars and cents.
     * Note: a system default for pricing can be loaded on the procedure/order codes in the Orders-List Editor.
 * In the ‘Memo' field, type any information applicable to the item not otherwise contained in the window.
+* The Recurring Charge check box is used when utilizing the Ledger in Enterprise Health only. This box is used to indicate the item entered is a capitated service and not fee for service.
 * To save this item and add more, select Add Another. Otherwise, select Save.
 
 Once all items have been added to the Charges section, the complete list of the procedures, associated conditions, and pricing will display. Hover over the items to view, edit, delete or rearrange order icons.
 
-![](../adding-deals.assets/f19e6ee0104ee38108ddcce5d81ec5a4.png)
+![](./adding-deals.assets/e4c6e1d739ada6e86a2e18aa724a589d.png)
 
 ### Documents
 
@@ -99,9 +100,9 @@ Once all required information has been added in the Deal and the Deal executed f
 
 A summary of Executed Deals created for each employer group can be viewed from the Deal Summary Tab.  The Deal Summary tab displays a list of all active deals for the employer (EO). The Deal number, title, start date and the orders and their respective pricing within the Deal.
 
-![](../adding-deals.assets/a076a705ccfa40d4a0eac3a8cdefc1df.png)
+![](./adding-deals.assets/a076a705ccfa40d4a0eac3a8cdefc1df.png)
 
-![](../adding-deals.assets/b8cb4242876b115ec9ef2972698670c2.png)
+![](./adding-deals.assets/b8cb4242876b115ec9ef2972698670c2.png)
 
 ## Learning Management System
 

@@ -2,12 +2,12 @@
 id: '1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
 title: 'Closing Encounters from the Dictation Module'
 date: '2020-03-12T21:01:32.907Z'
-version: 42
+version: 45
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HC0QyxOMdKhMM2oAL9BCEmOVx69TghdNiBgoDxJVF7A'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Transcriptionists can have the right to close & archive encounters after they are done with the dictation attached to the encounter. This is a system setting that is off by default and must be turned on by your system administrator. Transcriptionists can archive & close encounters when done so that it helps the workflow or work load for the physician and the physician doesn't have to go back in and archive/close it when transcription is done.
 
@@ -19,11 +19,11 @@ Once a transcriptionist has completed all sections of the encounter dictation, t
 2. "Archive and Close Encounter" which will close the encounter exam. The final document is then sent to E-sign, Tasking or simply uploaded to the patients chart (this is a practice preference and automatic tasks or automatic e-sign requests are set up by the implementers or super-users)
 3. OR "Close" the encounter dictation, which will mark the dictation as complete.
 
-![](../closing-encounters-from-the-dictation-module.assets/16eacd5b5a83e641425617bbe7b1a4b5.png)
+![](./closing-encounters-from-the-dictation-module.assets/16eacd5b5a83e641425617bbe7b1a4b5.png)
 
 If the user/physician created a *preliminary archive*, the options will appear below. The transcriptionist would click the *Re-Archive & close encounter* option to close & archive it.
 
-![](../closing-encounters-from-the-dictation-module.assets/ea76a6966dfadc5546ea2dbb597f090a.png)
+![](./closing-encounters-from-the-dictation-module.assets/ea76a6966dfadc5546ea2dbb597f090a.png)
 
 The transcriptionist will be instructed by the Implementer, practice super-users or administrators as which option (*Create Preliminary Archive* (or *Revision Preliminary Archive)* or *Archive and Close Encounter* (*or Re-Archive & Close Encounter)* should be used. This is determined by office work and every practice is unique.
 
@@ -31,7 +31,7 @@ If the transcriber clicks the **Create Preliminary Archive** or the **Archive an
 
 If you don't wish to do a preliminary archive or archive/close the encounter, then you can just click close. The user/physician then has to close & archive the encounter from their open encounters worklist.
 
-![](../closing-encounters-from-the-dictation-module.assets/2c58aaa7985778e66e16b55cf86251e4.png)
+![](./closing-encounters-from-the-dictation-module.assets/2c58aaa7985778e66e16b55cf86251e4.png)
 
 Once the **Close** link has been clicked the transcriber can then click the X in the upper right hand corner of the screen and close the VIEW of the completed document. The transcriptionist will then return to the Unassigned/All Pending tab in the Dictation Module.
 
@@ -49,6 +49,6 @@ See Encounter-Editing Dictation documentation for editing dictations. Should the
 2. "Re-Archive and Close Encounter", if she archives and closes the encounter for the practice.
 3. Simply "Close" the encounter dictation and mark it as complete.
 
-![](../closing-encounters-from-the-dictation-module.assets/244b8eed44795f7b503017be7fa4aa7f.png)
+![](./closing-encounters-from-the-dictation-module.assets/244b8eed44795f7b503017be7fa4aa7f.png)
 
 If the "Revision Preliminary Archive" or ‘Re-Archive and Close Encounter" are selected, the transcriptionist will follow the same procedure (clicking the **Close** link, verifying the document was successfully created and then closing out of that screen) before continuing with the next job.

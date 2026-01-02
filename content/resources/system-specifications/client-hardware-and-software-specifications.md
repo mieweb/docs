@@ -1,13 +1,14 @@
 ---
 id: '1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
 title: 'Client Hardware and Software Specifications'
-date: '2023-12-10T04:46:50.515Z'
-version: 84
-lastAuthor: 'wreiske'
+date: '2025-10-03T16:50:23.838Z'
+version: 205
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/'
 source: 'https://drive.google.com/open?id=1CTTLtSkn62lO5ymmKxUdGd7K1TmU70E-wYZhPt6vpIA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Hardware and Software Requirements
 
@@ -20,7 +21,7 @@ Practice Requirements These hardware requirements apply regardless of practice s
 ### Minimum
 
 * Processor: Intel Core i5 (7th generation or newer) or AMD Ryzen 5 (2nd generation or newer)
-* RAM: 4 GB
+* RAM: 8 GB
 * Screen Resolution: 1920 x 1080
 * Operating System: Windows 11 (Pro or Enterprise editions recommended)
 
@@ -28,7 +29,7 @@ Practice Requirements These hardware requirements apply regardless of practice s
 
 ### Minimum
 
-* Operating System: macOS Catalina (10.15) or later
+* Operating System: macOS versions supported by Apple
 
 ## Internet Browser
 
@@ -39,18 +40,6 @@ Supported browsers:
 * Safari (latest version)
 * Opera (latest version)
 * Microsoft Edge (latest version)
-
-## ActiveX
-
-While most {{% system-name %}} features are accessible through modern browsers, certain functionalities at one time required the use of ActiveX controls. These included:
-
-* Dictation controls
-* Advanced diagnostic viewing of DICOM images
-* Batch indexing of chart contents
-
-Microsoft Edge running in compatibility mode is recommended for users requiring these features.
-
-Since June of 2022 {{% system-name %}} has replaced all functions that required ActiveX with software installed on the workstation or by using hardware interfaces in the browser.
 
 ## Mobile Devices
 
@@ -73,7 +62,7 @@ Since June of 2022 {{% system-name %}} has replaced all functions that required 
 
 ## Devices
 
-Peripheral workstation devices used in conjunction with the {{% system-name %}} application include:
+Peripheral workstation devices used in conjunction with the {{% system-name %}} application include the following. Some may require a system tray app to interface with. See the [Interfaces documentation](https://docs.enterprisehealth.com/functions/system-administration/interfaces/) for more details
 
 * Printers
 * High Speed and ADF Scanners (TWAIN Compliant)

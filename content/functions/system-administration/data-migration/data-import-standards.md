@@ -1,9 +1,9 @@
 ---
 id: '1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
 title: 'Data Import Standards'
-date: '2022-04-04T13:01:42.605Z'
-version: 158
-lastAuthor: ''
+date: '2025-12-01T22:12:50.653Z'
+version: 183
+lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1WqdIEGETaoa0RFPUazvKp5JfX-gYEIfzyQ8jtApwFq8/edit?usp=sharing'
@@ -13,7 +13,7 @@ links:
   - 'http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following columns display in standardized data import specifications:
 

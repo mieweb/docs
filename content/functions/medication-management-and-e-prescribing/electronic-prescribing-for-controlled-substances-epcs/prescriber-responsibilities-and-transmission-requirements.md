@@ -1,9 +1,9 @@
 ---
 id: '1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
 title: 'Prescriber Responsibilities & Transmission Requirements'
-date: '2020-03-15T21:54:15.607Z'
-version: 42
-lastAuthor: ''
+date: '2025-11-11T15:28:23.169Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm'
@@ -12,7 +12,7 @@ links:
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_22.htm'
   - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm'
 source: 'https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 As a CEHRT with EPCS functionality, it is expected that all transmission requirements are adhered to, as outlined under [Section 1311.170](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170) of the Title 21 Code of Federal Regulations Part 1311, Subpart C; however, it is also necessary for prescribers to understand their responsibilities associated with EPCS functionality, meaning all responsibilities, as outlined under the following sections, specifically:
 
@@ -66,7 +66,7 @@ d) A registrant's permission to indicate controlled substances are ready to sign
 3. The individual practitioner's DEA registration is terminated, revoked, or suspended.
 4. The individual practitioner is no longer authorized to use the electronic prescription application (e.g., when the individual practitioner leaves the practice).
 
-## 1311.150(c) - [**Additional Requirements for Internal Application Audits**](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#150)
+## [1311.150(c) - Additional Requirements for Internal Application Audits](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#150)
 
 c) Any person designated to set logical access controls under Section  or [1311.130](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#130) must determine whether any identified auditable event represents a security incident that compromised or could have compromised the integrity of the prescription records. Any such incidents must be reported to the electronic prescription application provider and the Administration, within one business day.
 
@@ -84,7 +84,7 @@ e) The contents of the prescription required by [Part 1306](https://www.deadiver
 
 f) An electronic prescription must be transmitted from the practitioner to the pharmacy in its electronic form. At no time may an intermediary convert an electronic prescription to another form (e.g., facsimile) for transmission.
 
-## 1311.305(f,g) - [**Recordkeeping**](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#305)
+## [1311.305(f,g) - Recordkeeping](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#305)
 
 f) If a registrant changes application providers, the registrant must ensure that any records subject to this part are migrated to the new application or are stored in a format that can be retrieved, displayed, and printed in a readable format.
 

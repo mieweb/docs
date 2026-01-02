@@ -1,25 +1,25 @@
 ---
 id: '1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c'
 title: 'OpenPM Export Demographics'
-date: '2024-07-16T19:09:09.870Z'
-version: 48
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:43:09.387Z'
+version: 62
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Demographics
 
-**How To Run:**
+### How To Run:
 
 You must put a 1 in enter_1_to_run field
 
-#### Description:
+### Description:
 
 The "Demographics" report is designed for exporting patient demographic data for creation of the OpenPM interface. This report is essential for creating a comprehensive interface for OpenPM, as it includes vital patient information necessary for various medical and administrative purposes.
 
-#### Report Fields and Descriptions:
+### Report Fields and Descriptions:
 
 1. <strong>PatientID</strong>: Unique identifier for each patient within the system.
 2. <strong>Chartno</strong>: Placeholder for patient chart number (currently not populated).
@@ -60,4 +60,4 @@ The "Demographics" report is designed for exporting patient demographic data for
 28. <strong>ReminderPreference</strong>: Placeholder for reminder preference (currently not populated).
 29. <strong>Language</strong>: The primary language spoken by the patient.
 
-![](../openpm-export-demographics.assets/594ce5f65334dfb507e3ebde252ab39c.png)
+![](./openpm-export-demographics.assets/594ce5f65334dfb507e3ebde252ab39c.png)

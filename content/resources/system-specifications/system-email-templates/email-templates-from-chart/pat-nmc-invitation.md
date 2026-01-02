@@ -1,18 +1,17 @@
 ---
 id: '1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
 title: 'Pat NMC Invitation'
-date: '2020-03-10T14:07:47.497Z'
-version: 30
-lastAuthor: 'aquandt'
+date: '2025-11-13T19:07:02.084Z'
+version: 38
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0'
   - 'mailto:support@nomoreclipboard.com'
 source: 'https://drive.google.com/open?id=1xnzcJMgmvCW1KKK7KZ2jEmtQ6Slpq8wLnJc4e8Wb1e0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type&old_module=Email&old_name=Pat+NMC+Invitation&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
@@ -41,7 +40,7 @@ To create a NoMoreClipboard.com Online Personal Health Record please follow the 
 2. In the create a new account section enter a username, email address, and secure password.
 3. Review and Accept the Terms and Conditions. Then click the "Create Account" button to proceed.
 4. In the "Member Activation Code" field enter L9SYXUSCS6CY .  
-    ![](../pat-nmc-invitation.assets/916f864aede06dde73af55788aae7eb0.png)
+    ![](./pat-nmc-invitation.assets/916f864aede06dde73af55788aae7eb0.png)
 5. Complete any remaining fields on the account registration screen and click on the "Submit" button to proceed to your personal health record.
 
 If you have any questions regarding your NoMoreClipboard account please contact us toll free at (877) 643-3463 or by email at [support@nomoreclipboard.com](mailto:support@nomoreclipboard.com).

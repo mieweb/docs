@@ -1,13 +1,13 @@
 ---
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
-date: '2025-05-08T16:13:57.092Z'
-version: 106
-lastAuthor: 'auhrick'
+date: '2025-11-14T13:08:22.668Z'
+version: 116
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The Encounter section is the first section in every visit encounter. This information contained in the section includes patient/employee identifiers, performing provider, location and billing information.
 
@@ -15,13 +15,13 @@ The Encounter section is the first section in every visit encounter. This inform
 
 View mode is the entry/edit mode collapsed. The view mode displays a condensed summary of data entered in edit mode. The section displays patient/employee identifiers, performing provider, service location, employer, the document name for which this encounter will create upon archive and close, and billing/payer information.
 
-![](../encounter-section.assets/3b5b3f1bb2ccf6176662c4f20341d6fd.png)
+![](./encounter-section.assets/3b5b3f1bb2ccf6176662c4f20341d6fd.png)
 
 ## Encounter Edit Mode
 
 Use the Edit icon or simply click on the gray header bar for the Encounter section to open the section in entry/edit mode.
 
-![](../encounter-section.assets/ae016977aad07112a0eb242d3b89a9dd.png)
+![](./encounter-section.assets/ae016977aad07112a0eb242d3b89a9dd.png)
 
 ### Employee/Patient Identifiers
 
@@ -43,11 +43,11 @@ Use the Edit icon or simply click on the gray header bar for the Encounter secti
 
 **Employer:** If an employer is listed in the patient's contact relationships table, then the Employer will default in the **Employer** field. If more than one employer relationship is defined, then the user may select the appropriate employer from the drop down. If no employer is defined the user will see *No employer found! Click here to add one!*
 
-![](../encounter-section.assets/47d04da09b81e900355c348ad6649b75.png)
+![](./encounter-section.assets/47d04da09b81e900355c348ad6649b75.png)
 
-**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an *Employer Organization* has been created for *Self Pay* and/or for *Commercial Pay*. These are typically configured for clients at the time the interface is installed.
+**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an *Employer Organization* chart has been created for *Self Pay* and/or for *Commercial Pay*. These are typically configured for clients at the time the interface is installed.
 
-![](../encounter-section.assets/87619c7638438672c73169908666b4b5.png)
+![](./encounter-section.assets/87619c7638438672c73169908666b4b5.png)
 
 **Payer:** The **Payer** is an *Account* chart that is linked to the **Employer Organization** chart. Payers will only display for the Employer selected in the Employer field.
 

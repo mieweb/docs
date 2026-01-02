@@ -2,12 +2,12 @@
 id: '1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
 title: 'Portal Management'
 date: '2021-04-27T18:15:34.584Z'
-version: 91
+version: 102
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
   - 'portal-management/patient-portal-first-time-setup-and-configuration.md'
-  - 'portal-management/employer-portal-setup.md'
+  - 'portal-management/supervisor-portal-setup.md'
   - 'portal-management/nomoreclipboard.md'
   - 'portal-management/applicant-portal.md'
   - 'portal-management/kiosk.md'
@@ -15,7 +15,7 @@ links:
   - 'portal-management/employer-employee-second-portal-setup.md'
   - 'portal-management/messages-from-nmc-user.md'
 source: 'https://drive.google.com/open?id=1LKzU8ETTRlQ5idTGXfBDZybkugKjy5x5zy0JbKFyM94'
-wikigdrive: '1f3be24cb6d0e684833cf8ee6161c6af8024a3bd'
+wikigdrive: 'v2.15.30'
 ---
 With a variety of online portal options, {{% system-name %}} offers patients and clinicians the ability to quickly and easily send correspondences, request/cancel appointments, review results and clinical documentation, and so much more. The {{% system-name %}} system emphasizes engagement and tracking, offering easy access to individual due lists, work status, and health surveillance via its certified portal options. Users can schedule appointments, provide information, and complete questionnaires, easily maintaining overall wellness and work certifications. Check out all the details for each of the portal options, below.
 
@@ -23,7 +23,7 @@ With a variety of online portal options, {{% system-name %}} offers patients and
 
 With the Patient Portal, sometimes used and referred to as an Employee Portal, allows patients and clinicians, as well as employees and occupational health specialists, to communicate freely, anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more!
 
-[**Employer Portal**](portal-management/employer-portal-setup.md)
+[**Employer Portal**](portal-management/supervisor-portal-setup.md)
 
 The Employer Portal, often referred to as the Supervisor Portal, Agency Portal, or Leadership Portal, streamlines employee engagement and tracking, offering easy access to due lists, employee work status, and health surveillance. Supervisors can not only view their personal information, but they can also view their employees' restrictions, lost time, work status, or any additional information custom to the business needs.
 

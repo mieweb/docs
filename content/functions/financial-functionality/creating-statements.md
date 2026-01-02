@@ -2,14 +2,14 @@
 id: '1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
 title: 'Creating Statements'
 date: '2021-02-18T16:19:45.481Z'
-version: 27
+version: 30
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
   - 'closing-and-posting-transactions.md'
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1guBfPHlZtquQes746UnDcPSNkBLRH5v9ZygrzIQtl98'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Before creating statements, [close and post transactions](closing-and-posting-transactions.md).
 

@@ -1,26 +1,25 @@
 ---
 id: '1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
 title: 'Panel Membership Import Tool'
-date: '2020-03-17T03:14:54.850Z'
-version: 67
-lastAuthor: ''
+date: '2025-11-12T16:50:45.204Z'
+version: 79
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-tab.md'
-  - '../../health-surveillance/health-surveillance-panels-add-memberships-manually.md'
-  - 'https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin'
-  - 'https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import'
+  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
 source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
 
 The Panel Membership Import Tool uses partitions and medical record numbers (MRNs) to match patients' panel information to their charts. Therefore, work with your MIE Implementer, as needed, to import panel memberships, so that all data and columns are captured correctly, before importing via this tool.
 
 {{% warning %}}
-Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](../../health-surveillance/health-surveillance-panels-add-memberships-manually.md); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
+Only use this one-time import tool if staff is going to be manually managing panel memberships on every employee (i.e., every patient being imported this method) from this point forward. When using the Panel Membership Import Tool in {{% system-name %}} , every membership gets inserted as **Explicit**. This method is essentially the same as the [manual-add method](https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/); however, it allows users to add several memberships, en masse, using the provided template. Please be aware, though, that this will add all memberships as Explicit.
 
-![](../panel-membership-import-tool.assets/5cab3522106766df005f29e69b6fc35d.png)
+![](./panel-membership-import-tool.assets/5cab3522106766df005f29e69b6fc35d.png)
 {{% /warning %}}
 
 The following page defines data and fields that may be imported using the panel membership import tool. It is valuable to recognize the following terminology as it pertains to {{% system-name %}} systems:
@@ -97,40 +96,40 @@ The following page defines data and fields that may be imported using the panel 
 
 2. Using the table, above, determine the data to be imported. Starting with the PARTITION field, enter all required and desired data, verifying required data is present. Note that each row represents a panel membership record. Below is a screenshot of the Panel Membership Data File Example for guidance.
 
-![](../panel-membership-import-tool.assets/3fd82738893d6be993e61af6beb2add7.png)
+![](./panel-membership-import-tool.assets/3fd82738893d6be993e61af6beb2add7.png)
 
 3. Save the file as CSV format.
 
 ## Upload Panel Membership Data CSV File
 
 1. Login as a user with administrator privileges.
-2. Navigate to the [Control Panel](https://system/f=layout&module=Admin&name=Home&tabmodule=admin&t=Admin) from the side menu.
+2. Navigate to the Control Panel from the side menu.
 
-![](../panel-membership-import-tool.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
+![](./panel-membership-import-tool.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
-3. Select the [Data Import](https://system/?f=admin&s=wc_data_import&tabmodule=admin&tabselect=Data+import) tab.
+3. Select the [Data Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/) tab.
 
-![](../panel-membership-import-tool.assets/197af282190b350e97494ffba0636d29.png)
+![](./panel-membership-import-tool.assets/197af282190b350e97494ffba0636d29.png)
 
 4. Select <strong>Panel Membership CSV API</strong> from the drop-down menu and click <strong>Go</strong>.
 
-![](../panel-membership-import-tool.assets/54682425d132f1d1efa93de9f3f35eee.png)
+![](./panel-membership-import-tool.assets/54682425d132f1d1efa93de9f3f35eee.png)
 
 5. Using the provided link, download the template and fill in the spreadsheet data. Save the file as CSV format.
 
-![](../panel-membership-import-tool.assets/7cd2d5ac9362a60912c63a7f6154c069.png)
+![](./panel-membership-import-tool.assets/7cd2d5ac9362a60912c63a7f6154c069.png)
 
 {{% tip %}}
 Use the help bubble to see what panel IDs your {{% system-name %}} system has to populate into the spreadsheet template for import. *This screenshot is an example. Do not use this Panel ID ordering for your system.*
-![](../panel-membership-import-tool.assets/4abf1c02d7137491533e63bef4127265.png)
+![](./panel-membership-import-tool.assets/4abf1c02d7137491533e63bef4127265.png)
 {{% /tip %}}
 
 6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.
 
-    ![](../panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
+    ![](./panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Troubleshooting

@@ -1,20 +1,22 @@
 ---
 id: '1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
 title: 'End-of-Year Is Here: Keeping Up with CMS'
-date: '2024-05-21T18:53:11.822Z'
-version: 45
+date: '2025-11-14T14:58:17.483Z'
+version: 69
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/participation-lookup'
   - '../../functions/quality-of-care/quality-reporting-enrollment.md'
   - '../../functions/quality-of-care/create-file-for-submission.md'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
   - 'https://qpp.cms.gov/login'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
+  - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
   - 'https://www.youtube.com/watch?v=ZhM3KiojPjY&feature=youtu.be'
   - 'https://qpp.cms.gov/mips/mips-value-pathways'
-  - '../communications.md'
 source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 It is that time of year, again! Quality reporting is upon us, and {{% system-name %}} wants to keep you informed of the basics:
 
@@ -39,9 +41,9 @@ With the 2019 performance year ending December 31st, it is important to ensure y
 
 As noted, enrollment is as simple as first checking your [participation status](https://qpp.cms.gov/participation-lookup). Once participation is confirmed, follow these [enrollment steps](../../functions/quality-of-care/quality-reporting-enrollment.md):
 
-1. Navigate to the {{% syslink "Quick View" "func=omniscope" %}} from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
+1. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
     1. If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
-2. Click the {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}} hyperlink to begin the enrollment process.
+2. Click the Enroll hyperlink to begin the enrollment process.
 3. After the page loads, use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 4. If enrolling in a specific program, or one of the sponsored incentive programs, specify the <strong>Start/End Dates</strong> of the intended performance period. Otherwise, leave blank.
 5. Next, from the <strong>Available Measures</strong> table, select <strong>all measures needing to be tracked</strong>, specific to the relevant program(s) opted into by the enrolled provider(s). Filter the columns, as needed.
@@ -53,8 +55,8 @@ As a means to assist with determining the necessary number of measures associate
 
 To begin, perform the following:
 
-1. Navigate to the  {{% syslink "Quick View" "func=omniscope" %}}  from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
-2. Click the  {{% syslink "Enroll" "f=layout&module=MIPS&name=Advanced+Measure+Enrollment&user_id=50&redirect=f%3Domniscope&tabmodule=+" %}}  hyperlink to begin the enrollment process.
+1. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
+2. Click the Enroll hyperlink to begin the enrollment process.
 3. After the page loads, click the <strong>Guided Enrollment</strong> link. The guided process will categorize and group the measures and walk users through the steps and requirements associated with the MIPS program, offered through the Centers for Medicare and Medicaid Services (CMS).
 4. When the page loads, <strong>Instructions</strong> will display at the top of the page. Review these instructions and continue through each section of the program, as appropriate.
 5. Use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
@@ -80,9 +82,9 @@ The following instructions outline the general [process for generating a file](.
 {{% /warning %}}
 
 1. Log into the  {{% system-name %}} system.
-2. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-3. Go to the {{% syslink "Quality of Care" "f=layout&module=reports&name=Quality+of+Care&tabmodule=reports&t=Quality+of+Care" %}} reports and tools.
-4. Under <strong>Tools</strong>, select  {{% syslink "Reporting Document Generator." "f=layout&s=pat&module=MIPS&name=QPPJSON-Generation&t=Quality+of+Care&tabmodule=reports" %}}
+2. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
+3. Go to the [Quality of Care](https://docs.enterprisehealth.com/functions/quality-of-care/) reports and tools.
+4. Under <strong>Tools</strong>, select Reporting Document Generator
 5. The generator allows users to specify reporting years, select specific participants/providers, or limit individual categories from the report, as appropriate. After selecting the appropriate values, click the <strong>Download Reporting Document(s)</strong> button.
 6. When <strong>Download Reporting Document(s)</strong> is clicked, the page will automatically download the appropriate number of files, based on the number of participants specified in the file criteria. If multiple participants are selected, an individual file will be generated for each participant, appending the Provider ID to the filename.
 7. Be sure to <strong>Save</strong> the file(s) to your device.
@@ -139,12 +141,4 @@ Due to the ongoing changes and updates needed for 2020 compliance, {{% system-na
 
 ## Keeping On Keeping On
 
-Stay up-to-date with us! Always check back to our Online Documentation and be sure to review our published [communications](../communications.md) for news and updates, regularly! Otherwise, administrators can view all of our **Latest news** in the {{% system-name %}} system, found under the Administrator Welcome portlet of the Quick View.
-
-{{% only sys="wc" type="INLINE" %}}
-![](../end-of-year-is-here-keeping-up-with-cms.assets/fa1a3653c2955c717aad92f613ca8629.png)
-{{% /only %}}
-
-{{% only sys="eh" type="INLINE" %}}
-![](../end-of-year-is-here-keeping-up-with-cms.assets/83eabd2161bf14c9c793bd2aa10ebb98.png)
-{{% /only %}}
+Stay up-to-date with us! Always check back to our Online Documentation and be sure to review our published communications for news and updates, regularly! Otherwise, administrators can view all of our **Latest news** in the {{% system-name %}} system, found under the Administrator Welcome portlet of the Quick View.

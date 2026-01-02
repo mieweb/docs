@@ -1,16 +1,15 @@
 ---
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
-date: '2025-07-23T16:17:45.270Z'
-version: 378
-lastAuthor: 'anichols'
+date: '2025-11-17T18:52:28.438Z'
+version: 419
+lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
+  - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'
   - 'https://drive.google.com/open?id=1Z0D9BXADNDIrYOJslQLAvLAz-WwvvDkJ'
 source: 'https://drive.google.com/open?id=1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
-markup: 'pandoc'
+wikigdrive: 'v2.15.30'
 ---
 This page provides instructions for retrieving results from the Benson software with , and lists the fields that the interface retrieves.
 
@@ -23,8 +22,8 @@ To begin retrieving results from the audiometer, first perform the test instruct
 To retrieve results for multiple patients:
 
 1. In the Benson software, export the results file
-    a.  Use format: Webchart Data Transfer
-    b.  Select file location
+    * Use format: Webchart Data Transfer
+    * Select file location
 2. Click the Import tab on the left side menu.
 3. Select "Benson Audiogram Data Import" from the dropdown.
 4. Click the Go button.
@@ -33,10 +32,10 @@ To retrieve results for multiple patients:
 7. Select the Location where the tests were performed
 8. Click the Upload button
 9. Verify the expected patients were found and click the Upload button.
-    a.  If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-    b.  If some tests should not be uploaded uncheck the checkbox to the left of the patient.
-    c.  Click the information icon (?) to see all the details of a test.
-    d.  If no tests should be uploaded, close the new window; nothing is saved.
+    * If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
+    * If some tests should not be uploaded uncheck the checkbox to the left of the patient.
+    * Click the information icon (?) to see all the details of a test.
+    * If no tests should be uploaded, close the new window; nothing is saved.
 
 ## Collected Fields
 
@@ -62,16 +61,16 @@ To correctly install and use the audiometer with {{% system-name %}} the followi
 * To get the correct export format a configuration file must be imported into the Benson software
     * The configuration file is available in the Plugins page of the Control Panel in {{% system-name %}}
 
-![](../device-interface-benson-audiometer.assets/62de28659970757f10b439a76974c5b2.png)
+![](./device-interface-benson-audiometer.assets/62de28659970757f10b439a76974c5b2.png)
 
-    * Use "Merge" file option in the Plus Package software
+* Use "Merge" file option in the Plus Package software
 * The import menu is not installed on a default system, it must be added from the menu editor in the Control Panel.
     * To select the options that appear in the dropdown of the import page, add "?f=wc_import&s=edit" to the URL and select the desired options.
 * System setting "Save results automatically" should be set to "0"
 
 ## Related Pages
 
-[Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
+[Devices List](https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/)
 
 ### Configuration File
 

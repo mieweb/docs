@@ -1,15 +1,15 @@
 ---
 id: '1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
 title: 'Activity Log Report'
-date: '2024-10-29T14:14:47.338Z'
-version: 106
+date: '2025-12-10T16:24:11.411Z'
+version: 122
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kGherkQEZsAMDqFYdzHWmlePSKnIhjiReBA8p635AgY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
-To access the Activity Log in the Control tab, ensure you have the necessary security permissions.
+To access the Activity Log in the Control Panel, ensure you have the necessary security permissions.
 
 ## Activity Log
 
@@ -17,11 +17,11 @@ To access the Activity Log in the Control tab, ensure you have the necessary sec
 
 ### Navigate to the Activity Log
 
-Click on the Control tab in the side menu.
+Click on the Control Panel tab in the sidemenu.
 
-Select the Activity Log from the top tab (or access it through the Reports tab).
+Select the *Access* tab from the top tab menu and click on *Activity Log* (or access it through the Reports tab).
 
-![](../activity-log-report.assets/7474b2e06ee53d375a6caaec2af7da97.png)
+![](./activity-log-report.assets/7474b2e06ee53d375a6caaec2af7da97.png)
 
 ### Activity Log Search Criteria
 
@@ -45,7 +45,7 @@ Click SEARCH to display results based on the entered criteria.
 
 If a session_id or both start and end dates are provided, the activity log will be accessible regardless of additional criteria.
 
-![](../activity-log-report.assets/0414b7210cc22d3abf4033d93d920c11.png)
+![](./activity-log-report.assets/0414b7210cc22d3abf4033d93d920c11.png)
 
 There is a lot of audit information given and takes time to understand and read the results. {{% system-name %}} records every click. Please call our helpdesk with any assistance needed.
 
@@ -53,17 +53,17 @@ Continue to search by modifying the search fields, or by clicking CLEAR ALL to s
 
 If you wish to view a specific activity from the results, click **View CGI Data** link in the CGI Data column. When you click View CGI Data it will open the CGI data window on your screen.
 
-![](../activity-log-report.assets/41e4d8aeca78fbebd3b30d8631c4b6fb.png)
+![](./activity-log-report.assets/41e4d8aeca78fbebd3b30d8631c4b6fb.png)
 
 This shows the CGI Data. F is for Function, S is for Subfunction, then it proceeds to state which module and additional details.
 
 The **Hide/Show CGI Query String** link the top will open the cgi query string. You can highlight this string and right click to copy this with your mouse.
 
-![](../activity-log-report.assets/9425de75c5a85c2186b968c951c97b5e.png)
+![](./activity-log-report.assets/9425de75c5a85c2186b968c951c97b5e.png)
 
 After you copy the entire string with your mouse, click CONTROL and N keys on your keyboard to open a *new window* on your computer screen. At the top of the new window that opened up on your computer, type in a question mark **?** at the **end** of the url that shows there. Then after the **?** question mark, right click and *paste* in the cgi query string you copied.
 
-![](../activity-log-report.assets/028496aef9da28dec936c9256960c621.png)
+![](./activity-log-report.assets/028496aef9da28dec936c9256960c621.png)
 
 When the cgi string is pasted in the url (don't forget the ? question mark) then hit ENTER on your keyboard.
 
@@ -79,13 +79,13 @@ You can view failed logins from the Activity Log module.
 
 Simply click View Failed Logins link from the top right corner of the Activity Log Search Criteria screen.
 
-![](../activity-log-report.assets/8167bed2baca2dee80e790889f235fa2.png)
+![](./activity-log-report.assets/8167bed2baca2dee80e790889f235fa2.png)
 
 The Failed Logins Search Criteria fields will display on the screen and below that is all the failed logins.
 
 To narrow down the search, simply enter in information into any of the search criteria fields.
 
-![](../activity-log-report.assets/d2d34bca7689207b6427a529d37b9346.png)
+![](./activity-log-report.assets/d2d34bca7689207b6427a529d37b9346.png)
 
 * <strong>Date:</strong> Must enter a date range to show results for.
 * <strong>IP Address:</strong> Can enter any part of the users IP address by specifying the method from the drop-down.
@@ -102,4 +102,4 @@ Continue to search by modifying the search fields, or by clicking CLEAR ALL to s
 
 User Watch tab is found in Control sidemenu. Users (with security privilege) can view the activity log with a session_id (e.g. via the ‘View Click Log' link on the user watch page).
 
-![](../activity-log-report.assets/0203665d1d530c372f1e27ed8eb151d2.png)
+![](./activity-log-report.assets/0203665d1d530c372f1e27ed8eb151d2.png)

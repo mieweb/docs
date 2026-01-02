@@ -2,7 +2,7 @@
 id: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
 title: 'Adding/Editing Health Surveillance Panels'
 date: '2025-04-10T17:48:53.806Z'
-version: 109
+version: 117
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -11,23 +11,23 @@ links:
   - 'health-surveillance-matrix-descriptions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Users must have security access to be in the Health Surveillance Panel editor. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, find (in the listing) *Health Surveillance* **or** click the HSP tab at the top menu of tabs.
 
-![](../adding-editing-health-surveillance-panels.assets/6c77b977b4a93fd18bba1a84efbaf711.png)
+![](./adding-editing-health-surveillance-panels.assets/6c77b977b4a93fd18bba1a84efbaf711.png)
 
 The listing of current active Panels will display automatically on the screen, in a grouped datavis perspective format. This Health Surveillance tab of the system lists the various configured Health Surveillance Panels (HSPanels) for your overall system.
 
 If you wish to see any panels that are *inactive*, simply click the Show Inactive link in the title Panels at the top.
 
-![](../adding-editing-health-surveillance-panels.assets/491065e442fd5ab71a4387c21dbe05aa.png)
+![](./adding-editing-health-surveillance-panels.assets/491065e442fd5ab71a4387c21dbe05aa.png)
 
 ## Health Surveillance Panel Search
 
 To search for an existing configured health surveillance active panel, scroll on the screen to find the name of the panel.  There are buttons at the bottom to ‘Load All Rows' of the output to see the entire listing of active HSPanels.
 
-![](../adding-editing-health-surveillance-panels.assets/e166445dc3b85e708c2f8a5869c5beb8.png)
+![](./adding-editing-health-surveillance-panels.assets/e166445dc3b85e708c2f8a5869c5beb8.png)
 
 ## Panel Actions/Action Items
 
@@ -39,37 +39,37 @@ Panel Actions on an HSPanel tells {{% system-name %}} what tests/components shou
 
 To view existing configured Panel Actions on a specific HSPanel, simply find the specific HSPanel and click the + plus icon to branch open the configuration of that HSPanel.
 
-![](../adding-editing-health-surveillance-panels.assets/7fecb9e1e795f697b77ac316f5d1bcc4.png)
+![](./adding-editing-health-surveillance-panels.assets/7fecb9e1e795f697b77ac316f5d1bcc4.png)
 
 The individual Panel Actions configured on a specific HSPanel will then be displayed as a branched list below the overall HSPanel name.
 
-![](../adding-editing-health-surveillance-panels.assets/068993b1041a54df4d498ce5fb4a2656.png)
+![](./adding-editing-health-surveillance-panels.assets/068993b1041a54df4d498ce5fb4a2656.png)
 
 The individual Panel Actions can also then be branched open to display some limited configuration of the Panel Action related to Timing and Criteria.  This can be branched open to display by clicking on the + icon of the individual Panel Action item.
 
-![](../adding-editing-health-surveillance-panels.assets/6d74cefd88f9dc420fba4354ebe82d53.png)
+![](./adding-editing-health-surveillance-panels.assets/6d74cefd88f9dc420fba4354ebe82d53.png)
 
 To view more details of the specific Panel Action item configured, simply click the eyeball icon on a specific Panel Action item.
 
-![](../adding-editing-health-surveillance-panels.assets/07afd4d44b5e20098a7e47246c66f32b.png)
+![](./adding-editing-health-surveillance-panels.assets/07afd4d44b5e20098a7e47246c66f32b.png)
 
 That will pop-up the *View Panel Action* window that displays all the configuration on the specific Panel Action item, without being in edit mode for it.  This pop-up shows all the additional configuration details for the Panel Action item.
 
 Once the + icon is clicked, the View Panel Action pop-up window will display all configuration entry details for the specific Panel Action item selected.
 
-![](../adding-editing-health-surveillance-panels.assets/adbbc0836e1565b8eef8b88ec070f27a.png)
+![](./adding-editing-health-surveillance-panels.assets/adbbc0836e1565b8eef8b88ec070f27a.png)
 
 ## Add a New Health Surveillance Panel
 
 To add a new Health Surveillance Panel to the system, simply click the ADD PANEL button.  You must have security permissions to configure HSPanels to the system.
 
-![](../adding-editing-health-surveillance-panels.assets/2329877afaf35a32e3223083c4c6495a.png)
+![](./adding-editing-health-surveillance-panels.assets/2329877afaf35a32e3223083c4c6495a.png)
 
 The *Add Panel* pop-up window will display to configure details of the overall Health Surveillance Panel. This is not where individual components/action items are configured though.  That is done separately and is detailed out in a separate guide [Health Surveillance Panels - Actions](health-surveillance-panels-actions.md).
 
 Fill out the necessary fields for the overall HSPanel to be added to the system.
 
-![](../adding-editing-health-surveillance-panels.assets/34df7090052236a203a1417375f65187.png)
+![](./adding-editing-health-surveillance-panels.assets/34df7090052236a203a1417375f65187.png)
 
 Complete the following fields to add Panels one at a time into the system:
 
@@ -94,7 +94,7 @@ The search results will display below columns on the screen for each panel:
     * Set to 0 to disallow shifting
 * <strong>Exit Alert:</strong> An alert message to display when a member is explicitly removed from this panel.  An alert message to display when a member is about to be removed from this panel manually.
 
-![](../adding-editing-health-surveillance-panels.assets/429de09bebae4fced27dc53841099a05.png)
+![](./adding-editing-health-surveillance-panels.assets/429de09bebae4fced27dc53841099a05.png)
 
 * <strong>Triggering Orders:</strong> Checkmark options of Entry, Exit, Routine and On Demand to define at what point in the person's chart, the company or other regulating agency requires this HSPanel to be completed (when they enter the HSPanel, or when they Exit (are removed) the HSPanel, or Routinely etc.  Note: On Demand is only currently used for random drug screen HSPanel configuration.
     * Choose ways (with or without membership) that users should be able to manually order/evaluate this HSPanel for a chart. <strong></strong>
@@ -106,11 +106,11 @@ Click the SAVE button to save your work.  For more information see [Health Surve
 
 You can edit an existing overall HSPanel by clicking the pencil icon on the name of the specific HSPanel.
 
-![](../adding-editing-health-surveillance-panels.assets/18c4e99a516a4a2518bb72dd6a3ef2e3.png)
+![](./adding-editing-health-surveillance-panels.assets/18c4e99a516a4a2518bb72dd6a3ef2e3.png)
 
 It will pop-up a window to the *Edit Panel* with the fields you can edit.
 
-![](../adding-editing-health-surveillance-panels.assets/a5b54b94b8c8e2535f15d27b0e89fb85.png)
+![](./adding-editing-health-surveillance-panels.assets/a5b54b94b8c8e2535f15d27b0e89fb85.png)
 
 Click the SUBMIT button to save your edits.
 

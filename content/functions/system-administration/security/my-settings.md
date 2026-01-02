@@ -1,14 +1,14 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2025-07-22T13:27:35.407Z'
-version: 797
+date: '2025-08-19T19:26:47.819Z'
+version: 831
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences. Click the question mark help bubble next to each setting to learn more about each individual user preference (available in release 202509 and newer only).
 
@@ -16,13 +16,13 @@ Changes to any of the *My Setting* preferences will only affect you, the logged 
 
 From the *Control* left sidebar menu, find the *My Settings* tab at top. Use drop-down arrows next to each field to select/change your preference. When done with changes, click the *Submit Settings* box at the top or bottom of the screen to save your changes.
 
-![](../my-settings.assets/3139f731ba42603f090479b68c266c26.png)
+![](./my-settings.assets/3139f731ba42603f090479b68c266c26.png)
 
 ## Edit Preferences For
 
 If you have security permission, you can view other user's preference settings and/or edit them. Alternatively, you can view the System Default settings or you can view specific Security Role Default settings.
 
-![](../my-settings.assets/270868e9e5770a7a81bfa13d9f62a8e1.png)
+![](./my-settings.assets/270868e9e5770a7a81bfa13d9f62a8e1.png)
 
 ### Yourself
 
@@ -32,7 +32,7 @@ This field at the top right of My Settings defaults to you (yourself – the log
 
 If you have security permission and want to edit preferences for another user in your system, simply select OTHER USER from the drop-down. A second field named Choose a user: will appear where you are to start typing in the name of the other user. It will auto-complete and give you choices/matches of users in your system.
 
-![](../my-settings.assets/ffeba9e18aa9f19c9d9a9657454c5953.png)
+![](./my-settings.assets/ffeba9e18aa9f19c9d9a9657454c5953.png)
 
 Once you have selected the other user, the screen will refresh and show that user's preferences/settings on your screen. Make changes to their preferences and click the SUBMIT CHANGES button to save your changes. This applies those preferences for that specific other user only.
 
@@ -40,11 +40,11 @@ Once you have selected the other user, the screen will refresh and show that use
 
 This is usually maintained by your MIE Implementer. Viewing the System Default preferences shows what the defaults for your entire {{% system-name %}} system are set to. Of course, individual users can change their individual preferences. You (if have security permission) or your MIE Implementer can change preferences for all users in your system in mass by changing defaults here that change all users system wide instead of individually by user.
 
-![](../my-settings.assets/86e27a13d85f2c553930096784fb40ab.png)
+![](./my-settings.assets/86e27a13d85f2c553930096784fb40ab.png)
 
 To change a system default preference as a means of applying that change in mass to all users in {{% system-name %}} is a two step process and is a bit different than changing an individual preference setting. When changing a System Default preference, find the My Setting preference you wish to change for the entire system. The name of the preference (when viewing preferences for System Default) should be underlined. The underline is really a hyperlink.   Example:
 
-![](../my-settings.assets/e056f7394efc669eb2fe94b0a435f49f.png)
+![](./my-settings.assets/e056f7394efc669eb2fe94b0a435f49f.png)
 
 The specific preference field with the drop-down arrow tells you what the system default is already set to. If you need to change the ‘system default' (you are not changing it in mass for all users yet—you are just changing the system default setting) then you use the drop-down arrow to change your selection. Click the SUBMIT CHANGES button at the bottom when done. This saves that setting/preference for the system default only. This does not apply it to everyone in mass yet.
 
@@ -52,11 +52,11 @@ Once you have the system default set to what you want or it is already set to wh
 
 For instance, in this example, I want everyone in the entire {{% system-name %}} system to have preference set to Number of Recent Patients: 10. After I have the system default setting set to 10 and saved, I now need to go back in and apply this to all users in the {{% system-name %}} system. So, I click on the underlined name Number of Recent Patients setting. It then pops up a warning message on my screen that I am about to change this specific setting for all {{% system-name %}} users.
 
-![](../my-settings.assets/bfc99a29796679549dd3af28f05e9698.png)
+![](./my-settings.assets/bfc99a29796679549dd3af28f05e9698.png)
 
 Click the SET TO DEFAULT button to apply that setting and its value to all users in your {{% system-name %}} system or cancel to get out. You will get a confirmation message at the top stating you updated that setting for all users in your system.
 
-![](../my-settings.assets/c0fcb9263d64ca75bb570f91ba27220a.png)
+![](./my-settings.assets/c0fcb9263d64ca75bb570f91ba27220a.png)
 
 Continue to another system default if you wish. If you are changing preferences for all users in mass to be the system default setting, each change has to be done individually.
 
@@ -64,7 +64,7 @@ Continue to another system default if you wish. If you are changing preferences 
 
 If you have security permission and want to edit preferences for users tied to a specific security role, simply select SECURITY ROLE DEFAULTS from the drop-down. A second field named Choose a security role: will appear. Use the drop-down arrow to select the specific security role that you wish to edit preferences on. Any changes to preferences (My Settings) will affect all users tied to that security role.
 
-![](../my-settings.assets/74ca93bd05fd60c95f6431244f20c93e.png)
+![](./my-settings.assets/74ca93bd05fd60c95f6431244f20c93e.png)
 
 Changing security role preferences and then applying them to all users within that security is the same process as above in the System Default section. Please see above section for steps on how to apply security role default preference to all users within that security role in mass.
 
@@ -73,7 +73,7 @@ When looking at preference choices available in the drop-down:
 * One Asterisk denotes the preference as a Security Role default
 * Three Asterisks denotes the preference as both the Security Role and System defaults.
 
-![](../my-settings.assets/df23d503b005d4feefb9a17254e70bbc.png)
+![](./my-settings.assets/df23d503b005d4feefb9a17254e70bbc.png)
 
 ## My Settings Descriptions of Preferences/Settings
 
@@ -144,6 +144,8 @@ When looking at preference choices available in the drop-down:
 * Use Datavis in Meds/Agy: If set to Disabled, the Medications/Allergies stand alone chart tab displays the legacy version of the meds/allergies listings. If Enabled, the listing of Medications & Allergies in the stand alone Medications/Allergies chart tab will be listed and can be worked on in a datavis format.
 * Use DataVis in E-Sign: By default, the preference is set to Disabled which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If Enabled, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
 * Use Legacy Report Page: By default, the preference is set to Disabled which displays the new report page. If Enabled, the legacy report page will be displayed instead of the new report page.
+* Use Medication Quick Notes: By default, the preference is set to Disabled. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as<strong> ‘</strong>Unknown', ‘Taking', ‘Not Taking/PRN' or ‘Discontinued'. Available in RC202409 and newer only.
+* User Do Not Expire: By default, the preference is set to Disabled. When enabled, providers are allowed to mark a prescription as ‘Do Not Expire' in order to prevent the prescription from expiring. Available in RC202409 and newer only.
 
 ### E-Chart
 
@@ -156,11 +158,11 @@ When looking at preference choices available in the drop-down:
 * Swipe Open Dynamic Lists: Options are Automatic or Off.  Automatic uses CSS media queries to attempt to automatically determine when no pointer device is available and output the swipe styles & functionality on dynamic lists.  Off will disable the swipe styles & functionality, to show the options only upon hover.
 * Show Dynamic List Options: Determine if icons in dynamic lists, typically found in encounter sections, should show Always or only On Hover.  Some examples of sections with Dynamic List Options that display always or on hover:
 
-![](../my-settings.assets/03251eef412e80b75e64bb0f790a9311.png)
+![](./my-settings.assets/03251eef412e80b75e64bb0f790a9311.png)
 
 * Use New User View:  When set to Yes, an updated view is available when viewing user information in Access Control.
 
-![](../my-settings.assets/c3c499246f63a9b1caf5b454e52476e0.png)
+![](./my-settings.assets/c3c499246f63a9b1caf5b454e52476e0.png)
 
 #### Faxing
 
@@ -252,7 +254,7 @@ When looking at preference choices available in the drop-down:
 * Risk Adjustment Factor: Displays a RAF score at the top right hand area of the dark grey patient header of charts.  Patient RAF Scores are automatically calculated by the system. An interpretation flag to the right of the RAF score will indicate High, Medium or Low. If a chart does not have a RAF score calculated for the current calendar year, the RAF value will display as Unknown.
 * Problem List Default on New: If this preference is set to No, the Problem List and Past Medical History radio buttons will default to "No" upon adding an assessment/diagnosis to a chart.  If this preference is set to Yes, the Problem List and Past Medical History radio buttons will default to "Yes" upon adding an assessment/diagnosis to a chart.
 
-![](../my-settings.assets/5929db9d8a1997e280b977fce5f1732e.png)
+![](./my-settings.assets/5929db9d8a1997e280b977fce5f1732e.png)
 
 #### Procedures/Surgeries
 
@@ -498,7 +500,7 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 
 To save settings, click Submit Settings at the top or bottom of the screen.
 
-![](../my-settings.assets/e2597172aa8eb8f22ae31701c78d4dd6.png)
+![](./my-settings.assets/e2597172aa8eb8f22ae31701c78d4dd6.png)
 
 ### Password/PIN Control
 

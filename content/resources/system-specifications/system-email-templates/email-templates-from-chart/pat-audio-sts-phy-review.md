@@ -1,16 +1,16 @@
 ---
 id: '1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0'
 title: 'Pat Audio STS Phy Review'
-date: '2020-02-27T20:38:01.729Z'
-version: 18
+date: '2025-11-13T16:59:11.275Z'
+version: 26
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ESTSREV&old_module=Email&old_name=Pat+Audio+STS+Phy+Review&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=ESTSREV&old_module=Email&old_name=Pat+Audio+STS+Phy+Review&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com

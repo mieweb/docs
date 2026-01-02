@@ -1,15 +1,15 @@
 ---
 id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
 title: 'Intro to the System'
-date: '2022-11-02T12:52:40.975Z'
-version: 95
-lastAuthor: 'wreiske'
+date: '2025-11-14T14:59:14.146Z'
+version: 118
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'intro-to-the-system/system-anatomy.md'
   - '../functions/encounters/working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page addresses the basic navigation and functionality of {{% system-name %}} . If you're a current user, you'll notice some things might look a little different. We've improved the user experience — making {{% system-name %}} even more intuitive and efficient.
 
@@ -33,7 +33,7 @@ To the right:
 
 Most users see this page when they sign in to the system. It is a customizable dashboard featuring information from throughout the system pertinent to the user's daily job functions. This information is organized into areas called Portlets. Portlets can be collapsed and expanded — or moved by dragging and dropping, so what's important to a specific user can be placed at the top. You can also remove Portlets entirely.
 
-![](../intro-to-the-system.assets/3ec695af810896f5fc6d83dec7059e26.png)
+![](./intro-to-the-system.assets/3ec695af810896f5fc6d83dec7059e26.png)
 
 ### E-Chart
 
@@ -41,20 +41,14 @@ Searching for a patient's chart still begins at the E-Chart tab. The overall loo
 
 E-chart navigation includes a number of toolbars, including:
 
-* The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower
-
-right corner.
-
+* The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower right corner.
 * The Patient Info toolbar displays the patient's name and medical record number.
-    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past
-
-encounters, notes and comments.
-
+    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past encounters, notes and comments.
 * The Patient Extended Toolbar displays demographic, encounter, and other related information.
 * The Alerts toolbar displays available alert information — such as allergies or do not release requests.
 * The Encounter toolbar displays information and links to the open patient encounter.
 
-![](../intro-to-the-system.assets/05c23296ca3eebe1d915613fc84e72d8.png)
+![](./intro-to-the-system.assets/05c23296ca3eebe1d915613fc84e72d8.png)
 
 ### Dynamic Encounter
 
@@ -81,7 +75,7 @@ When a section is open for editing, a Next button appears at the bottom. Click t
 * Summary view - Displays data in a bulleted list.
 * Detail view - Displays data in a table.
 
-![](../intro-to-the-system.assets/148be2e24b401955d41219896663e3be.png)
+![](./intro-to-the-system.assets/148be2e24b401955d41219896663e3be.png)
 
 ## Related Pages
 

@@ -1,13 +1,13 @@
 ---
 id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
 title: 'System Report Writing'
-date: '2025-08-08T19:25:25.076Z'
-version: 1104
-lastAuthor: 'anichols'
+date: '2025-11-12T14:09:24.882Z'
+version: 1453
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This documentation applies to writing a system report in the system report writer as well as in layouts with a query in an {{#each}} statement or the legacy <WCQUERY> tag. For our customers with ODBC connections, this document is a good primer for understanding key parts of the schema.
 
@@ -41,17 +41,17 @@ AND d.storage_type=4
 
 Save and Explain that. Then go back to System -> System reports and click edit on it.
 
-![](../system-report-writing.assets/5e996a45de98daa15f199fe2c99afd1b.png)
+![](./system-report-writing.assets/5e996a45de98daa15f199fe2c99afd1b.png)
 
 There is a model tab that queries data from our model table. This table has information on each table (object) and its columns (field). The table can also be queried from an ODBC connection. One useful field is the fk column that will list all foreign keys. We do not have many actual foreign keys defined in the database, but we do enforce these relationships in the application.
 
-![](../system-report-writing.assets/683a2fc85b9206baadb6f6134d07b986.png)
+![](./system-report-writing.assets/683a2fc85b9206baadb6f6134d07b986.png)
 
 There is a newer model browser available from the Model button. You can search for a table name and it will display the columns on that table. Clicking a column name will give more information about it. The Referenced by section displays other tables that relate to this table.
 
-![](../system-report-writing.assets/7f0c522b9842155b76143951c064fd34.png)
+![](./system-report-writing.assets/7f0c522b9842155b76143951c064fd34.png)
 
-![](../system-report-writing.assets/d60156193299f89946e1d6d2c5b511db.png)
+![](./system-report-writing.assets/d60156193299f89946e1d6d2c5b511db.png)
 
 ## Data linked to an encounter
 
@@ -165,17 +165,17 @@ AND d.service_date>=DATE_SUB(CURDATE(), INTERVAL 1 WEEK)
 
 ```
 
-![](../system-report-writing.assets/d4b479c08b30589d8bf9a89c1b934951.png)
+![](./system-report-writing.assets/d4b479c08b30589d8bf9a89c1b934951.png)
 
 ## Locations
 
-![](../system-report-writing.assets/ca06c1adfb3ed3550f7e28289591fe6c.png)
+![](./system-report-writing.assets/ca06c1adfb3ed3550f7e28289591fe6c.png)
 
 ## Using restrictions
 
 In clinical reports we usually like to exclude test patients and respect partition restrictions, as well as locked charts.
 
-### For test patients we do the following:
+### For test patients we do the following
 
 LEFT JOIN patient_extended_values AS px ON px.pat_id = p.pat_id AND px.ext_id = (SELECT ext_id FROM patient_extended_index WHERE name = ‘excluded_from_quality_care') AND px.value = ‘1'
 
@@ -183,7 +183,7 @@ LEFT JOIN patient_extended_values AS px ON px.pat_id = p.pat_id AND px.ext_id = 
 
 WHERE px.pat_id IS NULL
 
-### For restrictions we use this:
+### For restrictions we use this
 
 SELECT
 

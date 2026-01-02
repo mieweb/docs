@@ -1,17 +1,16 @@
 ---
 id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
 title: 'Security Best Practices'
-date: '2023-10-04T18:40:22.514Z'
-version: 60
-lastAuthor: 'wreiske'
+date: '2025-09-25T12:47:20.464Z'
+version: 69
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html'
-  - 'https://pages.nist.gov/800-63-3/'
-  - 'https://www.urbandictionary.com/define.php?term=leet+speak'
+  - 'https://pages.nist.gov/800-63-4/'
   - '../system-administration/security.md'
 source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures.
 
@@ -31,7 +30,7 @@ Passwords are an important part of the [login credentials](#login-credentials) 
 
 The National Institute of Standards and Technology (NIST) develops Federal Information Processing Standards that all federal agencies must follow; however, many companies will elect to comply with the NIST guidelines, as well.
 
-As part of the catalog of guidelines, NIST has developed [Digital Identity Guidelines](https://pages.nist.gov/800-63-3/).
+As part of the catalog of guidelines, NIST has developed [Digital Identity Guidelines.](https://pages.nist.gov/800-63-4/)
 
 {{% /column %}}
 
@@ -58,7 +57,7 @@ Instead of the term *password*, NIST suggests *memorized secret*. The idea and
 * <strong>Length is strength</strong> – Eight (8) character minimum, when set by a human, and sixty-four (64) character maximum.
 * <strong>Support all characters</strong> – The difference between a weak password and a strong password is the number of characters (i.e., upper- and lower-case letters, numbers, and special characters) available, and hence the number of possible combinations available to construct a password based on those characters.
 * <strong>No password expiration period</strong> – Many studies have shown that users tend to choose weaker passwords when they know they have to change them in the near future.
-* <strong>No password composition rules</strong> – Even though the full character set should be supported, requiring users to compose their passwords using lower-case, upper-case, digits, and/or special characters is no longer recommended. Imposing composition rules provides less benefit than might be expected, because users tend to use predictable methods for satisfying these requirements – often referred to as [leekspeak](https://www.urbandictionary.com/define.php?term=leet+speak).
+* <strong>No password composition rules</strong> – Even though the full character set should be supported, requiring users to compose their passwords using lower-case, upper-case, digits, and/or special characters is no longer recommended. Imposing composition rules provides less benefit than might be expected, because users tend to use predictable methods for satisfying these requirements.
 
 ### Passphrase
 

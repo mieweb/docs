@@ -2,13 +2,13 @@
 id: '1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
 title: 'Device Interface - Welch Allyn CardioPerfect'
 date: '2025-07-03T15:54:56.861Z'
-version: 112
+version: 124
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1XB-StdKfSnnnlBvSzmgH_0swF-0VnJFNgOx86By8gJ8'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This page describes the interface between Enterprise Health (EH) and the Welch Allyn EKG and Spirometry Monitoring system known as CardioPerfect.
 
@@ -57,7 +57,7 @@ A list of devices known to work with this interface:
             * Image Type = TIF
             * Check all boxes under Image and XML
 
-                ![](../device-interface-welch-allyn-cardioperfect.assets/8ddbad35e0aa4f9ea75aa7354c83adc3.png)
+                ![](./device-interface-welch-allyn-cardioperfect.assets/8ddbad35e0aa4f9ea75aa7354c83adc3.png)
 * CardioPerfect runs MSSQL on the PC. Some implementations may be talking to a database remotely and multiple machines sharing the same DB.
 
 ## EH Setup

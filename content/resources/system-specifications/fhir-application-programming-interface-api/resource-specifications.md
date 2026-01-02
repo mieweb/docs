@@ -2,7 +2,7 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2024-02-17T18:48:45.904Z'
-version: 548
+version: 549
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -53,7 +53,7 @@ links:
   - 'http://hl7.org/fhir/R4/provenance.html'
   - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 # Supported Resources
 

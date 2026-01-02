@@ -1,22 +1,22 @@
 ---
 id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 title: 'Chart Medical Record Number (MRN) Import Options'
-date: '2020-02-28T15:25:27.336Z'
-version: 47
-lastAuthor: 'aquandt'
+date: '2025-11-24T19:10:04.558Z'
+version: 55
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'chart-data-csv-api.md'
   - 'https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
-### Definitions
+## Definitions
 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.

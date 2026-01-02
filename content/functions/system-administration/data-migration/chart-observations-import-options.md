@@ -1,33 +1,33 @@
 ---
 id: '179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
 title: 'Chart Observations Import Options'
-date: '2020-02-27T21:31:09.639Z'
-version: 38
-lastAuthor: 'aquandt'
+date: '2025-11-12T20:34:57.836Z'
+version: 52
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/'
   - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
   - 'chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following options are allowed. Any other options are unsupported and will be rejected.
 
-### Insert Options
+## Insert Options
 
 * REVISE
 * UPDATE
 * INSERT
 * DELETE_THEN_INSERT
 
-### Blank Options
+## Blank Options
 
 * ALLOW_BLANK
 * DELETE_BLANK
 * IGNORE_BLANK
 
-### Distinct Options
+## Distinct Options
 
 * ALLOW_DUPLICATE
 * DISTINCT
@@ -42,7 +42,7 @@ The following scenario provides examples of each type of processing possible for
 
 ### Initial Data
 
-We will start with the contents of [File:GenericImportTestOBS A.csv](https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_A.csv).
+We will start with the contents of [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/).
 
 {{% pre %}}
 ```
@@ -67,15 +67,15 @@ After this file is loaded:
 * Each of the patients has two myObs1 results.
 * Each of the patients has a myObs2 result.
 
-![](../chart-observations-import-options.assets/0f3e18d554c4bf28156130d42d6e0193.png)
+![](./chart-observations-import-options.assets/0f3e18d554c4bf28156130d42d6e0193.png)
 
-![](../chart-observations-import-options.assets/daf45c74540a615f3eb15a2ebd1e65de.png)
+![](./chart-observations-import-options.assets/daf45c74540a615f3eb15a2ebd1e65de.png)
 
-![](../chart-observations-import-options.assets/720adf521d83e51a80666a5d957a3c81.png)
+![](./chart-observations-import-options.assets/720adf521d83e51a80666a5d957a3c81.png)
 
-![](../chart-observations-import-options.assets/4bdd37542ca6ae2141d402ff367f09e4.png)
+![](./chart-observations-import-options.assets/4bdd37542ca6ae2141d402ff367f09e4.png)
 
-![](../chart-observations-import-options.assets/6713694d92ad5175cf753672b90c6c04.png)
+![](./chart-observations-import-options.assets/6713694d92ad5175cf753672b90c6c04.png)
 
 ### Import Updated Data
 
@@ -125,15 +125,15 @@ The imported file is processed as follows:
 * Existing data is replaced with the new data.
 * Test4's result is deleted.
 
-![](../chart-observations-import-options.assets/c551ee278e6fb2d027cfb21cc5b634ce.png)
+![](./chart-observations-import-options.assets/c551ee278e6fb2d027cfb21cc5b634ce.png)
 
-![](../chart-observations-import-options.assets/86a727157bdd153faaed7dbfee2aae34.png)
+![](./chart-observations-import-options.assets/86a727157bdd153faaed7dbfee2aae34.png)
 
-![](../chart-observations-import-options.assets/d567c84ce32d3cbd6bd0a198acdffe89.png)
+![](./chart-observations-import-options.assets/d567c84ce32d3cbd6bd0a198acdffe89.png)
 
-![](../chart-observations-import-options.assets/ce4a86a78957b28c21d9067a6ad0f5b3.png)
+![](./chart-observations-import-options.assets/ce4a86a78957b28c21d9067a6ad0f5b3.png)
 
-![](../chart-observations-import-options.assets/e048e59a9a00e5898f172ee111e89ed8.png)
+![](./chart-observations-import-options.assets/e048e59a9a00e5898f172ee111e89ed8.png)
 
 ## Related Pages
 

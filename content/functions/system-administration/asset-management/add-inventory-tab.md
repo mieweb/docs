@@ -1,23 +1,23 @@
 ---
 id: '1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
 title: 'Add Inventory Tab'
-date: '2022-08-09T15:38:32.584Z'
-version: 36
-lastAuthor: 'horner'
+date: '2025-11-05T19:58:07.177Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nDscdzYreuIt2zOVW_CC8mUNyidAn84GdMGYXF3dX88'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Add Inventory Tab is located within the sidemenu tab named *Inventory*. The *Add Inventory* tab is where you go to add inventory quantity and details to begin dispensing from your inventory module or to add quantity and details of more inventory items received from your supplier that you want to add to your current inventory.
 
-![](../add-inventory-tab.assets/ce43a91eca721ac95d7095430c572a47.png)
+![](./add-inventory-tab.assets/ce43a91eca721ac95d7095430c572a47.png)
 
 Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
 
-![](../add-inventory-tab.assets/38b86d015aab3d7667c9ef3390244975.png)
+![](./add-inventory-tab.assets/38b86d015aab3d7667c9ef3390244975.png)
 
-## To add inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this **_Add Inventory_** screen.
+To add inventory quantity and detailed information to be tied to your inventory master item, fill out the fields in this *Add Inventory* screen.
 
 {{% tip %}}
 Use your tab key to advance to each field.

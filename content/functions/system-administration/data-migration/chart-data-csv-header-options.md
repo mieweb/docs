@@ -1,9 +1,9 @@
 ---
 id: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 title: 'Chart Data CSV Header Options'
-date: '2022-06-15T16:48:55.681Z'
-version: 612
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:03:27.937Z'
+version: 620
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'chart-data-csv-api.md'
@@ -12,13 +12,13 @@ links:
   - 'chart-observations-import-options.md'
   - 'https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options'
 source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
-### Definitions
+## Definitions
 
 * An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
 * An <strong>update</strong> occurs when a record is replaced with the new information.

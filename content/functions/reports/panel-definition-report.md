@@ -1,21 +1,32 @@
 ---
 id: '1dIk_2xbQpzTvTX8Gy2WlTYY4TR_4q2rRg1J8Qy9e8fs'
 title: 'Panel Definition Report'
-date: '2020-02-27T20:16:02.265Z'
-version: 32
+date: '2025-12-10T15:08:31.251Z'
+version: 51
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1dIk_2xbQpzTvTX8Gy2WlTYY4TR_4q2rRg1J8Qy9e8fs'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
-Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab listed in the menu of tabs (or in your system it may be called Health Surveillance)
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
-From within the Health Surveillance tab found in control, there is a hyperlink to access a *Panel Definition Report*.
+## Panel Action Definition
 
-![](../panel-definition-report.assets/e3f89bef2f43ae220d81e6244ed79e53.png)
+The Panel Action Definition report displays a list of active health surveillance panels and its action items configured in the system.
 
-Once the *Panel Definition Report* hyperlink has been clicked, it will open a pivotable report version. This report shows all panel actions in a pivot table to help with panel management.
+Click the *Reports* tab on the left sidebar menu.
 
-![](../panel-definition-report.assets/a4fcc0f569e9ded42dff5f479f56731b.png)
+Click the *Health Surveillance* tab from the top tab menu and select the *Panel Action Definition* report.
 
-Pivot reports can display the data in various columns/rows and looks/views. Use the drop-downs to select and drag & drop components around to get the view you wish to see and report the data.
+![](./panel-definition-report.assets/457a0fa074d2734126f044b0f59118c1.png)
+
+Once the *Panel Action Definition* report has been opened, there is a filter for the Panel Name.
+
+![](./panel-definition-report.assets/5506b323b84213a807567aebaacaaf4c.png)
+
+* Panel Name: begin typing the name of the panel and the list will begin to filter. Multiple panels can be selected.
+
+Once you click Search, the report will generate.
+
+![](./panel-definition-report.assets/f6eb4e135a1ef601d26d91381d04542b.png)

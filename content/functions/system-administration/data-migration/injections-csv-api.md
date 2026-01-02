@@ -1,9 +1,9 @@
 ---
 id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 title: 'Injections CSV API'
-date: '2024-12-18T14:15:48.608Z'
-version: 59
-lastAuthor: 'bhamm'
+date: '2025-11-12T19:06:33.248Z'
+version: 69
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
@@ -14,15 +14,15 @@ links:
   - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv'
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
 source: 'https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Injections CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 Enterprise Health stores discrete data for injections/immunizations, which can be displayed in multiple ways.
 
@@ -36,15 +36,15 @@ CSV refers to the type of file and format of data needed to import information i
 
 ### Screenshots
 
-![](../injections-csv-api.assets/0b15a44cac015f048e0d015cfbbfc1cb.png)
+![](./injections-csv-api.assets/0b15a44cac015f048e0d015cfbbfc1cb.png)
 
 Injections data is stored as a document, and will display within the appropriate tab of a chart.
 
-![](../injections-csv-api.assets/60f75e0734bfd1b35a511b1b78936ecd.png)
+![](./injections-csv-api.assets/60f75e0734bfd1b35a511b1b78936ecd.png)
 
 In addition, injections display within the Injections flowsheet chart tab as discrete data.
 
-![](../injections-csv-api.assets/9a398cd883f4db34b2abb12159938e56.png)
+![](./injections-csv-api.assets/9a398cd883f4db34b2abb12159938e56.png)
 
 ## Specifications
 
@@ -232,7 +232,7 @@ The CDC Immunization Information Systems CVX Codes are available here: http://w
 
 The following fields (indicated in the Data Name column) are noted as required (R) or are recommended as best practice (BP) in the Injections CSV API specification. Additional details and considerations are provided here.
 
-**Required**
+#### Required
 
 The following fields are required:
 
@@ -241,13 +241,13 @@ The following fields are required:
 * <em>Test Date/Time</em> (documents.service_date) is used to indicate when the test was conducted, and must be in SQL format. YYYY-MM-DD HH:MM:SS (2015-09-28 15:42:24).
 * <em>Injection Description</em> (injections.description) is the text description of the injection given.
 
-**Best Practice**
+#### Best Practice
 
 The following fields are optional, but provide useful details for record keeping purposes:
 
 * <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes.
 
-**Optional fields**
+#### Optional fields
 
 The following optional fields are needed to link the document to a patient encounter:
 

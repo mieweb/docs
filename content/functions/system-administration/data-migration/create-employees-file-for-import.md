@@ -1,16 +1,15 @@
 ---
 id: '1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
 title: 'Create Employees File for Import'
-date: '2020-03-17T02:34:35.428Z'
-version: 46
-lastAuthor: ''
+date: '2025-11-12T15:47:34.691Z'
+version: 60
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/'
-  - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
   - 'https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A'
 source: 'https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This document explains how to import your existing employees into {{% system-name %}} .
 
@@ -89,7 +88,7 @@ What you will need:
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Employees CSV File Example for guidance.
 
-![](../create-employees-file-for-import.assets/2d05f4c44ef780bc0363fc29940928d4.png)
+![](./create-employees-file-for-import.assets/2d05f4c44ef780bc0363fc29940928d4.png)
 
 3. Save the file as CSV format.
 
@@ -98,28 +97,27 @@ What you will need:
 1. Login as a user with administrator rights.
 2. Navigate to the Control Panel from the side menu.
 
-![](../create-employees-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
+![](./create-employees-file-for-import.assets/e2ef9d3cd79f5006055f09ee851afb8f.png)
 
 3. Select the Data Import tab.
 
-![](../create-employees-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
+![](./create-employees-file-for-import.assets/197af282190b350e97494ffba0636d29.png)
 
 4. Select Chart Data CSV API from the drop-down menu and click Go.
 
-![](../create-employees-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)
+![](./create-employees-file-for-import.assets/184adff065510b3014a3b5f0a44c0f4b.png)
 
 5. Select the Employees CSV File and click Upload.
 
-![](../create-employees-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
+![](./create-employees-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
-*For extra information on what happens during the import, click the* **_Verbose_*** checkbox.*
+For extra information on what happens during the import, click the **Verbose** checkbox.
 {{% /tip %}}
 
 ## Resources
 
 * [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/)
-* [Employees CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
 * [Validation script for Employee demographics](https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A)
 
 ## Troubleshooting

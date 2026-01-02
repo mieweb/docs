@@ -1,150 +1,135 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2025-06-26T13:45:05.822Z'
-version: 151
-lastAuthor: 'fandreacchi'
+date: '2025-11-12T19:30:47.495Z'
+version: 278
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
+  - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
-Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
+In order to access and utilize the Data Import CSV API within the Control Panel, one must have security access. The security needed is *Allow .csv Data Import* set to Yes.
 
-![](../data-import-tab.assets/99290c0ea77278f28baacc397e311269.png)
+![](./data-import-tab.assets/95ed08be2c3c6a995f20cf11d0234bbb.png)
 
-If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all.
+If user(s) have security permission to allow .csv data import, then the user(s) can access the Data Import CSV API tab.
 
-![](../data-import-tab.assets/62d283a832787b647c120b8a96a55f7b.jpg)
+![](./data-import-tab.assets/1d3df952068902d947e109bb255bc523.png)
 
-If your system does not have a Data Import tab, please contact your MIE Implementer to have the tab programmed on your system.
+## Data Import CSV API in datavis
 
-![](../data-import-tab.assets/36a741ea142b701dc8f711b5500701f8.jpg)
+The Data Import page has been redesigned into a datavis with function buttons, to enhance user experience and usability. However, the Legacy Data Import screen is still accessible on the page for use.
 
-Once in the Data Import tab, use the drop down to select the {{% system-name %}} data import type and click the GO button.
+Within the redesigned Data Import page, a specific data import api tool is able to be selected (checkmark) and then displays individual buttons for the user to access/see/obtain information for an Overview, Specifications information, Sample file information, Help Guide, and the Upload Data screen for the specific Data Import API selected.
 
-![](../data-import-tab.assets/86fdf52e63c3ed1ea5aadc877c1c34ce.png)
+![](./data-import-tab.assets/9706312b7150d69b1e694b527a3887d6.png)
 
-Once you've made the drop-down selection and clicked the GO button, it will open up download instructions to download your .csv template file. User(s) are able to download a .csv template file and fill in patient demographic data using a spreadsheet application.
+In a new system or upon upgrade, the updated Data Import datavis page may not work unless you set ‘ csv_api_data_import' JSON model_security on applicable security roles needing access.
 
-{{% note %}}
-Make sure your file you will be importing is set up to mirror the columns EXACTLY how they are listed (in same order) as each module shows.
-{{% /note %}}
+![](./data-import-tab.assets/e5bf0a54c38b6b95ce65c1327a554004.png)
 
-## Patient Demographics Import
+Any data needing to be imported, must be formatted in an appropriate CSV file, according to the specific import type's specifications.
 
-To include Patient Extended Values (PEV) in the import, column headers must include the prefix "#pev." or "@pev." The PEV columns must be included after all of the Patient Demographics columns. There can be up to 25 PEV columns. The file will not be accepted if empty fields are between column headers.
+### Data Import Options
 
-![](../data-import-tab.assets/c39da07b6188ab2d88677911666a317b.png)
+Once a specific Data Import CSV API option has been selected (checkmark which you wish to use the data import for), the *Data Import Option buttons* will display for use at the bottom of the datavis.
 
-{{% tip %}}
-This demographics import also allows Patient Extended Values to be imported with Patient Demographics.
-{{% /tip %}}
+![](./data-import-tab.assets/f2c06e367d80995655db5da3ce91a207.png)
 
-* <strong>Interface</strong>: allows you to specify which interface to store to find the patient.
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+#### Show Overview
 
-Hover your mouse over any of the column titles to show a full description of each element.
+The *Show Overview* button essentially is a pop-up window with the Data Import's specific overview of what it will import, along with all the other option abilities (view specification files, view sample files, view any help guide documentation for the specific import selected, and ability to upload/import the data) all within the same pop-up window.
 
-![](../data-import-tab.assets/8dd67c0448ab093b0f87a69d86944fed.png)
+![](./data-import-tab.assets/9e666fd78449d09c0e1a551277c6af9c.png)
 
-Patient lookup is now based on MRN, last name, firstname, and DOB. If 1 match is found, then that patient is updated, otherwise the patient is inserted. No longer inserting patients as temporary; patients will be created as active non-temp charts. Import will create/update an ‘IIC' encounter for every admission in the data file, but will distinguish different types using stages: Historic Admit, Import Update, & Current Admit.
+* <strong>Description:</strong> Gives a brief description of this specific data import that was selected.
+* <strong>Specification File(s):</strong> Will take the user to a new separate window tab (typically a google drive document) to view the specific criteria/specifications to format the CSV file columns and rows of data with.
+* <strong>Sample File(s):</strong> Will take the user to a separate window tab (typically a google drive document) to view the specific criteria/specifications to format the CSV file of data with, but in a sample CSV file.  Essentially, showing a full sample formatted file for the specific import selected.
+* <strong>Help Guide Documentation:</strong> Will take the user to a separate window tab of the {{% system-name %}} published help guide specific to the import selected.
+* <strong>Upload Data Import File:</strong> Will pop-up the Upload Data screen to begin the import upload process.
 
-## Schedule (Appointments) Import
+#### Upload Data
 
-![](../data-import-tab.assets/40e728c4b2a87a29c8af8ecb42f5b4bd.png)
+The Upload Data pop-up window shows the field requirements (Interface, Verbose checkbox, Delimiter) and the CSV file field to browse and upload the CSV file needing to be imported that is for the specific Data Import selected.
 
-* <strong>Interface</strong>: allows you to specify which interface to store to find the appointments.
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+![](./data-import-tab.assets/589fedad5bf8ec998fdb32ab179763b6.png)
 
-{{% tip %}}
-The start/end appointment dates & time format is YYYYMMDD HHMMSS
+* <strong>Interface:</strong> You can change the default name to be any text you wish.  When changing the Interface field name, it's best to be a unique name to identify the import.
+* <strong>Verbose:</strong> It is recommended that you checkmark this to view more detailed information about the data processing during the import step. A data import verbose log is an extremely detailed record of the entire row/line process of bringing data into the system.
+* <strong>Delimiter:</strong> Use the drop-down to select the delimiter. Typically it is as Comma
+* <strong>CSV File:</strong> Browse out and select the CSV file you wish to import, that follows all specifications the specific import requires.  The Data Import only accepts CSV file format.
 
+After browsing to select the file to import, make sure to click the *Validate File* button before beginning the data import upload.  The *Validate File* button will analyze the data in the file to alert you of any issues (or of a successful file with no warnings or errors) before you click to *Upload File* to begin the import process.
 
+Here's an example of possible messages visible after *Validate File* is clicked:
 
-For example, 02 April 2014 at 3:16 pm would look like 10140402 151600
+![](./data-import-tab.assets/35a3e61c6c29ad7003316ef5c9cdee23.png)
 
+* <strong>Upload File:</strong> Once ready to import the data from the CSV file, click the <em>Upload File</em> button.  The system will begin the import process.
 
-{{% /tip %}}
+### Verbose Log
 
-## Observations Import
+Once the CSV is uploaded, and if you had checkmarked *Verbose* in the upload requirements section (which is always recommended), you will then see a **Verbose Log** after the import has been processed.
 
-![](../data-import-tab.assets/adf83551d73f4683ef830220911c3ee1.png)
+![](./data-import-tab.assets/ec26276e14bc5f28617049752be2473e.png)
 
-* <strong>Interface</strong> & <strong>Partition</strong>: allow you to specify which interface to store and which partition to use to find the patient.
-* <strong>Link to Encounter</strong>: allows the ability for the observation import to link observations to encounters. Select the visit type from the drop-down in this file upload screen for observations. The drop-down has a blank value for the first value. If that blank is used, the observations will not be linked to any encounters. If a visit type is selected, then the observations will be linked. It links encounters that have the same service date as the observation's observed date and the same pat_id and the visit type selected. The linking happens on observation insert only.
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+* <strong>Show Log:</strong> Click this to see the detailed records of rows and lines of the entire process of bringing that CSV file data into the system.  This will show successful processed rows of data and will also display any rows of data that have errored.
 
-{{% tip %}}
-First and Last name are optional fields when importing observations. If names are given, they will be validated.
-{{% /tip %}}
+![](./data-import-tab.assets/9a49430e65d2c53c337c228486891fb1.png)
 
-## Lab Result Import
+* <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
 
-![](../data-import-tab.assets/ee4552dde3b3f8b12b9601effddc2d74.png)
+Note: Any data that had errored, would not have been imported into the system.  Thus, those would need to be fixed and placed on their own unique CSV file to import later once you've worked any issues the Verbose Log displayed as having an error.  This is why using the *Validate File* button is also important to do before the upload file process.
 
-* <strong>Interface</strong> & <strong>Partition</strong>: allow you to specify which interface to store and which partition to use to find the patient.
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+### Log:
 
-## Fee Schedule Import
+Once the CSV is uploaded, and if you had **not** checkmarked *Verbose* in the upload requirements section (which is always recommended), you will then only see a** Log** after the import has been processed.
 
-Fee schedule import will create/update fee schedules and Billing codes in {{% system-name %}} . If the file contains duplicate Billing codes, then subsequent duplicate Billing codes are inserted with comma and count, ie A123,2 and the fee that is associated to them. The tool will check the Billing Manager to ensure the code exists in your {{% system-name %}} database. If the code exists, then it will insert the code and fee into the fee schedule. If it does not exist, a Billing will be added to the Billing Manager with the description on the Import tool, then it will insert the code and fee schedule.
+![](./data-import-tab.assets/18337eeb126b5ec77b903a2d71b4b003.png)
 
-![](../data-import-tab.assets/471d0b2341881978eaa13662fbb05d44.png)
+* <strong>Show Log:</strong> Click this to see an overview success or errored per row of the CSV file that was imported.  It does not granular Verbose detail in the log, since <em>Verbose</em> was not marked to be utilized.
 
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+![](./data-import-tab.assets/763515c9ebec2ac941f9b962f83363e1.png)
 
-## Asset Import
+* <strong>Download Log:</strong> The <em>download log</em> button will download the log into a notes text file that you can save to your device/computer, etc.
 
-Asset import will create/update assets (usually in separate partition) with specific field contents in {{% system-name %}} when utilizing the Asset Management module.
+#### Specifications
 
-![](../data-import-tab.assets/d58b8becf4bac495ba96d38fb3c4750d.png)
+Will take the user to a new separate window tab (typically a google drive document) to view the specific criteria/specifications to format the CSV file columns and rows of data with.
 
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+![](./data-import-tab.assets/e3388fae50abacb4adb3417228078d55.png)
 
-## Encounter Order Completion Import
+#### Sample
 
-This data import is for importing Completed Encounter Orders. The import tool takes in a CSV file of MR numbers, completion & modified dates with associated order ids and sets their status to complete if they exist or creates them and completes them if they do not exist. For each row in the data file, it would identify the person based on the partition and MR#, then for each order_id column, it would look for a pending order of that type for that person (and if multiple are found, only the most recently created would be modified). If a pending order is found, it would be completed. Otherwise, a completed order would be added. The *comment* in the CSV import file would be applied to all modified or created orders.
+Will take the user to a separate window tab (typically a google drive document) to view the specific criteria/specifications to format the CSV file of data with, but in a sample CSV file.  Essentially, showing a full sample formatted file for the specific import selected.
 
-![](../data-import-tab.assets/d8a65119d5e01c4e73a652871c86af90.png)
+![](./data-import-tab.assets/45e583a5619d502353852458b9b07faa.png)
 
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file
+#### Help Guide
 
-## Order List and Order Questions Imports
+Will take the user to a separate window tab of the {{% system-name %}} published help guide specific to the import selected.
 
-These data import modules are for importing Order list catalogs and Order questions and this will allow for upload of compendiums, order sets, and ask any order entry questions.
+![](./data-import-tab.assets/7d3659e525e3a58c01b00fc09d675dc7.png)
 
-![](../data-import-tab.assets/e72e65500f24f148088df65ebd9d114c.png)
+## Legacy Data Import
 
-* <strong>Verbose</strong>: mode will print out what the import is doing to the screen and the log file.
+Within the updated datavis Data Import CSV API screen, there is the ability to get to our Legacy Data Import look and screen.  Simply click the Legacy Data Import hyperlink to get to our legacy screen and the directions below apply.
 
-## Clinical Encounter Import
+![](./data-import-tab.assets/a63743648d9cebaec7111e56e97bb67e.png)
 
-This import tool allows the adding of encounters from a spreadsheet that also imports lost time (incident/cases) data which may be needed when converting data from a separate system into {{% system-name %}} for work related incidents/encounters. See other help documentation titled *Data Import-Lost Time Import Tool.pdf*
+Once in the Legacy Data Import tab, use the drop down to select the {{% system-name %}} data import type and click the GO button to continue on.
 
-![](../data-import-tab.assets/68237b1e42add0557c7dc77e196f333c.png)
-
-## Panel Membership Import
-
-This import tool allows the adding of patients from a spreadsheet to specified Health Surveillance Panels as members.
-
-![](../data-import-tab.assets/04209323fa3a8dbfcc514492e99deefa.png)
-
-For a list of your systems active panel membership options, please utilize the 
-![](../data-import-tab.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
- help bubble in this import for correct panel id mapping.
-
-![](../data-import-tab.assets/e92710369a29d1c31b3b7fbfc50b1b27.png)
-
-## Download Export
-
-Not only can you import data using the Data Import tool, but you can export specific data that exists in your current {{% system-name %}} system (from those same category options) out into an excel file. Clicking the *Download xxx export* button (dependent on which import "type" you selected) will generate and pull that data from {{% system-name %}} and export it to an excel/csv file. Not all import type options offer a *download export* though.
-
-![](../data-import-tab.assets/0204e58ec27953076cdd54cf103e683e.png)
+![](./data-import-tab.assets/377bbd7ac3d4ddba3129068de73fc449.png)
 
 ## Learning Management System
 
 To learn more about the Data Import Tab, follow the link below to the Learning Management System course:
 
 * [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)
+
+## Additional Information
+
+Additional help guide available: [Data Import Master List](data-import-master-list.md)

@@ -2,23 +2,23 @@
 id: '1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
 title: 'Autocomplete Editor'
 date: '2024-07-22T16:29:08.963Z'
-version: 127
+version: 131
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZEGDNHRK'
 source: 'https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 You must have security role access to Manage Autocompletes. This allows users (based on level) to access the AC Editor tab found in the Control sidemenu tab.
 
-![](../autocomplete-editor.assets/0451eb3bf312f6305419e609b832bf6d.png)
+![](./autocomplete-editor.assets/0451eb3bf312f6305419e609b832bf6d.png)
 
 ## AC Editor
 
 Autocomplete fields are both learned and pre-loaded in {{% system-name %}} . The AC Editor is found in the Control Panel sidemenu option under the System tab and it allows users to access and/or edit, add or delete auto-complete field choices that appear in modules throughout {{% system-name %}} .
 
-![](../autocomplete-editor.assets/19545eca59bec6fb9080aa1be16cb5a6.png)
+![](./autocomplete-editor.assets/19545eca59bec6fb9080aa1be16cb5a6.png)
 
 When you are in the AC Editor it will default to show all. You can narrow down your search by using the drop-down on the top right side of the AC Editor tab to select a specific module to look at autocomplete field choices.
 
@@ -34,11 +34,11 @@ If you have permission, you can delete an auto-complete field and confirm the de
 
 To *add* an autocomplete selection to a field, you would go to that field in {{% system-name %}} and type the information into the available field, so the system can *learn* the auto-complete. One example of adding autocomplete text which is not in the system is below in the *dismiss warnings* *reason field* when dismissing a warning and this field is an auto-complete.
 
-![](../autocomplete-editor.assets/b02e2e097e9b0ff7e97fd11ca0400f0a.png)
+![](./autocomplete-editor.assets/b02e2e097e9b0ff7e97fd11ca0400f0a.png)
 
 After it is typed in the field, the system "learns" it and then it can be edited or deleted using the AC Editor tab.
 
-![](../autocomplete-editor.assets/722c05a91f99fe779e33639a9a268ba8.png)
+![](./autocomplete-editor.assets/722c05a91f99fe779e33639a9a268ba8.png)
 
 ## Learning Management System
 

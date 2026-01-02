@@ -1,15 +1,14 @@
 ---
 id: '1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
 title: 'Device Interface - Amplivox CA850'
-date: '2025-07-03T15:10:43.492Z'
-version: 47
-lastAuthor: 'anichols'
+date: '2025-11-13T14:46:58.076Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
+  - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'
 source: 'https://drive.google.com/open?id=1fRNqhKM-WvY_OAuHbYr2Hk4rKv0tTgulNwh_EVBO1HA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
-markup: 'pandoc'
+wikigdrive: 'v2.15.30'
 ---
 This page provides instructions for retrieving results from the Amplivox CA850 and Amplivox PC850 audiometers with Enterprise Health (EH), and lists the fields that the interface retrieves.
 
@@ -30,10 +29,10 @@ To retrieve results for multiple patients:
 7. Select the Location where the tests were performed
 8. Click the Upload button
 9. Verify the expected patients were found and click the Upload button.
-    a.  If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
-    b.  If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
-    c.  Click the information icon (?) to see all the details of a test.
-    d.  If no tests should be uploaded, close the new window; nothing is saved.
+    * If a patient is incorrect or not found, click the pencil icon (?) and choose the correct patient.
+    * If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
+    * Click the information icon (?) to see all the details of a test.
+    * If no tests should be uploaded, close the new window; nothing is saved.
 
 ## Collected Fields
 
@@ -58,4 +57,4 @@ To correctly install and use the audiometer with EH the following considerations
 
 ## Related Pages
 
-[Devices List](../../../resources/system-specifications/enterprise-health-interface-specifications.md)
+[Devices List](https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/)

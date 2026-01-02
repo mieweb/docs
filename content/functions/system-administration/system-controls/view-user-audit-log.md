@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Must have security permission to access the username screen found within Access Control.
 
@@ -17,19 +17,19 @@ The Audit Log Search feature provides a powerful tool for meticulous examination
 
 Search for the user you wish to view the audit for.
 
-![](../view-user-audit-log.assets/0a205f7c4a2ab62b9e2dd9037e677f05.png)
+![](./view-user-audit-log.assets/0a205f7c4a2ab62b9e2dd9037e677f05.png)
 
 Once you've found the user (username) of the person, click their underlined username from the left column titled USERNAME.
 
-![](../view-user-audit-log.assets/1ca7fec58cc20570276b1dde6129901d.png)
+![](./view-user-audit-log.assets/1ca7fec58cc20570276b1dde6129901d.png)
 
 The *View User Screen* will appear. At the right side of the screen, click the **View Audit Log** link (if you have security permission).
 
-![](../view-user-audit-log.assets/c64642f80031d7fa7822fa2aafec8fe0.png)
+![](./view-user-audit-log.assets/c64642f80031d7fa7822fa2aafec8fe0.png)
 
 You can click this to view the charts this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
 
-![](../view-user-audit-log.assets/e7aef5e79dcc4bca579ff55f0f9a9b5d.png)
+![](./view-user-audit-log.assets/e7aef5e79dcc4bca579ff55f0f9a9b5d.png)
 
 You can narrow down your search results by entering any information in the following fields:
 
@@ -48,7 +48,7 @@ The results are specific to that user you are in.
 
 If you wish to view a specific activity from the results, click **View** link in the Activity Details column. It will take you to the Activity Log report and you can click Submit Query to view that exact activity of the user.
 
-![](../view-user-audit-log.assets/325af7eb3f099d4ac6ebdd320eb314d0.png)
+![](./view-user-audit-log.assets/325af7eb3f099d4ac6ebdd320eb314d0.png)
 
 Continue to search by modifying the search fields, or by clicking CLEAR ALL to start another search.
 
@@ -58,4 +58,4 @@ To get out of the Audit Log Search, click the Close Window link at the top right
 
 There are several system settings that can be turned on/off for various audit logging items throughout {{% system-name %}} . In system settings search for Audit Event section to see all the various audit logging item settings or contact your MIE Implementer.
 
-![](../view-user-audit-log.assets/43fb943f932195fa65a075e9eaf3e9c9.png)
+![](./view-user-audit-log.assets/43fb943f932195fa65a075e9eaf3e9c9.png)

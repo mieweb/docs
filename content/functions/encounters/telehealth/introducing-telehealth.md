@@ -2,7 +2,7 @@
 id: '1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
 title: 'Introducing TeleHealth'
 date: '2024-07-15T14:25:13.963Z'
-version: 276
+version: 309
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'telehealth-pricing.md'
   - 'https://mie.talentlms.com/shared/start/key:AGBHRKMF'
 source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
@@ -96,7 +96,7 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 
 * Place of Service (POS) code 02
 
-![](../introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)
+![](./introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)
 
 **What does it cost?**
 
@@ -123,19 +123,19 @@ wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
 
 ### Patient initiated (iOS)
 
-![](../introducing-telehealth.assets/c2105f99138f01bf23516d32e87f4127.png)
+![](./introducing-telehealth.assets/c2105f99138f01bf23516d32e87f4127.png)
 
-![](../introducing-telehealth.assets/43f0b5a34529ef3dfe60538bfe9afdcd.png)
+![](./introducing-telehealth.assets/43f0b5a34529ef3dfe60538bfe9afdcd.png)
 
-![](../introducing-telehealth.assets/15b5c7e89b6fcf1f6f5cb6fd22630323.png)
+![](./introducing-telehealth.assets/15b5c7e89b6fcf1f6f5cb6fd22630323.png)
 
-![](../introducing-telehealth.assets/6692098b583ca5a014f2242472e60d7f.png)
+![](./introducing-telehealth.assets/6692098b583ca5a014f2242472e60d7f.png)
 
 ### Provider
 
-![](../introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)
+![](./introducing-telehealth.assets/d8d695db6dcdd871a38ba8d0d483fdb3.jpg)
 
-![](../introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)
+![](./introducing-telehealth.assets/b81e1c05d35c04b4495433b7c5a433be.jpg)
 
 ## Learning Management System
 

@@ -1,9 +1,9 @@
 ---
 id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
 title: 'Review Session - Encounter Workflow'
-date: '2025-04-07T17:39:15.605Z'
-version: 431
-lastAuthor: 'anichols'
+date: '2025-11-24T20:42:23.194Z'
+version: 464
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/unit/view/id:2703'
@@ -49,8 +49,7 @@ links:
   - '../../functions/encounters/encounter-checkout-chart-tab.md'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
-markup: 'pandoc'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -70,9 +69,6 @@ markup: 'pandoc'
     * <strong>Worklists</strong>
     * <strong>Clinical Decision Support / Scripted Rules</strong>
     * <strong>Esign / Tasking</strong>
-
-**Clinical Decision Support/Scripted Rules**
-
     * <strong>System Settings</strong>
     * <strong>Security Role Permissions</strong>
     * <strong>My Settings Preferences</strong>
@@ -80,7 +76,6 @@ markup: 'pandoc'
 * <strong>Reporting</strong>
 * <strong>Key Decision Points</strong>
 * <strong>Action Items / Timelines</strong>
-
 * <strong>Resources</strong>
     * <strong>Documentation</strong>
     * <strong>LMS Courses / Videos</strong>
@@ -179,7 +174,7 @@ If using the Checkin module, it is suggested to always set the Default Encounter
 
 Depending upon the nature of the encounter or the condition being assessed, protocols are designed to automate configurations meant to guide clinician documentation of visits based on specific issues or conditions (e.g, headache, burn, fall, bite, etc.). Protocols can be configured to use various encounter sections, as well as observations, flowsheets, macros, and orders.
 
-Several protocols come preloaded as part of the the standard {{% system-name %}} system. To review each protocol and the associated configurations, navigate to the Chief Complaint section of a dynamic encounter. Begin by selecting a protocol from the autocomplete field. After clicking the **Next** button, or collapsing the section, the encounter will refresh with the necessary encounter components defined by the protocol (i.e., History of Present Illness [HPI], Review of Systems [ROS], Physical Exam [PE], Tests and Procedures, Symptoms/Diagnosis, Quality, Plan Narrative, Patient Education, and Depart Instructions).
+Several protocols come preloaded as part of the standard {{% system-name %}} system. To review each protocol and the associated configurations, navigate to the Chief Complaint section of a dynamic encounter. Begin by selecting a protocol from the autocomplete field. After clicking the **Next** button, or collapsing the section, the encounter will refresh with the necessary encounter components defined by the protocol (i.e., History of Present Illness [HPI], Review of Systems [ROS], Physical Exam [PE], Tests and Procedures, Symptoms/Diagnosis, Quality, Plan Narrative, Patient Education, and Depart Instructions).
 
 Be sure to review all protocols, and edit, remove, or add specific protocol section flowsheets from the [Flowsheets editor](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet&tabmodule=admin&tabselect=Flowsheets), as needed.
 
@@ -317,14 +312,14 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 **System Configuration/Key Decision Points**
 
 1. What encounter types need to be configured?
-    a.  What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-    b.  Which encounter types need to be tied to the appointment types?
-    c.  What should the encounter be archived as?
+    * What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+    * Which encounter types need to be tied to the appointment types?
+    * What should the encounter be archived as?
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-    a.  Which protocols will drive the flowsheets?
-    b.  What area within the encounter will that flowsheet belong to?
+    * Which protocols will drive the flowsheets?
+    * What area within the encounter will that flowsheet belong to?
 5. What in-house testing can be performed?
 6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
 7. Need list/address of vendors commonly refer to

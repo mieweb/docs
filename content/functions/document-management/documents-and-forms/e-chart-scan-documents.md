@@ -1,14 +1,14 @@
 ---
 id: '1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
 title: 'E-Chart Scan Documents'
-date: '2025-05-16T17:46:52.288Z'
-version: 242
-lastAuthor: 'janderson'
+date: '2025-12-03T19:33:15.923Z'
+version: 267
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=1uhZABnL3rktlj5EknE9RfqLdquq6eQFKknC-Dw8ZRLc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 With {{% system-name %}}, users have the ability to scan individual documents into a chart using a flatbed or shell scanner from within the document library. This should not be confused with the high-speed scanning functionality of the WebScan module. Rather, navigating to the documents library by clicking any of the Add Document links found throughout the chart, and filtering down to scan document types by clicking the **E-Chart Scan** filter link, allows users to upload any of the relevant documents necessary. This can include any full-sized documents, or even smaller (e.g. card-sized) items, such as photo IDs or insurance cards.
 
@@ -24,7 +24,7 @@ If several single and double-sided items are being scanned into the system, it i
 
 To begin scanning a document to the chart, navigate to the Document Library by clicking any of the **Add Document** links, found throughout the chart. Once clicked, the library will load, and the **E-Chart Scan** filter link can be selected to reduce the available documents. Selecting this filter link will show only document types that are available for upload as scanned documents.
 
-![](../e-chart-scan-documents.assets/33a31139775817584041bfda95e87c70.png)
+![](./e-chart-scan-documents.assets/33a31139775817584041bfda95e87c70.png)
 
 {{% note %}}
 If a specific document type is not listed, contact the system administrator to set up the necessary document type for Scan entry, from the system's Document Types editor.
@@ -34,35 +34,35 @@ Place the document in the flatbed or shell scanner. Depending on the scanner mod
 
 Once the scanner is prepared, select the document type from the Add Document library and upload to the chart by simply clicking the Scan hyperlink following the appropriate document name.
 
-![](../e-chart-scan-documents.assets/0d3f8c064ef720737fba4b644940a096.png)
+![](./e-chart-scan-documents.assets/0d3f8c064ef720737fba4b644940a096.png)
 
 Scanning and uploading an individual document using this method is a two-part process, where the user scans the document using the *Document Scan Control* portion of the screen.  Then, the document gets indexed/uploaded accordingly using the *Add Document Properties* portion of the screen.
 
-![](../e-chart-scan-documents.assets/22004836a301ee3e0e33a88902cc7f9f.png)
+![](./e-chart-scan-documents.assets/22004836a301ee3e0e33a88902cc7f9f.png)
 
 Depending on if the functionality has been used previously, the system may automatically start the scanner and begin scanning the document, automatically. Otherwise, select the appropriate scanner by clicking the **Scanner** button and choosing the necessary scanner.
 
-![](../e-chart-scan-documents.assets/4981d614c783c9db3fd88e5d36cfa676.png)
+![](./e-chart-scan-documents.assets/4981d614c783c9db3fd88e5d36cfa676.png)
 
 Once the appropriate Scanner selection is set, click the **Scan Image** button to initiate scanning the document.The scanned document will appear as an image within the Document Scan Control area. If the document is two-sided and the scanner is not equipped with a duplex scanning feature, flip the document over, and click the **Scan Image** button, again. Users may scan in as many pages as necessary, though each scan will be stored as a single document in the chart.
 
-![](../e-chart-scan-documents.assets/4f92e2e7b0cb1de28708139b6e18d760.png)
+![](./e-chart-scan-documents.assets/4f92e2e7b0cb1de28708139b6e18d760.png)
 
 {{% note %}}
 In order to use the Scan method from the document library, your workstation must have MIE SSL App and MIE Device App installed.  Contact your system administrator to connect to those installed apps on your workstation if you get a pop-up message stating it could not connect to those apps.
 
-![](../e-chart-scan-documents.assets/e72586ab790d4239609e7697dd095753.png)
+![](./e-chart-scan-documents.assets/e72586ab790d4239609e7697dd095753.png)
 {{% /note %}}
 
 After scanning the document(s) using the above method, scroll down to the *Add Document Properties* section of the screen. Fill in the available fields, as appropriate.
 
-![](../e-chart-scan-documents.assets/8e557d606f124578750b91c6c58b91c1.png)
+![](./e-chart-scan-documents.assets/8e557d606f124578750b91c6c58b91c1.png)
 
 * <strong>Authored By</strong>: Given the proper security permission, use this field to select for whom this document is being authored, or click the <strong>Me</strong> button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the <em>Creator</em> and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
+* In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
+* The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
 
-{{% note %}}
-In order to author documents for others, the user must have the Access Control **Transcribe for Others** setting set to **Yes**. If this setting is not enabled for the user, the Authored By field will not be available as an option.
-{{% /note %}}
+![](./e-chart-scan-documents.assets/7635812e7191ecb60d4cd0288da5b217.png)
 
 * <strong>Document Type</strong>: Select the document type being uploaded and stored in the chart.
 * <strong>Date of Service</strong>: Provide the date of service for the document.
@@ -73,7 +73,7 @@ In order to author documents for others, the user must have the Access Control *
     * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
     * Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-![](../e-chart-scan-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+![](./e-chart-scan-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
@@ -90,10 +90,10 @@ Once the necessary fields and content have been added, the document(s) can be up
 
 When scanning in documents, there are various control options available from the Document Scan Control toolbar. These controls are intended to be used prior to uploading the document(s), and provide users the ability to rotate, crop, and move/remove documents, as needed.
 
-![](../e-chart-scan-documents.assets/56cfddf20890a7f7b4fa402d66c4e712.png)
+![](./e-chart-scan-documents.assets/56cfddf20890a7f7b4fa402d66c4e712.png)
 
 * <strong>Crop</strong>: To utilize the Crop feature, simply hover the mouse over the scanned image and place the cross cursor 
-    ![](../e-chart-scan-documents.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
+    ![](./e-chart-scan-documents.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
      at the starting point of the intended crop. Left-click and hold the mouse button, dragging the cursor over the scanned image, highlighting (in black) the area intended to be cropped and kept. Release the mouse. If the highlighted field needs redone, simply left-click the mouse again, and resize the crop field. When ready, click the <strong>Crop</strong> button.
     * The area highlighted in black will be saved. After clicking the Crop button, the image will refresh, showing the cropped document in the upper-left corner. The cropped image will be stored in the chart, once uploaded. If more of the document requires cropping, simply continue by repeating the steps above.
 * <strong>Delete</strong>: Clicking the <strong>Delete</strong> button will delete the scanned image being viewed. This <em>will not</em> prompt the user with a confirmation request. As soon as the Delete button is clicked, the image will be removed, immediately. If the deletion is done in error, the user will need to rescan the original document.
@@ -103,17 +103,17 @@ When scanning in documents, there are various control options available from the
 
 The same Scan method supports a File Upload.  Instead of scanning an individual document to the chart, you can use the same functionality to upload a single file/document to the chart, using the Scan document add method.
 
-![](../e-chart-scan-documents.assets/c92467b728525a58d873ae2b7012e4e4.png)
+![](./e-chart-scan-documents.assets/c92467b728525a58d873ae2b7012e4e4.png)
 
 Use the *Choose Files* button to browse out to find the file needing to be uploaded as the specific document type you indicate in the *Add Document Properties* dialog below this section.
 
-![](../e-chart-scan-documents.assets/7815abb4e572249e97ef6a8c97b7374f.png)
+![](./e-chart-scan-documents.assets/7815abb4e572249e97ef6a8c97b7374f.png)
 
 {{% note %}}
-The *File Upload* method from the Scan functionality only supports .TIFF file types.  If needing to upload any other file type (ex: PDF, JPG, PNG, etc), you will need to use the **File** filter method from the Add Document screen, instead of this Scan/E-Chart Scan method.
+The *File Upload* method from the Scan functionality supportsTIFF file types.  It supports other file types such as PDF, JPG, and PNG in 202403RC and newer.
 {{% /note %}}
 
-After you have chosen the .TIFF file you wish to upload, set the document properties in the portion below this screen, then click the UPLOAD SCANNED FILE button to upload the file to the chart as the document type you indicated.
+After you have chosen the file you wish to upload, set the document properties in the portion below this screen, then click the UPLOAD SCANNED FILE button to upload the file to the chart as the document type you indicated.
 
 ## Learning Management System
 

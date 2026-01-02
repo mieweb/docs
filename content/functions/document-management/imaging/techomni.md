@@ -1,21 +1,21 @@
 ---
 id: '1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
 title: 'TechOmni'
-date: '2025-04-07T17:27:18.903Z'
-version: 47
-lastAuthor: 'anichols'
+date: '2025-11-17T20:49:13.383Z'
+version: 57
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'radomni.md'
   - '../../system-administration/data-migration/import-export-json-files.md'
 source: 'https://drive.google.com/open?id=1yR6OLFf8CPNyo8Nl6eo-dtuzP9HhW1kv1CKyJ_jMueQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The necessary setup for accessing and utilizing TechOmni is fairly simple and straightforward, requiring just a basic install of a layout that is then viewable as a sidemenu option in the {{% system-name %}} system ( {{% sys-name %}} ). When accessed, the TechOmni form and all open encounters (filtered by the determined criteria) will display.
 
 In populating the form, users will be able to input the Order Number, which can be used to tie back to the Transcribed Report (where available).
 
-![](../techomni.assets/1a3c7b3f92179263c4921ac92a38c131.png)
+![](./techomni.assets/1a3c7b3f92179263c4921ac92a38c131.png)
 
 TechOmni functions off of a simple process where images that are sent over as DICOM files to {{% sys-name %}} can be linked to the necessary encounter, created using the TechOmni functionality. Once ready, the transcriber can pull up any encounter and review the images from the TechOmni worklist, transcribing as needed. Once the transcribed report exists, the encounter will close.
 
@@ -34,13 +34,14 @@ TechOmni is a powerful tool that can be used in conjunction with the [RadOmni](r
             * Imaging = IF
             * Labs = L
             * Referrals = RF  
-                ![](../techomni.assets/e7918a6fd2d99395f82e1d6995176c3c.png)
+                ![](./techomni.assets/e7918a6fd2d99395f82e1d6995176c3c.png)
 
 {{% tip %}}
 See additional Order Types available under the Orders-List Editor tab of the Control Panel.
 {{% /tip %}}
 
-    * Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
+* Ex: JOIN="inner join encounter_orders o ON o.enc_id=e.encounter_id and o.type='IF'
+
 * <strong>Order Status</strong>
     * Every order is assigned an order status. Though TechOmni will likely be used for Pending orders, exclusively, the following is a list of all available order statuses and their respective identifiers:
     * REPEAT = -5

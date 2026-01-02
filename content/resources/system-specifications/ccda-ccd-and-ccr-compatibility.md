@@ -1,9 +1,9 @@
 ---
 id: '1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
 title: 'CCDA, CCD and CCR Compatibility'
-date: '2024-12-18T13:24:22.116Z'
-version: 84
-lastAuthor: 'bhamm'
+date: '2025-12-22T18:00:09.215Z'
+version: 105
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://www.hl7.org/v3ballot/html/infrastructure/vocabulary/ReligiousAffiliation.htm'
@@ -20,17 +20,17 @@ links:
   - 'https://oncprojectracking.healthit.gov/wiki/display/TechLabTU/ONC+One+Click+Scorecard'
   - 'https://ttpedge.sitenv.org/ttp/'
 source: 'https://drive.google.com/open?id=1Uk4ZHLX68xzYUxKdfF2RyJm2wURwuTz18RhBo71CgLA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Comparison Grid
 
 CCD/CCR Sections, and our current Webchart storage capabilities
 <table>
 <tr>
-<td>Information</td>
-<td>CCD/C32/IHE Segment(s)</td>
-<td>CCR Segment(s)</td>
-<td>Webchart Capabilities</td>
+<td><strong>Information</strong></td>
+<td><strong>CCD/C32/IHE Segment(s)</strong></td>
+<td><strong>CCR Segment(s)</strong></td>
+<td><strong>Webchart Capabilities</strong></td>
 </tr>
 <tr>
 <td>Patient Name</td>
@@ -162,7 +162,7 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 <td>Immunizations</td>
 <td>2.16.840.1.113883.3.88.11.32.14</td>
 <td>Immunizations</td>
-<td>100% Injection table... although, all injections are not technically "immunizations" correct (and not all immunizations are neccesarily injected(?))... seems like this might also be a place, other than observations, where we need to make some clarifications on types of data being stored.</td>
+<td>100% Injection table... although, all injections are not technically "immunizations" correct (and not all immunizations are necessarily injected(?))... seems like this might also be a place, other than observations, where we need to make some clarifications on types of data being stored.</td>
 </tr>
 <tr>
 <td>Vital Signs</td>
@@ -211,7 +211,7 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 <td>Plan of Care</td>
 <td>2.16.840.1.113883.10.20.1.10</td>
 <td>PlanOfCare</td>
-<td>Per CCD 2007: "The plan of care section contains data defining pending orders, interventions, encounters, services, and procedures for the patient. It is limited to prospective, unfulfilled, or incomplete orders and requests only.".<strong>Right now, this is somewhat undefined right now, I think we had things specifically put in to "pass" IHE, but, I don't know that that is standardized within Webchart.</strong></td>
+<td>Per CCD 2007: "The plan of care section contains data defining pending orders, interventions, encounters, services, and procedures for the patient. It is limited to prospective, unfulfilled, or incomplete orders and requests only." <strong>Right now, this is somewhat undefined right now, I think we had things specifically put in to "pass" IHE, but, I don't know that that is standardized within Webchart.</strong></td>
 </tr>
 <tr>
 <td>Hazardous Working Conditions</td>
@@ -229,7 +229,7 @@ CCD/CCR Sections, and our current Webchart storage capabilities
 <td>Foreign Travel</td>
 <td>1.3.6.1.4.1.19376.1.5.3.1.1.5.3.6 - IHE - The foreign travel section contains only narrative text describing the patient's travel history.</td>
 <td>N/A</td>
-<td>We don't specifcially collect right now.</td>
+<td>We don't specifically collect right now.</td>
 </tr>
 </table>
 

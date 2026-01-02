@@ -2,12 +2,12 @@
 id: '1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
 title: 'Observation Import'
 date: '2024-12-18T14:18:29.424Z'
-version: 38
+version: 47
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 

@@ -1,17 +1,16 @@
 ---
 id: '1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
 title: 'Pat Immunizations Past Due'
-date: '2020-03-10T14:07:06.453Z'
-version: 37
-lastAuthor: 'aquandt'
+date: '2025-11-13T18:08:26.800Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links:
-  - 'https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMPAST&old_module=Email&old_name=Pat+Immunizations+Past+Due&active=0'
+links: []
 source: 'https://drive.google.com/open?id=1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 {{% info %}}
-Using the **Layout Manager** of the **Control Panel**, users may [edit this email template](https://system/?f=admin&subfunc=layout_manager&search_for=email&layout_search=Go&lv_layout_manager_limit=0&opp=edit&doc_type=EIMMPAST&old_module=Email&old_name=Pat+Immunizations+Past+Due&active=0), as needed.
+Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
 
 From: noreplywebchart@med-web.com
@@ -30,7 +29,7 @@ TO: Frederick J Anderson
 
 Our records indicate that you are past due to receive the following immunizations:
 
-![](../pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)
+![](./pat-immunizations-past-due.assets/3dbaa8ede73445a77dc355cdd6d021e5.png)
 
 At your earliest convenience, please schedule an appointment using the electronic scheduling portal below.
 

@@ -1,26 +1,29 @@
 ---
 id: '1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
 title: 'Encounter Report'
-date: '2020-02-27T20:14:04.456Z'
-version: 58
+date: '2025-12-11T16:23:35.892Z'
+version: 79
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1AfAIuXdoM2LLQYJ5jK8WlMIA-jqgmsn12YeAm6Tj_wQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
-You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports left-side bar tab (except Tran Stats tab). Also allows users within a role to access the Statistics tab in Control.
+You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
+
+## Encounter Report
 
 Encounter Report lists encounters by a given date range, pending, completed, etc.
 
 Click *Reports* tab on the left side-bar menu.
 
-Click *Encounter Report* tab from the top tab menu.
+Click the *Visits* tab from the top tab menu and select the *Encounter Report*.
 
 The Encounter search screen will open.
 
 You can choose from basic or advanced search by clicking the appropriate link.
 
-![](../encounter-report.assets/ae3e79eeccf87daccf2e441ca3ad1a0a.png)
+![](./encounter-report.assets/3794ac77e182aa1d995f18452e353ac3.png)
 
 Enter the appropriate selections into the fields you wish to narrow your Encounter Report search down to.
 
@@ -30,19 +33,19 @@ Click SEARCH button and the results will display below the search field screen. 
 
 In the options column you will see View Timecard and it shows the status of the encounter below that.
 
-![](../encounter-report.assets/9ad2f492f25122a59bec30bf6f9e4f79.png)
+![](./encounter-report.assets/c860dbf29432c5d8c34118eeed748e96.png)
 
 If you click view timecard it opens up the details of that encounter respective to time.
 
-![](../encounter-report.assets/51c95fad8b2193dad5051a43b0e6b32e.png)
+![](./encounter-report.assets/06fc3a8e8133a2180f82ff9b24c3cf4f.png)
 
 * <strong>View Printable:</strong> Click this and it will open a black/white printable version in a separate screen of the search results displayed on the screen. To print from this printable version screen, simply go to FILE and select PRINT.
 
-![](../encounter-report.assets/50b871602a28cc725629bb8571b84eec.png)
+![](./encounter-report.assets/9eab2521e4fdd777094f6ef8fee678a2.png)
 
 * <strong>Average Encounters:</strong> If you click this link (next to View Printable) then it will open a search screen for <em>Average For Encounters</em>. You can enter the specific fields and click CALCULATE button and it will calculate the average time card for a specific encounter(s). It also gives other totals/averages for dictations and signatures related to the visit type(s) you selected.
 
-![](../encounter-report.assets/c3a1ca395eb408f3f85c6ec6c0fbbc6f.png)
+![](./encounter-report.assets/603cec672eb8f93ad469a54223bf5814.png)
 
 * <strong>Date Range:</strong> You must enter at least an end date range date. If you want an entire history date range (not a specific date or week, etc), then simply leave the first date blank and make the end date today (now) date. It will give you results for the entire date history in your system.
     * If you wish a specific date range, you must type in a Start and End date in the fields. Leaving both Start and End date fields blank will not give you any results. You must have a <em>range</em> or at least an end date.
@@ -51,4 +54,4 @@ The system will then display the Average Timecard specific to the data you enter
 
 Click RESET to start another search, or change the fields and click CALCULATE to do another average, or simply go back to the search by clicking Return to Search link at the top right of this screen.
 
-![](../encounter-report.assets/3ffd85de7bcdda5820a2f487c85ab676.png)
+![](./encounter-report.assets/3b82f8afc1a8dc015db0f8d98ba7517a.png)

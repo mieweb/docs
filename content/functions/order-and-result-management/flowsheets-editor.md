@@ -2,7 +2,7 @@
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
 date: '2025-04-10T22:50:28.707Z'
-version: 742
+version: 788
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ALOHRKMF'
   - 'https://mie.talentlms.com/shared/start/key:ZSTDNHRK'
 source: 'https://drive.google.com/open?id=1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following information provides details on how to add and configure flowsheets and questionnaires in the  {{% system-name %}} system. For information on accessing and utilizing flowsheets from *within* a patient chart, see our [Observations Tab](observations-tab.md) help documentation. Additionally, to fully utilize flowsheets, the requisite observations will need to be active in the system. For a recap of how to add and maintain observation codes, see the [Observation Codes Editor](observation-codes-editor.md) and [Observation Code Merging](observation-code-merging.md) documentation.
 
@@ -30,7 +30,7 @@ The following information provides details on how to add and configure flowsheet
 
 1. Verify all observations needed for the new flowsheet are already created and available within the {{% system-name %}} system.
 
-![](../flowsheets-editor.assets/59a6c4b405af74f219b04b67fd165582.png)
+![](./flowsheets-editor.assets/59a6c4b405af74f219b04b67fd165582.png)
 
 {{% note %}}
 Any custom discrete values will not be interoperable when communicating with other systems.
@@ -107,7 +107,7 @@ To avoid the default behavior of automatically displaying line breaks/headers, u
 1. Click the Edit icon (pencil) to edit the line break/header, and update the <strong>Section</strong> field with a category, label, term, or generic freetext (e.g., lungs, bsa, etc.).
 2. Once the line break/header has been updated with a section name, edit each line item or observation belonging to that section with the same section name.
 
-![](../flowsheets-editor.assets/71df30c839339c10d06ab776a1ef5367.png)
+![](./flowsheets-editor.assets/71df30c839339c10d06ab776a1ef5367.png)
 
 3. Click the <strong>Submit</strong> button to save all changes.
 
@@ -129,11 +129,11 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
 
 For clients on 202403 and newer, a help list has been added to this field. Click the List icon in the **Required** field to see a list of bulleted common options. Click on the item and the appropriate function will populate the configuration box.
 
-![](../flowsheets-editor.assets/bd1a8860fe83357d1066e98e32202846.png)
+![](./flowsheets-editor.assets/bd1a8860fe83357d1066e98e32202846.png)
 
 For clients on RC202503 and newer, Flowsheet items with the *Required* field set to "1" or "true" no longer prevents flowsheet from being saved in the encounter exam. A value of "1" or "true" indicates that a question is recommended to be answered, but not required. If a recommended question is not answered, the user will receive a pop up message letting the user know a recommended question has been left blank and asks if they wish to proceed. Additionally, the Flowsheet editor tool will now have a *Mark All Recommended* button, which will mark each question with a "1" in the *Required* column. The existing *Mark all Required* will enter the required string value in the *Required* column.
 
-![](../flowsheets-editor.assets/b27ae8d7261786775daf18cf5581f2ec.png)
+![](./flowsheets-editor.assets/b27ae8d7261786775daf18cf5581f2ec.png)
 
 ### Conditional
 
@@ -143,7 +143,7 @@ To use conditional logic, the appropriate script must be added to the **Conditi
 
 For clients on 202403 and newer, a help list has been added to this field. Click the List icon in the Conditional field to see a list of bulleted common options. Click on the item and the appropriate function will populate the configuration box. To the right of the **Conditional** list icon is a system validation check. If the conditional functional statement is valid, then a check will display. If there is an error, either in the construction of a custom conditional statement or perhaps a missing quote or parenthesis and the statement is not valid, the check icon will not display.
 
-![](../flowsheets-editor.assets/cc0646255d0377be4e2b5ea83b88eae4.png)
+![](./flowsheets-editor.assets/cc0646255d0377be4e2b5ea83b88eae4.png)
 
 #### Based on Previous Answer
 
@@ -164,7 +164,7 @@ observationDisplay('Since your last exam, have you experienced rhinitis, a runny
 
 ```
 
-![](../flowsheets-editor.assets/1af6f941ed2cbb0128b1b2a0a904708d.png)
+![](./flowsheets-editor.assets/1af6f941ed2cbb0128b1b2a0a904708d.png)
 
 #### Based on Patient Sex
 

@@ -9,7 +9,7 @@ links:
   - '../adding-restrictions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
 source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
@@ -31,11 +31,11 @@ By default, the Case section of encounters will display the following case types
 * Medical Suitability for Expatriate Assignment (MSEA)
 * Medical Surveillance
 
-![](../adding-absence-management-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
+![](./adding-absence-management-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
 If you wish to document a new case, click the header or **Edit** (Pencil) icon of the **Case** section in the dynamic encounter.
 
-![](../adding-absence-management-case.assets/b634f8f1f09f299c7719210dd5a6b587.png)
+![](./adding-absence-management-case.assets/b634f8f1f09f299c7719210dd5a6b587.png)
 
 Once the **Case** section is expanded, indicate which type of case to create on the chart by selecting the appropriate radio button. The type of case selected will determine other fields or radio button data to complete. Once you open/create a case, any documentation, encounter visit documentations, or the like can be linked to a specific case/incident the chart has had previously documented.
 
@@ -43,7 +43,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 
 After selecting to create an Absence Management case type, subsequent data fields branch open for documenting.  There are 2 required fields to capture before the system will save an Absence Management case to the chart. These are indicated by red asterisks. The other fields are optional and will most likely be keyed in at a later time, when managing the case throughout its life cycle.
 
-![](../adding-absence-management-case.assets/2f348c078fc457639ae3a74cb2635d11.png)
+![](./adding-absence-management-case.assets/2f348c078fc457639ae3a74cb2635d11.png)
 
 ### Work Status (or Lost Time) Section
 

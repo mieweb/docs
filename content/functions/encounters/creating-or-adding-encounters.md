@@ -2,7 +2,7 @@
 id: '1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
 title: 'Creating or Adding Encounters'
 date: '2020-03-13T15:01:30.440Z'
-version: 116
+version: 117
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'working-in-a-visit-encounter.md'
   - 'archiving-closing-re-archiving-encounters.md'
 source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Creating or Adding Encounters
 
@@ -22,22 +22,22 @@ The encounter can be created several different ways, depending on the workflow o
 
 To add an encounter from the Summary chart tab, users will need to access the Quick Links portlet. This portlet displays hyperlinks intended to create specific types of encounters, as needed.
 
-![](../creating-or-adding-encounters.assets/9703615f72993ce737b571afe1909612.png)
+![](./creating-or-adding-encounters.assets/9703615f72993ce737b571afe1909612.png)
 
 Clicking one of the Add Encounter hyperlinks from the Quick Links portlet will automatically create and open the encounter in the chart. The new encounter will automatically populate today's date/time, the location (populated from the Preferred Location set in My Settings), and the Performing Provider will populate based upon the user opening the encounter.
 
 Users have the ability to create an encounter from saved/stored templates, as well. Clicking the Templates icon will provide a list of available templates to select from and that can be applied to the encounter being opened. Simply click the hyperlink of the named template you wish to apply and {{% system-name %}} will create, open and apply that template to the visit type indicated.
 
-![](../creating-or-adding-encounters.assets/a692a03e58533e5381d13d9e7d465fe9.png)
+![](./creating-or-adding-encounters.assets/a692a03e58533e5381d13d9e7d465fe9.png)
 
 With the encounter open, capturing data can begin immediately. Any changes to date of service, visit type, location, provider, and the like can all be managed from the Encounter section of the dynamic encounter, if necessary.
 
-![](../creating-or-adding-encounters.assets/cbb19065dd12289e276d1bad429891ea.png)
+![](./creating-or-adding-encounters.assets/cbb19065dd12289e276d1bad429891ea.png)
 
 {{% info %}}
 The opened encounter is automatically set to **Current** after being created.
 
-![](../creating-or-adding-encounters.assets/d7731bbca2f1151b995cb276b344e7df.png)
+![](./creating-or-adding-encounters.assets/d7731bbca2f1151b995cb276b344e7df.png)
 
 For more information on accessing encounters, see our [Encounter Summary Toolbar](encounter-summary-toolbar.md) documentation.
 {{% /info %}}
@@ -46,11 +46,11 @@ For more information on accessing encounters, see our [Encounter Summary Toolba
 
 From *Encounters* of the Medical Records chart tab, users may click the **Add Encounter** link in the upper-right corner, to create a new encounter, as needed.
 
-![](../creating-or-adding-encounters.assets/e5bdff1766b659645648097bcccf93c4.png)
+![](./creating-or-adding-encounters.assets/e5bdff1766b659645648097bcccf93c4.png)
 
 Using this method *will not* automatically populate the encounter info, meaning the user will be taken to the Add Encounter screen, where the encounter details will need to be entered *manually*, prior to creating the encounter.
 
-![](../creating-or-adding-encounters.assets/0426d8d98c4ae6fd55d29ca5b58f8b4f.png)
+![](./creating-or-adding-encounters.assets/0426d8d98c4ae6fd55d29ca5b58f8b4f.png)
 
 **Service Date:** Date of service/encounter/exam. Manually enter the date, or utilize the icons to quickly input the relevant date.
 
@@ -70,7 +70,7 @@ The list of Performing Providers populates and varies based on configuration and
 
 Once all of the relevant fields have been reviewed and populated, click the **Save** button. This will create and open the encounter in the chart. The new encounter will populate the provided date/time, location, and the performing provider. Any changes to the date of service, visit type, location, provider, and the like can all be managed from the Encounter section of the dynamic encounter, if necessary.
 
-![](../creating-or-adding-encounters.assets/cbb19065dd12289e276d1bad429891ea.png)
+![](./creating-or-adding-encounters.assets/cbb19065dd12289e276d1bad429891ea.png)
 
 With the encounter open, capturing data can begin immediately.
 
@@ -78,11 +78,11 @@ With the encounter open, capturing data can begin immediately.
 
 To view appointments linked to encounters in a patient chart, users can navigate to Appointments of the Admin chart tab. By clicking the Show Encounters link from the appointments page, users can view any encounters linked to the respective appointment.
 
-![](../creating-or-adding-encounters.assets/74aca3218d61edfc56395b02d6f80416.png)
+![](./creating-or-adding-encounters.assets/74aca3218d61edfc56395b02d6f80416.png)
 
 Once clicked, another window will open Encounters of the Medical Record chart tab. This will show any encounter(s) linked to the appointment. If there are no encounters linked to the appointment, the display will be blank.
 
-![](../creating-or-adding-encounters.assets/19ff5e96ddbace9ef2659cec52a74e41.png)
+![](./creating-or-adding-encounters.assets/19ff5e96ddbace9ef2659cec52a74e41.png)
 
 ### Creating/Adding Encounters from Scheduler
 
@@ -90,7 +90,7 @@ As noted, encounters can be created from the *Scheduler*, as well. This is contr
 
 The Show Add Encounter user preference has three possible options:
 
-![](../creating-or-adding-encounters.assets/908c0e9bef91fb4f85a09dfa556df991.png)
+![](./creating-or-adding-encounters.assets/908c0e9bef91fb4f85a09dfa556df991.png)
 
 **No:** Select No to avoid displaying the Add Encounter link on the scheduler view.
 
@@ -104,29 +104,29 @@ If there is no Default Visit Type set on the appointment type, then the Add Enco
 
 With the Show Add Encounter setting enabled, users can simply click the Add Encounter link from the scheduled appointment to begin creating an encounter.
 
-![](../creating-or-adding-encounters.assets/16b8ab102e6f6a74b3f0d96b4a7eed38.png)
+![](./creating-or-adding-encounters.assets/16b8ab102e6f6a74b3f0d96b4a7eed38.png)
 
 {{% tip %}}
 If there is an asterisk ( * ) next to the Add Encounter link, there is already an encounter open and linked to that appointment.
 
-![](../creating-or-adding-encounters.assets/33ab1826e3f04dc07ed4f18bbb1a2982.png)
+![](./creating-or-adding-encounters.assets/33ab1826e3f04dc07ed4f18bbb1a2982.png)
 
 
 {{% /tip %}}
 
 When adding an encounter from the Scheduler, the appointment information will automatically populate the respective fields. The date, time, location, and resource all pull in from the appointment information.
 
-![](../creating-or-adding-encounters.assets/e7643fea9b499ced9cfe3e30c089cc98.png)
+![](./creating-or-adding-encounters.assets/e7643fea9b499ced9cfe3e30c089cc98.png)
 
 ### Creating/Adding Encounters from E-Sign
 
 Users have the ability to create encounters from the List View or Multi-Review of the E-Sign module, as well. In order for an encounter type to be available for creation from the E-Sign module, the encounter type must be configured with Quick Add enabled. In the Encounter Type editor, the visit type can be set up as a Quick Add encounter, which will display a quick link in the E-Sign module.
 
-![](../creating-or-adding-encounters.assets/077f963aa05657dddb384916744fac64.png)
+![](./creating-or-adding-encounters.assets/077f963aa05657dddb384916744fac64.png)
 
 Simply click the Quick Add Encounter Link. This is any link displayed after the Open Chart quick link, uniquely named according to the encounter type. Clicking any of these from the E-Sign module will allow clinicians to quickly sign the document and link it to an encounter.
 
-![](../creating-or-adding-encounters.assets/2cc238514740f4f2fb008bdf5d9a1075.png)
+![](./creating-or-adding-encounters.assets/2cc238514740f4f2fb008bdf5d9a1075.png)
 
 Only adding a new encounter will sign the document and link the document to the encounter. When the Quick Add Encounter Link is clicked, the user will be taken to the encounter, and when the encounter is closed and archived, the user will be taken back to the E-Sign module.
 

@@ -2,13 +2,13 @@
 id: '1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
 title: 'E-Refills - E-Scripts Tab'
 date: '2020-02-27T20:06:51.472Z'
-version: 26
+version: 28
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1FV9i_W0REhJeDB0C58ffvgwhMOgixsOwX96c6yayJQc'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
-![](../e-refills-e-scripts-tab.assets/6ec8e5bb34b8d887e282a975df44954d.png)
+![](./e-refills-e-scripts-tab.assets/6ec8e5bb34b8d887e282a975df44954d.png)
 
 * <strong>New Scripts – Sent:</strong> Shows all the scripts that were transmitted successfully.
 * <strong>New Scripts – Error:</strong> Shows any scripts that have an error. Sometimes the error message makes sense, others are blank. Would need to contact George at MIE if need specifics on one.

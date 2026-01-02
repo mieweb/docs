@@ -1,17 +1,17 @@
 ---
 id: '1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
 title: 'Device Interface - VeriPRO Hearing Fit'
-date: '2024-10-29T16:41:11.835Z'
-version: 54
-lastAuthor: 'auhrick'
+date: '2025-11-13T15:14:29.299Z'
+version: 63
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1HqpJEWK2WrRidkl5PKrpMid0yKcpm0tmXROdW5jZ0HQ'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This interface uses the VeriPRO database export functionality to save the results to a CSV file that is uploaded to {{% system-name %}}
 
-# Import Instructions
+## Import Instructions
 
 * Perform the test in the VeriPRO software.
 * Use the Export Data feature in the VeriPRO software.
@@ -19,29 +19,29 @@ This interface uses the VeriPRO database export functionality to save the result
     * Select the Export a CSV file radio button
     * Click the Export button
 
-![](../device-interface-veripro-hearing-fit.assets/13a397fb6476f79b653eaf64d33e412a.png)
+![](./device-interface-veripro-hearing-fit.assets/13a397fb6476f79b653eaf64d33e412a.png)
 
 * In {{% system-name %}} navigate to the VeriPRO upload screen
 
-![](../device-interface-veripro-hearing-fit.assets/9f8df0726739874a5d221306a57b6442.png)
+![](./device-interface-veripro-hearing-fit.assets/9f8df0726739874a5d221306a57b6442.png)
 
 * Select the file from the Export
 
-![](../device-interface-veripro-hearing-fit.assets/04cd91cb973b3c108186ebee702dc636.png)
+![](./device-interface-veripro-hearing-fit.assets/04cd91cb973b3c108186ebee702dc636.png)
 
 * Click the Upload button
 
-![](../device-interface-veripro-hearing-fit.assets/2cb0603d9c32b6759b77d78ced6d9fca.png)
+![](./device-interface-veripro-hearing-fit.assets/2cb0603d9c32b6759b77d78ced6d9fca.png)
 
 * A uploaded file confirmation will display, as well as the number of records saved from that file
 
-![](../device-interface-veripro-hearing-fit.assets/6a7beed45da683b7613de83f575b5a4f.png)
+![](./device-interface-veripro-hearing-fit.assets/6a7beed45da683b7613de83f575b5a4f.png)
 
 * Results will display as a Lab Results document in the patient's chart.
 
-![](../device-interface-veripro-hearing-fit.assets/8cf29dde3cd89f5f507dbf2969197779.png)
+![](./device-interface-veripro-hearing-fit.assets/8cf29dde3cd89f5f507dbf2969197779.png)
 
-# Collected Fields
+## Collected Fields
 
 The following fields are collected
 
@@ -59,10 +59,10 @@ The following fields are collected
 * PEL
 * SEL
 
-# Installation Help
+## Installation Help
 
 This interface is not accessible in our out of the box system.  To add it, a link to the following layout needs to be added: ?f=layout&module=MIEDevice&name=Veripro%20Upload&tabmodule=+
 
 This could either be a control panel tab, a side menu entry, added to the Devices portlet, or another convenient location for users.
 
-![](../device-interface-veripro-hearing-fit.assets/5e62feac90a584fe4d592c47c6c358be.png)
+![](./device-interface-veripro-hearing-fit.assets/5e62feac90a584fe4d592c47c6c358be.png)

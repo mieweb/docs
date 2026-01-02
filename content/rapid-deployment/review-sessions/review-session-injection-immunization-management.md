@@ -2,7 +2,7 @@
 id: '1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
 title: 'Review Session - Injection/Immunization Management'
 date: '2025-04-07T17:37:10.131Z'
-version: 32
+version: 33
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -15,7 +15,7 @@ links:
   - '../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
 source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Agenda
 
@@ -59,7 +59,7 @@ The **MAR/Injections** chart tab is also known, simply, as the Injection tab. Th
 
 A common feature found throughout the {{% system-name %}} system are the quick links, typically seen at the top of a page. The Injection/Immunization module is no exception. At the top of the module, there are a series of links that offer the ability to add new or historical injections/immunizations, to add vials, from which injections can be administered, or even a means to quickly review the recorded injection/immunization information.
 
-![](../review-session-injection-immunization-management.assets/057a3dbcc03fb03399eb6dfbf9e66e80.png)
+![](./review-session-injection-immunization-management.assets/057a3dbcc03fb03399eb6dfbf9e66e80.png)
 
 #### Add Inj/Imm
 
@@ -132,7 +132,7 @@ Some practices are concerned with specific injections, so they may utilize the e
 
 There are several system settings that drive the fields and available choices found in the Injection/Immunization module. With the appropriate security permissions, users can navigate to the System Settings tab, found in the Control Panel, and edit/update with the appropriate information or values. The available system settings are multitudinous, but they are intended to control functions ranging from autocompletes and dropdowns to defaults and alerts. Be sure to use caution whenever editing system settings.
 
-![](../review-session-injection-immunization-management.assets/8275b7d80a791b1fe2a10e35e7f274bc.png)
+![](./review-session-injection-immunization-management.assets/8275b7d80a791b1fe2a10e35e7f274bc.png)
 
 #### &implement
 

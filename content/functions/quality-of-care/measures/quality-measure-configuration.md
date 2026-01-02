@@ -2,7 +2,7 @@
 id: '1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
 title: 'Quality Measure Configuration'
 date: '2024-09-19T20:29:19.135Z'
-version: 66
+version: 68
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md'
   - 'quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md'
 source: 'https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## Active
 

@@ -1,9 +1,9 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Chart Data CSV API'
-date: '2024-12-18T13:53:26.918Z'
-version: 186
-lastAuthor: 'bhamm'
+date: '2025-11-12T20:05:17.130Z'
+version: 196
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-overview.md'
@@ -17,15 +17,15 @@ links:
   - '../../../resources/system-specifications/application-programming-interface-api.md'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Chart Data CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Chart Data CSV API is used to import data related to patients or charts. It is valuable to recognize the following terminology as it pertains to MIE systems:
 

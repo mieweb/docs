@@ -2,14 +2,14 @@
 id: '1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
 title: 'Quality Reporting'
 date: '2020-02-27T21:26:25.410Z'
-version: 49
+version: 50
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../functions/quality-of-care/quality-reporting-enrollment.md'
   - 'quality-reporting/brief-introduction-to-quality-reporting.md'
 source: 'https://drive.google.com/open?id=1trmJBS-LCTGZHK9_TvFwTxl9ZQjr8cE-pGn9-aEy6rI'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Our clients have a lot going on. That's why we're here to help! [Learn how to enroll here!](../functions/quality-of-care/quality-reporting-enrollment.md)
 

@@ -1,9 +1,9 @@
 ---
 id: '1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
 title: 'Review Session - Pre-placement'
-date: '2025-08-04T13:20:25.863Z'
-version: 736
-lastAuthor: 'anichols'
+date: '2025-11-05T16:06:55.488Z'
+version: 749
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
@@ -17,7 +17,7 @@ links:
   - 'https://docs.enterprisehealth.com/videos-and-demonstrations.html'
   - 'https://docs.enterprisehealth.com'
 source: 'https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 markup: 'pandoc'
 ---
 ## Agenda
@@ -59,18 +59,18 @@ The words Pre-Placement, Candidate, or Applicant are used interchangeably. New h
 
 Standard functionality for the pre-placement workflow includes
 
-    * Client-specific branding with logo
-    * Applicant portal
-    * Applicant (APP) partition
-    * Pre-placement questionnaire
-    * Appointment scheduling requests/tasking
-    * Real-time portal appointment scheduling using pick-up codes
-    * Appointment invitation, confirmation, and reminder emails
-    * Pre-placement visit encounter
-    * Quick View Pre-placement worklist
-    * Health surveillance pre-placement panel
-    * Document queue tool available for the customer to merge duplicate records
-    * Purge editor is available for customer use to purge documents for applicants that aren't hired after a predetermined time
+* Client-specific branding with logo
+* Applicant portal
+* Applicant (APP) partition
+* Pre-placement questionnaire
+* Appointment scheduling requests/tasking
+* Real-time portal appointment scheduling using pick-up codes
+* Appointment invitation, confirmation, and reminder emails
+* Pre-placement visit encounter
+* Quick View Pre-placement worklist
+* Health surveillance pre-placement panel
+* Document queue tool available for the customer to merge duplicate records
+* Purge editor is available for customer use to purge documents for applicants that aren't hired after a predetermined time
 
 ## [Pre-placement Workflow Demonstration](https://drive.google.com/open?id=1kdoY2-_e0I-ST4fa9LVuAdTRmAZ9nByq8vs3JFb5w4s)
 
@@ -153,11 +153,11 @@ The Document Queue may be used to merge charts on-demand in between custom-tailo
 
 To more fully address preferred configurations and review available options and features, utilize the Employer Organization tab under the Control Panel to access and edit the applicant portal. These configurations will be visible from the respective portal when accessed. To begin the initial setup and finalize the configuration of the portal, there is additional information that is important to understand before getting started. The Deployment Consultant will ensure the portal configurations are suited to the business needs in the following areas:
 
-    * <strong>Applicant partition</strong>
-    * <strong>Applicant portal setup</strong>
-    * <strong>Task rule and department setup</strong>
-    * <strong>Consent and questionnaire flowsheets</strong>
-    * <strong>Schedule job - auto-merging applicant chart to employee chart</strong>
+* Applicant partition
+* Applicant portal setup
+* Task rule and department setup
+* Consent and questionnaire flowsheets
+* Schedule job - auto-merging applicant chart to employee chart
 
 ### Portal Setup
 
@@ -169,7 +169,7 @@ To begin using the **First Time Setup**, click the section header to expand and 
 By default, any {{% system-name %}} user with the necessary user-patient relationships established can access the portal. This means that as long as the user-patient relationship is set correctly, the portal will be enabled for all security roles.
 {{% /info %}}
 
-![](../review-session-pre-placement.assets/32b701192f2cfae38545b9644e67639a.png)
+![](./review-session-pre-placement.assets/32b701192f2cfae38545b9644e67639a.png)
 
 The **Portal** section includes options to make label and verbiage changes, to update the logo, to disable either the employee or supervisor portal, and to add a consent form that would need to be electronically signed before being granted access to the portal.
 
@@ -191,7 +191,7 @@ All other options are part of the standard configuration and are enabled by defa
 
 The applicant portal is a web-based platform available for screening new employees and streamlining the hiring process. The applicant portal is an optional module designed as a login terminal for increased usability. With it, employers have the ability to simplify the onboarding process and ensure all pre-employment needs are addressed early and accurately. This portal is configured so that candidates can be directed to the portal to complete forms and/or questionnaires, according to the hiring and pre-employment needs of the business. Candidates simply need to begin the portal session by entering their first and last name. Once the applicant has completed the forms/questionnaires, all of the information is submitted to the employer electronically. From here, a login-disabled user account will be drafted and linked to the pre-configured Applicant department, so if hired, the information can be easily merged into the employee user account.
 
-![](../review-session-pre-placement.assets/f9b755fa438b719330f844cf4a1ddea0.png)
+![](./review-session-pre-placement.assets/f9b755fa438b719330f844cf4a1ddea0.png)
 
 ### System Configuration and Setup
 
@@ -217,19 +217,19 @@ In {{% system-name %}} systems, workflows *use charts* for every patient, as wel
 
 There is a report available to list applicant partitioned charts that do not have the **_Is Applicant_** checkbox marked.  This checkbox indicates the chart is not flagged as temporary and wouldn't be able to be merged with a permanent employee record once they are hired.
 
-![](../review-session-pre-placement.assets/82df001feaa8291953454422aa781f62.png)
+![](./review-session-pre-placement.assets/82df001feaa8291953454422aa781f62.png)
 
 Clicking on that report will list any applicant partitioned charts without the *Is Applicant* box being checked in their chart.
 
-![](../review-session-pre-placement.assets/ed0682ed5931119e1a09629aab0dd024.png)
+![](./review-session-pre-placement.assets/ed0682ed5931119e1a09629aab0dd024.png)
 
 This is the opportunity to go into the listed chart(s) and fix that via edit demographics.
 
-![](../review-session-pre-placement.assets/6238ce4791c029a3ae959468bd02e54a.png)
+![](./review-session-pre-placement.assets/6238ce4791c029a3ae959468bd02e54a.png)
 
 In the edit demographics screen, checkmark the *Is Applicant* box and click Save to save your work.
 
-![](../review-session-pre-placement.assets/4a84dee27538245b46dc8dc6266bf621.png)
+![](./review-session-pre-placement.assets/4a84dee27538245b46dc8dc6266bf621.png)
 
 ## Key Decision Points
 

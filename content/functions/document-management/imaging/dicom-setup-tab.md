@@ -1,40 +1,36 @@
 ---
 id: '1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
 title: 'DICOM Setup Tab'
-date: '2024-05-17T15:22:01.761Z'
-version: 62
+date: '2025-11-10T17:46:46.481Z'
+version: 74
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
-  - 'https://system/?f=dicom&dcfunc=aeedit'
-  - 'https://system/?f=dicom&s=app_entities'
-  - 'https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup'
-  - 'https://system/?f=dicom&s=app_entities&opp=add'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/'
 source: 'https://drive.google.com/open?id=1l50g_U5m-hU-hGjQ9Rm_xNeSY8ak62UNcqWRSTpvCbg'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and exchanging image information in and between medical imaging software.
 
 ## DICOM Setup Tab
 
-Access to the [Dicom Setup tab](https://system/?f=dicom&dcfunc=aeedit) requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.
+Access to the DICOM Setup tab requires the DICOM Queue security permission.  DICOM Queue security permission allows access to the DICOM Image Queue and all the settings that go with it.
 
-The [DICOM Setup tab](https://system/?f=dicom&dcfunc=aeedit) is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
+The DICOM Setup tab is both a dashboard with search functionality, as well as a link to add or edit the Application Entities information. There is also a "basic" or "advanced" search capability at the top left corner of this screen to search for DICOM routes in the categories of the dashboard.
 
-![](../dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)
+![](./dicom-setup-tab.assets/3a9929a7b2969bf21b78ea458e99a58a.png)
 
 ## Application Entities Editor
 
 Access to view and manage Application Entities requires the Application Entities Editor security permission.  The Application Entities Editor security permission allows access to add, edit, or delete DICOM Application Entities, however this editor is mainly for MIE programming staff.
 
-To view application entities, simply click the [View Application Entities](https://system/?f=dicom&s=app_entities) hyperlink in the [DICOM Setup](https://system/?f=dicom&dcfunc=aeedit&tabmodule=admin&tabselect=Dicom+Setup) tab found within the **Control Panel** sidemenu.
+To view application entities, simply click the View Application Entities hyperlink in the DICOM Setup tab found within the **Control Panel** sidemenu.
 
-![](../dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)
+![](./dicom-setup-tab.assets/f81a935d569d0fc54de08d08675b6c17.png)
 
-To add an Application Entity, once in the Application Entities, simply select the [Add Entity](https://system/?f=dicom&s=app_entities&opp=add) link.
+To add an Application Entity, once in the Application Entities, simply select the Add Entity link.
 
-![](../dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)
+![](./dicom-setup-tab.assets/c33f7e26d651e164cb8ed64ee9efd635.png)
 
 The following information is displayed on the application entities screen:
 
@@ -45,7 +41,7 @@ The following information is displayed on the application entities screen:
     * 2761 registered port for DICOM using Integrated Secure Communication Layer (ISCL) over TCP or UDP.
     * 2762 registered port for DICOM using Transport Layer Security (TLS) over TCP or UDP.
     * 11112 registered port for DICOM using standard, open communication over TCP or UDP.
-* <strong>Location Code</strong>: Select the appropriate location from where the device is located. A new location code may need to be set up in the [Locations Manager chart tab](https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager).
+* <strong>Location Code</strong>: Select the appropriate location from where the device is located. A new location code may need to be set up in the [Locations Manager chart tab](https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/).
 * <strong>Patient Partition</strong>: If  {{% system-name %}} is partitioned by location/group, then select the appropriate partition from where the imaging device is located. If there is only one partition (e.g., MR), then use this partition.
 * <strong>Document Type</strong>: By default, incoming studies will be stored with a Document Type determined by that modality (i.e., an Ultrasound Device would have a document type of "US"). This setting allows you to override that document type.
 * <strong>Route Level</strong>: MIE or the Superuser will select the type of routing level they want to transmit the images to the  {{% system-name %}}  system.

@@ -1,21 +1,21 @@
 ---
 id: '1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0'
 title: 'OpenPM Export Physicians'
-date: '2024-07-16T19:11:53.577Z'
-version: 30
-lastAuthor: 'auhrick'
+date: '2025-11-11T19:47:45.205Z'
+version: 40
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 ## OpenPM Export Physicians (aka "ACUsersByDept")
 
-#### Description:
+### Description:
 
 The "Physicians" report, also referred to as "ACUsersByDept" due to its realm setting, is designed to export detailed information about users within a specific department to the OpenPM system, specifically the Physicians. This report is essential for managing user accounts and permissions within the OpenPM interface, ensuring that administrators have access to comprehensive data about each user in the department.
 
-#### Report Fields and Descriptions:
+### Report Fields and Descriptions:
 
 1. <strong>User ID</strong>: A link to the user's profile, displaying their unique user ID.
 2. <strong>Username</strong>: A link to the user's profile, displaying their username. If the username is not available, a placeholder link is provided.
@@ -42,4 +42,4 @@ The "Physicians" report, also referred to as "ACUsersByDept" due to its realm se
 23. <strong>Revised By</strong>: The name of the user who last revised the profile.
 24. <strong>Options</strong>: Links for actions that can be taken on the user's profile, such as view, edit, delete, or activate, based on the user's permissions and status.
 
-![](../openpm-export-physicians.assets/be748556a63466932e4dd9c198da25fe.png)
+![](./openpm-export-physicians.assets/be748556a63466932e4dd9c198da25fe.png)

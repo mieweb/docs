@@ -1,8 +1,8 @@
 ---
 id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
 title: 'EKG Data Entry'
-date: '2025-03-28T18:22:08.961Z'
-version: 90
+date: '2025-11-10T16:20:25.615Z'
+version: 99
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,10 +10,9 @@ links:
   - '../scanning-and-indexing/indexing.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
   - '../../system-administration/interfaces/device-interface-ekg-system.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
   - 'https://mie.talentlms.com/shared/start/key:ZOEDNHRK'
 source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
@@ -32,12 +31,12 @@ To access and utilize a bubble form for recording information, simply navigate t
 1. While in the appropriate chart, access and print the EKG bubble form by clicking the <strong>Add Document</strong> link. This will open the Document/Forms Library, where all forms can be accessed.
 2. Find and open the necessary form by visually locating it in the list and clicking the <strong>Form</strong> link. Otherwise, begin typing in the <strong>Doc Type Search</strong> autocomplete, select the appropriate form, and click <strong>Submit</strong> to open the document.
 
-![](../ekg-data-entry.assets/7ccfedf97a40807f792b406f1b2709b0.png)
+![](./ekg-data-entry.assets/7ccfedf97a40807f792b406f1b2709b0.png)
 
 3. Print out the bubble form.
 4. Record the results by coloring in the respective bubbles, then scan and index the form(s) back into the appropriate chart(s).
 
-![](../ekg-data-entry.assets/50580dbb7e9240c77900d2d0668d54ca.png)
+![](./ekg-data-entry.assets/50580dbb7e9240c77900d2d0668d54ca.png)
 
 {{% info %}}
 Bubble forms can also be generated as generic, or unassociated with a specific chart, to allow for mass use. Print a stack of generic forms to take onsite, and afterward, scan/index them into the respective charts.
@@ -51,25 +50,25 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 This method of data entry can be achieved by checking the EKG order on the **Due List**, found in the Tests & Procedures section of the encounter, then using the **Add to Exam** button, to allow for manual entry or device import.
 
-![](../ekg-data-entry.assets/ed5faf41935d896e592781cec69c369e.png)
+![](./ekg-data-entry.assets/ed5faf41935d896e592781cec69c369e.png)
 
 If the EKG is not found on the Due List, it can be autocompleted in the Tests & Procedures section and added to the encounter via the **Add to Exam** button.
 
-![](../ekg-data-entry.assets/95220921258915483355efb111762fab.png)
+![](./ekg-data-entry.assets/95220921258915483355efb111762fab.png)
 
 Alternatively, the EKG may be selected using the **Picklist** icon by selecting the order from the list and adding it to the encounter.
 
-![](../ekg-data-entry.assets/60a329a60eecaecbfa671210cc74cef6.png)
+![](./ekg-data-entry.assets/60a329a60eecaecbfa671210cc74cef6.png)
 
 Once the EKG test/procedure has been applied to the encounter, EKG data fields open for data entry in the visit encounter.
 
-![](../ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
+![](./ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
 
 ### Import EKG Data From Device
 
 When accessing the **Test Results** chart tab after adding a new EKG, there is the ability to either enter the data manually, or upload results from a device, if an interface is established. To utilize the semi-automatic process of uploading results from the device interface, simply click the **Load CardioPerfect** import button when the EKG procedure is added to the visit encounter. Select the appropriate file and click **Upload File**.
 
-![](../ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
+![](./ekg-data-entry.assets/b106ccfde7e6aeb5055a45ae05c643ed.png)
 
 {{% note %}}
 Any client currently utilizing IE controls for this data import are urged to update their import to utilize the MIE Device App. When using the MIE Device App, users simply upload their results to the MIE Device App and the app will automatically insert the results as a document in the patient chart. To update your current system, follow the instructions located within the [Installing MIE Device App](https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/) documentation.
@@ -79,9 +78,9 @@ For more information on device interfaces and file uploads, see the help documen
 
 ## Reporting
 
-These types of report links are generally found in the **Reports** sidemenu tab, under the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
+These types of report links are generally found in the **Reports** sidemenu tab, under the Visits grouping of reports. These reports enable a client to review the various data captured during a visit or encounter. The EKG Report is available here, for example.
 
-![](../ekg-data-entry.assets/a57850af2a38f3b4acf4b361c87680b1.png)
+![](./ekg-data-entry.assets/a57850af2a38f3b4acf4b361c87680b1.png)
 
 ## Learning Management System
 

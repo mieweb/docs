@@ -2,13 +2,13 @@
 id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
 title: 'Device Interface - MI 7000'
 date: '2025-07-03T15:40:54.219Z'
-version: 36
+version: 37
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with the product, and lists the fields that the interface retrieves.
 

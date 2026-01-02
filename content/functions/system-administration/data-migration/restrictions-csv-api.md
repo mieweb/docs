@@ -1,9 +1,9 @@
 ---
 id: '1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
 title: 'Restrictions CSV API'
-date: '2020-02-27T21:32:12.910Z'
-version: 27
-lastAuthor: 'aquandt'
+date: '2025-11-12T20:20:53.287Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'case-management-csv-api.md'
@@ -17,7 +17,7 @@ links:
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for restrictions** using the [Case Management CSV API](case-management-csv-api.md).
 
@@ -29,11 +29,11 @@ The following CSV APIs import information used to build a case:
 * [Conditions Case Management CSV API](conditions-csv-api.md)
 * [Nature of Injury Case Management CSV API](nature-of-injury-csv-api.md)
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Clinical Encounter CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Case Management CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time from an existing system.
 
@@ -72,7 +72,7 @@ The following sections provide insight for technical personnel working with the 
 
 [Case Management CSV API specifications are available here](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=1771472836%7CThe).
 
-Additionally, [user instructions](#user-instructions) are available for importing data in EH.
+Additionally, user instructions are available for importing data in EH.
 
 ### Column Definitions and Specific Coded Values
 
@@ -100,8 +100,6 @@ The required IDs listed here serve to correctly identify the patient and link to
 ## Examples
 
 * [Patient Clinical Restriction Downloadable CSV](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=700124604&single=true&output=csv)
-
-## Validation
 
 ## Related Pages
 

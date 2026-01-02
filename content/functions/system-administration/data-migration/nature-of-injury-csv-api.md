@@ -1,9 +1,9 @@
 ---
 id: '1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU'
 title: 'Nature of Injury CSV API'
-date: '2020-02-27T21:32:25.970Z'
-version: 34
-lastAuthor: 'aquandt'
+date: '2025-11-12T20:29:57.830Z'
+version: 45
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'case-management-csv-api.md'
@@ -17,7 +17,7 @@ links:
   - 'data-import-master-list.md'
   - 'clinical-encounter-csv-api.md'
 source: 'https://drive.google.com/open?id=1TMIp_Sy8YO8Qe8FyfpxRuHIZUFUBzdSK69mRQrBUgmU'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) **for nature of injury** using the [Case Management CSV API](case-management-csv-api.md).
 
@@ -29,11 +29,11 @@ The following CSV APIs import information used to build a case:
 * [Conditions Case Management CSV API](conditions-csv-api.md)
 * Nature of Injury Case Management CSV API
 
-### Audience
+## Audience
 
 The abstract that follows should be presented to decision-makers or stakeholders interested in a general explanation of the Clinical Encounter CSV API. Technical details are provided in the remaining sections.
 
-### Abstract
+## Abstract
 
 The Case Management CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time from an existing system.
 
@@ -94,8 +94,6 @@ A text description of either the injury (Injury Description, incident_nibp.natu
 ## Examples
 
 * [Incident Body Parts Downloadable CSV](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pub?gid=1488916786&single=true&output=csv)
-
-## Validation
 
 ## Related Pages
 

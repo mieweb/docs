@@ -7,8 +7,8 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=11c7LYNpC6JP7pLJuiK9RWaFFr6CN20w9S0z9t5hvN8o'
-wikigdrive: '7bd2b52c5cf9bba91d376203703e860806d2a208'
+wikigdrive: 'v2.15.30'
 ---
 Through the use of regular, ongoing screenings and examinations, reducing and preventing occupational injury and illness is streamlined, allowing for more effective exposure prevention strategies and better recordkeeping. The Enterprise Health system is designed with an emphasis on these exact components, providing easy-to-use, non-invasive processes when addressing medical clearance needs.
 
-![](../worksite-injury-and-illness.assets/d46ae009e35683d5e1b57e5d1069e6d0.png)
+![](./worksite-injury-and-illness.assets/d46ae009e35683d5e1b57e5d1069e6d0.png)
