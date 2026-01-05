@@ -1,8 +1,8 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2025-11-12T19:51:06.036Z'
-version: 260
+date: '2026-01-05T20:44:59.236Z'
+version: 354
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -66,19 +66,17 @@ Standard features and {{% sys-name %}} product offerings are not discussed as pa
 
 The Chart Data CSV API is used to import many types of chart data, from chart demographics to observations. It may also be used to set up relationships between charts. This API is used as part of MIE's standard Human Resource Interface, but it may also be used for single imports of new charts or updates to charts.
 
-![](./data-import-master-list.assets/9bc6e456d24377e175c38e79dd6ea1d5.png)
+![](./data-import-master-list.assets/83a1a8f52dff0067289b8c9d5a536f05.png)
 
 Standard demographics display employee information such as name, DOB, gender, address, phone number, email address and employer information. Information in the HR import file is mapped to the appropriate demographic field. A history of revisions is stored indicating the date/time of the change.
 
-![](./data-import-master-list.assets/72db1335a9f1c16122e401b954603d9d.png)
+![](./data-import-master-list.assets/3631dd011bbd1c82be8cf77b155ebc77.png)
 
 Extended demographic fields are configurable based on customer requirements. Custom fields outside of what is listed in the HR import template are not included in the standard implementation. Customization requires a discovery call to scope and quote the work effort. Revisions are not stored on custom extended fields.
 
-![](./data-import-master-list.assets/5dfc42320fd792faa9926f2decb75536.png)
+![](./data-import-master-list.assets/ff50b94b05c26180bca09c144818a6dc.png)
 
-Administrative demographic fields are in a separate table and store specific employment information such as supervisor information, cost center, job description, and work schedule. A history of revisions is stored indicating the date/time of the change.
-
-![](./data-import-master-list.assets/657f2a2122a618af0978f7e403bc9ca0.png)
+Administrative demographic fields are in a separate table and store specific employment information such as supervisor information, cost center, job description, and work schedule. A history of revisions is stored indicating the date/time of the change. This is available from the Patient Revisions hyperlink.
 
 * [Demographic Import Specification: Patient/Chart Demographics](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0)
 * [Chart Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-data-csv-api/)
@@ -95,7 +93,7 @@ A chart can represent a person, organization, or other entity. Chart-to-chart re
 
 The Chart Relations CSV API imports various relationships between charts.
 
-![](./data-import-master-list.assets/de74fd5f0077a5234d42b22db304244b.png)
+![](./data-import-master-list.assets/5a4227da010e3da8a226e66367021eba.png)
 
 * [Administration Information Demographic Import Specification: Patient/Chart Administration Information](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0//Patient/Chart)
 * [Chart Relations CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-relations-csv-api/)
@@ -108,13 +106,11 @@ All aspects of the visit are covered in the encounter, such as the history of pr
 
 The Clinical Encounter CSV API imports data related to an employee's (patient's) condition.
 
-![](./data-import-master-list.assets/5b5ce9b75d97bbdead1b6521dfea2ea6.png)
-
 Related documents are included or linked to an encounter.
 
-![](./data-import-master-list.assets/bfc8b3d7d814e9cd5c993dfcbc7090dc.png)
+![](./data-import-master-list.assets/0590b822a9099d1c60d040aba7c7beb0.png)
 
-![](./data-import-master-list.assets/98abf3c95490735124ee1ab831b68dc4.png)
+![](./data-import-master-list.assets/c09c55744f1125c57c5b885eaed8a11f.png)
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit)
 * [Clinical Encounter CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/)
@@ -127,7 +123,7 @@ In an EH system, a restriction (clinical restriction) refers to an activity that
 
 The Lost Time CSV API is used to import information related to an employee's (patient's) condition, accommodation, and lost time.
 
-![](./data-import-master-list.assets/1d9ee61253ff3d14b0f2e4b91131e204.png)
+![](./data-import-master-list.assets/3562fd048dc2657bdfec016951b0c3e1.png)
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml)
 * [Lost Time CSV Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool/)
@@ -142,15 +138,15 @@ MIE systems store discrete data for occupational audiogram tests. Audio tests ar
 
 The Audiometric Data CSV API imports audiometric and related data for an employee (patient).
 
-![](./data-import-master-list.assets/cc3b6844de20e78465177f4c5e604cd7.png)
+![](./data-import-master-list.assets/688496dbce707c3f9526b70dfcb4d789.png)
 
 Audiograms that are converted from other systems store the data discretely as an individual report document.
 
-![](./data-import-master-list.assets/a393fce65680e2609ae7d00555df6aa6.png)
+![](./data-import-master-list.assets/d0c6610009b518b1df9ad1e6c0230381.png)
 
 Audiogram questions are stored as observations in a flowsheet-like format ordered by date.
 
-![](./data-import-master-list.assets/3f96453f110064b5d3ade77cbf40b80a.png)
+![](./data-import-master-list.assets/f05fa23c001a00651671fa4fece41915.png)
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit#gid=0)
 * [Audiometric Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/)
@@ -159,7 +155,7 @@ Audiogram questions are stored as observations in a flowsheet-like format ordere
 
 EH maintains records of all respirator masks an employee has tested for use. The Respirator Fit Test Data CSV API imports data related to respirator fit testing.
 
-![](./data-import-master-list.assets/0969492db857314dfde893c0598f988f.png)
+![](./data-import-master-list.assets/506e88fbf24399f8b39daa65bb1304e3.png)
 
 * CSV import specification TBD
 * Respirator Fit Test CSV API TBD
@@ -168,7 +164,9 @@ EH maintains records of all respirator masks an employee has tested for use. The
 
 Spirometry, or pulmonary function tests (PFT), are stored for individual employees. Additional information on the employee's height and weight is recorded to compare to predicted results. The comparison tool displays PFT information in a flowsheet format. The PFT Data CSV API imports data related to spirometry.
 
-![](./data-import-master-list.assets/30a82a6c32d1946d5d3aac528fa51a63.png)
+![](./data-import-master-list.assets/11d3e55d4e2b874711802b28724e91ed.png)
+
+![](./data-import-master-list.assets/412db3c94bcf6905a894709eb4846315.png)
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit#gid=0)
 * [PFT Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pft-data-csv-api/)
@@ -179,15 +177,15 @@ Lab results are stored in a chart as a document; a document may contain multiple
 
 The Lab Results CSV API imports data related to lab data.
 
-![](./data-import-master-list.assets/d8bf2aa24adfd3303d0c51745fff52b0.png)
+![](./data-import-master-list.assets/179352f7931eee9627c1f98a8b692119.png)
 
 Converted lab results store as a document in a chart.
 
-![](./data-import-master-list.assets/68344ed5e2da45eedb45fa6b12f1a4a7.png)
+![](./data-import-master-list.assets/b393b8e190ed42e0a4adafb2a9f9302c.png)
 
 The discrete lab results also display as a flowsheet.
 
-![](./data-import-master-list.assets/02162542883f83c621fd39298c2898d8.png)
+![](./data-import-master-list.assets/fba7ffe759c5ecf5a2f97c03180f0a03.png)
 
 * [Lab Results CSV Specification](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
 * [Lab Results CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lab-result-csv-api/)
@@ -196,15 +194,15 @@ The discrete lab results also display as a flowsheet.
 
 An observation is a means of storing repeated historic data, such as vital signs, lab results, questionnaire responses, etc. for an employee. Vitals display in a flowsheet format. The Observations CSV API imports data related to observations.
 
-![](./data-import-master-list.assets/1e9d3f3e55e42371a6ae5f29c24eea5f.png)
+![](./data-import-master-list.assets/b0d272fc6de9b0abab0b01422af1bd8a.png)
 
 The vitals flowsheet displays in the Vitals chart tab and within the visit encounter.
 
-![](./data-import-master-list.assets/9c11c70e9644efece7b71dbb8fe67f3b.png)
+![](./data-import-master-list.assets/895ff2b30802ff04a13a62417721f361.png)
 
 Lab results store as a discrete data and display in a flowsheet format and as a document in the chart.
 
-![](./data-import-master-list.assets/270807d698589507360134d46bfeee84.png)
+![](./data-import-master-list.assets/fd15b4c1b5ea88d5e786c03ca704ef64.png)
 
 * [Chart Data CSV Import Specification: Observations](https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing)
 * [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/)
@@ -218,15 +216,15 @@ A panel defines a group of events or actions that will take place on certain pro
 
 The Configuration Tool has been developed to import panel data into EH.
 
-![](./data-import-master-list.assets/cc124f1cc59dc3958ae6058b4ea9edf1.png)
+![](./data-import-master-list.assets/2c677bdfd65d76da4bf5d7dc198cf7a3.png)
 
 There is a CSV import/export template that may be used to set up surveillance panels and actions, however it is primarily used to copy data from one MIE system to another.
 
-![](./data-import-master-list.assets/0b393117866a0291c4d65c3a4214fe05.png)
+![](./data-import-master-list.assets/bb891ec06df0275b64b398d7ef7e9eea.png)
 
 There is an editor built into the MIE system to initially set up the panels and actions.
 
-![](./data-import-master-list.assets/07844b68023cc64fb74a8e72dc0b73d7.png)
+![](./data-import-master-list.assets/0f0e9ad2dd60d66d483e8713dc4f7f19.png)
 
 * [Health Surveillance File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/create-health-surveillance-file-for-import/)
 
@@ -305,7 +303,7 @@ Case information may be stored as a document in a static 2-column format, which 
 
 Questionnaire data is grouped together by date of service in a document. The document type name is stored as a questionnaire so it will display within the appropriate chart tab in a chart. In addition, questionnaire data may be linked to the encounter for that date of service.
 
-![](./data-import-master-list.assets/304029df0da3492f3a5dd57c58132157.png)
+![](./data-import-master-list.assets/0341b68aa8533de5197dc59bb1f0b822.png)
 
 * CSV import specification TBD
 
@@ -317,11 +315,11 @@ A number of external database tables are referenced to identify drugs for inject
 
 Injection data is stored as a document, and will display within the appropriate tab of a chart.
 
-![](./data-import-master-list.assets/c75aa74024346666e6f0e8ac146101c7.png)
+![](./data-import-master-list.assets/08f341f4ca4306f630d53b7c325d7336.png)
 
 In addition, injections display within the Injections flowsheet chart tab as discrete data.
 
-![](./data-import-master-list.assets/369b083854585bc945558945c7a105f9.png)
+![](./data-import-master-list.assets/9aa72bcca5a370347fab5530208ea17b.png)
 
 * [CSV import specification](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit)
 * [Injections CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/injections-csv-api/)
@@ -354,8 +352,6 @@ Historical ECG data is imported as a document.
 
 Specific discrete data fields may also be viewed in a flowsheet format.
 
-![](./data-import-master-list.assets/1fa6d10094797304f91353aeb1e496fc.png)
-
 * [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
 * [MIE CSV File Import](https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit#gid=0%7C)
 
@@ -365,17 +361,17 @@ Specific discrete data fields may also be viewed in a flowsheet format.
 
 The vision flowsheet displays specific discrete data in order by date of service.
 
-![](./data-import-master-list.assets/f68db2c5ff3f75367a534a7993f356fb.png)
+![](./data-import-master-list.assets/ecc8ff1084a4c3e396481c86f2ef31de.png)
 
 Historical vision data is imported as a document in a chart.
 
-![](./data-import-master-list.assets/ea84cbe657118b55a46c0aec51677f59.png)
+![](./data-import-master-list.assets/b9aa66aeff5e08bec55d542c97428204.png)
 
 ### X-ray Flowsheet and Reports
 
 Historical x-ray reports are imported as a document. Specific discrete data fields may also be viewed in a flowsheet format. In addition, the MIE system has the ability to store digital radiology (DICOM) images.
 
-![](./data-import-master-list.assets/591ed62260413b1a4e458bd0da32b377.png)
+![](./data-import-master-list.assets/d0026e29af76d2c65eb828cd0fb2fe1d.png)
 
 ## Discrete System Data
 
@@ -383,7 +379,7 @@ Historical x-ray reports are imported as a document. Specific discrete data fiel
 
 The pharmacy import template allows for a batch upload to the inventory module. Items are matched by Name, Strength and Lot # to determine if an existing item should be updated or a new item added to the MIE system.
 
-![](./data-import-master-list.assets/9533067f49496ea69792121a6289f74c.png)
+![](./data-import-master-list.assets/5f74a4f3fb21291ba5649392757c405f.png)
 
 * [Pharmacy Filter Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pharmacy-filter-import/)
 
@@ -391,7 +387,7 @@ The pharmacy import template allows for a batch upload to the inventory module. 
 
 There is an editor in the MIE system to manually add/edit schedules, appointment types and cancellation codes. The schedules may also be copied to a new entry. If appointments are uniquely identified during the data migration they will be stored in the appointment history in the chart. The Appointments CSV API imports data related to appointments and schedules.
 
-![](./data-import-master-list.assets/fe5c5453cfe24599a5d265dbfb798020.png)
+![](./data-import-master-list.assets/8a76ebbb1473472ef322d8338afddad3.png)
 
 * [Appointments CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/)
 
@@ -399,7 +395,7 @@ There is an editor in the MIE system to manually add/edit schedules, appointment
 
 Fee schedule information may be imported from a template. There is an editor within the MIE system to add/edit/remove Billing codes, descriptions and fee schedule information.
 
-![](./data-import-master-list.assets/7080b2a3bade8a49881d60c20e875d8b.png)
+![](./data-import-master-list.assets/b2fc42583eb7a036fc445d45fb97542c.png)
 
 * [Fee Schedule CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/)
 
@@ -413,13 +409,13 @@ The Fee Schedule CSV API manages data for setting costs and prices for orders. R
 
 The Asset Management module includes the ability to import asset details via an Assets CSV API. The CSV defines each field and allows the ability to leave columns blank if the data is not available. This can be populated by the client and imported directly into their systems. All columns must remain in place with the header row in place.
 
-![](./data-import-master-list.assets/591bab9cdc7505cbc4621f1e43d0a2a3.png)
+![](./data-import-master-list.assets/4843619b930404b2b2b64353527f33e4.png)
 
 ### Order Questions
 
 Orders questions may be added using a template. There is also an editor within the MIE system to create order questions.
 
-![](./data-import-master-list.assets/3bdd2a463bf286aff80c2d89e21ebacd.png)
+![](./data-import-master-list.assets/431157d3e1ff7dbece47d6d1144f3864.png)
 
 * [Order Question CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/)
 
