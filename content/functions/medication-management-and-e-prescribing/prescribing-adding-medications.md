@@ -1,9 +1,9 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2025-11-11T15:34:29.223Z'
-version: 396
-lastAuthor: 'janderson'
+date: '2026-01-05T20:51:51.339Z'
+version: 403
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions/'
@@ -163,9 +163,9 @@ Click on the Plus Sign icon or use the Past Meds Quick List to prescribe.
 
 ![](./prescribing-adding-medications.assets/20abbe883f7f3b8143ce3d28fd67c8de.png)
 
-Users will also be prompted with the new Prescribe Medication entry screen.
+Users will also be prompted with the new Prescribe Medication entry screen. Required fields will display with a Red Asterisk beginning in RC202403. Legacy versions will continue to receive pop up warning alerts for missing required fields upon attempting to save the prescription.
 
-![](./prescribing-adding-medications.assets/1bb5b86e918de9440f71fe8af775dcab.png)
+![](./prescribing-adding-medications.assets/f425fa2ec31d34a9750bd914286faa74.png)
 
 ## Medications - Do Not Expire
 
