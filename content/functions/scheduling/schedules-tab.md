@@ -1,8 +1,8 @@
 ---
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
-date: '2026-01-05T14:40:19.037Z'
-version: 308
+date: '2026-01-05T15:00:30.460Z'
+version: 312
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -64,7 +64,7 @@ When you click the **Save info to use again**, it pops open a **_Save Template_*
 
 When you are done saving the template, make sure to click the **SAVE** button at the end of the schedule you just created (or edited) in the schedule editor module so that the schedule is saved & created (or edited) in the system.
 
-### Show Previously Saved Info
+## Show Previously Saved Info
 
 To retrieve any previous saved schedule templates, click the **Show previously saved info** link found at the top of the schedule being accessed or added.
 
@@ -80,7 +80,7 @@ The template will open up in a window and you can check mark which entry fields 
 
 You will then be refreshed back to the Schedule Editor configuration screen with all the fields/categories pre-populated with the template you selected and can edit and modify to create this new schedule to what you need, then click the **SAVE** button.
 
-#### Manage Saved Templates Security Permission
+### Manage Saved Templates Security Permission
 
 There are security permission levels for **Manage Saved Templates** that interoperate with the Schedule Templates that can be saved and accessed to use to help configure new schedules with.
 
