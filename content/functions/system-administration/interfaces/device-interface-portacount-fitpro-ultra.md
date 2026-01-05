@@ -1,8 +1,8 @@
 ---
 id: '1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
 title: 'Device Interface - PortaCount FitPro Ultra'
-date: '2025-06-04T20:46:20.857Z'
-version: 119
+date: '2026-01-05T19:04:04.816Z'
+version: 127
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -40,6 +40,14 @@ Users will see the discrete summary of uploaded results in the **Respirator Info
 ![](./device-interface-portacount-fitpro-ultra.assets/e228d378070095e8c3f2aea997649940.png)
 
 ![](./device-interface-portacount-fitpro-ultra.assets/89f2e59f6da3f3c2675bd6369b3e8728.png)
+
+{{% note %}}
+
+The Portacount device import will now set the test type to "Quantitative" if a final fit factor is present in the import file. Also, when editing the respirator test record, the size and mask dropdowns will always include the current value from that test, even if that size mask is not a size or mask type that is not a standard size or mask type not typically included or configured in the drop down out of the box.
+
+{{% / note %}}
+
+![](./device-interface-portacount-fitpro-ultra.assets/7b5db3aa9983002c10ad901562a728cf.png)
 
 {{% note %}}
 
