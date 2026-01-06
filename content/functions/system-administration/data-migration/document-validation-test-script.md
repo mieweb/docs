@@ -1,8 +1,8 @@
 ---
 id: '1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
 title: 'Document Validation Test Script'
-date: '2025-11-12T20:50:21.834Z'
-version: 72
+date: '2026-01-06T20:12:15.669Z'
+version: 85
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -68,9 +68,9 @@ To return to the list of documents, click the Documents chart tab.
 {{% /tip %}}
 
 6. With the documents displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.
-    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    2. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    3. Contact {{% system-name %}} with the findings.
+    * Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
+    * Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+    * Contact {{% system-name %}} with the findings.
 
 ## [Reports](https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7)
 
@@ -90,12 +90,13 @@ See the online help documentation for more information on the [Super Document Se
 ### Document Reports
 
 1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
-2. Select theVisits report list and select the [Documents Report](https://docs.enterprisehealth.com/functions/reports/documents-report-super-document-type-search/).
+2. Select the Visits report list and select the [Documents Report](https://docs.enterprisehealth.com/functions/reports/documents-report-super-document-type-search/).
 
-    ![](./document-validation-test-script.assets/2ed1e077f8f83a0c2a6135ab5c232ce7.png)
+![](./document-validation-test-script.assets/8a813fa69cb57ec62fcd929b598571ef.png)
+
 3. Similar to the Super Document Search Report, the Document Report performs a document search based on provided criteria. This report has less criteria available for searching.
 
-    ![](./document-validation-test-script.assets/3ba190c6d0373106a29edd225fec11b7.png)
+![](./document-validation-test-script.assets/885a8108a605164f8b0e3e108548f583.png)
 
 See the online help documentation for more information on using the [Documents Report](../../reports/documents-report-super-document-type-search.md).
 
