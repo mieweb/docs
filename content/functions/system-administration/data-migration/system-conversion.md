@@ -1,8 +1,8 @@
 ---
 id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 title: 'System Conversion'
-date: '2025-11-12T20:08:51.820Z'
-version: 92
+date: '2026-01-06T16:28:05.873Z'
+version: 102
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -25,7 +25,7 @@ wikigdrive: 'v2.15.30'
 
 There are a few stages involved in the conversion:
 
-1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/) <strong><em>(see this page for data file requirements).</em></strong>'
+1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/) <strong><em>(see this page for data file requirements)</em></strong>'.
 2. Legacy Data is loaded to the development MySQL database using MIE's pysqlimport tool.
 3. Generate <em>Data Mapping Spreadsheet</em> (Google Spreadsheet exportable to Excel/CSV for client use).
 4. Perform data mapping and define WebChart components.
@@ -172,17 +172,17 @@ Notice:
 1. The "Module Summary" tab is still selected.
 2. To create an Encounter, "Component" enter "ENCOUNTER" or "encounter". Case does not matter.
 3. The supported metadata fields have been defined.
-    1. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "encounters" table, the column "mrnumber" matches a Medical Record Number.
-    2. get_user_id - Looks for the Performing Doctor of the encounter.
-        1. default=0 - Use a default ID of 0 (no user).
-    3. get_interface_name - An identifier for the source of this data.
-        1. default=sample_conversion - Use sample_conversion for the interface name.
-    4. get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        1. db_cols=id - In the "encounters" table, the column "id" is used for an external identifier.
-    5. get_location - Define the location where the encounter took place.
-        1. default=OFFICE - Use OFFICE for the location code for all encounters created.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "encounters" table, the column "mrnumber" matches a Medical Record Number.
+    * get_user_id - Looks for the Performing Doctor of the encounter.
+        * default=0 - Use a default ID of 0 (no user).
+    * get_interface_name - An identifier for the source of this data.
+        * default=sample_conversion - Use sample_conversion for the interface name.
+    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
+        * db_cols=id - In the "encounters" table, the column "id" is used for an external identifier.
+    * get_location - Define the location where the encounter took place.
+        * default=OFFICE - Use OFFICE for the location code for all encounters created.
 
 The example Encounters (Visits>Encounters) were crafted to be created for the patient William Hart.
 
@@ -273,19 +273,19 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Summary Document, enter "SUMMARY DOCUMENT" or "summary document" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    1. Doc Type
-        1. WCDOCNOT - Create a Doctor Note document type.
-    2. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "documents" table, the column "mrnumber" matches a Medical Record Number.
-    3. get_user_id - Defines the author of the document.
-        1. default=0 - Use a default ID of 0 (no user).
-    4. get_interface_name - An identifier for the source of this data.
-        1. default=sample_conversion - Use sample_conversion for the interface name.
-    5. get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        1. db_cols=id - In the "documents" table, the column "id" is used for an external identifier.
-    6. get_location - Define the location where the document was created.
-        1. default=OFFICE - Use OFFICE for the location code for all documents created.
+    * Doc Type
+        * WCDOCNOT - Create a Doctor Note document type.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "documents" table, the column "mrnumber" matches a Medical Record Number.
+    * get_user_id - Defines the author of the document.
+        * default=0 - Use a default ID of 0 (no user).
+    * get_interface_name - An identifier for the source of this data.
+        * default=sample_conversion - Use sample_conversion for the interface name.
+    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
+        * db_cols=id - In the "documents" table, the column "id" is used for an external identifier.
+    * get_location - Define the location where the document was created.
+        * default=OFFICE - Use OFFICE for the location code for all documents created.
 
 The example Summary Documents (Document Summary) were crafted to be created for the patient William Hart.
 
@@ -379,15 +379,15 @@ Notice:
 1. The Module Summary tab is still selected.
 2. To create an Observation, this must match "OBSERVATION:" or "observation:". Case does not matter. Following this must come the handle, obs_code, or obs_name specified in the Data Mapping tab.
 3. The supported metadata fields have been defined.
-    1. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "observations" table, the column "mrnumber" matches a Medical Record Number.
-    2. get_user_id - Looks for the Entered By user.
-        1. default=0 - Use a default ID of 0 (no user).
-    3. get_interface_name - An identifier for the source of this data.
-        1. default=sample_conversion - Use sample_conversion for the interface name.
-    4. get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        1. db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "observations" table, the column "mrnumber" matches a Medical Record Number.
+    * get_user_id - Looks for the Entered By user.
+        * default=0 - Use a default ID of 0 (no user).
+    * get_interface_name - An identifier for the source of this data.
+        * default=sample_conversion - Use sample_conversion for the interface name.
+    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
+        * db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
 
 The example Observations (Medical Record>Observations/Flowsheets) were crafted to be created for the patient William Hart.
 
@@ -467,9 +467,9 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Respirator Fit Test, enter "FIT TEST" or "fit test" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    1. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
 
 The example Respirator Fit Tests (Test Results>Respirator Info) were crafted to be created for the patient William Hart.
 
@@ -590,17 +590,17 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Pulmonary Function Test, enter "PFT" or "pft" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    1. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "pft" table, the column "mrnumber" matches a Medical Record Number.
-    2. get_user_id - Looks for the Performing User of the Pulmonary Function Test.
-        1. default=0 - Use a default ID of 0 (no user).
-    3. get_interface_name - An identifier for the source of this data.
-        1. default=sample_conversion - Use sample_conversion for the interface name.
-    4. get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        1. db_cols=id - In the "pft" table, the column "id" is used for an external identifier.
-    5. get_location - Define the location where the test took place.
-        1. default=OFFICE - Use OFFICE for the location code for all tests created.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "pft" table, the column "mrnumber" matches a Medical Record Number.
+    * get_user_id - Looks for the Performing User of the Pulmonary Function Test.
+        * default=0 - Use a default ID of 0 (no user).
+    * get_interface_name - An identifier for the source of this data.
+        * default=sample_conversion - Use sample_conversion for the interface name.
+    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
+        * db_cols=id - In the "pft" table, the column "id" is used for an external identifier.
+    * get_location - Define the location where the test took place.
+        * default=OFFICE - Use OFFICE for the location code for all tests created.
 
 The example PFTs (Test Results>PFT) were crafted to be created for the patient William Hart.
 
@@ -699,19 +699,19 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create an Audiogram, enter "AUDIOGRAM" or "audiogram" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    1. get_pat_id - Looks for the patient in WebChart.
-        1. partition=MIE - Look in the MIE partition for the patient.
-        2. db_cols=mrnumber - In the "audio" table, the column "mrnumber" matches a Medical Record Number.
-    2. get_user_id - Looks for the Performing User of the test.
-        1. default=0 - Use a default ID of 0 (no user).
-    3. get_interface_name - An identifier for the source of this data.
-        1. default=sample_conversion - Use sample_conversion for the interface name.
-    4. get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        1. db_cols=id - In the "audio" table, the column "id" is used for an external identifier.
-    5. get_subject - Define a subject for the Audiogram document.
-        1. default=Sample Audiogram - Use "Sample Audiogram" as the subject for all tests created.
-    6. get_location - Define the location where the test took place.
-        1. default=OFFICE - Use OFFICE for the location code for all tests created.
+    * get_pat_id - Looks for the patient in WebChart.
+        * partition=MIE - Look in the MIE partition for the patient.
+        * db_cols=mrnumber - In the "audio" table, the column "mrnumber" matches a Medical Record Number.
+    * get_user_id - Looks for the Performing User of the test.
+        * default=0 - Use a default ID of 0 (no user).
+    * get_interface_name - An identifier for the source of this data.
+        * default=sample_conversion - Use sample_conversion for the interface name.
+    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
+        * db_cols=id - In the "audio" table, the column "id" is used for an external identifier.
+    * get_subject - Define a subject for the Audiogram document.
+        * default=Sample Audiogram - Use "Sample Audiogram" as the subject for all tests created.
+    * get_location - Define the location where the test took place.
+        * default=OFFICE - Use OFFICE for the location code for all tests created.
 
 The example Audiograms (Test Results>Audio) were crafted to be created for the patient William Hart.
 
@@ -723,8 +723,8 @@ The newly generated Audiograms:
 
 ## References
 
-1. [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0)https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
-2. [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1)https://docs.python.org/2/library/string.html#format-string-syntax
+* [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0)https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
+* [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1)https://docs.python.org/2/library/string.html#format-string-syntax
 
 ## Related Pages
 
