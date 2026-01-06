@@ -1,8 +1,8 @@
 ---
 id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 title: 'Audiogram Validation Test Script'
-date: '2025-11-13T13:26:44.940Z'
-version: 78
+date: '2026-01-06T18:06:24.167Z'
+version: 90
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,6 +13,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
   - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
   - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
 source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
 wikigdrive: 'v2.15.30'
 ---
@@ -181,38 +182,40 @@ The number in parenthesis indicates the number of items in each tab. 
 
     ![](./audiogram-validation-test-script.assets/b3818d187cff450d6fdcc26b4727f4bd.png)
 7. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
-    1. Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
-    2. Validate the correct location and and by whom the test was administered.
+    * Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
+    * Validate the correct location and and by whom the test was administered.
 
 {{% note %}}
 The *Location* may be listed as the name of the legacy system (e.g., OHM), and the *Author/Administered By* may be listed as **Import User**.
 {{% /note %}}
 
 8. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    1. Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    2. Contact {{% system-name %}} with the findings.
+    * Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+    * Contact {{% system-name %}} with the findings.
 
 ## [Reports](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_)
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 
-**Audiogram Report:** Shows details based on search criteria.
-
-**Audiometric Testing Report:** Displays STS information and OSHA recordable status.
+* <strong>Audiogram Report:</strong> Shows details based on search criteria.
+* <strong>Audiometric Testing Report:</strong> Displays STS information and OSHA recordable status.
 
 To access and utilize these reports:
 
-1. Navigate to the {{% syslink "Reports" "f=layout&module=reports&name=reports&tabmodule=reports" %}} sidemenu.
-2. Select the {{% syslink "Visits" "f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits" %}} report list.
+1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
+2. Select the Visits tab and select the Audiogram Report or Audiometric Testing
 
-    ![](./audiogram-validation-test-script.assets/403e427a3920d588507800435afefaf9.png)
+![](./audiogram-validation-test-script.assets/95db8042b8b435f6a06f8f1d31dbc17e.png)
+
 3. Criteria may be added to filter or drill down data.
-    1. Audiogram Report
 
-        ![](./audiogram-validation-test-script.assets/f72feceaf3162050b77cacab2502b281.png)
-    2. Audiometric Testing Report
+* Audiogram Report
 
-        ![](./audiogram-validation-test-script.assets/f34ef1cc466e770880e198bddce5af52.png)
+![](./audiogram-validation-test-script.assets/b4ae1ca29ef241b7336f067b115dabe2.png)
+
+* Audiometric Testing Report
+
+![](./audiogram-validation-test-script.assets/f3213f80468c0dd42afec047e4abe89a.png)
 
 
 ## FAQs
