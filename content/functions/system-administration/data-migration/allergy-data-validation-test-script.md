@@ -1,8 +1,8 @@
 ---
 id: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
 title: 'Allergy Data Validation Test Script'
-date: '2025-11-12T20:57:49.814Z'
-version: 52
+date: '2026-01-06T17:52:08.160Z'
+version: 57
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -114,8 +114,8 @@ Options include:<br />
 
     ![](./allergy-data-validation-test-script.assets/3e3a569788287f0ab5e976e5bc3610a2.png)
 5. Review the same patient in the legacy system and perform a side-by-side comparison. With the allergies and medications displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. ([video](https://drive.google.com/open?id=1-PoLE-uKdtcT7hEhc7aH3FLNuipu9RMw))
-    1. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
-    2. Contact {{% system-name %}} with the findings.
+    * Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record exact matches (Pass) and any discrepancies or differences (Fail). ([video](https://drive.google.com/open?id=1-NeQexrq2pMf_U4EFzoRTengEOjEp_2U))
+    * Contact {{% system-name %}} with the findings.
 
 ## Reports
 
