@@ -1,8 +1,8 @@
 ---
 id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
 title: 'Data Import Master List'
-date: '2026-01-05T20:44:59.236Z'
-version: 354
+date: '2026-01-06T15:24:45.838Z'
+version: 376
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -232,11 +232,11 @@ There is an editor built into the MIE system to initially set up the panels and 
 
 The Panel Member CSV API is used during initial setup to import employees to the appropriate surveillance panel.
 
-![](./data-import-master-list.assets/655baa2df07785a824b57360d1c8bc38.png)
+![](./data-import-master-list.assets/a2714242459567fa405df08bf4999dee.png)
 
 There is an editor to automate business rules for which employees should be added or removed from panel membership. In addition, a system administrator may also manually include or exclude specific employees from the panels.
 
-![](./data-import-master-list.assets/672f5076d862b81b6c8c944e6dc8936d.png)
+![](./data-import-master-list.assets/1e1d33eecea22337faf7b89c74c6f3c6.png)
 
 * [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/)
 
@@ -250,7 +250,7 @@ The Panel Status CSV API is used for panels that use the "Panel Expiration" meth
 
 The last completed date is imported during the migration process using the Completed Orders CSV API to ensure that surveillance actions trigger with the appropriate due date.
 
-![](./data-import-master-list.assets/3ee27e6b930d1aff4cd0d2c8425b7644.png)
+![](./data-import-master-list.assets/32bf21abf09594b20bb2ac798aec6940.png)
 
 There is a column that displays the source of the information. If the order completion information comes from a legacy system it will display the name of that system (i.e. HAMT Import).
 
@@ -266,11 +266,11 @@ During the migration process additional surveillance notification documentation 
 
 An **order** is a term used loosely when any method is used to request tests, labs, radiology studies, or E-Orders. Each lab vendor has specific test codes that they use to result ordered tests. The Order List Compendium CSV API loads them as orderable items in EH.
 
-![](./data-import-master-list.assets/091f58869c49162b8e11458ac8145ee6.png)
+![](./data-import-master-list.assets/2b04dcb16e3957d5ad9be4095c4ebd6c.png)
 
 A standard orders compendium is included in the initial installation, however there is an editor for a system administrator to manually add/remove/edit orders and order pick lists within the MIE system. In addition, all orders for lab facilities can store the order code, Billing code, and LOINC code.
 
-![](./data-import-master-list.assets/2ff3dbe8968c66ce3f87fffe9e6884fb.png)
+![](./data-import-master-list.assets/5711aeed4114000c88e823d1bb0112f8.png)
 
 * [Order List ](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-list-import-tool/)Import Tool
 
@@ -311,7 +311,7 @@ Questionnaire data is grouped together by date of service in a document. The doc
 
 A number of external database tables are referenced to identify drugs for injections/immunizations and relate them to patients.
 
-![](./data-import-master-list.assets/69ca25dd4ecf3a6438e5322a9895d549.png)
+![](./data-import-master-list.assets/48d039ff0662340e6a4006eb226e848f.png)
 
 Injection data is stored as a document, and will display within the appropriate tab of a chart.
 
@@ -342,13 +342,13 @@ Employee photos are one example of files that may be imported with the File Impo
 
 Scanned documents are another example of files that may be imported with the File Import CSV API. PDF or TIF formatted files may be imported into the MIE system during the data migration process. As with every file import, each file has a header file to indicate the employee MR number, date of service and document type name these documents will display in the appropriate chart tab in the employee's medical record. Documents that are not indexed may be imported into the WebScan module to allow a user to manually index those fields before uploading the images to the medical record.
 
-![](./data-import-master-list.assets/51659b8754d8291b71784fb82db99363.png)
+![](./data-import-master-list.assets/288bb5d15e404a5c3cfd89ca24df142f.png)
 
 #### ECG Flowsheet and Reports
 
 Historical ECG data is imported as a document.
 
-![](./data-import-master-list.assets/a9f7a7657dba17c290f449015d349ec4.png)
+![](./data-import-master-list.assets/98d62e7e550a3467bd45d7a49f7148e8.png)
 
 Specific discrete data fields may also be viewed in a flowsheet format.
 
