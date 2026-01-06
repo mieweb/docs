@@ -1,8 +1,9 @@
 ---
 id: '1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
 title: 'Setup Custom Pharmacy'
-date: '2020-02-27T20:29:02.852Z'
-version: 25
+date: '2026-01-06T20:39:42.974Z'
+version: 32
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
@@ -14,8 +15,8 @@ If your practice has a drug dispenser type machine that we interface with (examp
 
 The editor for setting up a dispensing machine to receive these electronic prescriptions and allow that in-house dispensing machine be set as a patient's preferred pharmacy is the tab named *Custom Pharmacy* which is found in the sidemenu tab named Control.
 
-![](./setup-custom-pharmacy.assets/b17792894d92e5af124f465d8386551b.png)
+![](./setup-custom-pharmacy.assets/7e0f8856070214a084568b8c42d16772.png)
 
 If you have security permission to the Custom Pharmacy tab, this is the listing of Custom Pharmacies your practice has. Custom Pharmacies are dispensing machines in-house. Contact your MIE Implementer to have one set up and get you information on an interface with your medication dispensing machine. MIE will program and set up the Custom Pharmacy using this tab. These fields are for MIE to use and enter. The listing in this tab will show all active and inactive custom pharmacies your practice has set up.
 
-![](./setup-custom-pharmacy.assets/0f8066d1b2b91b6a2ca2ed265aa2cb21.png)
+![](./setup-custom-pharmacy.assets/051f245f55feb4779f51140c527b7ebe.png)
