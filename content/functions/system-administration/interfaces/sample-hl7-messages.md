@@ -1,9 +1,9 @@
 ---
 id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
-date: '2023-02-21T21:14:54.696Z'
-version: 210
-lastAuthor: 'zbarrell'
+date: '2026-01-07T15:30:12.526Z'
+version: 223
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
@@ -11,11 +11,11 @@ links:
 source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 wikigdrive: 'v2.15.30'
 ---
-# SIU, Scheduling
+## SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
 
-## SIU^S12
+### SIU^S12
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613061611||SIU^S12|24916560|P|2.3||||||
@@ -30,7 +30,7 @@ AIP|1|A|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||45|m^Minutes
 
 {{% anchor sys="siu-s14" %}}
 
-## SIU^S14
+### SIU^S14
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072836||SIU^S14|24916579|P|2.3||||||
@@ -45,7 +45,7 @@ AIP|1|U|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||60|m^Minutes
 
 {{% anchor sys="siu-s15" %}}
 
-## SIU^S15
+### SIU^S15
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072836||SIU^S15|24916597|P|2.3||||||
@@ -60,11 +60,11 @@ AIP|1|C|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||60|m^Minutes
 
 {{% anchor sys="adt" %}}
 
-# ADT, Patient Registration
+## ADT, Patient Registration
 
 {{% anchor sys="adt-a01" %}}
 
-## ADT^A01
+### ADT^A01
 
 Admit a patient.
 ```
@@ -76,7 +76,7 @@ PV1|1|O|||||^^^^^^^^|^^^^^^^^
 
 {{% anchor sys="adt-a04" %}}
 
-## ADT^A04
+### ADT^A04
 
 Register a patient.
 ```
@@ -88,7 +88,7 @@ PV1|1|O|||||7^Disney^Walt^^MD^^^^|||||||||||||||||||||||||||||||||||||||||||||
 
 {{% anchor sys="adt-a08" %}}
 
-## ADT^A08
+### ADT^A08
 
 Update patient information.
 ```
@@ -103,7 +103,7 @@ IN2||||||ZYX1234589-1||||ZYX1234589-1|||||||||||||||000079||||||||||||||||||||||
 
 {{% anchor sys="adt-a40" %}}
 
-## ADT^A40
+### ADT^A40
 
 Merge patient.
 ```
@@ -115,16 +115,15 @@ MRG|1765475||||||
 
 {{% anchor sys="oru" %}}
 
-# ORU, Lab Results
+## ORU, Lab Results
 
 {{% anchor sys="oru-r01" %}}
 
-## ORU^R01
+### ORU^R01
 
-### Discrete
+#### Discrete
 
-#### Numeric
-
+**Numeric**
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORU^R01|59689|P|2.3
 PID|1|12345|12345^^^MIE&1.2.840.114398.1.100&ISO^MR||MOUSE^MINNIE^S||19240101|F|||123 MOUSEHOLE LN^^FORT WAYNE^IN^46808|||||||||||||||||||
@@ -147,8 +146,7 @@ OBX|13|NM|mchc^Mchc||32|g/dl|32-35||||F|||20120410160227|lab|12^XYZ LAB|
 OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|
 ```
 
-#### Numeric with Notes
-
+**Numeric with Notes**
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120226102502||ORU^R01|Q161522306T164850327|P|2.3
 PID|1||000168674|000168674|GUNN^BEBE||19821201|F||||||||M|||890-12-3456|||N||||||||N
@@ -165,10 +163,9 @@ NTE|5||venous thromboembolism (with a target INR of 1.5 - 2.0) had a superior ou
 NTE|6||6 months of full dose anti-coagulation.
 ```
 
-### Report
+#### Report
 
-#### Single OBX -- Can also be sent as ORU^R03
-
+**Single OBX -- Can also be sent as ORU^R03**
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120920230252907||ORU^R01|2012092017490562|T|2.3
 PID|||106281^^^1||WOMAN^GENERIC^S^^^^D||19811112|F||W^White^HL70005|1234 MAIN ROAD^^LINDSEY^OH^43442^USA^HOME^^SANDUSKY||5555551234^HOME^^^^555^5551234||EN^English|M|350|123456789^^^001|987654321|||10^NonHispanic^HL70189
@@ -178,8 +175,7 @@ OBR||00013598436|R-GEN-378456-2-1|CST2^CHEST 2 VIEWS|||201209202036|||||||||0193
 OBX|1|TX|||CHEST 2 VIEWS~~ANKLE 9/20/2012.~~INDICATION: Fever.~TECHNIQUE: 2 views of the chest are obtained.~~COMPARISON: Chest from 3/17/2012.~FINDINGS: The patient is status post sternotomy as before. Lung volumes are low.~There is motion on the lateral exposure. No focal consolidation is identified.~Vasculature is not congested. No gross effusion is noted. Heart is mildly~enlarged.~IMPRESSION:~~Status post sternotomy. Low inspiration.No definite acute process.~~Interpreted By: RYAN, PAUL R.~Date:  09/20/2012 23:02|||||||||20120920203600.0000-0400|Laboratory^Memorial Hospital^123 Road Avenue^Fremont^OH^43420^
 ```
 
-#### Multiple OBXs -- Can also be sent as ORU^R03
-
+**Multiple OBXs -- Can also be sent as ORU^R03**
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120309132638||ORU^R01|Q162690178T166106789|P|2.3
 PID|1||000734081|000734081|BAR^GRANOLA^||19690226|F||||011||||M|||123-89-4567|||N||||||||N
@@ -238,8 +234,7 @@ OBX|49|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     I
 OBX|50|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     T. A. ROSE, MD||||||F|||20120309132541
 ```
 
-#### Multiple NTEs
-
+**Multiple NTEs**
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20150323144246||ORU^R01|91734|P|2.3
 PID|1||6010022||SOFTTEST^HIECLIENT||19650601|F||||||||||60100222016
@@ -310,9 +305,9 @@ NTE|59||
 
 {{% anchor sys="oru-r03" %}}
 
-## ORU^R03
+### ORU^R03
 
-### PDF Report
+#### PDF Report
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|201607060811||ORU^R03|5209141|D|2.3
@@ -326,11 +321,11 @@ NTE|2|L|2110 ROUTHERFORD RD|L
 NTE|3|L|CARLSBAD, CA  92008|L
 ```
 
-# ORM, Orders
+## ORM, Orders
 
 {{% anchor sys="orm-o01" %}}
 
-## ORM^O01
+### ORM^O01
 
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORM^O01|59689|P|2.3
@@ -344,13 +339,13 @@ OBR|2|23||80061^LIPID PROFILE|0|||||||||||8^Selenium^Selenium|||||||||||||||||||
 DG1|1|ICD|B60.0^BABESIOSIS^I10|BABESIOSIS||||||||||||
 ```
 
-# MDM, Documents
+## MDM, Documents
 
 {{% anchor sys="mdm-t02" %}}
 
-## MDM^T02
+### MDM^T02
 
-### Plain text
+#### Plain text
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20141003102429||MDM^T02^MDM_T02|89739|P|2.3|||||||||
@@ -359,7 +354,7 @@ TXA|1|TYPE|FT|20141002162958||20141002162958|20141002162958|20141002162958|41195
 OBX|1|TX|4|1|I am an example free text Document||||||||||||||||||||
 ```
 
-### PDF Report
+#### PDF Report
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20120321145031||MDM^T02|000000315|P|2.3
@@ -370,11 +365,11 @@ TXA|1|100015^Nsg Progress Note|AP|20120321110718|2782^Physician^Samer|2012032111
 OBX|1|ED|100015^Nsg Progress Note||^PDF^^base64^JVBERi0xLjQNCiXi48/TDQoxIDAgb2JqDQogIDw8DQogICAgL0F1dGhvcigpL1RpdGxlKCkvU3ViamVjdCgpL1Byb2R1Y2VyKCkvS2V5d29yZHMoKS9DcmVhdGlvbkRhdGUoMDMvMjEvMTIgMTE6MTU6NTYpL01vZERhdGUoKS9Dcm...T0YNCg==||||||F
 ```
 
-# DFT, Financials
+## DFT, Financials
 
 {{% anchor sys="dft-p03" %}}
 
-## DFT^P03
+### DFT^P03
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|201504201347|12|DFT^P03|24885|P|2.5
@@ -399,7 +394,7 @@ DG1|2|ICD9|088.82^Babesiosis^I9|Babesiosis|20150325000000|F|||||||||0|123^Physic
 
 {{% anchor sys="ack" %}}
 
-# VXU, Immunizations
+## VXU, Immunizations
 
 VXU^V04
 
@@ -411,25 +406,25 @@ RXA|0|999|20220301|20220301|217^PFIZER 12 YEARS \T\ UP SARS-COV-2 VACCINE^LIM_CV
 RXR|IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163|||
 ```
 
-# ACK, Acknowledgement
+## ACK, Acknowledgement
 
 A response ACK message is sent after a message is processed.
 
-## Success
+### Success
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110614075841||ACK|1407511|P|2.3||||||
 MSA|AA|1407511|Success||
 ```
 
-## Error
+### Error
 
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110614075841||ACK|1407511|P|2.3||||||
 MSA|AE|1407511|Error processing record!||
 ```
 
-# Related Pages
+## Related Pages
 
 [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
 
