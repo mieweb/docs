@@ -1,9 +1,9 @@
 ---
 id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
 title: 'Device Interface - MI 7000'
-date: '2025-07-03T15:40:54.219Z'
-version: 37
-lastAuthor: 'anichols'
+date: '2026-01-07T16:07:01.461Z'
+version: 44
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
@@ -23,14 +23,14 @@ To retrieve results for an individual patient:
 1. Go to the patient's chart and start a new Audiogram encounter.
 2. Click the Perform Test button in the MI 7000 section.
 3. Click the Connect to Monitor Instruments MI7000 link.
-    1. The first time the device is used, enter the correct COM Port. This is now the default value.
+    * The first time the device is used, enter the correct COM Port. This is now the default value.
 4. Click the Open Port button. If successful, "Waiting for data..." appears.
-    1. A security prompt appears to ensure a user initiated the request. Clicking "Yes" allows a single request. Clicking "Yes, Always" prevents the warning from appearing every time.
+    * A security prompt appears to ensure a user initiated the request. Clicking "Yes" allows a single request. Clicking "Yes, Always" prevents the warning from appearing every time.
 5. Instruct the audiometer to send the results. A new window opens with the received test.
 6. Verify the patient and click the Upload button.
-    1. If the patient is incorrect or not found, click the pencil icon and choose the correct patient.
-    2. Click the information icon to see all the details of the test.
-    3. If the wrong test was retrieved, close the new window; nothing is saved.
+    * If the patient is incorrect or not found, click the pencil icon and choose the correct patient.
+    * Click the information icon to see all the details of the test.
+    * If the wrong test was retrieved, close the new window; nothing is saved.
 
 ### Batch Mode
 
@@ -42,10 +42,10 @@ To retrieve results for multiple patients:
 4. Follow steps 3-6 from the Individual Mode section above.
 5. Instruct the audiometer to send the results. A new window opens with the received test.
 6. Verify the expected patients were found and click the Upload button.
-    1. If a patient is incorrect or not found, click the pencil icon and choose the correct patient.
-    2. If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
-    3. Click the information icon (?) to see all the details of a test.
-    4. If no tests should be uploaded, close the new window; nothing is saved.
+    * If a patient is incorrect or not found, click the pencil icon and choose the correct patient.
+    * If some tests should not be uploaded, uncheck the checkbox to the left of the patient.
+    * Click the information icon (?) to see all the details of a test.
+    * If no tests should be uploaded, close the new window; nothing is saved.
 
 ## Collected Fields
 
