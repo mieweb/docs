@@ -1,9 +1,9 @@
 ---
 id: '1u7cPDkqx04cxeALGacspymwrVoHyKKwQbOW8z5XMVzY'
 title: 'Device Interface - Maico MA800'
-date: '2020-02-27T21:28:06.013Z'
-version: 31
-lastAuthor: 'aquandt'
+date: '2026-01-07T16:07:39.692Z'
+version: 39
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
@@ -21,13 +21,13 @@ To retrieve results for an individual patient:
 1. Go to the patient's chart and start a new Audiogram encounter.
 2. Click the Perform Test button in the MA800 Audio section.
 3. Click the Connect to Maico MA800 link.
-    1. The first time the device is used, run the MIE Applet and allow access to the application.
-    2. The first time the device is used, enter the correct COM Port. This is now the default value.
+    * The first time the device is used, run the MIE Applet and allow access to the application.
+    * The first time the device is used, enter the correct COM Port. This is now the default value.
 4. Click the Open Port button. If successful, "Waiting for data..." appears.
 5. Perform the audio test on the device
 6. The test will automatically be transferred when completed
-    1. A window will appear with the test results
-    2. Click the "Save Results" button if correct or "Cancel" if incorrect
+    * A window will appear with the test results
+    * Click the "Save Results" button if correct or "Cancel" if incorrect
 
 ### Batch Mode
 
