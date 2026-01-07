@@ -1,9 +1,9 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2024-06-13T23:33:25.168Z'
-version: 492
-lastAuthor: 'anichols'
+date: '2026-01-06T18:23:09.385Z'
+version: 589
+lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
