@@ -2,7 +2,7 @@
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
 date: '2026-01-07T14:13:41.378Z'
-version: 594
+version: 596
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
