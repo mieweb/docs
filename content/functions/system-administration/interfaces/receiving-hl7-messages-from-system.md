@@ -1,9 +1,9 @@
 ---
 id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 title: 'Receiving HL7 Messages from System'
-date: '2023-12-03T03:46:45.417Z'
-version: 175
-lastAuthor: 'horner'
+date: '2026-01-09T14:31:49.374Z'
+version: 245
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'outbound-interface-install-instructions.md'
@@ -105,6 +105,10 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 * [MDM^T02](outbound-sample-hl7-messages.md#mdmt02) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [TXA](hl7-segment-definitions.md#transcription-document-header-txa) { [OBX](hl7-segment-definitions.md#observation/result-obx) }
 
 {{% anchor sys="financial_transactions" %}}
+
+### Company Information (MFN)
+
+* [](outbound-sample-hl7-messages.md#_wg5czlvlv8py) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md) [MFE](hl7-segment-definitions.md) [ZEM](hl7-segment-definitions.md)
 
 ### Financial Transactions (DFT)
 
