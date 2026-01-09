@@ -1,9 +1,9 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2025-11-13T14:41:38.291Z'
-version: 480
-lastAuthor: 'janderson'
+date: '2026-01-09T14:38:06.779Z'
+version: 513
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
@@ -75,8 +75,8 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 ### Scheduling (SIU)
 
-* [SIU^S12](sample-hl7-messages.md#sius12) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
-* [SIU^S14](sample-hl7-messages.md#sius14) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
+* [SIU^S12](sample-hl7-messages.md#sius12) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [<[NTE](hl7-segment-definitions.md#notes-and-comments-nte) > [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
+* [SIU^S14](sample-hl7-messages.md#sius14) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] < [NTE](hl7-segment-definitions.md#notes-and-comments-nte) > [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
 * [SIU^S15](sample-hl7-messages.md#sius15) : [MSH](hl7-segment-definitions.md#message-header-msh) [SCH](hl7-segment-definitions.md#scheduling-activity-information-sch) [ [PID](hl7-segment-definitions.md#patient-identification-pid) ] [ [NTE](hl7-segment-definitions.md#notes-and-comments-nte) ] [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [ [DG1](hl7-segment-definitions.md#diagnosis-dg1) ] [ [RGS](hl7-segment-definitions.md#resource-group-rgs) ] [ [AIG](hl7-segment-definitions.md#appointment-information-general-resource-aig) ] [ [AIL](hl7-segment-definitions.md#appointment-information-location-resource-ail) ] [ [AIP](hl7-segment-definitions.md#appointment-information-personnel-resource-aip) ]
 
 {{% anchor sys="patient_registration" %}}
@@ -105,7 +105,9 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 * [MDM^T02](sample-hl7-messages.md#mdmt02) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [TXA](hl7-segment-definitions.md#transcription-document-header-txa) { [OBX](hl7-segment-definitions.md#observation/result-obx) }
 
-{{% anchor sys="financial_transactions" %}}
+### {{% anchor sys="financial_transactions" %}}Company Information (MFN)
+
+* [MFN^M13](sample-hl7-messages.md#_wg5czlvlv8py) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md) [MFE](hl7-segment-definitions.md) [ZEM](hl7-segment-definitions.md)
 
 ### Financial Transactions (DFT)
 
