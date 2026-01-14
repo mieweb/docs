@@ -267,7 +267,7 @@ links:
   - 'functions/medication-management-and-e-prescribing/e-refills-e-scripts-tab.md'
   - 'functions/medication-management-and-e-prescribing/refill-all.md'
   - 'functions/medication-management-and-e-prescribing/drug-guide-search.md'
-  - 'https://drive.google.com/open?id=1ELaUDFunenSjYmxjNpL5T9eueiItCLmAwyGPgK6QUO8'
+  - 'functions/medication-management-and-e-prescribing/medicalcodify.com.md'
   - 'functions/medication-management-and-e-prescribing/drug-plan-and-formularies.md'
   - 'functions/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.md'
   - 'functions/medication-management-and-e-prescribing/allergies-and-intolerances.md'
@@ -1072,7 +1072,7 @@ wikigdrive: 'v2.15.30'
         * [E-Refills - E-Scripts Tab](functions/medication-management-and-e-prescribing/e-refills-e-scripts-tab.md)
         * [Refill All](functions/medication-management-and-e-prescribing/refill-all.md)
         * [Drug Guide Search](functions/medication-management-and-e-prescribing/drug-guide-search.md)
-        * [MedicalCodify.com](https://drive.google.com/open?id=1ELaUDFunenSjYmxjNpL5T9eueiItCLmAwyGPgK6QUO8)
+        * [MedicalCodify.com](functions/medication-management-and-e-prescribing/medicalcodify.com.md)
         * [Drug Plan and Formularies](functions/medication-management-and-e-prescribing/drug-plan-and-formularies.md)
         * [Drug Interaction/Allergy Warnings](functions/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.md)
         * [Allergies and Intolerances](functions/medication-management-and-e-prescribing/allergies-and-intolerances.md)

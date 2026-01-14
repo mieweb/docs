@@ -305,6 +305,7 @@ wikigdrive: 'v2.15.30'
          * [E-Refills - My Pending Refills Tab](functions/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.md)
          * [Edit/Change Medications](functions/medication-management-and-e-prescribing/edit-change-medications.md)
          * [Electronic Prescribing for Controlled Substances (EPCS)](functions/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs.md)
+         * [MedicalCodify.com](functions/medication-management-and-e-prescribing/medicalcodify.com.md)
          * [Prescribing/Adding Medications](functions/medication-management-and-e-prescribing/prescribing-adding-medications.md)
          * [Print/Fax/Transmit Prescriptions](functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions.md)
          * [Refill All](functions/medication-management-and-e-prescribing/refill-all.md)
