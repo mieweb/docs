@@ -1,9 +1,9 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2025-07-08T15:06:38.179Z'
-version: 191
-lastAuthor: 'janderson'
+date: '2026-01-16T20:59:45.680Z'
+version: 198
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
@@ -129,10 +129,10 @@ View the detailed list of medications that this patient is on, has been prescrib
 
 ![](./allergies-medications-tab-summary-view.assets/2fc6e1fa073f927c6811dd60c1a28c91.png)
 
-* <strong>Drug Name</strong>: Shows brand name on the left. Under that at the right it shows the generic brand name. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. Can click on these underlined drug names to view drug information that was input. (When it was refilled, when it was modified, when it was printed or faxed or e-sent (electronically transmitted via SureScripts feature). If click the blue-circled for this drug, it will pop up the drug guide and information concerning this drug. This is an information link that brings up drug guide information for recommended dosage, drug interaction information, side effects, etc. Close out this screen using the X at the top right. If the drug has an asterisk next to it, that means it is a drug that is not found in the known drug listing/guide.
+* <strong>Drug Name</strong>: Shows brand name on the left. Under that at the right it shows the generic brand name. <em>First DataBank announced in Sept 2010 of an enhancement to generically named medication concepts. To comply with the Institute for Safe Medical Practices (ISMP) standards, FDB has lowercased the first letter of each ingredient in the generically named medication descriptions</em>. Can click on these underlined drug names to view drug information that was input. (When it was refilled, when it was modified, when it was printed or faxed or e-sent (electronically transmitted via SureScripts feature). When clicking the blue-circled (i) icon on the drug, it will pop up the detailed drug information.  This is an information link that brings up detailed drug information for recommended dosage, drug interaction information, side effects, etc. Close out this screen using the X at the top right. If the drug has an asterisk next to it, that means it is a drug that is not found in the known drug listing/guide.
 
 {{% tip %}}
-If you see a printer icon next to the drug name, it is a quick link to the drug guide information sheet on this medication. You can click on the printer and it will take you to the print/fax module and you can quickly print the drug guide sheet for this medication. This is a system setting and may not be turned on for your practice.
+If you see a printer icon next to the drug name, it is a quick link to the detailed drug information sheet on this medication. You can click on the printer and it will take you to the print/fax module and you can quickly print the detailed drug information sheet for this medication. This is a system setting and may not be turned on for your practice.
 {{% /tip %}}
 
 * <strong>Sig</strong>: Directions for label/patient on how/when to take this medication. This also pulls the ‘special instructions' field when prescribing a drug. To see the full <em>special instructions</em> simply hover your mouse over this section and it will display the whole text in a box on your screen.
