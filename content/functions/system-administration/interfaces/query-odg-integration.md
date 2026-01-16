@@ -1,8 +1,8 @@
 ---
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
-date: '2025-12-10T12:55:55.712Z'
-version: 256
+date: '2026-01-16T19:20:27.833Z'
+version: 269
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -21,6 +21,7 @@ links:
   - 'https://www.youtube.com/watch?v=CWtLQfe74mE'
 source: 'https://drive.google.com/open?id=118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
 An integration between {{% system-name %}} and [ODG by MCG ](https://www.mcg.com/odg/)is available in the 2025-09RC.  This integration can improve patient outcomes, reduce administrative costs, and streamline workflows by aligning with industry-standard guidelines. Integration with the ODG by MCG system to access evidence-based guidelines, benchmarking tools, and predictive modeling for best practice and average or maximum days away from work, improving return-to-work (RTW) timelines, medical costs, and quality of care. This integration provides a common framework based on extensive historical claims data (over 10 million lost-time cases), which helps manage costs, reduce inappropriate medical utilization, decrease indemnity costs, and improve worker and patient outcomes.
 
@@ -47,6 +48,7 @@ The following prerequisites are for organizations using the ODG by MCG API.
 2. You must first receive a client ID and client secret to obtain a bearer token before making a web services request from {{% system-name %}} to ODG.
 3. Authorization for each available service must be given to access ODG content.
 4. An {{% system-name %}} deployment consultant must set up the RTS (refer to systems) and an enabled system setting to initiate the ODG integration with your {{% system-name %}} system wide.
+    a.  An optional system setting to deeplink the client's EH system into the client's ODG system is available if the customer has received their deeplink u & r (username & password digits) from ODG to be able to deeplink.
 
 ## Overview of the Calculator Portion of the Query ODG button functionality
 
@@ -125,11 +127,28 @@ These 5 specific fields of data return from ODG into the {{% system-name %}} Cas
 
 The *Open ODG* button within the Plan Narrative flowsheet section of a Case Management encounter (utilizing the Chief Complaint protocol of Case Management) will be accessible with or without an ODG integration into your {{% system-name %}} system.
 
-Your company must still have an ODG license initiated with ODG that includes a login/password to the ODG system, but you can easily access the ability to log in manually into the ODG system using the *Open ODG* button available directly here in the encounter.
+Your company must still have an ODG license initiated with ODG that includes a deeplink login/password to the ODG system, but you can easily access the ability to log in manually into the ODG system using the *Open ODG* button available directly here in the encounter.
 
 ![](./query-odg-integration.assets/7f8b5a333b0ccfa48b2185ab998649e0.png)
 
-Once successfully logged into the ODG system, you can manually key in any data and include any refinement. See ODG's [How to Use the Duration Tab](https://www.mcg.com/odg/wp-content/uploads/sites/2/2025/09/HowToUseTheODGDurationTab.pdf) self training PDF guide.
+### Integration via Open ODG URL System Setting
+
+ODG by MCG has several customers who integrate deeplink functionality in their {{% system-name %}} system where users can transparently login to ODG website without username/password authentication.  At present, this is static where username and password are embedded in the URL as query parameters (e.g. u=username&r=password) and whoever has access to that URL can access the ODG website.
+
+In {{% system-name %}}, this static information is configured as the value in the system setting *Open ODG URL*.
+
+An example of how the value should be configured:
+
+* u= (type in the username ODG assigned to the customer if they wish to deeplink)
+* &r= (type in the password digits ODG assigned to the customer if they wish to deeplink)
+
+![](./query-odg-integration.assets/bda8533886250cbe153c5416794f80f5.png)
+
+NOTE: Customers should contact their ODG representative to be assigned a deeplink login to their licensed ODG system.
+
+### Open ODG Functionality with or without integration
+
+Once successfully logged into the ODG system via the Open ODG button in {{% system-name %}} , you can manually key in any data and include any refinement. See ODG's [How to Use the Duration Tab](https://www.mcg.com/odg/wp-content/uploads/sites/2/2025/09/HowToUseTheODGDurationTab.pdf) self training PDF guide.
 
 ![](./query-odg-integration.assets/0f80c1b87bea7e5e82cc8d9eb6f83c3c.png)
 
