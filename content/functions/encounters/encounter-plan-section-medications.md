@@ -1,9 +1,9 @@
 ---
 id: '1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
 title: 'Encounter Plan Section - Medications'
-date: '2024-05-17T15:56:27.230Z'
-version: 189
-lastAuthor: 'janderson'
+date: '2026-01-16T21:06:42.317Z'
+version: 198
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sfvHUjlAN4xI1sXyPetceFUAPHYB9uko2GBdkKMys0A'
@@ -29,7 +29,7 @@ To prescribe a new medication for the patient in the encounter, simply type in t
 
 When the name of the medication has been entered, use the **tab** key on the keyboard and it open additional fields to enter the form, sig, duration, quantity, # of refills, etc. for this medication you are prescribing for the patient. Your cursor will advance to each field as you hit the *tab* key on your keyboard.
 
-Once you've selected the medication to prescribe for the patient, use the tab key to open up the medication fields to fill out for the prescription. Under the **med** name you select to prescribe is an icon. This is the drug info icon. If you click the (*i)* it will open the drug guide for this specific drug.
+Once you've selected the medication to prescribe for the patient, use the tab key to open up the medication fields to fill out for the prescription. Under the **med** name you select to prescribe is an icon. This is the drug info icon. If you click the (*i)* it will open the detailed drug information for this specific drug.
 
 ![](./encounter-plan-section-medications.assets/f2029c4f26713f2b429f3b4a8d19dbca.png)
 
@@ -95,7 +95,7 @@ The Note to Pharmacist field **should not** contain patient instructions on medi
 
 ![](./encounter-plan-section-medications.assets/b8b2aed8406a2cd9c93f7734fb20070d.png)
 
-* <strong>Print Drug Guide:</strong> Checkmark this if you with to have the drug guide for this medication to go into the print queue to print for the patient.
+* <strong>Print Drug Guide:</strong> Checkmark this if you with to have the detailed drug information for this medication to go into the print queue to print for the patient.
 * <strong>Remember As:</strong> This means you the user can type something in there (example: BOB or Heart Disease). This remembers this specific prescription/form (not free-text form though)/sig/duration/refills and quantity and saves it in the prescriber's medication library.
     * Update Button: If you used/prescribed a ‘remembered script' and change any prescription detail fields you can click the UPDATE button for the remembered script, it will ‘update' that remembered script with everything you entered in currently then. It ‘updates' the remembered script and changes that remembered script to have the details you just entered in/changed to.
 
@@ -117,7 +117,7 @@ It will show the medications you prescribed in bold and with the word **Start** 
 
 All medications/prescriptions entered here in the encounter exam will automatically be placed in the E-Meds module. The medications/prescriptions entered here will now become part of the patient's record.
 
-When done working in the entire encounter and you've saved the encounter (Save and View) or submitted or archived the encounter, you will view your formatted encounter exam and when you scroll down to the bottom of the screen, you will see the section **This patient has unprinted prescriptions.** This displays the medications/prescriptions you just entered in the Meds field of the Plan in the encounter exam. You can quickly print the prescriptions from here for the patient to take, or fax directly to the pharmacy along with printing any drug guides you checked to print.
+When done working in the entire encounter and you've saved the encounter (Save and View) or submitted or archived the encounter, you will view your formatted encounter exam and when you scroll down to the bottom of the screen, you will see the section **This patient has unprinted prescriptions.** This displays the medications/prescriptions you just entered in the Meds field of the Plan in the encounter exam. You can quickly print the prescriptions from here for the patient to take, or fax directly to the pharmacy along with printing any detailed drug information you checked to print.
 
 ![](./encounter-plan-section-medications.assets/3d1cdb91080dd8e5965e2293b778859e.png)
 
