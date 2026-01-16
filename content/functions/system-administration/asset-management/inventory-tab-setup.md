@@ -1,8 +1,8 @@
 ---
 id: '1lxHNNJ4DFvCjc08-aQVeZdFu3PUT2xxgpxamGy-PzMs'
 title: 'Inventory Tab Setup'
-date: '2025-11-24T20:28:54.181Z'
-version: 79
+date: '2026-01-16T19:33:24.553Z'
+version: 103
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,13 +23,13 @@ The *Control (Inv Master List)* tab is located in the sidemenu tab named *Invent
 
 When you click on *Control/Inv Master List* tab, it will open to the default of showing you all of the current *Inventory Items Master List* items with its {{% system-name %}} Inventory ID #. It will also show any mappings of that master inventory item.
 
-![](./inventory-tab-setup.assets/7b512e8c71eca76a8f6395f7238d91ef.png)
+![](./inventory-tab-setup.assets/790f94a48b106b4fdc1a77b48b11a032.png)
 
 First search to see if the specific medication (strength, etc), immunization and/or supply order inventory item is already in the master inventory list and would possibly just need to be edited instead of added as completely new.
 
 To search, use the *Search by* field at the top to narrow down your search results.
 
-![](./inventory-tab-setup.assets/0ef22408eaa26acb51c812c98148e857.png)
+![](./inventory-tab-setup.assets/a20c6201293912f360243ce407cd9176.png)
 
 You can search by inventoried name, or by an alias or by Inventory ID #.
 
@@ -37,35 +37,35 @@ You can search for 2 at a time by clicking the [ + ] button in the *search by* s
 
 If you click the [ + ] sign in search by, you can open up another search to search a medication name and it's alias name or 2 different searches, etc.
 
-![](./inventory-tab-setup.assets/d8ea3dd5be1feb9f2658d00936757c13.png)
+![](./inventory-tab-setup.assets/04436abe9a3fc3e313edc68588ad21bd.png)
 
 After you click the SEARCH button, your results will display on your screen in **the Inventory Items Master List** section under the search by section.
 
-![](./inventory-tab-setup.assets/5621773935984fc6a553543d2e56c480.png)
+![](./inventory-tab-setup.assets/fd3c3337a2280b852e7a2bc3ff8aa571.png)
 
 ## Edit/Delete Inventory Items
 
 If you need to edit the Display Name or Alias of an inventory item that is showing in the Inventory Master List, click on Edit in the options column.
 
-![](./inventory-tab-setup.assets/fa5e03c538a1c880a44e8f37959cc35f.png)
+![](./inventory-tab-setup.assets/ea9707bfafe6d6dce616eaf9db53808f.png)
 
 When you click Edit for a master inventory item, it will take you to the *Rename Inventory Item* screen.
 
 Here you can type in the New Name and/or a New Alias. The New Name should include the name & the strength/form, size, box info, etc. The Alias is like a ‘remembered name' just like when in e-meds module when prescribing a med. You do not have to enter anything in the Alias field. It is optional, but alias names do show to users when dispensing a medication, and on inventory reports and searches.
 
-![](./inventory-tab-setup.assets/a223e93feea47f14b33e8aee6bf1f8ac.png)
+![](./inventory-tab-setup.assets/4e9956cfba006878d6c37466b4aafce5.png)
 
 Click the CHANGE NAME button when done or cancel to get out of this screen.
 
 To delete a master inventory item, click Delete in the options column.
 
-![](./inventory-tab-setup.assets/1c413c7dc4eff8e6124858acd7c36cae.png)
+![](./inventory-tab-setup.assets/0c6dcc72691af8dd8de5005e6d5c816e.png)
 
 If the inventoried item still has quantity in stock, you will see an error message that you cannot delete the inventory item. If you needed to delete that, you'd have to go and edit it in the *Show Inventory* tab and expire it or edit it to a zero quantity first. If you have a zero quantity inventory item that you need to delete, you will get a message to confirm the inventory item deletion. Click Delete to continue to delete the inventory item completely from the master inventory list of the system.
 
-![](./inventory-tab-setup.assets/bd2b89142c4e08d4a253e6f766bdd177.png)
+![](./inventory-tab-setup.assets/684babbe33e653e2069e66784557b15b.png)
 
-![](./inventory-tab-setup.assets/90820dc231582162138f03f200ee0d5e.png)
+![](./inventory-tab-setup.assets/986f327b6d052648741dd96d20dba71e.png)
 
 ## Merging Inventory Items
 
@@ -73,11 +73,11 @@ Merging would be done if (for instance) two different items are in this inventor
 
 If you need to merge inventory items in the Inventory Master List, checkmark which items to merge in the *Merge* column. Then click the *Merge Selected* button at the bottom.
 
-![](./inventory-tab-setup.assets/9a2e38c3e85d676c274dc88ce05e616b.png)
+![](./inventory-tab-setup.assets/48e44ec8d19383c96f3ca3cf787bc5f4.png)
 
 It will then take you to the *Merge Inventory Items* screen. Here you type the new name of the Merged Item or same name, and optional you can enter a new alias merged item name.
 
-![](./inventory-tab-setup.assets/270936d00409fc296383797173713aea.png)
+![](./inventory-tab-setup.assets/58d4124810a53ddf17591c7c61e5c865.png)
 
 Click the MERGE button at the bottom or cancel to escape out.
 
@@ -87,14 +87,14 @@ It will then merge all those selected into one new mapping with the name/alias y
 
 If you've confirmed that the inventory item doesn't already exist in the Master Inventory Items list, then click on Add an Item link at the top right.
 
-![](./inventory-tab-setup.assets/b0b5601b7d5983207f069990ce675b15.png)
+![](./inventory-tab-setup.assets/3854f75497afac8381f8ad5fa738d389.png)
 
 The *Add Inventory Item* fields will display. Type in the name of the inventory item you wish to add to the inventory along with it's strength (10mg, 25mg,etc) and form (tablet/injection, supply info, etc). You can also type in its alias name (this is like a remembered name that can be used when dispensing this) if it has an alias known to your staff at your practice.
 
-![](./inventory-tab-setup.assets/c2f63de3c83e0328babed00db7c0859e.png)
+![](./inventory-tab-setup.assets/f4e155fe6a07b3ccaab6ca9c27a7a252.png)
 
 You will get a confirmation that the inventory item was added successfully. It assigns a {{% system-name %}} Inventory ID number and shows now in the Inventory Items Master List.
 
-![](./inventory-tab-setup.assets/9e766c840ed7ed1f2551ba749cf30bef.png)
+![](./inventory-tab-setup.assets/c93a6a82645de6885bbb3dcd86d8f13d.png)
 
 After you have successfully added an item to the master inventory list, you need to then map it. Please see separate help instructions named **Mappings Inventory Tab.**
