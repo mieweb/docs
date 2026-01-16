@@ -268,7 +268,7 @@ links:
   - 'functions/medication-management-and-e-prescribing/refill-all.md'
   - 'functions/medication-management-and-e-prescribing/drug-guide-search.md'
   - 'functions/medication-management-and-e-prescribing/medicalcodify.com.md'
-  - 'https://drive.google.com/open?id=1c7lV7YbSrJoXkqOsc9gkQOl5MxuGwZpq71QVoq3Qo0g'
+  - 'functions/medication-management-and-e-prescribing/first-databank-and-rxdb-database-last-update-and-version.md'
   - 'functions/medication-management-and-e-prescribing/drug-plan-and-formularies.md'
   - 'functions/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.md'
   - 'functions/medication-management-and-e-prescribing/allergies-and-intolerances.md'
@@ -1074,7 +1074,7 @@ wikigdrive: 'v2.15.30'
         * [Refill All](functions/medication-management-and-e-prescribing/refill-all.md)
         * [Drug Guide Search](functions/medication-management-and-e-prescribing/drug-guide-search.md)
         * [MedicalCodify.com](functions/medication-management-and-e-prescribing/medicalcodify.com.md)
-        * [First DataBank and RXDB Database Last Update and Version](https://drive.google.com/open?id=1c7lV7YbSrJoXkqOsc9gkQOl5MxuGwZpq71QVoq3Qo0g)
+        * [First DataBank and RXDB Database Last Update and Version](functions/medication-management-and-e-prescribing/first-databank-and-rxdb-database-last-update-and-version.md)
         * [Drug Plan and Formularies](functions/medication-management-and-e-prescribing/drug-plan-and-formularies.md)
         * [Drug Interaction/Allergy Warnings](functions/medication-management-and-e-prescribing/drug-interaction-allergy-warnings.md)
         * [Allergies and Intolerances](functions/medication-management-and-e-prescribing/allergies-and-intolerances.md)
