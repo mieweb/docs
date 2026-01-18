@@ -1,7 +1,6 @@
 public*/
 .wikigdrive
 /resources
-.vscode/
 .wgd
 .wgd-directory.yaml
 .wgd-local-links.csv

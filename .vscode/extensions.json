@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "ms-vscode.vscode-speech",
+    "microsoft.playwright-mcp",
+    "ms-python.pylance-mcp",
+    "docker.copilot-container-mcp"
+  ]
+}

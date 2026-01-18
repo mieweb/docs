@@ -1,0 +1,21 @@
+{
+  // GitHub Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true
+  },
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // VS Code Speech - Manual send (no auto-submit on pause)
+  "accessibility.voice.speechTimeout": 0,
+  "accessibility.voice.autoSynthesize": "off",
+  
+  // Workspace settings
+  "cSpell.enabled": false,
+  "editor.wordWrap": "on",
+  "files.associations": {
+    "*.md": "markdown",
+    "*.toml": "toml"
+  }
+}
