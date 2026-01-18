@@ -170,6 +170,39 @@ This workspace uses the following MCP (Model Context Protocol) tools:
 - Let the user interact with the browser after navigation or testing
 - Only use `browser_close` when the user specifically requests it
 
+### 🏥 WebChart Testing Workflow
+
+When testing WebChart features, documentation, or web pages, follow this standardized procedure:
+
+#### 1. Initial Navigation
+```javascript
+// Navigate to the development environment
+await page.goto('https://masterdaily.dev.webchart.app/');
+```
+
+#### 2. Authentication Flow
+1. **Wait for user authentication** - The user will complete YubiKey authentication
+2. **User confirms when logged in** - Wait for user confirmation before proceeding
+
+#### 3. Accessing Features
+- If testing a specific feature, navigate to the relevant page after login
+
+#### 4. Testing Best Practices
+- Always verify the page loaded correctly before interacting with elements
+- Use `mcp_microsoft_pla_browser_snapshot` to inspect page structure and navigation
+- Use `mcp_microsoft_pla_browser_take_screenshot` for visual confirmation only when authorized by the user
+- Wait for dynamic content to load before assertions
+- Check console messages for errors or important logs
+- **When elements cannot be located**: The system may not be fully WCAG compliant. If standard accessibility selectors fail, ask the user to inspect the page and provide the specific element reference (from snapshot) or CSS selector to interact with. the user make need help doing this.
+
+#### 5. Documentation Testing
+When testing documentation changes:
+1. Follow the authentication workflow above
+2. Navigate to the feature being documented
+3. Verify all documented steps work as described
+4. Take screenshots if documentation includes visual references
+5. Update documentation with any discrepancies found
+
 ## HTML & CSS Guidelines
 - **Semantic Naming**: Every `<div>` and other structural element must use a meaningful, semantic class name that clearly indicates its purpose or role within the layout.
 - **CSS Simplicity**: Styles should avoid global resets or overrides that affect unrelated components or default browser behavior. Keep changes scoped and minimal.
