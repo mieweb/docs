@@ -56,6 +56,24 @@ This is a documentation repository for Enterprise Health's medical software plat
 - `start-server.sh`: Runs local development server
 - `wikigdrive-fetch.sh`: Syncs content from Google Drive
 - `setup.sh`: Initial project setup
+- `navigation2menu.js`: Converts navigation.md to Hugo menu format
+
+### Starting the Local Development Server
+To properly run the site locally with navigation working:
+
+1. **Use the build script**: `./build.sh --live eh`
+   - This generates the navigation menu from `content/navigation.md`
+   - Creates `config/_default/menu.en.json` 
+   - Starts Hugo server at http://localhost:1313/
+   - Enables live reload for content changes
+
+2. **Do NOT run Hugo directly** without generating the menu first, as the left sidebar navigation will be empty
+
+3. **Prerequisites**:
+   - Hugo must be installed (`brew install hugo`)
+   - npm dependencies installed (`npm install`)
+   - Node.js available in PATH
+   - `navigation2menu.js` must have correct shebang: `#!/usr/bin/env node`
 
 ## Topics Covered
 
