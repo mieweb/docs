@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
 const { EOL } = require("os");
 // Work on POSIX and Windows
