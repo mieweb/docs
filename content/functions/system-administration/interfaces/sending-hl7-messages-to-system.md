@@ -1,9 +1,9 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2026-01-09T14:38:06.779Z'
-version: 513
-lastAuthor: 'auhrick'
+date: '2026-01-12T17:07:20.745Z'
+version: 527
+lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
@@ -105,13 +105,15 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 * [MDM^T02](sample-hl7-messages.md#mdmt02) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] [TXA](hl7-segment-definitions.md#transcription-document-header-txa) { [OBX](hl7-segment-definitions.md#observation/result-obx) }
 
-### {{% anchor sys="financial_transactions" %}}Company Information (MFN)
+### Company Information (MFN)
 
-* [MFN^M13](sample-hl7-messages.md#_wg5czlvlv8py) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md) [MFE](hl7-segment-definitions.md) [ZEM](hl7-segment-definitions.md)
+* [MFN^M13](sample-hl7-messages.md#mfn-employers) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md#_ozvtqwci6ex9) [MFE](hl7-segment-definitions.md#_fubkjxjnfphs) [ZEM](hl7-segment-definitions.md#_a0aes1lo4yt5)
 
 ### Financial Transactions (DFT)
 
 * [DFT^P03](sample-hl7-messages.md#dft-financials) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] <[OBX](hl7-segment-definitions.md#observation/result-obx)> { [FT1](hl7-segment-definitions.md#financial-transaction-ft1) < [PR1](hl7-segment-definitions.md#procedures-pr1) >} < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
+
+{{% anchor sys="financial_transactions" %}}
 
 ### Immunizations (VXU)
 
