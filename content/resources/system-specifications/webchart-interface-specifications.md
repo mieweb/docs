@@ -1,9 +1,9 @@
 ---
 id: '1sTO8fOnVnhnSGfkWnaXFP0L4KUzTva8PVlPnFodoKIw'
 title: 'WebChart Interface Specifications'
-date: '2025-08-22T20:12:56.233Z'
-version: 34
-lastAuthor: 'bhamm'
+date: '2026-01-06T18:59:30.044Z'
+version: 43
+lastAuthor: 'shullender'
 mimeType: 'text/x-markdown'
 links:
   - '../../functions/system-administration/interfaces/sending-hl7-messages-to-system.md'
