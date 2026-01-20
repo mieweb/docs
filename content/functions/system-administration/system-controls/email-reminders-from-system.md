@@ -1,9 +1,9 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2024-10-23T13:26:37.472Z'
-version: 222
-lastAuthor: 'janderson'
+date: '2026-01-20T19:29:10.454Z'
+version: 258
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'about:blank'
@@ -203,13 +203,55 @@ You can have your MIE Implementer program the custom ability to opt a patient ou
 
 The system does not support emailing attachments, packets of documents, etc. Email sent out from  {{% system-name %}} is tracked and explained in sections above on how to run a report for them or where to find them in the patient's chart. Inbound email cannot be delivered into your  {{% system-name %}} system.  {{% system-name %}} does not accept or process incoming emails from outside sources. The Inbound Fax Queue can send a received fax via email as an attachment, but the email recipient has to be an active  {{% system-name %}} user. See more information in Inbound Fax Queue help documentation.
 
-## Extended Email Fields
+## Additional Extended Email Address(es)
 
-Contact your MIE Implementer if you'd like to capture more than one email address for a patient. This could be manual or an extra email field(s) that comes in via your PM interface. MIE can add a patient extended field(s) in your "edit demographics" screen (or in demographics if coming in via interface) to capture/show an additional email. Sometimes a patient may have a work email and a personal email (as an example). Then when sending email reminders or emails from  {{% system-name %}} to the patient, both emails will display for your selection on where to send that email to or not send it to.
+Need to send an email to more than one email address for a chart (ex: to work and to their personal email)? Contact your Deployment Consultant if you'd like to capture more than one email address for a patient/employee chart. This could be manual email entry of an additional email address needing to be captured or an extra email field(s) that comes in via your PM or HR interface.
 
-A system setting in  {{% system-name %}} controls what fields to consider *extended email fields* for a patient (E-Chart, Email, Extended Patient Email Fields). Contact your MIE Implementer to have this set up.
+The main primary email address field for the chart continues to be housed at the top of the demographics information area.
 
-![](./email-reminders-from-system.assets/0a0c9538ebadb9b8171173502394e62f.png)
+![](./email-reminders-from-system.assets/39bf912915ccc946c619dd3efe4657ce.png)
+
+However, MIE can add a patient extended field(s) in your system's *Demographics* screen to capture, collect and display an additional email address(es) for a patient/employee chart.
+
+![](./email-reminders-from-system.assets/f853cbfd7a0e415a9271f31861b1602e.png)
+
+Sometimes a patient/employee may have a work email and a personal email (as an example). Thus, when sending email reminders or emails from {{% system-name %}} using the chart demographics, both emails will display for your selection on where to send that email to or not send it to.
+
+### Where Additional Email Address(es) are Visible
+
+If you have the Deployment Consultant configure a patient extended field(s) in the system's demographics section, it will display in the **Other Data** flowsheet portion of the chart's Demographics.
+
+![](./email-reminders-from-system.assets/56d84611da7ef52110d79ff361f026dc.png)
+
+Any patient extended email(s) collected will also display on the Summary dashboard chart tab in the Demographics **portlet** in the Other Data area.  The main primary email address for the chart continues to display at the top of the demographics area.
+
+![](./email-reminders-from-system.assets/05b718942eb687ebee396472e9782e11.png)
+
+Any patient extended email(s) collected will display as an **Additional Recipient** when emailing a chart.
+
+![](./email-reminders-from-system.assets/f7538e87911d07c616d5921de200b236.png)
+
+Any patient extended email(s) collected will display as a **CC** email recipient in an appointment email.
+
+![](./email-reminders-from-system.assets/a71d898f175ef9f10500195488acb7af.png)
+
+### Configuration Setup for Patient Extended Email Field
+
+Deployment Consultant will set up an observation named pev.personalemail (or custom pev obs name needed) in your system.  Template ID must be set to Patient Extended Data on the observation.  Any additional unique named pev. email obs can additionally be added.
+
+![](./email-reminders-from-system.assets/5863768c19782d1f8a0ec65304eb4fb3.png)
+
+Deployment Consultant will set the pev observation(s) to be an item in the **Demographic Data** flowsheet.  This will allow capture and collection of the separate email address needed on a patient/chart.
+
+![](./email-reminders-from-system.assets/b432af5c5cc83e5e121a2c9fdea8ca61.png)
+
+Deployment Consultant will set the new email obs name(s) to the system setting **Extended Patient Email Fields**.  The prefix pev. is not to be included as the system setting value, just the remaining portion of the unique obs name.  If configuring more than one additional pev email patient extended observations and fields, the deployment consultant will add each (separated by a comma) obs name here in the system setting value.  Meaning, your system can collect and house more than just one additional email address.
+
+![](./email-reminders-from-system.assets/fe77f114063ecacc4ada06208ef8bafe.png)
+
+Deployment Consultant will enable the system setting **DB Triggers - Copy to Observations** for item **patient_extended_values**.
+
+![](./email-reminders-from-system.assets/d6c113280c49bf12a599e8997de50f02.png)
 
 ## Learning Management System
 
