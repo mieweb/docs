@@ -1,8 +1,8 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2026-01-20T19:29:10.454Z'
-version: 258
+date: '2026-01-20T19:49:04.445Z'
+version: 267
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -234,6 +234,10 @@ Any patient extended email(s) collected will display as an **Additional Recipien
 Any patient extended email(s) collected will display as a **CC** email recipient in an appointment email.
 
 ![](./email-reminders-from-system.assets/a71d898f175ef9f10500195488acb7af.png)
+
+History of the patient extended email field data is housed in the Observations chart tab of a chart.  Limiting observation search by Flowsheet *Demographic Data* will display history to that pev field configured in the Demographic Data flowsheet per chart.
+
+![](./email-reminders-from-system.assets/62eadffd4bc8cc7d2c0decf354de32bb.png)
 
 ### Configuration Setup for Patient Extended Email Field
 
