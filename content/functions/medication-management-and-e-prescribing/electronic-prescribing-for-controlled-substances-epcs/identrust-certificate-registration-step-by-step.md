@@ -1,9 +1,9 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2025-12-18T15:58:05.909Z'
-version: 465
-lastAuthor: 'towens'
+date: '2026-01-20T19:10:32.521Z'
+version: 481
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.identrust.com/igc/mie/'
@@ -50,11 +50,9 @@ The first step requires the selection of the certificate. There are 3 types of C
 
 ******Note: Enterprise Health and WebChart will be deprecating support for USB tokens. Customers should opt for the Mobile Authentication certificate.**
 
-![](./identrust-certificate-registration-step-by-step.assets/1267da7bd410bb66b035e0c6d917348d.png)
-
 ### Select the Storage Device (pricing shown is for Mobile Authentication)
 
-#### ![](./identrust-certificate-registration-step-by-step.assets/dfc940f087ea58d274b38d9c862e666c.png)
+![](./identrust-certificate-registration-step-by-step.assets/dfc940f087ea58d274b38d9c862e666c.png)
 
 ### Select the Storage Device (pricing shown is for USB Token)
 
