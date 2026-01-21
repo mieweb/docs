@@ -1,9 +1,9 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2026-01-12T17:07:20.745Z'
-version: 527
-lastAuthor: 'nwallace'
+date: '2026-01-21T16:43:30.842Z'
+version: 534
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'hl7-restful.md'
@@ -12,7 +12,7 @@ links:
 source: 'https://drive.google.com/open?id=1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 wikigdrive: 'v2.15.30'
 ---
-The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
+The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send HL7 messages in real-time to a system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
 {{% anchor sys="assumptions" %}}
 
@@ -107,7 +107,7 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 ### Company Information (MFN)
 
-* [MFN^M13](sample-hl7-messages.md#mfn-employers) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md#_ozvtqwci6ex9) [MFE](hl7-segment-definitions.md#_fubkjxjnfphs) [ZEM](hl7-segment-definitions.md#_a0aes1lo4yt5)
+* [MFN^M13](sample-hl7-messages.md#mfn-employers) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md#master-file-identification-mfi) [MFE](hl7-segment-definitions.md#master-file-entry-mfe) [ZEM](hl7-segment-definitions.md#employer-detail-zem)
 
 ### Financial Transactions (DFT)
 
