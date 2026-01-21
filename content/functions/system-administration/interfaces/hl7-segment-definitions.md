@@ -1,9 +1,9 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2026-01-07T14:13:41.378Z'
-version: 596
-lastAuthor: 'auhrick'
+date: '2026-01-21T16:10:02.463Z'
+version: 715
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
@@ -18,9 +18,8 @@ wikigdrive: 'v2.15.30'
 This documentation is for HL7 Segments related to:
 
 * [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
-* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md) and
-
-[Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview)
+* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md)
+* [Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview)
 
 ## Message Header (MSH)
 
@@ -240,6 +239,10 @@ This documentation is for HL7 Segments related to:
 </tr>
 </table>
 
+**Sample Output:**
+
+MFI|EMP||UPD|20180122161758||NE
+
 ## Master File Entry (MFE)
 
 <table>
@@ -263,7 +266,7 @@ This documentation is for HL7 Segments related to:
 <td>2</td>
 <td>20</td>
 <td>ST</td>
-<td>REQ</td>
+<td>OPT</td>
 <td>NO_RPT</td>
 <td>MFN Control ID</td>
 </tr>
@@ -287,11 +290,15 @@ This documentation is for HL7 Segments related to:
 <td>5</td>
 <td>3</td>
 <td>ID</td>
-<td>REQ</td>
+<td>OPT</td>
 <td>NO_MAX</td>
 <td>Primary Key Value Type</td>
 </tr>
 </table>
+
+**Sample Output:**
+
+MFE|MUP||20180122161758|937
 
 {{% anchor sys="msa" %}}
 
@@ -5604,7 +5611,7 @@ This documentation is for HL7 Segments related to:
 <td>Student Indicator</td>
 </tr>
 <tr>
-<td>24</td>
+<td>25</td>
 <td>80</td>
 <td>CE</td>
 <td>OPT</td>
@@ -5612,7 +5619,7 @@ This documentation is for HL7 Segments related to:
 <td>Religion</td>
 </tr>
 <tr>
-<td>25</td>
+<td>26</td>
 <td>48</td>
 <td>XPN</td>
 <td>OPT</td>
@@ -5620,7 +5627,7 @@ This documentation is for HL7 Segments related to:
 <td>Mother's Maiden Name</td>
 </tr>
 <tr>
-<td>26</td>
+<td>27</td>
 <td>80</td>
 <td>CE</td>
 <td>OPT</td>
@@ -5628,7 +5635,7 @@ This documentation is for HL7 Segments related to:
 <td>Nationality</td>
 </tr>
 <tr>
-<td>27</td>
+<td>28</td>
 <td>80</td>
 <td>CE</td>
 <td>OPT</td>
@@ -5636,7 +5643,7 @@ This documentation is for HL7 Segments related to:
 <td>Ethnic Group</td>
 </tr>
 <tr>
-<td>28</td>
+<td>29</td>
 <td>80</td>
 <td>CE</td>
 <td>OPT</td>
@@ -5644,7 +5651,7 @@ This documentation is for HL7 Segments related to:
 <td>Contact Reason</td>
 </tr>
 <tr>
-<td>29</td>
+<td>30</td>
 <td>48</td>
 <td>XPN</td>
 <td>OPT</td>
@@ -5652,7 +5659,7 @@ This documentation is for HL7 Segments related to:
 <td>Contact Person's Name</td>
 </tr>
 <tr>
-<td>30</td>
+<td>31</td>
 <td>40</td>
 <td>XTN</td>
 <td>OPT</td>
@@ -5660,7 +5667,7 @@ This documentation is for HL7 Segments related to:
 <td>Contact Person's Telephone Number</td>
 </tr>
 <tr>
-<td>31</td>
+<td>32</td>
 <td>106</td>
 <td>XAD</td>
 <td>OPT</td>
@@ -5668,7 +5675,7 @@ This documentation is for HL7 Segments related to:
 <td>Contact Person's Address</td>
 </tr>
 <tr>
-<td>32</td>
+<td>33</td>
 <td>32</td>
 <td>CX</td>
 <td>OPT</td>
@@ -5676,7 +5683,7 @@ This documentation is for HL7 Segments related to:
 <td>Next of Kin/Associated Party's Identifiers</td>
 </tr>
 <tr>
-<td>33</td>
+<td>34</td>
 <td>2</td>
 <td>IS</td>
 <td>OPT</td>
@@ -5684,7 +5691,7 @@ This documentation is for HL7 Segments related to:
 <td>Job Status</td>
 </tr>
 <tr>
-<td>34</td>
+<td>35</td>
 <td>80</td>
 <td>CE</td>
 <td>OPT</td>
@@ -5692,7 +5699,7 @@ This documentation is for HL7 Segments related to:
 <td>Race</td>
 </tr>
 <tr>
-<td>35</td>
+<td>36</td>
 <td>2</td>
 <td>IS</td>
 <td>OPT</td>
@@ -5700,7 +5707,7 @@ This documentation is for HL7 Segments related to:
 <td>Handicap</td>
 </tr>
 <tr>
-<td>36</td>
+<td>37</td>
 <td>16</td>
 <td>ST</td>
 <td>OPT</td>
@@ -7669,6 +7676,63 @@ This documentation is for HL7 Segments related to:
 <td>Other prev cyto info</td>
 </tr>
 </table>
+## Employer Detail (ZEM)
+
+<table>
+<tr>
+<td><strong>Sequence</strong></td>
+<td><strong>Length</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Repetition</strong></td>
+<td><strong>Name</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>255</td>
+<td>ST</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Employer ID</td>
+</tr>
+<tr>
+<td>2</td>
+<td>255</td>
+<td>ST</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Employer Name</td>
+</tr>
+<tr>
+<td>3</td>
+<td>255</td>
+<td>XAD</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Employer Address</td>
+</tr>
+<tr>
+<td>4</td>
+<td>255</td>
+<td>ST</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Employer Type<br />
+options: Billable, Non-Billable or and Policy Holder Only</td>
+</tr>
+<tr>
+<td>5</td>
+<td>255</td>
+<td>XTN</td>
+<td>REQ</td>
+<td>NO_RPT</td>
+<td>Employer Phone</td>
+</tr>
+</table>
+
+**Sample Output:**
+
+ZEM|937|Acme Anvils|123 Test Rd^suite 100^Cleveland^OH^44128^US|Policy Holder Only|
 
 ## ZSA
 
