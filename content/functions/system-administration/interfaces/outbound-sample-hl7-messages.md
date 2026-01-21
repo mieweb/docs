@@ -1,9 +1,9 @@
 ---
 id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
 title: 'Outbound Sample HL7 Messages'
-date: '2026-01-09T14:44:03.363Z'
-version: 169
-lastAuthor: 'auhrick'
+date: '2026-01-14T19:42:30.618Z'
+version: 184
+lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
   - 'receiving-hl7-messages-from-system.md'
@@ -20,7 +20,7 @@ wikigdrive: 'v2.15.30'
 
 ### New Appointment
 
-**MSH|^~\&|WCDataSend|handle|wc_hl7d|recv_facil|20210423091057||SIU^S12^SIU_S12|DSD1619205057152978|P|2.5|||||||||||||
+MSH|^~\&|WCDataSend|handle|wc_hl7d|recv_facil|20210423091057||SIU^S12^SIU_S12|DSD1619205057152978|P|2.5|||||||||||||
 
 SCH|2588939|2677255|||||ppd 2nd step|NURS^Nurse Encounter|15|MIN|^^^202104270815^202104270830||||||||||||||BOOKED
 
@@ -33,8 +33,6 @@ RGS|1||
 AIL|1||^30^^^^^^^Kihei Clinic|||||||||
 
 AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
-
-**
 
 {{% anchor sys="siu-s14" %}}
 
