@@ -137,14 +137,7 @@ ___
 
 ___
 
-## 8. Additional Capabilities (In Development)
-
-* Automated Voice Response: Call-in system for incident reporting and case creation.
-* AI-Driven Report Generation: Request custom reports by specifying the data needed.
-
-___
-
-## 9. Tips for Effective Use
+## 8. Tips for Effective Use
 
 * Always review and edit generated documents before finalizing.
 * Use the image upload feature for any paper-based or device-generated data.
