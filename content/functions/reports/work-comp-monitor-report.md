@@ -1,8 +1,8 @@
 ---
 id: '1LHkaV4HiAFPWKnKnOzRcFO76OCqe48TRZdKkrglX6Pc'
 title: 'Work Comp Monitor Report'
-date: '2026-01-21T16:16:46.439Z'
-version: 93
+date: '2026-01-21T17:09:35.914Z'
+version: 101
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
