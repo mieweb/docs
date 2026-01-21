@@ -77,6 +77,7 @@ ___
 
 ![](./ozwell-ai-assistant.assets/55a0516032703cb463bd4325e9f05d0a.png)
 
+* **Important**: These are experimental features. Always verify the accuracy of extracted data before saving, as AI systems may occasionally generate incorrect information.
 * Click the magic wand icon to analyze the transcribed information.
 
 ![](./ozwell-ai-assistant.assets/46ef44ca9f807c2beeace1f624bbdde2.png)
