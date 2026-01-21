@@ -1,8 +1,8 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2025-04-10T22:50:28.707Z'
-version: 797
+date: '2026-01-21T16:03:23.289Z'
+version: 803
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -122,8 +122,11 @@ To establish requirements on an observation, begin by clicking the Edit icon (pe
 
 * For no requirement - <strong><em>leave blank</em></strong>'
 * For a soft requirement (recommended) - <strong>True or 1</strong>
+    * <strong>1 / true = recommended, bypassable</strong>
 * For hard requirements: There are varying hard requirements that can be configured, depending on the client's needs.
     * Require anything - <strong>(observationValueByName(jQuery(this).data('obsname')) ? 1 : -1)</strong>
+    * <strong>-1 = required but invalid, not bypassable</strong>
+    * <strong>2 = required, not bypassable</strong>
     * Number only - TBD
     * Date/Time Ranges - TBD
 
