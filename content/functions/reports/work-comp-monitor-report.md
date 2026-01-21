@@ -1,9 +1,9 @@
 ---
 id: '1LHkaV4HiAFPWKnKnOzRcFO76OCqe48TRZdKkrglX6Pc'
 title: 'Work Comp Monitor Report'
-date: '2025-07-15T17:43:30.164Z'
-version: 87
-lastAuthor: 'anichols'
+date: '2026-01-21T16:16:46.439Z'
+version: 93
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'using-datavis-grids-data-tools.md'
@@ -16,13 +16,14 @@ The Work Comp Monitor Report is for monitoring work comps claims that are sent t
 
 ## Filter Criteria
 
-![](./work-comp-monitor-report.assets/866a81935cbf33635f7322ac3ba2479c.png)
+![](./work-comp-monitor-report.assets/4f985c274b31db2eafe51a96794064a6.png)
 
 * <strong>Third-Party Administrator (TPA):</strong> This field is required to be selected to run the report.  In almost all cases <em>All</em> will always be used because it's rare for any one system to have multiple TPAs. If additional options are available, they are populated by an observation code with the name <em>Send Claim to TPA</em> in conjunction with the interface installation.
 * <strong>Start Date:</strong> The start date field is also required. The start date will begin searching for claims that match the <em>Date Sent (to the TPA)</em>.
 * <strong>End Date:</strong> The end date field will stop searching for claims that match the <em>Date Sent (to the TPA)</em>. If no date is entered, the search will continue up to ‘today'.
 * <strong>Incident Number:</strong> The incident number is a system generated db id number for the case.
 * <strong>Case Number:</strong> The case number is the system generated number and helps to identify or describe the incident.
+* <strong>Status:</strong> Displays the status of the last submission sent to the work comp carrier. Examples include, but not limited to: Pending, Marked as Resend, Sent, Error.
 
 ## DataVis Report Output
 
