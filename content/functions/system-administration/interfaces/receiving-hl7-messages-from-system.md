@@ -1,9 +1,9 @@
 ---
 id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 title: 'Receiving HL7 Messages from System'
-date: '2026-01-09T14:31:49.374Z'
-version: 245
-lastAuthor: 'auhrick'
+date: '2026-01-21T16:29:59.045Z'
+version: 282
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'outbound-interface-install-instructions.md'
@@ -12,7 +12,7 @@ links:
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 wikigdrive: 'v2.15.30'
 ---
-The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send Hl7 messages real-time to system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
+The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send HL7 messages in real-time to a system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 
 {{% anchor sys="assumptions" %}}
 
@@ -108,11 +108,11 @@ legend - < > = 0 to many, [ ] = 0 to 1, { } means 1 to many.
 
 ### Company Information (MFN)
 
-* [](outbound-sample-hl7-messages.md#_wg5czlvlv8py) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md) [MFE](hl7-segment-definitions.md) [ZEM](hl7-segment-definitions.md)
+* [MFN^M13](outbound-sample-hl7-messages.md#mfnm13) : [MSH](hl7-segment-definitions.md#message-header-msh)<em></em> [MFI](hl7-segment-definitions.md#master-file-identification-mfi) [MFE](hl7-segment-definitions.md#master-file-entry-mfe) [ZEM](hl7-segment-definitions.md#employer-detail-zem)
 
 ### Financial Transactions (DFT)
 
-* [DFT^P03](outbound-sample-hl7-messages.md#dftp03) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1) ] <[OBX](hl7-segment-definitions.md#observation/result-obx)> { [FT1](hl7-segment-definitions.md#financial-transaction-ft1) < [PR1](hl7-segment-definitions.md#procedures-pr1) >} < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
+* [DFT^P03](outbound-sample-hl7-messages.md#dftp03) : [MSH](hl7-segment-definitions.md#message-header-msh) [ [EVN](hl7-segment-definitions.md#event-type-evn) ] [PID](hl7-segment-definitions.md#patient-identification-pid) [ [PV1](hl7-segment-definitions.md#patient-visit-pv1-for-dft) ] <[OBX](hl7-segment-definitions.md#observation/result-obx)> { [FT1](hl7-segment-definitions.md#financial-transaction-ft1) < [PR1](hl7-segment-definitions.md#procedures-pr1) >} < [DG1](hl7-segment-definitions.md#diagnosis-dg1) > [ [GT1](hl7-segment-definitions.md#guarantor-gt1) ] < [IN1](hl7-segment-definitions.md#insurance-in1) < [IN2](hl7-segment-definitions.md#insurance-additional-information-in2) > >
 
 ### Immunization (VXU)
 
