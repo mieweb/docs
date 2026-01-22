@@ -2,7 +2,7 @@
 id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 title: 'Summary Documents CSV API'
 date: '2025-11-12T19:25:43.177Z'
-version: 83
+version: 84
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

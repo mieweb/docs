@@ -2,7 +2,7 @@
 id: '1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
 title: 'Device Interface - Piccolo System'
 date: '2026-01-08T15:45:51.051Z'
-version: 36
+version: 39
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

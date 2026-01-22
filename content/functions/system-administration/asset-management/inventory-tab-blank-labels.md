@@ -2,7 +2,7 @@
 id: '1urVYSkKnjl-GKnC76scf6mffchENERHJJMeMQVXF22A'
 title: 'Inventory Tab - Blank Labels'
 date: '2026-01-16T18:33:49.914Z'
-version: 41
+version: 42
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
 title: 'Device Interface - MI 7000'
 date: '2026-01-07T16:07:01.461Z'
-version: 44
+version: 47
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

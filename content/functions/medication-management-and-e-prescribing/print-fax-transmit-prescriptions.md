@@ -2,7 +2,7 @@
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
 date: '2026-01-16T21:03:01.049Z'
-version: 170
+version: 171
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

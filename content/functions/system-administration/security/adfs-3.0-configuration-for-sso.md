@@ -2,7 +2,7 @@
 id: '15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
 title: 'ADFS 3.0 Configuration for SSO'
 date: '2020-02-27T20:26:04.497Z'
-version: 49
+version: 50
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'

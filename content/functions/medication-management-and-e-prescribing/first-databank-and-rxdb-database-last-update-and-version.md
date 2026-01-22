@@ -2,7 +2,7 @@
 id: '1c7lV7YbSrJoXkqOsc9gkQOl5MxuGwZpq71QVoq3Qo0g'
 title: 'First DataBank and RXDB Database Last Update and Version'
 date: '2026-01-16T20:45:03.386Z'
-version: 38
+version: 40
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1eIHNqGUb4LBiyFjmzFyYz3svkEmx8y-Fo1I_mL9MWBQ'
 title: 'Panel Status Import'
 date: '2025-11-12T19:09:30.989Z'
-version: 78
+version: 79
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

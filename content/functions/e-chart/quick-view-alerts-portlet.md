@@ -2,7 +2,7 @@
 id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 title: 'Quick View - Alerts Portlet'
 date: '2024-11-13T15:20:21.167Z'
-version: 122
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

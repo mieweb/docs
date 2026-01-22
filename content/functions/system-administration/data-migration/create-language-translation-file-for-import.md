@@ -2,7 +2,7 @@
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Create Language Translation File for Import'
 date: '2025-03-21T18:04:56.638Z'
-version: 74
+version: 75
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

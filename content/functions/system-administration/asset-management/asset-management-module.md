@@ -2,7 +2,7 @@
 id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
 title: 'Asset Management Module'
 date: '2026-01-15T18:58:03.086Z'
-version: 290
+version: 293
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

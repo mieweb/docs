@@ -2,7 +2,7 @@
 id: '1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
 title: 'Device Interface - Luna Audiometer Interface'
 date: '2025-09-08T18:54:39.061Z'
-version: 55
+version: 56
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

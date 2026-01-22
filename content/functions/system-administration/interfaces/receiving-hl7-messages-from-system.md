@@ -2,7 +2,7 @@
 id: '1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
 title: 'Receiving HL7 Messages from System'
 date: '2026-01-21T16:29:59.045Z'
-version: 282
+version: 285
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

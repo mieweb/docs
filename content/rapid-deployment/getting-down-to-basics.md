@@ -2,7 +2,7 @@
 id: '1pNelE3B-olct_hrbdA-rgvh2GpACme1hjf7QBz9Bf_w'
 title: 'Getting Down to Basics'
 date: '2025-12-04T16:12:16.083Z'
-version: 76
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

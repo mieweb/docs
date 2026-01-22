@@ -2,7 +2,7 @@
 id: '118KCb3m4jvyInhLS5YZ6H1wHpDtNEYweXH5nMzvFEgE'
 title: 'Query ODG Integration'
 date: '2026-01-16T19:20:27.833Z'
-version: 269
+version: 270
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

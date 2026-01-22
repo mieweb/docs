@@ -2,7 +2,7 @@
 id: '1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
 title: 'Inventory Weekly Review'
 date: '2026-01-20T18:11:07.995Z'
-version: 53
+version: 54
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

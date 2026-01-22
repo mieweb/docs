@@ -2,7 +2,7 @@
 id: '1vXuEhZGQF7tWWFw2i51IR52T3PGCilU7sCPtGQbfn58'
 title: 'Med-Web SSL Certificate Authority'
 date: '2022-10-05T17:42:38.445Z'
-version: 81
+version: 82
 lastAuthor: 'dcase'
 mimeType: 'text/x-markdown'
 links:

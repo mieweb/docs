@@ -2,7 +2,7 @@
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
 date: '2025-11-10T20:39:49.011Z'
-version: 149
+version: 150
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

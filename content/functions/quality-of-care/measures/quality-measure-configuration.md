@@ -2,7 +2,7 @@
 id: '1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
 title: 'Quality Measure Configuration'
 date: '2024-09-19T20:29:19.135Z'
-version: 68
+version: 69
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:

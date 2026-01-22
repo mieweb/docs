@@ -2,7 +2,7 @@
 id: '1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA'
 title: 'CMS 142 - Diabetic Retinopathy: Communication with the Physician Managing Ongoing Diabetes Care'
 date: '2022-04-28T13:53:43.464Z'
-version: 17
+version: 18
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
