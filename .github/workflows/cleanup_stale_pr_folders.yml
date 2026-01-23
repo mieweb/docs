@@ -45,8 +45,8 @@ jobs:
         run: |
           echo "Active branches: $ACTIVE_BRANCHES"
 
-          # Convert JSON array to bash array
-          active_branches=$(echo "$ACTIVE_BRANCHES" | jq -r '.[]')
+          # Convert JSON array to bash array using readarray
+          readarray -t active_branches < <(echo "$ACTIVE_BRANCHES" | jq -r '.[]')
 
           # Navigate to the public docs folder
           cd /www/mie-docs/public/ || exit 1
@@ -61,7 +61,7 @@ jobs:
 
             # Check if this folder corresponds to an active branch
             is_active=false
-            for branch in $active_branches; do
+            for branch in "${active_branches[@]}"; do
               if [ "$folder_name" = "$branch" ]; then
                 is_active=true
                 break
