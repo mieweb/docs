@@ -29,6 +29,8 @@ themes.gohugo.io) for WC and EH.
     - [SHORTCODES.md](SHORTCODES.md) documentation for all available Hugo shortcodes
 4. Automation to automate the process as well as a set of scripts to update a qa-server in realtime watching for changes in Google Drive and near instant update.
     - [Actions](.github/workflows) - github scripts that automate changes out to production and test Pull Requests to see if they break the build process.
+      - **pull_request.yml** - Builds and deploys PR documentation to `/www/mie-docs/public/{branch-name}/`, and automatically cleans up folders when PRs are closed or merged
+      - **cleanup_stale_pr_folders.yml** - Scheduled cleanup job (runs weekly on Sundays) that removes folders for PRs that are no longer active
     - [build.sh](build.sh) a script for testing and building the static page generation locally on your own machine, GitHub or CloudFlare.
 
 ## Setup 

@@ -6,6 +6,7 @@ name: Pull Request pushed
 # events but only for the master branch
 on:
   pull_request:
+    types: [opened, synchronize, reopened, closed]
   push:
     branches: [ master ]
 
@@ -15,6 +16,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: [ self-hosted, docsqa ]
+    # Only run build if PR is not being closed
+    if: github.event.action != 'closed'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -68,3 +71,44 @@ jobs:
             body: '👋 @${{github.actor}}, Your documentation has been pushed to https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/ for commit ${{ github.sha }}'
           })
       if: github.ref != 'refs/heads/master'
+
+  # Cleanup job to remove PR folders when PR is closed or merged
+  cleanup:
+    runs-on: [ self-hosted, docsqa ]
+    # Only run cleanup when PR is closed (includes merged PRs)
+    if: github.event.action == 'closed'
+    permissions:
+      contents: read
+
+    steps:
+    - name: Extract branch name from PR
+      shell: bash
+      run: |
+        # Use the head ref from the PR event, sanitize it for filesystem
+        branch_name="${{ github.head_ref }}"
+        branch_name="${branch_name//\//-}"
+        echo "branch=${branch_name}" >> $GITHUB_OUTPUT
+      id: extract_branch
+
+    - name: Remove PR documentation folder
+      run: |
+        FOLDER="/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}"
+        if [ -d "$FOLDER" ]; then
+          echo "Removing folder: $FOLDER"
+          rm -rf "$FOLDER"
+          echo "✅ Successfully removed PR documentation folder"
+        else
+          echo "⚠️ Folder not found: $FOLDER (may have been already cleaned up)"
+        fi
+
+    - name: Rocket.Chat Cleanup Notification
+      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Cleanup* PR #${{ github.event.pull_request.number }} documentation removed'
+        channel: '#miedocs'
+        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+        commit: false
+        token: ${{ github.token }}
+

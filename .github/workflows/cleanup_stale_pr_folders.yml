@@ -1,0 +1,104 @@
+# Scheduled cleanup workflow for stale PR documentation folders
+# This runs weekly to clean up any folders that don't correspond to active PRs
+
+name: Cleanup Stale PR Folders
+
+on:
+  schedule:
+    # Run every Sunday at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  cleanup-stale-folders:
+    runs-on: [ self-hosted, docsqa ]
+    permissions:
+      contents: read
+      pull-requests: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get list of active PR branches
+        id: active_branches
+        uses: actions/github-script@v7.0.1
+        with:
+          script: |
+            const { data: pullRequests } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+
+            // Sanitize branch names to match filesystem naming (replace / with -)
+            const branches = pullRequests.map(pr => {
+              return pr.head.ref.replace(/\//g, '-');
+            });
+
+            // Also include master branch as it's deployed
+            branches.push('master');
+
+            console.log('Active branches:', branches);
+            return branches;
+
+      - name: Clean up stale folders
+        env:
+          ACTIVE_BRANCHES: ${{ steps.active_branches.outputs.result }}
+        run: |
+          echo "Active branches: $ACTIVE_BRANCHES"
+
+          # Convert JSON array to bash array using readarray
+          readarray -t active_branches < <(echo "$ACTIVE_BRANCHES" | jq -r '.[]')
+
+          # Navigate to the public docs folder
+          cd /www/mie-docs/public/ || exit 1
+
+          removed_count=0
+          skipped_count=0
+
+          # Iterate through all folders
+          for folder in */; do
+            # Remove trailing slash
+            folder_name="${folder%/}"
+
+            # Check if this folder corresponds to an active branch
+            is_active=false
+            for branch in "${active_branches[@]}"; do
+              if [ "$folder_name" = "$branch" ]; then
+                is_active=true
+                break
+              fi
+            done
+
+            if [ "$is_active" = false ]; then
+              echo "🗑️  Removing stale folder: $folder_name"
+              rm -rf "$folder_name"
+              removed_count=$((removed_count + 1))
+            else
+              echo "✅ Keeping active folder: $folder_name"
+              skipped_count=$((skipped_count + 1))
+            fi
+          done
+
+          echo ""
+          echo "=== Cleanup Summary ==="
+          echo "Folders removed: $removed_count"
+          echo "Active folders kept: $skipped_count"
+          echo "======================="
+
+          # Set output for notification
+          echo "removed_count=$removed_count" >> $GITHUB_OUTPUT
+          echo "skipped_count=$skipped_count" >> $GITHUB_OUTPUT
+        id: cleanup_summary
+
+      - name: Rocket.Chat Cleanup Notification
+        uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
+        if: always()
+        with:
+          type: ${{ job.status }}
+          job_name: '*Scheduled Cleanup* Removed ${{ steps.cleanup_summary.outputs.removed_count }} stale PR folder(s), kept ${{ steps.cleanup_summary.outputs.skipped_count }} active'
+          channel: '#miedocs'
+          url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+          commit: false
+          token: ${{ github.token }}
