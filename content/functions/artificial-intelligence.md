@@ -1,8 +1,8 @@
 ---
 id: '1p1ZXuXBzJdb-eO2oxRbpCyafytuwXTJYhcGl9-2_OyU'
 title: 'Artificial Intelligence'
-date: '2024-10-03T17:28:08.947Z'
-version: 64
+date: '2026-01-23T18:51:22.200Z'
+version: 67
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
@@ -29,7 +29,7 @@ We have signed a zero-retention agreement with OpenAI. Our system operates open 
 
 **Output Capabilities**
 
-Wellby supports text and audio output, functioning as a minimal reasoning engine integrated with MIE's BlueHive Enterprise Health and WebChart EHR product lines.
+Ozwell supports text and audio output, functioning as a minimal reasoning engine integrated with MIE's BlueHive Enterprise Health and WebChart EHR product lines.
 
 **Modes of Operation**
 
