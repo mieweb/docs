@@ -77,6 +77,8 @@ jobs:
     runs-on: [ self-hosted, docsqa ]
     # Only run cleanup when PR is closed (includes merged PRs)
     if: github.event.action == 'closed'
+    permissions:
+      contents: read
 
     steps:
     - name: Extract branch name from PR
