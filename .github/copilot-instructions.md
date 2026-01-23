@@ -170,7 +170,78 @@ This workspace uses the following MCP (Model Context Protocol) tools:
 - Let the user interact with the browser after navigation or testing
 - Only use `browser_close` when the user specifically requests it
 
-### 🏥 WebChart Testing Workflow
+### � Creating Demo Videos with Playwright
+
+This project uses Playwright to create automated demonstration videos of WebChart features. Videos should be under 5 minutes and include overlay annotations.
+
+#### Video Creation Workflow
+
+**1. Authentication Setup (One-Time)**
+- Create an `auth-setup.spec.ts` in the `scripts/` directory
+- Script should handle "Standard Login" button click, then username/password login
+- Save authentication state to `.auth/webchart-session.json` using `storageState`
+- This allows tests to skip login and start pre-authenticated
+
+**2. Create Demo Script**
+- Create test file in `scripts/` directory (e.g., `feature-name.spec.ts`)
+- Use saved authentication: `test.use({ storageState: path.join(__dirname, '../.auth/webchart-session.json') })`
+- Navigate directly to feature URLs when possible to avoid UI navigation delays
+- Include overlay annotations using helper functions:
+  ```typescript
+  async function showOverlay(page, text, duration) {
+    await page.evaluate(({ text, duration }) => {
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;top:20px;left:50%;transform:translateX(-50%);...';
+      overlay.textContent = text;
+      document.body.appendChild(overlay);
+      setTimeout(() => overlay.remove(), duration);
+    }, { text, duration });
+  }
+  ```
+
+**3. Video Configuration** (in `playwright.config.ts`)
+- Set `video: { mode: 'on', size: { width: 1920, height: 1080 } }`
+- Configure `outputDir: './scripts/videos'` for video artifacts
+- Set viewport to match video size: `viewport: { width: 1920, height: 1080 }`
+- Use single worker: `workers: 1` for sequential execution
+
+**4. Running Video Creation**
+```bash
+# First time: Run authentication setup
+npx playwright test scripts/auth-setup.spec.ts --headed
+
+# Then: Run demo script to generate video
+npx playwright test scripts/feature-name.spec.ts --headed
+```
+
+**5. Git LFS for Videos**
+- Videos are tracked in Git LFS (see `.gitattributes`)
+- Patterns: `scripts/videos/*.webm` and `scripts/videos/*.mp4`
+- Videos output to `scripts/videos/` directory
+- Directory is in `.gitignore` but files tracked via LFS
+
+#### Video Best Practices
+
+- **No login shown**: Use pre-authenticated sessions via `storageState`
+- **Direct navigation**: Navigate to feature URLs (`/webchart.cgi?f=chart&s=pat&t=FeatureName&pat_id=TEST-10019`) to skip UI clicks
+- **Overlays**: Add text overlays to guide viewers through each step
+- **Duration**: Keep under 5 minutes; create separate "quick demo" version if needed
+- **Timing**: Add `waitForTimeout()` calls to let actions be visible (500-2000ms)
+- **Test patient**: Use TEST-10019 (Hart, William S.) for consistency
+
+#### File Structure
+```
+scripts/
+├── auth-setup.spec.ts          # One-time login, saves session
+├── feature-name.spec.ts        # Demo script with overlays
+├── demographics.md             # Video script outline
+├── videos/                     # Generated videos (gitignored, LFS tracked)
+└── README.md                   # Instructions for running tests
+.auth/
+└── webchart-session.json       # Saved authentication state (gitignored)
+```
+
+### �🏥 WebChart Testing Workflow
 
 When testing WebChart features, documentation, or web pages, follow this standardized procedure:
 

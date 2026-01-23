@@ -15,3 +15,11 @@ config/_default/menu.en.json
 .hugo_build.lock
 .idea
 .playwright-mcp/
+
+# Playwright & Testing
+.env
+.auth/
+scripts/videos/
+test-results/
+playwright-report/
+playwright/.cache/
