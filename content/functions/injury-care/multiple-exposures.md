@@ -1,9 +1,9 @@
 ---
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
-date: '2025-11-24T16:25:55.493Z'
-version: 652
-lastAuthor: 'janderson'
+date: '2026-01-27T16:42:59.973Z'
+version: 661
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
@@ -92,6 +92,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 * You can only copy the case to a patient chart once. Any changes made on the Multiple Exposure Case (source patient) can not be re-copied nor auto-updated to the exposed patient chart(s)/contacts. You must make any updates directly in the exposed contact's chart(s) after it has been copied from the Multiple Exposure (source patient) encounter.
 * Only one Multiple Exposure encounter should be opened per Multiple Exposure chart. Multiple Exposure charts should be deactivated when no longer in use to prevent using more than once.
+* Not compatible with custom case flowsheets. Compatible with the out of the box case/incident section.
 
 ## Reports
 
