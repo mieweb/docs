@@ -1,0 +1,18 @@
+{{ $page := .page }} {{ $site := .site }}
+<div class="row pt-3">
+  {{ range .menu }}
+  <div class="col-sm-6 col-md-6 col-lg-6 d-flex col-12 mb-4">
+    <div class="col-inner bg-light align-self-stretch p-3">
+      <h3 class="border-bottom border-color-dark">{{ .Name }}</h3>
+      {{ with $site.GetPage .URL }} {{ $summary := substr .Plain 0 200 }}
+      <div>
+        {{ $summary | safeHTML }}...
+        <div class="d-flex justify-content-end">
+          <a class="btn btn-link mt-3" href="{{ .URL }}">READ MORE <i class="fa-solid fa-chevron-right ms-3"></i></a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

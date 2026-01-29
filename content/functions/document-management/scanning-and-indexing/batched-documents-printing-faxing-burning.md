@@ -1,16 +1,17 @@
 ---
-id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-title: 'Batched Documents - Printing, Faxing, Burning'
-date: '2025-11-25T16:58:38.729Z'
+id: "1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs"
+title: "Batched Documents - Printing, Faxing, Burning"
+date: "2025-11-25T16:58:38.729Z"
 version: 121
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
-  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
-source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/"
+  - "https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/"
+source: "https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs"
+wikigdrive: "v2.15.30"
 ---
+
 ## Adding a Document to a Batch
 
 Batching is a quick way to add multiple documents into a batch to be printed or faxed or burned to a cd. It is a batch of documents to be rendered from any patient(s). This is a way to print, fax or burn multiple documents for any patient or multiple patients instead of printing/faxing/burning one individual document at a time.
@@ -87,13 +88,13 @@ To perform your printing or faxing or burning of the batch, simply click Print o
 
 ![](./batched-documents-printing-faxing-burning.assets/40873832f9319a33c649dc5970005e5d.png)
 
-If you click *Remove & Cancel* function button, it will remove the entire batch and cancel the print/fax/burn mode. You will no longer have that batch in the system in your worklist. It has been entirely removed and canceled.
+If you click _Remove & Cancel_ function button, it will remove the entire batch and cancel the print/fax/burn mode. You will no longer have that batch in the system in your worklist. It has been entirely removed and canceled.
 
 If you have any other separate batches created from print chart method, after you print/fax/burn or remove & cancel this batch, it will show your next batch in your worklist summary if you have another that you created separately.
 
 ### Burning a Batch
 
-When you are ready to burn the documents you batched, simply insert a blank CD into your disk burner and then click the *Create Disk* button at the bottom of the burn mode screen. Follow the instructions on the screen and it will gather the data and burn the disk.
+When you are ready to burn the documents you batched, simply insert a blank CD into your disk burner and then click the _Create Disk_ button at the bottom of the burn mode screen. Follow the instructions on the screen and it will gather the data and burn the disk.
 
 ![](./batched-documents-printing-faxing-burning.assets/d86bca9df3a9527a20525259a3da1394.png)
 
@@ -107,7 +108,7 @@ From the next screen, click on "Open" and wait for the file to finish.
 
 ![](./batched-documents-printing-faxing-burning.assets/ecb70e78174bb440fe19a9d2913d7826.png)
 
-In the section SOURCE, leave the radio button selected *on Image File*.
+In the section SOURCE, leave the radio button selected _on Image File_.
 
 And, in the section RECORDER, select the drive you're going to burn to by using the drop-down arrow.
 

@@ -1,15 +1,16 @@
 ---
-id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
-title: 'Reset User Passwords'
-date: '2025-11-12T13:24:05.851Z'
+id: "19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws"
+title: "Reset User Passwords"
+date: "2025-11-12T13:24:05.851Z"
 version: 201
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
-source: 'https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LTZIDNHR"
+source: "https://drive.google.com/open?id=19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws"
+wikigdrive: "v2.15.30"
 ---
+
 Must have security permissions to be able to add/edit/delete users
 
 A user may have tried to log in using the wrong password too many times. It will then lock that user out. You will need to reset their password.
@@ -18,16 +19,16 @@ A user may have tried to log in using the wrong password too many times. It will
 
 ## Search for the User
 
-Click *Control* tab on the left sidebar menu.
+Click _Control_ tab on the left sidebar menu.
 
-Click *Access Control* tab at the top.
+Click _Access Control_ tab at the top.
 
 You can search for a user if you know what department(s) they are attached to and view that way. Click the underlined department name and you will see all users tied to that department. However, it is much easier to search by a user's last name. In the Search box at the top of the Access Control tab you are in:
 
-* <strong>Criteria:</strong> leave as Begins With
-* <strong>Search:</strong> Type in the <strong>last name</strong> (or the first few letters of the last name) for the user you are searching for. Search for the user you need to reset a password for.
-* <strong>By:</strong> Use the drop-down arrow and select NAME
-* <strong>Show:</strong> Click the … box to open your choices. Show only Active users. Only Active users have password access.
+- <strong>Criteria:</strong> leave as Begins With
+- <strong>Search:</strong> Type in the <strong>last name</strong> (or the first few letters of the last name) for the user you are searching for. Search for the user you need to reset a password for.
+- <strong>By:</strong> Use the drop-down arrow and select NAME
+- <strong>Show:</strong> Click the … box to open your choices. Show only Active users. Only Active users have password access.
 
 This will pop-up any users that match to that last name (or first few letters of the last name if you entered).
 
@@ -81,4 +82,4 @@ Security role setting "Manage Users" must be set to ‘Edit Self'.
 
 To learn more about Resetting User Passwords, follow the link below to the Learning Management System course:
 
-* [Access Control](https://mie.talentlms.com/shared/start/key:LTZIDNHR)
+- [Access Control](https://mie.talentlms.com/shared/start/key:LTZIDNHR)

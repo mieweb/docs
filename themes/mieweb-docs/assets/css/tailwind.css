@@ -1,0 +1,112 @@
+/* Tailwind CSS 4 entry point */
+/* Using source(none) to disable auto-detection which fails on binary files in content/ */
+@import "tailwindcss" source(none);
+
+/* Scan the theme layouts directory for Tailwind classes */
+@source "../../layouts/**/*.html";
+@source "../../assets/**/*.js";
+
+/* Safelist all utilities used in the templates */
+/* Layout & Positioning */
+@source inline("fixed absolute relative sticky inset-0 inset-x-0");
+@source inline("top-0 top-16 top-20 bottom-0 bottom-6 left-0 right-6");
+@source inline("z-30 z-40 z-50");
+
+/* Display & Flex */
+@source inline("hidden block inline inline-block inline-flex flex flex-1 flex-col flex-wrap");
+@source inline("items-center items-start items-end justify-center justify-between justify-start justify-end");
+@source inline("gap-1 gap-1.5 gap-2 gap-3 gap-4 gap-8 gap-x-4 gap-y-2");
+@source inline("shrink-0 grow");
+
+/* Grid */
+@source inline("grid grid-cols-2 sm:grid-cols-2");
+
+/* Sizing */
+@source inline("w-4 w-5 w-6 w-8 w-10 w-72 w-auto w-full");
+@source inline("h-4 h-5 h-6 h-8 h-10 h-16 h-full");
+@source inline("max-w-2xl max-w-4xl max-w-md max-w-none");
+@source inline("min-h-screen");
+
+/* Spacing */
+@source inline("p-4 p-6 px-1 px-1.5 px-2 px-3 px-4 px-6 py-0.5 py-1 py-1.5 py-2 py-3 py-4 py-8 pt-8 pt-16");
+@source inline("m-0 mb-1 mb-2 mb-4 mb-6 mb-8 mb-12 mt-2 mt-4 mt-8 mt-12 mx-auto");
+@source inline("space-y-0.5 space-y-1 space-y-4");
+@source inline("left-3 right-2 pr-8 pl-9");
+
+/* Transforms */
+@source inline("-translate-y-1/2 translate-x-1 rotate-90");
+
+/* Typography */
+@source inline("text-xs text-sm text-base text-lg text-xl text-2xl text-3xl text-4xl text-5xl text-6xl text-9xl");
+@source inline("text-center text-left text-right");
+@source inline("font-medium font-semibold font-bold");
+@source inline("tracking-tight tracking-wide");
+@source inline("leading-relaxed");
+@source inline("uppercase capitalize");
+@source inline("truncate");
+@source inline("antialiased");
+
+/* Colors */
+@source inline("text-foreground text-muted-foreground text-primary text-white text-black");
+@source inline("text-info text-success text-warning text-destructive");
+@source inline("text-transparent text-white/80");
+@source inline("bg-background bg-muted bg-card bg-primary bg-transparent bg-white");
+@source inline("bg-black/50 bg-info/10 bg-success/10 bg-warning/10");
+@source inline("bg-clip-text bg-gradient-to-r from-primary to-primary/60");
+@source inline("border-border border-t border-b border-r border-0");
+@source inline("border-info/30 border-success/30 border-warning/30 border-muted-foreground/30");
+
+/* Borders & Radius */
+@source inline("border rounded rounded-md rounded-lg rounded-xl rounded-full rounded-2xl");
+@source inline("shadow-sm shadow-md shadow-lg shadow-2xl");
+
+/* Effects & Transitions */
+@source inline("opacity-0 opacity-100");
+@source inline("transition-all transition-colors transition-opacity transition-transform");
+@source inline("duration-200 ease-in-out");
+@source inline("backdrop-blur-sm");
+
+/* States */
+@source inline("hover:bg-muted hover:bg-white/10 hover:text-foreground hover:text-primary hover:text-white");
+@source inline("hover:border-primary hover:shadow-md hover:opacity-80 hover:underline");
+@source inline("group group-hover:opacity-100 group-hover:text-primary group-hover:translate-x-1");
+@source inline("focus:outline-none focus:ring-0 focus:ring-2 focus:ring-ring focus:border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring");
+@source inline("placeholder:text-muted-foreground");
+
+/* Responsive */
+@source inline("sm:flex sm:flex-row sm:inline sm:inline-block sm:inline-flex sm:items-center sm:justify-between");
+@source inline("sm:grid-cols-2 sm:text-4xl sm:text-5xl");
+@source inline("lg:hidden lg:px-6 lg:px-8 lg:text-6xl");
+
+/* Dark mode */
+@source inline("dark:block dark:hidden dark:prose-invert");
+
+/* Misc */
+@source inline("aspect-video resize-none select-none sr-only cursor-pointer pointer-events-none");
+@source inline("animate-slide-up");
+@source inline("prose prose-neutral");
+@source inline("overflow-auto overflow-hidden overflow-y-auto overflow-x-hidden");
+@source inline("font-mono spellcheck-false autocomplete-off");
+
+/* Theme customizations */
+@theme {
+  --color-primary-50: var(--mieweb-primary-50);
+  --color-primary-100: var(--mieweb-primary-100);
+  --color-primary-200: var(--mieweb-primary-200);
+  --color-primary-300: var(--mieweb-primary-300);
+  --color-primary-400: var(--mieweb-primary-400);
+  --color-primary-500: var(--mieweb-primary-500);
+  --color-primary-600: var(--mieweb-primary-600);
+  --color-primary-700: var(--mieweb-primary-700);
+  --color-primary-800: var(--mieweb-primary-800);
+  --color-primary-900: var(--mieweb-primary-900);
+  --color-primary-950: var(--mieweb-primary-950);
+
+  --color-background: var(--mieweb-background);
+  --color-foreground: var(--mieweb-foreground);
+  --color-muted: var(--mieweb-muted);
+  --color-muted-foreground: var(--mieweb-muted-foreground);
+  --color-border: var(--mieweb-border);
+  --color-card: var(--mieweb-card);
+  --color-card-foreground: var(--mieweb-card-foreground);
+}

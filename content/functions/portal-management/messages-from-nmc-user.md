@@ -1,18 +1,19 @@
 ---
-id: '1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
-title: 'Messages from NMC User'
-date: '2025-12-01T21:43:08.068Z'
+id: "1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM"
+title: "Messages from NMC User"
+date: "2025-12-01T21:43:08.068Z"
 version: 108
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
-source: 'https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/task-management/task-list/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/"
+  - "https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/"
+source: "https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM"
+wikigdrive: "v2.15.30"
 ---
+
 Portal Integration with {{% system-name %}}
 
 NoMoreClipboard offers NMC-MD – a patient portal that combines personal health record functionality with an administrative portal that enables a practice using {{% system-name %}} to receive and reply to patient-generated messages within a practice's {{% system-name %}} system. This is considered a data-send/auto-route document interface.
@@ -39,7 +40,7 @@ When you have grabbed the task, the task will open on your screen. The top porti
 
 ## Reply to Messages from Portal Users
 
-*You can only use and see the reply feature if you have security* **Send Patient Data**.
+_You can only use and see the reply feature if you have security_ **Send Patient Data**.
 
 After you have grabbed the task and read the document/message that came in, you should click OPEN CHART to get to the patient's chart. When you go to OPEN CHART, it opens the patient's chart in a separate window and leaves your grabbed task in the background still in its own window. When you go to OPEN CHART, you can go to the scheduler and schedule an appointment (if you schedule directly into the {{% system-name %}} scheduler and not via interface), or you can go into the patient's chart to verify the meds they are requesting a refill on and refill it from the patient's e-meds tab directly then print/fax/transmit it, or go to the patient's chart to verify any other patient information or look at the patient's chart to help you respond to the patient and or process their request.
 
@@ -49,7 +50,7 @@ Once you are done in the patient's chart or in the scheduler, etc, close that se
 
 Once you are ready to reply to the patient with a response or consider the task done, you can click REPLY link and reply to the patient electronically. This sends back to the NMC user your reply in electronic format (like an email) and also saves what you are typing as a document itself in the patient's {{% system-name %}} record.
 
-Your ‘reply' gets sent to the NMC user in their NMC account message box. It doesn't go to a patient's email account (ex: hotmail, gmail, etc) it only goes to the patient's NMC message inbox, so they have to log into NMC to see their messages and their NMC inbox, just like how they sent you the request initially. The NMC user *will* get an email **notification** to the main member's personal email (that they have set up to be in NoMoreClipboard) stating that they have an interface mailbox document for one of the members in their personal health record account. But they have to log into NMC mailbox to read the reply document you sent them.
+Your ‘reply' gets sent to the NMC user in their NMC account message box. It doesn't go to a patient's email account (ex: hotmail, gmail, etc) it only goes to the patient's NMC message inbox, so they have to log into NMC to see their messages and their NMC inbox, just like how they sent you the request initially. The NMC user _will_ get an email **notification** to the main member's personal email (that they have set up to be in NoMoreClipboard) stating that they have an interface mailbox document for one of the members in their personal health record account. But they have to log into NMC mailbox to read the reply document you sent them.
 
 ![](./messages-from-nmc-user.assets/78a67494a5d66f34114afaa585e452ab.png)
 
@@ -77,15 +78,15 @@ When you have ‘replied' to a NMC user using the reply feature, after you uploa
 
 ![](./messages-from-nmc-user.assets/3fb317f8eba3ea2cb13bcda541047b86.png)
 
-When you click Properties link, scroll down to the section that says **Current Routes** and **Routing History**. In the *Current Routes* section, it shows who sent it, the date, the recipient will always be NoMoreClipboard, and the **status** is what you want to look at.
+When you click Properties link, scroll down to the section that says **Current Routes** and **Routing History**. In the _Current Routes_ section, it shows who sent it, the date, the recipient will always be NoMoreClipboard, and the **status** is what you want to look at.
 
-If your ‘reply' document was successfully sent, a COMPLETE status displays in the current route section. It means the ‘reply' document went successfully back to the NMC user's mailbox by this auto/datasend route. If you hover over the word *complete* it also give you additional detailed information. If you needed to resend this document through the same method (NMC autoroute), then you can go to the options column and click on the resend link.
+If your ‘reply' document was successfully sent, a COMPLETE status displays in the current route section. It means the ‘reply' document went successfully back to the NMC user's mailbox by this auto/datasend route. If you hover over the word _complete_ it also give you additional detailed information. If you needed to resend this document through the same method (NMC autoroute), then you can go to the options column and click on the resend link.
 
 ![](./messages-from-nmc-user.assets/7b0fbf5b10010d5e2698381e21ec0203.png)
 
 From this section, you can also acknowledge an error, try to resend the document via that route again, or deactivate the document from trying the datasend route again, etc. In the OPTIONS column at the right of the route, those are links you can click to acknowledge, resend, or deactivate. "**Deactivate"** means that you no longer want the error to be sent and to never try again. **"Acknowledge"** means that you know there was an error, you no longer want to see it on the send queue but if the information, document, patient info ever changes, the data/document information will be resent.
 
-Hover over the word *error* in the status column to see details of why there is an error. If you hover over the word *error* it will help tell you what went wrong and possibly what needs corrected.
+Hover over the word _error_ in the status column to see details of why there is an error. If you hover over the word _error_ it will help tell you what went wrong and possibly what needs corrected.
 
 ![](./messages-from-nmc-user.assets/8810000040a7fbfa2dd8beb05c85ed61.png)
 
@@ -95,7 +96,7 @@ If your document route has an error on it or is pending, you can click the cance
 
 You can get into a document and check the route and status at any time. You don't have to do it right after you upload a ‘reply' document to a NMC user. This is just a way to check if the ‘reply' document did indeed get sent successfully or if you need to address an error.
 
-For more information on document properties, please see other help document named [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/)*.*
+For more information on document properties, please see other help document named [Document Properties](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/)_._
 
 ### SendQueue Sidemenu
 
@@ -107,7 +108,7 @@ This sidemenu tab is where you can then see Datasend routes in progress, pending
 
 ![](./messages-from-nmc-user.assets/bea517a18faf64206eabcf6bc38b77bb.png)
 
-You can individually select the routes to perform an option. Once you have the routes checkmarked, you go to the end of that section and select the error route option to perform using the drop-down. Then click Perform button. In this example I have marked these 5 routes to do a function of *resend* and then click Perform button to perform that resend on those 5. It applies the function option to the ones checkmarked. If you wish to mark **ALL** routes in that bucket and perform a function, you do not have to individually checkmark each route. You just scroll to the end of that section and click the [All], it will then put a checkmark on all those routes shown on your screen (10 at a time), then set the function to perform in the drop-down and then click Perform.
+You can individually select the routes to perform an option. Once you have the routes checkmarked, you go to the end of that section and select the error route option to perform using the drop-down. Then click Perform button. In this example I have marked these 5 routes to do a function of _resend_ and then click Perform button to perform that resend on those 5. It applies the function option to the ones checkmarked. If you wish to mark **ALL** routes in that bucket and perform a function, you do not have to individually checkmark each route. You just scroll to the end of that section and click the [All], it will then put a checkmark on all those routes shown on your screen (10 at a time), then set the function to perform in the drop-down and then click Perform.
 
 ![](./messages-from-nmc-user.assets/d629b2307437a0005fd62b2ad095605c.png)
 
@@ -121,7 +122,7 @@ The other way to be alerted if a ‘reply' document didn't go successfully to a 
 
 ![](./messages-from-nmc-user.assets/1f98f105aad86ae06b6c614780c5dbc3.png)
 
-For more details on this feature, please see other help documentation in the E-Chart section named [Alerts, Errors, Failures - Interactive Tab](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)*.*
+For more details on this feature, please see other help documentation in the E-Chart section named [Alerts, Errors, Failures - Interactive Tab](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)_._
 
 ## Health Forms from Portal
 
@@ -133,7 +134,7 @@ The user/indexer works the WebScan module as usual to index batches. Any batch f
 
 ![](./messages-from-nmc-user.assets/6c07432d3d627de7d2b85ec655ad77f1.png)
 
-Simply open the batch and begin indexing. The PHR forms from NoMoreClipboard can be programmed with your {{% system-name %}} doc.type of which specific form it is. Click the *Process BarCodes* button before indexing so it will read the doc.type barcodes on the forms that came in from NoMoreClipboard. This will index the doc.type for you. The patient name is available on the NMC forms. Continue indexing the fields and delete any unwanted pages and upload the forms to the patient's chart. For more information on how to index, please see other help documentation named [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/)*.*
+Simply open the batch and begin indexing. The PHR forms from NoMoreClipboard can be programmed with your {{% system-name %}} doc.type of which specific form it is. Click the _Process BarCodes_ button before indexing so it will read the doc.type barcodes on the forms that came in from NoMoreClipboard. This will index the doc.type for you. The patient name is available on the NMC forms. Continue indexing the fields and delete any unwanted pages and upload the forms to the patient's chart. For more information on how to index, please see other help documentation named [Indexing](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/)_._
 
 You can ask your MIE Implementer to create any e-sign rules or tasking rules you wish to trigger after any of these doc.types are indexed and uploaded into a patient's chart if someone needs to be alerted that they came in and were indexed or if staff needs to look at the forms after they came in and were indexed.
 
@@ -149,7 +150,7 @@ Once you have grabbed the task, it will open up the CCR document on your screen.
 
 ![](./messages-from-nmc-user.assets/eb367cd43dd8f58d7c5665168eee52b5.png)
 
-Once you clicked on the underlined doc.id #, it will display the CCR document again but you will now see the **Reconcile** link at the top right corner with the other options. Click on the **Reconcile** link to get into the FroozHIE method to reconcile this data into {{% system-name %}} . (System setting to *reconcile* must be turned on for this link to show).
+Once you clicked on the underlined doc.id #, it will display the CCR document again but you will now see the **Reconcile** link at the top right corner with the other options. Click on the **Reconcile** link to get into the FroozHIE method to reconcile this data into {{% system-name %}} . (System setting to _reconcile_ must be turned on for this link to show).
 
 ![](./messages-from-nmc-user.assets/13fdf188d689b1d97828e0f99205bbac.png)
 
@@ -163,7 +164,7 @@ The CCR shows all the sections like Family History, Procedures, Injections, Soci
 
 ![](./messages-from-nmc-user.assets/ede70f5e586b501f27519df04a68b4bd.png)
 
-If you want to bring over individual line items from the left side to the right side, use the >> button on each line item. If you want to bring over the entire section/category, click the >> button between *incoming* and *destination* towards the top title of each category. This will bring over all items from the left to the right side in mass (instead of clicking individual line items).
+If you want to bring over individual line items from the left side to the right side, use the >> button on each line item. If you want to bring over the entire section/category, click the >> button between _incoming_ and _destination_ towards the top title of each category. This will bring over all items from the left to the right side in mass (instead of clicking individual line items).
 
 When done selecting which items or sections to bring over, click the SEND CHANGES button at the very bottom of the FroozHIE screen.
 
@@ -189,21 +190,21 @@ There are 2 different tabs to get to the POST PATIENT SUMMARY TO NMC button. One
 
 #### Patient Summary Tab
 
-Get into the patient's {{% system-name %}} record and go to the Patient Summary chart tab. There is a portlet section named **Patient Portal** from which you can access this feature. The Patient Portal section shows the NoMoreClipboard (NMC) account this {{% system-name %}} patient is linked to. Below that it shows any *unreconciled patient summaries (CCR's)* that are pending for this patient. Unreconciled patient summaries are CCR's the NMC user has sent to you through {{% system-name %}} and no one has reconciled those into {{% system-name %}} yet. You can click on the document id number and reconcile the CCR right from here. When you click the document id number, it will open the document where you will need to click the reconcile link. Then it will take you to the FroozHIE tool to import the data that is pending. Once any CCR document in this listing is reconciled, they will disappear from this summary listing here in the Patient Portal portlet.
+Get into the patient's {{% system-name %}} record and go to the Patient Summary chart tab. There is a portlet section named **Patient Portal** from which you can access this feature. The Patient Portal section shows the NoMoreClipboard (NMC) account this {{% system-name %}} patient is linked to. Below that it shows any _unreconciled patient summaries (CCR's)_ that are pending for this patient. Unreconciled patient summaries are CCR's the NMC user has sent to you through {{% system-name %}} and no one has reconciled those into {{% system-name %}} yet. You can click on the document id number and reconcile the CCR right from here. When you click the document id number, it will open the document where you will need to click the reconcile link. Then it will take you to the FroozHIE tool to import the data that is pending. Once any CCR document in this listing is reconciled, they will disappear from this summary listing here in the Patient Portal portlet.
 
 When a {{% system-name %}} user clicks the button POST PATIENT SUMMARY TO NMC it will send the NMC user the {{% system-name %}} data information. So the patient can have an updated record of his data to reconcile into their NMC record. When you sent a patient summary from {{% system-name %}} to the NMC user, it sends a patient summary from {{% system-name %}} to the NMC user's message box. A full Patient Summary (in CCR format) is generated and sent to the patients account in NMC.  This will be used for part of the ‘meaningful use' criteria for {{% system-name %}} practices that have this interface with NMC.
 
 ![](./messages-from-nmc-user.assets/5c749c5fdf146b238369f342dbd806f5.png)
 
-Once you have sent the patient summary to the NMC user from {{% system-name %}} using that button, it will tell you the document number and a message that it was uploaded successfully into the NMC user's account. If the patient doesn't have an NMC account yet, it will provide you with the member pickup code that you can give to the patient. They would then log into NoMoreClipboard, create an account and use that member pickup code. Once the promo code is picked up (patient creates a NMC account) then the promo code is removed. Any future pushes would not return a promo code, just the confirmation that the document was posted to NoMoreClipboard. The NMC# is not known to the {{% system-name %}} system until the NMC patient sends something back to the {{% system-name %}} system. This is why you still see the message "*a NoMoreClipboard.com account is not linked to this patient"*, but you are not getting a promo code back either.
+Once you have sent the patient summary to the NMC user from {{% system-name %}} using that button, it will tell you the document number and a message that it was uploaded successfully into the NMC user's account. If the patient doesn't have an NMC account yet, it will provide you with the member pickup code that you can give to the patient. They would then log into NoMoreClipboard, create an account and use that member pickup code. Once the promo code is picked up (patient creates a NMC account) then the promo code is removed. Any future pushes would not return a promo code, just the confirmation that the document was posted to NoMoreClipboard. The NMC# is not known to the {{% system-name %}} system until the NMC patient sends something back to the {{% system-name %}} system. This is why you still see the message "_a NoMoreClipboard.com account is not linked to this patient"_, but you are not getting a promo code back either.
 
-You will see confirmation and you will see a link that says *Click here to view the local CCR document*.  You don't need to click it—but if you want to see what was in it—click that link and you're taken to the CCR document you just sent them.
+You will see confirmation and you will see a link that says _Click here to view the local CCR document_.  You don't need to click it—but if you want to see what was in it—click that link and you're taken to the CCR document you just sent them.
 
 ![](./messages-from-nmc-user.assets/616fd8e8d388d650b9703c5a9cf155ee.jpg)
 
 Once you click the POST TO NMC or SEND TO NMC button from anywhere—the CCR document you sent to that patient via NMC is stored as doc.type {{% sys-name %}} CCR and is found in your doc.sum tab **and** NMC Documents tab.   Then you can access from there to see who/when/how many times a CCR was sent to that patient and track or see when.
 
-If you want to see **if** the CCR went to the NMC patient *successfully* or not, you can see that from the SEND QUEUE side menu tab as always, or you can see it by going to the specific patient's chart, find the CCR you pushed, go to properties and down in the **Current Routes** section you'll see complete or error and hover your mouse over for more details.
+If you want to see **if** the CCR went to the NMC patient _successfully_ or not, you can see that from the SEND QUEUE side menu tab as always, or you can see it by going to the specific patient's chart, find the CCR you pushed, go to properties and down in the **Current Routes** section you'll see complete or error and hover your mouse over for more details.
 
 ![](./messages-from-nmc-user.assets/890d6fbe6dc4ba2121a8c3c118fbc8c2.jpg)
 
@@ -221,7 +222,7 @@ When a {{% system-name %}} user clicks the button POST (PATIENT SUMMARY) TO NMC 
 
 ![](./messages-from-nmc-user.assets/81087be0a247431155d2b45672a5cb6a.png)
 
-Once you have sent the patient summary to the NMC user from {{% system-name %}} using that button, it will tell you the document number and a message that it was uploaded successfully into the NMC user's account. If the patient doesn't have an NMC account yet, it will provide you with the member pickup code that you can give to the patient. They would then log into NoMoreClipboard, create an account and use that member pickup code. Once the promo code is picked up (patient creates a NMC account) then the promo code is removed. Any future pushes would not return a promo code, just the confirmation that the document was posted to NoMoreClipboard. The NMC# is not known to the {{% system-name %}} system until the NMC patient sends something back to the {{% system-name %}} system. This is why you still see the message "*a NoMoreClipboard.com account is not linked to this patient"*, but you are not getting a promo code back either.
+Once you have sent the patient summary to the NMC user from {{% system-name %}} using that button, it will tell you the document number and a message that it was uploaded successfully into the NMC user's account. If the patient doesn't have an NMC account yet, it will provide you with the member pickup code that you can give to the patient. They would then log into NoMoreClipboard, create an account and use that member pickup code. Once the promo code is picked up (patient creates a NMC account) then the promo code is removed. Any future pushes would not return a promo code, just the confirmation that the document was posted to NoMoreClipboard. The NMC# is not known to the {{% system-name %}} system until the NMC patient sends something back to the {{% system-name %}} system. This is why you still see the message "_a NoMoreClipboard.com account is not linked to this patient"_, but you are not getting a promo code back either.
 
 ![](./messages-from-nmc-user.assets/28b05643814cd0a70dd1fe7f6541332f.jpg)
 
@@ -235,9 +236,9 @@ They then click on the doc.id column to open up the CCR document you sent to the
 
 ![](./messages-from-nmc-user.assets/5bf8e2fb2d779bc9108486abb79d1ff0.png)
 
-*Add to e-clipboard:* Click this link to add this document to the NMC user's E-Clipboard. Items on their E-Clipboard can be shared with others.
+_Add to e-clipboard:_ Click this link to add this document to the NMC user's E-Clipboard. Items on their E-Clipboard can be shared with others.
 
-*Import data into account:* This will bring the NMC user to the ‘FroozHIE' tool, which allows the user to discretely import the data within this document into their personal health record for the member.
+_Import data into account:_ This will bring the NMC user to the ‘FroozHIE' tool, which allows the user to discretely import the data within this document into their personal health record for the member.
 
 ### Send Documents to Portal Account
 
@@ -247,19 +248,19 @@ Find the document you want to send the patient via NoMoreClipboard portal (ex: L
 
 ![](./messages-from-nmc-user.assets/d77379e19997d31e363f7a4f4740ae48.png)
 
-Once in the document, click the Send link at the top right corner of the opened document. If you do not see the send link, then you do not have security permission to send patient data. Users must have security permission to *Send Patient Data.*
+Once in the document, click the Send link at the top right corner of the opened document. If you do not see the send link, then you do not have security permission to send patient data. Users must have security permission to _Send Patient Data._
 
 ![](./messages-from-nmc-user.assets/9a7261fd726a5b92ac2e8eeb475e644f.png)
 
-In the *To* column, start typing *nomoreclipboard* all together and it will auto-complete to give you the nomoreclipboard database to send to. If you get more than one *nomoreclipboard* result to choose from, contact your MIE Implementer.
+In the _To_ column, start typing _nomoreclipboard_ all together and it will auto-complete to give you the nomoreclipboard database to send to. If you get more than one _nomoreclipboard_ result to choose from, contact your MIE Implementer.
 
 ![](./messages-from-nmc-user.assets/e2ce41c843d61a7e1d5f5817f6757c20.png)
 
-In the *Method* field, make sure to always select **HL7 Send** as the method. It should default as such though. The *Detail* field will be **NMC_HL7**. The **[]Send as HTML** checkbox would only need checkmarked if you are sending an e-order document. Click **Update & Close** button.
+In the _Method_ field, make sure to always select **HL7 Send** as the method. It should default as such though. The _Detail_ field will be **NMC_HL7**. The **[]Send as HTML** checkbox would only need checkmarked if you are sending an e-order document. Click **Update & Close** button.
 
 ![](./messages-from-nmc-user.assets/10ca43b27e5145f9f348539e05ca6e35.png)
 
-It will then be sent to the patient's NMC account into their NMC inbox. You can go to the document properties and look at the *current routes* section and see the **status** should say complete if went thru fine. If not, check your alerts which is described in earlier pages of this help documentation.
+It will then be sent to the patient's NMC account into their NMC inbox. You can go to the document properties and look at the _current routes_ section and see the **status** should say complete if went thru fine. If not, check your alerts which is described in earlier pages of this help documentation.
 
 ![](./messages-from-nmc-user.assets/634a6ada47e74dd70a2f585162580490.png)
 

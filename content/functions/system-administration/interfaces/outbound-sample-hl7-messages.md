@@ -1,17 +1,18 @@
 ---
-id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-title: 'Outbound Sample HL7 Messages'
-date: '2026-01-14T19:42:30.618Z'
+id: "1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco"
+title: "Outbound Sample HL7 Messages"
+date: "2026-01-14T19:42:30.618Z"
 version: 189
-lastAuthor: 'nwallace'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwallace"
+mimeType: "text/x-markdown"
 links:
-  - 'receiving-hl7-messages-from-system.md'
-  - 'sending-hl7-messages-to-system.md'
-  - 'hl7-segment-definitions.md'
-source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
-wikigdrive: 'v2.15.30'
+  - "receiving-hl7-messages-from-system.md"
+  - "sending-hl7-messages-to-system.md"
+  - "hl7-segment-definitions.md"
+source: "https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco"
+wikigdrive: "v2.15.30"
 ---
+
 # SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
@@ -76,6 +77,7 @@ AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
 ## ADT^A04
 
 Register a patient.
+
 ```
 MSH|^~\&|WCDataSend|MIE|wc_hl7d|recv_facil|20210701123459||ADT^A04^ADT_A01|DSD1625157299701062|P|2.5|||||||||||||
 EVN||20210701123459||
@@ -90,6 +92,7 @@ IN1|1|5273||HAP SENIOR PLUS|2850 W. GRAND BOULEVARD^^DETROIT^MI^48202|||10000029
 ## ADT^A08
 
 Update patient information.
+
 ```
 MSH|^~\&|WEBCHART|OMG|RECEIVING_APPLICATION|RECEIVING_FACILITY|20210701123459||ADT^A08^ADT_A01|DSD1625157299704299|P|2.5|||||||||||||
 EVN||20210701123459||

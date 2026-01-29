@@ -1,0 +1,10 @@
+{{- /* YouTube embed shortcode with Tailwind aspect-ratio */}} {{ $id := .Get "id" | default (.Get 0) }}
+<div class="my-6 aspect-video overflow-hidden rounded-lg">
+  <iframe
+    class="h-full w-full"
+    src="https://www.youtube.com/embed/{{ $id }}"
+    title="YouTube video"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>

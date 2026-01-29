@@ -1,15 +1,16 @@
 ---
-id: '1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-title: 'Locations Management'
-date: '2025-07-31T17:27:56.056Z'
+id: "1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs"
+title: "Locations Management"
+date: "2025-07-31T17:27:56.056Z"
 version: 255
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:ZGZDNHRK'
-source: 'https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:ZGZDNHRK"
+source: "https://drive.google.com/open?id=1NXuzy5Hqh0rQYLV1ldqUyIGNbiLMjiN-sYTjt2fUcYs"
+wikigdrive: "v2.15.30"
 ---
+
 The {{% system-name %}} solution allows varying degrees of customization with regard to locations, namely office-specific types or work sites, regions, and locations. There is also the corporate, or managing, location which is used and can be updated, as needed.
 
 ## Locations Manager
@@ -42,23 +43,23 @@ Additional locations can be added after the primary location has been edited and
 
 To **add** a new location to the  {{% system-name %}}  solution:
 
-* While under the Locations Manager tab, click the Add Location link in the upper-right of the screen. The Add Location screen will open and all of the fields can be updated, accordingly.
-    * <strong>Code</strong> - This is a required field used for a brief or abbreviated code for specific locations. The code can be up to 10 characters long and must be unique.
-    * <strong>Description</strong> - Full name of location.
-    * <strong>Place of Service</strong> - Autocomplete field which provides the type of location being referenced. Begin typing or press the down arrow key to access entry options. Tab to the next field or click the preferred choice to accept the selection.
-    * <strong>Address1</strong> - The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
-    * <strong>Address2</strong> - The secondary elements of the location address (e.g., suite, unit, building, floor, etc.).
-    * <strong>City</strong> - The full city name of the location.
-    * <strong>State/Province</strong> - A drop-down of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
-    * <strong>Postal Code</strong> - Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
-    * <strong>Country</strong> - Field defaults to <em>United States</em>; however, other countries are available for selection.
-    * <strong>Time Zone</strong> - Field defaults to <em>Use System Time Zone</em>; however, if different, the appropriate specific time zone can be selected from the drop-down.
-    * <strong>Phone Number</strong> - Enter the full phone number, including any international access code, country calling code, area code, or exit code.
-    * <strong>Fax Number</strong> - Enter full fax number, including any international access code, country calling code, area code, or exit code.
-        * <strong>Use in FAX header</strong> - By default, it is set to <em>No</em>. Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
-    * <strong>Account Number</strong> -  {{% sys-name %}} will provide this field, if necessary. For example, orders interfaces often require an account number associated with all transactions, to effectively send and/or receive results. If a practice is set up with an orders interface with a specific facility (e.g., LabCorp, Quest, etc.), the facility account number associated with that location must be entered in the location's details. When sending the order electronically the account number for the location will send with it.
-    * <strong>Outside Location</strong> - Field defaults to <em>No</em>, meaning the location being created/edited is internal, that is not an outside, or external, location. Setting this field to <em>Yes</em> will, however, treat the entry as an external location. Internal, or inside, locations are places at which resources perform services, or for which the organization schedules appointments and creates documents. Conversely, an external, or outside, location is one that a resource may send a patient to or receive results from.
-    * <strong>Active</strong> - Field defaults to <em>Yes</em>, meaning the location being entered is an active location. Only locations no longer being used should ever be marked as <em>No</em>, or as inactive. An alternative method for deactivating a location is by way of the <strong>De-Activate</strong> link in the Options column on the Locations Manager main screen. Deactivated locations will not appear in any  {{% system-name %}} module requiring a location selection.
+- While under the Locations Manager tab, click the Add Location link in the upper-right of the screen. The Add Location screen will open and all of the fields can be updated, accordingly.
+  - <strong>Code</strong> - This is a required field used for a brief or abbreviated code for specific locations. The code can be up to 10 characters long and must be unique.
+  - <strong>Description</strong> - Full name of location.
+  - <strong>Place of Service</strong> - Autocomplete field which provides the type of location being referenced. Begin typing or press the down arrow key to access entry options. Tab to the next field or click the preferred choice to accept the selection.
+  - <strong>Address1</strong> - The main element of the address for the location (i.e., street address, P.O. Box, company name, or c/o).
+  - <strong>Address2</strong> - The secondary elements of the location address (e.g., suite, unit, building, floor, etc.).
+  - <strong>City</strong> - The full city name of the location.
+  - <strong>State/Province</strong> - A drop-down of possible states/provinces of locations. A system setting is available to allow international options versus US-only locations.
+  - <strong>Postal Code</strong> - Enter the full postal code for the specified location. A system setting is available to accommodate international postal codes, leaving entries as they are entered, without auto-formatting.
+  - <strong>Country</strong> - Field defaults to <em>United States</em>; however, other countries are available for selection.
+  - <strong>Time Zone</strong> - Field defaults to <em>Use System Time Zone</em>; however, if different, the appropriate specific time zone can be selected from the drop-down.
+  - <strong>Phone Number</strong> - Enter the full phone number, including any international access code, country calling code, area code, or exit code.
+  - <strong>Fax Number</strong> - Enter full fax number, including any international access code, country calling code, area code, or exit code.
+    - <strong>Use in FAX header</strong> - By default, it is set to <em>No</em>. Select <strong>Yes</strong> or <strong>No</strong>. Set this option to Yes, if the location has a specified fax number and all outgoing faxes from users using this default location are to display the location's fax number (versus the  {{% system-name %}} solution's primary fax number) as <em>Sent From</em> on all outgoing faxes. This will display the location's fax number in the header of the outgoing faxes sent by users who are set to this default location. Set this option to No, if the location does not have a fax number, or if faxes from users who are set to this default location are not to show the location's specified fax number (but rather the  {{% system-name %}} solution's primary fax number) on all outgoing faxes. This setting will display the  {{% system-name %}} solution's primary fax number on all faxes sent by users using this location.
+  - <strong>Account Number</strong> -  {{% sys-name %}} will provide this field, if necessary. For example, orders interfaces often require an account number associated with all transactions, to effectively send and/or receive results. If a practice is set up with an orders interface with a specific facility (e.g., LabCorp, Quest, etc.), the facility account number associated with that location must be entered in the location's details. When sending the order electronically the account number for the location will send with it.
+  - <strong>Outside Location</strong> - Field defaults to <em>No</em>, meaning the location being created/edited is internal, that is not an outside, or external, location. Setting this field to <em>Yes</em> will, however, treat the entry as an external location. Internal, or inside, locations are places at which resources perform services, or for which the organization schedules appointments and creates documents. Conversely, an external, or outside, location is one that a resource may send a patient to or receive results from.
+  - <strong>Active</strong> - Field defaults to <em>Yes</em>, meaning the location being entered is an active location. Only locations no longer being used should ever be marked as <em>No</em>, or as inactive. An alternative method for deactivating a location is by way of the <strong>De-Activate</strong> link in the Options column on the Locations Manager main screen. Deactivated locations will not appear in any  {{% system-name %}} module requiring a location selection.
 
 Once all fields have been provided for, as necessary, click the **Save** button to submit the location to the system. A confirmation message will display at the top of the page.
 
@@ -72,24 +73,24 @@ Once all fields have been provided for, as necessary, click the **Save** butto
 
 The required location must be set to **Active = Yes** and **Outside = No** to display within these programs/modules as a location selection:
 
-* Scheduler/Appointments
-* Appointment Reports
-* Appt Type Templates
-* Schedules
-* Moving Appointments
-* Waiting List
-* Injections Tab
-* Add Document screen
-* Injections Module
+- Scheduler/Appointments
+- Appointment Reports
+- Appt Type Templates
+- Schedules
+- Moving Appointments
+- Waiting List
+- Injections Tab
+- Add Document screen
+- Injections Module
 
 **Programs and Modules Using Both Internal & External Locations**
 
 The required location must be set to **Active = Yes** and *either* **Outside = Yes** *or* **Outiside = No** to display within these programs/modules as a location selection:
 
-* E-Orders
-* Encounters
-* Mammogram Module
-* Scan Indexing
+- E-Orders
+- Encounters
+- Mammogram Module
+- Scan Indexing
 
 {{% /note %}}
 
@@ -126,7 +127,7 @@ If a location was deactivated or set as outside, or external, use the filters pr
 
 ## Work Location Management
 
-The *Work Locations* tab is found in the Control Panel sidemenu tab.
+The _Work Locations_ tab is found in the Control Panel sidemenu tab.
 
 ![](./locations-management.assets/d4e737fd55751016e64a3b665ac333b9.png)
 
@@ -142,4 +143,4 @@ An Employer Organization can also be a Work Location. To create a Work Location 
 
 To learn more about Locations Management, follow the link below to the Learning Management System course:
 
-* [Locations Manager](https://mie.talentlms.com/shared/start/key:ZGZDNHRK)
+- [Locations Manager](https://mie.talentlms.com/shared/start/key:ZGZDNHRK)

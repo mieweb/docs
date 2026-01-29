@@ -1,23 +1,24 @@
 ---
-id: '1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-title: 'Word Documents'
-date: '2025-11-25T15:36:02.635Z'
+id: "1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U"
+title: "Word Documents"
+date: "2025-11-25T15:36:02.635Z"
 version: 209
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:AASHRKMF'
-  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
-  - 'https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/'
-source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:AASHRKMF"
+  - "https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/"
+  - "https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/"
+  - "https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/"
+source: "https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U"
+wikigdrive: "v2.15.30"
 ---
+
 ## Add/Upload Word Document to Chart
 
 Watch a Video: [Doc Management](https://mie.talentlms.com/shared/start/key:AASHRKMF) at 15:34 the word demo begins.
 
-Click the left sidebar tab called *E-Chart.* Find and open a specific patient's chart.
+Click the left sidebar tab called _E-Chart._ Find and open a specific patient's chart.
 
 Click the Add Document link near the top right corner of the screen (or from scheduler) for the patient.
 
@@ -29,7 +30,7 @@ Word templates are created by MIE or a super-user within your facility. Once the
 
 ![](./word-documents.assets/29ac3e9f26d3a6eb7ba0872834a50732.png)
 
-* <strong>Please Select Document Add Method</strong> and the choices will appear on the screen view. (If you do <strong>not</strong> see this, then the chart tab you are in is tied to a specific document type to open. Click another chart tab in the patient's chart (like Doc.Sum tab) and then click add document again.
+- <strong>Please Select Document Add Method</strong> and the choices will appear on the screen view. (If you do <strong>not</strong> see this, then the chart tab you are in is tied to a specific document type to open. Click another chart tab in the patient's chart (like Doc.Sum tab) and then click add document again.
 
 Choose your document name/description that you wish to create for this patient's chart by finding the document name/description and clicking Word next to it.
 
@@ -37,12 +38,12 @@ The ADD DOCUMENT PROPERTIES box opens at the top left corner of the screen:
 
 ![](./word-documents.assets/ff181d7bbe05ea36bf909b24702f0521.png)
 
-* <strong>Authored By:</strong> You must have security access to this. The security permission is called ‘Transcribe for Others'. Select who the author of this word document is. If you are creating this word document for a physician or someone else, choose their name. You can start typing the last name or first name in the first blank field and the system will auto-complete your typing and display a list of users that match and you can select from there. If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search). If you are creating this word document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name. The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option. It will automatically put your name on the document you are about to create.
-* <strong>Document Type:</strong> This pops-up the name of this word document you clicked on. If you realize you chose the wrong doc.type, you can use the drop-down arrow here and select the correct word document type.
-* <strong>Date of Service:</strong> Choose the date of service for this word document.
-* <strong>Service Location:</strong> Choose your location. It will not allow you to ‘choose' a location if your facility only has 1 location set up in the {{% system-name %}} system. It will then automatically be filled out.
-* <strong>Subject:</strong> Can type in a subject for the document. The subject displays on a list view summary where documents are displayed and is a searchable field in reports.
-* <strong>Encounter:</strong> You can choose to attach this new document to an encounter for the patient. This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the Search within xx days it will search for encounters out in 3 day increments.
+- <strong>Authored By:</strong> You must have security access to this. The security permission is called ‘Transcribe for Others'. Select who the author of this word document is. If you are creating this word document for a physician or someone else, choose their name. You can start typing the last name or first name in the first blank field and the system will auto-complete your typing and display a list of users that match and you can select from there. If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search). If you are creating this word document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name. The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option. It will automatically put your name on the document you are about to create.
+- <strong>Document Type:</strong> This pops-up the name of this word document you clicked on. If you realize you chose the wrong doc.type, you can use the drop-down arrow here and select the correct word document type.
+- <strong>Date of Service:</strong> Choose the date of service for this word document.
+- <strong>Service Location:</strong> Choose your location. It will not allow you to ‘choose' a location if your facility only has 1 location set up in the {{% system-name %}} system. It will then automatically be filled out.
+- <strong>Subject:</strong> Can type in a subject for the document. The subject displays on a list view summary where documents are displayed and is a searchable field in reports.
+- <strong>Encounter:</strong> You can choose to attach this new document to an encounter for the patient. This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the Search within xx days it will search for encounters out in 3 day increments.
 
 ![](./word-documents.assets/6ef927c4a587e8642c96802fa544d3b7.png)
 
@@ -52,13 +53,13 @@ Once you've found the encounter you wish to attach this new document to, click t
 
 If you do not want to link this to an encounter, simply delete any encounter number in the encounter field.
 
-* <strong>Link to Orders:</strong> you can click the down ↓ arrow key (on your keyboard) within this field to see pending e-orders. You can link a document (you are uploading) to a pending e-order(s) and once uploaded it will link to the pending incomplete e-order, and it will automatically mark the linked pending e-order as ‘complete'.
-* <strong>Case:</strong> you can link the document (you are uploading) to a case/incident on the chart. You can click the down ↓ arrow key (on your keyboard) within this field to see any cases/incidents the chart has.
-* <strong>CC Physicians</strong> Please ignore this field for now. <em>This feature will not work until the new active.x word control is available.</em> When the new active.x word control is available, please see other help documentation named <em>CC Physicians.pdf</em> and your MIE implementer will notify you when this feature is available.
+- <strong>Link to Orders:</strong> you can click the down ↓ arrow key (on your keyboard) within this field to see pending e-orders. You can link a document (you are uploading) to a pending e-order(s) and once uploaded it will link to the pending incomplete e-order, and it will automatically mark the linked pending e-order as ‘complete'.
+- <strong>Case:</strong> you can link the document (you are uploading) to a case/incident on the chart. You can click the down ↓ arrow key (on your keyboard) within this field to see any cases/incidents the chart has.
+- <strong>CC Physicians</strong> Please ignore this field for now. <em>This feature will not work until the new active.x word control is available.</em> When the new active.x word control is available, please see other help documentation named <em>CC Physicians.pdf</em> and your MIE implementer will notify you when this feature is available.
 
-Once you have all the Add Document Property fields correctly filled out/chosen, then click *ADD DOCUMENT* button.
+Once you have all the Add Document Property fields correctly filled out/chosen, then click _ADD DOCUMENT_ button.
 
-When you click *ADD DOCUMENT* it will take a couple seconds to open/pull up the word template that you have chosen to work on and add for this patient.
+When you click _ADD DOCUMENT_ it will take a couple seconds to open/pull up the word template that you have chosen to work on and add for this patient.
 
 ## Entry Points
 
@@ -90,7 +91,7 @@ It is located at the top left corner of the Word screen.
 
 ![](./word-documents.assets/b3fe45bb74f7f118f1ba1e1e751892cc.png)
 
-* <strong>Upload:</strong> Click the UPLOAD button to upload this word document directly into the patient's chart. It may do spell-check (if it was turned on). If there is a spell check alert—complete it or skip it by clicking cancel.
+- <strong>Upload:</strong> Click the UPLOAD button to upload this word document directly into the patient's chart. It may do spell-check (if it was turned on). If there is a spell check alert—complete it or skip it by clicking cancel.
 
 After spell check is complete (or canceled) {{% system-name %}} will automatically upload the word document into the specific patient's chart as that document type/name you chose. **This document is now automatically in/uploaded to the specific patient's chart.** There is no scanning & indexing of this document needed.
 
@@ -106,7 +107,7 @@ When a word document is uploaded into the patient's chart and you view the docum
 
 ![](./word-documents.assets/b681c70a35c11350c251c387bc0de2e9.png)
 
-If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the *Fractions with fraction character* then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters.
+If you type a fraction in the word document and it auto-formats it, it will not show that fraction in the text version on the quick document stored view. To take off the auto-formatting for fractions, from each computer open up Word from the computer (Word on the desktop or a word template in {{% system-name %}} ) and go to Tools, AutoCorrect Options, then the tab named AutoFormat As You Type.  **Un-checkmark** the _Fractions with fraction character_ then click OK.  Then just get out of word or upload a word document.  That computer will be set then, unless someone turns it back on at some point. While using Microsoft Word, the auto formatting happens while you type. {{% system-name %}} shows the word document on the ‘view' in text to save space and memory and is utilized just as a quick view.   When it is shown on the view as the plain text, the text editor does not recognize Word's formatted version of these characters.
 
 ![](./word-documents.assets/501dc3359c1dc6e598f50a43e0f9a762.png)
 
@@ -164,7 +165,7 @@ If you want multiple selections and then free-text: you would make your selectio
 
 must have security permission for this
 
-Click [ Edit *]* option on the top right side of the word document you have opened or just uploaded and wish to edit.
+Click [ Edit *]\* option on the top right side of the word document you have opened or just uploaded and wish to edit.
 
 EDIT DOCUMENT PROPERTIES box opens. The fields are filled with the original uploaded choices. Make any changes if needed to those fields, then click EDIT DOCUMENT box (or reset to start over).
 
@@ -176,7 +177,7 @@ Once you have made edits, click the UPLOAD button located at the top left corner
 
 It may do spell-check (if it was turned on). If there is a spell check alert—complete it or skip it by clicking cancel.
 
-After spell check is complete (or canceled) {{% system-name %}} will automatically upload the word document into the specific patient's chart as that document type/name you chose. **This edited document is now automatically in/uploaded to the specific patient's chart.** There is no scanning & indexing of this document needed. This edited version is put in place of the original version. When you open the edited document to view, it will show in the properties the *modified date/time* instead of entered date/time. This is quick way to see if a document has been edited or is the original (instead of going into [ Properties ] option).
+After spell check is complete (or canceled) {{% system-name %}} will automatically upload the word document into the specific patient's chart as that document type/name you chose. **This edited document is now automatically in/uploaded to the specific patient's chart.** There is no scanning & indexing of this document needed. This edited version is put in place of the original version. When you open the edited document to view, it will show in the properties the _modified date/time_ instead of entered date/time. This is quick way to see if a document has been edited or is the original (instead of going into [ Properties ] option).
 
 Print or fax your edited document by following the previous steps.
 
@@ -184,7 +185,7 @@ Print or fax your edited document by following the previous steps.
 
 Your system may have a word template set up in landscape format.
 
-When the document has been uploaded into a patient's chart, {{% system-name %}} will save this as portrait format in text, however when you want to print this document *after* it has been uploaded, follow these steps.
+When the document has been uploaded into a patient's chart, {{% system-name %}} will save this as portrait format in text, however when you want to print this document _after_ it has been uploaded, follow these steps.
 
 1. From the patient's chart, find the <em>word</em> document in the chart tab or document summary tab.
 2. Click print from the document properties link at the right, then click PRINT again when the printer mode screen pops up on the left.
@@ -194,7 +195,7 @@ When the document has been uploaded into a patient's chart, {{% system-name %}} 
 1. When the PRINT (select printer) mode pops up either a) Click CANCEL or b) click the red X to get out of the mode.
 
 {{% note %}}
-*If you click the PRINT button from here, it will just print as normal portrait positioning.*
+_If you click the PRINT button from here, it will just print as normal portrait positioning._
 {{% /note %}}
 
 ![](./word-documents.assets/e736dffe0fe598bae4459fe3bd7498b0.png)

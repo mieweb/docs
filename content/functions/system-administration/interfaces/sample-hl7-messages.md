@@ -1,16 +1,17 @@
 ---
-id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-title: 'Sample HL7 Messages'
-date: '2026-01-21T19:31:20.562Z'
+id: "1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg"
+title: "Sample HL7 Messages"
+date: "2026-01-21T19:31:20.562Z"
 version: 268
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'sending-hl7-messages-to-system.md'
-  - 'hl7-segment-definitions.md'
-source: 'https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
-wikigdrive: 'v2.15.30'
+  - "sending-hl7-messages-to-system.md"
+  - "hl7-segment-definitions.md"
+source: "https://drive.google.com/open?id=1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg"
+wikigdrive: "v2.15.30"
 ---
+
 ## SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
@@ -67,6 +68,7 @@ AIP|1|C|1^Adams^Douglas^A^MD^^^^|D^Adams, Douglas||20110614084500|||60|m^Minutes
 ### ADT^A01
 
 Admit a patient.
+
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613083617||ADT^A01|934576120110613083617|P|2.3||||
 EVN|A01|20110613083617|||
@@ -79,6 +81,7 @@ PV1|1|O|||||^^^^^^^^|^^^^^^^^
 ### ADT^A04
 
 Register a patient.
+
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613083617||ADT^A04|934576120110613083617|P|2.3||||
 EVN|A04|20110613083617|||
@@ -91,6 +94,7 @@ PV1|1|O|||||7^Disney^Walt^^MD^^^^|||||||||||||||||||||||||||||||||||||||||||||
 ### ADT^A08
 
 Update patient information.
+
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613072049||ADT^A08|934579920110613072049|P|2.3||||
 EVN|A08|20110613072049|||
@@ -106,6 +110,7 @@ IN2||||||ZYX1234589-1||||ZYX1234589-1|||||||||||||||000079||||||||||||||||||||||
 ### ADT^A40
 
 Merge patient.
+
 ```
 MSH|^~\&|SENDING_APPLICATION|SENDING_FACILITY|RECEIVING_APPLICATION|RECEIVING_FACILITY|20110613122406637||ADT^A40|1965403220110613122406637|P|2.3||||
 EVN|A40|20110613122406637||01
@@ -124,6 +129,7 @@ MRG|1765475||||||
 #### Discrete
 
 **Numeric**
+
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORU^R01|59689|P|2.3
 PID|1|12345|12345^^^MIE&1.2.840.114398.1.100&ISO^MR||MOUSE^MINNIE^S||19240101|F|||123 MOUSEHOLE LN^^FORT WAYNE^IN^46808|||||||||||||||||||
@@ -147,6 +153,7 @@ OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|
 ```
 
 **Numeric with Notes**
+
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120226102502||ORU^R01|Q161522306T164850327|P|2.3
 PID|1||000168674|000168674|GUNN^BEBE||19821201|F||||||||M|||890-12-3456|||N||||||||N
@@ -166,6 +173,7 @@ NTE|6||6 months of full dose anti-coagulation.
 #### Report
 
 **Single OBX -- Can also be sent as ORU^R03**
+
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120920230252907||ORU^R01|2012092017490562|T|2.3
 PID|||106281^^^1||WOMAN^GENERIC^S^^^^D||19811112|F||W^White^HL70005|1234 MAIN ROAD^^LINDSEY^OH^43442^USA^HOME^^SANDUSKY||5555551234^HOME^^^^555^5551234||EN^English|M|350|123456789^^^001|987654321|||10^NonHispanic^HL70189
@@ -176,6 +184,7 @@ OBX|1|TX|||CHEST 2 VIEWS~~ANKLE 9/20/2012.~~INDICATION: Fever.~TECHNIQUE: 2 view
 ```
 
 **Multiple OBXs -- Can also be sent as ORU^R03**
+
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120309132638||ORU^R01|Q162690178T166106789|P|2.3
 PID|1||000734081|000734081|BAR^GRANOLA^||19690226|F||||011||||M|||123-89-4567|||N||||||||N
@@ -235,6 +244,7 @@ OBX|50|TX|4050097^Surg Path Final Report^^4050097^Surg Path Final Report||     T
 ```
 
 **Multiple NTEs**
+
 ```
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20150323144246||ORU^R01|91734|P|2.3
 PID|1||6010022||SOFTTEST^HIECLIENT||19650601|F||||||||||60100222016

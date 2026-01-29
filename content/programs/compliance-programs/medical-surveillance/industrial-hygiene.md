@@ -1,15 +1,16 @@
 ---
-id: '1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
-title: 'Industrial Hygiene'
-date: '2024-07-15T18:08:35.062Z'
+id: "1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A"
+title: "Industrial Hygiene"
+date: "2024-07-15T18:08:35.062Z"
 version: 52
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LQQIDNHR'
-source: 'https://drive.google.com/open?id=1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LQQIDNHR"
+source: "https://drive.google.com/open?id=1FX0JsAMgCM3eR72z_GaADq7vNcz-_W6Ao_Y6pVj6O5A"
+wikigdrive: "v2.15.30"
 ---
+
 The optional Industrial Hygiene (IH) module includes documentation of annual IH monitoring plans, scheduling due date and tracking of monitoring activities. It includes documenting monitoring field record information, as well as IH monitoring data details.
 
 The IH module incorporates the ability to import IH lab data directly into the system and ties the data to the appropriate monitoring activities. Reporting is available to compare like monitoring results for annual report review. Assignment and tracking of Medical Surveillance is managed using panels and includes employee scheduling, completion of questionnaires, tracking and reporting of medical surveillance compliance.
@@ -34,4 +35,4 @@ Items that are pending development are listed below. Sections 3-6 are complete. 
 
 To learn more about Industrial Hygiene, follow the link below to the Learning Management System course:
 
-* [Industrial Hygiene](https://mie.talentlms.com/shared/start/key:LQQIDNHR)
+- [Industrial Hygiene](https://mie.talentlms.com/shared/start/key:LQQIDNHR)

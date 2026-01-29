@@ -1,24 +1,25 @@
 ---
-id: '1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-title: 'Quality of Care'
-date: '2024-07-23T20:44:01.699Z'
+id: "1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
+title: "Quality of Care"
+date: "2024-07-23T20:44:01.699Z"
 version: 158
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'quality-of-care/quality-reporting-enrollment.md'
-  - 'quality-of-care/measures.md'
-  - 'https://mmshub.cms.gov/about-quality/quality-at-CMS/quality-programs'
-source: 'https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk'
-wikigdrive: 'v2.15.30'
+  - "quality-of-care/quality-reporting-enrollment.md"
+  - "quality-of-care/measures.md"
+  - "https://mmshub.cms.gov/about-quality/quality-at-CMS/quality-programs"
+source: "https://drive.google.com/open?id=1y8kVg24VMfoTaDVfYaAQ9W_evjrGthtF1ld0_kRKsEk"
+wikigdrive: "v2.15.30"
 ---
-{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified Electronic Clinical Quality Measures (eCQMs), and other quality measures.  Certified eCQMs have been developed to the specifications of CMS for use in Quality Payment Programs (QPP), such as MIPS.  Additional measures have been developed to support compliance tracking for payer, employer, and other incentive programs. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
+
+{{% system-name %}} prides itself on being a certified EHR technology, and as such, we offer an extensive array of certified Electronic Clinical Quality Measures (eCQMs), and other quality measures. Certified eCQMs have been developed to the specifications of CMS for use in Quality Payment Programs (QPP), such as MIPS. Additional measures have been developed to support compliance tracking for payer, employer, and other incentive programs. [Learn how to enroll here](quality-of-care/quality-reporting-enrollment.md)!
 
 Click here to [See All Measures](quality-of-care/measures.md)
 
 ## [CMS Programs](https://mmshub.cms.gov/about-quality/quality-at-CMS/quality-programs)
 
-Participants can utilize the {{% system-name %}} system to track and report on the various health IT and healthcare standards, as laid out by the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology (ONC).  Most commonly, our clients participate in the Quality Payment Program (QPP) through the Merit-Based Incentive Payment System (MIPS); however, {{% system-name %}} can work with clients to support their specific needs for any of the CMS sponsored programs.
+Participants can utilize the {{% system-name %}} system to track and report on the various health IT and healthcare standards, as laid out by the Centers for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology (ONC). Most commonly, our clients participate in the Quality Payment Program (QPP) through the Merit-Based Incentive Payment System (MIPS); however, {{% system-name %}} can work with clients to support their specific needs for any of the CMS sponsored programs.
 
 ## Non-CMS Programs
 

@@ -1,17 +1,18 @@
 ---
-id: '153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-title: 'PDF Documents'
-date: '2025-11-10T15:29:12.324Z'
+id: "153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY"
+title: "PDF Documents"
+date: "2025-11-10T15:29:12.324Z"
 version: 106
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
-  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
-source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/"
+  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
+source: "https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY"
+wikigdrive: "v2.15.30"
 ---
+
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.
 
 {{% note %}}
@@ -36,7 +37,7 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 ![](./pdf-documents.assets/a5aea252e7a27d2d94418b8401c3d75e.png)
 
-**Authored By**: Given the proper security permission, use this field to select for whom this PDF document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
+**Authored By**: Given the proper security permission, use this field to select for whom this PDF document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the _Creator_ and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
 {{% note %}}
 In order to author documents for others, the user must have the Access Control **Transcribe for Others** setting set to **Yes**. If this setting is not enabled for the user, the Authored By field will not be an option.
@@ -52,9 +53,9 @@ In order to author documents for others, the user must have the Access Control *
 
 **Encounter**: {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded PDF document to the specified encounter. If the document does not need to be linked to an encounter, simply leave the field blank.
 
-* A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
-* Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
+- A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
+- Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
+- Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
 ![](./pdf-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
@@ -62,9 +63,9 @@ In order to author documents for others, the user must have the Access Control *
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
 {{% /info %}}
 
-**Link to Orders**: Like linking to encounters, PDF documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
+**Link to Orders**: Like linking to encounters, PDF documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the _Link to Orders_ field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 
-**Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
+**Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the _Case_ field.
 
 **CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/) help documentation.
 
@@ -86,4 +87,4 @@ All files must end in `.pdf` when uploading via this method.
 
 To learn more about PDF Documents, follow the link below to the Learning Management System course:
 
-* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)

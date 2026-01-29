@@ -1,17 +1,18 @@
 ---
-id: '1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
-title: 'Vaccine Compliance'
-date: '2025-11-11T16:07:32.591Z'
+id: "1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps"
+title: "Vaccine Compliance"
+date: "2025-11-11T16:07:32.591Z"
 version: 104
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/'
-  - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/'
-  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
-source: 'https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/"
+  - "https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/"
+  - "https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/"
+source: "https://drive.google.com/open?id=1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps"
+wikigdrive: "v2.15.30"
 ---
+
 Enterprise Health utilizes the Preventive Care encounter section and custom quality measures to capture and report on Vaccine Compliance. The Enterprise Health system/database must be enrolled in the quality/vaccine programs
 
 ## Quality Enrollment
@@ -70,7 +71,7 @@ Select the "System" check box, enter a start and end date for the reporting peri
 </tr>
 </table>
 
-*Some laboratories send a quantitative analysis + interpretation with the qualitative analysis, in this case either value noted will be accepted.*
+_Some laboratories send a quantitative analysis + interpretation with the qualitative analysis, in this case either value noted will be accepted._
 
 ## Optional Immunization Surveillance
 
@@ -128,7 +129,7 @@ The preventive care section displays a compliance factor of Yes or No based on t
 
 ### Immunizations
 
-This column lists the vaccine program being tracked. Hover over the program name to add orders specific to this program. If immunizations are needed, they must be manually added/ordered when/if appropriate by the clinician. Immunizations are not ‘automatically' added to the Due List. However, the module will forecast if an injection is recommended. If an immunization is forecasted, it will display in the *Pending* column.
+This column lists the vaccine program being tracked. Hover over the program name to add orders specific to this program. If immunizations are needed, they must be manually added/ordered when/if appropriate by the clinician. Immunizations are not ‘automatically' added to the Due List. However, the module will forecast if an injection is recommended. If an immunization is forecasted, it will display in the _Pending_ column.
 
 ![](./vaccine-compliance.assets/f86261e824e7af11947a80eb22f1c44a.png)
 
@@ -138,7 +139,7 @@ When adding an order, a list of orders that may help achieve compliance will dis
 
 ### Complaint
 
-**ALWAYS!!!!  Recalculate this section to ensure you are looking at the most recent compliance evaluation. Do this by clicking the** **_Calculator Icon_**** next to the** **_Compliant _****column header.**
+**ALWAYS!!!! Recalculate this section to ensure you are looking at the most recent compliance evaluation. Do this by clicking the** **_Calculator Icon_\*\*** next to the\*\* ***Compliant *\*\***column header.\*\*
 
 ![](./vaccine-compliance.assets/71a203e22ae1044241b958543795b042.png)
 
@@ -152,15 +153,15 @@ This column will display the last related **order** item for this program. This 
 
 This column will show the **last** document in the chart pertaining to this program. Examples include immunization record documents,declination documents,and titer results.
 
-* Hover over the Injection document for links to view the documentation.
+- Hover over the Injection document for links to view the documentation.
 
 ![](./vaccine-compliance.assets/b0820f8394c3717efa0fb9d90f4f03b4.png)
 
-* Hover the <em>List</em> icon, to display all historical results/documents related to this program.
+- Hover the <em>List</em> icon, to display all historical results/documents related to this program.
 
 ![](./vaccine-compliance.assets/be2e1a3b8e0f698668c64d1a561ffd62.png)
 
-* Click on the underlined link in the <em>Last Documented</em> column or on the result/date in the <em>All History</em> pop up window to view the lab result/document.
+- Click on the underlined link in the <em>Last Documented</em> column or on the result/date in the <em>All History</em> pop up window to view the lab result/document.
 
 ![](./vaccine-compliance.assets/f23594dec4411608db0b391d5242c54f.png)
 
@@ -174,21 +175,21 @@ In the example below, a Measles injection was documented as being previously adm
 
 ## Entering Immunization History
 
-Immunization history should be added via the *Immunizations/Injections* encounter section.
+Immunization history should be added via the _Immunizations/Injections_ encounter section.
 
 ![](./vaccine-compliance.assets/942a69acd68c910300e1ad17b225ed53.png)
 
-Or through the MAR/Injections tab via the *Quick Add* link.
+Or through the MAR/Injections tab via the _Quick Add_ link.
 
 ![](./vaccine-compliance.assets/4045a761cb2545df46ce40a54a9ee6df.png)
 
 ## Add Newly Administered Immunizations
 
-Immunizations can be added via the [*MAR/Injections*](https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/) tab, [*Injection Program Tab - Recording Mass Injections*](https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/), or the [*Tests and procedures*](https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/)*.*
+Immunizations can be added via the [_MAR/Injections_](https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/) tab, [_Injection Program Tab - Recording Mass Injections_](https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-program-tab-recording-mass-injections/), or the [_Tests and procedures_](https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/)_._
 
 ## Entering Titer Results
 
-Prior Titer results can be entered via the Titer Results Flowsheet. For newer releases, click on the *Flowsheet* option now available under any *Add Document* link in the chart.
+Prior Titer results can be entered via the Titer Results Flowsheet. For newer releases, click on the _Flowsheet_ option now available under any _Add Document_ link in the chart.
 
 ![](./vaccine-compliance.assets/3a2925a950042fbd8825042856d310cd.png)
 
@@ -205,5 +206,3 @@ The Preventive Care portlet will display the status of any/all items configured 
 Reports->Quality of Care->MIPS Quality Reports->Provider Quality of Care Status. Northwell Health is enrolled in the quality program as an entity and not as individual providers. Run the report for 2023 Or th, select which measures to recalc and click the Recalculate button (top left, currently needs the golden ticket).
 
 ![](./vaccine-compliance.assets/b52e32a6e2999af16bb6a2547c8b1f77.png)
-
- 

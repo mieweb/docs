@@ -1,15 +1,16 @@
 ---
-id: '1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
-title: 'Patient Education Interface'
-date: '2025-10-21T02:06:47.919Z'
+id: "1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
+title: "Patient Education Interface"
+date: "2025-10-21T02:06:47.919Z"
 version: 362
-lastAuthor: 'slodish'
-mimeType: 'text/x-markdown'
+lastAuthor: "slodish"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LSOIDNHR'
-source: 'https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LSOIDNHR"
+source: "https://drive.google.com/open?id=1QbQKApYlxR7VjB9m5iLK7gvh3srpM0usqL47qYFrtzo"
+wikigdrive: "v2.15.30"
 ---
+
 # Patient Education Interface
 
 ## WebMD Ignite (formerly Healthwise)
@@ -90,7 +91,7 @@ When a user prints the WebMD Ignite/Healthwise patient material, the system que
 
 By default, the document is stored as doc.type WCHEALTH. You should have the doc.type WCHEALTH in your system with the description of it being "Healthwise Patient Education". You can change the system setting to store these to a different doc.type, however by default it's already set up to point to WCHEALTH doc.type.
 
-*Note:*
+_Note:_
 
 If providers are enrolled in quality measures regarding patient education, you would **not** want to change this setting to store as doc.type WCPATED because WCPATED is used in the measures/calculations and could skew that data.
 
@@ -102,4 +103,4 @@ That doc.type should be specified to show in a specific chart tab. You can go to
 
 To learn more about the Patient Education Interface, follow the link below to the Learning Management System course:
 
-* [Patient Education](https://mie.talentlms.com/shared/start/key:LSOIDNHR)
+- [Patient Education](https://mie.talentlms.com/shared/start/key:LSOIDNHR)

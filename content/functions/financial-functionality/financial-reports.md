@@ -1,14 +1,15 @@
 ---
-id: '1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-title: 'Financial reports'
-date: '2021-02-17T19:42:45.858Z'
+id: "1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"
+title: "Financial reports"
+date: "2021-02-17T19:42:45.858Z"
 version: 33
-lastAuthor: 'ahumes'
-mimeType: 'text/x-markdown'
+lastAuthor: "ahumes"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1iFRS0IzYxv4R7Apt3ypVwM_P7t6vY0ndnG6DxJTAkwQ"
+wikigdrive: "v2.15.30"
 ---
+
 Use financial reports to view balances and details of accounts and pending billing and appointments. Also use financial reports to close out months.
 
 You can change the information displayed in reports and download it as comma-separated value (CSV) format files.
@@ -20,6 +21,7 @@ This section discusses:
 ## Columns in financial reports
 
 Following are descriptions of the types of data contained in columns of financial reports. Columns for which the headings accurately describe their contents are not included here.
+
 <table>
 <tr>
 <td><strong>Report</strong></td>

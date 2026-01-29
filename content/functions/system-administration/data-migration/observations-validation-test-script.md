@@ -1,31 +1,32 @@
 ---
-id: '1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-title: 'Observations Validation Test Script'
-date: '2025-11-13T13:36:09.169Z'
+id: "1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM"
+title: "Observations Validation Test Script"
+date: "2025-11-13T13:36:09.169Z"
 version: 102
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
-  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/'
-  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
-  - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
-  - 'https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi'
-  - '../../reports/observations-report.md'
-  - 'https://docs.enterprisehealth.com/functions/reports/'
-  - 'https://docs.enterprisehealth.com/functions/reports/observations-report/'
-source: 'https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM'
-wikigdrive: 'v2.15.30'
+  - "https://drive.google.com/file/d/1-hSqvUnnLgnffj6Rdwgv5xsopPWGhdpr/view"
+  - "https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/"
+  - "https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/"
+  - "https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/"
+  - "https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit"
+  - "https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi"
+  - "../../reports/observations-report.md"
+  - "https://docs.enterprisehealth.com/functions/reports/"
+  - "https://docs.enterprisehealth.com/functions/reports/observations-report/"
+source: "https://drive.google.com/open?id=1RjJm78kYrjXJPlfpc7oRo0-g12BxQB5A5d7e7sTpPfM"
+wikigdrive: "v2.15.30"
 ---
+
 This document is intended to describe and assist users with the process to validate discrete observations imported from another system.
 
 ## Requirements
 
-* Compile a list of 8-10 different charts containing individual observations from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data to address potential import discrepancies that could arise.
-* Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
+- Compile a list of 8-10 different charts containing individual observations from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data to address potential import discrepancies that could arise.
+- Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
 
 ## Data Fields
 
@@ -63,21 +64,22 @@ Some charts/records may not have all data elements, and in some circumstances, t
 1. Log into the {{% system-name %}} system.
 2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-    ![](./observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
+   ![](./observations-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
-* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
+- Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+- Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
 3. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-    ![](./observations-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+   ![](./observations-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+
 4. Select <strong>Observations/Flowsheets</strong> from the Medical Record chart tab.
 
-    ![](./observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png)
+   ![](./observations-validation-test-script.assets/e423e14102b231b3461d21cee6d2e4e7.png)
 
 {{% tip %}}
 The number in parenthesis indicates the number of items in each tab. 
@@ -85,22 +87,16 @@ The number in parenthesis indicates the number of items in each tab. 
 
 5. The Observations Search will display. Simply click the <strong>Search</strong> button to search all observations, unless the search needs to be more specific or filtered down.
 
-    ![](./observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png)
+   ![](./observations-validation-test-script.assets/235fe960ff2ed0d194fd447cbe4b4df6.png)
 
 {{% tip %}}
-Observation names are displayed alphabetically, by default, with all data listed *horizontally* across the page.
-
-
-
-
+Observation names are displayed alphabetically, by default, with all data listed _horizontally_ across the page.
 
 ![](./observations-validation-test-script.assets/1dd5843153d5d9d1b18143acf28cd1a5.png)
 
-
-
 ![](./observations-validation-test-script.assets/0a91d03ccd3aa4eb41d936bf9fc83b1e.png)
 
-To aid in validation and instead view data *vertically*, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/).)
+To aid in validation and instead view data _vertically_, or with dates descending, simply click the **Vertical** radio button before clicking Search. The results will be displayed with the dates in the first column, with the results listed across the page. (See our help documentation for more detailed information on the [Observations Tab](https://docs.enterprisehealth.com/functions/order-and-result-management/observations-tab/).)
 
 ![](./observations-validation-test-script.assets/4d5008d39b53acc64a82d77177fc1775.png)
 
@@ -115,9 +111,9 @@ Within each chart, it is possible a [Flowsheet](https://docs.enterprisehealth.co
 The date displayed will be the date the data was imported to {{% system-name %}} , **NOT** the date the item was recorded in the legacy system.
 {{% /note %}}
 
-* Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-* Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-* Contact {{% system-name %}} with the findings.
+- Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
+- Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+- Contact {{% system-name %}} with the findings.
 
 ## [Reports](https://drive.google.com/open?id=1-ivoLFTHd72QsFV4d10yUip3k9do8KQi)
 
@@ -126,10 +122,11 @@ The [Patient Observations report](../../reports/observations-report.md) is parti
 1. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
 2. Select the Visits report list.
 
-    ![](./observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png)
+   ![](./observations-validation-test-script.assets/ec2ab6d6a4b70fc56ac700c653eeca68.png)
+
 3. Criteria may be added to filter or drill down data. The <strong>Entered By</strong> field, for example, can be used to further refine the results. The Entered By value when performing a data migration is typically <strong>Import User</strong>. Otherwise, the legacy system name may be used, or a meaningful acronym (e.g., Cerner Import, OHM Import) may be chosen. 
 
-    ![](./observations-validation-test-script.assets/f958f0553b53bc389064f532fa9d8b33.png)
+   ![](./observations-validation-test-script.assets/f958f0553b53bc389064f532fa9d8b33.png)
 
 ## FAQs
 

@@ -1,14 +1,15 @@
 ---
-id: '174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-title: 'Printing TIFFs'
-date: '2020-03-24T15:06:06.991Z'
+id: "174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
+title: "Printing TIFFs"
+date: "2020-03-24T15:06:06.991Z"
 version: 46
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=174lxttePXxThmla220uDuajbHUdKGZi1WPYHoisHUBQ"
+wikigdrive: "v2.15.30"
 ---
+
 ## Printing Documents from a Tiff Printer
 
 1. Open windows based software or WORD.

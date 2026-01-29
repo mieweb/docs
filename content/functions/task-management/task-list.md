@@ -1,17 +1,18 @@
 ---
-id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-title: 'Task List'
-date: '2026-01-09T14:42:52.005Z'
+id: "1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k"
+title: "Task List"
+date: "2026-01-09T14:42:52.005Z"
 version: 485
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'fast-task-templates.md'
-  - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
-  - 'https://mie.talentlms.com/shared/start/key:ZSEDNHRK'
-source: 'https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
-wikigdrive: 'v2.15.30'
+  - "fast-task-templates.md"
+  - "https://mie.talentlms.com/shared/start/key:AOEHRKMF"
+  - "https://mie.talentlms.com/shared/start/key:ZSEDNHRK"
+source: "https://drive.google.com/open?id=1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k"
+wikigdrive: "v2.15.30"
 ---
+
 ## Viewing Your Task & Department Task Alerts
 
 There are two ways to access your pending tasks:
@@ -20,7 +21,7 @@ There are two ways to access your pending tasks:
 
 ![](./task-list.assets/2058b9778b09de3e34c0d5b1436e9d7a.png)
 
-* This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
+- This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
 
 -OR-
 
@@ -32,15 +33,15 @@ Either way will take users to the Task List.  It will default to open to Your T
 
 ## Task Notifications of Tasks Assigned to You
 
-Users can be alerted via email and/or SMS Text when a task gets assigned to you  There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
+Users can be alerted via email and/or SMS Text when a task gets assigned to you There are 2 available My Settings Preferences that can be setup to allow the specific logged in user to be alerted of tasks being assigned to them.
 
 ![](./task-list.assets/f1ac148f3f29cf6c70182080966a68f0.png)
 
-**Email me on task addition:** The user **must** have an email address on their user account in the Control Panel.  If this preference is set to Yes, the system will email the user whenever a task gets assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
+**Email me on task addition:** The user **must** have an email address on their user account in the Control Panel. If this preference is set to Yes, the system will email the user whenever a task gets assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
 
-**Send SMS on task addition:** The system **must** have an SMS/Texting agreement in place as standard texting rates apply. The user **must** have a complete cell number on their user account in the Control Panel.  If a user sets their preference to Yes, the user will receive a SMS text communications when a task has been assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
+**Send SMS on task addition:** The system **must** have an SMS/Texting agreement in place as standard texting rates apply. The user **must** have a complete cell number on their user account in the Control Panel. If a user sets their preference to Yes, the user will receive a SMS text communications when a task has been assigned to them. This is frequently used for users who don't log in much and want a notification of when a task is assigned to them.
 
-The text does not contain any hyperlinks to the system login.  The text's intent is only for informational notification and reads "Task Added:" followed by the specific Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
+The text does not contain any hyperlinks to the system login. The text's intent is only for informational notification and reads "Task Added:" followed by the specific Task Description. Texts will be sent to the cell phone as listed on the user's account. Additionally, customers must have a SMS/Texting agreement in place as standard texting rates apply.
 
 ![](./task-list.assets/aaa035b2340aac186b78def517fd1aef.png)
 
@@ -99,58 +100,58 @@ There are four additional features in the Department Tasks buckets of the Task L
 Overdue and User Tasks buckets are tasks specifically assigned to you that are awaiting completion.  There are two ways to work a task:
 
 1. Quick Options: If you can decipher (from the summary task list view details) what the task is for, what to do, how to complete it, and you indeed complete it just by looking at the details displayed in the task list view, then go to the Options column. These are 3 quick options for completing a task:  a checkbox, the Mark Done link, and the Reply link.  
-    ![](./task-list.assets/8eaec7ef17b7993044f52efc582d80a9.png)
+   ![](./task-list.assets/8eaec7ef17b7993044f52efc582d80a9.png)
 
 2. Task ID method: If you don't want to utilize the quick options, then the other way to work a task is to click on the task ID number by the task you want to work. It will pull up the task and give you more options for completing this task.  
-    ![](./task-list.assets/942ee437e988017891a2ffafb331acdf.png)
+   ![](./task-list.assets/942ee437e988017891a2ffafb331acdf.png)
 
 ### Quick Options
 
-* Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing.  
-    ![](./task-list.assets/b74e3c1896ca0fb20db156a94c41ac85.png)
+- Check-Mark box:  This will show if you have My Settings preference of Show Complete CheckBox enabled.  You can click the checkmark box of the task you want to mark done and it puts a strikethrough on the task.  Unchecking it will reverse it (if you checked by mistake). Using the checkmark is a quick way to mark the task done if you can complete the task based on the details displayed on the listing.  
+   ![](./task-list.assets/b74e3c1896ca0fb20db156a94c41ac85.png)
 
-* If you checkmark this box, it considers it complete (inserts a strikethrough) and when you refresh the page or work elsewhere in {{% system-name %}} and return to the Task List, the checkmarked tasks will be gone and taken out of the queue since indicated ‘complete' using this method.
-* Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed.  
-    ![](./task-list.assets/f35781ca3b92037eb1c8c75369f0b632.png)
+- If you checkmark this box, it considers it complete (inserts a strikethrough) and when you refresh the page or work elsewhere in {{% system-name %}} and return to the Task List, the checkmarked tasks will be gone and taken out of the queue since indicated ‘complete' using this method.
+- Mark Done: This option always displays and is not My Settings preference driven.  You can click the Mark Done link and it will pop up a Notes to Complete textbox where you can free-text notes regarding the completion of this task.  When done typing in notes, click the Complete button to mark the task as completed.  
+   ![](./task-list.assets/f35781ca3b92037eb1c8c75369f0b632.png)
 
-* Reply: This will show if you have My Settings preference of Show Reply Link in Task enabled. By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
-    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.  
-        ![](./task-list.assets/a08cd215c9456ddf7f4bbd8df66bca6f.png)
+- Reply: This will show if you have My Settings preference of Show Reply Link in Task enabled. By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
+  - When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.  
+     ![](./task-list.assets/a08cd215c9456ddf7f4bbd8df66bca6f.png)
 
-* You then choose Add Task or Add Task and Mark Done buttons to indicate how to mark the original task that was assigned to you.
-    * If you click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.
-    * If you click Add Task and Mark Done, this will skip the step of asking the user if they want to mark the old task done after they add the new (the new is the reply).  This then takes the original task out of the queue and puts it in the completed task tab. The reply will automatically go back to the person that originally sent you the task.  It is now their turn to complete on their end, and will show up on their task list to do and complete.
+- You then choose Add Task or Add Task and Mark Done buttons to indicate how to mark the original task that was assigned to you.
+  - If you click Add Task it will prompt you again "You have replied to a task.  Would you like to complete that task?" If you click on the Yes button, it will remove that original task from your queue and still send the reply to the recipient. (Meaning it is really doing the same as add task and mark done).  If you click No then it will leave the original and the reply/new task in the queue.
+  - If you click Add Task and Mark Done, this will skip the step of asking the user if they want to mark the old task done after they add the new (the new is the reply).  This then takes the original task out of the queue and puts it in the completed task tab. The reply will automatically go back to the person that originally sent you the task.  It is now their turn to complete on their end, and will show up on their task list to do and complete.
 
 ### Task ID Method
 
-* Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.    
-    ![](./task-list.assets/71df33020a5e264806b91044b1c575a3.png)
+- Task ID link:  If you don't want to utilize the quick options, then click on the task ID number by the specific task you want work. It will pull up the task and give you more options for completing this task.    
+   ![](./task-list.assets/71df33020a5e264806b91044b1c575a3.png)
 
-* Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document.  
-    ![](./task-list.assets/4ecfd4f5d0dfc93a2e9bfc2cba13f2aa.png)
+- Once you click the Task ID it will open the specific task with all details.  It will also give you many other options at the top and bottom towards completing this task. If the task is regarding a specific document for a patient, the document will also show/appear on the top of the screen for you to view with the task details and buttons below the document.  
+   ![](./task-list.assets/4ecfd4f5d0dfc93a2e9bfc2cba13f2aa.png)
 
 Options in Task ID method view:
 
-* Open Chart:  At the very top of the task document, you will see the option Open Chart button.  If you click this button, {{% system-name %}} will open a new window and you can browse the chart, review previous results, etc and then when you close the newly open window, it will take you back to this task you are working on.  You can then select one of the options below the task document to complete, reply, etc to the task.
-* Doc ID:  The document image will display on the screen if the task is tied to a specific document in the chart.  Yet, the document ID is also shown at the top as the identifier and provides it as a hyperlink to get to that document.
-* Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
-* Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
-    * Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient.  
-        ![](./task-list.assets/44076b23676cc5b79397f7698059bd7e.png)
+- Open Chart:  At the very top of the task document, you will see the option Open Chart button.  If you click this button, {{% system-name %}} will open a new window and you can browse the chart, review previous results, etc and then when you close the newly open window, it will take you back to this task you are working on.  You can then select one of the options below the task document to complete, reply, etc to the task.
+- Doc ID:  The document image will display on the screen if the task is tied to a specific document in the chart.  Yet, the document ID is also shown at the top as the identifier and provides it as a hyperlink to get to that document.
+- Printable:  You can click the printable link found next to the task and/or doc id.  It will show a printable version of this specific task along with your other pending tasks.
+- Sign & Mark Done: This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click.  This option will prompt you to enter text notes you want to document related to this task you are signing and completing/marking done.
+  - Click Sign Document when complete and it also takes it out of your e-sign pending list to do along with marking the task done.  It stores your text notes you typed. They are stored as Completed Notes when opening a completed task id for a patient.  
+     ![](./task-list.assets/44076b23676cc5b79397f7698059bd7e.png)
 
-* Sign & Mark Done w/o (without) Note:  This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click. You will not be prompted to enter any text completion notes from this link.  This signs the document & marks the task done only. This is a quicker way to sign & mark done without have to go thru the text comment notes screen in the previous option.
-* Mark Done: If click this, it will pop up a Notes to Complete text box where you can free-text notes, your result, etc for this task and then click Complete box to mark it as completed.  This option allows you to mark the task done and make any notes to the task to keep on record.  It marks it as completed at the top. And then takes this task out of Your Task List and puts it in the completed task tab.
-* Mark Done w/o Note: If click this, you are marking the task done without having to enter any notes or free-text as in the above option called Mark Done. It marks it as completed at the top.  And then takes this task out of Your Task List and puts it in the completed task tab.
-* Reply:  By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
-    * When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
+- Sign & Mark Done w/o (without) Note:  This button will be an option if you have security to esign documents. You can e-sign the document tied to the task and also mark this task done all with one click. You will not be prompted to enter any text completion notes from this link.  This signs the document & marks the task done only. This is a quicker way to sign & mark done without have to go thru the text comment notes screen in the previous option.
+- Mark Done: If click this, it will pop up a Notes to Complete text box where you can free-text notes, your result, etc for this task and then click Complete box to mark it as completed.  This option allows you to mark the task done and make any notes to the task to keep on record.  It marks it as completed at the top. And then takes this task out of Your Task List and puts it in the completed task tab.
+- Mark Done w/o Note: If click this, you are marking the task done without having to enter any notes or free-text as in the above option called Mark Done. It marks it as completed at the top.  And then takes this task out of Your Task List and puts it in the completed task tab.
+- Reply:  By clicking Reply, it will show the Add Task screen that prefills fields of the original task, but you can change fields and type any text to reply to a task that you were assigned.  It sends it back to the person or department that sent it to you as indicated in the Assign To section. You can select someone else by overwriting Assign To details if needed.
+  - When the receiving user or department receives your reply, it puts "RE:" in the description.  It also puts the original task ID# in the regarding column (of task list view) and assigns a new task ID# to this reply.
 
 {{% note %}}
 The reply button will not be available for use if the task was automatically created by an interface. This is because a user cannot reply the task to an interface.
 {{% /note %}}
 
-* Forward: Same as Reply only if you forward then you can choose who to assign and forward it to. It puts "FWD:" in the description for the receiver to see.
-* Edit: Keeps the same task ID#. Allows you to edit a task and/or send to someone else. You can also check-mark the ‘Insert as Completed' box and it will complete the task, take out of the queue and save your edit. Click Save Task.
-* Un-Assign:  If you grabbed a department task to work, this button will display as an option.  You can click this to un-assign it from yourself. It then gives you a message at the very top that you unassigned it and it has been put back in the department list.
+- Forward: Same as Reply only if you forward then you can choose who to assign and forward it to. It puts "FWD:" in the description for the receiver to see.
+- Edit: Keeps the same task ID#. Allows you to edit a task and/or send to someone else. You can also check-mark the ‘Insert as Completed' box and it will complete the task, take out of the queue and save your edit. Click Save Task.
+- Un-Assign:  If you grabbed a department task to work, this button will display as an option.  You can click this to un-assign it from yourself. It then gives you a message at the very top that you unassigned it and it has been put back in the department list.
 
 {{% note %}}
 If you un-assign a task and it was not assigned to a specific department, then an error warning will appear at the very top.  It says Task does not have a department assigned to it. Un-assigning it would make it disappear. Please edit it manually.  You would then open the task back up and click the Edit button instead and change the Assign To section.
@@ -260,7 +261,7 @@ Permitted users can add and create a new fast task template into the system here
 
 ## TaskList DataVis
 
-A new user preference (*My Setting*) has been added which will allow users to switch from the legacy Task List view to the Datavis format. The task list has been converted into 4 datavis: Reminders, Overdue Tasks, User Tasks, Realm Tasks. Select items in the datavis to display action options at the bottom. The Realm datavis will compile all departmental tasks into one list and sort them by department. Corporate demographic filters display at the top of the Datavis for Enterprise Health customers only. However all users, Enterprise Health and WebChart, have the the option to sort and filter on each individual datavis, as well as make their own perspectives. These changes are available in a BETA testing mode for customers on RC202309.
+A new user preference (_My Setting_) has been added which will allow users to switch from the legacy Task List view to the Datavis format. The task list has been converted into 4 datavis: Reminders, Overdue Tasks, User Tasks, Realm Tasks. Select items in the datavis to display action options at the bottom. The Realm datavis will compile all departmental tasks into one list and sort them by department. Corporate demographic filters display at the top of the Datavis for Enterprise Health customers only. However all users, Enterprise Health and WebChart, have the the option to sort and filter on each individual datavis, as well as make their own perspectives. These changes are available in a BETA testing mode for customers on RC202309.
 
 ![](./task-list.assets/14c1837675ba83576e431e3c85bf8009.png)
 
@@ -274,7 +275,7 @@ To return to the DataVis View, click on the DataVis View button.
 
 ### Grab Task - Realm Tasks
 
-In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks, but only from the combined *Realm Tasks* grouping list.
+In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks, but only from the combined _Realm Tasks_ grouping list.
 
 ![](./task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
 
@@ -286,7 +287,7 @@ When grabbing any Realm Tasks, you may get a Permission Denied for Tasks error.
 
 ![](./task-list.assets/c2c65435c5dc064a9701c6bb44a2c90f.png)
 
-For the ability to grab realm tasks using the DataVis method, the specific security role(s) need to have the JSON security permission ‘tasks' table added to their roles.  Contact your MIE Deployment Consultant or MIE Help Desk for configuration.
+For the ability to grab realm tasks using the DataVis method, the specific security role(s) need to have the JSON security permission ‘tasks' table added to their roles. Contact your MIE Deployment Consultant or MIE Help Desk for configuration.
 
 ![](./task-list.assets/57648e9e50e422bc9beaddef6d4c2857.png)
 
@@ -294,5 +295,5 @@ For the ability to grab realm tasks using the DataVis method, the specific secur
 
 To learn more about the Task List, follow the link below to the Learning Management System course:
 
-* [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
-* [Task List Events](https://mie.talentlms.com/shared/start/key:ZSEDNHRK)
+- [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
+- [Task List Events](https://mie.talentlms.com/shared/start/key:ZSEDNHRK)

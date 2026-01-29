@@ -1,15 +1,16 @@
 ---
-id: '1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
-title: 'Health Surveillance Panels - Add Memberships Manually'
-date: '2024-10-16T16:06:12.797Z'
+id: "1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA"
+title: "Health Surveillance Panels - Add Memberships Manually"
+date: "2024-10-16T16:06:12.797Z"
 version: 171
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
-source: 'https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LQSIDNHR"
+source: "https://drive.google.com/open?id=1TBgwfsvuA6mkom7js7uw9tJJspLucwitVAfs-WC0VPA"
+wikigdrive: "v2.15.30"
 ---
+
 ## Add Memberships Individually via the Due List
 
 From the Due List, add a new order. Enter the Panel Name/Order in the order autocomplete. Depending on how the panel is configured, users will have options to enroll in panels, which can be triggered as Entry with or without Membership, Routine with or without Membership, or Exit without Membership. Select the appropriate panel to enroll the patient in and click the submit button.
@@ -30,15 +31,15 @@ Once the panel membership has been added and the panel evaluated, the orders wil
 
 ## Add Memberships Individually via Panel Membership Overview Chart Tab
 
-While working in an employee's chart, users can add patients/employees to be a member of a panel. Making employee's members of panels in this manual method will put them in as *explicit* membership and therefore membership is manually to be maintained from that point on, so please be cautious. Implicit membership rules are managed via the panel configuration and assist with automatically maintaining panel membership.  To manually add membership, navigate to the employee's chart, go to the Health Surveillance chart tab and the *Panel Membership Overview* subtab.
+While working in an employee's chart, users can add patients/employees to be a member of a panel. Making employee's members of panels in this manual method will put them in as _explicit_ membership and therefore membership is manually to be maintained from that point on, so please be cautious. Implicit membership rules are managed via the panel configuration and assist with automatically maintaining panel membership. To manually add membership, navigate to the employee's chart, go to the Health Surveillance chart tab and the _Panel Membership Overview_ subtab.
 
 ![](./health-surveillance-panels-add-memberships-manually.assets/1918ea21280e09bd191f7ec669bdf13e.png)
 
-First view the *current panel membership* section for the employee to make sure the employee is already not a member of the panel you need to make them a member of. To add them to a panel, in the **Add Panel** drop-down, select the panel they need to be a member of. Then click the SUBMIT button.
+First view the _current panel membership_ section for the employee to make sure the employee is already not a member of the panel you need to make them a member of. To add them to a panel, in the **Add Panel** drop-down, select the panel they need to be a member of. Then click the SUBMIT button.
 
 ![](./health-surveillance-panels-add-memberships-manually.assets/70a0f2a444731ca2cfd1973c092ae04e.png)
 
-It will refresh and then show that panel alphabetically as a column in the employee's current panel membership section. If you need to add membership (for this employee chart) to other panels, you can select another panel from the *add panel* drop-down and click Submit. The SUBMIT button only puts the selected panel into the *current panel membership* section but isn't saved, not applied as a member or anything until next steps.
+It will refresh and then show that panel alphabetically as a column in the employee's current panel membership section. If you need to add membership (for this employee chart) to other panels, you can select another panel from the _add panel_ drop-down and click Submit. The SUBMIT button only puts the selected panel into the _current panel membership_ section but isn't saved, not applied as a member or anything until next steps.
 
 When done selecting the panel(s) the employee needs added to, you then checkmark each panel the employee should be in. Check off each panel the employee should belong in. Again, indicating membership in this manual method will put them in as explicit memberships.
 
@@ -62,7 +63,7 @@ Users must have security access to be in the Health Surveillance Management cont
 
 The listing of current Panels will display on the screen under the Panel Search fields.
 
-Users can add individual employee's to specific memberships if needed. Use adding memberships manually cautiously as this puts them in as *"explicit"* memberships into the panel(s).
+Users can add individual employee's to specific memberships if needed. Use adding memberships manually cautiously as this puts them in as _"explicit"_ memberships into the panel(s).
 
 To add a manual membership for an employee/patient chart to a panel, go to the Control Panel side menu tab→HSP/Health Surveillance tab→ Membership option on the specific panel.
 
@@ -76,7 +77,7 @@ Click the Add Explicit Membership hyperlink at the top.
 
 ![](./health-surveillance-panels-add-memberships-manually.assets/294d28e82ccd08e0b78c83f6aa368efa.png)
 
-Individually add explicit members to panels manually one at a time using this screen. First select the employee chart name, then type in a reason for adding this employee to the panel, then select what type of membership it is (include or exclude) and most usually keep the *trigger entry/exit actions* checkmarked if you wish to trigger those as soon as you submit the screen to add the employee to this panel. Users may also add a start date, as to the entry date of the panel begins.  Any panel action items will then trigger on their due list. You can add multiple charts using the employee auto-complete field to build and do more than one chart at a time for the same panel, reason and type.
+Individually add explicit members to panels manually one at a time using this screen. First select the employee chart name, then type in a reason for adding this employee to the panel, then select what type of membership it is (include or exclude) and most usually keep the _trigger entry/exit actions_ checkmarked if you wish to trigger those as soon as you submit the screen to add the employee to this panel. Users may also add a start date, as to the entry date of the panel begins. Any panel action items will then trigger on their due list. You can add multiple charts using the employee auto-complete field to build and do more than one chart at a time for the same panel, reason and type.
 
 ![](./health-surveillance-panels-add-memberships-manually.assets/0c40519b284b54ea1bde0fd75ed6cecf.png)
 
@@ -100,4 +101,4 @@ Any notes put in the Change Reason box, will display in the Panel Membership Ove
 
 To learn more about Health Surveillance Panels - Add Memberships Manually, follow the link below to the Learning Management System course:
 
-* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
+- [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)

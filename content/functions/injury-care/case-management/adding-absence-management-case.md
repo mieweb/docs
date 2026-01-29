@@ -1,23 +1,24 @@
 ---
-id: '1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
-title: 'Adding Absence Management Case'
-date: '2024-07-15T17:44:47.385Z'
+id: "1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
+title: "Adding Absence Management Case"
+date: "2024-07-15T17:44:47.385Z"
 version: 173
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../adding-restrictions.md'
-  - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
-source: 'https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY'
-wikigdrive: 'v2.15.30'
+  - "../adding-restrictions.md"
+  - "https://mie.talentlms.com/shared/start/key:LQTIDNHR"
+source: "https://drive.google.com/open?id=1SbWKxI66KQQlCDFuTHv1UVOm0nNzGeRwQMdRBL8TaOY"
+wikigdrive: "v2.15.30"
 ---
+
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
 {{% info %}}
 The terms *case* and *incident* may be used interchangeably throughout the system.
 {{% /info %}}
 
-There are several case types, which designate different required fields as well as state-specific questions and forms.  {{% system-name %}} provides the ability to track absences as well as link any related documents or subsequent encounter documentation to a specific Absence Management case, as needed.
+There are several case types, which designate different required fields as well as state-specific questions and forms. {{% system-name %}} provides the ability to track absences as well as link any related documents or subsequent encounter documentation to a specific Absence Management case, as needed.
 
 ## Add New Absence Management Case
 
@@ -25,11 +26,11 @@ This help documentation is designed to assist in creating and documenting an Ab
 
 By default, the Case section of encounters will display the following case types:
 
-* Injury (OSHA Standard)
-* Injury (Non-OSHA Standard)
-* Hospital, Absence Management
-* Medical Suitability for Expatriate Assignment (MSEA)
-* Medical Surveillance
+- Injury (OSHA Standard)
+- Injury (Non-OSHA Standard)
+- Hospital, Absence Management
+- Medical Suitability for Expatriate Assignment (MSEA)
+- Medical Surveillance
 
 ![](./adding-absence-management-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
@@ -61,4 +62,4 @@ Documents can be linked to cases.  This can be done via the **Edit Properties**
 
 To learn more about Adding Absence Management Case, follow the link to the Learning Management System course:
 
-* [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)
+- [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)

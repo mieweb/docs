@@ -1,15 +1,16 @@
 ---
-id: '1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
-title: 'Autocomplete Editor'
-date: '2024-07-22T16:29:08.963Z'
+id: "1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8"
+title: "Autocomplete Editor"
+date: "2024-07-22T16:29:08.963Z"
 version: 131
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:ZEGDNHRK'
-source: 'https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:ZEGDNHRK"
+source: "https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8"
+wikigdrive: "v2.15.30"
 ---
+
 You must have security role access to Manage Autocompletes. This allows users (based on level) to access the AC Editor tab found in the Control sidemenu tab.
 
 ![](./autocomplete-editor.assets/0451eb3bf312f6305419e609b832bf6d.png)
@@ -32,7 +33,7 @@ If you have permission, you can edit an auto-complete field and save it.
 
 If you have permission, you can delete an auto-complete field and confirm the deletion.
 
-To *add* an autocomplete selection to a field, you would go to that field in {{% system-name %}} and type the information into the available field, so the system can *learn* the auto-complete. One example of adding autocomplete text which is not in the system is below in the *dismiss warnings* *reason field* when dismissing a warning and this field is an auto-complete.
+To _add_ an autocomplete selection to a field, you would go to that field in {{% system-name %}} and type the information into the available field, so the system can _learn_ the auto-complete. One example of adding autocomplete text which is not in the system is below in the _dismiss warnings_ _reason field_ when dismissing a warning and this field is an auto-complete.
 
 ![](./autocomplete-editor.assets/b02e2e097e9b0ff7e97fd11ca0400f0a.png)
 
@@ -44,4 +45,4 @@ After it is typed in the field, the system "learns" it and then it can be edited
 
 To learn more about the Autocomplete Editor, follow the link below to the Learning Management System course:
 
-* [Autocomplete Editor](https://mie.talentlms.com/shared/start/key:ZEGDNHRK)
+- [Autocomplete Editor](https://mie.talentlms.com/shared/start/key:ZEGDNHRK)

@@ -1,14 +1,15 @@
 ---
-id: '1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE'
-title: 'Pat Return to Work'
-date: '2025-11-13T19:15:25.610Z'
+id: "1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE"
+title: "Pat Return to Work"
+date: "2025-11-13T19:15:25.610Z"
 version: 28
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1OGDM_4Gv11SQBZuuEOH1GJXYyIyGYHXck32PELJHClE"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Return to Work Notification for Frederick J Anderson
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Return to Work Notification
 

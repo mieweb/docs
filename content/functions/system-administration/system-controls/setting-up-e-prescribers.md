@@ -1,32 +1,33 @@
 ---
-id: '12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
-title: 'Setting Up E-Prescribers'
-date: '2025-11-24T18:49:37.132Z'
+id: "12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw"
+title: "Setting Up E-Prescribers"
+date: "2025-11-24T18:49:37.132Z"
 version: 202
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/'
-source: 'https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/terminated-provider-configuration-recommendations/"
+source: "https://drive.google.com/open?id=12E408bIFpcvsI5Nk2OXefON2y6qx5G9suTzn6ZASkXw"
+wikigdrive: "v2.15.30"
 ---
+
 The first step to being able to electronically transmit prescriptions from {{% system-name %}} to a pharmacy using the SureScripts feature is to properly have that prescribing user set up in {{% system-name %}} . You must have security rights to edit or set up users in {{% system-name %}} . Once you set up the Prescriber to become an electronic prescriber, SureScripts goes through a verification process. Once verified, your prescriptions will be e-sent via electronic transmission.
 
-Click the *Control Panel* sidemenu tab then click the *Access Control* tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the *edit* link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the *add user* link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named [Access Control - Adding, Deleting, Editing Users](https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/)*).*
+Click the _Control Panel_ sidemenu tab then click the _Access Control_ tab at the top. Search and find the physician that needs to have rights to e-prescribe. If the user/physician exists as a user in {{% system-name %}} already, simply click the _edit_ link next to their username line. If the user/physician is new to {{% system-name %}}, you would click the _add user_ link to add the user/physician to have access to {{% system-name %}} . (see other help documentation named [Access Control - Adding, Deleting, Editing Users](https://docs.enterprisehealth.com/functions/system-administration/system-controls/access-control-adding-deleting-editing-users/)_)._
 
 Per Medical Informatics Engineering, Inc. policy, all new providers should be created with a new, unique user chart and account. Provider accounts should NEVER be reused or recycled for any reason. For more information on setting up new providers, please review the [New Provider Configuration Recommendations](https://docs.enterprisehealth.com/functions/system-administration/system-controls/new-provider-configuration-recommendations/).
 
 ![](./setting-up-e-prescribers.assets/888dd7b07f9cebe2411743db7f6b22d3.png)
 
-The *Receive Refill Requests* check-box is optional for Prescribers. If you (the prescriber) want to receive electronic refill requests from pharmacies, then you need to have this check-marked. If you wish to continue to receive refill requests via manual fax and/or phone calls and not receive refill requests electronically in {{% system-name %}} using our e-refills queue, then you would not check-mark this box. What you check-mark here in this Electronic Prescriber section is sent to SureScripts for the verification process. You must be verified by SureScripts in order to send prescriptions by electronic transmission and/or receive electronic refill requests.
+The _Receive Refill Requests_ check-box is optional for Prescribers. If you (the prescriber) want to receive electronic refill requests from pharmacies, then you need to have this check-marked. If you wish to continue to receive refill requests via manual fax and/or phone calls and not receive refill requests electronically in {{% system-name %}} using our e-refills queue, then you would not check-mark this box. What you check-mark here in this Electronic Prescriber section is sent to SureScripts for the verification process. You must be verified by SureScripts in order to send prescriptions by electronic transmission and/or receive electronic refill requests.
 
 Continue making sure all the other required fields in the username screen are filled out.
 
 There are other **required** fields in the username screen of {{% system-name %}} that need to be filled out for Prescribers. If you do not have anything entered in these required fields, your edits will not save and you will receive a warning pop-up of what is missing.
 
-Required fields for SureScripts verification: **First & Last Name, *all* address fields, Work Phone, Fax Number, DEA number & NPI number.** If the physician has a ‘suffix' (example: Jr, Sr, III, etc) that must be placed in the *suffix* field, **not** in the last name field. SureScripts will reject if the last name isn't in the correct field and if the suffix isn't in its own field.
+Required fields for SureScripts verification: **First & Last Name, _all_ address fields, Work Phone, Fax Number, DEA number & NPI number.** If the physician has a ‘suffix' (example: Jr, Sr, III, etc) that must be placed in the _suffix_ field, **not** in the last name field. SureScripts will reject if the last name isn't in the correct field and if the suffix isn't in its own field.
 
 ![](./setting-up-e-prescribers.assets/ae07d949511ee8f46b5a0c23f83fceac.png)
 
@@ -62,7 +63,7 @@ If the user has been verified by SureScripts as an e-prescriber and now can send
 
 ## Receive Refill Requests
 
-If you have the box check-marked to *Receive Refill Requests*, it means you are a Prescriber who wants to receive e-refill requests from pharmacies electronically via SureScripts.
+If you have the box check-marked to _Receive Refill Requests_, it means you are a Prescriber who wants to receive e-refill requests from pharmacies electronically via SureScripts.
 
 ![](./setting-up-e-prescribers.assets/7ffa54aaf478a3522b3f6d3b6aee898c.png)
 
@@ -70,7 +71,7 @@ This will enable the pharmacies (who are capable) to send you electronic request
 
 ![](./setting-up-e-prescribers.assets/e07f73db629eb4776fa02d1b7bf6b738.png)
 
-There is a SureScripts **requirement** to use this feature. When you receive a refill request electronically, SureScripts has a requirement that you must respond and work that request within 48 hours. If you don't respond within the 48 hour timeframe and you become delinquent in processing/working those refill requests, SureScripts will disable your ability to receive future e-refill requests through the e-refill queue (see other help documentation named *E-Refill Queue.pdf*).
+There is a SureScripts **requirement** to use this feature. When you receive a refill request electronically, SureScripts has a requirement that you must respond and work that request within 48 hours. If you don't respond within the 48 hour timeframe and you become delinquent in processing/working those refill requests, SureScripts will disable your ability to receive future e-refill requests through the e-refill queue (see other help documentation named _E-Refill Queue.pdf_).
 
 If SureScripts disables your ability to receive refill requests, you can still e-prescribe, however you just won't receive refill requests from SureScripts via the e-refills queue in {{% system-name %}} . We are told that SureScripts will inform/alert the e-Prescriber if there are refill requests that have not been responded to within a period of 48 hours. We are told they will also alert/inform the e-Prescriber if they will ‘disconnect' the e-Prescriber from receiving requests electronically due to being consistently late or absent from responding to electronic refill requests.
 
@@ -78,17 +79,17 @@ If SureScripts disconnects or disables an e-Prescriber from receiving e-refill (
 
 ![](./setting-up-e-prescribers.assets/e07f73db629eb4776fa02d1b7bf6b738.png)
 
-You *can* turn back on the ability to receive e-refill requests from pharmacies again after you have been disconnected/disabled by SureScripts. Simply have your superuser go into the e-Prescriber's {{% system-name %}} username screen. You will see that the *[] Receive Refill Requests* box is un-check marked because SureScripts disabled that feature due to delinquency. If you wish to turn that feature back on, simply checkmark the box **[] Receive Refill Requests** in the user's {{% system-name %}} username screen again. Click the SUBMIT EDIT button at the bottom of the username screen. That electronic prescriber selection & e-Prescribers information/details will again be sent to the department at MIE to verify, then once upon verification, MIE will send a message to SureScripts for certification/verification. Once SureScripts re-verifies, they will reinstate the e-refills feature and you should be back to receiving e-refill (electronic refill) requests from pharmacies via the E-Refills alert taskbar queue in {{% system-name %}} .
+You _can_ turn back on the ability to receive e-refill requests from pharmacies again after you have been disconnected/disabled by SureScripts. Simply have your superuser go into the e-Prescriber's {{% system-name %}} username screen. You will see that the _[] Receive Refill Requests_ box is un-check marked because SureScripts disabled that feature due to delinquency. If you wish to turn that feature back on, simply checkmark the box **[] Receive Refill Requests** in the user's {{% system-name %}} username screen again. Click the SUBMIT EDIT button at the bottom of the username screen. That electronic prescriber selection & e-Prescribers information/details will again be sent to the department at MIE to verify, then once upon verification, MIE will send a message to SureScripts for certification/verification. Once SureScripts re-verifies, they will reinstate the e-refills feature and you should be back to receiving e-refill (electronic refill) requests from pharmacies via the E-Refills alert taskbar queue in {{% system-name %}} .
 
 If a physician goes on vacation or calls in sick, there is a security setting that the superuser at your practice or your MIE Implementer can grant to another physician(s) or staff member(s) to work those e-refill requests that come in at any time. That way, you have someone still working within the 48 hour timeframe for those requests even though the specific prescriber from your practice is gone or out. You may want user(s) also with this security permission to supervise the queue to make sure all are kept current.
 
-The security setting for being able to work on incoming e-refill requests across the board is named *Manage E-Rx Refills for Others.*
+The security setting for being able to work on incoming e-refill requests across the board is named _Manage E-Rx Refills for Others._
 
 ![](./setting-up-e-prescribers.assets/e32e08a06f5f04ca6e16eb4ee041d24e.png)
 
 ## Terminated E-Prescriber/Disenrolled Provider
 
-When a physician/prescriber terminates from your practice, these are the steps that need done in your {{% system-name %}} database. This is *only* for terminated physicians/prescribers that were set up previously in {{% system-name %}} using the previous page steps and those who were verified by SureScripts in your {{% system-name %}} system.
+When a physician/prescriber terminates from your practice, these are the steps that need done in your {{% system-name %}} database. This is _only_ for terminated physicians/prescribers that were set up previously in {{% system-name %}} using the previous page steps and those who were verified by SureScripts in your {{% system-name %}} system.
 
 Please **do not delete** or inactivate the physician/prescriber in the Access Control without doing these steps first.
 
@@ -104,7 +105,7 @@ For more information on terminated providers, review the [Terminated Provider Co
 
 ## E-Prescriber Works Other Practices
 
-A physician/prescriber may work at multiple practices. An example is a physician/prescriber who works at their main practice who uses a {{% system-name %}} system, but volunteers at a separate practice/clinic on weekends who also uses their own {{% system-name %}} system. A single prescriber can have multiple locations and should be set to be SureScripts verified on both those {{% system-name %}} systems to *Send New Scripts*.  However, SureScripts strongly recommends that a physician only set themselves up to *Receive Refill Requests* at a single location ( {{% system-name %}} system) only.
+A physician/prescriber may work at multiple practices. An example is a physician/prescriber who works at their main practice who uses a {{% system-name %}} system, but volunteers at a separate practice/clinic on weekends who also uses their own {{% system-name %}} system. A single prescriber can have multiple locations and should be set to be SureScripts verified on both those {{% system-name %}} systems to _Send New Scripts_.  However, SureScripts strongly recommends that a physician only set themselves up to _Receive Refill Requests_ at a single location ( {{% system-name %}} system) only.
 
 If {{% system-name %}} tries to enroll them to be SureScripts certified at practice "B", our software should detect that they have the same last name and DEA as their original prescriber record that was added from practice "A", and add this as a new location for the same prescriber.  Each prescriber location has a unique identifier, and our interface with SureScripts routes refill requests to the correct {{% system-name %}} system based on that identifier.
 

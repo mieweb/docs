@@ -1,14 +1,15 @@
 ---
-id: '1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
-title: 'Prescribing Controlled Substances (EPCS)'
-date: '2025-08-19T17:26:21.016Z'
+id: "1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0"
+title: "Prescribing Controlled Substances (EPCS)"
+date: "2025-08-19T17:26:21.016Z"
 version: 173
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0"
+wikigdrive: "v2.15.30"
 ---
+
 Providers enrolled in electronic prescribing of controlled substances (EPCS) are required to sign controlled substance prescriptions electronically via two-factor authentication (IdenTrust). Beginning with RC202503, prescribing controlled substances as Ashish Patel, MD will simulate prescribing as though the two-factor authentication process has taken place and the prescription has been sent to a pharmacy. Please note that **no** controlled substance prescriptions written by Ashish Patel, MD will be sent electronically out of the system and this test provider is configured for testing, demo and training purposes only.
 
 ## Prescribing Controlled Substances via the Visit Encounter
@@ -45,7 +46,7 @@ Upon entering the prescription information, the provider must then complete the 
 
 ![](./prescribing-controlled-substances-epcs.assets/c1964bc26a92923f46cb048de06707d2.png)
 
-The provider is immediately directed to the **Unsigned Prescriptions** review**** box, where he is required to select the **Ready to Sign** box and then **Sign** the prescriptions in conjunction with two-factor authorization with their mobile device or USB.
+The provider is immediately directed to the **Unsigned Prescriptions** review\***\* box, where he is required to select the **Ready to Sign** box and then **Sign\*\* the prescriptions in conjunction with two-factor authorization with their mobile device or USB.
 
 ![](./prescribing-controlled-substances-epcs.assets/2c574baba22ca5f349761bf3c5e4f99e.png)
 

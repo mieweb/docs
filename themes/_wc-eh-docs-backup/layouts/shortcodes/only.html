@@ -1,0 +1,3 @@
+{{ $sys := .Get "sys"}}{{ if eq $sys $.Site.Params.Brand.code }}
+<div class="">{{ .Inner }}</div>
+{{ end }}

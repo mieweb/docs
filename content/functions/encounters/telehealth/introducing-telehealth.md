@@ -1,31 +1,32 @@
 ---
-id: '1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-title: 'Introducing TeleHealth'
-date: '2024-07-15T14:25:13.963Z'
+id: "1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
+title: "Introducing TeleHealth"
+date: "2024-07-15T14:25:13.963Z"
 version: 310
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing'
-  - 'https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU'
-  - 'https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet'
-  - 'telehealth-pricing.md'
-  - 'https://mie.talentlms.com/shared/start/key:AGBHRKMF'
-source: 'https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4'
-wikigdrive: 'v2.15.30'
+  - "https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing"
+  - "https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU"
+  - "https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet"
+  - "telehealth-pricing.md"
+  - "https://mie.talentlms.com/shared/start/key:AGBHRKMF"
+source: "https://drive.google.com/open?id=1UZCuq-p8tEPK49LAwi5PjF7xl3uud4LB3fYWvyK3rc4"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}} TeleHealth is a low-cost simple way for providers to connect with patients without having to install any software.
 
 ## About
 
-* Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
-* [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
+- Video [demo](https://drive.google.com/file/d/132m2tAJ_yX1eVtE1lPzkUzlhQNrMXsnB/view?usp=sharing)
+- [Press release](https://drive.google.com/open?id=1TdSU2dNwnUO3T4kInqYwsJAzk9dEv6OVmNUDdMwljNU)
 
 ### Features
 
-* Zero software to install. All browser-based.
-* Invite patients to join via text/sms and email
-* Optional web portal to allow patients to complete a questionnaire and collect consent before the visit.
+- Zero software to install. All browser-based.
+- Invite patients to join via text/sms and email
+- Optional web portal to allow patients to complete a questionnaire and collect consent before the visit.
 <table>
 <tr>
 <td></td>
@@ -71,53 +72,53 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-* Chrome and Firefox for iOS will not work. iOS users will need to use Safari.
+- Chrome and Firefox for iOS will not work. iOS users will need to use Safari.
 
-** WebRTC support in Safari started with Safari version 11
+\*\* WebRTC support in Safari started with Safari version 11
 
-*** We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
+\*\*\* We recommend migrating to the new Chromium Edge as soon as possible as we will stop supporting ORTC in the near future
 
 ## FAQ
 
 **What hardware is required?**
 
-* iPhone (iOS 11+), Android (KitKat+), Windows 10 with Edge or Chrome or Firefox, MacBook (OS X El Capitan).
+- iPhone (iOS 11+), Android (KitKat+), Windows 10 with Edge or Chrome or Firefox, MacBook (OS X El Capitan).
 
 **Why not use FaceTime, Google Duo, or Skype?**
 
-* Unfortunately, there isn't a single tool for video visits. FaceTime only works with iPhones and Google Duo or Skype requires the patient to install the app.
-* After the use of an App, the patient can call the provider directly. <strong>There is no way to block caller ID so the provider could get calls directly from patients at all hours.</strong> WebChart TeleHealth allows the provider to control when sessions can be done and allows the staff to participate easily and triage/transfer sessions.
+- Unfortunately, there isn't a single tool for video visits. FaceTime only works with iPhones and Google Duo or Skype requires the patient to install the app.
+- After the use of an App, the patient can call the provider directly. <strong>There is no way to block caller ID so the provider could get calls directly from patients at all hours.</strong> WebChart TeleHealth allows the provider to control when sessions can be done and allows the staff to participate easily and triage/transfer sessions.
 
 **What is the 1135 Waiver?**
 
-* Under this new waiver, Medicare will pay for office, hospital, and other visits furnished via telehealth across the country, including in patient's places of residence starting March 6, 2020.  A range of providers, such as doctors, nurse practitioners, clinical psychologists, and licensed clinical social workers, will be able to offer telehealth to their patients.  Additionally, the HHS Office of Inspector General (OIG) is providing flexibility for healthcare providers to reduce or waive cost-sharing for telehealth visits paid by federal healthcare programs. The [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet) outlines the waiver.
+- Under this new waiver, Medicare will pay for office, hospital, and other visits furnished via telehealth across the country, including in patient's places of residence starting March 6, 2020. A range of providers, such as doctors, nurse practitioners, clinical psychologists, and licensed clinical social workers, will be able to offer telehealth to their patients. Additionally, the HHS Office of Inspector General (OIG) is providing flexibility for healthcare providers to reduce or waive cost-sharing for telehealth visits paid by federal healthcare programs. The [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/medicare-telemedicine-health-care-provider-fact-sheet) outlines the waiver.
 
 **How do I bill for TeleHealth?**
 
-* Place of Service (POS) code 02
+- Place of Service (POS) code 02
 
 ![](./introducing-telehealth.assets/3991b2dc171da84294d04ad876f52e72.png)
 
 **What does it cost?**
 
-* See [Telehealth Pricing](telehealth-pricing.md)
+- See [Telehealth Pricing](telehealth-pricing.md)
 
 **Are there minimum commitments?**
 
-* No
+- No
 
 **Can I cancel at any time?**
 
-* Yes
+- Yes
 
 **Is this HIPAA compliant?**
 
-* Yes. Our infrastructure complies with the technical safeguards required by HIPAA including encryption at rest and encryption in transit. We execute a BAA as a clause of our service agreement.
+- Yes. Our infrastructure complies with the technical safeguards required by HIPAA including encryption at rest and encryption in transit. We execute a BAA as a clause of our service agreement.
 
 **Are sessions recorded?**
 
-* Recording is an option and has additional cost but is not enabled by default. See [Pricing](#pricing) for details.
-* Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature.
+- Recording is an option and has additional cost but is not enabled by default. See [Pricing](#pricing) for details.
+- Audio recordings can be routed to a scribe or transcriptionist to complete documentation as an optional feature.
 
 ## Screenshots
 
@@ -141,4 +142,4 @@ wikigdrive: 'v2.15.30'
 
 To learn more about TeleHealth, follow the link below to the Learning Management System course:
 
-* [TeleHealth](https://mie.talentlms.com/shared/start/key:AGBHRKMF)
+- [TeleHealth](https://mie.talentlms.com/shared/start/key:AGBHRKMF)

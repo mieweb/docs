@@ -1,16 +1,17 @@
 ---
-id: '1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
-title: 'Creating employer organizations'
-date: '2025-04-09T14:37:03.778Z'
+id: "1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ"
+title: "Creating employer organizations"
+date: "2025-04-09T14:37:03.778Z"
 version: 159
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links:
-  - 'adding-contacts-to-employer-organizations.md'
-  - 'creating-and-adding-accounts-to-employer-organizations.md'
-source: 'https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ'
-wikigdrive: 'v2.15.30'
+  - "adding-contacts-to-employer-organizations.md"
+  - "creating-and-adding-accounts-to-employer-organizations.md"
+source: "https://drive.google.com/open?id=1E2Ng93ephPTQ3exGsMiJs2_m51ZhI-uWMW3UJlk1rYQ"
+wikigdrive: "v2.15.30"
 ---
+
 1. Navigate to the <em>Employer Organizations</em> tab in the <em>Control Panel</em>. Before adding a new employer organization, use the <strong>Search</strong> option to ensure the employer organization you need to create is not already in the system.
 
 ![](./creating-employer-organizations.assets/e482bd95b89f314e33c756a318c249ef.png)
@@ -37,7 +38,7 @@ wikigdrive: 'v2.15.30'
 
 7. The <strong>Encounter Contacts</strong> sections is a display only section that will display contacts added to any encounters created on the EO.
 
-8. In most cases, <strong>Accounts</strong> will automatically be created when the employer organization is created.  Accounts are used for customers utilizing the Financials module, Deals and/or a billing interface. Customers not utilizing any of these features, can turn off the auto creation of Accounts from the system setting <em>WebChart/Settings/Create Account when registering Employer Organization</em>. However, if not using these modules, it does not cause any harm to create Accounts, so customers do not need to turn this setting off unless they specifically have reason to. See [Creating and adding accounts](creating-and-adding-accounts-to-employer-organizations.md) for more information on adding accounts.
+8. In most cases, <strong>Accounts</strong> will automatically be created when the employer organization is created. Accounts are used for customers utilizing the Financials module, Deals and/or a billing interface. Customers not utilizing any of these features, can turn off the auto creation of Accounts from the system setting <em>WebChart/Settings/Create Account when registering Employer Organization</em>. However, if not using these modules, it does not cause any harm to create Accounts, so customers do not need to turn this setting off unless they specifically have reason to. See [Creating and adding accounts](creating-and-adding-accounts-to-employer-organizations.md) for more information on adding accounts.
 
 ![](./creating-employer-organizations.assets/bdb24a187c69cf3134fea18d848bb51d.png)
 

@@ -1,33 +1,64 @@
 {
   "name": "docs",
-  "version": "1.0.0",
-  "description": "If your are a non-techie looking to [contribute](content/contributing-to-this-documentation.md) to documentation, best use the website and author in Google Drive and make recommendations there.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Enterprise Health / WebChart documentation site built with Hugo, Tailwind CSS 4, and React 19 components.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./build.sh",
+    "build:wc": "./build.sh wc",
+    "build:eh": "./build.sh eh",
+    "dev:wc": "./build.sh --live wc",
+    "dev:eh": "./build.sh --live eh",
+    "build:components": "tsx scripts/build-components.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.mieweb.com/webchart/docs.git"
+    "url": "https://github.com/mieweb/docs.git"
   },
-  "author": "",
+  "author": "MIE",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.1.1",
-    "@popperjs/core": "^2.11.5",
-    "animate.css": "^4.1.1",
-    "autoprefixer": "^10.4.7",
-    "bootstrap": "^5.3.3",
-    "copy-to-clipboard": "^3.3.2",
-    "email-validator": "^2.0.4",
-    "highlight.js": "^11.6.0",
-    "http-server": "14.1.1",
+    "clsx": "^2.1.1",
+    "highlight.js": "^11.11.1",
     "hugo-extended": "^0.139.3",
-    "lunr": "^2.3.9",
-    "postcss": "8.4.49",
-    "postcss-cli": "11.0.0",
-    "postcss-import": "16.1.0",
-    "postcss-nested": "7.0.2",
-    "sweetalert2": "^11.22.4"
+    "lunr": "^2.3.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/lunr": "^2.3.7",
+    "@types/node": "^22.10.7",
+    "esbuild": "^0.24.2",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^4.1.18",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.20.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,css,html,toml}": [
+      "prettier --write"
+    ]
   }
 }

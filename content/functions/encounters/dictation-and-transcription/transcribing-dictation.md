@@ -1,15 +1,16 @@
 ---
-id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-title: 'Transcribing Dictation'
-date: '2025-01-21T21:50:29.212Z'
+id: "1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg"
+title: "Transcribing Dictation"
+date: "2025-01-21T21:50:29.212Z"
 version: 148
-lastAuthor: 'sberry'
-mimeType: 'text/x-markdown'
+lastAuthor: "sberry"
+mimeType: "text/x-markdown"
 links:
-  - 'closing-encounters-from-the-dictation-module.md'
-source: 'https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
-wikigdrive: 'v2.15.30'
+  - "closing-encounters-from-the-dictation-module.md"
+source: "https://drive.google.com/open?id=1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg"
+wikigdrive: "v2.15.30"
 ---
+
 When a physician uploads an encounter dictation voice file, it is entered into the system with a "Held by Dictator" status. This way it can not be grabbed or transcribed by any user until the physician is done with their encounter exam in the system. This encounter dictation file will not show in the Pending Dictation tab/list until the physician is done with their exam in the system.
 
 ![](./transcribing-dictation.assets/c36817333a4d7561f8ec168bf46ddd3f.png)
@@ -56,7 +57,7 @@ When you have grabbed an encounter dictation to transcribe, the MIE Player with 
 
 ![](./transcribing-dictation.assets/b59fc15dfa0d30c2df79470961950aeb.png)
 
-When you are transcribing in an encounter and you can not hear the physician or if you have a question for the transcription supervisor, simply click the *Inaudible* button.
+When you are transcribing in an encounter and you can not hear the physician or if you have a question for the transcription supervisor, simply click the _Inaudible_ button.
 
 ![](./transcribing-dictation.assets/313f4070833a4f90bf6ea87cb851460d.png)
 
@@ -70,15 +71,15 @@ You can click Inaudible as many times as you need to throughout a dictation.
 
 The transcriptionist should continue typing until done with the first voice file of the encounter dictation.
 
-When done with that dictated job, you **must** click the *Done* button located under the transcription box. Do not click the RED X at the top right corner to get out.
+When done with that dictated job, you **must** click the _Done_ button located under the transcription box. Do not click the RED X at the top right corner to get out.
 
 ![](./transcribing-dictation.assets/3913dfe925f92e665a1b4d83f3df6aca.png)
 
-Once you click *Done*, the encounter dictation player will automatically pull up/display the next dictation of that encounter exam dictated bundle. It will show the field/section of the encounter that the provider dictated into. Your typed transcription will go into that encounter section.
+Once you click _Done_, the encounter dictation player will automatically pull up/display the next dictation of that encounter exam dictated bundle. It will show the field/section of the encounter that the provider dictated into. Your typed transcription will go into that encounter section.
 
 ![](./transcribing-dictation.assets/83c8d891270bf94c9b7db887a9bdfc3a.png)
 
-Again, you must complete it. Use the inaudible button if needed, and then click the *Done* button.
+Again, you must complete it. Use the inaudible button if needed, and then click the _Done_ button.
 
 When there are no more dictations to complete in the encounter dictation bundle for that job, a new window will open that displays a message saying all dictation for the encounter are currently in progress.
 
@@ -89,18 +90,18 @@ When this box appears, you **MUST** click the underlined **Close link** to close
 Do not click the Red X box in the upper right hand corner of your screen to close out. This will not properly close the dictation and will not place it in the appropriate dictation tab. If you click the red X box by mistake, the dictation will remain in the Pending or Incomplete tab instead of being properly closed and put in the Completed tab.
 
 {{% info %}}
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [*Encounters-Closing Dictation*](closing-encounters-from-the-dictation-module.md)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you will see other options here besides Close. See other help documentation named [_Encounters-Closing Dictation_](closing-encounters-from-the-dictation-module.md)_._
 {{% /info %}}
 
 ## Inaudible Transcriptions
 
-If you had marked any part of the transcription with * Inaudible * then when you have closed the voice file, the file will be moved to the Incomplete dictation tab.
+If you had marked any part of the transcription with _ Inaudible _ then when you have closed the voice file, the file will be moved to the Incomplete dictation tab.
 
 ![](./transcribing-dictation.assets/1f17d75bdd83b9d7c660e7b6ae3a6644.png)
 
 The transcriber will be able to grab the dictations that have been marked as inaudible and make any changes necessary. (See other help documentation titled EDITING ENCOUNTER TRANSCRIPTION).
 
-Should someone other than the original transcriptionist need to grab the voice files from the Incomplete tab, the user must Edit the document and change the status to Pending. The voice files will be moved back to the Pending tab where you can *Unassign* the dictations.
+Should someone other than the original transcriptionist need to grab the voice files from the Incomplete tab, the user must Edit the document and change the status to Pending. The voice files will be moved back to the Pending tab where you can _Unassign_ the dictations.
 
 ## Edit Status of Dictation Jobs
 
@@ -126,7 +127,7 @@ When you first locate an Encounter dictation, you will see a primary Dictation I
 
 Encounters allow a provider to dictate using a function called "Multi-Dictation". A provider can dictate into one voice file and enable you to type the transcribed words into the specific encounter sections. When a provider dictates using the "multi-dictation" functionality, they should verbally be telling you which encounter section it should be typed into.
 
-When you have grabbed an encounter dictation to transcribe, the MIE Player with the encounter transcription text box section will open on your screen and the title and field name will say *Multi-Field Dictation*.
+When you have grabbed an encounter dictation to transcribe, the MIE Player with the encounter transcription text box section will open on your screen and the title and field name will say _Multi-Field Dictation_.
 
 ![](./transcribing-dictation.assets/6590667d59df2937bccc52dd39d2c8c4.png)
 
@@ -136,7 +137,7 @@ When you have grabbed an encounter dictation to transcribe, the MIE Player with 
 
 ![](./transcribing-dictation.assets/b093ad4e7ff87cdcf6975f84bbcec9b5.png)
 
-To transcribe a multi-field dictation, you must click the *Click to Transcribe* hyperlink.
+To transcribe a multi-field dictation, you must click the _Click to Transcribe_ hyperlink.
 
 ![](./transcribing-dictation.assets/912a36e84a3e0e4af0dc6a3234d6e7e5.png)
 
@@ -144,7 +145,7 @@ When you click that, the multi-dictation sections of that specific patient's enc
 
 ![](./transcribing-dictation.assets/f8ef167bb898f6334f4867d6890cd05d.png)
 
-The transcriptionist should continue typing in the free text sections until done with the voice file of the multi-field encounter dictation. When done with that dictated job, you **must** click the *Done* button located in the MIE Dictation player window. Do not click the RED X at the top right corner to get out.
+The transcriptionist should continue typing in the free text sections until done with the voice file of the multi-field encounter dictation. When done with that dictated job, you **must** click the _Done_ button located in the MIE Dictation player window. Do not click the RED X at the top right corner to get out.
 
 ![](./transcribing-dictation.assets/ad11e4fa566988d3c4d7e7d711d7bf90.png)
 
@@ -156,14 +157,14 @@ When this box appears, you **MUST** click the underlined **Close link** to close
 
 Do not click the Red X box in the upper right hand corner of your screen to close out. This will not properly close the dictation and will not place it in the appropriate dictation tab.
 
-*If you click the red X box by mistake, the dictation will remain in the Pending or Incomplete tab instead of being properly closed and put in the Completed tab.*
+_If you click the red X box by mistake, the dictation will remain in the Pending or Incomplete tab instead of being properly closed and put in the Completed tab._
 
-The patient's encounter with the section free-text fields will still be open on your screen. This is what you typed/transcribed from that job. You now need to click the *SAVE* button which is located at the top or at the bottom.
+The patient's encounter with the section free-text fields will still be open on your screen. This is what you typed/transcribed from that job. You now need to click the _SAVE_ button which is located at the top or at the bottom.
 
 ![](./transcribing-dictation.assets/2fa670f58fdd12692c2fbb35d1791de3.png)
 
 {{% info %}}
-If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [*Encounters-Closing Dictation*](closing-encounters-from-the-dictation-module.md)*.*
+If your transcription department has been given rights to archive & close encounters from here (after transcribing the dictation), you should see the option and archive & close encounter. See other help documentation named [_Encounters-Closing Dictation_](closing-encounters-from-the-dictation-module.md)_._
 {{% /info %}}
 
 ![](./transcribing-dictation.assets/863d85c5b63bf62619f6f54ff63aa7e8.png)

@@ -1,19 +1,20 @@
 ---
-id: '1Z0c1FY1ZqEntX3pswcGHqWaRPELUHJXY_AA_bWqkRC0'
-title: 'Uncoded Medications Report'
-date: '2025-12-12T18:41:37.114Z'
+id: "1Z0c1FY1ZqEntX3pswcGHqWaRPELUHJXY_AA_bWqkRC0"
+title: "Uncoded Medications Report"
+date: "2025-12-12T18:41:37.114Z"
 version: 51
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1Z0c1FY1ZqEntX3pswcGHqWaRPELUHJXY_AA_bWqkRC0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1Z0c1FY1ZqEntX3pswcGHqWaRPELUHJXY_AA_bWqkRC0"
+wikigdrive: "v2.15.30"
 ---
+
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
 ## Uncoded Meds
 
-There is a report available from the *Reports* sidemenu tab. Found in the *Medications/Allergies/Scripts* bucket of reports, there is a report named *Uncoded Meds*.
+There is a report available from the _Reports_ sidemenu tab. Found in the _Medications/Allergies/Scripts_ bucket of reports, there is a report named _Uncoded Meds_.
 
 ![](./uncoded-medications-report.assets/c4ef6b9e9e838ded37a1096d89e7f352.png)
 

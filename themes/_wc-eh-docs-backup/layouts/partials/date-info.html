@@ -1,0 +1,21 @@
+<div class="row mt-2">
+  <div class="col-12">
+    <div class="card bg-transparent">
+      <div class="card-body">
+        <h4 class="card-title">{{ $.Site.Title }} Documentation</h4>
+        <p class="card-text">
+          <!-- Created Date -->
+          {{- $pubdate := .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 MST" }} Last Updated:
+          <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}"> {{ $pubdate }} </time>
+          <br />
+          <br />Last Build: {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }} {{ if .Params.wikigdrive }}
+          <br />WikiGDrive Version:
+          <a href="https://github.com/mieweb/wikiGDrive/commit/{{ .Params.wikigdrive}} " target="_blank"
+            >{{ .Params.wikigdrive}}</a
+          >
+          {{ end }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

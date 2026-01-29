@@ -1,16 +1,17 @@
 ---
-id: '1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-title: 'Provider Quality of Care Status'
-date: '2025-11-11T19:07:16.027Z'
+id: "1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4"
+title: "Provider Quality of Care Status"
+date: "2025-11-11T19:07:16.027Z"
 version: 48
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/reports/'
-  - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
-source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/reports/"
+  - "https://docs.enterprisehealth.com/functions/quality-of-care/"
+source: "https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4"
+wikigdrive: "v2.15.30"
 ---
+
 Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.
 
 To begin reviewing your compliance data, perform the following:

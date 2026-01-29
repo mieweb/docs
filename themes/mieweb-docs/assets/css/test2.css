@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Disable auto content detection */
+@source "none";
+
+/* Only scan theme files */
+@source "../../layouts/**/*.html";

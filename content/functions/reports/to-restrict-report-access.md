@@ -1,14 +1,15 @@
 ---
-id: '1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
-title: 'To Restrict Report Access'
-date: '2024-04-12T11:24:19.543Z'
+id: "1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg"
+title: "To Restrict Report Access"
+date: "2024-04-12T11:24:19.543Z"
 version: 166
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1GYFmbEH6_WAX9FHm6nAfTpxTCeVvx5NVvpAh1ZNdkUg"
+wikigdrive: "v2.15.30"
 ---
+
 System Reports can be accessed, restricted to only allowed users or allowed departments, and managed by admins who have security permission to Manage System Reports (Add/Edit).
 
 ![](./to-restrict-report-access.assets/230f6ab5afe758343ecb4f893786d6d9.png)
@@ -21,15 +22,15 @@ If a report is restricted, it is configured to permit only allowed users and/or
 
 ## How to Restrict System Reports
 
-Layouts and system reports are managed by the MIE Developers.  However, an admin (with appropriate security permission) can restrict or allow system reports to users and/or departments.
+Layouts and system reports are managed by the MIE Developers. However, an admin (with appropriate security permission) can restrict or allow system reports to users and/or departments.
 
-The name of the system report, that the general report points to, will be needed.  Please ask application support or your deployment consultant for additional help in finding the system report related to the report you wish to be restricted.
+The name of the system report, that the general report points to, will be needed. Please ask application support or your deployment consultant for additional help in finding the system report related to the report you wish to be restricted.
 
 Admins with security permission to add/edit Manage System Reports, can go in the Control Panel, navigate to the **System Report** hyperlink in the list, or click on the **System** tab to select **System Report** sub-tab.
 
 ![](./to-restrict-report-access.assets/bebf033443fd7798331f1f433f36a564.png)
 
-Begin typing the name of the system report and click **Search**. There may or may not be spaces in the name, but if you need any help, contact application support or your deployment consultant for additional help in finding the system report related to the report you wish to be restricted.  HINT: There is also an Advanced search method to find a specific system report.
+Begin typing the name of the system report and click **Search**. There may or may not be spaces in the name, but if you need any help, contact application support or your deployment consultant for additional help in finding the system report related to the report you wish to be restricted. HINT: There is also an Advanced search method to find a specific system report.
 
 In this guide, we will be restricting down the Sharps Log to be only allowed to be run by 2 specific end users.
 
@@ -41,7 +42,7 @@ Once the system report has been located, click the **Edit** link found to the ri
 
 Once in edit mode on the system report, the system report SQL/HTML coding will display in black area, and you need to scroll down to the bottom/end of the system report.
 
-The edit mode of the System Report will default to the *Report Info* view of the system report.
+The edit mode of the System Report will default to the _Report Info_ view of the system report.
 
 {{% warning %}}
 It is very important not to manipulate, add, or make edits to the SQL/HTML of the report itself. Any programming changes can cause the system report to break. Only utilize this page to restrict the report and designate allowed users and/or realms.
@@ -51,7 +52,7 @@ To restrict a system report, locate and checkmark the **Restricted** checkbox an
 
 ![](./to-restrict-report-access.assets/75b0e0c124ae5b97c94dcef72986daad.png)
 
-With the Restricted box checked, begin typing any *allowed* users and/or departments in the appropriate field and select. The allowed user and realm fields are auto-complete fields or drop-downs and you can only make selections from the choices, you cannot free-text. A restricted report can be allowed for entire realms/department or individual users as appropriate.  Populate as many as necessary. Any users or realms **not** listed as *allowed* will be restricted from this report.
+With the Restricted box checked, begin typing any _allowed_ users and/or departments in the appropriate field and select. The allowed user and realm fields are auto-complete fields or drop-downs and you can only make selections from the choices, you cannot free-text. A restricted report can be allowed for entire realms/department or individual users as appropriate. Populate as many as necessary. Any users or realms **not** listed as _allowed_ will be restricted from this report.
 
 ![](./to-restrict-report-access.assets/b911125607573c391c8da19521e0128f.png)
 
@@ -61,7 +62,7 @@ To remove an allowed user and/or department realm, simply highlight the name of 
 ![](./to-restrict-report-access.assets/b2639be5145e7fd71c9dae3a5efcca97.png)
 {{% /tip %}}
 
-When all Allowed Users/Realms are added, simply click the **Save** button to save your work of restricting the report.  The SAVE button is found at the top of the system report screen.
+When all Allowed Users/Realms are added, simply click the **Save** button to save your work of restricting the report. The SAVE button is found at the top of the system report screen.
 
 ![](./to-restrict-report-access.assets/1f791801c32d665afbbc71db22eddab8.png)
 
@@ -102,7 +103,7 @@ Once in edit mode, to restrict a menu item report, locate and checkmark the **Al
 
 ![](./to-restrict-report-access.assets/375a04d5e83c1faf57534ba8ffbaeb98.png)
 
-With the Restricted box checked, begin typing any *allowed* users and/or departments in the appropriate field and select. The allowed user and realm fields are auto-complete fields or drop-downs and you can only make selections from the choices, you cannot free-text.  A restricted report/menu item can be allowed for entire realms/department or individual users as appropriate.  Populate as many as necessary. Any users or departments **not** listed as *allowed* will be restricted from this report.
+With the Restricted box checked, begin typing any _allowed_ users and/or departments in the appropriate field and select. The allowed user and realm fields are auto-complete fields or drop-downs and you can only make selections from the choices, you cannot free-text. A restricted report/menu item can be allowed for entire realms/department or individual users as appropriate. Populate as many as necessary. Any users or departments **not** listed as _allowed_ will be restricted from this report.
 
 ![](./to-restrict-report-access.assets/57b82c6f7596979c2f517e2da6d8ffe9.png)
 
@@ -116,7 +117,7 @@ When all Allowed Users/Department realms are added to be allowed to the restrict
 
 ![](./to-restrict-report-access.assets/698218cb213e6e130997ee0b3f019540.png)
 
-When an end user is restricted from a menu item tab, the tab will be hidden from their view since they are not allowed to it.  End users who do have allowed permission to the menu item tab, will be able to access the tab.  
+When an end user is restricted from a menu item tab, the tab will be hidden from their view since they are not allowed to it. End users who do have allowed permission to the menu item tab, will be able to access the tab.  
 ![](./to-restrict-report-access.assets/845a54a4407e8a832bf7fb230ab1541e.png)
 
 Or the lack of permission to run the report may appear as a System Report Error message at the top right corner when they try to access/run a report if the report (menu item tab) is still listed in the catch-all list of available reports, with a message that they are restricted from viewing the report.

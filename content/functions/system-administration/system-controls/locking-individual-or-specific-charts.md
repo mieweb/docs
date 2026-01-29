@@ -1,15 +1,16 @@
 ---
-id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
-title: 'Locking Individual or Specific Charts'
-date: '2025-12-22T15:26:14.715Z'
+id: "15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA"
+title: "Locking Individual or Specific Charts"
+date: "2025-12-22T15:26:14.715Z"
 version: 102
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LTAIDNHR'
-source: 'https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LTAIDNHR"
+source: "https://drive.google.com/open?id=15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA"
+wikigdrive: "v2.15.30"
 ---
+
 A user with security can lock patient chart records which then can only be accessed by allowed users. If an individual patient's chart is locked from your view, it will state that in highlight on the E-Chart search screen. If you are allowed to access a locked patient's chart, you will not even see the **Locked** notification since it is not locked to you, the logged in user.
 
 ![](./locking-individual-or-specific-charts.assets/b60be5e5a865b4bef97b36e94d9269eb.png)
@@ -20,15 +21,15 @@ When you are locked from a patient's chart and click to get into that patient's 
 
 ## Lock a Chart
 
-You can lock a patient's chart if you have security permission to *Manage Patient Access*, then you can access the **Patient Restrictions** tab found in the Control Panel sidemenu tab.
+You can lock a patient's chart if you have security permission to _Manage Patient Access_, then you can access the **Patient Restrictions** tab found in the Control Panel sidemenu tab.
 
 ![](./locking-individual-or-specific-charts.assets/dea0f6d493002db666717f2b6f27c3a6.png)
 
-The *Patient Restrictions* tab is where you set restrictions on patient charts.
+The _Patient Restrictions_ tab is where you set restrictions on patient charts.
 
 ![](./locking-individual-or-specific-charts.assets/0c0250be5b01678c915bd16576b75199.png)
 
-When you are in the Patient Restrictions tab, it will list a section named *Patient Access List*. This is the list of patient charts that are locked. It also lists the number of Users that have *access* to that chart. Meaning those are the only users that can get into that patient's chart. Everyone else is locked from it.
+When you are in the Patient Restrictions tab, it will list a section named _Patient Access List_. This is the list of patient charts that are locked. It also lists the number of Users that have _access_ to that chart. Meaning those are the only users that can get into that patient's chart. Everyone else is locked from it.
 
 You may want to lock a patient's chart for an example of a physician's wife being seen or something like that.
 
@@ -46,7 +47,7 @@ When you click "Edit Lock" link you can see which {{% system-name %}} users are 
 
 If someone has access to the locked chart and you want them to now be locked out of it, you can simply click the [ - ] minus button in the options column on their username. Then click SUBMIT to save your work. The user will be removed from the "allowed users" list and will not be able to access that patient's chart anymore.
 
-If you need to add a user to be *allowed* into that patient's locked chart, you simply begin typing in their last or first name or login name in the *Username* field and the system will autocomplete to give you choices. Select the user that is to be allowed to access this locked patient's chart. Type in the reason, then click ADD button. Continue to add more users that are allowed to access this locked patient's chart. When done click the SUBMIT button to save your work.
+If you need to add a user to be _allowed_ into that patient's locked chart, you simply begin typing in their last or first name or login name in the _Username_ field and the system will autocomplete to give you choices. Select the user that is to be allowed to access this locked patient's chart. Type in the reason, then click ADD button. Continue to add more users that are allowed to access this locked patient's chart. When done click the SUBMIT button to save your work.
 
 Once you submit your work, your screen will refresh back to the Patient Restrictions page and the list will be updated.
 
@@ -82,4 +83,4 @@ Users can still index to a locked patient's chart and search for patients in rep
 
 To learn more about Locking Individual or Specific Charts, follow the link below to the Learning Management System course:
 
-* [Locking Charts, Emergency / Break the Glass Access](https://mie.talentlms.com/shared/start/key:LTAIDNHR)
+- [Locking Charts, Emergency / Break the Glass Access](https://mie.talentlms.com/shared/start/key:LTAIDNHR)

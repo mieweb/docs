@@ -1,36 +1,37 @@
 ---
-id: '179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-title: 'Chart Observations Import Options'
-date: '2025-11-12T20:34:57.836Z'
+id: "179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A"
+title: "Chart Observations Import Options"
+date: "2025-11-12T20:34:57.836Z"
 version: 53
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/'
-  - 'https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv'
-  - 'chart-data-csv-header-options.md'
-source: 'https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/"
+  - "https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv"
+  - "chart-data-csv-header-options.md"
+source: "https://drive.google.com/open?id=179G5TF3s37IzqNSRNBCsaa4GK6r678N4gB1dBk4TB_A"
+wikigdrive: "v2.15.30"
 ---
+
 The following options are allowed. Any other options are unsupported and will be rejected.
 
 ## Insert Options
 
-* REVISE
-* UPDATE
-* INSERT
-* DELETE_THEN_INSERT
+- REVISE
+- UPDATE
+- INSERT
+- DELETE_THEN_INSERT
 
 ## Blank Options
 
-* ALLOW_BLANK
-* DELETE_BLANK
-* IGNORE_BLANK
+- ALLOW_BLANK
+- DELETE_BLANK
+- IGNORE_BLANK
 
 ## Distinct Options
 
-* ALLOW_DUPLICATE
-* DISTINCT
+- ALLOW_DUPLICATE
+- DISTINCT
 
 ## Default Options
 
@@ -45,6 +46,7 @@ The following scenario provides examples of each type of processing possible for
 We will start with the contents of [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/).
 
 {{% pre %}}
+
 ```
 
 
@@ -56,16 +58,17 @@ We will start with the contents of [Observation Import](https://docs.enterprise
 5555,Test5,Employee,05/05/2005,R5,4.98,4.99,,H,27,30,High
 
 ```
+
 {{% /pre %}}
 
 After this file is loaded:
 
-* Each of the patients has a race of R5.
-* Each of the patients has two RBC results.
-* Each of the patients has an org level 1 entry, but Test5 has no result for it.
-* Each of the patients has an org level 2 entry, but Test1 has no result for it.
-* Each of the patients has two myObs1 results.
-* Each of the patients has a myObs2 result.
+- Each of the patients has a race of R5.
+- Each of the patients has two RBC results.
+- Each of the patients has an org level 1 entry, but Test5 has no result for it.
+- Each of the patients has an org level 2 entry, but Test1 has no result for it.
+- Each of the patients has two myObs1 results.
+- Each of the patients has a myObs2 result.
 
 ![](./chart-observations-import-options.assets/0f3e18d554c4bf28156130d42d6e0193.png)
 
@@ -82,6 +85,7 @@ After this file is loaded:
 The data will be changed by importing another file [File:GenericImportTestOBS B.csv](https://miewiki.med-web.com/wiki/index.php/File:GenericImportTestOBS_B.csv).
 
 {{% pre %}}
+
 ```
 
 
@@ -93,6 +97,7 @@ The data will be changed by importing another file [File:GenericImportTestOBS B
 5555,Test5,Employee,05/05/2005,R5,1/1/2016,4.9,1/2/2016,5.03,2/2/2016,,1/1/2016,H,1/1/2016,28,1/1/2016,Normal,1/1/2016
 
 ```
+
 {{% /pre %}}
 
 ### Import Logic
@@ -101,29 +106,29 @@ The imported file is processed as follows:
 
 #### Race
 
-* Test2 is unchanged, because blanks are ignored in this column.
-* Test4 is updated to R1 instead of R5.
+- Test2 is unchanged, because blanks are ignored in this column.
+- Test4 is updated to R1 instead of R5.
 
 #### RBC
 
-* All of the patients have two new RBC results, in addition to the previous results.
+- All of the patients have two new RBC results, in addition to the previous results.
 
 #### org level 1
 
-* Test3 is changed to B.
+- Test3 is changed to B.
 
 #### org level 2
 
-* Test2 is changed to F.
+- Test2 is changed to F.
 
 #### myObs1
 
-* All of the existing results are deleted and replaced with the new results (if any).
+- All of the existing results are deleted and replaced with the new results (if any).
 
 #### myObs2
 
-* Existing data is replaced with the new data.
-* Test4's result is deleted.
+- Existing data is replaced with the new data.
+- Test4's result is deleted.
 
 ![](./chart-observations-import-options.assets/c551ee278e6fb2d027cfb21cc5b634ce.png)
 

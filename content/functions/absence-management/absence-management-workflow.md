@@ -1,17 +1,18 @@
 ---
-id: '1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-title: 'Absence Management Workflow'
-date: '2025-02-26T17:59:34.675Z'
+id: "1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU"
+title: "Absence Management Workflow"
+date: "2025-02-26T17:59:34.675Z"
 version: 339
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - '../injury-care/adding-restrictions.md'
-  - 'https://mie.talentlms.com/shared/start/key:LQTIDNHR'
-source: 'https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU'
-wikigdrive: 'v2.15.30'
+  - "../injury-care/adding-restrictions.md"
+  - "https://mie.talentlms.com/shared/start/key:LQTIDNHR"
+source: "https://drive.google.com/open?id=1roXM4bfVNegGsN3YysFAf2cNeolfM4vpce6RmeImvZU"
+wikigdrive: "v2.15.30"
 ---
-A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information.  All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
+
+A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
 The terms *case* and *incident* may be used interchangeably throughout the system.
 
@@ -23,7 +24,6 @@ From the Quick Links Portlet, click the Add Absence Management Encounter. The Ab
 
 ## Set Protocol
 
-
 Open the Chief complaint section of the encounter and use the autocomplete to select the Absence Management protocol.
 
 ![](./absence-management-workflow.assets/a44494a9528f6f5b592eff1fe5e60caa.png)
@@ -34,12 +34,12 @@ Some workflows use various documents or various encounters and may need to be li
 
 By default, the Case section of encounters will display the following case types:
 
-* Injury (OSHA Standard)
-* Injury (Non-OSHA Standard)
-* Hospital
-* Absence Management
-* Medical Suitability for Expatriate Assignment (MSEA)
-* Medical Surveillance
+- Injury (OSHA Standard)
+- Injury (Non-OSHA Standard)
+- Hospital
+- Absence Management
+- Medical Suitability for Expatriate Assignment (MSEA)
+- Medical Surveillance
 
 ![](./absence-management-workflow.assets/895ee8d7d82d2149015041165ef84d4f.png)
 
@@ -53,7 +53,7 @@ Once the **Case** section is expanded, indicate which type of case to create on 
 
 After selecting to create an Absence Management case type, subsequent data fields branch open for documenting.  There are 2 required fields to capture before the system will save an Absence Management case to the chart. These are indicated by red asterisks. The other fields are optional and will most likely be keyed in at a later time, when managing the case throughout its life cycle.
 
-The application will auto calculate the *Number of calendar days absent* if the *First day off* and **either** the *Actual RTW date* or *Expected RTW date* are entered.
+The application will auto calculate the _Number of calendar days absent_ if the _First day off_ and **either** the _Actual RTW date_ or _Expected RTW date_ are entered.
 
 ![](./absence-management-workflow.assets/db4521d99edb4154d82ad96c384c9146.png)
 
@@ -63,7 +63,7 @@ Once the case type has been created, information can be updated as needed or use
 
 ## Plan Narrative Section
 
-The **Plan narrative** section provides several system default fields to capture various absence management data. Clients may customize this section to either add or remove data collection fields (system wide) via the flowsheet titled *Plan-Absence Management.*
+The **Plan narrative** section provides several system default fields to capture various absence management data. Clients may customize this section to either add or remove data collection fields (system wide) via the flowsheet titled _Plan-Absence Management._
 
 ![](./absence-management-workflow.assets/533c6a81dd8c5a335624305bbd45edcb.png)
 
@@ -103,7 +103,7 @@ The Absence Management Worklist can be configured to display from the Quick View
 
 ## Reports
 
-The Absence Management module comes with 1 standard report. This is a report of all historical and current cases. Users can limit and/or filter data by start date, end date, encounter status and leave types.  The report named *Leave Types* is found within the Visit bundle of reports.
+The Absence Management module comes with 1 standard report. This is a report of all historical and current cases. Users can limit and/or filter data by start date, end date, encounter status and leave types. The report named _Leave Types_ is found within the Visit bundle of reports.
 
 ![](./absence-management-workflow.assets/0c3fc93d16c33a2262e9380b1b6800f4.png)
 
@@ -138,6 +138,7 @@ The system comes with several standard emails which can be emailed to the employ
 ### Medical Leave of Absence (MLOA) Start
 
 ![](./absence-management-workflow.assets/82f8e1ccae6f5309bac131b03dae1cce.png)
+
 ### Medical Leave of Absence (MLOA) Extend
 
 ![](./absence-management-workflow.assets/4f9a095c2740da2f728fb1c25f143aa3.png)
@@ -150,4 +151,4 @@ The system comes with several standard emails which can be emailed to the employ
 
 To learn more about the Absence Management Workflow, follow the link below to the Learning Management System course:
 
-* [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)
+- [Absence Management](https://mie.talentlms.com/shared/start/key:LQTIDNHR)

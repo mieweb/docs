@@ -1,18 +1,19 @@
 ---
-id: '1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-title: 'CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)'
-date: '2022-04-20T13:53:16.615Z'
+id: "1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE"
+title: "CMS 135 - Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)"
+date: "2022-04-20T13:53:16.615Z"
 version: 42
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10'
-source: 'https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms135v10"
+source: "https://drive.google.com/open?id=1OzDs__SEnsAFmh1GuwxLwWJLq64KIdpXDe_bG5b1OPE"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS135v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS135v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -109,14 +110,13 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 
 ### New UI Visit Encounter (valid RC202109+)
 
-
 ### Original Visit Encounter
 
 Track all patients aged 18+ prescribed an ACE inhibitor or ARB therapy within a 12-month period of the diagnosis of heart failure with a current or prior left ventricular ejection fraction (LVEF) < 40%.
 
 1. Ensure patient has one of the following diagnoses:
-    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
+   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
 2. Numerator will be populated with patients prescribed an ACE inhibitor or ARB therapy within the measurement period.
 
 ## Evidence

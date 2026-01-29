@@ -1,28 +1,29 @@
 ---
-id: '1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-title: 'Audiogram Validation Test Script'
-date: '2026-01-06T18:06:24.167Z'
+id: "1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo"
+title: "Audiogram Validation Test Script"
+date: "2026-01-06T18:06:24.167Z"
 version: 94
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../../document-management/documents-and-forms/audiogram-data-entry.md'
-  - 'https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
-  - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
-  - 'https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_'
-  - 'https://docs.enterprisehealth.com/functions/reports/'
-source: 'https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo'
-wikigdrive: 'v2.15.30'
+  - "../../document-management/documents-and-forms/audiogram-data-entry.md"
+  - "https://drive.google.com/open?id=1-ROSCMRuk0f9p4Ut0uIYJPn2ks90BWg-"
+  - "https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/"
+  - "https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit"
+  - "https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_"
+  - "https://docs.enterprisehealth.com/functions/reports/"
+source: "https://drive.google.com/open?id=1g7ac-0fYJZz78LbTF6XkBU9gnOXObzb1_l9cZCO33eo"
+wikigdrive: "v2.15.30"
 ---
+
 This document is intended to describe and assist users with the process to validate audiogram results imported from another system.
 
 ## Requirements
 
-* Compile a list of 8-10 different charts containing individual audiogram data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, such as multiple Standard Threshold Shifts (STSs) and multiple baselines, to address potential import discrepancies that could arise.
-* Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
+- Compile a list of 8-10 different charts containing individual audiogram data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, such as multiple Standard Threshold Shifts (STSs) and multiple baselines, to address potential import discrepancies that could arise.
+- Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
 
 ## Data Fields
 
@@ -31,6 +32,7 @@ Validate the discrete values imported to {{% system-name %}} , listed in the tab
 {{% note %}}
 Some charts/records may not have all data elements, and in some circumstances, there may be additional data to validate. Check with the {{% system-name %}} superuser for details.
 {{% /note %}}
+
 <table>
 <tr>
 <td><strong>Field</strong></td>
@@ -156,20 +158,21 @@ Reference the [Audiogram Data Entry](../../document-management/documents-and-for
 1. Log into the {{% system-name %}} system.
 2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-    ![](./audiogram-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
+   ![](./audiogram-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
-* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
+- Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+- Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
 3. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-    ![](./audiogram-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+   ![](./audiogram-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+
 4. Select <strong>Audiogram</strong> from the Test Results chart tab.  
-    ![](./audiogram-validation-test-script.assets/9a7bb8b77bad67853b399785d15be97e.png)
+   ![](./audiogram-validation-test-script.assets/9a7bb8b77bad67853b399785d15be97e.png)
 
 {{% tip %}}
 The number in parenthesis indicates the number of items in each tab. 
@@ -177,28 +180,30 @@ The number in parenthesis indicates the number of items in each tab. 
 
 5. The audiograms are listed in reverse chronological order, with the most recent at the top. Locate the correct date of service and click to open and display the audiogram.
 
-    ![](./audiogram-validation-test-script.assets/e1a18f959d442492081dac7e73ecccce.png)
+   ![](./audiogram-validation-test-script.assets/e1a18f959d442492081dac7e73ecccce.png)
+
 6. Clicking into the most recent audiogram will display all results that have been entered.
 
-    ![](./audiogram-validation-test-script.assets/b3818d187cff450d6fdcc26b4727f4bd.png)
+   ![](./audiogram-validation-test-script.assets/b3818d187cff450d6fdcc26b4727f4bd.png)
+
 7. With the audiogram data displayed, begin comparing the data by toggling between the legacy system and the {{% system-name %}} system and validate. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import. 
-    * Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
-    * Validate the correct location and and by whom the test was administered.
+   - Be sure to validate each data element, data/time of test, each baseline, including current baseline(s), and any shifts (STSs).
+   - Validate the correct location and and by whom the test was administered.
 
 {{% note %}}
-The *Location* may be listed as the name of the legacy system (e.g., OHM), and the *Author/Administered By* may be listed as **Import User**.
+The _Location_ may be listed as the name of the legacy system (e.g., OHM), and the _Author/Administered By_ may be listed as **Import User**.
 {{% /note %}}
 
 8. Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    * Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    * Contact {{% system-name %}} with the findings.
+   - Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+   - Contact {{% system-name %}} with the findings.
 
 ## [Reports](https://drive.google.com/open?id=1-ZKbOBVwYLcXZw70rrazFdRmblgKVHO_)
 
 The **Audiogram Report** and **Audiometric Testing** reports are particularly helpful in validating data between systems.
 
-* <strong>Audiogram Report:</strong> Shows details based on search criteria.
-* <strong>Audiometric Testing Report:</strong> Displays STS information and OSHA recordable status.
+- <strong>Audiogram Report:</strong> Shows details based on search criteria.
+- <strong>Audiometric Testing Report:</strong> Displays STS information and OSHA recordable status.
 
 To access and utilize these reports:
 
@@ -209,14 +214,13 @@ To access and utilize these reports:
 
 3. Criteria may be added to filter or drill down data.
 
-* Audiogram Report
+- Audiogram Report
 
 ![](./audiogram-validation-test-script.assets/b4ae1ca29ef241b7336f067b115dabe2.png)
 
-* Audiometric Testing Report
+- Audiometric Testing Report
 
 ![](./audiogram-validation-test-script.assets/f3213f80468c0dd42afec047e4abe89a.png)
-
 
 ## FAQs
 

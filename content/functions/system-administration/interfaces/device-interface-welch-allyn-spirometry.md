@@ -1,16 +1,17 @@
 ---
-id: '1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'
-title: 'Device Interface - Welch Allyn Spirometry'
-date: '2020-02-27T20:28:56.204Z'
+id: "1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0"
+title: "Device Interface - Welch Allyn Spirometry"
+date: "2020-02-27T20:28:56.204Z"
 version: 43
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1ERuxHIyjMqRHm98pmeU7xyvq_t7sRKZJMBGh3Fj-Jd0"
+wikigdrive: "v2.15.30"
 ---
+
 The following is referring to a Welch Allyn CardioPerfect spirometry system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 
-From the chart tab named *PFT* or while working inside an encounter in the PFT section of fields that opens up, make sure the "file type" is correctly defaulted/selected for your spirometry device (CardioPerfect is what these instructions are for).
+From the chart tab named _PFT_ or while working inside an encounter in the PFT section of fields that opens up, make sure the "file type" is correctly defaulted/selected for your spirometry device (CardioPerfect is what these instructions are for).
 
 ![](./device-interface-welch-allyn-spirometry.assets/278bd91e8673a0fddf083772fb20031f.png)
 
@@ -26,7 +27,7 @@ Select the **Spirometry** button on the Welch Allyn CardioPerfect screen.
 
 ![](./device-interface-welch-allyn-spirometry.assets/e38d11d4eaa80d608699a5663a92d0ca.png)
 
-It should populate the patient's information in the fields on the screen titled *New Spirometry Test*. If not, you will need to manually input the data then click the *next* button.
+It should populate the patient's information in the fields on the screen titled _New Spirometry Test_. If not, you will need to manually input the data then click the _next_ button.
 
 ![](./device-interface-welch-allyn-spirometry.assets/b7f3686854718c2676bc3f0979bfe638.png)
 
@@ -54,13 +55,13 @@ The **Load Data** section will be highlighted (both lines/files). Click the **Up
 
 ![](./device-interface-welch-allyn-spirometry.assets/22f0bf3007795c34afa926cd24d07ff6.png)
 
-If you did not select a *Reason for Test* in the PFT screen in {{% system-name %}} , it will now alert you of that. You can continue through and click OK through the alert telling you no reason for test was selected.
+If you did not select a _Reason for Test_ in the PFT screen in {{% system-name %}} , it will now alert you of that. You can continue through and click OK through the alert telling you no reason for test was selected.
 
 ![](./device-interface-welch-allyn-spirometry.assets/c3bf54cde122755049dfe873ed8d355e.png)
 
 ![](./device-interface-welch-allyn-spirometry.assets/c3d77a1521043e4c5520e2a25796cb49.png)
 
-If you did not type in any *comments* in the PFT screen in {{% system-name %}} , it will now alert you of that also. You can continue through and click OK through the alert telling you no comment has been entered.
+If you did not type in any _comments_ in the PFT screen in {{% system-name %}} , it will now alert you of that also. You can continue through and click OK through the alert telling you no comment has been entered.
 
 ![](./device-interface-welch-allyn-spirometry.assets/acbb3262c14eb8807b1226c72a817524.png)
 

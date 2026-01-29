@@ -1,21 +1,22 @@
 ---
-id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-title: 'Create Language Translation File for Import'
-date: '2025-03-21T18:04:56.638Z'
+id: "1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A"
+title: "Create Language Translation File for Import"
+date: "2025-03-21T18:04:56.638Z"
 version: 75
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry'
-source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
-wikigdrive: 'v2.15.30'
+  - "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+source: "https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A"
+wikigdrive: "v2.15.30"
 ---
+
 This document explains how to import your language translation data into  {{% system-name %}} .
 
 What you will need:
 
-* Spreadsheet software (Microsoft Excel or Google Sheets)
-* End user with administrative rights
+- Spreadsheet software (Microsoft Excel or Google Sheets)
+- End user with administrative rights
 
 ## Create Language Translation Text File
 
@@ -80,12 +81,12 @@ In Excel, save the sheet as Unicode Text.  This is important because **saving a
 
 ## Example Files
 
-* - UTF-8 encoded (preferred format for manually constructed files)
-* - UTF-16LE encoded (accepted format for export from Excel)
+- - UTF-8 encoded (preferred format for manually constructed files)
+- - UTF-16LE encoded (accepted format for export from Excel)
 
 ## Resources
 
-* [Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+- [Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
 
 ## Troubleshooting
 

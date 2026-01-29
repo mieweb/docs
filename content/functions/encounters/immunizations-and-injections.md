@@ -1,43 +1,44 @@
 ---
-id: '1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
-title: 'Immunizations and Injections'
-date: '2025-11-25T17:58:02.628Z'
+id: "1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4"
+title: "Immunizations and Injections"
+date: "2025-11-25T17:58:02.628Z"
 version: 121
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1MnYbwqvlvIGepm9zr0YsKfe7sHvR29Y034QzNMLFLp4"
+wikigdrive: "v2.15.30"
 ---
-The *Immunization / Injections* encounter section displays by default in the visit encounter Subjective. If the patient/employee has known immunizations or injections documented in the chart, the section here will display in a bulleted list on the left side of the Immunizations / Injections encounter section. Hovering over the imm/inj list will display options to manage each historical immunization or injection.
+
+The _Immunization / Injections_ encounter section displays by default in the visit encounter Subjective. If the patient/employee has known immunizations or injections documented in the chart, the section here will display in a bulleted list on the left side of the Immunizations / Injections encounter section. Hovering over the imm/inj list will display options to manage each historical immunization or injection.
 
 ![](./immunizations-and-injections.assets/340de8a317c89fed578ec72c84e5d176.png)
 
 ![](./immunizations-and-injections.assets/1f5526a0699824cec1437d9277aecb72.png)
-  Opens the *Edit Injection* screen. Users can modify existing imm/inj, add date, as well as document a reaction or Add a task.
+Opens the _Edit Injection_ screen. Users can modify existing imm/inj, add date, as well as document a reaction or Add a task.
 
 ![](./immunizations-and-injections.assets/b57b481361bfe48af0d56ab1f952df0e.png)
 
 ![](./immunizations-and-injections.assets/81be7fb05b33662fef9166b9af63cb3d.png)
- Opens the *Delete Injection* screen. Users will be required to click the Delete button a second time to verify that they truly wish to delete the injection record.
+Opens the _Delete Injection_ screen. Users will be required to click the Delete button a second time to verify that they truly wish to delete the injection record.
 
 ![](./immunizations-and-injections.assets/97456802cffaf159877a01ef013fac39.png)
 
 ![](./immunizations-and-injections.assets/782d8f964ad0afc9fd098fc353d36096.png)
-  Opens the *Add Task* screen. *Add Task* allows the user to task a department or individual user with a task note regarding this injection record.
+Opens the _Add Task_ screen. _Add Task_ allows the user to task a department or individual user with a task note regarding this injection record.
 
 ![](./immunizations-and-injections.assets/ce70ea1ed409f35a56519b2a958c8790.png)
 
 ![](./immunizations-and-injections.assets/ef96d008cdb993e4655145ba38cc4ce6.png)
-   Click to drag and drop and reorder the historical injection record as they display on the Immunizations / Injections section list.
+Click to drag and drop and reorder the historical injection record as they display on the Immunizations / Injections section list.
 
 ## Using the Immunization / Injection Quick List
 
-Click the "double arrow up or down" icons to open/close all Quick List items in the *Immunizations / Injections* encounter section all at once. Or the "single arrow up or down" to open or close each individual Quick List section.
+Click the "double arrow up or down" icons to open/close all Quick List items in the _Immunizations / Injections_ encounter section all at once. Or the "single arrow up or down" to open or close each individual Quick List section.
 
 ![](./immunizations-and-injections.assets/7a9a0b0db04e28ead8788dd5950e6f25.png)
 
-Click either "+" button to add a historical injection record not already populated on the Quick List. Adding injection records in this method will open the *Add Injection* screen and the user may use the autocomplete to search for an injection name.
+Click either "+" button to add a historical injection record not already populated on the Quick List. Adding injection records in this method will open the _Add Injection_ screen and the user may use the autocomplete to search for an injection name.
 
 ![](./immunizations-and-injections.assets/f82b8ffa6641a53426bd5215120dd2e0.png)
 
@@ -47,7 +48,7 @@ Begin to type in the name of a specific injection name in the Search field, then
 
 ![](./immunizations-and-injections.assets/d4dc50c5cc8dfa9dde9674f29c4032cf.png)
 
-When using the Search field prior to clicking the "+" button, the user will see a partial list of options in the *Add Injection* screen. If the search option is not used in the Quick List, and users simply click on the "+" button, the injection dropdown will not pre populate with options. Once the *Add Injection* screen displays, select an option from the injection name dropdown list or begin typing the injection name.
+When using the Search field prior to clicking the "+" button, the user will see a partial list of options in the _Add Injection_ screen. If the search option is not used in the Quick List, and users simply click on the "+" button, the injection dropdown will not pre populate with options. Once the _Add Injection_ screen displays, select an option from the injection name dropdown list or begin typing the injection name.
 
 ![](./immunizations-and-injections.assets/d3d5340e9bcd5609118b02578776cf21.png)
 

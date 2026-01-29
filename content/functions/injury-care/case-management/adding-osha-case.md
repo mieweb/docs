@@ -1,16 +1,17 @@
 ---
-id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
-title: 'Adding OSHA Case'
-date: '2025-12-01T21:48:50.653Z'
+id: "1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg"
+title: "Adding OSHA Case"
+date: "2025-12-01T21:48:50.653Z"
 version: 177
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../adding-restrictions.md'
-  - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
-source: 'https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
-wikigdrive: 'v2.15.30'
+  - "../adding-restrictions.md"
+  - "https://mie.talentlms.com/shared/start/key:ALTHRKMF"
+source: "https://drive.google.com/open?id=1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg"
+wikigdrive: "v2.15.30"
 ---
+
 A case is a full report of a workplace injury, or incident, for an employee (patient). The case is created in an initial visit (encounter), and is then linked to subsequent visits. A case links all follow up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes. There are several case types, which designate different required fields as well as state specific incident questions and forms. The terms case and incident may be used interchangeably in a system.
 
 ## Create a New Injury OSHA Case
@@ -59,7 +60,7 @@ The work related section is to document details regarding if the incident is wor
 
 The field Date Determined Recordable means it's an OSHA reportable injury or illness.  If a date is entered into this field, this case/incident details will populate on the OSHA log report.
 
-If the System Setting *Workers Comp Fields* is disabled, the fields *Record Only*, *Do you question the validity of the claim?*, and *Reason for questioning the validity of this claim* will no longer be displayed. By default, this setting is enabled. These fields are primarily used for a workers' comp integration.
+If the System Setting _Workers Comp Fields_ is disabled, the fields _Record Only_, _Do you question the validity of the claim?_, and _Reason for questioning the validity of this claim_ will no longer be displayed. By default, this setting is enabled. These fields are primarily used for a workers' comp integration.
 
 ![](./adding-osha-case.assets/3edbaef66ff23be62e846e6dc1abb271.png)
 
@@ -75,7 +76,7 @@ Onsite Location: If selecting Onsite Location as to where the injury/illness occ
 
 Select Supervisor field: Supervisor selections in this auto-complete field in the case is not necessarily the employee's supervisor, so we output selection choices (in this auto-complete) of anyone who has a ‘supervisor' relationship in the system, not just limiting to supervisors directly from the employee chart being worked in.
 
-If the System Setting *Select Supervisor* is disabled, the field *Please select supervisor* will no longer display within the ‘onsite location' fields. By default, the system setting is enabled. This field is primarily used for workers' comp integration. In addition, users may also input any supervisor in the Authorized Users section at the bottom of the Case section.
+If the System Setting _Select Supervisor_ is disabled, the field _Please select supervisor_ will no longer display within the ‘onsite location' fields. By default, the system setting is enabled. This field is primarily used for workers' comp integration. In addition, users may also input any supervisor in the Authorized Users section at the bottom of the Case section.
 
 NOTE: Supervisor(s) of an onsite location where an injury/illness occurred may not necessarily the employee's supervisor, so the auto-complete field outputs search choices of anyone who has a ‘supervisor' relationship in the system, not just limiting to supervisors directly from the employee chart being worked in.
 
@@ -155,7 +156,7 @@ Various forms, in forms library, can be programmed to pull in case data details 
 
 ## Add Case from an Incident Report via the Portal
 
-If an employee has reported an incident via the employee portal, a document summarizing that information is available in the employee chart. The document is stored with the document type description **Questionnaire-Report Injury or Illness**.  Workflows may be configured based on need to task these documents to an individual or department such as Nursing, Case Management or Safety Team for review. Once the report has been reviewed by the appropriate personnel and it is deemed that it should be made into a case, click the **Add Case** button from the **Questionnaire-Report Injury or Illness** summary document.
+If an employee has reported an incident via the employee portal, a document summarizing that information is available in the employee chart. The document is stored with the document type description **Questionnaire-Report Injury or Illness**. Workflows may be configured based on need to task these documents to an individual or department such as Nursing, Case Management or Safety Team for review. Once the report has been reviewed by the appropriate personnel and it is deemed that it should be made into a case, click the **Add Case** button from the **Questionnaire-Report Injury or Illness** summary document.
 
 ![](./adding-osha-case.assets/3417efe3c3c6e11bb9484210b4ead54e.png)
 
@@ -175,4 +176,4 @@ Once linked, the case will default to the Injury (OSHA Standard) Case Type. The 
 
 To learn more about Adding an OSHA Case, follow the link below to the Learning Management System course:
 
-* [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
+- [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)

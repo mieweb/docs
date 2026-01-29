@@ -1,17 +1,18 @@
 ---
-id: '198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0'
-title: 'AHE 2 - Leveraging a QCDR to Standardize Processes for Screening'
-date: '2020-02-27T20:48:49.903Z'
+id: "198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0"
+title: "AHE 2 - Leveraging a QCDR to Standardize Processes for Screening"
+date: "2020-02-27T20:48:49.903Z"
 version: 19
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=198p0hKvAsQuP1TewGw6uj4mIQH2xIXLAWTBnw65E3e0"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Achieving Health Equity

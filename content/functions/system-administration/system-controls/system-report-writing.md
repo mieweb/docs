@@ -1,14 +1,15 @@
 ---
-id: '1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-title: 'System Report Writing'
-date: '2025-11-12T14:09:24.882Z'
+id: "1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4"
+title: "System Report Writing"
+date: "2025-11-12T14:09:24.882Z"
 version: 1711
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1kvN6W9kFSzR6njvg1ufm3anrTBixBWLJZacjdLmYra4"
+wikigdrive: "v2.15.30"
 ---
+
 This documentation applies to writing a system report in the system report writer as well as in layouts with a query in an {{#each}} statement or the legacy <WCQUERY> tag. For our customers with ODBC connections, this document is a good primer for understanding key parts of the schema.
 
 # Starting a System Report
@@ -28,12 +29,12 @@ INNER JOIN encounter_documents e ON e.doc_id=d.doc_id
 LEFT JOIN encounters_link el ON el.encounter_id=e.encounter_id AND el.module=6
 LEFT JOIN patient_conditions pc ON pc.cond_id=el.linked_id
 
--- module=5 are any documents linked to the encounter such as 
+-- module=5 are any documents linked to the encounter such as
 -- order requisitions created while the encounter was current
 LEFT JOIN encounters_link el2 ON el2.encounter_id=e.encounter_id AND el2.module=5
 LEFT JOIN documents d2 ON d2.doc_id=el.linked_id
 
--- Find documents that were archived in the last week by encounters that 
+-- Find documents that were archived in the last week by encounters that
 -- use the WCEXAM document type. storage_type=4 are HTML documents.
 WHERE d.service_date>=DATE_SUB(CURDATE(), INTERVAL 1 WEEK) AND d.doc_type='WCEXAM'
 AND d.storage_type=4
@@ -57,69 +58,69 @@ There is a newer model browser available from the Model button. You can search f
 
 Encounters_link is in this example because it is not easy to understand just by looking at the database. The module column is an integer with values defined in code. Here are those values from our code.
 
-#define ENC_LINK_MOD_MEDS           0  // Table: rxlist
+#define ENC_LINK_MOD_MEDS 0 // Table: rxlist
 
-#define ENC_LINK_MOD_CONDS          1  // Table: patient_conditions
+#define ENC_LINK_MOD_CONDS 1 // Table: patient_conditions
 
-#define ENC_LINK_MOD_CONDS_FAM      2  // Table: patient_conditions_family
+#define ENC_LINK_MOD_CONDS_FAM 2 // Table: patient_conditions_family
 
-#define ENC_LINK_MOD_OBS            3  // Table: observations
+#define ENC_LINK_MOD_OBS 3 // Table: observations
 
-#define ENC_LINK_MOD_ENC_EXT        4  // Table: NONE; I don't believe that this guy really belongs here. it's more of a hack for WCPATVIEWENCOUNTER tags.
+#define ENC_LINK_MOD_ENC_EXT 4 // Table: NONE; I don't believe that this guy really belongs here. it's more of a hack for WCPATVIEWENCOUNTER tags.
 
-#define ENC_LINK_MOD_DOCUMENT       5  // Table: documents
+#define ENC_LINK_MOD_DOCUMENT 5 // Table: documents
 
-#define ENC_LINK_MOD_ASSESS         6  // Table: patient_conditions; An assessment is an encounter link with a condition signifying that it is relevant to the encounter
+#define ENC_LINK_MOD_ASSESS 6 // Table: patient_conditions; An assessment is an encounter link with a condition signifying that it is relevant to the encounter
 
-#define ENC_LINK_MOD_ENC_SELF       7  // Table: encounters; An identity relationship.  Just used for user_tran_stats right now.
+#define ENC_LINK_MOD_ENC_SELF 7 // Table: encounters; An identity relationship. Just used for user_tran_stats right now.
 
-#define ENC_LINK_MOD_INCIDENT       8  // Table: incidents
+#define ENC_LINK_MOD_INCIDENT 8 // Table: incidents
 
-#define ENC_LINK_MOD_CLINRESTRICT   9  // Table: patient_clinical_restrictions
+#define ENC_LINK_MOD_CLINRESTRICT 9 // Table: patient_clinical_restrictions
 
-#define ENC_LINK_MOD_ENC_CC     10  // Table: NONE; I don't believe that this guy really belongs here. it's more of a hack for WCPATVIEWENCOUNTER tags.
+#define ENC_LINK_MOD_ENC_CC 10 // Table: NONE; I don't believe that this guy really belongs here. it's more of a hack for WCPATVIEWENCOUNTER tags.
 
-#define ENC_LINK_MOD_PREOP_ASSESS 11  // Table: patient_conditions; Pre-operative Assessment -- Similar to Type ENC_LINK_MOD_ASSESS
+#define ENC_LINK_MOD_PREOP_ASSESS 11 // Table: patient_conditions; Pre-operative Assessment -- Similar to Type ENC_LINK_MOD_ASSESS
 
-#define ENC_LINK_MOD_POSTOP_ASSESS 12  // Table: patient_conditions; Post-operative Assessment -- Similar to Type ENC_LINK_MOD_ASSESS
+#define ENC_LINK_MOD_POSTOP_ASSESS 12 // Table: patient_conditions; Post-operative Assessment -- Similar to Type ENC_LINK_MOD_ASSESS
 
-#define ENC_LINK_MOD_PAT_PROC       13 // Table: patient_procedures
+#define ENC_LINK_MOD_PAT_PROC 13 // Table: patient_procedures
 
-#define ENC_LINK_MOD_PROC_CODE      14 // Table: bill_procedure_codes
+#define ENC_LINK_MOD_PROC_CODE 14 // Table: bill_procedure_codes
 
-#define ENC_LINK_MOD_INSURANCE      15 // Table: insurance_policy
+#define ENC_LINK_MOD_INSURANCE 15 // Table: insurance_policy
 
-#define ENC_LINK_MOD_ACCOMMODATION  16 // Table: accommodations
+#define ENC_LINK_MOD_ACCOMMODATION 16 // Table: accommodations
 
-#define ENC_LINK_MOD_APPOINTMENT    17
+#define ENC_LINK_MOD_APPOINTMENT 17
 
-#define ENC_LINK_MOD_BILL_TRX       18 // Table: transactions.trx_id
+#define ENC_LINK_MOD_BILL_TRX 18 // Table: transactions.trx_id
 
-#define ENC_LINK_MOD_LAB_REQUESTS   19 // Table: lab_requests
+#define ENC_LINK_MOD_LAB_REQUESTS 19 // Table: lab_requests
 
-#define ENC_LINK_MOD_USER_ENTITY    20 // Table: users
+#define ENC_LINK_MOD_USER_ENTITY 20 // Table: users
 
-#define ENC_LINK_MOD_ORGANIZER      21 // Table: Encounter (Represents a CDA "Organizer" for values that is connected to an encounter)
+#define ENC_LINK_MOD_ORGANIZER 21 // Table: Encounter (Represents a CDA "Organizer" for values that is connected to an encounter)
 
-#define ENC_LINK_MOD_LOCATION       22 // Table: location
+#define ENC_LINK_MOD_LOCATION 22 // Table: location
 
-#define ENC_LINK_MOD_INJECTION      23 // Table: injections (immunizations)
+#define ENC_LINK_MOD_INJECTION 23 // Table: injections (immunizations)
 
-#define ENC_LINK_MOD_ALLERGY        24 // Table: rxlist_allergylist
+#define ENC_LINK_MOD_ALLERGY 24 // Table: rxlist_allergylist
 
-#define ENC_LINK_MOD_PROCEDURE      25 // Table: patient_procedures
+#define ENC_LINK_MOD_PROCEDURE 25 // Table: patient_procedures
 
-#define ENC_LINK_MOD_CAREPLAN       26 //
+#define ENC_LINK_MOD_CAREPLAN 26 //
 
-#define ENC_LINK_MOD_PANEL_STATUS   27 // Table: patient_panel_status
+#define ENC_LINK_MOD_PANEL_STATUS 27 // Table: patient_panel_status
 
-#define ENC_LINK_MOD_PAT_TARGET     28 // Table: patient_targets
+#define ENC_LINK_MOD_PAT_TARGET 28 // Table: patient_targets
 
-#define ENC_LINK_MOD_ENC_BILLING    29 // Table: encounter_billing
+#define ENC_LINK_MOD_ENC_BILLING 29 // Table: encounter_billing
 
-#define ENC_LINK_MOD_ENC_ORDER      30 // Table: encounter_orders
+#define ENC_LINK_MOD_ENC_ORDER 30 // Table: encounter_orders
 
-#define ENC_LINK_MOD_INVALID        31 // NOTE: place new modules before me and change my value
+#define ENC_LINK_MOD_INVALID 31 // NOTE: place new modules before me and change my value
 
 ## Most patient data is a document
 
@@ -154,6 +155,7 @@ Both lab results and answers to questions on a questionnaire store
 as a document with storage_type=13.
 
 This is an example of how we query a lab result / questionnaire
+
 ```
 SELECT d.doc_id,o.obs_name,o.obs_result,o.obs_range,o.obs_units,o.obs_flag,
 o.free_text,o.test_comments
@@ -235,7 +237,7 @@ AND ((up.id IS NOT NULL OR ur.realm IS NOT NULL))
 
 ### ATTENTION
 
-We **DO NOT** use the pat_restrict_join/where on Employer/Supervisor reports because that will require that Supervisors and Subordinates have to have the Portal User user-patient relationship!  If you need to restrict Employer/Supervisor reports, add restrictions right on the system report reference in the corresponding editor.
+We **DO NOT** use the pat_restrict_join/where on Employer/Supervisor reports because that will require that Supervisors and Subordinates have to have the Portal User user-patient relationship! If you need to restrict Employer/Supervisor reports, add restrictions right on the system report reference in the corresponding editor.
 
 ## SQL Variables
 
@@ -246,6 +248,7 @@ URL: webchart.cgi?f=ajaxget&s=system_report&report_name=MySystemReport&last_name
 ```
 
 MySystemReport
+
 ```
 SELECT first_name,last_name
 FROM patients
@@ -259,6 +262,7 @@ URL: webchart.cgi?f=ajaxget&s=system_report&report_name=MySystemReport&last_name
 ```
 
 MySystemReport
+
 ```
 SELECT first_name,last_name
 FROM patients
@@ -271,17 +275,20 @@ AND pat_id IN (@pat_id%u)
 You can write SQL that you want to use in multiple reports and reference it. This helps simplify maintaining the shared SQL. $wcinclude|report name$ will be replaced with the SQL in the referenced system report.
 
 MyTestPatientJoin
+
 ```
 LEFT JOIN patient_extended_values AS px ON px.pat_id = p.pat_id AND px.ext_id = (SELECT ext_id FROM patient_extended_index WHERE name = ‘excluded_from_quality_care') AND px.value = ‘1'
 ```
 
 MyTestPatientWhere
+
 ```
 AND px.pat_id IS NULL
 
 ```
 
 MySampleReport
+
 ```
 SELECT p.last_name
 FROM

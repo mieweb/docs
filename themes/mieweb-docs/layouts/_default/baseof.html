@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}" class="{{ if eq .Site.Params.Brand.code "eh" }}brand-eh{{ else }}brand-wc{{ end }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  {{- /* Title */}}
+  {{ if eq .Title "_index" }}
+  <title>{{ .Site.Title }} :: Documentation Home</title>
+  {{ else }}
+  <title>{{ .Site.Title }} :: {{ .Title }}</title>
+  {{ end }}
+
+  {{- /* Meta tags */}}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  
+  {{- /* Favicons */}}
+  <link rel="icon" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/favicon.png" type="image/png">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/icon-192.png" sizes="192x192">
+  
+  {{- /* Preconnect for fonts */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  {{- /* Tailwind CSS processed via PostCSS */}}
+  {{ $tailwind := resources.Get "css/tailwind.css" | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $tailwind = $tailwind | resources.Minify | resources.Fingerprint "sha512" }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $tailwind.Data.Integrity }}"{{ end }}>
+  
+  {{- /* Custom styles */}}
+  {{ $css := resources.Get "css/main.css" }}
+  {{ if $css }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ end }}
+  
+  {{- /* Structured data for breadcrumbs */}}
+  {{ if gt (len (split .RelPermalink "/")) 2 }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{{ $rellink := "" }}{{ range $index, $element := (split .RelPermalink "/") }}{{ if gt (len .) 0 }}{{ $rellink = printf "%s/%s" $rellink . }}{{ if gt $index 1 }},{{ end }}{
+      "@type": "ListItem",
+      "position": {{ $index }},
+      "name": "{{ humanize . }}",
+      "item": "{{ $.Site.BaseURL }}{{ $rellink }}"
+    }{{ end }}{{ end }}]
+  }
+  </script>
+  {{ end }}
+  
+  <script>
+    window.BaseURL = "{{ .Site.BaseURL }}";
+    window.BrandCode = "{{ .Site.Params.Brand.code }}";
+    
+    // Theme detection
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
+</head>
+
+<body class="bg-background text-foreground antialiased" data-page="{{ .Page.Params.id }}">
+  {{ block "main" . }}{{ end }}
+  
+  {{- /* Main JavaScript bundle */}}
+  {{ $js := resources.Get "js/main.js" }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | resources.Minify | resources.Fingerprint "sha512" }}
+  {{ end }}
+  <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
+  
+  {{- /* Lunr.js for search */}}
+  {{ $lunr := resources.Get "js/vendor/lunr.min.js" }}
+  {{ if $lunr }}
+  <script src="{{ $lunr.RelPermalink }}" defer></script>
+  {{ end }}
+  
+  {{- /* Highlight.js for code blocks */}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" media="(prefers-color-scheme: dark)">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
+  <script>document.addEventListener('DOMContentLoaded', () => hljs.highlightAll());</script>
+</body>
+</html>

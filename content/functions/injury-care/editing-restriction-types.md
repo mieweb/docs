@@ -1,15 +1,16 @@
 ---
-id: '1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
-title: 'Editing Restriction Types'
-date: '2024-07-11T20:23:55.263Z'
+id: "1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
+title: "Editing Restriction Types"
+date: "2024-07-11T20:23:55.263Z"
 version: 130
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
-source: 'https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:ALEHRKMF"
+source: "https://drive.google.com/open?id=1CP3XnZGIC393d5tXYOAFsDa_IO-Am7l_OqY8N1U5sLE"
+wikigdrive: "v2.15.30"
 ---
+
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related) when working in charts. Personnel may initiate an encounter to document and authorize work restrictions. The types of clinical restrictions choices available for staff to document, when working in charts, is customizable for the {{% system-name %}} system.
 
 From the Control sidemenu tab, find and click the Restrictions Type tab.  A list of all clinical restriction types that are offered will display on the screen in alphabetical order.
@@ -38,9 +39,9 @@ A new pop-up displays to allow you to select the format of the new restriction t
 
 ![](./editing-restriction-types.assets/b39a850d12a2adba290087f29bef7cf6.png)
 
-* Option Type field offers two types to select from:
-    * Discrete Value: if selected, it will allow users to free text restriction details when the main restriction type is documented in a chart.
-    * Selected Values: if selected, it will offer users a drop-down of specific restriction details for the main restriction type being added to the system.  When the new restriction type is documented in a chart, another discrete list of choices regarding the restriction type will appear for users to select a more granular value for the restriction.
+- Option Type field offers two types to select from:
+  - Discrete Value: if selected, it will allow users to free text restriction details when the main restriction type is documented in a chart.
+  - Selected Values: if selected, it will offer users a drop-down of specific restriction details for the main restriction type being added to the system.  When the new restriction type is documented in a chart, another discrete list of choices regarding the restriction type will appear for users to select a more granular value for the restriction.
 
 ### Entering a Discrete Value
 
@@ -93,7 +94,7 @@ Here is an example of the Allowed weight checkmarked for the restriction type �
 
 3. It is here, after selecting a selected value, that a 3rd field would open to display specific increments of allowed weight if the restriction type was set to allow weight (the checkbox in the editor) and if the system has the setting enabled to use allowed weight.
 
-    ![](./editing-restriction-types.assets/5317941157a164de2c640c80a094894b.png)
+   ![](./editing-restriction-types.assets/5317941157a164de2c640c80a094894b.png)
 
 ## Edit or Delete Restriction Type(s)
 
@@ -113,4 +114,4 @@ Once deletion is confirmed, it will display a successfully deleted restriction t
 
 To learn more about Editing Restriction Types, follow the link below to the Learning Management System course:
 
-* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
+- [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)

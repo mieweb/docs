@@ -1,51 +1,52 @@
 ---
-id: '1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
-title: 'Review Session - System Administration'
-date: '2020-02-27T21:26:12.492Z'
+id: "1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec"
+title: "Review Session - System Administration"
+date: "2020-02-27T21:26:12.492Z"
 version: 66
-lastAuthor: 'aquandt'
-mimeType: 'text/x-markdown'
+lastAuthor: "aquandt"
+mimeType: "text/x-markdown"
 links:
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - 'https://whatsmybrowser.org'
-  - 'https://www.ssllabs.com/ssltest/viewMyClient.html'
-  - 'http://docs.enterprisehealth.com'
-  - 'http://docs.webchartnow.com'
-  - 'https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins'
-  - 'https://system/?f=activeX&file=WebChartActiveX.msi'
-  - 'https://system/?f=activeX&file=miecontrols.cab'
-  - '../../functions/system-administration/system-controls/system-plugins.md'
-  - 'http://www.alternatiff.com'
-  - '../../functions/system-administration/system-controls/multilingual-feature.md'
-  - 'https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings'
-  - 'https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control'
-  - '../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
-  - 'https://system/?f=admin&s=pat&subfunc=activity_log&tabmodule=reports&t=Utilization'
-  - '../../functions/system-administration/security/my-settings.md'
-  - '../../functions/system-administration/security/security-role-settings.md'
-  - '../../functions/system-administration/security/compare-security-roles.md'
-  - 'https://www.mieweb.com/wiki/System_Administration'
-  - '../../functions/system-administration/system-controls/user-provider-and-department-management.md'
-  - '../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md'
-source: 'https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
-wikigdrive: 'v2.15.30'
+  - "https://system/?f=admin&tabmodule=admin&tabselect=My+Settings"
+  - "https://whatsmybrowser.org"
+  - "https://www.ssllabs.com/ssltest/viewMyClient.html"
+  - "http://docs.enterprisehealth.com"
+  - "http://docs.webchartnow.com"
+  - "https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins"
+  - "https://system/?f=activeX&file=WebChartActiveX.msi"
+  - "https://system/?f=activeX&file=miecontrols.cab"
+  - "../../functions/system-administration/system-controls/system-plugins.md"
+  - "http://www.alternatiff.com"
+  - "../../functions/system-administration/system-controls/multilingual-feature.md"
+  - "https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings"
+  - "https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control"
+  - "../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md"
+  - "https://system/?f=admin&s=pat&subfunc=activity_log&tabmodule=reports&t=Utilization"
+  - "../../functions/system-administration/security/my-settings.md"
+  - "../../functions/system-administration/security/security-role-settings.md"
+  - "../../functions/system-administration/security/compare-security-roles.md"
+  - "https://www.mieweb.com/wiki/System_Administration"
+  - "../../functions/system-administration/system-controls/user-provider-and-department-management.md"
+  - "../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md"
+source: "https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>System Administration Demonstration</strong>
-* <strong>Overview</strong>
-* <strong>System Configuration</strong>
-    * <strong>Browser Requirements</strong>
-    * <strong>ActiveX Controls</strong>
-    * <strong>Language Translations</strong>
-    * <strong>Scheduled Jobs</strong>
-    * <strong>Secure Email Setup</strong>
-    * <strong>Single Sign-On (SSO)</strong>
-    * <strong>Audit & Activity Logs</strong>
-    * <strong>Settings/Preferences</strong>
-        * <strong>Security Role Settings</strong>
-        * <strong>System Settings</strong>
-* <strong>Resources</strong>
+- <strong>System Administration Demonstration</strong>
+- <strong>Overview</strong>
+- <strong>System Configuration</strong>
+  - <strong>Browser Requirements</strong>
+  - <strong>ActiveX Controls</strong>
+  - <strong>Language Translations</strong>
+  - <strong>Scheduled Jobs</strong>
+  - <strong>Secure Email Setup</strong>
+  - <strong>Single Sign-On (SSO)</strong>
+  - <strong>Audit & Activity Logs</strong>
+  - <strong>Settings/Preferences</strong>
+    - <strong>Security Role Settings</strong>
+    - <strong>System Settings</strong>
+- <strong>Resources</strong>
 
 ## Overview
 
@@ -87,17 +88,17 @@ Also in the upper-right corner of the Plugins page, there is a link to [Download
 
 Troubleshooting ActiveX functions will be a necessary component of support for the {{% system-name %}} deployment. User rights, network settings, proxy servers, and third-party plugins and controls can all pose potential problems in the operation of ActiveX controls. Disabling and enabling installed IE add-ons, or even deleting and reinstalling a control, may be necessary as part of the necessary troubleshooting and ongoing maintenance. A brief description of each plugin is provided, below. However, for more detailed information, see our [System Plugins](../../functions/system-administration/system-controls/system-plugins.md) documentation.
 
-* <strong>AlternaTIFF</strong> (alttiff) - This control is used for viewing TIFF (.tiff, .tif) images within IE browsers. The alternatiff plugin is used not only for printing from IE browsers, but also for indexing scanned content in {{% system-name %}} systems, by way of writing files to the local temporary folder (i.e., the folder given by the GetTempPath Windows API function). The rarely-used <em>Set Wallpaper</em> feature tries to write a file under the local application data folder (CSIDL_APPDATA). More information regarding the AlternaTIFF control can be found atle at http://www.alternatiff.com.
-* <strong>VidCap Control</strong> (vidcapc) - This plugin controls video capture and file upload, allowing users to capture images from a webcam or upload images from disk into {{% system-name %}} . This writes files to the local temporary folder and supports various formats.
-* <strong>Scan Plug-in</strong> (scancontrol) - The MIE Scan Plug-in provides control for TWAIN-compliant scanning devices, enabling scanning and indexing of documents directly into charts. This control writes files to the local temporary folder.
-* <strong>DICOM Viewer</strong> (miedcmview) - The MIE DICOM Viewer plugin allows users to view DICOM format studies within the web browser. This writes files to the local temporary folder.
-* <strong>Sketch Control</strong> (miesketch) - This plugin allows users to draw or sketch images and upload those as documents. This writes files to the local temporary folder.
-* <strong>Dictation Control</strong> (mieplayer) - The Dictation Control plugin allows users to record and playback WAV files recorded in the {{% system-name %}} system. Playing and uploading ULAW-formatted voice files is supported with this plugin. This writes to a spooler folder that can be configured by the user, as needed. By default, the spooler folder is located at <em>C:\dictation</em>.
-* <strong>Binary File Control</strong> (miebinfileedit) - The Binary File Control plugin allows for uploading and downloading file types, as well as forms editing, single-document uploads, and Excel file editing. This control writes to <em>\files\webchart\miebinfileedt</em>.
-* <strong>Word Control</strong> (mieword) - The Word Control plugin provides the {{% system-name %}} system direct access to Microsoft (MS) Word for the creation, editing, and uploading of documents. Because {{% system-name %}} has an a HTML rich text editor, MS Word is not required for word processing; however, users accessing MS Word templates do require a local copy of MS Office. This plugin writes to _%UserProfile%\WebChart\MIEWord_.
-* <strong>Welch Allyn Vitals & CardioPerfect Control</strong> (wavitals/wavitals2 and cardiocontrol) - Proprietary controls provided by Welch Allyn for interoperability with Welch Allyn Spirometers and Spot Vitals Monitors. These controls are obtained through USB connection with the respective device.
-* <strong>Download MIE SSL App</strong> - This is a link found in the upper-right corner of the [Plugins](https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins) Control Panel tab. Though not a plugin, the MIE SSL App is required for accessing HTTPS connections. This supplies a type communication channel between the web browser and the {{% system-name %}} system, and is required for Electronic Prescribing Controlled Substance (EPCS) workflows.
-* <strong>E-Token Signature App</strong> - These links are provided according to the browser being used. The E-Token Signature App is used for signing messages with a USB cryptographic token. This, too, supplies a type of communication authentication, and is required for EPCS workflows.
+- <strong>AlternaTIFF</strong> (alttiff) - This control is used for viewing TIFF (.tiff, .tif) images within IE browsers. The alternatiff plugin is used not only for printing from IE browsers, but also for indexing scanned content in {{% system-name %}} systems, by way of writing files to the local temporary folder (i.e., the folder given by the GetTempPath Windows API function). The rarely-used <em>Set Wallpaper</em> feature tries to write a file under the local application data folder (CSIDL_APPDATA). More information regarding the AlternaTIFF control can be found atle at http://www.alternatiff.com.
+- <strong>VidCap Control</strong> (vidcapc) - This plugin controls video capture and file upload, allowing users to capture images from a webcam or upload images from disk into {{% system-name %}} . This writes files to the local temporary folder and supports various formats.
+- <strong>Scan Plug-in</strong> (scancontrol) - The MIE Scan Plug-in provides control for TWAIN-compliant scanning devices, enabling scanning and indexing of documents directly into charts. This control writes files to the local temporary folder.
+- <strong>DICOM Viewer</strong> (miedcmview) - The MIE DICOM Viewer plugin allows users to view DICOM format studies within the web browser. This writes files to the local temporary folder.
+- <strong>Sketch Control</strong> (miesketch) - This plugin allows users to draw or sketch images and upload those as documents. This writes files to the local temporary folder.
+- <strong>Dictation Control</strong> (mieplayer) - The Dictation Control plugin allows users to record and playback WAV files recorded in the {{% system-name %}} system. Playing and uploading ULAW-formatted voice files is supported with this plugin. This writes to a spooler folder that can be configured by the user, as needed. By default, the spooler folder is located at <em>C:\dictation</em>.
+- <strong>Binary File Control</strong> (miebinfileedit) - The Binary File Control plugin allows for uploading and downloading file types, as well as forms editing, single-document uploads, and Excel file editing. This control writes to <em>\files\webchart\miebinfileedt</em>.
+- <strong>Word Control</strong> (mieword) - The Word Control plugin provides the {{% system-name %}} system direct access to Microsoft (MS) Word for the creation, editing, and uploading of documents. Because {{% system-name %}} has an a HTML rich text editor, MS Word is not required for word processing; however, users accessing MS Word templates do require a local copy of MS Office. This plugin writes to _%UserProfile%\WebChart\MIEWord_.
+- <strong>Welch Allyn Vitals & CardioPerfect Control</strong> (wavitals/wavitals2 and cardiocontrol) - Proprietary controls provided by Welch Allyn for interoperability with Welch Allyn Spirometers and Spot Vitals Monitors. These controls are obtained through USB connection with the respective device.
+- <strong>Download MIE SSL App</strong> - This is a link found in the upper-right corner of the [Plugins](https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins) Control Panel tab. Though not a plugin, the MIE SSL App is required for accessing HTTPS connections. This supplies a type communication channel between the web browser and the {{% system-name %}} system, and is required for Electronic Prescribing Controlled Substance (EPCS) workflows.
+- <strong>E-Token Signature App</strong> - These links are provided according to the browser being used. The E-Token Signature App is used for signing messages with a USB cryptographic token. This, too, supplies a type of communication authentication, and is required for EPCS workflows.
 
 It is important to determine who is expected to maintain the network. Verify the users needing admin permissions for downloading controls and any initial-use requirements (e.g., download or update ActiveX controls after upgrades). If the necessary users do not have the required admin permissions, be sure to schedule time with the Deployment Specialist, so all plugin controls can be deployed and maintained on an ongoing basis, as well as according to any potential future upgrades, establishing the best plan to ensure plugin controls are updated accordingly. What this means is that upon upgrading to a new release candidate (RC), varying plugin controls may change. Plan and define a policy, per se, regarding upgrades and plugin controls, to ensure any requirements prior to and after an upgrade are addressed, as appropriate.
 
@@ -189,11 +190,11 @@ There are several system settings available for system administrators. It is rec
 
 ### Help Documentation
 
-* [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md)
-* [System Plugins](../../functions/system-administration/system-controls/system-plugins.md)
-* [My Settings](../../functions/system-administration/security/my-settings.md)
-* [Compare Security Roles](../../functions/system-administration/security/compare-security-roles.md)
-* [Security Role Settings](../../functions/system-administration/security/security-role-settings.md)
-* [Multilingual Feature](../../functions/system-administration/system-controls/multilingual-feature.md)
-* [Language Tab-Create New Help Bubble Text](../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md)
-* [Secure Email to Whitelisted Domains](../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
+- [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md)
+- [System Plugins](../../functions/system-administration/system-controls/system-plugins.md)
+- [My Settings](../../functions/system-administration/security/my-settings.md)
+- [Compare Security Roles](../../functions/system-administration/security/compare-security-roles.md)
+- [Security Role Settings](../../functions/system-administration/security/security-role-settings.md)
+- [Multilingual Feature](../../functions/system-administration/system-controls/multilingual-feature.md)
+- [Language Tab-Create New Help Bubble Text](../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md)
+- [Secure Email to Whitelisted Domains](../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)

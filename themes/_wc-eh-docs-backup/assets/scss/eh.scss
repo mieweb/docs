@@ -1,0 +1,32 @@
+$prefix: "bs";
+$primary: #007ab3;
+$link-color-dark: #02adfd;
+$active-nav: #bdeaff;
+$dark: #272727;
+$body-bg-dark: #414141;
+$body-color-dark: #fafafa;
+$border-color-dark: #727272;
+
+$color-mode-type: media-query;
+
+@import "print";
+@import "style";
+// Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import fontawesome
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "./fontawesome/brands.scss";
+// @import "./fontawesome/regular.scss";
+// @import "./fontawesome/solid.scss";
+
+@import "node_modules/animate.css/animate";
+
+@import "node_modules/sweetalert2/dist/sweetalert2.css";
+
+@import "node_modules/highlight.js/scss/a11y-light.scss";
+@import "dark";
+
+.hljs {
+  background: #f7f4f4 !important; // code background
+}

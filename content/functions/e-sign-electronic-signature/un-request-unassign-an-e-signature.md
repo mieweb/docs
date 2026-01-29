@@ -1,17 +1,18 @@
 ---
-id: '1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
-title: 'Un-Request/Unassign an E-Signature'
-date: '2024-07-08T17:24:38.672Z'
+id: "1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I"
+title: "Un-Request/Unassign an E-Signature"
+date: "2024-07-08T17:24:38.672Z"
 version: 68
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'request-e-signature.md'
-  - 'e-sign-all-pending-tab.md'
-  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
-source: 'https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I'
-wikigdrive: 'v2.15.30'
+  - "request-e-signature.md"
+  - "e-sign-all-pending-tab.md"
+  - "https://mie.talentlms.com/shared/start/key:AOTHRKMF"
+source: "https://drive.google.com/open?id=1YflmQxR-DMLdAadYA4R30YwKod3gCrhgS1Tb-8Lr-8I"
+wikigdrive: "v2.15.30"
 ---
+
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission. It is also helpful to know who the document was requested to and the document id number, or document type and date of service.
 
 In the All Pending tab, it lists all users who have pending e-sign requests assigned to them.  Click on the user that you need to unrequest an e-sign from.
@@ -66,4 +67,4 @@ If need to un-request all documents in a user's queue, please refer to the [E-Si
 
 To learn more about Un-requesting/Unassigning an E-Signature, follow the link below to the Learning Management System course:
 
-* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
+- [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)

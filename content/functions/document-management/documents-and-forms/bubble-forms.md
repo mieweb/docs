@@ -1,36 +1,37 @@
 ---
-id: '1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
-title: 'Bubble Forms'
-date: '2024-07-02T16:37:43.554Z'
+id: "1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0"
+title: "Bubble Forms"
+date: "2024-07-02T16:37:43.554Z"
 version: 72
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../printing-and-print-definitions/print-definitions.md'
-  - 'form-documents.md'
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - 'vision-data-entry.md'
-  - 'audiogram-data-entry.md'
-  - 'biometric-data-entry.md'
-  - 'ekg-data-entry.md'
-  - 'pft-data-entry.md'
-  - 'x-ray-results-data-entry.md'
-  - '../../system-administration/interfaces/device-interface-audio-system.md'
-  - '../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md'
-  - '../../system-administration/interfaces/device-interface-ekg-system.md'
-  - '../../system-administration/interfaces/device-interface-pft-system.md'
-  - '../../system-administration/interfaces/device-interface-cholestech-ldx.md'
-  - '../../system-administration/interfaces/device-interface-piccolo-system.md'
-  - '../../system-administration/interfaces/device-interface-vision-system.md'
-  - '../../system-administration/interfaces/device-interface-vital-signs.md'
-  - '../../system-administration/interfaces/device-interface-welch-allyn-spirometry.md'
-  - '../../encounters/working-in-a-legacy-encounter.md'
-  - '../../encounters/working-in-a-visit-encounter.md'
-  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
-source: 'https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0'
-wikigdrive: 'v2.15.30'
+  - "../printing-and-print-definitions/print-definitions.md"
+  - "form-documents.md"
+  - "../scanning-and-indexing/indexing-bubble-forms.md"
+  - "../scanning-and-indexing/indexing.md"
+  - "vision-data-entry.md"
+  - "audiogram-data-entry.md"
+  - "biometric-data-entry.md"
+  - "ekg-data-entry.md"
+  - "pft-data-entry.md"
+  - "x-ray-results-data-entry.md"
+  - "../../system-administration/interfaces/device-interface-audio-system.md"
+  - "../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md"
+  - "../../system-administration/interfaces/device-interface-ekg-system.md"
+  - "../../system-administration/interfaces/device-interface-pft-system.md"
+  - "../../system-administration/interfaces/device-interface-cholestech-ldx.md"
+  - "../../system-administration/interfaces/device-interface-piccolo-system.md"
+  - "../../system-administration/interfaces/device-interface-vision-system.md"
+  - "../../system-administration/interfaces/device-interface-vital-signs.md"
+  - "../../system-administration/interfaces/device-interface-welch-allyn-spirometry.md"
+  - "../../encounters/working-in-a-legacy-encounter.md"
+  - "../../encounters/working-in-a-visit-encounter.md"
+  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
+source: "https://drive.google.com/open?id=1XuuEIvktT5TkE9GYEBduTnXgH40mjGyyCy_j7ElMAB0"
+wikigdrive: "v2.15.30"
 ---
+
 Bubble forms are document type templates with special formatting (i.e., optical marks) allowing for documented data to be collected and stored discretely, as observations, within {{% system-name %}} . This is achieved through standard optical mark recognition (OMR), which is most well known through scantron use and standardized testing. When a bubble form is filled out, scanned, and indexed into the {{% system-name %}} system, the optical marks are detected and coded as observations.
 
 Bubble forms are versatile, as well. Bubble forms can be developed so that a stack of them can be printed and taken onsite, where they can be filled out and scanned/indexed, accordingly. Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. For more information on [Print Definitions](../printing-and-print-definitions/print-definitions.md), see the help documentation of the same name.
@@ -53,12 +54,12 @@ To utilize a bubble form to record information and index it into a chart, simply
 
 Currently, there are several bubble forms to choose from within the {{% system-name %}} system. Below is a list of currently developed bubble forms, labeled with the associated test/procedure/observation intended to be collected.
 
-* [Vision](vision-data-entry.md)
-* [Audiogram](audiogram-data-entry.md)
-* [Biometric](biometric-data-entry.md)
-* [EKG](ekg-data-entry.md)
-* [PFT](pft-data-entry.md)
-* [X-ray Results](x-ray-results-data-entry.md)
+- [Vision](vision-data-entry.md)
+- [Audiogram](audiogram-data-entry.md)
+- [Biometric](biometric-data-entry.md)
+- [EKG](ekg-data-entry.md)
+- [PFT](pft-data-entry.md)
+- [X-ray Results](x-ray-results-data-entry.md)
 
 ## Manual Entry
 
@@ -68,15 +69,15 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 Loading data into the system from an interfaced device is going to vary slightly, based on the information being acquired, the device being used, and the device model. We currently support device interfaces and have documentation on the following devices and types of interfaces:
 
-* [OMI Audiometric Data Management Software](../../system-administration/interfaces/device-interface-audio-system.md)
-* [Tremetric and Maico Audiogram Systems](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md)
-* [Welch-Allyn CardioPerfect EKG System](../../system-administration/interfaces/device-interface-ekg-system.md)
-* [OMI Sensormedics PFT System](../../system-administration/interfaces/device-interface-pft-system.md)
-* [Cholestech LDX System](../../system-administration/interfaces/device-interface-cholestech-ldx.md)
-* [Abaxis Piccolo Xpress System](../../system-administration/interfaces/device-interface-piccolo-system.md)
-* [Titmus i500 System](../../system-administration/interfaces/device-interface-vision-system.md)
-* [Welch-Allyn Spot Vital Signs System](../../system-administration/interfaces/device-interface-vital-signs.md)
-* [Welch-Allyn CardioPerfect Spirometry System](../../system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
+- [OMI Audiometric Data Management Software](../../system-administration/interfaces/device-interface-audio-system.md)
+- [Tremetric and Maico Audiogram Systems](../../system-administration/interfaces/device-interface-audio-tremetrics-maico.md)
+- [Welch-Allyn CardioPerfect EKG System](../../system-administration/interfaces/device-interface-ekg-system.md)
+- [OMI Sensormedics PFT System](../../system-administration/interfaces/device-interface-pft-system.md)
+- [Cholestech LDX System](../../system-administration/interfaces/device-interface-cholestech-ldx.md)
+- [Abaxis Piccolo Xpress System](../../system-administration/interfaces/device-interface-piccolo-system.md)
+- [Titmus i500 System](../../system-administration/interfaces/device-interface-vision-system.md)
+- [Welch-Allyn Spot Vital Signs System](../../system-administration/interfaces/device-interface-vital-signs.md)
+- [Welch-Allyn CardioPerfect Spirometry System](../../system-administration/interfaces/device-interface-welch-allyn-spirometry.md)
 
 If a device or interface type is not represented, above, please reach out to our Help Desk. We will gladly work with clients to develop an interface that best suits the business needs.
 
@@ -94,4 +95,4 @@ The {{% system-name %}} system has extensive reporting capabilities. Indexed bub
 
 To learn more about Bubble Forms, follow the link below to the Learning Management System course:
 
-* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)

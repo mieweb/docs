@@ -1,22 +1,23 @@
 ---
-id: '1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
-title: 'Mass Manual Entry of Respirator Fit Data'
-date: '2025-02-13T20:15:05.527Z'
+id: "1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM"
+title: "Mass Manual Entry of Respirator Fit Data"
+date: "2025-02-13T20:15:05.527Z"
 version: 88
-lastAuthor: 'bhamm'
-mimeType: 'text/x-markdown'
+lastAuthor: "bhamm"
+mimeType: "text/x-markdown"
 links:
-  - 'respirator-info-chart-tab.md'
-  - 'https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing'
-  - 'https://mie.talentlms.com/shared/start/key:ZOGDNHRK'
-source: 'https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM'
-wikigdrive: 'v2.15.30'
+  - "respirator-info-chart-tab.md"
+  - "https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing"
+  - "https://mie.talentlms.com/shared/start/key:ZOGDNHRK"
+source: "https://drive.google.com/open?id=1H5GRk2i-xKeGd37VcAc1QtLsA3G5mOfW85ochLajQkM"
+wikigdrive: "v2.15.30"
 ---
-A mass entry screen to manually key in Respirator Fit Test data for charts is available in 09-2024RC and newer.  It is accessible from the E-Chart sidemenu tab.
+
+A mass entry screen to manually key in Respirator Fit Test data for charts is available in 09-2024RC and newer. It is accessible from the E-Chart sidemenu tab.
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/1d817cf0e4f13a5bbc4eaf9ec324e4c3.png)
 
-The Resp Fit Program mass entry screen method utilizes a configured Menu Item to be in the system for use.  If you would like this mass entry screen method for system use, please contact your Deployment Consultant or our Help Desk.
+The Resp Fit Program mass entry screen method utilizes a configured Menu Item to be in the system for use. If you would like this mass entry screen method for system use, please contact your Deployment Consultant or our Help Desk.
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/fb1e1a650d9fc6bd35e9b605f3c839c0.png)
 
@@ -30,15 +31,15 @@ Use the Patient search field to select the specific patient/employee chart needi
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/fab4119f38bd1f0a1dc94f8d437fc253.png)
 
-The *Add Respirator Fit* data entry screen pop-up will display.
+The _Add Respirator Fit_ data entry screen pop-up will display.
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/b1d9a794ffa868eb3f7e4cccba5249a0.png)
 
-At the top of the *Add Respirator Fit* screen, additional chart identifiers are displayed so you can confirm this is indeed the specific chart you wish to key in respirator fit data for.   If it is not, simply click the X to exit the pop-up and start a new patient chart search.
+At the top of the _Add Respirator Fit_ screen, additional chart identifiers are displayed so you can confirm this is indeed the specific chart you wish to key in respirator fit data for. If it is not, simply click the X to exit the pop-up and start a new patient chart search.
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/2bac3f4459cf61470b176b134e9d5a70.png)
 
-The *Panel Memberships* section identifies any health surveillance panels that the chart is a current member of **or** will display verbiage that the chart is not a member of any panels.
+The _Panel Memberships_ section identifies any health surveillance panels that the chart is a current member of **or** will display verbiage that the chart is not a member of any panels.
 
 ![](./mass-manual-entry-of-respirator-fit-data.assets/885ab2b59ccdbbf113075cc3f5907848.png)
 
@@ -74,18 +75,18 @@ Once saved, the system will display a Successful added record message at the top
 
 ### Successful Saved Record
 
-Once you save/add a respirator fit data record to the chart, a separate document will also be stored in their chart as well as a completed Resp Fit Test order item will be inserted into the chart's due list (effective 09-2024RC).  If the chart had a pending Resp Fit Test due on their due list, the system would mark/insert that one as completed.
+Once you save/add a respirator fit data record to the chart, a separate document will also be stored in their chart as well as a completed Resp Fit Test order item will be inserted into the chart's due list (effective 09-2024RC). If the chart had a pending Resp Fit Test due on their due list, the system would mark/insert that one as completed.
 
 The Respirator Fit Test record data will also be visible in the Fit Tests Results portlet of the specific chart, available on reports for the system and for supervisors, and shared to the portal if your system is so configured.
 
 ## Editing or Deleting of Respirator Fit Data
 
-Editing or deleting respirator fit test records cannot be done from the manual mass entry method screen.  It must be done individually within the specific accessed patient/employee chart.
+Editing or deleting respirator fit test records cannot be done from the manual mass entry method screen. It must be done individually within the specific accessed patient/employee chart.
 
-There is a separate help guide on the ability to edit or delete respirator fit record data in individual charts using the Resp Info chart tab.  Please see separate guide titled [Respirator Info Chart Tab](respirator-info-chart-tab.md) and also a separate chapter on the below LMS (Learning Management System) course. View a [video](https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing) of the workflow.
+There is a separate help guide on the ability to edit or delete respirator fit record data in individual charts using the Resp Info chart tab. Please see separate guide titled [Respirator Info Chart Tab](respirator-info-chart-tab.md) and also a separate chapter on the below LMS (Learning Management System) course. View a [video](https://drive.google.com/file/d/1-MRloThxe9uXxBpmmH2FQyPiqQtqKYDg/view?usp=sharing) of the workflow.
 
 ## Learning Management System
 
 To learn more about the Mass Manual Entry of Respirator Fit Data, any standard reporting around Respirator Fit test data, Respirator Info Chart Tab with manual entry method, and how to enter in Respirator Fit test data using an encounter due list item, or how to import respirator fit test data, follow the link below to the Learning Management System course:
 
-* [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)
+- [Respirator Fit Testing](https://mie.talentlms.com/shared/start/key:ZOGDNHRK)

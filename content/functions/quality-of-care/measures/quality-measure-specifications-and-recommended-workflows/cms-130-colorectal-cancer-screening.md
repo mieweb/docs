@@ -1,19 +1,20 @@
 ---
-id: '17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
-title: 'CMS 130 - Colorectal Cancer Screening'
-date: '2022-04-20T13:02:58.416Z'
+id: "17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8"
+title: "CMS 130 - Colorectal Cancer Screening"
+date: "2022-04-20T13:02:58.416Z"
 version: 49
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v10&showresulttype=Measure'
-  - '../../../document-management/scanning-and-indexing.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10'
-source: 'https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v10&showresulttype=Measure"
+  - "../../../document-management/scanning-and-indexing.md"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms130v10"
+source: "https://drive.google.com/open?id=17IjektAahpRJJV0qxTAHsDbyBSFNm0t6uBift_Ro_J8"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS130v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS130v8&showresulttype=Measure) (2020)
@@ -39,7 +40,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -105,37 +106,36 @@ wikigdrive: 'v2.15.30'
 
 ### New UI Visit Encounter (valid RC202109+)
 
-
 ### Original Visit Encounter
 
 Ensure patients aged 50-75 are screened for colorectal cancer. Use the Past Procedures section of the encounter to record a previous Fecal Occult Blood Test (FOBT), Flexible Sigmoidoscopy, Colonoscopy Screening, FIT-DNA, or CT Colonography; otherwise, use the Visit Orders section of the encounter to order/perform one of the recognized procedures at the time of the encounter.
 
 1. While documenting the Visit encounter, either record the previous procedure or the receipt of the colorectal screening, or order and perform the screening, as appropriate:
-    1. <strong>Option 1: Document in the Past Procedures section</strong>
-        1. Open the Past Procedures section.
-        2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Colonoscopy) with the appropriate Concept ID.
-        3. Add the Date and any relevant Notes.
-        4. Click the Next button, or close the section.
-    2. <strong>Option 2: Document in the Preventive Care section</strong>
-        1. Open the Preventive Care section.
-        2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2019). This date is the Last Reported Date.
-        3. Click the Next button, or close the section.
-    3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
-        1. Open the Tests and Procedures section.
-        2. Using the autocomplete, begin typing the appropriate procedure name.
-        3. Click the Add to Exam button.
-        4. After adding the new section, open the procedure section and add any results or findings.
-        5. Click the Next button, or close the section.
+   1. <strong>Option 1: Document in the Past Procedures section</strong>
+      1. Open the Past Procedures section.
+      2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Colonoscopy) with the appropriate Concept ID.
+      3. Add the Date and any relevant Notes.
+      4. Click the Next button, or close the section.
+   2. <strong>Option 2: Document in the Preventive Care section</strong>
+      1. Open the Preventive Care section.
+      2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2019). This date is the Last Reported Date.
+      3. Click the Next button, or close the section.
+   3. <strong>Option 3: Document in the Tests and Procedures section IF performing the screening in-house</strong>
+      1. Open the Tests and Procedures section.
+      2. Using the autocomplete, begin typing the appropriate procedure name.
+      3. Click the Add to Exam button.
+      4. After adding the new section, open the procedure section and add any results or findings.
+      5. Click the Next button, or close the section.
 2. Continue documenting the encounter, as needed.
 3. When completed, Close and Archive the encounter.
 
-* <strong>Option 4: Scan/Index or Upload an accepted screening document</strong>
-    * Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C.
-        * Scan/Index or Upload the Colonoscopy Screening document type (COLON) configured with the necessary Concept ID (73761001).
-        * Scan/Index or Upload the Fecal Occult Blood Test document type (FOBT) configured with the necessary LOIN-C (2335-8); otherwise, add the FOBT observation and ensure it is configured with the 2335-8 LOIN-C.
-        * Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).
-        * Scan/Index or Upload the Computed Tomographic Colongraphy document type (CTC) configured with the necessary Concept ID (418714002).
-        * Add the Fit DNA observation to the chart either manually, or via an established interface, and ensure the observation is configured with the 77354-9 LOIN-C.
+- <strong>Option 4: Scan/Index or Upload an accepted screening document</strong>
+  - Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOIN-C.
+    - Scan/Index or Upload the Colonoscopy Screening document type (COLON) configured with the necessary Concept ID (73761001).
+    - Scan/Index or Upload the Fecal Occult Blood Test document type (FOBT) configured with the necessary LOIN-C (2335-8); otherwise, add the FOBT observation and ensure it is configured with the 2335-8 LOIN-C.
+    - Scan/Index or Upload the Flexible Sigmoidoscopy document type (FLEXSIG) configured with the necessary Concept ID (44441009).
+    - Scan/Index or Upload the Computed Tomographic Colongraphy document type (CTC) configured with the necessary Concept ID (418714002).
+    - Add the Fit DNA observation to the chart either manually, or via an established interface, and ensure the observation is configured with the 77354-9 LOIN-C.
 
 ## Evidence
 

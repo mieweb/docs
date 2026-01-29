@@ -1,21 +1,22 @@
 ---
-id: '1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
-title: 'SureScripts Advanced - Medication History Reconciliation'
-date: '2025-02-24T15:40:02.608Z'
+id: "1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU"
+title: "SureScripts Advanced - Medication History Reconciliation"
+date: "2025-02-24T15:40:02.608Z"
 version: 512
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links:
-  - 'surescripts-advanced-prescription-and-insurance-eligibility-requests.md'
-  - 'https://drive.google.com/open?id=1Xz6RRJhZB83PTc2WsRc3BmVeEXllm4nW'
-  - 'https://github.mieweb.com/mie/ssep/tree/master/schema/2017071/NCPDP_20170715'
-  - 'https://mie.talentlms.com/shared/start/key:ZOQDNHRK'
-source: 'https://drive.google.com/open?id=1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU'
-wikigdrive: 'v2.15.30'
+  - "surescripts-advanced-prescription-and-insurance-eligibility-requests.md"
+  - "https://drive.google.com/open?id=1Xz6RRJhZB83PTc2WsRc3BmVeEXllm4nW"
+  - "https://github.mieweb.com/mie/ssep/tree/master/schema/2017071/NCPDP_20170715"
+  - "https://mie.talentlms.com/shared/start/key:ZOQDNHRK"
+source: "https://drive.google.com/open?id=1K9LL0Cg7qwdOn8Ajme5wSMG8dCHZvowBvvzFfltrHKU"
+wikigdrive: "v2.15.30"
 ---
-The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for drug coverage in the patient benefit table for future reference (this data is stored in a document named *Insurance/Prescription Eligibility* and defaults to the ‘Documents' chart tab). A drug eligibility request can‘t be sent more than once every 72 hours, however a Medication History query is not restricted to that same timeframe. This help document discusses the Medication History functionality.
 
-*Important: The Medication History and the daily eligibility report require an attending physician to be associated with the patient's chart. The system can default to an attending physician that will be used if the logged in user does not have a national provider id and no attending physician for the patient has been set. Contact your MIE Implementer to make sure that default system setting is set (E-Prescribing, SureScripts, Default Physician [the value should be the user_id of the physician]). If this system setting is not configured and an attending physician is not listed on the patient chart, the following message will appear when attempting to reconcile the medication history.*
+The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for drug coverage in the patient benefit table for future reference (this data is stored in a document named _Insurance/Prescription Eligibility_ and defaults to the ‘Documents' chart tab). A drug eligibility request can‘t be sent more than once every 72 hours, however a Medication History query is not restricted to that same timeframe. This help document discusses the Medication History functionality.
+
+_Important: The Medication History and the daily eligibility report require an attending physician to be associated with the patient's chart. The system can default to an attending physician that will be used if the logged in user does not have a national provider id and no attending physician for the patient has been set. Contact your MIE Implementer to make sure that default system setting is set (E-Prescribing, SureScripts, Default Physician [the value should be the user_id of the physician]). If this system setting is not configured and an attending physician is not listed on the patient chart, the following message will appear when attempting to reconcile the medication history._
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/a9163885d0bf93b4216c702cb1cd24ac.png)
 
@@ -23,7 +24,7 @@ The SureScripts advanced functionality includes access to Prescription Benefits 
 
 Accessing a patient's medication history electronically allows prescribers to receive important information on their patient's current and past prescriptions and to become better informed about potential medication issues with their patients (ex: drug to drug interactions). Prescribers can use this information to improve safety and quality.
 
-When in the patient's chart and in their E-Meds (Allergies/Medications) tab, users will see the hyperlink Med History in the top right corner. If you do not see the Med History link, then the system setting named *Show History Link* does not have a value of 1 and is not turned on. Please contact MIE for assistance.
+When in the patient's chart and in their E-Meds (Allergies/Medications) tab, users will see the hyperlink Med History in the top right corner. If you do not see the Med History link, then the system setting named _Show History Link_ does not have a value of 1 and is not turned on. Please contact MIE for assistance.
 
 Users can click this link to get the patient's medication history from the SureScripts Advanced database. Unlike eligibility, there is no stipulation on the number of times or frequency of obtaining Medication History on the patient.
 
@@ -31,7 +32,7 @@ Users can click this link to get the patient's medication history from the SureS
 
 When users click the Med History link found in the patient's e-meds tab, the user will navigate to the Med History tab. Medication history can only be pulled in conjunction with a patient interaction, which could result in a prescription being written. This interaction can take the form of a physical visit, phone call, telemedicine, or email exchange between the provider and the patient. The medication history request occurs at the time of the patient interaction.
 
-Secondly, patient consent must also be obtained to query the SureScripts Advanced Medication History.  By default, the system assumes the provider has obtained consent. Therefore the "Patient Consent" checkbox will be auto checked for the provider. Providers can document the patient's consent to perform this in any way you wish (create a standard form for your practice, note on a chart somewhere, etc). Once consent has been obtained from the patient to run a Medication History report, verify the *Consent* checkbox is checked and then click the "Get History" button.
+Secondly, patient consent must also be obtained to query the SureScripts Advanced Medication History. By default, the system assumes the provider has obtained consent. Therefore the "Patient Consent" checkbox will be auto checked for the provider. Providers can document the patient's consent to perform this in any way you wish (create a standard form for your practice, note on a chart somewhere, etc). Once consent has been obtained from the patient to run a Medication History report, verify the _Consent_ checkbox is checked and then click the "Get History" button.
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/9e3e775ac0ebcdd8a42dd4be0151e9f6.png)
 
@@ -45,13 +46,13 @@ Once users have obtained consent and click the ‘Get History' button, the patie
 
 The Medication History query displays the drug name, directions, quantity, supply, last fill date and any pharmacy/prescriber information if applicable. This listing from the SureScripts Advanced database is from claims data & from pharmacies itself that are SureScripts certified.
 
-This Medication History screen will show 50 records at a time. If there are more than 50 for the patient, you can click the *Get More* button. Click the View link to see more details on each drug listed.
+This Medication History screen will show 50 records at a time. If there are more than 50 for the patient, you can click the _Get More_ button. Click the View link to see more details on each drug listed.
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/c19f9bff266e73620dff064c98776fee.png)
 
 ### Insurance Eligibility Response
 
-When users query for a Medication History using this link from the e-meds tab, the system will also automatically run a Drug Eligibility check on that patient (required prior to obtaining Medication History) if one hasn't been performed in the previous 72 hours. The drug eligibility document (‘Insurance/Prescription Eligibility' document) will be stored in their chart (defaults to the ‘Documents' tab). See other help documentation titled [*Prescription and Insurance Eligibility Requests-SureScripts Advanced*](surescripts-advanced-prescription-and-insurance-eligibility-requests.md)
+When users query for a Medication History using this link from the e-meds tab, the system will also automatically run a Drug Eligibility check on that patient (required prior to obtaining Medication History) if one hasn't been performed in the previous 72 hours. The drug eligibility document (‘Insurance/Prescription Eligibility' document) will be stored in their chart (defaults to the ‘Documents' tab). See other help documentation titled [_Prescription and Insurance Eligibility Requests-SureScripts Advanced_](surescripts-advanced-prescription-and-insurance-eligibility-requests.md)
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/322cdbef52b2a1cd8a8f8773b1f41c4b.png)
 
@@ -69,7 +70,7 @@ When the transfer is complete, the user is redirected to the Allergies/Medicatio
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/5ff5336ee3a98af5672f0ca6b4516f96.png)
 
-*Hint: Click the "Hide Discontinued" filter to hide discontinued medications entered manually or imported*.
+_Hint: Click the "Hide Discontinued" filter to hide discontinued medications entered manually or imported_.
 
 ## For Users on release 202409 and newer
 
@@ -106,7 +107,7 @@ For users that have their My Setting enabled to utilize datavis in the Meds/Alle
 ![](./surescripts-advanced-medication-history-reconciliation.assets/358c7424e8e0e585df94bd62a9553377.png)
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/ad92a246befd2031c24f3b2d6de95066.png)
- Confirm. Confirmed medications will display with a **Status** of **Active**. Active medications can be discontinued, corrected, therapy changed or refilled.
+Confirm. Confirmed medications will display with a **Status** of **Active**. Active medications can be discontinued, corrected, therapy changed or refilled.
 
 ![](./surescripts-advanced-medication-history-reconciliation.assets/42fd20961ecf602ada81133c033c47a2.png)
 Discontinue. Discontinued medication will display with a **Status** of **Discontinued**. Discontinued medications cannot be corrected, therapy changed or refilled.
@@ -156,4 +157,4 @@ Users will be redirected back to the patient's E-Meds tab. Simply refresh the sc
 
 To learn more about SureScripts Advanced - Medication Reconciliation, follow the link below to the Learning Management System course:
 
-* [Data Comparison / Reconciliation Toolset (FroozHIE)](https://mie.talentlms.com/shared/start/key:ZOQDNHRK)
+- [Data Comparison / Reconciliation Toolset (FroozHIE)](https://mie.talentlms.com/shared/start/key:ZOQDNHRK)

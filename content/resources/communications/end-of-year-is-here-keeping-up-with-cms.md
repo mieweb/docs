@@ -1,28 +1,29 @@
 ---
-id: '1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-title: 'End-of-Year Is Here: Keeping Up with CMS'
-date: '2025-11-14T14:58:17.483Z'
+id: "1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk"
+title: "End-of-Year Is Here: Keeping Up with CMS"
+date: "2025-11-14T14:58:17.483Z"
 version: 69
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/participation-lookup'
-  - '../../functions/quality-of-care/quality-reporting-enrollment.md'
-  - '../../functions/quality-of-care/create-file-for-submission.md'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
-  - 'https://qpp.cms.gov/login'
-  - 'https://docs.enterprisehealth.com/functions/reports/'
-  - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
-  - 'https://www.youtube.com/watch?v=ZhM3KiojPjY&feature=youtu.be'
-  - 'https://qpp.cms.gov/mips/mips-value-pathways'
-source: 'https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/participation-lookup"
+  - "../../functions/quality-of-care/quality-reporting-enrollment.md"
+  - "../../functions/quality-of-care/create-file-for-submission.md"
+  - "https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/"
+  - "https://qpp.cms.gov/login"
+  - "https://docs.enterprisehealth.com/functions/reports/"
+  - "https://docs.enterprisehealth.com/functions/quality-of-care/"
+  - "https://www.youtube.com/watch?v=ZhM3KiojPjY&feature=youtu.be"
+  - "https://qpp.cms.gov/mips/mips-value-pathways"
+source: "https://drive.google.com/open?id=1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk"
+wikigdrive: "v2.15.30"
 ---
+
 It is that time of year, again! Quality reporting is upon us, and {{% system-name %}} wants to keep you informed of the basics:
 
-* [End-of-Year Approaching](#end-of-year-approaching)
-* [Enrollment & Attestation](#enrollment-attestation)
-* [2020 QPP Final Rule](#2020-qpp-final-rule)
+- [End-of-Year Approaching](#end-of-year-approaching)
+- [Enrollment & Attestation](#enrollment-attestation)
+- [2020 QPP Final Rule](#2020-qpp-final-rule)
 
 ## End-of-Year Approaching
 
@@ -30,19 +31,19 @@ With the 2019 performance year ending December 31st, it is important to ensure y
 
 1. Using a National Provider Identifier (NPI), check the [participation status](https://qpp.cms.gov/participation-lookup) for each eligible clinician.
 2. Participants should ensure [enrollment has been completed successfully](../../functions/quality-of-care/quality-reporting-enrollment.md).
-    1. Deadline for submitting a PI Hardship Exception Application - <strong>December 31, 2019</strong>
-    2. Deadline for submitting a QPP Extreme and Uncontrollable Circumstance Exception Application - <strong>December 31, 2019</strong>
-    3. <strong>2019 Performance Data Submission window</strong> is <strong>January 2, 2020 - March 31, 2020</strong>
+   1. Deadline for submitting a PI Hardship Exception Application - <strong>December 31, 2019</strong>
+   2. Deadline for submitting a QPP Extreme and Uncontrollable Circumstance Exception Application - <strong>December 31, 2019</strong>
+   3. <strong>2019 Performance Data Submission window</strong> is <strong>January 2, 2020 - March 31, 2020</strong>
 3. Determine data submission method and submit performance data:
-    1. [Self-attestation via file submission](../../functions/quality-of-care/create-file-for-submission.md); or
-    2. Reach out for assistance and consulting, if necessary ($250/hr)
+   1. [Self-attestation via file submission](../../functions/quality-of-care/create-file-for-submission.md); or
+   2. Reach out for assistance and consulting, if necessary ($250/hr)
 
 ## Enrollment and Attestation
 
 As noted, enrollment is as simple as first checking your [participation status](https://qpp.cms.gov/participation-lookup). Once participation is confirmed, follow these [enrollment steps](../../functions/quality-of-care/quality-reporting-enrollment.md):
 
 1. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/) from the sidemenu, and locate the <strong>Quality Reporting</strong> portlet.
-    1. If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
+   1. If the Quality Reporting portlet is not enabled, click the <strong>Select Portlets</strong> link toward the top of the page. Select the <em>Quality Reporting</em> portlet, and click the <strong>Save</strong> button.
 2. Click the Enroll hyperlink to begin the enrollment process.
 3. After the page loads, use the <em>Opt In</em> section to begin enrolling users, accordingly. Begin typing into the <strong>User</strong> autocomplete each name of the user(s)/provider(s) being enrolled. Multiple users/providers may be enrolled at one time.
 4. If enrolling in a specific program, or one of the sponsored incentive programs, specify the <strong>Start/End Dates</strong> of the intended performance period. Otherwise, leave blank.
@@ -97,47 +98,47 @@ As is typically the case, CMS finalized a great deal of changes for the upcoming
 Additionally, changes for third-party intermediaries (i.e., QCDRs and Qualified Registries) have been finalized to take effect as early as PY 2020. There will be a requirement of QCDRs, beginning with the 2020 performance period, to work together to harmonize their similar QCDR measures. Beginning with the 2021 performance period, QCDRs and Qualified Registries will be required to consolidate and enhance their services by supporting all MIPS performance categories that require data submission, as well as provide enhanced performance feedback, allowing clinicians to view their performance on a given measure in comparison to other participants in the registry or QCDR.
 
 {{% note %}}
-Due to the ongoing changes and updates needed for 2020 compliance, {{% system-name %}} will need all clients currently participating in quality surveillance, incentive programs, or measure tracking to upgrade to RC201909. Without an upgrade to RC201909, clients will not be able to enroll or participate in quality of care programs in 2020. **Application Support will be reaching out to** **_all participating clients_**** to initiate conversations, answer questions, and address roadblocks or challenges this necessary upgrade may present.**
+Due to the ongoing changes and updates needed for 2020 compliance, {{% system-name %}} will need all clients currently participating in quality surveillance, incentive programs, or measure tracking to upgrade to RC201909. Without an upgrade to RC201909, clients will not be able to enroll or participate in quality of care programs in 2020. **Application Support will be reaching out to** **_all participating clients_\*\*** to initiate conversations, answer questions, and address roadblocks or challenges this necessary upgrade may present.\*\*
 {{% /note %}}
 
 **For the 2020 performance period**, the following high-level changes can be noted:
 
-* The performance threshold is 45 points
-* The additional performance threshold for exceptional performance is 85 points
-* There are no changes to the performance category weights from PY 2019
+- The performance threshold is 45 points
+- The additional performance threshold for exceptional performance is 85 points
+- There are no changes to the performance category weights from PY 2019
 
 ### Quality Performance Category
 
-* Data completeness threshold increased to 70%
-* Flat percentage benchmarks have been established in limited cases where CMS determines that the measure's otherwise applicable benchmark could potentially incentivize treatment that could be inappropriate for particular patients
-* Added new specialty sets:
-    * Speech Language Pathology
-    * Audiology
-    * Clinical Social Work
-    * Chiropractic Medicine
-    * Pulmonology
-    * Nutrition/Dietician
-    * Endocrinology
+- Data completeness threshold increased to 70%
+- Flat percentage benchmarks have been established in limited cases where CMS determines that the measure's otherwise applicable benchmark could potentially incentivize treatment that could be inappropriate for particular patients
+- Added new specialty sets:
+  - Speech Language Pathology
+  - Audiology
+  - Clinical Social Work
+  - Chiropractic Medicine
+  - Pulmonology
+  - Nutrition/Dietician
+  - Endocrinology
 
 ### Cost Performance Category
 
-* Revised the Medicare Spending Per Beneficiary Clinician and Total Per Capita Cost measures
-* Added 10 new episode-based measures to continue expanding access to this performance category
+- Revised the Medicare Spending Per Beneficiary Clinician and Total Per Capita Cost measures
+- Added 10 new episode-based measures to continue expanding access to this performance category
 
 ### Improvement Activities Performance Category
 
-* Updated the patient-centered medical home criteria, removing the reference to the four listed accreditation organizations to be recognized as patient-centered medical homes and removing the reference to the specific accrediting organization for comparable specialty practices
-* Added 2 new, and removed 15 existing, Improvement Activities; established factors for consideration for removal
-* Increased the participation threshold for group reporting from a single clinician to 50% of the clinicians in the practice needing to perform the same improvement activity.
-    * Groups must perform the same activity during any continuous 90-day period within the same performance year
+- Updated the patient-centered medical home criteria, removing the reference to the four listed accreditation organizations to be recognized as patient-centered medical homes and removing the reference to the specific accrediting organization for comparable specialty practices
+- Added 2 new, and removed 15 existing, Improvement Activities; established factors for consideration for removal
+- Increased the participation threshold for group reporting from a single clinician to 50% of the clinicians in the practice needing to perform the same improvement activity.
+  - Groups must perform the same activity during any continuous 90-day period within the same performance year
 
 ### Promoting Interoperability Performance Category
 
-* Removed Verify Opioid Treatment Agreement measure
-* Included the Query of Prescription Drug Monitoring Program (PDMP) measure as an optional measure (available for bonus points)
-    * Beginning with PY 2019, a "yes/no" response is required for the optional Query of PDMP measure, instead of a numerator and denominator
-* Reduced the threshold for a group to be considered hospital-based
-    * Instead of 100% of clinicians, more than 75% of clinicians in a group must be a hospital-based individual MIPS-eligible clinician in order for the group to be excluded from reporting the measures under the PI performance category and to have this category reweighted to zero.
+- Removed Verify Opioid Treatment Agreement measure
+- Included the Query of Prescription Drug Monitoring Program (PDMP) measure as an optional measure (available for bonus points)
+  - Beginning with PY 2019, a "yes/no" response is required for the optional Query of PDMP measure, instead of a numerator and denominator
+- Reduced the threshold for a group to be considered hospital-based
+  - Instead of 100% of clinicians, more than 75% of clinicians in a group must be a hospital-based individual MIPS-eligible clinician in order for the group to be excluded from reporting the measures under the PI performance category and to have this category reweighted to zero.
 
 ## Keeping On Keeping On
 

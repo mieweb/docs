@@ -1,17 +1,18 @@
 ---
-id: '1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U'
-title: 'PM 3 - RHC, IHS, or FQHC Quality Improvement Activities'
-date: '2020-02-27T20:48:24.529Z'
+id: "1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U"
+title: "PM 3 - RHC, IHS, or FQHC Quality Improvement Activities"
+date: "2020-02-27T20:48:24.529Z"
 version: 21
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1Uhs9uOsLcJ0FleAY55Z_Hsu7B2HliJQ0SPThhuDuW4U"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: High
 
 **Subcategory Name**: Population Management

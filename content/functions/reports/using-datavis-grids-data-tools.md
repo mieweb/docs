@@ -1,15 +1,16 @@
 ---
-id: '1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
-title: 'Using DataVis Grids - Data Tools'
-date: '2025-07-17T14:30:45.295Z'
+id: "1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY"
+title: "Using DataVis Grids - Data Tools"
+date: "2025-07-17T14:30:45.295Z"
 version: 335
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
-source: 'https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:ALBHRKMF"
+source: "https://drive.google.com/open?id=1Ghj2RP8IERXm7OKIAoAj3YYh7sVV18xr5-Nf3UzBxHY"
+wikigdrive: "v2.15.30"
 ---
+
 The actual grid you use may differ slightly in appearance from the examples below. Some grids may be configured specifically to disallow certain features.
 
 ## Plain Output
@@ -18,7 +19,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ![](./using-datavis-grids-data-tools.assets/6dfa4c1b9854c7972d00445722bd1e3b.png)
 
-*initial view of the grid*
+_initial view of the grid_
 
 1. Show/hide the whole grid.
 2. Use the <strong>gear icon</strong> to show/hide the grid controls (where you can set the filter, group, pivot, and aggregate functions: see following screenshots).
@@ -29,21 +30,21 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ![](./using-datavis-grids-data-tools.assets/12612183705c72c94adc89044628f600.png)
 
-*after clicking the gear icon to show the grid controls*
+_after clicking the gear icon to show the grid controls_
 
 1. The <strong>filter control</strong> — here we have filtered by Appt ID. To add more filters, select the column name from the dropdown and click the "+" button, or drag the column header into the control, or click the filter icon in the column header. Use the "–" button next to each filter to remove it.
 2. The <strong>group control</strong> — allows you to group the data by the value of certain columns. To group by a column, select the column name from the dropdown and click the "+" button, or drag the column header into the control.
 
 ### Other Features
 
-* The <strong>refresh button</strong> forces the grid to fetch a new copy of the data.
-* The <strong>export button</strong> lets you download a CSV file of the data <em>as it appears in the grid</em>. This works the same in plain, group, and pivot outputs.
+- The <strong>refresh button</strong> forces the grid to fetch a new copy of the data.
+- The <strong>export button</strong> lets you download a CSV file of the data <em>as it appears in the grid</em>. This works the same in plain, group, and pivot outputs.
 
 ## Group Output
 
 ![](./using-datavis-grids-data-tools.assets/e8a94e6ad248d2edbf69933bed63e731.png)
 
-*after grouping by Product*
+_after grouping by Product_
 
 1. Click the "+" or "–" button to expand/collapse the rows that belong to that group.
 2. The <strong>group mode toolbar section</strong> — "summary" mode shows only the group and the result of the aggregate function. "Detail" mode shows all the rows that go into each group.
@@ -60,7 +61,7 @@ The grid starts with "plain output" which shows the raw data. This is useful for
 
 ![](./using-datavis-grids-data-tools.assets/9b4fbd8264ac7055199f69d00f20b4b0.png)
 
-*after adding Resource to the group, and pivoting by Location*
+_after adding Resource to the group, and pivoting by Location_
 
 1. The <strong>filter control</strong> — To add filters, select the column name from the dropdown and click the "+" button.
 2. The <strong>group control</strong> — here we're grouping by Resource. You can drag & drop these fields to reorder them. To add more columns to the grouping, select the column name from the dropdown and click the "+" button. To remove a column, use the "–" button next to the column name.
@@ -78,7 +79,7 @@ Filters you are already using still apply, if they don't conflict with the drill
 
 ![](./using-datavis-grids-data-tools.assets/245af1cc149068effd90ce77b7eadbd2.png)
 
-*after drilling down into the Resource Selenium, Selenium*
+_after drilling down into the Resource Selenium, Selenium_
 
 Click the **view history back arrow** in the **view toolbar section** to go back to the previous view.
 
@@ -94,14 +95,14 @@ Data values that contain embedded formatting strings can be rendered when the co
 
 where <SPECS> is a comma-separated list of format specifiers:
 
-* bg=HHHHHH sets the background color to the RGB hex color
-* fg=HHHHHH sets the foreground color to the RGB hex color
-* ts=X sets the text style as specified, with any of the following letters supported:
-* b for bold
-* i for italic
-* s for strike-through
-* u for underline
-* cls=C sets CSS class(es) for the HTML element; multiple classes can be separated by spaces, or use several cls formatters.
+- bg=HHHHHH sets the background color to the RGB hex color
+- fg=HHHHHH sets the foreground color to the RGB hex color
+- ts=X sets the text style as specified, with any of the following letters supported:
+- b for bold
+- i for italic
+- s for strike-through
+- u for underline
+- cls=C sets CSS class(es) for the HTML element; multiple classes can be separated by spaces, or use several cls formatters.
 
 ![](./using-datavis-grids-data-tools.assets/3cff2fbb858e1e9c3017bf49076635be.png)
 
@@ -109,7 +110,7 @@ where <SPECS> is a comma-separated list of format specifiers:
 
 ### Column Configuration
 
-The property to allow formatting is *allowFormatting* and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
+The property to allow formatting is _allowFormatting_ and it can be accessed by an end user via the COLUMNS selection button within a datavis, where it is represented by the paintbrush icon per column.
 
 ![](./using-datavis-grids-data-tools.assets/1d87ee7cb206588503860dca9d51e293.png)
 
@@ -131,4 +132,4 @@ Legacy view prior to RC202403:
 
 To learn more about Using DataVis Grids - Data Tools, follow the link below to the Learning Management System course:
 
-* [Reports](https://mie.talentlms.com/shared/start/key:ALBHRKMF) 206.A (70 minutes)
+- [Reports](https://mie.talentlms.com/shared/start/key:ALBHRKMF) 206.A (70 minutes)

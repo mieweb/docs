@@ -1,25 +1,26 @@
 ---
-id: '1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0'
-title: 'CC 11 - Care Transition Standard Operational Improvements'
-date: '2020-02-27T20:51:37.014Z'
+id: "1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0"
+title: "CC 11 - Care Transition Standard Operational Improvements"
+date: "2020-02-27T20:51:37.014Z"
 version: 19
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1fBBZoVKj65j4pAZvv0Qc-ihM7uWVzUJCaoaMS_snMX0"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Care Coordination
 
 **Description**: Establish standard operations to manage transitions of care that could include one or more of the following:
 
-* Establish formalized lines of communication with local settings in which empaneled patients receive care to ensure documented flow of information and seamless transitions in care; and/or
-* Partner with community or hospital-based transitional care services.
+- Establish formalized lines of communication with local settings in which empaneled patients receive care to ensure documented flow of information and seamless transitions in care; and/or
+- Partner with community or hospital-based transitional care services.
 
 Supporting Documentation
 

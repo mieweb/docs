@@ -1,18 +1,19 @@
 ---
-id: '1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
-title: 'CMS 75 - Children Who Have Dental Decay or Cavities'
-date: '2022-05-16T15:48:04.708Z'
+id: "1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM"
+title: "CMS 75 - Children Who Have Dental Decay or Cavities"
+date: "2022-05-16T15:48:04.708Z"
 version: 71
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10'
-source: 'https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms075v10"
+source: "https://drive.google.com/open?id=1_WNP2ZbGCTMB799wehG2aIhHRJamoz3dsBADmF4pBtM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS75v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS75v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

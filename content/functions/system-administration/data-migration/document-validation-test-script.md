@@ -1,24 +1,25 @@
 ---
-id: '1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
-title: 'Document Validation Test Script'
-date: '2026-01-06T20:12:15.669Z'
+id: "1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw"
+title: "Document Validation Test Script"
+date: "2026-01-06T20:12:15.669Z"
 version: 89
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
-  - 'https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit'
-  - 'https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7'
-  - '../../reports/documents-report-super-document-type-search.md'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/'
-  - 'https://docs.enterprisehealth.com/functions/reports/'
-  - 'https://docs.enterprisehealth.com/functions/reports/documents-report-super-document-type-search/'
-source: 'https://drive.google.com/open?id=1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw'
-wikigdrive: 'v2.15.30'
+  - "https://drive.google.com/open?id=1-bEhVXIw7-K_Z06pJshMYYHg3JCGm32l"
+  - "https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/"
+  - "https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit"
+  - "https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7"
+  - "../../reports/documents-report-super-document-type-search.md"
+  - "https://docs.enterprisehealth.com/functions/e-chart/"
+  - "https://docs.enterprisehealth.com/functions/reports/"
+  - "https://docs.enterprisehealth.com/functions/reports/documents-report-super-document-type-search/"
+source: "https://drive.google.com/open?id=1Is5FLQOhjm41qI_Epg9Ki6wnUfxh897DBx1zbwwO8fw"
+wikigdrive: "v2.15.30"
 ---
+
 This document describes the process to validate migrated data formatted to display as a document in the {{% system-name %}} system. These documents typically contain data that is either not required to be discreet, or to be reported on, needs to be available from specifically-named documents.
 
 {{% note %}}
@@ -27,8 +28,8 @@ Validation may also be performed on imported scanned documents.
 
 ## Requirements
 
-* Compile a list of 8-10 different charts containing questionnaire data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, to address potential import discrepancies that could arise.
-* Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
+- Compile a list of 8-10 different charts containing questionnaire data from the legacy/existing system. Ensure the examples include varied complexity and multiple years of data, to address potential import discrepancies that could arise.
+- Multiple monitors are recommended to assist with comparing legacy data to the data imported to {{% system-name %}} .
 
 ## Explanation of Data
 
@@ -39,21 +40,22 @@ The {{% system-name %}} system can display another system's data as documents. T
 1. Log into the {{% system-name %}} system.
 2. Navigate to the [Quick View](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/), and using the portlet, perform a <strong>Chart Search</strong> for a record from the list of 8-10 charts.
 
-    ![](./document-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
+   ![](./document-validation-test-script.assets/52f73ae40dc37122cc526f2bbb6020ab.png)
 
 {{% tip %}}
 
-* Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
-* Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
+- Select the preferred search criteria, such as <strong>D.O.B.</strong>, <strong>Name</strong>, or <strong>EMP #</strong> (sometimes referred to as Medical Record Number, or MR#).
+- Type in the appropriate value and click <strong>Search,</strong> or press enter. (For more information and instructions on searching, see [Basic Initial System Information](https://docs.enterprisehealth.com/functions/e-chart/basic-initial-system-information/) or [Detailed Searching in E-Chart](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/).)
 
 {{% /tip %}}
 
 3. Verify the chart. Demographic data (e.g., Name, Status, MR#) is displayed on the Patient Header.
 
-    ![](./document-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+   ![](./document-validation-test-script.assets/3b6e81d53b6a76b60742edeec867658b.png)
+
 4. As noted, the Documents chart tab displays <strong>all</strong> documents related to the chart. The documents in this tab may also appear in other, more specific tabs, such as Labs or Encounters chart tabs. Change the view of the results using the drop-down in the upper-right corner of the page. 
 
-    ![](./document-validation-test-script.assets/674c73ec2444bbd1a0f365ba02a10a0a.png)
+   ![](./document-validation-test-script.assets/674c73ec2444bbd1a0f365ba02a10a0a.png)
 
 {{% tip %}}
 **Detail View** may be better suited for validating documents. Changing views does not change views across chart tabs, but will change the respective view across different charts. Using the drop-down makes it easy to change between views and can be updated, as needed. ![](./document-validation-test-script.assets/9ec7ddee5878fb47b312fa81e02ae275.png)
@@ -61,16 +63,16 @@ The {{% system-name %}} system can display another system's data as documents. T
 
 5. Select the document being validated from the list. 
 
-    ![](./document-validation-test-script.assets/f8cf83dfe7a8f3f5f2e778418daaf3eb.png)
+   ![](./document-validation-test-script.assets/f8cf83dfe7a8f3f5f2e778418daaf3eb.png)
 
 {{% tip %}}
 To return to the list of documents, click the Documents chart tab.
 {{% /tip %}}
 
 6. With the documents displayed, begin comparing the data. Toggle between the legacy system and the {{% system-name %}} system to validate the data. If access to the legacy system is unavailable, users may use the CSV file presented to {{% system-name %}} for initial import.
-    * Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
-    * Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
-    * Contact {{% system-name %}} with the findings.
+   - Using the [Validation Tracking Template](https://docs.google.com/spreadsheets/d/1FRV_L_J38dhBDi13elXHVJddMuIZy6Sq5P3Viv9IXxE/edit#gid=0), record any discrepancies or differences.
+   - Take screenshots of each system, highlighting the differences found. <strong>(Remember: DO NOT email PHI)</strong>
+   - Contact {{% system-name %}} with the findings.
 
 ## [Reports](https://drive.google.com/open?id=1-fpn_MQL5MYKpUbfbrykYBL3WsnWHQt7)
 
@@ -80,10 +82,11 @@ The [Super Document Search and Document Reports](../../reports/documents-report-
 
 1. Using the Chart Search Quick View portlet, or navigating to [E-Chart](https://docs.enterprisehealth.com/functions/e-chart/), click the <strong>Documents</strong> link to open the Super Document Search Report.
 
-    ![](./document-validation-test-script.assets/34d4d957441993d4f8584e03b93e945a.png)
+   ![](./document-validation-test-script.assets/34d4d957441993d4f8584e03b93e945a.png)
+
 2. Select criteria to search by. Typically <strong>Doc Type</strong> and <strong>Service Date</strong> ranges are used to limit results. Use the Detail View and Modify Search links to manipulate the search results, as needed.
 
-    ![](./document-validation-test-script.assets/52d59b62e08cbb0734d74572d2068ad6.png)
+   ![](./document-validation-test-script.assets/52d59b62e08cbb0734d74572d2068ad6.png)
 
 See the online help documentation for more information on the [Super Document Search](../../reports/documents-report-super-document-type-search.md).
 

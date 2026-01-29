@@ -1,18 +1,19 @@
 ---
-id: '1HCEqw0M2GLLrCTZ1Jzg5RL_FacpXa3n74cRLt2yxlmY'
-title: 'CMS 177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment'
-date: '2022-04-29T13:16:53.158Z'
+id: "1HCEqw0M2GLLrCTZ1Jzg5RL_FacpXa3n74cRLt2yxlmY"
+title: "CMS 177 - Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment"
+date: "2022-04-29T13:16:53.158Z"
 version: 17
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms177v10'
-source: 'https://drive.google.com/open?id=1HCEqw0M2GLLrCTZ1Jzg5RL_FacpXa3n74cRLt2yxlmY'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms177v10"
+source: "https://drive.google.com/open?id=1HCEqw0M2GLLrCTZ1Jzg5RL_FacpXa3n74cRLt2yxlmY"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS177v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS177v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -101,7 +102,6 @@ wikigdrive: 'v2.15.30'
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
-
 
 ### Original Visit Encounter
 

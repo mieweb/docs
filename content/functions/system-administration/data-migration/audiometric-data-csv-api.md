@@ -1,18 +1,19 @@
 ---
-id: '14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
-title: 'Audiometric Data CSV API'
-date: '2025-11-12T20:39:07.694Z'
+id: "14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA"
+title: "Audiometric Data CSV API"
+date: "2025-11-12T20:39:07.694Z"
 version: 58
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing'
-  - 'https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub'
-  - 'https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub?output=csv'
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1gtMinRE8kX9znznYtIHlU15qT3P_yET9hAD06JHfOzg/edit?usp=sharing'
-source: 'https://drive.google.com/open?id=14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA'
-wikigdrive: 'v2.15.30'
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit?usp=sharing"
+  - "https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub"
+  - "https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub?output=csv"
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1gtMinRE8kX9znznYtIHlU15qT3P_yET9hAD06JHfOzg/edit?usp=sharing"
+source: "https://drive.google.com/open?id=14Q9LWFz8E5pjz1_Is_4mpmATDyGNYo7Jb178BZukbTA"
+wikigdrive: "v2.15.30"
 ---
+
 The following page defines data and fields that may be imported into MIE systems (Enterprise Health, WebChart) for audiometry using the Audiometric Data CSV API.
 
 ## Audience
@@ -25,9 +26,9 @@ Enterprise Health stores discrete data for occupational audiogram tests, which c
 
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 
-* A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
-* A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
-* An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
+- A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
+- A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
+- An <strong>encounter</strong> documents a visit with a employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system.
 
@@ -43,15 +44,15 @@ In the case that the legacy audio data does not contain STS information or is in
 
 In addition to having the baselines set (audio.left_baseline, audio.right_baseline), these are the required fields for the calculation:
 
-* Left 2 kHz (audio.left2)
-* Left 3 kHz (audio.left3)
-* Left 4 kHz (audio.left4)
-* Right 2 kHz (audio.right2)
-* Right 3 kHz (audio.right3)
-* Right 4 kHz (audio.right4)
-* Test Datetime (audio.test_datetime)
-* Patient's Sex (patients.sex)
-* Patient's Birth Date (patients.birth_date)
+- Left 2 kHz (audio.left2)
+- Left 3 kHz (audio.left3)
+- Left 4 kHz (audio.left4)
+- Right 2 kHz (audio.right2)
+- Right 3 kHz (audio.right3)
+- Right 4 kHz (audio.right4)
+- Test Datetime (audio.test_datetime)
+- Patient's Sex (patients.sex)
+- Patient's Birth Date (patients.birth_date)
 
 A shift is set when both of the following conditions are met:
 
@@ -82,9 +83,9 @@ The following fields (indicated in the Data Name column) are noted as required (
 
 The following fields are required:
 
-* <em>Chart Identifier</em> (documents.pat_id) and Chart ID Type (documents.pat_id_type) are used to correctly identify a chart.
-* <em>External ID</em> (documents.ext_doc_id) identifies a record in the original data source (this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
-* <em>Test Date/Time</em> (audio.test_datetime) is required in order to compare tests for an employee (patient).
+- <em>Chart Identifier</em> (documents.pat_id) and Chart ID Type (documents.pat_id_type) are used to correctly identify a chart.
+- <em>External ID</em> (documents.ext_doc_id) identifies a record in the original data source (this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
+- <em>Test Date/Time</em> (audio.test_datetime) is required in order to compare tests for an employee (patient).
 
 #### Best Practice
 
@@ -94,19 +95,19 @@ Most OSHA reporting standards include calibration data. It is best practice to i
 
 Left and right ear measurements for 2, 3, and 4 kHz are utilized for hearing conservation standard threshold shift (STS) calculation. It is considered best practice to include the following:
 
-* <em>Left 2 kHz</em> (audio.left2)
-* <em>Left 3 kHz</em> (audio.left3)
-* <em>Left 4 kHz</em> (audio.left4)
-* <em>Right 2 kHz</em> (audio.right2)
-* <em>Right 3 kHz</em> (audio.right3)
-* <em>Right 4 kHz</em> (audio.right4)
+- <em>Left 2 kHz</em> (audio.left2)
+- <em>Left 3 kHz</em> (audio.left3)
+- <em>Left 4 kHz</em> (audio.left4)
+- <em>Right 2 kHz</em> (audio.right2)
+- <em>Right 3 kHz</em> (audio.right3)
+- <em>Right 4 kHz</em> (audio.right4)
 
 #### Optional Fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
-* <em>Encounter External Identifier</em> (encounters.ext_id)
-* <em>Encounter Interface</em> (encounters.interface)
+- <em>Encounter External Identifier</em> (encounters.ext_id)
+- <em>Encounter Interface</em> (encounters.interface)
 
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
@@ -114,8 +115,8 @@ Including the field encounter order_id will also create an encounter order of th
 
 The following examples are available:
 
-* [Google spreadsheet](https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub)
-* [Downloadable CSV](https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub?output=csv)
+- [Google spreadsheet](https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub)
+- [Downloadable CSV](https://docs.google.com/spreadsheets/d/1OOX4f8ZthFYu0e2oIszoHFqCTOW5lktyPMnmUTZisK4/pub?output=csv)
 
 ## Validation
 

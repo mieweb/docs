@@ -1,15 +1,16 @@
 ---
-id: '1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
-title: 'Disabling Inactive User Access & Accounts'
-date: '2025-11-13T14:03:07.079Z'
+id: "1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
+title: "Disabling Inactive User Access & Accounts"
+date: "2025-11-13T14:03:07.079Z"
 version: 44
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs/'
-source: 'https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs/"
+source: "https://drive.google.com/open?id=1zemDHa5mw7bP9btK76mzaLNNRea9zxxrfwjVmAt2ZSY"
+wikigdrive: "v2.15.30"
 ---
+
 As an  {{% system-name %}} standard, all user application access is regularly reviewed and validated, ensuring all user access–including of employees, clients, vendors, and partners–is appropriate, given the users' roles and responsibilities. This provides assurance that object access and account management practices support the MIE Information Security Policies. For example, the security principle of *least privilege* requires all users to be granted the most restrictive set of privileges needed for the performance of their authorized tasks. Simply applying this principle limits the damage that can result from accident, error, or unauthorized use.
 
 As such, all {{% system-name %}} systems will automatically disable any client and/or user account (e.g., MIExxxx) that has been inactive for an established and configured number of days. In other words, employees, clients, vendors, and/or partners functioning as system administrators of any database on MIE servers, shall take the responsibility of their user access by way of the tools and automation available in the system, described in further detail, below.
@@ -37,4 +38,4 @@ In addition to the Days Inactive system setting, the  {{% system-name %}} syste
 From the [Scheduled Jobs](https://docs.enterprisehealth.com/functions/system-administration/system-controls/enabled-and-disabled-scheduled-jobs/) menu tab, users may search for existing scheduled jobs and edit, as needed, or use the Add Scheduled Job link, in the upper-right corner of the page.
 {{% /info %}}
 
-Unless updated, the default behavior of the Disable Inactive Users scheduled job is to run daily, at 05:00, where any user access flagged as inactive, based on the Days Inactive system setting, discussed in detail, above, will hit and perform the *disableacc* function, automatically.
+Unless updated, the default behavior of the Disable Inactive Users scheduled job is to run daily, at 05:00, where any user access flagged as inactive, based on the Days Inactive system setting, discussed in detail, above, will hit and perform the _disableacc_ function, automatically.

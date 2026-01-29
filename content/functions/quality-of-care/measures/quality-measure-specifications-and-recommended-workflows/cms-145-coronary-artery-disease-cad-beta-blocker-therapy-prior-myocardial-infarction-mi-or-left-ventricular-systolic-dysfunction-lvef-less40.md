@@ -1,18 +1,19 @@
 ---
-id: '1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-title: 'CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)'
-date: '2022-04-20T19:45:18.490Z'
+id: "1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U"
+title: "CMS 145 - Coronary Artery Disease (CAD): Beta-Blocker Therapy-Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF <40%)"
+date: "2022-04-20T19:45:18.490Z"
 version: 49
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10'
-source: 'https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms145v10"
+source: "https://drive.google.com/open?id=1V1jU357jEM--obZeUiuPciuLwYEo43BBhZ3csuMov2U"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS145v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS145v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -109,14 +110,13 @@ Performance Rate = (Numerator 1 + Numerator 2)/ [(Denominator 1 - Denominator Ex
 
 ### New UI Visit Encounter (valid RC202109+)
 
-
 ### Original Visit Encounter
 
 Track all patients aged 18+ prescribed beta-blocker therapy within a 12-month period of the diagnosis of coronary artery disease with prior myocardial infarction (MI) or a current or prior LVEF < 40%.
 
 1. Ensure patient has one of the following diagnoses:
-    1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
-    2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
+   1. Moderate left ventricular systolic dysfunction (disorder) - SNOMED 981000124106
+   2. Severe left ventricular systolic dysfunction (disorder) - SNOMED 991000124109
 2. Numerator will be populated with patients prescribed a beta-blocker therapy within the measure period.
 
 ## Evidence

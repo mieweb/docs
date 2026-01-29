@@ -1,18 +1,19 @@
 ---
-id: '199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-title: 'Encounters'
-date: '2022-08-30T20:35:29.587Z'
+id: "199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+title: "Encounters"
+date: "2022-08-30T20:35:29.587Z"
 version: 81
-lastAuthor: 'wreiske'
-mimeType: 'text/x-markdown'
+lastAuthor: "wreiske"
+mimeType: "text/x-markdown"
 links:
-  - 'encounters/telehealth.md'
-  - 'encounters/dictation-and-transcription.md'
-  - 'injury-care.md'
-  - 'encounters/work-related-exams.md'
-source: 'https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo'
-wikigdrive: 'v2.15.30'
+  - "encounters/telehealth.md"
+  - "encounters/dictation-and-transcription.md"
+  - "injury-care.md"
+  - "encounters/work-related-exams.md"
+source: "https://drive.google.com/open?id=199AEByNU97uYKqzI8RuvTDuojNy0KQvIe8uBmaL0-xo"
+wikigdrive: "v2.15.30"
 ---
+
 The {{% system-name %}} system creates customized, programmable encounter forms, with important demographic and clinical data presenting to the clinician at the point-of-care, facilitating more comprehensive encounter documentation. With the {{% system-name %}} Dynamic Encounter, data is easily captured at the time of the visit, allowing clinical staff and providers to streamline all necessary clinic operations.
 
 ## [TeleHealth](encounters/telehealth.md)

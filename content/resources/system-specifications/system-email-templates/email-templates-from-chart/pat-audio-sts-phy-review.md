@@ -1,14 +1,15 @@
 ---
-id: '1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0'
-title: 'Pat Audio STS Phy Review'
-date: '2025-11-13T16:59:11.275Z'
+id: "1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0"
+title: "Pat Audio STS Phy Review"
+date: "2025-11-13T16:59:11.275Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1J58hRE8NhLsLwo2cAbtyVuop27oVM6IEWZwZ9bbWnq0"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Notification to Schedule Follow-up Appointment
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Notification to Schedule Follow-up Audiogram Review after Second STS Finding
 

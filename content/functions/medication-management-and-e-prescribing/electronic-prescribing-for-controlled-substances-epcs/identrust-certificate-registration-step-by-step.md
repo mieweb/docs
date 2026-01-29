@@ -1,19 +1,20 @@
 ---
-id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2026-01-20T19:10:32.521Z'
+id: "1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY"
+title: "IdenTrust Certificate Registration Step-by-Step"
+date: "2026-01-20T19:10:32.521Z"
 version: 485
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://www.identrust.com/igc/mie/'
-  - 'https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG'
-  - 'mailto:trustsource@identrust.com'
-  - 'https://secure.identrust.com../app/resendEmailVerification?id=586401176012552'
-  - 'http://www.indentrust.com/install'
-source: 'https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
-wikigdrive: 'v2.15.30'
+  - "https://www.identrust.com/igc/mie/"
+  - "https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG"
+  - "mailto:trustsource@identrust.com"
+  - "https://secure.identrust.com../app/resendEmailVerification?id=586401176012552"
+  - "http://www.indentrust.com/install"
+source: "https://drive.google.com/open?id=1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY"
+wikigdrive: "v2.15.30"
 ---
+
 ![](./identrust-certificate-registration-step-by-step.assets/e714b45dbc80ccc03a7bd9d5253800b8.png)
 
 Providers who wish to electronically prescribe controlled medications must employ two-factor authentication as required by the DEA. Medical Informatics Engineering (MIE) works with IdenTrust to provide the required level of identity proofing needed for Electronic Prescribing for Controlled Substances (EPCS). IdenTrust will issue digital certificate tokens that can be used to digitally sign and electronically transmit prescriptions for controlled substances. By providing required information to IdenTrust, providers can complete identity proofing and establish two-factor authentication for two years. Providers will receive a USB device that will generate a digital signature.
@@ -24,9 +25,9 @@ THE APPLICATION AND IDENTITY VERIFICATION PROCESS MUST BE COMPLETED AND SUBMITTE
 
 This step-by-step help guide will walk you through the online application process. Before you begin, have the following ready:
 
-* Credit Card information for address verification only (not used for payment)
-* Credit Card information for payment
-* Valid Email Address
+- Credit Card information for address verification only (not used for payment)
+- Credit Card information for payment
+- Valid Email Address
 
 CLICK [ [HERE](https://www.identrust.com/igc/mie/) ] TO BEGIN
 
@@ -36,19 +37,19 @@ It's as Easy as 1 - 2 - 3!
 
 When prescribers are ready to purchase the certificate and/or token, there is a simple 3-step process provided through IdenTrust. Simply fill out the application, verify your information, and receive your certificate and generate its key for use.
 
-There is a recording walking to watch someone walk through all the steps (the video has no sound).  If you start at about 3:30 on the normal speed video in this folder:[](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)[https://drive.google.com/drive/folders/1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG?usp=sharing](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)
+There is a recording walking to watch someone walk through all the steps (the video has no sound). If you start at about 3:30 on the normal speed video in this folder:[](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)[https://drive.google.com/drive/folders/1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG?usp=sharing](https://drive.google.com/open?id=1-0HGtSKwTYpz8oZmQMELkRs9SZEaQzqG)
 
 ### Select a Certificate
 
 The first step requires the selection of the certificate. There are 3 types of Certificates that MIE/IdenTrust will offer to prescribers.
 
 1. <strong>EPCS Prescribing - IGC Basic Assurance Unaffiliated Hardware = $96.00-$232.00 (Prices subject to change by IdenTrust)</strong>
-    * Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
+   - Select this option if you are a new prescriber to EPCS. This option is for EPCS Two Factor Authentication Certificates and Tokens. During the registration process, you will be presented with hardware storage options for your certificate. If you are a new registrant, please select the USB Token. Otherwise, current EPCS prescribers can use their existing token.
 2. <strong>EPCS Prescribing- IGC Assurance unaffiliated Software- EPCS Prescribing with Mobile Authentication = $258.00 (Pricing subject to change by IdenTrust)</strong>
-    * Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
+   - Select this option if you are a new prescriber to EPCS and wish to use your cell phone or other mobile divide to prescribe.
 3. <strong>Identity Proofing Only (Non-EPCS Prescriber) - IGC Basic Assurance Unaffiliated Software = $84.00-$198.00</strong>
 
-******Note: Enterprise Health and WebChart will be deprecating support for USB tokens. Customers should opt for the Mobile Authentication certificate.**
+**\*\***Note: Enterprise Health and WebChart will be deprecating support for USB tokens. Customers should opt for the Mobile Authentication certificate.\*\*
 
 ### Select the Storage Device (pricing shown is for Mobile Authentication)
 
@@ -64,9 +65,9 @@ The first step requires the selection of the certificate. There are 3 types of C
 
 1. Every certificate provided through IdenTrust for EPCS has different year options for the validity period. The 2-year option is automatically selected for mobile authentication.
 2. The USB Token option requires the purchase of the HID USB Token, used to store the digital certificate.
-    * <strong>HID USB Token - $92.00</strong>
-        * This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
-    * SafeNet USB Token use existing - $0.00
+   - <strong>HID USB Token - $92.00</strong>
+     - This option is for EPCS Two Factor Authentication Certificates using USB Tokens. If you are a new registrant, please select the USB Token if you will not be using mobile authentication. Otherwise, current EPCS prescribers may use their existing token.
+   - SafeNet USB Token use existing - $0.00
 3. Make your selection, and click the <strong>Next</strong> button.
 4. Verify your selections, and click <strong>Buy Now</strong>.
 
@@ -109,7 +110,6 @@ A passcode is required for the hardware that will store your certificate.You wil
 
 2. Indicate that you have read and acknowledged the <strong>Subscriber Agreement</strong>. Click <strong>Submit Application</strong> to continue.
 
-
 ![](./identrust-certificate-registration-step-by-step.assets/a7e7d8aff8c9b95457d2d968d720a47c.png)
 
 ## Get Verified
@@ -118,7 +118,7 @@ Congratulations! You have just completed the **first** phase. Thank you for appl
 
 Remember, there are **3 phases** in the process of obtaining your IGC Basic Assurance Hardware Unaffiliated 2 Year Certificate.
 
-*IdenTrust will now complete the* **_second_*** phase of your application - Approval. If successful, you will need to complete the* **_third_*** and final phase - Retrieval; to obtain your certificate.*
+_IdenTrust will now complete the_ **_second_\*** phase of your application - Approval. If successful, you will need to complete the\* **_third_\*** and final phase - Retrieval; to obtain your certificate.\*
 
 Part of the Approval Phase includes verifying your email address and allowing IdenTrust to verify your identity.
 
@@ -130,9 +130,9 @@ Part of the Approval Phase includes verifying your email address and allowing Id
 
 If you have not received your Verification Code from [trustsource@identrust.com](mailto:trustsource@identrust.com) after a brief period, you may:
 
-* Check your bulk email folder for this email.
-* Verify that your spam filters allow you to receive emails from [trustsource@identrust.com](mailto:trustsource@identrust.com); this may require the assistance of your system administrator.
-* Request your Verification Code be sent again by going to: https://secure.identrust.com../app/resendEmailVerification?id=586401176012552
+- Check your bulk email folder for this email.
+- Verify that your spam filters allow you to receive emails from [trustsource@identrust.com](mailto:trustsource@identrust.com); this may require the assistance of your system administrator.
+- Request your Verification Code be sent again by going to: https://secure.identrust.com../app/resendEmailVerification?id=586401176012552
 
 {{% note title="Important" %}}
 Email verification must be completed (within 30 days) for IdenTrust to approve your account. The email verification MUST be completed before IdenTrust can begin processing your application.
@@ -155,14 +155,14 @@ You have entered the **third** and final phase, which consists of obtaining your
 ![](./identrust-certificate-registration-step-by-step.assets/5b7229ad05c916bcce395f084067a36c.png)
 
 2. <strong>Change the Passcode for the USB Token</strong> – Please note that this passcode reset process is intended for new, unused USB Tokens, or tokens where certificates have not already been installed. If you are using a USB Token that contains previous certificates, you will not see this prompt and can proceed to the next step.
-    * Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
-    * Click <strong>Ok</strong>.
+   - Insert the USB Token into your computer. You will see a message pop-up that says, "For security reasons, you must change the Token Passcode of your new token."
+   - Click <strong>Ok</strong>.
 
 ![](./identrust-certificate-registration-step-by-step.assets/f1ade27a5d5de5ee1716868a16fd6d76.png)
 
 3. Retrieve the Current Token Passcode from the Activation Letter you received, and set the New Token Passcode.
-    * <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter)
-    * <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
+   - <strong>Current Token Passcode</strong>: (Refer to IdenTrust Letter)
+   - <strong>New Token Passcode</strong>: Enter a personal passcode that you WILL NOT forget.
 
 ![](./identrust-certificate-registration-step-by-step.assets/669b6e199338b55b40d64e5a9b29dddb.png)
 
@@ -173,7 +173,7 @@ You have entered the **third** and final phase, which consists of obtaining your
 {{% warning %}}
 This is the Token Passcode for your USB Token which **must not be forgotten**. If you forget this passcode your certificate will be **permanently locked** and cannot be recovered.
 
-*****REMEMBER YOUR TOKEN PASSCODE*****
+**\***REMEMBER YOUR TOKEN PASSCODE**\***
 {{% /warning %}}
 
 5. With your USB Token plugged into your computer, browse to [www.indentrust.com/install](http://www.indentrust.com/install)
@@ -203,12 +203,11 @@ After the retrieval and key generation is complete, it is important that you tes
 
 3. You will then be prompted to provide two factor authentication with the token and passcode. When ready, click <strong>OK</strong>.
 
-
 ![](./identrust-certificate-registration-step-by-step.assets/8fc95e0f2c34475b2ec99acd5c577b68.png)
 
 ![](./identrust-certificate-registration-step-by-step.assets/b7c7d0e2e053d71e50068460b29f4b07.png)
 
-*****You can now begin Electronically Signing Controlled Substances*****
+**\***You can now begin Electronically Signing Controlled Substances**\***
 
 ## Verify Your Digital Certificate
 

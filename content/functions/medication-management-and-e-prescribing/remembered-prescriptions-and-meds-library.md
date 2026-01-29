@@ -1,17 +1,18 @@
 ---
-id: '1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
-title: 'Remembered Prescriptions & Meds Library'
-date: '2025-07-22T14:51:05.328Z'
+id: "1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM"
+title: "Remembered Prescriptions & Meds Library"
+date: "2025-07-22T14:51:05.328Z"
 version: 114
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1u7h8S6vLUpTspBl7V55DIvxImBqIxRtFScvnl5PM_tM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Create Remembered Prescription from Quick Prescribe
 
-In the patient's (or a test patient's) e-meds chart tab, make sure your current library is set to whatever library you want the script to be remembered under. Make sure you are not in *default library.*
+In the patient's (or a test patient's) e-meds chart tab, make sure your current library is set to whatever library you want the script to be remembered under. Make sure you are not in _default library._
 
 ![](./remembered-prescriptions-and-meds-library.assets/5728a02b4d98070c821d5e77f7e1380e.png)
 
@@ -23,7 +24,7 @@ Click the Prescribe link in the patient's e-meds tab.
 
 ![](./remembered-prescriptions-and-meds-library.assets/6d07ad2d7b19177ad2a1d729b68978dd.png)
 
-In the *Medication* field, begin to type the medication you want to prescribe and save to the physician's library as a remembered script name.
+In the _Medication_ field, begin to type the medication you want to prescribe and save to the physician's library as a remembered script name.
 
 These auto-complete medication choices come from the First DataBank database and drug/allergy interactions/warnings work only from these selections of known medications. This is an updated list of medications from First DataBank.
 
@@ -31,9 +32,9 @@ These auto-complete medication choices come from the First DataBank database and
 
 Continue selecting your form, type in the sig you want remembered, the duration, quantity, indication, etc.
 
-**FORM field:** the selection from the choices shown here will *save* with the remembered script. Free text forms will save also. If you free-type in a form, it will not save with the remembered script for future use. If you have to free-type in a form, we suggest typing it in along with the Medication Name in the first field, *or* type in the specific free-text form in the *Note to Pharmacist* field.
+**FORM field:** the selection from the choices shown here will _save_ with the remembered script. Free text forms will save also. If you free-type in a form, it will not save with the remembered script for future use. If you have to free-type in a form, we suggest typing it in along with the Medication Name in the first field, _or_ type in the specific free-text form in the _Note to Pharmacist_ field.
 
-The *Note to Pharmacist* field will also save if you set it to be a remembered script. Note to Pharmacist is helpful to put in compound medication information, etc. Anything typed in the Special Instructions field will also be remembered when using the remembered script feature.
+The _Note to Pharmacist_ field will also save if you set it to be a remembered script. Note to Pharmacist is helpful to put in compound medication information, etc. Anything typed in the Special Instructions field will also be remembered when using the remembered script feature.
 
 When you get to **REMEMBERED SCRIPT NAME** this is where you type in usually the physician's last name so they know it's their saved med they entered/use often or an abbreviation on what he/she uses this drug for (ex: CHF) or what he/she wants to remember it by to know it's his/her remembered script.
 
@@ -41,13 +42,13 @@ When you get to **REMEMBERED SCRIPT NAME** this is where you type in usually the
 
 Click the PRESCRIBE button at the bottom to submit the prescription.
 
-When prescribing for another patient and you are in the same *current library* as it was saved/remembered in, if you go to prescribe the medication, you will then see your *Remembered Name/Saved Med Library* script as a choice in the auto-complete. The medication name choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
+When prescribing for another patient and you are in the same _current library_ as it was saved/remembered in, if you go to prescribe the medication, you will then see your _Remembered Name/Saved Med Library_ script as a choice in the auto-complete. The medication name choices list is not alphabetical based on few characters.  It is supposed to be based on frequency of use. Type more characters to limit the list choices.
 
 ![](./remembered-prescriptions-and-meds-library.assets/cff27766189bcfd33e5e6b9bf2d09d1a.png)
 
 You can select that remembered script name and it will populate all the fields that the remembered script was entered in as. You can of course override any field and change anything, but since all the fields are filled out to how they were to be remembered, you can quickly click the PRESCRIBE button to prescribe the remembered script med for a patient and you're done without having to go thru each individual field as you do for (New) medication choices.
 
-If you have your library set to someone else, that *remembered script name/med* will not show up as an auto-complete choice while you are set to someone else's library.
+If you have your library set to someone else, that _remembered script name/med_ will not show up as an auto-complete choice while you are set to someone else's library.
 
 The remembered script is only saved under the library that it was set to when saved/remembered initially.
 
@@ -67,7 +68,7 @@ When you use a ‘remembered script' and change or enter in information to the p
 
 ## Remembered Prescriptions in Encounter Exams
 
-When you are working in the Meds plan section of any encounter, you can also utilize the *Remember As* and *update* features as above. The library you are set to is where this is pointed to.
+When you are working in the Meds plan section of any encounter, you can also utilize the _Remember As_ and _update_ features as above. The library you are set to is where this is pointed to.
 
 ![](./remembered-prescriptions-and-meds-library.assets/d90f5484897012679365d26ca80a8046.png)
 

@@ -1,18 +1,19 @@
 ---
-id: '1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-title: 'Picture-Photo Documents'
-date: '2025-11-10T15:02:14.071Z'
+id: "1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY"
+title: "Picture-Photo Documents"
+date: "2025-11-10T15:02:14.071Z"
 version: 106
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
-  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
-  - 'https://mie.talentlms.com/shared/start/key:LBEIDNHR'
-source: 'https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/"
+  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
+  - "https://mie.talentlms.com/shared/start/key:LBEIDNHR"
+source: "https://drive.google.com/open?id=1E5YYzxsfdGO75Ol__6jtjvnrteNioQ-QbT44hv1UqTY"
+wikigdrive: "v2.15.30"
 ---
+
 The {{% system-name %}} system is designed to allow photos/pictures to be uploaded as documents into charts, as needed. Currently, only JPG, TIFF, and PNG file types are supported for uploading to charts, so it is important to ensure the photos being uploaded are one of these acceptable file formats prior to adding any photo documents to a chart.
 
 ## Upload Photo/Picture from Source
@@ -33,7 +34,7 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 ![](./picture-photo-documents.assets/9552505e471a4e2d3872bcf1bd0e5875.png)
 
-**Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
+**Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the _Creator_ and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
 {{% note %}}
 In order to author documents for others, the user must have the Access Control **Transcribe for Others** setting set to **Yes**. If this setting is not enabled for the user, the Authored By field will not be an option.
@@ -49,9 +50,9 @@ In order to author documents for others, the user must have the Access Control *
 
 **Encounter:** {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded document to the specified encounter. If the document does not need to be linked to an encounter, simply leave the field blank.
 
-* A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
-* Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. When the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
+- A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
+- Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. When the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
+- Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
 ![](./picture-photo-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
@@ -59,13 +60,13 @@ In order to author documents for others, the user must have the Access Control *
 If the user has a current encounter set in the chart, the Encounter field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
 {{% /info %}}
 
-**Link to Orders**: Like linking to encounters, documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the *Link to Orders* field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
+**Link to Orders**: Like linking to encounters, documents can be linked to pending orders, as needed. To see pending orders, use the down arrow key (↓) on the keyboard when the cursor is in the _Link to Orders_ field. Select any of the orders needing to be linked to the file document, and once the file is uploaded, the order(s) will automatically be marked as Complete.
 
-**Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the *Case* field.
+**Case**: Use this field to link the document to a case. To see and select any cases/incidents associated with the chart, press the down arrow key (↓) on the keyboard when the cursor is in the _Case_ field.
 
 **CC** (**Physicians**): Using this field allows users to attach any relevant clinicians/physicians for carbon copying, which will then immediately fax or route the information to them, depending on the system setup. This feature works with an ActiveX Word control and can be read about in the [Word Documents - CC Physicians Feature](https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/) help documentation.
 
-Once the necessary fields have been filled in, click the **Add Document** button to locate the file for upload. The *Document Capture Control* screen will open. By default, the scan control is automatically set to open and show image files from the **Pictures** folder on the local hard drive. This is typically where most photo/images are stored when downloading from a digital camera.
+Once the necessary fields have been filled in, click the **Add Document** button to locate the file for upload. The _Document Capture Control_ screen will open. By default, the scan control is automatically set to open and show image files from the **Pictures** folder on the local hard drive. This is typically where most photo/images are stored when downloading from a digital camera.
 
 {{% note %}}
 If this is the first time uploading a picture, the MIE VidCap Control plugin will need to be installed. This will allow users to capture images from a camera (e.g. a webcam) for upload, or from a smartcard source, where the image file can be browsed to and uploaded, as needed.
@@ -92,7 +93,7 @@ When ready to upload, click the **Record** (red circle) button. This will upload
 ![](./picture-photo-documents.assets/4dbf317435e943eb3f51d3eee89c04bc.png)
 
 {{% warning %}}
-With some computers, upon uploading photos, a pop-up message may display asking the user if he/she wishes to delete the uploaded image(s) from the source or smartcard folder. Answering *Yes* will delete the photo(s) in the SmartCard folder from the hard drive, making them irretrievable for future use.
+With some computers, upon uploading photos, a pop-up message may display asking the user if he/she wishes to delete the uploaded image(s) from the source or smartcard folder. Answering _Yes_ will delete the photo(s) in the SmartCard folder from the hard drive, making them irretrievable for future use.
 {{% /warning %}}
 
 Any uploaded photos will appear as stored documents in the respective chart. Each photo will be a separate document with the date of service specified, even though multiple photos may have been uploaded within the same session.
@@ -103,5 +104,5 @@ Any uploaded photos will appear as stored documents in the respective chart. Eac
 
 To learn more about Picture-Photo Documents, follow the links below to the Learning Management System courses:
 
-* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
-* [Photo Capture](https://mie.talentlms.com/shared/start/key:LBEIDNHR)
+- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+- [Photo Capture](https://mie.talentlms.com/shared/start/key:LBEIDNHR)

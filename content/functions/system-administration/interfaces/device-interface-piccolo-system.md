@@ -1,14 +1,15 @@
 ---
-id: '1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
-title: 'Device Interface - Piccolo System'
-date: '2026-01-08T15:45:51.051Z'
+id: "1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4"
+title: "Device Interface - Piccolo System"
+date: "2026-01-08T15:45:51.051Z"
 version: 39
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1EhjxQZdTTqyFVXuZuYXic44oWHuZd0cI7auW2GUUme4"
+wikigdrive: "v2.15.30"
 ---
+
 The following is referring to a blood chemistry analyzer Abaxis Piccolo Xpress system. Contact your MIE Implementer to see if your piccolo system model can be interfaced or quoted.
 
 ## Piccolo Blood Chemistry Analyzer

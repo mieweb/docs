@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- <base href="{{ $.Site.BaseURL }}"/> -->
+
+    {{ if eq .Title "_index" }}
+    <title>{{ $.Site.Title }} :: Documentation Home</title>
+    {{ else }}
+    <title>{{ $.Site.Title }} :: {{ .Title }}</title>
+    {{ end }}
+
+    <meta name="algolia-site-verification" content="3C6EA0E2B79CB15A" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta
+      name="description"
+      content="Occupational health and safety software in a purpose-built solution creates a comprehensive program to support employee health."
+    />
+    <meta name="keywords" content="occupational health and safety software, employee health, compliance software" />
+
+    <link
+      rel="icon"
+      href="{{ $.Site.BaseURL }}images/brand/{{ $.Site.Params.Brand.code }}/favicon.png"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ $.Site.BaseURL }}images/brand/{{ $.Site.Params.Brand.code }}/icon-192.png"
+      sizes="192x192"
+    />
+
+    {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
+
+    <!-- Should we need a custom stylesheet for a specific page -->
+
+    <!-- {{ $stylepath := printf "css/pages/%s.css" $.File.TranslationBaseName }} -->
+
+    {{ $themestylepath := printf "scss/%s.scss" $.Site.Params.Brand.code }} {{ $options := (dict "targetPath"
+    "style.css" "outputStyle" "compressed" "enableSourceMap" true "precision" 6 "includePaths" (slice "node_modules"))
+    }} {{ $style := resources.Get $themestylepath | css.Sass $options | css.PostCSS (dict "config" "postcss.config.js")
+    | resources.Minify | resources.Fingerprint "sha512" }}
+
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
+
+    {{ if gt (len (split .RelPermalink "/") ) 2 }}
+    <!-- Breadcrumbs LD+JSON https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{{ $rellink := "" }}{{ range $index, $element := (split .RelPermalink "/") }}{{ if gt (len . ) 0 }}{{ $rellink = printf "%s/%s" $rellink . }}{{ if gt $index 1 }},{{ end }}{
+          "@type": "ListItem",
+          "position": {{ $index }},
+          "name": "{{ humanize . }}",
+          "item": "{{ $.Site.BaseURL }}{{ $rellink }}"
+        }{{ end }}{{ end }}]
+      }
+    </script>
+    <script>
+      window.BaseURL = "{{ .Site.BaseURL }}";
+    </script>
+    {{ end }}
+  </head>
+  {{ $currentPage := . }}
+  <body class="bg-base {{ $.Site.Params.Brand.code }}" data-page="{{ .Page.Params.id }}"></body>
+</html>

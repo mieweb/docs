@@ -1,50 +1,51 @@
 ---
-id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-title: 'MIE File Import'
-date: '2025-11-24T17:09:50.997Z'
+id: "1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
+title: "MIE File Import"
+date: "2025-11-24T17:09:50.997Z"
 version: 150
-lastAuthor: 'rgalagate'
-mimeType: 'text/x-markdown'
+lastAuthor: "rgalagate"
+mimeType: "text/x-markdown"
 links:
-  - 'data-migration-file-format-standard.md'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/'
-  - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing'
-  - 'https://www.ietf.org/rfc/rfc4180.txt'
-source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
-wikigdrive: 'v2.15.30'
+  - "data-migration-file-format-standard.md"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/"
+  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
+  - "https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/"
+  - "https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit?usp=sharing"
+  - "https://www.ietf.org/rfc/rfc4180.txt"
+source: "https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY"
+wikigdrive: "v2.15.30"
 ---
+
 MIE File Import is a tool for importing and storing a set of files (an archive) in an MIE system (i.e., Enterprise Health or WebChart) as a document. A document is then associated with a chart in an MIE system. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
 
 The MIE File Import tool imports and stores a variety of files types in the MIE File System, including:
 
-* Images
-* Word
-* Excel
-* PDF
-* XML
-* HTML
-* Plain text
-* Rich text formatted (RTF)
-* Unspecified binary
+- Images
+- Word
+- Excel
+- PDF
+- XML
+- HTML
+- Plain text
+- Rich text formatted (RTF)
+- Unspecified binary
 
 The imported files could contain data about a chart, as well. Examples of imported data include:
 
-* Images of insurance cards
-* Patient photos
-* Physician or nurse notes
-* Past medical histories
-* Continuity of Care Documents (CCDs)
-* Clinical Document Architecture documents (CDAs)
-* Email correspondence pertaining to a patient
+- Images of insurance cards
+- Patient photos
+- Physician or nurse notes
+- Past medical histories
+- Continuity of Care Documents (CCDs)
+- Clinical Document Architecture documents (CDAs)
+- Email correspondence pertaining to a patient
 
 Along with the files that are imported into the MIE File System, a discrete document record is created, in order to associate the file with the correct chart in the MIE system. Some of the discrete data that is stored for the files as a document include:
 
-* Service date
-* Service location
-* Author
-* Document type (i.e., what kind of data does the document have)
+- Service date
+- Service location
+- Author
+- Document type (i.e., what kind of data does the document have)
 
 ## Overview of the Process
 
@@ -60,42 +61,43 @@ Due to the typical size of these types of archives, this import is not currently
 
 The following characters are used to generate a CSV for data import:
 
-* Delimiter - In order of preference, a comma (,) or pipe (|) is acceptable.
-* Quote Character - Use a quote (") to surround fields that contain the delimiter or contain newlines.
-* Escape Character - Use a quote (") to escape a quote within quoted fields. E.g. <strong>"This quoted field ""contains"" quotes"</strong>
+- Delimiter - In order of preference, a comma (,) or pipe (|) is acceptable.
+- Quote Character - Use a quote (") to surround fields that contain the delimiter or contain newlines.
+- Escape Character - Use a quote (") to escape a quote within quoted fields. E.g. <strong>"This quoted field ""contains"" quotes"</strong>
 
 See also: [Data Migration File Format Standard](data-migration-file-format-standard.md)
 
 ### Required Fields
 
-* <strong>Patient ID</strong> - Specifies the patient's chart in which the document will be stored.
-* <strong>Patient ID Type</strong> - See the [Patient ID Types](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/#patient-id-types) section.
-* <strong>Document Type</strong> - The document type code is required and must be uppercase. Maximum 10 characters length. Document types label and group documents, and they may be customized for each MIE system, so the code required in the CSV is system-dependent. Document types are managed in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the Control Panel. Chart tabs in the MIE system display only associated/specified document types.
-* <strong>Interface Name</strong> - A unique identifier from a foreign system (such as an interface) that the document came from. Maximum 100 characters length.
-* <strong>External ID</strong> - An external identifier for this document. Maximum 128 characters length.
-* <strong>File Name</strong> - The relative path of the file.
+- <strong>Patient ID</strong> - Specifies the patient's chart in which the document will be stored.
+- <strong>Patient ID Type</strong> - See the [Patient ID Types](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/#patient-id-types) section.
+- <strong>Document Type</strong> - The document type code is required and must be uppercase. Maximum 10 characters length. Document types label and group documents, and they may be customized for each MIE system, so the code required in the CSV is system-dependent. Document types are managed in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the Control Panel. Chart tabs in the MIE system display only associated/specified document types.
+- <strong>Interface Name</strong> - A unique identifier from a foreign system (such as an interface) that the document came from. Maximum 100 characters length.
+- <strong>External ID</strong> - An external identifier for this document. Maximum 128 characters length.
+- <strong>File Name</strong> - The relative path of the file.
 
 ### Optional Fields
 
-* <strong>Storage Type</strong> - See the Supported Storage Types section. It is highly recommended to include this data. Without this field, the tool will do its best to determine the contents.
-* <strong>Encounter ID</strong> - Links a specific encounter (patient visit) to the document.
-* <strong>Encounter ID Type</strong> - See the Encounter ID Types section.
-* <strong>User ID</strong> - Identifies the MIE system user who entered the document into the system.
-* <strong>User ID Type</strong> - See the User ID Types section.
-* <strong>Origin ID</strong> - The author of the document.
-* <strong>Origin ID Type</strong> - See the User ID Types section.
-* <strong>Service Location</strong> - The location code for the document's service location. These are stored in the [Locations Manager](https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/) of the Control Panel.
-* <strong>Origin Date</strong> - Date the document initially created. Defaults to an empty date if none is provided.
-* <strong>Enter Date</strong> - Date the document was entered into the MIE system. Defaults to the current date if none is provided.
-* <strong>Revision Date</strong> - Date the document was revised. Defaults to the current date if none is provided.
-* <strong>Service Date</strong> - Date service related to the document was performed. Defaults to an empty date if none is provided.
-* <strong>Subject</strong> - The document subject that appears on the document header in the MIE system. Maximum 255 characters length.
-* <strong>Comments</strong> - The complete text narrative for the corresponding document.
-* <strong>File Extension</strong> - Suffix from the file name that indicates file type.
+- <strong>Storage Type</strong> - See the Supported Storage Types section. It is highly recommended to include this data. Without this field, the tool will do its best to determine the contents.
+- <strong>Encounter ID</strong> - Links a specific encounter (patient visit) to the document.
+- <strong>Encounter ID Type</strong> - See the Encounter ID Types section.
+- <strong>User ID</strong> - Identifies the MIE system user who entered the document into the system.
+- <strong>User ID Type</strong> - See the User ID Types section.
+- <strong>Origin ID</strong> - The author of the document.
+- <strong>Origin ID Type</strong> - See the User ID Types section.
+- <strong>Service Location</strong> - The location code for the document's service location. These are stored in the [Locations Manager](https://docs.enterprisehealth.com/functions/system-configuration/locations-manager-tab/) of the Control Panel.
+- <strong>Origin Date</strong> - Date the document initially created. Defaults to an empty date if none is provided.
+- <strong>Enter Date</strong> - Date the document was entered into the MIE system. Defaults to the current date if none is provided.
+- <strong>Revision Date</strong> - Date the document was revised. Defaults to the current date if none is provided.
+- <strong>Service Date</strong> - Date service related to the document was performed. Defaults to an empty date if none is provided.
+- <strong>Subject</strong> - The document subject that appears on the document header in the MIE system. Maximum 255 characters length.
+- <strong>Comments</strong> - The complete text narrative for the corresponding document.
+- <strong>File Extension</strong> - Suffix from the file name that indicates file type.
 
 ## Supported Storage Types
 
 Listed below are the file/storage types that are supported by this tool. Use the values from the Storage Type column.
+
 <table>
 <tr>
 <td><strong>Storage Type</strong></td>
@@ -173,22 +175,22 @@ Listed below are the file/storage types that are supported by this tool. Use the
 
 Patient ID types specify the patient chart. Although more patient ID types are planned, there is only one currently available.
 
-* <strong>part:</strong> - Set this to the partition name of the patient. Enter the MR# into Patient ID.
+- <strong>part:</strong> - Set this to the partition name of the patient. Enter the MR# into Patient ID.
 
 ## Encounter ID Types
 
 Encounter ID types specify the linked encounter.
 
-* <strong>id:encounter_id</strong> - Encounter ID points directly to the encounter's ID.
-* <strong>id:encounter_ext_id</strong> - Encounter ID is the encounter's external ID.
+- <strong>id:encounter_id</strong> - Encounter ID points directly to the encounter's ID.
+- <strong>id:encounter_ext_id</strong> - Encounter ID is the encounter's external ID.
 
 ## User ID Types
 
 User ID types specify the user.
 
-* <strong>id:username</strong> - Look up a user ID by username.
-* <strong>id:email</strong> - Look up a user ID by email.
-* <strong>part:</strong> - Look up a user ID with a self-relation to the patient specified. Set this to the partition name of the patient. Enter the MR# into Author/Origin ID.
+- <strong>id:username</strong> - Look up a user ID by username.
+- <strong>id:email</strong> - Look up a user ID by email.
+- <strong>part:</strong> - Look up a user ID with a self-relation to the patient specified. Set this to the partition name of the patient. Enter the MR# into Author/Origin ID.
 
 ## CSV File Template
 
@@ -231,4 +233,4 @@ Empty files, or files with zero (0) bytes, contain no data and will automaticall
 
 ## Related Pages
 
-* [Data Migration File Format Standard](data-migration-file-format-standard.md)
+- [Data Migration File Format Standard](data-migration-file-format-standard.md)

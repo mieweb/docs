@@ -1,30 +1,31 @@
 ---
-id: '1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-title: 'Application Programming Interface (API)'
-date: '2025-03-25T15:28:24.443Z'
+id: "1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks"
+title: "Application Programming Interface (API)"
+date: "2025-03-25T15:28:24.443Z"
 version: 520
-lastAuthor: 'jwagoner'
-mimeType: 'text/x-markdown'
+lastAuthor: "jwagoner"
+mimeType: "text/x-markdown"
 links:
-  - 'application-programming-interface-api/terms-of-api-use.md'
-  - 'https://github.com/mieweb/mieapi-js'
-  - 'https://github.com/mieweb/mieapi-meteor'
-  - 'https://github.com/mieweb/wcexport/blob/master/wcjson.py'
-  - 'https://github.com/mieweb/webchart-interface-examples'
-  - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g7-Application-access-patient-selection.pdf'
-  - 'https://www.healthit.gov/sites/default/files/170_315g7_application_access_patient_selection_v1_0_1_1.pdf'
-  - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g8-Application-access-data-category-request.pdf'
-  - 'https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf'
-  - 'https://www.healthit.gov/sites/default/files/170_315g8_application_access_data_category_request_v1_1_1.pdf'
-  - 'https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf'
-  - 'https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf'
-  - 'https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/'
-  - 'https://github.com/mieweb/wcexport'
-  - 'https://github.com/mieweb/wcexport/blob/master/README.md'
-source: 'https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks'
-wikigdrive: 'v2.15.30'
+  - "application-programming-interface-api/terms-of-api-use.md"
+  - "https://github.com/mieweb/mieapi-js"
+  - "https://github.com/mieweb/mieapi-meteor"
+  - "https://github.com/mieweb/wcexport/blob/master/wcjson.py"
+  - "https://github.com/mieweb/webchart-interface-examples"
+  - "https://www.healthit.gov/sites/default/2015Ed_CCG_g7-Application-access-patient-selection.pdf"
+  - "https://www.healthit.gov/sites/default/files/170_315g7_application_access_patient_selection_v1_0_1_1.pdf"
+  - "https://www.healthit.gov/sites/default/2015Ed_CCG_g8-Application-access-data-category-request.pdf"
+  - "https://www.healthit.gov/sites/default/2015Ed_CCG_CCDS.pdf"
+  - "https://www.healthit.gov/sites/default/files/170_315g8_application_access_data_category_request_v1_1_1.pdf"
+  - "https://www.healthit.gov/sites/default/files/ccds_reference_document_v1_1.pdf"
+  - "https://www.healthit.gov/sites/default/2015Ed_CCG_g9-Application-access-all-data-request.pdf"
+  - "https://www.healthit.gov/sites/default/files/170_315g9_application_access_all_data_request_v1_1_1.pdf"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/"
+  - "https://github.com/mieweb/wcexport"
+  - "https://github.com/mieweb/wcexport/blob/master/README.md"
+source: "https://drive.google.com/open?id=1buEjhEqeF7YkD4D8XltrDAHKHNbfICRz9wGqUqMz2ks"
+wikigdrive: "v2.15.30"
 ---
+
 [Terms of API Use](application-programming-interface-api/terms-of-api-use.md)
 
 ## Introduction
@@ -41,7 +42,7 @@ Interactive, dynamic documentation of the {{% system-name %}} API can be found i
 
 ![](./application-programming-interface-api.assets/8657b05072273ffb0c081e0e54e89de7.png)
 
-System Administrators can explore each object type and then click on the Object to experiment with the javascript api.  The **>_Run Code** button on the lower right allows System Administrators to experiment in real time.
+System Administrators can explore each object type and then click on the Object to experiment with the javascript api. The **>\_Run Code** button on the lower right allows System Administrators to experiment in real time.
 
 ![](./application-programming-interface-api.assets/b0c6b56c82c6a95ebba7c679f5cf7ab3.png)
 
@@ -71,33 +72,39 @@ Other examples can be found here: https://github.com/mieweb/webchart-interface-e
 
 {{% pre language="bash" theme="RDark" %}}```
 
-curl -X POST -F "login_user=USERNAME" -F "login_passwd=PASSWORD" WEBCHARTURL  
+curl -X POST -F "login_user=USERNAME" -F "login_passwd=PASSWORD" WEBCHARTURL
+
 ```
 {{% /pre %}}
 
 ### Python example
 
 ```
+
 {{% pre language="py" theme="RDark" %}}
 data = urllib.urlencode({
-  'login_user': USERNAME,
-  'login_passwd': PASSWORD
+'login_user': USERNAME,
+'login_passwd': PASSWORD
 })
+
 # Ensures the request is a POST request
+
 request = urllib2.Request(URL, data)
 
 # Make the POST request
+
 out = urllib2.urlopen(request)
 
 # Extract the COOKIE from the response headers
-COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0] 
+
+COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
 {{% /pre %}}
 
 {{% info %}}
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
 
-```
+````
 
 ## ONC Certification API 2015 Edition
 
@@ -153,7 +160,8 @@ js = json.load(
     'apistring': base64.b64encode(url)
   })))
 print(json.dumps(js))
-```
+````
+
 {{% /pre %}}
 
 Requests are URLs. urllib2.urlopen does the work of calling each request and outputting the response on the screen.
@@ -254,6 +262,7 @@ URL-specific sections are returned in XML CCDA format.
 </table>
 
 {{% pre language="py" theme="RDark" title="Data Category Example" %}}
+
 ```
 #!/usr/bin/env python
 import sys
@@ -365,6 +374,7 @@ if __name__ == '__main__':
                 except Exception as e:
                     print(f"Failed to fetch {k} data for {patname}: {e}")
 ```
+
 {{% /pre %}}
 
 ### § 170.315(g)(9) Application access – All Data Request
@@ -372,6 +382,7 @@ if __name__ == '__main__':
 Receive documents stored in charts:
 
 {{% pre language="py" theme="RDark" %}}
+
 ```
 #!/usr/bin/env python
 import urllib2
@@ -412,7 +423,7 @@ def downloadDocumentMeta(pat_id):
         docs = json.load(urllib2.urlopen(request))
         return docs["db"][0]["doc_id"]
     except:
-        return "" 
+        return ""
 
 if __name__ == '__main__':
     print('Initializing session')
@@ -461,6 +472,7 @@ if __name__ == '__main__':
 
 
 ```
+
 {{% /pre %}}
 
 ## Document Export Tool
@@ -471,12 +483,12 @@ if __name__ == '__main__':
 
 ### Requirements
 
-* <strong>Windows:</strong> compiled exe are provided so Windows 7+ is sufficient.
-* <strong>Mac 10.8+:</strong> Python 2.7 is shipped with Mountain Lion and greater.
-* <strong>Linux</strong>: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
+- <strong>Windows:</strong> compiled exe are provided so Windows 7+ is sufficient.
+- <strong>Mac 10.8+:</strong> Python 2.7 is shipped with Mountain Lion and greater.
+- <strong>Linux</strong>: Python 2.7 or Python 3.1 is required and python-tk. The user interface requires a GUI / window manager.
 
 ### Installing
 
-* Download the project from GitHub at https://github.com/mieweb/wcexport
-* Windows-compiled EXE files are provided so python does not have to be installed.
-* Instructions for use are in the [README.md](https://github.com/mieweb/wcexport/blob/master/README.md) file within the git project.
+- Download the project from GitHub at https://github.com/mieweb/wcexport
+- Windows-compiled EXE files are provided so python does not have to be installed.
+- Instructions for use are in the [README.md](https://github.com/mieweb/wcexport/blob/master/README.md) file within the git project.

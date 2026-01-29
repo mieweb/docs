@@ -1,51 +1,52 @@
 ---
-id: '1ynchkbKzWhhaIYl6ZC0JuArvelIFEa61YAf6pgsCn14'
-title: 'Accessibility Conformance Report VPAT2.5Rev_INT_February2025'
-date: '2025-07-31T20:46:48.453Z'
+id: "1ynchkbKzWhhaIYl6ZC0JuArvelIFEa61YAf6pgsCn14"
+title: "Accessibility Conformance Report VPAT2.5Rev_INT_February2025"
+date: "2025-07-31T20:46:48.453Z"
 version: 208
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'mailto:support@mieweb.com'
-  - 'https://www.mieweb.com'
-  - 'http://www.w3.org/TR/2008/REC-WCAG20-20081211'
-  - 'https://www.w3.org/TR/WCAG21'
-  - 'https://www.w3.org/TR/WCAG22/'
-  - 'https://www.access-board.gov/ict/'
-  - 'https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf'
-  - 'https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf'
-  - 'https://www.w3.org/TR/WCAG21/'
-  - 'http://www.w3.org/TR/WCAG20/'
-  - 'https://www.w3.org/WAI/WCAG20/errata/'
-  - 'https://www.w3.org/WAI/WCAG21/errata/'
-source: 'https://drive.google.com/open?id=1ynchkbKzWhhaIYl6ZC0JuArvelIFEa61YAf6pgsCn14'
-wikigdrive: 'v2.15.30'
+  - "mailto:support@mieweb.com"
+  - "https://www.mieweb.com"
+  - "http://www.w3.org/TR/2008/REC-WCAG20-20081211"
+  - "https://www.w3.org/TR/WCAG21"
+  - "https://www.w3.org/TR/WCAG22/"
+  - "https://www.access-board.gov/ict/"
+  - "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf"
+  - "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+  - "https://www.w3.org/TR/WCAG21/"
+  - "http://www.w3.org/TR/WCAG20/"
+  - "https://www.w3.org/WAI/WCAG20/errata/"
+  - "https://www.w3.org/WAI/WCAG21/errata/"
+source: "https://drive.google.com/open?id=1ynchkbKzWhhaIYl6ZC0JuArvelIFEa61YAf6pgsCn14"
+wikigdrive: "v2.15.30"
 ---
-* [<strong>Medical Informatics Engineering</strong>	](#medical-informatics-engineering)<strong>1</strong>
-* [<strong>Accessibility Conformance Report</strong>	](#accessibility-conformance-report)<strong>1</strong>
-* [Applicable Standards/Guidelines	](#applicable-standards-guidelines)3
-* [Terms	](#terms)3
-* [WCAG 2.x Report	](#wcag-2-x-report)4
-* [Table 1: Success Criteria, Level A	](#table-1-success-criteria-level-a)4
-* [Table 2: Success Criteria, Level AA	](#table-2-success-criteria-level-aa)22
-* [Table 3: Success Criteria, Level AAA	](#table-3-success-criteria-level-aaa)35
-* [Revised Section 508 Report	](#revised-section-508-report)35
-* [Chapter 3: Functional Performance Criteria (FPC)	](#chapter-3-functional-performance-criteria-fpc)36
-* [Chapter 4: Hardware	](#chapter-4-hardware)37
-* [Chapter 5: Software	](#chapter-5-software)37
-* [Chapter 6: Support Documentation and Services	](#chapter-6-support-documentation-and-services)40
-* [EN 301 549 Report	](#en-301-549-report)40
-* [Clause 4: Functional Performance Statements (FPS)	](#clause-4-functional-performance-statements-fps)41
-* [Clause 5: Generic Requirements	](#clause-5-generic-requirements)42
-* [Clause 6: ICT with Two-Way Voice Communication	](#clause-6-ict-with-two-way-voice-communication)42
-* [Clause 7: ICT with Video Capabilities	](#clause-7-ict-with-video-capabilities)43
-* [Clause 8: Hardware	](#clause-8-hardware)44
-* [Clause 9: Web	](#clause-9-web)44
-* [Clause 10: Non-Web Documents	](#clause-10-non-web-documents)45
-* [Clause 11: Software	](#clause-11-software)45
-* [Clause 12: Documentation and Support Services	](#clause-12-documentation-and-support-services)48
-* [Clause 13: ICT Providing Relay or Emergency Service Access	](#clause-13-ict-providing-relay-or-emergency-service-access)49
-* [Legal Disclaimer (Company)	](#legal-disclaimer-company)51
+
+- [<strong>Medical Informatics Engineering</strong> ](#medical-informatics-engineering)<strong>1</strong>
+- [<strong>Accessibility Conformance Report</strong> ](#accessibility-conformance-report)<strong>1</strong>
+- [Applicable Standards/Guidelines ](#applicable-standards-guidelines)3
+- [Terms ](#terms)3
+- [WCAG 2.x Report ](#wcag-2-x-report)4
+- [Table 1: Success Criteria, Level A ](#table-1-success-criteria-level-a)4
+- [Table 2: Success Criteria, Level AA ](#table-2-success-criteria-level-aa)22
+- [Table 3: Success Criteria, Level AAA ](#table-3-success-criteria-level-aaa)35
+- [Revised Section 508 Report ](#revised-section-508-report)35
+- [Chapter 3: Functional Performance Criteria (FPC) ](#chapter-3-functional-performance-criteria-fpc)36
+- [Chapter 4: Hardware ](#chapter-4-hardware)37
+- [Chapter 5: Software ](#chapter-5-software)37
+- [Chapter 6: Support Documentation and Services ](#chapter-6-support-documentation-and-services)40
+- [EN 301 549 Report ](#en-301-549-report)40
+- [Clause 4: Functional Performance Statements (FPS) ](#clause-4-functional-performance-statements-fps)41
+- [Clause 5: Generic Requirements ](#clause-5-generic-requirements)42
+- [Clause 6: ICT with Two-Way Voice Communication ](#clause-6-ict-with-two-way-voice-communication)42
+- [Clause 7: ICT with Video Capabilities ](#clause-7-ict-with-video-capabilities)43
+- [Clause 8: Hardware ](#clause-8-hardware)44
+- [Clause 9: Web ](#clause-9-web)44
+- [Clause 10: Non-Web Documents ](#clause-10-non-web-documents)45
+- [Clause 11: Software ](#clause-11-software)45
+- [Clause 12: Documentation and Support Services ](#clause-12-documentation-and-support-services)48
+- [Clause 13: ICT Providing Relay or Emergency Service Access ](#clause-13-ict-providing-relay-or-emergency-service-access)49
+- [Legal Disclaimer (Company) ](#legal-disclaimer-company)51
 
 # Medical Informatics Engineering
 
@@ -65,17 +66,17 @@ The **WebChart/EnterpriseHealth Patient Portal** is designed to meet the evolvin
 
 Through a secure, user-friendly interface, the portal provides the following accessible features:
 
-* <strong>Patient Engagement Tools</strong>: Review clinical documentation, lab results, and health summaries with screen reader support and keyboard navigation.
-* <strong>Appointment Management</strong>: Easily schedule or cancel appointments through accessible forms and intuitive workflows.
-* <strong>Communication</strong>: Securely message providers and support staff using accessible messaging tools.
-* <strong>Health Tracking</strong>: Access due lists, work certifications, and wellness status with clearly structured and labeled data fields.
-* <strong>Questionnaire Completion</strong>: Fill out pre-visit forms or assessments via accessible web forms that support assistive technologies.
+- <strong>Patient Engagement Tools</strong>: Review clinical documentation, lab results, and health summaries with screen reader support and keyboard navigation.
+- <strong>Appointment Management</strong>: Easily schedule or cancel appointments through accessible forms and intuitive workflows.
+- <strong>Communication</strong>: Securely message providers and support staff using accessible messaging tools.
+- <strong>Health Tracking</strong>: Access due lists, work certifications, and wellness status with clearly structured and labeled data fields.
+- <strong>Questionnaire Completion</strong>: Fill out pre-visit forms or assessments via accessible web forms that support assistive technologies.
 
 The WebChart system ensures that individuals of all abilities can navigate the portal independently and effectively. Accessibility testing and documentation under VPAT 2.5Rev covers conformance to:
 
-* WCAG 2.1 A & AA standards
-* Revised Section 508 standards (2017)
-* EN 301 549 (EU accessibility standard)
+- WCAG 2.1 A & AA standards
+- Revised Section 508 standards (2017)
+- EN 301 549 (EU accessibility standard)
 
 For procurement officers, clinicians, and IT teams evaluating accessibility, the WebChart Patient Portal VPAT 2.5Rev provides a comprehensive and standardized view of the portal's accessibility conformance.
 
@@ -97,7 +98,6 @@ Fort Wayne, IN 46802
 
 USA
 
-
 [Source Document](#source-document)
 
 **Notes:**
@@ -118,23 +118,20 @@ The assessment included:
 *Manual keyboard-only navigation testing
 *Screen reader compatibility testing using NVDA and JAWS
 *Visual inspection to verify semantic HTML, ARIA attributes, color contrast, and content structure
-*Functional testing in supported web browsers, including Chrome, Firefox, and Edge
+\*Functional testing in supported web browsers, including Chrome, Firefox, and Edge
 
 This evaluation reflects the accessibility of the default configuration of WebChart EHR / Enterprise Health EHR in a representative usage environment.
 
-
 Conformance Language and Terminology Clarification:
-
 
 To ensure consistency, Medical Informatics Engineering is standardizing its use of conformance terms such as "Supports with Exceptions" and "Partially Supports." These terms are now applied more precisely to align with ITI VPAT 2.5Rev guidance and avoid ambiguity in borderline cases (e.g., between functional limitations vs. minor known defects).
 
-
 Additionally, ongoing efforts are in place to ensure that Section 508 and EN 301 549 clauses are cross-referenced consistently with relevant WCAG Success Criteria throughout the report, enhancing traceability and clarity for evaluators.
-
 
 ## Applicable Standards/Guidelines
 
 This report covers the degree of conformance for the following accessibility standard/guidelines:
+
 <table>
 <tr>
 <td><strong>Standard/Guideline</strong></td>
@@ -171,56 +168,57 @@ Level AAA (Yes)</td>
 
 The terms used in the Conformance Level information are defined as follows:
 
-* <strong>Supports</strong>: The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
-* <strong>Partially Supports</strong>: Some functionality of the product does not meet the criterion.
-* <strong>Does Not Support</strong>: The majority of product functionality does not meet the criterion.
-* <strong>Not Applicable</strong>: The criterion is not relevant to the product.
-* <strong>Not Evaluated</strong>: The product has not been evaluated against the criterion. This can only be used in WCAG Level AAA criteria.
+- <strong>Supports</strong>: The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
+- <strong>Partially Supports</strong>: Some functionality of the product does not meet the criterion.
+- <strong>Does Not Support</strong>: The majority of product functionality does not meet the criterion.
+- <strong>Not Applicable</strong>: The criterion is not relevant to the product.
+- <strong>Not Evaluated</strong>: The product has not been evaluated against the criterion. This can only be used in WCAG Level AAA criteria.
 
-* [<strong>Medical Informatics Engineering</strong>	](#medical-informatics-engineering)<strong>1</strong>
-* [<strong>Accessibility Conformance Report</strong>	](#accessibility-conformance-report)<strong>1</strong>
-* [Applicable Standards/Guidelines	](#applicable-standards-guidelines)3
-* [Terms	](#terms)3
-* [WCAG 2.x Report	](#wcag-2-x-report)4
-* [Table 1: Success Criteria, Level A	](#table-1-success-criteria-level-a)4
-* [Table 2: Success Criteria, Level AA	](#table-2-success-criteria-level-aa)22
-* [Table 3: Success Criteria, Level AAA	](#table-3-success-criteria-level-aaa)35
-* [Revised Section 508 Report	](#revised-section-508-report)35
-* [Chapter 3: Functional Performance Criteria (FPC)	](#chapter-3-functional-performance-criteria-fpc)36
-* [Chapter 4: Hardware	](#chapter-4-hardware)37
-* [Chapter 5: Software	](#chapter-5-software)37
-* [Chapter 6: Support Documentation and Services	](#chapter-6-support-documentation-and-services)40
-* [EN 301 549 Report	](#en-301-549-report)40
-* [Clause 4: Functional Performance Statements (FPS)	](#clause-4-functional-performance-statements-fps)41
-* [Clause 5: Generic Requirements	](#clause-5-generic-requirements)42
-* [Clause 6: ICT with Two-Way Voice Communication	](#clause-6-ict-with-two-way-voice-communication)42
-* [Clause 7: ICT with Video Capabilities	](#clause-7-ict-with-video-capabilities)43
-* [Clause 8: Hardware	](#clause-8-hardware)44
-* [Clause 9: Web	](#clause-9-web)44
-* [Clause 10: Non-Web Documents	](#clause-10-non-web-documents)45
-* [Clause 11: Software	](#clause-11-software)45
-* [Clause 12: Documentation and Support Services	](#clause-12-documentation-and-support-services)48
-* [Clause 13: ICT Providing Relay or Emergency Service Access	](#clause-13-ict-providing-relay-or-emergency-service-access)49
-* [Legal Disclaimer (Company)	](#legal-disclaimer-company)51
+- [<strong>Medical Informatics Engineering</strong> ](#medical-informatics-engineering)<strong>1</strong>
+- [<strong>Accessibility Conformance Report</strong> ](#accessibility-conformance-report)<strong>1</strong>
+- [Applicable Standards/Guidelines ](#applicable-standards-guidelines)3
+- [Terms ](#terms)3
+- [WCAG 2.x Report ](#wcag-2-x-report)4
+- [Table 1: Success Criteria, Level A ](#table-1-success-criteria-level-a)4
+- [Table 2: Success Criteria, Level AA ](#table-2-success-criteria-level-aa)22
+- [Table 3: Success Criteria, Level AAA ](#table-3-success-criteria-level-aaa)35
+- [Revised Section 508 Report ](#revised-section-508-report)35
+- [Chapter 3: Functional Performance Criteria (FPC) ](#chapter-3-functional-performance-criteria-fpc)36
+- [Chapter 4: Hardware ](#chapter-4-hardware)37
+- [Chapter 5: Software ](#chapter-5-software)37
+- [Chapter 6: Support Documentation and Services ](#chapter-6-support-documentation-and-services)40
+- [EN 301 549 Report ](#en-301-549-report)40
+- [Clause 4: Functional Performance Statements (FPS) ](#clause-4-functional-performance-statements-fps)41
+- [Clause 5: Generic Requirements ](#clause-5-generic-requirements)42
+- [Clause 6: ICT with Two-Way Voice Communication ](#clause-6-ict-with-two-way-voice-communication)42
+- [Clause 7: ICT with Video Capabilities ](#clause-7-ict-with-video-capabilities)43
+- [Clause 8: Hardware ](#clause-8-hardware)44
+- [Clause 9: Web ](#clause-9-web)44
+- [Clause 10: Non-Web Documents ](#clause-10-non-web-documents)45
+- [Clause 11: Software ](#clause-11-software)45
+- [Clause 12: Documentation and Support Services ](#clause-12-documentation-and-support-services)48
+- [Clause 13: ICT Providing Relay or Emergency Service Access ](#clause-13-ict-providing-relay-or-emergency-service-access)49
+- [Legal Disclaimer (Company) ](#legal-disclaimer-company)51
 
 ## WCAG 2.x Report
 
 Tables 1 and 2 also document conformance with:
 
-* EN 301 549:
-    * Clause 9 - Web
-    * Clauses 10.1-10.4 of Clause 10 - Non-Web documents
-    * Clauses 11.1-11.4 and 11.8.2 of Clause 11 - Software
-    * Clauses 12.1.2 and 12.2.4 of Clause 12 - Documentation and support services
-* Revised Section 508:
-    * Chapter 5 - 501.1 Scope and 504.2 Content Creation or Editing
-    * Chapter 6 - 602.3 Electronic Support Documentation
+- EN 301 549:
+  - Clause 9 - Web
+  - Clauses 10.1-10.4 of Clause 10 - Non-Web documents
+  - Clauses 11.1-11.4 and 11.8.2 of Clause 11 - Software
+  - Clauses 12.1.2 and 12.2.4 of Clause 12 - Documentation and support services
+- Revised Section 508:
+  - Chapter 5 - 501.1 Scope and 504.2 Content Creation or Editing
+  - Chapter 6 - 602.3 Electronic Support Documentation
 
 Note: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
 Notes:
+
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
@@ -589,6 +587,7 @@ However, some isolated legacy or third-party UI elements may not consistently ex
 ### Table 2: Success Criteria, Level AA
 
 Notes:
+
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
@@ -890,6 +889,7 @@ Notes:
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
 Notes:
+
 <table>
 <tr>
 <td><strong>Criteria</strong></td>
@@ -1200,7 +1200,7 @@ Notes: WebChart Patient Portal does not include real-time text (RTT) during tele
 </tr>
 </table>
 
-### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)**
+### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)\*\*
 
 Notes:
 
@@ -1248,7 +1248,7 @@ Notes: N/A
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes:*see* [*WCAG 2.x section*](#wcag-2-x-section)
+Notes:_see_ [_WCAG 2.x section_](#wcag-2-x-section)
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
@@ -1466,6 +1466,7 @@ Notes: As a software vendor, we provide accessible software and documentation to
 ### Clause [13: ICT Providing Relay or Emergency Service Access](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=86)
 
 Notes:
+
 <table>
 <tr>
 <td><strong>Clause</strong></td>

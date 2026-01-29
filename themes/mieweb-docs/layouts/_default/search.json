@@ -1,0 +1,11 @@
+{{- /* Search index JSON output */}}
+{{- $index := slice }}
+{{- range .Site.RegularPages }}
+  {{- $content := .Plain | truncate 5000 }}
+  {{- $index = $index | append (dict 
+    "href" .RelPermalink 
+    "title" .Title 
+    "content" $content
+  ) }}
+{{- end }}
+{{- $index | jsonify }}

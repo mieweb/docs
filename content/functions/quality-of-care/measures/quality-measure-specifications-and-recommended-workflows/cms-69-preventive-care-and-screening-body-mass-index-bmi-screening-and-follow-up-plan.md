@@ -1,18 +1,19 @@
 ---
-id: '1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
-title: 'CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan'
-date: '2022-05-24T14:01:44.837Z'
+id: "1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q"
+title: "CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan"
+date: "2022-05-24T14:01:44.837Z"
 version: 90
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms069v10'
-source: 'https://drive.google.com/open?id=1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms069v10"
+source: "https://drive.google.com/open?id=1j2KoVsPF7AcfcjcZigwmo8jTojtcSMAVY-5Iwg_bK2Q"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS69v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS69v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

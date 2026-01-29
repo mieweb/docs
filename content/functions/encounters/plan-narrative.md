@@ -1,33 +1,34 @@
 ---
-id: '1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-title: 'Plan Narrative'
-date: '2025-11-06T21:24:21.104Z'
+id: "1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY"
+title: "Plan Narrative"
+date: "2025-11-06T21:24:21.104Z"
 version: 76
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/macros/'
-  - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
-  - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
-source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-configuration/macros/"
+  - "https://docs.enterprisehealth.com/functions/encounters/libraries/"
+  - "https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/"
+source: "https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY"
+wikigdrive: "v2.15.30"
 ---
+
 Plan Narrative encounter section is available to document a plan narrative regarding the visit within an encounter.
 
 ![](./plan-narrative.assets/fbe926886eb84d06ea9399496c3ac687.png)
 
 ## Add a Plan Narrative - Free Text
 
-Plan narrative encounter section utilizes a free text box configuration functionality out of the box.  Click anywhere on the Plan Narrative encounter section title bar to expand open the section.
+Plan narrative encounter section utilizes a free text box configuration functionality out of the box. Click anywhere on the Plan Narrative encounter section title bar to expand open the section.
 ![](./plan-narrative.assets/84b0e587acdd23c44b3aed02cf10f196.png)
 
 ## Add a Plan Narrative - Flowsheet
 
-The plan narrative encounter section can instead point to a specific flowsheet configured in the system.  A configured flowsheet named *Plan Narrative* in the flowsheet editor will display in the encounter Plan Narrative section if desired.  Using a Plan Narrative flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Plan Narrative encounter section.
+The plan narrative encounter section can instead point to a specific flowsheet configured in the system. A configured flowsheet named _Plan Narrative_ in the flowsheet editor will display in the encounter Plan Narrative section if desired. Using a Plan Narrative flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Plan Narrative encounter section.
 
 ![](./plan-narrative.assets/56d4140d6b7f7524009649afcd8074bb.png)
 
-To utilize a flowsheet method in Plan Narrative, a flowsheet named *Plan Narrative* must exist with contents.
+To utilize a flowsheet method in Plan Narrative, a flowsheet named _Plan Narrative_ must exist with contents.
 
 ![](./plan-narrative.assets/4932b9b2be79735bfe17983985c1158b.png)
 

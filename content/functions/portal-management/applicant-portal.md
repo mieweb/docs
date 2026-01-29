@@ -1,15 +1,16 @@
 ---
-id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-title: 'Applicant Portal'
-date: '2025-12-01T20:05:26.347Z'
+id: "14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
+title: "Applicant Portal"
+date: "2025-12-01T20:05:26.347Z"
 version: 420
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LGSIDNHR'
-source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LGSIDNHR"
+source: "https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU"
+wikigdrive: "v2.15.30"
 ---
+
 With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
 
 In order to effectively implement the Applicant Portal, clients will need to work with the Deployment Consultant(s) to determine any preferred configurations and needs required for pre-employment, hiring, and onboarding processes. Once the portal has been configured, the URL will be made available for marketing purposes.
@@ -32,22 +33,22 @@ The following items are considerations to be discussed with the Deployment Consu
 
 **Tasking**: It is important to discuss and determine any tasklist events needing triggered whenever applicants register and submit information via the Applicant Portal.
 
-**Merging**: Once an applicant is hired, it is important to merge the *applicant* chart with the *employee* chart. Applicant charts are created from the transmission of completed forms/questionnaires from the portal, and new employee charts are typically generated through an HR interface feed. Determine the best workflow for merging these charts, and ensure users who will be working merges have the necessary security permissions.
+**Merging**: Once an applicant is hired, it is important to merge the _applicant_ chart with the _employee_ chart. Applicant charts are created from the transmission of completed forms/questionnaires from the portal, and new employee charts are typically generated through an HR interface feed. Determine the best workflow for merging these charts, and ensure users who will be working merges have the necessary security permissions.
 
 The following steps will ensure the Applicant Portal is configured and functions properly.
 
 ## Update System Settings
 
-Following the instructions below, *update* these system settings, if you are on a legacy database system. If you are on a current release, these items will already be configured out of the box:
+Following the instructions below, _update_ these system settings, if you are on a legacy database system. If you are on a current release, these items will already be configured out of the box:
 
-* NMC, Registrations, Set New Patient at Temporary
-* NMC, User Security, Force Security Role
-    * The security role must match the security role of the value set in the Limited User Realm setting.
-* NMC, Pages, Client
-* NMC, Signup, Custom Site Realm
-    * The Value must match the Limited User Realm setting.
-* Webchart, Login, New Signups
-    * Allows new WebChart sign-ups.
+- NMC, Registrations, Set New Patient at Temporary
+- NMC, User Security, Force Security Role
+  - The security role must match the security role of the value set in the Limited User Realm setting.
+- NMC, Pages, Client
+- NMC, Signup, Custom Site Realm
+  - The Value must match the Limited User Realm setting.
+- Webchart, Login, New Signups
+  - Allows new WebChart sign-ups.
 
 Updating the System Settings:
 
@@ -55,12 +56,12 @@ Updating the System Settings:
 2. Search for the appropriate system setting to be updated.
 3. Once located, click the <strong>Edit</strong> link in the Options column.
 4. Update the security setting by typing the appropriate value in the <strong>Value</strong> field.
-    * NMC, Registrations, Set New Patient at Temporary = 1
-    * NMC, User Security, Force Security Role = 1
-    * NMC, Pages, Client = Applicant
-        * Assigns <em>Applicant</em> as the layout module.
-    * NMC, Signup, Custom Site Realm = Applicant
-    * Webchart, Login, New Signups = 1
+   - NMC, Registrations, Set New Patient at Temporary = 1
+   - NMC, User Security, Force Security Role = 1
+   - NMC, Pages, Client = Applicant
+     - Assigns <em>Applicant</em> as the layout module.
+   - NMC, Signup, Custom Site Realm = Applicant
+   - Webchart, Login, New Signups = 1
 5. Click the <strong>Change</strong> button, when finished.
 
 ## Create APP Partition
@@ -69,18 +70,18 @@ This partition will only need to be configured if you are on a legacy database b
 
 1. Navigate to the <strong>Partition Mgr</strong> tab of the Control Panel.
 2. If it is not already created, the APP partition needs added, accordingly:
-    * <strong>Partition</strong>:  APP
-        * The partition must match the <em>Default on Signup</em> system setting.
-    * <strong>WC GUID</strong>:  Blank
-    * <strong>Name</strong>:  APP
-    * <strong>Description</strong>:  Applicant
-    * <strong>MR Sequence</strong>:  Blank
-    * <strong>Partition View</strong>:  Auto Increment
-    * <strong>Required</strong>:  No
-    * <strong>Active Types</strong>:  Active with Doc Queue
-    * <strong>Part Order</strong>:  0
-    * <strong>Allow Access to Restricted Users</strong>:  Unchecked
-    * <strong>Identifier</strong>:  Medical Record Number
+   - <strong>Partition</strong>:  APP
+     - The partition must match the <em>Default on Signup</em> system setting.
+   - <strong>WC GUID</strong>:  Blank
+   - <strong>Name</strong>:  APP
+   - <strong>Description</strong>:  Applicant
+   - <strong>MR Sequence</strong>:  Blank
+   - <strong>Partition View</strong>:  Auto Increment
+   - <strong>Required</strong>:  No
+   - <strong>Active Types</strong>:  Active with Doc Queue
+   - <strong>Part Order</strong>:  0
+   - <strong>Allow Access to Restricted Users</strong>:  Unchecked
+   - <strong>Identifier</strong>:  Medical Record Number
 
 ## Create Applicant Department
 
@@ -128,37 +129,37 @@ These Security Requirements should always be followed for ensuring the proper se
 
 **Features**
 
-* <strong>Print Completed Questionnaires</strong>: Displays a new section on the home page which allows the user to print questionnaires after they have been completed.
-* <strong>Auto Start First Questionnaire</strong>: When enabled, this will automatically trigger the first available questionnaire after login. NOTE: This only applies to the first time viewing the home page.
-* <strong>Enable Telehealth</strong>: When enabled, a page will show once the user is done with their questionnaires showing instructions on how to join a TeleHealth visit.
+- <strong>Print Completed Questionnaires</strong>: Displays a new section on the home page which allows the user to print questionnaires after they have been completed.
+- <strong>Auto Start First Questionnaire</strong>: When enabled, this will automatically trigger the first available questionnaire after login. NOTE: This only applies to the first time viewing the home page.
+- <strong>Enable Telehealth</strong>: When enabled, a page will show once the user is done with their questionnaires showing instructions on how to join a TeleHealth visit.
 
 **Additional Fields**
 
-* <strong>Field List</strong>: Choose which additional fields display on the applicant portal form.
-    * Date of Birth
-    * Social Security Number
-    * Email Address
-    * Mobile Phone
-    * Middle Name
+- <strong>Field List</strong>: Choose which additional fields display on the applicant portal form.
+  - Date of Birth
+  - Social Security Number
+  - Email Address
+  - Mobile Phone
+  - Middle Name
 
 **Miscellaneous**
 
-* <strong>Header Text</strong>: Replacement text for the header that displays with the Applicant Portal. This should be used as a general description of the portal. Default is 'Applicant Portal'
-* <strong>Custom Color</strong>: Use the color picker to select a custom color for your portal.
-* <strong>Inactivity Logout Time</strong> (Minimum: 2 Minutes; Maximum: 30 Minutes): Enter the amount of time (in minutes) to determine when a user will be logged out for inactivity. A popup window will display during the last 60 seconds of the timer to notify the user they are about to be logged out. NOTE: This timer is capped by the system setting: System/Login/Timeout and may be overridden by station manager settings. Default logout time is 2 minutes.
-* <strong>Redirect on Logout</strong>: The website that you will be redirected to when logged out.
-* <strong>Partition</strong>: Determines which partition new applicants are placed into once their account is created. NOTE: The partitions in this list are filtered to show only those with their 'Partition View' set to 'Auto Increment'.
-* <strong>Date Format</strong>: Select which format dates will appear on the sign in page. NOTE: This option only affects browsers that do not support native date inputs
+- <strong>Header Text</strong>: Replacement text for the header that displays with the Applicant Portal. This should be used as a general description of the portal. Default is 'Applicant Portal'
+- <strong>Custom Color</strong>: Use the color picker to select a custom color for your portal.
+- <strong>Inactivity Logout Time</strong> (Minimum: 2 Minutes; Maximum: 30 Minutes): Enter the amount of time (in minutes) to determine when a user will be logged out for inactivity. A popup window will display during the last 60 seconds of the timer to notify the user they are about to be logged out. NOTE: This timer is capped by the system setting: System/Login/Timeout and may be overridden by station manager settings. Default logout time is 2 minutes.
+- <strong>Redirect on Logout</strong>: The website that you will be redirected to when logged out.
+- <strong>Partition</strong>: Determines which partition new applicants are placed into once their account is created. NOTE: The partitions in this list are filtered to show only those with their 'Partition View' set to 'Auto Increment'.
+- <strong>Date Format</strong>: Select which format dates will appear on the sign in page. NOTE: This option only affects browsers that do not support native date inputs
 
 **Sign In Page**
 
-* <strong>Form Title</strong>: Replacement text for applicant form title on the initial login page. Default is 'New Applicant Form'
-* <strong>Form Directions</strong>: Replacement text for applicant form directions on the initial login page. Default is 'Welcome! Please complete the fields below to begin.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Form Directions'.
+- <strong>Form Title</strong>: Replacement text for applicant form title on the initial login page. Default is 'New Applicant Form'
+- <strong>Form Directions</strong>: Replacement text for applicant form directions on the initial login page. Default is 'Welcome! Please complete the fields below to begin.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Form Directions'.
 
 **Home Page**
 
-* <strong>Questionnaire List Directions</strong>: Replacement text for applicant questionnaire directions displayed on the home page after login. Default is 'Once you have completed all of the available questionnaires, please sign out using the button at the top of the page.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Questionnaire Directions'.
-* <strong>Available Questionnaires</strong>: This will determine which questionnaires are available for an applicant to complete within the applicant portal.
+- <strong>Questionnaire List Directions</strong>: Replacement text for applicant questionnaire directions displayed on the home page after login. Default is 'Once you have completed all of the available questionnaires, please sign out using the button at the top of the page.' NOTE: This input is limited to 255 characters. If longer instructions are needed, create a new layout in the 'UPortal Custom' module with the name 'Applicant Portal Questionnaire Directions'.
+- <strong>Available Questionnaires</strong>: This will determine which questionnaires are available for an applicant to complete within the applicant portal.
 
 ## Add Applicant Portal Chart Tab
 
@@ -167,18 +168,18 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 1. Navigate to the <strong>Chart Tabs</strong> tab of the Control Panel.
 2. Click the <strong>Add Chart Tab</strong> link in the upper-right corner of the page.
 3. Using the <strong>Basic Editor</strong>, create the Applicant Portal chart tab, accordingly:
-    * <strong>Tab Name</strong>:  Applicant Portal
-    * <strong>Description</strong>:  Blank
-    * <strong>Open in new window?</strong>:  No
-    * <strong>Default View</strong>:  Dashboard View
-    * <strong>Tab Order</strong>:  No Change
-    * <strong>Tab Color</strong>:  No Change
-    * <strong>Restrict Access</strong>:  Unchecked
-    * <strong>Show Tab in Pocket</strong>:  Unchecked
-    * <strong>Show Link Header</strong>:  Checked
-    * <strong>Chart Type</strong>:  Portal
-    * <strong>Force Display</strong>:  Yes
-    * <strong>Layout Name</strong>:  Applicant Portal
+   - <strong>Tab Name</strong>:  Applicant Portal
+   - <strong>Description</strong>:  Blank
+   - <strong>Open in new window?</strong>:  No
+   - <strong>Default View</strong>:  Dashboard View
+   - <strong>Tab Order</strong>:  No Change
+   - <strong>Tab Color</strong>:  No Change
+   - <strong>Restrict Access</strong>:  Unchecked
+   - <strong>Show Tab in Pocket</strong>:  Unchecked
+   - <strong>Show Link Header</strong>:  Checked
+   - <strong>Chart Type</strong>:  Portal
+   - <strong>Force Display</strong>:  Yes
+   - <strong>Layout Name</strong>:  Applicant Portal
 4. Click the <strong>Save</strong> button, when finished.
 
 ## Add Applicant Portal Questionnaires
@@ -189,7 +190,6 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 4. Begin typing the name of a questionnaire to be added, and select it from the autocomplete.
 5. Click the <strong>Save</strong> button.
 6. To continue adding additional questionnaires, click the plus [ + ] icon in the header of the new group.
-
 
 ![](./applicant-portal.assets/175999ab5422e9b434186d6bb9e880e9.png)
 
@@ -206,4 +206,4 @@ Only add the Applicant Portal Chart Tab if you are on a legacy database build. T
 
 To learn more about the Applicant Portal, follow the link below to the Learning Management System course:
 
-* [Pre-employment Management (and Applicant Portal)](https://mie.talentlms.com/shared/start/key:LGSIDNHR)
+- [Pre-employment Management (and Applicant Portal)](https://mie.talentlms.com/shared/start/key:LGSIDNHR)

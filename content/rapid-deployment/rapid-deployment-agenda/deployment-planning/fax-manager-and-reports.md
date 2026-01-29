@@ -1,16 +1,17 @@
 ---
-id: '1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
-title: 'Fax Manager & Reports'
-date: '2020-02-27T21:27:46.914Z'
+id: "1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10"
+title: "Fax Manager & Reports"
+date: "2020-02-27T21:27:46.914Z"
 version: 26
-lastAuthor: 'aquandt'
-mimeType: 'text/x-markdown'
+lastAuthor: "aquandt"
+mimeType: "text/x-markdown"
 links:
-  - '../../review-sessions/review-session-fax-manager.md'
-  - '../../review-sessions/review-session-reports.md'
-source: 'https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
-wikigdrive: 'v2.15.30'
+  - "../../review-sessions/review-session-fax-manager.md"
+  - "../../review-sessions/review-session-reports.md"
+source: "https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10"
+wikigdrive: "v2.15.30"
 ---
+
 ## Purpose
 
 Cover the [Fax Manager Review Session](../../review-sessions/review-session-fax-manager.md) and the [Reports Review Session](../../review-sessions/review-session-reports.md) to gather necessary information and identify any gaps.
@@ -21,17 +22,17 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 2 Hours
 
-* Demonstrate Faxing
-    * System Configuration
-        * Load Fax Coversheet(s)
-        * Inbound Fax Queue
-        * Outbound Faxing
-        * Configure Fax Queue Permissions, User Preferences, and Security Settings
-* Demonstrate Reports
-    * System Configuration
-        * Configure Reports
-        * Pivot Report Access
-        * Report Restrictions
+- Demonstrate Faxing
+  - System Configuration
+    - Load Fax Coversheet(s)
+    - Inbound Fax Queue
+    - Outbound Faxing
+    - Configure Fax Queue Permissions, User Preferences, and Security Settings
+- Demonstrate Reports
+  - System Configuration
+    - Configure Reports
+    - Pivot Report Access
+    - Report Restrictions
 
 ## Afterward
 

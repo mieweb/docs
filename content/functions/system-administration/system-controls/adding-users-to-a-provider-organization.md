@@ -1,35 +1,36 @@
 ---
-id: '1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
-title: 'Adding Users to a Provider Organization'
-date: '2020-02-27T20:18:45.794Z'
+id: "1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U"
+title: "Adding Users to a Provider Organization"
+date: "2020-02-27T20:18:45.794Z"
 version: 59
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U"
+wikigdrive: "v2.15.30"
 ---
+
 ## Create the Provider Organization (PO) Chart
 
 This will be the Provider Organization's chart which will store the list of users associated with a specific organization. From the E-Chart tab, click on Patient Registration
 
 ![](./adding-users-to-a-provider-organization.assets/19693729763ae89a71d42f724e6b8195.png)
 
-* <strong>Last Name:</strong> Enter the organization's name in the last name field, as you wish it appear in {{% system-name %}} .
-* <strong>First Name:</strong> Leave blank – this is not required for organization setup.
-* <strong>Birth Date:</strong> Leave blank – this is not required for organization setup.
-* <strong>SSN:</strong> Leave blank – this is not required for organization setup.
-* <strong>Search:</strong> To proceed to full Registration Screen
-* <strong>Cancel:</strong> To cancel the registration process.
+- <strong>Last Name:</strong> Enter the organization's name in the last name field, as you wish it appear in {{% system-name %}} .
+- <strong>First Name:</strong> Leave blank – this is not required for organization setup.
+- <strong>Birth Date:</strong> Leave blank – this is not required for organization setup.
+- <strong>SSN:</strong> Leave blank – this is not required for organization setup.
+- <strong>Search:</strong> To proceed to full Registration Screen
+- <strong>Cancel:</strong> To cancel the registration process.
 
 Proceed to Create the PO Chart
 
 ![](./adding-users-to-a-provider-organization.assets/782079f0bb832cb4a3bfccdfe4153e7e.png)
 
-* <strong>First Name:</strong> {{% system-name %}} requires a First Name for every patient – to register your organization without a First Name, simply enter a "space" by using your spacebar on the keyboard. No Additional Demographic information is required, but you may fill in as much as desired. Scroll down to the bottom of the demographics screen and locate the Medical Records Section, and place a Checkmark in the box corresponding with the PO Partition
+- <strong>First Name:</strong> {{% system-name %}} requires a First Name for every patient – to register your organization without a First Name, simply enter a "space" by using your spacebar on the keyboard. No Additional Demographic information is required, but you may fill in as much as desired. Scroll down to the bottom of the demographics screen and locate the Medical Records Section, and place a Checkmark in the box corresponding with the PO Partition
 
 ![](./adding-users-to-a-provider-organization.assets/c13ffbb847ef9b42957259cfe8d7ef9f.png)
 
-* <strong>Save:</strong> To complete the registration process.
+- <strong>Save:</strong> To complete the registration process.
 
 ## Add Users to the PO Chart
 

@@ -1,18 +1,19 @@
 ---
-id: '1tOaKesGwQOjB8Ap2oYlfMvI2sWfS-ONQuvPyBb5jCbc'
-title: 'CMS 143 - Primary Open-Angle Glaucoma (POAG): Optic Nerve Evaluation'
-date: '2022-04-28T14:03:19.182Z'
+id: "1tOaKesGwQOjB8Ap2oYlfMvI2sWfS-ONQuvPyBb5jCbc"
+title: "CMS 143 - Primary Open-Angle Glaucoma (POAG): Optic Nerve Evaluation"
+date: "2022-04-28T14:03:19.182Z"
 version: 15
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms143v10'
-source: 'https://drive.google.com/open?id=1tOaKesGwQOjB8Ap2oYlfMvI2sWfS-ONQuvPyBb5jCbc'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms143v10"
+source: "https://drive.google.com/open?id=1tOaKesGwQOjB8Ap2oYlfMvI2sWfS-ONQuvPyBb5jCbc"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS143v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS143v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -101,7 +102,6 @@ wikigdrive: 'v2.15.30'
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
-
 
 ### Original Visit Encounter
 

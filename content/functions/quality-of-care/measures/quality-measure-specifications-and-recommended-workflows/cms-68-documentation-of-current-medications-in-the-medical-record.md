@@ -1,19 +1,20 @@
 ---
-id: '1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-title: 'CMS 68 - Documentation of Current Medications in the Medical Record'
-date: '2022-05-23T12:15:40.249Z'
+id: "1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
+title: "CMS 68 - Documentation of Current Medications in the Medical Record"
+date: "2022-05-23T12:15:40.249Z"
 version: 70
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v10&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v11&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/glossary/eligible-clinician'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11'
-source: 'https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v10&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v11&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/glossary/eligible-clinician"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms068v11"
+source: "https://drive.google.com/open?id=1NgXF1EQs63upqMjbpmVqzwq_0wDmhVAXEjKXUZKTtC0"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS68v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS68v9&showresulttype=Measure) (2020)
@@ -39,7 +40,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

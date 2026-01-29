@@ -1,25 +1,26 @@
 ---
-id: '1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM'
-title: 'Vitals System Wide Defaults'
-date: '2025-11-10T20:45:31.621Z'
+id: "1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM"
+title: "Vitals System Wide Defaults"
+date: "2025-11-10T20:45:31.621Z"
 version: 78
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM"
+wikigdrive: "v2.15.30"
 ---
+
 When keying in vitals within the Vitals encounter section, or within the stand alone Vital Signs chart tab, certain fields are configured to automatically default, but can be changed manually by the user when documenting vitals data.
 
 ## Default Vitals Fields
 
 The following 5 fields in the vitals section will default to a selection after keying in data for the vital:
 
-* <strong>BP Site:</strong> defaults to Left Arm system wide if a Blood Pressure is keyed in
-* <strong>BP Position:</strong> defaults to Sitting system wide if a Blood Pressure is keyed in
-* <strong>Pulse Regularity:</strong> defaults to Regular system wide if a Pulse is keyed in
-* <strong>Pulse Site:</strong> defaults to Radial system wide if a Pulse is keyed in
-* <strong>Exertion:</strong> defaults to Resting system wide if a Pulse is keyed in
+- <strong>BP Site:</strong> defaults to Left Arm system wide if a Blood Pressure is keyed in
+- <strong>BP Position:</strong> defaults to Sitting system wide if a Blood Pressure is keyed in
+- <strong>Pulse Regularity:</strong> defaults to Regular system wide if a Pulse is keyed in
+- <strong>Pulse Site:</strong> defaults to Radial system wide if a Pulse is keyed in
+- <strong>Exertion:</strong> defaults to Resting system wide if a Pulse is keyed in
 
 Users can always manually change the selection within the field's drop-down when needed.
 
@@ -92,9 +93,9 @@ If you would rather have the system not default any of the above Vital fields up
 From within the Observation Codes editor, search and find the specific observation. Then click on Edit.
 
 1. Once in the Edit Observation Code screen for the specific observation(s) and key in the custom discrete values and sort order from the above instructions, <strong>but</strong> add a selection of a space (keyboard space) as one custom discrete value selection being ordered first.
-    * Simply hit the spacebar on your keyboard one time to set that as a discrete value and make it be first in sort order.
+   - Simply hit the spacebar on your keyboard one time to set that as a discrete value and make it be first in sort order.
 2. Next, go up to its Target field to key in the matching custom discrete value you want the new system wide default to be and make sure Target is selected next to it in the drop-down.
-    * Simply hit the spacebar on your keyboard one time to set that as the Target.
+   - Simply hit the spacebar on your keyboard one time to set that as the Target.
 3. Save your work.
 
 ![](./vitals-system-wide-defaults.assets/97e26b6041d021bf665665178a1c0cee.png)

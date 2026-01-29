@@ -1,15 +1,16 @@
 ---
-id: '1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
-title: 'Asset Management Module'
-date: '2026-01-15T18:58:03.086Z'
+id: "1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ"
+title: "Asset Management Module"
+date: "2026-01-15T18:58:03.086Z"
 version: 293
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:ZLLDNHRK'
-source: 'https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:ZLLDNHRK"
+source: "https://drive.google.com/open?id=1g8JJcZXl_9lx-H2Yp7EgvKwtUxquYk8aNTFl7ov1WtQ"
+wikigdrive: "v2.15.30"
 ---
+
 The Asset Manager module allows equipment tracking, warranty information, maintenance request and calibration requirements. The module includes creating work orders, calibration requests and tracks these items over time. The module includes automation of notification 90 and 30 days prior to when calibration, service agreements, warranties and insurance policies are due or will expire. There is robust reporting included. Please verify with your MIE implementer that your system has been prepared to use the Asset Management Module. MIE Implementer must set up this module to be used in your  {{% system-name %}}  system and must have the two committed layout encounters & visit types enabled/activated on your system for use.
 
 ![](./asset-management-module.assets/3f54b492d805a6dbfb21ecd055b80484.png)
@@ -42,57 +43,57 @@ Once you've registered a new asset, the system will automatically assign it an A
 
 Open the Information section by clicking on the gray bar titled Information. Add asset details to the following field:
 
-* Name
-* Manufacturer
-* Model
-* Manufactured Date
-* Document Warranty
-* Document Insurance
-* Perform Calibration
-* Perform Maintenance
+- Name
+- Manufacturer
+- Model
+- Manufactured Date
+- Document Warranty
+- Document Insurance
+- Perform Calibration
+- Perform Maintenance
 
 Open the Other Data section by clicking on the gray bar titled Other Data. Additional asset details can be entered within the following fields:
 
-* Serial Number
-* Inspection Date
-* Inspection Term
-    * Every Month
-    * Every Quarter
-    * Every Year
-* IAA Number
-* SOW Number
-* PE Number
-* Prescription Date
-* Original Serial No. When Stripped (For FEMA Only)
-* Agency Barcode Number
-* Status
-    * Active
-    * Inactive
-    * Sold
-* Unit Location
-* Asset Category
-    * Audiometer
-    * AED
-    * Cell Phone
-    * FedHealth License
-    * Laptop
-    * Spirometer
-* Assignment
-    * Fixed
-    * Deployed
-* Installed Battery Lot Number
-* Spare Battery Lot Number
-* Installed Battery Installation Date
-* Installed Battery Install by Date
-* Installed Battery Expiration Date
-* Spare Battery Install by Date
-* Spare Battery Expiration Date
-* Installed Pads Lot Number
-* Spare Pads Lot Number
-* Installed Pads Expiration Date
-* Spare Pads Expiration Date
-* Purchase Date
-* Useful Life
+- Serial Number
+- Inspection Date
+- Inspection Term
+  - Every Month
+  - Every Quarter
+  - Every Year
+- IAA Number
+- SOW Number
+- PE Number
+- Prescription Date
+- Original Serial No. When Stripped (For FEMA Only)
+- Agency Barcode Number
+- Status
+  - Active
+  - Inactive
+  - Sold
+- Unit Location
+- Asset Category
+  - Audiometer
+  - AED
+  - Cell Phone
+  - FedHealth License
+  - Laptop
+  - Spirometer
+- Assignment
+  - Fixed
+  - Deployed
+- Installed Battery Lot Number
+- Spare Battery Lot Number
+- Installed Battery Installation Date
+- Installed Battery Install by Date
+- Installed Battery Expiration Date
+- Spare Battery Install by Date
+- Spare Battery Expiration Date
+- Installed Pads Lot Number
+- Spare Pads Lot Number
+- Installed Pads Expiration Date
+- Spare Pads Expiration Date
+- Purchase Date
+- Useful Life
 
 The Asset Category selection list is customizable. Please contact your MIE Implementer for assistance. This field will be available as a filter in reporting.
 
@@ -114,11 +115,11 @@ Maintenance: Enter maintenance tracking information in the maintenance section.
 
 ![](./asset-management-module.assets/a8fb9ea62be261fc44b22999f2d67416.png)
 
-* Link to Service Manual: Add the URL link for any service manual if available.
-* Maintenance Agreement
-    * If Yes, the section will expand to record relevant maintenance agreement details.
-    * The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
-* Provider
+- Link to Service Manual: Add the URL link for any service manual if available.
+- Maintenance Agreement
+  - If Yes, the section will expand to record relevant maintenance agreement details.
+  - The maintenance agreement <em>Contract Expiration</em> date field is used for automatic notification of expiration to the owner at 90 and 30 days prior to the date via email cron job.
+- Provider
 
 ## Adding a Maintenance Request
 
@@ -216,11 +217,11 @@ There are several reports available for the Asset module. Go to the sidemenu tab
 
 Reports available include:
 
-* <strong>Asset Details</strong> – Use search filters to result a detailed summary report for assets
-* <strong>Maintenance History Report</strong> – Use search filters to result a detailed summary of pending and completed maintenance requests
-* <strong>Calibration History Report</strong> – Use search filters to result a detailed summary of all pending and completed calibration requests
-* <strong>Asset Calibration Due</strong> – Use search filters to result a detailed summary of assets according to Calibration Due dates. Automated emails can be generated to notify the custodian/owner at 90 and 30 days in advance.
-* <strong>Warranty Expiration Report</strong> – Use search filters to result a detailed summary of assets according to Service Agreements and when they will expire. Automated emails can be generated to notify the custodian/owner at 90 and 30 days in advance.
+- <strong>Asset Details</strong> – Use search filters to result a detailed summary report for assets
+- <strong>Maintenance History Report</strong> – Use search filters to result a detailed summary of pending and completed maintenance requests
+- <strong>Calibration History Report</strong> – Use search filters to result a detailed summary of all pending and completed calibration requests
+- <strong>Asset Calibration Due</strong> – Use search filters to result a detailed summary of assets according to Calibration Due dates. Automated emails can be generated to notify the custodian/owner at 90 and 30 days in advance.
+- <strong>Warranty Expiration Report</strong> – Use search filters to result a detailed summary of assets according to Service Agreements and when they will expire. Automated emails can be generated to notify the custodian/owner at 90 and 30 days in advance.
 
 ![](./asset-management-module.assets/0d59cf13513973c43a9c92582bcd0d5c.png)
 
@@ -228,4 +229,4 @@ Reports available include:
 
 To learn more about the Asset Management Module, follow the link below to the Learning Management System course:
 
-* [Asset Management](https://mie.talentlms.com/shared/start/key:ZLLDNHRK)
+- [Asset Management](https://mie.talentlms.com/shared/start/key:ZLLDNHRK)

@@ -1,14 +1,15 @@
 ---
-id: '1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw'
-title: 'Device Interface - Benson CCS-200 Spirometer'
-date: '2020-03-18T14:49:40.210Z'
+id: "1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw"
+title: "Device Interface - Benson CCS-200 Spirometer"
+date: "2020-03-18T14:49:40.210Z"
 version: 99
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1K1Aoetbj6JumsN1BuVOxb2FKlGmngXOeBSE3UHaVuTw"
+wikigdrive: "v2.15.30"
 ---
+
 This page provides instructions for interfacing the Benson CCS-220 Spirometer with the {{% system-name %}} system. Lists of the fields and results the interface retrieves are provided, and instructions for installing required applications for functionality are linked, where applicable.
 
 {{% note %}}
@@ -21,18 +22,18 @@ The following data fields are collected in
 ![](./device-interface-benson-ccs-200-spirometer.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
 using Benson CCS-200:
 
-* Patient MRN
-* Test Date/Time
-* FVC
-* FEV1
-* FEV1/FVC
-* PEF
-* FEF 25%-75%
-* Interpretation
-* Calibration Date and Result
-* Test Temperature
-* Test Humidity
-* Curve information to reproduce graph
+- Patient MRN
+- Test Date/Time
+- FVC
+- FEV1
+- FEV1/FVC
+- PEF
+- FEF 25%-75%
+- Interpretation
+- Calibration Date and Result
+- Test Temperature
+- Test Humidity
+- Curve information to reproduce graph
 
 ## Using the Device Interface
 
@@ -49,17 +50,18 @@ From the encounter, the Spirometry/PFT can be added to the exam using the Tests 
 {{% note %}}  
 Perform testing with the Benson Software as instructed in the device's operation manual, and save the test and export the results:
 
-* Choose the File menu and export.
-* Select "ATS-ERS 2005 standard format" in the Format dropdown.  
-    ![](./device-interface-benson-ccs-200-spirometer.assets/60f918983155be183ce17b7c6ea54027.png)
-* Select the correct location to save the file.
-* Click OK.
+- Choose the File menu and export.
+- Select "ATS-ERS 2005 standard format" in the Format dropdown.  
+   ![](./device-interface-benson-ccs-200-spirometer.assets/60f918983155be183ce17b7c6ea54027.png)
+- Select the correct location to save the file.
+- Click OK.
 
 {{% /note %}}
 
 3. To import the spirometry/PFT results, click the <strong>Load From Device</strong> button.
 
-    ![](./device-interface-benson-ccs-200-spirometer.assets/dda14acc97e4e778f9209f1b90689433.png)
+   ![](./device-interface-benson-ccs-200-spirometer.assets/dda14acc97e4e778f9209f1b90689433.png)
+
 4. When loading test data, be sure to select the <strong>Reason for Test</strong> using the dropdown.
 
 ![](./device-interface-benson-ccs-200-spirometer.assets/cc2aa9568eae174a7543770ab9bae7b0.png)

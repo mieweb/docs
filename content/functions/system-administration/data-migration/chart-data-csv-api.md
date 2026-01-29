@@ -1,24 +1,25 @@
 ---
-id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-title: 'Chart Data CSV API'
-date: '2025-11-12T20:05:17.130Z'
+id: "1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
+title: "Chart Data CSV API"
+date: "2025-11-12T20:05:17.130Z"
 version: 197
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0'
-  - 'data-import-standards.md'
-  - 'chart-medical-record-number-mrn-import-options.md'
-  - 'chart-observations-import-options.md'
-  - 'chart-observations-default-values.md'
-  - 'https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d'
-  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml'
-  - '../../../resources/system-specifications/application-programming-interface-api.md'
-  - 'data-import-master-list.md'
-source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
-wikigdrive: 'v2.15.30'
+  - "data-import-overview.md"
+  - "https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?gid=0"
+  - "data-import-standards.md"
+  - "chart-medical-record-number-mrn-import-options.md"
+  - "chart-observations-import-options.md"
+  - "chart-observations-default-values.md"
+  - "https://www.lucidchart.com/documents/view/8b1c6c06-6b16-40a0-afe7-a576d804854d"
+  - "https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/pubhtml"
+  - "../../../resources/system-specifications/application-programming-interface-api.md"
+  - "data-import-master-list.md"
+source: "https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs"
+wikigdrive: "v2.15.30"
 ---
+
 The purpose of this page is to define data and fields that may be imported into an Enterprise Health (EH) system using the Chart Data CSV API.
 
 ## Audience
@@ -29,10 +30,10 @@ The abstract that follows should be presented to decision-makers or stakeholders
 
 The Chart Data CSV API is used to import data related to patients or charts. It is valuable to recognize the following terminology as it pertains to MIE systems:
 
-* A <strong>patient</strong> is an individual whose medical information is stored in an EH database.
-* A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
-* A <strong>user</strong> is an individual who uses an Enterprise Health system as part of their job.
-* <strong>Partitions</strong> organize groups of charts. Partitions are often used to restrict which charts a user can access.
+- A <strong>patient</strong> is an individual whose medical information is stored in an EH database.
+- A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
+- A <strong>user</strong> is an individual who uses an Enterprise Health system as part of their job.
+- <strong>Partitions</strong> organize groups of charts. Partitions are often used to restrict which charts a user can access.
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](data-import-overview.md) page for a more detailed explanation of terminology.
 
@@ -60,10 +61,10 @@ The sections that follow outline the fields and data utilized by an EH system.
 
 A chart search in an EH can be completed with one of the following options:
 
-* Patient medical record number (MRN)
-* First Name, Last Name, and Date of Birth
-* Social Security Number (SSN - used in the United States)
-* Social Insurance Number (SIN - used in Canada)
+- Patient medical record number (MRN)
+- First Name, Last Name, and Date of Birth
+- Social Security Number (SSN - used in the United States)
+- Social Insurance Number (SIN - used in Canada)
 
 #### patients
 
@@ -101,8 +102,8 @@ The field obs_result is required to create an observation.
 
 Both of the following fields are needed to link the observation to a patient encounter:
 
-* encounter ext_id
-* encounter interface
+- encounter ext_id
+- encounter interface
 
 Including the field encounter order_id will also create an encounter order.
 
@@ -138,4 +139,4 @@ See [Troubleshooting APIs](../../../resources/system-specifications/application
 
 ## Related Pages
 
-* [Data Import Master List](data-import-master-list.md)
+- [Data Import Master List](data-import-master-list.md)

@@ -1,22 +1,23 @@
 ---
-id: '1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
-title: 'Tracking Notes'
-date: '2025-08-04T13:08:42.883Z'
+id: "1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU"
+title: "Tracking Notes"
+date: "2025-08-04T13:08:42.883Z"
 version: 94
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - '../system-configuration/macros.md'
-source: 'https://drive.google.com/open?id=1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
-wikigdrive: 'v2.15.30'
+  - "../system-configuration/macros.md"
+source: "https://drive.google.com/open?id=1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU"
+wikigdrive: "v2.15.30"
 ---
-The Tracking Notes encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document any Tracking Notes within an encounter using the Visit encounter template type outline within the Plan area.
+
+The Tracking Notes encounter section is an optional section that can be applied to the encounter outline. This can be used to help document any Tracking Notes within an encounter using the Visit encounter template type outline within the Plan area.
 
 ![](./tracking-notes.assets/c87e6e8e0589a13794ac1528d97dbf9d.png)
 
 ## Add Notes to Tracking Notes section
 
-To key in notes into the Tracking Notes section, simply click anywhere in its grey title bar area to expand open the Tracking Notes encounter section.  Use the Observation date/time field to date/time stamp your note and free text in any notes in the Notes field.  Once done, click the ADD button to save your work. You can add another separate note.
+To key in notes into the Tracking Notes section, simply click anywhere in its grey title bar area to expand open the Tracking Notes encounter section. Use the Observation date/time field to date/time stamp your note and free text in any notes in the Notes field. Once done, click the ADD button to save your work. You can add another separate note.
 
 ![](./tracking-notes.assets/d31c3fc099c7c7d44a0787123413f717.png)
 
@@ -44,11 +45,11 @@ At least one macro must be configured for the Case Management Notes section for 
 
 ## Delete / Edit / View Tracking Notes Captured Data
 
-The Tracking Notes section allows you to view existing documented Tracking Notes on that encounter, or allows you to delete an existing documented Tracking Note (security permission dependent).  Once a Tracking Note has been documented and saved, an edit to it cannot be made.
+The Tracking Notes section allows you to view existing documented Tracking Notes on that encounter, or allows you to delete an existing documented Tracking Note (security permission dependent). Once a Tracking Note has been documented and saved, an edit to it cannot be made.
 
 ### View Existing Tracking Notes
 
-The Tracking Notes section displays any existing historical notes someone has keyed in (along with a date/time stamp) and stores as observations on the chart.  These Tracking Notes stay with the specific encounter and are not shared in any other separate encounters the chart may have now or in the future.
+The Tracking Notes section displays any existing historical notes someone has keyed in (along with a date/time stamp) and stores as observations on the chart. These Tracking Notes stay with the specific encounter and are not shared in any other separate encounters the chart may have now or in the future.
 
 Notes in this section display with most recently dated at the top.
 
@@ -62,7 +63,7 @@ Simply expand open the Tracking Notes encounter section and click the minus - bu
 
 ![](./tracking-notes.assets/b409f95e01fbb89db6d6f8f2043bcb3f.png)
 
-Once the minus - button is clicked, it will put a strikethrough the entire Note selected.  This signifies it will delete this note off once you SAVE the section.  If you made a mistake, you can click the *add* button in the options column (where the minus button was before you clicked it) and the note will have the strikethrough removed and won't be deleted.
+Once the minus - button is clicked, it will put a strikethrough the entire Note selected. This signifies it will delete this note off once you SAVE the section. If you made a mistake, you can click the _add_ button in the options column (where the minus button was before you clicked it) and the note will have the strikethrough removed and won't be deleted.
 
 However, once you SAVE the encounter section (by clicking the ‘next' button or the ‘save' icon or collapsing the encounter section), your work is saved and if you had deleted a note, there is no way to bring it back.
 

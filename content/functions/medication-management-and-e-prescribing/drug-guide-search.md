@@ -1,13 +1,14 @@
 ---
-id: '1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA'
-title: 'Drug Guide Search'
-date: '2020-02-27T20:04:35.130Z'
+id: "1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA"
+title: "Drug Guide Search"
+date: "2020-02-27T20:04:35.130Z"
 version: 49
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1yfB8xD-yey4VBd_Yzka0pkd_PGCMq8s9GmZHCCbZiLA"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}} currently imports the First DataBank (FDB) update files on a weekly basis on Saturday mornings at 2 am. MIE then does a complete dump and reload of our databases based on these files. At the end of this process, we update a table in the database that keeps track of changes in the database. A nightly job on each of the client servers checks for updates in the database file, and updates the rxdb database on the server from our "home" version of the database if necessary.
 
 We do not "message" after updates these updates. However, we do have a message on the Drug Guide that you can see what the version is. The Drug Guide Search feature is usually found in the sidemenu tab named References, however in your particular {{% system-name %}} system, it could be found in the Omniscope side tab or in the E-Chart tab. It is also found while prescribing in the e-meds module. Wherever your particular Drug Guide Search program is, when you get to that program you will see under the Drug Guide search field bar for example: **Drug database version: 2.400, last updated 2010-06-12 02:16:17**
@@ -30,12 +31,12 @@ This is where the Drug Guide Search program is found within the E-Chart sidemenu
 
 Once you are in the Drug Guide Search program, there are search criteria fields you can set to find the drug you want to view guide information on.
 
-* <strong>Search For:</strong> If you start typing the name of the drug (brand or generic) and it will auto-complete to match your typing and give you choices. The search criteria of ‘drug name' is automatically the default. You can change ‘how' you want to find the drug you need by changing the drop-down choice (see next page).
+- <strong>Search For:</strong> If you start typing the name of the drug (brand or generic) and it will auto-complete to match your typing and give you choices. The search criteria of ‘drug name' is automatically the default. You can change ‘how' you want to find the drug you need by changing the drop-down choice (see next page).
 
 ![](./drug-guide-search.assets/a26b8285eedb9a6bf93bbdb382b44e74.png)
 
-* <strong>Additional Criteria Dropdown:</strong> You can change ‘how' you want to find the drug you need by changing the drop-down choice. It automatically defaults to search by ‘drug name' but you can select any other method of search you wish. Simply click your mouse on the drop-down and it will open other selections.
-* <strong>Only Active Drugs:</strong> This is automatically check-marked unless you system setting has been changed. Having this checkmarked means you are narrowing down your drug search to only search and find active drugs, not drugs that have been marked inactive by First DataBank.
+- <strong>Additional Criteria Dropdown:</strong> You can change ‘how' you want to find the drug you need by changing the drop-down choice. It automatically defaults to search by ‘drug name' but you can select any other method of search you wish. Simply click your mouse on the drop-down and it will open other selections.
+- <strong>Only Active Drugs:</strong> This is automatically check-marked unless you system setting has been changed. Having this checkmarked means you are narrowing down your drug search to only search and find active drugs, not drugs that have been marked inactive by First DataBank.
 
 ![](./drug-guide-search.assets/93f64eb009f302d14003308112effef6.png)
 
@@ -55,7 +56,7 @@ There are various help bubbles in the formulary to explain each section and colu
 
 ## Drug Guide Display Customization
 
-There are various System Settings your MIE Implementer can change regarding the Drug Guide Search. The Drug Guide ‘Search For' field can be set to be an auto-complete to give matches to your typing, or can be turned off. Other various sections within the Drug Guide Search can be turned off from displaying such as the hierarchy section, the NDC section and the dosing section. The default to have the check-mark to search only active drugs can also be turned off so it's not check-marked and will always search for active *and* inactive drugs that you are searching for. Any changes to these system settings will affect your practice's {{% system-name %}} system wide for all users.
+There are various System Settings your MIE Implementer can change regarding the Drug Guide Search. The Drug Guide ‘Search For' field can be set to be an auto-complete to give matches to your typing, or can be turned off. Other various sections within the Drug Guide Search can be turned off from displaying such as the hierarchy section, the NDC section and the dosing section. The default to have the check-mark to search only active drugs can also be turned off so it's not check-marked and will always search for active _and_ inactive drugs that you are searching for. Any changes to these system settings will affect your practice's {{% system-name %}} system wide for all users.
 
 ![](./drug-guide-search.assets/5d361a2119e48c7218e32983d2548a8a.png)
 

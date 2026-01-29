@@ -1,14 +1,15 @@
 ---
-id: '1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
-title: 'Orders - View Recent'
-date: '2025-08-08T17:42:28.533Z'
+id: "1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k"
+title: "Orders - View Recent"
+date: "2025-08-08T17:42:28.533Z"
 version: 207
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1K1uiAnm1Wdda2zGIs1VIpS5Awq7QEheM5H1b6jMWM-k"
+wikigdrive: "v2.15.30"
 ---
+
 To view recent orders (existing orders) that the patient has had created/ordered for them, click View Recent at the top right of the OrderRequestLegacy tab.
 
 ![](./orders-view-recent.assets/0a5cbe76c82e91151bf2e653f2b248b2.png)
@@ -49,11 +50,11 @@ It will take you to the print module and then X out of the print view/screen whe
 
 ![](./orders-view-recent.assets/ecb8bd0139293fde483ed4f3ba4eeb1a.png)
 
-There is a system setting that can be enabled (Orders/Settings/Print Order Requests Without Headers) that can be enabled which will automatically have the *print without headers* checkbox checked by default (a user can always override the checkmark) when printing order requests from this Recent Orders screen.
+There is a system setting that can be enabled (Orders/Settings/Print Order Requests Without Headers) that can be enabled which will automatically have the _print without headers_ checkbox checked by default (a user can always override the checkmark) when printing order requests from this Recent Orders screen.
 
 ## View Orders
 
-Click *View* next to an existing order to view it on the screen.
+Click _View_ next to an existing order to view it on the screen.
 
 ![](./orders-view-recent.assets/bc79b0047ddf4a81bf5fc9509ac81a86.png)
 
@@ -61,7 +62,7 @@ It will take you to the document summary to view the stored order document on th
 
 ![](./orders-view-recent.assets/bea65f51124a6f7cd7e5bc7e6bfdc7b0.png)
 
-There is also an option to complete when viewing the order document. The complete link will take you to the *Complete Order* screen where you can mark the entire order as ‘complete. Follow steps on the subsequent page of this help document regarding Complete.
+There is also an option to complete when viewing the order document. The complete link will take you to the _Complete Order_ screen where you can mark the entire order as ‘complete. Follow steps on the subsequent page of this help document regarding Complete.
 
 A Print ABN hyperlink can be programmed to display, reminding users that an Advance Beneficiary Notice (ABN) form may be needed for a patient. An ABN form is required for all patients who have Medicare Part B insurance, for certain Lab Orders, or not at all. There is a system setting (Orders,Settings,Show ABN Link for all patients) that is off by default. However, if the system setting is enabled, a Print ABN link will appear on stored order documents on all orders for Medicare B patients (As defined by the PQRS system setting) and no link is shown for all other patients.
 
@@ -95,7 +96,7 @@ Then in the view of the closed order, it would show the items/orders and next to
 
 ![](./orders-view-recent.assets/ffdeb010f4af2e00055f85e3f64336cf.png)
 
-If you mark to complete a *standing order*, it doesn't remove the standing order.  It creates a completed version of that order.  To remove the standing order, you have to edit it and take out the order frequency, then complete it.
+If you mark to complete a _standing order_, it doesn't remove the standing order.  It creates a completed version of that order.  To remove the standing order, you have to edit it and take out the order frequency, then complete it.
 
 ## Check Boxes in Options Column
 
@@ -103,7 +104,7 @@ The check-mark boxes next to any order in the View Recent screen is a way to set
 
 ![](./orders-view-recent.assets/84b980999b8c9073524f70afc9696bee.png)
 
-Simply check-mark the box of the order(s) that you want to select, and then scroll to the bottom and click *Complete Orders* button. You can complete the entire order or mark certain order items as complete.
+Simply check-mark the box of the order(s) that you want to select, and then scroll to the bottom and click _Complete Orders_ button. You can complete the entire order or mark certain order items as complete.
 
 ![](./orders-view-recent.assets/81c73a9fbb237309f1f033c8e9468c33.png)
 
@@ -111,11 +112,11 @@ You can view the category a specific order is set to by viewing the category col
 
 ![](./orders-view-recent.assets/79e9e3f85b0b74e11e4111285cfc7269.png)
 
-You can also complete all (multiple in mass) with encounter using the button *Complete with Encounter*. See section *Complete with Encounter* in this help guide.
+You can also complete all (multiple in mass) with encounter using the button _Complete with Encounter_. See section _Complete with Encounter_ in this help guide.
 
 ## Complete with Results
 
-Orders show the ability to *complete with results* hyperlink functionality. In order for the hyperlink functionality to show, your system must have the system setting "Show Complete with Results Link" set on.
+Orders show the ability to _complete with results_ hyperlink functionality. In order for the hyperlink functionality to show, your system must have the system setting "Show Complete with Results Link" set on.
 
 ![](./orders-view-recent.assets/8b0fecc10eb80f86715e661d7585d7ae.png)
 
@@ -139,33 +140,33 @@ When you select a specific flowsheet you have set up in your {{% system-name %}}
 
 ![](./orders-view-recent.assets/d9cfd0fc3190eea9cd8381b003bed297.png)
 
-Once you click the "submit" button, the order is marked complete, the lab results are stored as discrete data in the patient's chart, a Lab Results document is created in the patient's chart along with the result data and that discrete data document is linked to the order you clicked *complete with results* functionality on. *Note: The field Request Name will be shown as the ‘subject' on the stored Results document.*
+Once you click the "submit" button, the order is marked complete, the lab results are stored as discrete data in the patient's chart, a Lab Results document is created in the patient's chart along with the result data and that discrete data document is linked to the order you clicked _complete with results_ functionality on. _Note: The field Request Name will be shown as the ‘subject' on the stored Results document._
 
 ![](./orders-view-recent.assets/5b0ef30b8e6924e7d4eb590e6c827503.png)
 
-The order request automatically now moves to the "completed orders" bucket and you would see the *view results* hyperlink which would show you the linked discrete lab results document.
+The order request automatically now moves to the "completed orders" bucket and you would see the _view results_ hyperlink which would show you the linked discrete lab results document.
 
 ![](./orders-view-recent.assets/fc895eb223cbce7094badc64a7e44eaa.png)
 
 ## Complete with Encounter
 
-The system will display a hyperlink Complete with Encounter in the options column, if the encounter visit type "Results" is set as active in the {{% system-name %}} system. If the encounter visit type "Results" is inactive, the *complete with encounter* functionality is disabled and not visible.
+The system will display a hyperlink Complete with Encounter in the options column, if the encounter visit type "Results" is set as active in the {{% system-name %}} system. If the encounter visit type "Results" is inactive, the _complete with encounter_ functionality is disabled and not visible.
 
 ![](./orders-view-recent.assets/e37746f4dc0dfb69da35ccfc5ffbd56c.png)
 
-This ability to complete an order request and document the results within an encounter. It will also generate/create a new "Results" encounter in the chart if system setting *Reuse Encounter when Completing Order* is disabled (value 0) which is the default behavior. The "Results" encounter is a dynamic encounter that has the following sections:
+This ability to complete an order request and document the results within an encounter. It will also generate/create a new "Results" encounter in the chart if system setting _Reuse Encounter when Completing Order_ is disabled (value 0) which is the default behavior. The "Results" encounter is a dynamic encounter that has the following sections:
 
-* Encounter Info
-* Case (so that the encounter can be linked to a specific case/incident)
-* Results
-    * one section for each pending order_item from the pending order request
-    * Incomplete orders & completed orders sections
+- Encounter Info
+- Case (so that the encounter can be linked to a specific case/incident)
+- Results
+  - one section for each pending order_item from the pending order request
+  - Incomplete orders & completed orders sections
 
 The contents of these sections are determined by the layout name field in each order item.
 
-* If the name of the order is the same as the name of a flowsheet and the layout is  "Obs Procedure", that flowsheet will be displayed
-* if the name of the order does NOT match the name of a flowsheet, the order's layout will be displayed if the order has a layout, otherwise the "Generic Order" layout will be used
-* The Generic Order layout is essentially a place to enter an observation.  The observation will have the same name as the order it came from.
+- If the name of the order is the same as the name of a flowsheet and the layout is  "Obs Procedure", that flowsheet will be displayed
+- if the name of the order does NOT match the name of a flowsheet, the order's layout will be displayed if the order has a layout, otherwise the "Generic Order" layout will be used
+- The Generic Order layout is essentially a place to enter an observation.  The observation will have the same name as the order it came from.
 
 After clicking the "Add Results" link, you will be taken directly into the "Results" encounter (that was created upon your click) with 5 sections, all of which begin collapsed.
 
@@ -175,15 +176,15 @@ Click on the title section of an order item you wish to result to expand the sec
 
 ![](./orders-view-recent.assets/70f80531336b665e2d711a6a8188bd8c.png)
 
-First, make sure to click the Check icon if this order is complete (or any other specific checkbox). The *complete* status check marks the order as complete in the system in various places.
+First, make sure to click the Check icon if this order is complete (or any other specific checkbox). The _complete_ status check marks the order as complete in the system in various places.
 
-Key in/enter a result for the order item, and click the *NEXT* button. If you had more order item sections on the "results" encounter, the next order item section would expand open.
+Key in/enter a result for the order item, and click the _NEXT_ button. If you had more order item sections on the "results" encounter, the next order item section would expand open.
 
 In this example, I have an order whose name is the same as a flow sheet, and the layout is Obs Procedure, so we display this flowsheet that is linked/named the same as the order item.
 
 ![](./orders-view-recent.assets/0a5e8a2eb7b9a430b8037789c1e437c5.png)
 
-Enter results, and click the *NEXT* button, and this order item will be marked as completed (whether or not you check the completed box).
+Enter results, and click the _NEXT_ button, and this order item will be marked as completed (whether or not you check the completed box).
 
 ![](./orders-view-recent.assets/208295d8eaf2bb854c022acc6afeae3a.png)
 
@@ -197,7 +198,7 @@ Archive & close the encounter when done resulting. The Results encounter will th
 
 ![](./orders-view-recent.assets/4cbfc46769e80bb91bcc3fca3e19ecb3.png)
 
-At this point, if you go back to view recent in E-Orders chart tab, all the items on the order request that you marked as *completed* will show status of ‘completed' and the order items within the order request itself also get marked "Completed".
+At this point, if you go back to view recent in E-Orders chart tab, all the items on the order request that you marked as _completed_ will show status of ‘completed' and the order items within the order request itself also get marked "Completed".
 
 Deleting an encounter order section from a Results encounter marks the corresponding order item on the order request as "pending", unlinks the encounter order from it, and revisions the order_request.
 
@@ -206,9 +207,9 @@ Clicking on the View Results hyperlink, in the options column of the completed o
 ![](./orders-view-recent.assets/b89b610004d4fc86389099d81c987319.png)
 
 {{% note %}}
-Completing order requests with an encounter will attach the order request(s) **can** be set to open the most recent encounter IF they are all linked to the same dynamic encounter (meaning the order was generated from a specific dynamic encounter), and that encounter is either not closed or the use has permission to reopen a closed encounter, instead of it generating/creating a new "Results" encounter in the chart. The system setting *Orders*, *Settings*, *Reuse Encounter When Completing Order* sets this behavior if system setting value is set to enabled (value 1).
+Completing order requests with an encounter will attach the order request(s) **can** be set to open the most recent encounter IF they are all linked to the same dynamic encounter (meaning the order was generated from a specific dynamic encounter), and that encounter is either not closed or the use has permission to reopen a closed encounter, instead of it generating/creating a new "Results" encounter in the chart. The system setting _Orders_, _Settings_, _Reuse Encounter When Completing Order_ sets this behavior if system setting value is set to enabled (value 1).
 {{% /note %}}
 
 ## Orders History
 
-If any of you use unordered orders or Due list, we recommend also having the chart tab named ORDERS HISTORY. Your MIE Implementer can set this up. It is a nice summary of the patient's order history. Some systems may already have a tab with all pending orders and this history combined, but this *Orders History* chart tab shows history only if you are interested in it.
+If any of you use unordered orders or Due list, we recommend also having the chart tab named ORDERS HISTORY. Your MIE Implementer can set this up. It is a nice summary of the patient's order history. Some systems may already have a tab with all pending orders and this history combined, but this _Orders History_ chart tab shows history only if you are interested in it.

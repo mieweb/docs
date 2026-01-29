@@ -1,15 +1,16 @@
 ---
-id: '1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
-title: 'Allergies and Intolerances'
-date: '2024-10-22T15:18:43.502Z'
+id: "1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM"
+title: "Allergies and Intolerances"
+date: "2024-10-22T15:18:43.502Z"
 version: 256
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/shared/start/key:LAAIDNHR'
-source: 'https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/shared/start/key:LAAIDNHR"
+source: "https://drive.google.com/open?id=1eNiDud8KPJRRuzF8X3Gn0RFAIrDGPtxc0x4_i_trWEM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Viewing an Allergy or Intolerance
 
 Allergies/Intolerances show in red at the top summary portion of the patient's information in most chart tabs.
@@ -48,11 +49,11 @@ Using one of the steps above to get to the Medications History screen, you will 
 
 ![](./allergies-and-intolerances.assets/6f72486e25d817c33b96c4e9c39396df.png)
 
-To enter and document that the patient has NO KNOWN DRUG ALLERGIES (NKDA) then simply click the button that says *Document patient has No Known Drug Allergies (NKDA).* Once you click that button it will document the patient's chart and reflect to say **This patient has no known drug allergies (NKDA).**
+To enter and document that the patient has NO KNOWN DRUG ALLERGIES (NKDA) then simply click the button that says _Document patient has No Known Drug Allergies (NKDA)._ Once you click that button it will document the patient's chart and reflect to say **This patient has no known drug allergies (NKDA).**
 
 ![](./allergies-and-intolerances.assets/76ce293f6799e6ac80019c59aa106fa6.png)
 
-The patient's summary information will then show Allergies: as NKDA. This signifies to medical personnel that someone has verified this person does not have any known allergies instead of showing that the patient's chart just hasn't been entered for allergies. If you click the UNDO NKDA button, it makes the allergy summary go back to *None Entered*.
+The patient's summary information will then show Allergies: as NKDA. This signifies to medical personnel that someone has verified this person does not have any known allergies instead of showing that the patient's chart just hasn't been entered for allergies. If you click the UNDO NKDA button, it makes the allergy summary go back to _None Entered_.
 
 ![](./allergies-and-intolerances.assets/728441ee6110657761febf911da4ad70.png)
 
@@ -60,8 +61,8 @@ The patient's summary information will then show Allergies: as NKDA. This signif
 
 You can get to the Medication/Allergies history screen by going to the Allergies/Medications chart tab or click the manage info icon from the Allergies portlet in Patient Summary tab or enter in allergies in an encounter. In the Medication History screen, click Add Allergy/Intol or Quick Allergy links at the top right of the screen.
 
-* Add Allergy/Intol allows you to add an allergy or intolerance one at a time.
-* Quick Allergy allows you to add allergies and/or intolerances 10 at a time.
+- Add Allergy/Intol allows you to add an allergy or intolerance one at a time.
+- Quick Allergy allows you to add allergies and/or intolerances 10 at a time.
 
 Below shows the steps for both options.
 
@@ -69,27 +70,27 @@ Below shows the steps for both options.
 
 #### Add Allergy/Intol Link
 
-After you click Add Allergy /Intol link, you will see an *Add Allergy/Intolerance* fields on the left and *Most Commonly Entered* on the right side.
+After you click Add Allergy /Intol link, you will see an _Add Allergy/Intolerance_ fields on the left and _Most Commonly Entered_ on the right side.
 
 ![](./allergies-and-intolerances.assets/91f9e5954afe9f8f23e5ab9f01335c28.png)
 
-*(You can check-mark the NKDA box to document the patient has NKDA here, or follow the steps on previous pages).*
+_(You can check-mark the NKDA box to document the patient has NKDA here, or follow the steps on previous pages)._
 
 If patient has known allergies/intolerances, then at the left in **Add Allergy / Intolerance** fields enter:
 
-* <strong>Name:</strong> Enter the name of what the patient is allergic to. It will auto-complete your text to show matches of recognized allergies from First DataBank and you can select one. If any allergy you enter relates to a medication the patient has on their active medications list it will popup a warning. These allergies are medication related allergies. If you need to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help section named "Custom Allergies".
+- <strong>Name:</strong> Enter the name of what the patient is allergic to. It will auto-complete your text to show matches of recognized allergies from First DataBank and you can select one. If any allergy you enter relates to a medication the patient has on their active medications list it will popup a warning. These allergies are medication related allergies. If you need to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help section named "Custom Allergies".
 
 ![](./allergies-and-intolerances.assets/ab39f805c7c416bd34507f1e73aad67c.png)
 
-* You can also free-text an allergy in. A popup to confirm you want to add an unknown allergy will show after you click to add an unrecognized allergy. Adding an unknown allergy will only store in the patient's chart. It will not save it to the allergy database of recognized allergies. If your practice enters a common known allergy all the time that is not in the First Databank recognized medication allergies, MIE or a superuser at your practice can enter in a custom allergy through the Control Tab, Meds Tab and Custom Allergies editor. Then that custom allergy will show up in the auto-complete for users to select from then on. That will allow users to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help in section named "Custom Allergies".
+- You can also free-text an allergy in. A popup to confirm you want to add an unknown allergy will show after you click to add an unrecognized allergy. Adding an unknown allergy will only store in the patient's chart. It will not save it to the allergy database of recognized allergies. If your practice enters a common known allergy all the time that is not in the First Databank recognized medication allergies, MIE or a superuser at your practice can enter in a custom allergy through the Control Tab, Meds Tab and Custom Allergies editor. Then that custom allergy will show up in the auto-complete for users to select from then on. That will allow users to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert), please see next pages of this help in section named "Custom Allergies".
 
 ![](./allergies-and-intolerances.assets/e2af4609dc3b156d2036bdaf71f1700c.png)
 
-* <strong>Reaction/Reason:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, if known. Or the reason for documenting this allergy. This is optional.
-* <strong>Type:</strong> Select the type it is. Either Allergy or Intolerance.
-* <strong>Start and End Dates:</strong> This is optional. You can enter a date in here if there is a specific date known for the start or end of this allergy or intolerance.
+- <strong>Reaction/Reason:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, if known. Or the reason for documenting this allergy. This is optional.
+- <strong>Type:</strong> Select the type it is. Either Allergy or Intolerance.
+- <strong>Start and End Dates:</strong> This is optional. You can enter a date in here if there is a specific date known for the start or end of this allergy or intolerance.
 
-Click *Add.* It will then successfully input it into the patient's medication history screen or ask you to confirm your input.
+Click _Add._ It will then successfully input it into the patient's medication history screen or ask you to confirm your input.
 
 ![](./allergies-and-intolerances.assets/431dab7221bd3774796f2e104f75f696.png)
 
@@ -99,7 +100,7 @@ Click *Add.* It will then successfully input it into the patient's medication hi
 
 #### Most Commonly Entered
 
-At the right of the Add Allergy/Intol screen it has a box/view called *Most Commonly Entered*.
+At the right of the Add Allergy/Intol screen it has a box/view called _Most Commonly Entered_.
 
 It gives a list of the most commonly entered names of Allergies/Intolerances for your practice that users have entered in for patients. This is simply another way to quickly find and enter a common allergy/intolerance. If you find an allergy you wish, then click either add intolerance link to add it as an intolerance or add allergy link to add it as an allergy. These links are found in the options column.
 
@@ -109,15 +110,15 @@ After you have chosen an allergy/intolerance from the most common list, it will 
 
 ![](./allergies-and-intolerances.assets/fd08c51c5d56df190145be57168e39de.png)
 
-* <strong>Reaction:</strong> It may automatically populate this field or give you drop down choices with the most common type of <em>reaction</em> for the allergy/ intolerance you selected. You can select the auto-completed reaction if it is correct in the patient's case, or you can clear it and free-text the reaction to this allergy/intolerance.
-* <strong>Type:</strong> Automatically populates which type you choose from the previous option when you selected a Most Commonly Entered allergy/intolerance. However, you can change it here also.
-* <strong>Start and End Dates:</strong> This is optional. You can enter a date in here if there is a specific date known for the start or end of this allergy or intolerance.
+- <strong>Reaction:</strong> It may automatically populate this field or give you drop down choices with the most common type of <em>reaction</em> for the allergy/ intolerance you selected. You can select the auto-completed reaction if it is correct in the patient's case, or you can clear it and free-text the reaction to this allergy/intolerance.
+- <strong>Type:</strong> Automatically populates which type you choose from the previous option when you selected a Most Commonly Entered allergy/intolerance. However, you can change it here also.
+- <strong>Start and End Dates:</strong> This is optional. You can enter a date in here if there is a specific date known for the start or end of this allergy or intolerance.
 
-Click *Submit.* It will then successfully input it into the patient's medication history screen.
+Click _Submit._ It will then successfully input it into the patient's medication history screen.
 
 ## Use Datavis In Meds/Allergy Tab
 
-To utilize the Meds/Allergy chart tab in Datavis mode, select the *My Setting* preference "Use Datavis in Meds/Agy Tab" and set it to Yes.  This setting allows the user to change from the legacy Meds/Allergies chart tab view to the new datavis view. The default setting is set to "No", which will keep all current users on the Legacy version. Users/administrators can change this per user or for security roles to "Yes" in 202403 and newer.
+To utilize the Meds/Allergy chart tab in Datavis mode, select the _My Setting_ preference "Use Datavis in Meds/Agy Tab" and set it to Yes. This setting allows the user to change from the legacy Meds/Allergies chart tab view to the new datavis view. The default setting is set to "No", which will keep all current users on the Legacy version. Users/administrators can change this per user or for security roles to "Yes" in 202403 and newer.
 
 ![](./allergies-and-intolerances.assets/622b8f6b467dfaaf59cce493ec80712b.png)
 
@@ -133,16 +134,16 @@ After you click Quick Allergy link, you will see **Add Allergies / Intolerances*
 
 ![](./allergies-and-intolerances.assets/298266922a11e683e107e10d86dc83a7.png)
 
-* <strong>Name:</strong> Enter the name of the allergy or intolerance. It will auto-complete your text and can highlight your choice or you can continue to free-text type. A popup warning, when adding an allergy, could appear if that allergy relates to a medication that the patient has on their active medications list.
+- <strong>Name:</strong> Enter the name of the allergy or intolerance. It will auto-complete your text and can highlight your choice or you can continue to free-text type. A popup warning, when adding an allergy, could appear if that allergy relates to a medication that the patient has on their active medications list.
 
 ![](./allergies-and-intolerances.assets/ab39f805c7c416bd34507f1e73aad67c.png)
 
-* <strong>Reaction:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, etc. This is optional.
-* <strong>Type:</strong> Select the radio button for which type it is. Either Allergy or Intolerance.
+- <strong>Reaction:</strong> Enter the reaction the patient has to this medication/allergy/intolerance/item, etc. This is optional.
+- <strong>Type:</strong> Select the radio button for which type it is. Either Allergy or Intolerance.
 
-Click *Add* button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you for confirmation. It automatically enters whatever you typed via this quick add.
+Click _Add_ button. It will then automatically enter it into the patient's allergies/intolerances summary. It does not ask you for confirmation. It automatically enters whatever you typed via this quick add.
 
-Any allergy or intolerance with an asterisk (*) next to it means the allergy or intolerance was free-typed and not selected from the auto-complete that FDB presents or most common known allergies/intolerances in the database. This is considered an unrecognized medication allergy.
+Any allergy or intolerance with an asterisk (\*) next to it means the allergy or intolerance was free-typed and not selected from the auto-complete that FDB presents or most common known allergies/intolerances in the database. This is considered an unrecognized medication allergy.
 
 ![](./allergies-and-intolerances.assets/d27e9ff6942a494fae87c59011270d3b.png)
 
@@ -162,7 +163,7 @@ Once you click the underlined allergy name of the one you wish to edit, it will 
 
 ![](./allergies-and-intolerances.assets/fd08c51c5d56df190145be57168e39de.png)
 
-Edit the name of the allergy, reaction, the type, the start or end dates. Click *Submit* when done.
+Edit the name of the allergy, reaction, the type, the start or end dates. Click _Submit_ when done.
 
 It will then automatically insert your edits into the allergy/intolerance summary and list.
 
@@ -170,11 +171,11 @@ Allergies & Intolerances store the ‘type' of allergy/intolerance it is in the 
 
 ### Deleting an Allergy/Intolerance
 
-If you wish to delete an allergy or intolerance for the patient, simply find the specific allergy name you wish to delete in the Medication History view and in the right *Options* column click the Delete link for that specific allergy/intolerance.
+If you wish to delete an allergy or intolerance for the patient, simply find the specific allergy name you wish to delete in the Medication History view and in the right _Options_ column click the Delete link for that specific allergy/intolerance.
 
 ![](./allergies-and-intolerances.assets/f33a1e78215f76f85a94c7faf12b94b1.png)
 
-Once you click Delete on the one you wish to delete, it will open an edit screen for that specific item it will open the Delete Allergy/Intolerance screen and will require you to type in a reason for deleting this allergy/intolerance. It will try to auto-complete your reason and may give you options you can select from other entries you have done before when deleting allergies/intolerances. Once you have typed or selected a reason for deletion, click the *Submit* button.
+Once you click Delete on the one you wish to delete, it will open an edit screen for that specific item it will open the Delete Allergy/Intolerance screen and will require you to type in a reason for deleting this allergy/intolerance. It will try to auto-complete your reason and may give you options you can select from other entries you have done before when deleting allergies/intolerances. Once you have typed or selected a reason for deletion, click the _Submit_ button.
 
 ![](./allergies-and-intolerances.assets/5c10fd4cfc3108f08846e1e823bb9740.png)
 
@@ -188,7 +189,7 @@ It does always keep record of any allergy/intolerance that you delete or discont
 
 ### Discontinue an Allergy/Intolerance
 
-If you wish to discontinue an allergy or intolerance for the patient, simply find the specific allergy name you wish to discontinue in the Medication History view and in the right *Options* column click the Discontinue link for that specific allergy/intolerance.
+If you wish to discontinue an allergy or intolerance for the patient, simply find the specific allergy name you wish to discontinue in the Medication History view and in the right _Options_ column click the Discontinue link for that specific allergy/intolerance.
 
 ![](./allergies-and-intolerances.assets/6e844fb6b801ff50138c6d03913ec682.png)
 
@@ -206,7 +207,7 @@ It does always keep record of any allergy/intolerance that you delete or discont
 
 ## Customized Allergies
 
-If you have security permission for *Meds Manage* then you can access sidemenu **Control**, then tab **Meds Manager.**
+If you have security permission for _Meds Manage_ then you can access sidemenu **Control**, then tab **Meds Manager.**
 
 ![](./allergies-and-intolerances.assets/8009ca4a6d0c18f909bedbce46b19119.png)
 
@@ -218,7 +219,7 @@ You will see a list of custom allergies that have already been added to your sys
 
 If you need to enter in a custom allergy to show in the auto-complete of choices when documenting allergies for patients that aren't recognized medication allergy choices from FirstDataBanks, then type in the name of the allergy in the **Allergen Name** field. Click the ADD button and continue to add more.
 
-Click the *SUBMIT* button to save and submit all of the custom allergies you added to your {{% system-name %}} system as selections that users can use.
+Click the _SUBMIT_ button to save and submit all of the custom allergies you added to your {{% system-name %}} system as selections that users can use.
 
 Then that custom allergy will show up in the auto-complete for users to select from then on. That will allow users to enter in common allergies such as environmental etc and want those to show in the auto-complete as choices (without always free-typing them in and get the "unrecognized" alert).
 
@@ -226,4 +227,4 @@ Then that custom allergy will show up in the auto-complete for users to select f
 
 To learn more about Allergies and Intolerances, follow the link below to the Learning Management System course:
 
-* [Allergy/Intolerance Management](https://mie.talentlms.com/shared/start/key:LAAIDNHR)
+- [Allergy/Intolerance Management](https://mie.talentlms.com/shared/start/key:LAAIDNHR)

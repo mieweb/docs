@@ -1,16 +1,17 @@
 ---
-id: '1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-title: 'E-ClinicalWorks'
-date: '2022-03-23T14:52:39.698Z'
+id: "1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g"
+title: "E-ClinicalWorks"
+date: "2022-03-23T14:52:39.698Z"
 version: 18
-lastAuthor: 'kbarton'
-mimeType: 'text/x-markdown'
+lastAuthor: "kbarton"
+mimeType: "text/x-markdown"
 links:
-  - 'http://www.eclinicalworks.com/'
-  - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
-source: 'https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g'
-wikigdrive: 'v2.15.30'
+  - "http://www.eclinicalworks.com/"
+  - "../../../resources/system-specifications/enterprise-health-interface-specifications.md"
+source: "https://drive.google.com/open?id=1w9f8JtLFV3PlNWcW2T97gFr_TyQYlorxhOBURxXSH4g"
+wikigdrive: "v2.15.30"
 ---
+
 **E-ClinicalWorks**
 
 This page details how interfaces with e-ClinicalWorks (ecw) are installed.
@@ -31,7 +32,7 @@ We may be required to load a mapping file for insurance plans.
 
 ### Config
 
-**Command Line**  Expand source
+**Command Line** Expand source
 
 <profile name="COMMAND_LINE">
 
@@ -235,19 +236,19 @@ Currently we use a standard hl7_interlocutor setup to post the hl7 messages to t
 
 total 80
 
--rw-r--r-- 1 root root   605 Jun 20 11:13 hl7.conf
+-rw-r--r-- 1 root root 605 Jun 20 11:13 hl7.conf
 
--rw-rw-rw- 1 root root 	5 Jun 20 11:20 hl7d.pid
+-rw-rw-rw- 1 root root 5 Jun 20 11:20 hl7d.pid
 
-lrwxrwxrwx 1 root root	22 Jun 20 11:08 hl7_interlocutor -> ../../hl7_interlocutor
+lrwxrwxrwx 1 root root 22 Jun 20 11:08 hl7_interlocutor -> ../../hl7_interlocutor
 
-lrwxrwxrwx 1 root root	24 Jun 20 11:10 logs -> ../../logs/pip_thiv/ecw/
+lrwxrwxrwx 1 root root 24 Jun 20 11:10 logs -> ../../logs/pip_thiv/ecw/
 
--rwxr-xr-x 1 root root  1118 Jun 20 11:08 msgRules.v25
+-rwxr-xr-x 1 root root 1118 Jun 20 11:08 msgRules.v25
 
-lrwxrwxrwx 1 root root	24 Jun 20 11:10 msgs -> ../../msgs/pip_thiv/ecw/
+lrwxrwxrwx 1 root root 24 Jun 20 11:10 msgs -> ../../msgs/pip_thiv/ecw/
 
--rwxr-xr-x 1 root root  1497 Jun 20 11:10 run_hl7d
+-rwxr-xr-x 1 root root 1497 Jun 20 11:10 run_hl7d
 
 -rwxr-xr-x 1 root root 62558 Jun 20 11:08 segDefs.v25
 

@@ -1,21 +1,22 @@
 ---
-id: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
-title: 'PFT Data CSV API'
-date: '2025-11-12T19:14:49.287Z'
+id: "1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o"
+title: "PFT Data CSV API"
+date: "2025-11-12T19:14:49.287Z"
 version: 67
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit?usp=sharing'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
-  - 'https://www.lucidchart.com/documents/view/4962ac3b-8b0e-46a1-9c2b-549ef7ea93c7'
-  - 'https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub'
-  - 'https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
-source: 'https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit?usp=sharing"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
+  - "https://www.lucidchart.com/documents/view/4962ac3b-8b0e-46a1-9c2b-549ef7ea93c7"
+  - "https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub"
+  - "https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/"
+source: "https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o"
+wikigdrive: "v2.15.30"
 ---
+
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for spirometry (pulmonary function tests) using the PFT Data CSV API.
 
 ## Audience
@@ -62,17 +63,17 @@ The following fields (indicated in the Data Name column) are noted as required (
 
 The following fields are required:
 
-* <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> (documents.pat_id_type) are used to to correctly identify a chart.
-* <em>External ID</em> (documents.ext_doc_id): Identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
-* <em>Test Date/Time</em> (pft.test_datetime):The date (datetime) the PFT was performed. Also sets documents.service_date.
-* <em>FVC</em> (pft_maneuver.fvc): Records the forced vital capacity (FVC - total volume expelled from lungs). Enter volume in milliliters (mL).
+- <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> (documents.pat_id_type) are used to to correctly identify a chart.
+- <em>External ID</em> (documents.ext_doc_id): Identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
+- <em>Test Date/Time</em> (pft.test_datetime):The date (datetime) the PFT was performed. Also sets documents.service_date.
+- <em>FVC</em> (pft_maneuver.fvc): Records the forced vital capacity (FVC - total volume expelled from lungs). Enter volume in milliliters (mL).
 
 #### Optional Fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
-* <em>Encounter External Identifier</em> (encounters.ext_id)
-* <em>Encounter Interface</em> (encounters.interface)
+- <em>Encounter External Identifier</em> (encounters.ext_id)
+- <em>Encounter Interface</em> (encounters.interface)
 
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
@@ -84,9 +85,9 @@ Including the field encounter order_id will also create an encounter order of th
 
 The following examples are available:
 
-* [Google sheet](https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub)
-* [Downloadable CSV](https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv)
+- [Google sheet](https://docs.google.com/spreadsheets/u/1/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub)
+- [Downloadable CSV](https://docs.google.com/spreadsheets/d/1puny4jyXhZKsmZQFpDn1M5fk7MwyDh9HLPaHDFMOb-g/pub?output=csv)
 
 ## Related Pages
 
-* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
+- [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)

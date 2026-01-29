@@ -1,19 +1,20 @@
 ---
-id: '1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-title: 'X-Ray Results Data Entry'
-date: '2025-11-10T17:05:31.654Z'
+id: "1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU"
+title: "X-Ray Results Data Entry"
+date: "2025-11-10T17:05:31.654Z"
 version: 56
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - '../imaging/dicom-setup-tab.md'
-  - '../imaging/dicom-viewer.md'
-  - '../imaging/burning-dicom-images-onto-cd-dvd.md'
-source: 'https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU'
-wikigdrive: 'v2.15.30'
+  - "../scanning-and-indexing/indexing-bubble-forms.md"
+  - "../scanning-and-indexing/indexing.md"
+  - "../imaging/dicom-setup-tab.md"
+  - "../imaging/dicom-viewer.md"
+  - "../imaging/burning-dicom-images-onto-cd-dvd.md"
+source: "https://drive.google.com/open?id=1MwxS6jLOhlJOif4APELiumSaoI0J-pRTX9W6zBZ3WtU"
+wikigdrive: "v2.15.30"
 ---
+
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
 Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned/indexed, afterward.

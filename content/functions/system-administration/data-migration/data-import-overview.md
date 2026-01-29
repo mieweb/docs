@@ -1,17 +1,18 @@
 ---
-id: '1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-title: 'Data Import Overview'
-date: '2025-11-12T19:27:44.228Z'
+id: "1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk"
+title: "Data Import Overview"
+date: "2025-11-12T19:27:44.228Z"
 version: 43
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'data-migration-overview.md'
-  - 'data-migration-file-format-standard.md'
-  - 'data-import-master-list.md'
-source: 'https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk'
-wikigdrive: 'v2.15.30'
+  - "data-migration-overview.md"
+  - "data-migration-file-format-standard.md"
+  - "data-import-master-list.md"
+source: "https://drive.google.com/open?id=1XAl3AqJTGB3Hb7Cfm_ix2IOxF2hE23GI_ysA3cX8ZJk"
+wikigdrive: "v2.15.30"
 ---
+
 This page provides an explanation of terminology related to importing data from an existing system to the {{% system-name %}} system.
 
 ## Data Migration
@@ -36,4 +37,4 @@ A number of developer tools have been designed to aide data import efforts. Thes
 
 ## Related Pages
 
-* [Data Import Master List](data-import-master-list.md)
+- [Data Import Master List](data-import-master-list.md)

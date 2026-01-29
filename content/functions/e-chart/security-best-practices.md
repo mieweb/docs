@@ -1,17 +1,18 @@
 ---
-id: '1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-title: 'Security Best Practices'
-date: '2025-09-25T12:47:20.464Z'
+id: "1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
+title: "Security Best Practices"
+date: "2025-09-25T12:47:20.464Z"
 version: 69
-lastAuthor: 'bhamm'
-mimeType: 'text/x-markdown'
+lastAuthor: "bhamm"
+mimeType: "text/x-markdown"
 links:
-  - 'https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html'
-  - 'https://pages.nist.gov/800-63-4/'
-  - '../system-administration/security.md'
-source: 'https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU'
-wikigdrive: 'v2.15.30'
+  - "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html"
+  - "https://pages.nist.gov/800-63-4/"
+  - "../system-administration/security.md"
+source: "https://drive.google.com/open?id=1RklkPtbPcgiQECYv2lY4FOjX_Tj9xLqFiz1kOOo5NWU"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}} strives to maintain the highest standards of security with various guidelines and technical requirements intended to safeguard against outside threats and ensure secure and private interactions between the various systems across its networks. Below are various concepts important to understanding the significance of registration, identity proofing, authentication protocols, and the like. This information is in no way intended to replace or supersede any existing organization's policies and procedures regarding information technology and security; this information is simply intended to offer best practices. Clients shall always comply with their organization's policies and procedures.
 
 {{% section %}}
@@ -44,20 +45,20 @@ The login process consists of two intertwined concepts: identification and authe
 
 In order to have secure login credentials, passwords should:
 
-* Comply with the organization's policies and procedures
-* Be long and strong
-* Be memorable to the user
-* Not be revealed or shared with anybody
-* Be unique across all systems
+- Comply with the organization's policies and procedures
+- Be long and strong
+- Be memorable to the user
+- Not be revealed or shared with anybody
+- Be unique across all systems
 
 ### Memorized Secret
 
 Instead of the term *password*, NIST suggests *memorized secret*. The idea and anatomy of a memorized secret consists of the following:
 
-* <strong>Length is strength</strong> – Eight (8) character minimum, when set by a human, and sixty-four (64) character maximum.
-* <strong>Support all characters</strong> – The difference between a weak password and a strong password is the number of characters (i.e., upper- and lower-case letters, numbers, and special characters) available, and hence the number of possible combinations available to construct a password based on those characters.
-* <strong>No password expiration period</strong> – Many studies have shown that users tend to choose weaker passwords when they know they have to change them in the near future.
-* <strong>No password composition rules</strong> – Even though the full character set should be supported, requiring users to compose their passwords using lower-case, upper-case, digits, and/or special characters is no longer recommended. Imposing composition rules provides less benefit than might be expected, because users tend to use predictable methods for satisfying these requirements.
+- <strong>Length is strength</strong> – Eight (8) character minimum, when set by a human, and sixty-four (64) character maximum.
+- <strong>Support all characters</strong> – The difference between a weak password and a strong password is the number of characters (i.e., upper- and lower-case letters, numbers, and special characters) available, and hence the number of possible combinations available to construct a password based on those characters.
+- <strong>No password expiration period</strong> – Many studies have shown that users tend to choose weaker passwords when they know they have to change them in the near future.
+- <strong>No password composition rules</strong> – Even though the full character set should be supported, requiring users to compose their passwords using lower-case, upper-case, digits, and/or special characters is no longer recommended. Imposing composition rules provides less benefit than might be expected, because users tend to use predictable methods for satisfying these requirements.
 
 ### Passphrase
 

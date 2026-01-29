@@ -1,18 +1,19 @@
 ---
-id: '1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
-title: 'Link Documents to Order Requests'
-date: '2025-06-17T18:01:43.455Z'
+id: "1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o"
+title: "Link Documents to Order Requests"
+date: "2025-06-17T18:01:43.455Z"
 version: 115
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../../order-and-result-management/orders-view-recent.md'
-  - '../scanning-and-indexing/indexing.md'
-  - 'document-properties.md'
-  - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
-source: 'https://drive.google.com/open?id=1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o'
-wikigdrive: 'v2.15.30'
+  - "../../order-and-result-management/orders-view-recent.md"
+  - "../scanning-and-indexing/indexing.md"
+  - "document-properties.md"
+  - "https://mie.talentlms.com/shared/start/key:LATIDNHR"
+source: "https://drive.google.com/open?id=1QPdP9x2P6JaMBy4iqaEYmhYlcHJjyRd0wdgXiVMGR2o"
+wikigdrive: "v2.15.30"
 ---
+
 The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding order request. Linking a document to an order request in a chart allows users to easily view the order request, results, and corresponding linked documents, all from one place. Orders can also be managed from within an encounter, as well as when scanning and indexing documents, as will be outlined below. For information on how to view an order and manually complete and enter results for the order request, see our [Order Requests Chart Tab](../../order-and-result-management/orders-view-recent.md) documentation.
 
 ## Link via Order Requests Tab
@@ -46,11 +47,11 @@ Users can also link documents to orders from the Encounter View. Navigate to the
 
 ![](./link-documents-to-order-requests.assets/4fbc8ffaa4a9ecd0edb4cad366dbcebb.png)
 
-Ensure the *Status* is set to **Completed**, and verify the radio button next to the order item is **Completed**. Then, enter the specific **Doc ID#** of the corresponding document being linked to the order request. When finished, click the **Submit** button.
+Ensure the _Status_ is set to **Completed**, and verify the radio button next to the order item is **Completed**. Then, enter the specific **Doc ID#** of the corresponding document being linked to the order request. When finished, click the **Submit** button.
 
 ![](./link-documents-to-order-requests.assets/98014f5d6aeb6d24001a598b1e693314.png)
 
-As a result, the order request has been marked Completed, and the order request is moved to the *Completed* *Order Requests* section of the Order Requests chart tab. The document linked to the order can be viewed by clicking the **View Results** link from the Completed Order Requests section.
+As a result, the order request has been marked Completed, and the order request is moved to the _Completed_ _Order Requests_ section of the Order Requests chart tab. The document linked to the order can be viewed by clicking the **View Results** link from the Completed Order Requests section.
 
 ![](./link-documents-to-order-requests.assets/c4e3c5818d9085f01a03e17572f632a3.png)
 
@@ -62,9 +63,9 @@ To link documents to pending order requests while using WebScan, note the **Link
 
 ![](./link-documents-to-order-requests.assets/d227f0b8d4ee6613d59316cb2f77e586.png)
 
-To begin searching for a pending order, click the **ellipsis** [**…**] button in the *Link to Order* indexing field. When clicked, all pending orders for the chart in context will display. Completed orders will not display as options. Select all pending orders the document in context needs linked to. When finished, either continue indexing the remainder of the batch, or upload the linked documents directly into the chart.
+To begin searching for a pending order, click the **ellipsis** [**…**] button in the _Link to Order_ indexing field. When clicked, all pending orders for the chart in context will display. Completed orders will not display as options. Select all pending orders the document in context needs linked to. When finished, either continue indexing the remainder of the batch, or upload the linked documents directly into the chart.
 
-As usual, once the document is indexed and uploaded into the chart, the pending order(s) selected for linking will we completed, automatically, moving the order request to the *Completed* *Order Requests* section of the Order Requests chart tab. The linked document can be viewed by clicking the **View Results** link from the Completed Order Requests section.
+As usual, once the document is indexed and uploaded into the chart, the pending order(s) selected for linking will we completed, automatically, moving the order request to the _Completed_ _Order Requests_ section of the Order Requests chart tab. The linked document can be viewed by clicking the **View Results** link from the Completed Order Requests section.
 
 ![](./link-documents-to-order-requests.assets/c4e3c5818d9085f01a03e17572f632a3.png)
 
@@ -74,7 +75,7 @@ For more details on scanning, indexing, and linking while indexing, see our [Ind
 
 There are various ways to view documents linked to orders. Users may simply refer to the document's properties or navigate to the Order Requests chart tab.
 
-As noted, the results of an order can always be easily accessed from the **Order Requests** chart tab. Simply locate the order that needs to be viewed, and click the **View Results** link in the *Options* column. The results document will open.
+As noted, the results of an order can always be easily accessed from the **Order Requests** chart tab. Simply locate the order that needs to be viewed, and click the **View Results** link in the _Options_ column. The results document will open.
 
 ![](./link-documents-to-order-requests.assets/c4e3c5818d9085f01a03e17572f632a3.png)
 
@@ -92,7 +93,7 @@ Unlinking a document from an order is just as easy as linking one. Navigate to t
 
 ![](./link-documents-to-order-requests.assets/6c39a6d53e3d8bd5f69c101d8047ee82.png)
 
-Once in Properties, locate the **Orders Linked to Document** section. Orders linked to the current document will display. To unlink the document from the corresponding order, click the **Remove Link** hyperlink in the *Options* column.
+Once in Properties, locate the **Orders Linked to Document** section. Orders linked to the current document will display. To unlink the document from the corresponding order, click the **Remove Link** hyperlink in the _Options_ column.
 
 ![](./link-documents-to-order-requests.assets/ccbc4c34f928f7633ac55af2a662d825.png)
 
@@ -100,9 +101,9 @@ After Remove Link is clicked, the page will refresh displaying something similar
 
 ![](./link-documents-to-order-requests.assets/dbcdcdc53348b823d6f95706888dfa99.png)
 
-* <strong>Remove</strong>: This option will simply remove the document link from the order and take no further action.
-* <strong>Remove & Mark Order Incomplete</strong>: This option removes the document link and reopens the order, resetting the status to Pending.
-* <strong>Cancel</strong>: This option cancels the request to unlink the document from the order, and retains its current status.
+- <strong>Remove</strong>: This option will simply remove the document link from the order and take no further action.
+- <strong>Remove & Mark Order Incomplete</strong>: This option removes the document link and reopens the order, resetting the status to Pending.
+- <strong>Cancel</strong>: This option cancels the request to unlink the document from the order, and retains its current status.
 
 Once the document is unlinked from the order, a successful message will display on the page, confirming the removal of the link.
 
@@ -112,4 +113,4 @@ To see full details on how document properties can provide alternative methods f
 
 To learn more about Linking Documents to Order Requests, follow the link to the Learning Management System course:
 
-* [Order and Result Management](https://mie.talentlms.com/shared/start/key:LATIDNHR)
+- [Order and Result Management](https://mie.talentlms.com/shared/start/key:LATIDNHR)

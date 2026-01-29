@@ -1,17 +1,18 @@
 ---
-id: '1l34fMYEZtUHVtzOqEiAs5ol22MOEbNX6eGpIYC2shKA'
-title: 'CC 1 - Implementation of Use of Specialist Reports Back to Referring Clinician or Group to Close Referral Loop'
-date: '2020-02-27T20:51:28.235Z'
+id: "1l34fMYEZtUHVtzOqEiAs5ol22MOEbNX6eGpIYC2shKA"
+title: "CC 1 - Implementation of Use of Specialist Reports Back to Referring Clinician or Group to Close Referral Loop"
+date: "2020-02-27T20:51:28.235Z"
 version: 22
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1l34fMYEZtUHVtzOqEiAs5ol22MOEbNX6eGpIYC2shKA'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1l34fMYEZtUHVtzOqEiAs5ol22MOEbNX6eGpIYC2shKA"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Care Coordination

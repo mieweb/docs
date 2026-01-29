@@ -1,32 +1,33 @@
 ---
-id: '1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
-title: 'Form Documents'
-date: '2025-11-10T15:09:38.040Z'
+id: "1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU"
+title: "Form Documents"
+date: "2025-11-10T15:09:38.040Z"
 version: 328
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../printing-and-print-definitions/print-chart.md'
-  - '../printing-and-print-definitions/print-definitions.md'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/'
-  - 'https://docs.enterprisehealth.com/functions/scheduling/schedule-management/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
-  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
-  - 'https://mie.talentlms.com/shared/start/key:ZATDNHRK'
-source: 'https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU'
-wikigdrive: 'v2.15.30'
+  - "../printing-and-print-definitions/print-chart.md"
+  - "../printing-and-print-definitions/print-definitions.md"
+  - "https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/"
+  - "https://docs.enterprisehealth.com/functions/scheduling/schedule-management/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/"
+  - "https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/"
+  - "https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/"
+  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
+  - "https://mie.talentlms.com/shared/start/key:ZATDNHRK"
+source: "https://drive.google.com/open?id=1STg1IboQXC3rewUndw-9JrXgCW9svnyvZcdBbkrFBNU"
+wikigdrive: "v2.15.30"
 ---
+
 Forms are found in the Forms Library of the {{% system-name %}} system. The Forms Library is a centralized repository for businesses and offices to organize and store commonly used forms, such as HIPAA forms, registration forms, lab order forms, Superbills, H&P forms, etc. Additionally, any forms or documents received or used outside of the organization can easily be incorporated into {{% system-name %}} using WebScan. Forms are loaded into the forms library and programmatically configured by the Deployment Consultant, and once forms are loaded, they can be printed from the {{% system-name %}} system. Forms are embedded with a barcode that auto-indexes the date of service, patient name/MR number, document type name, provider, and location when scanned back into {{% system-name %}} using WebScan. The form can also be overlaid with any discrete data that are part of the permanent record including items such as allergies, medications, a problem list, patient demographics, etc.
 
 ## Add Document
 
-There are various places from within {{% system-name %}} to print an *individual* form. To print a form document from the respective chart, find the **Add Document** link. This is found in various places, such as the chart Summary tab, the Scheduler, or within an encounter, among other places. Users can also use the **Print Chart** link to print packets of forms, depending on the established Print Definitions and/or appointment definitions. See the [Print Chart](../printing-and-print-definitions/print-chart.md) and [Print Definition](../printing-and-print-definitions/print-definitions.md) documentation for more detailed information.
+There are various places from within {{% system-name %}} to print an _individual_ form. To print a form document from the respective chart, find the **Add Document** link. This is found in various places, such as the chart Summary tab, the Scheduler, or within an encounter, among other places. Users can also use the **Print Chart** link to print packets of forms, depending on the established Print Definitions and/or appointment definitions. See the [Print Chart](../printing-and-print-definitions/print-chart.md) and [Print Definition](../printing-and-print-definitions/print-definitions.md) documentation for more detailed information.
 
 Additionally, forms can be programmed to print specific information, automatically. This can improve speed and efficiency. Contact the Helpdesk for information and assistance with uploading forms and programming form variables.
 
-To access a form from a chart, click the [E-Chart sidemenu](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/), navigate to the necessary chart, and when the *Summary* tab loads, click the **Add Document** link.
+To access a form from a chart, click the [E-Chart sidemenu](https://docs.enterprisehealth.com/functions/e-chart/detailed-searching-in-e-chart/), navigate to the necessary chart, and when the _Summary_ tab loads, click the **Add Document** link.
 
 ![](./form-documents.assets/04f883e99f3865fd1bdcc8b17b5a3dca.png)
 
@@ -34,7 +35,7 @@ As noted, users can also access and print forms from the [Scheduler](https://doc
 
 ![](./form-documents.assets/60be3b15301a660d7195559d61610288.png)
 
-To access and print a form from the *Appointments* chart tab, simply navigate to the respective chart and locate the Appointments option from the *Admin* chart tab. Users can click the **Add Document** link found in the *Options* column.
+To access and print a form from the _Appointments_ chart tab, simply navigate to the respective chart and locate the Appointments option from the _Admin_ chart tab. Users can click the **Add Document** link found in the _Options_ column.
 
 ![](./form-documents.assets/d3ea60f2ee3fc19774fc437fb9cffb3a.png)
 
@@ -122,15 +123,15 @@ Click on the File link to access the File Upload screen
 
 The following fields are available to complete for the file upload:
 
-* Authored by: There is an autocomplete option which allows the user to narrow down the options by typing the first few characters of the name and selecting from the list that populates. There is also a dropdown option to choose the author. Or if the user is the author, the Me button will fill in the user's name for the author.
-* Document Type: This field is an autocomplete which allows the user to narrow down the options by typing the first few characters of the document type and selecting from the list that populates.
-* Date of Service: The date of service can be typed or the calendar option can be selected. There is also a clock icon that will assign today's date, if selected.
-* Service Location: The service location is an optional field. The service location can be selected from the drop down list of configured locations.
-* Subject: The Subject field is optional. This field allows users to specify what the document is about, contains, or is intended for, as an easy reference when searching for or reviewing documents within a chart.
-* Encounter: The Encounter field is optional. This field is designed to link the document to an encounter from the chart. The autocomplete can be used to find the encounter or the Search button. By clicking the Search button, a pop-up window will display existing encounters for the specified chart. This initial search goes back three (3) days, resulting a list of encounters 3 days from the selected Service Date. Clicking the <em>Search within # days</em> hyperlink will perform another 3-day increment search, displaying encounters within 6 days of the Service Date indicated. Continue to click the hyperlink to continue searching further out. To select a specific encounter, click the <em>Select</em> hyperlink next to the specific encounter needing linked. Once selected, the pop-up window will close, and the encounter details will automatically be inserted into the Encounter field.
-* Link to Orders: The Link to Orders field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being uploaded. The autocomplete can be used to find the order.
-* Case: The Case field is optional. This field is designed to link a case/incident from the chart in context to the item being uploaded.
-* CC: The CC field is optional. This field is designed to CC an additional recipient who should receive this document. Click the Add hyperlink to be taken to the CC fields to select the recipient and the method to complete the CC, such as fax.
+- Authored by: There is an autocomplete option which allows the user to narrow down the options by typing the first few characters of the name and selecting from the list that populates. There is also a dropdown option to choose the author. Or if the user is the author, the Me button will fill in the user's name for the author.
+- Document Type: This field is an autocomplete which allows the user to narrow down the options by typing the first few characters of the document type and selecting from the list that populates.
+- Date of Service: The date of service can be typed or the calendar option can be selected. There is also a clock icon that will assign today's date, if selected.
+- Service Location: The service location is an optional field. The service location can be selected from the drop down list of configured locations.
+- Subject: The Subject field is optional. This field allows users to specify what the document is about, contains, or is intended for, as an easy reference when searching for or reviewing documents within a chart.
+- Encounter: The Encounter field is optional. This field is designed to link the document to an encounter from the chart. The autocomplete can be used to find the encounter or the Search button. By clicking the Search button, a pop-up window will display existing encounters for the specified chart. This initial search goes back three (3) days, resulting a list of encounters 3 days from the selected Service Date. Clicking the <em>Search within # days</em> hyperlink will perform another 3-day increment search, displaying encounters within 6 days of the Service Date indicated. Continue to click the hyperlink to continue searching further out. To select a specific encounter, click the <em>Select</em> hyperlink next to the specific encounter needing linked. Once selected, the pop-up window will close, and the encounter details will automatically be inserted into the Encounter field.
+- Link to Orders: The Link to Orders field is optional. This field is designed to allow users the ability to link pending orders from the chart in context to the item being uploaded. The autocomplete can be used to find the order.
+- Case: The Case field is optional. This field is designed to link a case/incident from the chart in context to the item being uploaded.
+- CC: The CC field is optional. This field is designed to CC an additional recipient who should receive this document. Click the Add hyperlink to be taken to the CC fields to select the recipient and the method to complete the CC, such as fax.
 
 To add the files, either drag and drop the files into the drag and drop space or click the Choose File button. The Choose File button will open a window to allow for selecting the files. Select the files by clicking on the checkbox for any files that are to be uploaded. Click the Upload Documents button once complete.
 
@@ -148,5 +149,5 @@ Unsuccessfully uploaded documents will display in red and indicate a failure rea
 
 To learn more about Form Documents, follow the links below to the Learning Management System courses:
 
-* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
-* [Document Types Tab](https://mie.talentlms.com/shared/start/key:ZATDNHRK)
+- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+- [Document Types Tab](https://mie.talentlms.com/shared/start/key:ZATDNHRK)

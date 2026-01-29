@@ -1,21 +1,22 @@
 ---
-id: '1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
-title: 'Macros'
-date: '2024-11-12T21:48:33.857Z'
+id: "1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM"
+title: "Macros"
+date: "2024-11-12T21:48:33.857Z"
 version: 114
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Properties of a Macro
 
-* Language: Two letter code representing the language the macro's full text is in.
-* Library: Used to organize macros, corresponds to Rx libraries and library charts.
-* Context: Tells what the macro applies to, typically an observation name.
-* Name: Short form used when expanding a macro by typing. For example, macros representing the normal value by convention have the name "nl."
-* Full Text: The expansion of the macro, i.e. what gets inserted after you type a macro or insert one via the macro menu.
+- Language: Two letter code representing the language the macro's full text is in.
+- Library: Used to organize macros, corresponds to Rx libraries and library charts.
+- Context: Tells what the macro applies to, typically an observation name.
+- Name: Short form used when expanding a macro by typing. For example, macros representing the normal value by convention have the name "nl."
+- Full Text: The expansion of the macro, i.e. what gets inserted after you type a macro or insert one via the macro menu.
 
 The fully-qualified macro name (FQN) has the following form:
 

@@ -1,17 +1,18 @@
 ---
-id: '1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI'
-title: 'BE 24 - Financial Navigation Program'
-date: '2020-02-27T20:56:18.150Z'
+id: "1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI"
+title: "BE 24 - Financial Navigation Program"
+date: "2020-02-27T20:56:18.150Z"
 version: 19
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1IpJ9DhjK1gavyMQoV7q-_KPlfcAiUMr-dWbb50jFqdI"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Beneficiary Engagement

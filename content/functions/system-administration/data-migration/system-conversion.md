@@ -1,27 +1,28 @@
 ---
-id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-title: 'System Conversion'
-date: '2026-01-06T16:28:05.873Z'
+id: "12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE"
+title: "System Conversion"
+date: "2026-01-06T16:28:05.873Z"
 version: 107
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/'
-  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
-  - 'https://docs.python.org/2/library/datetime.html'
-  - 'https://docs.python.org/2/library/string.html'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/'
-source: 'https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/"
+  - "https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion"
+  - "https://docs.python.org/2/library/datetime.html"
+  - "https://docs.python.org/2/library/string.html"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/"
+source: "https://drive.google.com/open?id=12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}} Conversion is a tool for converting legacy databases into a variety of components:
 
-* Non-discrete Summary Documents
-* Discrete Observations
-* Discrete Respirator Fit Test Data
-* Discrete Pulmonary Function Test (PFT) Data
-* Discrete Audiograms
-* Encounters
+- Non-discrete Summary Documents
+- Discrete Observations
+- Discrete Respirator Fit Test Data
+- Discrete Pulmonary Function Test (PFT) Data
+- Discrete Audiograms
+- Encounters
 
 There are a few stages involved in the conversion:
 
@@ -41,34 +42,35 @@ The following worksheets appear in the spreadsheet:
 
 ## Data Mapping Worksheet
 
-* Columns A-C, R-Y: details about legacy database.
-    * <strong>A. Legacy DB</strong>: The name of the legacy database.
-    * <strong>B. Legacy Table</strong>: The name of the legacy table.
-    * <strong>C. Legacy Column</strong>: The name of the legacy column.
-    * <strong>S. DB Field Type</strong>: The MySQL data type that was created by analyzing the legacy data using MIE's pysqlimport tool or mysqldump data from the legacy database.
-    * <strong>T. DB Null</strong>: An indicator for whether or not the column has NULL values.
-    * <strong>U. DB Key</strong>: The names of keys in which the legacy column is included.
-    * <strong>V. DB Default</strong>: Default value from the legacy system if mysqldump was provided.
-    * <strong>W. DB Count</strong>: The number of rows that have data in a given column.
-    * <strong>X. DB Usage</strong>: Percentage of times the column is used (V/X).
-    * <strong>Y. DB Total Rows</strong>: Total number of rows in a legacy table.
-    * <strong>Z. Sample Data</strong>: (Optionally) sample data from the legacy data sorted by cardinality
+- Columns A-C, R-Y: details about legacy database.
+  - <strong>A. Legacy DB</strong>: The name of the legacy database.
+  - <strong>B. Legacy Table</strong>: The name of the legacy table.
+  - <strong>C. Legacy Column</strong>: The name of the legacy column.
+  - <strong>S. DB Field Type</strong>: The MySQL data type that was created by analyzing the legacy data using MIE's pysqlimport tool or mysqldump data from the legacy database.
+  - <strong>T. DB Null</strong>: An indicator for whether or not the column has NULL values.
+  - <strong>U. DB Key</strong>: The names of keys in which the legacy column is included.
+  - <strong>V. DB Default</strong>: Default value from the legacy system if mysqldump was provided.
+  - <strong>W. DB Count</strong>: The number of rows that have data in a given column.
+  - <strong>X. DB Usage</strong>: Percentage of times the column is used (V/X).
+  - <strong>Y. DB Total Rows</strong>: Total number of rows in a legacy table.
+  - <strong>Z. Sample Data</strong>: (Optionally) sample data from the legacy data sorted by cardinality
 
-        text if the column name is not sufficient.
-* <strong>Column D: Comments</strong>: Take notes here; this column is not used by the MIE legacy data conversion tool.
-* <strong>Column E: Description</strong>: Description of the legacy field, used for Documents as an alternate
-* <strong>Column F: Module</strong>: Handle used to refer to a WebChart component to be created. This must match a line in Module Summary to be created.
-* <strong>Column G: Order</strong>: Defines the order of component items.
+    text if the column name is not sufficient.
+
+- <strong>Column D: Comments</strong>: Take notes here; this column is not used by the MIE legacy data conversion tool.
+- <strong>Column E: Description</strong>: Description of the legacy field, used for Documents as an alternate
+- <strong>Column F: Module</strong>: Handle used to refer to a WebChart component to be created. This must match a line in Module Summary to be created.
+- <strong>Column G: Order</strong>: Defines the order of component items.
 
 ## Module Summary Worksheet
 
 ### Columns
 
-* <strong>Column A: Module</strong>: Name of module used in Data Mapping.
-* <strong>Column B: Component</strong>: Name of WebChart component. e.g. Summary Document, Observation, PFT, Fit Test, Audiogram.
-* <strong>Columns C, D</strong>: Order of processing for module, component.
-* <strong>Columns E-G</strong>: Reserved for developer use.
-* <strong>Columns J-P</strong>: Define component metadata. See next section for documentation of options.
+- <strong>Column A: Module</strong>: Name of module used in Data Mapping.
+- <strong>Column B: Component</strong>: Name of WebChart component. e.g. Summary Document, Observation, PFT, Fit Test, Audiogram.
+- <strong>Columns C, D</strong>: Order of processing for module, component.
+- <strong>Columns E-G</strong>: Reserved for developer use.
+- <strong>Columns J-P</strong>: Define component metadata. See next section for documentation of options.
 
 ### Metadata options
 
@@ -76,13 +78,13 @@ These are a set of functions that can dynamically define component metadata per 
 
 **TODO:** Insert table here.
 
-* get_pat_id -
-* get_user_id -
-* get_interface_name -
-* get_ext_id - Apply an external ID to a component.
-* get_subject -
-* get_location -
-* get_encounter_id - Link component to an Encounter.
+- get_pat_id -
+- get_user_id -
+- get_interface_name -
+- get_ext_id - Apply an external ID to a component.
+- get_subject -
+- get_location -
+- get_encounter_id - Link component to an Encounter.
 
 ### Updating
 
@@ -102,37 +104,37 @@ All aspects of the visit are covered in the encounter, such as the appointment t
 
 Data Mapping:
 
-* Column F, Module: <em>My Encounter Module</em>
-* Column K, Encounter Options
-    * visit_type
-    * primary_diagnosis
-    * diagnosis2
-    * diagnosis3
-    * diagnosis4
-    * service_code
-    * priority
-    * serv_date
-    * discharge_date
-    * accident_date
-    * accident_code
-    * accident_location
-    * injury_code
-    * comment (can be defined for multiple fields)
-    * chief_complaint
-    * stage
-    * due_date
+- Column F, Module: <em>My Encounter Module</em>
+- Column K, Encounter Options
+  - visit_type
+  - primary_diagnosis
+  - diagnosis2
+  - diagnosis3
+  - diagnosis4
+  - service_code
+  - priority
+  - serv_date
+  - discharge_date
+  - accident_date
+  - accident_code
+  - accident_location
+  - injury_code
+  - comment (can be defined for multiple fields)
+  - chief_complaint
+  - stage
+  - due_date
 
 Module Summary:
 
-* Column A, Module: <em>My Encounter Module</em>
-* Column B, Component: <strong>Encounter</strong>
-* Column C, Module Order: Order module is processed. Encounters are processed before any other components, so this is the order among encounters.
-* Columns J-P: metadata fields
-    * get_pat_id
-    * get_user_id
-    * get_interface_name
-    * get_ext_id
-    * get_location
+- Column A, Module: <em>My Encounter Module</em>
+- Column B, Component: <strong>Encounter</strong>
+- Column C, Module Order: Order module is processed. Encounters are processed before any other components, so this is the order among encounters.
+- Columns J-P: metadata fields
+  - get_pat_id
+  - get_user_id
+  - get_interface_name
+  - get_ext_id
+  - get_location
 
 #### Example
 
@@ -172,17 +174,17 @@ Notice:
 1. The "Module Summary" tab is still selected.
 2. To create an Encounter, "Component" enter "ENCOUNTER" or "encounter". Case does not matter.
 3. The supported metadata fields have been defined.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "encounters" table, the column "mrnumber" matches a Medical Record Number.
-    * get_user_id - Looks for the Performing Doctor of the encounter.
-        * default=0 - Use a default ID of 0 (no user).
-    * get_interface_name - An identifier for the source of this data.
-        * default=sample_conversion - Use sample_conversion for the interface name.
-    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        * db_cols=id - In the "encounters" table, the column "id" is used for an external identifier.
-    * get_location - Define the location where the encounter took place.
-        * default=OFFICE - Use OFFICE for the location code for all encounters created.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "encounters" table, the column "mrnumber" matches a Medical Record Number.
+   - get_user_id - Looks for the Performing Doctor of the encounter.
+     - default=0 - Use a default ID of 0 (no user).
+   - get_interface_name - An identifier for the source of this data.
+     - default=sample_conversion - Use sample_conversion for the interface name.
+   - get_ext_id - Define an external identifier (identifies the individual record in the source data).
+     - db_cols=id - In the "encounters" table, the column "id" is used for an external identifier.
+   - get_location - Define the location where the encounter took place.
+     - default=OFFICE - Use OFFICE for the location code for all encounters created.
 
 The example Encounters (Visits>Encounters) were crafted to be created for the patient William Hart.
 
@@ -196,11 +198,11 @@ The newly generated Encounters:
 
 A Document is defined as a piece of electronic matter that serves as an official record in WebChart. A Document has a "document ID" and has the following properties:
 
-* Persistence
-* Stewardship
-* Potential for authentication
-* Context
-* Human readability
+- Persistence
+- Stewardship
+- Potential for authentication
+- Context
+- Human readability
 
 Documents store a wide variety of information pertaining to patient charts in WebChart. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data. Aside from encounters, incidents, observations, and other types of discrete chart data, documents represent the primary mode of storing information on a chart. The doc_type column identifies the category of the document, such as those previously mentioned.
 
@@ -208,32 +210,32 @@ There are several doc_types that are included as part of the default installatio
 
 Data Mapping:
 
-* Column E, Module: My Document Module
-* Column D, Description: Used for left column value
-* Column F, Order: Order item appears on document
-* Column G, Document Options: Additional options for the document.
-    * service_date: The document's date of service.
-    * skiprowifempty: Do not display the element if no value is stored.
-* Column H, Element Type: Controls the display of an item on a document.
-    * KeyValue: Displays the description and database value in 2 columns.
-    * KeyDate: Same as KeyValue except this is for dates. This is planned to be merged into KeyValue.
-    * Narrative: An extended area at the bottom of the document suitable for displaying extended text entries such as paragraphs. All fields specified will be combined into this area.
-* Column I, Element Format: Display this field in a custom format. KeyDates accept formats like "%Y/%m/%d"[[1]](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0), while KeyValues accept formats like "Hello {0}, {1}!". String formatting uses an index (starting at 0) to refer to the Legacy Columns. 0 is the first, 1 is the second, and so on.
+- Column E, Module: My Document Module
+- Column D, Description: Used for left column value
+- Column F, Order: Order item appears on document
+- Column G, Document Options: Additional options for the document.
+  - service_date: The document's date of service.
+  - skiprowifempty: Do not display the element if no value is stored.
+- Column H, Element Type: Controls the display of an item on a document.
+  - KeyValue: Displays the description and database value in 2 columns.
+  - KeyDate: Same as KeyValue except this is for dates. This is planned to be merged into KeyValue.
+  - Narrative: An extended area at the bottom of the document suitable for displaying extended text entries such as paragraphs. All fields specified will be combined into this area.
+- Column I, Element Format: Display this field in a custom format. KeyDates accept formats like "%Y/%m/%d"[[1]](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_note-0), while KeyValues accept formats like "Hello {0}, {1}!". String formatting uses an index (starting at 0) to refer to the Legacy Columns. 0 is the first, 1 is the second, and so on.
 
 Module Summary:
 
-* Column A, Module: <em>My Document Module</em>
-* Column B, Component: <strong>Summary Document</strong>
-* Column C, Module Order: Order module is processed.
-* Column H, Doc Type: Document Type code.
-* Column Q, Template: Used to provide a custom template. <strong>Not currently in use.</strong>
-* Columns J-P: Metadata fields.
-    * get_pat_id
-    * get_user_id
-    * get_subject
-    * get_location
-    * get_ext_id
-    * get_interface_name
+- Column A, Module: <em>My Document Module</em>
+- Column B, Component: <strong>Summary Document</strong>
+- Column C, Module Order: Order module is processed.
+- Column H, Doc Type: Document Type code.
+- Column Q, Template: Used to provide a custom template. <strong>Not currently in use.</strong>
+- Columns J-P: Metadata fields.
+  - get_pat_id
+  - get_user_id
+  - get_subject
+  - get_location
+  - get_ext_id
+  - get_interface_name
 
 #### Example
 
@@ -273,19 +275,19 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Summary Document, enter "SUMMARY DOCUMENT" or "summary document" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    * Doc Type
-        * WCDOCNOT - Create a Doctor Note document type.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "documents" table, the column "mrnumber" matches a Medical Record Number.
-    * get_user_id - Defines the author of the document.
-        * default=0 - Use a default ID of 0 (no user).
-    * get_interface_name - An identifier for the source of this data.
-        * default=sample_conversion - Use sample_conversion for the interface name.
-    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        * db_cols=id - In the "documents" table, the column "id" is used for an external identifier.
-    * get_location - Define the location where the document was created.
-        * default=OFFICE - Use OFFICE for the location code for all documents created.
+   - Doc Type
+     - WCDOCNOT - Create a Doctor Note document type.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "documents" table, the column "mrnumber" matches a Medical Record Number.
+   - get_user_id - Defines the author of the document.
+     - default=0 - Use a default ID of 0 (no user).
+   - get_interface_name - An identifier for the source of this data.
+     - default=sample_conversion - Use sample_conversion for the interface name.
+   - get_ext_id - Define an external identifier (identifies the individual record in the source data).
+     - db_cols=id - In the "documents" table, the column "id" is used for an external identifier.
+   - get_location - Define the location where the document was created.
+     - default=OFFICE - Use OFFICE for the location code for all documents created.
 
 The example Summary Documents (Document Summary) were crafted to be created for the patient William Hart.
 
@@ -311,29 +313,29 @@ Multiple observations can be created for a single module. Each observation is a 
 
 Data Mapping:
 
-* Column E, Module: <em>My Observations Module</em>
-* Column K, Observation Options: Reserved for future use. Likely to combine L-N and also store handle here.
-    * handle - Used to match Data Mapping row to Module Summary row. Use this when creating multiple observations with the same code in a single module.
-    * observed - Specify the legacy column that contains the observed datetime.
-* Column L, get_obs_name: The source of the observation code name.
-    * name - Provide the obs_name.
-    * code - Provide the obs_code.
-    * description - Description column is the obs_name.
-    * value - <strong>Future use</strong>, the field value is the obs_name.
-* Column M, get_obs_result: Reserved for future use. When using value with get_obs_name, this will decide the obs_result. If blank, use field value as obs_result.
-* Column N, get_obs_test_comments: A list of fields to combine and use as the observation comment.
+- Column E, Module: <em>My Observations Module</em>
+- Column K, Observation Options: Reserved for future use. Likely to combine L-N and also store handle here.
+  - handle - Used to match Data Mapping row to Module Summary row. Use this when creating multiple observations with the same code in a single module.
+  - observed - Specify the legacy column that contains the observed datetime.
+- Column L, get_obs_name: The source of the observation code name.
+  - name - Provide the obs_name.
+  - code - Provide the obs_code.
+  - description - Description column is the obs_name.
+  - value - <strong>Future use</strong>, the field value is the obs_name.
+- Column M, get_obs_result: Reserved for future use. When using value with get_obs_name, this will decide the obs_result. If blank, use field value as obs_result.
+- Column N, get_obs_test_comments: A list of fields to combine and use as the observation comment.
 
 Module Summary (one line per Observation):
 
-* Column A, Module: <em>My Observations Module</em>
-* Column B, Component: <strong>Observation:</strong> handle, obs_name, or obs_code
-* Column C, Module Order: Order module is processed.
-* Column D, Component Order: Order component/observation is processed.
-* Columns J-P: Metadata fields.
-    * get_pat_id
-    * get_user_id
-    * get_ext_id
-    * get_interface_name
+- Column A, Module: <em>My Observations Module</em>
+- Column B, Component: <strong>Observation:</strong> handle, obs_name, or obs_code
+- Column C, Module Order: Order module is processed.
+- Column D, Component Order: Order component/observation is processed.
+- Columns J-P: Metadata fields.
+  - get_pat_id
+  - get_user_id
+  - get_ext_id
+  - get_interface_name
 
 #### Example
 
@@ -379,15 +381,15 @@ Notice:
 1. The Module Summary tab is still selected.
 2. To create an Observation, this must match "OBSERVATION:" or "observation:". Case does not matter. Following this must come the handle, obs_code, or obs_name specified in the Data Mapping tab.
 3. The supported metadata fields have been defined.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "observations" table, the column "mrnumber" matches a Medical Record Number.
-    * get_user_id - Looks for the Entered By user.
-        * default=0 - Use a default ID of 0 (no user).
-    * get_interface_name - An identifier for the source of this data.
-        * default=sample_conversion - Use sample_conversion for the interface name.
-    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        * db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "observations" table, the column "mrnumber" matches a Medical Record Number.
+   - get_user_id - Looks for the Entered By user.
+     - default=0 - Use a default ID of 0 (no user).
+   - get_interface_name - An identifier for the source of this data.
+     - default=sample_conversion - Use sample_conversion for the interface name.
+   - get_ext_id - Define an external identifier (identifies the individual record in the source data).
+     - db_cols=id - In the "observations" table, the column "id" is used for an external identifier.
 
 The example Observations (Medical Record>Observations/Flowsheets) were crafted to be created for the patient William Hart.
 
@@ -398,7 +400,7 @@ To see the results:
 1. Select a date range that is limited to the results you need.
 2. For the example, which contains vitals, select the <strong>Vitals</strong> flowsheet. Depending on the observations you select, you may need to view them on a custom or different flowsheet.
 
-    ![](./system-conversion.assets/95658eb6e17b7e03bfdd268886f53be0.png)
+   ![](./system-conversion.assets/95658eb6e17b7e03bfdd268886f53be0.png)
 
 The newly generated Observations:
 
@@ -410,24 +412,24 @@ Respirator fit details are stored on a custom table. The patient_respiratordetai
 
 Data Mapping:
 
-* Column E, Module: <em>My Fit Test Module</em>
-* Column F, Order: Order comment is combined.
-* Column Q, Fit Test Options
-    * MaskType
-    * Size
-    * LastFitTestDate
-    * LastFitExpires
-    * LastFitPassFail
-    * LastFitFinalFitFactor
-    * comment (can be defined for multiple fields)
+- Column E, Module: <em>My Fit Test Module</em>
+- Column F, Order: Order comment is combined.
+- Column Q, Fit Test Options
+  - MaskType
+  - Size
+  - LastFitTestDate
+  - LastFitExpires
+  - LastFitPassFail
+  - LastFitFinalFitFactor
+  - comment (can be defined for multiple fields)
 
 Module Summary:
 
-* Column A, Module: <em>My Fit Test Module</em>
-* Column B, Component: <strong>Fit Test</strong>
-* Column C, Module Order: Order module is processed.
-* Columns J-P: Metadata fields.
-    * get_pat_id
+- Column A, Module: <em>My Fit Test Module</em>
+- Column B, Component: <strong>Fit Test</strong>
+- Column C, Module Order: Order module is processed.
+- Columns J-P: Metadata fields.
+  - get_pat_id
 
 #### Example
 
@@ -467,9 +469,9 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Respirator Fit Test, enter "FIT TEST" or "fit test" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "fit_test" table, the column "mrnumber" matches a Medical Record Number.
 
 The example Respirator Fit Tests (Test Results>Respirator Info) were crafted to be created for the patient William Hart.
 
@@ -485,74 +487,74 @@ Pulmonary function test (PFT) data is stored in a custom table. The pft table re
 
 Data Mapping:
 
-* Column E, Module: <em>My PFT Module</em>
-* Column O, PFT Options
-    * test_datetime
-    * calibration_date
-    * maneuver_datetime
-    * test_age
-    * test_height
-    * test_weight
-    * calibration_result
-    * prediction_method
-    * spirometer
-    * test_reason
-    * temperature
-    * humidity
-    * pressure
-    * session_effort
-    * position
-    * fvc
-    * fvc_predicted
-    * fvc_abnormal
-    * fev1
-    * fev1_predicted
-    * fev1_abnormal
-    * fev1_fvc
-    * fev1_fvc_predicted
-    * fev1_fvc_abnormal
-    * fef25_75
-    * fef25_75_predicted
-    * fef25_75_abnormal
-    * pef
-    * pef_predicted
-    * pef_abnormal
-    * manual
-    * peak_1
-    * peak_2
-    * peak_3
-    * fev6
-    * fef25
-    * fef50
-    * fef75
-    * fvc_lln
-    * fev1_lln
-    * fev6_lln
-    * fev1_fvc_lln
-    * fef25_75_lln
-    * pef_lln
-    * expiratory_time
-    * pef_time
-    * reference_correction
-    * interpretation
-    * btps_factor
-    * curve
-    * summary
-    * best_maneuver
-    * comment (can be defined for multiple fields)
+- Column E, Module: <em>My PFT Module</em>
+- Column O, PFT Options
+  - test_datetime
+  - calibration_date
+  - maneuver_datetime
+  - test_age
+  - test_height
+  - test_weight
+  - calibration_result
+  - prediction_method
+  - spirometer
+  - test_reason
+  - temperature
+  - humidity
+  - pressure
+  - session_effort
+  - position
+  - fvc
+  - fvc_predicted
+  - fvc_abnormal
+  - fev1
+  - fev1_predicted
+  - fev1_abnormal
+  - fev1_fvc
+  - fev1_fvc_predicted
+  - fev1_fvc_abnormal
+  - fef25_75
+  - fef25_75_predicted
+  - fef25_75_abnormal
+  - pef
+  - pef_predicted
+  - pef_abnormal
+  - manual
+  - peak_1
+  - peak_2
+  - peak_3
+  - fev6
+  - fef25
+  - fef50
+  - fef75
+  - fvc_lln
+  - fev1_lln
+  - fev6_lln
+  - fev1_fvc_lln
+  - fef25_75_lln
+  - pef_lln
+  - expiratory_time
+  - pef_time
+  - reference_correction
+  - interpretation
+  - btps_factor
+  - curve
+  - summary
+  - best_maneuver
+  - comment (can be defined for multiple fields)
 
 Module Summary:
 
-* Column A, Module: <em>My PFT Module</em>
-* Column B, Component: <strong>PFT</strong>
-* Column C, Module Order: Order module is processed.
-* Columns J-P: Metadata fields.
-    * get_pat_id
-    * get_user_id
-    * get_interface_name
-    * get_ext_id
-    * get_subject
-    * get_location
+- Column A, Module: <em>My PFT Module</em>
+- Column B, Component: <strong>PFT</strong>
+- Column C, Module Order: Order module is processed.
+- Columns J-P: Metadata fields.
+  - get_pat_id
+  - get_user_id
+  - get_interface_name
+  - get_ext_id
+  - get_subject
+  - get_location
 
 #### Example
 
@@ -590,17 +592,17 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create a Pulmonary Function Test, enter "PFT" or "pft" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "pft" table, the column "mrnumber" matches a Medical Record Number.
-    * get_user_id - Looks for the Performing User of the Pulmonary Function Test.
-        * default=0 - Use a default ID of 0 (no user).
-    * get_interface_name - An identifier for the source of this data.
-        * default=sample_conversion - Use sample_conversion for the interface name.
-    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        * db_cols=id - In the "pft" table, the column "id" is used for an external identifier.
-    * get_location - Define the location where the test took place.
-        * default=OFFICE - Use OFFICE for the location code for all tests created.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "pft" table, the column "mrnumber" matches a Medical Record Number.
+   - get_user_id - Looks for the Performing User of the Pulmonary Function Test.
+     - default=0 - Use a default ID of 0 (no user).
+   - get_interface_name - An identifier for the source of this data.
+     - default=sample_conversion - Use sample_conversion for the interface name.
+   - get_ext_id - Define an external identifier (identifies the individual record in the source data).
+     - db_cols=id - In the "pft" table, the column "id" is used for an external identifier.
+   - get_location - Define the location where the test took place.
+     - default=OFFICE - Use OFFICE for the location code for all tests created.
 
 The example PFTs (Test Results>PFT) were crafted to be created for the patient William Hart.
 
@@ -616,50 +618,50 @@ The audio table stores discrete data for occupational audiogram tests. Audio tes
 
 Data Mapping:
 
-* Column E, Module: <em>My Audiogram Module</em>
-* Column O, Audiogram Options
-    * test_datetime
-    * left05
-    * left1
-    * left2
-    * left3
-    * left4
-    * left6
-    * left8
-    * right05
-    * right1
-    * right2
-    * right3
-    * right4
-    * right6
-    * right8
-    * manual=[left05 - left8 or right05 - right8] (can be defined for multiple fields)
-    * hcp
-    * left_sts=[value of ‘Yes'] (can be defined for multiple fields)
-    * right_sts=[value of ‘Yes'] (can be defined for multiple fields)
-    * osha_recordable=[value of ‘Yes'] (can be defined for multiple fields)
-    * left_baseline=[value of ‘Yes'] (can be defined for multiple fields)
-    * right_baseline=[value of ‘Yes'] (can be defined for multiple fields)
-    * test_reason
-    * comment (can be defined for multiple fields)
-    * outside provider
-    * outside_location
-    * audio_model
-    * audio_serial
-    * calibration_date
+- Column E, Module: <em>My Audiogram Module</em>
+- Column O, Audiogram Options
+  - test_datetime
+  - left05
+  - left1
+  - left2
+  - left3
+  - left4
+  - left6
+  - left8
+  - right05
+  - right1
+  - right2
+  - right3
+  - right4
+  - right6
+  - right8
+  - manual=[left05 - left8 or right05 - right8] (can be defined for multiple fields)
+  - hcp
+  - left_sts=[value of ‘Yes'] (can be defined for multiple fields)
+  - right_sts=[value of ‘Yes'] (can be defined for multiple fields)
+  - osha_recordable=[value of ‘Yes'] (can be defined for multiple fields)
+  - left_baseline=[value of ‘Yes'] (can be defined for multiple fields)
+  - right_baseline=[value of ‘Yes'] (can be defined for multiple fields)
+  - test_reason
+  - comment (can be defined for multiple fields)
+  - outside provider
+  - outside_location
+  - audio_model
+  - audio_serial
+  - calibration_date
 
 Module Summary:
 
-* Column A, Module: <em>My Audiogram Module</em>
-* Column B, Component: <strong>Audiogram</strong>
-* Column C, Module Order: Order module is processed.
-* Columns J-P: Metadata fields.
-    * get_pat_id
-    * get_user_id
-    * get_interface_name
-    * get_ext_id
-    * get_subject
-    * get_location
+- Column A, Module: <em>My Audiogram Module</em>
+- Column B, Component: <strong>Audiogram</strong>
+- Column C, Module Order: Order module is processed.
+- Columns J-P: Metadata fields.
+  - get_pat_id
+  - get_user_id
+  - get_interface_name
+  - get_ext_id
+  - get_subject
+  - get_location
 
 #### Example
 
@@ -699,19 +701,19 @@ Notice:
 1. The <strong>Module Summary</strong> tab is <em>still</em> selected.
 2. To create an Audiogram, enter "AUDIOGRAM" or "audiogram" in "Component". Case does not matter.
 3. The supported metadata fields have been defined.
-    * get_pat_id - Looks for the patient in WebChart.
-        * partition=MIE - Look in the MIE partition for the patient.
-        * db_cols=mrnumber - In the "audio" table, the column "mrnumber" matches a Medical Record Number.
-    * get_user_id - Looks for the Performing User of the test.
-        * default=0 - Use a default ID of 0 (no user).
-    * get_interface_name - An identifier for the source of this data.
-        * default=sample_conversion - Use sample_conversion for the interface name.
-    * get_ext_id - Define an external identifier (identifies the individual record in the source data).
-        * db_cols=id - In the "audio" table, the column "id" is used for an external identifier.
-    * get_subject - Define a subject for the Audiogram document.
-        * default=Sample Audiogram - Use "Sample Audiogram" as the subject for all tests created.
-    * get_location - Define the location where the test took place.
-        * default=OFFICE - Use OFFICE for the location code for all tests created.
+   - get_pat_id - Looks for the patient in WebChart.
+     - partition=MIE - Look in the MIE partition for the patient.
+     - db_cols=mrnumber - In the "audio" table, the column "mrnumber" matches a Medical Record Number.
+   - get_user_id - Looks for the Performing User of the test.
+     - default=0 - Use a default ID of 0 (no user).
+   - get_interface_name - An identifier for the source of this data.
+     - default=sample_conversion - Use sample_conversion for the interface name.
+   - get_ext_id - Define an external identifier (identifies the individual record in the source data).
+     - db_cols=id - In the "audio" table, the column "id" is used for an external identifier.
+   - get_subject - Define a subject for the Audiogram document.
+     - default=Sample Audiogram - Use "Sample Audiogram" as the subject for all tests created.
+   - get_location - Define the location where the test took place.
+     - default=OFFICE - Use OFFICE for the location code for all tests created.
 
 The example Audiograms (Test Results>Audio) were crafted to be created for the patient William Hart.
 
@@ -723,10 +725,10 @@ The newly generated Audiograms:
 
 ## References
 
-* [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0)https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
-* [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1)https://docs.python.org/2/library/string.html#format-string-syntax
+- [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-0)https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
+- [↑](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion#cite_ref-1)https://docs.python.org/2/library/string.html#format-string-syntax
 
 ## Related Pages
 
-* [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
-* [Data Requirements](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)
+- [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
+- [Data Requirements](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)

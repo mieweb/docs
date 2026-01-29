@@ -1,14 +1,15 @@
 ---
-id: '1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
-title: 'Sidemenu Thumbtack Feature'
-date: '2020-03-09T21:04:49.396Z'
+id: "1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4"
+title: "Sidemenu Thumbtack Feature"
+date: "2020-03-09T21:04:49.396Z"
 version: 47
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1MQvrj8zIaJUtr-ijW0khm1CkKJ0VLIHcpUgFrWISHh4"
+wikigdrive: "v2.15.30"
 ---
+
 On the left sidemenu, at the very bottom, is a small thumbtack icon.
 
 ![](./sidemenu-thumbtack-feature.assets/d7bda7809a374b32cb5edc6f22534c3a.png)

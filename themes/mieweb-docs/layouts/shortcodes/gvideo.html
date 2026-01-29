@@ -1,0 +1,10 @@
+{{- /* Google Drive video embed shortcode */}} {{ $id := .Get "id" | default (.Get 0) }}
+<div class="my-6 aspect-video overflow-hidden rounded-lg">
+  <iframe
+    class="h-full w-full"
+    src="https://drive.google.com/file/d/{{ $id }}/preview"
+    title="Google Drive video"
+    allow="autoplay"
+    allowfullscreen
+  ></iframe>
+</div>

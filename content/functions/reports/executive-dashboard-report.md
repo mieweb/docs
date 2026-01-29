@@ -1,17 +1,18 @@
 ---
-id: '1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-title: 'Executive Dashboard Report'
-date: '2025-09-26T16:57:15.359Z'
+id: "1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ"
+title: "Executive Dashboard Report"
+date: "2025-09-26T16:57:15.359Z"
 version: 148
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ"
+wikigdrive: "v2.15.30"
 ---
+
 **Executive Dashboard Report**
 
-The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  Partition restriction checks are not applicable from the executive dashboard queries due to improved performance.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity.
+The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes. Partition restriction checks are not applicable from the executive dashboard queries due to improved performance. The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity.
 
 The top of the dashboard contains a search engine that can limit information that displays in the portlets based on time frame, location (PO) and Employer Organization (EO).
 
@@ -52,6 +53,7 @@ Search filtering can be done by Location, being the selected PO location of a pe
 **Other** is count of encounter document types: Injection Only Visit (INJV), Brief Note Visit (BRIEFNOTE), Drug & Alcohol Visit (DA), Wellness Visit (WELLNESS), Travel Consult (TRAVEL), Non-Occ Health - Initial Exam (NOHI), Non-Occ Health - Follow Up Exam (NOHFU), Results (RESULTS), Return to Work Visit (RTW), Visit (VISIT)
 
 ![](./executive-dashboard-report.assets/17f721b7e76c73aec5e792436f5a3d92.png)
+
 # Top 10 Services/Tests Provided
 
 Top 10 Services/Tests Provided section will display the count of encounter order items in completed status, according to volume completed. Deleted encounter order items and patient/employee charts marked as excluded from quality care (with completed encounter order items) are not included in the counts.
@@ -61,26 +63,27 @@ Search filtering can be done by Location, being the selected PO location of a pe
 The highest volume completed encounter order will appear at the top, descending to the 10th lowest volume Test/Service marked as completed within an encounter workflow. The Test/Service needs to be in a **completed** status (and not deleted), using an encounter workflow, to be counted.
 
 ![](./executive-dashboard-report.assets/34bc7c07a9db50db4d9b304b4c012531.png)
+
 # Work Related Injury or Illness Cases/Incidents
 
 The Work Related Injury or Illness Cases/Incidents section provides analytics on work related cases/incidents. If a date range is used, it will look at the Case Date. Location search filter is not applicable to this section. If the Employer Organization search filter is used, it looks at the Employer relationship in the chart relationships. Deleted cases/incidents and charts marked as Exclude from Quality Care are ommited from the counts.
 
 **Lost Time Cases**
 
-* Numerator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and there is a linked restriction of Lost Time.
-* Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
+- Numerator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and there is a linked restriction of Lost Time.
+- Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
 
 **Cases w/ Work Restrictions**
 
-* Numerator: Displays total number or non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and there is any linked restriction type other than Lost Time.
-* Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
+- Numerator: Displays total number or non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and there is any linked restriction type other than Lost Time.
+- Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
 
 **OSHA Recordables**
 
 OSHA defines a recordable injury or illness as any work-related fatality or any work-related injury or illness that results in loss of consciousness, days away from work, restricted work, transfer to another job, or requires medical treatment beyond first aid.
 
-* Numerator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and the Date Determined Recordable field is populated with a date (Meaning: Recordable is Yes).
-* Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
+- Numerator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined, and the Date Determined Recordable field is populated with a date (Meaning: Recordable is Yes).
+- Denominator: Displays total number of non-deleted open and closed cases/incidents, within the date range, where Work Related (on the case/incident) is Yes or Undetermined.
 
 **Injury Sources**
 
@@ -113,6 +116,7 @@ The Employer Organization search filter can be applied to this section and resul
 **Days Saved - YTD** Sums the year to date totals for the "Days Saved" observation as indicated in open and closed case management encounters.
 
 ![](./executive-dashboard-report.assets/22749d9283201394c87c0b03a15c50f3.png)
+
 # Portal Activity
 
 Portal Activity section will display the count of specific activity according to date of service found within the search criteria. Search filtering can be done by Location, being the selected PO location of a performing provider on a scheduled appointment. Additional search filtering can be done by Employer Organization, being the employer relationship a patient/employee chart has within its demographic relationships.

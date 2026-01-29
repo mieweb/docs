@@ -1,26 +1,27 @@
 ---
-id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-title: 'Fee Schedule Import Tool'
-date: '2025-04-07T16:59:59.593Z'
+id: "1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
+title: "Fee Schedule Import Tool"
+date: "2025-04-07T16:59:59.593Z"
 version: 46
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0"
+wikigdrive: "v2.15.30"
 ---
+
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
 
-* File format: Data file shall be formatted in Comma Separated Values (CSV).
-* The first row of the file shall contain column header information.
-* Each subsequent row shall represent a fee schedule.
+- File format: Data file shall be formatted in Comma Separated Values (CSV).
+- The first row of the file shall contain column header information.
+- Each subsequent row shall represent a fee schedule.
 
 ## Column Definition
 
 The fee schedule column definition shall contain all columns listed below regardless if there is a value or not.
 
-* R = Required
-* O = Optional
+- R = Required
+- O = Optional
 <table>
 <tr>
 <td>Name</td>
@@ -61,6 +62,7 @@ The fee schedule column definition shall contain all columns listed below regard
 This example shows how to import multiple Billing codes into 1 fee schedule labeled 'DEF Biz'.
 
 {{% pre %}}
+
 ```
 
 Fee Schedule Name,Billing Code,Description,Amount
@@ -76,4 +78,5 @@ DEF Biz,17250,"CHEMICAL CAUTERY, TISSUE",$119.00
 DEF Biz,20000,INCISION OF ABSCESS,$325.00
 DEF Biz,20005,INCISION OF DEEP ABSCESS,$469.00
 ```
+
 {{% /pre %}}

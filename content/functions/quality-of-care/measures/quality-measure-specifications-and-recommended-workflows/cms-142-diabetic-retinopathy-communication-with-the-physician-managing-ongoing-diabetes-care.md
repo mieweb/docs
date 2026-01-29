@@ -1,18 +1,19 @@
 ---
-id: '1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA'
-title: 'CMS 142 - Diabetic Retinopathy: Communication with the Physician Managing Ongoing Diabetes Care'
-date: '2022-04-28T13:53:43.464Z'
+id: "1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA"
+title: "CMS 142 - Diabetic Retinopathy: Communication with the Physician Managing Ongoing Diabetes Care"
+date: "2022-04-28T13:53:43.464Z"
 version: 18
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms142v10'
-source: 'https://drive.google.com/open?id=1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms142v10"
+source: "https://drive.google.com/open?id=1hZk611fsSe3YlJaMUWzYn0T3aaNCB8FVMkykoD2uKxA"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS142v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS142v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -101,7 +102,6 @@ wikigdrive: 'v2.15.30'
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
-
 
 ### Original Visit Encounter
 

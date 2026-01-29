@@ -1,14 +1,15 @@
 ---
-id: '1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
-title: 'Incidents Report'
-date: '2025-12-09T15:23:01.863Z'
+id: "1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY"
+title: "Incidents Report"
+date: "2025-12-09T15:23:01.863Z"
 version: 81
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1nzKPqbfce5x-xf3bIOKanzT-g7PgU9_Hf6d1AQFfmZY"
+wikigdrive: "v2.15.30"
 ---
+
 Capturing incident detail on a patient is done through the office visit encounter or though the Incidents chart tab. There is reporting available based on patient incident data.
 
 ## Incident Report

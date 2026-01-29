@@ -3,42 +3,42 @@ name: Released a tag - Deploy to Production
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   build:
     # The type of runner that the job will run on
-    runs-on: [ self-hosted, docsqa ]
+    runs-on: [self-hosted, docsqa]
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        token: ${{ github.token }}
-        lfs: 'true'
-        clean: 'true'
-        fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+          lfs: "true"
+          clean: "true"
+          fetch-depth: 0
 
-    - name: Pull NPM Dependencies
-      run: ./setup.sh
+      - name: Pull NPM Dependencies
+        run: ./setup.sh
 
-    - name: Build WebChart HTML
-      run: ./build.sh --minify --baseURL https://docs.webchartnow.com/ wc
+      - name: Build WebChart HTML
+        run: ./build.sh --minify --baseURL https://docs.webchartnow.com/ wc
 
-    - name: Build Enterprise Health HTML
-      run: ./build.sh --minify --baseURL https://docs.enterprisehealth.com/ eh
+      - name: Build Enterprise Health HTML
+        run: ./build.sh --minify --baseURL https://docs.enterprisehealth.com/ eh
 
-    - name: 'Deploy built documentation to production folder'
-      run: |
-        rsync -ruva --delete public deploy@wc-docs.med-web.com:/www/docrootssl/docs
+      - name: "Deploy built documentation to production folder"
+        run: |
+          rsync -ruva --delete public deploy@wc-docs.med-web.com:/www/docrootssl/docs
 
-    - name: Rocket.Chat Notification
-      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
-      if: always()
-      with:
-        type: ${{ job.status }}
-        job_name: '*Publish to Production*'
-        mention: 'here'
-        channel: '#miedocs'
-        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        commit: true
-        token: ${{ github.token }}
+      - name: Rocket.Chat Notification
+        uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
+        if: always()
+        with:
+          type: ${{ job.status }}
+          job_name: "*Publish to Production*"
+          mention: "here"
+          channel: "#miedocs"
+          url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+          commit: true
+          token: ${{ github.token }}

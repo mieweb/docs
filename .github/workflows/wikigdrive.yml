@@ -8,68 +8,66 @@ on:
   workflow_dispatch:
     inputs:
       subject:
-        description: 'Describe the changes' 
-    
+        description: "Describe the changes"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: [ self-hosted, docsqa ]
+    runs-on: [self-hosted, docsqa]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Checkout docs
-      uses: actions/checkout@v4
-      
-    - name: Checkout wikiGDrive
-      run: git clone https://github.com/mieweb/wikiGDrive.git
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout docs
+        uses: actions/checkout@v4
 
-    - name: Build WikiGDrive
-      run: |
-        cd wikiGDrive
-        npm install
-        npm run build
+      - name: Checkout wikiGDrive
+        run: git clone https://github.com/mieweb/wikiGDrive.git
 
-    - name: "Git LFS"
-      run: |
-        echo "lfs env"
-        git lfs env
-        echo "ulimit -a"
-        ulimit -a
-        echo "git lfs fetch" 
-        git lfs fetch 
+      - name: Build WikiGDrive
+        run: |
+          cd wikiGDrive
+          npm install
+          npm run build
 
-    # Runs a single command using the runners shell
-    - name: Checkout Google Drive
-      run: node "wikiGDrive/dist/main.js" init --drive "https://drive.google.com/drive/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-" --dest ./content --link_mode uglyURLs --service_account=wikigdrive.json 
+      - name: "Git LFS"
+        run: |
+          echo "lfs env"
+          git lfs env
+          echo "ulimit -a"
+          ulimit -a
+          echo "git lfs fetch" 
+          git lfs fetch
 
-    # Runs a set of commands using the runners shell
-    - name: Pulling down changes from Google Drive
-      run: node "/root/wikiGDrive/dist/main.js" pull
+      # Runs a single command using the runners shell
+      - name: Checkout Google Drive
+        run: node "wikiGDrive/dist/main.js" init --drive "https://drive.google.com/drive/folders/1nwb2j9w6LFZASdr3ouUXPmouw4tynHv-" --dest ./content --link_mode uglyURLs --service_account=wikigdrive.json
 
-    - name: Pull NPM Dependencies
-      run: ./setup.sh
+      # Runs a set of commands using the runners shell
+      - name: Pulling down changes from Google Drive
+        run: node "/root/wikiGDrive/dist/main.js" pull
 
-    - name: run Hugo for WebChart
-      run: ./build.sh wc
-      
-    - name: run Hugo for Enterprise Health
-      run: ./build.sh eh
+      - name: Pull NPM Dependencies
+        run: ./setup.sh
 
-    - name: Rocket.Chat Notification
-      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@master
-      if: always()
-      with:
-        type: ${{ job.status }}
-        job_name: '*Fetch Google Changes*'
-        mention: 'here'
-        mention_if: 'failure'
-        channel: '#miedocs'
-        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        github_url: 'https://github.mieweb.com'
-        commit: true
-        token: ${{ github.token }}
-      
+      - name: run Hugo for WebChart
+        run: ./build.sh wc
+
+      - name: run Hugo for Enterprise Health
+        run: ./build.sh eh
+
+      - name: Rocket.Chat Notification
+        uses: wreiske/Rocket.Chat.GitHub.Action.Notification@master
+        if: always()
+        with:
+          type: ${{ job.status }}
+          job_name: "*Fetch Google Changes*"
+          mention: "here"
+          mention_if: "failure"
+          channel: "#miedocs"
+          url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+          github_url: "https://github.mieweb.com"
+          commit: true
+          token: ${{ github.token }}

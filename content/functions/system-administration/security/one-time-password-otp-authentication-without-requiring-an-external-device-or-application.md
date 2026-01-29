@@ -1,24 +1,25 @@
 ---
-id: '1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
-title: 'One-Time Password (OTP) Authentication without requiring an external device or application'
-date: '2025-11-08T13:54:43.673Z'
+id: "1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00"
+title: "One-Time Password (OTP) Authentication without requiring an external device or application"
+date: "2025-11-08T13:54:43.673Z"
 version: 72
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'multi-factor-authentication-mfa-require-2fa-system-configuration.md'
-  - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
-  - 'force-multi-factor-authentication-mfa-2fa-user-experience.md'
-source: 'https://drive.google.com/open?id=1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
-wikigdrive: 'v2.15.30'
+  - "multi-factor-authentication-mfa-require-2fa-system-configuration.md"
+  - "encourage-multi-factor-authentication-mfa-2fa-user-experience.md"
+  - "force-multi-factor-authentication-mfa-2fa-user-experience.md"
+source: "https://drive.google.com/open?id=1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00"
+wikigdrive: "v2.15.30"
 ---
+
 A One-Time Password (OTP) is an easy way to add an additional level of security to a user's sign-in to the system, using an OTP function to the user's email, without requiring the user to utilize an external device or application. Requiring an OTP (via email instead of a device app) as part of the sign in experience can be enabled in a user's security role using the permission.
 
 ## One-Time Password (OTP) Emailed
 
 ![](./one-time-password-otp-authentication-without-requiring-an-external-device-or-application.assets/2758271fa8310044c28b896c0d4b0bbc.png)
 
-The *OTP Required* security permission setting controls whether users are required to provide an OTP when logging in. Users who are configured (via a different security permission) to be encouraged or required to setup an MFA/2FA account on an Authenticator App on an external device will use that for their MFA/2FA instead. Only one OTP will be requested at sign in.
+The _OTP Required_ security permission setting controls whether users are required to provide an OTP when logging in. Users who are configured (via a different security permission) to be encouraged or required to setup an MFA/2FA account on an Authenticator App on an external device will use that for their MFA/2FA instead. Only one OTP will be requested at sign in.
 
 ### User Experience as OTP Required via Email
 
@@ -41,11 +42,11 @@ The user will then be alerted that the OTP has been sent. For security reasons, 
 
 ![](./one-time-password-otp-authentication-without-requiring-an-external-device-or-application.assets/44f3531ae2264691e8163f5a75dbe3f1.png)
 
-Once the request timer terminates, and if the user had not entered their unique generated OTP (that was emailed to them), the screen will allow the user to request a new OTP and can click on the bar/button to *Email* to their email address again.
+Once the request timer terminates, and if the user had not entered their unique generated OTP (that was emailed to them), the screen will allow the user to request a new OTP and can click on the bar/button to _Email_ to their email address again.
 
 ![](./one-time-password-otp-authentication-without-requiring-an-external-device-or-application.assets/c16d2f5d5f1afc688fb02bae3007e9f5.png)
 
-However, if the user attempts to request a new OTP **before** the timer has expired, the user will receive a rejection notice if they click the bar/button to *Email* to their email address again.
+However, if the user attempts to request a new OTP **before** the timer has expired, the user will receive a rejection notice if they click the bar/button to _Email_ to their email address again.
 
 ![](./one-time-password-otp-authentication-without-requiring-an-external-device-or-application.assets/d6a8683cf8b458b8dad5c50f4a215eed.png)
 
@@ -73,13 +74,13 @@ The following system settings relate to the OTP Email functionality:
 
 ![](./one-time-password-otp-authentication-without-requiring-an-external-device-or-application.assets/d8a3fc92ebc8cc19283d86ed21f4a6be.png)
 
-* <strong>Enable Bypass 2FA OTP</strong>: defaults as disabled, but when enabled allows users whose device is detected as having an IP Address within a configured "In Network" location are able to bypass the prompt for an OTP prior to sign in.  See other help guide [Multi-Factor Authentication MFA / Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md) on how System Administrators can configure IP addresses to bypass MFA/2FA.
-* <strong>OTP CSRF Valid Minutes:</strong> defaults to 30 minutes and specifies the maximum amount of time that a user may continue to request OTPs before they must re-enter their manual username and password. This setting allows tightening the window of time when replay attacks are available against the user's account.
-* <strong>OTP Length:</strong> defaults to 6 and sets the number of characters present in the generated OTP. This setting can allow for a longer OTP, up to 20 characters, to further increase the difficulty of attackers attempting to compromise a user account.
-* <strong>OTP Request Delay Seconds:</strong> defaults to 30 seconds and specifies the minimum amount of time which must elapse before an additional OTP request may be made against the system. This setting allows rate-limitting a potential attacker in order to further protect a compromised account against unwanted OTP forcing.
-* <strong>OTP Valid Seconds:</strong> defaults to 15 minutes (900 seconds) and specifies the maximum amount of time during which a generated OTP will be accepted by the system before it expires. User entry of expired OTPs count as a login failure and are counted as such, potentially resulting in locked user accounts. This setting allows shortening the window during which an OTP delivered to an account can be utilized for attacks against the account.
-* <strong>Failure Delays:</strong> is shared with the standard sign-in system and introduces a set minimum processing duration for executing user credential validation in order to mitigate timing attacks against the system. This duration should be as close to the duration of a successful authentication as possible to minimize the delay experienced by the user while also hiding failure details from potential attackers.
-* <strong>Autoreply:</strong> is shared with many other functions within the system and specifies the sending ‘<em>from'</em> email address used for email-based OTP notification messages.
+- <strong>Enable Bypass 2FA OTP</strong>: defaults as disabled, but when enabled allows users whose device is detected as having an IP Address within a configured "In Network" location are able to bypass the prompt for an OTP prior to sign in. See other help guide [Multi-Factor Authentication MFA / Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md) on how System Administrators can configure IP addresses to bypass MFA/2FA.
+- <strong>OTP CSRF Valid Minutes:</strong> defaults to 30 minutes and specifies the maximum amount of time that a user may continue to request OTPs before they must re-enter their manual username and password. This setting allows tightening the window of time when replay attacks are available against the user's account.
+- <strong>OTP Length:</strong> defaults to 6 and sets the number of characters present in the generated OTP. This setting can allow for a longer OTP, up to 20 characters, to further increase the difficulty of attackers attempting to compromise a user account.
+- <strong>OTP Request Delay Seconds:</strong> defaults to 30 seconds and specifies the minimum amount of time which must elapse before an additional OTP request may be made against the system. This setting allows rate-limitting a potential attacker in order to further protect a compromised account against unwanted OTP forcing.
+- <strong>OTP Valid Seconds:</strong> defaults to 15 minutes (900 seconds) and specifies the maximum amount of time during which a generated OTP will be accepted by the system before it expires. User entry of expired OTPs count as a login failure and are counted as such, potentially resulting in locked user accounts. This setting allows shortening the window during which an OTP delivered to an account can be utilized for attacks against the account.
+- <strong>Failure Delays:</strong> is shared with the standard sign-in system and introduces a set minimum processing duration for executing user credential validation in order to mitigate timing attacks against the system. This duration should be as close to the duration of a successful authentication as possible to minimize the delay experienced by the user while also hiding failure details from potential attackers.
+- <strong>Autoreply:</strong> is shared with many other functions within the system and specifies the sending ‘<em>from'</em> email address used for email-based OTP notification messages.
 
 ### Translations
 
@@ -97,6 +98,6 @@ While the system setting "Enable Bypass 2FA OTP" allows specific configured IP a
 
 ## Additional Resources
 
-* [Multi-Factor Authentication MFA / Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md)
-* [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
-* [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-user-experience.md)
+- [Multi-Factor Authentication MFA / Require 2FA System Configuration](multi-factor-authentication-mfa-require-2fa-system-configuration.md)
+- [Encourage Multi-Factor Authentication MFA/2FA User Experience](encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
+- [Force Multi-Factor Authentication MFA/2FA User Experience](force-multi-factor-authentication-mfa-2fa-user-experience.md)

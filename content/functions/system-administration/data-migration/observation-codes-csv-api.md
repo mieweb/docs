@@ -1,18 +1,19 @@
 ---
-id: '1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-title: 'Observation Codes CSV API'
-date: '2025-11-12T19:07:37.917Z'
+id: "1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
+title: "Observation Codes CSV API"
+date: "2025-11-12T19:07:37.917Z"
 version: 55
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1ouZFU3lVQWSrvR1G3J9d7YLz-S3S0whUEEC_bIOrIHY/edit'
-  - 'data-import-standards.md'
-  - 'data-import-master-list.md'
-source: 'https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc'
-wikigdrive: 'v2.15.30'
+  - "data-import-overview.md"
+  - "https://docs.google.com/spreadsheets/d/1ouZFU3lVQWSrvR1G3J9d7YLz-S3S0whUEEC_bIOrIHY/edit"
+  - "data-import-standards.md"
+  - "data-import-master-list.md"
+source: "https://drive.google.com/open?id=1CotwhF-uu0oYAPV6NtTEuvP5du6OU-QEr2YW1TILwkc"
+wikigdrive: "v2.15.30"
 ---
+
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create observation codes using the Observation Codes CSV API.
 
 ## Audience
@@ -63,26 +64,26 @@ The following fields (indicated in the Data Name column) are noted as required (
 
 The following field is required:
 
-* <em>Observation Name</em> (observation_codes.obs_name) is used to uniquely identify an observation code record.
+- <em>Observation Name</em> (observation_codes.obs_name) is used to uniquely identify an observation code record.
 
 #### Best Practice
 
 Although this information is not required, it is considered a best practice to use at least some of these fields to better specify information in the observation code:
 
-* <em>Observation Code</em> (observation_codes.obs_code) is the unique numerical id value of the observation code record. If this is given, a mapping of the <em>Vendor Result Code</em> (observation_codes.hl7_code) will be created to this value. This is useful when the observation code of the same name already exists in the system and merely a new mapping for the given vendor(lab) is desired.
-* <em>Observation Type</em> (observation_codes.obs_type) is the type of data that the observation is storing; 'DATETIME' for dates/datetimes, 'DECIMAL' for numeric values, & 'TEXT' for results that won't have any formatting constraints.
-* <em>Vendor Result Code</em> (observation_codes.hl7_code) is the code used by the vendor(lab) when sending a result of this observation.
-* <em>Observation Range</em> (observation_codes.obs_range) is the range of values that would be considered 'normal' for this observation. The units of this range will be specified by the <em>Units</em> (observation_codes.obs_units) field.
-* <em>Units</em> (observation_codes.obs_range) specifies the default unit of the observation as well as the <em>Observation Range</em> (observation_codes.obs_range).
-* <em>LOINC Code</em> (observation_codes.loinc_num) specifies the globally recognized identifier as outlined by LOINC.
+- <em>Observation Code</em> (observation_codes.obs_code) is the unique numerical id value of the observation code record. If this is given, a mapping of the <em>Vendor Result Code</em> (observation_codes.hl7_code) will be created to this value. This is useful when the observation code of the same name already exists in the system and merely a new mapping for the given vendor(lab) is desired.
+- <em>Observation Type</em> (observation_codes.obs_type) is the type of data that the observation is storing; 'DATETIME' for dates/datetimes, 'DECIMAL' for numeric values, & 'TEXT' for results that won't have any formatting constraints.
+- <em>Vendor Result Code</em> (observation_codes.hl7_code) is the code used by the vendor(lab) when sending a result of this observation.
+- <em>Observation Range</em> (observation_codes.obs_range) is the range of values that would be considered 'normal' for this observation. The units of this range will be specified by the <em>Units</em> (observation_codes.obs_units) field.
+- <em>Units</em> (observation_codes.obs_range) specifies the default unit of the observation as well as the <em>Observation Range</em> (observation_codes.obs_range).
+- <em>LOINC Code</em> (observation_codes.loinc_num) specifies the globally recognized identifier as outlined by LOINC.
 
 #### Optional Fields
 
-* <em>Template ID</em> (observation_codes.template_id) specifies the CDA/CCD section where the observation appears.
-* <em>Target Type</em> (observation_codes.target_type) specifies the type of comparison that is done with the result. Options are 'target', 'range', & 'abrange'. If 'range' or 'abrange' is specified, no value need be specified for the <em>Target</em> field, but rather the <em>Observation Range</em> field. 'range' looks at the Observation Range as the normal range of values whereas 'abrange' treats it as the abnormal range of values.
-* <em>Target</em> (observation_codes.target) is the specific target value desired. Only applicable if <em>Target Type</em> is 'target'.
-* <em>English Units</em> (observation_codes.english_units) specifies the desired unit to be used when displaying the result and the user's Preferred Unit System is 'English'.
-* <em>Metric Units</em> (observation_codes.metric_units) specifies the desired unit to be used when displaying the result and the user's Preferred Unit System is 'Metric'.
+- <em>Template ID</em> (observation_codes.template_id) specifies the CDA/CCD section where the observation appears.
+- <em>Target Type</em> (observation_codes.target_type) specifies the type of comparison that is done with the result. Options are 'target', 'range', & 'abrange'. If 'range' or 'abrange' is specified, no value need be specified for the <em>Target</em> field, but rather the <em>Observation Range</em> field. 'range' looks at the Observation Range as the normal range of values whereas 'abrange' treats it as the abnormal range of values.
+- <em>Target</em> (observation_codes.target) is the specific target value desired. Only applicable if <em>Target Type</em> is 'target'.
+- <em>English Units</em> (observation_codes.english_units) specifies the desired unit to be used when displaying the result and the user's Preferred Unit System is 'English'.
+- <em>Metric Units</em> (observation_codes.metric_units) specifies the desired unit to be used when displaying the result and the user's Preferred Unit System is 'Metric'.
 
 ## Example
 
@@ -90,4 +91,4 @@ Example using sample data is provided on [Example tab in the specification.](ht
 
 ## Related Pages
 
-* [Data Import Master List](data-import-master-list.md)
+- [Data Import Master List](data-import-master-list.md)

@@ -1,0 +1,12 @@
+name = "mieweb-docs"
+license = "MIT"
+licenselink = "https://github.com/mieweb/docs/blob/master/LICENSE"
+description = "MIE Documentation theme built with Tailwind CSS 4 and React 19"
+homepage = "https://github.com/mieweb/docs"
+
+[author]
+  name = "MIE"
+  homepage = "https://mieweb.com"
+
+[params]
+  minHugoVersion = "0.139.0"

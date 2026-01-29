@@ -1,16 +1,17 @@
 ---
-id: '1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-title: 'Insurance Summary in Demographics Tab'
-date: '2025-11-25T15:23:02.653Z'
+id: "1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU"
+title: "Insurance Summary in Demographics Tab"
+date: "2025-11-25T15:23:02.653Z"
 version: 117
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
-  - 'https://mie.talentlms.com/shared/start/key:LAOIDNHR'
-source: 'https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/"
+  - "https://mie.talentlms.com/shared/start/key:LAOIDNHR"
+source: "https://drive.google.com/open?id=1UlAQuxlBzy3lugt2itSsy3xWHmQi032BXXEMbO5_FpU"
+wikigdrive: "v2.15.30"
 ---
+
 Once in a chart, the demographics chart tab is found within the Admin tab.  There is also a portlet named Insurance that is available to display on the chart Summary tab that can display for your view.
 
 When in the demographics tab or if you click manage information within the insurance portlet, you can review patient demographics.  However, down towards the bottom of the demographics summary is the section named **Insurance** **Summary**.
@@ -33,27 +34,27 @@ The **Add Insurance Policy** screen and fields display.  The fields are describ
 
 ![](./insurance-summary-in-demographics-tab.assets/82c59a53b1937c808d86c3a7230552e1.png)
 
-* <strong>Insurance Plan</strong>: Begin typing the name of the insurance.  The system will auto-complete choices from a master list of insurances.  Select the one you want and use the tab key to go to the next field. If you type in an unrecognized plan (free-text in something) you will receive a pop-up warning that it is an unknown plan (not found in the master listing) and if you still want to continue to add this plan as you named it.
-* <strong>Priority</strong>: Primary Insurance would be 1st, a patient's secondary would be selected as priority 2nd, tertiary insurance would be selected as 3rd and so on.
-* <strong>Active</strong>:  This will default to be check-marked meaning this is an active and valid insurance for the patient.  If the patient ever drops the insurance or no longer has the insurance anymore, you simply uncheck-mark this to deactivate the insurance.  There is no way to delete an insurance once entered. Insurances can only be inactivated.
-* <strong>Policy Number</strong>: Enter the policy # for this insurance being entered.
-* <strong>Group Number</strong>: Enter the group # for this insurance being entered.
-* <strong>Policy Start/End Dates</strong>: You can enter the insurance policy start and/or end dates if you wish.  This is optional. Not all cards state this information nor do the patient's remember the start date of their insurance, etc.  An end date would only be entered if the patient didn't have the insurance any longer, etc.
-* <strong>Relation to Insured</strong>: Enter the patient's relationship to the policy holder of this insurance you are entering.
-* <strong>Holder Name</strong>: There are 3 options for getting a policy holder's name entered here.
-    * <strong>Patient is holder</strong>: Checkmark the Patient is holder box if the patient is the policyholder for the insurance you are entering.  You must uncheckmark it if the patient is not the holder of the insurance for the other 2 options to appear for entry:
-    * <strong>Enter Holder</strong>: When the box is not checkmarked, the Enter Holder: field will appear.  This is where you can type the last name of the person who holds the insurance.  The system will attempt to auto-complete by last name and search your system for that policyholder you are typing in.  The policyholder must be a patient in your system for it to auto-complete and find that person here.  If the policyholder is not a patient in your system, you would continue to type that person's first and last name as free-text in that field. You would then click the Non-Patient Holder Details button to enter the remaining policyholder information manually.  Example: insurance is held by the husband but he has never been seen at this practice because it's an OBGYN practice.  He would not be found as a patient in the system, so you continue to type out his name in the Enter Holder: field and then would click Non-Patient Holder Details to continue to enter his detailed information.
-    * <strong>Non-Patient Holder Details</strong>: Enter the policy holder's information if that policy holder is not an existing patient in your system.
-* <strong>Policy Comments</strong>: Type any comments related to the insurance policy here.
-* <strong>Insurance Pre-Certifications</strong>: When insurances are entered in the patient's demographics tab, there are fields to enter any pre-certification details.  Example would be a patient coming in for physical therapy is pre-certified for 10 visits from Oct 2007 through Dec 2007. You can detail that when adding or editing the insurance from the patient's demographics tab.  If there are any pre-certification details entered in for a patient's insurance, this precert information will appear in the checkin module also when you checkin the patient. This information also shows if you hover your mouse over the patient's insurance name(s) in the scheduler view in the appointment detail. If you have insurance messages coming in from your interface/PM system, you can still enter Pre-certification information here in {{% system-name %}} and it will save.
+- <strong>Insurance Plan</strong>: Begin typing the name of the insurance.  The system will auto-complete choices from a master list of insurances.  Select the one you want and use the tab key to go to the next field. If you type in an unrecognized plan (free-text in something) you will receive a pop-up warning that it is an unknown plan (not found in the master listing) and if you still want to continue to add this plan as you named it.
+- <strong>Priority</strong>: Primary Insurance would be 1st, a patient's secondary would be selected as priority 2nd, tertiary insurance would be selected as 3rd and so on.
+- <strong>Active</strong>:  This will default to be check-marked meaning this is an active and valid insurance for the patient.  If the patient ever drops the insurance or no longer has the insurance anymore, you simply uncheck-mark this to deactivate the insurance.  There is no way to delete an insurance once entered. Insurances can only be inactivated.
+- <strong>Policy Number</strong>: Enter the policy # for this insurance being entered.
+- <strong>Group Number</strong>: Enter the group # for this insurance being entered.
+- <strong>Policy Start/End Dates</strong>: You can enter the insurance policy start and/or end dates if you wish.  This is optional. Not all cards state this information nor do the patient's remember the start date of their insurance, etc.  An end date would only be entered if the patient didn't have the insurance any longer, etc.
+- <strong>Relation to Insured</strong>: Enter the patient's relationship to the policy holder of this insurance you are entering.
+- <strong>Holder Name</strong>: There are 3 options for getting a policy holder's name entered here.
+  - <strong>Patient is holder</strong>: Checkmark the Patient is holder box if the patient is the policyholder for the insurance you are entering.  You must uncheckmark it if the patient is not the holder of the insurance for the other 2 options to appear for entry:
+  - <strong>Enter Holder</strong>: When the box is not checkmarked, the Enter Holder: field will appear.  This is where you can type the last name of the person who holds the insurance.  The system will attempt to auto-complete by last name and search your system for that policyholder you are typing in.  The policyholder must be a patient in your system for it to auto-complete and find that person here.  If the policyholder is not a patient in your system, you would continue to type that person's first and last name as free-text in that field. You would then click the Non-Patient Holder Details button to enter the remaining policyholder information manually.  Example: insurance is held by the husband but he has never been seen at this practice because it's an OBGYN practice.  He would not be found as a patient in the system, so you continue to type out his name in the Enter Holder: field and then would click Non-Patient Holder Details to continue to enter his detailed information.
+  - <strong>Non-Patient Holder Details</strong>: Enter the policy holder's information if that policy holder is not an existing patient in your system.
+- <strong>Policy Comments</strong>: Type any comments related to the insurance policy here.
+- <strong>Insurance Pre-Certifications</strong>: When insurances are entered in the patient's demographics tab, there are fields to enter any pre-certification details.  Example would be a patient coming in for physical therapy is pre-certified for 10 visits from Oct 2007 through Dec 2007. You can detail that when adding or editing the insurance from the patient's demographics tab.  If there are any pre-certification details entered in for a patient's insurance, this precert information will appear in the checkin module also when you checkin the patient. This information also shows if you hover your mouse over the patient's insurance name(s) in the scheduler view in the appointment detail. If you have insurance messages coming in from your interface/PM system, you can still enter Pre-certification information here in {{% system-name %}} and it will save.
 
-    ![](./insurance-summary-in-demographics-tab.assets/fbb6df845e73612a029b8aa69fd212a1.png)
+  ![](./insurance-summary-in-demographics-tab.assets/fbb6df845e73612a029b8aa69fd212a1.png)
 
-* <strong>Certification Number</strong>: Enter the certification number for the pre-certification.
-* <strong>Begin/End Dates</strong>: Enter begin and end dates for this pre-certification.
-* <strong>Remaining Uses</strong>: Enter the # of uses the pre-certification is for.
-* <strong>Description</strong>: Enter any comments/descriptions for the pre-certification
-* <strong>Add</strong>: Click the ADD button to add this certification to that insurance you are entering. You can enter more pre-certifications if the patient is seen for multiple physical therapy modules, etc.  Click CLEAR to start over.
+- <strong>Certification Number</strong>: Enter the certification number for the pre-certification.
+- <strong>Begin/End Dates</strong>: Enter begin and end dates for this pre-certification.
+- <strong>Remaining Uses</strong>: Enter the # of uses the pre-certification is for.
+- <strong>Description</strong>: Enter any comments/descriptions for the pre-certification
+- <strong>Add</strong>: Click the ADD button to add this certification to that insurance you are entering. You can enter more pre-certifications if the patient is seen for multiple physical therapy modules, etc.  Click CLEAR to start over.
 
 At the bottom, click the **Save** button to add this insurance to the chart.  If you want to save and add another ex: secondary insurance, click **Save & Add Another**.  Clicking Cancel will get out completely and the option **Reset** will not save the insurance data and will clear the fields to start over.
 
@@ -155,12 +156,12 @@ The Document Scan Control box and the scanned image is followed by the **Add Doc
 
 ![](./insurance-summary-in-demographics-tab.assets/960e45f6bd1e2a184af713804a4c22b2.png)
 
-* <strong>Authored By</strong>:  You must have security permission for ‘Transcribe For Others' in order to change this field.  Select who is creating this text document. If you are creating this scanned document for a physician or someone else, choose their name.  You can start typing the last name in the first blank field and click SEARCH to pull up a list of users that match and select from there.  If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search).  If you are creating this scanned document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name.  The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option.  It will automatically put your name on the document you are about to create.
-* <strong>Document Type</strong>:  This pops-up the name of the document you clicked on WCINS doc.type. If you need to change the document (ex: need to scan in Insurance card-secondary and it defaults to WCINS which is insurance card primary), you can use the drop-down arrow here and select the correct document type.
-* <strong>Date of Service</strong>:   Choose the date of service for this document you are scanning in.
-* <strong>Service Location</strong>:  Choose your location.  It will not allow you to ‘choose' a location if your facility only has one location set up in the {{% system-name %}} system.  It will then automatically be filled out.
-* <strong>Encounter</strong>: You can choose to attach this new document to an encounter for the patient.  This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the Search within xx days it will search for encounters out in 3 day increments.  Once you've found the encounter you wish to attach this new document to, click the Select Encounter link & it will place the encounter data information in the encounter field.  If you do not want to link this to an encounter, simply delete any encounter number in the encounter field.
-* <strong>Comments/Notes</strong>: In the blank box below cc physicians, you can type any comments/notes, etc to be with the document you scanned.  A spell check button is provided to check spelling for this field.
+- <strong>Authored By</strong>:  You must have security permission for ‘Transcribe For Others' in order to change this field.  Select who is creating this text document. If you are creating this scanned document for a physician or someone else, choose their name.  You can start typing the last name in the first blank field and click SEARCH to pull up a list of users that match and select from there.  If you want to select a physician within your practice, use the drop-down arrow in the next field and select from there (this is helpful to narrow down the search).  If you are creating this scanned document yourself (not for anyone else) then choose ME box here. The document will reflect your name as created by: and also within the template if it asks for the dictator name.  The name you choose/select, will then appear at the top of these fields. Confirm and make a change if need to. If you do not have security permission to create documents for other users, this field will not be an option.  It will automatically put your name on the document you are about to create.
+- <strong>Document Type</strong>:  This pops-up the name of the document you clicked on WCINS doc.type. If you need to change the document (ex: need to scan in Insurance card-secondary and it defaults to WCINS which is insurance card primary), you can use the drop-down arrow here and select the correct document type.
+- <strong>Date of Service</strong>:   Choose the date of service for this document you are scanning in.
+- <strong>Service Location</strong>:  Choose your location.  It will not allow you to ‘choose' a location if your facility only has one location set up in the {{% system-name %}} system.  It will then automatically be filled out.
+- <strong>Encounter</strong>: You can choose to attach this new document to an encounter for the patient.  This will auto-fill with the current encounter number by default, but you can also click the search button and it will pop a select & search patient encounter window to show you all encounters for this patient.  If you click the Search within xx days it will search for encounters out in 3 day increments.  Once you've found the encounter you wish to attach this new document to, click the Select Encounter link & it will place the encounter data information in the encounter field.  If you do not want to link this to an encounter, simply delete any encounter number in the encounter field.
+- <strong>Comments/Notes</strong>: In the blank box below cc physicians, you can type any comments/notes, etc to be with the document you scanned.  A spell check button is provided to check spelling for this field.
 
 {{% tip %}}
 Add a Backside of the Card. If you have another side (back side) of the document to scan, flip the document over, click **Scan Image** button again and it will scan the backside while you remain in this specific document.  It will not upload anything until you click the **Upload** button.  You can scan in as many sides/pages as you want for this single document.
@@ -172,15 +173,15 @@ It will upload the scanned image directly into the chart according to the docume
 
 ## Scan Control Options
 
-* <strong>Crop</strong>: on the image, place your mouse (which will appear as a cross + ) at the point where you want to start cropping, click and hold the mouse down and drag to highlight in BLACK over the image part that you want to keep. Release your mouse.  If you want to re-do the crop, just click the mouse and do this again. When you have what you want to save/keep highlighted in BLACK, click the <strong>CROP</strong> button. It will refresh and show your cropped document in the upper left corner.  This is what will be uploaded & stored into the chart. If you wish to crop more, repeat the steps.
+- <strong>Crop</strong>: on the image, place your mouse (which will appear as a cross + ) at the point where you want to start cropping, click and hold the mouse down and drag to highlight in BLACK over the image part that you want to keep. Release your mouse.  If you want to re-do the crop, just click the mouse and do this again. When you have what you want to save/keep highlighted in BLACK, click the <strong>CROP</strong> button. It will refresh and show your cropped document in the upper left corner.  This is what will be uploaded & stored into the chart. If you wish to crop more, repeat the steps.
 
-    ![](./insurance-summary-in-demographics-tab.assets/9600102aa92d5b647258601c6eec75a7.png)
+  ![](./insurance-summary-in-demographics-tab.assets/9600102aa92d5b647258601c6eec75a7.png)
 
-* <strong>Select Scanner</strong>: Click this to select a certain scanner, if more than one is hooked up to your computer.
-* <strong>Scan Image</strong>: Click this to scan another image for this same document you are in.  Example: the backside of an insurance card or another scan for the document.  It will keep these images together as one document. ONLY click the UPLOAD button when completely done with all scans for this specific patient's document.  So, for example, you would click Scan Image for insurance card front side, crop it, then turn the insurance card over and click Scan Image button and scan in the back side of the insurance card, crop it, then when done, click UPLOAD and it will store the front & the back side (2 pages of scanned images) as one document.
-* <strong>Delete</strong>: This will delete the scanned image for that page you are viewing.  It will not ask you to confirm your deletion.  If you click the delete button, the image will disappear immediately.  You would have to click the scan image button and rescan your image.
-* <strong>Move Left</strong> & <strong>Move Right</strong>: If you have a multi-page document (ex: front & back of insurance cards), you can move pages around (the ordering) by clicking on these buttons.
-* <strong>Prev/Next  #/#</strong>: The buttons toggle you between pages of the scanned image (if there is more than one page scanned at a time).  The #/# box represents what page number is being viewed and out of how many total pages there are scanned in so far for this specific scan.
+- <strong>Select Scanner</strong>: Click this to select a certain scanner, if more than one is hooked up to your computer.
+- <strong>Scan Image</strong>: Click this to scan another image for this same document you are in.  Example: the backside of an insurance card or another scan for the document.  It will keep these images together as one document. ONLY click the UPLOAD button when completely done with all scans for this specific patient's document.  So, for example, you would click Scan Image for insurance card front side, crop it, then turn the insurance card over and click Scan Image button and scan in the back side of the insurance card, crop it, then when done, click UPLOAD and it will store the front & the back side (2 pages of scanned images) as one document.
+- <strong>Delete</strong>: This will delete the scanned image for that page you are viewing.  It will not ask you to confirm your deletion.  If you click the delete button, the image will disappear immediately.  You would have to click the scan image button and rescan your image.
+- <strong>Move Left</strong> & <strong>Move Right</strong>: If you have a multi-page document (ex: front & back of insurance cards), you can move pages around (the ordering) by clicking on these buttons.
+- <strong>Prev/Next  #/#</strong>: The buttons toggle you between pages of the scanned image (if there is more than one page scanned at a time).  The #/# box represents what page number is being viewed and out of how many total pages there are scanned in so far for this specific scan.
 
 ![](./insurance-summary-in-demographics-tab.assets/881e53cf4cb6725b450e6636f9523da8.png)
 
@@ -188,4 +189,4 @@ It will upload the scanned image directly into the chart according to the docume
 
 To learn more about the Insurance Summary in Demographics Tab, follow the link below to the Learning Management System course:
 
-* [Insurance Card Scanning](https://mie.talentlms.com/shared/start/key:LAOIDNHR)
+- [Insurance Card Scanning](https://mie.talentlms.com/shared/start/key:LAOIDNHR)

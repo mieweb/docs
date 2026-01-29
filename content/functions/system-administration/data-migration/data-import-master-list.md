@@ -1,53 +1,54 @@
 ---
-id: '12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-title: 'Data Import Master List'
-date: '2026-01-06T15:24:45.838Z'
+id: "12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y"
+title: "Data Import Master List"
+date: "2026-01-06T15:24:45.838Z"
 version: 382
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
-  - 'https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-data-csv-api/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-relations-csv-api/'
-  - 'https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/'
-  - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool/'
-  - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/'
-  - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/pft-data-csv-api/'
-  - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/lab-result-csv-api/'
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-codes-csv-api/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/create-health-surveillance-file-for-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-status-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-list-import-tool/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/custom-documents-csv-api/'
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing'
-  - 'summary-documents-csv-api.md'
-  - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/injections-csv-api/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/'
-  - 'https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/pharmacy-filter-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/'
-  - 'https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/system-conversion/'
-  - 'https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI'
-  - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
-source: 'https://drive.google.com/open?id=12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
+  - "https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-data-csv-api/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-relations-csv-api/"
+  - "https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/"
+  - "https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool/"
+  - "https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/"
+  - "https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/pft-data-csv-api/"
+  - "https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/lab-result-csv-api/"
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-codes-csv-api/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/create-health-surveillance-file-for-import/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-status-import/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-list-import-tool/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/custom-documents-csv-api/"
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing"
+  - "summary-documents-csv-api.md"
+  - "https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/injections-csv-api/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/"
+  - "https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/pharmacy-filter-import/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/"
+  - "https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/system-conversion/"
+  - "https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI"
+  - "https://mie.talentlms.com/shared/start/key:ZOBDNHRK"
+source: "https://drive.google.com/open?id=12Y_7GUv00rJ2bDtFWGIHOpERDbH4nQeBH4uQI0gJ91Y"
+wikigdrive: "v2.15.30"
 ---
+
 This page provides an overview of the ways MIE imports data from a client's legacy EMR (i.e., spreadsheets, custom databases, and other sources) into the  {{% system-name %}} ( {{% sys-name %}} ) system. Most information is imported using CSV files and an application program interface (API).
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
@@ -78,8 +79,8 @@ Extended demographic fields are configurable based on customer requirements. Cus
 
 Administrative demographic fields are in a separate table and store specific employment information such as supervisor information, cost center, job description, and work schedule. A history of revisions is stored indicating the date/time of the change. This is available from the Patient Revisions hyperlink.
 
-* [Demographic Import Specification: Patient/Chart Demographics](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0)
-* [Chart Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-data-csv-api/)
+- [Demographic Import Specification: Patient/Chart Demographics](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0)
+- [Chart Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-data-csv-api/)
 
 ### Organizational Hierarchy
 
@@ -95,8 +96,8 @@ The Chart Relations CSV API imports various relationships between charts.
 
 ![](./data-import-master-list.assets/5a4227da010e3da8a226e66367021eba.png)
 
-* [Administration Information Demographic Import Specification: Patient/Chart Administration Information](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0//Patient/Chart)
-* [Chart Relations CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-relations-csv-api/)
+- [Administration Information Demographic Import Specification: Patient/Chart Administration Information](https://docs.google.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit#gid=0//Patient/Chart)
+- [Chart Relations CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/chart-relations-csv-api/)
 
 ## Encounters / Incidents / Cases
 
@@ -112,8 +113,8 @@ Related documents are included or linked to an encounter.
 
 ![](./data-import-master-list.assets/c09c55744f1125c57c5b885eaed8a11f.png)
 
-* [CSV import specification](https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit)
-* [Clinical Encounter CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/)
+- [CSV import specification](https://docs.google.com/spreadsheets/d/1uZ8j8aJRePAreZLIIOZrCtuB_F0Aa65NHLFsRMulZ2w/edit)
+- [Clinical Encounter CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/clinical-encounter-csv-api/)
 
 ### Restrictions and Accommodations
 
@@ -125,8 +126,8 @@ The Lost Time CSV API is used to import information related to an employee's (pa
 
 ![](./data-import-master-list.assets/3562fd048dc2657bdfec016951b0c3e1.png)
 
-* [CSV import specification](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml)
-* [Lost Time CSV Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool/)
+- [CSV import specification](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/pubhtml)
+- [Lost Time CSV Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool/)
 
 ## Discrete Chart Data
 
@@ -148,8 +149,8 @@ Audiogram questions are stored as observations in a flowsheet-like format ordere
 
 ![](./data-import-master-list.assets/f05fa23c001a00651671fa4fece41915.png)
 
-* [CSV import specification](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit#gid=0)
-* [Audiometric Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/)
+- [CSV import specification](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/edit#gid=0)
+- [Audiometric Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiometric-data-csv-api/)
 
 ### Respirator Fit Test
 
@@ -157,8 +158,8 @@ EH maintains records of all respirator masks an employee has tested for use. The
 
 ![](./data-import-master-list.assets/506e88fbf24399f8b39daa65bb1304e3.png)
 
-* CSV import specification TBD
-* Respirator Fit Test CSV API TBD
+- CSV import specification TBD
+- Respirator Fit Test CSV API TBD
 
 ### Spirometry (PFT)
 
@@ -168,8 +169,8 @@ Spirometry, or pulmonary function tests (PFT), are stored for individual employe
 
 ![](./data-import-master-list.assets/412db3c94bcf6905a894709eb4846315.png)
 
-* [CSV import specification](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit#gid=0)
-* [PFT Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pft-data-csv-api/)
+- [CSV import specification](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/edit#gid=0)
+- [PFT Data CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pft-data-csv-api/)
 
 ### Lab Data
 
@@ -187,8 +188,8 @@ The discrete lab results also display as a flowsheet.
 
 ![](./data-import-master-list.assets/fba7ffe759c5ecf5a2f97c03180f0a03.png)
 
-* [Lab Results CSV Specification](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
-* [Lab Results CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lab-result-csv-api/)
+- [Lab Results CSV Specification](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
+- [Lab Results CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lab-result-csv-api/)
 
 ### Observations
 
@@ -204,9 +205,9 @@ Lab results store as a discrete data and display in a flowsheet format and as a 
 
 ![](./data-import-master-list.assets/fd15b4c1b5ea88d5e786c03ca704ef64.png)
 
-* [Chart Data CSV Import Specification: Observations](https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing)
-* [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/)
-* [Observation Codes CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-codes-csv-api/)
+- [Chart Data CSV Import Specification: Observations](https://docs.google.com/a/mieweb.com/spreadsheets/d/1MVaWGTxWdKM1VKuaBjcj6HewS0zH3ETM9PLjGFEwRM0/edit?usp=sharing)
+- [Observation Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-import/)
+- [Observation Codes CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/observation-codes-csv-api/)
 
 ### Health Surveillance
 
@@ -226,7 +227,7 @@ There is an editor built into the MIE system to initially set up the panels and 
 
 ![](./data-import-master-list.assets/0f0e9ad2dd60d66d483e8713dc4f7f19.png)
 
-* [Health Surveillance File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/create-health-surveillance-file-for-import/)
+- [Health Surveillance File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/create-health-surveillance-file-for-import/)
 
 #### Panel Membership
 
@@ -238,13 +239,13 @@ There is an editor to automate business rules for which employees should be adde
 
 ![](./data-import-master-list.assets/1e1d33eecea22337faf7b89c74c6f3c6.png)
 
-* [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/)
+- [Panel Membership Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-membership-import-tool/)
 
 #### Panel Status
 
 The Panel Status CSV API is used for panels that use the "Panel Expiration" method of triggering orders. This method has the advantages that the import of previous completed order records is not necessary for HSP to function, and that only employees with status records provided will have new orders triggered. This allows for a phased roll-out of HSP programs. It also allows for fine-grained control of initial due dates, rather than relying on the system to calculate them.
 
-* [Panel Status Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-status-import/)
+- [Panel Status Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/panel-status-import/)
 
 #### Completed Orders
 
@@ -260,7 +261,7 @@ During the migration process additional surveillance notification documentation 
 
 ![](./data-import-master-list.assets/15879f29e60c6b60f86525fa9bb2311b.png)
 
-* [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/)
+- [Completed Orders Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/completed-orders-import-tool/)
 
 #### Orders Compendium
 
@@ -272,7 +273,7 @@ A standard orders compendium is included in the initial installation, however th
 
 ![](./data-import-master-list.assets/5711aeed4114000c88e823d1bb0112f8.png)
 
-* [Order List ](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-list-import-tool/)Import Tool
+- [Order List ](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-list-import-tool/)Import Tool
 
 ## Non-Discrete Documents
 
@@ -288,7 +289,7 @@ Text is stored as a document during a data migration. A description of each type
 
 ![](./data-import-master-list.assets/17584ba61f2b1f987b64c733e1f5dc72.png)
 
-* [Custom Documents CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/custom-documents-csv-api/)
+- [Custom Documents CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/custom-documents-csv-api/)
 
 ### Summary Documents Creating HTML Files
 
@@ -296,8 +297,8 @@ Case information may be stored as a document in a static 2-column format, which 
 
 ![](./data-import-master-list.assets/bae2bdfc94e7e34564961916044fb81e.png)
 
-* [Summary Document Import CSV Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing)
-* [Summary Documents CSV API](summary-documents-csv-api.md)
+- [Summary Document Import CSV Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing)
+- [Summary Documents CSV API](summary-documents-csv-api.md)
 
 ### Questionnaires
 
@@ -305,7 +306,7 @@ Questionnaire data is grouped together by date of service in a document. The doc
 
 ![](./data-import-master-list.assets/0341b68aa8533de5197dc59bb1f0b822.png)
 
-* CSV import specification TBD
+- CSV import specification TBD
 
 ### Immunizations
 
@@ -321,8 +322,8 @@ In addition, injections display within the Injections flowsheet chart tab as dis
 
 ![](./data-import-master-list.assets/9aa72bcca5a370347fab5530208ea17b.png)
 
-* [CSV import specification](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit)
-* [Injections CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/injections-csv-api/)
+- [CSV import specification](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit)
+- [Injections CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/injections-csv-api/)
 
 ### MIE File Import
 
@@ -330,7 +331,7 @@ The [File Import CSV API](https://docs.enterprisehealth.com/functions/system-ad
 
 Along with the files that are imported into the MIE File System, a discrete document record is created to associate the file with the correct chart in the MIE system. Although the content of the file is not stored as discrete data, the document record is stored discretely and features data such as the service date, enter date, service location, author, and document type (a way to group and classify documents in MIE's system).
 
-* CSV import specification TBD
+- CSV import specification TBD
 
 #### Employee Photos
 
@@ -352,8 +353,8 @@ Historical ECG data is imported as a document.
 
 Specific discrete data fields may also be viewed in a flowsheet format.
 
-* [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
-* [MIE CSV File Import](https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit#gid=0%7C)
+- [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
+- [MIE CSV File Import](https://docs.google.com/spreadsheets/d/10HNRDfXJte-CVXUE1ZN6p2ZQ86dcOdDxKvHy3UhwBpQ/edit#gid=0%7C)
 
 ## Other Flowsheets and Reports
 
@@ -381,7 +382,7 @@ The pharmacy import template allows for a batch upload to the inventory module. 
 
 ![](./data-import-master-list.assets/5f74a4f3fb21291ba5649392757c405f.png)
 
-* [Pharmacy Filter Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pharmacy-filter-import/)
+- [Pharmacy Filter Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/pharmacy-filter-import/)
 
 ### Schedules
 
@@ -389,7 +390,7 @@ There is an editor in the MIE system to manually add/edit schedules, appointment
 
 ![](./data-import-master-list.assets/8a76ebbb1473472ef322d8338afddad3.png)
 
-* [Appointments CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/)
+- [Appointments CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/appointments-import/)
 
 ### Fee Schedules
 
@@ -397,7 +398,7 @@ Fee schedule information may be imported from a template. There is an editor wit
 
 ![](./data-import-master-list.assets/b2fc42583eb7a036fc445d45fb97542c.png)
 
-* [Fee Schedule CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/)
+- [Fee Schedule CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/fee-schedule-import-tool/)
 
 ### Fee Schedules New
 
@@ -417,19 +418,19 @@ Orders questions may be added using a template. There is also an editor within t
 
 ![](./data-import-master-list.assets/431157d3e1ff7dbece47d6d1144f3864.png)
 
-* [Order Question CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/)
+- [Order Question CSV API](https://docs.enterprisehealth.com/functions/system-administration/data-migration/order-question-import-tool/)
 
 ## Related Pages
 
-* [Interface Specifications](https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/)
-* [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)
-* [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
-* [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
-* [System Conversion](https://docs.enterprisehealth.com/functions/system-administration/data-migration/system-conversion/)
-* [Human Resources Interface](https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI)
+- [Interface Specifications](https://docs.enterprisehealth.com/resources/system-specifications/enterprise-health-interface-specifications/)
+- [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/)
+- [Data Migration Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-overview/)
+- [MIE File Import](https://docs.enterprisehealth.com/functions/system-administration/data-migration/mie-file-import/)
+- [System Conversion](https://docs.enterprisehealth.com/functions/system-administration/data-migration/system-conversion/)
+- [Human Resources Interface](https://drive.google.com/open?id=10kV4HZbW7x3m4YigSKD_z-saFN4LsAy72Kj4f7P9LEI)
 
 ## Learning Management System
 
 To learn more about the Data Import Master List, follow the link below to the Learning Management System course:
 
-* [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)
+- [Data Import Tab](https://mie.talentlms.com/shared/start/key:ZOBDNHRK)

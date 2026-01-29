@@ -1,29 +1,30 @@
 ---
-id: '1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
-title: 'Copy of Chart PUR Import Options'
-date: '2024-12-18T14:04:31.929Z'
+id: "1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts"
+title: "Copy of Chart PUR Import Options"
+date: "2024-12-18T14:04:31.929Z"
 version: 29
-lastAuthor: 'bhamm'
-mimeType: 'text/x-markdown'
+lastAuthor: "bhamm"
+mimeType: "text/x-markdown"
 links:
-  - '../../functions/system-administration/data-migration/chart-data-csv-header-options.md'
-source: 'https://drive.google.com/open?id=1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts'
-wikigdrive: 'v2.15.30'
+  - "../../functions/system-administration/data-migration/chart-data-csv-header-options.md"
+source: "https://drive.google.com/open?id=1443DXeg-pRblb0RQHKhKofLogIbHbo3ScCmCEQZN7ts"
+wikigdrive: "v2.15.30"
 ---
+
 **Chart PUR Import Options**
 
 The following options are allowed. Any other options are unsupported and will be rejected.
 
 ### Insert Options
 
-* REVISE
-* INSERT
-* DELETE_THEN_INSERT
+- REVISE
+- INSERT
+- DELETE_THEN_INSERT
 
 ### Blank Options
 
-* DELETE_BLANK
-* IGNORE_BLANK
+- DELETE_BLANK
+- IGNORE_BLANK
 
 ### Distinct Options
 
@@ -61,16 +62,16 @@ The following scenario provides examples of each type of processing possible for
 
 After this file is loaded:
 
-* user1 is the supervisor of user2 and user3 
-    ![](./copy-of-chart-pur-import-options.assets/3171c8e3ee59304f67f6e60829e359df.png)
-* user2 is the supervisor of user4, user5, and user8 
-    ![](./copy-of-chart-pur-import-options.assets/6ae80f3bfdf8f898f1c2427784b1a093.png)
-* user3 is the supervisor of user6, user7, and user9 
-    ![](./copy-of-chart-pur-import-options.assets/a49e45814858557f3a79bdc91302175d.png)
-* user8 is the administrative assistant of user1 
-    ![](./copy-of-chart-pur-import-options.assets/09809a31ce8f0500ecb02a1a6c1283d3.png)
-* user9 is the administrative assistant of user2 
-    ![](./copy-of-chart-pur-import-options.assets/5398c38fd1685657853f78a41c301520.png)
+- user1 is the supervisor of user2 and user3
+  ![](./copy-of-chart-pur-import-options.assets/3171c8e3ee59304f67f6e60829e359df.png)
+- user2 is the supervisor of user4, user5, and user8
+  ![](./copy-of-chart-pur-import-options.assets/6ae80f3bfdf8f898f1c2427784b1a093.png)
+- user3 is the supervisor of user6, user7, and user9
+  ![](./copy-of-chart-pur-import-options.assets/a49e45814858557f3a79bdc91302175d.png)
+- user8 is the administrative assistant of user1
+  ![](./copy-of-chart-pur-import-options.assets/09809a31ce8f0500ecb02a1a6c1283d3.png)
+- user9 is the administrative assistant of user2
+  ![](./copy-of-chart-pur-import-options.assets/5398c38fd1685657853f78a41c301520.png)
 
 ### Import Updated Data
 
@@ -102,30 +103,30 @@ The imported file is processed as follows:
 
 No options are specified, so the default options of REVISE and DELETE_BLANK are used. Changes to the Supervisor role are as follows:
 
-* user1 is not a supervisor anymore 
-    ![](./copy-of-chart-pur-import-options.assets/6989e90e60202162e8aa026477d17342.png)
-* user2 is the supervisor for user5, user8, and user9 
-    ![](./copy-of-chart-pur-import-options.assets/add60e64ec554dc53b46da036a5f1c74.png)
-* user3 is the supervisor for user2 and user4 
-    ![](./copy-of-chart-pur-import-options.assets/475dd523b3e202bee3df41e59107a10e.png)
-* user4 is the supervisor for user6 and user7 
-    ![](./copy-of-chart-pur-import-options.assets/3d4b256b35e3b53c8ef0dc441f454628.png)
+- user1 is not a supervisor anymore
+  ![](./copy-of-chart-pur-import-options.assets/6989e90e60202162e8aa026477d17342.png)
+- user2 is the supervisor for user5, user8, and user9
+  ![](./copy-of-chart-pur-import-options.assets/add60e64ec554dc53b46da036a5f1c74.png)
+- user3 is the supervisor for user2 and user4
+  ![](./copy-of-chart-pur-import-options.assets/475dd523b3e202bee3df41e59107a10e.png)
+- user4 is the supervisor for user6 and user7
+  ![](./copy-of-chart-pur-import-options.assets/3d4b256b35e3b53c8ef0dc441f454628.png)
 
 #### Administrative Assistant (1)
 
 The DELETE_THEN_INSERT option is used. Changes to the the Administrative Assistant role are as follows:
 
-* user8 is the administrative assistant for user3 
-    ![](./copy-of-chart-pur-import-options.assets/ee8c950d8467cef921b10800df9d76da.png)
-* user9 is the administrative assistant for user2 
-    ![](./copy-of-chart-pur-import-options.assets/344fbdc63dcd779463a55bc14edfeedc.png)
+- user8 is the administrative assistant for user3
+  ![](./copy-of-chart-pur-import-options.assets/ee8c950d8467cef921b10800df9d76da.png)
+- user9 is the administrative assistant for user2
+  ![](./copy-of-chart-pur-import-options.assets/344fbdc63dcd779463a55bc14edfeedc.png)
 
 #### Administrative Assistant (2)
 
 The INSERT and IGNORE_BLANK options are used. Changes to the Administrative Assistant role are as follows:
 
-* user4 is also an administrative assistant for user3 
-    ![](./copy-of-chart-pur-import-options.assets/76a89d073e58371717549e913ef8864a.png)
+- user4 is also an administrative assistant for user3
+  ![](./copy-of-chart-pur-import-options.assets/76a89d073e58371717549e913ef8864a.png)
 
 ## Related Pages
 

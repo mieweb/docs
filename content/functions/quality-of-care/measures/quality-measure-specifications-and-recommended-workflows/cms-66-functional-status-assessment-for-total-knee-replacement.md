@@ -1,19 +1,20 @@
 ---
-id: '14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-title: 'CMS 66 - Functional Status Assessment for Total Knee Replacement'
-date: '2022-05-16T15:45:59.673Z'
+id: "14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U"
+title: "CMS 66 - Functional Status Assessment for Total Knee Replacement"
+date: "2022-05-16T15:45:59.673Z"
 version: 51
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/glossary/pro'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10'
-source: 'https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/glossary/pro"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms066v10"
+source: "https://drive.google.com/open?id=14SymYu791BCeUA6ZjZIKVrpsnRRZAc4NgmMyXzrH_-U"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS66v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS66v8&showresulttype=Measure) (2020)
@@ -39,7 +40,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

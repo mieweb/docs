@@ -1,16 +1,17 @@
 ---
-id: '1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-title: 'CMS 131 - Diabetes: Eye Exam'
-date: '2022-04-20T13:17:07.932Z'
+id: "1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg"
+title: "CMS 131 - Diabetes: Eye Exam"
+date: "2022-04-20T13:17:07.932Z"
 version: 35
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - '../../../document-management/scanning-and-indexing.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10'
-source: 'https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg'
-wikigdrive: 'v2.15.30'
+  - "../../../document-management/scanning-and-indexing.md"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms131v10"
+source: "https://drive.google.com/open?id=1rW73q4RgXZMILmaSdbqGoQqQVkl9eXloJVe_ef-n_Sg"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 CMS131v8 (2020)
@@ -36,7 +37,7 @@ CMS131v10 (2022)
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -102,21 +103,20 @@ CMS131v10 (2022)
 
 ### New UI Visit Encounter (valid RC202109+)
 
-
 ### Original Visit Encounter
 
 2. Ensure all diabetic patients aged 18-75 have been screened for diabetic retinal disease. Use the Past Procedures section of the encounter to record a previous dilated or negative retinal exam, or use the Preventive Care section of the encounter to document the last Retinal Screening; otherwise, document a recognized eye exam by scanning and indexing an established document type (e.g., RETINAL) configured with the appropriate Concept ID.
-    1. <strong>Option 1: Document in the Past Procedures section</strong>
-        1. Open the Past Procedures section
-        2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Dilated Fundus Evaluation, Retinal Screening, etc.) with the appropriate Concept ID (e.g., LOINC).
-        3. Add the Date and any relevant Notes.
-        4. Click the Next button, or close the section
-    2. <strong>Option 2: Document in the Preventive Care section</strong>
-        1. Open the Preventive Care section
-        2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
-        3. Click the Next button, or close the section
-    * <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
-        1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
+   1. <strong>Option 1: Document in the Past Procedures section</strong>
+      1. Open the Past Procedures section
+      2. Using the Procedure autocomplete, begin typing the name of the diagnostic procedure (e.g., Dilated Fundus Evaluation, Retinal Screening, etc.) with the appropriate Concept ID (e.g., LOINC).
+      3. Add the Date and any relevant Notes.
+      4. Click the Next button, or close the section
+   2. <strong>Option 2: Document in the Preventive Care section</strong>
+      1. Open the Preventive Care section
+      2. Provide the date of the last reported procedure in the Enter New Date field (e.g., 01-17-2020). This date is the Last Reported Date
+      3. Click the Next button, or close the section
+   - <strong>Option 3: Scan/Index or Upload an accepted Document</strong>
+     1. Using [WebScan](../../../document-management/scanning-and-indexing.md), scan and index the appropriate document type configured with the necessary LOINC.
 
 ## Evidence
 

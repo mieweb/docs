@@ -1,16 +1,17 @@
 ---
-id: '1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A'
-title: 'Negations Encounter Section'
-date: '2024-11-25T15:51:40.660Z'
+id: "1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A"
+title: "Negations Encounter Section"
+date: "2024-11-25T15:51:40.660Z"
 version: 65
-lastAuthor: 'auhrick'
-mimeType: 'text/x-markdown'
+lastAuthor: "auhrick"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/'
-source: 'https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/encounters/working-in-a-visit-encounter/"
+source: "https://drive.google.com/open?id=1PRgB5QEAtpJo-FcNlGObXeyoocgwL4qBAGHnVV07w7A"
+wikigdrive: "v2.15.30"
 ---
-This Negations encounter section was added to assist providers when documenting the negation of a specific act or negation of a set of acts.  This section is primarily utilized by providers enrolled in Quality Measures. Providers that chart these negation codes may have patients eligible for exclusion criteria in quality measures, thus increasing their potential payment adjustments. This information is also structured in such a manner that it can easily generate a QRDA I file export when appropriate.
+
+This Negations encounter section was added to assist providers when documenting the negation of a specific act or negation of a set of acts. This section is primarily utilized by providers enrolled in Quality Measures. Providers that chart these negation codes may have patients eligible for exclusion criteria in quality measures, thus increasing their potential payment adjustments. This information is also structured in such a manner that it can easily generate a QRDA I file export when appropriate.
 
 ## Add Negation Encounter Section
 
@@ -48,7 +49,7 @@ If the **Negation of** is not entered and the user attempts to save the dialog b
 
 ![](./negations-encounter-section.assets/40095f03bcf1f4dbe7472ecd15bede52.png)
 
-Select a negation **Reason**. The **Reason** autocomplete is a defined list of acceptable reason types applicable to Quality Measure Reporting.  Users may begin typing a reason into the autocomplete for a concise list. Since the list of applicable reason types is a short list, simply placing the curser in the field and hitting the down arrow key on the keyboard will display the entire list of reasons.
+Select a negation **Reason**. The **Reason** autocomplete is a defined list of acceptable reason types applicable to Quality Measure Reporting. Users may begin typing a reason into the autocomplete for a concise list. Since the list of applicable reason types is a short list, simply placing the curser in the field and hitting the down arrow key on the keyboard will display the entire list of reasons.
 
 ![](./negations-encounter-section.assets/47e65d4943be259755a5b210e8a70c65.png)
 

@@ -1,14 +1,15 @@
 ---
-id: '1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-title: 'Linking Users for Portal Access'
-date: '2025-11-25T17:34:21.797Z'
+id: "1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8"
+title: "Linking Users for Portal Access"
+date: "2025-11-25T17:34:21.797Z"
 version: 106
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8"
+wikigdrive: "v2.15.30"
 ---
+
 Each user intending to access a web-based portal must be granted access by way of the {{% system-name %}} system. This can be done by linking the appropriate user accounts with their corresponding charts, manually, via the {{% system-name %}} Access Control editor; otherwise, this can be automated through the import of an HR file. By linking the user account with the appropriate charts and establishing the role of the user, portal access can be configured for all users, accordingly. In addition to ensuring that the appropriate user accounts are linked to their corresponding charts and the roles are established, a chart must also have the appropriate Provider Organization relationship established. To begin linking users, manually, perform the following:
 
 {{% note %}}
@@ -31,15 +32,15 @@ It is important to note that this documentation is geared towards those systems 
 
 Once the page loads, ensure the user has two roles listed in their user account:
 
-* The user should be listed with the role of <strong>Self</strong>; and
-* He/She should be listed with the role of <strong>Portal/NoMoreClibboard User</strong>.
+- The user should be listed with the role of <strong>Self</strong>; and
+- He/She should be listed with the role of <strong>Portal/NoMoreClibboard User</strong>.
 
 {{% /note %}}
 
 6. If the user does not have two roles listed in their user account:
-    * Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
-    * Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
-    * Click the <strong>Add</strong> button for each role added.
+   - Begin typing the user's last name into the <strong>Patient Name</strong> field. Using the autocomplete, select the user.
+   - Using the dropdown, set the user's role to <strong>Self</strong> and/or <strong>Portal/NoMoreClipboard User</strong>, depending on current configurations.
+   - Click the <strong>Add</strong> button for each role added.
 7. After all changes have been made, click the <strong>Submit</strong> button.
 
 {{% tip %}}
@@ -62,8 +63,8 @@ Linking users to their supervisor allows the supervisor to log into the Supervis
 
 Once the page loads, ensure the user is listed in the table twice:
 
-* The supervisor should be listed with the role of <strong>Self</strong>; and
-* He/She should be listed with the role of <strong>Portal/NoMoreClipboard User</strong>.
+- The supervisor should be listed with the role of <strong>Self</strong>; and
+- He/She should be listed with the role of <strong>Portal/NoMoreClipboard User</strong>.
 
 {{% /note %}}
 

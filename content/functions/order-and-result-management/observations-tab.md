@@ -1,19 +1,20 @@
 ---
-id: '13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
-title: 'Observations Tab'
-date: '2025-08-14T19:41:06.902Z'
+id: "13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw"
+title: "Observations Tab"
+date: "2025-08-14T19:41:06.902Z"
 version: 224
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw"
+wikigdrive: "v2.15.30"
 ---
-Click *E-Chart* on the left sidebar menu.
+
+Click _E-Chart_ on the left sidebar menu.
 
 Search and select the patient.
 
-Click *Observations/Flowsheets* chart tab at the top in the patient's chart. Users must have security permission to view, add, edit or delete observations from a patient's observations chart tab.
+Click _Observations/Flowsheets_ chart tab at the top in the patient's chart. Users must have security permission to view, add, edit or delete observations from a patient's observations chart tab.
 
 ![](./observations-tab.assets/cb216d8d098d91da775c46f8957131fb.png)
 
@@ -21,7 +22,7 @@ Once in the Observations/Flowsheets chart tab, users will see the Observations S
 
 Enter a date range or specific flowsheet to view narrowed down results of a list of observations the patient has stored.
 
-To view the entire listing of observations for the patient, simply leave the date ranges both blank, set the Flowsheet to *All Observations* and click search. The system will render all the observations stored for this patient.
+To view the entire listing of observations for the patient, simply leave the date ranges both blank, set the Flowsheet to _All Observations_ and click search. The system will render all the observations stored for this patient.
 
 ## Search Specific Observation(s) or Date Range
 
@@ -29,18 +30,18 @@ Users may search for a specific observation(s) and/or a specific date range for 
 
 ![](./observations-tab.assets/b320371694d86366e4bfa5da1a05c96c.png)
 
-* <strong>Observed Start Date:</strong> Enter a start date range for your observation search. If none entered, it will consider 00/00/0000 as the start date.
-* <strong>Observed End Date:</strong> Enter an end date range for your observation search. If none entered, it will consider today's date.
-* <strong>Quick Range:</strong> Select a quick date range from this list of drop-downs. It reads from <strong>today's date</strong>. Instead of entering in a specific date range, users can quickly go here and select <em>today</em> to show only today's entered observations, or select 180 days and it will show all observations entered 180 days ago up to now. This quick range goes back from <strong>today's date</strong>. It inserts quickly that date range into those date fields and then you must click the SEARCH button to show your results for that date range. The ‘quick range' is a hidden remembered user preference. If you prefer 365 days, you'd set this and whenever you come to the observations tab, the Start & End date will prefill with dates that correspond to that range, relative to today's current date. You can change it at any time.
+- <strong>Observed Start Date:</strong> Enter a start date range for your observation search. If none entered, it will consider 00/00/0000 as the start date.
+- <strong>Observed End Date:</strong> Enter an end date range for your observation search. If none entered, it will consider today's date.
+- <strong>Quick Range:</strong> Select a quick date range from this list of drop-downs. It reads from <strong>today's date</strong>. Instead of entering in a specific date range, users can quickly go here and select <em>today</em> to show only today's entered observations, or select 180 days and it will show all observations entered 180 days ago up to now. This quick range goes back from <strong>today's date</strong>. It inserts quickly that date range into those date fields and then you must click the SEARCH button to show your results for that date range. The ‘quick range' is a hidden remembered user preference. If you prefer 365 days, you'd set this and whenever you come to the observations tab, the Start & End date will prefill with dates that correspond to that range, relative to today's current date. You can change it at any time.
 
 ![](./observations-tab.assets/c1088aea4b80d53ea609cae21365d604.png)
 
-* <strong>Dates Along:</strong> Select horizontal or vertical to display the flowsheet in horizontal or vertical mode for the dates.
-* <strong>Flowsheet:</strong> The default is to show all observations. You can however select a specific flowsheet these observations are for to narrow down your search even more. (See instructions further on next pages regarding flowsheets, editing or adding them.) Encounter data is stored as observations and flowsheets can be built for those.
-* <strong>Additional Criteria:</strong> If users click the + button at Additional Criteria, the section will open up another branch of search fields. Users can search for observations by the <em>entered</em> observation date start and end date. users can also search for observations entered by a specific user.
-* <strong>Entered By:</strong> To search for observations entered by a specific user, simply begin typing in first or last name of the user in the field and it will auto-complete choices for you to select.
+- <strong>Dates Along:</strong> Select horizontal or vertical to display the flowsheet in horizontal or vertical mode for the dates.
+- <strong>Flowsheet:</strong> The default is to show all observations. You can however select a specific flowsheet these observations are for to narrow down your search even more. (See instructions further on next pages regarding flowsheets, editing or adding them.) Encounter data is stored as observations and flowsheets can be built for those.
+- <strong>Additional Criteria:</strong> If users click the + button at Additional Criteria, the section will open up another branch of search fields. Users can search for observations by the <em>entered</em> observation date start and end date. users can also search for observations entered by a specific user.
+- <strong>Entered By:</strong> To search for observations entered by a specific user, simply begin typing in first or last name of the user in the field and it will auto-complete choices for you to select.
 
-Click *SEARCH* button to perform the search and show the observation results.
+Click _SEARCH_ button to perform the search and show the observation results.
 
 ![](./observations-tab.assets/1f533ece3709777a62db688b3b2d0a53.png)
 
@@ -50,7 +51,7 @@ Your results will display beneath the search field tools. In this example, the V
 
 The last line of the results box displays the total number of observations listed in the summary. In this case above, the patient's search result shows 15 observations that fit the criteria entered.
 
-If you selected a specific flowsheet to render, under the resulting flowsheet and under the message *additional observations exists*, etc will be the specific observation entry fields specific to this flowsheet you rendered. If you do not select specific criteria, like a flowsheet, the system may tell the user there are *additional observations that exist, modify your search to view*. That means this patient has other observations stored in their chart which don't fit the search criteria specified. If you want to view those, simply modify your search criteria.
+If you selected a specific flowsheet to render, under the resulting flowsheet and under the message _additional observations exists_, etc will be the specific observation entry fields specific to this flowsheet you rendered. If you do not select specific criteria, like a flowsheet, the system may tell the user there are _additional observations that exist, modify your search to view_. That means this patient has other observations stored in their chart which don't fit the search criteria specified. If you want to view those, simply modify your search criteria.
 
 You can add specific observations for this patient related to the flowsheet from here.
 
@@ -72,9 +73,9 @@ If you click on the List Observations link in the top right corner you can view 
 
 ![](./observations-tab.assets/cacdc38f5af807423547f90f007bbce6.png)
 
-When you click on Search Observations, it is arranged in date order. You can also click the view most recent first link and it will flip the order. The observation _name_s are listed in alphabetical order along the left side. The observation values (results) are in date order along the right of the name. Observation results with units of lbs (weights) will now display as a combination of pounds and ounces if the number of pounds is under 30.
+When you click on Search Observations, it is arranged in date order. You can also click the view most recent first link and it will flip the order. The observation \_name_s are listed in alphabetical order along the left side. The observation values (results) are in date order along the right of the name. Observation results with units of lbs (weights) will now display as a combination of pounds and ounces if the number of pounds is under 30.
 
-To view a visual graph of the specific observation results according to date, simply click the graph icon in the *plot* column.
+To view a visual graph of the specific observation results according to date, simply click the graph icon in the _plot_ column.
 
 ![](./observations-tab.assets/ca41a6b05d73f43ee956cdfc29aa2bfb.png)
 
@@ -86,7 +87,7 @@ Once you click the graph icon, a new window will open and visually show the plot
 
 To get out of this plotted graph, simply click the X at the top right corner of this screen. {{% system-name %}} observations should still be opened on your other screen to continue working.
 
-If you hover your computer mouse (don't click the mouse) over a specific observation's underlined result then it will display a short summary of the observation result. It shows in a summary box the *name, date/time* and *units.* This is helpful if your date range causes the screen view to be very wide and you have to scroll over to the right, then you lose view of the first columns that specify name & ranges, etc.
+If you hover your computer mouse (don't click the mouse) over a specific observation's underlined result then it will display a short summary of the observation result. It shows in a summary box the _name, date/time_ and _units._ This is helpful if your date range causes the screen view to be very wide and you have to scroll over to the right, then you lose view of the first columns that specify name & ranges, etc.
 
 ![](./observations-tab.assets/198a08c54b56ac804cf8ab65e9dd10b4.png)
 
@@ -96,7 +97,7 @@ The hover for observation values also displays the result in the alternate unit 
 
 ## Add an Observation
 
-To add an observation, click *Add Observations* link at the top right corner of the Observations Tab.
+To add an observation, click _Add Observations_ link at the top right corner of the Observations Tab.
 
 ![](./observations-tab.assets/e18dc6b5d6d8a3b84f94295c2ace2403.png)
 
@@ -106,20 +107,20 @@ These are fields that you manually enter data into and to add the observation to
 
 ![](./observations-tab.assets/c52632758cf73994800dccf9114cef2e.png)
 
-* <strong>Date/time observed:</strong> Enter the date and can enter a specific time of the observation.
-* <strong>Observation Search by Name:</strong> Here you can add the observations to the flowsheet using the Observation Search field, which is an auto-complete. Or you can check the boxes beside the observations listed in the scrollable area below that. It will not allow free-text. You must select something from the list or auto-complete. Contact your administrator or MIE Implementer for any observation names not entered into your system. As soon as you select something from the auto-complete or check-mark a box, it adds it down as a summary list in the <em>Observations Added</em> section below.
-* <strong>Observation Search by LOINC code:</strong> Searching will be done by observation name by default. To search by LOINC code, begin your search with a question mark <strong>Example:</strong> ‘?123' It will give you auto-complete choices that match and will display the LOINC code, units, and range after the name of the observation. Each is shown in separate brackets.
+- <strong>Date/time observed:</strong> Enter the date and can enter a specific time of the observation.
+- <strong>Observation Search by Name:</strong> Here you can add the observations to the flowsheet using the Observation Search field, which is an auto-complete. Or you can check the boxes beside the observations listed in the scrollable area below that. It will not allow free-text. You must select something from the list or auto-complete. Contact your administrator or MIE Implementer for any observation names not entered into your system. As soon as you select something from the auto-complete or check-mark a box, it adds it down as a summary list in the <em>Observations Added</em> section below.
+- <strong>Observation Search by LOINC code:</strong> Searching will be done by observation name by default. To search by LOINC code, begin your search with a question mark <strong>Example:</strong> ‘?123' It will give you auto-complete choices that match and will display the LOINC code, units, and range after the name of the observation. Each is shown in separate brackets.
 
 ![](./observations-tab.assets/713d73431534cfddd08a93214b0039fa.png)
 
-* <strong>Reference Range:</strong> Selecting the correct observation name may pop-up the reference ranges for that specific observation. These are reference ranges that are considered ‘normal' ranges for example: a lab test result. These must be pre-programmed by MIE for that observation name or by an administrator in your practice through the <em>Observation Codes</em> tab in the Control sidemenu. You cannot free-text in this field.
-* <strong>Units:</strong> Selecting the correct observation name may pop-up the units the observation is measured in. These must be pre-programmed by MIE for that observation name or by an administrator in your practice through the <em>Observation Codes</em> tab in the Control sidemenu. You cannot free-text in this field. Units are example: mg/dl or lbs or degrees, etc.
-* <strong>Result:</strong> Type in the result of the observation you are entering.
-* <strong>Result Flag:</strong> Enter an H if the observation result is high or an L if the observation result is low according to the reference range or according to the lab result you are entering from. If a reference range has been programmed by MIE for a specific observation, it will automatically know if an H or L should go here according to what you entered in <em>result.</em> If you type anything in this field, it will highlight it in red in the list or tests observations view. You can free-text a few characters here. You do not have to only type an H or an L. If you leave this blank, it considers the result as within normal range and does not highlight it in the list or tests observations view.
-* <strong>Result Free Text:</strong> Type any notes related to the observation's result. This does not show in the list or tests view. It only shows here when a specific observation is opened to view or edit or delete. This is also used for large report-style results that come in from interfaces for particular tests.
-* <strong>Comments:</strong> Enter any comments here. They will show when you hover over the observation on the summary screen that lists all the patients observations. This is used for internal office comments.
+- <strong>Reference Range:</strong> Selecting the correct observation name may pop-up the reference ranges for that specific observation. These are reference ranges that are considered ‘normal' ranges for example: a lab test result. These must be pre-programmed by MIE for that observation name or by an administrator in your practice through the <em>Observation Codes</em> tab in the Control sidemenu. You cannot free-text in this field.
+- <strong>Units:</strong> Selecting the correct observation name may pop-up the units the observation is measured in. These must be pre-programmed by MIE for that observation name or by an administrator in your practice through the <em>Observation Codes</em> tab in the Control sidemenu. You cannot free-text in this field. Units are example: mg/dl or lbs or degrees, etc.
+- <strong>Result:</strong> Type in the result of the observation you are entering.
+- <strong>Result Flag:</strong> Enter an H if the observation result is high or an L if the observation result is low according to the reference range or according to the lab result you are entering from. If a reference range has been programmed by MIE for a specific observation, it will automatically know if an H or L should go here according to what you entered in <em>result.</em> If you type anything in this field, it will highlight it in red in the list or tests observations view. You can free-text a few characters here. You do not have to only type an H or an L. If you leave this blank, it considers the result as within normal range and does not highlight it in the list or tests observations view.
+- <strong>Result Free Text:</strong> Type any notes related to the observation's result. This does not show in the list or tests view. It only shows here when a specific observation is opened to view or edit or delete. This is also used for large report-style results that come in from interfaces for particular tests.
+- <strong>Comments:</strong> Enter any comments here. They will show when you hover over the observation on the summary screen that lists all the patients observations. This is used for internal office comments.
 
-Click *Submit* to enter this observation into the patient's chart.
+Click _Submit_ to enter this observation into the patient's chart.
 
 You will get a confirmation message if you successfully added an observation.
 
@@ -139,9 +140,9 @@ A separate window will open showing this specific observation entry and a histor
 
 ![](./observations-tab.assets/1c4fde8a3d5eea720bcbef3355d96aa9.png)
 
-You can change/edit any fields you wish and click *submit* when done.
+You can change/edit any fields you wish and click _submit_ when done.
 
-If you wish to delete an observation, click *delete* and it will ask you to confirm deletion.
+If you wish to delete an observation, click _delete_ and it will ask you to confirm deletion.
 
 You will get a confirmation message if you successfully updated the observation.
 
@@ -161,11 +162,11 @@ Flowsheets compile specific observations and results for the patient in a flowsh
 
 ![](./observations-tab.assets/38faa333c24c117bee56104e3ac918a8.png)
 
-If you have security permission to Manage Observation Flowsheets and are trained on this feature, you can edit or create new observation flowsheets to your entire system. If you do not have permission, you will **not** see the *manage flowsheets* button next to flowsheet line. Note: You can also manage flowsheets from Control → Observation Codes tab → and clicking Display Flowsheets
+If you have security permission to Manage Observation Flowsheets and are trained on this feature, you can edit or create new observation flowsheets to your entire system. If you do not have permission, you will **not** see the _manage flowsheets_ button next to flowsheet line. Note: You can also manage flowsheets from Control → Observation Codes tab → and clicking Display Flowsheets
 
 ![](./observations-tab.assets/18e4c7978e0c3a766de89e9f399eecb0.png)
 
-For more information on managing flowsheets (like adding, editing, copying) for your system, please see help documentation titled *Observation Flowsheets.pdf*
+For more information on managing flowsheets (like adding, editing, copying) for your system, please see help documentation titled _Observation Flowsheets.pdf_
 
 ## Charts
 

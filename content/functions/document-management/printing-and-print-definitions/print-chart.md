@@ -1,22 +1,23 @@
 ---
-id: '10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-title: 'Print Chart'
-date: '2025-11-25T17:05:04.146Z'
+id: "10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
+title: "Print Chart"
+date: "2025-11-25T17:05:04.146Z"
 version: 140
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/'
-  - 'https://docs.enterprisehealth.com/functions/e-chart/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
-  - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
-  - 'https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/'
-  - 'https://docs.enterprisehealth.com/functions/scheduling/schedule-management/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/'
-  - 'https://mie.talentlms.com/shared/start/key:LEBIDNHR'
-source: 'https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/"
+  - "https://docs.enterprisehealth.com/functions/e-chart/"
+  - "https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/"
+  - "https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/"
+  - "https://docs.enterprisehealth.com/functions/scheduling/appt-types-tab/"
+  - "https://docs.enterprisehealth.com/functions/scheduling/schedule-management/"
+  - "https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-chart/"
+  - "https://mie.talentlms.com/shared/start/key:LEBIDNHR"
+source: "https://drive.google.com/open?id=10iTI1XYCr4psVflBlwJHnxnPKKcb3I64Yrq6LviXvD8"
+wikigdrive: "v2.15.30"
 ---
+
 Within every chart, there are several quick links available. One of these quick links is the **Print Chart** link, which allows users to fax or print pre-established or configured print definitions from the Scheduler, the Appointments chart tab, or from within the individual's E-Chart. In other words, using the Print Chart link provides users a way to print or fax predefined groupings of documents, forms, layouts, or the like, so that any specific packets of information, or stored documents, may easily be provided via fax, or else printed and provided to a performing facility or a patient, as needed. Print definitions can include individual documents or certain forms, multiple-page packets, or even chart information, such as a medication summary or a list of immunizations.
 
 The print definitions used for the Print Chart functionality can be set up using the [Print Definition editor](https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/print-definitions/) of the **Control Panel**. Here, users with the appropriate security permissions may define the necessary print definitions and group the various types of documents, forms, and/or chart information needed for intake workflows, scheduled appointments, specific procedures, etc. These print definitions, can then be used to reduce costs and streamline workflows and communication, all by way of reducing unnecessary printing and simplifying the processes involved with potentially necessary printing.
@@ -109,4 +110,4 @@ Once either of these links are clicked, the Print Chart dialog window will open,
 
 To learn more about Printing Charts, follow the link below to the Learning Management System course:
 
-* [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)
+- [Printing Documents](https://mie.talentlms.com/shared/start/key:LEBIDNHR)

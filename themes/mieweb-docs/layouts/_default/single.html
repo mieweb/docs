@@ -1,0 +1,103 @@
+{{ define "main" }}
+{{ partial "header.html" . }}
+
+<div class="flex min-h-screen pt-16">
+  {{- /* Sidebar */}}
+  {{ partial "sidebar.html" . }}
+  
+  {{- /* Main content area */}}
+  <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
+    <div class="mx-auto max-w-4xl px-4 py-8 lg:px-8">
+      {{- /* Breadcrumbs */}}
+      {{ partial "breadcrumbs.html" . }}
+      
+      {{- /* Page header */}}
+      <header class="mb-8 border-b border-border pb-6">
+        <div class="flex flex-wrap items-start justify-between gap-4">
+          <h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl" {{ if .Params.url }}id="{{ replace .Params.url ".md" "" }}"{{ end }}>
+            {{ .Title }}
+          </h1>
+          
+          <div class="flex items-center gap-2 shrink-0">
+            <button 
+              id="btn-share" 
+              class="btn btn-secondary btn-sm"
+              aria-label="Share this page"
+              title="Share this page"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
+              <span class="hidden sm:inline">Share</span>
+            </button>
+            
+            {{ if .Params.source }}
+            <a 
+              href="{{ .Params.source }}" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm"
+              aria-label="Edit in Google Drive"
+              title="Edit in Google Drive"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+              <span class="sr-only">Edit in Google Drive</span>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </header>
+      
+      {{- /* Table of Contents + Content */}}
+      {{ if gt (.TableOfContents | len) 32 }}
+      <div class="grid gap-8 lg:grid-cols-[1fr,250px]">
+        <article class="prose prose-neutral dark:prose-invert">
+          {{ if eq .Params.markup "pandoc" }}
+            {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
+          {{ else }}
+            {{ .Content | safeHTML }}
+          {{ end }}
+        </article>
+        
+        <aside class="hidden lg:block">
+          <div class="sticky top-20">
+            <h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-muted-foreground">On this page</h2>
+            <nav class="toc text-sm">
+              {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
+            </nav>
+          </div>
+        </aside>
+      </div>
+      {{ else }}
+      <article class="prose prose-neutral dark:prose-invert">
+        {{ if eq .Params.markup "pandoc" }}
+          {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
+        {{ else }}
+          {{ .Content | safeHTML }}
+        {{ end }}
+      </article>
+      {{ end }}
+      
+      {{- /* Footer call to action */}}
+      {{ partial "footer-cta.html" . }}
+      
+      {{- /* Date info */}}
+      {{ partial "date-info.html" . }}
+    </div>
+  </main>
+</div>
+
+{{- /* Scroll to top button */}}
+<button 
+  id="scroll-to-top"
+  class="fixed bottom-6 right-6 z-50 hidden h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-opacity hover:opacity-80"
+  aria-label="Scroll to top"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+{{- /* Search modal */}}
+{{ partial "search-modal.html" . }}
+
+{{- /* Feedback modal */}}
+{{ partial "feedback-modal.html" . }}
+
+{{ end }}

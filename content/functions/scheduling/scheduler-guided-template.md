@@ -1,17 +1,18 @@
 ---
-id: '1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A'
-title: 'Scheduler Guided Template'
-date: '2025-09-11T15:01:48.066Z'
+id: "1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A"
+title: "Scheduler Guided Template"
+date: "2025-09-11T15:01:48.066Z"
 version: 171
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'schedules-tab.md'
-  - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
-source: 'https://drive.google.com/open?id=1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A'
-wikigdrive: 'v2.15.30'
+  - "schedules-tab.md"
+  - "https://mie.talentlms.com/shared/start/key:AEEHRKMF"
+source: "https://drive.google.com/open?id=1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A"
+wikigdrive: "v2.15.30"
 ---
-To enable the Guided Template ability in Schedules, go to the My Settings preference *Guided Schedules* and set it to enabled.
+
+To enable the Guided Template ability in Schedules, go to the My Settings preference _Guided Schedules_ and set it to enabled.
 
 ![](./scheduler-guided-template.assets/511a48b0c3a8ce07025ff6878041c1a1.png)
 
@@ -23,7 +24,7 @@ You also must have security permission to View Schedules and Edit Schedules, in 
 
 ![](./scheduler-guided-template.assets/1401ea2a797575955b00e113e129e7e1.png)
 
-The Guided Template is a series of pop-up screens that take you through the step by step process of creating a schedule for the system.  It stores the same information as the legacy Schedule Add method, but in a step by step format.  The legacy Schedule Add editor is always available via the Add hyperlink in the Schedules screen.  For more detailed information see [Schedules Tab](schedules-tab.md) guide.
+The Guided Template is a series of pop-up screens that take you through the step by step process of creating a schedule for the system. It stores the same information as the legacy Schedule Add method, but in a step by step format. The legacy Schedule Add editor is always available via the Add hyperlink in the Schedules screen. For more detailed information see [Schedules Tab](schedules-tab.md) guide.
 
 ## Guided Templates (Schedules)
 
@@ -47,7 +48,7 @@ If **Allow** is selected: the user is prompted with "Should this happen repeated
 
 #### Should this happen repeatedly? Yes
 
-If Yes, then enter the occurrence from the options available.  (If no, see more instructions below for that option to proceed through)
+If Yes, then enter the occurrence from the options available. (If no, see more instructions below for that option to proceed through)
 
 ![](./scheduler-guided-template.assets/d89322fe08f8157a3240878a39892391.png)
 
@@ -81,7 +82,7 @@ If no, the user will be taken to the autocomplete to select from a list of all a
 
 ![](./scheduler-guided-template.assets/8872efa28fc1f0b7daf21fbd4ba10f31.png)
 
-If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes.  If you do not want portal users to be able to self schedule for this schedule, select No.
+If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes. If you do not want portal users to be able to self schedule for this schedule, select No.
 
 ![](./scheduler-guided-template.assets/44decd6286dd36f4c017ec59ee432121.png)
 
@@ -93,7 +94,7 @@ Set the number of appointments that should be able to be on per time slot for th
 
 ![](./scheduler-guided-template.assets/0a79e5735c9b4b9534ce13386351f723.png)
 
-Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up.  Color choices use HEX color codes.
+Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up. Color choices use HEX color codes.
 
 ![](./scheduler-guided-template.assets/2efbda02f54b34b94842ac64f06cb7c8.png)
 
@@ -137,7 +138,7 @@ If no, the user will be taken to the autocomplete to select from a list of all a
 
 ![](./scheduler-guided-template.assets/8872efa28fc1f0b7daf21fbd4ba10f31.png)
 
-If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes.  If you do not want portal users to be able to self schedule for this schedule, select No.
+If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes. If you do not want portal users to be able to self schedule for this schedule, select No.
 
 ![](./scheduler-guided-template.assets/44decd6286dd36f4c017ec59ee432121.png)
 
@@ -149,7 +150,7 @@ Set the number of appointments that should be able to be on per time slot for th
 
 ![](./scheduler-guided-template.assets/0a79e5735c9b4b9534ce13386351f723.png)
 
-Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up.  Color choices use HEX color codes.
+Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up. Color choices use HEX color codes.
 
 ![](./scheduler-guided-template.assets/2efbda02f54b34b94842ac64f06cb7c8.png)
 
@@ -161,4 +162,4 @@ Once the schedule is saved, you will get a successful message to click OK throug
 
 To learn more about Schedules follow the link below to the Learning Management System course:
 
-* [Schedule Templates](https://mie.talentlms.com/shared/start/key:AEEHRKMF)
+- [Schedule Templates](https://mie.talentlms.com/shared/start/key:AEEHRKMF)

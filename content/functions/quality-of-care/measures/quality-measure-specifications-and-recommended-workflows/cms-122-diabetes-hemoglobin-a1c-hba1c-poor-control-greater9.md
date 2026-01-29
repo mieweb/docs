@@ -1,20 +1,21 @@
 ---
-id: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-title: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
-date: '2024-09-05T21:09:31.182Z'
+id: "1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4"
+title: "CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)"
+date: "2024-09-05T21:09:31.182Z"
 version: 122
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v12&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v11&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v10&showresulttype=Measure'
-  - '../../../order-and-result-management/observation-code-merging.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12'
-source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: 'v2.15.30'
-markup: 'pandoc'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v12&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v11&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v10&showresulttype=Measure"
+  - "../../../order-and-result-management/observation-code-merging.md"
+  - "https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12"
+source: "https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4"
+wikigdrive: "v2.15.30"
+markup: "pandoc"
 ---
+
 ## Overview
 
 [CMS122v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms122&showresult=CMS122v12&showresulttype=Measure) (2024)
@@ -40,7 +41,7 @@ markup: 'pandoc'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -103,7 +104,7 @@ markup: 'pandoc'
 
 ## Clinical Instructions
 
-Track the HbA1c of all diabetic patients between the ages of 18-75.  The most recently performed HbA1c during the measurement period should be <=9.0%.  Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.  Any patients with an HbA1c >9% will be included in the numerator and count against quality.  This is an inverse measure.  The goal is to NOT have patients in the numerator
+Track the HbA1c of all diabetic patients between the ages of 18-75. The most recently performed HbA1c during the measurement period should be <=9.0%. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface. Any patients with an HbA1c >9% will be included in the numerator and count against quality. This is an inverse measure. The goal is to NOT have patients in the numerator
 
 Regardless of how the HbA1c observation is added to the chart, clients will need to ensure that the appropriate observation is configured with one of the following LOINC codes: 4548-4, 4549-2, or 17856-6.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the Hemoglobin A1c observation to determine if multiple HbA1c [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 
@@ -134,9 +135,9 @@ Regardless of how the HbA1c observation is added to the chart, clients will need
 #### Workflow A
 
 1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
-    a.  Palliative Care
-    b.  Hospice Care
-    c.  Frailty Device Use
+   a. Palliative Care
+   b. Hospice Care
+   c. Frailty Device Use
 
 ## Evidence
 

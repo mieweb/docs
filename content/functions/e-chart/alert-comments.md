@@ -1,18 +1,19 @@
 ---
-id: '1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-title: 'Alert Comments'
-date: '2025-11-07T19:22:53.512Z'
+id: "1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0"
+title: "Alert Comments"
+date: "2025-11-07T19:22:53.512Z"
 version: 95
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/text-documents/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
-  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/delete-move-lock-documents/'
-source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/text-documents/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/"
+  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/delete-move-lock-documents/"
+source: "https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0"
+wikigdrive: "v2.15.30"
 ---
+
 The **Alert Comments** document (WCALERT document type) is found in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
 
 ![](./alert-comments.assets/4ee9922b66a83eb55922ed7161fcc963.png)
@@ -60,19 +61,10 @@ See additional information in our [Document Properties](https://docs.enterpriseh
 {{% tip %}}
 The system setting E-Chart, Defaults, Alert Comment Cutoff can be set with a numerical value.  The number set here as the value will be the number of characters an alert comment will cut off within the Warnings & Alerts portlet of the Patient Summary chart tab.  This system setting does not affect or cut any alert text off the patient header where alerts show or the sidechart feature.
 
-
-
 ![](./alert-comments.assets/fbbc9105f3b5f825ad6e5a88e2ebe2d9.png)
-
-
 
 In this example, the system setting is set to cut off after 10 characters on an alert comment.  It will respect as such in the portlet named Warnings & Alerts.  To see the entire alert comment text, simply hover your mouse over the alert comment and you will see the full comment.
 
-
-
 ![](./alert-comments.assets/111ec2dc29aae1ee2325f2721bfc863b.png)
-
-
-
 
 {{% /tip %}}

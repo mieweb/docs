@@ -1,18 +1,19 @@
 ---
-id: '1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-title: 'Lab Result CSV API'
-date: '2025-11-12T20:42:19.963Z'
+id: "1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk"
+title: "Lab Result CSV API"
+date: "2025-11-12T20:42:19.963Z"
 version: 56
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'data-import-overview.md'
-  - 'https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
-  - 'data-import-master-list.md'
-source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: 'v2.15.30'
+  - "data-import-overview.md"
+  - "https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
+  - "data-import-master-list.md"
+source: "https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk"
+wikigdrive: "v2.15.30"
 ---
+
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 
 ## Audience
@@ -33,8 +34,8 @@ All lab results are stored both as discrete data. Discrete data can be displayed
 
 The following detailed specifications are available for the Lab Result CSV API:
 
-* [Lab Result CSV API specifications](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
-    * Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
+- [Lab Result CSV API specifications](https://docs.google.com/spreadsheets/d/1kNHc7LYv6ee2Xe0gFsGcMpjgrVnuWljTWp5qX7PNGK4/edit#gid=0)
+  - Note: The specification may be downloaded as Excel, CSV, or duplicated as an online spreadsheet under the File menu.
 
 ### Column Definitions and Specific Coded Values
 
@@ -42,4 +43,4 @@ Definitions for the columns utilized in the specification, as well as commonly u
 
 ## Related Pages
 
-* [Data Import Master List](data-import-master-list.md)
+- [Data Import Master List](data-import-master-list.md)

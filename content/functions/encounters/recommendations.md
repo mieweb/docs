@@ -1,39 +1,40 @@
 ---
-id: '1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE'
-title: 'Recommendations'
-date: '2025-11-11T14:09:29.812Z'
+id: "1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE"
+title: "Recommendations"
+date: "2025-11-11T14:09:29.812Z"
 version: 79
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/injury-care/work-status/'
-  - '../injury-care/work-status.md'
-source: 'https://drive.google.com/open?id=1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/injury-care/work-status/"
+  - "../injury-care/work-status.md"
+source: "https://drive.google.com/open?id=1gtz7AgyPA2bPOoQd57LL_BZ80VQjJpGjUHaVLHdxLNE"
+wikigdrive: "v2.15.30"
 ---
-Recommendations are written opinion panel action items that are programmed as unique representative events within a health surveillance panel.  Recommendations are the final determination of the overall panel status for the patient/employee. When a health surveillance panel ‘evaluates' to trigger all tests/procedures that need completed for a specific panel, the pending written opinion/recommendation will display as such in the Due List portlet, Due List chart tab, and in the Recommendations section of an encounter.
+
+Recommendations are written opinion panel action items that are programmed as unique representative events within a health surveillance panel. Recommendations are the final determination of the overall panel status for the patient/employee. When a health surveillance panel ‘evaluates' to trigger all tests/procedures that need completed for a specific panel, the pending written opinion/recommendation will display as such in the Due List portlet, Due List chart tab, and in the Recommendations section of an encounter.
 
 ![](./recommendations.assets/ebac6ba1b3cb14bdaaafe5d1f52c278b.png)
 
 ## Recommendations Section
 
-While working in an encounter, you may see the Recommendations section found in the Plan section.  Typically, a recommendation aka: written opinion is done by a provider who can make a determination as to the employee's status and determine whether the employee is fit to perform his/her duties.  In most Health Surveillance panels, the recommendation/written opinion action item is the representative event of the Health Surveillance panel.  A representative event must be on every programmed Health Surveillance panel in Enterprise Health.  A representative event on the panel is a single order (action item) whose completion is used to represent completion of the overall panel.  All panels need a single, unique, representative order (action item) as a component.  Health Surveillance panels need to use a written opinion order as its representative event.
+While working in an encounter, you may see the Recommendations section found in the Plan section. Typically, a recommendation aka: written opinion is done by a provider who can make a determination as to the employee's status and determine whether the employee is fit to perform his/her duties. In most Health Surveillance panels, the recommendation/written opinion action item is the representative event of the Health Surveillance panel. A representative event must be on every programmed Health Surveillance panel in Enterprise Health. A representative event on the panel is a single order (action item) whose completion is used to represent completion of the overall panel. All panels need a single, unique, representative order (action item) as a component. Health Surveillance panels need to use a written opinion order as its representative event.
 
-The recommendations section displays only RE order types (recommendation/written opinion) action item associated with the employee's panel (its representative event).  Note: RE order types (recommendations) are not able to be added or applied in the encounter tests/procedures encounter section.  Only RE order types (recommendations) can be added or applied in the Recommendations section of an encounter.
+The recommendations section displays only RE order types (recommendation/written opinion) action item associated with the employee's panel (its representative event). Note: RE order types (recommendations) are not able to be added or applied in the encounter tests/procedures encounter section. Only RE order types (recommendations) can be added or applied in the Recommendations section of an encounter.
 
 ![](./recommendations.assets/3fc365ffa8778416b0cd985f812842e2.png)
 
-Note: When data is keyed into the recommendation/written opinion section, it fills in the Work Status report.  Work Status reports are found in an encounter additional view, the Work Status chart tab, patient portlet, portal employee page, and portal supervisor page.  The Work Status is a summary of an employee's status, and can be used by an employer to determine eligibility as to whether the employee is fit to perform his/her duties.
+Note: When data is keyed into the recommendation/written opinion section, it fills in the Work Status report. Work Status reports are found in an encounter additional view, the Work Status chart tab, patient portlet, portal employee page, and portal supervisor page. The Work Status is a summary of an employee's status, and can be used by an employer to determine eligibility as to whether the employee is fit to perform his/her duties.
 
 ## Applying a Pending Recommendation to be Performed
 
-Recommendation action items triggered from the panel will display in the Recommendations section of the encounter.  These are ‘pending' recommendations.  Just like there are pending due list items related to the health surveillance panel, there can be pending recommendation item(s) related to the panel.
+Recommendation action items triggered from the panel will display in the Recommendations section of the encounter. These are ‘pending' recommendations. Just like there are pending due list items related to the health surveillance panel, there can be pending recommendation item(s) related to the panel.
 
-Performing a recommendation (written opinion) and performing a test/procedure from a due list are the same.  On the pending written opinion (recommendation) displayed in the Recommendations encounter section, simply click the lightning bolt icon next to it to ‘add to exam'.
+Performing a recommendation (written opinion) and performing a test/procedure from a due list are the same. On the pending written opinion (recommendation) displayed in the Recommendations encounter section, simply click the lightning bolt icon next to it to ‘add to exam'.
 
 ![](./recommendations.assets/db2315b679d182d48c83d856b3d6b565.png)
 
-Another method to apply a pending recommendation to the encounter section is by expanding the Recommendation grey title bar encounter section, checkmarking which recommendation pending item to perform and clicking the *Add to Exam* button on the grid.
+Another method to apply a pending recommendation to the encounter section is by expanding the Recommendation grey title bar encounter section, checkmarking which recommendation pending item to perform and clicking the _Add to Exam_ button on the grid.
 
 ![](./recommendations.assets/7ae1ce99051f76e691c84216f35403d9.png)
 
@@ -51,7 +52,7 @@ Another way is to expand open the Recommendations encounter section by clicking 
 
 ![](./recommendations.assets/ccc5e3239e0df3409292547e2ae3c185.png)
 
-This displays an order picklist titled Recommendations.  The order picklist is programmed in the system and displays selectable recommendation/written opinion order items that are specifically programmed as RE order type.  If the picklist named ‘Recommendations' does not appear, then that picklist has not been programmed into your system.  To select one, simply checkmark the desired recommendation (medical opinion) to apply to the encounter, then click the Add Procedures button on the picklist at the top or bottom of the pop-up screen.
+This displays an order picklist titled Recommendations. The order picklist is programmed in the system and displays selectable recommendation/written opinion order items that are specifically programmed as RE order type. If the picklist named ‘Recommendations' does not appear, then that picklist has not been programmed into your system. To select one, simply checkmark the desired recommendation (medical opinion) to apply to the encounter, then click the Add Procedures button on the picklist at the top or bottom of the pop-up screen.
 
 ![](./recommendations.assets/a81dad1ef72d02e42f485e6e7f8a8bc9.png)
 
@@ -65,7 +66,7 @@ Click to expand the written opinion section that was applied. Simply click the g
 
 ![](./recommendations.assets/7e9f042d1470982512a7ea09b69c9dbd.png)
 
-Upon expanding the specific written opinion title section, you will see a grid named Procedures/Documents to Review.  This lists all panel action items that were triggered to have done in relation to that health surveillance panel that the written opinion/recommendation is a part of.  It is recommended that all the tests & procedures related to a health surveillance panel be performed & results documented in an encounter prior to a recommendation being completed.  The Procedures/Documents to Review grid provides visibility to what tests/procedures are a part of that panel that triggered for the patient, and visibility to other information (ie: their results) to easily be able to render an overall opinion.
+Upon expanding the specific written opinion title section, you will see a grid named Procedures/Documents to Review. This lists all panel action items that were triggered to have done in relation to that health surveillance panel that the written opinion/recommendation is a part of. It is recommended that all the tests & procedures related to a health surveillance panel be performed & results documented in an encounter prior to a recommendation being completed. The Procedures/Documents to Review grid provides visibility to what tests/procedures are a part of that panel that triggered for the patient, and visibility to other information (ie: their results) to easily be able to render an overall opinion.
 
 ![](./recommendations.assets/b23b55c629fdf35c15c510666b976274.png)
 
@@ -83,13 +84,13 @@ Columns of the Procedures/Documents to Review:
 
 **On:** date of when the specific panel action item (test/procedure) received its current status
 
-**Results:** hyperlinks to stored documents are available to view the results stored in the patient's chart for this specific tests/procedure once completed.  This allows visibility to individual document results of tests/procedures for the panel without having to browse out of the encounter.  Note: There is also a hyperlink Completed Documents accessible from the top left corner of the grid.  When that is clicked, it will open a new window which is scrollable to see all the results on one window/page view instead of individually clicking on these individual documented results on a per action item (test/procedure) level
+**Results:** hyperlinks to stored documents are available to view the results stored in the patient's chart for this specific tests/procedure once completed. This allows visibility to individual document results of tests/procedures for the panel without having to browse out of the encounter. Note: There is also a hyperlink Completed Documents accessible from the top left corner of the grid. When that is clicked, it will open a new window which is scrollable to see all the results on one window/page view instead of individually clicking on these individual documented results on a per action item (test/procedure) level
 
 ![](./recommendations.assets/eb37624b8a30be6bb219f134f20b197f.png)
 
 **Criteria:** if a panel action item within a panel is signified as ‘required' for the panel, then there are other procedure inputs that staff would signify such as pass, fail, review or permanent fail. That then is shown in the ‘criteria' column of the procedures/documents to review when performing a determination/opinion.
 
-Following the Procedures/Documents to review grid is the determination/opinion data capture portion.  Written Opinions (recommendations) can utilize a host of different layout options.
+Following the Procedures/Documents to review grid is the determination/opinion data capture portion. Written Opinions (recommendations) can utilize a host of different layout options.
 
 This example shows a written opinion layout that displays several discrete data items to capture along with the overall determination of no significant findings, significant findings, or further testing is required:
 
@@ -103,7 +104,7 @@ Typically, written opinion layouts will have an overall determination radio butt
 
 ![](./recommendations.assets/6a41542d6a4350d882ce3c8bdf265ac7.png)
 
-It is important to make sure to document the overall determination in a radio button selection displayed.  This is the determination that is also shared on Work Status areas & documents within the patient/employee chart.  See other help documentation titled [Work Status](https://docs.enterprisehealth.com/functions/injury-care/work-status/).
+It is important to make sure to document the overall determination in a radio button selection displayed. This is the determination that is also shared on Work Status areas & documents within the patient/employee chart. See other help documentation titled [Work Status](https://docs.enterprisehealth.com/functions/injury-care/work-status/).
 
 ![](./recommendations.assets/111b4009f1298b926774535ffed8d08b.png)
 
@@ -111,9 +112,9 @@ Below the overall determination displays restrictions & accommodations applicabl
 
 **Due Date:** Current due date of this recommendation/written opinion representative event
 
-**Effective date:** When the current status of this recommendation/written opinion went into effect.  Typically the day of the encounter.
+**Effective date:** When the current status of this recommendation/written opinion went into effect. Typically the day of the encounter.
 
-**Next Due Date:** When the panel should be completed again.  This due date is normally automatically calculated based on the frequency specified in the programmed health surveillance panel, added to the effective date.
+**Next Due Date:** When the panel should be completed again. This due date is normally automatically calculated based on the frequency specified in the programmed health surveillance panel, added to the effective date.
 
 **Reviewed Date:** When review was completed. Typically the day of the encounter.
 
@@ -123,7 +124,7 @@ It is important to select the Provider of who is rendering the opinion/determina
 
 ## Work Status
 
-Within the expanded Recommendations encounter section, there is a *Generate Work Status Report* option.  The checkbox (whether checked or not by default) is driven by a system setting.  When the Generate Work Status Report is checked, it will create an additional view when the encounter is closed and archived.  It will thus create a separate Work Status document. Note: A Work Status document can always be created via the Work Status Chart Tab instead, but this is ability to do it while working in an encounter and is optional here.
+Within the expanded Recommendations encounter section, there is a _Generate Work Status Report_ option. The checkbox (whether checked or not by default) is driven by a system setting. When the Generate Work Status Report is checked, it will create an additional view when the encounter is closed and archived. It will thus create a separate Work Status document. Note: A Work Status document can always be created via the Work Status Chart Tab instead, but this is ability to do it while working in an encounter and is optional here.
 
 ![](./recommendations.assets/b1369da466f63b22c9bc6092a025eed5.png)
 

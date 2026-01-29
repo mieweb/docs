@@ -1,17 +1,18 @@
 ---
-id: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-title: 'Observation Codes Editor'
-date: '2025-11-11T15:12:28.731Z'
+id: "1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
+title: "Observation Codes Editor"
+date: "2025-11-11T15:12:28.731Z"
 version: 152
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/'
-  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
-  - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
-source: 'https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/"
+  - "https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/"
+  - "https://mie.talentlms.com/shared/start/key:ALLHRKMF"
+source: "https://drive.google.com/open?id=1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU"
+wikigdrive: "v2.15.30"
 ---
+
 The Observation Codes Manager is a useful tool for adding, editing, viewing, merging, and deleting observation codes used within the {{% system-name %}} system. Out of the box, {{% system-name %}} is equipped with an extensive list of standard observation codes relevant to varying care settings, and these codes can be updated and defined, as needed.
 
 Additionally, because observation codes are often viewed for trend analysis, or in a graphical format, the Observation Codes Manager is also designed to allow easy access to the Flowsheet Manager for adding, editing, and viewing observation flowsheets. For more information on creating, using, and maintaining observation flowsheets, see the [Flowsheets Editor](https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/) online help documentation.
@@ -23,7 +24,7 @@ Observation codes are used for tracking various data within individual charts, a
 To view the current observation codes available within the {{% system-name %}} system, navigate to the tab of the . Here, a list view of all the available observation codes will populate. Users may click on the column header hyperlinks to sort in ascending/descending order, or all observation codes may be searched against using the available filters at the top of the page.
 
 {{% note %}}
-In order to access the Observation Codes Manager, users must have the **Observation Manager** security setting set to *Yes*.
+In order to access the Observation Codes Manager, users must have the **Observation Manager** security setting set to _Yes_.
 {{% /note %}}
 
 ## Adding Observation Codes
@@ -32,8 +33,8 @@ If an observation code is not available, or a new observation needs to be added,
 
 1. From the Observation Codes Manager, click the link in the upper-right corner of the page.
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
-    * <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
-    * <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
+   - <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
+   - <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
 
 Decimal: Any numerical data.
 
@@ -53,11 +54,12 @@ Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical cod
     * <strong>Target</strong>: If the Target Type dropdown is set to <em>Target</em>, users may specify the desired target in the input field (e.g., neg, pos, positive, negative, immune, etc.).
     * <strong>Conditional</strong>: This field is used for conditionally displaying specific observations. To use conditional logic, the appropriate script must be added to the Conditional field of the observation/question.
     * <strong>Calculation</strong>: Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script.
+
 3. Once all of the appropriate fields have been updated, click the <strong>Save</strong> button to submit all new information.
 
 ## Viewing/Editing Observation Codes
 
-As noted, when users navigate to the , the page loads a summary list view of all available observation codes. If additional details are needed for a specific observation, users may click the **View** link from the *Options* column of the respective observation code. Clicking the **Obs Code** or **Obs Name** values will open the Observation Code View, as well.
+As noted, when users navigate to the , the page loads a summary list view of all available observation codes. If additional details are needed for a specific observation, users may click the **View** link from the _Options_ column of the respective observation code. Clicking the **Obs Code** or **Obs Name** values will open the Observation Code View, as well.
 
 ![](./observation-codes-editor.assets/1c06defe5766a2c403df92b4881ce734.png)
 
@@ -75,7 +77,7 @@ The Observation Count value is a hyperlink. When clicked, a detailed list of all
 
 ### Edit
 
-To edit an existing observation code, users with the necessary security permission may click the **Edit** link from the *Options* column of the respective observation code. This will open the Observation Code Editor. Make any and all necessary changes, and click the **Save** button to submit the edits.
+To edit an existing observation code, users with the necessary security permission may click the **Edit** link from the _Options_ column of the respective observation code. This will open the Observation Code Editor. Make any and all necessary changes, and click the **Save** button to submit the edits.
 
 ![](./observation-codes-editor.assets/b61b1a5a51b14159a22e93043f4271cf.png)
 
@@ -83,7 +85,7 @@ To edit an existing observation code, users with the necessary security permissi
 
 When maintaining observation codes, there will be times when observation codes are either obsolete, or no longer used, because other, more applicable options are available. In these instances, users may opt to delete an observation code, or in some cases, merge it with another more common observation code.
 
-To delete an existing observation code, simply click the **Delete** link from the *Options* column of the respective observation code. This will present a confirmation of the deletion. Click the **Delete** button to continue with the removal.
+To delete an existing observation code, simply click the **Delete** link from the _Options_ column of the respective observation code. This will present a confirmation of the deletion. Click the **Delete** button to continue with the removal.
 
 ![](./observation-codes-editor.assets/90881575de3a975a3553212da0202236.png)
 
@@ -91,7 +93,7 @@ To delete an existing observation code, simply click the **Delete** link from th
 
 Whenever merging observation codes, it is important to understand that the code from which merging is occurring is the code that will be removed, or overwritten, in the {{% system-name %}} system. For instance, if the Urine(Glu) 9 observation code was being merged with Urinalysis Glucose 129, users would merge from Urine(Glu) 9, thus overwriting it with Urinalysis Glucose 129.
 
-To merge an observation code, locate the observation being removed and click the **Merge** link from the *Options* column.
+To merge an observation code, locate the observation being removed and click the **Merge** link from the _Options_ column.
 
 ![](./observation-codes-editor.assets/512ce94ca5014498c2a8809898ac6266.png)
 
@@ -100,7 +102,7 @@ When the Observation Code Merge page loads, **Enter Observation Code** will be t
 ![](./observation-codes-editor.assets/6afe70381a50458b7223d94edd20628c.png)
 
 {{% warning %}}
-Once an observation code has been merged, it cannot be *unmerged*.
+Once an observation code has been merged, it cannot be _unmerged_.
 {{% /warning %}}
 
 After continuing, users will be prompted with a verification page. Before the Merge button is available, the verification must be checked. After the box has been checked, click the **Merge** button.
@@ -117,4 +119,4 @@ For details regarding how to add, edit, and maintain Observation Flowsheets, see
 
 To learn more about the Observation Codes Editor, follow the link below to the Learning Management System course:
 
-* [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)
+- [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)

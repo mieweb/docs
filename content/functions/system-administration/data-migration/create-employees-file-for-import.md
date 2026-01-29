@@ -1,23 +1,24 @@
 ---
-id: '1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
-title: 'Create Employees File for Import'
-date: '2025-11-12T15:47:34.691Z'
+id: "1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
+title: "Create Employees File for Import"
+date: "2025-11-12T15:47:34.691Z"
 version: 61
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/'
-  - 'https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A'
-source: 'https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ'
-wikigdrive: 'v2.15.30'
+  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/"
+  - "https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A"
+source: "https://drive.google.com/open?id=1EeSZUgogLCUZD4CFQgP3qTtmhXuvTUbD9TY7toefUAQ"
+wikigdrive: "v2.15.30"
 ---
+
 This document explains how to import your existing employees into {{% system-name %}} .
 
 What you will need:
 
-* Spreadsheet software (Microsoft Excel or Google Sheets)
-* Employees CSV File Example
-* {{% system-name %}} end user with administrative rights
+- Spreadsheet software (Microsoft Excel or Google Sheets)
+- Employees CSV File Example
+- {{% system-name %}} end user with administrative rights
 
 ## Create Employees CSV File
 
@@ -81,9 +82,8 @@ What you will need:
 </tr>
 </table>
 
-
 {{% tip %}}
-*For a more comprehensive list of supported fields, please refer to the* [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/).
+_For a more comprehensive list of supported fields, please refer to the_ [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/).
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Employees CSV File Example for guidance.
@@ -117,8 +117,8 @@ For extra information on what happens during the import, click the **Verbose** c
 
 ## Resources
 
-* [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/)
-* [Validation script for Employee demographics](https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A)
+- [Human Resources Feed Fields Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/)
+- [Validation script for Employee demographics](https://drive.google.com/open?id=19oAQh3I8q7d0CHwpY5HKRCj-mKP_izNF82906OleF7A)
 
 ## Troubleshooting
 

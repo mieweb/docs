@@ -1,19 +1,20 @@
 ---
-id: '1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-title: 'CMS 146 - Appropriate Testing for Children with Pharyngitis'
-date: '2022-04-20T20:09:18.918Z'
+id: "1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic"
+title: "CMS 146 - Appropriate Testing for Children with Pharyngitis"
+date: "2022-04-20T20:09:18.918Z"
 version: 43
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v10&showresulttype=Measure'
-  - '../../../order-and-result-management/observation-code-merging.md'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10'
-source: 'https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v10&showresulttype=Measure"
+  - "../../../order-and-result-management/observation-code-merging.md"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms146v10"
+source: "https://drive.google.com/open?id=1OtPnt5NR98PeeONo8zG0IQGrG7_VTz0GG05zk7UPNic"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS146v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS146v8&showresulttype=Measure) (2020)
@@ -39,7 +40,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -107,35 +108,34 @@ wikigdrive: 'v2.15.30'
 
 ### New UI Visit Encounter (valid RC202109+)
 
-
 ### Original Visit Encounter
 
 Track all children ages 3-18 who had an outpatient or ED visit with a diagnosis of pharyngitis and an antibiotic ordered on or three (3) days after the visit. Compliance requires a group A streptococcus (strep) test be administered within the 7-day period from 3 days prior through 3 days after the initial diagnosis. Use either the Test and Procedures section of the encounter, or add the Lab Results - Set 2 to the encounter template; otherwise, enter the appropriate observation to the chart using the Observations chart tab.
 
 {{% tip %}}
-Regardless of how the strep test observation is added to the chart, clients will need to ensure that the appropriate observation is configured with LOINC 6559-9.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the *Strep* observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
+Regardless of how the strep test observation is added to the chart, clients will need to ensure that the appropriate observation is configured with LOINC 6559-9.  Clients should search the {{% syslink "Observation Codes editor" "f=admin&subfunc=obscodes_manager&t=Observation+Codes" %}} for the _Strep_ observations to determine if multiple [observations need to be merged](../../../order-and-result-management/observation-code-merging.md).
 {{% /tip %}}
 
-* While documenting the Visit encounter, document the results of a Strep test one of two ways:
-    1. <strong>Option 1: Tests and Procedures Section</strong>
-        1. Open the Tests and Procedures section.
-        2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
-        3. Click the Add to Exam button.
-        4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
-        5. Click the Next button, or close the section.
-    2. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
-        1. Click the Tools icon in the upper-right corner of the encounter.
-        2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
-        3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
-        4. Click the Next button, or close the section.
-    3. Continue documenting the encounter, as needed.
-    4. When completed, Close and Archive the encounter
-* <strong>Option 3: Add Observation using Observations Chart Tab</strong>
-    1. Navigate to the patient chart.
-    2. Open the Observations tab of the Medical Records chart tab.
-    3. Click the Add Observation link in the upper-right corner.
-    4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
-    5. Click the Submit button.
+- While documenting the Visit encounter, document the results of a Strep test one of two ways:
+  1. <strong>Option 1: Tests and Procedures Section</strong>
+     1. Open the Tests and Procedures section.
+     2. Using the autocomplete, begin typing Strep A Qual Throat Swab.
+     3. Click the Add to Exam button.
+     4. After adding the new section, open the Strep A Qual Throat Swab section and add the result.
+     5. Click the Next button, or close the section.
+  2. <strong>Option 2: Add Lab Results - Set 2 to Encounter</strong>
+     1. Click the Tools icon in the upper-right corner of the encounter.
+     2. Click the Lab Results - Set 2 header to add the section to the encounter template. Close the Tools window.
+     3. Click the Lab Results - Set 2 header to open the section and add the Rapid Strep result.
+     4. Click the Next button, or close the section.
+  3. Continue documenting the encounter, as needed.
+  4. When completed, Close and Archive the encounter
+- <strong>Option 3: Add Observation using Observations Chart Tab</strong>
+  1. Navigate to the patient chart.
+  2. Open the Observations tab of the Medical Records chart tab.
+  3. Click the Add Observation link in the upper-right corner.
+  4. Enter the Date the Rapid Strep was observed, its Result, and any relevant Comments.
+  5. Click the Submit button.
 
 ## Evidence
 

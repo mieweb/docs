@@ -1,14 +1,15 @@
 ---
-id: '1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
-title: 'Multilingual Feature'
-date: '2025-03-21T16:20:19.397Z'
+id: "1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
+title: "Multilingual Feature"
+date: "2025-03-21T16:20:19.397Z"
 version: 183
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}}  supports many different languages:  English, Indonesian/Bahasa, Portuguese, Chinese, Spanish, Thai, Dutch, Vietnamese.
 
 {{% note %}}

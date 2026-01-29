@@ -1,19 +1,20 @@
 ---
-id: '1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-title: 'System Anatomy'
-date: '2025-12-05T17:12:17.970Z'
+id: "1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8"
+title: "System Anatomy"
+date: "2025-12-05T17:12:17.970Z"
 version: 233
-lastAuthor: 'mpierzchala'
-mimeType: 'text/x-markdown'
+lastAuthor: "mpierzchala"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/resources/intro-to-the-system/'
-  - '../intro-to-the-system.md'
-  - '../../functions/encounters/working-in-a-visit-encounter.md'
-  - 'https://mie.talentlms.com/shared/start/key:AZGHRKMF'
-source: 'https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8'
-wikigdrive: 'v2.15.30'
-markup: 'pandoc'
+  - "https://docs.enterprisehealth.com/resources/intro-to-the-system/"
+  - "../intro-to-the-system.md"
+  - "../../functions/encounters/working-in-a-visit-encounter.md"
+  - "https://mie.talentlms.com/shared/start/key:AZGHRKMF"
+source: "https://drive.google.com/open?id=1zw0h2f_SwtwbsqdafoMi75CjleDcVn4vHV9_XZ7bW_8"
+wikigdrive: "v2.15.30"
+markup: "pandoc"
 ---
+
 The following page provides details on the correct terminology for screens and items that appear in an MIE (WebChart, Enterprise Health) system.
 
 For an overview on basic {{% system-name %}} navigation and functionality, see [Intro to the System](https://docs.enterprisehealth.com/resources/intro-to-the-system/).
@@ -38,7 +39,6 @@ A. Application toolbar: Displays application ( {{% system-name %}} ) navigation:
 4. Subscription status icon: Chain links icon indicates whether or not the signed in user is connected to the database. This connection also displays messages to notify a user if another user is working in a document that is currently open.
 5. Help bubble: Links to available help documentation.
 
-
 ![](./system-anatomy.assets/9e013b714cc8409722c8257f383bbc31.png)
 
 B. Tab toolbar: Displays any tabs that pertain to the page that is currently open. Tabs in this toolbar are sometimes referred to as "chart tabs."
@@ -46,7 +46,6 @@ B. Tab toolbar: Displays any tabs that pertain to the page that is currently ope
 C. Patient info toolbar: Displays patient name and MR # when working in an E-chart.
 
 1. Side chart icon: Opens the side chart when working in an encounter. Displays pertinent patient information (demographics, notes, medical records, orders/tests, comments) on the right side of the page.
-
 
 ![](./system-anatomy.assets/bd97d467d82a6d81f00bc02a2cab0eb0.png)
 
@@ -69,22 +68,21 @@ H. Encounter links: Links related to an open encounter, as well as a number of t
 7. Edit all sections button: Opens all sections of the encounter for editing.
 8. Show hidden section list button: Displays the list of all additional encounter sections that are not displayed. Click a section to add it to the encounter.
 
-
 ![](./system-anatomy.assets/ff661c073f6a045ad0591b820299c861.png)
 
 ### Header Bar (Right Side)
 
 ![](./system-anatomy.assets/39b1dfc7822a7f620c6e48d455bbc61a.png)
 
-A.  If AI has been enabled/licensed for the database, the AI icon will display. Clicking this icon will open/close Ozwell, the AI Assistant.
+A. If AI has been enabled/licensed for the database, the AI icon will display. Clicking this icon will open/close Ozwell, the AI Assistant.
 
 ![](./system-anatomy.assets/1c9e33587ccb1b27ce152de41f4cfe98.png)
 
-B.  The person icon may display in a blue or black color depending on user security. If blue, the user person icon, allows users the switch between user accounts in a new session. If black, the user does not have this security feature enabled.
+B. The person icon may display in a blue or black color depending on user security. If blue, the user person icon, allows users the switch between user accounts in a new session. If black, the user does not have this security feature enabled.
 
 ![](./system-anatomy.assets/9e4c37de0dff899c776cc078a612ea85.png)
 
-C.  The logged in user's name and security role will display to the right of the person icon. If the logged in user has access to edit user profiles, the name becomes a clickable link that takes the end user to the user account information. Beginning with RC202603, the User Detail box has been updated to display Eprescribe feature enrollment statuses and Meaningful Use (Quality) opt-in status and start dates.
+C. The logged in user's name and security role will display to the right of the person icon. If the logged in user has access to edit user profiles, the name becomes a clickable link that takes the end user to the user account information. Beginning with RC202603, the User Detail box has been updated to display Eprescribe feature enrollment statuses and Meaningful Use (Quality) opt-in status and start dates.
 
 ![](./system-anatomy.assets/e209643ee96dc7ca409d21e5a5a7f9c7.png)
 
@@ -92,31 +90,31 @@ As of database RC202409, a new system setting is available to determine how the 
 
 ![](./system-anatomy.assets/10d92d0520a1b48a00abd8d3802c7653.png)
 
-D.  The clock icon displays next to the user's preferred time zone. If the user has security that allows them to change their timezone, the icon/time zone becomes a clickable link, in which the user may change their time zone.
+D. The clock icon displays next to the user's preferred time zone. If the user has security that allows them to change their timezone, the icon/time zone becomes a clickable link, in which the user may change their time zone.
 
 ![](./system-anatomy.assets/1dbdb62212c6319ac24ff4244d2b81db.png)
 
-E.  The magnifying glass is a search feature that allows users with the proper security to search for key functions, layouts, system settings, etc by name to quickly navigate to that area.
+E. The magnifying glass is a search feature that allows users with the proper security to search for key functions, layouts, system settings, etc by name to quickly navigate to that area.
 
 ![](./system-anatomy.assets/f182fc82e702ba8389713e0f420c4eb7.png)
 
-F.  The magic wand icon displays for users with the security to add/edit configurable macros within the system.
+F. The magic wand icon displays for users with the security to add/edit configurable macros within the system.
 
 ![](./system-anatomy.assets/8b2f2723bb5aa5e16759ae998b2e6956.png)
 
-G.  The world icon allows users to switch between different languages (as configured).
+G. The world icon allows users to switch between different languages (as configured).
 
 ![](./system-anatomy.assets/3de3b8eb932206934414e564ab033ec5.png)
 
-H.  The Keyboard icon displays a list of Keyboard shortcuts.
+H. The Keyboard icon displays a list of Keyboard shortcuts.
 
 ![](./system-anatomy.assets/bbd2fda5bca27c4fb3c1cddb658b3dcf.png)
 
-I.  The orange question mark bubbles directs users to the online help guides and videos.
+I. The orange question mark bubbles directs users to the online help guides and videos.
 
 ![](./system-anatomy.assets/a4a41c0e343ffef2519737570adbe6bd.png)
 
-J.  The gray circle icon displays page performance data.
+J. The gray circle icon displays page performance data.
 
 ![](./system-anatomy.assets/59f4e79f1c6ef26ee62f49a04c39373d.png)
 
@@ -169,11 +167,11 @@ The following items can be seen throughout MIE systems. Here, an encounter is us
 
 ## Related Pages
 
-* [Intro to the System](../intro-to-the-system.md)
-* [Dynamic Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
+- [Intro to the System](../intro-to-the-system.md)
+- [Dynamic Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
 
 ## Learning Management System
 
 To learn more about the System Anatomy, follow the link below to the Learning Management System course:
 
-* [Basic Navigation](https://mie.talentlms.com/shared/start/key:AZGHRKMF)
+- [Basic Navigation](https://mie.talentlms.com/shared/start/key:AZGHRKMF)

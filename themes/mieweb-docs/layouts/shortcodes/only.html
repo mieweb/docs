@@ -1,0 +1,2 @@
+{{- /* Only shortcode - conditional brand content */}} {{ $brand := .Get 0 }} {{ if eq $.Site.Params.Brand.code $brand
+}} {{ .Inner }} {{ end }}

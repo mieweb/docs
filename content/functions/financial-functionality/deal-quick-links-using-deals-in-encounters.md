@@ -1,14 +1,15 @@
 ---
-id: '1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
-title: 'Deal Quick Links - Using Deals in Encounters'
-date: '2025-11-11T16:21:14.036Z'
+id: "1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ"
+title: "Deal Quick Links - Using Deals in Encounters"
+date: "2025-11-11T16:21:14.036Z"
 version: 83
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ"
+wikigdrive: "v2.15.30"
 ---
+
 ## Creating Orders in Charts from a Deal
 
 Deals can be used to generate orders to be performed for today's visit or populate orders on the employee due list, which may be used at today's visit or a future visit.
@@ -17,12 +18,12 @@ Deals can be used to generate orders to be performed for today's visit or popula
 
 To review employer deals from within employee chart or to add/update due list orders:
 
-* Open employee chart
-* Confirm the employee has a relationship to the applicable employer (EO). A relationship to an Employer Organization with active deals is required to be able to create chart orders using the Deal feature.
+- Open employee chart
+- Confirm the employee has a relationship to the applicable employer (EO). A relationship to an Employer Organization with active deals is required to be able to create chart orders using the Deal feature.
 
 ![](./deal-quick-links-using-deals-in-encounters.assets/2919a144361c705e01c8a59e79081b75.png)
 
-* If the relationship doesn't exist, edit/update the employee's relationship to the appropriate Employer Organization.
+- If the relationship doesn't exist, edit/update the employee's relationship to the appropriate Employer Organization.
 
 ![](./deal-quick-links-using-deals-in-encounters.assets/c48ce26bf44b3f0dfd214b6b5fe25dfb.png)
 
@@ -40,10 +41,10 @@ Click the check box to the Left of the Company Name, to select all orders in the
 
 ![](./deal-quick-links-using-deals-in-encounters.assets/2ca68b8b34ecef8b7c77ca40fd8f8f36.png)
 
-* Clicking ‘Evaluate Selected Orders' will add the orders to the employee's Due List. These may or may not necessarily be performed today.
-* Clicking ‘Perform Selected Orders' will open an encounter and add all the orders to the Tests & Procedures section to be completed today.
+- Clicking ‘Evaluate Selected Orders' will add the orders to the employee's Due List. These may or may not necessarily be performed today.
+- Clicking ‘Perform Selected Orders' will open an encounter and add all the orders to the Tests & Procedures section to be completed today.
 
-If there are any open encounters, a list will display on the bottom half of the Deal Quick Links portlet.  If you wish to use an existing encounter, select the radio button for that encounter, then click the ‘Perform Selected Orders'.  If you wish to open a new encounter, click the Add New Encounter button.
+If there are any open encounters, a list will display on the bottom half of the Deal Quick Links portlet. If you wish to use an existing encounter, select the radio button for that encounter, then click the ‘Perform Selected Orders'. If you wish to open a new encounter, click the Add New Encounter button.
 
 **_Note: the Add New Encounter button will open a blank encounter showing all default encounter sections. It does not open a specific encounter template._**
 

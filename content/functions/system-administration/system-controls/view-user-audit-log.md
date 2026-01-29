@@ -1,14 +1,15 @@
 ---
-id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-title: 'View User Audit Log'
-date: '2024-10-16T16:20:44.355Z'
+id: "1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo"
+title: "View User Audit Log"
+date: "2024-10-16T16:20:44.355Z"
 version: 122
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo"
+wikigdrive: "v2.15.30"
 ---
+
 Must have security permission to access the username screen found within Access Control.
 
 ## Audit Log Search
@@ -23,24 +24,24 @@ Once you've found the user (username) of the person, click their underlined user
 
 ![](./view-user-audit-log.assets/1ca7fec58cc20570276b1dde6129901d.png)
 
-The *View User Screen* will appear. At the right side of the screen, click the **View Audit Log** link (if you have security permission).
+The _View User Screen_ will appear. At the right side of the screen, click the **View Audit Log** link (if you have security permission).
 
 ![](./view-user-audit-log.assets/c64642f80031d7fa7822fa2aafec8fe0.png)
 
-You can click this to view the charts this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled *Audit Log Search*.
+You can click this to view the charts this user has viewed/worked in and view activity using the Audit Log Search fields. See separate instructions titled _Audit Log Search_.
 
 ![](./view-user-audit-log.assets/e7aef5e79dcc4bca579ff55f0f9a9b5d.png)
 
 You can narrow down your search results by entering any information in the following fields:
 
-* <strong>Patient:</strong> Can type in a specific patient chart to see if the user has been in. The system will auto-complete the patient you are typing and give you choices. These patient choices are active and/or deceased patients.
-* <strong>Doc ID:</strong> Can type in a specific document id number you wish to search activity for in relation to the user.
-* <strong>Date Range:</strong> Can enter a date range to show results for.
-* <strong>Partition:</strong> Select a partition to search for charts within a specific partition where this user may have had activity in (or leave this filter field blank to search for non-patient/chart events, such as user access, etc)
-* <strong>IP Address:</strong> Enter any part of the user's IP address.
-* <strong>Event:</strong> This is the specific event that occurred. (i.e.) Stream, View, Edit, etc.
-* <strong>(Event) Description:</strong> This is a description of something specific about the event that occurred. It will usually contain the document type description.
-* <strong>Granted:</strong> Was the action allowed (Yes) or not (No).
+- <strong>Patient:</strong> Can type in a specific patient chart to see if the user has been in. The system will auto-complete the patient you are typing and give you choices. These patient choices are active and/or deceased patients.
+- <strong>Doc ID:</strong> Can type in a specific document id number you wish to search activity for in relation to the user.
+- <strong>Date Range:</strong> Can enter a date range to show results for.
+- <strong>Partition:</strong> Select a partition to search for charts within a specific partition where this user may have had activity in (or leave this filter field blank to search for non-patient/chart events, such as user access, etc)
+- <strong>IP Address:</strong> Enter any part of the user's IP address.
+- <strong>Event:</strong> This is the specific event that occurred. (i.e.) Stream, View, Edit, etc.
+- <strong>(Event) Description:</strong> This is a description of something specific about the event that occurred. It will usually contain the document type description.
+- <strong>Granted:</strong> Was the action allowed (Yes) or not (No).
 
 Click SEARCH to show the search results according to the fields you entered data for.
 

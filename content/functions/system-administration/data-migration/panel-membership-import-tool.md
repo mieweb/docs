@@ -1,17 +1,18 @@
 ---
-id: '1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-title: 'Panel Membership Import Tool'
-date: '2025-11-12T16:50:45.204Z'
+id: "1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
+title: "Panel Membership Import Tool"
+date: "2025-11-12T16:50:45.204Z"
 version: 82
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'data-import-tab.md'
-  - 'https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
-source: 'https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
-wikigdrive: 'v2.15.30'
+  - "data-import-tab.md"
+  - "https://docs.enterprisehealth.com/functions/health-surveillance/health-surveillance-panels-add-memberships-manually/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
+source: "https://drive.google.com/open?id=1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y"
+wikigdrive: "v2.15.30"
 ---
+
 This document explains how to import your health surveillance panel membership data into {{% system-name %}} , using the Data Import tab. See our [Data Import Tab](data-import-tab.md) help documentation for more information regarding its many uses.
 
 The Panel Membership Import Tool uses partitions and medical record numbers (MRNs) to match patients' panel information to their charts. Therefore, work with your MIE Implementer, as needed, to import panel memberships, so that all data and columns are captured correctly, before importing via this tool.
@@ -24,19 +25,19 @@ Only use this one-time import tool if staff is going to be manually managing pan
 
 The following page defines data and fields that may be imported using the panel membership import tool. It is valuable to recognize the following terminology as it pertains to {{% system-name %}} systems:
 
-* <strong>Panel</strong> - Defines a group of events or actions that will take place on certain profiles of people on a regular schedule in the Health Surveillance module. Panels are sometimes referred to as exposure groups, as panels are used for groups exposed to certain hazards due to their job roles. The panels table is also used to document regularly scheduled voluntary health screenings or checkups. A <em>panel action</em> refers to a procedure that is completed for a patient as part of a panel.
-* <strong>Panel ID</strong> - The client-identified primary key used to identify the panel.
-* <strong>Partition</strong> - Often used to restrict which charts a user may access. Partitions are used to organize groups of charts.
-* <strong>Trigger</strong> - Established events that are programmed in a system to set off a series of events. For example, panel actions can be set to trigger off the creation of an encounter order in the {{% system-name %}} system.
-* <strong>Order</strong> - Term used loosely when any method is used to request tests, labs, radiology studies, and E-Orders.
-* <strong>Encounter Order</strong> - Generated from an encounter (a patient visit) or an order that must be completed from within an encounter.
+- <strong>Panel</strong> - Defines a group of events or actions that will take place on certain profiles of people on a regular schedule in the Health Surveillance module. Panels are sometimes referred to as exposure groups, as panels are used for groups exposed to certain hazards due to their job roles. The panels table is also used to document regularly scheduled voluntary health screenings or checkups. A <em>panel action</em> refers to a procedure that is completed for a patient as part of a panel.
+- <strong>Panel ID</strong> - The client-identified primary key used to identify the panel.
+- <strong>Partition</strong> - Often used to restrict which charts a user may access. Partitions are used to organize groups of charts.
+- <strong>Trigger</strong> - Established events that are programmed in a system to set off a series of events. For example, panel actions can be set to trigger off the creation of an encounter order in the {{% system-name %}} system.
+- <strong>Order</strong> - Term used loosely when any method is used to request tests, labs, radiology studies, and E-Orders.
+- <strong>Encounter Order</strong> - Generated from an encounter (a patient visit) or an order that must be completed from within an encounter.
 
 ## Specifications
 
-* {{% system-name %}} end user with administrative privileges
-* Spreadsheet software for formatting the data file (e.g., Microsoft Excel or Google Sheets); data files must be formatted in Comma Separated Values (CSV)
-* The first row of the file must contain column header information
-* Each subsequent row represents an encounter order
+- {{% system-name %}} end user with administrative privileges
+- Spreadsheet software for formatting the data file (e.g., Microsoft Excel or Google Sheets); data files must be formatted in Comma Separated Values (CSV)
+- The first row of the file must contain column header information
+- Each subsequent row represents an encounter order
 
 ## Create Panel Membership Data CSV File
 
@@ -126,7 +127,7 @@ Use the help bubble to see what panel IDs your {{% system-name %}} system has to
 
 6. Click the <strong>Choose File</strong> button, and select the panel membership data CSV file (from Step 5) and click <strong>Upload</strong>.
 
-    ![](./panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
+   ![](./panel-membership-import-tool.assets/22ab2e692fb4da43e0c888c3066ba0b2.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.

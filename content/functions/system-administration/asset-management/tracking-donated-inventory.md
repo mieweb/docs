@@ -1,39 +1,40 @@
 ---
-id: '1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-title: 'Tracking Donated Inventory'
-date: '2026-01-15T19:56:53.999Z'
+id: "1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
+title: "Tracking Donated Inventory"
+date: "2026-01-15T19:56:53.999Z"
 version: 35
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1uvf1aYv8VNw2vCGturbCrmeWl-3-aK-3imyJsU4ryyc"
+wikigdrive: "v2.15.30"
 ---
+
 ## Add Donated Tab
 
-This tab looks and performs just like the *Add Inventory* tab. However, when you add inventory items here thru the *Add Donated* tab, it tracks the transaction comment as *donated* if your system is set up to add/receive donated inventory items. Note: If you will not be tracking inventory items as separate ‘donated' items instead of general received inventory, then you can have your MIE Implementer remove this tab.
+This tab looks and performs just like the _Add Inventory_ tab. However, when you add inventory items here thru the _Add Donated_ tab, it tracks the transaction comment as _donated_ if your system is set up to add/receive donated inventory items. Note: If you will not be tracking inventory items as separate ‘donated' items instead of general received inventory, then you can have your MIE Implementer remove this tab.
 
 ![](./tracking-donated-inventory.assets/9f96e54d6b632a36f0a887a575e1e3df.png)
 
-If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named *Receive Patient Assistance*).
+If you need to add inventory specific to a patient because your practice uses patient assistance programs, you have to enter the patient's specific inventory from their e-chart using the Dispense chart tab (See other help documentation named _Receive Patient Assistance_).
 
-Depending on how your practice is set up and what all inventory details you track for Inventory, your *Add Inventory* data entry fields may be different.
+Depending on how your practice is set up and what all inventory details you track for Inventory, your _Add Inventory_ data entry fields may be different.
 
 ![](./tracking-donated-inventory.assets/feb65430d96aad0568c6a76dcee80a24.png)
 
 To add donated inventory quantity and detail information to be tied to your inventory master item, fill out the fields in this Add Donated screen. Use your tab key to advance to each field.
 
-* <strong>Site</strong>: Designate which site the meds will be available at.
-* <strong>Stockpile</strong>: if that site has a stockpile location associated with it, you can specify the stockpile you are adding inventory to for that specific site.
-* <strong>Drug/Item</strong>: Begin typing the name of the medication, injection or supply order item that you are adding to inventory. It will auto-complete choices from your master inventory items list for selection. If you have a barcode hand-held scanner device interface into your {{% system-name %}} system, you can have the cursor in this field, scan the barcode on the box/item and it will insert the barcode# and item name here (if prior barcode mapping has been compiled).
-* <strong>Qty</strong>: Enter the quantity of this specific inventory item you are adding to inventory. This is the individual number of items, not like number of boxes, etc.
-* <strong>Lot Number</strong>: You can enter the Lot Number of the inventory item. This is especially necessary for medications. If you fill out Lot # field, it's important to also fill out Mfr and expiration date fields so when decrementing inventory, it will decrement from the exact match. Lot # field can be set to be a ‘required' field via a system setting, but then that field is required for supply order items and injection items also.
-* <strong>Manufacturer</strong>: You can enter the Manufacturer of this inventory item you are adding to inventory.
-* <strong>Supplier</strong>: You can enter the Supplier of this inventory item you are adding to the inventory (who supplied it to you). However this field does not display anywhere else nor show in any reports.
-* <strong>Expiration Date</strong>: You can enter the expiration date for an inventory item being added to the inventory. There is a CLEAR button to clear the date or a calendar/pick date icon/link to pick a date from the calendar feature.
+- <strong>Site</strong>: Designate which site the meds will be available at.
+- <strong>Stockpile</strong>: if that site has a stockpile location associated with it, you can specify the stockpile you are adding inventory to for that specific site.
+- <strong>Drug/Item</strong>: Begin typing the name of the medication, injection or supply order item that you are adding to inventory. It will auto-complete choices from your master inventory items list for selection. If you have a barcode hand-held scanner device interface into your {{% system-name %}} system, you can have the cursor in this field, scan the barcode on the box/item and it will insert the barcode# and item name here (if prior barcode mapping has been compiled).
+- <strong>Qty</strong>: Enter the quantity of this specific inventory item you are adding to inventory. This is the individual number of items, not like number of boxes, etc.
+- <strong>Lot Number</strong>: You can enter the Lot Number of the inventory item. This is especially necessary for medications. If you fill out Lot # field, it's important to also fill out Mfr and expiration date fields so when decrementing inventory, it will decrement from the exact match. Lot # field can be set to be a ‘required' field via a system setting, but then that field is required for supply order items and injection items also.
+- <strong>Manufacturer</strong>: You can enter the Manufacturer of this inventory item you are adding to inventory.
+- <strong>Supplier</strong>: You can enter the Supplier of this inventory item you are adding to the inventory (who supplied it to you). However this field does not display anywhere else nor show in any reports.
+- <strong>Expiration Date</strong>: You can enter the expiration date for an inventory item being added to the inventory. There is a CLEAR button to clear the date or a calendar/pick date icon/link to pick a date from the calendar feature.
 
 {{% tip %}}
-There is also another CLEAR button to the far right which will clear *all* the add inventory fields for that line to start over.
+There is also another CLEAR button to the far right which will clear _all_ the add inventory fields for that line to start over.
 {{% /tip %}}
 
 Click the ADD TO INVENTORY button at the very bottom to add the donated inventory item QTY and details to your system's current inventory.

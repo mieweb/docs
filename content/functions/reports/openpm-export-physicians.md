@@ -1,14 +1,15 @@
 ---
-id: '1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0'
-title: 'OpenPM Export Physicians'
-date: '2025-11-11T19:47:45.205Z'
+id: "1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0"
+title: "OpenPM Export Physicians"
+date: "2025-11-11T19:47:45.205Z"
 version: 40
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1Ea0bkK8sX1w8KucfbqT3O12CZaJkxLFJ4Fkootlr5i0"
+wikigdrive: "v2.15.30"
 ---
+
 ## OpenPM Export Physicians (aka "ACUsersByDept")
 
 ### Description:

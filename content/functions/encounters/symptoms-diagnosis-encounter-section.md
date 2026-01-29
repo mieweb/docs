@@ -1,17 +1,18 @@
 ---
-id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
-title: 'Symptoms/Diagnosis Encounter Section'
-date: '2025-12-01T19:56:28.332Z'
+id: "1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ"
+title: "Symptoms/Diagnosis Encounter Section"
+date: "2025-12-01T19:56:28.332Z"
 version: 254
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/'
-  - 'https://docs.enterprisehealth.com/functions/encounters/goals/'
-  - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
-source: 'https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-order-and-result-management/"
+  - "https://docs.enterprisehealth.com/functions/encounters/goals/"
+  - "https://docs.enterprisehealth.com/functions/task-management/task-list/"
+source: "https://drive.google.com/open?id=1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ"
+wikigdrive: "v2.15.30"
 ---
+
 The Symptoms/Diagnosis is an optional encounter section that is displayed in the Assessment grouping of the Visit Encounter. The Symptoms/Diagnosis section is similar to the Smart Plan encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections.
 
 ![](./symptoms-diagnosis-encounter-section.assets/be3e2b2387a46b241afc64fba503aa52.png)
@@ -48,7 +49,7 @@ The Add Assessment screen allows users to add assessments to Libraries.
 
 See [My Settings](#my-settings) section of this document for related user preferences.
 
-The Problem list should indicate problems being assessed at today's visit. Select the "Yes" radio button in the Add Assessment screen to populate the Problem List Quick List in today's encounter (right side of the blue bar).  This will also add the condition to today's Symptoms/Diagnosis (left side of the blue bar). Items populated in the Past Medical History section of the encounter or Quick List do not automatically populate the Problem List Quick List of the Symptoms/Diagnosis.
+The Problem list should indicate problems being assessed at today's visit. Select the "Yes" radio button in the Add Assessment screen to populate the Problem List Quick List in today's encounter (right side of the blue bar). This will also add the condition to today's Symptoms/Diagnosis (left side of the blue bar). Items populated in the Past Medical History section of the encounter or Quick List do not automatically populate the Problem List Quick List of the Symptoms/Diagnosis.
 
 ![](./symptoms-diagnosis-encounter-section.assets/524973e5b1e3b0ac8bb009e86a029c19.png)
 
@@ -80,7 +81,7 @@ This will call the Remove Condition screen. This screen allows users to remove/r
 
 ### Move to PMH
 
-If the condition was previously set to Problem List, "Yes" and Past Medical History,  "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
+If the condition was previously set to Problem List, "Yes" and Past Medical History, "Yes", then when the ‘Move to PMH' button is selected, the condition will move from Problem List Quick List to the Past Medical History Quick List.
 
 ![](./symptoms-diagnosis-encounter-section.assets/5d1bd4efa19ba42b3d74049113ef5f77.png)
 
@@ -293,10 +294,10 @@ Systems that wish to utilize RAF Scoring, the system setting for "Alert if Diagn
 If a condition has not been reviewed in the last year, then either a yellow or red alert icon will display next to the condition.
 
 ![](./symptoms-diagnosis-encounter-section.assets/e18532205abfeb51d53bf7880d2caaf2.png)
- A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
+A red triangle will display if the condition has not been evaluated for the current calendar year, but does have a RAF score previously calculated.
 
 ![](./symptoms-diagnosis-encounter-section.assets/63f9e5c0e5fb3e257127176324afc1d9.png)
- A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
+A yellow triangle will display if the condition has not been evaluated for the current calendar year, but does NOT have a RAF score calculated.
 
 No warning - the condition has been assessed and has a calculated RAF score for the current calendar year.
 
@@ -310,9 +311,9 @@ The RAF Score displays on the Symptoms/Diagnosis assessment.
 
 The first step in using the Symptoms/Diagnosis encounter section is to add a condition to today's visit.
 
-* Click the "+" icon next to any of the conditions in either the Problem List Quick List, Past Medical History Quick List, Other Problems Quick List, Unconfirmed Conditions Quick List, Declined Conditions Quick List or pre-configured New Assessments Quick Lists or search and add a new condition.
-* When a condition is added to the Assessment for today's visit, it will display in blue text on the left side of the Symptoms/Diagnosis section.
-* Users can also see a checkmark next to the condition name in the Quick List to see that condition has been added to today's assessment.
+- Click the "+" icon next to any of the conditions in either the Problem List Quick List, Past Medical History Quick List, Other Problems Quick List, Unconfirmed Conditions Quick List, Declined Conditions Quick List or pre-configured New Assessments Quick Lists or search and add a new condition.
+- When a condition is added to the Assessment for today's visit, it will display in blue text on the left side of the Symptoms/Diagnosis section.
+- Users can also see a checkmark next to the condition name in the Quick List to see that condition has been added to today's assessment.
 
 ![](./symptoms-diagnosis-encounter-section.assets/289d081452259310fd6146e3ce0ef713.png)
 
@@ -352,7 +353,7 @@ Selecting this option will call the Add Task screen. Since a task is generated f
 
 ### Prescribe Med
 
-Selecting this option will call the Prescribe Medication screen. Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar). To the right of the blue bar, the "By Indication" list will** pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency. To the right of the blue bar, the "Current Meds"  and "Past Meds" Quick Lists display. Select the "straight right pointing arrow" icon to display drug information.
+Selecting this option will call the Prescribe Medication screen. Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar). To the right of the blue bar, the "By Indication" list will\*\* pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency. To the right of the blue bar, the "Current Meds" and "Past Meds" Quick Lists display. Select the "straight right pointing arrow" icon to display drug information.
 
 ![](./symptoms-diagnosis-encounter-section.assets/b5ac486ca41887d858067414256fa200.png)
 

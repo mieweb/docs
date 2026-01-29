@@ -1,29 +1,30 @@
 ---
-id: '13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k'
-title: 'Contributing Providers'
-date: '2025-06-02T13:47:10.282Z'
+id: "13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k"
+title: "Contributing Providers"
+date: "2025-06-02T13:47:10.282Z"
 version: 176
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=13u4axKsgMry3YtUiZRzJVM04yIRBNyHfnhAIZ-p3g9k"
+wikigdrive: "v2.15.30"
 ---
+
 Within an encounter, there is an optional **Contributing Providers** encounter section that can be utilized.
 
 ![](./contributing-providers.assets/8c993245fa9758ad9c8145e31e4c4d6c.png)
 
-The Contributing Providers section is the ability to add any providers/other staff members to be listed as having contributed to this note/visit, separate from the overall performing provider on the encounter. This allows you to capture any clinic user that participates in the patient's care. For example, Dr. Butler is the provider seeing the patient, he is listed as the main performing provider in the top Encounter Info section. However, Nurse Betty brought the patient back and took their vitals.  Therefore, Nurse Betty could be listed in the contributing providers section. Then, Technician Mark performed an EKG, therefore Technician Mark could be listed in the contributing providers section. To finish up, Dr. Patel was consulted for a second opinion on the EKG and came in and listened to the patient's chest, therefore Dr Patel could also be listed as a contributing provider.
+The Contributing Providers section is the ability to add any providers/other staff members to be listed as having contributed to this note/visit, separate from the overall performing provider on the encounter. This allows you to capture any clinic user that participates in the patient's care. For example, Dr. Butler is the provider seeing the patient, he is listed as the main performing provider in the top Encounter Info section. However, Nurse Betty brought the patient back and took their vitals. Therefore, Nurse Betty could be listed in the contributing providers section. Then, Technician Mark performed an EKG, therefore Technician Mark could be listed in the contributing providers section. To finish up, Dr. Patel was consulted for a second opinion on the EKG and came in and listened to the patient's chest, therefore Dr Patel could also be listed as a contributing provider.
 
 ![](./contributing-providers.assets/c6567687dcc300360f1f3d9e5fa97ef6.png)
 
 ## System Setting prerequisite to using Contributing Provider selections
 
-There is current functionality that allows the ‘Contributing Provider' autocomplete to pull "Charts" or "Users" based on the System/External Provider/Use Charts system setting.  By default, new systems will have the *System/External Provider/Use charts* system setting enabled. Since enabled, the system will pull Provider Charts as selections (not users from Access Control) in the autocomplete. If the system setting  is Disabled, then the Contributing Providers autocomplete will pull in Users as selections within the system.
+There is current functionality that allows the ‘Contributing Provider' autocomplete to pull "Charts" or "Users" based on the System/External Provider/Use Charts system setting. By default, new systems will have the _System/External Provider/Use charts_ system setting enabled. Since enabled, the system will pull Provider Charts as selections (not users from Access Control) in the autocomplete. If the system setting is Disabled, then the Contributing Providers autocomplete will pull in Users as selections within the system.
 
 ![](./contributing-providers.assets/82e539ecd513e816118002a6e2b43b49.png)
 
-Since the *System/External Provider/Use charts* system setting is enabled, systems must have a separate individual Provider chart for each contributing provider. Typically, individual Provider charts are used for internal providers, as far as for use in the Contributing Providers encounter section. However, external provider charts can be created as well. For example, Internist Butler has a Provider chart (Provider chart number P-6).
+Since the _System/External Provider/Use charts_ system setting is enabled, systems must have a separate individual Provider chart for each contributing provider. Typically, individual Provider charts are used for internal providers, as far as for use in the Contributing Providers encounter section. However, external provider charts can be created as well. For example, Internist Butler has a Provider chart (Provider chart number P-6).
 
 ![](./contributing-providers.assets/13398e3f8c55f8f9b643baa36ce4a9f9.png)
 
@@ -33,7 +34,7 @@ Each provider chart then should be associated with the Provider Organization/Cli
 
 ## Encounter Performing Location prerequisite to using Contributing Provider selections
 
-The Contributing Provider Name field is an autocomplete.  You must type at least 3 characters for the autocomplete to render suggested matches.
+The Contributing Provider Name field is an autocomplete. You must type at least 3 characters for the autocomplete to render suggested matches.
 
 ![](./contributing-providers.assets/70063c9deee3b4197c3eb44178fe416b.png)
 
@@ -47,7 +48,7 @@ If system setting User Charts is disabled, then the autocomplete will display us
 
 ## Show/Hide Contributing Providers Encounter Section
 
-The Contributing Providers encounter section is typically hidden in most default Visit encounter templates/outlines.  However, users may add the Contributing Providers encounter section to the encounter visit outline manually by adding it from the encounter **Tools**.
+The Contributing Providers encounter section is typically hidden in most default Visit encounter templates/outlines. However, users may add the Contributing Providers encounter section to the encounter visit outline manually by adding it from the encounter **Tools**.
 
 ![](./contributing-providers.assets/80c48a49032926314a929ed09801a27c.png)
 
@@ -61,7 +62,7 @@ The Contributing Providers section area must manually be clicked on to expand op
 
 ### Name autocomplete field
 
-The Contributing Provider Name field is an autocomplete.  You must type at least 3 characters for the autocomplete to render suggested matches.
+The Contributing Provider Name field is an autocomplete. You must type at least 3 characters for the autocomplete to render suggested matches.
 
 ![](./contributing-providers.assets/70063c9deee3b4197c3eb44178fe416b.png)
 
@@ -109,7 +110,7 @@ NOTE: if you edit or delete any CC entries that are also contributing providers 
 
 ## Signature Images on archived/stored encounter document
 
-If an image of the performing provider's signature exists within the Provider's User account in the system, then their signature image will display at the bottom of the archived/stored encounter document **after** that performing provider has E-signed the document. To request an e-sign from a performing provider, E-sign rules must exist or a manual request of signature must be generated.   If the document has not been e-signed or if has been e-signed but no signature image exists within the Provider's User account in the system, then the image of the signature will not be displayed, but their name & date of when they e-signed will still display in the *Electronically signed by* area of the archived/stored encounter document.
+If an image of the performing provider's signature exists within the Provider's User account in the system, then their signature image will display at the bottom of the archived/stored encounter document **after** that performing provider has E-signed the document. To request an e-sign from a performing provider, E-sign rules must exist or a manual request of signature must be generated. If the document has not been e-signed or if has been e-signed but no signature image exists within the Provider's User account in the system, then the image of the signature will not be displayed, but their name & date of when they e-signed will still display in the _Electronically signed by_ area of the archived/stored encounter document.
 
 ![](./contributing-providers.assets/0f175f74f63bc252451c7e56ee270071.png)
 

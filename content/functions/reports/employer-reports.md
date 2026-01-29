@@ -1,14 +1,15 @@
 ---
-id: '10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE'
-title: 'Employer Reports'
-date: '2025-12-12T13:18:55.688Z'
+id: "10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE"
+title: "Employer Reports"
+date: "2025-12-12T13:18:55.688Z"
 version: 213
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=10dinNkT25Ln5u7gCXA49EEjVnM3G0SjYBkpOflDDCIE"
+wikigdrive: "v2.15.30"
 ---
+
 A new reports tab called **Employer** has been added to the Reports module (only available to databases on RC202409 and newer). This tab is intended for clinical staff/administrators to run specific employer related reports.
 
 ![](./employer-reports.assets/b6c426f58d45a291c29dc9d6d50d91f4.png)

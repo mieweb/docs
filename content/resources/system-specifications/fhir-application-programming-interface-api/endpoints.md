@@ -1,14 +1,15 @@
 ---
-id: '1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
-title: 'Endpoints'
-date: '2025-11-10T16:07:25.657Z'
+id: "1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U"
+title: "Endpoints"
+date: "2025-11-10T16:07:25.657Z"
 version: 84
-lastAuthor: 'dcarlson'
-mimeType: 'text/x-markdown'
+lastAuthor: "dcarlson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1R6Ge6G2HJm4KVoyKIdvSLBVhl_GpRie7SMiic5j426U"
+wikigdrive: "v2.15.30"
 ---
+
 <table>
 <tr>
 <td><strong>Organization Name</strong></td>

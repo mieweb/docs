@@ -1,31 +1,32 @@
 ---
-id: '1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-title: 'Archiving/Closing/Re-archiving Encounters'
-date: '2024-11-21T19:18:03.485Z'
+id: "1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo"
+title: "Archiving/Closing/Re-archiving Encounters"
+date: "2024-11-21T19:18:03.485Z"
 version: 82
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'working-in-a-visit-encounter.md'
-  - 'working-in-a-legacy-encounter.md'
-  - '../../resources/intro-to-the-system.md'
-  - '../../resources/intro-to-the-system/system-anatomy.md'
-source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: 'v2.15.30'
+  - "working-in-a-visit-encounter.md"
+  - "working-in-a-legacy-encounter.md"
+  - "../../resources/intro-to-the-system.md"
+  - "../../resources/intro-to-the-system/system-anatomy.md"
+source: "https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo"
+wikigdrive: "v2.15.30"
 ---
+
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.
 
 To archive or re-archive encounters, users must have the necessary security permissions set. Customize the user security by updating the following settings, accordingly:
 
-**Document Permissions**: Set to *Edit*. This allows the user edit all encounters and/or archive and re-archive them, as appropriate.
+**Document Permissions**: Set to _Edit_. This allows the user edit all encounters and/or archive and re-archive them, as appropriate.
 
-**Document Signature Override**: Set to *Yes.* Users within a security role may override a signature or request another signature if a document is already signed.
+**Document Signature Override**: Set to _Yes._ Users within a security role may override a signature or request another signature if a document is already signed.
 
-**Sign Document**: Set to *Yes*.** This allows users within a security role the ability to sign documents.
+**Sign Document**: Set to _Yes_.\*\* This allows users within a security role the ability to sign documents.
 
 ## Standard Toolbars and Buttons
 
-Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit-encounter.md) to assist with navigation, as well as to provide patient and [encounter](working-in-a-legacy-encounter.md) details. The toolbar display is responsive and changes with scrolling and movement on the page, collapsing as users navigate the encounter. For a basic [introduction to the system](../../resources/intro-to-the-system.md) or a more detailed description of working in a chart and an encounter, be sure to check out the [System Anatomy](../../resources/intro-to-the-system/system-anatomy.md); however, here are some of the more important tools and functions that are *specific to the encounter*:
+Layered toolbars appear at the top of the [dynamic encounter](working-in-a-visit-encounter.md) to assist with navigation, as well as to provide patient and [encounter](working-in-a-legacy-encounter.md) details. The toolbar display is responsive and changes with scrolling and movement on the page, collapsing as users navigate the encounter. For a basic [introduction to the system](../../resources/intro-to-the-system.md) or a more detailed description of working in a chart and an encounter, be sure to check out the [System Anatomy](../../resources/intro-to-the-system/system-anatomy.md); however, here are some of the more important tools and functions that are _specific to the encounter_:
 
 **Encounter Info Toolbar** - Provides quick links to the current encounter, allowing users quick access to the encounter while working from within an E-chart or another encounter.
 
@@ -57,7 +58,7 @@ If any transcription is pending on an encounter, users will not have the option 
 Clicking the encounter section header or the![](./archiving-closing-re-archiving-encounters.assets/fa0325139c383d1d04c4602a1ae696f5.png)button, at the bottom of each section, will also save the user's current progress in the encounter.
 {{% /info %}}
 
-**Encounter Stage buttons** - To assist users in pushing the encounter through the established workflow, these buttons can be configured with any necessary stages and be placed at the top and bottom of the encounter for ease of access. These buttons simply change the *stage* of the open encounter, indicating it is ready for the next user.
+**Encounter Stage buttons** - To assist users in pushing the encounter through the established workflow, these buttons can be configured with any necessary stages and be placed at the top and bottom of the encounter for ease of access. These buttons simply change the _stage_ of the open encounter, indicating it is ready for the next user.
 
 ![](./archiving-closing-re-archiving-encounters.assets/1cdb6b4601c9f112899e2c0f3b002257.png)
 
@@ -65,12 +66,12 @@ Clicking the encounter section header or the![](./archiving-closing-re-archiving
 
 ## Archiving and Closing Encounters
 
-As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will *archive the document with a designated doc ID*.
+As noted, every button EXCEPT Archive & Close will take the user to a view, or preview, of the encounter. When previewing the encounter, users may **Archive and Close Encounter**, or **Create Preliminary Archive**. Both of these options, for all intents and purposes, will _archive the document with a designated doc ID_.
 
 ![](./archiving-closing-re-archiving-encounters.assets/9c7ac5e2f617c509d1e1f22bebc0bf67.png)
 
 {{% note %}}
-By default, encounters require that any orders that have been marked as In Progress during the visit are either Completed or set back to a Pending status before Closing and Archiving the encounter. In **rare** instances, a customer may require order items stay in an In Progress order status upon closing and archiving. In such an event, a system setting "Allow Close w/ In Progress Items" has been created.  When enabled and a provider attempts to close and archive an encounter, the provider will be prompted with a message displaying all In Progress orders and asking if they wish to proceed. If the provider selects, yes, they wish to proceed, then the encounter will close and archive with the order items still In Progress.
+By default, encounters require that any orders that have been marked as In Progress during the visit are either Completed or set back to a Pending status before Closing and Archiving the encounter. In **rare** instances, a customer may require order items stay in an In Progress order status upon closing and archiving. In such an event, a system setting "Allow Close w/ In Progress Items" has been created. When enabled and a provider attempts to close and archive an encounter, the provider will be prompted with a message displaying all In Progress orders and asking if they wish to proceed. If the provider selects, yes, they wish to proceed, then the encounter will close and archive with the order items still In Progress.
 
 ![](./archiving-closing-re-archiving-encounters.assets/8f0c5c6a3b5b462982e0cc907cc26303.png)
 
@@ -106,12 +107,12 @@ When previewing the Encounter View, users may re-archive the encounter to save a
 As noted, E-sign rules are important tools that should be considered when working with encounters. An Implementation Specialist can set up E-sign rules for clients needing to request signatures or have encounters signed automatically, when the document is closed and archived. Similarly, Fast Tasks can be configured to send closed/archived documents to a designated department, to be faxed or sent out, as needed. Depending on the workflow, this could be used to send encounter documents to referring physicians or other interested parties, as well.
 
 {{% note %}}
-The Fast Task configuration is triggered by the signing of the encounter, which means the E-sign, nor Fast Task, will trigger if the encounter is not *archived and closed*.
+The Fast Task configuration is triggered by the signing of the encounter, which means the E-sign, nor Fast Task, will trigger if the encounter is not _archived and closed_.
 {{% /note %}}
 
 ## Reopen Closed Encounters
 
-To open closed encounters, users must have the **Reopen Closed Encounters** security permission set to *Yes*. The system must also have the **Show Set Open Link** system setting *enabled* (**set to 1**). Users with these security settings will see a link in the Options column of the respective encounters that are closed. If the encounter is closed and these permissions are set to *No*, the user will not be able to view or edit the closed encounter, see the Encounter Properties, nor be able to add physicians using the Add Physician link. Users will only see links to View Details and Delete.
+To open closed encounters, users must have the **Reopen Closed Encounters** security permission set to _Yes_. The system must also have the **Show Set Open Link** system setting _enabled_ (**set to 1**). Users with these security settings will see a link in the Options column of the respective encounters that are closed. If the encounter is closed and these permissions are set to *No*, the user will not be able to view or edit the closed encounter, see the Encounter Properties, nor be able to add physicians using the Add Physician link. Users will only see links to View Details and Delete.
 
 {{% note %}}
 Typically, users without the Reopen Closed Encounters security option are not given the option to delete encounters. These users can still view archived documents using the link from the Encounter Info Toolbar. If these users have the ability to edit/delete documents, they can open the archived document and edit it through the document properties.

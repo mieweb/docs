@@ -1,0 +1,53 @@
+<header class="bg-dark">
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{ $.Site.BaseURL }}">
+        <img height="35" src="{{ $.Site.BaseURL }}images/brand/{{ $.Site.Params.Brand.code }}/logo.svg" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar navbar-collapse d-md-none navbar-search collapse" id="navbarCollapse">
+        <div class="navbar-nav mt-md-0 justify-content-end mt-2 w-100">
+          <form class="d-flex align-items-center" id="search" role="search">
+            <label for="search-input">
+              <i class="fa-solid fa-search search-icon text-light me-3"></i>
+            </label>
+            <div class="input-group">
+              <input
+                class="form-control search-input"
+                type="search"
+                id="search-input"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-secondary" id="search-button" type="submit">Search</button>
+            </div>
+          </form>
+          <div class="d-block d-md-none bg-light bg-md-dark navbar-nav mt-md-0 doc-tree py-2">
+            <ul class="list-unstyled">
+              {{ $currentPage := . }} {{ range .Site.Menus.main }}
+              <li class="mb-2">
+                <a href="{{ .URL }}"> {{ .Name }} </a>
+              </li>
+              {{ range .Children }}
+              <li class="ms-3 mb-2">
+                <a href="{{ .URL }}"> {{ .Name }} </a>
+              </li>
+              {{ end }} {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

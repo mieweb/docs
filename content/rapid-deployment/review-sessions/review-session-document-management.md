@@ -1,51 +1,52 @@
 ---
-id: '1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-title: 'Review Session - Document Management'
-date: '2020-02-27T21:24:36.161Z'
+id: "1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ"
+title: "Review Session - Document Management"
+date: "2020-02-27T21:24:36.161Z"
 version: 42
-lastAuthor: 'aquandt'
-mimeType: 'text/x-markdown'
+lastAuthor: "aquandt"
+mimeType: "text/x-markdown"
 links:
-  - '../../functions/document-management/printing-and-print-definitions/print-definitions.md'
-  - '../../functions/document-management/scanning-and-indexing/scanning.md'
-  - '../../functions/document-management/scanning-and-indexing/indexing.md'
-  - '../../functions/document-management/scanning-and-indexing/batch-search-in-webscan.md'
-  - '../../functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.md'
-  - '../../functions/document-management/documents-and-forms/e-chart-scan-documents.md'
-  - '../../functions/document-management/documents-and-forms/text-documents.md'
-  - '../../functions/document-management/documents-and-forms/word-documents.md'
-  - '../../functions/document-management/documents-and-forms/pdf-documents.md'
-  - '../../functions/document-management/documents-and-forms/picture-photo-documents.md'
-  - '../../functions/document-management/documents-and-forms/sketch-documents.md'
-  - '../../functions/document-management/documents-and-forms/delete-move-lock-documents.md'
-  - '../../functions/document-management/documents-and-forms/form-documents.md'
-  - '../../functions/document-management/documents-and-forms/audiogram-data-entry.md'
-  - '../../functions/document-management/documents-and-forms/biometric-data-entry.md'
-  - '../../functions/document-management/documents-and-forms/ekg-data-entry.md'
-  - '../../functions/document-management/documents-and-forms/pft-data-entry.md'
-  - '../../functions/document-management/documents-and-forms/x-ray-results-data-entry.md'
-  - '../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md'
-  - '../../functions/e-chart/insurance-summary-in-demographics-tab.md'
-source: 'https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-wikigdrive: 'v2.15.30'
+  - "../../functions/document-management/printing-and-print-definitions/print-definitions.md"
+  - "../../functions/document-management/scanning-and-indexing/scanning.md"
+  - "../../functions/document-management/scanning-and-indexing/indexing.md"
+  - "../../functions/document-management/scanning-and-indexing/batch-search-in-webscan.md"
+  - "../../functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.md"
+  - "../../functions/document-management/documents-and-forms/e-chart-scan-documents.md"
+  - "../../functions/document-management/documents-and-forms/text-documents.md"
+  - "../../functions/document-management/documents-and-forms/word-documents.md"
+  - "../../functions/document-management/documents-and-forms/pdf-documents.md"
+  - "../../functions/document-management/documents-and-forms/picture-photo-documents.md"
+  - "../../functions/document-management/documents-and-forms/sketch-documents.md"
+  - "../../functions/document-management/documents-and-forms/delete-move-lock-documents.md"
+  - "../../functions/document-management/documents-and-forms/form-documents.md"
+  - "../../functions/document-management/documents-and-forms/audiogram-data-entry.md"
+  - "../../functions/document-management/documents-and-forms/biometric-data-entry.md"
+  - "../../functions/document-management/documents-and-forms/ekg-data-entry.md"
+  - "../../functions/document-management/documents-and-forms/pft-data-entry.md"
+  - "../../functions/document-management/documents-and-forms/x-ray-results-data-entry.md"
+  - "../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md"
+  - "../../functions/e-chart/insurance-summary-in-demographics-tab.md"
+source: "https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>Document Management Demonstration</strong>
-* <strong>Overview</strong>
-    * <strong>WebScan - Scanning/Indexing</strong>
-    * <strong>Insurance Card/Driver's License Scanning</strong>
-    * <strong>Forms Library</strong>
-    * <strong>Print Definitions</strong>
-* <strong>System Configuration</strong>
-    * <strong>Configure Scanners</strong>
-    * <strong>Add Document Types to Forms Library</strong>
-    * <strong>Setup Print Definitions</strong>
-    * <strong>Side Chart View</strong>
-    * <strong>Cut-Over Plan</strong>
-    * <strong>System Settings</strong>
-    * <strong>Security Role Permissions</strong>
-    * <strong>My Settings Preferences</strong>
+- <strong>Document Management Demonstration</strong>
+- <strong>Overview</strong>
+  - <strong>WebScan - Scanning/Indexing</strong>
+  - <strong>Insurance Card/Driver's License Scanning</strong>
+  - <strong>Forms Library</strong>
+  - <strong>Print Definitions</strong>
+- <strong>System Configuration</strong>
+  - <strong>Configure Scanners</strong>
+  - <strong>Add Document Types to Forms Library</strong>
+  - <strong>Setup Print Definitions</strong>
+  - <strong>Side Chart View</strong>
+  - <strong>Cut-Over Plan</strong>
+  - <strong>System Settings</strong>
+  - <strong>Security Role Permissions</strong>
+  - <strong>My Settings Preferences</strong>
 
 ## Overview
 
@@ -53,12 +54,12 @@ WebScan offers unsurpassed scanning and indexing flexibility for any practice or
 
 Time-saving features include:
 
-* Easy and efficient data entry
-* Automated blank-image removal
-* Barcode detection and interpretation, for fast indexing
-* Optical mark recognition
-* Duplicate checking
-* Automatic cropping
+- Easy and efficient data entry
+- Automated blank-image removal
+- Barcode detection and interpretation, for fast indexing
+- Optical mark recognition
+- Duplicate checking
+- Automatic cropping
 
 ### WebScan - Scanning and Indexing
 
@@ -72,12 +73,12 @@ Often times, desktop scanning is used to scan insurance and photo identification
 
 The Forms Library is a collection of different document types that are used throughout {{% system-name %}} and can be accessed by clicking the **Add Document** link found in any patient chart. The Forms Library consists of the following commonly used document types:
 
-* Text
-* Word
-* Form
-* Picture
-* Sketch
-* HTML
+- Text
+- Word
+- Form
+- Picture
+- Sketch
+- HTML
 
 ### Print Definitions
 
@@ -109,7 +110,7 @@ Determine if existing records/documents will be scanned and indexed into the {{%
 
 ### System Settings
 
-There are a large number of system settings available regarding the Document Management module. In the of the Control Panel, permitted users can search for the keyword *Scan*, and view all of the available system settings that may need enabled, disabled, edited or set, according to the business needs and prescribed workflows.
+There are a large number of system settings available regarding the Document Management module. In the of the Control Panel, permitted users can search for the keyword _Scan_, and view all of the available system settings that may need enabled, disabled, edited or set, according to the business needs and prescribed workflows.
 
 ### Security Role Permissions
 
@@ -123,23 +124,23 @@ Review the preferences of security roles and individuals, and ensure document ac
 
 ### Help Documentation
 
-* [Scanning](../../functions/document-management/scanning-and-indexing/scanning.md)
-* [Indexing](../../functions/document-management/scanning-and-indexing/indexing.md)
-* [Search for Scanned Batches - WebScan](../../functions/document-management/scanning-and-indexing/batch-search-in-webscan.md)
-* [AlternaTIFF ActiveX control for WebScan](../../functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.md)
-* [E-Chart Scan Documents](../../functions/document-management/documents-and-forms/e-chart-scan-documents.md)
-* [Text Documents](../../functions/document-management/documents-and-forms/text-documents.md)
-* [Word Documents](../../functions/document-management/documents-and-forms/word-documents.md)
-* [PDF Documents](../../functions/document-management/documents-and-forms/pdf-documents.md)
-* [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.md)
-* [Sketch Documents](../../functions/document-management/documents-and-forms/sketch-documents.md)
-* [Delete-Move-Lock Documents](../../functions/document-management/documents-and-forms/delete-move-lock-documents.md)
-* [Form Documents](../../functions/document-management/documents-and-forms/form-documents.md)
-* [Bubble Form-Audiogram](../../functions/document-management/documents-and-forms/audiogram-data-entry.md)
-* [Bubble Form-Biometric](../../functions/document-management/documents-and-forms/biometric-data-entry.md)
-* [Bubble Form-EKG](../../functions/document-management/documents-and-forms/ekg-data-entry.md)
-* [Bubble Form-PFT](../../functions/document-management/documents-and-forms/pft-data-entry.md)
-* [Bubble Form-Xray_Results](../../functions/document-management/documents-and-forms/x-ray-results-data-entry.md)
-* [Bubble Sheets-Indexing](../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md)
-* [Insurance Summary in Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.md)
-* [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.md)
+- [Scanning](../../functions/document-management/scanning-and-indexing/scanning.md)
+- [Indexing](../../functions/document-management/scanning-and-indexing/indexing.md)
+- [Search for Scanned Batches - WebScan](../../functions/document-management/scanning-and-indexing/batch-search-in-webscan.md)
+- [AlternaTIFF ActiveX control for WebScan](../../functions/document-management/scanning-and-indexing/alternatiff-activex-control-for-webscan.md)
+- [E-Chart Scan Documents](../../functions/document-management/documents-and-forms/e-chart-scan-documents.md)
+- [Text Documents](../../functions/document-management/documents-and-forms/text-documents.md)
+- [Word Documents](../../functions/document-management/documents-and-forms/word-documents.md)
+- [PDF Documents](../../functions/document-management/documents-and-forms/pdf-documents.md)
+- [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.md)
+- [Sketch Documents](../../functions/document-management/documents-and-forms/sketch-documents.md)
+- [Delete-Move-Lock Documents](../../functions/document-management/documents-and-forms/delete-move-lock-documents.md)
+- [Form Documents](../../functions/document-management/documents-and-forms/form-documents.md)
+- [Bubble Form-Audiogram](../../functions/document-management/documents-and-forms/audiogram-data-entry.md)
+- [Bubble Form-Biometric](../../functions/document-management/documents-and-forms/biometric-data-entry.md)
+- [Bubble Form-EKG](../../functions/document-management/documents-and-forms/ekg-data-entry.md)
+- [Bubble Form-PFT](../../functions/document-management/documents-and-forms/pft-data-entry.md)
+- [Bubble Form-Xray_Results](../../functions/document-management/documents-and-forms/x-ray-results-data-entry.md)
+- [Bubble Sheets-Indexing](../../functions/document-management/scanning-and-indexing/indexing-bubble-forms.md)
+- [Insurance Summary in Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.md)
+- [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.md)

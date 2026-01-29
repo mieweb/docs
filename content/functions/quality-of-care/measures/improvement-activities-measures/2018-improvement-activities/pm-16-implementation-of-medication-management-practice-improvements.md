@@ -1,26 +1,27 @@
 ---
-id: '1pKbCpH9nucRYJC7DkUduYtuRCDPJSUHFT1rMRztJu_M'
-title: 'PM 16 - Implementation of Medication Management Practice Improvements'
-date: '2020-02-27T20:53:33.327Z'
+id: "1pKbCpH9nucRYJC7DkUduYtuRCDPJSUHFT1rMRztJu_M"
+title: "PM 16 - Implementation of Medication Management Practice Improvements"
+date: "2020-02-27T20:53:33.327Z"
 version: 19
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1pKbCpH9nucRYJC7DkUduYtuRCDPJSUHFT1rMRztJu_M'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1pKbCpH9nucRYJC7DkUduYtuRCDPJSUHFT1rMRztJu_M"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Population Management
 
 **Description**: Manage medications to maximize efficiency, effectiveness and safety that could include one or more of the following:
 
-* Reconcile and coordinate medications and provide medication management across transitions of care settings and eligible clinicians or groups;
-* Integrate a pharmacist into the care team; and/or
-* Conduct periodic, structured medication reviews.
+- Reconcile and coordinate medications and provide medication management across transitions of care settings and eligible clinicians or groups;
+- Integrate a pharmacist into the care team; and/or
+- Conduct periodic, structured medication reviews.
 
 Supporting Documentation
 

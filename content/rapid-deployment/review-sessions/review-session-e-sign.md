@@ -1,36 +1,37 @@
 ---
-id: '1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc'
-title: 'Review Session - E-Sign'
-date: '2020-02-27T21:25:54.536Z'
+id: "1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc"
+title: "Review Session - E-Sign"
+date: "2020-02-27T21:25:54.536Z"
 version: 71
-lastAuthor: 'aquandt'
-mimeType: 'text/x-markdown'
+lastAuthor: "aquandt"
+mimeType: "text/x-markdown"
 links:
-  - '../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md'
-  - '../../functions/e-sign-electronic-signature/e-sign-chart-tab.md'
-  - '../../functions/e-sign-electronic-signature/request-e-signature.md'
-  - '../../functions/e-sign-electronic-signature/un-request-unassign-an-e-signature.md'
-  - '../../functions/e-sign-electronic-signature/pending-e-sign-reviews.md'
-  - '../../functions/encounters/dictation-and-transcription/highlight-transcribed.md'
-  - '../../functions/reports/documents-report-super-document-type-search.md'
-  - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174'
-source: 'https://drive.google.com/open?id=1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc'
-wikigdrive: 'v2.15.30'
+  - "../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md"
+  - "../../functions/e-sign-electronic-signature/e-sign-chart-tab.md"
+  - "../../functions/e-sign-electronic-signature/request-e-signature.md"
+  - "../../functions/e-sign-electronic-signature/un-request-unassign-an-e-signature.md"
+  - "../../functions/e-sign-electronic-signature/pending-e-sign-reviews.md"
+  - "../../functions/encounters/dictation-and-transcription/highlight-transcribed.md"
+  - "../../functions/reports/documents-report-super-document-type-search.md"
+  - "https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174"
+source: "https://drive.google.com/open?id=1-7wZ_hZAPQsRVMnJTaIRs2hV9Cfj03WjHJs86jRBYqc"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>E-Sign Demonstration</strong>
-* <strong>Overview</strong>
-* <strong>My Settings Preferences</strong>
-* <strong>Security Role Permissions</strong>
-* <strong>System Configuration</strong>
-    * <strong>Esign Editor</strong>
-    * <strong>All Pending</strong>
-    * <strong>CC Physician</strong>
-    * <strong>Esign Chart Tab</strong>
-    * <strong>System Settings</strong>
-* <strong>Reporting</strong>
-* <strong>Resources</strong>
+- <strong>E-Sign Demonstration</strong>
+- <strong>Overview</strong>
+- <strong>My Settings Preferences</strong>
+- <strong>Security Role Permissions</strong>
+- <strong>System Configuration</strong>
+  - <strong>Esign Editor</strong>
+  - <strong>All Pending</strong>
+  - <strong>CC Physician</strong>
+  - <strong>Esign Chart Tab</strong>
+  - <strong>System Settings</strong>
+- <strong>Reporting</strong>
+- <strong>Resources</strong>
 
 ## Overview
 
@@ -42,26 +43,26 @@ Additionally, the E-Sign module integrates the common functions of the {{% syste
 
 Standard functionality includes:
 
-* E-Sign dashboard
-* Multi-View feature for reviewing and e-signing up to fifty (50) documents, at once
-* HIPAA-compliant timestamps
+- E-Sign dashboard
+- Multi-View feature for reviewing and e-signing up to fifty (50) documents, at once
+- HIPAA-compliant timestamps
 
 ## My Setting Preferences
 
 Users have the ability to manage defaults and specific settings in their account by way of {{% syslink "My Settings" "f=admin&tabmodule=admin&tabselect=My+Settings" %}} in the **Control Panel**. Depending on the specific security permissions of the user, he/she may also manage other user accounts, or even update settings system-wide. It is important to know how to navigate to My Settings and understand the implications of editing and changing specific preferences. The following settings are the most commonly changed user preferences, when using the E-Sign module:
 
-* Show Pending Esign/Tasks
-* Number Documents in Multi-Sign
-* Notify Me on E-Sign Addition
+- Show Pending Esign/Tasks
+- Number Documents in Multi-Sign
+- Notify Me on E-Sign Addition
 
 ## Security Role Permissions
 
 In order to best address all necessary security role permissions, it is important to understand and know which users or security roles will need access and permissions to the E-Sign module. Below, are the primary security permissions needing consideration, so that an accurate assessment can be made in determining access needs.
 
-**Sign Document**: Allows users to sign documents. When set to **Yes**, the user has the ability to sign *any* document in *any* chart. If set to **No**, the user is limited to signing only documents found in the Pending Reviews E-Sign tab, meaning the user can only sign requests assigned to their username, specifically.
+**Sign Document**: Allows users to sign documents. When set to **Yes**, the user has the ability to sign _any_ document in _any_ chart. If set to **No**, the user is limited to signing only documents found in the Pending Reviews E-Sign tab, meaning the user can only sign requests assigned to their username, specifically.
 
 {{% info %}}
-Even if the *Proxy Signing* security permission is enabled, users with the *Sign Document* security permission set to **No**, can only sign documents assigned to their username.
+Even if the _Proxy Signing_ security permission is enabled, users with the _Sign Document_ security permission set to **No**, can only sign documents assigned to their username.
 {{% /info %}}
 
 **Document Signature Override**: When set to **Yes**, this security permission allows users to request another signature, or override a signature, if a document has already been electronically signed by another user.
@@ -70,15 +71,15 @@ The **E-Sign Template Editor** security permission is being removed. This is no 
 
 **View Access**: When set to **Yes**, provides view access to the E-Sign module from the left sidemenu.
 
-**E-Sign Editor Access**: When set to **Yes**, users assigned to a specific security role may be granted access to the Esign Editor. The *System Owner* and *SuperUser* security roles grant access, by default. The Esign Editor allows MIE to program rules of automation, where E-Sign tasks are created automatically, in varying circumstances, according to the needs and workflows of the client.
+**E-Sign Editor Access**: When set to **Yes**, users assigned to a specific security role may be granted access to the Esign Editor. The _System Owner_ and _SuperUser_ security roles grant access, by default. The Esign Editor allows MIE to program rules of automation, where E-Sign tasks are created automatically, in varying circumstances, according to the needs and workflows of the client.
 
 **All Pending Access**: Allows users variable access to the All Pending tab of the E-Sign module. There are three levels of permission for this tab: **None**, **View**, or **Delete**.
 
-* <strong>None</strong>: When selected, access to the All Pending E-Sign tab is not permitted.
-* <strong>View</strong>: View-level permission allows users to access the All Pending E-Sign tab, as well as preliminarily sign others' E-Sign Requests, as needed.
-* <strong>Delete</strong>: When selected, users are permitted View-level access, as well as the ability to utilize the <em>Clear Queue</em> functionality.
+- <strong>None</strong>: When selected, access to the All Pending E-Sign tab is not permitted.
+- <strong>View</strong>: View-level permission allows users to access the All Pending E-Sign tab, as well as preliminarily sign others' E-Sign Requests, as needed.
+- <strong>Delete</strong>: When selected, users are permitted View-level access, as well as the ability to utilize the <em>Clear Queue</em> functionality.
 
-**Proxy Signing**: When set to **Yes**, users may utilize the *Proxy Sign* functionality of the All Pending E-Sign tab. This permits users to sign by proxy another user/physician E-Sign Request, allowing the document(s) to be sent out in a timely manner, with no delay due to vacations, sick days, or other absences or delays. When the **Proxy Sign** link is clicked, the multi-view queue will load with any documents needing reviewed and signed. The user (with proxy rights) may sign any or all documents, as needed. Once signed, the user's signature is placed on the document(s), and the pending E-Sign Request for the assignee will be removed from the Pending Reviews E-Sign queue.
+**Proxy Signing**: When set to **Yes**, users may utilize the _Proxy Sign_ functionality of the All Pending E-Sign tab. This permits users to sign by proxy another user/physician E-Sign Request, allowing the document(s) to be sent out in a timely manner, with no delay due to vacations, sick days, or other absences or delays. When the **Proxy Sign** link is clicked, the multi-view queue will load with any documents needing reviewed and signed. The user (with proxy rights) may sign any or all documents, as needed. Once signed, the user's signature is placed on the document(s), and the pending E-Sign Request for the assignee will be removed from the Pending Reviews E-Sign queue.
 
 ## System Configuration
 
@@ -92,7 +93,7 @@ Custom configuration of automated e-sign or tasking business rules, or to automa
 
 ### All Pending Access
 
-The [All Pending tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md) of the E-Sign module displays a summary of *all* outstanding E-Sign Requests. The ListView displays all requests by user last name and the count of each user's documents pending a signature. It is important to determine what users should be granted permission to access this tab. As noted above, the security permission is **All Pending Access** and the possible levels of access are None, View, or Delete.
+The [All Pending tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md) of the E-Sign module displays a summary of _all_ outstanding E-Sign Requests. The ListView displays all requests by user last name and the count of each user's documents pending a signature. It is important to determine what users should be granted permission to access this tab. As noted above, the security permission is **All Pending Access** and the possible levels of access are None, View, or Delete.
 
 ### Esign Chart Tab
 
@@ -102,7 +103,7 @@ An Esign tab can be configured by MIE to display within charts in the {{% system
 
 There are various system settings relevant to the E-Sign module, which may be enabled or disabled system-wide, as needed. These system settings are described, below:
 
-**Sign All**: Enabled by default (value **1**). When enabled, the **Mark All As Assigned** button will be available in the Multi-View E-Sign queue. This allows users to mark and sign *all* documents requesting electronic signatures, quickly and easily. If disabled (value **0**), users will not see this button as an option. These users should manually review each E-Sign Request, selecting the **Sign** radio button for each request, individually.
+**Sign All**: Enabled by default (value **1**). When enabled, the **Mark All As Assigned** button will be available in the Multi-View E-Sign queue. This allows users to mark and sign _all_ documents requesting electronic signatures, quickly and easily. If disabled (value **0**), users will not see this button as an option. These users should manually review each E-Sign Request, selecting the **Sign** radio button for each request, individually.
 
 **Request Re-Sign**: Enabled by default (value **1**). When enabled, previously e-signed documents will be sent back to the signatory upon any edits or revisions to the document. If disabled, a new E-Sign Request would need to be manually sent upon editing or revising.
 
@@ -117,7 +118,7 @@ For clients utilizing an inbound HL7 interface, there is an option to configure 
 This feature is not turned on by default. If the need for automating E-Sign Requests to CC'd physicians is noted, the MIE EDI team will work with clients to make the necessary changes in the HL7 configuration file and collaborate to create the physician translations, as needed.
 
 {{% info %}}
-The HL7 interface uses the fields OBR.28 (ORU) and TXA.23 (MDM) to pull in CC'd physician IDs. E-Sign Requests can also be created by using the physician information provided within the PV1.7, PV1.8, PV1.9, PV1.17, and PV1.52 fields. A wildcard (*) translation will be added, which is mapped to `-1`, in order to prevent non-mapped users from receiving any E-Sign Requests.
+The HL7 interface uses the fields OBR.28 (ORU) and TXA.23 (MDM) to pull in CC'd physician IDs. E-Sign Requests can also be created by using the physician information provided within the PV1.7, PV1.8, PV1.9, PV1.17, and PV1.52 fields. A wildcard (\*) translation will be added, which is mapped to `-1`, in order to prevent non-mapped users from receiving any E-Sign Requests.
 {{% /info %}}
 
 ## Reporting
@@ -128,14 +129,14 @@ Two common methods administrative staff and managers use to review E-Sign Reques
 
 ### Help Documentation
 
-* [E-Sign Chart Tab](../../functions/e-sign-electronic-signature/e-sign-chart-tab.md)
-* [Esign-All Pending Tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md)
-* [Esign-Request Signature](../../functions/e-sign-electronic-signature/request-e-signature.md)
-* [Esign-Unrequest Signature](../../functions/e-sign-electronic-signature/un-request-unassign-an-e-signature.md)
-* [Esign-Pending Reviews](../../functions/e-sign-electronic-signature/pending-e-sign-reviews.md)
-* [Esign-Highlight Transcribed](../../functions/encounters/dictation-and-transcription/highlight-transcribed.md)
-* [Document Search](../../functions/reports/documents-report-super-document-type-search.md)
+- [E-Sign Chart Tab](../../functions/e-sign-electronic-signature/e-sign-chart-tab.md)
+- [Esign-All Pending Tab](../../functions/e-sign-electronic-signature/e-sign-all-pending-tab.md)
+- [Esign-Request Signature](../../functions/e-sign-electronic-signature/request-e-signature.md)
+- [Esign-Unrequest Signature](../../functions/e-sign-electronic-signature/un-request-unassign-an-e-signature.md)
+- [Esign-Pending Reviews](../../functions/e-sign-electronic-signature/pending-e-sign-reviews.md)
+- [Esign-Highlight Transcribed](../../functions/encounters/dictation-and-transcription/highlight-transcribed.md)
+- [Document Search](../../functions/reports/documents-report-super-document-type-search.md)
 
 ### Training Videos
 
-* [E-Sign](https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174) (00:11:40)
+- [E-Sign](https://mieweb.webex.com/mieweb/ldr.php?RCID=01b7980ef298c9776889ace1aa2c0174) (00:11:40)

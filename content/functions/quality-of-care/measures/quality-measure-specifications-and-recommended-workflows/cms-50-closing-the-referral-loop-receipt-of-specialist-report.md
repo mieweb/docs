@@ -1,18 +1,19 @@
 ---
-id: '1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-title: 'CMS 50 - Closing the Referral Loop: Receipt of Specialist Report'
-date: '2024-05-20T18:34:17.291Z'
+id: "1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM"
+title: "CMS 50 - Closing the Referral Loop: Receipt of Specialist Report"
+date: "2024-05-20T18:34:17.291Z"
 version: 120
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10'
-source: 'https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms050v10"
+source: "https://drive.google.com/open?id=1rjJ9MuDD0dyuQq-Ql6QH6iN5BE0WjSOBKJS3ZLIWGvM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS50v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS50v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -116,9 +117,9 @@ Refer to outside provider
 
 {{% note %}}
 
-* The out-of-the-box referral order document type (ORDREF) needs to be saved with LOINC 47045-0.
-* The Ordering Provider field must be the performing provider (i.e., not the nurse, MA, or staff) in order for the performing provider to satisfy the measure.
-* All referral orders created for a patient during the reporting period must be Completed in order for the patient to count in the numerator.
+- The out-of-the-box referral order document type (ORDREF) needs to be saved with LOINC 47045-0.
+- The Ordering Provider field must be the performing provider (i.e., not the nurse, MA, or staff) in order for the performing provider to satisfy the measure.
+- All referral orders created for a patient during the reporting period must be Completed in order for the patient to count in the numerator.
 
 {{% /note %}}
 
@@ -131,11 +132,11 @@ Refer to outside provider
 
 {{% note %}}
 
-* The referral order and the received consult note will need to be linked in order to satisfy the measure. This can be done during indexing; otherwise, linking can be done manually, from the Open Orders screen, when completing orders.
-    * Order request chart tab click complete in options column of the pending referral order, complete order with linked doc_id
-* The consult note document type (e.g., CONSNOTE) needs to be saved with LOINC 34140-4.
-    * The consult note needs to be received after the referral order is created.
-    * The consult report cannot be from the same provider that sent the referral order.
+- The referral order and the received consult note will need to be linked in order to satisfy the measure. This can be done during indexing; otherwise, linking can be done manually, from the Open Orders screen, when completing orders.
+  - Order request chart tab click complete in options column of the pending referral order, complete order with linked doc_id
+- The consult note document type (e.g., CONSNOTE) needs to be saved with LOINC 34140-4.
+  - The consult note needs to be received after the referral order is created.
+  - The consult report cannot be from the same provider that sent the referral order.
 
 {{% /note %}}
 

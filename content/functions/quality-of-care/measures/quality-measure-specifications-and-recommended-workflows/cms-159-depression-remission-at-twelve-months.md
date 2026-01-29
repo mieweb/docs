@@ -1,18 +1,19 @@
 ---
-id: '1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0'
-title: 'CMS 159 - Depression Remission at Twelve Months'
-date: '2022-04-29T12:47:04.769Z'
+id: "1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0"
+title: "CMS 159 - Depression Remission at Twelve Months"
+date: "2022-04-29T12:47:04.769Z"
 version: 32
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v8&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v10&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms159v10'
-source: 'https://drive.google.com/open?id=1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v8&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v10&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms159v10"
+source: "https://drive.google.com/open?id=1Jo1ZcIJ0Gs1sWISKJO8secJ2N3RU04thYDjzgnW8ab0"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS159v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS159v8&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -105,7 +106,6 @@ wikigdrive: 'v2.15.30'
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
-
 
 ### Original Visit Encounter
 

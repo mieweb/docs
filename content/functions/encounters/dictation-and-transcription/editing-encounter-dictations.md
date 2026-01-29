@@ -1,23 +1,24 @@
 ---
-id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-title: 'Editing Encounter Dictations'
-date: '2020-03-12T20:59:42.218Z'
+id: "1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4"
+title: "Editing Encounter Dictations"
+date: "2020-03-12T20:59:42.218Z"
 version: 66
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4"
+wikigdrive: "v2.15.30"
 ---
+
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.
 
 You will open to the ALL PENDING tab of the dictation module.
 
 This opens to the summary screen of your assigned and any unassigned dictations.
 
-Click the *Search* link.
+Click the _Search_ link.
 
-Search by any field method listed (example type in patient's last name, etc) and select the current status of the dictation you are looking for or choose *all.*
+Search by any field method listed (example type in patient's last name, etc) and select the current status of the dictation you are looking for or choose _all._
 
 Click the SEARCH button at the bottom.
 
@@ -39,7 +40,7 @@ Click on the underlined Dictation ID number, but this time select the specific D
 
 The dictation player box will open.
 
-Click on the *Edit* link nest to the encounter Field Name. The encounter Field Name lists the encounter type you have opened.
+Click on the _Edit_ link nest to the encounter Field Name. The encounter Field Name lists the encounter type you have opened.
 
 ![](./editing-encounter-dictations.assets/6d3b816058d07ac9977082f7b24bd5aa.png)
 
@@ -55,7 +56,7 @@ Click the **DONE** button at the bottom of the encounter transcription text box 
 
 ![](./editing-encounter-dictations.assets/b9750bdcf556038f61a78cf3647640f2.png)
 
-When you are done, a message will appear that says "All Dictations for Encounter (xxx) are Currently in Progress". Click the underlined *CLOSE* link to close out the encounter dictation.
+When you are done, a message will appear that says "All Dictations for Encounter (xxx) are Currently in Progress". Click the underlined _CLOSE_ link to close out the encounter dictation.
 
 This will move the dictation in the appropriate dictation tab.
 

@@ -1,18 +1,19 @@
 ---
-id: '1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-title: 'Document Management'
-date: '2020-02-27T21:09:07.746Z'
+id: "1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ"
+title: "Document Management"
+date: "2020-02-27T21:09:07.746Z"
 version: 46
-lastAuthor: 'aquandt'
-mimeType: 'text/x-markdown'
+lastAuthor: "aquandt"
+mimeType: "text/x-markdown"
 links:
-  - 'document-management/documents-and-forms.md'
-  - 'document-management/scanning-and-indexing.md'
-  - 'document-management/printing-and-print-definitions.md'
-  - 'document-management/imaging.md'
-source: 'https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ'
-wikigdrive: 'v2.15.30'
+  - "document-management/documents-and-forms.md"
+  - "document-management/scanning-and-indexing.md"
+  - "document-management/printing-and-print-definitions.md"
+  - "document-management/imaging.md"
+source: "https://drive.google.com/open?id=1WybRBSEox5cSECcPwj3PJOArnmlFKwVMkNlT6gq1qSQ"
+wikigdrive: "v2.15.30"
 ---
+
 Document Management is an essential component of the {{% system-name %}} EHR portfolio. With our document management solutions, clients will experience the conveniences of easy chart access, anywhere, anytime, as well as hassle-free interoperability and integrated workflows, intended to streamline operations and communication.
 
 {{% system-name %}} supports both web-based remote scanning and high-speed scanning for items such as insurance cards or entire charts. WebScan also allows front desk staff to scan information directly into a patient's record, at the point of encounter, and is designed to automatically index the scanned document using barcode technology.

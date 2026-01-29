@@ -1,16 +1,17 @@
 ---
-id: '1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
-title: 'Label Printing Feature'
-date: '2024-11-04T19:34:26.300Z'
+id: "1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10"
+title: "Label Printing Feature"
+date: "2024-11-04T19:34:26.300Z"
 version: 158
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - '../../order-and-result-management/e-orders-chart-tab.md'
-  - 'https://mie.talentlms.com/shared/start/key:AOGHRKMF'
-source: 'https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10'
-wikigdrive: 'v2.15.30'
+  - "../../order-and-result-management/e-orders-chart-tab.md"
+  - "https://mie.talentlms.com/shared/start/key:AOGHRKMF"
+source: "https://drive.google.com/open?id=1GBdtPDh7IhPpfruWnKD_qi1WRONcy9p6XhabXBWXl10"
+wikigdrive: "v2.15.30"
 ---
+
 {{% system-name %}} offers a label generating feature that generates labels with predefined chart information. The data and information printed on the labels is provided as part of the system standard; however, label layouts can be customized for clients, as needed.
 
 {{% note %}}
@@ -23,11 +24,11 @@ Dymo LabelWriter printers are recommended for printing labels from the {{% syste
 
 By default, labels print with the following demographic information included:
 
-* Today's Date
-* MR#
-* Gender
-* Chart Name
-* Date of Birth
+- Today's Date
+- MR#
+- Gender
+- Chart Name
+- Date of Birth
 
 MIE can customize this layout, if necessary.
 
@@ -41,7 +42,7 @@ Links for generating labels can be configured and made available on the **Quick 
 
 Whenever the **Dymo 450 1.25 x 2.25** link is clicked from the Quick Links portlet of the Summary chart tab, users will print a 1.25 x 2.25 sized label, with the standard demographic information, seen above.
 
-Once the link has been clicked, a preview of the label data will show when the Print screen loads. Clicking the **Print** button will open the *Print Dialog* window, where the specific Dymo printer needs to be selected in order to print.
+Once the link has been clicked, a preview of the label data will show when the Print screen loads. Clicking the **Print** button will open the _Print Dialog_ window, where the specific Dymo printer needs to be selected in order to print.
 
 ![](./label-printing-feature.assets/9c240d7f92045eb249a4e21024538856.png)
 
@@ -71,11 +72,11 @@ A system setting ("Scheduler", "Settings", "Print Labels") is enabled, by defaul
 
 Labels printed from the Scheduler contain the following demographic information, by default:
 
-* Appointment Date
-* Appointment Time
-* MR#
-* Gender
-* Chart Name.
+- Appointment Date
+- Appointment Time
+- MR#
+- Gender
+- Chart Name.
 
 MIE can customize this layout, if necessary.
 
@@ -87,7 +88,7 @@ When the **Print Labels** link is clicked from a scheduler view, a preview of th
 
 Though not available in the standard product by default, a label can be custom programmed to print chart information onto a label that can then be used for the order being sent out. For instance, when sending a vial with an order, a label with the relevant data can be printed and affixed to the vial, prior to sending.
 
-The *Order Label* layout must be established within {{% system-name %}} , with configuration done by MIE. Once the layout exists, the **Label** link will usually display in the Orders module. To view the Label link and print any custom configured labels, ensure the appropriate system setting ("Orders", "Defaults", "Auto Print on Summary") is enabled.
+The _Order Label_ layout must be established within {{% system-name %}} , with configuration done by MIE. Once the layout exists, the **Label** link will usually display in the Orders module. To view the Label link and print any custom configured labels, ensure the appropriate system setting ("Orders", "Defaults", "Auto Print on Summary") is enabled.
 
 To print a label associated with an Order Request, click the **Label** link after successfully creating the Order Request.
 
@@ -97,7 +98,7 @@ Once the page loads, click the **Print** button. Verify the correct printer is s
 
 ![](./label-printing-feature.assets/036f7a93a384c04316d92e6adc9087c9.png)
 
-Labels for Order Requests can also be generated and printed from the **Order Requests** chart tab. This is where all Order Requests for the chart are listed according to category. In the *Options* column of the grid, a **Print Label** link is provided. Users may print labels for Order Requests, as needed.
+Labels for Order Requests can also be generated and printed from the **Order Requests** chart tab. This is where all Order Requests for the chart are listed according to category. In the _Options_ column of the grid, a **Print Label** link is provided. Users may print labels for Order Requests, as needed.
 
 ![](./label-printing-feature.assets/d0f43d24e3780a95a924a9e6cf8913fd.png)
 
@@ -105,7 +106,7 @@ Labels for Order Requests can also be generated and printed from the **Order Req
 
 Orders are often created when working in an encounter. Because of this, {{% system-name %}} has made it so users may generate and print labels from the encounter view, whenever encounter-generated order requests are created.
 
-At the end of the encounter view, a section is available for listing all encounter Order Requests: *This encounter has order requests*. There is a **Label** link in the *Options* column, which can be used for generating and printing a label for each Order Request.
+At the end of the encounter view, a section is available for listing all encounter Order Requests: _This encounter has order requests_. There is a **Label** link in the _Options_ column, which can be used for generating and printing a label for each Order Request.
 
 ![](./label-printing-feature.assets/5df4e0da7d071162804beb687b41f5af.png)
 
@@ -115,4 +116,4 @@ For more information, please review the [Order Requests Chart Tab](../../order-a
 
 To learn more about the Label Printing Feature, follow the link below to the Learning Management System course:
 
-* [Label Printing](https://mie.talentlms.com/shared/start/key:AOGHRKMF)
+- [Label Printing](https://mie.talentlms.com/shared/start/key:AOGHRKMF)

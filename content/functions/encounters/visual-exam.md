@@ -1,20 +1,21 @@
 ---
-id: '1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
-title: 'Visual Exam'
-date: '2025-06-26T17:55:04.566Z'
+id: "1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc"
+title: "Visual Exam"
+date: "2025-06-26T17:55:04.566Z"
 version: 58
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'encounter-protocols.md'
-  - '../system-configuration/macros.md'
-  - 'libraries.md'
-source: 'https://drive.google.com/open?id=1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc'
-wikigdrive: 'v2.15.30'
+  - "encounter-protocols.md"
+  - "../system-configuration/macros.md"
+  - "libraries.md"
+source: "https://drive.google.com/open?id=1kaCHVeGIkHPkR-K8QKx6GGJBgM2FAxYRcqkR0ufYVXc"
+wikigdrive: "v2.15.30"
 ---
-The Visual Exam encounter section is found within the Objective area of an encounter.  The Physical Exam encounter section can be toggled to be a Visual Exam encounter section (and vice versa).
 
-The Visual Exam encounter section is typically used when documenting a telehealth or virtual online type visit and not physically present with the patient.  To document a Visual Exam, simply go to the Physical Exam encounter section and click the Visual Exam toggle button at the far right.
+The Visual Exam encounter section is found within the Objective area of an encounter. The Physical Exam encounter section can be toggled to be a Visual Exam encounter section (and vice versa).
+
+The Visual Exam encounter section is typically used when documenting a telehealth or virtual online type visit and not physically present with the patient. To document a Visual Exam, simply go to the Physical Exam encounter section and click the Visual Exam toggle button at the far right.
 
 ![](./visual-exam.assets/e95f7445a339c87cf5747fa4ec22f42f.png)
 
@@ -28,11 +29,11 @@ Next, simply click on the grey section title to expand open the Visual Exam enco
 
 ## Visual Exam - Flowsheet
 
-The Visual Exam encounter section points to a specific flowsheet configured in the system.  This flowsheet can be customized for your needs.  A configured flowsheet named *Visual Exam* in the flowsheet editor will display the data capture fields in the encounter Visual Exam section. Using the Visual Exam flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Visual Exam encounter section.
+The Visual Exam encounter section points to a specific flowsheet configured in the system. This flowsheet can be customized for your needs. A configured flowsheet named _Visual Exam_ in the flowsheet editor will display the data capture fields in the encounter Visual Exam section. Using the Visual Exam flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Visual Exam encounter section.
 
 ![](./visual-exam.assets/3d192d8e143a8421d0a500c9439abeaf.png)
 
-To utilize a flowsheet method in Visual Exam, a flowsheet named *Visual Exam* must exist with contents.
+To utilize a flowsheet method in Visual Exam, a flowsheet named _Visual Exam_ must exist with contents.
 
 ![](./visual-exam.assets/37bc6ef905291cd99277bc1a6bcfd4ef.png)
 
@@ -58,9 +59,9 @@ You can edit, delete, add to, or view the specific documented Visual Exam data f
 
 ### Hover Options
 
-Once Visual Exam data has been documented, one can edit, add to, or delete data for the specific Visual Exam data that was captured.  If you do not have security permission to edit or add to observations, then you will not be able to.
+Once Visual Exam data has been documented, one can edit, add to, or delete data for the specific Visual Exam data that was captured. If you do not have security permission to edit or add to observations, then you will not be able to.
 
-From the section's collapsed summary view, simply click on the values/data of the specific Visual Exam line item to edit on or add to.  The data will be displayed in a border box where you can begin modifying or typing in more information.
+From the section's collapsed summary view, simply click on the values/data of the specific Visual Exam line item to edit on or add to. The data will be displayed in a border box where you can begin modifying or typing in more information.
 
 ![](./visual-exam.assets/04da59340f8f1f5cb123a5ebf2e1fcab.png)
 
@@ -68,12 +69,12 @@ Also while the encounter section is in summary collapsed view, icon options next
 
 ![](./visual-exam.assets/900f31371c61070617255faede9b881f.png)
 
-**Trash Can icon:** will immediately delete the stored data for the visual exam line item.  Visual exam data stores as observations.  If you do not have security permission to delete observations, the trashcan icon will still display, but upon click, the system will not allow the data to be deleted.
+**Trash Can icon:** will immediately delete the stored data for the visual exam line item. Visual exam data stores as observations. If you do not have security permission to delete observations, the trashcan icon will still display, but upon click, the system will not allow the data to be deleted.
 
 **Eyeball icon:** will pop-up the View Observation window to view more specific details of the specific visual exam data. Revisions, trending, and entry information will be seen. Visual Exam data stores as observations.
 
 ### Expanded Encounter Section
 
-Visual Exam data can also be edited on, added to, or cleared/deleted from the expanded encounter summary section.  Once Visual Exam data has been documented, the encounter section can be expanded open by clicking anywhere on the grey title section bar.  Then, the data can be clicked to edit & add to, or can click X to clear the data out of the field.  If you do not have security permission to edit or delete observations, the system will not allow you to modify.
+Visual Exam data can also be edited on, added to, or cleared/deleted from the expanded encounter summary section. Once Visual Exam data has been documented, the encounter section can be expanded open by clicking anywhere on the grey title section bar. Then, the data can be clicked to edit & add to, or can click X to clear the data out of the field. If you do not have security permission to edit or delete observations, the system will not allow you to modify.
 
 ![](./visual-exam.assets/ee464ecdd61d56bdbcd040e5401e3f92.png)

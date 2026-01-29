@@ -1,60 +1,61 @@
 ---
-id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-title: 'Resource Specifications'
-date: '2024-02-17T18:48:45.904Z'
+id: "1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE"
+title: "Resource Specifications"
+date: "2024-02-17T18:48:45.904Z"
 version: 550
-lastAuthor: 'horner'
-mimeType: 'text/x-markdown'
+lastAuthor: "horner"
+mimeType: "text/x-markdown"
 links:
-  - 'http://hl7.org/fhir/R4/allergyintolerance.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html'
-  - 'http://hl7.org/fhir/R4/careplan.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html'
-  - 'http://hl7.org/fhir/R4/careteam.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html'
-  - 'http://hl7.org/fhir/R4/condition.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html'
-  - 'http://hl7.org/fhir/R4/device.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html'
-  - 'http://hl7.org/fhir/R4/diagnosticreport.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html'
-  - 'http://hl7.org/fhir/R4/documentreference.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html'
-  - 'http://hl7.org/fhir/R4/encounter.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html'
-  - 'http://hl7.org/fhir/R4/goal.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html'
-  - 'http://hl7.org/fhir/R4/immunization.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html'
-  - 'http://hl7.org/fhir/R4/location.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html'
-  - 'http://hl7.org/fhir/R4/medication.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html'
-  - 'http://hl7.org/fhir/R4/medicationrequest.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html'
-  - 'http://hl7.org/fhir/R4/observation.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html'
-  - 'http://hl7.org/fhir/R4/organization.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html'
-  - 'http://hl7.org/fhir/R4/patient.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html'
-  - 'http://hl7.org/fhir/R4/practitioner.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html'
-  - 'http://hl7.org/fhir/R4/practitionerrole.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html'
-  - 'http://hl7.org/fhir/R4/procedure.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html'
-  - 'http://hl7.org/fhir/R4/provenance.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
-source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: 'v2.15.30'
+  - "http://hl7.org/fhir/R4/allergyintolerance.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html"
+  - "http://hl7.org/fhir/R4/careplan.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html"
+  - "http://hl7.org/fhir/R4/careteam.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html"
+  - "http://hl7.org/fhir/R4/condition.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html"
+  - "http://hl7.org/fhir/R4/device.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html"
+  - "http://hl7.org/fhir/R4/diagnosticreport.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html"
+  - "http://hl7.org/fhir/R4/documentreference.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html"
+  - "http://hl7.org/fhir/R4/encounter.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html"
+  - "http://hl7.org/fhir/R4/goal.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html"
+  - "http://hl7.org/fhir/R4/immunization.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html"
+  - "http://hl7.org/fhir/R4/location.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html"
+  - "http://hl7.org/fhir/R4/medication.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html"
+  - "http://hl7.org/fhir/R4/medicationrequest.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html"
+  - "http://hl7.org/fhir/R4/observation.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html"
+  - "http://hl7.org/fhir/R4/organization.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html"
+  - "http://hl7.org/fhir/R4/patient.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html"
+  - "http://hl7.org/fhir/R4/practitioner.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html"
+  - "http://hl7.org/fhir/R4/practitionerrole.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html"
+  - "http://hl7.org/fhir/R4/procedure.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html"
+  - "http://hl7.org/fhir/R4/provenance.html"
+  - "http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html"
+source: "https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE"
+wikigdrive: "v2.15.30"
 ---
+
 # Supported Resources
 
 [AllergyIntolerance](#allergyintolerance)
@@ -238,14 +239,17 @@ A list of allergies for a specific patient can be returned when searching by tha
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 {
 	"resourceType": "AllergyIntolerance",
@@ -306,6 +310,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 	"recordedDate": "2022-08-05T18:33:45Z"
 }
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -355,7 +360,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 ### Description
 
-The CarePlan resource returns data related to the intention of how one or more practitioners deliver care for a unique patient or group of patients during a period of time.  CarePlans may or may not be related to a specific condition or set of conditions.
+The CarePlan resource returns data related to the intention of how one or more practitioners deliver care for a unique patient or group of patients during a period of time. CarePlans may or may not be related to a specific condition or set of conditions.
 
 A list of care plans for a specific patient can be returned when searching by that patient.
 
@@ -464,16 +469,19 @@ A list of care plans for a specific patient can be returned when searching by th
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -504,6 +512,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CarePlan/11
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -554,7 +563,7 @@ Permission Denied</td>
 
 ### Description
 
-The CareTeam resource returns data regarding everyone involved in the care of a unique patient.  This team may consist of medical practitioners, friends, relatives, and organizations.
+The CareTeam resource returns data regarding everyone involved in the care of a unique patient. This team may consist of medical practitioners, friends, relatives, and organizations.
 
 A list of care teams for a specific patient can be returned when searching by that patient.
 
@@ -661,16 +670,19 @@ A list of care teams for a specific patient can be returned when searching by th
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -730,6 +742,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/CareTeam/18
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -933,16 +946,19 @@ A list of conditions for a specific patient can be returned when searching by th
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -1009,6 +1025,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Condition/26
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -1208,16 +1225,19 @@ A list of Devices for a specific patient can be returned when searching by that 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -1261,6 +1281,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Device/662
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -1472,16 +1493,19 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -1538,6 +1562,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DiagnosticReport/91
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -1742,16 +1767,19 @@ A list of documents for a specific patient can be returned when searching by tha
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -1815,6 +1843,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/DocumentReference/91
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -2019,16 +2048,19 @@ A list of encounters for a specific patient can be returned when searching by th
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -2121,6 +2153,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Encounter/63
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -2278,16 +2311,19 @@ A list of goals for a specific patient can be returned when searching by that pa
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -2320,6 +2356,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Goal/1
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -2523,16 +2560,19 @@ A list of immunizations for a specific patient can be returned when searching by
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -2563,6 +2603,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Immunization/9
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -2720,16 +2761,19 @@ A list of locations can be returned when searching by name or address.
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 	"resourceType": "Location",
@@ -2754,6 +2798,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Location/41
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -2804,7 +2849,7 @@ Permission Denied</td>
 
 ### Description
 
-The Medication resource returns data used for the identification and definition of a medication.  This resource can be used as reference in a MedicationRequest resource to define the medication being prescribed to a unique patient.
+The Medication resource returns data used for the identification and definition of a medication. This resource can be used as reference in a MedicationRequest resource to define the medication being prescribed to a unique patient.
 
 ### Standards
 
@@ -2867,16 +2912,19 @@ The Medication resource returns data used for the identification and definition 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -2895,6 +2943,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Medication/670934
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -3099,16 +3148,19 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -3156,6 +3208,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/MedicationRequest/23
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -3370,16 +3423,19 @@ A list of Observations for a specific patient can be returned when searching by 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -3450,6 +3506,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Observation/175
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -3617,16 +3674,19 @@ A list of Organizations can be returned when searching by name or address.
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -3660,6 +3720,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Organization/41
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -3878,16 +3939,19 @@ A list of patients can be returned when searching by demographic information.
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -4054,6 +4118,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Patient/18
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -4225,16 +4290,19 @@ A list of Practitioners can be returned when searching by name or identifier.
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -4299,6 +4367,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Practitioner/88
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -4454,16 +4523,19 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -4501,6 +4573,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/PractitionerRole/1
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -4655,16 +4728,19 @@ A list of procedures can be returned for a specific patient when searching by th
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -4687,6 +4763,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Procedure/77
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling
@@ -4819,16 +4896,19 @@ The Provenance resource contains information for assessing authenticity, enablin
 ### Request
 
 {{% pre language="html" theme="RDark" %}}
+
 ```
 
 https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 
 ```
+
 {{% /pre %}}
 
 ### Response
 
 {{% pre language="json" theme="RDark" %}}
+
 ```
 
 {
@@ -4862,6 +4942,7 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 }
 
 ```
+
 {{% /pre %}}
 
 ### Error Handling

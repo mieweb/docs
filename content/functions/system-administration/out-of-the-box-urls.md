@@ -1,43 +1,47 @@
 ---
-id: '1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-title: 'Out-of-the-Box Urls'
-date: '2025-11-13T15:50:01.645Z'
+id: "1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM"
+title: "Out-of-the-Box Urls"
+date: "2025-11-13T15:50:01.645Z"
 version: 42
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC'
-  - 'data-migration/create-audiometric-data-file-for-import.md'
-  - 'data-migration/lost-time-import-tool.md'
-  - 'https://drive.google.com/open?id=1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw'
-  - 'data-migration/clinical-encounter-csv-api.md'
-  - 'data-migration/completed-orders-import-tool.md'
-  - 'data-migration/data-migration-file-format-standard.md'
-  - 'data-migration/injections-csv-api.md'
-  - 'data-migration/create-language-translation-file-for-import.md'
-  - 'data-migration/observation-codes-csv-api.md'
-  - 'data-migration/panel-status-import.md'
-  - 'data-migration/create-pft-data-file-for-import.md'
-  - 'data-migration/summary-documents-csv-api.md'
-source: 'https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM'
-wikigdrive: 'v2.15.30'
+  - "https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC"
+  - "data-migration/create-audiometric-data-file-for-import.md"
+  - "data-migration/lost-time-import-tool.md"
+  - "https://drive.google.com/open?id=1lWY5sUx7y3qgIdu5wKcXkK8tzEAAN9fQa0IXwU_40gw"
+  - "data-migration/clinical-encounter-csv-api.md"
+  - "data-migration/completed-orders-import-tool.md"
+  - "data-migration/data-migration-file-format-standard.md"
+  - "data-migration/injections-csv-api.md"
+  - "data-migration/create-language-translation-file-for-import.md"
+  - "data-migration/observation-codes-csv-api.md"
+  - "data-migration/panel-status-import.md"
+  - "data-migration/create-pft-data-file-for-import.md"
+  - "data-migration/summary-documents-csv-api.md"
+source: "https://drive.google.com/open?id=1O5d8r3pNW0U9jCHvkjdVMoUORs9Z2NPPJNf7VJwi8GM"
+wikigdrive: "v2.15.30"
 ---
+
 The following URLs have been compiled to assist with any implementation efforts which may call for a list of friendly domains, which will require whitelisting for user access using the {{% system-name %}} system.
 
 ## Quick View → Administrator Welcome → News Feed Blog
 
 {{% pre %}}
+
 ```
 
 
 http://blog.enterprisehealth.com/topic/news-and-events
 
 ```
+
 {{% /pre %}}
 
 ## E-Chart → References
 
 {{% pre %}}
+
 ```
 
 
@@ -50,39 +54,46 @@ https://www.google.com/?gws_rd=ssl#spf=1568128298269
 https://www.uptodate.com/home
 
 ```
+
 {{% /pre %}}
 
 ## Warnings & Alerts Portlet in Summary Chart tab (ePSS)
 
 {{% pre %}}
+
 ```
 
 
 https://epss.ahrq.gov/ePSS/GetResults.do?method=search&new=true
 
 ```
+
 {{% /pre %}}
 
 ## Case Management Encounter:
 
 {{% pre %}}
+
 ```
 
 
 https://www.bls.gov/ncs/ors/physical-072015.htm
 
 ```
+
 {{% /pre %}}
 
 ## Absence Management Encounter:
 
 {{% pre %}}
+
 ```
 
 
 https://www.mdguidelines.com/
 
 ```
+
 {{% /pre %}}
 
 ## Patient Portal → Other Health Resources website URLs (in the info cards) are OOTB for:
@@ -90,6 +101,7 @@ https://www.mdguidelines.com/
 ### Mayo Clinic
 
 {{% pre %}}
+
 ```
 
 
@@ -98,11 +110,13 @@ https://www.mdguidelines.com/
 //www.mayoclinic.org/healthy-lifestyle
 
 ```
+
 {{% /pre %}}
 
 ### American Heart Association
 
 {{% pre %}}
+
 ```
 
 
@@ -111,11 +125,13 @@ https://www.mdguidelines.com/
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
 
 ```
+
 {{% /pre %}}
 
 ### CDC
 
 {{% pre %}}
+
 ```
 
 
@@ -124,11 +140,13 @@ https://www.mdguidelines.com/
 //www.cdc.gov/about/24-7/index.html
 
 ```
+
 {{% /pre %}}
 
 ### American Cancer Society
 
 {{% pre %}}
+
 ```
 
 
@@ -137,11 +155,13 @@ https://www.mdguidelines.com/
 //www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp
 
 ```
+
 {{% /pre %}}
 
 ### International SOS
 
 {{% pre %}}
+
 ```
 
 
@@ -150,66 +170,76 @@ https://www.mdguidelines.com/
 //www.internationalsos.com/medical-and-security-services
 
 ```
+
 {{% /pre %}}
 
 ## Portal URLS
 
-* URL to access Applicant Portal is unique per customer (if utilized)
-* URL to access Employee/Supervisor Portal is unique per customer (if utilized)
+- URL to access Applicant Portal is unique per customer (if utilized)
+- URL to access Employee/Supervisor Portal is unique per customer (if utilized)
 
 ## Patient Education
 
-* Due to the need of a unique key for access, Healthwise would use a unique URL per customer, which will be configured for the client if this functionality is utilized.
+- Due to the need of a unique key for access, Healthwise would use a unique URL per customer, which will be configured for the client if this functionality is utilized.
 
 **Example**: [https://clinicianIx.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC](https://clinicianix.healthwise.net/miewebchart/Launch?hw.key=AECHY7SHQJ47ZLMIYLUEMADCM77TGNXIRPQFFY6SXTVTWWHQ72QQCH3QTIZPCCDHTHQFDX5ADWFFTC)
 
 ## Injections Module or Tests/Procedures (VIS handouts)
 
 {{% pre %}}
+
 ```
 
 
 https://www.immunize.org/vis/vis_english.asp
 
 ```
+
 {{% /pre %}}
 
 ## Implantable Devices
 
 {{% pre %}}
+
 ```
 
 
 https://accessgudid.nlm.nih.gov/devices/
 
 ```
+
 {{% /pre %}}
 
 ## DOT encounter
 
 {{% pre %}}
+
 ```
 
 
 https://www.fmcsa.dot.gov
 
 ```
+
 {{% /pre %}}
 
 ## FroozHIE tool (CCDA/CCR/CDA)
 
 {{% pre %}}
+
 ```
 
 
 https://www.froozhie.com/froo.cgi
 
 ```
+
 {{% /pre %}}
 
 ## Online Help
 
 {{% pre %}}
+
 ```
 
 
@@ -218,6 +248,7 @@ https://docs.enterprisehealth.com (for EH clients)
 https://docs.webchartnow.com (for WebChart clients)
 
 ```
+
 {{% /pre %}}
 
 ## Data Import

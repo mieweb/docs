@@ -1,14 +1,15 @@
 ---
-id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-title: 'Custom Documents CSV API'
-date: '2024-12-18T15:28:14.803Z'
+id: "1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0"
+title: "Custom Documents CSV API"
+date: "2024-12-18T15:28:14.803Z"
 version: 99
-lastAuthor: 'bhamm'
-mimeType: 'text/x-markdown'
+lastAuthor: "bhamm"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0"
+wikigdrive: "v2.15.30"
 ---
+
 Custom documents can be designed at the storage type level. When a layout is present in the system with module=Storage Type and name=<storage type>, this layout will be used to render the document.
 
 ## Existing Storage Types
@@ -20,11 +21,13 @@ A layout with module=Storage Type and name=<existing storage type> (<=27 as of 0
 1. Determine the number of the storage type for which you want to create a custom layout. This can be done by looking either in the MySQL database or at the stg_DetailView[MAX_STGTYPES] array in storage.c (approx. line 1950).
 
 To view the storage types in MySQL run the following query:
+
 ```
 SELECT * FROM storage_types;
 
 
 ```
+
 <table>
 <tr>
 <td>STORAGE_TYPE</td>
@@ -216,6 +219,7 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 ### Process
 
 1. Insert a new storage type into the storage_types table.
+
 ```
 
 <1001+>,,,);INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (
@@ -223,6 +227,7 @@ Storage types >= 1001 can be added to create a custom document rendered with a l
 ```
 
 For example,
+
 ```
 
 INSERT INTO storage_types (storage_type, file_ext, content_type, description) VALUES (1001,'html','text/html','Test new storage type');
@@ -230,6 +235,7 @@ INSERT INTO storage_types (storage_type, file_ext, content_type, description) VA
 ```
 
 2. Add a new document with the new storage type you just created. This can be done by navigating to a patient's chart and clicking the Add Document link. Add a text document and copy the id. Then manually update the document with that id to have your new storage type.
+
 ```
 
 WHERE doc_id=;UPDATE documents SET storage_type=

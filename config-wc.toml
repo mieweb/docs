@@ -1,7 +1,7 @@
 baseURL = "/wc"
 languageCode = "en-us"
 title = "WebChart"
-theme = "wc-eh-docs"
+theme = "mieweb-docs"
 publishDir = "public/wc"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir=false
@@ -15,9 +15,10 @@ defaultContentLanguageInSubdir=false
     endLevel = 4
     ordered = false
     startLevel = 2
+
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "MIEDocs"
+  description = "Comprehensive documentation for WebChart healthcare software."
   author = "WebChart"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -37,38 +38,18 @@ mediaType = "application/json"
 [markup.goldmark.renderer]
   unsafe= true
 
-[module]    
+[module]
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/scss"
-    target = "assets/scss/fontawesome"
+    source = "./node_modules/lunr/lunr.min.js"
+    target = "assets/js/vendor/lunr.min.js"
 
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/webfonts"
-    target = "static/webfonts"
+    source = "content"
+    target = "content"
 
   [[module.mounts]]
-    source = "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-    target = "assets/js/bootstrap/bootstrap.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/js/all.js"
-    target = "assets/js/fortawesome/fontawesome.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@popperjs/core/dist/umd/popper.js"
-    target = "assets/js/popper/popper.js"
-
-  [[module.mounts]]
-    source = "./node_modules/lunr/lunr.js"
-    target = "assets/js/lunr/lunr.js"
-
-  [[module.mounts]]
-    source = "./node_modules/sweetalert2/dist/sweetalert2.all.js"
-    target = "assets/js/sweetalert2/sweetalert2.js"
-
-  [[module.mounts]]
-    source = "./node_modules/copy-to-clipboard/index.js"
-    target = "assets/js/copy-to-clipboard/copy-to-clipboard.js"
+    source = "static"
+    target = "static"
 
 [security]
   [security.exec]

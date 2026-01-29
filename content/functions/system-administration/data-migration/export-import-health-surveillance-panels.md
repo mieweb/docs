@@ -1,13 +1,14 @@
 ---
-id: '1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU'
-title: 'Export/Import Health Surveillance Panels'
-date: '2020-02-27T20:23:52.293Z'
+id: "1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU"
+title: "Export/Import Health Surveillance Panels"
+date: "2020-02-27T20:23:52.293Z"
 version: 40
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1j39ny5DDziJwxeD0un6Js_fsVo6zi4TPZO39svw95oU"
+wikigdrive: "v2.15.30"
 ---
+
 Users must have security access to be in Health Surveillance Management control tab. On the sidemenu tab, click the CONTROL tab. Once in the Control tab, click the HEALTH SURVEILLANCE tab at the top menu of tabs.
 
 ![](./export-import-health-surveillance-panels.assets/2438e433ac9318b02ac39205c16153c1.png)
@@ -32,17 +33,17 @@ Once you have your panel(s) checkmarked that you wish to **export**, click the S
 
 ![](./export-import-health-surveillance-panels.assets/f7c1a0f25c51f8f3b2a62b20da5f4f9c.png)
 
-Click your mouse within the HTML programming text box, then on your keyboard, hit *Control* and the *A* key. This will highlight all the HTML programming in that text box. Right click (on your mouse) and select *Copy* (or Control and the C key). Then click the red X at the top right corner of the Export Panels pop-up window. You are now ready to import that panel programming into another system.
+Click your mouse within the HTML programming text box, then on your keyboard, hit _Control_ and the _A_ key. This will highlight all the HTML programming in that text box. Right click (on your mouse) and select _Copy_ (or Control and the C key). Then click the red X at the top right corner of the Export Panels pop-up window. You are now ready to import that panel programming into another system.
 
 ![](./export-import-health-surveillance-panels.assets/1e314089c7db163bf92e1f80c184d2cd.png)
 
 ## Import Panels
 
-To import a panel, you must have first copied an exported panel using the steps above. You must then go to the system you want to "import" the panel(s) into. This is essentially the same as a "copy/paste" type of functionality. You will go to the system you wish to import a panel(s) to. When you are in that system, and in the Health Surveillance Tab found in Control, click the Import Panels hyperlink. A blank text field will appear with the title *Import Panels*.
+To import a panel, you must have first copied an exported panel using the steps above. You must then go to the system you want to "import" the panel(s) into. This is essentially the same as a "copy/paste" type of functionality. You will go to the system you wish to import a panel(s) to. When you are in that system, and in the Health Surveillance Tab found in Control, click the Import Panels hyperlink. A blank text field will appear with the title _Import Panels_.
 
 ![](./export-import-health-surveillance-panels.assets/1ea780baf9000b08ac8feabdf62106f4.png)
 
-Within the blank text field you will click your mouse, then right click and select *"paste"* (or Control and the V key).
+Within the blank text field you will click your mouse, then right click and select _"paste"_ (or Control and the V key).
 
 ![](./export-import-health-surveillance-panels.assets/90c1f14b412b53c0242ee3f2849c3ab2.png)
 

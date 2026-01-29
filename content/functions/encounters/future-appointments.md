@@ -1,15 +1,16 @@
 ---
-id: '1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA'
-title: 'Future Appointments'
-date: '2025-06-03T14:24:30.927Z'
+id: "1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA"
+title: "Future Appointments"
+date: "2025-06-03T14:24:30.927Z"
 version: 38
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1ShWTkzMas3ymndgJv2PwPMybW25lAYurxAxbChLBWKA"
+wikigdrive: "v2.15.30"
 ---
-The Future Appointments encounter section displays a bulleted list of any future appointments for this chart, that have already been scheduled.   Future scheduled appointments cannot be managed nor edited from here. This is simply providing visibility to the chart's future scheduled appointments.
+
+The Future Appointments encounter section displays a bulleted list of any future appointments for this chart, that have already been scheduled. Future scheduled appointments cannot be managed nor edited from here. This is simply providing visibility to the chart's future scheduled appointments.
 
 ![](./future-appointments.assets/76f5cad950f686c32d868bc60530e32e.png)
 

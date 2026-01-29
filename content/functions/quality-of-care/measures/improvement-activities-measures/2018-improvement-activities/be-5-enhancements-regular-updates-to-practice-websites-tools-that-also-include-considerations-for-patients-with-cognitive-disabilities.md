@@ -1,18 +1,19 @@
 ---
-id: '182TznZvZsXHtpl2d3lM7Hmep8vbwyHUfWpBedkB3760'
-title: 'BE 5 - Enhancements/Regular Updates to Practice Websites/Tools that Also Include Considerations for Patients with Cognitive Disabilities'
-date: '2020-02-27T20:50:39.102Z'
+id: "182TznZvZsXHtpl2d3lM7Hmep8vbwyHUfWpBedkB3760"
+title: "BE 5 - Enhancements/Regular Updates to Practice Websites/Tools that Also Include Considerations for Patients with Cognitive Disabilities"
+date: "2020-02-27T20:50:39.102Z"
 version: 19
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/Section508/index.html?redirect=/InfoTechGenInfo/07_Section508.asp'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=182TznZvZsXHtpl2d3lM7Hmep8vbwyHUfWpBedkB3760'
-wikigdrive: 'v2.15.30'
+  - "https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/Section508/index.html?redirect=/InfoTechGenInfo/07_Section508.asp"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=182TznZvZsXHtpl2d3lM7Hmep8vbwyHUfWpBedkB3760"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Beneficiary Engagement

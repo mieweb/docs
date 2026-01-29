@@ -1,14 +1,15 @@
 ---
-id: '1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c'
-title: 'OpenPM Export Demographics'
-date: '2025-11-11T19:43:09.387Z'
+id: "1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c"
+title: "OpenPM Export Demographics"
+date: "2025-11-11T19:43:09.387Z"
 version: 62
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1bV_alwW6qdJfS1ruvDMII27JqJGxrlAyhyNigFXFq_c"
+wikigdrive: "v2.15.30"
 ---
+
 ## OpenPM Export Demographics
 
 ### How To Run:
@@ -45,16 +46,16 @@ The "Demographics" report is designed for exporting patient demographic data for
 22. <strong>MaritalStatus</strong>: The marital status of the patient.
 23. <strong>Sex</strong>: The gender of the patient.
 24. <strong>Race</strong>: The race of the patient, mapped to specific codes:
-    * 'AI' for American Indian or Alaska Native
-    * 'AS' for Asian
-    * 'BL' for Black or African American
-    * 'PI' for Native Hawaiian or Other Pacific Islander
-    * 'WH' for White
-    * 'REFUSED' for Declined
+    - 'AI' for American Indian or Alaska Native
+    - 'AS' for Asian
+    - 'BL' for Black or African American
+    - 'PI' for Native Hawaiian or Other Pacific Islander
+    - 'WH' for White
+    - 'REFUSED' for Declined
 25. <strong>Ethnicity</strong>: The ethnicity of the patient, mapped to specific codes:
-    * 'H' for Hispanic or Latino
-    * 'N' for Not Hispanic or Latino
-    * 'REFUSED' for NA
+    - 'H' for Hispanic or Latino
+    - 'N' for Not Hispanic or Latino
+    - 'REFUSED' for NA
 26. <strong>DOD</strong>: Date of death of the patient, if applicable.
 27. <strong>Suffix</strong>: The suffix of the patient's name.
 28. <strong>ReminderPreference</strong>: Placeholder for reminder preference (currently not populated).

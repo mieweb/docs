@@ -1,0 +1,16 @@
+{{- /* Search index JSON output for Lunr.js */}}
+{{- $index := slice }}
+{{- range .Site.RegularPages }}
+  {{- if not (eq .Params.draft true) }}
+  {{- $content := .Plain | truncate 5000 }}
+  {{- $section := .Section }}
+  {{- if not $section }}{{ $section = "" }}{{ end }}
+  {{- $index = $index | append (dict 
+    "href" .RelPermalink 
+    "title" .Title 
+    "section" $section
+    "content" $content
+  ) }}
+  {{- end }}
+{{- end }}
+{{- $index | jsonify (dict "indent" "  ") }}

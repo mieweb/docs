@@ -1,17 +1,18 @@
 ---
-id: '1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
-title: 'Link Documents to Encounters'
-date: '2025-10-16T14:36:41.068Z'
+id: "1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc"
+title: "Link Documents to Encounters"
+date: "2025-10-16T14:36:41.068Z"
 version: 132
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../scanning-and-indexing/indexing.md'
-  - '../../document-management.md'
-source: 'https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc'
-wikigdrive: 'v2.15.30'
+  - "../scanning-and-indexing/indexing.md"
+  - "../../document-management.md"
+source: "https://drive.google.com/open?id=1mcJnn30H7hx9cuQW4N201yIWBm0qMGI67jP-1R-UNgc"
+wikigdrive: "v2.15.30"
 ---
-The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of *Link Documents to Encounters* must be permitted to users that need to link documents to encounters.
+
+The {{% system-name %}} system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of _Link Documents to Encounters_ must be permitted to users that need to link documents to encounters.
 
 ## Link Documents
 
@@ -27,14 +28,14 @@ To link using this method, the document being linked to an encounter must alread
 
 ![](./link-documents-to-encounters.assets/4697830dffd93c2a652ba57ee1db8dfa.png)
 
-After clicking *View Links*, a pop-up window will display a list of items the document is currently linked to, if any. To link the document to an encounter, simply click the **Add** link displayed in the pop-up.
+After clicking _View Links_, a pop-up window will display a list of items the document is currently linked to, if any. To link the document to an encounter, simply click the **Add** link displayed in the pop-up.
 
 ![](./link-documents-to-encounters.assets/370b27747520edb0f3f03ddb46c477fe.png)
 
-The *Add Encounter Link* window will open with an autocomplete field and **Search** and **Add Link** buttons. Because most encounter IDs are not known, use the Search button to locate the appropriate encounter ID to be linked. Using the Search button will allow the user to search encounters from the past 3 days.
+The _Add Encounter Link_ window will open with an autocomplete field and **Search** and **Add Link** buttons. Because most encounter IDs are not known, use the Search button to locate the appropriate encounter ID to be linked. Using the Search button will allow the user to search encounters from the past 3 days.
 
 {{% tip %}}
-To search further out than 3 days, simply click the **Search Within x Days** link within the *Select Encounter* window. This will search additional 3-day increments, until the appropriate encounter ID is found.
+To search further out than 3 days, simply click the **Search Within x Days** link within the _Select Encounter_ window. This will search additional 3-day increments, until the appropriate encounter ID is found.
 {{% /tip %}}
 
 ![](./link-documents-to-encounters.assets/8ef0e87e75792899bbb211c92fabb2d2.png)
@@ -45,7 +46,7 @@ After clicking the Search button and finding the appropriate encounter, click th
 
 ### Link from Document Properties
 
-A stored document can be linked to an encounter while in the Properties of the document, as well. To link a document to an encounter from the document properties, simply open the document view and click the *Properties* link, found in the upper-right corner of the document header.
+A stored document can be linked to an encounter while in the Properties of the document, as well. To link a document to an encounter from the document properties, simply open the document view and click the _Properties_ link, found in the upper-right corner of the document header.
 
 ![](./link-documents-to-encounters.assets/1356df2dc401c931ffefa65d466ccbef.png)
 
@@ -77,12 +78,12 @@ To link documents to an encounter while using WebScan, note the **Encounter** fi
 
 ![](./link-documents-to-encounters.assets/83944e70848594ff5eb8c1cd8030e4ff.png)
 
-If the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the *Encounter* indexing field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. When finished, either continue indexing the remainder of the batch, or upload the linked documents directly into the chart.
+If the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the _Encounter_ indexing field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. When finished, either continue indexing the remainder of the batch, or upload the linked documents directly into the chart.
 
 ![](./link-documents-to-encounters.assets/85ad25fcc1ecef933f3e3a4746065498.png)
 
 {{% tip %}}
-To search further out than 3 days, simply click the **Search Within x Days** link within the *Select Encounter* window. This will search additional 3-day increments, until the necessary encounter ID is found.
+To search further out than 3 days, simply click the **Search Within x Days** link within the _Select Encounter_ window. This will search additional 3-day increments, until the necessary encounter ID is found.
 {{% /tip %}}
 
 For more details on scanning, indexing, and linking while indexing, see our [Indexing](../scanning-and-indexing/indexing.md) documentation.
@@ -99,16 +100,16 @@ Find the document type needing added by using the filtering options or autocompl
 
 ![](./link-documents-to-encounters.assets/2cec3af6720a820fa7c7ca44a5c3419a.png)
 
-Once the necessary document has been selected from the library, the *Add Document Properties* screen will display. Here, users will find an **Encounter** field, where they may specify and link the appropriate encounter to the document in context.
+Once the necessary document has been selected from the library, the _Add Document Properties_ screen will display. Here, users will find an **Encounter** field, where they may specify and link the appropriate encounter to the document in context.
 
 ![](./link-documents-to-encounters.assets/b1324aef413153ebadf050ec8a882a97.png)
 
-As noted, if the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the *Encounter* autocomplete field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. Continue adding the document and linking the encounter by clicking the **Add Document** button at the bottom of the window.
+As noted, if the exact encounter ID is known, users may begin typing to autocomplete the appropriate encounter. However, if the encounter ID is not known, users may begin searching for one by clicking the **Search** button next to the _Encounter_ autocomplete field. When clicked, all encounters for the chart, 3 days out from the provided Service Date, will display. Both open and closed encounters are listed. Select the appropriate encounter by clicking the **Select** link in the Options column. Continue adding the document and linking the encounter by clicking the **Add Document** button at the bottom of the window.
 
 ![](./link-documents-to-encounters.assets/85ad25fcc1ecef933f3e3a4746065498.png)
 
 {{% tip %}}
-To search further out than 3 days, simply click the **Search Within x Days** link within the *Select Encounter* window. This will search additional 3-day increments, until the necessary encounter ID is found.
+To search further out than 3 days, simply click the **Search Within x Days** link within the _Select Encounter_ window. This will search additional 3-day increments, until the necessary encounter ID is found.
 {{% /tip %}}
 
 ## View Documents Linked to Encounters
@@ -153,7 +154,7 @@ Find the document needing moved to another encounter. Once located, click the **
 
 ![](./link-documents-to-encounters.assets/1581a57cfac23101246d2d845051e6ce.png)
 
-When the Move Link hyperlink is clicked, the page will refresh with a **Move Encounter Link** section displayed where the previous *Links to Encounter* section was shown.
+When the Move Link hyperlink is clicked, the page will refresh with a **Move Encounter Link** section displayed where the previous _Links to Encounter_ section was shown.
 
 ![](./link-documents-to-encounters.assets/4711bb139b7967a6199d48826880bade.png)
 
@@ -165,7 +166,7 @@ The Move Link functionality does not support moving documents between charts.
 
 ![](./link-documents-to-encounters.assets/1c8bd380f5a45a8d47b4606695b4f458.png)
 
-The page will refresh again, this time replacing the *Move Encounter Link* section with the **Confirm Move Link to Encounter** section. Click the **Confirm Move** button to confirm the moving of the document to the new encounter.
+The page will refresh again, this time replacing the _Move Encounter Link_ section with the **Confirm Move Link to Encounter** section. Click the **Confirm Move** button to confirm the moving of the document to the new encounter.
 
 ![](./link-documents-to-encounters.assets/b05b6b015f06d9c70ec79f19bb226b66.png)
 
@@ -191,11 +192,11 @@ Locate the linked document needing unlinked from the encounter, and click the **
 
 ![](./link-documents-to-encounters.assets/cba131bdb917d7d3ddb714c2dae3f791.png)
 
-Once clicked, the page will refresh with a **Delete Encounter Link** section displayed where the previous *Links to Encounter* section was shown. Click the **Delete Link** button to confirm the deletion of the link to the encounter.
+Once clicked, the page will refresh with a **Delete Encounter Link** section displayed where the previous _Links to Encounter_ section was shown. Click the **Delete Link** button to confirm the deletion of the link to the encounter.
 
 ![](./link-documents-to-encounters.assets/944bb123f69ce2b34167805ccb113e4c.png)
 
-After confirming the deletion of the link to the encounter, the page will refresh with a confirmation, and the document will no longer be listed in the *Links to Encounters* section.
+After confirming the deletion of the link to the encounter, the page will refresh with a confirmation, and the document will no longer be listed in the _Links to Encounters_ section.
 
 {{% warning %}}
 The Delete Link function does not delete the document from the chart. It simply deletes the link between the document and the encounter, only. The document remains in the chart.
@@ -214,5 +215,5 @@ Locate the appropriate linked encounter and remove by simply clicking the **Remo
 ![](./link-documents-to-encounters.assets/ecd4059a4a50783864409cf5b4f7520f.png)
 
 {{% warning %}}
-There is no confirmation step when removing a link from the document properties. As soon as the *Remove Link* hyperlink is clicked, the link will be removed immediately.
+There is no confirmation step when removing a link from the document properties. As soon as the _Remove Link_ hyperlink is clicked, the link will be removed immediately.
 {{% /warning %}}

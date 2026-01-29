@@ -6,11 +6,11 @@
   },
   "github.copilot.chat.codeGeneration.useInstructionFiles": true,
   "github.copilot.editor.enableAutoCompletions": true,
-  
+
   // VS Code Speech - Manual send (no auto-submit on pause)
   "accessibility.voice.speechTimeout": 0,
   "accessibility.voice.autoSynthesize": "off",
-  
+
   // Workspace settings
   "cSpell.enabled": false,
   "editor.wordWrap": "on",

@@ -1,25 +1,26 @@
 ---
-id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-title: 'HL7 Segment Definitions'
-date: '2026-01-21T16:10:02.463Z'
+id: "1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
+title: "HL7 Segment Definitions"
+date: "2026-01-21T16:10:02.463Z"
 version: 718
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'sending-hl7-messages-to-system.md'
-  - 'receiving-hl7-messages-from-system.md'
-  - 'outbound-interface-install-instructions.md'
-  - 'sample-hl7-messages.md'
-source: 'https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
-wikigdrive: 'v2.15.30'
+  - "sending-hl7-messages-to-system.md"
+  - "receiving-hl7-messages-from-system.md"
+  - "outbound-interface-install-instructions.md"
+  - "sample-hl7-messages.md"
+source: "https://drive.google.com/open?id=1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80"
+wikigdrive: "v2.15.30"
 ---
+
 {{% anchor sys="msh" %}}
 
 This documentation is for HL7 Segments related to:
 
-* [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
-* [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md)
-* [Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview)
+- [Sending HL7 Messages to System](sending-hl7-messages-to-system.md)
+- [Receiving HL7 Messages from System](receiving-hl7-messages-from-system.md)
+- [Outbound Interface Install Instructions](outbound-interface-install-instructions.md#overview)
 
 ## Message Header (MSH)
 
@@ -8323,6 +8324,7 @@ ZEM|937|Acme Anvils|123 Test Rd^suite 100^Cleveland^OH^44128^US|Policy Holder On
 ### TN
 
 The TN Data Type is an MIE Extension designed for notifying a sending system of translations used in the processing of the message. This can be thought of as an incremental approach to maintaining a MFN interface.
+
 <table>
 <tr>
 <td><strong>Name</strong></td>

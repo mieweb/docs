@@ -1,38 +1,39 @@
 ---
-id: '1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
-title: 'Real World Testing Plan 2021'
-date: '2024-05-21T17:39:42.889Z'
+id: "1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI"
+title: "Real World Testing Plan 2021"
+date: "2024-05-21T17:39:42.889Z"
 version: 270
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI'
-  - 'https://www.healthit.gov/test-method/transitions-care'
-  - 'https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation'
-  - 'https://www.healthit.gov/test-method/electronic-prescribing'
-  - 'https://www.healthit.gov/test-method/data-export'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate'
-  - 'https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report'
-  - 'https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party'
-  - 'https://www.healthit.gov/test-method/transmission-immunization-registries'
-  - 'https://www.healthit.gov/test-method/application-access-patient-selection'
-  - 'https://www.healthit.gov/test-method/application-access-data-category-request'
-  - 'https://www.healthit.gov/test-method/application-access-all-data-request'
-  - 'https://www.healthit.gov/test-method/direct-project'
-  - 'https://www.healthit.gov/topic/standards-version-advancement-process-svap'
-  - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf'
-  - 'https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf'
-  - 'https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/'
-  - 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385'
-  - 'https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip'
-  - 'https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2021-CMS-IG-508.pdf'
-  - 'https://ecqi.healthit.gov/sites/default/files/2021-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-508.pdf'
-  - 'https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html'
-  - 'https://github.com/mieweb/wcexport'
-source: 'https://drive.google.com/open?id=1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI'
-wikigdrive: 'v2.15.30'
+  - "https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI"
+  - "https://www.healthit.gov/test-method/transitions-care"
+  - "https://www.healthit.gov/test-method/clinical-information-reconciliation-and-incorporation"
+  - "https://www.healthit.gov/test-method/electronic-prescribing"
+  - "https://www.healthit.gov/test-method/data-export"
+  - "https://www.healthit.gov/test-method/clinical-quality-measures-cqms-record-and-export"
+  - "https://www.healthit.gov/test-method/clinical-quality-measures-cqms-import-and-calculate"
+  - "https://www.healthit.gov/test-method/clinical-quality-measures-cqms-report"
+  - "https://www.healthit.gov/test-method/view-download-and-transmit-3rd-party"
+  - "https://www.healthit.gov/test-method/transmission-immunization-registries"
+  - "https://www.healthit.gov/test-method/application-access-patient-selection"
+  - "https://www.healthit.gov/test-method/application-access-data-category-request"
+  - "https://www.healthit.gov/test-method/application-access-all-data-request"
+  - "https://www.healthit.gov/test-method/direct-project"
+  - "https://www.healthit.gov/topic/standards-version-advancement-process-svap"
+  - "https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf"
+  - "https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf"
+  - "https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/"
+  - "https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385"
+  - "https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip"
+  - "https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2021-CMS-IG-508.pdf"
+  - "https://ecqi.healthit.gov/sites/default/files/2021-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-508.pdf"
+  - "https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html"
+  - "https://github.com/mieweb/wcexport"
+source: "https://drive.google.com/open?id=1JOipshX_JQAcd0HqbvE1rtXw_eTahntxdGjyJNrygjI"
+wikigdrive: "v2.15.30"
 ---
+
 ## [General Information](https://drive.google.com/open?id=1UH8ZmWU4RKQxPK48naxE60OfrYjB0CO1sOPYXD-GlSI)
 
 <table>
@@ -68,19 +69,19 @@ wikigdrive: 'v2.15.30'
 
 ## Certification Criteria to be Tested
 
-* ‘‘Transitions of care" (§ 170.315(b)(1) Cures Update);
-* "Clinical information reconciliation and incorporation" (§ 170.315(b)(2));
-* "Electronic prescribing" (§ 170.315(b)(3) Cures Update);
-* "Data export" (§ 170.315(b)(6));
-* "CQMs – record and export" (§ 170.315(c)(1));
-* "CQMs – import and calculate" (§ 170.315(c)(2));
-* "CQMs – report" (§ 170.315(c)(3));
-* "View, download, and transmit to 3rd party" (§ 170.315(e)(1));
-* "Transmission to immunization registries" (§ 170.315(f)(1));
-* "Application access – patient selection" (§ 170.315(g)(7));
-* "Application access – data category request" (§ 170.315(g)(8));
-* "Application access—all data request" (§ 170.315(g)(9) Cures Update);
-* "Direct Project" (§ 170.315(h)(1))
+- ‘‘Transitions of care" (§ 170.315(b)(1) Cures Update);
+- "Clinical information reconciliation and incorporation" (§ 170.315(b)(2));
+- "Electronic prescribing" (§ 170.315(b)(3) Cures Update);
+- "Data export" (§ 170.315(b)(6));
+- "CQMs – record and export" (§ 170.315(c)(1));
+- "CQMs – import and calculate" (§ 170.315(c)(2));
+- "CQMs – report" (§ 170.315(c)(3));
+- "View, download, and transmit to 3rd party" (§ 170.315(e)(1));
+- "Transmission to immunization registries" (§ 170.315(f)(1));
+- "Application access – patient selection" (§ 170.315(g)(7));
+- "Application access – data category request" (§ 170.315(g)(8));
+- "Application access—all data request" (§ 170.315(g)(9) Cures Update);
+- "Direct Project" (§ 170.315(h)(1))
 
 ## Criteria-Measure Matrix
 
@@ -459,17 +460,17 @@ wikigdrive: 'v2.15.30'
 
 ## Justification for Real World Testing Approach
 
-WebChart EHR is a cloud-based, fully-inclusive EHR solution.  All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice.  Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract.  Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system.  To address the Real World Testing requirements, MIE will be using a hybrid approach.  Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files.  For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment.  The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data.  This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
+WebChart EHR is a cloud-based, fully-inclusive EHR solution. All certified functionality is delivered in all instances of the product regardless of the care setting, size of practice, or required use cases for a given practice. Each production client is maintained in a separate database; however, the implementation of the environment is identical with the exception of optional increased security protocols that a client may choose to add for enhanced data protection. Additionally, the only differences between the client-facing portion of each system are a result of configuration settings that can be selected at go-live or updated at any time during a client's contract. Due to this philosophy of product delivery, all certified capabilities may not be actively used in all marketed care settings or may not be actively used in any current client production system. To address the Real World Testing requirements, MIE will be using a hybrid approach. Testing will primarily be conducted using de-identified real patient data from production systems as recorded in database tables and log files. For those criteria for which this live production recording is not available or minimal due to lack of client usage, client reported issues will be tracked and reported in addition to enacting automated tests of the certified functionality in a test system in a production environment. The automated tests will be run daily or weekly as appropriate in a system that is identical in substance and delivery to a client production system with the only exception being live real patient data. This blended approach will allow MIE to prove ongoing maintenance of WebChart EHR's certified technology regardless of the level of implementation by current clients.
 
 ## [Standards Updates - SVAP and USCDI](https://www.healthit.gov/topic/standards-version-advancement-process-svap)
 
 All certified criteria in WebChart EHR use the current standard or implementation specification version, and will continue conformance to that version throughout the 2022 Real World Testing period unless stated in the table below. Key current versions include the following:
 
-* [CMS Implementation Guide for Quality Reporting Document Architecture: Category I; Hospital Quality Reporting; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf)
-* [CMS Implementation Guide for Quality Reporting Document Architecture: Category III; Eligible Clinicians and Eligible Professionals Programs; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf)
-* [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/#level-AA)
-* [HL7 Implementation Guide for CDA® Release 2: National Health Care Surveys (NHCS), Release 1 - US Realm, HL7 Draft Standard for Trial Use, Volume 1 - Introductory Material, December 2014](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385)
-* [HL7 Implementation Guide for CDA® Release 2: Consolidated CDA Templates for Clinical Notes (US Realm), Draft Standard for Trial Use, Volume 2 - Templates and Supporting Material, Release 2.1, August 2015](https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip)
+- [CMS Implementation Guide for Quality Reporting Document Architecture: Category I; Hospital Quality Reporting; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/QRDA-HQR-2020-CMS-IG-v1.1-508.pdf)
+- [CMS Implementation Guide for Quality Reporting Document Architecture: Category III; Eligible Clinicians and Eligible Professionals Programs; Implementation Guide for 2020](https://ecqi.healthit.gov/sites/default/files/2020-CMS-QRDA-III-Eligible-Clinicians-and-EP-IG-v1.2.1-508.pdf)
+- [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/#level-AA)
+- [HL7 Implementation Guide for CDA® Release 2: National Health Care Surveys (NHCS), Release 1 - US Realm, HL7 Draft Standard for Trial Use, Volume 1 - Introductory Material, December 2014](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=385)
+- [HL7 Implementation Guide for CDA® Release 2: Consolidated CDA Templates for Clinical Notes (US Realm), Draft Standard for Trial Use, Volume 2 - Templates and Supporting Material, Release 2.1, August 2015](https://www.hl7.org/documentcenter/private/standards/cda/CDAR2_IG_CCDA_CLINNOTES_R1_DSTU2.1_2015AUG_2019JUNwith_errata.zip)
 
 ### QRDA I SVAP - Planned
 
@@ -559,7 +560,7 @@ USCDI v1</td>
 
 ## Care Setting(s)
 
-WebChart EHR is a scalable, web-based system designed for ambulatory practices and clinics.  The same product is distributed to all care settings with many configuration options.  Each practice can use the available configuration to tailor the product to fit their workflows and use requirements.
+WebChart EHR is a scalable, web-based system designed for ambulatory practices and clinics. The same product is distributed to all care settings with many configuration options. Each practice can use the available configuration to tailor the product to fit their workflows and use requirements.
 
 <table>
 <tr>
@@ -590,13 +591,13 @@ WebChart EHR is a scalable, web-based system designed for ambulatory practices a
 
 ## Measures Used in Overall Approach
 
-The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year.  Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
+The following measures outline and justify how each requirement of all criteria to which WebChart EHR is certified will be tested during the 2022 Real World Testing year. Please review the Criteria-Measure Matrix above to review which measure(s) will cover a specific requirement.
 
 ### Measure 1: Clinical Quality Measures Outgoing
 
 #### Description
 
-This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
+This measure will review WebChart EHR's ability to measure clinical quality and export the required information. Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
 
 #### Associated Certification Criteria
 
@@ -624,17 +625,17 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 
 #### Justification
 
-WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(2), and §170.315(c)(3) to support providers participating in MIPS and other quality measures.  Most data supporting these measures for existing clients will come from data generated internally by their standard clinical workflows of seeing patients or incorporating the CCDA of transitioning patients.  Numerical compliance calculations and reporting will be monitored by MIE and the practices selected for testing.  The export and report QRDA formats will be validated by reporting partners and Cypress CUV+ to ensure data collected and calculated in WebChart EHR remains interoperable.
+WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(2), and §170.315(c)(3) to support providers participating in MIPS and other quality measures. Most data supporting these measures for existing clients will come from data generated internally by their standard clinical workflows of seeing patients or incorporating the CCDA of transitioning patients. Numerical compliance calculations and reporting will be monitored by MIE and the practices selected for testing. The export and report QRDA formats will be validated by reporting partners and Cypress CUV+ to ensure data collected and calculated in WebChart EHR remains interoperable.
 
 #### Test Methodology
 
-First, MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI.  Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified.  Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.
+First, MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI. Cypress CUV+ supports the validation of QRDA reports containing PHI and will be used monthly to validate a random selection of QRDAs from the care settings identified. Any errors identified by Cypress CUV+ will be tracked, reported, and addressed, then followed with testing of a larger sample of files.
 
-Additionally, WebChart EHR has two customers that participate in quarterly attestations using both QRDA I and QRDA III reports.  These customers regularly inspect their CQM compliance numbers and will alert MIE to any perceived errors.  MIE will then collect and track the attestation results from the reporting bodies including any errors so as to report a success/failure rate.
+Additionally, WebChart EHR has two customers that participate in quarterly attestations using both QRDA I and QRDA III reports. These customers regularly inspect their CQM compliance numbers and will alert MIE to any perceived errors. MIE will then collect and track the attestation results from the reporting bodies including any errors so as to report a success/failure rate.
 
 #### Expected Outcome(s)
 
-It is expected that calculation, reporting, and QRDA format errors will be rare.  Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  Additionally, any formatting or coding errors identified by Cypress CUV+ will be tracked, reported, and resolved.  These errors are also expected to be rare both before and after using SVAP to update the version of QRDA WebChart EHR supports.
+It is expected that calculation, reporting, and QRDA format errors will be rare. Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline. Additionally, any formatting or coding errors identified by Cypress CUV+ will be tracked, reported, and resolved. These errors are also expected to be rare both before and after using SVAP to update the version of QRDA WebChart EHR supports.
 
 #### Care Setting(s)
 
@@ -644,7 +645,7 @@ Primary care, specialties, pediatrics, small, large
 
 #### Description
 
-This measure will review WebChart EHR's ability to measure clinical quality and export the required information.  Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
+This measure will review WebChart EHR's ability to measure clinical quality and export the required information. Compliance will be tested both manually by developers and clients as well as automatically by reporting bodies and the Cypress CUV+ test system.
 
 #### Associated Certification Criteria
 
@@ -668,15 +669,15 @@ This measure will review WebChart EHR's ability to measure clinical quality and 
 
 #### Justification
 
-WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(2), and §170.315(c)(3) to support providers participating in MIPS and other quality measures.  It is rare that an active production client will import a QRDA I file for use in their CQM calculations.  To maintain that WebChart EHR is capable of importing and calculating when this does occur, QRDA I files from Cypress will be imported into a test system in a production environment, CQMs will be automatically calculated, and QRDA files will be exported back to Cypress for content and calculation validation.
+WebChart EHR should accommodate the full range of §170.315(c)(1), §170.315(c)(2), and §170.315(c)(3) to support providers participating in MIPS and other quality measures. It is rare that an active production client will import a QRDA I file for use in their CQM calculations. To maintain that WebChart EHR is capable of importing and calculating when this does occur, QRDA I files from Cypress will be imported into a test system in a production environment, CQMs will be automatically calculated, and QRDA files will be exported back to Cypress for content and calculation validation.
 
 #### Test Methodology
 
-MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI.  Automated testing will download QRDA I files from Cypress for each certified CQM, import the files to WebChart EHR, calculate the CQMs, and export the QRDA files for Cypress validation of both the content and calculations to verify that the import was successful.  Any errors identified by Cypress will be tracked, reported, and addressed.
+MIE will install an instance of Cypress 6+ on our production servers following all of our protocols for maintaining the security of PHI. Automated testing will download QRDA I files from Cypress for each certified CQM, import the files to WebChart EHR, calculate the CQMs, and export the QRDA files for Cypress validation of both the content and calculations to verify that the import was successful. Any errors identified by Cypress will be tracked, reported, and addressed.
 
 #### Expected Outcome(s)
 
-It is expected that calculation, reporting, and QRDA format errors will be rare.  Any formatting, content, or calculation errors identified by Cypress will be tracked, reported, and resolved.  These errors are expected to be rare both before and after using SVAP to update the version of QRDA WebChart EHR supports.
+It is expected that calculation, reporting, and QRDA format errors will be rare. Any formatting, content, or calculation errors identified by Cypress will be tracked, reported, and resolved. These errors are expected to be rare both before and after using SVAP to update the version of QRDA WebChart EHR supports.
 
 #### Care Setting(s)
 
@@ -728,23 +729,24 @@ This measure will verify that all supported e-prescribing message types are in u
 #### Justification
 
 WebChart EHR should support all of the required e-prescribing messaging types outlined in §170.315(b)(3). Messages are stored locally in each client system in addition to being transmitted to/from pharmacies via the Surescripts network.
+
 #### Test Methodology
 
 MIE will report a count of messages for each supported message type:
 
-* NewRx
-* RxChangeRequest
-* RxChangeResponse
-* CancelRx
-* CancelRxResponse
-* RxRenewalRequest
-* RxRenewalResponse
-* RxFill
-* RxHistoryRequest
-* RxHistoryResponse
-* Status
-* Error
-* Verify
+- NewRx
+- RxChangeRequest
+- RxChangeResponse
+- CancelRx
+- CancelRxResponse
+- RxRenewalRequest
+- RxRenewalResponse
+- RxFill
+- RxHistoryRequest
+- RxHistoryResponse
+- Status
+- Error
+- Verify
 
 The report will also include a count of outbound messages unable to be transmitted due to connectivity issues or other errors, for each message type. This report will be based on the contents of each client's local database table of stored messages. MIE will run the report for each client under consideration and aggregate the results.
 
@@ -847,7 +849,7 @@ This measure will verify that numeric amounts in prescriptions include leading z
 
 #### Justification
 
-WebChart EHR should prevent prescriptions from being sent electronically if they have directions or total quantity that are missing leading zeros or include trailing zeros.  This is essential for preventing misunderstanding by pharmacists regarding the amount to dispense and patients regarding the amount of medication to take.
+WebChart EHR should prevent prescriptions from being sent electronically if they have directions or total quantity that are missing leading zeros or include trailing zeros. This is essential for preventing misunderstanding by pharmacists regarding the amount to dispense and patients regarding the amount of medication to take.
 
 #### Test Methodology
 
@@ -889,18 +891,18 @@ This measure will verify that the system can accept a CDA document uploaded into
 
 #### Justification
 
-Webchart EHR should be able to accept a CDA document and place it into the correct chart based on information within the document.  It should also be able to display the CDA documents with an appropriate stylesheet.
+Webchart EHR should be able to accept a CDA document and place it into the correct chart based on information within the document. It should also be able to display the CDA documents with an appropriate stylesheet.
 
 #### Test Methodology
 
 MIE will report on the number of CDA formatted documents uploaded into tracked Webchart systems and the number of upload attempts that failed as stored in client databases and error log files.
 
 MIE will report on the number of requests to view a CDA document within the system, and the number of times it displayed correctly, and when there were errors in display.  
-Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.  These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
+Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline. These test assumptions for customer reporting align with the "visual inspection" aspects of the test lab tests.
 
 #### Expected Outcome(s)
 
-It is expected that CDA upload and stylesheet errors will be rare.  Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.
+It is expected that CDA upload and stylesheet errors will be rare. Any errors reported by customers or the recipients of their quarterly attestations will be tracked and reported as a baseline.
 
 #### Care Setting(s)
 
@@ -910,7 +912,7 @@ Primary care, specialties, pediatrics, small, large
 
 #### Description
 
-This measure will verify that WebChart EHR's API documentation is publicly and perpetually available.  Compliance will be recorded by an external uptime monitor and reported quarterly.  Upon request, or in the event of downtime, data can additionally be reported in daily, weekly, or monthly increments.
+This measure will verify that WebChart EHR's API documentation is publicly and perpetually available. Compliance will be recorded by an external uptime monitor and reported quarterly. Upon request, or in the event of downtime, data can additionally be reported in daily, weekly, or monthly increments.
 
 #### Associated Certification Criteria
 
@@ -959,14 +961,15 @@ This measure will verify that WebChart EHR's API documentation is publicly and p
 
 #### Justification
 
-WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7), 170.315(g)(8), and 170.315(g)(9).  This documentation should be available at all times throughout the year.
+WebChart EHR should provide public access to all API documentation, implementation requirements, and terms of use as outlined in 170.315(g)(7), 170.315(g)(8), and 170.315(g)(9). This documentation should be available at all times throughout the year.
+
 #### Test Methodology
 
-An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html.  Both up- and downtime will be logged to be reported quarterly.  The cause of any downtime and the duration will also be logged   In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
+An external uptime monitor will check the availability of all documentation available at https://docs.webchartnow.com/resources/system-specifications/application-programming-interface-api.html. Both up- and downtime will be logged to be reported quarterly. The cause of any downtime and the duration will also be logged In the event of any downtime, the amount of downtime can be reported at daily, weekly, or monthly intervals in addition to the quarterly reports, and the cause of each downtime occurrence will be reported.
 
 #### Expected Outcome(s)
 
-It is expected that all documentation will maintain an uptime of greater than 99.9%.  Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
+It is expected that all documentation will maintain an uptime of greater than 99.9%. Any downtime is expected to be caused by minor errors, such as a connection timeout or planned maintenance, and last for a duration of 10 minutes or less.
 
 #### Care Setting(s)
 
@@ -1002,7 +1005,7 @@ Webchart EHR should be able to reconcile CCDA data for medications, allergies, a
 
 MIE will report on the number of CDA formatted documents reconciled via the "Froozhie" tool.
 
-Following each reconcile, a temporary CDA for the chart will be created and validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will *NOT* be kept, only the result of the validation).  Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported
+Following each reconcile, a temporary CDA for the chart will be created and validated to ensure the reconciled data can be incorporated into a CDA created free of schematic errors (the CDA document will _NOT_ be kept, only the result of the validation). Additionally, any client complaints that data is not being imported correctly from the tool will be tracked, investigated, and reported
 
 #### Expected Outcome(s)
 
@@ -1011,6 +1014,7 @@ It is expected that errored reconciliations and invalid CDA checks should be ext
 #### Care Setting(s)
 
 Primary care, specialties, small, large
+
 ### Measure 10: Transmission to Immunization Registry: Create Content
 
 #### Description
@@ -1147,11 +1151,11 @@ WebChart EHR should be able to receive, validate and deliver Direct Project mess
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP.  MIE will report from logs the number of messages failing to conform to Direct Project specifications.  MIE will report from logs the number of messages which are successfully delivered to recipients.
+MIE will report from logs the number of messages transmitted to the HISP. MIE will report from logs the number of messages failing to conform to Direct Project specifications. MIE will report from logs the number of messages which are successfully delivered to recipients.
 
 #### Expected Outcome(s)
 
-It is expected that many messages transmitted to the public facing HISP listener will not meet the requirements for Direct Project messages and will be rejected by the HISP.  It is expected that failures for conforming messages from receipt through delivery will be rare.
+It is expected that many messages transmitted to the public facing HISP listener will not meet the requirements for Direct Project messages and will be rejected by the HISP. It is expected that failures for conforming messages from receipt through delivery will be rare.
 
 #### Care Setting(s)
 
@@ -1190,16 +1194,16 @@ WebChart EHR should be able to provide a mechanism for a patient to read documen
 
 MIE will report a number of measurements surrounding documents, including:
 
-* Number of documents sent successfully to patients in the patient portal
-* Number of documents unsuccessfully sent to the patient portal
-* Number of documents read by patients in the patient portal
-* Number of failures in the ability to read messages in the patient portal
+- Number of documents sent successfully to patients in the patient portal
+- Number of documents unsuccessfully sent to the patient portal
+- Number of documents read by patients in the patient portal
+- Number of failures in the ability to read messages in the patient portal
 
-Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files as well as any client reported issues tracked during the testing period.
+Results will be retrieved from database tables and aggregated for reporting. Any failures will be reported from the information found in log files as well as any client reported issues tracked during the testing period.
 
 #### Expected Outcome(s)
 
-There is expected to be an extremely low occurrence of messages unable to be sent to the patient portal.  The percentage of messages read in the portal may be influenced by the engagement of the patients themselves and will be analyzed if it appears to be lower than expected.  In the case of low readership, MIE will encourage clients to investigate methods of increasing patient engagement, or validate sends of documents to patients truly interested in using an online patient portal (i.e., do not send if there is an expectation that the patient will likely not use the portal).
+There is expected to be an extremely low occurrence of messages unable to be sent to the patient portal. The percentage of messages read in the portal may be influenced by the engagement of the patients themselves and will be analyzed if it appears to be lower than expected. In the case of low readership, MIE will encourage clients to investigate methods of increasing patient engagement, or validate sends of documents to patients truly interested in using an online patient portal (i.e., do not send if there is an expectation that the patient will likely not use the portal).
 
 #### Care Setting(s)
 
@@ -1238,12 +1242,12 @@ WebChart EHR should be able to provide a mechanism for a patient to download doc
 
 MIE will report a number of measurements surrounding documents, including:
 
-* Number of documents sent successfully to patients in the patient portal
-* Number of documents unsuccessfully sent to the patient portal
-* Number of documents successfully downloaded from the patient portal
-* Number of documents unsuccessful in being downloaded from the patient portal.
+- Number of documents sent successfully to patients in the patient portal
+- Number of documents unsuccessfully sent to the patient portal
+- Number of documents successfully downloaded from the patient portal
+- Number of documents unsuccessful in being downloaded from the patient portal.
 
-Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
+Results will be retrieved from database tables and aggregated for reporting. Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
 #### Expected Outcome(s)
 
@@ -1288,12 +1292,12 @@ WebChart EHR should be able to provide a mechanism for a patient to transmit doc
 
 MIE will report a number of measurements surrounding documents, including:
 
-* Number of documents sent successfully to patients in the patient portal
-* Number of documents unsuccessfully sent to the patient portal
-* Number of documents successfully transmitted from the patient portal
-* Number of documents unsuccessful in being transmitted from the patient portal.
+- Number of documents sent successfully to patients in the patient portal
+- Number of documents unsuccessfully sent to the patient portal
+- Number of documents successfully transmitted from the patient portal
+- Number of documents unsuccessful in being transmitted from the patient portal.
 
-Results will be retrieved from database tables and aggregated for reporting.  Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
+Results will be retrieved from database tables and aggregated for reporting. Any failures will be reported from the information found in log files and third party reports as well as any client reported issues tracked during the testing period.
 
 #### Expected Outcome(s)
 
@@ -1336,11 +1340,11 @@ WebChart EHR should be able to receive and send Direct Project messages to a HIS
 
 #### Test Methodology
 
-MIE will report from logs the number of messages transmitted to the HISP by SMTP.  MIE will report from logs the number of messages received from the HISP by SMTP.  MIE will report from logs the number of XDM packages processed.  In the case where insufficient real-world data is available, data resulting from regular testing with DirectTrust shall be included in the reporting.
+MIE will report from logs the number of messages transmitted to the HISP by SMTP. MIE will report from logs the number of messages received from the HISP by SMTP. MIE will report from logs the number of XDM packages processed. In the case where insufficient real-world data is available, data resulting from regular testing with DirectTrust shall be included in the reporting.
 
 #### Expected Outcome(s)
 
-It is expected that the current usage shall be low, with the exception of regular DirectTrust testing.  Any errors resulting from real-world transmission of messages are expected to be rare, but may skew results due to the low volume of transmitted messages.
+It is expected that the current usage shall be low, with the exception of regular DirectTrust testing. Any errors resulting from real-world transmission of messages are expected to be rare, but may skew results due to the low volume of transmitted messages.
 
 #### Care Setting(s)
 
@@ -1376,14 +1380,14 @@ This measure will verify that a user can use WebChart EHR's Data Export Tool to 
 
 #### Justification
 
-Webchart EHR should be able to provide a mechanism for a user to download patient chart information via CDA from a large set of patients within the system as outlined in §170.315(b)(6).  This tool is publicly available (https://github.com/mieweb/wcexport).
+Webchart EHR should be able to provide a mechanism for a user to download patient chart information via CDA from a large set of patients within the system as outlined in §170.315(b)(6). This tool is publicly available (https://github.com/mieweb/wcexport).
 
 #### Test Methodology
 
 MIE will report from the event log database tables a series of occurrences that indicates use of the WebChart EHR Data Export Tool:
 
-* Event logs of the report to find all patients for Document Export being called.
-* Event logs of CDA documents being generated within a certain short time period following the report.
+- Event logs of the report to find all patients for Document Export being called.
+- Event logs of CDA documents being generated within a certain short time period following the report.
 
 MIE will track customer reports of data expected to be in mass data export downloads that did not download as failures.
 
@@ -1426,13 +1430,13 @@ Webchart EHR should be able to validate that CDAs that are stored within webchar
 
 #### Test Methodology
 
-All CDAs stored within a Webchart EHR will be run through schema validation regardless of the document's origin.  Documents may originate within the WebChart EHR system or be imported from a third party application of manual upload.  The schema validator will be installed within the MIE production environment to ensure the security of all PHI contained in the documents.  Only results of the validation will be made available, document content will not be revealed to developers during testing.
+All CDAs stored within a Webchart EHR will be run through schema validation regardless of the document's origin. Documents may originate within the WebChart EHR system or be imported from a third party application of manual upload. The schema validator will be installed within the MIE production environment to ensure the security of all PHI contained in the documents. Only results of the validation will be made available, document content will not be revealed to developers during testing.
 
 The number of valid vs. invalid CDAs and their sources will be reported.
 
 #### Expected Outcome(s)
 
-Any formatting or stylesheet errors identified by the CDA validator will be tracked, reported, and resolved.  These errors are expected to be rare for documents created by WebChart EHR.  If CDA documents received from third parties are identified to have schematic errors, those third parties will be notified whenever possible.
+Any formatting or stylesheet errors identified by the CDA validator will be tracked, reported, and resolved. These errors are expected to be rare for documents created by WebChart EHR. If CDA documents received from third parties are identified to have schematic errors, those third parties will be notified whenever possible.
 
 #### Care Setting(s)
 
@@ -1482,14 +1486,15 @@ WebChart EHR should provide patient information to requesters with the proper ac
 
 To address the overall automated testing, the following test requests will be made daily against a test system in a production environment.
 
-* Issue a request in the browser to search for a patient (patient selection)
-* Issue a request in the browser to request demographics of a patient (data category request)
-* Issue a request using the export tool described in the documentation.
+- Issue a request in the browser to search for a patient (patient selection)
+- Issue a request in the browser to request demographics of a patient (data category request)
+- Issue a request using the export tool described in the documentation.
 
-All API requests made in production systems are recorded in log files.  The number of requests logged will be reported against the number of issues with API functionality that are reported.
+All API requests made in production systems are recorded in log files. The number of requests logged will be reported against the number of issues with API functionality that are reported.
+
 #### Expected Outcome(s)
 
-It is expected that automated testing will be successful more than 97% of the time.  Any errors will be logged and reported; however, errors are expected to be minimal, such as a lost server connection.  Both production uses of the API and reports of errors are expected to be rare.
+It is expected that automated testing will be successful more than 97% of the time. Any errors will be logged and reported; however, errors are expected to be minimal, such as a lost server connection. Both production uses of the API and reports of errors are expected to be rare.
 
 #### Care Setting(s)
 
@@ -1524,7 +1529,7 @@ MIE will conduct monthly third-party production accessibility scanning as well a
 
 #### Expected Outcome(s)
 
-It is expected that no urgent non-conformance issues will be identified and that the number of secondary issues will be minimal.  Any non-conformance that reaches a production system will be tracked and reported.
+It is expected that no urgent non-conformance issues will be identified and that the number of secondary issues will be minimal. Any non-conformance that reaches a production system will be tracked and reported.
 
 #### Care Setting(s)
 

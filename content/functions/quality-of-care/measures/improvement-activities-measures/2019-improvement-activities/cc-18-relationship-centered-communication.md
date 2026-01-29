@@ -1,17 +1,18 @@
 ---
-id: '1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A'
-title: 'CC 18 - Relationship-Centered Communication'
-date: '2020-02-27T20:56:25.744Z'
+id: "1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A"
+title: "CC 18 - Relationship-Centered Communication"
+date: "2020-02-27T20:56:25.744Z"
 version: 22
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links:
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
-  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
-  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
-source: 'https://drive.google.com/open?id=1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A'
-wikigdrive: 'v2.15.30'
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
+  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
+  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
+source: "https://drive.google.com/open?id=1j4d0DYyVAFMje4IttC5jVL87O9hga0httdk924b2R7A"
+wikigdrive: "v2.15.30"
 ---
+
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Care Coordination

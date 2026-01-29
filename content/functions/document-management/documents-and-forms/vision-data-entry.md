@@ -1,18 +1,19 @@
 ---
-id: '15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-title: 'Vision Data Entry'
-date: '2025-11-10T16:17:16.943Z'
+id: "15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM"
+title: "Vision Data Entry"
+date: "2025-11-10T16:17:16.943Z"
 version: 85
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../scanning-and-indexing/indexing-bubble-forms.md'
-  - '../scanning-and-indexing/indexing.md'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/'
-  - 'https://mie.talentlms.com/shared/start/key:LGTIDNHR'
-source: 'https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM'
-wikigdrive: 'v2.15.30'
+  - "../scanning-and-indexing/indexing-bubble-forms.md"
+  - "../scanning-and-indexing/indexing.md"
+  - "https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-vision-system/"
+  - "https://mie.talentlms.com/shared/start/key:LGTIDNHR"
+source: "https://drive.google.com/open?id=15QkRlsqGLPA1PWa-dTVoLyRF4r4VI0keRhi3e_UtRFM"
+wikigdrive: "v2.15.30"
 ---
+
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
 Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned/indexed, afterward.
@@ -42,7 +43,7 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 An alternative to the bubble form is the manual process of entering results through an encounter.
 
-Vision data may be added to an encounter in multiple ways. One method is by checking the appropriate vision screening/test/order from the **Due List**, found in the *Tests & Procedures* section of the encounter, then using the **Add to Exam** button to allow for manual entry or device import.
+Vision data may be added to an encounter in multiple ways. One method is by checking the appropriate vision screening/test/order from the **Due List**, found in the _Tests & Procedures_ section of the encounter, then using the **Add to Exam** button to allow for manual entry or device import.
 
 ![](./vision-data-entry.assets/e64f54eecdefef092bc7b676967c0b39.png)
 
@@ -90,4 +91,4 @@ These types of report links are generally found in the sidemenu tab, under the g
 
 To learn more about Vision Data Entry, follow the link below to the Learning Management System course:
 
-* [Vision Testing](https://mie.talentlms.com/shared/start/key:LGTIDNHR)
+- [Vision Testing](https://mie.talentlms.com/shared/start/key:LGTIDNHR)

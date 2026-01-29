@@ -1,21 +1,22 @@
 ---
-id: '1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-title: 'PFT Data Entry'
-date: '2025-11-10T17:04:38.357Z'
+id: "1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg"
+title: "PFT Data Entry"
+date: "2025-11-10T17:04:38.357Z"
 version: 150
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - '../../system-administration/interfaces/device-interface-pft-system.md'
-  - 'https://mie.talentlms.com/shared/start/key:ZOADNHRK'
-source: 'https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg'
-wikigdrive: 'v2.15.30'
+  - "../../system-administration/interfaces/device-interface-pft-system.md"
+  - "https://mie.talentlms.com/shared/start/key:ZOADNHRK"
+source: "https://drive.google.com/open?id=1AaU-2q8717ibJc2q1igfSGQkhBf9D270y77vHQ_ITFg"
+wikigdrive: "v2.15.30"
 ---
+
 ## Manual Entry
 
 ### Add From Chart Tab
 
-Navigating to the **Medical Record/PFT** chart tab. The chart tab will display an entry screen to key in a new PFT test, but will also show a *List View* of all of the archived/closed (i.e., stored documents) PFT tests at the bottom of the page.
+Navigating to the **Medical Record/PFT** chart tab. The chart tab will display an entry screen to key in a new PFT test, but will also show a _List View_ of all of the archived/closed (i.e., stored documents) PFT tests at the bottom of the page.
 
 ![](./pft-data-entry.assets/6e667266d4beb1567f923ea9a57083f7.png)
 
@@ -36,13 +37,13 @@ PFT Interpretation data can be populated as an encounter view. This is an option
 
 4. When completed, click the <strong>Save</strong> button. The <strong>Save</strong> button will only appear if the New Manual Test button has been clicked.
 
-    ![](./pft-data-entry.assets/25de1b98ac992ce10c46d5aa6e6bcf21.png)
+   ![](./pft-data-entry.assets/25de1b98ac992ce10c46d5aa6e6bcf21.png)
 
 The data will be stored in the system in the **PFT** chart tab.
 
 ### Add from Encounter Section
 
-The PFT may be added to an encounter in multiple ways. One method is by selecting the PFT order on the **Due List**, found in the *Tests & Procedures* section of the encounter, then using the **Perform** button to allow for manual entry or device import.
+The PFT may be added to an encounter in multiple ways. One method is by selecting the PFT order on the **Due List**, found in the _Tests & Procedures_ section of the encounter, then using the **Perform** button to allow for manual entry or device import.
 
 ![](./pft-data-entry.assets/bf0c4982f4d719006e16813578b628f4.png)
 
@@ -56,7 +57,7 @@ Alternatively, the PFT may be selected using the **Picklist** icon by selecting 
 
 ### Import PFT Data From Device
 
-Users on RC202503 will no longer have the option to **Load from Device**. As of RC202503, users must update import controls to use the *MIE Device App*. Users will save PFT results to the *MIE Device App* and the device app will automatically import results to the patient chart and insert results as a separate document. The PFT procedure encounter section is still available for users to manually enter PFT results.
+Users on RC202503 will no longer have the option to **Load from Device**. As of RC202503, users must update import controls to use the _MIE Device App_. Users will save PFT results to the _MIE Device App_ and the device app will automatically import results to the patient chart and insert results as a separate document. The PFT procedure encounter section is still available for users to manually enter PFT results.
 
 ![](./pft-data-entry.assets/41a19225c5fc839a17ac8995ec288cdb.png)
 
@@ -72,4 +73,4 @@ These types of report links are generally found in the **Reports** sidemenu, und
 
 To learn more about PFT Data Entry, follow the link below to the Learning Management System course:
 
-* [Pulmonary Function Testing](https://mie.talentlms.com/shared/start/key:ZOADNHRK)
+- [Pulmonary Function Testing](https://mie.talentlms.com/shared/start/key:ZOADNHRK)

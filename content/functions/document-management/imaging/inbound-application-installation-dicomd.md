@@ -1,19 +1,21 @@
 ---
-id: '1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-title: 'Inbound Application Installation: dicomd'
-date: '2020-03-24T15:49:30.238Z'
+id: "1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4"
+title: "Inbound Application Installation: dicomd"
+date: "2020-03-24T15:49:30.238Z"
 version: 47
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4'
-wikigdrive: 'v2.15.30'
-markup: 'pandoc'
+source: "https://drive.google.com/open?id=1NfgcM3b-g6oyM7u28jlav8HG9XoLCaau1JmfiH_U1w4"
+wikigdrive: "v2.15.30"
+markup: "pandoc"
 ---
+
 The following will assist users with installing the dicom inbound application. To begin, simply initiate the installation of the webchart-dicom RPM.
+
 ```
 
-$] yum install webchart-master-dicom-5-1389208344.el6.i686.rpm   
+$] yum install webchart-master-dicom-5-1389208344.el6.i686.rpm
 Loaded plugins: changelog, downloadonly, fastestmirror, security, tmprepo, versionlock
 Loading mirror speeds from cached hostfile
 Setting up Install Process
@@ -44,11 +46,11 @@ Running rpm_check_debug
 Running Transaction Test
 Transaction Test Succeeded
 Running Transaction
-  Installing : webchart-master-dicom-5-1389208344.el6.i686                                                                 1/1   
-  Verifying  : webchart-master-dicom-5-1389208344.el6.i686                                                                 1/1   
+  Installing : webchart-master-dicom-5-1389208344.el6.i686                                                                 1/1
+  Verifying  : webchart-master-dicom-5-1389208344.el6.i686                                                                 1/1
 
 Installed:
-  webchart-master-dicom.i686 0:5-1389208344.el6                                                                   
+  webchart-master-dicom.i686 0:5-1389208344.el6
 
 Complete!
 ```
@@ -56,9 +58,10 @@ Complete!
 ## dicomd Configuration
 
 1. Under /usr/local/webchart/dicom/ users will find two files:
-    a.  a config file
-    b.  run.dicomd.RCXXXXXX file
+   a. a config file
+   b. run.dicomd.RCXXXXXX file
 2. Edit the config file and specify an AE title and EH configuration file. The first field is the AE Title for the PACS. The second field is the location of the EH configuration file used to connect to the EH database. The other fields may be left as default, as appropriate.
+
 ```
 # Server AE, webchart.conf location, cache png 1/0, keep dcm after compressing 1/0, unused, look for encounter 1/0, Stage to set when study finishes (on disconnect)
 DICOMTEST,"/usr/local/webchart/configs/dicomtest.conf",1,0,0,0,0

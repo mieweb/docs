@@ -1,21 +1,22 @@
 ---
-id: '1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
-title: 'Depart Instructions'
-date: '2025-06-02T13:49:17.235Z'
+id: "1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc"
+title: "Depart Instructions"
+date: "2025-06-02T13:49:17.235Z"
 version: 88
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - '../system-configuration/macros.md'
-  - 'encounter-protocols.md'
-source: 'https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc'
-wikigdrive: 'v2.15.30'
+  - "../system-configuration/macros.md"
+  - "encounter-protocols.md"
+source: "https://drive.google.com/open?id=1LvVHFC0nuX0iQKEVkfAnWdP0kBNnMjwig09V7JTCurc"
+wikigdrive: "v2.15.30"
 ---
-Depart Instructions encounter section is available to document depart instructions to the patient within an encounter.  Depart Instructions encounter section utilizes flowsheet configuration functionality.
+
+Depart Instructions encounter section is available to document depart instructions to the patient within an encounter. Depart Instructions encounter section utilizes flowsheet configuration functionality.
 
 ![](./depart-instructions.assets/c7639ef9663bbc1ab0452b2c26f288f9.png)
 
-The default flowsheet that Depart Instructions points to is named *Depart Instruction* in the flowsheet editor. Altering this flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Depart Instructions encounter section.
+The default flowsheet that Depart Instructions points to is named _Depart Instruction_ in the flowsheet editor. Altering this flowsheet allows your system to capture unique or custom information for your practice to document in an encounter within the Depart Instructions encounter section.
 
 ![](./depart-instructions.assets/5578ef5278bbd720f5dff02fdc4cf88d.png)
 

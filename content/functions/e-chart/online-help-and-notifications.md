@@ -1,14 +1,15 @@
 ---
-id: '1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI'
-title: 'Online Help and Notifications'
-date: '2025-07-23T18:05:50.152Z'
+id: "1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI"
+title: "Online Help and Notifications"
+date: "2025-07-23T18:05:50.152Z"
 version: 107
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1YHVa6nkXfDegFC7Tz_tQx9Z4A_Jvxmb95LsOPjhgcqI"
+wikigdrive: "v2.15.30"
 ---
+
 Help is always available in {{% system-name %}} . At the top right corner of your  {{% system-name %}} screen session is a help (?) bubble. Click that to access  {{% system-name %}} Online Help. Once you click the (?) a pop-up window of  {{% system-name %}} Online Help will open on your screen. Out-of-the box videos and documentation can be found under any orange help bubble
 
 ## Search/Index
@@ -37,7 +38,7 @@ If an out-of-the-box video is present within the Online Help window, you can dow
 
 If you sign up for notifications in our Online Help screen,  {{% system-name %}} will alert you the instant your system becomes unavailable or if response time crosses predefined threshold levels. This allows you to be notified of your system performance and ensure a good experience. You can enroll for email and/or text message notifications.
 
-To enroll in  {{% system-name %}} notifications, click the top right corner (?) help icon which will open the screen named  {{% system-name %}} * Online Help*. At the bottom right corner of this pop-up screen you will see the hyperlink named Notification. Click that to enroll (or edit/update your info) for  {{% system-name %}} notifications.
+To enroll in  {{% system-name %}} notifications, click the top right corner (?) help icon which will open the screen named  {{% system-name %}} _ Online Help_. At the bottom right corner of this pop-up screen you will see the hyperlink named Notification. Click that to enroll (or edit/update your info) for  {{% system-name %}} notifications.
 
 {{% note %}}
 This is for each logged in user. You would not enter in multiple or someone else's email/text #, etc. This is for you (the logged in user) only to be notified. If other users need to be enrolled in  {{% system-name %}}  notifications then they will need to do these themselves when logged into  {{% system-name %}} .

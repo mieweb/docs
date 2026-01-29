@@ -1,16 +1,17 @@
 ---
-id: '16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
-title: 'Indexing Bubble Forms'
-date: '2025-11-17T20:06:33.480Z'
+id: "16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c"
+title: "Indexing Bubble Forms"
+date: "2025-11-17T20:06:33.480Z"
 version: 77
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
-source: 'https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/"
+source: "https://drive.google.com/open?id=16p4qLN-NFRG4ZZ61_cRrU3X5iw7fmZ-B1JMZYh_Vo8c"
+wikigdrive: "v2.15.30"
 ---
+
 Bubble forms are designed to record discrete data and index the information as observations in the chart. Bubble forms are document type templates that have special programming marks, which allow them to make quick and easy work of collecting granular data using the {{% system-name %}} WebScan module.
 
 Generating a bubble form is as simple as navigating to the **Forms Library** and printing the preferred bubble form(s). Once printed, the form(s) can be completed and scanned into the {{% system-name %}} system. Scanning will read the optical marks, or bubbles, and the data will be picked up and indexed upon confirmation.
@@ -21,7 +22,7 @@ It is important to scan in batches as black/white. If a bubble form is scanned i
 
 ## Indexing a Bubble Form
 
-In order to index data or address indexing tasks, users must have the appropriate security permissions provided. The *Add Observations* security permission requires a minimum of **Add** ability, in order to perform the necessary functions. An error notification will display if the user does not have the necessary permissions granted.
+In order to index data or address indexing tasks, users must have the appropriate security permissions provided. The _Add Observations_ security permission requires a minimum of **Add** ability, in order to perform the necessary functions. An error notification will display if the user does not have the necessary permissions granted.
 
 To index a bubble sheet:
 
@@ -55,5 +56,5 @@ Once uploaded, the form image will be stored in the respective chart, and the di
 ![](./indexing-bubble-forms.assets/747f9d776d31651062a66b29871ac6ca.png)
 
 {{% tip %}}
-The observation flowsheets display the unit of measure set in the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) menu. Select *Metric* or *English* for the **Preferred Unit System**.
+The observation flowsheets display the unit of measure set in the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) menu. Select _Metric_ or _English_ for the **Preferred Unit System**.
 {{% /tip %}}

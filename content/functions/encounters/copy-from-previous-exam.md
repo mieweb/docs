@@ -1,15 +1,16 @@
 ---
-id: '1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
-title: 'Copy From Previous Exam'
-date: '2025-11-11T14:19:43.859Z'
+id: "1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM"
+title: "Copy From Previous Exam"
+date: "2025-11-11T14:19:43.859Z"
 version: 78
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
-source: 'https://drive.google.com/open?id=1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/encounters/libraries/"
+source: "https://drive.google.com/open?id=1kWhZc8upmQZzyoapP8ojxPYKJUA9Q2yj1YAFc2ARJCM"
+wikigdrive: "v2.15.30"
 ---
+
 ## Copy Existing Visits
 
 To copy a prior visit note into today's exam, select the encounter **Copy** icon located in the encounter header. A list of **Libraries** and **Existing Visit** information displays.
@@ -32,7 +33,7 @@ Click on the **_Copy from Previous Exam_** icon in the desired section to pull d
 
 ### Same Provider - Same Flowsheet
 
-Select the *Same Provider* and *Same Flowsheet* radio button combination (default) to display a list of all prior encounters where the provider and (HPI) flowsheet are the same as used in the current encounter.
+Select the _Same Provider_ and _Same Flowsheet_ radio button combination (default) to display a list of all prior encounters where the provider and (HPI) flowsheet are the same as used in the current encounter.
 
 Check the box to the left of the source encounter, then click the **_Copy_** button to copy data from prior encounter to current encounter.
 
@@ -42,7 +43,7 @@ Click the **_Yes_** button to confirm the number of observations that will be co
 
 ![](./copy-from-previous-exam.assets/4adb5a49418e9ce36bf7e33a3a9abd1f.png)
 
-Hint: Click the *expand/collapse* link to toggle to view/hide more information to be copied.
+Hint: Click the _expand/collapse_ link to toggle to view/hide more information to be copied.
 
 ![](./copy-from-previous-exam.assets/8950711e19bc417af8b876f18db8147f.png)
 
@@ -54,7 +55,7 @@ Hint: If a prior encounter did not collect HPI data, then the list of prior enco
 
 ### Same Provider - All Flowsheets
 
-Select the *Same Provider* and *All Flowsheet* radio button combination to display a list of all prior encounters for the current provider regardless of the flowsheet used in the (HPI) encounter section. In the example below, a custom HPI flowsheet was used for the 11/28/2022 visit and the 9/5/2022 visit used the standard HPI flowsheet to collect data.
+Select the _Same Provider_ and _All Flowsheet_ radio button combination to display a list of all prior encounters for the current provider regardless of the flowsheet used in the (HPI) encounter section. In the example below, a custom HPI flowsheet was used for the 11/28/2022 visit and the 9/5/2022 visit used the standard HPI flowsheet to collect data.
 
 Check the box to the left of the source encounter, then click the **_Copy_** button to copy data from prior encounter to current encounter.
 
@@ -104,7 +105,7 @@ Use the **_Search Observation_** field to type in the name of a specific observa
 
 ## Smart Plan
 
-For clients on 202309 and newer, the Copy From Previous Exam feature has been added to the Smart Plan. This feature allows  providers to copy previous Smart Plan conditions and condition notes into today's visit note.
+For clients on 202309 and newer, the Copy From Previous Exam feature has been added to the Smart Plan. This feature allows providers to copy previous Smart Plan conditions and condition notes into today's visit note.
 
 ![](./copy-from-previous-exam.assets/4a56102df6e988419a9820c3811ed161.png)
 

@@ -1,84 +1,85 @@
 ---
-id: '14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-title: 'Review Session - Encounter Workflow'
-date: '2025-11-24T20:42:23.194Z'
+id: "14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
+title: "Review Session - Encounter Workflow"
+date: "2025-11-24T20:42:23.194Z"
 version: 464
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://mie.talentlms.com/unit/view/id:2703'
-  - 'https://mie.talentlms.com/learner/courseinfo/id:148'
-  - 'https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw'
-  - 'https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types'
-  - 'https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule'
-  - 'https://system/?f=admin&s=fee_schedule&profile_id=0'
-  - 'https://system/?func=scheduler&s=apttypes'
-  - 'https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet&tabmodule=admin&tabselect=Flowsheets'
-  - 'https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs'
-  - 'https://system/?func=omniscope'
-  - 'https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing'
-  - 'https://system/?f=esign&s=dbe&tabmodule=esign&tabselect=Esign+Editor'
-  - 'https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events'
-  - 'https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings'
-  - '../../functions/system-administration/security/security-role-settings.md'
-  - '../../functions/system-administration/security/my-settings.md'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
-  - '../../functions/encounters/creating-or-adding-encounters.md'
-  - '../../functions/encounters/working-in-a-visit-encounter.md'
-  - '../../functions/encounters/working-in-a-legacy-encounter.md'
-  - '../../functions/encounters/archiving-closing-re-archiving-encounters.md'
-  - '../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md'
-  - '../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md'
-  - '../../functions/encounters/symptoms-diagnosis-encounter-section.md'
-  - '../../functions/encounters/encounters-labs-results-section.md'
-  - '../../functions/system-configuration/encounters-protocol-configuration-and-programming.md'
-  - '../../functions/encounters/encounter-protocols.md'
-  - '../../functions/encounters/dictation-and-transcription/transcribing-dictation.md'
-  - '../../functions/encounters/encounter-worklists.md'
-  - '../../functions/encounters/make-order-feature-encounter-plan-section.md'
-  - '../../functions/encounters/encounter-plan-section-medications.md'
-  - '../../functions/encounters/encounters-tab.md'
-  - '../../functions/document-management/documents-and-forms/link-documents-to-encounters.md'
-  - '../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
-  - '../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
-  - '../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md'
-  - '../../functions/reports/encounter-report.md'
-  - '../../functions/reports/open-encounters-report.md'
-  - '../../functions/encounters/e-m-calculator.md'
-  - '../../functions/encounters/encounter-summary-toolbar.md'
-  - '../../functions/encounters/encounter-checkout-chart-tab.md'
-  - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
-source: 'https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c'
-wikigdrive: 'v2.15.30'
+  - "https://mie.talentlms.com/unit/view/id:2703"
+  - "https://mie.talentlms.com/learner/courseinfo/id:148"
+  - "https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw"
+  - "https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types"
+  - "https://system/?f=admin&s=fee_schedule&tabmodule=admin&tabselect=Fee+Schedule"
+  - "https://system/?f=admin&s=fee_schedule&profile_id=0"
+  - "https://system/?func=scheduler&s=apttypes"
+  - "https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet&tabmodule=admin&tabselect=Flowsheets"
+  - "https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs"
+  - "https://system/?func=omniscope"
+  - "https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing"
+  - "https://system/?f=esign&s=dbe&tabmodule=esign&tabselect=Esign+Editor"
+  - "https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events"
+  - "https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings"
+  - "../../functions/system-administration/security/security-role-settings.md"
+  - "../../functions/system-administration/security/my-settings.md"
+  - "https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits"
+  - "../../functions/encounters/creating-or-adding-encounters.md"
+  - "../../functions/encounters/working-in-a-visit-encounter.md"
+  - "../../functions/encounters/working-in-a-legacy-encounter.md"
+  - "../../functions/encounters/archiving-closing-re-archiving-encounters.md"
+  - "../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md"
+  - "../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md"
+  - "../../functions/encounters/symptoms-diagnosis-encounter-section.md"
+  - "../../functions/encounters/encounters-labs-results-section.md"
+  - "../../functions/system-configuration/encounters-protocol-configuration-and-programming.md"
+  - "../../functions/encounters/encounter-protocols.md"
+  - "../../functions/encounters/dictation-and-transcription/transcribing-dictation.md"
+  - "../../functions/encounters/encounter-worklists.md"
+  - "../../functions/encounters/make-order-feature-encounter-plan-section.md"
+  - "../../functions/encounters/encounter-plan-section-medications.md"
+  - "../../functions/encounters/encounters-tab.md"
+  - "../../functions/document-management/documents-and-forms/link-documents-to-encounters.md"
+  - "../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md"
+  - "../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md"
+  - "../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md"
+  - "../../functions/reports/encounter-report.md"
+  - "../../functions/reports/open-encounters-report.md"
+  - "../../functions/encounters/e-m-calculator.md"
+  - "../../functions/encounters/encounter-summary-toolbar.md"
+  - "../../functions/encounters/encounter-checkout-chart-tab.md"
+  - "https://mie.talentlms.com/shared/start/key:LABIDNHR"
+source: "https://drive.google.com/open?id=14j4skFXt80HB7anmc8pmCGxVTOpmE_bbAYRElsISI0c"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>Pre-Requisites</strong>
-* <strong>Overview</strong>
-* <strong>Encounter Workflow Demonstration</strong>
-* <strong>System Configuration</strong>
-    * <strong>Encounter Types</strong>
-    * <strong>Appointment Type Default Encounter Type</strong>
-    * <strong>Protocols</strong>
-    * <strong>Encounter Templates</strong>
-    * <strong>Encounter Info Section</strong>
-        * <strong>Performing Provider</strong>
-        * <strong>Archive As</strong>
-    * <strong>Encounter Checkout Tab</strong>
-    * <strong>Macros</strong>
-    * <strong>Worklists</strong>
-    * <strong>Clinical Decision Support / Scripted Rules</strong>
-    * <strong>Esign / Tasking</strong>
-    * <strong>System Settings</strong>
-    * <strong>Security Role Permissions</strong>
-    * <strong>My Settings Preferences</strong>
-* <strong>Smart Plan</strong>
-* <strong>Reporting</strong>
-* <strong>Key Decision Points</strong>
-* <strong>Action Items / Timelines</strong>
-* <strong>Resources</strong>
-    * <strong>Documentation</strong>
-    * <strong>LMS Courses / Videos</strong>
+- <strong>Pre-Requisites</strong>
+- <strong>Overview</strong>
+- <strong>Encounter Workflow Demonstration</strong>
+- <strong>System Configuration</strong>
+  - <strong>Encounter Types</strong>
+  - <strong>Appointment Type Default Encounter Type</strong>
+  - <strong>Protocols</strong>
+  - <strong>Encounter Templates</strong>
+  - <strong>Encounter Info Section</strong>
+    - <strong>Performing Provider</strong>
+    - <strong>Archive As</strong>
+  - <strong>Encounter Checkout Tab</strong>
+  - <strong>Macros</strong>
+  - <strong>Worklists</strong>
+  - <strong>Clinical Decision Support / Scripted Rules</strong>
+  - <strong>Esign / Tasking</strong>
+  - <strong>System Settings</strong>
+  - <strong>Security Role Permissions</strong>
+  - <strong>My Settings Preferences</strong>
+- <strong>Smart Plan</strong>
+- <strong>Reporting</strong>
+- <strong>Key Decision Points</strong>
+- <strong>Action Items / Timelines</strong>
+- <strong>Resources</strong>
+  - <strong>Documentation</strong>
+  - <strong>LMS Courses / Videos</strong>
 
 ## Pre-Requisites
 
@@ -99,7 +100,7 @@ With {{% system-name %}} , clinical data is captured electronically, throughout 
 
 Clinicians and staff will work through each stage of the encounter as the patient progresses through the visit, with patient information pulling forward from stage to stage. Generally, users are encouraged to use predefined, structured text in encounters, which is coded and retrievable data used for outcomes analysis. {{% system-name %}} encounters can capture any unique encounter workflows and accommodate individual clinicians' charting styles. The standard encounter templates not only allow for documenting each stage of the patient visit accurately and efficiently, they are highly configurable and customizable to the needs of the practice. Additionally, the {{% system-name %}} platform makes all demographic and clinical data easily accessible from the point-of-care, by way of the Side Chart feature, facilitating more comprehensive encounter documentation. While working in the dynamic encounter, the Side Chart feature provides an additional view with specific details from the chart in context, eliminating the need to open additional windows or tabs to reference the chart while documenting.
 
-Generally speaking, {{% system-name %}} offers dynamic encounters, which allow users to input necessary details of a patient visit (encounter). As its name suggests, the dynamic encounter is highly customizable. The dynamic encounter is divided into major categories, with varying sections available under each category. These various sections can be removed or added as needed, using the **Tools** button, in the upper-right corner of the encounter. Clicking this button will open the *Show Hidden Items* window, where all hidden items are displayed and can be added, as needed. Sections can also be removed by users with the appropriate security permissions.
+Generally speaking, {{% system-name %}} offers dynamic encounters, which allow users to input necessary details of a patient visit (encounter). As its name suggests, the dynamic encounter is highly customizable. The dynamic encounter is divided into major categories, with varying sections available under each category. These various sections can be removed or added as needed, using the **Tools** button, in the upper-right corner of the encounter. Clicking this button will open the _Show Hidden Items_ window, where all hidden items are displayed and can be added, as needed. Sections can also be removed by users with the appropriate security permissions.
 
 An added usability feature to note are the information toolbars that appear both throughout the system and in the dynamic encounter. These toolbars provide an easy method of navigation, as well as a quick reference for patient details. The layered toolbars at the top of the dynamic encounter are designed to provide navigation, patient details, and encounter details. However, the number of visible toolbars will vary depending on the page. And as a means of maximizing space, toolbars will also collapse and expand as users navigate the encounter.
 
@@ -111,44 +112,44 @@ Once all documentation is finalized, it is important to always remember to close
 
 Standard visit encounters vary by system type, but may include:
 
-* Checkin
-* Biometric Exam
-* Brief Note
-* Case Management – Work-related
-* Driver Fitness Determination
-* Travel Consult
-* OB Flow
-* Pediatric Exam
-* Pre-placement Exam
-* Results
-* Visit
+- Checkin
+- Biometric Exam
+- Brief Note
+- Case Management – Work-related
+- Driver Fitness Determination
+- Travel Consult
+- OB Flow
+- Pediatric Exam
+- Pre-placement Exam
+- Results
+- Visit
 
 Standard protocols may vary by system type, but may include:
 
-* Occupational Injury
-* Absence Management
-* Cardiovascular
-* Case Management
-* COVID
-* Endocrine
-* EENTD
-* Exposure
-* Gastrointestinal
-* General Assessment
-* Gynecological
-* Low Back Pain
-* Musculoskeletal
-* Neurological
-* Psychiatric
-* Respiratory
-* Skin
-* BHS
+- Occupational Injury
+- Absence Management
+- Cardiovascular
+- Case Management
+- COVID
+- Endocrine
+- EENTD
+- Exposure
+- Gastrointestinal
+- General Assessment
+- Gynecological
+- Low Back Pain
+- Musculoskeletal
+- Neurological
+- Psychiatric
+- Respiratory
+- Skin
+- BHS
 
 Custom configuration of encounter templates by MIE is available, along with protocol-driven Chief Complaint templates, if necessary.
 
 **Encounter Workflow Review Session Demonstration**
 
-* [Encounter Demonstration](https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw)
+- [Encounter Demonstration](https://drive.google.com/open?id=1vIUkrnk45wKAgO5_k_shVp7N3OtDcn62EeSsVt9tAnw)
 
 ## System Configuration
 
@@ -198,10 +199,10 @@ Encounter templates will also set the **Archive As** field if it was previously 
 
 #### Performing Provider
 
-Within the Encounter Info section of a dynamic encounter, the performing provider can be noted in the **Provider** field. This field is mapped to the *Physicians* department and is a dropdown, by default. However, this field can be mapped to an alternative department by using the *Physician Realm* security setting, if necessary.
+Within the Encounter Info section of a dynamic encounter, the performing provider can be noted in the **Provider** field. This field is mapped to the _Physicians_ department and is a dropdown, by default. However, this field can be mapped to an alternative department by using the _Physician Realm_ security setting, if necessary.
 
 {{% info %}}
-If the *Use Charts* system setting is enabled, the Provider dropdown field will be replaced with an autocomplete field of provider or provider organization charts.
+If the _Use Charts_ system setting is enabled, the Provider dropdown field will be replaced with an autocomplete field of provider or provider organization charts.
 {{% /info %}}
 
 Discuss how providers access the system and how they should be considered. It is important to have a clear idea of what drives the provider choices available in the {{% system-name %}} system, because upon closing and archiving encounters, {{% system-name %}} will automatically apply the performing provider's signature to the end of the document.
@@ -228,7 +229,7 @@ The **Encounter Checkout** tab (found under the **Admin** chart tab) is a place 
 The encounter must be open for staff to be able to successfully utilize the Encounter Checkout tab or see Encounter Options. When an encounter is closed and archived, the Encounter Options will no longer be available from the Encounter Checkout tab.
 {{% /info %}}
 
-Any encounter that is *set current* for the logged-in user will populate the Encounter Options associated with that encounter. Any additional open encounters can be seen in the list view found below the Encounter Options. Clicking the **Set Current** link on any of the open encounters will set that encounter as current for viewing and working, as needed. Click the **Release** link on the encounter, to release the encounter and stop displaying the available Encounter Options.
+Any encounter that is _set current_ for the logged-in user will populate the Encounter Options associated with that encounter. Any additional open encounters can be seen in the list view found below the Encounter Options. Clicking the **Set Current** link on any of the open encounters will set that encounter as current for viewing and working, as needed. Click the **Release** link on the encounter, to release the encounter and stop displaying the available Encounter Options.
 
 Determine whether the Encounter Checkout tab will provide value according to the business needs. Consider encounter and checkout workflows, keeping in mind the staff responsible for providing patient, or clinical, summaries, as well as workflows involving the closing, archiving, and overall management of the encounters. If there is no need for the Encounter Checkout tab, the Deployment Specialist can simply remove it from the [Chart Tabs editor](https://system/?f=chart&s=cteditor&tabmodule=admin&tabselect=Chart+Tabs).
 
@@ -238,7 +239,7 @@ Macros are pre-programmed inputs available within varying sections of the dynami
 
 Whenever customized macros are programmed, they are stored as layouts within the module. To utilize any customized macros, users with the proper security permission can simply type in the quick text and press the spacebar. This will automatically insert the programmed input.
 
-Those roles or users with the ability to add/edit macros may have the ability to manage all macros system-wide, or only those in the established Current Library. Macros are cataloged in the Rx Library the user is set to use. This allows separate, or private, macros to be created, as needed. Because macros require specific security permissions, it is important, then, to determine which roles or users are expected to have add/edit abilities for library macros (*Macro Add/Edit* = **Library**), or system-wide macros (*Macro Add/Edit* = **All**) , and which roles or users are expected to only have access to utilize the macros (*Use Macros* = **Yes**), in general.
+Those roles or users with the ability to add/edit macros may have the ability to manage all macros system-wide, or only those in the established Current Library. Macros are cataloged in the Rx Library the user is set to use. This allows separate, or private, macros to be created, as needed. Because macros require specific security permissions, it is important, then, to determine which roles or users are expected to have add/edit abilities for library macros (_Macro Add/Edit_ = **Library**), or system-wide macros (_Macro Add/Edit_ = **All**) , and which roles or users are expected to only have access to utilize the macros (_Use Macros_ = **Yes**), in general.
 
 ### Worklists
 
@@ -246,7 +247,7 @@ In {{% system-name %}} systems, worklists tend to come in the form of portlets. 
 
 By default, several worklists are immediately available from the [Quick View page](https://system/?func=omniscope). Some examples include: Clinic Worklist, Clinic Worklist by Stage, Due List, Health Surveillance Worklist, My Open Encounters, Pre-Placement Exam Worklist, Travel Consult Worklist, WR Case Management Worklist, and various EPM worklists.
 
-It is important to remember to check the *Display Stage Column* system setting when using stages within encounters. If stages are used and have been configured in the Encounter Types editor, the system setting must be enabled (value = **1**). This simply ensures the Stage column is available in worklists and list views.
+It is important to remember to check the _Display Stage Column_ system setting when using stages within encounters. If stages are used and have been configured in the Encounter Types editor, the system setting must be enabled (value = **1**). This simply ensures the Stage column is available in worklists and list views.
 
 ### Clinical Decision Support/Scripted Rules
 
@@ -266,11 +267,11 @@ There are several system settings available for the Encounters module. It is rec
 
 In addition to the various system settings, it is important to review the security role permissions for users needing access to the Encounters module.
 
-* <strong>View Encounters</strong>: Allows users to view the contents of the Encounters chart tab.
-* <strong>Delete Encounters</strong>: Allows users to delete encounters within a chart.
-* <strong>Link Documents to Encounters</strong>: Allows users to link stored documents to encounters within a chart.
-* <strong>Reopen Closed Encounters</strong>: Allows users to reopen closed encounters for editing or updating data captured within the encounter.
-* <strong>Remove Encounter Sections</strong>: Allows users to remove sections from dynamic encounters. Some sections can be locked within the encounter layout, meaning the section is to stay in the encounter and not be removed. For this reason, the permission level may be set to No, Any, or Any except locked.
+- <strong>View Encounters</strong>: Allows users to view the contents of the Encounters chart tab.
+- <strong>Delete Encounters</strong>: Allows users to delete encounters within a chart.
+- <strong>Link Documents to Encounters</strong>: Allows users to link stored documents to encounters within a chart.
+- <strong>Reopen Closed Encounters</strong>: Allows users to reopen closed encounters for editing or updating data captured within the encounter.
+- <strong>Remove Encounter Sections</strong>: Allows users to remove sections from dynamic encounters. Some sections can be locked within the encounter layout, meaning the section is to stay in the encounter and not be removed. For this reason, the permission level may be set to No, Any, or Any except locked.
 
 For more detail on user security role setting, see our [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) online help documentation.
 
@@ -278,24 +279,24 @@ For more detail on user security role setting, see our [Security Role Settings](
 
 My Settings preferences also need considered when providing access to the Encounters module. Review each of the preferences and set, as appropriate.
 
-* <strong>Default Visit Type</strong>: This setting determines the default visit type when manually adding encounters. However, it is recommended to set to Checkin if the Scheduler is using the One-Click Checkin feature.
-* <strong>Link Patient Doctors New Enc</strong>: When enabled, any associated referring/family physicians or other physicians (set via system setting) will automatically populate in the CC (carbon copy) section of the encounter.
-* <strong>Impressions Linked As Active</strong>: This setting has various options available. It is important to note that the user on which this setting preference is set must be the user opening/creating encounters. In other words, the impressions found under the Symptoms/Diagnosis encounter section will behave according to the setting of the user that opens/creates the encounter.
-    * <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
-    * <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
-    * <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-    * <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
-    * <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
-    * <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
-    * will need set to N/A when using this setting.
-* PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter.
-    * If yes is selected, then it will include the items as active medical conditions.
-    * If yes (incl. concluded) is selected, concluded past medical items will be considered active
-    * If no is selected, no past medical history items will be considered active
-    * If problem list only is selected, only the problem list will be considered active.
-* Audiogram STS display: This setting will determine if the age corrected, non age corrected or both audiogram results will be displayed.
-* Assessment Entry in Orders: This setting will determine if the assessment entry will be available in the Order
-* Remember provider and location: This setting will remember the provider and location in future encounters.
+- <strong>Default Visit Type</strong>: This setting determines the default visit type when manually adding encounters. However, it is recommended to set to Checkin if the Scheduler is using the One-Click Checkin feature.
+- <strong>Link Patient Doctors New Enc</strong>: When enabled, any associated referring/family physicians or other physicians (set via system setting) will automatically populate in the CC (carbon copy) section of the encounter.
+- <strong>Impressions Linked As Active</strong>: This setting has various options available. It is important to note that the user on which this setting preference is set must be the user opening/creating encounters. In other words, the impressions found under the Symptoms/Diagnosis encounter section will behave according to the setting of the user that opens/creates the encounter.
+  - <strong>None</strong>: No conditions will be linked. All listed conditions for the visit will be displayed with a strikethrough and status of <strong>N/A</strong>. User must individually update the status of relevant conditions, and they may be ranked, accordingly.
+  - <strong>Last Enc Visit Type (No match –none)</strong>: Only conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on first instances of visit types, even if subsequent visits copy forward previous conditions.
+  - <strong>Last Enc Visit Type (No match – all)</strong>: Conditions linked to the previous encounter of the same visit type will be pulled forward and linked to the current encounter. Status and rank is respected. If no match is found of the same encounter visit type, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+  - <strong>Last Enc (No Match – none)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, no conditions will be linked (i.e., all listed conditions will be set N/A with strikethrough). This setting is particularly useful for those practices that prefer no linked conditions on the first encounter, even though subsequent visits are expected to copy forward previous conditions.
+  - <strong>Last Enc (No match – all)</strong>: Conditions linked on the last known encounter will be pulled forward and linked to the current encounter. Status and rank is respected. If no previous encounter exists, or no last encounter is found, all conditions will be linked (i.e., all conditions will be pulled forward and set as Active).
+  - <strong>All Active Conditions</strong>: All conditions set as Active, regardless of encounters, will be pulled forward and linked as Active. Any conditions not applicable to the visit will need set to N/A when using this setting.
+  - will need set to N/A when using this setting.
+- PMH Linked as Active: This setting will determine if Past Medical History is linked as active from the Encounter.
+  - If yes is selected, then it will include the items as active medical conditions.
+  - If yes (incl. concluded) is selected, concluded past medical items will be considered active
+  - If no is selected, no past medical history items will be considered active
+  - If problem list only is selected, only the problem list will be considered active.
+- Audiogram STS display: This setting will determine if the age corrected, non age corrected or both audiogram results will be displayed.
+- Assessment Entry in Orders: This setting will determine if the assessment entry will be available in the Order
+- Remember provider and location: This setting will remember the provider and location in future encounters.
 
 Any additional details can be found in the [My Settings](../../functions/system-administration/security/my-settings.md) online help documentation, if necessary.
 
@@ -312,16 +313,16 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 **System Configuration/Key Decision Points**
 
 1. What encounter types need to be configured?
-    * What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
-    * Which encounter types need to be tied to the appointment types?
-    * What should the encounter be archived as?
+   - What is important for reporting purposes (ex: initial vs follow up) on a document/encounter level (not appointment level)
+   - Which encounter types need to be tied to the appointment types?
+   - What should the encounter be archived as?
 2. What encounter templates need to be configured?
 3. What protocols need to be configured?
 4. What flowsheets need to be configured?
-    * Which protocols will drive the flowsheets?
-    * What area within the encounter will that flowsheet belong to?
+   - Which protocols will drive the flowsheets?
+   - What area within the encounter will that flowsheet belong to?
 5. What in-house testing can be performed?
-6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists?  Decision on what to track or not
+6. What types of things are referred out to be performed (besides labs) that need to be tracked? Physical Therapy? Imaging? Specialists? Decision on what to track or not
 7. Need list/address of vendors commonly refer to
 8. What macros will need to be configured?
 9. What encounters need e-sign rules set up for signature?
@@ -335,33 +336,33 @@ Encounters are the basis on which all visits hinge, and because of this, there a
 
 ### Help Documentation
 
-* [Encounters-Adding-Creating Encounters](../../functions/encounters/creating-or-adding-encounters.md)
-* [Working in a Visit Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
-* [Working in a Legacy Encounter](../../functions/encounters/working-in-a-legacy-encounter.md)
-* [Encounters-Archiving-Closing-ReArchiving](../../functions/encounters/archiving-closing-re-archiving-encounters.md)
-* [Encounters-Closing Dictation](../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md)
-* [Encounters-Editing Dictation](../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md)
-* [Encounters-Impression Section](../../functions/encounters/symptoms-diagnosis-encounter-section.md)
-* [Encounters-Labs Results Section](../../functions/encounters/encounters-labs-results-section.md)
-* [Encounters-Protocol Configuration-Programming](../../functions/system-configuration/encounters-protocol-configuration-and-programming.md)
-* [Encounters-Protocols](../../functions/encounters/encounter-protocols.md)
-* [Encounters-Transcribing Dictation](../../functions/encounters/dictation-and-transcription/transcribing-dictation.md)
-* [Encounters-Worklist-Open Encounters](../../functions/encounters/encounter-worklists.md)
-* [Encounters Plan Section-Make Order Feature](../../functions/encounters/make-order-feature-encounter-plan-section.md)
-* [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.md)
-* [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab.md)
-* [Link Documents to Encounters](../../functions/document-management/documents-and-forms/link-documents-to-encounters.md)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
-* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
-* [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
-* [Encounter Report](../../functions/reports/encounter-report.md)
-* [Encounters Open Exam Report](../../functions/reports/open-encounters-report.md)
-* [Encounter-EM Calculator](../../functions/encounters/e-m-calculator.md)
-* [Encounter-Summary Toolbar](../../functions/encounters/encounter-summary-toolbar.md)
-* [Encounter Checkout Chart Tab](../../functions/encounters/encounter-checkout-chart-tab.md)
-* [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing)
+- [Encounters-Adding-Creating Encounters](../../functions/encounters/creating-or-adding-encounters.md)
+- [Working in a Visit Encounter](../../functions/encounters/working-in-a-visit-encounter.md)
+- [Working in a Legacy Encounter](../../functions/encounters/working-in-a-legacy-encounter.md)
+- [Encounters-Archiving-Closing-ReArchiving](../../functions/encounters/archiving-closing-re-archiving-encounters.md)
+- [Encounters-Closing Dictation](../../functions/encounters/dictation-and-transcription/closing-encounters-from-the-dictation-module.md)
+- [Encounters-Editing Dictation](../../functions/encounters/dictation-and-transcription/editing-encounter-dictations.md)
+- [Encounters-Impression Section](../../functions/encounters/symptoms-diagnosis-encounter-section.md)
+- [Encounters-Labs Results Section](../../functions/encounters/encounters-labs-results-section.md)
+- [Encounters-Protocol Configuration-Programming](../../functions/system-configuration/encounters-protocol-configuration-and-programming.md)
+- [Encounters-Protocols](../../functions/encounters/encounter-protocols.md)
+- [Encounters-Transcribing Dictation](../../functions/encounters/dictation-and-transcription/transcribing-dictation.md)
+- [Encounters-Worklist-Open Encounters](../../functions/encounters/encounter-worklists.md)
+- [Encounters Plan Section-Make Order Feature](../../functions/encounters/make-order-feature-encounter-plan-section.md)
+- [Encounters Plan Section-Meds](../../functions/encounters/encounter-plan-section-medications.md)
+- [Encounters Tab-Search and ListView](../../functions/encounters/encounters-tab.md)
+- [Link Documents to Encounters](../../functions/document-management/documents-and-forms/link-documents-to-encounters.md)
+- [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+- [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
+- [Due List-Dynamic Encounter](../../functions/health-surveillance/due-list-in-a-dynamic-encounter.md)
+- [Encounter Report](../../functions/reports/encounter-report.md)
+- [Encounters Open Exam Report](../../functions/reports/open-encounters-report.md)
+- [Encounter-EM Calculator](../../functions/encounters/e-m-calculator.md)
+- [Encounter-Summary Toolbar](../../functions/encounters/encounter-summary-toolbar.md)
+- [Encounter Checkout Chart Tab](../../functions/encounters/encounter-checkout-chart-tab.md)
+- [Scripted Rules](https://drive.google.com/file/d/0B5Hsu0mf2-tkaWFCZGFxMUVrMFU/view?usp=sharing)
 
 **LMS Courses/Videos**
 
-* [Encounters](https://mie.talentlms.com/unit/view/id:2703)
-* [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)
+- [Encounters](https://mie.talentlms.com/unit/view/id:2703)
+- [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)

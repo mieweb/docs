@@ -1,0 +1,72 @@
+{{ define "main" }} {{ partial "header.html" . }}
+
+<main class="flex min-h-screen items-center justify-center px-4 pt-16">
+  <div class="animate-slide-up text-center">
+    <div class="mb-6">
+      <span class="from-primary to-primary/60 bg-gradient-to-r bg-clip-text text-9xl font-bold text-transparent"
+        >404</span
+      >
+    </div>
+    <h1 class="text-foreground text-2xl font-semibold">Page Not Found</h1>
+    <p class="text-muted-foreground mx-auto mt-3 max-w-md">
+      The page you're looking for doesn't exist or has been moved. Try searching or go back to the homepage.
+    </p>
+    <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <a href="{{ .Site.BaseURL }}" class="btn btn-primary">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-home"
+          aria-hidden="true"
+        >
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+        Go Home
+      </a>
+      <button id="search-404" class="btn btn-secondary">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-search"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        Search Docs
+      </button>
+    </div>
+    <div class="mt-12">
+      <p class="text-muted-foreground text-sm">Looking for something specific?</p>
+      <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+        <a href="{{ .Site.BaseURL }}functions/" class="btn btn-ghost btn-sm">Functions</a>
+        <a href="{{ .Site.BaseURL }}programs/" class="btn btn-ghost btn-sm">Programs</a>
+        <a href="{{ .Site.BaseURL }}resources/" class="btn btn-ghost btn-sm">Resources</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "search-modal.html" . }}
+
+<script>
+  document.getElementById("search-404")?.addEventListener("click", () => {
+    document.getElementById("search-trigger")?.click();
+  });
+</script>
+{{ end }}

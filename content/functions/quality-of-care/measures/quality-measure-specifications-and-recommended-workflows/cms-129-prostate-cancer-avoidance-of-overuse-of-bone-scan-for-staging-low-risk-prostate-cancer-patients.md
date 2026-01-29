@@ -1,18 +1,19 @@
 ---
-id: '1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4'
-title: 'CMS 129 - Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients'
-date: '2022-04-22T18:22:57.037Z'
+id: "1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4"
+title: "CMS 129 - Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients"
+date: "2022-04-22T18:22:57.037Z"
 version: 16
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v10&showresulttype=Measure'
-  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v11&showresulttype=Measure'
-  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms129v11'
-source: 'https://drive.google.com/open?id=1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4'
-wikigdrive: 'v2.15.30'
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v10&showresulttype=Measure"
+  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v11&showresulttype=Measure"
+  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms129v11"
+source: "https://drive.google.com/open?id=1uyzFO8FwjOJb8-ixYtKd94iuVcu4wwwIhvkIO5Fybw4"
+wikigdrive: "v2.15.30"
 ---
+
 ## Overview
 
 [CMS129v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS129v9&showresulttype=Measure) (2020)
@@ -38,7 +39,7 @@ wikigdrive: 'v2.15.30'
 </tr>
 </table>
 
-*MIE only supports data collection and reporting using eCQM specifications
+\*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -101,7 +102,6 @@ wikigdrive: 'v2.15.30'
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
-
 
 ### Original Visit Encounter
 

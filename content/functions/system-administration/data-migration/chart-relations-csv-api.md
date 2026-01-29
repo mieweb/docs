@@ -1,17 +1,18 @@
 ---
-id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-title: 'Chart Relations CSV API'
-date: '2025-11-12T19:54:46.589Z'
+id: "1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
+title: "Chart Relations CSV API"
+date: "2025-11-12T19:54:46.589Z"
 version: 72
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
-source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
-wikigdrive: 'v2.15.30'
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/"
+source: "https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
+wikigdrive: "v2.15.30"
 ---
+
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 
 ## Audience
@@ -36,8 +37,8 @@ Definitions for the columns utilized in the specification information below. Com
 
 High Level: Patient 2 is related to Patient 1 with Relation Type.
 
-* R = Required
-* O = Optional
+- R = Required
+- O = Optional
 <table>
 <tr>
 <td>Name</td>
@@ -82,6 +83,7 @@ High Level: Patient 2 is related to Patient 1 with Relation Type.
 Relation Types
 
 The following table outlines default relation types.
+
 <table>
 <tr>
 <td>Relation Type</td>
@@ -170,6 +172,7 @@ Adding a Credentialing Contact (RELATION_TYPE_ID: 20) relationship between two p
 MIE 10006 is a Credentialing Contact for MIE 10019.
 
 {{% pre %}}
+
 ```
 
 
@@ -177,11 +180,13 @@ PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID
 MIE,10019,MIE,10006,20
 
 ```
+
 {{% /pre %}}
 
 Adding multiple relations between patients:
 
 {{% pre %}}
+
 ```
 
 
@@ -191,6 +196,7 @@ MIE,10021,MIE,10020,3
 CCHIT,41205325,MIE,10019,8
 
 ```
+
 {{% /pre %}}
 
 ## Related Pages

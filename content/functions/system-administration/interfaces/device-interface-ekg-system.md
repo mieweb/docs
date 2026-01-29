@@ -1,49 +1,50 @@
 ---
-id: '1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-title: 'Device Interface - EKG System'
-date: '2025-11-13T14:58:15.873Z'
+id: "1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs"
+title: "Device Interface - EKG System"
+date: "2025-11-13T14:58:15.873Z"
 version: 73
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1TyHq09M2LU6b0O4sts-A4JykKIs-O_zv5X3K4gAvhEs"
+wikigdrive: "v2.15.30"
 ---
+
 This document describes the interface between {{% system-name %}} and the Welch Allyn EKG Monitoring system known as CardioPerfect. {{% system-name %}} can interface with other models of devices, so please contact Help Desk for verification and quote for the interface.
 
 ## Overview
 
 Within {{% system-name %}} a user navigates to a page in the patient's chart that is configured with MIE's layout for interfacing to CardioPerfect. The tab launches an ActiveX control that interfaces to CardioPerfect. If the patient is not registered in CardioPerfect, {{% system-name %}} will create the patient. It will transfer/update:
 
-* MR number (Which MR number is controlled by configuration in the layout)
-* Name
-* Address (Addr1, Addr2, City, State, Zip)
-* DOB
-* most recent height
-* most recent weight
+- MR number (Which MR number is controlled by configuration in the layout)
+- Name
+- Address (Addr1, Addr2, City, State, Zip)
+- DOB
+- most recent height
+- most recent weight
 
 Then the end user is presented CardioPerfect to conduct the EKG. After the user completes their session with the patient in CardioPerfect:
 
-* If the FileLink program has been correctly configured to save TIF images after a new test is created, a TIF image will now exist in the user-configured directory.
-* The user chooses that TIF image from the VidCap control. The saved EKG's will be stored as TIF image documents with an observation for the interpretation. This does not require the CardioPerfect software to view once stored in {{% system-name %}} (so it can be accessed by any computer).
-* The user clicks the "Get Interpretation" button to pull the automatically generated interpretation into a text area.
-* The user chooses Normal / Abnormal.
-* Note: MIE has ability to hide the "Normal" and "Review" radio buttons for EKG tests. This is using a system setting "E-Chart", "EKG", "Ignore Flag Interpretations". This setting is only checked in javascript and the layout so will need to be manually added by MIE for practices who want to use it.
-* The user clicks the Upload button in {{% system-name %}} to create a document from the TIF and an observation from the interpretation. The normal/abnormal value is stored as the flag on the interpretation observation.
+- If the FileLink program has been correctly configured to save TIF images after a new test is created, a TIF image will now exist in the user-configured directory.
+- The user chooses that TIF image from the VidCap control. The saved EKG's will be stored as TIF image documents with an observation for the interpretation. This does not require the CardioPerfect software to view once stored in {{% system-name %}} (so it can be accessed by any computer).
+- The user clicks the "Get Interpretation" button to pull the automatically generated interpretation into a text area.
+- The user chooses Normal / Abnormal.
+- Note: MIE has ability to hide the "Normal" and "Review" radio buttons for EKG tests. This is using a system setting "E-Chart", "EKG", "Ignore Flag Interpretations". This setting is only checked in javascript and the layout so will need to be manually added by MIE for practices who want to use it.
+- The user clicks the Upload button in {{% system-name %}} to create a document from the TIF and an observation from the interpretation. The normal/abnormal value is stored as the flag on the interpretation observation.
 
 ### Model Numbers
 
 A list of devices known to work with this interface (but please verify with your MIE Implementer for other models):
 
-* CP100/200
-* CP20
-* AT-2 Plus
+- CP100/200
+- CP20
+- AT-2 Plus
 
 ### Technical Details
 
-* CardioPerfect must be installed on the PC from which EKGs will be recorded.
-* FileLink must be installed and configured to write TIFF files when a new test is created.
-* CardioPerfect runs MSSQL on the PC doing EKGs. Some implementations may be talking to a database remotely and multiple machines sharing the same DB.
+- CardioPerfect must be installed on the PC from which EKGs will be recorded.
+- FileLink must be installed and configured to write TIFF files when a new test is created.
+- CardioPerfect runs MSSQL on the PC doing EKGs. Some implementations may be talking to a database remotely and multiple machines sharing the same DB.
 
 Once installed and MIE programmers have system and/or encounters configured, the following steps would apply for utilizing the device interface with {{% system-name %}} .
 
@@ -72,16 +73,16 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 ![](./device-interface-ekg-system.assets/5ea8097066dca9f7316f88127e5a4e1e.png)
 
-1. Select the 
-    ![](./device-interface-ekg-system.assets/6e88aadaaf95e4eefce77e153ea882e9.png)
-     button at the top of the screen to begin your test.
+1. Select the
+   ![](./device-interface-ekg-system.assets/6e88aadaaf95e4eefce77e153ea882e9.png)
+   button at the top of the screen to begin your test.
 2. EKG should start and show on screen.
 
 ![](./device-interface-ekg-system.assets/b9e30b28972f7285d4114692000852bb.png)
 
-1. Observe the screen and Select Record 
-    ![](./device-interface-ekg-system.assets/22edf80eda768aca16675a710c513a90.png)
-     when you are ready.
+1. Observe the screen and Select Record
+   ![](./device-interface-ekg-system.assets/22edf80eda768aca16675a710c513a90.png)
+   when you are ready.
 2. Once done recording (10 Seconds) the interpretation should be automatically done. If not, select Tools>Interpretation.
 
 ![](./device-interface-ekg-system.assets/971a06bcf71a01e01bc2533036451831.png)
@@ -100,8 +101,8 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 
 1. Scroll to the "filebox"
 2. Change the smartcard to point to the correct folder.
-    1. Changing smartcard:
-        1. Right click on filebox
+   1. Changing smartcard:
+      1. Right click on filebox
 
 ![](./device-interface-ekg-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
@@ -110,7 +111,7 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 ![](./device-interface-ekg-system.assets/d87e573b03c1ddd04e1e38bdfafd332c.png)
 
 1. Choose the correct location of the for files (-LCC EKG Results) and select ok
-    1. File should populate the filebox
+   1. File should populate the filebox
 1. Choose the EKG file.
 
 !Images^components_system_configuration_interfaces_device_device_interfaces_ekg_system_media_27.png!
@@ -118,7 +119,7 @@ Do not open the Welch Allyn CardioPerfect software by double clicking the icon o
 .
 
 1. Select the Get Interpretation button
-    1. Interpretation should populate the textbox.
+   1. Interpretation should populate the textbox.
 2. Select the upload button
 
 ![](./device-interface-ekg-system.assets/b6ba347fdaf5aa4f06ba3acebbd91e27.png)
