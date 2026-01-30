@@ -10,6 +10,8 @@
     "dev:wc": "./build.sh --live wc",
     "dev:eh": "./build.sh --live eh",
     "build:components": "tsx scripts/build-components.ts",
+    "build:components:prod": "NODE_ENV=production tsx scripts/build-components.ts",
+    "watch:components": "tsx scripts/build-components.ts --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
@@ -25,10 +27,15 @@
   "license": "ISC",
   "dependencies": {
     "@mieweb/ui": "github:mieweb/ui",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
     "clsx": "^2.1.1",
     "highlight.js": "^11.11.1",
     "hugo-extended": "^0.139.3",
-    "lunr": "^2.3.9"
+    "lucide-react": "^0.563.0",
+    "lunr": "^2.3.9",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",

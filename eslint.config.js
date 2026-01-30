@@ -14,6 +14,7 @@ export default tseslint.config(
       "themes/wc-eh-docs/**",
       "themes/_wc-eh-docs-backup/**",
       "themes/**/assets/js/vendor/**",
+      "themes/**/assets/js/react/**", // Ignore bundled React components
       "*.config.js",
       "*.config.mjs",
       "config/**",
