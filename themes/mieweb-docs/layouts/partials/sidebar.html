@@ -35,7 +35,7 @@
             </button>
             <a
               href="{{ .URL }}"
-              class="flex-1 rounded-md px-2 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-muted hover:text-primary {{ if eq $.Page.RelPermalink .URL }}bg-muted text-primary{{ end }}"
+              class="flex-1 rounded-md px-2 py-1.5 text-sm font-medium transition-colors hover:bg-muted/80 {{ if eq $.Page.RelPermalink .URL }}bg-muted text-foreground border-l-2 border-primary{{ else }}text-foreground/90 hover:text-foreground{{ end }}"
               {{
               if
               eq
@@ -55,7 +55,7 @@
         <li>
           <a
             href="{{ .URL }}"
-            class="sidebar-item flex rounded-lg px-3 py-2 text-sm font-medium text-foreground transition-colors hover:bg-muted {{ if eq $.Page.RelPermalink .URL }}bg-muted text-primary{{ end }}"
+            class="sidebar-item flex rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:bg-muted/80 {{ if eq $.Page.RelPermalink .URL }}bg-muted text-foreground border-l-2 border-primary{{ else }}text-foreground/90 hover:text-foreground{{ end }}"
             data-name="{{ .Identifier }}"
             {{
             if
@@ -76,8 +76,18 @@
 
     {{- /* Sidebar footer */}}
     <div class="border-border border-t p-4">
-      <div class="text-muted-foreground text-xs">
-        <p>© {{ now.Year }} {{ .Site.Params.Brand.name }}</p>
+      <div class="text-muted-foreground space-y-2 text-xs">
+        <p class="font-medium text-foreground">{{ .Site.Params.Brand.name }} Documentation</p>
+        {{- with .Site.Home }}
+        {{- with .Date }}
+        <p>Last Updated: {{ .Format "Mon, 02 Jan 2006 15:04:05 MST" }}</p>
+        {{- end }}
+        {{- end }}
+        <p>Last Build: {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</p>
+        {{- with .Site.Home.Params.wikigdrive }}
+        <p>WikiGDrive Version: <a href="https://github.com/mieweb/wikiGDrive/releases/tag/{{ . }}" class="text-primary-400 hover:text-primary-300 hover:underline" target="_blank" rel="noopener">{{ . }}</a></p>
+        {{- end }}
+        <p class="pt-2">© {{ now.Year }} {{ .Site.Params.Brand.name }}</p>
       </div>
     </div>
   </div>

@@ -68,6 +68,7 @@
 
 /* Borders & Radius */
 @source inline("border rounded rounded-md rounded-lg rounded-xl rounded-full rounded-2xl");
+@source inline("border-l-2 border-primary");
 @source inline("shadow-sm shadow-md shadow-lg shadow-2xl");
 
 /* Effects & Transitions */
@@ -79,6 +80,7 @@
 /* States */
 @source inline("hover:bg-muted hover:bg-white/10 hover:text-foreground hover:text-primary hover:text-white");
 @source inline("hover:border-primary hover:shadow-md hover:opacity-80 hover:underline");
+@source inline("text-primary-400 hover:text-primary-300");
 @source inline("group group-hover:opacity-100 group-hover:text-primary group-hover:translate-x-1");
 @source inline("group-hover:text-primary-700 dark:group-hover:text-primary-300");
 @source inline("focus:outline-none focus:ring-0 focus:ring-2 focus:ring-ring focus:border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring");

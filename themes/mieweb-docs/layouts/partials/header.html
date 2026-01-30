@@ -81,6 +81,27 @@
         </kbd>
       </button>
 
+      {{- /* Request a Demo / Contact Us button - Brand specific */}}
+      {{ if eq .Site.Params.Brand.code "eh" }}
+      <a
+        href="https://content.enterprisehealth.com/request-a-demo?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+        class="btn btn-primary hidden sm:inline-flex"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Request a Demo
+      </a>
+      {{ else if eq .Site.Params.Brand.code "wc" }}
+      <a
+        href="https://www.webchartnow.com/contact-us/?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+        class="btn btn-primary hidden sm:inline-flex"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Contact Us
+      </a>
+      {{ end }}
+
       {{- /* Theme toggle */}}
       <button id="theme-toggle" class="btn btn-ghost btn-icon" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg

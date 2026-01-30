@@ -32,8 +32,19 @@ defaultContentLanguageInSubdir=false
 baseName = "search"
 mediaType = "application/json"
 
+[outputFormats.robots]
+baseName = "robots"
+mediaType = "text/plain"
+isPlainText = true
+notAlternative = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [outputs]
-  home = [ "HTML", "RSS", "SearchIndex"]
+  home = [ "HTML", "RSS", "SearchIndex", "robots"]
 
 [markup.goldmark.renderer]
   unsafe= true

@@ -28,38 +28,22 @@
       </button>
       <a
         href="{{ .URL }}"
-        class="flex-1 min-w-0 rounded px-1.5 py-0.5 text-sm leading-relaxed text-foreground transition-colors hover:bg-muted hover:text-primary {{ if eq $.Page.RelPermalink .URL }}bg-muted font-medium text-primary{{ end }}"
-        {{
-        if
-        eq
-        $.Page.RelPermalink
-        .URL
-        }}aria-current="page"
-        {{
-        end
-        }}
+        class="flex-1 min-w-0 rounded px-1.5 py-0.5 text-sm leading-relaxed transition-colors hover:bg-muted/80 {{ if eq $page.RelPermalink .URL }}bg-muted font-medium text-foreground border-l-2 border-primary -ml-0.5 pl-2{{ else }}text-foreground/80 hover:text-foreground{{ end }}"
+        {{ if eq $page.RelPermalink .URL }}aria-current="page"{{ end }}
         >{{ .Name }}</a
       >
     </div>
-    {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . "level" (add $level 1) }} {{ partial
+    {{ $temp := dict "menu" $menu "page" $page "site" $site "entry" . "level" (add $level 1) }} {{ partial
     "sidebar-nav.html" $temp }}
   </li>
   {{ else }}
   <li>
     <a
       href="{{ .URL }}"
-      class="block rounded px-1.5 py-0.5 pl-8 text-sm leading-relaxed text-foreground transition-colors hover:bg-muted hover:text-primary {{ if eq $.Page.RelPermalink .URL }}bg-muted font-medium text-primary{{ end }}"
+      class="block rounded px-1.5 py-0.5 pl-8 text-sm leading-relaxed transition-colors hover:bg-muted/80 {{ if eq $page.RelPermalink .URL }}bg-muted font-medium text-foreground border-l-2 border-primary -ml-0.5 pl-[2.125rem]{{ else }}text-foreground/80 hover:text-foreground{{ end }}"
       data-name="{{ .Identifier }}"
       data-parent="{{ $lvl }}"
-      {{
-      if
-      eq
-      $.Page.RelPermalink
-      .URL
-      }}aria-current="page"
-      {{
-      end
-      }}
+      {{ if eq $page.RelPermalink .URL }}aria-current="page"{{ end }}
     >
       {{ .Name }}
     </a>
