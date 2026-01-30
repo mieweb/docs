@@ -1,5 +1,0 @@
-@import "tailwindcss";
-
-/* Configure content sources for Tailwind CSS 4 */
-@source "../../layouts/**/*.html";
-@source "../js/**/*.js";
