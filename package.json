@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Enterprise Health / WebChart documentation site built with Hugo, Tailwind CSS 4, and React 19 components.",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "./build.sh",
     "build:wc": "./build.sh wc",
