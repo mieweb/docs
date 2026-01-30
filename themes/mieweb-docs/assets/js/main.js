@@ -226,15 +226,29 @@ expandToCurrentPage();
   // Store original text content for links to restore later
   const originalLinkText = new Map();
 
+  /**
+   * Escape HTML special characters to prevent XSS
+   * @param {string} text - The text to escape
+   * @returns {string} - HTML-escaped text
+   */
+  function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
   function highlightText(text, query) {
-    if (!query) return text;
+    if (!query) return escapeHtml(text);
+    // First escape the text to prevent XSS
+    const escapedText = escapeHtml(text);
+    const escapedQuery = escapeHtml(query);
     const regex = new RegExp(
-      `(${query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
+      `(${escapedQuery.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
       "gi"
     );
     // Use amber/orange tones that work well in both light and dark mode
     // Light: warm yellow background, Dark: semi-transparent amber for better contrast
-    return text.replace(
+    return escapedText.replace(
       regex,
       '<mark class="sidebar-search-highlight">$1</mark>'
     );
