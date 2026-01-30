@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "include": [],
-  "exclude": ["/*"]
+  "include": ["/_never_match_anything_*"],
+  "exclude": []
 }
