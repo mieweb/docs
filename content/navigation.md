@@ -826,7 +826,7 @@ wikigdrive: "v2.15.30"
   - [Employee Assistance Program](programs/employee-assistance-program.md)
   - [Quality Reporting](programs/quality-reporting.md)
     - [Brief Introduction to Quality Reporting](programs/quality-reporting/brief-introduction-to-quality-reporting.md)
-- [Functions](functions.md)
+- [Features](features.md)
   - [E-Chart](features/e-chart.md)
     - [Basic Initial System Information](features/e-chart/basic-initial-system-information.md)
       - [Timeout Logout](features/e-chart/timeout-logout.md)
