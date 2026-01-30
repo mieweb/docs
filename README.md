@@ -26,9 +26,13 @@ This git repo contains the history of documentation for MIE's WebChart based pro
 3. Hugo stuff
    - [config-eh.toml](config-eh.toml) Hugo config for Enterprise Health of static pages.
    - [config-wc.toml](config-wc.toml) Hugo config for WebChart building of static pages.
-   - [themes/wc-eh-docs](themes/wc-eh-docs) custom Hugo [themes](https://themes.gohugo.io)
+   - [themes/mieweb-docs](themes/mieweb-docs) Tailwind CSS + React theme (see [theme README](themes/mieweb-docs/README.md))
    - [SHORTCODES.md](SHORTCODES.md) documentation for all available Hugo shortcodes
-4. Automation to automate the process as well as a set of scripts to update a qa-server in realtime watching for changes in Google Drive and near instant update.
+4. Frontend assets
+   - [src/components](src/components) React components using [@mieweb/ui](https://github.com/mieweb/ui) library
+   - [tailwind.config.ts](tailwind.config.ts) Tailwind CSS configuration
+   - [scripts/build-components.ts](scripts/build-components.ts) esbuild script for React components
+5. Automation to automate the process as well as a set of scripts to update a qa-server in realtime watching for changes in Google Drive and near instant update.
    - [Actions](.github/workflows) - github scripts that automate changes out to production and test Pull Requests to see if they break the build process.
    - [build.sh](build.sh) a script for testing and building the static page generation locally on your own machine, GitHub or CloudFlare.
 
@@ -37,7 +41,12 @@ This git repo contains the history of documentation for MIE's WebChart based pro
 ### TLDR - for geeks to get started quickly.
 
 - Clone this repo.
-- open bash window, type: `./build.sh eh wc`
+- Run `npm ci` to install dependencies
+- Run `./build.sh --live eh` (or `wc` for WebChart brand)
+
+This will generate the navigation menu and start Hugo's live server at http://localhost:1313/
+
+**Important:** Do not run `hugo server` directly without running the build script first, as the sidebar navigation menu is generated from `content/navigation.md`.
 
 ### Requirements
 

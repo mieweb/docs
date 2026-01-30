@@ -545,10 +545,11 @@ Use the appropriate delimiter based on whether you need Markdown processing.
 
 When adding new shortcodes:
 
-1. Create the shortcode file in `themes/wc-eh-docs/layouts/shortcodes/`
+1. Create the shortcode file in `themes/mieweb-docs/layouts/shortcodes/`
 2. Document it in this file with usage examples
 3. Test on both WC and EH configurations if brand-specific
-4. Update the table of contents above
+4. Use Tailwind CSS utility classes for styling (avoid custom CSS)
+5. Update the table of contents above
 
 ## Questions or Issues?
 
