@@ -5,50 +5,53 @@
   {{- /* Sidebar */}}
   {{ partial "sidebar.html" . }}
   
-  {{- /* Main content area */}}
-  <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
-    <div class="px-4 py-8 lg:px-8">
-      {{- /* Breadcrumbs */}}
-      {{ partial "breadcrumbs.html" . }}
-      
-      {{- /* Page header */}}
-      <header class="mb-8 border-b border-border pb-6">
-        <div class="flex flex-wrap items-start justify-between gap-4">
-          <h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl" {{ if .Params.url }}id="{{ replace .Params.url ".md" "" }}"{{ end }}>
-            {{ .Title }}
-          </h1>
-          
-          <div class="flex items-center gap-2 shrink-0">
-            <button 
-              id="btn-share" 
-              class="btn btn-secondary btn-sm"
-              aria-label="Share this page"
-              title="Share this page"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
-              <span class="hidden sm:inline">Share</span>
-            </button>
-            
-            {{ if .Params.source }}
-            <a 
-              href="{{ .Params.source }}" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="btn btn-secondary btn-sm"
-              aria-label="Edit in Google Drive"
-              title="Edit in Google Drive"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
-              <span class="sr-only">Edit in Google Drive</span>
-            </a>
+  {{- /* Main content area with TOC */}}
+  <div class="main-wrapper flex-1 flex">
+    <main id="main-content" class="main-content flex-1 overflow-auto" tabindex="-1">
+      <div class="px-4 py-8 lg:px-8">
+        {{- /* Breadcrumbs */}}
+        {{ partial "breadcrumbs.html" . }}
+        
+        {{- /* Page header */}}
+        <header class="mb-8 border-b border-border pb-6">
+          <div class="flex flex-wrap items-start justify-between gap-4">
+            {{ if .Params.url }}
+            <h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl" id="{{ replace .Params.url ".md" "" }}">
+            {{ else }}
+            <h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             {{ end }}
+              {{ .Title }}
+            </h1>
+            
+            <div class="flex items-center gap-2 shrink-0">
+              <button 
+                id="btn-share" 
+                class="btn btn-secondary btn-sm"
+                aria-label="Share this page"
+                title="Share this page"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
+                <span class="hidden sm:inline">Share</span>
+              </button>
+              
+              {{ if .Params.source }}
+              <a 
+                href="{{ .Params.source }}" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm"
+                aria-label="Edit in Google Drive"
+                title="Edit in Google Drive"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                <span class="sr-only">Edit in Google Drive</span>
+              </a>
+              {{ end }}
+            </div>
           </div>
-        </div>
-      </header>
-      
-      {{- /* Table of Contents + Content */}}
-      {{ if gt (.TableOfContents | len) 32 }}
-      <div class="grid gap-8 lg:grid-cols-[1fr,250px]">
+        </header>
+        
+        {{- /* Content */}}
         <article class="prose prose-neutral dark:prose-invert max-w-none">
           {{ if eq .Params.markup "pandoc" }}
             {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
@@ -56,33 +59,37 @@
             {{ .Content | safeHTML }}
           {{ end }}
         </article>
+      
+        {{- /* Footer call to action */}}
+        {{ partial "footer-cta.html" . }}
         
-        <aside class="hidden lg:block">
-          <div class="sticky top-20">
-            <h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-muted-foreground">On this page</h2>
-            <nav class="toc text-sm">
-              {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
-            </nav>
-          </div>
-        </aside>
+        {{- /* Date info */}}
+        {{ partial "date-info.html" . }}
       </div>
-      {{ else }}
-      <article class="prose prose-neutral dark:prose-invert max-w-none">
-        {{ if eq .Params.markup "pandoc" }}
-          {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
-        {{ else }}
-          {{ .Content | safeHTML }}
-        {{ end }}
-      </article>
-      {{ end }}
-      
-      {{- /* Footer call to action */}}
-      {{ partial "footer-cta.html" . }}
-      
-      {{- /* Date info */}}
-      {{ partial "date-info.html" . }}
-    </div>
-  </main>
+    </main>
+
+    {{- /* Table of Contents - outside main for proper sticky behavior */}}
+    {{ if gt (.TableOfContents | len) 32 }}
+    <aside class="toc-aside" aria-label="Table of contents">
+      <div class="toc-container">
+        <h2 class="toc-header mb-3 flex items-center gap-2 text-sm font-semibold text-foreground">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary" aria-hidden="true">
+            <line x1="8" x2="21" y1="6" y2="6"/>
+            <line x1="8" x2="21" y1="12" y2="12"/>
+            <line x1="8" x2="21" y1="18" y2="18"/>
+            <line x1="3" x2="3.01" y1="6" y2="6"/>
+            <line x1="3" x2="3.01" y1="12" y2="12"/>
+            <line x1="3" x2="3.01" y1="18" y2="18"/>
+          </svg>
+          Covered by this topic
+        </h2>
+        <nav id="toc-nav" class="toc text-sm" aria-label="Page sections">
+          {{ .TableOfContents | replaceRE `href="#(.*)"` (printf `href="%s#%s"` .Page.RelPermalink "$1") | safeHTML }}
+        </nav>
+      </div>
+    </aside>
+    {{ end }}
+  </div>
 </div>
 
 {{- /* Scroll to top button */}}

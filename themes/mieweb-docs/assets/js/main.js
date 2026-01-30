@@ -908,6 +908,157 @@ function showToast(message, duration = 3000) {
 }
 
 // ============================================
+// Table of Contents Scrollspy
+// ============================================
+(function initTocScrollspy() {
+  const tocNav = document.getElementById("toc-nav");
+  if (!tocNav) return;
+
+  const tocLinks = tocNav.querySelectorAll("a[href*='#']");
+  if (tocLinks.length === 0) return;
+
+  // Get all headings that are in the TOC
+  const headingIds = Array.from(tocLinks)
+    .map((link) => {
+      const href = link.getAttribute("href");
+      const hash = href?.split("#")[1];
+      return hash ? decodeURIComponent(hash) : null;
+    })
+    .filter(Boolean);
+
+  const headings = headingIds
+    .map((id) => document.getElementById(id))
+    .filter(Boolean);
+
+  if (headings.length === 0) return;
+
+  let currentActive = null;
+
+  // Create IntersectionObserver to track which heading is in view
+  const observer = new IntersectionObserver(
+    (entries) => {
+      // Find all headings currently intersecting
+      const visibleHeadings = entries
+        .filter((entry) => entry.isIntersecting)
+        .map((entry) => entry.target);
+
+      // If we have visible headings, use the first one (topmost)
+      if (visibleHeadings.length > 0) {
+        // Sort by their position in the document
+        visibleHeadings.sort((a, b) => {
+          const aTop = a.getBoundingClientRect().top;
+          const bTop = b.getBoundingClientRect().top;
+          return aTop - bTop;
+        });
+
+        const activeHeading = visibleHeadings[0];
+        setActiveLink(activeHeading.id);
+      } else {
+        // No headings visible, find the one we just scrolled past
+        // by checking which heading is closest above the viewport
+        const scrollTop = window.scrollY;
+        let closestHeading = null;
+        let closestDistance = Infinity;
+
+        headings.forEach((heading) => {
+          const headingTop = heading.offsetTop;
+          const distance = scrollTop - headingTop;
+          // Only consider headings above the current scroll position
+          if (distance >= -100 && distance < closestDistance) {
+            closestDistance = distance;
+            closestHeading = heading;
+          }
+        });
+
+        if (closestHeading) {
+          setActiveLink(closestHeading.id);
+        }
+      }
+    },
+    {
+      // Trigger when heading enters the top 20% of the viewport
+      rootMargin: "-80px 0px -70% 0px",
+      threshold: 0,
+    }
+  );
+
+  // Observe all headings
+  headings.forEach((heading) => observer.observe(heading));
+
+  function setActiveLink(id) {
+    if (currentActive === id) return;
+    currentActive = id;
+
+    // Remove active class from all links
+    tocLinks.forEach((link) => link.classList.remove("active"));
+
+    // Find and activate the matching link
+    const activeLink = tocNav.querySelector(`a[href*="#${CSS.escape(id)}"]`);
+    if (activeLink) {
+      activeLink.classList.add("active");
+
+      // Scroll the TOC to keep active item visible
+      const tocContainer = tocNav.closest(".toc-container");
+      if (tocContainer) {
+        const linkRect = activeLink.getBoundingClientRect();
+        const containerRect = tocContainer.getBoundingClientRect();
+
+        // Check if link is outside visible area
+        if (
+          linkRect.top < containerRect.top + 60 ||
+          linkRect.bottom > containerRect.bottom - 20
+        ) {
+          activeLink.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }
+    }
+  }
+
+  // Handle click on TOC links for smooth scrolling
+  tocLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const href = link.getAttribute("href");
+      const hash = href?.split("#")[1];
+      if (!hash) return;
+
+      const target = document.getElementById(decodeURIComponent(hash));
+      if (target) {
+        e.preventDefault();
+
+        // Update URL without scrolling
+        history.pushState(null, "", href);
+
+        // Smooth scroll to target with offset for header
+        const headerOffset = 100;
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+
+        // Set active immediately for better UX
+        setActiveLink(hash);
+      }
+    });
+  });
+
+  // Set initial active state based on URL hash or first heading
+  if (window.location.hash) {
+    const hash = decodeURIComponent(window.location.hash.slice(1));
+    setActiveLink(hash);
+  } else if (headings[0]) {
+    // Small delay to let the page settle
+    setTimeout(() => {
+      if (window.scrollY < 100) {
+        setActiveLink(headings[0].id);
+      }
+    }, 100);
+  }
+})();
+
+// ============================================
 // Utility Functions
 // ============================================
 function escapeHtml(text) {

@@ -3,4 +3,5 @@ public/
 .hugo_build.lock
 *.log
 themes/wc-eh-docs/
+themes/mieweb-docs/layouts/
 config/_default/menu.en.json
