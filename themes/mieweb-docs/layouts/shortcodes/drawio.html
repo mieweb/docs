@@ -1,6 +1,6 @@
 {{- /* DrawIO embed shortcode */}} {{- $diagramName := .Get "diagramName" | default "" -}} {{- $diagramWidth := .Get
 "diagramWidth" | default "" -}} {{- /* Convert diagram name to filename: lowercase, replace spaces with hyphens */ -}}
-{{- $filename := $diagramName | lower | replaceRE " " "-" -}} {{- $svgPath := printf "/diagrams/%s.svg" $filename -}}
+{{- $filename := $diagramName | lower | replaceRE " " "-" -}} {{- $svgPath := printf "%sdiagrams/%s.svg" .Site.BaseURL $filename -}}
 {{- $svgResource := resources.Get (printf "diagrams/%s.svg" $filename) -}}
 <div class="my-6">
   {{- if $diagramName }}
