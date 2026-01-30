@@ -10,9 +10,9 @@
       <ul class="space-y-1" role="list">
         {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if .HasChildren }}
         <li class="sidebar-item-group" data-name="{{ .Identifier }}">
-          <div class="flex items-center gap-1">
+          <div class="sidebar-item-parent">
             <button
-              class="sidebar-toggle text-muted-foreground hover:bg-muted hover:text-foreground flex h-8 w-8 shrink-0 items-center justify-center rounded-md transition-colors"
+              class="sidebar-toggle flex h-8 w-8 shrink-0 items-center justify-center rounded-md"
               aria-expanded="false"
               data-target="nav-{{ .Identifier }}"
               aria-label="Toggle {{ .Name }} submenu"
@@ -35,18 +35,9 @@
             </button>
             <a
               href="{{ .URL }}"
-              class="flex-1 rounded-md px-2 py-1.5 text-sm font-medium transition-colors hover:bg-muted/80 {{ if eq $.Page.RelPermalink .URL }}bg-muted text-foreground border-l-2 border-primary{{ else }}text-foreground/90 hover:text-foreground{{ end }}"
-              {{
-              if
-              eq
-              $.Page.RelPermalink
-              .URL
-              }}aria-current="page"
-              {{
-              end
-              }}
-              >{{ .Name }}</a
-            >
+              class="sidebar-item-link{{ if eq $.Page.RelPermalink .URL }} active{{ end }}"
+              {{ if eq $.Page.RelPermalink .URL }}aria-current="page"{{ end }}
+            >{{ .Name }}</a>
           </div>
           {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . "level" 1 }} {{ partial
           "sidebar-nav.html" $temp }}

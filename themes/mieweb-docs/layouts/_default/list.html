@@ -2,8 +2,8 @@
 
 <div class="flex min-h-screen pt-16">
   {{- /* Sidebar */}} {{ partial "sidebar.html" . }} {{- /* Main content area */}}
-  <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
-    <div class="px-4 py-8 lg:px-8">
+  <main id="main-content" class="flex-1 overflow-auto flex flex-col" tabindex="-1">
+    <div class="px-4 py-8 lg:px-8 flex-1">
       {{- /* Breadcrumbs */}} {{ partial "breadcrumbs.html" . }} {{- /* Page header */}}
       <header class="border-border mb-8 border-b pb-6">
         <h1 class="text-foreground text-3xl font-bold tracking-tight sm:text-4xl">{{ .Title }}</h1>
@@ -47,6 +47,9 @@
       </section>
       {{ end }}
     </div>
+    
+    {{- /* Site Footer */}}
+    {{ partial "footer.html" . }}
   </main>
 </div>
 

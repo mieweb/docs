@@ -27,6 +27,41 @@ defaultContentLanguageInSubdir=false
     name = 'Enterprise Health'
     abbr = 'EH'
     code = 'eh'
+  
+  # Footer configuration
+  [params.footer]
+    description = "Enterprise Health is the leading AI-enabled, cloud-based occupational health software platform, helping organizations manage employee health, safety, and compliance."
+    
+    [params.footer.social]
+      linkedin = "https://www.linkedin.com/company/enterprisehealth/"
+      youtube = "https://www.youtube.com/channel/UCzPsN8wBDnHg0mgWPyejA6Q"
+      twitter = "https://x.com/ehocchealth"
+      facebook = "https://www.facebook.com/EnterpriseHealth/"
+    
+    [params.footer.contact]
+      email = "info@enterprisehealth.com"
+      phone = "888-498-3484"
+      address = "1690 Broadway, Suite 550<br>Fort Wayne, IN 46802"
+    
+    [[params.footer.links]]
+      name = "Company"
+      url = "https://www.enterprisehealth.com/company"
+    [[params.footer.links]]
+      name = "Careers"
+      url = "https://www.enterprisehealth.com/careers"
+    [[params.footer.links]]
+      name = "Contact"
+      url = "https://www.enterprisehealth.com/contact-us"
+    [[params.footer.links]]
+      name = "Request a Demo"
+      url = "https://content.enterprisehealth.com/request-a-demo"
+    
+    [[params.footer.legal]]
+      name = "Privacy Policy"
+      url = "https://www.enterprisehealth.com/privacy-policy"
+    [[params.footer.legal]]
+      name = "Data Privacy Framework"
+      url = "https://www.enterprisehealth.com/data-privacy-framework"
 
 [outputFormats.SearchIndex]
 baseName = "search"

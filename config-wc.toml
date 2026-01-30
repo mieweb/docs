@@ -27,6 +27,40 @@ defaultContentLanguageInSubdir=false
     name = 'WebChart'
     abbr = 'WC'
     code = 'wc'
+  
+  # Footer configuration
+  [params.footer]
+    description = "WebChart is the flagship platform that powers a robust clinical EHR, serving as the foundation for a variety of clinical applications."
+    
+    [params.footer.social]
+      linkedin = "https://www.linkedin.com/company/webchart/"
+      youtube = "https://www.youtube.com/@WebChart"
+      facebook = "https://www.facebook.com/WebChartEHR"
+    
+    [params.footer.contact]
+      email = "sales@webchartnow.com"
+      phone = "888-498-3484, opt. 1"
+      address = "1690 Broadway, Suite 550<br>Fort Wayne, IN 46802"
+    
+    [[params.footer.links]]
+      name = "About Us"
+      url = "https://www.webchartnow.com/about-us/"
+    [[params.footer.links]]
+      name = "Careers"
+      url = "https://www.webchartnow.com/careers"
+    [[params.footer.links]]
+      name = "Contact Us"
+      url = "https://www.webchartnow.com/contact-us/"
+    [[params.footer.links]]
+      name = "Get Started"
+      url = "https://store.webchart.app/app/webchart/enrollment"
+    
+    [[params.footer.legal]]
+      name = "Privacy Policy"
+      url = "https://www.webchartnow.com/privacy-policy/"
+    [[params.footer.legal]]
+      name = "Certification & Costs"
+      url = "https://www.webchartnow.com/onc-acb-2015"
 
 [outputFormats.SearchIndex]
 baseName = "search"

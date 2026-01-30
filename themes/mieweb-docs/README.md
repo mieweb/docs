@@ -108,7 +108,7 @@ The theme uses Tailwind CSS with the @mieweb/ui design tokens:
 
 ```css
 @import "tailwindcss";
-@import "@mieweb/ui/dist/enterprise-health.css";  /* or webchart.css */
+@import "@mieweb/ui/dist/enterprise-health.css"; /* or webchart.css */
 ```
 
 Key utility classes used throughout:
@@ -141,6 +141,7 @@ Optimizations implemented:
 - LFS for large images
 
 Typical metrics (on localhost):
+
 - LCP: ~70ms
 - CLS: 0.01
 - TTFB: <5ms

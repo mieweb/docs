@@ -198,6 +198,136 @@
   font-weight: 500;
 }
 
+/* Sidebar parent items (items with children) */
+.sidebar-item-parent {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-radius: var(--mieweb-radius-lg);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.sidebar-item-parent:hover {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.sidebar-item-parent:hover .sidebar-toggle {
+  color: var(--sidebar-foreground);
+}
+
+.sidebar-item-parent:hover .sidebar-item-link {
+  color: var(--sidebar-foreground);
+}
+
+.sidebar-item-link {
+  flex: 1;
+  padding: 0.375rem 0.5rem;
+  border-radius: var(--mieweb-radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--sidebar-foreground);
+  opacity: 0.9;
+  text-decoration: none;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.sidebar-item-link.active {
+  background-color: var(--sidebar-active-bg);
+  color: var(--sidebar-active-text);
+  border-left: 2px solid var(--mieweb-primary-600);
+  opacity: 1;
+}
+
+/* Nested sidebar items (child items with sub-children) */
+.sidebar-child-parent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+  padding: 0.125rem;
+  border-radius: var(--mieweb-radius-md);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.sidebar-child-parent:hover {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.sidebar-child-parent:hover .sidebar-toggle {
+  color: var(--sidebar-foreground);
+}
+
+.sidebar-child-parent:hover .sidebar-child-link {
+  color: var(--sidebar-foreground);
+}
+
+.sidebar-child-link {
+  flex: 1;
+  min-width: 0;
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--mieweb-radius-sm);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--sidebar-foreground);
+  opacity: 0.8;
+  text-decoration: none;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.sidebar-child-link:hover {
+  background-color: var(--sidebar-hover-bg);
+  opacity: 1;
+}
+
+.sidebar-child-link.active {
+  background-color: var(--sidebar-active-bg);
+  color: var(--sidebar-active-text);
+  font-weight: 500;
+  border-left: 2px solid var(--mieweb-primary-600);
+  margin-left: -0.125rem;
+  padding-left: 0.5rem;
+  opacity: 1;
+}
+
+/* Leaf items (no children) in nested nav */
+.sidebar-leaf-link {
+  display: block;
+  padding: 0.125rem 0.375rem;
+  padding-left: 2rem;
+  border-radius: var(--mieweb-radius-sm);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--sidebar-foreground);
+  opacity: 0.8;
+  text-decoration: none;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.sidebar-leaf-link:hover {
+  background-color: var(--sidebar-hover-bg);
+  opacity: 1;
+}
+
+.sidebar-leaf-link.active {
+  background-color: var(--sidebar-active-bg);
+  color: var(--sidebar-active-text);
+  font-weight: 500;
+  border-left: 2px solid var(--mieweb-primary-600);
+  margin-left: -0.125rem;
+  padding-left: calc(2rem + 0.125rem);
+  opacity: 1;
+}
+
 /* Sidebar links can wrap to multiple lines for readability */
 #sidebar nav a {
   line-height: 1.4;

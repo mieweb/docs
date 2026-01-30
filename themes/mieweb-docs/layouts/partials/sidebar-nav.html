@@ -4,9 +4,9 @@
 <ul id="nav-{{ $item.Identifier }}" class="sidebar-nav-children mt-1 hidden space-y-0.5 pl-4" data-level="{{ $level }}">
   {{ $lvl := $item.Identifier }} {{ range $item.Children }} {{ if .HasChildren }}
   <li data-name="{{ .Identifier }}" data-parent="{{ $lvl }}">
-    <div class="flex items-start gap-1">
+    <div class="sidebar-child-parent">
       <button
-        class="sidebar-toggle text-muted-foreground hover:bg-muted hover:text-foreground mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded transition-colors"
+        class="sidebar-toggle mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded"
         aria-expanded="false"
         data-target="nav-{{ .Identifier }}"
         aria-label="Toggle {{ .Name }} submenu"
@@ -28,10 +28,9 @@
       </button>
       <a
         href="{{ .URL }}"
-        class="flex-1 min-w-0 rounded px-1.5 py-0.5 text-sm leading-relaxed transition-colors hover:bg-muted/80 {{ if eq $page.RelPermalink .URL }}bg-muted font-medium text-foreground border-l-2 border-primary -ml-0.5 pl-2{{ else }}text-foreground/80 hover:text-foreground{{ end }}"
+        class="sidebar-child-link{{ if eq $page.RelPermalink .URL }} active{{ end }}"
         {{ if eq $page.RelPermalink .URL }}aria-current="page"{{ end }}
-        >{{ .Name }}</a
-      >
+      >{{ .Name }}</a>
     </div>
     {{ $temp := dict "menu" $menu "page" $page "site" $site "entry" . "level" (add $level 1) }} {{ partial
     "sidebar-nav.html" $temp }}
@@ -40,7 +39,7 @@
   <li>
     <a
       href="{{ .URL }}"
-      class="block rounded px-1.5 py-0.5 pl-8 text-sm leading-relaxed transition-colors hover:bg-muted/80 {{ if eq $page.RelPermalink .URL }}bg-muted font-medium text-foreground border-l-2 border-primary -ml-0.5 pl-[2.125rem]{{ else }}text-foreground/80 hover:text-foreground{{ end }}"
+      class="sidebar-leaf-link{{ if eq $page.RelPermalink .URL }} active{{ end }}"
       data-name="{{ .Identifier }}"
       data-parent="{{ $lvl }}"
       {{ if eq $page.RelPermalink .URL }}aria-current="page"{{ end }}

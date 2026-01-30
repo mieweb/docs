@@ -7,8 +7,8 @@
   
   {{- /* Main content area with TOC */}}
   <div class="main-wrapper flex-1 flex">
-    <main id="main-content" class="main-content flex-1 overflow-auto" tabindex="-1">
-      <div class="px-4 py-8 lg:px-8">
+    <main id="main-content" class="main-content flex-1 overflow-auto flex flex-col" tabindex="-1">
+      <div class="px-4 py-8 lg:px-8 flex-1">
         {{- /* Breadcrumbs */}}
         {{ partial "breadcrumbs.html" . }}
         
@@ -66,6 +66,9 @@
         {{- /* Date info */}}
         {{ partial "date-info.html" . }}
       </div>
+      
+      {{- /* Site Footer */}}
+      {{ partial "footer.html" . }}
     </main>
 
     {{- /* Table of Contents - outside main for proper sticky behavior */}}
