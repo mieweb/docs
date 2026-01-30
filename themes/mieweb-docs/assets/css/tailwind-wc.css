@@ -88,8 +88,10 @@
 
 /* Responsive */
 @source inline("sm:flex sm:flex-row sm:inline sm:inline-block sm:inline-flex sm:items-center sm:justify-between");
+@source inline("sm:hidden sm:block sm:gap-2");
 @source inline("sm:grid-cols-2 sm:text-4xl sm:text-5xl");
-@source inline("lg:hidden lg:px-6 lg:px-8 lg:text-6xl");
+@source inline("md:hidden md:block md:inline-flex");
+@source inline("lg:hidden lg:block lg:px-6 lg:px-8 lg:text-6xl");
 
 /* Dark mode */
 @source inline("dark:block dark:hidden dark:prose-invert dark:bg-card");

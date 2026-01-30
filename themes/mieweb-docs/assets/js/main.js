@@ -454,6 +454,7 @@ expandToCurrentPage();
 // ============================================
 const searchModal = document.getElementById("search-modal");
 const searchTrigger = document.getElementById("search-trigger");
+const searchTriggerDesktop = document.getElementById("search-trigger-desktop");
 const searchInput = document.getElementById("search-input");
 const searchResults = document.getElementById("search-results");
 const searchBackdrop = document.getElementById("search-modal-backdrop");
@@ -488,6 +489,7 @@ function closeSearchModal() {
 }
 
 searchTrigger?.addEventListener("click", openSearchModal);
+searchTriggerDesktop?.addEventListener("click", openSearchModal);
 searchBackdrop?.addEventListener("click", closeSearchModal);
 
 // Keyboard shortcuts
@@ -614,6 +616,7 @@ searchInput?.addEventListener("input", (e) => {
 
 // Load search index when search modal opens
 searchTrigger?.addEventListener("click", loadSearchIndex);
+searchTriggerDesktop?.addEventListener("click", loadSearchIndex);
 
 // ============================================
 // Image Lightbox

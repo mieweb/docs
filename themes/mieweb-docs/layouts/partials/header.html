@@ -8,7 +8,7 @@
       {{- /* Sidebar toggle */}}
       <button
         id="sidebar-toggle"
-        class="btn btn-ghost btn-icon"
+        class="btn btn-ghost btn-icon inline-flex"
         aria-label="Toggle navigation menu"
         aria-expanded="false"
         aria-controls="sidebar"
@@ -49,11 +49,34 @@
     </div>
 
     {{- /* Right side actions */}}
-    <div class="flex items-center gap-2">
-      {{- /* Search button */}}
+    <div class="flex items-center gap-1 sm:gap-2">
+      {{- /* Search button - icon only on mobile, full on desktop */}}
       <button
         id="search-trigger"
-        class="border-border bg-background text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors focus-visible:ring-2 focus-visible:outline-none"
+        class="btn btn-ghost btn-icon inline-flex sm:hidden"
+        aria-label="Search documentation (⌘K)"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-search"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+      </button>
+      {{- /* Search button - full version on desktop */}}
+      <button
+        id="search-trigger-desktop"
+        class="border-border bg-background text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring hidden sm:inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors focus-visible:ring-2 focus-visible:outline-none"
         aria-label="Search documentation (⌘K)"
       >
         <svg
@@ -72,38 +95,42 @@
           <circle cx="11" cy="11" r="8" />
           <path d="m21 21-4.3-4.3" />
         </svg>
-        <span class="hidden sm:inline-block">Search...</span>
+        <span>Search...</span>
         <kbd
-          class="border-border bg-muted pointer-events-none hidden items-center gap-1 rounded border px-1.5 py-0.5 text-xs font-medium select-none sm:flex"
+          class="border-border bg-muted pointer-events-none flex items-center gap-1 rounded border px-1.5 py-0.5 text-xs font-medium select-none"
           aria-hidden="true"
         >
           <span>⌘</span>K
         </kbd>
       </button>
 
-      {{- /* Request a Demo / Contact Us button - Brand specific */}}
+      {{- /* Request a Demo / Contact Us button - Brand specific, hidden on mobile */}}
       {{ if eq .Site.Params.Brand.code "eh" }}
-      <a
-        href="https://content.enterprisehealth.com/request-a-demo?utm_source=docs&utm_medium=header&utm_campaign=documentation"
-        class="btn btn-primary hidden sm:inline-flex"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Request a Demo
-      </a>
+      <div class="hidden md:block">
+        <a
+          href="https://content.enterprisehealth.com/request-a-demo?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+          class="btn btn-primary inline-flex"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Request a Demo
+        </a>
+      </div>
       {{ else if eq .Site.Params.Brand.code "wc" }}
-      <a
-        href="https://www.webchartnow.com/contact-us/?utm_source=docs&utm_medium=header&utm_campaign=documentation"
-        class="btn btn-primary hidden sm:inline-flex"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Contact Us
-      </a>
+      <div class="hidden md:block">
+        <a
+          href="https://www.webchartnow.com/contact-us/?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+          class="btn btn-primary inline-flex"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact Us
+        </a>
+      </div>
       {{ end }}
 
       {{- /* Theme toggle */}}
-      <button id="theme-toggle" class="btn btn-ghost btn-icon" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <button id="theme-toggle" class="btn btn-ghost btn-icon inline-flex" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"

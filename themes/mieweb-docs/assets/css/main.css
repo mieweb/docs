@@ -105,7 +105,8 @@
 
 /* Buttons */
 .btn {
-  display: inline-flex;
+  /* Note: display is handled by Tailwind utilities (inline-flex, hidden, etc.) */
+  /* Do not set display here to allow responsive utilities to work */
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
