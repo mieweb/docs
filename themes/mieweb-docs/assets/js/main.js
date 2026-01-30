@@ -619,76 +619,80 @@ searchTrigger?.addEventListener("click", loadSearchIndex);
 // Image Lightbox
 // ============================================
 (function initLightbox() {
-  // Collect all content images
-  const imageSelector = "article img, .content img, main img, .prose img";
-  const images = Array.from(document.querySelectorAll(imageSelector)).filter(
-    (img) => {
-      // Skip SVGs (object or inline)
-      if (img.closest("object[type*='svg']")) return false;
-      // Skip very small images (likely icons)
-      const minSize = 100;
-      // Check natural dimensions or fall back to rendered dimensions
-      const width = img.naturalWidth || img.width;
-      const height = img.naturalHeight || img.height;
-      if (width < minSize && height < minSize) return false;
-      return true;
-    }
-  );
-
-  if (images.length === 0) return;
-
-  // Create lightbox element
-  const lightbox = document.createElement("div");
-  lightbox.id = "lightbox";
-  lightbox.className = "lightbox";
-  lightbox.setAttribute("role", "dialog");
-  lightbox.setAttribute("aria-modal", "true");
-  lightbox.setAttribute("aria-label", "Image lightbox");
-  lightbox.innerHTML = `
-    <div class="lightbox-backdrop" aria-hidden="true"></div>
-    <div class="lightbox-content">
-      <button type="button" class="lightbox-close" aria-label="Close lightbox">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" aria-hidden="true">
-          <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
-        </svg>
-      </button>
-      <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous image">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
-          <path d="m15 18-6-6 6-6"/>
-        </svg>
-      </button>
-      <button type="button" class="lightbox-nav lightbox-next" aria-label="Next image">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
-          <path d="m9 18 6-6-6-6"/>
-        </svg>
-      </button>
-      <div class="lightbox-image-container">
-        <img class="lightbox-image" src="" alt="" />
-      </div>
-      <div class="lightbox-counter" aria-live="polite">
-        <span class="lightbox-current">1</span> of <span class="lightbox-total">1</span>
-      </div>
-      <div class="lightbox-caption" aria-live="polite"></div>
-    </div>
-  `;
-  document.body.appendChild(lightbox);
-
-  // State
+  // Track if lightbox has been initialized
+  let lightboxInitialized = false;
+  let images = [];
   let currentIndex = 0;
   let isOpen = false;
   let touchStartX = 0;
   let touchEndX = 0;
 
-  // Elements
-  const backdrop = lightbox.querySelector(".lightbox-backdrop");
-  const closeBtn = lightbox.querySelector(".lightbox-close");
-  const prevBtn = lightbox.querySelector(".lightbox-prev");
-  const nextBtn = lightbox.querySelector(".lightbox-next");
-  const lightboxImage = lightbox.querySelector(".lightbox-image");
-  const captionEl = lightbox.querySelector(".lightbox-caption");
-  const currentCounter = lightbox.querySelector(".lightbox-current");
-  const totalCounter = lightbox.querySelector(".lightbox-total");
-  const content = lightbox.querySelector(".lightbox-content");
+  // Elements (will be set after lightbox is created)
+  let lightbox, backdrop, closeBtn, prevBtn, nextBtn;
+  let lightboxImage, captionEl, currentCounter, totalCounter, content;
+
+  function collectImages() {
+    const imageSelector = "article img, .content img, main img, .prose img";
+    return Array.from(document.querySelectorAll(imageSelector)).filter(
+      (img) => {
+        // Skip SVGs (object or inline)
+        if (img.closest("object[type*='svg']")) return false;
+        // Skip images already processed
+        if (img.hasAttribute("data-lightbox-bound")) return true;
+        // Skip very small images (likely icons)
+        const minSize = 100;
+        // Check natural dimensions or fall back to rendered dimensions
+        const width = img.naturalWidth || img.width;
+        const height = img.naturalHeight || img.height;
+        if (width < minSize && height < minSize) return false;
+        return true;
+      }
+    );
+  }
+
+  function createLightboxElement() {
+    // Check if lightbox already exists
+    const existing = document.getElementById("lightbox");
+    if (existing) {
+      return existing;
+    }
+
+    const el = document.createElement("div");
+    el.id = "lightbox";
+    el.className = "lightbox";
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-modal", "true");
+    el.setAttribute("aria-label", "Image lightbox");
+    el.innerHTML = `
+      <div class="lightbox-backdrop" aria-hidden="true"></div>
+      <div class="lightbox-content">
+        <button type="button" class="lightbox-close" aria-label="Close lightbox">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" aria-hidden="true">
+            <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+          </svg>
+        </button>
+        <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous image">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
+            <path d="m15 18-6-6 6-6"/>
+          </svg>
+        </button>
+        <button type="button" class="lightbox-nav lightbox-next" aria-label="Next image">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
+            <path d="m9 18 6-6-6-6"/>
+          </svg>
+        </button>
+        <div class="lightbox-image-container">
+          <img class="lightbox-image" src="" alt="" />
+        </div>
+        <div class="lightbox-counter" aria-live="polite">
+          <span class="lightbox-current">1</span> of <span class="lightbox-total">1</span>
+        </div>
+        <div class="lightbox-caption" aria-live="polite"></div>
+      </div>
+    `;
+    document.body.appendChild(el);
+    return el;
+  }
 
   function updateLightbox() {
     const img = images[currentIndex];
@@ -756,68 +760,170 @@ searchTrigger?.addEventListener("click", loadSearchIndex);
     }
   }
 
-  // Image click handlers
-  images.forEach((img, index) => {
-    img.setAttribute("data-lightbox-index", index);
-    img.style.cursor = "zoom-in";
-    img.addEventListener("click", (e) => {
-      e.preventDefault();
-      openLightbox(index);
+  function bindImageClickHandlers() {
+    images.forEach((img, index) => {
+      // Skip if already bound
+      if (img.hasAttribute("data-lightbox-bound")) return;
+
+      img.setAttribute("data-lightbox-index", index);
+      img.setAttribute("data-lightbox-bound", "true");
+      img.style.cursor = "zoom-in";
+      img.addEventListener("click", (e) => {
+        e.preventDefault();
+        // Re-collect images to get fresh indices
+        images = collectImages();
+        const clickedIndex = images.indexOf(img);
+        if (clickedIndex !== -1) {
+          openLightbox(clickedIndex);
+        }
+      });
     });
-  });
+  }
 
-  // Lightbox event listeners
-  closeBtn?.addEventListener("click", closeLightbox);
-  backdrop?.addEventListener("click", closeLightbox);
-  prevBtn?.addEventListener("click", prevImage);
-  nextBtn?.addEventListener("click", nextImage);
+  function setupLightbox() {
+    // Create or get lightbox element
+    lightbox = createLightboxElement();
 
-  // Touch handling
-  content?.addEventListener(
-    "touchstart",
-    (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    },
-    { passive: true }
-  );
+    // Get element references
+    backdrop = lightbox.querySelector(".lightbox-backdrop");
+    closeBtn = lightbox.querySelector(".lightbox-close");
+    prevBtn = lightbox.querySelector(".lightbox-prev");
+    nextBtn = lightbox.querySelector(".lightbox-next");
+    lightboxImage = lightbox.querySelector(".lightbox-image");
+    captionEl = lightbox.querySelector(".lightbox-caption");
+    currentCounter = lightbox.querySelector(".lightbox-current");
+    totalCounter = lightbox.querySelector(".lightbox-total");
+    content = lightbox.querySelector(".lightbox-content");
 
-  content?.addEventListener(
-    "touchend",
-    (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleSwipe();
-    },
-    { passive: true }
-  );
+    // Only bind lightbox event listeners once
+    if (!lightboxInitialized) {
+      closeBtn?.addEventListener("click", closeLightbox);
+      backdrop?.addEventListener("click", closeLightbox);
+      prevBtn?.addEventListener("click", prevImage);
+      nextBtn?.addEventListener("click", nextImage);
 
-  // Keyboard handling
-  document.addEventListener("keydown", (e) => {
-    if (!isOpen) return;
-    switch (e.key) {
-      case "Escape":
-        e.preventDefault();
-        closeLightbox();
-        break;
-      case "ArrowLeft":
-        e.preventDefault();
-        prevImage();
-        break;
-      case "ArrowRight":
-        e.preventDefault();
-        nextImage();
-        break;
-      case "Home":
-        e.preventDefault();
-        currentIndex = 0;
-        updateLightbox();
-        break;
-      case "End":
-        e.preventDefault();
-        currentIndex = images.length - 1;
-        updateLightbox();
-        break;
+      // Touch handling
+      content?.addEventListener(
+        "touchstart",
+        (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+        },
+        { passive: true }
+      );
+
+      content?.addEventListener(
+        "touchend",
+        (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+        },
+        { passive: true }
+      );
+
+      // Keyboard handling
+      document.addEventListener("keydown", (e) => {
+        if (!isOpen) return;
+        switch (e.key) {
+          case "Escape":
+            e.preventDefault();
+            closeLightbox();
+            break;
+          case "ArrowLeft":
+            e.preventDefault();
+            prevImage();
+            break;
+          case "ArrowRight":
+            e.preventDefault();
+            nextImage();
+            break;
+          case "Home":
+            e.preventDefault();
+            currentIndex = 0;
+            updateLightbox();
+            break;
+          case "End":
+            e.preventDefault();
+            currentIndex = images.length - 1;
+            updateLightbox();
+            break;
+        }
+      });
+
+      lightboxInitialized = true;
+    }
+  }
+
+  function initImages() {
+    images = collectImages();
+    if (images.length === 0) return;
+
+    setupLightbox();
+    bindImageClickHandlers();
+  }
+
+  // Initialize when images are loaded
+  function waitForImages() {
+    const imageSelector = "article img, .content img, main img, .prose img";
+    const imgElements = document.querySelectorAll(imageSelector);
+
+    if (imgElements.length === 0) return;
+
+    // Check if all images are loaded
+    let loadedCount = 0;
+    const totalImages = imgElements.length;
+
+    imgElements.forEach((img) => {
+      if (img.complete) {
+        loadedCount++;
+      } else {
+        img.addEventListener(
+          "load",
+          () => {
+            loadedCount++;
+            if (loadedCount === totalImages) {
+              initImages();
+            }
+          },
+          { once: true }
+        );
+        img.addEventListener(
+          "error",
+          () => {
+            loadedCount++;
+            if (loadedCount === totalImages) {
+              initImages();
+            }
+          },
+          { once: true }
+        );
+      }
+    });
+
+    // If all images already loaded, init immediately
+    if (loadedCount === totalImages) {
+      initImages();
+    }
+
+    // Fallback: init after a short delay even if some images haven't loaded
+    setTimeout(() => {
+      initImages();
+    }, 1000);
+  }
+
+  // Handle bfcache (back-forward cache) restoration
+  window.addEventListener("pageshow", (event) => {
+    if (event.persisted) {
+      // Page was restored from bfcache, re-initialize
+      initImages();
     }
   });
+
+  // Initial setup
+  if (document.readyState === "complete") {
+    waitForImages();
+  } else {
+    window.addEventListener("load", waitForImages);
+  }
 })();
 
 // ============================================
