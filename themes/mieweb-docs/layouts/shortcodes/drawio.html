@@ -1,7 +1,9 @@
-{{- /* DrawIO embed shortcode */}} {{- $diagramName := .Get "diagramName" | default "" -}} {{- $diagramWidth := .Get
-"diagramWidth" | default "" -}} {{- /* Convert diagram name to filename: lowercase, replace spaces with hyphens */ -}}
-{{- $filename := $diagramName | lower | replaceRE " " "-" -}} {{- $svgPath := printf "%sdiagrams/%s.svg" .Site.BaseURL $filename -}}
-{{- $svgResource := resources.Get (printf "diagrams/%s.svg" $filename) -}}
+{{- /* DrawIO embed shortcode */}}
+{{- $diagramName := .Get "diagramName" | default "" -}}
+{{- $diagramWidth := .Get "diagramWidth" | default "" -}}
+{{- /* Convert diagram name to filename: lowercase, replace spaces with hyphens */ -}}
+{{- $filename := $diagramName | lower | replaceRE " " "-" -}}
+{{- $svgPath := printf "%sdiagrams/%s.svg" .Site.BaseURL $filename -}}
 <div class="my-6">
   {{- if $diagramName }}
   <figure class="border-border bg-card overflow-hidden rounded-lg border p-4">
@@ -9,13 +11,7 @@
       src="{{ $svgPath }}"
       alt="{{ $diagramName }} diagram"
       class="mx-auto h-auto w-full max-w-full"
-      {{
-      if
-      $diagramWidth
-      }}style="max-width: {{ $diagramWidth }}px;"
-      {{
-      end
-      }}
+      {{- if $diagramWidth }} style="max-width: {{ $diagramWidth }}px;"{{- end }}
       loading="lazy"
     />
     <figcaption class="text-muted-foreground mt-3 text-center text-sm">{{ $diagramName }}</figcaption>
