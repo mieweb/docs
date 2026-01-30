@@ -76,18 +76,27 @@
 
     {{- /* Sidebar footer */}}
     <div class="border-border border-t p-4">
-      <div class="text-muted-foreground space-y-2 text-xs">
+      <div class="text-muted-foreground text-xs">
         <p class="font-medium text-foreground">{{ .Site.Params.Brand.name }} Documentation</p>
-        {{- with .Site.Home }}
-        {{- with .Date }}
-        <p>Last Updated: {{ .Format "Mon, 02 Jan 2006 15:04:05 MST" }}</p>
-        {{- end }}
-        {{- end }}
-        <p>Last Build: {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</p>
-        {{- with .Site.Home.Params.wikigdrive }}
-        <p>WikiGDrive Version: <a href="https://github.com/mieweb/wikiGDrive/releases/tag/{{ . }}" class="text-primary-400 hover:text-primary-300 hover:underline" target="_blank" rel="noopener">{{ . }}</a></p>
-        {{- end }}
-        <p class="pt-2">© {{ now.Year }} {{ .Site.Params.Brand.name }}</p>
+        <p class="mt-1">© {{ now.Year }} {{ .Site.Params.Brand.name }}</p>
+        
+        {{- /* Collapsible build info */}}
+        <details class="mt-2">
+          <summary class="cursor-pointer text-muted-foreground/70 hover:text-muted-foreground transition-colors">
+            Build Info
+          </summary>
+          <div class="mt-2 space-y-1 pl-2 border-l border-border">
+            {{- with .Site.Home }}
+            {{- with .Date }}
+            <p>Updated: {{ .Format "02 Jan 2006" }}</p>
+            {{- end }}
+            {{- end }}
+            <p>Built: {{ now.Format "02 Jan 2006 15:04 MST" }}</p>
+            {{- with .Site.Home.Params.wikigdrive }}
+            <p>WikiGDrive: <a href="https://github.com/mieweb/wikiGDrive/releases/tag/{{ . }}" class="text-primary hover:underline" target="_blank" rel="noopener">{{ . }}</a></p>
+            {{- end }}
+          </div>
+        </details>
       </div>
     </div>
   </div>

@@ -1,15 +1,15 @@
-/* Tailwind CSS 4 entry point */
+/* Tailwind CSS 4 entry point - WebChart Brand */
 /* Using source(none) to disable auto-detection which fails on binary files in content/ */
 @import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 
-/* Import Enterprise Health brand from @mieweb/ui */
-/* This sets all --mieweb-* CSS variables for the EH brand including:
-   - Primary colors (burgundy/purple #6E2B68)
-   - Jost font family
+/* Import WebChart brand from @mieweb/ui */
+/* This sets all --mieweb-* CSS variables for the WC brand including:
+   - Primary colors (orange #f5841f)
+   - Inter font family
    - Semantic colors for light/dark modes
    - Border radius and shadow tokens */
-@import "@mieweb/ui/brands/enterprise-health.css" layer(theme);
+@import "@mieweb/ui/brands/webchart.css" layer(theme);
 
 /* Scan the theme layouts directory for Tailwind classes */
 @source "../../layouts/**/*.html";
@@ -106,7 +106,7 @@
 /* Theme customizations */
 @theme {
   /* DEFAULT primary color for bg-primary, text-primary utilities */
-  --color-primary: var(--mieweb-primary-600);
+  --color-primary: var(--mieweb-primary-500);
 
   --color-primary-50: var(--mieweb-primary-50);
   --color-primary-100: var(--mieweb-primary-100);
@@ -133,4 +133,8 @@
   --color-success: #22c55e;
   --color-warning: #f59e0b;
   --color-destructive: #ef4444;
+
+  /* Font family from brand */
+  --font-sans: var(--mieweb-font-sans);
+  --font-mono: var(--mieweb-font-mono);
 }

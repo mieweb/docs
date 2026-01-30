@@ -56,16 +56,25 @@
   <link rel="icon" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/favicon.png" type="image/png">
   <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/icon-192.png" sizes="192x192">
   
-  {{- /* Preconnect for fonts */}}
+  {{- /* Preconnect for Google Fonts */}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  {{- /* Load fonts asynchronously to avoid render-blocking */}}
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"  >
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
   
-  {{- /* Tailwind CSS processed via PostCSS */}}
-  {{ $tailwind := resources.Get "css/tailwind.css" | css.PostCSS }}
+  {{- /* Brand-specific font loading */}}
+  {{- /* Enterprise Health uses Jost, WebChart uses Inter */}}
+  {{ if eq .Site.Params.Brand.code "eh" }}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></noscript>
+  {{ else }}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+  {{ end }}
+  
+  {{- /* Brand-specific Tailwind CSS processed via PostCSS */}}
+  {{ $brandCss := printf "css/tailwind-%s.css" .Site.Params.Brand.code }}
+  {{ $tailwind := resources.Get $brandCss | css.PostCSS }}
   {{ if hugo.IsProduction }}
     {{ $tailwind = $tailwind | resources.Minify | resources.Fingerprint "sha512" }}
   {{ end }}
