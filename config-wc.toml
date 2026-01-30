@@ -36,6 +36,7 @@ defaultContentLanguageInSubdir=false
       linkedin = "https://www.linkedin.com/company/webchart/"
       youtube = "https://www.youtube.com/@WebChart"
       facebook = "https://www.facebook.com/WebChartEHR"
+      github = "https://github.com/mieweb/docs"
     
     [params.footer.contact]
       email = "sales@webchartnow.com"

@@ -37,6 +37,7 @@ defaultContentLanguageInSubdir=false
       youtube = "https://www.youtube.com/channel/UCzPsN8wBDnHg0mgWPyejA6Q"
       twitter = "https://x.com/ehocchealth"
       facebook = "https://www.facebook.com/EnterpriseHealth/"
+      github = "https://github.com/mieweb/docs"
     
     [params.footer.contact]
       email = "info@enterprisehealth.com"
