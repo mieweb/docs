@@ -10,5 +10,7 @@ export {
   type SidebarSearchOptions,
 } from "./SidebarSearch";
 
+export { Lightbox, initLightbox, type LightboxOptions } from "./Lightbox";
+
 // Re-export utilities
 export { cn, debounce, escapeHtml, formatDate } from "../../utils";

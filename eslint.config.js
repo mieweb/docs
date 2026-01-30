@@ -13,6 +13,7 @@ export default tseslint.config(
       "public/**",
       "themes/wc-eh-docs/**",
       "themes/_wc-eh-docs-backup/**",
+      "themes/**/assets/js/vendor/**",
       "*.config.js",
       "*.config.mjs",
       "config/**",

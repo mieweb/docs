@@ -183,9 +183,11 @@ expandToCurrentPage();
       `(${query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
       "gi"
     );
+    // Use amber/orange tones that work well in both light and dark mode
+    // Light: warm yellow background, Dark: semi-transparent amber for better contrast
     return text.replace(
       regex,
-      '<mark class="bg-yellow-200 dark:bg-yellow-500/40 text-inherit rounded-sm px-0.5">$1</mark>'
+      '<mark class="sidebar-search-highlight">$1</mark>'
     );
   }
 
@@ -402,6 +404,7 @@ function openSearchModal() {
   searchModal?.classList.remove("hidden");
   searchInput?.focus();
   document.body.style.overflow = "hidden";
+  loadSearchIndex(); // Ensure index is loaded when modal opens
 }
 
 function closeSearchModal() {
@@ -548,6 +551,211 @@ searchInput?.addEventListener("input", (e) => {
 
 // Load search index when search modal opens
 searchTrigger?.addEventListener("click", loadSearchIndex);
+
+// ============================================
+// Image Lightbox
+// ============================================
+(function initLightbox() {
+  // Collect all content images
+  const imageSelector = "article img, .content img, main img, .prose img";
+  const images = Array.from(document.querySelectorAll(imageSelector)).filter(
+    (img) => {
+      // Skip SVGs (object or inline)
+      if (img.closest("object[type*='svg']")) return false;
+      // Skip very small images (likely icons)
+      const minSize = 100;
+      // Check natural dimensions or fall back to rendered dimensions
+      const width = img.naturalWidth || img.width;
+      const height = img.naturalHeight || img.height;
+      if (width < minSize && height < minSize) return false;
+      return true;
+    }
+  );
+
+  if (images.length === 0) return;
+
+  // Create lightbox element
+  const lightbox = document.createElement("div");
+  lightbox.id = "lightbox";
+  lightbox.className = "lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-label", "Image lightbox");
+  lightbox.innerHTML = `
+    <div class="lightbox-backdrop" aria-hidden="true"></div>
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close" aria-label="Close lightbox">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" aria-hidden="true">
+          <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+        </svg>
+      </button>
+      <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
+          <path d="m15 18-6-6 6-6"/>
+        </svg>
+      </button>
+      <button type="button" class="lightbox-nav lightbox-next" aria-label="Next image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8" aria-hidden="true">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </button>
+      <div class="lightbox-image-container">
+        <img class="lightbox-image" src="" alt="" />
+      </div>
+      <div class="lightbox-counter" aria-live="polite">
+        <span class="lightbox-current">1</span> of <span class="lightbox-total">1</span>
+      </div>
+      <div class="lightbox-caption" aria-live="polite"></div>
+    </div>
+  `;
+  document.body.appendChild(lightbox);
+
+  // State
+  let currentIndex = 0;
+  let isOpen = false;
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  // Elements
+  const backdrop = lightbox.querySelector(".lightbox-backdrop");
+  const closeBtn = lightbox.querySelector(".lightbox-close");
+  const prevBtn = lightbox.querySelector(".lightbox-prev");
+  const nextBtn = lightbox.querySelector(".lightbox-next");
+  const lightboxImage = lightbox.querySelector(".lightbox-image");
+  const captionEl = lightbox.querySelector(".lightbox-caption");
+  const currentCounter = lightbox.querySelector(".lightbox-current");
+  const totalCounter = lightbox.querySelector(".lightbox-total");
+  const content = lightbox.querySelector(".lightbox-content");
+
+  function updateLightbox() {
+    const img = images[currentIndex];
+    if (!img) return;
+
+    lightboxImage.src = img.src;
+    lightboxImage.alt = img.alt || "";
+
+    // Caption from alt text
+    const caption = img.alt || img.title || "";
+    if (caption) {
+      captionEl.textContent = caption;
+      captionEl.classList.add("visible");
+    } else {
+      captionEl.classList.remove("visible");
+    }
+
+    // Counter
+    currentCounter.textContent = currentIndex + 1;
+    totalCounter.textContent = images.length;
+
+    // Navigation states
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === images.length - 1;
+    prevBtn.style.opacity = currentIndex === 0 ? "0.3" : "1";
+    nextBtn.style.opacity = currentIndex === images.length - 1 ? "0.3" : "1";
+  }
+
+  function openLightbox(index) {
+    currentIndex = Math.max(0, Math.min(index, images.length - 1));
+    isOpen = true;
+    updateLightbox();
+    lightbox.classList.add("open");
+    document.body.style.overflow = "hidden";
+    closeBtn?.focus();
+  }
+
+  function closeLightbox() {
+    isOpen = false;
+    lightbox.classList.remove("open");
+    document.body.style.overflow = "";
+    images[currentIndex]?.focus();
+  }
+
+  function nextImage() {
+    if (currentIndex < images.length - 1) {
+      currentIndex++;
+      updateLightbox();
+    }
+  }
+
+  function prevImage() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateLightbox();
+    }
+  }
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff > 0) nextImage();
+      else prevImage();
+    }
+  }
+
+  // Image click handlers
+  images.forEach((img, index) => {
+    img.setAttribute("data-lightbox-index", index);
+    img.style.cursor = "zoom-in";
+    img.addEventListener("click", (e) => {
+      e.preventDefault();
+      openLightbox(index);
+    });
+  });
+
+  // Lightbox event listeners
+  closeBtn?.addEventListener("click", closeLightbox);
+  backdrop?.addEventListener("click", closeLightbox);
+  prevBtn?.addEventListener("click", prevImage);
+  nextBtn?.addEventListener("click", nextImage);
+
+  // Touch handling
+  content?.addEventListener(
+    "touchstart",
+    (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    },
+    { passive: true }
+  );
+
+  content?.addEventListener(
+    "touchend",
+    (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    },
+    { passive: true }
+  );
+
+  // Keyboard handling
+  document.addEventListener("keydown", (e) => {
+    if (!isOpen) return;
+    switch (e.key) {
+      case "Escape":
+        e.preventDefault();
+        closeLightbox();
+        break;
+      case "ArrowLeft":
+        e.preventDefault();
+        prevImage();
+        break;
+      case "ArrowRight":
+        e.preventDefault();
+        nextImage();
+        break;
+      case "Home":
+        e.preventDefault();
+        currentIndex = 0;
+        updateLightbox();
+        break;
+      case "End":
+        e.preventDefault();
+        currentIndex = images.length - 1;
+        updateLightbox();
+        break;
+    }
+  });
+})();
 
 // ============================================
 // Scroll to Top
