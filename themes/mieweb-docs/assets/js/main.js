@@ -997,18 +997,22 @@ function showToast(message, duration = 3000) {
     if (activeLink) {
       activeLink.classList.add("active");
 
-      // Scroll the TOC to keep active item visible
-      const tocContainer = tocNav.closest(".toc-container");
-      if (tocContainer) {
+      // Scroll the TOC container (not the page) to keep active item visible
+      const tocAside = tocNav.closest(".toc-aside");
+      if (tocAside) {
         const linkRect = activeLink.getBoundingClientRect();
-        const containerRect = tocContainer.getBoundingClientRect();
+        const asideRect = tocAside.getBoundingClientRect();
 
-        // Check if link is outside visible area
+        // Check if link is outside visible area of the TOC aside
         if (
-          linkRect.top < containerRect.top + 60 ||
-          linkRect.bottom > containerRect.bottom - 20
+          linkRect.top < asideRect.top + 60 ||
+          linkRect.bottom > asideRect.bottom - 20
         ) {
-          activeLink.scrollIntoView({ behavior: "smooth", block: "center" });
+          // Calculate scroll position within the TOC aside
+          const linkOffsetTop = activeLink.offsetTop - tocAside.offsetTop;
+          const scrollTarget =
+            linkOffsetTop - asideRect.height / 2 + linkRect.height / 2;
+          tocAside.scrollTo({ top: scrollTarget, behavior: "smooth" });
         }
       }
     }
