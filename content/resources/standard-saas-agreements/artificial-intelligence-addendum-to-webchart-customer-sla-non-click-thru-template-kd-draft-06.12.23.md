@@ -44,8 +44,7 @@ To the extent that Customer permits a duly trained and qualified individual to u
 
 Customer is not permitted to: (1) use the AI Functionality in a manner that violates any Laws, safety and usage guidelines provided at https://beta.openai.com/docs/usage-policies, and any other service terms provided at https://openai.com/api/policies/service-terms/ and https://openai.com/policies/terms-of-use; (2) use the AI Functionality in a manner that infringes, misappropriates, or otherwise violates MIE's or a third-party technology vendor's intellectual property rights; (3) modify or create derivative works of the AI Functionality; (4) reverse assemble, reverse compile, decompile, translate, engage in model extraction or stealing attacks, or otherwise attempt to discover the source code or underlying components of models, algorithms, and systems of the AI Functionality; (5) use the AI Functionality to extract data other than as permitted by this AI Addendum and the Agreement; or (6) buy, sell, or transfer application programming interface keys from, to, or with a third party.
 
-2. <strong>PRIVACY AND SECURITY; COMPLIANCE WITH LAWS</strong>
-   2. <strong>European Union Data Privacy and Foreign Countries</strong>.
+2. <strong>PRIVACY AND SECURITY; COMPLIANCE WITH LAWS</strong> 2. <strong>European Union Data Privacy and Foreign Countries</strong>.
 
 Customer acknowledges and agrees that it is prohibited from transmitting data via the AI Functionality that is protected under the European Union General Data Protection Regulation or any applicable data privacy and security laws of a foreign country. For avoidance of doubt, Customer further acknowledges and agrees that it shall not transmit any data via the AI Functionality that originates outside the United States of America.
 

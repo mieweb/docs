@@ -166,7 +166,7 @@ To _fully_ add a consent form to the list:
    - <em>Observations will likely need to be created prior to building and utilizing this flowsheet.</em>
    - Add a WHERE clause to the Required section of this flowsheet, to ensure that portal users not accepting the terms and conditions of the consent form will not be permitted access or be able to proceed further in the portal. Add the following WHERE clause to the Required section:  
       `  
-  `observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1
+`observationValueByName('insert the consent observation') === 'Yes' ? 0 : -1
 
 {{% /note %}}
 

@@ -37,6 +37,12 @@ const sidebar = document.getElementById("sidebar");
 const sidebarToggle = document.getElementById("sidebar-toggle");
 const sidebarOverlay = document.getElementById("sidebar-overlay");
 
+// Check if we're on desktop
+function isDesktop() {
+  return window.matchMedia("(min-width: 1024px)").matches;
+}
+
+// Mobile sidebar functions
 function openSidebar() {
   sidebar?.classList.add("open");
   sidebarOverlay?.classList.remove("hidden");
@@ -51,12 +57,55 @@ function closeSidebar() {
   document.body.style.overflow = "";
 }
 
+// Desktop sidebar collapse functions
+function collapseSidebarDesktop() {
+  sidebar?.classList.add("collapsed");
+  document.body.classList.add("sidebar-collapsed");
+  sidebarToggle?.setAttribute("aria-expanded", "false");
+  localStorage.setItem("sidebar-collapsed", "true");
+}
+
+function expandSidebarDesktop() {
+  sidebar?.classList.remove("collapsed");
+  document.body.classList.remove("sidebar-collapsed");
+  sidebarToggle?.setAttribute("aria-expanded", "true");
+  localStorage.setItem("sidebar-collapsed", "false");
+}
+
+// Initialize sidebar state from localStorage on desktop
+if (isDesktop() && localStorage.getItem("sidebar-collapsed") === "true") {
+  collapseSidebarDesktop();
+}
+
 sidebarToggle?.addEventListener("click", () => {
-  const isOpen = sidebar?.classList.contains("open");
-  isOpen ? closeSidebar() : openSidebar();
+  if (isDesktop()) {
+    // Desktop: toggle collapse
+    const isCollapsed = sidebar?.classList.contains("collapsed");
+    isCollapsed ? expandSidebarDesktop() : collapseSidebarDesktop();
+  } else {
+    // Mobile: toggle open/close
+    const isOpen = sidebar?.classList.contains("open");
+    isOpen ? closeSidebar() : openSidebar();
+  }
 });
 
 sidebarOverlay?.addEventListener("click", closeSidebar);
+
+// Handle window resize - restore appropriate state
+window.addEventListener("resize", () => {
+  if (isDesktop()) {
+    // Switching to desktop - close mobile state
+    closeSidebar();
+    // Restore desktop collapsed state from localStorage
+    if (localStorage.getItem("sidebar-collapsed") === "true") {
+      collapseSidebarDesktop();
+    }
+  } else {
+    // Switching to mobile - remove desktop collapsed state
+    sidebar?.classList.remove("collapsed");
+    document.body.classList.remove("sidebar-collapsed");
+  }
+});
 
 // Sidebar navigation toggle
 document.querySelectorAll(".sidebar-toggle").forEach((button) => {

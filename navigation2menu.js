@@ -16,10 +16,11 @@ const menu = [];
 let lastContent = "First line";
 
 for (const line of markdown.split(EOL)) {
-  if (!line.match(/^ *\* /)) {
+  // Support both * and - as list markers, but only for markdown links (must have [ after marker)
+  if (!line.match(/^ *[-*] \[/)) {
     continue;
   }
-  const indentPart = line.replace(/(^ *\* ).*/, "$1");
+  const indentPart = line.replace(/(^ *[-*] ).*/, "$1");
   const markdownLink = line
     .substring(indentPart.length)
     .replace(/#[^)]*\)$/, ")");
@@ -31,7 +32,9 @@ for (const line of markdown.split(EOL)) {
     continue;
   }
   const [_, name, pageRef] = matched;
-  const level = (indentPart.length - 2) / 4;
+  // Calculate level based on indentation: 2-space indent = level 1
+  // For "- " (2 chars) level=0, "  - " (4 chars) level=1, etc.
+  const level = (indentPart.length - 2) / 2;
 
   while (parentStack.length > level) {
     parentStack.pop();

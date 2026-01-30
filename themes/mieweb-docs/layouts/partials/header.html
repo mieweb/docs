@@ -5,10 +5,10 @@
   <div class="flex h-full items-center justify-between px-4 lg:px-6">
     {{- /* Left side - Logo & Mobile menu */}}
     <div class="flex items-center gap-3">
-      {{- /* Mobile menu toggle */}}
+      {{- /* Sidebar toggle */}}
       <button
         id="sidebar-toggle"
-        class="btn btn-ghost btn-icon lg:hidden"
+        class="btn btn-ghost btn-icon"
         aria-label="Toggle navigation menu"
         aria-expanded="false"
         aria-controls="sidebar"
@@ -39,7 +39,7 @@
         aria-label="{{ .Site.Title }} Home"
       >
         <img
-          src="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/logo.svg"
+          src="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/logo.png"
           alt="{{ .Site.Title }}"
           class="h-8 w-auto"
           width="120"
@@ -73,8 +73,11 @@
           <path d="m21 21-4.3-4.3" />
         </svg>
         <span class="hidden sm:inline-block">Search...</span>
-        <kbd class="pointer-events-none hidden items-center gap-1 select-none sm:flex" aria-hidden="true">
-          <span class="text-xs">⌘</span>K
+        <kbd
+          class="border-border bg-muted pointer-events-none hidden items-center gap-1 rounded border px-1.5 py-0.5 text-xs font-medium select-none sm:flex"
+          aria-hidden="true"
+        >
+          <span>⌘</span>K
         </kbd>
       </button>
 

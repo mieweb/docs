@@ -87,9 +87,19 @@
 @media (min-width: 1024px) {
   #sidebar {
     transform: translateX(0);
+    transition:
+      transform 0.2s ease-in-out,
+      width 0.2s ease-in-out;
+  }
+  #sidebar.collapsed {
+    transform: translateX(-100%);
   }
   #main-content {
     margin-left: 18rem;
+    transition: margin-left 0.2s ease-in-out;
+  }
+  body.sidebar-collapsed #main-content {
+    margin-left: 0;
   }
 }
 
@@ -280,6 +290,11 @@ textarea.form-input {
 .card-interactive:hover {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   border-color: var(--mieweb-primary-200);
+}
+
+/* Dark mode: use darker primary shade for hover border */
+[data-theme="dark"] .card-interactive:hover {
+  border-color: var(--mieweb-primary-800);
 }
 
 /* Breadcrumbs */
@@ -619,17 +634,20 @@ kbd {
 /* Skip Link */
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -100%;
   left: 0;
   background: var(--mieweb-primary-600);
   color: white;
   padding: 0.5rem 1rem;
   z-index: 100;
   border-radius: 0 0 var(--mieweb-radius-md) 0;
+  transform: translateY(-100%);
+  transition: transform 0.2s ease-in-out;
 }
 
 .skip-link:focus {
   top: 0;
+  transform: translateY(0);
 }
 
 /* Print */

@@ -1,6 +1,15 @@
 /* Tailwind CSS 4 entry point */
 /* Using source(none) to disable auto-detection which fails on binary files in content/ */
 @import "tailwindcss" source(none);
+@plugin "@tailwindcss/typography";
+
+/* Import Enterprise Health brand from @mieweb/ui */
+/* This sets all --mieweb-* CSS variables for the EH brand including:
+   - Primary colors (burgundy/purple #6E2B68)
+   - Jost font family
+   - Semantic colors for light/dark modes
+   - Border radius and shadow tokens */
+@import "@mieweb/ui/brands/enterprise-health.css" layer(theme);
 
 /* Scan the theme layouts directory for Tailwind classes */
 @source "../../layouts/**/*.html";
@@ -8,8 +17,8 @@
 
 /* Safelist all utilities used in the templates */
 /* Layout & Positioning */
-@source inline("fixed absolute relative sticky inset-0 inset-x-0");
-@source inline("top-0 top-16 top-20 bottom-0 bottom-6 left-0 right-6");
+@source inline("fixed absolute relative sticky inset-0 inset-x-0 inset-x-4");
+@source inline("top-0 top-16 top-20 top-[20%] bottom-0 bottom-6 left-0 right-6");
 @source inline("z-30 z-40 z-50");
 
 /* Display & Flex */
@@ -23,9 +32,10 @@
 
 /* Sizing */
 @source inline("w-4 w-5 w-6 w-8 w-10 w-72 w-auto w-full");
-@source inline("h-4 h-5 h-6 h-8 h-10 h-16 h-full");
-@source inline("max-w-2xl max-w-4xl max-w-md max-w-none");
-@source inline("min-h-screen");
+@source inline("h-4 h-5 h-6 h-8 h-10 h-16 h-full h-auto");
+@source inline("max-w-2xl max-w-4xl max-w-md max-w-none max-w-full");
+@source inline("max-h-[60vh]");
+@source inline("min-h-screen min-w-0");
 
 /* Spacing */
 @source inline("p-4 p-6 px-1 px-1.5 px-2 px-3 px-4 px-6 py-0.5 py-1 py-1.5 py-2 py-3 py-4 py-8 pt-8 pt-16");
@@ -70,6 +80,7 @@
 @source inline("hover:bg-muted hover:bg-white/10 hover:text-foreground hover:text-primary hover:text-white");
 @source inline("hover:border-primary hover:shadow-md hover:opacity-80 hover:underline");
 @source inline("group group-hover:opacity-100 group-hover:text-primary group-hover:translate-x-1");
+@source inline("group-hover:text-primary-700 dark:group-hover:text-primary-300");
 @source inline("focus:outline-none focus:ring-0 focus:ring-2 focus:ring-ring focus:border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring");
 @source inline("placeholder:text-muted-foreground");
 
@@ -79,17 +90,22 @@
 @source inline("lg:hidden lg:px-6 lg:px-8 lg:text-6xl");
 
 /* Dark mode */
-@source inline("dark:block dark:hidden dark:prose-invert");
+@source inline("dark:block dark:hidden dark:prose-invert dark:bg-card");
 
 /* Misc */
 @source inline("aspect-video resize-none select-none sr-only cursor-pointer pointer-events-none");
 @source inline("animate-slide-up");
-@source inline("prose prose-neutral");
+@source inline("prose prose-neutral prose-sm prose-lg prose-xl max-w-none");
+@source inline("prose-headings:text-foreground prose-p:text-foreground prose-a:text-primary");
+@source inline("prose-strong:text-foreground prose-code:text-foreground prose-pre:bg-muted");
 @source inline("overflow-auto overflow-hidden overflow-y-auto overflow-x-hidden");
 @source inline("font-mono spellcheck-false autocomplete-off");
 
 /* Theme customizations */
 @theme {
+  /* DEFAULT primary color for bg-primary, text-primary utilities */
+  --color-primary: var(--mieweb-primary-600);
+
   --color-primary-50: var(--mieweb-primary-50);
   --color-primary-100: var(--mieweb-primary-100);
   --color-primary-200: var(--mieweb-primary-200);
@@ -109,4 +125,10 @@
   --color-border: var(--mieweb-border);
   --color-card: var(--mieweb-card);
   --color-card-foreground: var(--mieweb-card-foreground);
+
+  /* Semantic colors for alerts/callouts */
+  --color-info: #3b82f6;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-destructive: #ef4444;
 }

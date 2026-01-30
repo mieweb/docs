@@ -7,7 +7,7 @@
   
   {{- /* Main content area */}}
   <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
-    <div class="mx-auto max-w-4xl px-4 py-8 lg:px-8">
+    <div class="px-4 py-8 lg:px-8">
       {{- /* Breadcrumbs */}}
       {{ partial "breadcrumbs.html" . }}
       
@@ -49,7 +49,7 @@
       {{- /* Table of Contents + Content */}}
       {{ if gt (.TableOfContents | len) 32 }}
       <div class="grid gap-8 lg:grid-cols-[1fr,250px]">
-        <article class="prose prose-neutral dark:prose-invert">
+        <article class="prose prose-neutral dark:prose-invert max-w-none">
           {{ if eq .Params.markup "pandoc" }}
             {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
           {{ else }}
@@ -67,7 +67,7 @@
         </aside>
       </div>
       {{ else }}
-      <article class="prose prose-neutral dark:prose-invert">
+      <article class="prose prose-neutral dark:prose-invert max-w-none">
         {{ if eq .Params.markup "pandoc" }}
           {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
         {{ else }}

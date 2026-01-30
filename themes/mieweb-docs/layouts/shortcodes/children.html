@@ -1,11 +1,19 @@
-{{- /* Children shortcode - list child pages */}} {{ $page := . }} {{ $pages := .Page.Pages }} {{ if not $pages }} {{
-$pages = .Page.Sections }} {{ end }} {{ if $pages }}
+{{- /* Children shortcode - list child pages */}} {{- $page := .Page -}} {{- $sortBy := .Get "sort" | default "title"
+-}} {{- $pages := $page.Pages -}} {{- /* If no direct children, try to find a section with the same name */ -}} {{- if
+not $pages -}} {{- $pages = $page.Sections -}} {{- end -}} {{- /* If still no pages, look for sibling folder with same
+name as this page */ -}} {{- if not $pages -}} {{- /* For regular pages (non-section), find pages whose path starts with
+this page's basename */ -}} {{- $pageDir := $page.File.Dir -}} {{- $pageBaseName := $page.File.ContentBaseName -}} {{-
+/* Remove leading slash from pageDir if present */ -}} {{- $cleanDir := strings.TrimPrefix "/" $pageDir -}} {{-
+$childPath := printf "%s%s/" $cleanDir $pageBaseName -}} {{- $foundPages := slice -}} {{- range site.RegularPages -}}
+{{- if hasPrefix .File.Path $childPath -}} {{- /* Get the remainder after removing the childPath prefix */ -}} {{-
+$remainder := strings.TrimPrefix $childPath .File.Path -}} {{- /* Only include if remainder has no slashes (direct
+child) */ -}} {{- if not (strings.Contains $remainder "/") -}} {{- $foundPages = $foundPages | append . -}} {{- end -}}
+{{- end -}} {{- end -}} {{- $pages = $foundPages -}} {{- end -}} {{- /* Apply sorting */ -}} {{- if $pages -}} {{- if eq
+$sortBy "creation" -}} {{- $pages = $pages.ByDate -}} {{- else if eq $sortBy "weight" -}} {{- $pages = $pages.ByWeight
+-}} {{- else -}} {{- $pages = $pages.ByTitle -}} {{- end -}} {{- end -}} {{- if $pages }}
 <div class="my-6 grid gap-3">
-  {{ range $pages }}
-  <a
-    href="{{ .RelPermalink }}"
-    class="group border-border hover:border-primary hover:bg-muted flex items-center gap-3 rounded-lg border p-4 transition-colors"
-  >
+  {{- range $pages }}
+  <a href="{{ .RelPermalink }}" class="card card-interactive group flex items-center gap-3 p-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20"
@@ -16,18 +24,18 @@ $pages = .Page.Sections }} {{ end }} {{ if $pages }}
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="text-muted-foreground group-hover:text-primary"
+      class="text-muted-foreground group-hover:text-foreground shrink-0 transition-colors"
     >
       <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
       <path d="M14 2v4a2 2 0 0 0 2 2h4" />
     </svg>
     <div>
-      <span class="text-foreground group-hover:text-primary font-medium">{{ .Title }}</span>
-      {{ with .Description }}
+      <span class="text-foreground font-medium">{{ .Title }}</span>
+      {{- with .Description }}
       <p class="text-muted-foreground mt-1 text-sm">{{ . }}</p>
-      {{ end }}
+      {{- end }}
     </div>
   </a>
-  {{ end }}
+  {{- end }}
 </div>
-{{ end }}
+{{- end }}

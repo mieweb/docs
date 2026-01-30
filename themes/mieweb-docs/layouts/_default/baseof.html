@@ -23,7 +23,10 @@
   {{- /* Preconnect for fonts */}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  {{- /* Load fonts asynchronously to avoid render-blocking */}}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"  >
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
   
   {{- /* Tailwind CSS processed via PostCSS */}}
   {{ $tailwind := resources.Get "css/tailwind.css" | css.PostCSS }}
@@ -67,6 +70,18 @@
 
 <body class="bg-background text-foreground antialiased" data-page="{{ .Page.Params.id }}">
   {{ block "main" . }}{{ end }}
+  
+  {{- /* React 19 + @mieweb/ui Component Bundle */}}
+  {{ $reactBundle := resources.Get "js/react/components.js" }}
+  {{ $reactMount := resources.Get "js/react/mount.js" }}
+  {{ if and $reactBundle $reactMount }}
+    {{ if hugo.IsProduction }}
+      {{ $reactBundle = $reactBundle | resources.Fingerprint "sha512" }}
+      {{ $reactMount = $reactMount | resources.Fingerprint "sha512" }}
+    {{ end }}
+    <script src="{{ $reactBundle.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $reactBundle.Data.Integrity }}"{{ end }}></script>
+    <script src="{{ $reactMount.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $reactMount.Data.Integrity }}"{{ end }}></script>
+  {{ end }}
   
   {{- /* Main JavaScript bundle */}}
   {{ $js := resources.Get "js/main.js" }}

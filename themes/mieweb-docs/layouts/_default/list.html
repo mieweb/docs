@@ -3,7 +3,7 @@
 <div class="flex min-h-screen pt-16">
   {{- /* Sidebar */}} {{ partial "sidebar.html" . }} {{- /* Main content area */}}
   <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
-    <div class="mx-auto max-w-4xl px-4 py-8 lg:px-8">
+    <div class="px-4 py-8 lg:px-8">
       {{- /* Breadcrumbs */}} {{ partial "breadcrumbs.html" . }} {{- /* Page header */}}
       <header class="border-border mb-8 border-b pb-6">
         <h1 class="text-foreground text-3xl font-bold tracking-tight sm:text-4xl">{{ .Title }}</h1>
@@ -13,14 +13,14 @@
       </header>
 
       {{- /* Content from _index.md */}} {{ if .Content }}
-      <article class="prose prose-neutral dark:prose-invert mb-8">{{ .Content | safeHTML }}</article>
+      <article class="prose prose-neutral dark:prose-invert mb-8 max-w-none">{{ .Content | safeHTML }}</article>
       {{ end }} {{- /* Children pages */}} {{ if .Pages }}
       <section aria-label="Child pages">
         <div class="grid gap-4 sm:grid-cols-2">
           {{ range .Pages }}
           <a href="{{ .RelPermalink }}" class="card card-interactive group p-6">
             <div class="flex items-start justify-between">
-              <h3 class="text-foreground group-hover:text-primary font-semibold transition-colors">{{ .Title }}</h3>
+              <h3 class="text-foreground font-semibold">{{ .Title }}</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"

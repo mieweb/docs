@@ -1,2 +1,2 @@
-{{- /* Only shortcode - conditional brand content */}} {{ $brand := .Get 0 }} {{ if eq $.Site.Params.Brand.code $brand
-}} {{ .Inner }} {{ end }}
+{{- /* Only shortcode - conditional brand content */}} {{- $brand := .Get "sys" | default (.Get 0) -}} {{- if eq
+$.Site.Params.Brand.code $brand -}} {{ .Inner }} {{- end -}}

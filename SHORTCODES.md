@@ -121,11 +121,11 @@ This is an important warning. Please read carefully.
 
 ## Layout Shortcodes
 
-These shortcodes help structure content in rows and columns using Bootstrap grid classes.
+These shortcodes help structure content in rows and columns using Tailwind CSS flexbox.
 
 ### row
 
-Creates a container for columns using Bootstrap row classes.
+Creates a flex container for columns using Tailwind flexbox.
 
 **Usage:**
 
@@ -170,9 +170,9 @@ This column takes 30% width
 
 - `width` (optional): Percentage width for the column (e.g., "30" for 30%)
 
-**Default:** If no width is specified, uses Bootstrap's auto-sizing columns (`col-xs-12 col-sm-auto`)
+**Default:** If no width is specified, uses Tailwind's `flex-1` for equal distribution.
 
-**Notes:** When width is specified, the column uses `col-xs-12 col-sm` with inline style for width percentage.
+**Notes:** When width is specified, the column uses inline flex-basis styling for the width percentage.
 
 ---
 

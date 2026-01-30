@@ -1,4 +1,5 @@
-{{- /* Google Drive video embed shortcode */}} {{ $id := .Get "id" | default (.Get 0) }}
+{{- /* Google Drive video embed shortcode */}} {{- $rawId := .Get "id" | default (.Get 0) -}} {{- /* Strip d/ prefix if
+present (e.g., d/1ABC... -> 1ABC...) */ -}} {{- $id := replaceRE `^d/` "" $rawId -}}
 <div class="my-6 aspect-video overflow-hidden rounded-lg">
   <iframe
     class="h-full w-full"
