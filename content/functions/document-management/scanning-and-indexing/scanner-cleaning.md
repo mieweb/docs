@@ -8,7 +8,6 @@ mimeType: "text/x-markdown"
 links: []
 source: "https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ"
 wikigdrive: "v2.15.30"
-markup: "pandoc"
 ---
 
 ## Recommended Cleaning

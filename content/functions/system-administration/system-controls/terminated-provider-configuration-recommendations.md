@@ -10,7 +10,6 @@ links:
   - "../../e-sign-electronic-signature/e-sign-all-pending-tab.md"
 source: "https://drive.google.com/open?id=1vci5fgu5hsrxU-1mxjjLC5swIPemOhGisO5l6lQLDKc"
 wikigdrive: "v2.15.30"
-markup: "pandoc"
 ---
 
 ## Terminated Provider Configuration Recommendations

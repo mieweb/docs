@@ -9,7 +9,6 @@ links:
   - "https://mie.talentlms.com/shared/start/key:SLERKMFP"
 source: "https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww"
 wikigdrive: "v2.15.30"
-markup: "pandoc"
 ---
 
 Send Document

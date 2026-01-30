@@ -18,7 +18,6 @@ links:
   - "https://docs.enterprisehealth.com"
 source: "https://drive.google.com/open?id=1G7nXT2GQh4EzhD66pnuBUwBBP2WOPaq0JX_M1SgyViA"
 wikigdrive: "v2.15.30"
-markup: "pandoc"
 ---
 
 ## Agenda

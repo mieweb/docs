@@ -12,7 +12,6 @@ links:
   - "https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12"
 source: "https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI"
 wikigdrive: "v2.15.30"
-markup: "pandoc"
 ---
 
 ## Overview

@@ -53,11 +53,8 @@
         
         {{- /* Content */}}
         <article class="prose prose-neutral dark:prose-invert max-w-none">
-          {{ if eq .Params.markup "pandoc" }}
-            {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
-          {{ else }}
-            {{ .Content | safeHTML }}
-          {{ end }}
+          {{- /* Always fix relative image paths (./assets/ -> ../assets/) for WikiGDrive content */ -}}
+          {{ .Content | replaceRE `src="\./([^"]+)"` `src="../$1"` | safeHTML }}
         </article>
       
         {{- /* Footer call to action */}}
