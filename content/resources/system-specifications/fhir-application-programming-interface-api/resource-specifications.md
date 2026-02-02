@@ -1,57 +1,94 @@
 ---
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
-date: '2024-02-17T18:48:45.904Z'
-version: 550
-lastAuthor: 'horner'
+date: '2026-01-30T21:29:54.148Z'
+version: 749
+lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
   - 'http://hl7.org/fhir/R4/allergyintolerance.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-allergyintolerance.html'
+  - 'https://hl7.org/fhir/R4/binary.html'
   - 'http://hl7.org/fhir/R4/careplan.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-careplan.html'
   - 'http://hl7.org/fhir/R4/careteam.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-careteam.html'
+  - 'https://hl7.org/fhir/R4/claim.html'
   - 'http://hl7.org/fhir/R4/condition.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-condition-encounter-diagnosis.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-condition-problems-health-concerns.html'
+  - 'https://hl7.org/fhir/R4/coverage.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-coverage.html'
   - 'http://hl7.org/fhir/R4/device.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-implantable-device.html'
   - 'http://hl7.org/fhir/R4/diagnosticreport.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-diagnosticreport-lab.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-diagnosticreport-note.html'
   - 'http://hl7.org/fhir/R4/documentreference.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-documentreference.html'
   - 'http://hl7.org/fhir/R4/encounter.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-encounter.html'
+  - 'https://hl7.org/fhir/R4/endpoint.html'
   - 'http://hl7.org/fhir/R4/goal.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-goal.html'
+  - 'https://hl7.org/fhir/R4/group.html'
   - 'http://hl7.org/fhir/R4/immunization.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-immunization.html'
   - 'http://hl7.org/fhir/R4/location.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-location.html'
+  - 'https://hl7.org/fhir/R4/media.html'
   - 'http://hl7.org/fhir/R4/medication.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medication.html'
+  - 'https://hl7.org/fhir/R4/medicationdispense.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medicationdispense.html'
   - 'http://hl7.org/fhir/R4/medicationrequest.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medicationrequest.html'
   - 'http://hl7.org/fhir/R4/observation.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-average-blood-pressure.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-care-experience-preference.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-clinical-result.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-lab.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-occupation.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-pregnancyintent.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-pregnancystatus.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-screening-assessment.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-sexual-orientation.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-simple-observation.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-smokingstatus.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-treatment-intervention-preference.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-vital-signs.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-pediatric-bmi-for-age.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-head-occipital-frontal-circumference-percentile.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-pediatric-weight-for-height.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-blood-pressure.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-bmi.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-height.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-temperature.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-weight.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-head-circumference.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-heart-rate.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-pulse-oximetry.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-respiratory-rate.html'
+  - 'https://hl7.org/fhir/R4/operationoutcome.html'
   - 'http://hl7.org/fhir/R4/organization.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-organization.html'
   - 'http://hl7.org/fhir/R4/patient.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-patient.html'
+  - 'https://hl7.org/fhir/R4/person.html'
   - 'http://hl7.org/fhir/R4/practitioner.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-practitioner.html'
   - 'http://hl7.org/fhir/R4/practitionerrole.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-practitionerrole.html'
   - 'http://hl7.org/fhir/R4/procedure.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-procedure.html'
   - 'http://hl7.org/fhir/R4/provenance.html'
-  - 'http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-provenance.html'
+  - 'https://hl7.org/fhir/R4/relatedperson.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-relatedperson.html'
+  - 'https://hl7.org/fhir/R4/servicerequest.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-servicerequest.html'
+  - 'https://hl7.org/fhir/R4/specimen.html'
+  - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-specimen.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 wikigdrive: 'v2.15.30'
 ---
@@ -59,11 +96,17 @@ wikigdrive: 'v2.15.30'
 
 [AllergyIntolerance](#allergyintolerance)
 
+[Binary](#binary)
+
 [CarePlan](#careplan)
 
 [CareTeam](#careteam)
 
+[Claim](#claim)
+
 [Condition](#condition)
+
+[Coverage](#coverage)
 
 [Device](#device)
 
@@ -73,21 +116,33 @@ wikigdrive: 'v2.15.30'
 
 [Encounter](#encounter)
 
+[Endpoint](#endpoint)
+
 [Goal](#goal)
+
+[Group](#group)
 
 [Immunization](#immunization)
 
 [Location](#location)
 
+[Media](#media)
+
 [Medication](#medication)
+
+[MedicationDispense](#medicationdispense)
 
 [MedicationRequest](#medicationrequest)
 
 [Observation](#observation)
 
+[OperationOutcome](#operationoutcome)
+
 [Organization](#organization)
 
 [Patient](#patient)
+
+[Person](#person)
 
 [Practitioner](#practitioner)
 
@@ -96,6 +151,12 @@ wikigdrive: 'v2.15.30'
 [Procedure](#procedure)
 
 [Provenance](#provenance)
+
+[RelatedPerson](#relatedperson)
+
+[ServiceRequest](#servicerequest)
+
+[Specimen](#specimen)
 
 ## AllergyIntolerance
 
@@ -109,9 +170,9 @@ A list of allergies for a specific patient can be returned when searching by tha
 
 **FHIR Version:** [R4 AllergyIntolerance](http://hl7.org/fhir/R4/allergyintolerance.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 AllergyIntolerance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-allergyintolerance.html)
+**Supported Profiles:** [US Core STU7 AllergyIntolerance](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-allergyintolerance.html)
 
 ### Functions
 
@@ -131,6 +192,11 @@ A list of allergies for a specific patient can be returned when searching by tha
 <td>GET</td>
 <td>[baseURL]/AllergyIntolerance?_id={ID}</td>
 </tr>
+<tr>
+<td>AllergyIntolerance.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/AllergyIntolerance</td>
+</tr>
 </table>
 
 ### Parameters
@@ -147,7 +213,7 @@ A list of allergies for a specific patient can be returned when searching by tha
 <td>id</td>
 <td>AllergyIntolerance logical FHIR ID</td>
 <td>String</td>
-<td>NO</td>
+<td>No</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -232,6 +298,10 @@ A list of allergies for a specific patient can be returned when searching by tha
 <tr>
 <td>patient</td>
 <td>[baseURL]/AllergyIntolerance?patient={reference}</td>
+</tr>
+<tr>
+<td>clinical-status</td>
+<td>[baseURL]/AllergyIntolerance?clinical-status={token}</td>
 </tr>
 </table>
 
@@ -351,6 +421,141 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/AllergyIntolerance/11
 
 **Release Date:** September 1, 2022
 
+## Binary
+
+### Description
+
+A resource that represents the data of a single raw artifact as digital content accessible in its native format.
+
+### Standards
+
+**FHIR Version:** [R4 Binary](https://hl7.org/fhir/R4/binary.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Binary.READ</td>
+<td>GET</td>
+<td>[baseURL]/Binary/{ID}</td>
+</tr>
+<tr>
+<td>Binary.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/Binary?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Binary logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>contentType</td>
+<td>Mime content type</td>
+<td>code</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>securityContext</td>
+<td>DocumentReference</td>
+<td>Reference</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>data</td>
+<td>The content as a base64 encoded string</td>
+<td>base64Binary</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/Binary?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/Binary?patient={reference}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## CarePlan
 
 ### Description
@@ -363,9 +568,9 @@ A list of care plans for a specific patient can be returned when searching by th
 
 **FHIR Version:** [R4 Careplan](http://hl7.org/fhir/R4/careplan.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 CarePlan](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careplan.html)
+**Supported Profiles:** [US Core STU7 CarePlan](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-careplan.html)
 
 ### Functions
 
@@ -440,7 +645,7 @@ A list of care plans for a specific patient can be returned when searching by th
 <ul><li>draft</li><li>active</li><li>completed</li><li>entered-in-error</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
-<td>=o</td>
+<td>No</td>
 </tr>
 </table>
 
@@ -562,9 +767,9 @@ A list of care teams for a specific patient can be returned when searching by th
 
 **FHIR Version:** [R4 CareTeam](http://hl7.org/fhir/R4/careteam.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 CareTeam](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-careteam.html)
+**Supported Profiles:** [US Core STU7 CareTeam](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-careteam.html)
 
 ### Functions
 
@@ -775,6 +980,116 @@ Permission Denied</td>
 **Version:** 8.4
 
 **Release Date:** September 1, 2022
+## Claim
+
+### Description
+
+A provider-issued list of professional services and products which have been provided, or are to be provided, to a patient which is sent to an insurer for reimbursement.
+
+### Standards
+
+**FHIR Version:** [R4 Claim](https://hl7.org/fhir/R4/claim.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Claim.READ</td>
+<td>GET</td>
+<td>[baseURL]/Claim/{ID}</td>
+</tr>
+</table>
+
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Claim logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>item</td>
+<td>Product or service provided</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Claim format</td>
+<td>CodeableConcept</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+None
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
 
 ## Condition
 
@@ -788,9 +1103,9 @@ A list of conditions for a specific patient can be returned when searching by th
 
 **FHIR Version:** [R4 Condition](http://hl7.org/fhir/R4/condition.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Condition](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-condition.html)
+**Supported Profiles:** [US Core STU7 Condition Encounter Diagnosis](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-condition-encounter-diagnosis.html),  [US Core STU7 Condition Problems and Health Concerns](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-condition-problems-health-concerns.html)
 
 ### Functions
 
@@ -809,6 +1124,11 @@ A list of conditions for a specific patient can be returned when searching by th
 <td>Condition.SEARCH</td>
 <td>GET</td>
 <td>[baseURL]/Condition?patient={reference}</td>
+</tr>
+<tr>
+<td>Condition.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/Condition</td>
 </tr>
 </table>
 
@@ -1055,6 +1375,185 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## Coverage
+
+### Description
+
+Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.
+
+### Standards
+
+**FHIR Version:** [R4 Coverage](https://hl7.org/fhir/R4/coverage.html)
+
+**Data Version:** USCDI v4
+
+**Supported Profiles:** [US Core STU7 Coverage](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-coverage.html)
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Coverage.READ</td>
+<td>GET</td>
+<td>[baseURL]/Coverage/{ID}</td>
+</tr>
+<tr>
+<td>Coverage.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/Coverage?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Coverage logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>identifier</td>
+<td>Business identifier</td>
+<td>Identifier</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Coverage category</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>payor</td>
+<td>Issuer of the policy</td>
+<td>Reference</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>subscriberId</td>
+<td>ID of the subscriber</td>
+<td>String</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>beneficiary</td>
+<td>Plan beneficiary</td>
+<td>Reference</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>relationship</td>
+<td>Relationship to the subscriber</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>period</td>
+<td>Coverage start and end dates</td>
+<td>Period</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>class</td>
+<td>Additional classifications</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>status</td>
+<td>Status of the coverage</td>
+<td>Code</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/Coverage?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/Coverage?patient={reference}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Device
 
 ### Description
@@ -1067,9 +1566,9 @@ A list of Devices for a specific patient can be returned when searching by that 
 
 **FHIR Version:** [R4 Device](http://hl7.org/fhir/R4/device.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Implantable Device](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-implantable-device.html)
+**Supported Profiles:** [US Core STU7 Implantable Device](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-implantable-device.html)
 
 ### Functions
 
@@ -1319,9 +1818,9 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 
 **FHIR Version:** [R4 DiagnosticReport](http://hl7.org/fhir/R4/diagnosticreport.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:**[ US Core STU3 ](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html)[DiagnosticReport Profile for Laboratory Results Reporting](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-lab.html), [US Core STU3 DiagnosticReport Profile for Report and Note exchange](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-diagnosticreport-note.html)
+**Supported Profiles:**[ US Core STU7 ](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-diagnosticreport-lab.html)[DiagnosticReport Profile for Laboratory Results Reporting](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-diagnosticreport-lab.html), [US Core STU7 DiagnosticReport Profile for Report and Note exchange](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-diagnosticreport-note.html)
 
 ### Functions
 
@@ -1397,6 +1896,13 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 <td>Yes</td>
 </tr>
 <tr>
+<td>media</td>
+<td>Key images associated with this report</td>
+<td>Backboneelement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
 <td>encounter</td>
 <td>Healthcare event where the test was ordered</td>
 <td>Encounter Reference</td>
@@ -1408,6 +1914,13 @@ A list of DiagnosticReports for a specific patient can be returned when searchin
 <td>Specimen collection date or period</td>
 <td>dateTime</td>
 <td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>issued</td>
+<td>DateTime the version was made</td>
+<td>instant</td>
+<td>No</td>
 <td>No</td>
 </tr>
 <tr>
@@ -1596,9 +2109,9 @@ A list of documents for a specific patient can be returned when searching by tha
 
 **FHIR Version:** [R4 DocumentReference](http://hl7.org/fhir/R4/documentreference.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 DocumentReference](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-documentreference.html)
+**Supported Profiles:** [US Core STU7 DocumentReference](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-documentreference.html)
 
 ### Functions
 
@@ -1873,9 +2386,9 @@ A list of encounters for a specific patient can be returned when searching by th
 
 **FHIR Version:** [R4 Encounter](http://hl7.org/fhir/R4/encounter.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Encounter](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html)
+**Supported Profiles:** [US Core STU7 Encounter](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-encounter.html)
 
 ### Functions
 
@@ -2167,6 +2680,130 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## Endpoint
+
+### Description
+
+The technical details of an endpoint that can be used for electronic services, such as for web services providing XDS.b or a REST endpoint for another FHIR server. This may include any security context information.
+
+### Standards
+
+**FHIR Version:** [R4 Endpoint](https://hl7.org/fhir/R4/endpoint.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Endpoint.READ</td>
+<td>GET</td>
+<td>[baseURL]/Endpoint/{ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Endpointlogical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>connectionType</td>
+<td>Protocol/Profile/Standard to be used with this endpoint connection</td>
+<td>Coding</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>payloadType</td>
+<td>The type of content that may be used at this endpoint</td>
+<td>CodeableConcept</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>address</td>
+<td>The technical base address for connecting to this endpoint</td>
+<td>url</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>status</td>
+<td><ul><li>active</li></ul></td>
+<td>code</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+None
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Goal
 
 ### Description
@@ -2179,9 +2816,9 @@ A list of goals for a specific patient can be returned when searching by that pa
 
 **FHIR Version:** [R4 Goal](http://hl7.org/fhir/R4/goal.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Goal](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-goal.html)
+**Supported Profiles:** [US Core STU7 Goal](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-goal.html)
 
 ### Functions
 
@@ -2366,6 +3003,137 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## Group
+
+### Description
+
+Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively, and are not formally or legally recognized.
+
+### Standards
+
+**FHIR Version:** [R4 Group](https://hl7.org/fhir/R4/group.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Group.READ</td>
+<td>GET</td>
+<td>[baseURL]/Group/{ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Group logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>type</td>
+<td><ul><li>person</li></ul></td>
+<td>code</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>actual</td>
+<td><ul><li>true</li></ul></td>
+<td>boolean</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>name</td>
+<td>Label for group</td>
+<td>string</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>member</td>
+<td>Who/what is in the group</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>active</td>
+<td><ul><li>true</li></ul></td>
+<td>boolean</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+None
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Immunization
 
 ### Description
@@ -2378,9 +3146,9 @@ A list of immunizations for a specific patient can be returned when searching by
 
 **FHIR Version:** [R4 Immunization](http://hl7.org/fhir/R4/immunization.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Immunization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-immunization.html)
+**Supported Profiles:** [US Core STU7 Immunization](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-immunization.html)
 
 ### Functions
 
@@ -2431,6 +3199,20 @@ A list of immunizations for a specific patient can be returned when searching by
 <td>The vaccine that was administered</td>
 <td>CodeableConcept</td>
 <td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>encounter</td>
+<td>Encounter when immunization occurred</td>
+<td>Reference</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>location</td>
+<td>Where immunization occurred</td>
+<td>Reference</td>
+<td>No</td>
 <td>No</td>
 </tr>
 <tr>
@@ -2621,9 +3403,9 @@ A list of locations can be returned when searching by name or address.
 
 **FHIR Version:** [R4 Location](http://hl7.org/fhir/R4/location.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Location](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-location.html)
+**Supported Profiles:** [US Core STU7 Location](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-location.html)
 
 ### Functions
 
@@ -2663,6 +3445,13 @@ A list of locations can be returned when searching by name or address.
 <td>No</td>
 </tr>
 <tr>
+<td>identifier</td>
+<td>Unique indicator of the location</td>
+<td>Identifier</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
 <td>status</td>
 <td>General availability of the Location<br />
 <ul><li>active</li><li>inactive</li></ul></td>
@@ -2676,6 +3465,13 @@ A list of locations can be returned when searching by name or address.
 <td>String</td>
 <td>Yes</td>
 <td>Yes</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Type of function performed</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>No</td>
 </tr>
 <tr>
 <td>telecom</td>
@@ -2800,6 +3596,110 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## Media
+
+### Description
+
+A photo, video, or audio recording acquired or used in healthcare. The actual content may be inline or provided by direct reference.
+
+### Standards
+
+**FHIR Version:** [R4 Media](https://hl7.org/fhir/R4/media.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Media.READ</td>
+<td>GET</td>
+<td>[baseURL]/Media/{ID}</td>
+</tr>
+</table>
+
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Media logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>content</td>
+<td>Media reference or data</td>
+<td>Attachment</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+None
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Medication
 
 ### Description
@@ -2810,9 +3710,9 @@ The Medication resource returns data used for the identification and definition 
 
 **FHIR Version:** [R4 Medication](http://hl7.org/fhir/R4/medication.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Medication](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medication.html)
+**Supported Profiles:** [US Core STU7 Medication](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medication.html)
 
 ### Functions
 
@@ -2847,6 +3747,13 @@ The Medication resource returns data used for the identification and definition 
 <td>No</td>
 </tr>
 <tr>
+<td>status</td>
+<td><ul><li>Active</li></ul></td>
+<td>code</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
 <td>code</td>
 <td>RxNorm code that specifies the Medication</td>
 <td>CodeableConcept</td>
@@ -2857,12 +3764,7 @@ The Medication resource returns data used for the identification and definition 
 
 ### Supported Searches
 
-<table>
-<tr>
-<td><strong>Parameter(s)</strong></td>
-<td><strong>URL Template</strong></td>
-</tr>
-</table>
+None
 
 ### Request
 
@@ -2941,6 +3843,200 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## MedicationDispense
+
+### Description
+
+Indicates that a medication product is to be or has been dispensed for a named person/patient.
+
+### Standards
+
+**FHIR Version:** [R4 MedicationDispense](https://hl7.org/fhir/R4/medicationdispense.html)
+
+**Data Version:** USCDI v4
+
+**Supported Profiles:**[ US Core STU7 MedicationDispense](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medicationdispense.html)
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>MedicationDispense.READ</td>
+<td>GET</td>
+<td>[baseURL]/MedicationDispense/{ID}</td>
+</tr>
+<tr>
+<td>MedicationDispense.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/MedicationDispense?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>MedicationDispense logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>status</td>
+<td><ul><li>preparation</li><li>in-progress</li><li>cancelled</li><li>on-hold</li><li>completed</li><li>entered-in-error</li><li>stopped</li><li>declined</li><li>unknown</li></ul></td>
+<td>code</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>medicationCodeableConcept</td>
+<td>What medication was prescribed</td>
+<td>CodeableConcept</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>subject</td>
+<td>Who what the dispense for</td>
+<td>Reference</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>performer</td>
+<td>Who performed the event</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>authorizingPrescription</td>
+<td>Medication order authorizing the dispense</td>
+<td>Reference</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Type of fill</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>quantity</td>
+<td>Amount dispensed</td>
+<td>SimpleQuantity</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>dosageInstruction</td>
+<td>How the medication is to be used or administered</td>
+<td>Dosage</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>whenHandedOver</td>
+<td>When the product was given out</td>
+<td>dateTime</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>context</td>
+<td>Encounter associated with the event</td>
+<td>Reference</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/MedicationDispense?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/MedicationDispense?patient={reference}</td>
+</tr>
+<tr>
+<td>status</td>
+<td>[baseURL]/MedicationDispense?status={token}</td>
+</tr>
+<tr>
+<td>type</td>
+<td>[baseURL]/MedicationDispense?type=RFP</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## MedicationRequest
 
 ### Description
@@ -2953,9 +4049,9 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 
 **FHIR Version:** [R4 MedicationRequest](http://hl7.org/fhir/R4/medicationrequest.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 MedicationRequest](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-medicationrequest.html)
+**Supported Profiles:** [US Core STU7 MedicationRequest](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-medicationrequest.html)
 
 ### Functions
 
@@ -2974,6 +4070,11 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>MedicationRequest.SEARCH</td>
 <td>GET</td>
 <td>[baseURL]/MedicationRequest?patient={reference}</td>
+</tr>
+<tr>
+<td>MedicationRequest.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/MedicationRequest</td>
 </tr>
 </table>
 
@@ -3003,26 +4104,26 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>Yes</td>
 </tr>
 <tr>
+<td>category</td>
+<td>Type of medication usage</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>reasonCode</td>
+<td>Indication for ordering</td>
+<td>CodeableConcept</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
 <td>intent</td>
 <td>Type of order<br />
 <ul><li>order</li></ul></td>
 <td>Code</td>
 <td>Yes</td>
 <td>Yes</td>
-</tr>
-<tr>
-<td>contained</td>
-<td>Inline Resources</td>
-<td>Resource</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>medicationReference</td>
-<td>Reference to the Medication resource being administered</td>
-<td>Medication Reference</td>
-<td>Yes</td>
-<td>No</td>
 </tr>
 <tr>
 <td>medicationCodeableConcept</td>
@@ -3044,6 +4145,13 @@ A list of MedicationRequests for a specific patient can be returned when searchi
 <td>Patient Reference</td>
 <td>Yes</td>
 <td>Yes</td>
+</tr>
+<tr>
+<td>dispenseRequest</td>
+<td>Medication supply authorization</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
 </tr>
 <tr>
 <td>authoredOn</td>
@@ -3214,9 +4322,35 @@ A list of Observations for a specific patient can be returned when searching by 
 
 **FHIR Version:** [R4 Observation](http://hl7.org/fhir/R4/observation.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Laboratory Result Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html), [US Core STU3 Pediatric BMI for Age Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-bmi-for-age.html), [US Core STU3 Pediatric Head Occipital-frontal Circumference Percentile Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-head-occipital-frontal-circumference-percentile.html), [US Core STU3 Pediatric Weight for Height Observation Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-pediatric-weight-for-height.html), [US Core STU3 Pulse Oximetry Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-pulse-oximetry.html), [US Core STU3 Smoking Status Observation](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-smokingstatus.html)
+**Supported Profiles:**
+
+* [US Core STU7 Average Blood Pressure](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-average-blood-pressure.html)
+* [US Core STU7 Care Experience Preference](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-care-experience-preference.html)
+* [US Core STU7 Observation Clinical Result](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-clinical-result.html)
+    * [US Core STU7 Laboratory Result Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-lab.html)
+* [US Core STU7 Occupation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-occupation.html)
+* [US Core STU7 Pregnancy Intent](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-pregnancyintent.html)
+* [US Core STU7 Pregnancy Status](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-pregnancystatus.html)
+* [US Core STU7 Screening Assessment](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-screening-assessment.html)
+* [US Core STU7 Sexual Orientation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-sexual-orientation.html)
+* [US Core STU7 Simple Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-simple-observation.html)
+* [US Core STU7 Smoking Status Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-smokingstatus.html)
+* [US Core STU7 Treatment Intervention Preference](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-treatment-intervention-preference.html)
+* [US Core STU7 Vital Signs](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-vital-signs.html)
+    * [US Core STU7 Pediatric BMI for Age Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-pediatric-bmi-for-age.html)
+    * [US Core STU7 Pediatric Head Occipital-frontal Circumference Percentile Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-head-occipital-frontal-circumference-percentile.html)
+    * [US Core STU7 Pediatric Weight for Height Observation Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-pediatric-weight-for-height.html)
+    * [US Core STU7 Blood Pressure](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-blood-pressure.html)
+    * [US Core STU7 BMI](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-bmi.html)
+    * [US Core STU7 Body Height](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-height.html)
+    * [US Core STU7 Body Temperature](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-temperature.html)
+    * [US Core STU7 Body Weight](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-body-weight.html)
+    * [US Core STU7 Head Circumference](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-head-circumference.html)
+    * [US Core STU7 Heart Rate](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-heart-rate.html)
+    * [US Core STU7 Pulse Oximetry Observation](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-pulse-oximetry.html)
+    * [US Core STU7 Respiratory Rate](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-respiratory-rate.html)
 
 ### Functions
 
@@ -3496,6 +4630,102 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## OperationOutcome
+
+### Description
+
+A collection of error, warning, or information messages that result from a system action.
+
+### Standards
+
+**FHIR Version:** [R4 OperationOutcome](https://hl7.org/fhir/R4/operationoutcome.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>OperationOutcome.READ</td>
+<td>GET</td>
+<td>[baseURL]/OperationOutcome/{ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>issue</td>
+<td>Error associated with an action</td>
+<td>BackboneElement</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+None
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Organization
 
 ### Description
@@ -3508,9 +4738,9 @@ A list of Organizations can be returned when searching by name or address.
 
 **FHIR Version:** [R4 Organization](http://hl7.org/fhir/R4/organization.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Organization](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-organization.html)
+**Supported Profiles:** [US Core STU7 Organization](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-organization.html)
 
 ### Functions
 
@@ -3529,6 +4759,11 @@ A list of Organizations can be returned when searching by name or address.
 <td>Organization.SEARCH</td>
 <td>GET</td>
 <td>[baseURL]/Organization?name={token}</td>
+</tr>
+<tr>
+<td>Organization.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/Organization</td>
 </tr>
 </table>
 
@@ -3718,9 +4953,9 @@ A list of patients can be returned when searching by demographic information.
 
 **FHIR Version:** [R4 Patient](http://hl7.org/fhir/R4/patient.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Patient](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-patient.html)
+**Supported Profiles:** [US Core STU7 Patient](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-patient.html)
 
 ### Functions
 
@@ -3739,6 +4974,11 @@ A list of patients can be returned when searching by demographic information.
 <td>Patient.SEARCH</td>
 <td>GET</td>
 <td>[baseURL]/Patient?_id={ID}</td>
+</tr>
+<tr>
+<td>Patient.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/Patient</td>
 </tr>
 </table>
 
@@ -4100,6 +5340,152 @@ Permission Denied</td>
 
 **Release Date:** September 1, 2022
 
+## Person
+
+### Description
+
+Demographics and administrative information about a person independent of a specific health-related context.
+
+### Standards
+
+**FHIR Version:** [R4 Person](https://hl7.org/fhir/R4/person.html)
+
+**Data Version:** USCDI v4
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Person.READ</td>
+<td>GET</td>
+<td>[baseURL]/Person/{ID}</td>
+</tr>
+<tr>
+<td>Person.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/Person?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Person logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>identifier</td>
+<td>Additional business identifier for the Person</td>
+<td>Identifier</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>name</td>
+<td>Name associated with the Person</td>
+<td>HumanName</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>telcom</td>
+<td>Contact details for the Person</td>
+<td>ContactPoint</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>address</td>
+<td>Address for the Person</td>
+<td>Address</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/Person?_id={ID}</td>
+</tr>
+<tr>
+<td>name</td>
+<td>[baseURL]/Person?name={token}</td>
+</tr>
+<tr>
+<td>name+birthdate</td>
+<td>[baseURL]/Person?name={token}&birthdate={date}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
 ## Practitioner
 
 ### Description
@@ -4112,9 +5498,9 @@ A list of Practitioners can be returned when searching by name or identifier.
 
 **FHIR Version:** [R4 Practitioner](http://hl7.org/fhir/R4/practitioner.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Practitioner](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitioner.html)
+**Supported Profiles:** [US Core STU7 Practitioner](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-practitioner.html)
 
 ### Functions
 
@@ -4133,6 +5519,11 @@ A list of Practitioners can be returned when searching by name or identifier.
 <td>Practitioner.SEARCH</td>
 <td>GET</td>
 <td>[baseURL]/Practitioner?name={token}</td>
+</tr>
+<tr>
+<td>Practitioner.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/Practitioner</td>
 </tr>
 </table>
 
@@ -4355,9 +5746,9 @@ The PractitionerRole resource returns data regarding a set of roles, locations, 
 
 **FHIR Version:** [R4 PractitionerRole](http://hl7.org/fhir/R4/practitionerrole.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 PractitionerRole](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-practitionerrole.html)
+**Supported Profiles:** [US Core STU7 PractitionerRole](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-practitionerrole.html)
 
 ### Functions
 
@@ -4559,9 +5950,9 @@ A list of procedures can be returned for a specific patient when searching by th
 
 **FHIR Version:** [R4 Procedure](http://hl7.org/fhir/R4/procedure.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Procedure](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-procedure.html)
+**Supported Profiles:** [US Core STU7 Procedure](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-procedure.html)
 
 ### Functions
 
@@ -4616,6 +6007,27 @@ A list of procedures can be returned for a specific patient when searching by th
 <td>No</td>
 </tr>
 <tr>
+<td>basedOn</td>
+<td></td>
+<td>Reference</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
+<td>reasonCode</td>
+<td></td>
+<td></td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
+<td>encounter</td>
+<td></td>
+<td>Reference</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr>
 <td>subject</td>
 <td>Reference to the Patient resource who the Procedure was performed on</td>
 <td>Patient Reference</td>
@@ -4649,6 +6061,10 @@ A list of procedures can be returned for a specific patient when searching by th
 <tr>
 <td>patient+date</td>
 <td>[baseURL]/Procedure?patient={reference}&date={date}</td>
+</tr>
+<tr>
+<td>status</td>
+<td>[baseURL]/Procedure?status={token}</td>
 </tr>
 </table>
 
@@ -4743,9 +6159,9 @@ The Provenance resource contains information for assessing authenticity, enablin
 
 **FHIR Version:** [R4 Provenance](http://hl7.org/fhir/R4/provenance.html)
 
-**Data Version:** USCDI v1
+**Data Version:** USCDI v4
 
-**Supported Profiles:** [US Core STU3 Provenance](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-provenance.html)
+**Supported Profiles:** [US Core STU7 Provenance](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-provenance.html)
 
 ### Functions
 
@@ -4891,6 +6307,359 @@ https://webchartnow.com/fhirr4sandbox/webchart.cgi/fhir/Provenance/Patient-18
 <td>Website Not Found</td>
 <td>Unsupported Search Path<br />
 Permission Denied</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
+## RelatedPerson
+
+### Description
+
+Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.
+
+### Standards
+
+**FHIR Version:** [R4 RelatedPerson](https://hl7.org/fhir/R4/relatedperson.html)
+
+**Data Version:** USCDI v4
+
+**Supported Profiles:** [US Core STU7 RelatedPerson](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-relatedperson.html)
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>RelatedPerson.READ</td>
+<td>GET</td>
+<td>[baseURL]/RelatedPerson/{ID}</td>
+</tr>
+<tr>
+<td>RelatedPerson.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/RelatedPerson?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>RelatedPerson logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/RelatedPerson?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/RelatedPerson?patient={reference}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
+## ServiceRequest
+
+### Description
+
+A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.
+
+### Standards
+
+**FHIR Version:** [R4 ServiceRequest](https://hl7.org/fhir/R4/servicerequest.html)
+
+**Data Version:** USCDI v4
+
+**Supported Profiles:** [US Core STU7 ServiceRequest](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-servicerequest.html)
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>ServiceRequest.READ</td>
+<td>GET</td>
+<td>[baseURL]/ServiceRequest/{ID}</td>
+</tr>
+<tr>
+<td>ServiceRequest.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/ServiceRequest?_id={ID}</td>
+</tr>
+<tr>
+<td>ServiceRequest.CREATE</td>
+<td>POST</td>
+<td>[baseURL]/ServiceRequest</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>ServiceRequest logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/ServiceRequest?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/ServiceRequest?patient={reference}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Error</td>
+<td>Internal Server Error</td>
+<td>Out of Memory</td>
+</tr>
+</table>
+
+### Product Information
+
+**Product:** WebChart EHR
+
+**Version:** 8.4
+
+**Release Date:** September 1, 2022
+
+## Specimen
+
+### Description
+
+A sample to be used for analysis.
+
+### Standards
+
+**FHIR Version:** [R4 Specimen](https://hl7.org/fhir/R4/specimen.html)
+
+**Data Version:** USCDI v4
+
+**Supported Profiles:** [US Core STU7 Specimen](https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-specimen.html)
+
+### Functions
+
+<table>
+<tr>
+<td><strong>Function</strong></td>
+<td><strong>HTTP Method</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>Specimen.READ</td>
+<td>GET</td>
+<td>[baseURL]/Specimen/{ID}</td>
+</tr>
+<tr>
+<td>Specimen.SEARCH</td>
+<td>GET</td>
+<td>[baseURL]/Specimen?_id={ID}</td>
+</tr>
+</table>
+### Parameters
+
+<table>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Data Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Searchable</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>Specimen logical FHIR ID</td>
+<td>String</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</table>
+
+### Supported Searches
+
+<table>
+<tr>
+<td><strong>Parameter(s)</strong></td>
+<td><strong>URL Template</strong></td>
+</tr>
+<tr>
+<td>id</td>
+<td>[baseURL]/Specimen?_id={ID}</td>
+</tr>
+<tr>
+<td>patient</td>
+<td>[baseURL]/Specimen?patient={reference}</td>
+</tr>
+</table>
+
+### Request
+
+### Response
+
+### Error Handling
+
+<table>
+<tr>
+<td><strong>HTTP Code</strong></td>
+<td><strong>Severity</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Example</strong></td>
+</tr>
+<tr>
+<td>401</td>
+<td>Error</td>
+<td>Unauthorized</td>
+<td>Permission Denied</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Error</td>
+<td>Forbidden</td>
+<td>Access Denied</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Error</td>
+<td>Website Not Found</td>
+<td>Unsupported Search Path</td>
 </tr>
 <tr>
 <td>500</td>
