@@ -1,4 +1,2 @@
-{{- /* Sys-name shortcode - outputs the brand abbreviation */}} {{ if $.Site.Params.Brand.abbr }}<span
-  class="text-primary font-medium"
-  >{{ $.Site.Params.Brand.abbr }}</span
->{{ end }}
+{{- /* Sys-name shortcode - outputs the brand abbreviation */ -}}
+{{- if $.Site.Params.Brand.abbr -}}{{ $.Site.Params.Brand.abbr }}{{- end -}}
