@@ -70,18 +70,13 @@ Other examples can be found here: https://github.com/mieweb/webchart-interface-e
 
 ### Command-line
 
-{{% pre language="bash" theme="RDark" %}}```
-
+{{< pre language="bash" theme="RDark" >}}
 curl -X POST -F "login_user=USERNAME" -F "login_passwd=PASSWORD" WEBCHARTURL
-
-```
-{{% /pre %}}
+{{< /pre >}}
 
 ### Python example
 
-```
-
-{{% pre language="py" theme="RDark" %}}
+{{< pre language="py" theme="RDark" >}}
 data = urllib.urlencode({
 'login_user': USERNAME,
 'login_passwd': PASSWORD
@@ -98,13 +93,11 @@ out = urllib2.urlopen(request)
 # Extract the COOKIE from the response headers
 
 COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-{{% /pre %}}
+{{< /pre >}}
 
 {{% info %}}
 COOKIE represents the session and is sent in the response.
 {{% /info %}}
-
-````
 
 ## ONC Certification API 2015 Edition
 
@@ -145,24 +138,21 @@ Overall, this document is intended to comply with the established criteria laid 
 
 http://system/?f=layout&module=JS&name=API_DOC&tabmodule=admin&tabselect=API
 
-{{% pre language="py" theme="RDark" title="Patients Example" %}}```
-
+{{< pre language="py" theme="RDark" title="Patients Example"  >}}
 requests = {
-  'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',
-  'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',
+'Last Name LIKE "Hart"': 'GET/db/patients/LIKE_last_name=Hart',
+'Last Name LIKE "Pregnant"': 'GET/db/patients/LIKE_last_name=Pregnan',
 }
 for title, url in requests.iteritems():
-  print('\\nQuerying for patients: {0}'.format(title))
+print('\\nQuerying for patients: {0}'.format(title))
 js = json.load(
-  urllib2.urlopen(URL, urllib.urlencode({
-    'f': 'json',
-    'session_id': COOKIE,
-    'apistring': base64.b64encode(url)
-  })))
+urllib2.urlopen(URL, urllib.urlencode({
+'f': 'json',
+'session_id': COOKIE,
+'apistring': base64.b64encode(url)
+})))
 print(json.dumps(js))
-````
-
-{{% /pre %}}
+{{< /pre >}}
 
 Requests are URLs. urllib2.urlopen does the work of calling each request and outputting the response on the screen.
 
@@ -261,10 +251,8 @@ URL-specific sections are returned in XML CCDA format.
 </tr>
 </table>
 
-{{% pre language="py" theme="RDark" title="Data Category Example" %}}
+{{< pre language="py" theme="RDark" title="Data Category Example"  >}}
 
-```
-#!/usr/bin/env python
 import sys
 import os
 import urllib2
@@ -280,53 +268,52 @@ COOKIE = None
 DTREG = '\\d{4}-\\d{2}-\\d{2}'
 OUTPUT = 'output'
 APIS = {
-    'Patient Name': 'Patient Name',
-    'Sex': 'Gender Code',
-    'Date of Birth': 'Birth Date',
-    'Race': 'Patient Race',
-    'Ethnicity': 'Patient Ethnicity',
-    'Preferred Language': 'Patient Language',
-    'Smoking Status': 'Smoking Status',
-    'Problems': 'Problems',
-    'Medications': 'Medications',
-    'Medication Allergies': 'Allergies',
-    'Lab Values_Result': 'Results',
-    'Vital Signs': 'Vital Signs',
-    'Procedures': 'Procedures',
-    'Immunizations': 'Immunizations',
+'Patient Name': 'Patient Name',
+'Sex': 'Gender Code',
+'Date of Birth': 'Birth Date',
+'Race': 'Patient Race',
+'Ethnicity': 'Patient Ethnicity',
+'Preferred Language': 'Patient Language',
+'Smoking Status': 'Smoking Status',
+'Problems': 'Problems',
+'Medications': 'Medications',
+'Medication Allergies': 'Allergies',
+'Lab Values_Result': 'Results',
+'Vital Signs': 'Vital Signs',
+'Procedures': 'Procedures',
+'Immunizations': 'Immunizations',
 }
 
 def usage():
-    print('Usage: {0} URL [startDate [endDate]] PatientLastName1 PatientLastName2 ...'.format(__file__))
-    exit()
+print('Usage: {0} URL [startDate [endDate]] PatientLastName1 PatientLastName2 ...'.format(**file**))
+exit()
 
-if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        usage()
-    URL = sys.argv[1]
-    sdate = ''
-    edate = ''
-    names = sys.argv[2:]
-    dtmatches = [x for x in names if re.match(DTREG, x)]
-    if dtmatches:
-        if len(dtmatches) == 1:
-            sdate = dtmatches[0]
-        else:
-            sdate = dtmatches[0]
-            edate = dtmatches[1]
-    charts = {}
-    print('Initializing session at {0}'.format(URL))
-    try:
-        # Create a POST request for session initialization
-        data = urllib.urlencode({
-            'login_user': USERNAME,
-            'login_passwd': PASSWORD
-        })
-        request = urllib2.Request(URL, data)
-        out = urllib2.urlopen(request)
-        COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-    except Exception as e:
-        print('Session failed to initialize {0}'.format(e))
+if **name** == '**main**':
+if len(sys.argv) < 3:
+usage()
+URL = sys.argv[1]
+sdate = ''
+edate = ''
+names = sys.argv[2:]
+dtmatches = [x for x in names if re.match(DTREG, x)]
+if dtmatches:
+if len(dtmatches) == 1:
+sdate = dtmatches[0]
+else:
+sdate = dtmatches[0]
+edate = dtmatches[1]
+charts = {}
+print('Initializing session at {0}'.format(URL))
+try: # Create a POST request for session initialization
+data = urllib.urlencode({
+'login_user': USERNAME,
+'login_passwd': PASSWORD
+})
+request = urllib2.Request(URL, data)
+out = urllib2.urlopen(request)
+COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
+except Exception as e:
+print('Session failed to initialize {0}'.format(e))
 
     if COOKIE:
         for name in names:
@@ -373,18 +360,15 @@ if __name__ == '__main__':
                         fp.write(res.read())
                 except Exception as e:
                     print(f"Failed to fetch {k} data for {patname}: {e}")
-```
 
-{{% /pre %}}
+{{< /pre >}}
 
 ### § 170.315(g)(9) Application access – All Data Request
 
 Receive documents stored in charts:
 
-{{% pre language="py" theme="RDark" %}}
+{{< pre language="py" theme="RDark"  >}}
 
-```
-#!/usr/bin/env python
 import urllib2
 import urllib
 import base64
@@ -397,47 +381,47 @@ PASSWORD = 'dave'
 COOKIE = None
 
 # Download a document
+
 def downloadDocument(doc_id, filename):
-    if not os.path.exists(filename):
-        data = urllib.urlencode({
-            'f': 'stream',
-            'doc_id': doc_id,
-            'session_id': COOKIE,
-            'rawdata': '1'
-        })
-        request = urllib2.Request(URL, data)
-        out = urllib2.urlopen(request)
-        with open(filename, 'wb') as fp:
-            fp.write(out.read())
+if not os.path.exists(filename):
+data = urllib.urlencode({
+'f': 'stream',
+'doc_id': doc_id,
+'session_id': COOKIE,
+'rawdata': '1'
+})
+request = urllib2.Request(URL, data)
+out = urllib2.urlopen(request)
+with open(filename, 'wb') as fp:
+fp.write(out.read())
 
 def downloadDocumentMeta(pat_id):
-    try:
-        api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id
-        print('\\nQuerying for documents: {0}'.format(pat_id))
-        data = urllib.urlencode({
-            'f': 'json',
-            'session_id': COOKIE,
-            'apistring': base64.b64encode(api)
-        })
-        request = urllib2.Request(URL, data)
-        docs = json.load(urllib2.urlopen(request))
-        return docs["db"][0]["doc_id"]
-    except:
-        return ""
+try:
+api = "GET/db/documents/storage_type=19&LIKE_service_date=2017-05-02%25&pat_id=" + pat_id
+print('\\nQuerying for documents: {0}'.format(pat_id))
+data = urllib.urlencode({
+'f': 'json',
+'session_id': COOKIE,
+'apistring': base64.b64encode(api)
+})
+request = urllib2.Request(URL, data)
+docs = json.load(urllib2.urlopen(request))
+return docs["db"][0]["doc_id"]
+except:
+return ""
 
-if __name__ == '__main__':
-    print('Initializing session')
-    try:
-        # Perform login using POST
-        data = urllib.urlencode({
-            'login_user': USERNAME,
-            'login_passwd': PASSWORD
-        })
-        request = urllib2.Request(URL, data)
-        out = urllib2.urlopen(request)
-        COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
-    except Exception as e:
-        print('Session failed to initialize {0}'.format(e))
+if **name** == '**main**':
+print('Initializing session')
+try: # Perform login using POST
+data = urllib.urlencode({
+'login_user': USERNAME,
+'login_passwd': PASSWORD
+})
+request = urllib2.Request(URL, data)
+out = urllib2.urlopen(request)
+COOKIE = out.headers.get('Set-Cookie').split('=')[1].split(';')[0]
+except Exception as e:
+print('Session failed to initialize {0}'.format(e))
 
     print('Getting Patients')
     if COOKIE:
@@ -470,10 +454,7 @@ if __name__ == '__main__':
             else:
                 print("No documents exist for that patient that meet the criteria.")
 
-
-```
-
-{{% /pre %}}
+{{< /pre >}}
 
 ## Document Export Tool
 

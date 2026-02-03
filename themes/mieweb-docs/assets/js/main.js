@@ -1195,27 +1195,115 @@ function escapeHtml(text) {
 }
 
 // ============================================
-// Code Copy Button
+// Code Block Enhancement
 // ============================================
-document.querySelectorAll("pre code").forEach((block) => {
-  const pre = block.parentElement;
-  if (!pre) return;
+(function initCodeBlocks() {
+  // Language display names
+  const languageNames = {
+    js: "JavaScript",
+    javascript: "JavaScript",
+    ts: "TypeScript",
+    typescript: "TypeScript",
+    html: "HTML",
+    css: "CSS",
+    scss: "SCSS",
+    json: "JSON",
+    yaml: "YAML",
+    yml: "YAML",
+    bash: "Bash",
+    sh: "Shell",
+    shell: "Shell",
+    python: "Python",
+    py: "Python",
+    sql: "SQL",
+    xml: "XML",
+    markdown: "Markdown",
+    md: "Markdown",
+    go: "Go",
+    rust: "Rust",
+    java: "Java",
+    c: "C",
+    cpp: "C++",
+    csharp: "C#",
+    php: "PHP",
+    ruby: "Ruby",
+    swift: "Swift",
+    kotlin: "Kotlin",
+    plaintext: "Text",
+    text: "Text",
+    csv: "CSV",
+  };
 
-  pre.style.position = "relative";
+  // Copy icon SVG
+  const copyIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>`;
 
-  const copyBtn = document.createElement("button");
-  copyBtn.className =
-    "absolute right-2 top-2 rounded bg-muted px-2 py-1 text-xs text-muted-foreground hover:bg-muted-foreground/20 hover:text-foreground";
-  copyBtn.textContent = "Copy";
-  copyBtn.setAttribute("aria-label", "Copy code");
+  // Check icon SVG
+  const checkIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
 
-  copyBtn.addEventListener("click", async () => {
-    await navigator.clipboard.writeText(block.textContent || "");
-    copyBtn.textContent = "Copied!";
-    setTimeout(() => {
-      copyBtn.textContent = "Copy";
-    }, 2000);
+  // Code icon SVG
+  const codeIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`;
+
+  document.querySelectorAll(".prose pre").forEach((pre) => {
+    // Skip if already wrapped
+    if (pre.closest(".code-block-wrapper")) return;
+
+    const code = pre.querySelector("code");
+    if (!code) return;
+
+    // Detect language from class
+    let language = "";
+    const classList = code.className.split(" ");
+    for (const cls of classList) {
+      if (cls.startsWith("language-")) {
+        language = cls.replace("language-", "");
+        break;
+      }
+    }
+
+    // Create wrapper
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-block-wrapper";
+
+    // Create header
+    const header = document.createElement("div");
+    header.className = "code-block-header";
+
+    // Language label
+    const langLabel = document.createElement("span");
+    langLabel.className = "code-block-language";
+    langLabel.innerHTML = `${codeIcon}<span>${languageNames[language] || language || "Code"}</span>`;
+
+    // Copy button
+    const copyBtn = document.createElement("button");
+    copyBtn.className = "code-copy-btn";
+    copyBtn.innerHTML = `${copyIcon}<span>Copy</span>`;
+    copyBtn.setAttribute("aria-label", "Copy code to clipboard");
+    copyBtn.type = "button";
+
+    copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(code.textContent || "");
+        copyBtn.classList.add("copied");
+        copyBtn.innerHTML = `${checkIcon}<span>Copied!</span>`;
+
+        setTimeout(() => {
+          copyBtn.classList.remove("copied");
+          copyBtn.innerHTML = `${copyIcon}<span>Copy</span>`;
+        }, 2000);
+      } catch (err) {
+        console.error("Failed to copy:", err);
+      }
+    });
+
+    header.appendChild(langLabel);
+    header.appendChild(copyBtn);
+
+    // Wrap the pre element
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(header);
+    wrapper.appendChild(pre);
+
+    // Remove old inline styles
+    pre.style.position = "";
   });
-
-  pre.appendChild(copyBtn);
-});
+})();
