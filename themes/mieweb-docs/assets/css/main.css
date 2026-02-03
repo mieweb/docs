@@ -1275,3 +1275,62 @@ kbd {
     display: none !important;
   }
 }
+
+/* ============================================
+   Toast Notifications
+   ============================================ */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+  max-width: 24rem;
+  animation: toast-slide-in 0.3s ease-out;
+}
+
+.toast.hidden {
+  display: none;
+}
+
+.toast-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--mieweb-card);
+  border: 1px solid var(--mieweb-border);
+  border-radius: var(--mieweb-radius-lg);
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.toast-icon {
+  flex-shrink: 0;
+}
+
+.toast-icon-success {
+  color: #22c55e;
+}
+
+.toast-icon-error {
+  color: #ef4444;
+}
+
+.toast-message {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--mieweb-foreground);
+  margin: 0;
+}
+
+@keyframes toast-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

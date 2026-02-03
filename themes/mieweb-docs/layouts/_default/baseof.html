@@ -172,6 +172,29 @@
       document.documentElement.setAttribute('data-theme', 'dark');
     }
   </script>
+
+  {{- /* Google Analytics - Production only */}}
+  {{ if hugo.IsProduction }}
+  {{ if eq .Site.Params.Brand.code "eh" }}
+  <!-- Google tag (gtag.js) - Enterprise Health -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7RQJRYK0J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M7RQJRYK0J');
+  </script>
+  {{ else }}
+  <!-- Google tag (gtag.js) - WebChart -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRGG64JRP3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LRGG64JRP3');
+  </script>
+  {{ end }}
+  {{ end }}
 </head>
 
 <body class="bg-background text-foreground antialiased" data-page="{{ .Page.Params.id }}">
