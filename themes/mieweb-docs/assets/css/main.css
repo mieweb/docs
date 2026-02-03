@@ -542,11 +542,12 @@ textarea.form-input {
 .main-wrapper {
   position: relative;
   min-width: 0; /* Allow flex shrinking */
-  overflow: hidden; /* Prevent child content from expanding wrapper */
+  /* Note: Don't use overflow:hidden here - it breaks sticky positioning for TOC */
 }
 
 .main-content {
   min-width: 0; /* Prevent content from overflowing in flexbox */
+  overflow-x: hidden; /* Only hide horizontal overflow to prevent wide content from causing scroll */
 }
 
 .toc-aside {
