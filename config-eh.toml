@@ -1,7 +1,7 @@
 baseURL = "/eh"
 languageCode = "en-us"
 title = "Enterprise Health"
-theme = "wc-eh-docs"
+theme = "mieweb-docs"
 publishDir = "public/eh"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir=false
@@ -15,9 +15,10 @@ defaultContentLanguageInSubdir=false
     endLevel = 4
     ordered = false
     startLevel = 2
+
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "MIEDocs"
+  description = "Comprehensive documentation for Enterprise Health occupational health software."
   author = "Enterprise Health"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -25,51 +26,78 @@ defaultContentLanguageInSubdir=false
   [params.brand]
     name = 'Enterprise Health'
     abbr = 'EH'
-    code = 'eh' 
+    code = 'eh'
+  
+  # Footer configuration
+  [params.footer]
+    description = "Enterprise Health is the leading AI-enabled, cloud-based occupational health software platform, helping organizations manage employee health, safety, and compliance."
+    
+    [params.footer.social]
+      linkedin = "https://www.linkedin.com/company/enterprisehealth/"
+      youtube = "https://www.youtube.com/channel/UCzPsN8wBDnHg0mgWPyejA6Q"
+      twitter = "https://x.com/ehocchealth"
+      facebook = "https://www.facebook.com/EnterpriseHealth/"
+      github = "https://github.com/mieweb/docs"
+    
+    [params.footer.contact]
+      email = "info@enterprisehealth.com"
+      phone = "888-498-3484"
+      address = "1690 Broadway, Suite 550<br>Fort Wayne, IN 46802"
+    
+    [[params.footer.links]]
+      name = "Company"
+      url = "https://www.enterprisehealth.com/company"
+    [[params.footer.links]]
+      name = "Careers"
+      url = "https://www.enterprisehealth.com/careers"
+    [[params.footer.links]]
+      name = "Contact"
+      url = "https://www.enterprisehealth.com/contact-us"
+    [[params.footer.links]]
+      name = "Request a Demo"
+      url = "https://content.enterprisehealth.com/request-a-demo"
+    
+    [[params.footer.legal]]
+      name = "Privacy Policy"
+      url = "https://www.enterprisehealth.com/privacy-policy"
+    [[params.footer.legal]]
+      name = "Data Privacy Framework"
+      url = "https://www.enterprisehealth.com/data-privacy-framework"
 
 [outputFormats.SearchIndex]
 baseName = "search"
 mediaType = "application/json"
 
+[outputFormats.robots]
+baseName = "robots"
+mediaType = "text/plain"
+isPlainText = true
+notAlternative = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [outputs]
-  home = [ "HTML", "RSS", "SearchIndex"]
+  home = [ "HTML", "RSS", "SearchIndex", "robots"]
 
 [markup.goldmark.renderer]
   unsafe= true
 
-[module]    
+[module]
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/scss"
-    target = "assets/scss/fontawesome"
+    source = "./node_modules/lunr/lunr.min.js"
+    target = "assets/js/vendor/lunr.min.js"
 
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/webfonts"
-    target = "static/webfonts"
+    source = "content"
+    target = "content"
 
   [[module.mounts]]
-    source = "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-    target = "assets/js/bootstrap/bootstrap.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/js/all.js"
-    target = "assets/js/fortawesome/fontawesome.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@popperjs/core/dist/umd/popper.js"
-    target = "assets/js/popper/popper.js"
-
-  [[module.mounts]]
-    source = "./node_modules/lunr/lunr.js"
-    target = "assets/js/lunr/lunr.js"
-
-  [[module.mounts]]
-    source = "./node_modules/sweetalert2/dist/sweetalert2.all.js"
-    target = "assets/js/sweetalert2/sweetalert2.js"
-
-  [[module.mounts]]
-    source = "./node_modules/copy-to-clipboard/index.js"
-    target = "assets/js/copy-to-clipboard/copy-to-clipboard.js"
+    source = "static"
+    target = "static"
 
 [security]
   [security.exec]
-    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^pandoc$']
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']

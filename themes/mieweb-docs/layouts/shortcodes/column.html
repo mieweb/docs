@@ -1,0 +1,4 @@
+{{- /* Column shortcode - Tailwind column */}}
+<div {{ if .Get "width" }}style="flex: 0 0 {{ .Get "width" }}%; min-width: 0;"{{ else }}class="flex-1 min-w-0"{{ end }}>
+  {{ .Inner }}
+</div>

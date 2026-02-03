@@ -1,15 +1,16 @@
 ---
-id: '1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec'
-title: 'Terms of Use'
-date: '2022-08-03T13:59:57.646Z'
+id: "1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec"
+title: "Terms of Use"
+date: "2022-08-03T13:59:57.646Z"
 version: 84
-lastAuthor: 'nwelsh'
-mimeType: 'text/x-markdown'
+lastAuthor: "nwelsh"
+mimeType: "text/x-markdown"
 links:
-  - 'mailto:support@mieweb.com'
-source: 'https://drive.google.com/open?id=1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec'
-wikigdrive: 'v2.15.30'
+  - "mailto:support@mieweb.com"
+source: "https://drive.google.com/open?id=1e3kmiavTOjCuKHwE8uz4Ucyr1tNyN3CYJrKYgFN-rec"
+wikigdrive: "v2.15.30"
 ---
+
 ## Use of the WebChart® EHR API
 
 ### Acceptance of Terms of Use
@@ -82,17 +83,17 @@ Use of the WebChart® API is permitted for some commercial purposes, provided yo
 
 Only the following commercial uses are acceptable:
 
-* the sale of an app, the primary purpose of which is the creation of User Content and the sharing of that content by the creator in accordance with the User Terms;
-* the use of the WebChart® API to deliver User Content to the Uploader's own ad-enabled website, blog or social media profile;
-* services aimed at helping a user to promote his/her User Content via authenticated access to the user's account, provided this does not constitute a breach of the User Terms; and
-* other cases that MIE may approve on a case by case basis (email us at [support@mieweb.com](mailto:support@mieweb.com) you have an additional commercial use that you'd like us to consider).
+- the sale of an app, the primary purpose of which is the creation of User Content and the sharing of that content by the creator in accordance with the User Terms;
+- the use of the WebChart® API to deliver User Content to the Uploader's own ad-enabled website, blog or social media profile;
+- services aimed at helping a user to promote his/her User Content via authenticated access to the user's account, provided this does not constitute a breach of the User Terms; and
+- other cases that MIE may approve on a case by case basis (email us at [support@mieweb.com](mailto:support@mieweb.com) you have an additional commercial use that you'd like us to consider).
 
 ### Unacceptable Commercial Use
 
 The following commercial uses are not acceptable (this is not an exhaustive list):
 
-* any in-app purchases which allow access to content or features already available via the WebChart® platform;
-* any app that features any advertising, sponsorship or promotion around User Content or enables User Content (other than a user's own User Content) or WebChart® functionality to be embedded into the third party commercial services. The only exception to this would be an app that allows an Uploader to connect his/her WebChart® account in order to make his/her own User Content available in a commercial context (for example, an app that allows an Uploader to deliver his/her User Content to an online retail store, or to his/her own ad-supported website, blog or social media profile).
+- any in-app purchases which allow access to content or features already available via the WebChart® platform;
+- any app that features any advertising, sponsorship or promotion around User Content or enables User Content (other than a user's own User Content) or WebChart® functionality to be embedded into the third party commercial services. The only exception to this would be an app that allows an Uploader to connect his/her WebChart® account in order to make his/her own User Content available in a commercial context (for example, an app that allows an Uploader to deliver his/her User Content to an online retail store, or to his/her own ad-supported website, blog or social media profile).
 
 Notwithstanding the above, MIE shall have the sole right to determine whether or not an app is acceptable, and we reserve the right to revoke API access for any app that we determine is not providing added benefit to WebChart® users and/or is not in the best interests of MIE or our users.
 

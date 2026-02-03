@@ -1,0 +1,101 @@
+{{- /* Sidebar navigation */}}
+<aside
+  id="sidebar"
+  class="border-border bg-background fixed top-16 bottom-0 left-0 z-40 w-72 border-r transition-transform duration-200 ease-in-out"
+  aria-label="Sidebar navigation"
+>
+  <div class="flex h-full flex-col">
+    {{- /* Sidebar content */}}
+    <nav class="flex-1 overflow-y-auto p-4" aria-label="Documentation navigation">
+      <ul class="space-y-1" role="list">
+        {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if .HasChildren }}
+        <li class="sidebar-item-group" data-name="{{ .Identifier }}">
+          <div class="sidebar-item-parent">
+            <button
+              class="sidebar-toggle flex h-8 w-8 shrink-0 items-center justify-center rounded-md"
+              aria-expanded="false"
+              data-target="nav-{{ .Identifier }}"
+              aria-label="Toggle {{ .Name }} submenu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-right transition-transform duration-200"
+                aria-hidden="true"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </button>
+            <a
+              href="{{ .URL }}"
+              class="sidebar-item-link{{ if eq $.Page.RelPermalink .URL }} active{{ end }}"
+              {{ if eq $.Page.RelPermalink .URL }}aria-current="page"{{ end }}
+            >{{ .Name }}</a>
+          </div>
+          {{ $temp := dict "menu" $.Site.Menus.main "page" $.Page "site" $.Site "entry" . "level" 1 }} {{ partial
+          "sidebar-nav.html" $temp }}
+        </li>
+        {{ else }}
+        <li>
+          <a
+            href="{{ .URL }}"
+            class="sidebar-item flex rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:bg-muted/80 {{ if eq $.Page.RelPermalink .URL }}bg-muted text-foreground border-l-2 border-primary{{ else }}text-foreground/90 hover:text-foreground{{ end }}"
+            data-name="{{ .Identifier }}"
+            {{
+            if
+            eq
+            $.Page.RelPermalink
+            .URL
+            }}aria-current="page"
+            {{
+            end
+            }}
+          >
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }} {{ end }}
+      </ul>
+    </nav>
+
+    {{- /* Sidebar footer */}}
+    <div class="border-border border-t p-4">
+      <div class="text-muted-foreground text-xs">
+        <p class="font-medium text-foreground">{{ .Site.Params.Brand.name }} Documentation</p>
+        <p class="mt-1">© {{ now.Year }} {{ .Site.Params.Brand.name }}</p>
+        
+        {{- /* Collapsible build info */}}
+        <details class="mt-2">
+          <summary class="cursor-pointer text-muted-foreground/70 hover:text-muted-foreground transition-colors">
+            Build Info
+          </summary>
+          <div class="mt-2 space-y-1 pl-2 border-l border-border">
+            {{- with .Site.Home }}
+            {{- with .Date }}
+            <p>Updated: {{ .Format "02 Jan 2006" }}</p>
+            {{- end }}
+            {{- end }}
+            <p>Built: {{ now.Format "02 Jan 2006 15:04 MST" }}</p>
+            {{- with .Site.Home.Params.wikigdrive }}
+            <p>WikiGDrive: <a href="https://github.com/mieweb/wikiGDrive/releases/tag/{{ . }}" class="text-primary hover:underline" target="_blank" rel="noopener">{{ . }}</a></p>
+            {{- end }}
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</aside>
+
+{{- /* Mobile sidebar overlay */}}
+<div
+  id="sidebar-overlay"
+  class="fixed inset-0 z-30 hidden bg-black/50 backdrop-blur-sm lg:hidden"
+  aria-hidden="true"
+></div>

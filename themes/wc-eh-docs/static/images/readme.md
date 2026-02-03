@@ -1,3 +1,0 @@
-# Images Directory
-
-tbd

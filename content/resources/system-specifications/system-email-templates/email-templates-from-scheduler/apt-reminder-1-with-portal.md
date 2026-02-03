@@ -1,14 +1,15 @@
 ---
-id: '1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
-title: 'Apt Reminder 1 with Portal'
-date: '2025-11-13T19:53:46.174Z'
+id: "1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc"
+title: "Apt Reminder 1 with Portal"
+date: "2025-11-13T19:53:46.174Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1vbZJxYSvKLYbSZKrjVhWmy_DO5wCxAjIgJEAlsiYoqc"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Reminder to Schedule Your Health Services Appointment
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Reminder to Schedule Appointment
 

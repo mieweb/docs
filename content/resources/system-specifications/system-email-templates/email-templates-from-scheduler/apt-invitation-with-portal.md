@@ -1,14 +1,15 @@
 ---
-id: '1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI'
-title: 'Apt Invitation with Portal'
-date: '2025-11-13T19:46:31.657Z'
+id: "1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI"
+title: "Apt Invitation with Portal"
+date: "2025-11-13T19:46:31.657Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1_9KLm_UcpM0vQsGlOxZaccnQouL1lLgfn-KU5PeP_DI"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Notice to Schedule your Health Surveillance Appointment
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Notice to Schedule Health Surveillance Appointment
 

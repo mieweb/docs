@@ -1,31 +1,33 @@
 ---
-id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-title: 'OAuth 2.0 Tutorial'
-date: '2026-01-29T00:59:51.914Z'
+id: "1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk"
+title: "OAuth 2.0 Tutorial"
+date: "2026-01-29T00:59:51.914Z"
 version: 945
-lastAuthor: 'pepperson'
-mimeType: 'text/x-markdown'
+lastAuthor: "pepperson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://url/.well-known/openid-configuration'
-  - 'https://url/fhir/.well-known/smart-configuration'
-  - 'https://github.com/mieweb/webchart-oauth-example'
-  - 'https://youtu.be/-YaW9Qa5wvc'
-  - 'http://hl7.org/fhir/smart-app-launch/app-launch.html'
-  - 'http://hl7.org/fhir/smart-app-launch/backend-services.html'
-  - 'https://fhirr4sandbox.fhir.webch.art/jwks'
-  - 'https://datatracker.ietf.org/doc/html/rfc7517'
-  - 'https://en.wikipedia.org/wiki/OpenID'
-  - 'https://oauth.net/2/'
-  - 'https://pm.mieweb.com/issues/106834'
-  - 'https://pm.mieweb.com/issues/71437'
-source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: 'v2.15.30'
+  - "https://url/.well-known/openid-configuration"
+  - "https://url/fhir/.well-known/smart-configuration"
+  - "https://github.com/mieweb/webchart-oauth-example"
+  - "https://youtu.be/-YaW9Qa5wvc"
+  - "http://hl7.org/fhir/smart-app-launch/app-launch.html"
+  - "http://hl7.org/fhir/smart-app-launch/backend-services.html"
+  - "https://fhirr4sandbox.fhir.webch.art/jwks"
+  - "https://datatracker.ietf.org/doc/html/rfc7517"
+  - "https://en.wikipedia.org/wiki/OpenID"
+  - "https://oauth.net/2/"
+  - "https://pm.mieweb.com/issues/106834"
+  - "https://pm.mieweb.com/issues/71437"
+source: "https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk"
+wikigdrive: "v2.15.30"
 ---
+
 # OAuth 2.0 Overview
 
 OAuth 2.0 is the industry standard for allowing external applications access to protected resources. See [References for more about OAuth](#references-for-more-about-oauth)
 
 OAuth 2.0 is a widely adopted standard that provides a secure method for external applications to access protected resources, such as user data, on behalf of the resource owner without needing to expose the user's credentials. It enables third-party apps to interact with systems like Electronic Health Records (EHRs) while maintaining strict privacy and security standards, especially within healthcare environments. OAuth 2.0 introduces workflows that cater to different use cases, ensuring flexible access management while aligning with specific healthcare and security requirements. These workflows include:
+
 <table>
 <tr>
 <td><img src="./oauth-2.0-tutorial.assets/0ea7b68fa0b53d9b3a3f57924ba3985e.png" /><br />
@@ -39,15 +41,15 @@ OAuth 2.0 is a widely adopted standard that provides a secure method for externa
 
 Each method is tailored to specific needs within healthcare, balancing security, patient privacy, and ease of access. These OAuth 2.0 workflows are crucial for creating an interoperable ecosystem that respects data protection principles while empowering healthcare providers and patients with innovative applications.
 
-* Patient
-    * Shared secret or PKCE for the app
-    * Session/Bearer token for each patient authorized to a specific app/patient/scope
-* Provider
-    * Provider clicks on a link in the chart. A JWT is created for the provider for the specific patient (signed by the WebChart system)
-    * Shared secret, Asymmetric client credentials or PKCE for app
-    * Session/Bearer token for each provider authorized to a specific app/for a specific patient/scope
-* Bulk
-    * A registered JWKS url allows JWTs from the app to be used in accessing pre-authorized system resources
+- Patient
+  - Shared secret or PKCE for the app
+  - Session/Bearer token for each patient authorized to a specific app/patient/scope
+- Provider
+  - Provider clicks on a link in the chart. A JWT is created for the provider for the specific patient (signed by the WebChart system)
+  - Shared secret, Asymmetric client credentials or PKCE for app
+  - Session/Bearer token for each provider authorized to a specific app/for a specific patient/scope
+- Bulk
+  - A registered JWKS url allows JWTs from the app to be used in accessing pre-authorized system resources
 
 ## Well Known Endpoint Information
 
@@ -152,7 +154,7 @@ The **smart-configuration** is a .well-known endpoint specific to SMART on FHIR,
    "permission-user",
    "context-banner",
    "context-style",
-], 
+],
 "code_challenge_methods_supported": ["S256"]
 }
 ```
@@ -182,6 +184,7 @@ curl -s -X POST "https://handle.url.com/register" \
 ```
 
 Response:
+
 ```
 {
   "client_id": "InfernoPub",
@@ -225,6 +228,7 @@ curl -s -X POST "https://handle.url.com/register" \
 ```
 
 Response:
+
 ```
 {
   "client_id": "DrummINF",
@@ -271,6 +275,7 @@ curl -s -X POST "https://handle.url.com/register" \
 ```
 
 Response:
+
 ```
 {
   "client_id": "InfAsym",
@@ -316,6 +321,7 @@ curl -s -X POST "https://handle.url.com/register" \
 ```
 
 Response:
+
 ```
 {
   "client_id": "BulkFHIR",
@@ -364,7 +370,7 @@ Example screenshot of Create/Edit Login Trust in webchart:
 
 ![](./oauth-2.0-tutorial.assets/640fd9675415a734b06608a084d759a1.png)
 
-Note: The "allowed options" does not have the checkbox for FHIR.  SQL is required to enable FHIR.
+Note: The "allowed options" does not have the checkbox for FHIR. SQL is required to enable FHIR.
 
 # Patient Standalone Launch
 
@@ -387,11 +393,11 @@ Typical scope for patients would be:
 
 ```
 
-* <strong>launch/patient</strong>: Indicates the app is launched by a patient and intends to retrieve patient-specific data.
-* <strong>openid</strong>: Required for OpenID Connect to authenticate the user and issue an ID token.
-* <strong>fhirUser</strong>: Allows the app to access FHIR resources associated with the user.
-* <strong>offline_access</strong>: Enables the app to request refresh tokens for long-term access to data.
-* <strong>patient/*.rs</strong>: Grants read access to all FHIR resources related to the patient.
+- <strong>launch/patient</strong>: Indicates the app is launched by a patient and intends to retrieve patient-specific data.
+- <strong>openid</strong>: Required for OpenID Connect to authenticate the user and issue an ID token.
+- <strong>fhirUser</strong>: Allows the app to access FHIR resources associated with the user.
+- <strong>offline_access</strong>: Enables the app to request refresh tokens for long-term access to data.
+- <strong>patient/\*.rs</strong>: Grants read access to all FHIR resources related to the patient.
 
 Example app: https://github.com/mieweb/webchart-oauth-example
 
@@ -450,6 +456,7 @@ Admins may revoke access to any applications previously granted access via the T
 URL: ?f=layout&module=Login&name=OAuthCodes
 
 ![](./oauth-2.0-tutorial.assets/1c635a0c5501b22f3688af9a5ba043cd.png)
+
 ## JWKS
 
 https://fhirr4sandbox.fhir.webch.art/jwks
@@ -467,6 +474,7 @@ While automatic App Registration via RFC 7591/7592 is the preferred method, apps
 ### Key Generation
 
 Application registration begins with generating a unique cryptographic key for the application. These keys will be used for each of the individual app types.
+
 ```
 $ openssl genrsa -out mykey.pem 2048
 Generating RSA private key, 2048 bit long modulus (2 primes)
@@ -489,7 +497,7 @@ epcpUTQ3XAj34ijjE+0sbzMTKD6ldb1Xzp7QGRXhsqt6bUqxBwaIm+S7iY/WLYA2
 ### Asymmetric Client (JWKS-based)
 
 ```
-INSERT INTO 
+INSERT INTO
 login_trusts (
   domain,              -- Client ID
   description,         -- Display name

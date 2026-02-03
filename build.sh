@@ -31,7 +31,7 @@ while [[ $# -gt 0 ]]; do
       then
         echo "Preview $1"
         mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
-        BASE_URL="http://localhost:$PORT/"
+        BASE_URL="http://localhost:$PORT/$1/"
         npx hugo server --config "config-$1.toml" --baseURL "$BASE_URL" $OPTS --port=$PORT &
         sleep 3
         echo "webserver running $1: http://localhost:$PORT/"

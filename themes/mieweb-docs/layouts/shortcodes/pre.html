@@ -1,0 +1,24 @@
+{{- /* Pre shortcode - code block with optional language and title */}}
+{{- $language := .Get "language" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- /* Clean the inner content - remove markdown code fences if present */ -}}
+{{- /* First strip leading fences, then trailing fences, handling various fence lengths */ -}}
+{{- $content := .Inner | replaceRE "(?s)^[\\s\\n]*````+[a-z]*[\\s\\n]*" "" | replaceRE "(?s)[\\s\\n]*````+[\\s\\n]*$" "" | strings.TrimSpace -}}
+{{- $content = $content | replaceRE "(?s)^[\\s\\n]*```+[a-z]*[\\s\\n]*" "" | replaceRE "(?s)[\\s\\n]*```+[\\s\\n]*$" "" | strings.TrimSpace -}}
+{{- /* Also remove any remaining single backticks at end that might be artifacts */ -}}
+{{- $content = $content | replaceRE "[\\s\\n]*`[\\s\\n]*$" "" | strings.TrimSpace -}}
+{{- /* Decode common HTML entities that may have come from source conversion */ -}}
+{{- $content = $content | replaceRE "&amp;" "&" | replaceRE "&#39;" "'" | replaceRE "&#34;" "\"" | replaceRE "&lt;" "<" | replaceRE "&gt;" ">" | replaceRE "&quot;" "\"" | replaceRE "&apos;" "'" -}}
+{{- /* Escape for HTML display - use safeHTML to prevent double-escaping */ -}}
+{{- $escaped := $content | htmlEscape | safeHTML -}}
+{{- if $title }}
+<div class="my-6 overflow-hidden rounded-lg border border-border">
+  <div class="flex items-center gap-2 bg-muted px-4 py-2 text-sm font-medium text-muted-foreground">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+    <span>{{ $title }}</span>
+  </div>
+  <pre class="m-0 rounded-none border-0 bg-muted p-4 text-sm overflow-x-auto"><code{{ if $language }} class="language-{{ $language }}"{{ end }}>{{ $escaped }}</code></pre>
+</div>
+{{- else }}
+<pre class="my-6 overflow-hidden rounded-lg border border-border bg-muted p-4 text-sm overflow-x-auto"><code{{ if $language }} class="language-{{ $language }}"{{ end }}>{{ $escaped }}</code></pre>
+{{- end -}}

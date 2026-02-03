@@ -1,0 +1,56 @@
+{{ define "main" }} {{ partial "header.html" . }}
+
+<div class="flex min-h-screen pt-16">
+  {{- /* Sidebar */}} {{ partial "sidebar.html" . }} {{- /* Main content area */}}
+  <main id="main-content" class="flex-1 overflow-auto flex flex-col" tabindex="-1">
+    <div class="px-4 py-8 lg:px-8 flex-1">
+      {{- /* Breadcrumbs */}} {{ partial "breadcrumbs.html" . }} {{- /* Page header */}}
+      <header class="border-border mb-8 border-b pb-6">
+        <h1 class="text-foreground text-3xl font-bold tracking-tight sm:text-4xl">{{ .Title }}</h1>
+        {{ with .Description }}
+        <p class="text-muted-foreground mt-3 text-lg">{{ . }}</p>
+        {{ end }}
+      </header>
+
+      {{- /* Content from _index.md */}} {{ if .Content }}
+      <article class="prose prose-neutral dark:prose-invert mb-8 max-w-none">{{ .Content | safeHTML }}</article>
+      {{ end }} {{- /* Children pages */}} {{ if .Pages }}
+      <section aria-label="Child pages">
+        <div class="grid gap-4 sm:grid-cols-2">
+          {{ range .Pages }}
+          <a href="{{ .RelPermalink }}" class="card card-interactive group p-6">
+            <div class="flex items-start justify-between">
+              <h3 class="text-foreground font-semibold">{{ .Title }}</h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right text-muted-foreground shrink-0 opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </div>
+            {{ with .Description }}
+            <p class="text-muted-foreground mt-2 line-clamp-2 text-sm">{{ . }}</p>
+            {{ end }}
+          </a>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+    </div>
+    
+    {{- /* Site Footer */}}
+    {{ partial "footer.html" . }}
+  </main>
+</div>
+
+{{- /* Search modal */}} {{ partial "search-modal.html" . }} {{ end }}

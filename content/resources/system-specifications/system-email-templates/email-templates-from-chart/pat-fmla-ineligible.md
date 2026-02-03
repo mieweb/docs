@@ -1,14 +1,15 @@
 ---
-id: '1UfrM69NpA-o675fdoeSSo_Th9dZuMBdgeBfPfNciYzY'
-title: 'Pat FMLA Ineligible'
-date: '2025-11-13T17:13:39.166Z'
+id: "1UfrM69NpA-o675fdoeSSo_Th9dZuMBdgeBfPfNciYzY"
+title: "Pat FMLA Ineligible"
+date: "2025-11-13T17:13:39.166Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1UfrM69NpA-o675fdoeSSo_Th9dZuMBdgeBfPfNciYzY'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1UfrM69NpA-o675fdoeSSo_Th9dZuMBdgeBfPfNciYzY"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: FMLA Ineligible for Frederick Anderson
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## FMLA Ineligible for Frederick Anderson
 

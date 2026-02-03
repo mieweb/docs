@@ -1,14 +1,15 @@
 ---
-id: '1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE'
-title: 'Pat MLOA Start'
-date: '2025-11-13T18:55:30.691Z'
+id: "1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE"
+title: "Pat MLOA Start"
+date: "2025-11-13T18:55:30.691Z"
 version: 27
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1acLPzvllmvBdxbihscuwBo2RfY9cNvuSOQ8i9YH4sBE"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Medical Leave of Absence for Frederick Anderson
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Medical Leave of Absence for Frederick Anderson
 

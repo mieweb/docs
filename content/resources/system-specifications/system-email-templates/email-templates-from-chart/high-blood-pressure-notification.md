@@ -1,13 +1,14 @@
 ---
-id: '1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
-title: 'High Blood Pressure Notification'
-date: '2020-02-27T20:37:48.697Z'
+id: "1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc"
+title: "High Blood Pressure Notification"
+date: "2020-02-27T20:37:48.697Z"
 version: 28
-mimeType: 'text/x-markdown'
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1HEXt4K8Vy8nBPN92jWcGC4od7qu8Jad54IIRJ5i94qc"
+wikigdrive: "v2.15.30"
 ---
+
 Dear Sally Sample,
 
 During a recent visit, we found that your blood pressure was elevated. Please stop by anytime at your convenience to allow us to recheck your blood pressure.

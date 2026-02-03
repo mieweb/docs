@@ -1,0 +1,129 @@
+{{- /* Feedback modal */}}
+<div
+  id="feedback-modal"
+  class="fixed inset-0 z-50 hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="feedback-modal-title"
+>
+  {{- /* Backdrop */}}
+  <div class="fixed inset-0 bg-black/50 backdrop-blur-sm" id="feedback-modal-backdrop"></div>
+
+  {{- /* Modal content */}}
+  <div class="fixed inset-x-4 top-[20%] mx-auto max-w-md">
+    <div class="card overflow-hidden shadow-2xl">
+      {{- /* Header */}}
+      <div class="border-border bg-primary flex items-center justify-between border-b px-6 py-4">
+        <h2 id="feedback-modal-title" class="text-lg font-semibold text-white">Send Feedback</h2>
+        <button
+          id="feedback-modal-close"
+          class="flex h-8 w-8 items-center justify-center rounded-md text-white/80 transition-colors hover:bg-white/10 hover:text-white focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:outline-none"
+          aria-label="Close modal"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x"
+            aria-hidden="true"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
+
+      {{- /* Body */}}
+      <form id="feedback-form" class="p-6">
+        <div class="space-y-4">
+          <div>
+            <label for="feedback-email" class="form-label">Your Email</label>
+            <input
+              type="email"
+              id="feedback-email"
+              name="email"
+              class="form-input"
+              placeholder="you@example.com"
+              autocomplete="email"
+            />
+            <p class="text-destructive mt-1 hidden text-sm" id="feedback-email-error" role="alert">
+              Please enter a valid email address.
+            </p>
+          </div>
+
+          <div>
+            <label for="feedback-message" class="form-label">Message <span class="text-destructive">*</span></label>
+            <textarea
+              id="feedback-message"
+              name="message"
+              rows="4"
+              class="form-input"
+              placeholder="What could we improve?"
+              required
+            ></textarea>
+            <p class="text-destructive mt-1 hidden text-sm" id="feedback-message-error" role="alert">
+              Please provide a message.
+            </p>
+          </div>
+        </div>
+
+        {{- /* Footer */}}
+        <div class="mt-8 flex justify-end gap-3">
+          <button type="button" id="feedback-cancel" class="inline-flex btn btn-secondary">Cancel</button>
+          <button type="submit" class="inline-flex btn btn-primary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-send"
+              aria-hidden="true"
+            >
+              <path
+                d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+              />
+              <path d="m21.854 2.147-10.94 10.939" />
+            </svg>
+            Send Feedback
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{- /* Toast notification for feedback */}}
+<div id="toast" class="toast hidden" role="status" aria-live="polite">
+  <div class="toast-content">
+    <div id="toast-icon" class="toast-icon toast-icon-success">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-check-circle-2"
+        aria-hidden="true"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <path d="m9 12 2 2 4-4" />
+      </svg>
+    </div>
+    <p id="toast-message" class="toast-message">Thank you for your feedback!</p>
+  </div>
+</div>

@@ -1,14 +1,15 @@
 ---
-id: '1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k'
-title: 'Pat FMLA Approved Supervisor'
-date: '2025-11-13T17:01:32.201Z'
+id: "1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k"
+title: "Pat FMLA Approved Supervisor"
+date: "2025-11-13T17:01:32.201Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1ahK11TnjyA6KV8Ss8B8822lL6hGpBlZ4CDoaYg6aS4k"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: FMLA Approved for Frederick Anderson
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## FMLA Approved for Frederick Anderson
 

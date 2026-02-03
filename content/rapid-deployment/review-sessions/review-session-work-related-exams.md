@@ -1,44 +1,45 @@
 ---
-id: '17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU'
-title: 'Review Session - Work-Related Exams'
-date: '2021-08-27T17:37:27.880Z'
+id: "17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU"
+title: "Review Session - Work-Related Exams"
+date: "2021-08-27T17:37:27.880Z"
 version: 46
-lastAuthor: ''
-mimeType: 'text/x-markdown'
+lastAuthor: ""
+mimeType: "text/x-markdown"
 links:
-  - 'https://system/?func=omniscope'
-  - 'https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types'
-  - 'https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events'
-  - 'https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager'
-  - '../../functions/medication-management-and-e-prescribing/travel-kits.md'
-  - '../../functions/system-administration/interfaces/signature-pad-device.md'
-source: 'https://drive.google.com/open?id=17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU'
-wikigdrive: 'v2.15.30'
+  - "https://system/?func=omniscope"
+  - "https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types"
+  - "https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events"
+  - "https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager"
+  - "../../functions/medication-management-and-e-prescribing/travel-kits.md"
+  - "../../functions/system-administration/interfaces/signature-pad-device.md"
+source: "https://drive.google.com/open?id=17GYvErZHrcvNE8193h9Mdi8c3XqT4Xuva_F07Zj_ECU"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>Work-Related Exams Demonstration</strong>
-* <strong>Overview</strong>
-    * <strong>Driver Fitness Determination (DOT)</strong>
-    * <strong>Pre-Placement Management</strong>
-    * <strong>Travel Management</strong>
-* <strong>Security Role Permissions</strong>
-* <strong>System Configuration</strong>
-    * <strong>DOT Appointment Type</strong>
-    * <strong>DOT Health Surveillance Panel</strong>
-    * <strong>Pre-Placement Chart Registration/Partition</strong>
-    * <strong>Pre-Placement Appointment Type</strong>
-    * <strong>Pre-Placement Health Surveillance Panel</strong>
-    * <strong>Travel Consult Appointment Type</strong>
-    * <strong>Encounter Stages</strong>
-    * <strong>Open Encounter Worklists</strong>
-    * <strong>Print Definitions</strong>
-    * <strong>Travel Questionnaire</strong>
-    * <strong>Employee Portal</strong>
-    * <strong>Travel Kits</strong>
-    * <strong>Pre-Placement/Applicant Portal</strong>
-    * <strong>Electronic Signature Pad Integration</strong>
-* <strong>Resources</strong>
+- <strong>Work-Related Exams Demonstration</strong>
+- <strong>Overview</strong>
+  - <strong>Driver Fitness Determination (DOT)</strong>
+  - <strong>Pre-Placement Management</strong>
+  - <strong>Travel Management</strong>
+- <strong>Security Role Permissions</strong>
+- <strong>System Configuration</strong>
+  - <strong>DOT Appointment Type</strong>
+  - <strong>DOT Health Surveillance Panel</strong>
+  - <strong>Pre-Placement Chart Registration/Partition</strong>
+  - <strong>Pre-Placement Appointment Type</strong>
+  - <strong>Pre-Placement Health Surveillance Panel</strong>
+  - <strong>Travel Consult Appointment Type</strong>
+  - <strong>Encounter Stages</strong>
+  - <strong>Open Encounter Worklists</strong>
+  - <strong>Print Definitions</strong>
+  - <strong>Travel Questionnaire</strong>
+  - <strong>Employee Portal</strong>
+  - <strong>Travel Kits</strong>
+  - <strong>Pre-Placement/Applicant Portal</strong>
+  - <strong>Electronic Signature Pad Integration</strong>
+- <strong>Resources</strong>
 
 ## Overview
 
@@ -46,17 +47,17 @@ wikigdrive: 'v2.15.30'
 
 {{% system-name %}} offers a **Driver Fitness Determination** encounter, often referred to as a DOT encounter, which is modeled off of the Medical Examination Report for Commercial Driver Fitness Determination, FMCSA Form 649-F. The {{% system-name %}} Driver Fitness Determination (DOT) encounter allows clinicians to document electronically and discretely the various components needed to complete a standard paper Form 649-F. Using the {{% system-name %}} DOT encounter provides electronic data capturing using predefined and structured text, which is coded for easier data retrieval, meaning the captured data can be programmed to overlay forms in order to print, fax, submit, and/or provide copies to drivers. The ability to print with data captured overlaid upon the necessary DOT forms saves clinicians valuable time by reducing duplicative work, such as handwriting the same observations on a paper form, which were just previously recorded, electronically.
 
-Additional enhanced usability features include the *Health History* and *Physical Examination* encounter sections, which will prefill previous exam information, so clinicians can quickly review previous documentation and determine whether it still applies, or if new findings need recorded at the time of the examination. Similarly, other sections of the encounter, such as qualifications text or determination instructions, can be hidden/shown, as needed, using a convenient toggle feature. And any open DOT encounters can be managed using the **My Open Encounters** [Quick View](https://system/?func=omniscope) portlet, whenever necessary.
+Additional enhanced usability features include the _Health History_ and _Physical Examination_ encounter sections, which will prefill previous exam information, so clinicians can quickly review previous documentation and determine whether it still applies, or if new findings need recorded at the time of the examination. Similarly, other sections of the encounter, such as qualifications text or determination instructions, can be hidden/shown, as needed, using a convenient toggle feature. And any open DOT encounters can be managed using the **My Open Encounters** [Quick View](https://system/?func=omniscope) portlet, whenever necessary.
 
-Once the examination is completed and all documentation is accounted for, the *Print DOT Forms* section can be used to access and print (with data overlaid) any necessary forms. Options include:
+Once the examination is completed and all documentation is accounted for, the _Print DOT Forms_ section can be used to access and print (with data overlaid) any necessary forms. Options include:
 
-* Driver Fitness Determination-Federal
-* Driver Fitness Determination-State
-* Driver Fitness Determination-Certificate
+- Driver Fitness Determination-Federal
+- Driver Fitness Determination-State
+- Driver Fitness Determination-Certificate
 
 ### Pre-Placement Management
 
-Another work-related encounter offered by {{% system-name %}} is the **Pre-Placement Exam** encounter, used for documenting pre-placement, applicant, or pre-hire exams. This encounter can be used by clinicians and staff to document and record discretely all of the requirements and data relevant to the placement of new or transferring candidates. The varying encounter sections help guide users through what actions are needed, or what tests/procedures need completed, according to the specific type of Pre-Placement Exam being performed. For instance, the *Tests & Procedures* encounter section shows all pending items needing performed for the exam in context. This list is known as the Due List, which provides visibility to exactly what needs addressed and performed.
+Another work-related encounter offered by {{% system-name %}} is the **Pre-Placement Exam** encounter, used for documenting pre-placement, applicant, or pre-hire exams. This encounter can be used by clinicians and staff to document and record discretely all of the requirements and data relevant to the placement of new or transferring candidates. The varying encounter sections help guide users through what actions are needed, or what tests/procedures need completed, according to the specific type of Pre-Placement Exam being performed. For instance, the _Tests & Procedures_ encounter section shows all pending items needing performed for the exam in context. This list is known as the Due List, which provides visibility to exactly what needs addressed and performed.
 
 Considering common workflows and communication, the {{% system-name %}} Pre-Placement Exam encounter also includes a means for sharing a provider's written opinion to supervisors, whenever necessary. Additionally, for clients requiring specific drug screenings as part of the pre-placement process, {{% system-name %}} allows configuration of not only what requirements and data need captured, but also which users or individuals may have visibility to this data. As for any open Pre-Placement Exam encounters, they can be managed from the **Pre-Placement Exam Worklist** [Quick View](https://system/?func=omniscope) portlet, as needed.
 
@@ -70,9 +71,9 @@ The Travel Management module allows staff to review and forward on requests for 
 
 The following security permissions must be reviewed in order to establish which security roles or individual users should have permissions for performing the necessary functions of work-related exams, pre-placement, and travel needs.
 
-* <strong>Meds Manage</strong>: Allows access to the Meds Manager control menu. Select <strong>Yes</strong> to provide administrators the ability to manage travel kits, as needed.
-* <strong>Manage Observations</strong>: Depending on the level of permission, this setting will allow users to add observations and data to encounters. A minimum of <strong>Add</strong> permission is required to allow documentation within encounters. <em>Edit</em> and <em>Delete</em> permission is also acceptable; however, understand that <em>Edit</em> permission allows for adding and editing observations, and <em>Delete</em> permission allows for adding, editing, and deleting observations from documentation.
-* <strong>Access DB Records via JSON API</strong>: Allows access to the JSON API. Set to <strong>Yes</strong>. This setting is required in order to allow users to document data in work-related encounters.
+- <strong>Meds Manage</strong>: Allows access to the Meds Manager control menu. Select <strong>Yes</strong> to provide administrators the ability to manage travel kits, as needed.
+- <strong>Manage Observations</strong>: Depending on the level of permission, this setting will allow users to add observations and data to encounters. A minimum of <strong>Add</strong> permission is required to allow documentation within encounters. <em>Edit</em> and <em>Delete</em> permission is also acceptable; however, understand that <em>Edit</em> permission allows for adding and editing observations, and <em>Delete</em> permission allows for adding, editing, and deleting observations from documentation.
+- <strong>Access DB Records via JSON API</strong>: Allows access to the JSON API. Set to <strong>Yes</strong>. This setting is required in order to allow users to document data in work-related encounters.
 
 ## System Configuration
 
@@ -80,7 +81,7 @@ The following security permissions must be reviewed in order to establish which 
 
 In addition to the Driver Fitness Determination encounter, the {{% system-name %}} system contains a standard Driver Fitness Determination (DOT) appointment type, which is set to a duration of 30 minutes, by default. This appointment type is configured to generate a Driver Fitness Determination encounter, when using the One-Click Checkin functionality.
 
-If using DOT appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if DOT exams will be performed as walk-ins, or on-demand, it is recommended that the Driver Fitness Determination encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the *Summary* chart tab.
+If using DOT appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if DOT exams will be performed as walk-ins, or on-demand, it is recommended that the Driver Fitness Determination encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the _Summary_ chart tab.
 
 ### DOT Health Surveillance Panel
 
@@ -90,9 +91,9 @@ The {{% system-name %}} system is set up with a Driver Fitness Determination (DO
 
 Before taking on any Pre-Placement configurations and utilizing the available functions, it is important to discuss all pre-placement workflows and business needs with the deployment specialist. Understanding the best options available takes communicating all pre-placement requirements, as they relate to current workflows and future-state expectations. For instance, scoping interface needs will require an understanding of the current HR system being used, as well as the current processes enacted when candidates are screened and hired. Types of questions to consider:
 
-* Is there an established interface between the legacy EHR and HR systems? What are the workflows associated with this interfacing?
-* Are applicants and/or hired employees only entered into the current HR system?
-* Are applicants <em>and</em> employees housed in the HR system, exclusively, or will partitions need to be configured in the EHR for differentiating applicants from hired employees?
+- Is there an established interface between the legacy EHR and HR systems? What are the workflows associated with this interfacing?
+- Are applicants and/or hired employees only entered into the current HR system?
+- Are applicants <em>and</em> employees housed in the HR system, exclusively, or will partitions need to be configured in the EHR for differentiating applicants from hired employees?
 
 Once discussions regarding pre-placement needs conclude, partitions and charts can be scoped and configured according to interface requirements.
 
@@ -100,7 +101,7 @@ Once discussions regarding pre-placement needs conclude, partitions and charts c
 
 The {{% system-name %}} system contains a standard Pre-Placement Exam appointment type, which is set to a duration of 1 hour, by default. This appointment type is configured to generate a Pre-Placement Exam encounter, when using the One-Click Checkin functionality.
 
-If using Pre-Placement appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if Pre-Placement exams will be performed as walk-ins, or on-demand, it is recommended that the Pre-Placement encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the *Summary* chart tab.
+If using Pre-Placement appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if Pre-Placement exams will be performed as walk-ins, or on-demand, it is recommended that the Pre-Placement encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the _Summary_ chart tab.
 
 ### Pre-Placement Health Surveillance Panel
 
@@ -112,7 +113,7 @@ It is recommended that for clients with pre-placement exams corresponding to rul
 
 The {{% system-name %}} system also contains a standard Travel Consult appointment type, which is set to a duration of 1 hour, by default. This appointment type is configured to generate a Travel Consult encounter when using the One-Click Checkin functionality.
 
-If using Travel Consult appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if Travel Consult exams will be performed as walk-ins, or on-demand, it is recommended that the Travel Consult encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the *Summary* chart tab.
+If using Travel Consult appointment types and encounters, it is important to review the default configurations, to ensure triggers and general functionality align with the business needs. Additionally, if Travel Consult exams will be performed as walk-ins, or on-demand, it is recommended that the Travel Consult encounter be set as a Quick Add from the [Encounter Types editor](https://system/?f=chart&s=encvteditor&t=Encounter+Types&tabmodule=admin&tabselect=Encounter+Types). This will make adding the encounter from any chart easier, making the link more accessible from the **Quick Links** portlet of the _Summary_ chart tab.
 
 ### Encounter Stages
 
@@ -120,7 +121,7 @@ Depending on prescribed workflows, encounters may need various stages defined in
 
 ### Open Encounter Worklists
 
-As noted in the Overview, there are varying portlets available to assist users in tracking any open encounters. Thought it is very important to regularly Close & Archive completed encounters, it is understood that work-related encounters will sometimes remain open for various periods of time, requiring additional or supporting documentation. For this reason, the portlets of the Quick View provide users a means to quickly and easily track outstanding encounters. While the *My Open Encounters*, *Pre-Placement Exam Worklist*, and *Travel Consult Worklist* portlets were discussed, there is also the **Clinic Worklist** portlet available. The *Clinic Worklist* portlet can be used to filter down to the appropriate encounter (e.g., Travel Consult, Pre-Placement, Driver Fitness Determination) or stage, as needed.
+As noted in the Overview, there are varying portlets available to assist users in tracking any open encounters. Thought it is very important to regularly Close & Archive completed encounters, it is understood that work-related encounters will sometimes remain open for various periods of time, requiring additional or supporting documentation. For this reason, the portlets of the Quick View provide users a means to quickly and easily track outstanding encounters. While the _My Open Encounters_, _Pre-Placement Exam Worklist_, and _Travel Consult Worklist_ portlets were discussed, there is also the **Clinic Worklist** portlet available. The _Clinic Worklist_ portlet can be used to filter down to the appropriate encounter (e.g., Travel Consult, Pre-Placement, Driver Fitness Determination) or stage, as needed.
 
 Review current workflows and determine what users or security roles need any of the listed portlets. Though portlets can be manually added or removed at any time, specific roles can be configured with specific portlets, according to their standard responsibilities.
 
@@ -136,13 +137,13 @@ As with standard appointments, work-related exams may require some necessary pap
 
 As noted above, the {{% system-name %}} system supports allowing employees to complete and submit travel questionnaires from a personalized employee portal. This means that clinical staff can be notified of any travel request, via an automated task, triggered by the completion of the Travel Questionnaire on the employee portal (found in the Message Center).
 
-If interested in utilizing the employee portal, particularly with the Travel Questionnaire, configuration must be done for the portal's Message Center, as well as Tasklist Events. This means the **Send a Message** portlet must be enabled, which can be done from the *Employee Portal* tab of the Employer Organization chart. Once enabled, the *Allowed Message Types for Sending Within Portal* needs to include **Travel Questionnaire**. This ensures portal users have the ability to send completed travel questionnaires, as needed. In order to notify the appropriate department of incoming travel requests and questionnaires, the [Tasklist Events](https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events) need updated and configured accordingly, as well.
+If interested in utilizing the employee portal, particularly with the Travel Questionnaire, configuration must be done for the portal's Message Center, as well as Tasklist Events. This means the **Send a Message** portlet must be enabled, which can be done from the _Employee Portal_ tab of the Employer Organization chart. Once enabled, the _Allowed Message Types for Sending Within Portal_ needs to include **Travel Questionnaire**. This ensures portal users have the ability to send completed travel questionnaires, as needed. In order to notify the appropriate department of incoming travel requests and questionnaires, the [Tasklist Events](https://system/?f=tlist&s=tl_events&tabmodule=tasklist&tabselect=Tasklist+Events) need updated and configured accordingly, as well.
 
 ### Travel Kits
 
 Travel Kits, otherwise known as Medication Kits, are pre-templated groupings of common and/or preventative medications needed for varying types of travel, which can be prescribed from the {{% system-name %}} Travel Management module. These are typically prescribed for travellers frequenting different countries or travelling often, who may need medications without interruption, or such medications that help with motion sickness, diarrhea, or problems sleeping, for example. These kits are configured and available for easy ordering from the {{% system-name %}} system and should not be confused with a pre-travel request for pre-travel requirements.
 
-Clients should be sure to review the current list of existing Travel Kits by navigating to the [Meds Manager menu](https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager) of the Control Panel. Use the **Select Meds Editor** dropdown in the upper-right corner to select *Kits*. The existing kits will populate in the Medication Kits table. Here kit items can be viewed, edited, or kits, in general, can be added, as needed. Using the links in the Options column, view or add kit items by clicking **Items**; otherwise, click the **Edit** link to change the name or description of the kit or to make it active/inactive. To add a new kit, click the **Add Kit** link. For more detailed information on usage or setup, see the [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.md) documentation.
+Clients should be sure to review the current list of existing Travel Kits by navigating to the [Meds Manager menu](https://system/?f=admin&s=medsmanage&tabmodule=admin&tabselect=Meds+Manager) of the Control Panel. Use the **Select Meds Editor** dropdown in the upper-right corner to select _Kits_. The existing kits will populate in the Medication Kits table. Here kit items can be viewed, edited, or kits, in general, can be added, as needed. Using the links in the Options column, view or add kit items by clicking **Items**; otherwise, click the **Edit** link to change the name or description of the kit or to make it active/inactive. To add a new kit, click the **Add Kit** link. For more detailed information on usage or setup, see the [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.md) documentation.
 
 ### Pre-Placement/Applicant Portal
 
@@ -160,5 +161,5 @@ When using approved Topaz Signature Pad devices, {{% system-name %}} can capture
 
 ### Help Documentation
 
-* [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.md)
-* [Signature Pad Device](../../functions/system-administration/interfaces/signature-pad-device.md)
+- [Travel Kits](../../functions/medication-management-and-e-prescribing/travel-kits.md)
+- [Signature Pad Device](../../functions/system-administration/interfaces/signature-pad-device.md)

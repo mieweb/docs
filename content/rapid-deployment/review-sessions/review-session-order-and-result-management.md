@@ -1,68 +1,69 @@
 ---
-id: '1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-title: 'Review Session - Order and Result Management'
-date: '2024-02-14T23:47:45.773Z'
+id: "1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU"
+title: "Review Session - Order and Result Management"
+date: "2024-02-14T23:47:45.773Z"
 version: 69
-lastAuthor: 'squarterman'
-mimeType: 'text/x-markdown'
+lastAuthor: "squarterman"
+mimeType: "text/x-markdown"
 links:
-  - 'https://system/?f=orders&s=list_editor&t=List+Editor&tabmodule=admin&tabselect=Orders-List+Editor'
-  - 'https://system/?f=orders&s=order_panels&t=Order+Panels&tabmodule=admin&tabselect=Orders-Panels'
-  - 'https://system/?f=layout&module=PicklistOrders&name=PicklistEditor&tabmodule=admin&tabselect=Orders-Pick+Builder&tabmodule=admin&tabselect=Orders-Pick+Builder'
-  - 'https://system/?f=admin&subfunc=obscodes_manager&t=Observation+Codes&tabmodule=admin&tabselect=Observation+Codes'
-  - 'https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet'
-  - '../../functions/order-and-result-management/observation-flowsheets.md'
-  - '../../functions/system-configuration/document-type-tab.md'
-  - 'https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types'
-  - '../../functions/e-chart/patient-summary-interactive-chart-tab.md'
-  - '../../functions/document-management/printing-and-print-definitions/label-printing-feature.md'
-  - 'https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager'
-  - '../../functions/system-configuration/locations-management.md'
-  - 'https://system/?f=layout&module=reports&name=reports&tabmodule=reports'
-  - 'https://system/?f=layout&module=reports&name=Utilization&tabmodule=reports&t=Utilization&tabmodule=reports&tabselect=Utilization'
-  - 'https://system/?f=layout&module=reports&name=Orders&tabmodule=reports&t=Orders&tabmodule=reports&tabselect=Orders'
-  - '../../functions/order-and-result-management/e-orders-refer-to-advanced-search.md'
-  - '../../functions/order-and-result-management/e-orders-add-order-requests.md'
-  - '../../functions/order-and-result-management/order-requests-grid.md'
-  - '../../functions/order-and-result-management/e-orders-chart-tab.md'
-  - '../../functions/order-and-result-management/orders-view-recent.md'
-  - '../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md'
-  - '../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md'
-  - '../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md'
-  - '../../functions/health-surveillance/due-list.md'
-  - 'https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound'
-  - 'https://www.mieweb.com/wiki/Lab_Result_CSV_API'
-  - 'https://www.mieweb.com/wiki/Sending_HL7_Messages_To_WebChart'
-  - '../../functions/reports/orders-due-report.md'
-  - '../../functions/reports/orders-usage-report.md'
-  - '../../functions/order-and-result-management/observation-codes-editor.md'
-  - '../../functions/order-and-result-management/observation-code-merging.md'
-  - '../../functions/order-and-result-management/observations-tab.md'
-source: 'https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU'
-wikigdrive: 'v2.15.30'
+  - "https://system/?f=orders&s=list_editor&t=List+Editor&tabmodule=admin&tabselect=Orders-List+Editor"
+  - "https://system/?f=orders&s=order_panels&t=Order+Panels&tabmodule=admin&tabselect=Orders-Panels"
+  - "https://system/?f=layout&module=PicklistOrders&name=PicklistEditor&tabmodule=admin&tabselect=Orders-Pick+Builder&tabmodule=admin&tabselect=Orders-Pick+Builder"
+  - "https://system/?f=admin&subfunc=obscodes_manager&t=Observation+Codes&tabmodule=admin&tabselect=Observation+Codes"
+  - "https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet"
+  - "../../functions/order-and-result-management/observation-flowsheets.md"
+  - "../../functions/system-configuration/document-type-tab.md"
+  - "https://system/?f=chart&s=dteditor&t=Document+Types&tabmodule=admin&tabselect=Document+Types"
+  - "../../functions/e-chart/patient-summary-interactive-chart-tab.md"
+  - "../../functions/document-management/printing-and-print-definitions/label-printing-feature.md"
+  - "https://system/?f=chart&s=leditor&tabmodule=admin&tabselect=Locations+Manager"
+  - "../../functions/system-configuration/locations-management.md"
+  - "https://system/?f=layout&module=reports&name=reports&tabmodule=reports"
+  - "https://system/?f=layout&module=reports&name=Utilization&tabmodule=reports&t=Utilization&tabmodule=reports&tabselect=Utilization"
+  - "https://system/?f=layout&module=reports&name=Orders&tabmodule=reports&t=Orders&tabmodule=reports&tabselect=Orders"
+  - "../../functions/order-and-result-management/e-orders-refer-to-advanced-search.md"
+  - "../../functions/order-and-result-management/e-orders-add-order-requests.md"
+  - "../../functions/order-and-result-management/order-requests-grid.md"
+  - "../../functions/order-and-result-management/e-orders-chart-tab.md"
+  - "../../functions/order-and-result-management/orders-view-recent.md"
+  - "../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md"
+  - "../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md"
+  - "../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md"
+  - "../../functions/health-surveillance/due-list.md"
+  - "https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound"
+  - "https://www.mieweb.com/wiki/Lab_Result_CSV_API"
+  - "https://www.mieweb.com/wiki/Sending_HL7_Messages_To_WebChart"
+  - "../../functions/reports/orders-due-report.md"
+  - "../../functions/reports/orders-usage-report.md"
+  - "../../functions/order-and-result-management/observation-codes-editor.md"
+  - "../../functions/order-and-result-management/observation-code-merging.md"
+  - "../../functions/order-and-result-management/observations-tab.md"
+source: "https://drive.google.com/open?id=1FudJugExyRigdADyiv5Wo8TbTUWo5of7YmQdUM_atuU"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>Order and Result Management Demonstration</strong>
-* <strong>Overview</strong>
-* <strong>System Configuration</strong>
-    * <strong>Orderable Items</strong>
-    * <strong>Order Panels</strong>
-    * <strong>Order Picklists</strong>
-        * <strong>Restricted Sets</strong>
-    * <strong>Observation Flowsheets</strong>
-    * <strong>Document Types</strong>
-    * <strong>Results Encounter</strong>
-    * <strong>Order Request Document</strong>
-    * <strong>Order Quick Links Portlet</strong>
-    * <strong>Refer To Field of Order Requests</strong>
-    * <strong>PIN Authentication</strong>
-    * <strong>Order Request Routing and Tracking</strong>
-    * <strong>Order Request Label</strong>
-    * <strong>HL7 Lab Interface</strong>
-    * <strong>System Settings</strong>
-* <strong>Reporting</strong>
-* <strong>Resources</strong>
+- <strong>Order and Result Management Demonstration</strong>
+- <strong>Overview</strong>
+- <strong>System Configuration</strong>
+  - <strong>Orderable Items</strong>
+  - <strong>Order Panels</strong>
+  - <strong>Order Picklists</strong>
+    - <strong>Restricted Sets</strong>
+  - <strong>Observation Flowsheets</strong>
+  - <strong>Document Types</strong>
+  - <strong>Results Encounter</strong>
+  - <strong>Order Request Document</strong>
+  - <strong>Order Quick Links Portlet</strong>
+  - <strong>Refer To Field of Order Requests</strong>
+  - <strong>PIN Authentication</strong>
+  - <strong>Order Request Routing and Tracking</strong>
+  - <strong>Order Request Label</strong>
+  - <strong>HL7 Lab Interface</strong>
+  - <strong>System Settings</strong>
+- <strong>Reporting</strong>
+- <strong>Resources</strong>
 
 ## Overview
 
@@ -74,12 +75,12 @@ Additional functionality includes built-in flexibility, so that clients may addr
 
 Standard functionality includes:
 
-* Order creation from chart or visit encounter
-* Print/fax/electronically transmit orders and results
-* Health Surveillance Membership Due List
-* Specimen label printing
-* Order tracking
-* Flowsheet templates
+- Order creation from chart or visit encounter
+- Print/fax/electronically transmit orders and results
+- Health Surveillance Membership Due List
+- Specimen label printing
+- Order tracking
+- Flowsheet templates
 
 ## System Configuration
 
@@ -101,7 +102,7 @@ While in the Orders-List Editor, review all order items provided in the {{% syst
 
 Order Panels are specific groupings of orderable items, not to be confused with Health Surveillance Panels. Order Panels consist of multiple orderable items, which tend to be routinely ordered together, or as a bundle. This allows users to order routine tests/procedures by way of one panel, rather than multiple, individual orders.
 
-For instance, a practice may regularly order the Drug Screen Panel 5, which tests for Amphetamines, Cocaine Metabolite, Marijuana, Opiates, and PCP (Phencyclidine). However, the practice may have a new client (e.g., Better Corp) that regularly requests Barbiturates be included for their drug screening requirements. Rather than individually order each screening, the practice can create a new Order Panel, which they maybe call *Better Corp Drug Screen*, including all six (6) of the necessary screenings. This can, then, be ordered for each patient, making ordering multiple routine tests and/or procedures fast and easy, saving time and improving efficiency.
+For instance, a practice may regularly order the Drug Screen Panel 5, which tests for Amphetamines, Cocaine Metabolite, Marijuana, Opiates, and PCP (Phencyclidine). However, the practice may have a new client (e.g., Better Corp) that regularly requests Barbiturates be included for their drug screening requirements. Rather than individually order each screening, the practice can create a new Order Panel, which they maybe call _Better Corp Drug Screen_, including all six (6) of the necessary screenings. This can, then, be ordered for each patient, making ordering multiple routine tests and/or procedures fast and easy, saving time and improving efficiency.
 
 Using the [Orders-Panel tab](https://system/?f=orders&s=order_panels&t=Order+Panels&tabmodule=admin&tabselect=Orders-Panels) of the **Control Panel**, create all Order Panels relevant to the prescribed workflows and needs of the business. Once the necessary Order Panels are created, it is important to review the layout of the generated order requisition when using Order Panels. This requisition will display the components of the Order Panel, along with the relevant information needed for processing.
 
@@ -111,12 +112,12 @@ Order Picklists provide another method for expediting the ordering process in {{
 
 While in the Orders-Pick Builder, use the **Set Filter** dropdown to view each of the categories and associated orderable items. Viewing the various sets available, it can be seen that Picklists simply allow users to more easily find orderable items by common categories, or groupings. New picklists can be added, or the available picklists can be edited as needed, to align with any prescribed workflows and business needs. For instance, create order picklists to simplify the ordering needs associated with lab orders, radiology orders, PT/OT, referrals, etc. Or at the very least, build order picklists according to any order forms or requisitions currently in place.
 
-Similarly, any possible in-house testing can include those orderable items performed in-house to be added to the *In House Testing* picklist. This means that clients should review and edit the orderable items in the *In House Testing* picklist to reflect all testing performed and resulted in-house. This is also important, because the Tests & Procedures encounter section defaults to this picklist when ordering a test or procedure during a visit, and therefore should remain in the system.
+Similarly, any possible in-house testing can include those orderable items performed in-house to be added to the _In House Testing_ picklist. This means that clients should review and edit the orderable items in the _In House Testing_ picklist to reflect all testing performed and resulted in-house. This is also important, because the Tests & Procedures encounter section defaults to this picklist when ordering a test or procedure during a visit, and therefore should remain in the system.
 
-Like the *In House Testing* picklist, the *Recommendations* picklist should remain in the system, as well. The contents of the picklist can be edited according to workflow needs and client requirements. The Recommendations encounter section defaults to this picklist when ordering a recommendation to document during the visit.
+Like the _In House Testing_ picklist, the _Recommendations_ picklist should remain in the system, as well. The contents of the picklist can be edited according to workflow needs and client requirements. The Recommendations encounter section defaults to this picklist when ordering a recommendation to document during the visit.
 
 {{% info %}}
-There are three picklists used for employee and employer portals: *Bulk Orders*, *Portal Messages*, and *Supervisor Messages*. These picklists can be tweaked to meet workflow needs and client requirements, but they should remain in the system, as well.
+There are three picklists used for employee and employer portals: _Bulk Orders_, _Portal Messages_, and _Supervisor Messages_. These picklists can be tweaked to meet workflow needs and client requirements, but they should remain in the system, as well.
 {{% /info %}}
 
 #### Restricted Sets
@@ -132,7 +133,7 @@ In {{% system-name %}} , observation flowsheets are used for adding and tracking
 To result orders via flowsheets requires a little configuration, but at the same time, provides a convenient way to quickly result and record clinical data. Orders can be created to match a flowsheet, and through establishing the specific layout for the order, can be pulled in and used within encounters to result, record, and update stored observations. However, resulting orders does not always have to be done via a flowsheet. When creating the relevant order item in the Orders-List Editor, rather than mapping the order to a specific flowsheet and layout, select **None**. This will not link a specific layout to the order item, meaning a generic free-text field will be available whenever resulting that specific order item.
 
 {{% info %}}
-Observation flowsheet names must match order names *exactly*, in order for the flowsheet to appear to users for data entry, or when resulting orders in encounters.
+Observation flowsheet names must match order names _exactly_, in order for the flowsheet to appear to users for data entry, or when resulting orders in encounters.
 {{% /info %}}
 
 Consider what orders will need to be built according to flowsheet layouts, and ensure existing configurations are suitable for the needs of the practice, and create new order items and flowsheets, as needed. To review or begin creating and configuring new flowsheets, navigate to the [Observation Codes tab](https://system/?f=admin&subfunc=obscodes_manager&t=Observation+Codes&tabmodule=admin&tabselect=Observation+Codes) of the **Control Panel**. Once there, click the [Display Flowsheets link](https://system/?f=admin&subfunc=obscodes_manager&view=flowsheet) in the upper-right corner. Click **Edit** on any flowsheet to view the contents and make any necessary changes. For additional information on setup and configuration, check out the [Observation Flowsheets](../../functions/order-and-result-management/observation-flowsheets.md) help documentation.
@@ -167,7 +168,7 @@ The **Order Quick Links** portlet is a particularly useful portlet designed to p
 These same picklist order items are also visible in the Visit Orders section of the Visit encounter, also designed for quick ordering.
 {{% /tip %}}
 
-A system setting determines which order picklist the Order Quick Links portlet will display. By default, the *Orders Portlet Picklist* system setting is set to Quick Visit Orders, by default. This indicates to the system that the Order Quick Links portlet of the Summary chart tab will offer quick order selections designated by the Quick Visit Orders picklist. The system setting value can be changed to an alternative order picklist, if necessary. Whichever picklist is specified as the value of the system setting is the picklist that will generate the options in Order Quick Links portlet of the Summary chart tab.
+A system setting determines which order picklist the Order Quick Links portlet will display. By default, the _Orders Portlet Picklist_ system setting is set to Quick Visit Orders, by default. This indicates to the system that the Order Quick Links portlet of the Summary chart tab will offer quick order selections designated by the Quick Visit Orders picklist. The system setting value can be changed to an alternative order picklist, if necessary. Whichever picklist is specified as the value of the system setting is the picklist that will generate the options in Order Quick Links portlet of the Summary chart tab.
 
 For more information, check out the [Patient Summary](../../functions/e-chart/patient-summary-interactive-chart-tab.md) documentation.
 
@@ -175,21 +176,21 @@ For more information, check out the [Patient Summary](../../functions/e-chart/pa
 
 On the Order Request entry screen, the **Refer To** field is where users specify what facility, entity, organization, or outside provider the order is being sent to, so that the Order Request may be completed. The Refer To field can be set up two different ways, depending on the type of system and practice. When reviewing and analyzing prescribed workflows and business needs, so that the default setup can assuredly be attuned to the choices needed when referring out for tests/procedures, consider the following:
 
-One method of configuration for the **Refer To** field provides the names of individuals tied to a specified {{% system-name %}} department. What this means is that any individuals linked to the specified department would be available for selection for the Refer To field. The department would need to be set up in the Access Control menu if it does not already exist. Additionally, the *Refer To Departments* system setting would need the department name set as its limiting value. By default, this system setting value is blank, meaning no specific department has been mapped to provide selections for the Refer To field, but rather *all* users can be selected as an option for this field. With the value set to the appropriate department name, the Refer To field will limit the available selections to only those individuals linked to the specified department.
+One method of configuration for the **Refer To** field provides the names of individuals tied to a specified {{% system-name %}} department. What this means is that any individuals linked to the specified department would be available for selection for the Refer To field. The department would need to be set up in the Access Control menu if it does not already exist. Additionally, the _Refer To Departments_ system setting would need the department name set as its limiting value. By default, this system setting value is blank, meaning no specific department has been mapped to provide selections for the Refer To field, but rather _all_ users can be selected as an option for this field. With the value set to the appropriate department name, the Refer To field will limit the available selections to only those individuals linked to the specified department.
 
 {{% tip %}}
-The *Refer To Departments* system setting can have multiple departments listed for its value.
+The _Refer To Departments_ system setting can have multiple departments listed for its value.
 {{% /tip %}}
 
-An alternative method for mapping Refer To options is by way of the Provider Management module, where provider charts, or provider organization charts, can be flagged as **Referrable Entity**. Clients utilizing this method would need to enable the *Use Charts* system setting, as well.
+An alternative method for mapping Refer To options is by way of the Provider Management module, where provider charts, or provider organization charts, can be flagged as **Referrable Entity**. Clients utilizing this method would need to enable the _Use Charts_ system setting, as well.
 
 {{% info %}}
-If the *Use Charts* system setting is enabled, the *Refer To Departments* system setting is not respected. Whenever *Use Charts* is enabled, the appropriate provider and provider organization charts need to be set to Referrable Entity = Yes, so that each flagged chart displays as a Refer To option for selection in Order Requests.
+If the _Use Charts_ system setting is enabled, the _Refer To Departments_ system setting is not respected. Whenever _Use Charts_ is enabled, the appropriate provider and provider organization charts need to be set to Referrable Entity = Yes, so that each flagged chart displays as a Refer To option for selection in Order Requests.
 {{% /info %}}
 
 ### PIN Authentication
 
-As an optional security feature, {{% system-name %}} provides a means to authenticate users entering orders by way of a required PIN (personal identification number). If this security feature is enabled, users must enter their unique PIN when accessing, editing, or adding orders to charts. Additionally, the *Authenticate Order with PIN* system setting must be enabled for full functionality. Any user with ordering permissions must then have a unique PIN entered in the **PIN** field of their user account creation screen.
+As an optional security feature, {{% system-name %}} provides a means to authenticate users entering orders by way of a required PIN (personal identification number). If this security feature is enabled, users must enter their unique PIN when accessing, editing, or adding orders to charts. Additionally, the _Authenticate Order with PIN_ system setting must be enabled for full functionality. Any user with ordering permissions must then have a unique PIN entered in the **PIN** field of their user account creation screen.
 
 ### Order Request Routing and Tracking
 
@@ -199,7 +200,7 @@ Users can easily fax, print, and track orders with {{% system-name %}} . For ins
 
 Though not available in the standard product by default, labels can be programmed and customized to print specific chart information. This allows them to be used for specific purposes, such as affixing to orders being sent out, or when sending a vial with an order. The label can be printed with all of the relevant data and affixed to the vial, prior to sending.
 
-The *Order Label* layout must be established within {{% system-name %}} , with configuration done by MIE. Once the layout is available, the **Label** link will display in the Orders module. To view the Label link and print any custom configured labels, ensure the **Auto Print on Summary** system setting is enabled. Then, to print a label associated with an Order Request, simply click the **Label** link *after* successfully creating the Order Request.
+The _Order Label_ layout must be established within {{% system-name %}} , with configuration done by MIE. Once the layout is available, the **Label** link will display in the Orders module. To view the Label link and print any custom configured labels, ensure the **Auto Print on Summary** system setting is enabled. Then, to print a label associated with an Order Request, simply click the **Label** link _after_ successfully creating the Order Request.
 
 For additional details, check out the help documentation on the [Label Printing Feature](../../functions/document-management/printing-and-print-definitions/label-printing-feature.md).
 
@@ -221,61 +222,61 @@ If set up with an orders interface with a lab vendor (e.g., LabCorp), the accoun
 
 When making an Order Request, there are several fields available to fill in, which can be designated as required or optional via system settings, as needed. Review the following system settings to ensure all workflow needs are considered, as they relate to order accuracy and order tracking:
 
-**Require Bill Type** - Disabled, by default. If enabled (value **1**), the *Bill Type* field would be required before progressing on to generate and upload the Order Request.
+**Require Bill Type** - Disabled, by default. If enabled (value **1**), the _Bill Type_ field would be required before progressing on to generate and upload the Order Request.
 
-**Require Collection Date** - Disabled, by default. If enabled (value **1**), the *Collection Date* field would be required before progressing on to generate and upload the Order Request.
+**Require Collection Date** - Disabled, by default. If enabled (value **1**), the _Collection Date_ field would be required before progressing on to generate and upload the Order Request.
 
-**Require Diagnosis** - Disabled, by default. If enabled (value **1**), the *Diagnosis* field would be required for each order item in the Order Request. Users would select and confirm which diagnosis pertains to each order item.
+**Require Diagnosis** - Disabled, by default. If enabled (value **1**), the _Diagnosis_ field would be required for each order item in the Order Request. Users would select and confirm which diagnosis pertains to each order item.
 
-**Require Location** - Enabled, by default. The *Location* field is required before being able to generate and upload the Order Request. Can be disabled (value **0**) if the location does not need specified.
+**Require Location** - Enabled, by default. The _Location_ field is required before being able to generate and upload the Order Request. Can be disabled (value **0**) if the location does not need specified.
 
-**Require Ordering Physician** - Enabled, by default. The *Ordering Physician* field is required before being able to generate and upload the Order Request. Can be disabled (value **0**) if the ordering physician does not need specified.
+**Require Ordering Physician** - Enabled, by default. The _Ordering Physician_ field is required before being able to generate and upload the Order Request. Can be disabled (value **0**) if the ordering physician does not need specified.
 
-**Require Scheduled Date** - Disabled, by default. If enabled (value **1**), the *Scheduled Date* field would be required before progressing on to generate and upload the Order Request.
+**Require Scheduled Date** - Disabled, by default. If enabled (value **1**), the _Scheduled Date_ field would be required before progressing on to generate and upload the Order Request.
 
-**Number of Patient Conditions** - Default value is **4**, indicating that the most recent four (4) active conditions of the patient will pull in as possible diagnoses for the Order Request. Changing this setting to a value of zero (0) will prevent any diagnoses from displaying in the *Diagnosis* field of the Order Request.
+**Number of Patient Conditions** - Default value is **4**, indicating that the most recent four (4) active conditions of the patient will pull in as possible diagnoses for the Order Request. Changing this setting to a value of zero (0) will prevent any diagnoses from displaying in the _Diagnosis_ field of the Order Request.
 
-**Save Diagnosis to Patient Conditions** - Enabled, by default. Order Requests may need a diagnosis indicated as a supporting reason to order a test/procedure. Since enabled, any diagnosis manually entered into the *Diagnosis* field will automatically save to the patient's active condition list. When disabled (value **0**), users may manually key in diagnoses, with no effect on the patient's active condition list.
+**Save Diagnosis to Patient Conditions** - Enabled, by default. Order Requests may need a diagnosis indicated as a supporting reason to order a test/procedure. Since enabled, any diagnosis manually entered into the _Diagnosis_ field will automatically save to the patient's active condition list. When disabled (value **0**), users may manually key in diagnoses, with no effect on the patient's active condition list.
 
-**Number Order Autocompletes** - Enabled, by default. An *Additional Orders* autocomplete field is available, when enabled. This field offers users the ability to key in any additional order(s) that do not appear as quick items on the selected picklist. The *Additional Orders* field does not allow free text. If this system setting is disabled (value **0**), the system omits the *Additional Orders* autocomplete field from Order Request screens.
+**Number Order Autocompletes** - Enabled, by default. An _Additional Orders_ autocomplete field is available, when enabled. This field offers users the ability to key in any additional order(s) that do not appear as quick items on the selected picklist. The _Additional Orders_ field does not allow free text. If this system setting is disabled (value **0**), the system omits the _Additional Orders_ autocomplete field from Order Request screens.
 
-**Show ABN Link for All Patients** - Disabled, by default. If enabled (value **1**), the system will show a *Print ABN* hyperlink on all Order Requests for Medicare B patients (as defined by the PQRS system setting), but no hyperlink would display for any other patient charts. If value is set to a 2, the system will show a *Print ABN* hyperlink for all Order Requests for all patient charts, regardless of Medicare B status or CPT requirements.
+**Show ABN Link for All Patients** - Disabled, by default. If enabled (value **1**), the system will show a _Print ABN_ hyperlink on all Order Requests for Medicare B patients (as defined by the PQRS system setting), but no hyperlink would display for any other patient charts. If value is set to a 2, the system will show a _Print ABN_ hyperlink for all Order Requests for all patient charts, regardless of Medicare B status or CPT requirements.
 
 ## Reporting
 
 The {{% system-name %}} [Reports module](https://system/?f=layout&module=reports&name=reports&tabmodule=reports) allows administrators to access all the [utilization reports](https://system/?f=layout&module=reports&name=Utilization&tabmodule=reports&t=Utilization&tabmodule=reports&tabselect=Utilization) designed for order tracking and auditing. These reports are helpful, because they can be used for reviewing pending due list order items, outstanding order requests, as well as for reviewing overall orders usage. These are the standard [orders reports](https://system/?f=layout&module=reports&name=Orders&tabmodule=reports&t=Orders&tabmodule=reports&tabselect=Orders) available in the Reports module:
 
-* <strong>Orders - Count</strong>
-* <strong>Orders - Count by Physician</strong>
-* <strong>Orders - Created</strong>
-* <strong>Orders Due</strong>
-* <strong>Orders Pending</strong>
-* <strong>Orders - Un-Ordered</strong>
-* <strong>Orders - Usage</strong>
+- <strong>Orders - Count</strong>
+- <strong>Orders - Count by Physician</strong>
+- <strong>Orders - Created</strong>
+- <strong>Orders Due</strong>
+- <strong>Orders Pending</strong>
+- <strong>Orders - Un-Ordered</strong>
+- <strong>Orders - Usage</strong>
 
 {{% info %}}
-A *Referred Orders* grid report is available in the referrable entity's Provider Organization chart, only if the Order Request entry screen is set up to refer to charts.
+A _Referred Orders_ grid report is available in the referrable entity's Provider Organization chart, only if the Order Request entry screen is set up to refer to charts.
 {{% /info %}}
 
 ## Resources
 
 ### Help Documentation
 
-* [Advanced Search-Refer To of E-Orders](../../functions/order-and-result-management/e-orders-refer-to-advanced-search.md)
-* [E-Orders-Add Order Request](../../functions/order-and-result-management/e-orders-add-order-requests.md)
-* [E-Orders-Order Requests Chart Tab-Grid](../../functions/order-and-result-management/order-requests-grid.md)
-* [E-Orders Chart Tab](../../functions/order-and-result-management/e-orders-chart-tab.md)
-* [E-Orders View Recent](../../functions/order-and-result-management/orders-view-recent.md)
-* [Link Document to E-Order](../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md)
-* [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
-* [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
-* [Due List Chart Tab](../../functions/health-surveillance/due-list.md)
-* [Public - Orders Inbound and Outbound Interface Specs](https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound)
-* [Public - Lab Result CSV API](https://www.mieweb.com/wiki/Lab_Result_CSV_API)
-* [Public - Sending HL7 Messages into System](https://www.mieweb.com/wiki/Sending_HL7_Messages_To_WebChart)
-* [Orders Due Report](../../functions/reports/orders-due-report.md)
-* [Orders Usage Report](../../functions/reports/orders-usage-report.md)
-* [Observation Code Editor](../../functions/order-and-result-management/observation-codes-editor.md)
-* [Observation Code Merging](../../functions/order-and-result-management/observation-code-merging.md)
-* [Observation Flowsheets](../../functions/order-and-result-management/observation-flowsheets.md)
-* [Observations Tab](../../functions/order-and-result-management/observations-tab.md)
+- [Advanced Search-Refer To of E-Orders](../../functions/order-and-result-management/e-orders-refer-to-advanced-search.md)
+- [E-Orders-Add Order Request](../../functions/order-and-result-management/e-orders-add-order-requests.md)
+- [E-Orders-Order Requests Chart Tab-Grid](../../functions/order-and-result-management/order-requests-grid.md)
+- [E-Orders Chart Tab](../../functions/order-and-result-management/e-orders-chart-tab.md)
+- [E-Orders View Recent](../../functions/order-and-result-management/orders-view-recent.md)
+- [Link Document to E-Order](../../functions/document-management/documents-and-forms/link-documents-to-order-requests.md)
+- [Tests and Procedures-Adding-Applying-Completing-Resulting](../../functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting.md)
+- [Tests and Procedures-Edit-Delete-Remove](../../functions/encounters/tests-and-procedures-section-remove-delete-edit.md)
+- [Due List Chart Tab](../../functions/health-surveillance/due-list.md)
+- [Public - Orders Inbound and Outbound Interface Specs](<https://www.mieweb.com/wiki/Orders_(ORM%5EO01)_Inbound_and_Outbound>)
+- [Public - Lab Result CSV API](https://www.mieweb.com/wiki/Lab_Result_CSV_API)
+- [Public - Sending HL7 Messages into System](https://www.mieweb.com/wiki/Sending_HL7_Messages_To_WebChart)
+- [Orders Due Report](../../functions/reports/orders-due-report.md)
+- [Orders Usage Report](../../functions/reports/orders-usage-report.md)
+- [Observation Code Editor](../../functions/order-and-result-management/observation-codes-editor.md)
+- [Observation Code Merging](../../functions/order-and-result-management/observation-code-merging.md)
+- [Observation Flowsheets](../../functions/order-and-result-management/observation-flowsheets.md)
+- [Observations Tab](../../functions/order-and-result-management/observations-tab.md)

@@ -1,14 +1,15 @@
 ---
-id: '1yxmScXXEckEB5-E40arw9fkAjQ9cZbUK8TT1q8dCQIo'
-title: 'Apt Missed Required'
-date: '2025-11-13T19:49:36.893Z'
+id: "1yxmScXXEckEB5-E40arw9fkAjQ9cZbUK8TT1q8dCQIo"
+title: "Apt Missed Required"
+date: "2025-11-13T19:49:36.893Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1yxmScXXEckEB5-E40arw9fkAjQ9cZbUK8TT1q8dCQIo'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1yxmScXXEckEB5-E40arw9fkAjQ9cZbUK8TT1q8dCQIo"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: URGENT - ACTION REQUIRED: Notification to Reschedule Required Surveillance Appointment
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Notification to Reschedule Required Surveillance Appointment
 

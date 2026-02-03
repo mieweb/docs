@@ -1,14 +1,15 @@
 ---
-id: '1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8'
-title: 'Pat HS Reminder to SPV'
-date: '2025-11-13T17:21:08.259Z'
+id: "1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8"
+title: "Pat HS Reminder to SPV"
+date: "2025-11-13T17:21:08.259Z"
 version: 26
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links: []
-source: 'https://drive.google.com/open?id=1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8'
-wikigdrive: 'v2.15.30'
+source: "https://drive.google.com/open?id=1uIAp4Y448Sfzsu4P3SLfeyM8j3YU_fwOJ-K9sQ2oXq8"
+wikigdrive: "v2.15.30"
 ---
+
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -21,7 +22,7 @@ Cc:
 
 Subject: Last Reminder for Frederick J Anderson to Schedule Health Services Appointment
 
-****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
+\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
 
 ## Last Reminder for Employee to Schedule Health Services Appointment
 

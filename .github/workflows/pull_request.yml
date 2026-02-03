@@ -7,64 +7,64 @@ name: Pull Request pushed
 on:
   pull_request:
   push:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: [ self-hosted, docsqa ]
+    runs-on: [self-hosted, docsqa]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v4
-      with:
-        token: ${{ github.token }}
-        lfs: 'true'
-        clean: 'true'
-        fetch-depth: 0
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+          lfs: "true"
+          clean: "true"
+          fetch-depth: 0
 
-    - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(git branch --remote --verbose --no-abbrev --contains | sed -rne 's/^[^\/]*\/([^\ ]+).*$/\1/p' | sed 's@/@-@')"
-      id: extract_branch
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(git branch --remote --verbose --no-abbrev --contains | sed -rne 's/^[^\/]*\/([^\ ]+).*$/\1/p' | sed 's@/@-@')"
+        id: extract_branch
 
-    - name: Pull NPM Dependencies
-      run: ./setup.sh
+      - name: Pull NPM Dependencies
+        run: ./setup.sh
 
-    - name: Build WebChart HTML
-      run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify wc
+      - name: Build WebChart HTML
+        run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify wc
 
-    - name: Build Enterprise Health HTML
-      run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify eh
+      - name: Build Enterprise Health HTML
+        run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/eh/" --minify eh
 
-    - name: Build index.html
-      run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
+      - name: Build index.html
+        run: echo '<h1>Branch ${{ steps.extract_branch.outputs.branch }}</h1>Build triggered by ${{ github.actor }}<br />Base ${{ github.base_ref }}<br />Head ${{ github.head_ref }}<br />Commit <a href="https://github.com/mieweb/docs/commit/${{ github.sha }}">${{ github.sha }}</a><hr /><a href="eh/">EH</a> - <a href="wc/">WC</a>' > public/index.html
 
-    - name: 'Deploy built documentation to www folder on docs-qa'
-      run: rsync -ruva --delete public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
+      - name: "Deploy built documentation to www folder on docs-qa"
+        run: rsync -ruva --delete public/ "/www/mie-docs/public/${{ steps.extract_branch.outputs.branch }}/"
 
-    - name: Rocket.Chat GitHub Enterprise Notification
-      uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
-      if: always()
-      with:
-        type: ${{ job.status }}
-        job_name: '*CI* @${{github.actor}}, https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/'
-        channel: '#miedocs'
-        url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
-        commit: true
-        token: ${{ github.token }}
+      - name: Rocket.Chat GitHub Enterprise Notification
+        uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
+        if: always()
+        with:
+          type: ${{ job.status }}
+          job_name: "*CI* @${{github.actor}}, https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/"
+          channel: "#miedocs"
+          url: ${{ secrets.ROCKETCHAT_WEBHOOK }}
+          commit: true
+          token: ${{ github.token }}
 
-    - name: comment PR
-      uses: actions/github-script@v7.0.1
-      with:
-        script: |
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: '👋 @${{github.actor}}, Your documentation has been pushed to https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/ for commit ${{ github.sha }}'
-          })
-      if: github.ref != 'refs/heads/master'
+      - name: comment PR
+        uses: actions/github-script@v7.0.1
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 @${{github.actor}}, Your documentation has been pushed to https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/ for commit ${{ github.sha }}'
+            })
+        if: github.ref != 'refs/heads/master'

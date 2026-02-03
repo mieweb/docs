@@ -1,0 +1,4 @@
+# Redirect /functions/* to /features/* to avoid Cloudflare Pages reserved path
+# Cloudflare Pages reserves /functions/ for serverless Workers/Functions
+/functions/* /features/:splat 301
+/functions /features/ 301

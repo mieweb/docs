@@ -1,0 +1,97 @@
+{{ define "main" }} {{ partial "header.html" . }}
+
+<div class="flex min-h-screen pt-16">
+  {{- /* Sidebar */}} {{ partial "sidebar.html" . }} {{- /* Main content area */}}
+  <main id="main-content" class="flex-1 overflow-auto flex flex-col" tabindex="-1">
+    <div class="px-4 py-8 lg:px-8 flex-1">
+      {{- /* Hero section */}}
+      <div class="animate-slide-up mb-12 text-center">
+        <h1 class="text-foreground text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          {{ .Site.Title }} Documentation
+        </h1>
+        <p class="text-muted-foreground mx-auto mt-4 max-w-2xl text-lg">
+          {{ .Site.Params.description | default "Comprehensive documentation for healthcare professionals." }}
+        </p>
+
+        {{- /* Search CTA */}}
+        <button
+          id="hero-search"
+          class="border-border bg-card text-foreground/70 hover:text-foreground hover:border-primary focus-visible:ring-ring mt-8 inline-flex items-center gap-3 rounded-xl border px-6 py-4 shadow-sm transition-all hover:shadow-md focus-visible:ring-2 focus-visible:outline-none"
+          aria-label="Search documentation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <span>Search documentation...</span>
+          <kbd
+            class="border-border bg-muted hidden rounded border px-1.5 py-0.5 text-xs font-medium sm:inline-flex"
+            style="color: #404040"
+            aria-hidden="true"
+            >⌘K</kbd
+          >
+        </button>
+      </div>
+
+      {{- /* Content from _index.md */}} {{ if .Content }}
+      <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">{{ .Content | safeHTML }}</article>
+      {{ end }} {{- /* Quick links to main sections */}} {{ if .Site.Menus.main }}
+      <section class="mt-12" aria-labelledby="browse-heading">
+        <h2 id="browse-heading" class="text-foreground mb-6 text-2xl font-bold">Browse Documentation</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          {{ range first 6 .Site.Menus.main }}
+          <a href="{{ .URL }}" class="card card-interactive group p-6">
+            <div class="flex items-start justify-between">
+              <h3 class="text-foreground font-semibold">{{ .Name }}</h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right text-muted-foreground opacity-0 transition-all group-hover:translate-x-1 group-hover:opacity-100"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </div>
+            {{ with .Title }}
+            <p class="text-muted-foreground mt-2 text-sm">{{ . }}</p>
+            {{ end }}
+          </a>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+    </div>
+    
+    {{- /* Site Footer */}}
+    {{ partial "footer.html" . }}
+  </main>
+</div>
+
+{{- /* Search modal */}} {{ partial "search-modal.html" . }}
+
+<script>
+  document.getElementById("hero-search")?.addEventListener("click", () => {
+    document.getElementById("search-trigger")?.click();
+  });
+</script>
+{{ end }}

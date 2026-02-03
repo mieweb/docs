@@ -1,0 +1,175 @@
+{{- /* Header/Navigation bar */}}
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="header border-border fixed inset-x-0 top-0 z-50 h-16 border-b">
+  <div class="flex h-full items-center justify-between px-4 lg:px-6">
+    {{- /* Left side - Logo & Mobile menu */}}
+    <div class="flex items-center gap-3">
+      {{- /* Sidebar toggle */}}
+      <button
+        id="sidebar-toggle"
+        class="btn btn-ghost btn-icon inline-flex"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="sidebar"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu"
+          aria-hidden="true"
+        >
+          <line x1="4" x2="20" y1="12" y2="12" />
+          <line x1="4" x2="20" y1="6" y2="6" />
+          <line x1="4" x2="20" y1="18" y2="18" />
+        </svg>
+      </button>
+
+      {{- /* Logo */}}
+      <a
+        href="{{ .Site.BaseURL }}"
+        class="flex items-center gap-2 transition-opacity hover:opacity-80"
+        aria-label="{{ .Site.Title }} Home"
+      >
+        <img
+          src="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/logo.png"
+          alt="{{ .Site.Title }}"
+          class="h-8 w-auto"
+          width="120"
+          height="32"
+        />
+      </a>
+    </div>
+
+    {{- /* Right side actions */}}
+    <div class="flex items-center gap-1 sm:gap-2">
+      {{- /* Search button - icon only on mobile, full on desktop */}}
+      <button
+        id="search-trigger"
+        class="btn btn-ghost btn-icon inline-flex sm:hidden"
+        aria-label="Search documentation (⌘K)"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-search"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+      </button>
+      {{- /* Search button - full version on desktop */}}
+      <button
+        id="search-trigger-desktop"
+        class="border-border bg-background text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring hidden sm:inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors focus-visible:ring-2 focus-visible:outline-none"
+        aria-label="Search documentation (⌘K)"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-search"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        <span>Search...</span>
+        <kbd
+          class="border-border bg-muted pointer-events-none flex items-center gap-1 rounded border px-1.5 py-0.5 text-xs font-medium select-none"
+          aria-hidden="true"
+        >
+          <span>⌘</span>K
+        </kbd>
+      </button>
+
+      {{- /* Request a Demo / Contact Us button - Brand specific, hidden on mobile */}}
+      {{ if eq .Site.Params.Brand.code "eh" }}
+      <div class="hidden md:block">
+        <a
+          href="https://content.enterprisehealth.com/request-a-demo?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+          class="btn btn-primary inline-flex"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Request a Demo
+        </a>
+      </div>
+      {{ else if eq .Site.Params.Brand.code "wc" }}
+      <div class="hidden md:block">
+        <a
+          href="https://www.webchartnow.com/contact-us/?utm_source=docs&utm_medium=header&utm_campaign=documentation"
+          class="btn btn-primary inline-flex"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact Us
+        </a>
+      </div>
+      {{ end }}
+
+      {{- /* Theme toggle */}}
+      <button id="theme-toggle" class="btn btn-ghost btn-icon inline-flex" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-sun dark:hidden"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2" />
+          <path d="M12 20v2" />
+          <path d="m4.93 4.93 1.41 1.41" />
+          <path d="m17.66 17.66 1.41 1.41" />
+          <path d="M2 12h2" />
+          <path d="M20 12h2" />
+          <path d="m6.34 17.66-1.41 1.41" />
+          <path d="m19.07 4.93-1.41 1.41" />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-moon hidden dark:block"
+          aria-hidden="true"
+        >
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

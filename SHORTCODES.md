@@ -44,6 +44,7 @@ These shortcodes create styled notification boxes to highlight important informa
 Creates an informational callout box with a blue theme and info icon.
 
 **Usage:**
+
 ```
 {{% info %}}
 This is an informational message that provides helpful context.
@@ -63,6 +64,7 @@ This is an informational message that provides helpful context.
 Creates a note callout box with dark styling and a sticky note icon.
 
 **Usage:**
+
 ```
 {{% note %}}
 This is an important note to remember.
@@ -82,6 +84,7 @@ This is an important note to remember.
 Creates a tip callout box with green/success styling and a lightbulb icon.
 
 **Usage:**
+
 ```
 {{% tip %}}
 Here's a helpful tip to improve your workflow.
@@ -101,6 +104,7 @@ Here's a helpful tip to improve your workflow.
 Creates a warning callout box with yellow/warning styling and an exclamation triangle icon.
 
 **Usage:**
+
 ```
 {{% warning %}}
 This is an important warning. Please read carefully.
@@ -117,13 +121,14 @@ This is an important warning. Please read carefully.
 
 ## Layout Shortcodes
 
-These shortcodes help structure content in rows and columns using Bootstrap grid classes.
+These shortcodes help structure content in rows and columns using Tailwind CSS flexbox.
 
 ### row
 
-Creates a container for columns using Bootstrap row classes.
+Creates a flex container for columns using Tailwind flexbox.
 
 **Usage:**
+
 ```
 {{% row %}}
 {{% column %}}
@@ -146,6 +151,7 @@ Content in second column
 Creates a column within a row. Supports optional width parameter.
 
 **Usage:**
+
 ```
 {{% column %}}
 Default width column content
@@ -153,6 +159,7 @@ Default width column content
 ```
 
 **With width parameter:**
+
 ```
 {{% column width="30" %}}
 This column takes 30% width
@@ -160,11 +167,12 @@ This column takes 30% width
 ```
 
 **Parameters:**
+
 - `width` (optional): Percentage width for the column (e.g., "30" for 30%)
 
-**Default:** If no width is specified, uses Bootstrap's auto-sizing columns (`col-xs-12 col-sm-auto`)
+**Default:** If no width is specified, uses Tailwind's `flex-1` for equal distribution.
 
-**Notes:** When width is specified, the column uses `col-xs-12 col-sm` with inline style for width percentage.
+**Notes:** When width is specified, the column uses inline flex-basis styling for the width percentage.
 
 ---
 
@@ -173,6 +181,7 @@ This column takes 30% width
 Creates a row container for content sections.
 
 **Usage:**
+
 ```
 {{% section %}}
 Section content here
@@ -194,6 +203,7 @@ These shortcodes handle brand-specific content for WebChart (WC) and Enterprise 
 Displays the full brand name based on the current site configuration.
 
 **Usage:**
+
 ```
 Welcome to {{% system-name %}}!
 ```
@@ -201,6 +211,7 @@ Welcome to {{% system-name %}}!
 **Parameters:** None
 
 **Output:**
+
 - On WebChart site: "WebChart"
 - On Enterprise Health site: "Enterprise Health"
 
@@ -213,6 +224,7 @@ Welcome to {{% system-name %}}!
 Displays the brand abbreviation based on the current site configuration.
 
 **Usage:**
+
 ```
 The {{% sys-name %}} system offers...
 ```
@@ -220,6 +232,7 @@ The {{% sys-name %}} system offers...
 **Parameters:** None
 
 **Output:**
+
 - On WebChart site: "WC"
 - On Enterprise Health site: "EH"
 
@@ -232,6 +245,7 @@ The {{% sys-name %}} system offers...
 Conditionally displays content only for a specific brand/system.
 
 **Usage:**
+
 ```
 {{% only sys="wc" %}}
 This content only appears on the WebChart site.
@@ -243,6 +257,7 @@ This content only appears on the Enterprise Health site.
 ```
 
 **Parameters:**
+
 - `sys` (required): Brand code - either "wc" or "eh"
 
 **Notes:** Useful for maintaining shared content files that have brand-specific sections. Content is completely hidden if the `sys` parameter doesn't match the current site's brand code.
@@ -258,16 +273,19 @@ These shortcodes embed videos and media content.
 Embeds a YouTube video with responsive 16:9 aspect ratio.
 
 **Usage:**
+
 ```
 {{< youtube "dQw4w9WgXcQ" >}}
 ```
 
 **Alternative usage with named parameter:**
+
 ```
 {{< youtube id="dQw4w9WgXcQ" >}}
 ```
 
 **Parameters:**
+
 - `id` or first positional parameter: YouTube video ID (the part after `v=` in YouTube URLs)
 
 **Example:** For the URL `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, use the ID `dQw4w9WgXcQ`
@@ -281,14 +299,17 @@ Embeds a YouTube video with responsive 16:9 aspect ratio.
 Embeds a Google Drive video with responsive 16:9 aspect ratio.
 
 **Usage:**
+
 ```
 {{< gvideo id="1ABC123xyz456" >}}
 ```
 
 **Parameters:**
+
 - `id` (required): Google Drive file ID
 
-**Notes:** 
+**Notes:**
+
 - Extracts the file ID from Google Drive URLs (the part after `/d/` or in the `id=` parameter)
 - Example Google Drive URL: `https://drive.google.com/file/d/1ABC123xyz456/view`
 - Uses the ID: `1ABC123xyz456`
@@ -304,19 +325,23 @@ These shortcodes help with site navigation and content organization.
 Displays a list of child pages in the site hierarchy.
 
 **Usage:**
+
 ```
 {{% children %}}
 ```
 
 **With specific page parameter:**
+
 ```
 {{% children page="Custom Page Name" %}}
 ```
 
 **Parameters:**
+
 - `page` (optional): Specify a page name to show its children. If omitted, shows children of the current page.
 
-**Notes:** 
+**Notes:**
+
 - Generates an unordered list of links to child pages
 - Uses the site's menu structure to determine hierarchy
 - Page names are converted to lowercase with spaces replaced by hyphens for lookup
@@ -328,6 +353,7 @@ Displays a list of child pages in the site hierarchy.
 Placeholder for a table of contents.
 
 **Usage:**
+
 ```
 {{% toc %}}
 ```
@@ -347,6 +373,7 @@ Various utility shortcodes for specific purposes.
 Creates an empty styled span element.
 
 **Usage:**
+
 ```
 {{< anchor >}}
 ```
@@ -362,6 +389,7 @@ Creates an empty styled span element.
 Creates a column div for attachments.
 
 **Usage:**
+
 ```
 {{< attachments >}}
 Content here
@@ -379,6 +407,7 @@ Content here
 Placeholder for content filtering by label.
 
 **Usage:**
+
 ```
 {{% contentbylabel %}}
 Label content here
@@ -396,6 +425,7 @@ Label content here
 Placeholder for Draw.io diagrams.
 
 **Usage:**
+
 ```
 {{< drawio >}}
 ```
@@ -411,6 +441,7 @@ Placeholder for Draw.io diagrams.
 Creates a column with specified width for index content.
 
 **Usage:**
+
 ```
 {{< index width="50" >}}
 Index content here
@@ -418,6 +449,7 @@ Index content here
 ```
 
 **Parameters:**
+
 - `width` (required): Percentage width for the column
 
 **Supports Markdown:** Yes
@@ -431,6 +463,7 @@ Index content here
 Creates a styled tip panel (alias for tip).
 
 **Usage:**
+
 ```
 {{% panel %}}
 Panel content here
@@ -450,6 +483,7 @@ Panel content here
 Renders inner content without any wrapping or modification.
 
 **Usage:**
+
 ```
 {{% pre %}}
 Raw content that will be rendered as-is
@@ -467,15 +501,18 @@ Raw content that will be rendered as-is
 Creates a system-specific link with placeholder for dynamic system URL.
 
 **Usage:**
+
 ```
 {{< syslink "Link Text" "cgi-bin/path" >}}
 ```
 
 **Parameters:**
+
 - First parameter: Link text to display
 - Second parameter: CGI path/endpoint
 
-**Notes:** 
+**Notes:**
+
 - Creates a link with class `slink` and title "Set your system URL"
 - The `href` is set to `#` as a placeholder
 - The `data-cgi` attribute stores the CGI path
@@ -508,10 +545,11 @@ Use the appropriate delimiter based on whether you need Markdown processing.
 
 When adding new shortcodes:
 
-1. Create the shortcode file in `themes/wc-eh-docs/layouts/shortcodes/`
+1. Create the shortcode file in `themes/mieweb-docs/layouts/shortcodes/`
 2. Document it in this file with usage examples
 3. Test on both WC and EH configurations if brand-specific
-4. Update the table of contents above
+4. Use Tailwind CSS utility classes for styling (avoid custom CSS)
+5. Update the table of contents above
 
 ## Questions or Issues?
 

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}" class="{{ if eq .Site.Params.Brand.code "eh" }}brand-eh{{ else }}brand-wc{{ end }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  {{- /* Title */}}
+  {{- $pageTitle := .Title }}
+  {{- if or (eq .Title "_index") (eq .Title "") }}
+    {{- $pageTitle = "Documentation Home" }}
+  {{- end }}
+  <title>{{ $pageTitle }} | {{ .Site.Title }} Documentation</title>
+
+  {{- /* Meta description - use page summary if no description */}}
+  {{- $description := .Description }}
+  {{- if not $description }}
+    {{- $description = .Summary | plainify | truncate 160 }}
+  {{- end }}
+  {{- if not $description }}
+    {{- $description = .Site.Params.description }}
+  {{- end }}
+  <meta name="description" content="{{ $description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  
+  {{- /* Canonical URL */}}
+  <link rel="canonical" href="{{ .Permalink }}">
+  
+  {{- /* Open Graph / Facebook */}}
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $pageTitle }} | {{ .Site.Title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:site_name" content="{{ .Site.Title }} Documentation">
+  {{- with .Site.Params.Brand.code }}
+  <meta property="og:image" content="{{ $.Site.BaseURL }}images/brand/{{ . }}/og-image.png">
+  {{- end }}
+  <meta property="og:locale" content="{{ .Site.Language.Lang | default "en_US" }}">
+  
+  {{- /* Twitter Card */}}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $pageTitle }} | {{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  {{- with .Site.Params.Brand.code }}
+  <meta name="twitter:image" content="{{ $.Site.BaseURL }}images/brand/{{ . }}/og-image.png">
+  {{- end }}
+  
+  {{- /* Additional SEO meta tags */}}
+  <meta name="robots" content="index, follow">
+  {{- if .IsPage }}
+  {{- with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{- with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{- end }}
+  
+  {{- /* Favicons */}}
+  <link rel="icon" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/favicon.png" type="image/png">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/icon-192.png" sizes="192x192">
+  
+  {{- /* Preconnect for Google Fonts */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  {{- /* Brand-specific font loading */}}
+  {{- /* Enterprise Health uses Jost, WebChart uses Inter */}}
+  {{ if eq .Site.Params.Brand.code "eh" }}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></noscript>
+  {{ else }}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+  {{ end }}
+  
+  {{- /* Brand-specific Tailwind CSS processed via PostCSS */}}
+  {{ $brandCss := printf "css/tailwind-%s.css" .Site.Params.Brand.code }}
+  {{ $tailwind := resources.Get $brandCss | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $tailwind = $tailwind | resources.Minify | resources.Fingerprint "sha512" }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $tailwind.Data.Integrity }}"{{ end }}>
+  
+  {{- /* Custom styles */}}
+  {{ $css := resources.Get "css/main.css" }}
+  {{ if $css }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ end }}
+  
+  {{- /* Structured data for breadcrumbs */}}
+  {{ if gt (len (split .RelPermalink "/")) 2 }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{{ $rellink := "" }}{{ range $index, $element := (split .RelPermalink "/") }}{{ if gt (len .) 0 }}{{ $rellink = printf "%s/%s" $rellink . }}{{ if gt $index 1 }},{{ end }}{
+      "@type": "ListItem",
+      "position": {{ $index }},
+      "name": "{{ humanize . }}",
+      "item": "{{ $.Site.BaseURL }}{{ $rellink }}"
+    }{{ end }}{{ end }}]
+  }
+  </script>
+  {{ end }}
+  
+  {{- /* TechArticle structured data for documentation pages */}}
+  {{ if .IsPage }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "{{ $pageTitle }}",
+    "description": "{{ $description }}",
+    "author": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.author }}",
+      "url": "{{ if eq .Site.Params.Brand.code "eh" }}https://www.enterprisehealth.com{{ else }}https://www.webchartnow.com{{ end }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.author }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+    "inLanguage": "{{ .Site.Language.Lang | default "en" }}"
+  }
+  </script>
+  {{ end }}
+  
+  {{- /* WebSite structured data for homepage */}}
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }} Documentation",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.author }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.BaseURL }}images/brand/{{ .Site.Params.Brand.code }}/logo.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{ .Site.BaseURL }}?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  {{ end }}
+  
+  <script>
+    window.BaseURL = "{{ .Site.BaseURL }}";
+    window.BrandCode = "{{ .Site.Params.Brand.code }}";
+    
+    // Theme detection
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
+
+  {{- /* Analytics & Tracking - Production only */}}
+  {{ if hugo.IsProduction }}
+  {{- /* Enterprise Health */}}
+  {{ if eq .Site.Params.Brand.code "eh" }}
+  <!-- Google tag (gtag.js) - Enterprise Health -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7RQJRYK0J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M7RQJRYK0J');
+  </script>
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2702879.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  {{ end }}
+  {{- /* WebChart */}}
+  {{ if eq .Site.Params.Brand.code "wc" }}
+  <!-- Google tag (gtag.js) - WebChart -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRGG64JRP3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LRGG64JRP3');
+  </script>
+  {{ end }}
+  {{ end }}
+</head>
+
+<body class="bg-background text-foreground antialiased" data-page="{{ .Page.Params.id }}">
+  {{ block "main" . }}{{ end }}
+  
+  {{- /* React 19 + @mieweb/ui Component Bundle */}}
+  {{ $reactBundle := resources.Get "js/react/components.js" }}
+  {{ $reactMount := resources.Get "js/react/mount.js" }}
+  {{ if and $reactBundle $reactMount }}
+    {{ if hugo.IsProduction }}
+      {{ $reactBundle = $reactBundle | resources.Fingerprint "sha512" }}
+      {{ $reactMount = $reactMount | resources.Fingerprint "sha512" }}
+    {{ end }}
+    <script src="{{ $reactBundle.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $reactBundle.Data.Integrity }}"{{ end }}></script>
+    <script src="{{ $reactMount.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $reactMount.Data.Integrity }}"{{ end }}></script>
+  {{ end }}
+  
+  {{- /* Main JavaScript bundle */}}
+  {{ $js := resources.Get "js/main.js" }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | resources.Minify | resources.Fingerprint "sha512" }}
+  {{ end }}
+  <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
+  
+  {{- /* Lunr.js for search */}}
+  {{ $lunr := resources.Get "js/vendor/lunr.min.js" }}
+  {{ if $lunr }}
+  <script src="{{ $lunr.RelPermalink }}" defer></script>
+  {{ end }}
+  
+  {{- /* Highlight.js for code blocks */}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" integrity="sha512-0aPQyyeZrWj9sCA46UlmWgKOP0mUipLQ6OZXu8l4IcAmD2u31EPEy9VcIMvl7SoAaKe8bLXZhYoMaE/in+gcgA==" crossorigin="anonymous" referrerpolicy="no-referrer" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" media="(prefers-color-scheme: dark)">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" integrity="sha512-D9gUyxqja7hBtkWpPWGt9wfbfaMGVt9gnyCvYa+jojwwPHLCzUm5i8rpk7vD7wNee9bA35eYIjobYPaQuKS1MQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Configure highlight.js to not escape HTML (content is already escaped by Hugo)
+      hljs.configure({ ignoreUnescapedHTML: true });
+      hljs.highlightAll();
+    });
+  </script>
+</body>
+</html>

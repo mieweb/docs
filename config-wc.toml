@@ -1,7 +1,7 @@
 baseURL = "/wc"
 languageCode = "en-us"
 title = "WebChart"
-theme = "wc-eh-docs"
+theme = "mieweb-docs"
 publishDir = "public/wc"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir=false
@@ -15,9 +15,10 @@ defaultContentLanguageInSubdir=false
     endLevel = 4
     ordered = false
     startLevel = 2
+
 [params]
   editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "MIEDocs"
+  description = "Comprehensive documentation for WebChart healthcare software."
   author = "WebChart"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -26,50 +27,76 @@ defaultContentLanguageInSubdir=false
     name = 'WebChart'
     abbr = 'WC'
     code = 'wc'
+  
+  # Footer configuration
+  [params.footer]
+    description = "WebChart is the flagship platform that powers a robust clinical EHR, serving as the foundation for a variety of clinical applications."
+    
+    [params.footer.social]
+      linkedin = "https://www.linkedin.com/company/webchart/"
+      youtube = "https://www.youtube.com/@WebChart"
+      facebook = "https://www.facebook.com/WebChartEHR"
+      github = "https://github.com/mieweb/docs"
+    
+    [params.footer.contact]
+      email = "sales@webchartnow.com"
+      phone = "888-498-3484, opt. 1"
+      address = "1690 Broadway, Suite 550<br>Fort Wayne, IN 46802"
+    
+    [[params.footer.links]]
+      name = "About Us"
+      url = "https://www.webchartnow.com/about-us/"
+    [[params.footer.links]]
+      name = "Careers"
+      url = "https://www.webchartnow.com/careers"
+    [[params.footer.links]]
+      name = "Contact Us"
+      url = "https://www.webchartnow.com/contact-us/"
+    [[params.footer.links]]
+      name = "Get Started"
+      url = "https://store.webchart.app/app/webchart/enrollment"
+    
+    [[params.footer.legal]]
+      name = "Privacy Policy"
+      url = "https://www.webchartnow.com/privacy-policy/"
+    [[params.footer.legal]]
+      name = "Certification & Costs"
+      url = "https://www.webchartnow.com/onc-acb-2015"
 
 [outputFormats.SearchIndex]
 baseName = "search"
 mediaType = "application/json"
 
+[outputFormats.robots]
+baseName = "robots"
+mediaType = "text/plain"
+isPlainText = true
+notAlternative = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [outputs]
-  home = [ "HTML", "RSS", "SearchIndex"]
+  home = [ "HTML", "RSS", "SearchIndex", "robots"]
 
 [markup.goldmark.renderer]
   unsafe= true
 
-[module]    
+[module]
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/scss"
-    target = "assets/scss/fontawesome"
+    source = "./node_modules/lunr/lunr.min.js"
+    target = "assets/js/vendor/lunr.min.js"
 
   [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/webfonts"
-    target = "static/webfonts"
+    source = "content"
+    target = "content"
 
   [[module.mounts]]
-    source = "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-    target = "assets/js/bootstrap/bootstrap.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@fortawesome/fontawesome-free/js/all.js"
-    target = "assets/js/fortawesome/fontawesome.js"    
-
-  [[module.mounts]]
-    source = "./node_modules/@popperjs/core/dist/umd/popper.js"
-    target = "assets/js/popper/popper.js"
-
-  [[module.mounts]]
-    source = "./node_modules/lunr/lunr.js"
-    target = "assets/js/lunr/lunr.js"
-
-  [[module.mounts]]
-    source = "./node_modules/sweetalert2/dist/sweetalert2.all.js"
-    target = "assets/js/sweetalert2/sweetalert2.js"
-
-  [[module.mounts]]
-    source = "./node_modules/copy-to-clipboard/index.js"
-    target = "assets/js/copy-to-clipboard/copy-to-clipboard.js"
+    source = "static"
+    target = "static"
 
 [security]
   [security.exec]
-    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^pandoc$']
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']

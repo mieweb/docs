@@ -1,108 +1,109 @@
 ---
-id: '1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-title: 'Review Session - Case Management'
-date: '2025-12-04T16:39:13.183Z'
+id: "1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw"
+title: "Review Session - Case Management"
+date: "2025-12-04T16:39:13.183Z"
 version: 512
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M'
-  - 'https://system/?func=omniscope'
-  - 'https://system/?f=admin&subfunc=crteditor&tabmodule=admin&tabselect=Restriction+Types'
-  - 'http://www.mieweb.com/wiki/Lost_Time_CSV_Import'
-  - 'https://system/?f=layout&module=reports&name=CaseManagement&tabmodule=reports&t=Case+Management&tabmodule=reports&tabselect=WR+Case+Mgmt'
-  - 'https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits'
-  - 'https://system/?f=layout&module=reports&name=Safety&tabmodule=reports&tabmodule=reports&tabselect=Safety'
-  - 'https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html'
-  - 'https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf'
-  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html'
-  - 'https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY'
-  - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit'
-  - '../../functions/injury-care/case-management/adding-absence-management-case.md'
-  - '../../functions/injury-care/case-management/adding-hospital-case.md'
-  - '../../functions/injury-care/case-management/adding-msea-case.md'
-  - '../../functions/injury-care/case-management/adding-non-osha-case.md'
-  - '../../functions/injury-care/case-management/adding-osha-case.md'
-  - '../../functions/injury-care/case-management/closing-an-existing-case.md'
-  - '../../functions/injury-care/case-management/deleting-an-existing-case.md'
-  - '../../functions/injury-care/case-management/viewing-cases.md'
-  - '../../functions/reports/common-case-search-report.md'
-  - '../../functions/system-administration/data-migration/lost-time-import-tool.md'
-  - '../../functions/reports/osha-300-log-report.md'
-  - '../../functions/reports/incidents-report.md'
-  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
-  - 'https://mie.talentlms.com/shared/start/key:ALTHRKMF'
-  - 'https://mie.talentlms.com/shared/start/key:AABHRKMF'
-  - 'https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/'
-source: 'https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw'
-wikigdrive: 'v2.15.30'
+  - "https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M"
+  - "https://system/?func=omniscope"
+  - "https://system/?f=admin&subfunc=crteditor&tabmodule=admin&tabselect=Restriction+Types"
+  - "http://www.mieweb.com/wiki/Lost_Time_CSV_Import"
+  - "https://system/?f=layout&module=reports&name=CaseManagement&tabmodule=reports&t=Case+Management&tabmodule=reports&tabselect=WR+Case+Mgmt"
+  - "https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits"
+  - "https://system/?f=layout&module=reports&name=Safety&tabmodule=reports&tabmodule=reports&tabselect=Safety"
+  - "https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html"
+  - "https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf"
+  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html"
+  - "https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY"
+  - "https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit"
+  - "../../functions/injury-care/case-management/adding-absence-management-case.md"
+  - "../../functions/injury-care/case-management/adding-hospital-case.md"
+  - "../../functions/injury-care/case-management/adding-msea-case.md"
+  - "../../functions/injury-care/case-management/adding-non-osha-case.md"
+  - "../../functions/injury-care/case-management/adding-osha-case.md"
+  - "../../functions/injury-care/case-management/closing-an-existing-case.md"
+  - "../../functions/injury-care/case-management/deleting-an-existing-case.md"
+  - "../../functions/injury-care/case-management/viewing-cases.md"
+  - "../../functions/reports/common-case-search-report.md"
+  - "../../functions/system-administration/data-migration/lost-time-import-tool.md"
+  - "../../functions/reports/osha-300-log-report.md"
+  - "../../functions/reports/incidents-report.md"
+  - "https://mie.talentlms.com/shared/start/key:ALEHRKMF"
+  - "https://mie.talentlms.com/shared/start/key:ALTHRKMF"
+  - "https://mie.talentlms.com/shared/start/key:AABHRKMF"
+  - "https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/"
+source: "https://drive.google.com/open?id=1YXZ9rf9jBA0dD6XvgN-hSXOV8ObwzjAUj4gwrYi4adw"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* Pre-requisites
-* Overview
-* WR Case Management Workflow Demonstration
-    * The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
-        * Linked documentation
-        * Case details
-        * Referrals
-        * Case management notes
-        * Restrictions/Accommodations
-        * Disposition/Work Status
-    * Tasking
-    * Work Related (WR) Case Management Encounter
-        * Case Manager
-        * Case
-        * Incident Summary
-        * Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
-        * Notes/Tracking
-            * Follow-Up Date
-        * Restrictions/Accommodations
-            * Lost Time Tracking
-        * Stages
-    * WR Case Management Worklist
-    * Security Role Permissions
-    * Linking/Adding Cases
-        * Linking existing case to a document (ex: WebScan or File Upload)
-        * Linking visit encounter(s) to existing case
-        * Make Case from an incident reported via the employee portal (if applicable).
-    * Cases stand-alone chart tab
-    * Close case
-        * Deleting case or Closing case difference
-    * Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
-    * Forms can be generated from the current case
-        * OSHA 301 configured with an overlay of employee incident data
-        * Generic and State-specific forms
-            * Doctor's First Report of Injury
-            * Employer's First Report of Injury
-    * Reports
-        * Case Management Encounters
-        * Daily Activity
-        * Incident Report
-        * OSHA 300 Log
-        * OSHA 300A
-        * Sharps Log
-* System Configuration
-    * Encounter Stages
-    * Follow-Up Date
-    * Incident on-site Locations
-    * Task Rules
-    * Restriction Notification Email functionality to Supervisor
-    * Restriction Types Editor
-    * Accommodation types
-    * Nature of Illness/Injury and Body Parts
-    * Chart Tab Restriction
-    * Report Restriction
-    * Restriction Providers
-    * Legacy System Case Management
-    * My Settings preference for Cases
-    * System Settings (module I&I)
-* System Configuration/Key Decision Points
-* Action Items/Timelines
-* Resources
-    * Documentation
-    * LMS Courses/Videos
+- Pre-requisites
+- Overview
+- WR Case Management Workflow Demonstration
+  - The case management encounter is kept open throughout the length of the case and can be used to document any updates to the case
+    - Linked documentation
+    - Case details
+    - Referrals
+    - Case management notes
+    - Restrictions/Accommodations
+    - Disposition/Work Status
+  - Tasking
+  - Work Related (WR) Case Management Encounter
+    - Case Manager
+    - Case
+    - Incident Summary
+    - Plan Narrative flowsheet (customizable & driven by protocol <em>Case Management</em>)
+    - Notes/Tracking
+      - Follow-Up Date
+    - Restrictions/Accommodations
+      - Lost Time Tracking
+    - Stages
+  - WR Case Management Worklist
+  - Security Role Permissions
+  - Linking/Adding Cases
+    - Linking existing case to a document (ex: WebScan or File Upload)
+    - Linking visit encounter(s) to existing case
+    - Make Case from an incident reported via the employee portal (if applicable).
+  - Cases stand-alone chart tab
+  - Close case
+    - Deleting case or Closing case difference
+  - Close/Archive Case Management Encounter (once considered ‘resolved', closed, or another outcome)
+  - Forms can be generated from the current case
+    - OSHA 301 configured with an overlay of employee incident data
+    - Generic and State-specific forms
+      - Doctor's First Report of Injury
+      - Employer's First Report of Injury
+  - Reports
+    - Case Management Encounters
+    - Daily Activity
+    - Incident Report
+    - OSHA 300 Log
+    - OSHA 300A
+    - Sharps Log
+- System Configuration
+  - Encounter Stages
+  - Follow-Up Date
+  - Incident on-site Locations
+  - Task Rules
+  - Restriction Notification Email functionality to Supervisor
+  - Restriction Types Editor
+  - Accommodation types
+  - Nature of Illness/Injury and Body Parts
+  - Chart Tab Restriction
+  - Report Restriction
+  - Restriction Providers
+  - Legacy System Case Management
+  - My Settings preference for Cases
+  - System Settings (module I&I)
+- System Configuration/Key Decision Points
+- Action Items/Timelines
+- Resources
+  - Documentation
+  - LMS Courses/Videos
 
 ## Pre-requisites
 
@@ -111,9 +112,9 @@ Before the review session, please provide corresponding documentation:
 1. Standard Operating Procedures of the current Case Management processes
 2. Any mapping or swim lane documentation for the current Case Management processes
 3. Types of Cases currently being utilized for Case Management
-    * Injury/Illness
-    * COVID
-    * Absence Management (if purchased)
+   - Injury/Illness
+   - COVID
+   - Absence Management (if purchased)
 4. Questionnaires/flowsheets for the current Case Management processes
 5. Report examples for the current Case Management processes
 6. Forms/Documentation examples that utilize the Case Management processes
@@ -126,13 +127,13 @@ Case managers often coordinate the proactive efforts of health care teams to fac
 
 Standard functionality includes:
 
-* A Work-Related (WR) Case Management encounter is designed to capture the assigned Case Manager, case management note, RTW documentation, accommodations/restrictions, as well as additional supporting documentation relevant to the status of the individual.
-* WR Case Management Worklist portlet for tracking and managing cases.
-* Case Management Reports
+- A Work-Related (WR) Case Management encounter is designed to capture the assigned Case Manager, case management note, RTW documentation, accommodations/restrictions, as well as additional supporting documentation relevant to the status of the individual.
+- WR Case Management Worklist portlet for tracking and managing cases.
+- Case Management Reports
 
 ## WR Case Management Workflow Demonstration
 
-* [WR Case Management Demonstration](https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M)
+- [WR Case Management Demonstration](https://drive.google.com/open?id=1-Ny5J2VkTmxqMcAfBJhJEBFntQwE9trn3mJvkQLw52M)
 
 ## Tasking
 
@@ -150,31 +151,31 @@ To assist with managing WR Case Management encounters, {{% system-name %}} can h
 
 Overall, a new WR Case Management encounter should be created for a case/incident if one does not already exist, as noted on the worklist. The WR Case Management encounter offers the following sections that Case Managers or staff may use to document information throughout the duration of the reported case/incident:
 
-**Case Manager**: The *Case Manager* field is used to notate the case manager(s) or staff responsible for managing the case.
+**Case Manager**: The _Case Manager_ field is used to notate the case manager(s) or staff responsible for managing the case.
 
-**Case**: The *Case* section can be used to create and document a new case, or select and link an existing case/incident.
+**Case**: The _Case_ section can be used to create and document a new case, or select and link an existing case/incident.
 
-**Presenting Restrictions**: The *Presenting Restrictions* section is used to display any restrictions currently in effect, as a result of the incident.
+**Presenting Restrictions**: The _Presenting Restrictions_ section is used to display any restrictions currently in effect, as a result of the incident.
 
-**Linked Documents**: The *Linked Documents* section displays all relevant documents linked to the WR Case Management encounter.
+**Linked Documents**: The _Linked Documents_ section displays all relevant documents linked to the WR Case Management encounter.
 
 **Tests & Procedures**: Displays active, pending Due List items (i.e., tests and/or procedures) that may be performed and completed within the encounter.
 
-**Symptoms/Diagnosis**: The *Symptoms/Diagnosis* section is used to document the diagnosis/assessment of the WR Case Management encounter.
+**Symptoms/Diagnosis**: The _Symptoms/Diagnosis_ section is used to document the diagnosis/assessment of the WR Case Management encounter.
 
-**Incident Summary**: The *Incident Summary* section will display if the WR Case Management encounter is linked to an Injury OSHA case type. When linked, this section provides fields for updating case information, as needed.
+**Incident Summary**: The _Incident Summary_ section will display if the WR Case Management encounter is linked to an Injury OSHA case type. When linked, this section provides fields for updating case information, as needed.
 
-**Notes/Tracking**: The *Notes/Tracking* section can be used to document all ongoing notes regarding the case, allowing staff to easily track progress over time by way of notes, associated timestamps, and recorded follow-up dates. Follow-up dates are great for ensuring individuals are continuing to be monitored, particularly if an outside provider is overseeing the case. The Follow-up Date will appear on the WR Case Management Worklist portlet, providing visibility to any ongoing management needs of an open case.
+**Notes/Tracking**: The _Notes/Tracking_ section can be used to document all ongoing notes regarding the case, allowing staff to easily track progress over time by way of notes, associated timestamps, and recorded follow-up dates. Follow-up dates are great for ensuring individuals are continuing to be monitored, particularly if an outside provider is overseeing the case. The Follow-up Date will appear on the WR Case Management Worklist portlet, providing visibility to any ongoing management needs of an open case.
 
-**Visit Orders**: Any referral orders needing to be created may be done using the *Visit Orders* section.
+**Visit Orders**: Any referral orders needing to be created may be done using the _Visit Orders_ section.
 
-**Restrictions & Accommodations**: *Restrictions & Accommodations* can be added or maintained from within this section. Add, edit, or end any necessary restrictions, as appropriate.
+**Restrictions & Accommodations**: _Restrictions & Accommodations_ can be added or maintained from within this section. Add, edit, or end any necessary restrictions, as appropriate.
 
 {{% info %}}
 Lost Time should be entered as a Lost Time restriction type, and one of the provided Lost Time accommodation options should be selected, to ensure the OSHA log calculates correctly.
 {{% /info %}}
 
-**Restrictions Pending Accommodations**: The *Restrictions Pending Accommodations* section displays all active restrictions that do not have any associated accommodations. This section allows users to associate accommodations to restrictions, as needed.
+**Restrictions Pending Accommodations**: The _Restrictions Pending Accommodations_ section displays all active restrictions that do not have any associated accommodations. This section allows users to associate accommodations to restrictions, as needed.
 
 ## WR Case Management Worklist
 
@@ -210,7 +211,7 @@ In order to set up and establish the preferred stage(s), the Encounter Types Edi
 
 ### Follow-Up Date
 
-In the *Notes/Tracking* section of the WR Case Management encounter, there is the option to notate a **Follow-up Date**. Follow-up dates are great for ensuring individuals are continuing to be monitored because they provide a quick reference of when the individual is expected to be seen again. This date can reference a follow-up with either an in-house or external provider. The Follow-up Date will appear on the WR Case Management Worklist portlet, providing visibility to any ongoing management needs of an open case. Additionally, the Follow-up Date can be configured by MIE to display on the grey patient header, if preferred.
+In the _Notes/Tracking_ section of the WR Case Management encounter, there is the option to notate a **Follow-up Date**. Follow-up dates are great for ensuring individuals are continuing to be monitored because they provide a quick reference of when the individual is expected to be seen again. This date can reference a follow-up with either an in-house or external provider. The Follow-up Date will appear on the WR Case Management Worklist portlet, providing visibility to any ongoing management needs of an open case. Additionally, the Follow-up Date can be configured by MIE to display on the grey patient header, if preferred.
 
 ### Tasks
 
@@ -240,9 +241,9 @@ Depending on the client's needs, specific reports may be restricted from Case Ma
 
 ### Restriction Providers
 
-When documenting a restriction in the *Restrictions and Accommodations* section of an encounter, there is an optional field allowing users to notate the name of the provider assigning the restriction. By default, the **Provider** field is mapped to the *Physicians* department. This means that all available selections are *internal* providers, with active login credentials.
+When documenting a restriction in the _Restrictions and Accommodations_ section of an encounter, there is an optional field allowing users to notate the name of the provider assigning the restriction. By default, the **Provider** field is mapped to the _Physicians_ department. This means that all available selections are _internal_ providers, with active login credentials.
 
-There is the ability to map an alternative department that would allow for selecting both internal *and* external providers if preferred. To do so requires a new *Restriction Provider* department to be created and used, in place of the *Physicians* department. This provides a department where external providers can be created, and any internal providers can be tied to.
+There is the ability to map an alternative department that would allow for selecting both internal _and_ external providers if preferred. To do so requires a new _Restriction Provider_ department to be created and used, in place of the _Physicians_ department. This provides a department where external providers can be created, and any internal providers can be tied to.
 
 External provider names can be full physician names, location names, or something more generic, such as XYZ Urgent Care, or Outside Provider. Determine the best options according to the tracking and reporting needs of the organization. Once the new department is created and provider(s) added, MIE will change the realm in the layout so that the new department will be mapped to the Provider field, as needed.
 
@@ -257,7 +258,7 @@ It is important to consider how any current or existing case management data, or
 For clients interested in generating OSHA 300 logs, and who would like to import encounters, restrictions, accommodations, conditions, and natures of injury, the [Case Management CSV API](http://www.mieweb.com/wiki/Lost_Time_CSV_Import) is the best tool to consider. It is important to determine if any additional data fields from the existing/legacy system will need to be imported for Lost Time tracking, for example, or for any data requirements that are not supported with the Case Management CSV API (e.g., dates, free-text notes/comments regarding cases, etc.).
 
 {{% info %}}
-Because importing historical/closed cases produces only *summary* documents and not discrete data entries, custom configuration is available for importing any historical Lost Time data from current/open cases as an add-on service, scoped and billed separately.
+Because importing historical/closed cases produces only _summary_ documents and not discrete data entries, custom configuration is available for importing any historical Lost Time data from current/open cases as an add-on service, scoped and billed separately.
 {{% /info %}}
 
 Alternatively, clients may choose to manually open cases and encounters to document anew all case/incident data, where then any historical documents brought in may be linked, accordingly. This is essentially creating each case/encounter from scratch.
@@ -280,19 +281,19 @@ System settings associated with Case Management can be found under the Injury & 
 
 ## Reporting
 
-Case Managers utilizing the WR Case Management encounter will find that {{% system-name %}} offers various reports driven by the WR Case Management encounter data. These reports can be found in the **Reports** sidemenu, under the [WR Case Mgmt tab](https://system/?f=layout&module=reports&name=CaseManagement&tabmodule=reports&t=Case+Management&tabmodule=reports&tabselect=WR+Case+Mgmt). Reports include *Case Management Encounters*, *Daily Activity Report*, and *Health Care Provider Report*. A *Liberty Mutual Cases Sent* report is also available for those clients using a bi-directional interface with the third-party insurance administrator Liberty Mutual. Another report to utilize for WR Case Management encounters is the *Encounter Search Custom Report* found in the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) section of the Reports sidemenu. This report may be helpful if the WR Case Management encounter is set to archive as a specific document type.
+Case Managers utilizing the WR Case Management encounter will find that {{% system-name %}} offers various reports driven by the WR Case Management encounter data. These reports can be found in the **Reports** sidemenu, under the [WR Case Mgmt tab](https://system/?f=layout&module=reports&name=CaseManagement&tabmodule=reports&t=Case+Management&tabmodule=reports&tabselect=WR+Case+Mgmt). Reports include _Case Management Encounters_, _Daily Activity Report_, and _Health Care Provider Report_. A _Liberty Mutual Cases Sent_ report is also available for those clients using a bi-directional interface with the third-party insurance administrator Liberty Mutual. Another report to utilize for WR Case Management encounters is the _Encounter Search Custom Report_ found in the [Visits](https://system/?f=layout&module=reports&name=Visits&tabmodule=reports&t=Visits&tabmodule=reports&tabselect=Visits) section of the Reports sidemenu. This report may be helpful if the WR Case Management encounter is set to archive as a specific document type.
 
-Other work-related case reports can be found in the [Safety](https://system/?f=layout&module=reports&name=Safety&tabmodule=reports&tabmodule=reports&tabselect=Safety) section of the Reports sidemenu. These reports include the *OSHA 300 Log*, *OSHA 300A Report*, and *Sharps Log*. Another popular report from the Safety section is the *Incident Report*, which tracks all cases (incidents) that were reported. Even though a chart may have a case/incident reported, it does not necessarily warrant a WR Case Management encounter being created. Because of this, the Incident Report helps users search for all cases reported throughout the {{% system-name %}} system, looking for cases only; not encounters.
+Other work-related case reports can be found in the [Safety](https://system/?f=layout&module=reports&name=Safety&tabmodule=reports&tabmodule=reports&tabselect=Safety) section of the Reports sidemenu. These reports include the _OSHA 300 Log_, _OSHA 300A Report_, and _Sharps Log_. Another popular report from the Safety section is the _Incident Report_, which tracks all cases (incidents) that were reported. Even though a chart may have a case/incident reported, it does not necessarily warrant a WR Case Management encounter being created. Because of this, the Incident Report helps users search for all cases reported throughout the {{% system-name %}} system, looking for cases only; not encounters.
 
 All clients should review the available reports to determine if any additional reports are needed for case management.
 
 ## Key Decision Points
 
 1. Are Case Managers to be utilized in future Case Management Workflows?
-    * Do Case Managers need to have limited/restricted access?
-        * If so, List of all Case Managers needed for restricted access setup
-        * What restricted Chart tabs, print definitions, or documents are needed?
-        * What access is needed for Case Managers?
+   - Do Case Managers need to have limited/restricted access?
+     - If so, List of all Case Managers needed for restricted access setup
+     - What restricted Chart tabs, print definitions, or documents are needed?
+     - What access is needed for Case Managers?
 2. What should be configured in the Plan Narrative section Case Management protocol flowsheet?
 3. What Case Management Reports are needed?
 4. What Stages are needed?
@@ -305,31 +306,31 @@ All clients should review the available reports to determine if any additional r
 
 ### CSV Import Tools & OSHA E-file Info
 
-* [Case Management CSV API Specification Spreadsheet](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=0)
-* [User Instructions for Importing Data (Data Import Standards)](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html)
-* [OSHA.gov Injury Tracking Application API Documentation](https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf)
-* [Data Import-Lost Time Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html)
-* [Lost Time CSV Import Specification](https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY#heading=h.ccpszybqwbm2)
-* [Example of Lost Time Import](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)
+- [Case Management CSV API Specification Spreadsheet](https://docs.google.com/spreadsheets/d/1sLE0ZxfpH27FOIiEUo2YrNfmmI7L-6MWS1aTJu7sVHM/edit#gid=0)
+- [User Instructions for Importing Data (Data Import Standards)](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards.html)
+- [OSHA.gov Injury Tracking Application API Documentation](https://www.osha.gov/sites/default/files/ita/documentation/osha_injury-tracking-application-api-documentation-v1.pdf)
+- [Data Import-Lost Time Import Tool](https://docs.enterprisehealth.com/functions/system-administration/data-migration/lost-time-import-tool.html)
+- [Lost Time CSV Import Specification](https://drive.google.com/open?id=1jVqdp4ZGRqRsi6jz57pNTfctDgZ9eTHDPHTeFH8m4tY#heading=h.ccpszybqwbm2)
+- [Example of Lost Time Import](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)
 
 ### Help Documentation
 
-* [Cases-Adding Absence Management Case](../../functions/injury-care/case-management/adding-absence-management-case.md)
-* [Cases-Adding Hospital Case](../../functions/injury-care/case-management/adding-hospital-case.md)
-* [Cases-Adding MSEA Case](../../functions/injury-care/case-management/adding-msea-case.md)
-* [Cases-Adding Non-OSHA Case](../../functions/injury-care/case-management/adding-non-osha-case.md)
-* [Cases-Adding OSHA Case](../../functions/injury-care/case-management/adding-osha-case.md)
-* [Cases-Closing An Existing Case](../../functions/injury-care/case-management/closing-an-existing-case.md)
-* [Cases-Deleting An Existing Case](../../functions/injury-care/case-management/deleting-an-existing-case.md)
-* [Cases-Viewing](../../functions/injury-care/case-management/viewing-cases.md)
-* [Common Case Search Report](../../functions/reports/common-case-search-report.md)
-* [Data Import-Lost Time Import Tool](../../functions/system-administration/data-migration/lost-time-import-tool.md)
-* [OSHA 300 Log Report](../../functions/reports/osha-300-log-report.md)
-* [Incident Report](../../functions/reports/incidents-report.md)
+- [Cases-Adding Absence Management Case](../../functions/injury-care/case-management/adding-absence-management-case.md)
+- [Cases-Adding Hospital Case](../../functions/injury-care/case-management/adding-hospital-case.md)
+- [Cases-Adding MSEA Case](../../functions/injury-care/case-management/adding-msea-case.md)
+- [Cases-Adding Non-OSHA Case](../../functions/injury-care/case-management/adding-non-osha-case.md)
+- [Cases-Adding OSHA Case](../../functions/injury-care/case-management/adding-osha-case.md)
+- [Cases-Closing An Existing Case](../../functions/injury-care/case-management/closing-an-existing-case.md)
+- [Cases-Deleting An Existing Case](../../functions/injury-care/case-management/deleting-an-existing-case.md)
+- [Cases-Viewing](../../functions/injury-care/case-management/viewing-cases.md)
+- [Common Case Search Report](../../functions/reports/common-case-search-report.md)
+- [Data Import-Lost Time Import Tool](../../functions/system-administration/data-migration/lost-time-import-tool.md)
+- [OSHA 300 Log Report](../../functions/reports/osha-300-log-report.md)
+- [Incident Report](../../functions/reports/incidents-report.md)
 
 ### LMS Courses
 
-* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
-* [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
-* [Injury/Illness and OSHA Reports](https://mie.talentlms.com/shared/start/key:AABHRKMF)
-* [Absence Management](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses)
+- [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
+- [Workers' Compensation Management](https://mie.talentlms.com/shared/start/key:ALTHRKMF)
+- [Injury/Illness and OSHA Reports](https://mie.talentlms.com/shared/start/key:AABHRKMF)
+- [Absence Management](https://docs.enterprisehealth.com/rapid-deployment/review-sessions/review-session-case-management/#lms-courses)

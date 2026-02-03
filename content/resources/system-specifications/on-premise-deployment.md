@@ -1,27 +1,28 @@
 ---
-id: '1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-title: 'On-Premise Deployment'
-date: '2025-10-24T12:34:45.293Z'
+id: "1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
+title: "On-Premise Deployment"
+date: "2025-10-24T12:34:45.293Z"
 version: 54
-lastAuthor: 'janderson'
-mimeType: 'text/x-markdown'
+lastAuthor: "janderson"
+mimeType: "text/x-markdown"
 links:
-  - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html'
-  - 'https://www.centos.org/'
-  - 'https://httpd.apache.org/docs/2.4/'
-  - 'https://downloads.mariadb.org/mariadb/10.2.8/'
-  - 'http://memcached.org/'
-  - 'https://en.wikipedia.org/wiki/Uniform_Resource_Locator'
-  - 'on-premise-deployment/on-premise-mysql-server-hardware-requirements.md'
-  - 'https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit'
-  - 'https://httpd.apache.org/docs/2.2/'
-  - 'https://ehs.mycompany.com/'
-  - 'http://ehs.mycompany.com'
-  - 'on-premise-deployment/application-managed-service-summary.md'
-  - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
-source: 'https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI'
-wikigdrive: 'v2.15.30'
+  - "https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html"
+  - "https://www.centos.org/"
+  - "https://httpd.apache.org/docs/2.4/"
+  - "https://downloads.mariadb.org/mariadb/10.2.8/"
+  - "http://memcached.org/"
+  - "https://en.wikipedia.org/wiki/Uniform_Resource_Locator"
+  - "on-premise-deployment/on-premise-mysql-server-hardware-requirements.md"
+  - "https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit"
+  - "https://httpd.apache.org/docs/2.2/"
+  - "https://ehs.mycompany.com/"
+  - "http://ehs.mycompany.com"
+  - "on-premise-deployment/application-managed-service-summary.md"
+  - "https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs"
+source: "https://drive.google.com/open?id=1W32Q90BZqGacjJHvzQiKrDRBIvh47oBt5LK4gwHK5HI"
+wikigdrive: "v2.15.30"
 ---
+
 ## Change Log
 
 <table>
@@ -69,10 +70,10 @@ All information supplied in this document by {{% system-name %}}  is to be cons
 
 The following critical infrastructure items are assumed to be reliable, redundant and well managed by the hosting organization when considering self-hosting.
 
-* Power
-* Cooling
-* Networking
-* Security, physical and cyber
+- Power
+- Cooling
+- Networking
+- Security, physical and cyber
 
 This document also assumes the hosting organization has the technical resources to maintain and support the services that will be deployed within the self-hosting environment.
 
@@ -84,13 +85,13 @@ During the installation and configuration period, all instances **must** have 
 
 {{% system-name %}}  deploys its applications using Enterprise-level open source software. Minimally required services in the hosting environment are as follows:
 
-* Linux, [Red Hat® Enterprise Linux 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html) or [CentOS 7](https://www.centos.org/)
-* Web Services
-    * [Apache 2.4](https://httpd.apache.org/docs/2.4/)
-* {{% system-name %}}  System
-    * Local File System
-    * [MariaDB 10.2.8](https://downloads.mariadb.org/mariadb/10.2.8/) or higher
-    * [memcached 1.4.4](http://memcached.org/) or higher
+- Linux, [Red Hat® Enterprise Linux 7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.0_Release_Notes/index.html) or [CentOS 7](https://www.centos.org/)
+- Web Services
+  - [Apache 2.4](https://httpd.apache.org/docs/2.4/)
+- {{% system-name %}}  System
+  - Local File System
+  - [MariaDB 10.2.8](https://downloads.mariadb.org/mariadb/10.2.8/) or higher
+  - [memcached 1.4.4](http://memcached.org/) or higher
 
 ### State Diagram of Services
 
@@ -116,9 +117,9 @@ The {{% system-name %}}  application requires an x86_64 architecture and can be
 
 There are three typical deployment footprints:
 
-* All-in-one
-* Dedicated DB
-* High Availability / Horizontal Scalability
+- All-in-one
+- Dedicated DB
+- High Availability / Horizontal Scalability
 
 ### All-in-one
 
@@ -141,6 +142,7 @@ The High Availability (HA) and Horizontal Scalability (HS) environment distribut
 ## Minimum Hardware Requirement
 
 Hardware requirements vary greatly based on a variety of factors including the number of concurrent users, user activities and data storage requirements. For example, disk requirements will be greater when converting volumes of paper charts to digital images. We typically work with our clients to review current usage requirements and forecast anticipated growth in order to ensure Development, QA and Production environments are provisioned correctly. Minimum requirements are as follows:
+
 <table>
 <tr>
 <td><strong>ALL-IN-ONE</strong></td>
@@ -189,54 +191,54 @@ Hardware requirements vary greatly based on a variety of factors including the n
 
 ### File Servers
 
-* 3 x (1 as primary, 2 as replication partners)
-    * 1 x Quad-core Intel E5 series or better CPUs
-    * 64G RAM
-    * 5T of storage (RAID6 based array)
-* OS: RHEL / CentOS 7.x
+- 3 x (1 as primary, 2 as replication partners)
+  - 1 x Quad-core Intel E5 series or better CPUs
+  - 64G RAM
+  - 5T of storage (RAID6 based array)
+- OS: RHEL / CentOS 7.x
 
 ### Web Servers
 
-* 2 x Quad-core Intel E5 series or better CPUs:
-    * 12G RAM minimum
-    * 500G RAID1
-* OS: RHEL / CentOS 7.x
+- 2 x Quad-core Intel E5 series or better CPUs:
+  - 12G RAM minimum
+  - 500G RAID1
+- OS: RHEL / CentOS 7.x
 
 ### Fax Server
 
 1. If using our Dialogic based FAX server, the fax and interface box can be one in the same:
-    * One server provides fax functionality, interfaces, and runs a virtual machine for the print functions:
-        * 2 x Quad-core Intel E5 series or better CPUs
-            * 64G RAM
-            * 4 x 600G 15K SAS drives in a RAID10 volume
-            * 1 x Dialogic DIVAServer E1 306-304 PCIe fax card for currently developed MIE faxing solution
-        * OS: RHEL / CentOS 7.x
-        * VM: Windows 7 32bit, running latest copy of Microsoft Word (for print conversions)
+   - One server provides fax functionality, interfaces, and runs a virtual machine for the print functions:
+     - 2 x Quad-core Intel E5 series or better CPUs
+       - 64G RAM
+       - 4 x 600G 15K SAS drives in a RAID10 volume
+       - 1 x Dialogic DIVAServer E1 306-304 PCIe fax card for currently developed MIE faxing solution
+     - OS: RHEL / CentOS 7.x
+     - VM: Windows 7 32bit, running latest copy of Microsoft Word (for print conversions)
 2. If using a separate FAX server, the following specs are for a separate interface server and separate print server:
-    * Print server:
-        * 1 x Quad-core Intel E5 series or better CPUs
-            * 2G RAM minimum
-            * 20G RAID1
-        * OS: Windows 7 32bit, running Word 2013
+   - Print server:
+     - 1 x Quad-core Intel E5 series or better CPUs
+       - 2G RAM minimum
+       - 20G RAID1
+     - OS: Windows 7 32bit, running Word 2013
 
 ### Batch Server
 
-* 1 x Quad-core Intel E5 series or better CPUs
-    * 4G RAM minimum
-    * 60G RAID1
-    * OS: RHEL / CentOS 7.x
+- 1 x Quad-core Intel E5 series or better CPUs
+  - 4G RAM minimum
+  - 60G RAID1
+  - OS: RHEL / CentOS 7.x
 
 ## Supportive Servers and Services
 
 The following servers and services are not covered in detail in this document, but are typically included as part of a on-premise environment.
 
-* Fax Server
-    * Dedicated bare metal hardware
-    * Dialogic DIVA 306-304 PCIe T1/PRI FAX card
-* Interface
-    * EDI
-    * sFTP/FTPs
-    * Socket based
+- Fax Server
+  - Dedicated bare metal hardware
+  - Dialogic DIVA 306-304 PCIe T1/PRI FAX card
+- Interface
+  - EDI
+  - sFTP/FTPs
+  - Socket based
 
 ## Deployment Guide
 
@@ -251,27 +253,28 @@ The All-in-One  {{% sys-name %}} VM deployment is designed to be quick and easy
 1. Using the link provided by your deployment specials, download the {{% sys-name %}} All-in-One VM Box Image. If you do not have a link contact your deployment specialist and one will provided to you.
 2. Deploy the VM within your Virtualized Environment
 3. Assign IPv4 address to VM Network and System
-* Hostname
-* DNS
-* [VPN to MIE](https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit#gid=1385212531)
-* Firewall rules
-    * tcp/443 (HTTPS) to MIE and Application Users
-    * tcp/22 (SSH) to MIE
-    * tcp/389 and tcp/636 LDAP to MIE
-    * tcp/10050 and tcp/10051 - Zabbix
-    * tcp/1514 OSSec
-    * tcp/514 and udp/514 - syslog
-    * tcp/4505 and tcp/4506 - Salt
-* Mail Services
-    * Allow mail to be sent from instance
-* Monitoring of systems
-* Audit Logging
-* Backup
+
+- Hostname
+- DNS
+- [VPN to MIE](https://docs.google.com/spreadsheets/d/15Ajp6KpMh34ijSyZxvwmSvsH8jJiPTsy7WOwvFFYnhc/edit#gid=1385212531)
+- Firewall rules
+  - tcp/443 (HTTPS) to MIE and Application Users
+  - tcp/22 (SSH) to MIE
+  - tcp/389 and tcp/636 LDAP to MIE
+  - tcp/10050 and tcp/10051 - Zabbix
+  - tcp/1514 OSSec
+  - tcp/514 and udp/514 - syslog
+  - tcp/4505 and tcp/4506 - Salt
+- Mail Services
+  - Allow mail to be sent from instance
+- Monitoring of systems
+- Audit Logging
+- Backup
 
 #### Web Services Configuring
 
-* Purchase SSL certificate for selected domain name
-* Configure [Apache 2.2.15](https://httpd.apache.org/docs/2.2/) with SSL certificates
+- Purchase SSL certificate for selected domain name
+- Configure [Apache 2.2.15](https://httpd.apache.org/docs/2.2/) with SSL certificates
 
 ## On-Premise Golive Checklist
 
@@ -279,21 +282,21 @@ Successful Go-Live of an On-Premise {{% system-name %}}  System requires planni
 
 ### Checklist
 
-*This checklist is to help the customer plan and give insight to what is needed for a successful go-live and is by no means is comprehensive.*
+_This checklist is to help the customer plan and give insight to what is needed for a successful go-live and is by no means is comprehensive._
 
-* Determine {{% system-name %}} endpoint example: ([https://ehs.mycompany.com](https://ehs.mycompany.com/))
-* Purchase SSL certificates for domain ([ehs.mycompany.com](http://ehs.mycompany.com))
-* Server / Application Configuration:
-    * install and configuration of services
-    * Install and configuration of {{% sys-name %}}
-    * Logging
-    * Monitoring
-    * Backup configuration
-    * Outbound email Configuration to {{% sys-name %}} support
-* Production functionality testing
-    * Access to Application
-    * View / uploading data
-* Failover testing (if applicable)
+- Determine {{% system-name %}} endpoint example: ([https://ehs.mycompany.com](https://ehs.mycompany.com/))
+- Purchase SSL certificates for domain ([ehs.mycompany.com](http://ehs.mycompany.com))
+- Server / Application Configuration:
+  - install and configuration of services
+  - Install and configuration of {{% sys-name %}}
+  - Logging
+  - Monitoring
+  - Backup configuration
+  - Outbound email Configuration to {{% sys-name %}} support
+- Production functionality testing
+  - Access to Application
+  - View / uploading data
+- Failover testing (if applicable)
 
 ### Hosted vs On-Premise
 
@@ -330,8 +333,8 @@ Successful Go-Live of an On-Premise {{% system-name %}}  System requires planni
 
 {{% sys-name %}} offers managed services for the following:
 
-* [Application Managed Service Summary](on-premise-deployment/application-managed-service-summary.md)
-* [Database Managed Services](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs)
+- [Application Managed Service Summary](on-premise-deployment/application-managed-service-summary.md)
+- [Database Managed Services](https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs)
 
 ## Hotfix Release Notes
 

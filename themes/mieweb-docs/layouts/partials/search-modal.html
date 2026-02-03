@@ -1,0 +1,87 @@
+{{- /* Search modal with CommandPalette-style UI */}}
+<div
+  id="search-modal"
+  class="fixed inset-0 z-50 hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="search-modal-title"
+>
+  {{- /* Backdrop */}}
+  <div class="fixed inset-0 bg-black/50 backdrop-blur-sm" id="search-modal-backdrop"></div>
+
+  {{- /* Modal content */}}
+  <div class="fixed inset-x-4 top-[20%] mx-auto max-w-2xl">
+    <div class="border-border bg-background overflow-hidden rounded-xl border shadow-2xl">
+      {{- /* Search input */}}
+      <div class="border-border flex items-center border-b px-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-search text-muted-foreground"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        <input
+          type="text"
+          id="search-input"
+          class="text-foreground placeholder:text-muted-foreground w-full border-0 bg-transparent px-4 py-4 text-lg focus:ring-0 focus:outline-none"
+          placeholder="Search documentation..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <kbd
+          class="border-border bg-muted text-muted-foreground hidden rounded border px-2 py-1 text-xs sm:inline-block"
+          >ESC</kbd
+        >
+      </div>
+
+      {{- /* Search results */}}
+      <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2">
+        <div class="text-muted-foreground px-2 py-8 text-center text-sm">
+          <p>Start typing to search...</p>
+          <p class="mt-2 text-xs">
+            Use <kbd class="border-border bg-muted rounded border px-1">↑</kbd>
+            <kbd class="border-border bg-muted rounded border px-1">↓</kbd> to navigate,
+            <kbd class="border-border bg-muted rounded border px-1">Enter</kbd> to select
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{- /* Search result template */}}
+<template id="search-result-template">
+  <a href="" class="search-result group hover:bg-muted flex flex-col gap-1 rounded-lg px-3 py-3" data-index="">
+    <div class="flex items-center gap-2">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-file-text text-muted-foreground"
+      >
+        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+        <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+        <path d="M10 9H8" />
+        <path d="M16 13H8" />
+        <path d="M16 17H8" />
+      </svg>
+      <span class="search-result-title text-foreground font-medium"></span>
+    </div>
+    <p class="search-result-summary text-muted-foreground line-clamp-2 text-sm"></p>
+  </a>
+</template>

@@ -1,60 +1,61 @@
 ---
-id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-title: 'Review Session - Scheduler'
-date: '2025-09-11T14:52:26.071Z'
+id: "16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44"
+title: "Review Session - Scheduler"
+date: "2025-09-11T14:52:26.071Z"
 version: 81
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'https://system/?func=scheduler&s=schedules'
-  - 'https://system/?func=scheduler&s=wait_list'
-  - 'https://system/?func=scheduler'
-  - '../../functions/system-administration/security/security-role-settings.md'
-  - 'https://system/?func=scheduler&s=schedules&opp=sched_edit'
-  - 'https://system/?func=scheduler&s=apttypes'
-  - '../../functions/scheduling/appt-types-tab.md'
-  - 'https://system/?f=scheduler&s=apttemplates&opp=add'
-  - 'https://system/?f=scheduler&s=apttemplates&opp=addmulti'
-  - '../../functions/document-management/printing-and-print-definitions/print-definitions.md'
-  - 'https://system/?f=scheduler&s=cancel_code_manager'
-  - 'https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings'
-  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
-  - '../../functions/system-administration/security/my-settings.md'
-  - '../../functions/scheduling/adding-an-appointment-using-the-wizard-tab.md'
-  - '../../functions/scheduling/cancel-no-show-edit-appointments.md'
-  - '../../functions/scheduling/pat-appt-wizard-tab.md'
-  - '../../functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md'
-  - '../../functions/scheduling/scheduler-views.md'
-  - '../../functions/scheduling/schedules-tab.md'
-  - '../../functions/scheduling/waiting-list-tab.md'
-  - '../../functions/scheduling/schedule-management.md'
-  - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447'
-source: 'https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
-wikigdrive: 'v2.15.30'
+  - "https://system/?func=scheduler&s=schedules"
+  - "https://system/?func=scheduler&s=wait_list"
+  - "https://system/?func=scheduler"
+  - "../../functions/system-administration/security/security-role-settings.md"
+  - "https://system/?func=scheduler&s=schedules&opp=sched_edit"
+  - "https://system/?func=scheduler&s=apttypes"
+  - "../../functions/scheduling/appt-types-tab.md"
+  - "https://system/?f=scheduler&s=apttemplates&opp=add"
+  - "https://system/?f=scheduler&s=apttemplates&opp=addmulti"
+  - "../../functions/document-management/printing-and-print-definitions/print-definitions.md"
+  - "https://system/?f=scheduler&s=cancel_code_manager"
+  - "https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings"
+  - "https://system/?f=admin&tabmodule=admin&tabselect=My+Settings"
+  - "../../functions/system-administration/security/my-settings.md"
+  - "../../functions/scheduling/adding-an-appointment-using-the-wizard-tab.md"
+  - "../../functions/scheduling/cancel-no-show-edit-appointments.md"
+  - "../../functions/scheduling/pat-appt-wizard-tab.md"
+  - "../../functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md"
+  - "../../functions/scheduling/scheduler-views.md"
+  - "../../functions/scheduling/schedules-tab.md"
+  - "../../functions/scheduling/waiting-list-tab.md"
+  - "../../functions/scheduling/schedule-management.md"
+  - "https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447"
+source: "https://drive.google.com/open?id=16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44"
+wikigdrive: "v2.15.30"
 ---
+
 ## Agenda
 
-* <strong>Demo Scheduler</strong>
-* <strong>Overview</strong>
-* <strong>Scheduler</strong>
-    * <strong>Tabs</strong>
-        * <strong>Views</strong>
-        * <strong>Wizards</strong>
-        * <strong>Schedules</strong>
-        * <strong>Waiting List</strong>
-* <strong>System Configuration</strong>
-    * <strong>Schedule Resources</strong>
-    * <strong>Schedules</strong>
-    * <strong>Appointment Types</strong>
-        * <strong>Durations</strong>
-        * <strong>Colors</strong>
-        * <strong>Default Encounter Type</strong>
-        * <strong>Print Definitions</strong>
-    * <strong>Cancellation Codes</strong>
-    * <strong>Waiting List</strong>
-    * <strong>System Settings</strong>
-    * <strong>My Settings and Security Role Permissions</strong>
-* <strong>Resources</strong>
+- <strong>Demo Scheduler</strong>
+- <strong>Overview</strong>
+- <strong>Scheduler</strong>
+  - <strong>Tabs</strong>
+    - <strong>Views</strong>
+    - <strong>Wizards</strong>
+    - <strong>Schedules</strong>
+    - <strong>Waiting List</strong>
+- <strong>System Configuration</strong>
+  - <strong>Schedule Resources</strong>
+  - <strong>Schedules</strong>
+  - <strong>Appointment Types</strong>
+    - <strong>Durations</strong>
+    - <strong>Colors</strong>
+    - <strong>Default Encounter Type</strong>
+    - <strong>Print Definitions</strong>
+  - <strong>Cancellation Codes</strong>
+  - <strong>Waiting List</strong>
+  - <strong>System Settings</strong>
+  - <strong>My Settings and Security Role Permissions</strong>
+- <strong>Resources</strong>
 
 ## Overview
 
@@ -62,15 +63,15 @@ The {{% system-name %}} Scheduler is easily configured to organize multiple clin
 
 Standard functionality includes:
 
-* Customizable views and user preference options
-* Multi-location/centralized scheduling
-* Appointment Waiting List
-* Appointment Types editor
-* Schedule editor
-* Cancellation editor
-* Self-scheduling via the portal
-* Pre-loaded standard email templates
-* Appointment reports for missed, canceled, or no-show appointments
+- Customizable views and user preference options
+- Multi-location/centralized scheduling
+- Appointment Waiting List
+- Appointment Types editor
+- Schedule editor
+- Cancellation editor
+- Self-scheduling via the portal
+- Pre-loaded standard email templates
+- Appointment reports for missed, canceled, or no-show appointments
 
 ## Scheduler
 
@@ -94,17 +95,17 @@ The [Schedules tab](https://system/?func=scheduler&s=schedules) allows users wit
 
 #### Waiting List
 
-The [Waiting List tab](https://system/?func=scheduler&s=wait_list) can be used to view all appointments placed on the Waiting List. When clicked, the Waiting List will automatically display appointments for the defaulted Resource, shown in the *Show Waiting List For* search section, at the top of the page. To view the entire list, set the Resource to **Select Resource** and Location to **Any Location**, and the results will update, automatically.
+The [Waiting List tab](https://system/?func=scheduler&s=wait_list) can be used to view all appointments placed on the Waiting List. When clicked, the Waiting List will automatically display appointments for the defaulted Resource, shown in the _Show Waiting List For_ search section, at the top of the page. To view the entire list, set the Resource to **Select Resource** and Location to **Any Location**, and the results will update, automatically.
 
 The Waiting List displays patients in ascending order of when they were scheduled on the waiting list. For example, the top-most appointment on the list is the first person scheduled on the waiting list; and the last appointment on the list is the most recently added appointment.
 
 ## System Configuration
 
-The [Scheduler](https://system/?func=scheduler#Now)[**** ](https://system/?func=scheduler#Now)[module](https://system/?func=scheduler#Now) in {{% system-name %}} allows offices to interface with a Practice Management (PM) system, as well as account for any varying schedules the organization may need. Depending on the workflows and necessary schedule resources, varying degrees of configuration are needed to begin scheduling appointments in {{% system-name %}} .
+The [Scheduler](https://system/?func=scheduler#Now)[\*\*\*\* ](https://system/?func=scheduler#Now)[module](https://system/?func=scheduler#Now) in {{% system-name %}} allows offices to interface with a Practice Management (PM) system, as well as account for any varying schedules the organization may need. Depending on the workflows and necessary schedule resources, varying degrees of configuration are needed to begin scheduling appointments in {{% system-name %}} .
 
-In order to add or manage schedules and appointments in {{% system-name %}} , the proper security permissions must be provided. For instance, in order to create and manage resource schedules, the security role setting *Edit Schedules* must be set to **Yes**. Similarly, to add appointments, the *Add Appointments* setting must be **Yes**. If the My Settings preference of *Force Default Resources* is set to **Yes**, the Scheduler will show all resources that have an added or edited appointment by you. To view only one resource at a time, ensure this setting is set to **No**. For more information on some the various settings, review the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) documentation.
+In order to add or manage schedules and appointments in {{% system-name %}} , the proper security permissions must be provided. For instance, in order to create and manage resource schedules, the security role setting _Edit Schedules_ must be set to **Yes**. Similarly, to add appointments, the _Add Appointments_ setting must be **Yes**. If the My Settings preference of _Force Default Resources_ is set to **Yes**, the Scheduler will show all resources that have an added or edited appointment by you. To view only one resource at a time, ensure this setting is set to **No**. For more information on some the various settings, review the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) documentation.
 
-Once schedules are configured, adding an appointment is as simple as navigating to the [Scheduler](https://system/?func=scheduler#Now), locating the necessary day on the proper resource's schedule, and clicking the appropriate time slot needed. This will automatically open the Wizard tab, which allows users to detail the scheduled appointment, as needed. When the Appointment Wizard opens, it will show the *Patient* section, where the user types in the last name of the patient, or searches by date of birth, medical record number, or social security number. If the **Add Appt** link is clicked from anywhere in a chart, the *Patient* field will automatically populate the name of the patient. To reduce alerts and ensure everything on the Scheduler works fluidly, the following areas may need additional configuration:
+Once schedules are configured, adding an appointment is as simple as navigating to the [Scheduler](https://system/?func=scheduler#Now), locating the necessary day on the proper resource's schedule, and clicking the appropriate time slot needed. This will automatically open the Wizard tab, which allows users to detail the scheduled appointment, as needed. When the Appointment Wizard opens, it will show the _Patient_ section, where the user types in the last name of the patient, or searches by date of birth, medical record number, or social security number. If the **Add Appt** link is clicked from anywhere in a chart, the _Patient_ field will automatically populate the name of the patient. To reduce alerts and ensure everything on the Scheduler works fluidly, the following areas may need additional configuration:
 
 ### Schedule Resources
 
@@ -145,7 +146,7 @@ To create an appointment type template:
 
 To provide a quick method for creating multiple appointment type templates for existing appointment types, {{% system-name %}} has an [Add Multiple Templates option](https://system/?f=scheduler&s=apttemplates&opp=addmulti). This feature allows users to create appointment type templates en masse, per appointment type, resource, and/or location.
 
-For example, selecting three (3) existing appointment types, four (4) schedule resources, and two (2) locations, a total of 24 appointment type templates will be created. These templates will list the standard appointment type Duration and Duration Given to Patient; however, these can be edited, as needed, by simply using the **Edit** link in the *Options* column.
+For example, selecting three (3) existing appointment types, four (4) schedule resources, and two (2) locations, a total of 24 appointment type templates will be created. These templates will list the standard appointment type Duration and Duration Given to Patient; however, these can be edited, as needed, by simply using the **Edit** link in the _Options_ column.
 
 #### Durations
 
@@ -167,7 +168,7 @@ If a client uses the Checkin module, it is suggested to always default the Defau
 
 Print definitions provide ways to group many documents, forms, layouts, or the like into a defined print or fax job. Print definitions can be attached to any appointment type. This allows users to click one button and get a group of forms/documents for use, as it relates to the scheduled appointment.
 
-To print or fax a print definition from the Scheduler, simply click the *Print Chart* link from the patient's appointment. To dissociate print definitions from any appointment types, remove the print definition(s) from each of the associated appointment types, and submit the changes. Additional information can be found in the [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.md) documentation.
+To print or fax a print definition from the Scheduler, simply click the _Print Chart_ link from the patient's appointment. To dissociate print definitions from any appointment types, remove the print definition(s) from each of the associated appointment types, and submit the changes. Additional information can be found in the [Print Definitions](../../functions/document-management/printing-and-print-definitions/print-definitions.md) documentation.
 
 ### Cancellation Codes
 
@@ -175,7 +176,7 @@ For clients interested in tracking appointment cancellations and reasons for can
 
 ### System Settings
 
-There are a large number of system settings available for the Scheduler module. In the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) of the **Control Panel**, permitted users can search for settings pertaining to the *Scheduler* Module. These settings may be enabled, disabled, edited, or set, to align with business needs and prescribed workflows.
+There are a large number of system settings available for the Scheduler module. In the [System Settings](https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings) of the **Control Panel**, permitted users can search for settings pertaining to the _Scheduler_ Module. These settings may be enabled, disabled, edited, or set, to align with business needs and prescribed workflows.
 
 ### Security Role Permissions
 
@@ -193,16 +194,16 @@ Review the [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Se
 
 ### Help Documentation
 
-* [Adding an Appt Using Wizard Tab](../../functions/scheduling/adding-an-appointment-using-the-wizard-tab.md)
-* [Appt Types Tab](../../functions/scheduling/appt-types-tab.md)
-* [Copy-Edit-Delete-Cancel-No Show Appointments](../../functions/scheduling/cancel-no-show-edit-appointments.md)
-* [PAT-APT Wizard Tab](../../functions/scheduling/pat-appt-wizard-tab.md)
-* [Required-Recommended Fields When Adding Appointments](../../functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md)
-* [Scheduler Views-List-Multi-Week](../../functions/scheduling/scheduler-views.md)
-* [Schedules Tab](../../functions/scheduling/schedules-tab.md)
-* [Waiting List Tab](../../functions/scheduling/waiting-list-tab.md)
-* [Schedule Management](../../functions/scheduling/schedule-management.md)
+- [Adding an Appt Using Wizard Tab](../../functions/scheduling/adding-an-appointment-using-the-wizard-tab.md)
+- [Appt Types Tab](../../functions/scheduling/appt-types-tab.md)
+- [Copy-Edit-Delete-Cancel-No Show Appointments](../../functions/scheduling/cancel-no-show-edit-appointments.md)
+- [PAT-APT Wizard Tab](../../functions/scheduling/pat-appt-wizard-tab.md)
+- [Required-Recommended Fields When Adding Appointments](../../functions/scheduling/scheduler-inputs-editor-required-recommended-fields.md)
+- [Scheduler Views-List-Multi-Week](../../functions/scheduling/scheduler-views.md)
+- [Schedules Tab](../../functions/scheduling/schedules-tab.md)
+- [Waiting List Tab](../../functions/scheduling/waiting-list-tab.md)
+- [Schedule Management](../../functions/scheduling/schedule-management.md)
 
 ### Training Videos
 
-* [Scheduler (00:40:25)](https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447)
+- [Scheduler (00:40:25)](https://mieweb.webex.com/mieweb/ldr.php?RCID=6588ae3624f140c1dff58b2c75025447)

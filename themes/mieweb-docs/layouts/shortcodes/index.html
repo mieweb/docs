@@ -1,0 +1,4 @@
+{{- /* Index shortcode - column with optional width */}} {{- $width := .Get "width" -}}
+<div {{ if $width }}style="flex: 0 0 {{ $width }}%;" {{ else }}class="flex-1" {{ end }}>
+  {{ .Page.RenderString .Inner }}
+</div>
