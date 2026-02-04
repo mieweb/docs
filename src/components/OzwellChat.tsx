@@ -410,8 +410,8 @@ export function OzwellChat({
   pulse = false,
   position = "bottom-right",
 }: OzwellChatProps) {
-  // Logo path uses basePath to work with Hugo's baseURL configuration
-  const logoUrl = `${basePath}/images/ai/ozwell.png`;
+  // Logo path uses root path - static images don't use brand prefix
+  const logoUrl = "/images/ai/ozwell.png";
 
   const [isOpen, setIsOpen] = React.useState(false);
   const [messages, setMessages] = React.useState<AIMessage[]>([]);
