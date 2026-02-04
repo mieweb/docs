@@ -1,15 +1,14 @@
 ---
-id: "1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY"
-title: "Quick View Sidemenu"
-date: "2024-11-11T22:33:45.147Z"
-version: 143
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
+title: 'Quick View Sidemenu'
+date: '2024-11-11T22:33:45.147Z'
+version: 144
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
+wikigdrive: 'v2.15.30'
 ---
-
 The Quick View side menu offers various summary portlets that are used as a quick reference, to view modules and data in the {{% system-name %}}  system.  Examples of references include your pending tasks, the appointment schedule, worklists, dashboards, etc. You can select which specific portlets to show on your view.
 
 When logged into {{% system-name %}} , click on the Quick View side menu.
@@ -50,16 +49,16 @@ Hover the cursor over the plus (+) icon It is defined as **Move**, meaning that 
 
 The other icons are defined and function as follows:
 
-- <strong>Manage Information</strong>: Clicking the Manage Information icon will take you directly to the specific module or location within the {{% system-name %}}  system, in order to view the specific data and manage, as needed. For example, if users click this icon while viewing the Alerts portlet, it will take them directly into the Alerts module, where they can see and work those alert errors for print, fax, datasend, and/or DICOM jobs.
-- <strong>Remove</strong>: Clicking the Remove icon will remove the portlet from your Quick View.  Essentially, clicking this is similar to unchecking it from the Select Portlets window. You can retrieve the portlet back by clicking <strong>Select Modules</strong> and checkmarking the portlet again.
-- <strong>Expand/Collapse</strong>: Clicking the Collapse icon or the Expand icon will act as a show/hide link. It will keep the portlet in Quick View, but collapses or expands the data within the portlet.
-- <strong>Move</strong>: Clicking and holding the Move icon will act as a drag and drop to move the portlet to a different order or position on the Quick View. Click and hold the icon with your mouse and drag to drop into the Quick View. Release the mouse when you have moved the portlet to the position desired.
+* <strong>Manage Information</strong>: Clicking the Manage Information icon will take you directly to the specific module or location within the {{% system-name %}}  system, in order to view the specific data and manage, as needed. For example, if users click this icon while viewing the Alerts portlet, it will take them directly into the Alerts module, where they can see and work those alert errors for print, fax, datasend, and/or DICOM jobs.
+* <strong>Remove</strong>: Clicking the Remove icon will remove the portlet from your Quick View.  Essentially, clicking this is similar to unchecking it from the Select Portlets window. You can retrieve the portlet back by clicking <strong>Select Modules</strong> and checkmarking the portlet again.
+* <strong>Expand/Collapse</strong>: Clicking the Collapse icon or the Expand icon will act as a show/hide link. It will keep the portlet in Quick View, but collapses or expands the data within the portlet.
+* <strong>Move</strong>: Clicking and holding the Move icon will act as a drag and drop to move the portlet to a different order or position on the Quick View. Click and hold the icon with your mouse and drag to drop into the Quick View. Release the mouse when you have moved the portlet to the position desired.
 
 ## Security Role Default Portlets
 
 If you have security permission to save default portlets, you can configure the portlets to display on the Quick View for other users, according to their security role.
 
-From the Select Portlets function in Quick View, the **Save as Default F\*\***or\*\* option will display, providing you have security permission to save default portlets for security roles in the system.
+From the Select Portlets function in Quick View, the **Save as Default F****or** option will display, providing you have security permission to save default portlets for security roles in the system.
 
 ![](./quick-view-sidemenu.assets/cdf73925f0168d13f592a41497cc5bef.png)
 
@@ -75,7 +74,7 @@ Once the security role is selected via the drop-down, click the pencil/paper ico
 
 ![](./quick-view-sidemenu.assets/20fdeb48a5943f7ecf74ba1ee927ab94.png)
 
-The screen will refresh and display the Quick View portlets for the selected security role.  Users can visually see the portlets on the Quick View screen for that security role selected. Users can drag and drop portlets to be in a specific order also for the security role default. When cone, click the **Select Portlets** link to get back into the **Available Portlets** selection
+The screen will refresh and display the Quick View portlets for the selected security role.  Users can visually see the portlets on the Quick View screen for that security role selected. Users can drag and drop portlets to be in a specific order also for the security role default. When cone, click the **Select Portlets** link to get back into the **Available Portlets** selection 
 ![](./quick-view-sidemenu.assets/5c92afc83ee1d11c40c8397f671863ce.png)
 
 From the **Available Portlets** screen, users should see the previously selected security role in the **Save As Default For** drop down. Users may checkmark or uncheckmark portlets to be displayed, if not already done previously. If the changes should be applied to **all** existing users in the selected security role, then select the **Apply to Users** option. If the changes should only display for new users moving forward, do not select the **Apply to Users** option. When done selecting portlets, and/or number of desired columns, click the **Save** button. The system will save the edits to the security role default Quick View and will refresh back to your own Quick View.

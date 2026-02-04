@@ -1,20 +1,19 @@
 ---
-id: "1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M"
-title: "CMS 156 - Use of High-Risk Medications in the Elderly"
-date: "2022-04-22T14:21:28.814Z"
+id: '1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
+title: 'CMS 156 - Use of High-Risk Medications in the Elderly'
+date: '2022-04-22T14:21:28.814Z'
 version: 63
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/glossary/denominator"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10"
-source: "https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/glossary/denominator'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms156v10'
+source: 'https://drive.google.com/open?id=1iVu3t8PXQJaOCVJxF_QkLFMSP9XKtB28xuuOjt7D0_M'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS156v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS156v8&showresulttype=Measure) (2020)
@@ -40,7 +39,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -113,6 +112,7 @@ For patients with two or more benzodiazepine prescriptions ordered, exclude pati
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

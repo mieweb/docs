@@ -1,29 +1,28 @@
 ---
-id: "1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
-title: "Chart Data CSV Header Options"
-date: "2025-11-12T20:03:27.937Z"
+id: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
+title: 'Chart Data CSV Header Options'
+date: '2025-11-12T20:03:27.937Z'
 version: 621
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "chart-data-csv-api.md"
-  - "data-import-master-list.md"
-  - "chart-medical-record-number-mrn-import-options.md"
-  - "chart-observations-import-options.md"
-  - "https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options"
-source: "https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho"
-wikigdrive: "v2.15.30"
+  - 'chart-data-csv-api.md'
+  - 'data-import-master-list.md'
+  - 'chart-medical-record-number-mrn-import-options.md'
+  - 'chart-observations-import-options.md'
+  - 'https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options'
+source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing specific fields with processing options using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process the field in a number of ways. This is especially useful for systems where the values may change or need to be removed entirely. Although the default process works in most situations, the options that follow allow a user to fine tune how the data is processed.
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
 ## Definitions
 
-- An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
-- An <strong>update</strong> occurs when a record is replaced with the new information.
-- A <strong>deletion</strong> occurs when a record is removed from the database.
+* An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
+* An <strong>update</strong> occurs when a record is replaced with the new information.
+* A <strong>deletion</strong> occurs when a record is removed from the database.
 
 Related terminology is discussed on the [Chart Data CSV API](chart-data-csv-api.md) page.
 
@@ -34,47 +33,45 @@ To use these options, the values described below as 'INSERT Options', 'Blank Han
 Example:
 
 {{% pre %}}
-
 ```
 
 
 ...,DELETE_BLANK UPDATE @patient_mrns.MR,...
 
 ```
-
 {{% /pre %}}
 
 ### Insert Options
 
 You can insert these values in the header row for each column you wish to apply them to, or select a value from the ‘Insert Options' dropdown menu from within the CSV API.
 
-- INSERT - Always insert a new record. ‘Default' or ‘Insert' option in the user interface.
-- REVISE - There's only 1 entry in whatever you're adding to. If there's a value there, and it's the same, ignore/skip the update. If it's different, add a revision for the old value (if applicable) and change the value of the old result to the new value. ‘Revise' option in the user interface.UPDATE - For cases in which more than one entry is allowed. Update the current record, if different. Revisions do not apply. DELETE_THEN_INSERT - Delete all existing entries on a table for the current record and then reload them with whatever is provided in the data file. This is a permanent deletion. ‘Delete Then Insert' option in the user interface.
-- DEACTIVATE_THEN_REACTIVATE - Deactivate all existing entries on a table for the current record and then reactivate them with what is provided in the data file.
+* INSERT - Always insert a new record. ‘Default' or ‘Insert' option in the user interface.
+* REVISE - There's only 1 entry in whatever you're adding to. If there's a value there, and it's the same, ignore/skip the update. If it's different, add a revision for the old value (if applicable) and change the value of the old result to the new value. ‘Revise' option in the user interface.UPDATE - For cases in which more than one entry is allowed. Update the current record, if different. Revisions do not apply. DELETE_THEN_INSERT - Delete all existing entries on a table for the current record and then reload them with whatever is provided in the data file. This is a permanent deletion. ‘Delete Then Insert' option in the user interface.
+* DEACTIVATE_THEN_REACTIVATE - Deactivate all existing entries on a table for the current record and then reactivate them with what is provided in the data file.
 
 ### Blank Handling Options
 
 You can insert these values in the header row for each column you wish to apply them to, or select a value from the ‘Blank Options' dropdown menu from within the CSV API.
 
-- ALLOW_BLANK - Allow a blank value to replace the existing value in an update/revision. ‘Default' or ‘Auto Assign' option in the user interface.
-- IGNORE_BLANK - Ignore a blank value so that it does not affect existing entries. ‘Ignore Blank' option in the user interface.
-- DELETE_BLANK - If the value is blank, delete the existing entry. ‘Delete Blank' option in the user interface.
-- DEACTIVATE_BLANK - If the value is blank, deactivate the existing entry
+* ALLOW_BLANK - Allow a blank value to replace the existing value in an update/revision. ‘Default' or ‘Auto Assign' option in the user interface.
+* IGNORE_BLANK - Ignore a blank value so that it does not affect existing entries. ‘Ignore Blank' option in the user interface.
+* DELETE_BLANK - If the value is blank, delete the existing entry. ‘Delete Blank' option in the user interface.
+* DEACTIVATE_BLANK - If the value is blank, deactivate the existing entry
 
 ### Distinct Options
 
 You can insert these values in the header row for each column you wish to apply them to, or select a value from the Distinct Options' dropdown menu from within the CSV API.
 
-- ALLOW_DUPLICATE - Allow duplicate entries regardless. ‘Default' option in the user interface.
-- DISTINCT - Require distinct values entries per record. ‘Distinct' option in the user interface.
+* ALLOW_DUPLICATE - Allow duplicate entries regardless. ‘Default' option in the user interface.
+* DISTINCT - Require distinct values entries per record. ‘Distinct' option in the user interface.
 
 ### Location Options
 
 You can insert these values in the header row for each column you wish to apply them to, or select a value from the Location Options' dropdown menu from within the CSV API.
 
-- INSIDE_LOCATION - Sets the clinic location to inside. ‘Default' or ‘Inside' option in the user interface.
-- OUTSIDE_LOCATION - Sets the clinic location to outside. ‘Outside' option in the user interface.
-- EO_LOCATION - Create an Employer Organization and link it to the current chart with a Employer/Employee relationship. ‘Employer Organization' option in the user interface.
+* INSIDE_LOCATION - Sets the clinic location to inside. ‘Default' or ‘Inside' option in the user interface.
+* OUTSIDE_LOCATION - Sets the clinic location to outside. ‘Outside' option in the user interface.
+* EO_LOCATION -  Create an Employer Organization and link it to the current chart with a Employer/Employee relationship. ‘Employer Organization' option in the user interface.
 
 ## Translations
 
@@ -106,8 +103,8 @@ Here is an example of using the Translation Manager to add a translation.
 
 Related Pages
 
-- [Data Import Master List](data-import-master-list.md)
-- [Chart Data CSV API](chart-data-csv-api.md)
-- [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md)
-- [Chart Observations Import Options](chart-observations-import-options.md)
-- [Chart PUR Import Options](https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options)
+* [Data Import Master List](data-import-master-list.md)
+* [Chart Data CSV API](chart-data-csv-api.md)
+* [Chart MRNumber Import Options](chart-medical-record-number-mrn-import-options.md)
+* [Chart Observations Import Options](chart-observations-import-options.md)
+* [Chart PUR Import Options](https://confluence.mieweb.com/display/DOCS10/Chart+PUR+Import+Options)

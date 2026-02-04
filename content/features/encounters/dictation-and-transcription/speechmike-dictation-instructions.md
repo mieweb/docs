@@ -1,15 +1,14 @@
 ---
-id: "1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
-title: "SpeechMike Dictation Instructions"
-date: "2020-03-25T21:00:24.947Z"
+id: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
+title: 'SpeechMike Dictation Instructions'
+date: '2020-03-25T21:00:24.947Z'
 version: 65
-lastAuthor: ""
-mimeType: "text/x-markdown"
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Using the Phone to Call in Dictation
 
 1. Call phone number: (get your specific phone number for your company)
@@ -48,7 +47,7 @@ wikigdrive: "v2.15.30"
 
 **# - End dictation and get a menu to upload and set priority**
 
-**\* - In listen mode; will play next dictation for found patient. All other keys will start a new search90 for dictation.**
+*** - In listen mode; will play next dictation for found patient. All other keys will start a new search90 for dictation.**
 
 ## Using the SpeechMike to Dictate
 
@@ -100,7 +99,7 @@ The MIEPlayer will show in a red bar that it is recording.
 
 Begin dictating by stating DOS, location, and other company required information into the SpeechMike and continue with dictation.
 
-_There is a user preference in MY SETTINGS to set a single click record or a hold record. A single click to record allows you to click the RECORD button and then you click again to stop/pause. You do not need to hold the RECORD button down the entire time you are dictating. The other option is the hold to record. This setting means you have to hold down the record button the entire time of dictation and when released, it will stop/pause. Please set your preference in the  {{% system-name %}} MY SETTTINGS._
+*There is a user preference in MY SETTINGS to set a single click record or a hold record. A single click to record allows you to click the RECORD button and then you click again to stop/pause. You do not need to hold the RECORD button down the entire time you are dictating. The other option is the hold to record. This setting means you have to hold down the record button the entire time of dictation and when released, it will stop/pause. Please set your preference in the  {{% system-name %}} MY SETTTINGS.*
 
 To edit a dictation (example: start at a certain point to redictate):
 
@@ -116,9 +115,9 @@ If you do **not** press the EOL button on the SpeechMike to upload (or don't c
 
 FI, F2, F3, F4 buttons on the LFH5276 SpeechMike Pro can be programmed by MIE to perform certain shortcut functions. Example: F4 could be programmed to Sign and Close, F2 & F3 could be programmed to function as forward and backspace arrows on the current toolbar, etc. Example:
 
-- Upper left - "Sign as Preliminary"
-- Upper right - "Sign and Close"
-- Left/Right Arrows - same as forward and backspace arrows on the current toolbar.
+* Upper left - "Sign as Preliminary"
+* Upper right - "Sign and Close"
+* Left/Right Arrows - same as forward and backspace arrows on the current toolbar.
 
 Trigger on the backside of the SpeechMike – "enter button.
 
@@ -168,7 +167,7 @@ When you skip a patient, it considers it still as **un-dictated**. When you ref
 
 ### Dictate from Dictation Left Sidebar Tab (with SpeechMike)
 
-**The dictation will _not_ be tied to a patient's E-Chart**
+**The dictation will *not* be tied to a patient's E-Chart**
 
 You can add a dictation without being in a specific patient's account. This dictation would show up for transcriptionist to do, but it would not be tied to a patient's account or patient's name. You would have to dictate verbally the patient, account # and any other information for the transcriptionist to complete and upload into a patient's chart. You can however manually search and tag the patient's name and/or birthdate to the dictation by using the auto-complete fields in MIE Player when it opens.
 

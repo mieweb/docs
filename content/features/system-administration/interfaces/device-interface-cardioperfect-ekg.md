@@ -1,17 +1,16 @@
 ---
-id: "17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk"
-title: "Device Interface - CardioPerfect EKG"
-date: "2020-02-27T20:27:01.320Z"
+id: '17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
+title: 'Device Interface - CardioPerfect EKG'
+date: '2020-02-27T20:27:01.320Z'
 version: 49
-mimeType: "text/x-markdown"
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
+wikigdrive: 'v2.15.30'
 ---
-
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.
 
-Within {{% system-name %}} , you may have a chart tab named _EKG_ where you can see the imported EKG device results and interpretations. Contact your MIE Implementer for set up.
+Within {{% system-name %}} , you may have a chart tab named *EKG* where you can see the imported EKG device results and interpretations. Contact your MIE Implementer for set up.
 
 ![](./device-interface-cardioperfect-ekg.assets/f12d0c121e2793caf79716564a77e43f.png)
 
@@ -33,7 +32,7 @@ Click **Interpretation** button towards the top middle of the screen.
 
 ![](./device-interface-cardioperfect-ekg.assets/c5b0594e2549fe6919043112f4dcdf56.png)
 
-Push the **Alt-Tab** keys on your keyboard to navigate back to the {{% system-name %}} screen and _right click_ in the **Image** field window, then click "refresh" from the choices.
+Push the **Alt-Tab** keys on your keyboard to navigate back to the {{% system-name %}} screen and *right click* in the **Image** field window, then click "refresh" from the choices.
 
 ![](./device-interface-cardioperfect-ekg.assets/36b23df905265fbed8a172762e24e47f.png)
 
@@ -43,7 +42,7 @@ You should now see two files since you have refreshed the {{% system-name %}} sc
 
 ![](./device-interface-cardioperfect-ekg.assets/f51bb77a2367fc3bb1397487ecc8c669.png)
 
-Select the _.tif_ file then click the **Get Interpretation** button to queue the data from the Welch Allyn machine for import into the patient's chart.
+Select the *.tif* file then click the **Get Interpretation** button to queue the data from the Welch Allyn machine for import into the patient's chart.
 
 ![](./device-interface-cardioperfect-ekg.assets/8b509d96c51458f751367db30a9b0a55.png)
 
@@ -55,7 +54,7 @@ Click the **Upload** button to upload and save the data/document into the patien
 
 ![](./device-interface-cardioperfect-ekg.assets/2078980ff4ee4b2ff920cae375858ab8.png)
 
-When you see the _upload was successful_ window and it asks if you want to delete the file you uploaded, select Yes.
+When you see the *upload was successful* window and it asks if you want to delete the file you uploaded, select Yes.
 
 ![](./device-interface-cardioperfect-ekg.assets/726dc82d6e0adf47af14532c843a065a.png)
 

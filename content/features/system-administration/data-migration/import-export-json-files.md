@@ -1,19 +1,17 @@
 ---
-id: "13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
-title: "Import/Export JSON Files"
-date: "2021-08-26T12:03:20.282Z"
-version: 96
-lastAuthor: ""
-mimeType: "text/x-markdown"
+id: '13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
+title: 'Import/Export JSON Files'
+date: '2021-08-26T12:03:20.282Z'
+version: 98
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
+wikigdrive: 'v2.15.30'
 ---
-
-The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the _System Configurator_.
+The {{% system-name %}} system allows users to create, import, and export JSON files from one database to another. Users with the appropriate permissions can create JSON files from the system, using the **System Configuration** tab of the Control Panel. This allows administrators to easily review, approve, and export a JSON file from one {{% system-name %}} system (e.g., DEV, QA, etc.) and easily import into another  {{% system-name %}} system (e.g, PROD), avoiding duplicative work and ensuring consistency. For example, if a client needs several document types created (e.g., 2 Forms, 2 Word templates, 1 Consent doctype, and 1 HIPAA doctype) for an interface, these documents can be created and tested in a Development or QA environment and then easily migrated into a Production database using the JSON export/import tool, also known as the *System Configurator*.
 
 Users with proper permissions can create JSON files of the following sections/modules:
-
 <table>
 <tr>
 <td>Abbreviations</td>
@@ -130,7 +128,7 @@ There can be issues if exporting and importing to different database versions. A
 2. Go to the <strong>System Configuration</strong> tab.
 3. Click the <strong>Import</strong> link in the upper-right corner of the page.
 
-   ![](./import-export-json-files.assets/aacadf762f1adf65587827014ca27b7b.png)
+    ![](./import-export-json-files.assets/aacadf762f1adf65587827014ca27b7b.png)
 
 There are several import options available. The following instructions will focus on the process for importing a saved file.
 

@@ -1,19 +1,18 @@
 ---
-id: "1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc"
-title: "Text Documents"
-date: "2025-12-03T19:37:14.660Z"
+id: '1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
+title: 'Text Documents'
+date: '2025-12-03T19:37:14.660Z'
 version: 76
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
-  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/"
-  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/"
-  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
-source: "https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
+source: 'https://drive.google.com/open?id=1u7x_lyt-nR0_ZyRTOFwBilkSIkuoXLXqzNZuG_LC-Gc'
+wikigdrive: 'v2.15.30'
 ---
-
 The  {{% system-name %}} system is designed to allow free-text notes to be uploaded as documents into charts, as needed.
 
 ## Add a Text Document to Chart
@@ -36,8 +35,8 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
-- In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
-- The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
+* In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
+* The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
 
 ![](./text-documents.assets/7635812e7191ecb60d4cd0288da5b217.png)
 
@@ -51,11 +50,11 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 **Encounter**:  {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded document to the specified encounter. If the document does not need to be linked to an encounter, simply leave the field blank.
 
-- A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
-- Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-- Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
+* A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
+* Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-  ![](./text-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+    ![](./text-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the *Encounter* field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
@@ -127,4 +126,4 @@ For more information on how to view revisions or utilize the View Diff feature, 
 
 To learn more about Text Documents, follow the link below to the Learning Management System course:
 
-- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)

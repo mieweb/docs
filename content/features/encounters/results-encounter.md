@@ -1,20 +1,19 @@
 ---
-id: "1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag"
-title: "Results Encounter"
-date: "2025-10-24T15:53:42.319Z"
+id: '1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
+title: 'Results Encounter'
+date: '2025-10-24T15:53:42.319Z'
 version: 82
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/injury-care/case-management/"
-  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/link-documents-to-encounters/"
-  - "https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/"
-  - "https://docs.enterprisehealth.com/functions/encounters/recommendations/"
-  - "https://docs.enterprisehealth.com/functions/encounters/financials/"
-source: "https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/link-documents-to-encounters/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/recommendations/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/financials/'
+source: 'https://drive.google.com/open?id=1IGe6UKdfy4WQUglzQw7GmYZcNWUpcBxiaIwsDKJIBag'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Results Encounter
 
 The Results encounter is used whenever an order is sent out to be performed by an outside facility (via an Order Request), and the results are received back at the practice. Users can complete the Order Request and document the results of the order electronically, capturing the results discretely by way of the Results encounter. Review the default sections of the Results encounter, and be sure all sections needed to meet any prescribed workflows or business needs are considered.
@@ -43,7 +42,7 @@ For additional information regarding the Case section, refer to the [Case Manage
 
 ### Linked Documents Section
 
-The system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of _Link Documents to Encounters_ must be permitted to users that need to link documents to encounters.
+The system allows any stored or indexed document to be linked to a corresponding encounter whether the encounter is open or closed. Linking a document to an encounter in a chart allows users to easily view the encounter and corresponding linked documents, all from one place. Security permission of *Link Documents to Encounters* must be permitted to users that need to link documents to encounters.
 
 To link a document to the encounter, click on the Documents tab and scroll to the document you wish to link to the encounter.
 
@@ -115,7 +114,7 @@ To learn more about the Financials Section, refer to the [Financials](https://do
 
 ## Removing/Hiding Sections - Tools Icon
 
-In a Results encounter, you can "hide" a section and it will keep it hidden for that encounter if you have security permission to _Remove Encounter Sections_ set to _Any_ or _Any except locked_. A section can be defined as "locked" in the outline layout.
+In a Results encounter, you can "hide" a section and it will keep it hidden for that encounter if you have security permission to *Remove Encounter Sections* set to *Any* or *Any except locked*. A section can be defined as "locked" in the outline layout.
 
 ![](./results-encounter.assets/8bc107e2b79dfbd0eafb4cd77f1c057a.png)
 
@@ -123,12 +122,12 @@ The X icon at the right side of each section is the "hide section" functionality
 
 ![](./results-encounter.assets/5292a8efb01eb6272eb8ce976da235f8.png)
 
-I can bring that section "back" to be shown on the encounter I'm working in if needed to. Simply go to the top and find and click the _Tools_ icon. It will popup a window named _Tools_. It lists any hidden items at the top. All you have to do is click on the specific name of the section you want to populate back in.
+I can bring that section "back" to be shown on the encounter I'm working in if needed to. Simply go to the top and find and click the *Tools* icon. It will popup a window named *Tools*. It lists any hidden items at the top. All you have to do is click on the specific name of the section you want to populate back in.
 
 ![](./results-encounter.assets/effa5c94ac8962209fcbf29fcddc6c1f.png)
 
-Once I clicked on the word "Financials" from that pop-up window, the Financials section immediately inserted back into the proper position in my encounter. It also immediately removed that in the list of my Tools _hidden items_ section since it's now not hidden anymore and is back populating in the encounter.
+Once I clicked on the word "Financials" from that pop-up window, the Financials section immediately inserted back into the proper position in my encounter. It also immediately removed that in the list of my Tools *hidden items* section since it's now not hidden anymore and is back populating in the encounter.
 
 ![](./results-encounter.assets/d59c1dd07a18a3737b5d1aacf100e6fa.png)
 
-You can close the _Tools_ pop-up window by clicking the X in the top right corner.
+You can close the *Tools* pop-up window by clicking the X in the top right corner.

@@ -1,19 +1,18 @@
 ---
-id: "1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA"
-title: "Driver Fitness Determination Exam (DOT)"
-date: "2024-07-15T16:28:16.045Z"
+id: '1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
+title: 'Driver Fitness Determination Exam (DOT)'
+date: '2024-07-15T16:28:16.045Z'
 version: 122
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty"
-  - "../../injury-care/work-status.md"
-  - "https://www.fmcsa.dot.gov/regulations/medical"
-  - "https://mie.talentlms.com/shared/start/key:LGAIDNHR"
-source: "https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA"
-wikigdrive: "v2.15.30"
+  - 'https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty'
+  - '../../injury-care/work-status.md'
+  - 'https://www.fmcsa.dot.gov/regulations/medical'
+  - 'https://mie.talentlms.com/shared/start/key:LGAIDNHR'
+source: 'https://drive.google.com/open?id=1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
+wikigdrive: 'v2.15.30'
 ---
-
 The [Federal Motor Carrier Safety Administration](https://www.fmcsa.dot.gov/medical/driver-medical-requirements/driver-medical-fitness-duty) (FMCSA) requires every driver undergo a physical examination to determine their fitness for duty. A Driver Fitness Determination encounter, often shortened to Driver Fitness or referred to as a DOT encounter, is modeled off of the standards (49 CFR 391.41-391.49) for the Medical Examination Report for Commercial Driver Fitness Determination–FMCSA Form MCSA-5875 and Certificate MCSA-5876–which are used to show and certify a driver's fitness for duty. {{% system-name %}} has designed its Driver Fitness encounter with these standards in mind. With this encounter clinicians are able to easily capture all necessary data, electronically and discretely, making documenting the various components of Form MCSA-5875 and Certificate MCSA-5876 easier than it ever has been.
 
 The Driver Fitness encounter allows electronic data capturing by way of predefined and structured text fields, which are coded for easier data retrieval and accessibility. Data from the encounter can be programmed to overlay forms that are then able to be printed, faxed, submitted, and/or provided as copies. Given its design, the encounter not only streamlines the workflow of determining driver fitness, but it also saves clinicians valuable time through the ability to overlay data on necessary documents, thus reducing the burden of repeatedly documenting the same information for various reporting needs.
@@ -38,7 +37,7 @@ Like any encounter, once it has been created and opened, the encounter navigatio
 
 ### Driver Information (Section I)
 
-The first part of the encounter is the _Driver Information_ section. Within this section, there are fields available for defining the intent of the encounter, as well as for collecting the driver's general demographic and health information. These fields are found within the **Certification Type**, **Personal Information**, and **Driver Health History** sections.
+The first part of the encounter is the *Driver Information* section. Within this section, there are fields available for defining the intent of the encounter, as well as for collecting the driver's general demographic and health information. These fields are found within the **Certification Type**, **Personal Information**, and **Driver Health History** sections.
 
 #### Certification Type
 
@@ -46,9 +45,9 @@ To begin, users will need to determine what type of certification is being consi
 
 ![](./driver-fitness-determination-exam-dot.assets/4e4189e7b51c47c6d0f9fa191a2dfac5.png)
 
-- <strong>New Certification</strong> - Pre-populates data within the <em>Personal Information</em> section.
-- <strong>Recertification -</strong> Pre-populates data within the <em>Personal Information</em> and <em>Health History</em> sections, based on the previous Driver Fitness encounter.
-- <strong>Follow-up</strong> - Pre-populates data within the <em>Personal Information</em>, <em>Health History</em>, <em>Driver Health History Review</em>, <em>Testing</em> (including Vision and Hearing), and <em>Physical Exam</em> sections, based on the previous Driver Fitness encounter.
+* <strong>New Certification</strong> - Pre-populates data within the <em>Personal Information</em> section.
+* <strong>Recertification -</strong> Pre-populates data within the <em>Personal Information</em> and <em>Health History</em> sections, based on the previous Driver Fitness encounter.
+* <strong>Follow-up</strong> - Pre-populates data within the <em>Personal Information</em>, <em>Health History</em>, <em>Driver Health History Review</em>, <em>Testing</em> (including Vision and Hearing), and <em>Physical Exam</em> sections, based on the previous Driver Fitness encounter.
 
 Once the certification type is selected, click the **Next** button.
 
@@ -82,7 +81,7 @@ Once all of the information has been entered and reviewed, click the **Next** bu
 
 ### Examination Report (Section II)
 
-The _Examination Report_ section is intended to allow the medical staff/examiner to follow up with and address any of the information provided by the driver, as well as perform an examination of the driver's hearing, vision, and overall body systems. The sections contained are the **Driver Health History Review**, **Testing**, and the **Physical Examination**.
+The *Examination Report* section is intended to allow the medical staff/examiner to follow up with and address any of the information provided by the driver, as well as perform an examination of the driver's hearing, vision, and overall body systems. The sections contained are the **Driver Health History Review**, **Testing**, and the **Physical Examination**.
 
 #### Driver Health History Review
 
@@ -102,23 +101,23 @@ When recording the findings for visual acuity under the **Vision** section, user
 
 Only one method needs to be used when obtaining and recording visual acuities:
 
-_Snellen_
+*Snellen*
 
 ![](./driver-fitness-determination-exam-dot.assets/bcfee744fca04150aae596aa91e1959a.png)
 
 or
 
-_Comprehensive_
+*Comprehensive*
 
 ![](./driver-fitness-determination-exam-dot.assets/b8e1856313b379ede8d1e7ae28704459.png)
 
 After performing vision testing, screening for hearing loss can be done in the following **Hearing** section. Here, users can test and record the findings one of two ways: 1) Whispered voice at not less than 5 feet away with or without hearing aids, or 2) Audiometric testing.
 
-_Whispered voice_
+*Whispered voice*
 
 ![](./driver-fitness-determination-exam-dot.assets/f5e6c77cee114591c12909d178df8d82.png)
 
-_Audiometric test_
+*Audiometric test*
 
 ![](./driver-fitness-determination-exam-dot.assets/526d0eedaa5bf33f466bd14ee02047bd.png)
 
@@ -134,7 +133,7 @@ Once completed, click the **Next** button.
 
 ### Plan (Section III)
 
-Under the _Plan_ are various sections intended to provide all of the necessary information relevant to the Medical Examiner Determination. The included sections will be used to add/create orders for testing or procedures, ensure all required information is documented, print any necessary documents or forms, and review/complete orders.
+Under the *Plan* are various sections intended to provide all of the necessary information relevant to the Medical Examiner Determination. The included sections will be used to add/create orders for testing or procedures, ensure all required information is documented, print any necessary documents or forms, and review/complete orders.
 
 #### Visit Orders
 
@@ -157,7 +156,10 @@ Under the Medical Examiner Determination section the medical staff/examiner will
 {{% info %}}
 Users will have the ability to specify whether the Medical Examiner Determination is for state or federal certification, and the form will update with the appropriate fields, accordingly.
 
+
+
 ![](./driver-fitness-determination-exam-dot.assets/0e392abb8fba0887f71785b6c1a6079a.png)
+
 
 {{% /info %}}
 
@@ -203,7 +205,7 @@ If there were order requests made from the encounter, the encounter view will pr
 
 ### Archive and Close the Encounter
 
-Once the provider has finished all of the necessary documentation, the user will click the **Archive & Close** button, at the end of the encounter. Doing this will mark the encounter _closed_, and the encounter will be stored within the {{% system-name %}} system as a document with a doc ID.
+Once the provider has finished all of the necessary documentation, the user will click the **Archive & Close** button, at the end of the encounter. Doing this will mark the encounter *closed*, and the encounter will be stored within the {{% system-name %}} system as a document with a doc ID.
 
 ![](./driver-fitness-determination-exam-dot.assets/d9cd44ae67d9e9d9ade69ec1b6dec55d.png)
 
@@ -217,8 +219,8 @@ For drivers that do not qualify for interstate operations, the driver fitness de
 
 The Driver Fitness Determination Certificate (MCSA-5876) must be validated with the Medical Examiner's accreditation and credentials.
 
-- <strong>Medical Examiner's Accreditation</strong> - This section certifies that the driver is fit for driving duties and lists any qualifications, exemptions, and/or stipulations.
-- <strong>Medical Examiner's Credentials</strong> - A wet signature is required, along with the examining provider's credentialing information, such as the Medical Examiner phone number, State Medical Licence number, National Registry Number, and Certificate or Registration number with issuing state.
+* <strong>Medical Examiner's Accreditation</strong> - This section certifies that the driver is fit for driving duties and lists any qualifications, exemptions, and/or stipulations.
+* <strong>Medical Examiner's Credentials</strong> - A wet signature is required, along with the examining provider's credentialing information, such as the Medical Examiner phone number, State Medical Licence number, National Registry Number, and Certificate or Registration number with issuing state.
 
 Instructions and regulations for Completing the Medical Examination Report Form (MCSA-5875) and Certificate (MCSA-5876) can found at https://www.fmcsa.dot.gov/regulations/medical
 
@@ -226,4 +228,4 @@ Instructions and regulations for Completing the Medical Examination Report Form 
 
 To learn more about the Driver Fitness Determination Exam (DOT), follow the link below to the Learning Management System course:
 
-- [Driver Fitness Determination](https://mie.talentlms.com/shared/start/key:LGAIDNHR)
+* [Driver Fitness Determination](https://mie.talentlms.com/shared/start/key:LGAIDNHR)

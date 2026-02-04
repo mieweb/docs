@@ -1,16 +1,15 @@
 ---
-id: "1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk"
-title: "Language Tab - Create New Help Bubble Text"
-date: "2025-11-12T13:45:39.887Z"
+id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
+title: 'Language Tab - Create New Help Bubble Text'
+date: '2025-11-12T13:45:39.887Z'
 version: 63
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:ZEODNHRK"
-source: "https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
+source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
+wikigdrive: 'v2.15.30'
 ---
-
 The system has the ability to customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.
 
 ## Create New Help Text
@@ -27,7 +26,7 @@ After saving, the help bubble verbiage for the specific selected (value) standar
 
 ![](./language-tab-create-new-help-bubble-text.assets/d066194fef47a80b54933f018c674424.png)
 
-Back in the Languages tab, you can click the _SEARCH_ button and see all translations and help bubble translations. Help bubble translations are context _standard input help_.
+Back in the Languages tab, you can click the *SEARCH* button and see all translations and help bubble translations. Help bubble translations are context *standard input help*.
 
 ![](./language-tab-create-new-help-bubble-text.assets/9e55dda3a8d699e2c6fee09821194b32.png)
 
@@ -49,4 +48,4 @@ A customized help bubble that we support can be translated again. Simply search 
 
 To learn more about Creating New Help Bubble Text, follow the link below to the Learning Management System course:
 
-- [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)
+* [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)

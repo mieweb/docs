@@ -1,17 +1,16 @@
 ---
-id: "1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg"
-title: "Tasking & E-Sign"
-date: "2020-02-27T21:27:44.178Z"
+id: '1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
+title: 'Tasking & E-Sign'
+date: '2020-02-27T21:27:44.178Z'
 version: 39
-lastAuthor: "aquandt"
-mimeType: "text/x-markdown"
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
 links:
-  - "../../review-sessions/review-session-tasking.md"
-  - "../../review-sessions/review-session-e-sign.md"
-source: "https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg"
-wikigdrive: "v2.15.30"
+  - '../../review-sessions/review-session-tasking.md'
+  - '../../review-sessions/review-session-e-sign.md'
+source: 'https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Purpose
 
 Cover the [Tasking Review Session](../../review-sessions/review-session-tasking.md) and the [Electronic Signature (E-Sign) Review Session](../../review-sessions/review-session-e-sign.md) to gather necessary information and identify any gaps.
@@ -22,21 +21,21 @@ Review the standard  {{% system-name %}} workflows and gather information neede
 
 ### Agenda - 1 Hour
 
-- Demonstrate Tasking
-  - Overview
-    - Task List Module
-      - Your Task List
-      - Delegated
-      - Fast Tasks
-        - Phone Notes
-      - Tasklist Events
-      - Task Search
-    - System Configuration
-      - Fast Task Templates
-      - Tasklist Event Rules
-- Demonstrate E-Sign Functionality
-  - System Configuration
-    - Esign Editor Rules
+* Demonstrate Tasking
+    * Overview
+        * Task List Module
+            * Your Task List
+            * Delegated
+            * Fast Tasks
+                * Phone Notes
+            * Tasklist Events
+            * Task Search
+        * System Configuration
+            * Fast Task Templates
+            * Tasklist Event Rules
+* Demonstrate E-Sign Functionality
+    * System Configuration
+        * Esign Editor Rules
 
 ## Afterward
 

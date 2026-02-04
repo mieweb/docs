@@ -1,18 +1,17 @@
 ---
-id: "10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA"
-title: "Refill All"
-date: "2020-03-16T11:56:29.091Z"
+id: '10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
+title: 'Refill All'
+date: '2020-03-16T11:56:29.091Z'
 version: 51
-lastAuthor: ""
-mimeType: "text/x-markdown"
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
+wikigdrive: 'v2.15.30'
 ---
-
 Refill All Quick Link
 
-Make sure system setting _Use Fill Requests_ is set to zero if you wish to use the Refill All feature (unless using Inventory module)
+Make sure system setting *Use Fill Requests* is set to zero if you wish to use the Refill All feature (unless using Inventory module)
 
 ![](./refill-all.assets/7b6c4584fcc735a31a9bfcc45190c79b.png)
 
@@ -28,10 +27,10 @@ Here is a listing of all the patient's prescriptions. It will automatically have
 
 ![](./refill-all.assets/5bd4da32df40803f6e790f47aa4c6e49.png)
 
-- <strong>System setting 0</strong> means that your system will not task the provider but the office staff will be able to print/fax a refill without waiting on the provider. (This is what every system is defaulted to unless changed.)
-- <strong>System setting 1</strong> means all refill requests for your system will task the provider for approval first. The refill request requires the prescribing physician to approve any refills (via automatic task) before they can be printed or faxed.
-  - After the prescribing physician approves (via task) then the refills can be printed/faxed after approving. Your implementer can turn on these system settings to allow that security feature for just the prescribing physician of the original prescription to approve any refills in this module.
-- <strong>System setting 2</strong> means your system will display the option to either task the provider for approval or office staff can print/fax the refill.
+* <strong>System setting 0</strong> means that your system will not task the provider but the office staff will be able to print/fax a refill without waiting on the provider. (This is what every system is defaulted to unless changed.)
+* <strong>System setting 1</strong> means all refill requests for your system will task the provider for approval first. The refill request requires the prescribing physician to approve any refills (via automatic task) before they can be printed or faxed.
+    * After the prescribing physician approves (via task) then the refills can be printed/faxed after approving. Your implementer can turn on these system settings to allow that security feature for just the prescribing physician of the original prescription to approve any refills in this module.
+* <strong>System setting 2</strong> means your system will display the option to either task the provider for approval or office staff can print/fax the refill.
 
 More system settings that your MIE Implementer will need to set depending on your refill setting:
 
@@ -53,40 +52,40 @@ The fields at the top are there to help you set duration, refills & prescriber i
 
 ![](./refill-all.assets/8e25c15edbfd538686cf00408bafc42f.png)
 
-- <strong>Refill Date:</strong> Type/select the date you are refilling the meds.
-- <strong>Check All</strong> box: You can select <em>Check All</em> to select <strong>all</strong> the drugs in the listing to be refilled. Or you can individually check-mark the box next to the <em>Drug Name</em> to select the specific drug(s) to be refilled.
-  - The <em>Check-All</em> option then changes to <em>Uncheck All</em>. You can click Uncheck All if you want to start over and clear the check-mark boxes in drug name selection.
-  - Whatever medications you want to have refilled <strong>must</strong> have a check-mark on them. The ones without check-marks will not be refilled.
+* <strong>Refill Date:</strong> Type/select the date you are refilling the meds.
+* <strong>Check All</strong> box: You can select <em>Check All</em> to select <strong>all</strong> the drugs in the listing to be refilled. Or you can individually check-mark the box next to the <em>Drug Name</em> to select the specific drug(s) to be refilled.
+    * The <em>Check-All</em> option then changes to <em>Uncheck All</em>. You can click Uncheck All if you want to start over and clear the check-mark boxes in drug name selection.
+    * Whatever medications you want to have refilled <strong>must</strong> have a check-mark on them. The ones without check-marks will not be refilled.
 
 ![](./refill-all.assets/714d82a76255d2b1754a91cfe7d0f818.png)
 
-- <strong>Print All Drug Guides</strong> box: Click this to check-mark all the prescriptions/drugs in the listing to <em>print</em>. If you click <em>Print All</em> then it will set checks on all the drugs in the <em>Print Drug Guide</em> column on the far right side of each drug name. The <em>Print All</em> option then changes to <em>Unprint All</em>. You can click <em>Unprint All</em> if you want to start over and clear the print check-mark boxes. You can also individually un-checkmark which drug you don't want to print a Drug Guide for.
+* <strong>Print All Drug Guides</strong> box: Click this to check-mark all the prescriptions/drugs in the listing to <em>print</em>. If you click <em>Print All</em> then it will set checks on all the drugs in the <em>Print Drug Guide</em> column on the far right side of each drug name. The <em>Print All</em> option then changes to <em>Unprint All</em>. You can click <em>Unprint All</em> if you want to start over and clear the print check-mark boxes. You can also individually un-checkmark which drug you don't want to print a Drug Guide for.
 
 ![](./refill-all.assets/714d82a76255d2b1754a91cfe7d0f818.png)
 
-- <strong>Print All Prescriptions</strong> box: If your system is set up that the physician has to approve any refills, this button will not show for you (see next pages of explanation). If you are allowed to refill prescriptions automatically, click this to check-mark all the prescriptions/drugs in the listing to <em>print</em>. If you click <em>Print All</em> then it will set checks on all the drugs in the <em>Print Script</em> column on the far right side of each drug name. The <em>Print All</em> option then changes to <em>Unprint All</em>. You can click <em>Unprint All</em> if you want to start over and clear the print check-mark boxes. You can also individually un-checkmark which drug you don't want to print a Script for.
-- <strong>Duration & Refills & Prescriber</strong>: Whatever you type in this field and click <em>SET</em> beside each, then it will apply that information to <strong>all</strong> medications/drugs in this refill listing. These are settings that can be quickly applied for the whole entire list which would make it quicker if you wanted to assign the same prescriber, etc to all of the meds that you are refilling. These fields will only be <strong>applied</strong> if you have a drug/prescription check-marked for refilling. It will <strong>show</strong> all the meds on the list as changed duration/refills/and/or prescriber that you <em>set</em> it for— but it will only actually change/apply those to the check-marked drugs you are refilling when you click <em>SUBMIT</em>.
+* <strong>Print All Prescriptions</strong> box: If your system is set up that the physician has to approve any refills, this button will not show for you (see next pages of explanation). If you are allowed to refill prescriptions automatically, click this to check-mark all the prescriptions/drugs in the listing to <em>print</em>. If you click <em>Print All</em> then it will set checks on all the drugs in the <em>Print Script</em> column on the far right side of each drug name. The <em>Print All</em> option then changes to <em>Unprint All</em>. You can click <em>Unprint All</em> if you want to start over and clear the print check-mark boxes. You can also individually un-checkmark which drug you don't want to print a Script for.
+* <strong>Duration & Refills & Prescriber</strong>: Whatever you type in this field and click <em>SET</em> beside each, then it will apply that information to <strong>all</strong> medications/drugs in this refill listing. These are settings that can be quickly applied for the whole entire list which would make it quicker if you wanted to assign the same prescriber, etc to all of the meds that you are refilling. These fields will only be <strong>applied</strong> if you have a drug/prescription check-marked for refilling. It will <strong>show</strong> all the meds on the list as changed duration/refills/and/or prescriber that you <em>set</em> it for— but it will only actually change/apply those to the check-marked drugs you are refilling when you click <em>SUBMIT</em>.
 
 ![](./refill-all.assets/714d82a76255d2b1754a91cfe7d0f818.png)
 
-- You <strong>must</strong> select a prescriber for all refills. If you do not, you will see an error message that you need to select a prescriber.
-- When you go back into MEDS TAB you will see your original settings on any drugs that you did <strong>not</strong> check-mark to refill, meaning, the "<em>sets"</em> that you did only affect the check-marked refill prescriptions you want. You can, of course, go through and individually set the Duration, Refills, Prescriber also for an individual drug name in the refill list instead of setting in mass quickly.
-- <strong>Drug Name:</strong> Make sure you have check-marked which drug names you wish to refill (or use the CHECK ALL button above this section). This Drug Name section currently sorts by two criteria. It first sorts by the end date (if one is specified) and then alphabetically.  So things that will at some point be due for a refill (have an end date) are at the top—because those are the ones that need attention to be refilled first and not get missed.  And things that don't look like they are going to be refilled (no end date) are at the bottom.  Inside those two groups, the drug names should be alphabetical.
+* You <strong>must</strong> select a prescriber for all refills. If you do not, you will see an error message that you need to select a prescriber.
+* When you go back into MEDS TAB you will see your original settings on any drugs that you did <strong>not</strong> check-mark to refill, meaning, the "<em>sets"</em> that you did only affect the check-marked refill prescriptions you want. You can, of course, go through and individually set the Duration, Refills, Prescriber also for an individual drug name in the refill list instead of setting in mass quickly.
+* <strong>Drug Name:</strong> Make sure you have check-marked which drug names you wish to refill (or use the CHECK ALL button above this section). This Drug Name section currently sorts by two criteria. It first sorts by the end date (if one is specified) and then alphabetically.  So things that will at some point be due for a refill (have an end date) are at the top—because those are the ones that need attention to be refilled first and not get missed.  And things that don't look like they are going to be refilled (no end date) are at the bottom.  Inside those two groups, the drug names should be alphabetical.
 
 ![](./refill-all.assets/714d82a76255d2b1754a91cfe7d0f818.png)
 
-- <strong>Comments:</strong> Any previous comments tied to the drug will appear. You can add/edit comments from the field in each individual drug name also. These comments showing here in the refill all screen can be turned on or off for the entire system. If turned off, the entire comments line will not show here for each med listed in the refill all screen. If turned on, you will always see the comments line for each med in the refill all page. Contact your MIE representative for this change in the system settings.
-- <strong>Note to Pharmacist:</strong> Any previous notes to the pharmacist will appear. You can add/edit notes to the pharmacist here also.
+* <strong>Comments:</strong> Any previous comments tied to the drug will appear. You can add/edit comments from the field in each individual drug name also. These comments showing here in the refill all screen can be turned on or off for the entire system. If turned off, the entire comments line will not show here for each med listed in the refill all screen. If turned on, you will always see the comments line for each med in the refill all page. Contact your MIE representative for this change in the system settings.
+* <strong>Note to Pharmacist:</strong> Any previous notes to the pharmacist will appear. You can add/edit notes to the pharmacist here also.
 
 ![](./refill-all.assets/023f2722a3874a3e1465e00c51fddc6a.png)
 
-- <strong>Drug Guide:</strong> Checkmark this if you want the drug guide for this med to be placed in the print/fax queue.
+* <strong>Drug Guide:</strong> Checkmark this if you want the drug guide for this med to be placed in the print/fax queue.
 
 ![](./refill-all.assets/3eeb99431e8244f056a4c4ecb112892d.png)
 
-- <strong>Print Script:</strong> Will be checkmarked to put this refill in the print/fax queue. This check-box will not show up if your practice is set to have the prescribing physician approve all refills first. The physician would approve it in his tasks, then that med refill would then be placed in the patient's print/fax queue.
+* <strong>Print Script:</strong> Will be checkmarked to put this refill in the print/fax queue. This check-box will not show up if your practice is set to have the prescribing physician approve all refills first. The physician would approve it in his tasks, then that med refill would then be placed in the patient's print/fax queue.
 
-Click _SUBMIT_ at the top or bottom of the screen when you have selected all the prescriptions you wish to refill, have changed/updated all the information/fields and checked whether to print or not.
+Click *SUBMIT* at the top or bottom of the screen when you have selected all the prescriptions you wish to refill, have changed/updated all the information/fields and checked whether to print or not.
 
 Upon submission, your screen will refresh and be back at the Meds tab. It will display in the print/fax queue any refilled prescriptions you submitted and also any drug guides to print (if you so selected).
 
@@ -102,11 +101,11 @@ If your system has been requested to be set up this way, when you are in Refill 
 
 ![](./refill-all.assets/ffb0671dd6befc4b8550896bebeed590.png)
 
-Users will not see a check-box option for _Print Script_. The system tasks the physician for a refill approval first. A message is shown "Prescribing physician must approve refills before they can be printed or transmitted."
+Users will not see a check-box option for *Print Script*. The system tasks the physician for a refill approval first. A message is shown "Prescribing physician must approve refills before they can be printed or transmitted."
 
 Fill out the refill fields to request the refill, make sure the medication to refill is check-marked. Whatever medications you want to have refilled **must** have a check-mark on them. The ones without check-marks will not be refilled. Then click SUBMIT.
 
-After you click SUBMIT for the refill request, this will send a task to each prescribing physician for each & every medication that was check-marked as requested to be refilled along with the details in the fields you filled out (duration, quantity, etc). This will put the refill into a pending status, meaning that it will not be displayed in the patient's queue of scripts or drug guides to print. The prescribing physician of the medication will be sent a task called _Refill Approval._
+After you click SUBMIT for the refill request, this will send a task to each prescribing physician for each & every medication that was check-marked as requested to be refilled along with the details in the fields you filled out (duration, quantity, etc). This will put the refill into a pending status, meaning that it will not be displayed in the patient's queue of scripts or drug guides to print. The prescribing physician of the medication will be sent a task called *Refill Approval.*
 
 ![](./refill-all.assets/a82129fc7675d18b86153fcb97e76fa6.png)
 
@@ -130,18 +129,18 @@ If your system setting is set to 2 it means your system will not mandate the sta
 
 ![](./refill-all.assets/5f4298c40e740a9ce1ffae91287bd5d9.png)
 
-The REFILL ALL screen will look like the below. At the top, it will have the _Task Prescriber for Approval_ check-marked as a default. Having this check-marked to task for approval will task the provider for the refill approval for all the drugs below it with a check-mark in the drug name column. Whatever medications you want to have refilled **must** have a check-mark on them. The ones without check-marks will not be refilled.
+The REFILL ALL screen will look like the below. At the top, it will have the *Task Prescriber for Approval* check-marked as a default. Having this check-marked to task for approval will task the provider for the refill approval for all the drugs below it with a check-mark in the drug name column. Whatever medications you want to have refilled **must** have a check-mark on them. The ones without check-marks will not be refilled.
 
 ![](./refill-all.assets/da61edc93adf1a56a076bf912282b797.png)
 
 Any drug names to refill that are check-marked will be tasked to the prescriber for refill approval upon submission. The user has to wait for approval then before printing/faxing the refill.
 
-The user also though can \_un_check-mark the Task Prescriber for Approval box and check off drug names to refill in this module and submit. Whatever medications you want to have refilled **must** have a check-mark on them. The ones without check-marks will not be refilled.
+The user also though can _un_check-mark the Task Prescriber for Approval box and check off drug names to refill in this module and submit. Whatever medications you want to have refilled **must** have a check-mark on them. The ones without check-marks will not be refilled.
 
-This will _not_ task the prescriber for these refills and they will render in the print/fax queue without provider approval.
+This will *not* task the prescriber for these refills and they will render in the print/fax queue without provider approval.
 
 ![](./refill-all.assets/d9c94555bf131b744ae24375eeddd07f.png)
 
-Any medication refill pending prescriber approval will also display as a message _(pending approval)_ in the patient's medication history in the comments column.
+Any medication refill pending prescriber approval will also display as a message *(pending approval)* in the patient's medication history in the comments column.
 
 ![](./refill-all.assets/6ea2c1e395e81b0c044e09966ba52ace.png)

@@ -1,19 +1,19 @@
 ---
-id: "1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI"
-title: "CMS 124 - Cervical Cancer Screening"
-date: "2024-09-05T19:53:07.912Z"
+id: '1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
+title: 'CMS 124 - Cervical Cancer Screening'
+date: '2024-09-05T19:53:07.912Z'
 version: 146
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12"
-source: "https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12'
+source: 'https://drive.google.com/open?id=1B1ZuKB8d98yDNljhARHj4Ui9kMTNxZ0J3SeNoxRCcbI'
+wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
-
 ## Overview
 
 [CMS124v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure) (2024)
@@ -39,7 +39,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -103,7 +103,7 @@ wikigdrive: "v2.15.30"
 
 ## Clinical Instructions
 
-Ensure all women aged 24-64 are screened for cervical cancer on the following schedule. Beginning at age 21, women should be screened using a Pap Test at least once every 3 years. Alternatively, beginning at age 30, women can be screened using an HPV Test at least once every 5 years. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.
+Ensure all women aged 24-64 are screened for cervical cancer on the following schedule.  Beginning at age 21, women should be screened using a Pap Test at least once every 3 years.  Alternatively, beginning at age 30, women can be screened using an HPV Test at least once every 5 years. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.
 
 ### Numerator Compliance
 
@@ -111,10 +111,8 @@ Ensure all women aged 24-64 are screened for cervical cancer on the following sc
 
 1. To document a known test and result while documenting the Visit encounter, open the Tests and Procedures section
 2. Search for the appropriate screening test
-
-- For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
-- For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
-
+* For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
+* For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
 3. Click Add to Exam
 4. Open the newly added test section and record the test result
 5. Complete the test and close the section
@@ -125,10 +123,8 @@ Ensure all women aged 24-64 are screened for cervical cancer on the following sc
 
 1. To order a future test while documenting the Visit encounter, open the Visit Orders section
 2. Search for the appropriate screening test
-
-- For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
-- For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
-
+* For patients under 30, use a Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
+* For patients 30+, use either a Pap Test or HPV Test (2.16.840.1.113883.3.464.1003.110.12.1059)
 3. Click Add
 4. Close the Visit Orders section
 5. Continue documenting the encounter, as appropriate
@@ -140,17 +136,15 @@ Ensure all women aged 24-64 are screened for cervical cancer on the following sc
 #### Workflow A
 
 1. While documenting the encounter, record an active diagnosis of Congenital or Acquired Absence of Cervix (2.16.840.1.113883.3.464.1003.111.12.1016)
-
-- Use the Smart Plan section quick lists to record the condition
-
-OR
-
-- Use the Past Medical History section quick lists to record the condition
+* Use the Smart Plan section quick lists to record the condition
 
 OR
 
-- Use the Symptoms/Diagnosis section quick lists to record the condition
+* Use the Past Medical History section quick lists to record the condition
 
+OR
+
+* Use the Symptoms/Diagnosis section quick lists to record the condition
 2. Continue documenting the encounter, as appropriate
 3. When completed, Close and Archive the encounter
 4. This can also be documented outside of an encounter
@@ -158,13 +152,11 @@ OR
 #### Workflow B
 
 1. While documenting the encounter, record a procedure of Hysterectomy with No Residual Cervix (2.16.840.1.113883.3.464.1003.198.12.1014)
-
-- Use the Smart Plan section quick lists to record the procedure
+* Use the Smart Plan section quick lists to record the procedure
 
 OR
 
-- Use the Past Procedures section quick lists to record the procedure
-
+* Use the Past Procedures section quick lists to record the procedure
 2. Continue documenting the encounter, as appropriate
 3. When completed, Close and Archive the encounter
 4. This can also be documented outside of an encounter
@@ -172,8 +164,8 @@ OR
 #### Workflow C
 
 1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
-   a. Palliative Care
-   b. Hospice Care
+    a.  Palliative Care
+    b.  Hospice Care
 
 ## Evidence
 

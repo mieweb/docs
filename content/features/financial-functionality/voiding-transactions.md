@@ -1,17 +1,16 @@
 ---
-id: "1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU"
-title: "Voiding transactions"
-date: "2021-02-18T19:12:24.594Z"
+id: '1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
+title: 'Voiding transactions'
+date: '2021-02-18T19:12:24.594Z'
 version: 21
-lastAuthor: ""
-mimeType: "text/x-markdown"
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links:
-  - "accessing-the-ledger.md"
-  - "finding-ledger-transactions.md"
-source: "https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU"
-wikigdrive: "v2.15.30"
+  - 'accessing-the-ledger.md'
+  - 'finding-ledger-transactions.md'
+source: 'https://drive.google.com/open?id=1nNSmx2k5Ni0CUeTZQHLbeU3XDeHrhdZ9V2q6rh4jMWU'
+wikigdrive: 'v2.15.30'
 ---
-
 Only transactions that have not been closed can be voided.
 
 1. [Access the ledger](accessing-the-ledger.md).

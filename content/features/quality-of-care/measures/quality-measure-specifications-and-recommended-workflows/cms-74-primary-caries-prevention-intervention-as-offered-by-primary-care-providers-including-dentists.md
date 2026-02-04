@@ -1,19 +1,18 @@
 ---
-id: "1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4"
-title: "CMS 74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists"
-date: "2022-05-16T15:47:08.770Z"
+id: '1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
+title: 'CMS 74 - Primary Caries Prevention Intervention as Offered by Primary Care Providers, including Dentists'
+date: '2022-05-16T15:47:08.770Z'
 version: 47
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11"
-source: "https://drive.google.com/open?id=1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v11&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms074v11'
+source: 'https://drive.google.com/open?id=1vbEyU6QkNEsdf3r7hkJs9i7pQWoUK9a6T1zKkU5cXL4'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS74v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS74v9&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

@@ -1,22 +1,21 @@
 ---
-id: "1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag"
-title: "Adding Tasks"
-date: "2025-03-12T13:47:03.095Z"
-version: 224
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
+title: 'Adding Tasks'
+date: '2025-03-12T13:47:03.095Z'
+version: 225
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:AOEHRKMF"
-source: "https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
+source: 'https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Types of Tasks
 
 Tasks can be linked to charts, linked to a chart along with a specific chart document, or tasks can be added without being linked to a specific chart or document.
 
-- Generic: Tasks that are generic and not prefilled with templated information.  Essentially it is a free text task to note the fields and details as needed when creating the task, along with choosing who to assign the task to.
-- Fast-Tasks: Tasks that are categorized, can be templated with prefilled information, and are typically prefilled to automatically assign to a specific department or user(s).
+* Generic: Tasks that are generic and not prefilled with templated information.  Essentially it is a free text task to note the fields and details as needed when creating the task, along with choosing who to assign the task to.
+* Fast-Tasks: Tasks that are categorized, can be templated with prefilled information, and are typically prefilled to automatically assign to a specific department or user(s).
 
 ## Adding Tasks Related to Charts
 
@@ -36,45 +35,46 @@ Generic tasks have blank fields that you can free-text the information needed fo
 
 ![](./adding-tasks.assets/857a80ac18aa82a67cfa3dc165ce1ec9.png)
 
-- Description: Describe task or title it.  This is what assignees see in their task queue as the task description.
-- Subject:  You can add a subject to the task if you wish. This is visible when the task document is uploaded and stored to the chart.
-  - The Copy Description button is a quick method to copy and use the text in the description field as also the subject.  Tasks are saved as documents in the system and typically the document is just saved as Task Note.  Having a subject on the task document provides visibility to other users at a glance, as to what that task note document is about, when working in the chart.
-- Notes: Type what needs to be done, and other pertinent info for the assignee to complete this task.
-- Regarding: This will automatically have the chart's name you generated the Add Task from.  This task is linked to this specific chart. However, a different chart can be selected here if the task needs to be related to a different chart than the one being worked in.
-- Priority: Select a priority for this generic task.  High will mark it in red and put at the top of a user/dept's task list. Normal priority will be put in between all the High and Low tasks in the lists.  Low will insert the task at the bottom of the assignee's task list.
-- Start Date: This date determines when the task will show up on the assignee's task worklist. If the start date is left blank, it is considered today's date.  You can make a task show up for an assignee with a later start date (ex: need to call to schedule someone for lab work but don't call until next week).  A task with an entered start-date in the ‘future' will not show up on a user's task worklist until that calendar date (start date) is hit. A remind date that is entered will cause it to display on the remind list as before.  A due date that is entered will show up on the user's overdue worklist when that date is hit also. Due dates must be a date after an entered start date.
-- Due Date: Automatically prefills with today's date, but if you put in a start date, make sure the due date is a date after the start date or you will get an error.  If startdate is left blank, due date is today's date. Meaning, it will be due at that time specified today. You can override the due date to change it, or click pick date and click on a calendar date that will then automatically fill into the due date field.  To change a time, simply override with the time you want this due. Make sure you include a or p or am or pm. Clicking the NOW clock icon will prefill the date & time fields as the current date and time currently. Meaning, if you clicked NOW for due date, then in one minute-it will consider this task ‘overdue' (and also show up in the overdue category of tasks) because it is due now.  You can click the clear button to clear the due date if needed.  A due date is not required, but if left blank, a reminder date is required.
-- Remind Date: Can indicate a date to ‘remind' the assignee about this task.  Remind Date must be a date prior to the Due Date. This will show the task in the Reminder section of the assignee's task list on the remind date and will allow the assignee to snooze it. Entering a date/time here is the only way for a task to show up in the Reminders section of a task list.  Remind date is not required, but if left blank then a Due Date is required.
-- Insert as Completed:  Check-mark this box if you want this task, that is being created, to be automatically put in the ‘completed' tasks tab.  This would mean that no one will get this task to complete, because you have check-marked it as complete, upon creation. Sometimes users want to document they did something related to a chart and the easiest way to do that is to create a task noting what was done and then marking it as completed, because there is nothing an assignee needs to do.  The task note is stored in the chart and can be used for reporting and chart documentation purposes.
-- Assign To:  Choose the assignee the task to be sent to and completed by.
+* Description: Describe task or title it.  This is what assignees see in their task queue as the task description.
+* Subject:  You can add a subject to the task if you wish. This is visible when the task document is uploaded and stored to the chart.
+    * The Copy Description button is a quick method to copy and use the text in the description field as also the subject.  Tasks are saved as documents in the system and typically the document is just saved as Task Note.  Having a subject on the task document provides visibility to other users at a glance, as to what that task note document is about, when working in the chart.
+* Notes: Type what needs to be done, and other pertinent info for the assignee to complete this task.
+* Regarding: This will automatically have the chart's name you generated the Add Task from.  This task is linked to this specific chart. However, a different chart can be selected here if the task needs to be related to a different chart than the one being worked in.
+* Priority: Select a priority for this generic task.  High will mark it in red and put at the top of a user/dept's task list. Normal priority will be put in between all the High and Low tasks in the lists.  Low will insert the task at the bottom of the assignee's task list.
+* Start Date: This date determines when the task will show up on the assignee's task worklist. If the start date is left blank, it is considered today's date.  You can make a task show up for an assignee with a later start date (ex: need to call to schedule someone for lab work but don't call until next week).  A task with an entered start-date in the ‘future' will not show up on a user's task worklist until that calendar date (start date) is hit. A remind date that is entered will cause it to display on the remind list as before.  A due date that is entered will show up on the user's overdue worklist when that date is hit also. Due dates must be a date after an entered start date.
+* Due Date: Automatically prefills with today's date, but if you put in a start date, make sure the due date is a date after the start date or you will get an error.  If startdate is left blank, due date is today's date. Meaning, it will be due at that time specified today. You can override the due date to change it, or click pick date and click on a calendar date that will then automatically fill into the due date field.  To change a time, simply override with the time you want this due. Make sure you include a or p or am or pm. Clicking the NOW clock icon will prefill the date & time fields as the current date and time currently. Meaning, if you clicked NOW for due date, then in one minute-it will consider this task ‘overdue' (and also show up in the overdue category of tasks) because it is due now.  You can click the clear button to clear the due date if needed.  A due date is not required, but if left blank, a reminder date is required.
+* Remind Date: Can indicate a date to ‘remind' the assignee about this task.  Remind Date must be a date prior to the Due Date. This will show the task in the Reminder section of the assignee's task list on the remind date and will allow the assignee to snooze it. Entering a date/time here is the only way for a task to show up in the Reminders section of a task list.  Remind date is not required, but if left blank then a Due Date is required.
+* Insert as Completed:  Check-mark this box if you want this task, that is being created, to be automatically put in the ‘completed' tasks tab.  This would mean that no one will get this task to complete, because you have check-marked it as complete, upon creation. Sometimes users want to document they did something related to a chart and the easiest way to do that is to create a task noting what was done and then marking it as completed, because there is nothing an assignee needs to do.  The task note is stored in the chart and can be used for reporting and chart documentation purposes.
+* Assign To:  Choose the assignee the task to be sent to and completed by.
 
 {{% note %}}
 Users do not have security permission of View Access for tasks will not appear as selections in the Assign To Owner auto-complete field.  Since users without view access to tasks cannot view tasks, then they cannot get tasks assigned to them. Also, users without security to view tasks will not be tasked when All Must Acknowledge is selected as the user for any department and/or system wide, etc.
 {{% /note %}}
 
-- Assign this task to Myself: If you want to assign the task to yourself, simply checkmark the Assign To Myself checkbox that is provided.  The task will then be put in your task worklist to complete.
+* Assign this task to Myself: If you want to assign the task to yourself, simply checkmark the Assign To Myself checkbox that is provided.  The task will then be put in your task worklist to complete.
 
 ![](./adding-tasks.assets/505db341f4b1599dcb69f263d40a40da.png)
 
-- Assign this task to a Department only (not specific users within a department): To assign a task to a department, search using the auto-complete or hit your down arrow keyboard key in the Department field to see choices. The task will be assigned to the department selected.  Any user that is a member of that department and who has task viewing permission, can grab and complete department tasks.  Click the ADD button when done.
+* Assign this task to a Department only (not specific users within a department): To assign a task to a department, search using the auto-complete or hit your down arrow keyboard key in the Department field to see choices. The task will be assigned to the department selected.  Any user that is a member of that department and who has task viewing permission, can grab and complete department tasks.  Click the ADD button when done.
 
 ![](./adding-tasks.assets/be7301622e065766ca0235786347a6ce.png)
 
-- Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
-  - Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
-  - Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.  
-     ![](./adding-tasks.assets/4aca7791d43c34241383c9f16b2f455b.png)
+* Assign this task to a Department and a specific user within that department: If/when you choose a department, the Owner field will display a list of users that are tied to that department selected.  You can then assign a specific user (within that specified department) as the assignee to the task.
+    * Use that auto-complete field to select a specific user within that department to assign this task to. You can also click your ↓ down arrow key on your keyboard to view the users within that department so you can select from.
+    * Only users in that specific department who have task viewing permission will show in the auto-complete. Choose a specific user if you want to assign to a specific person in that department.  If you want to assign to a department in general, just select the department only and not this specific user field. Click the Add button when done.  
+        ![](./adding-tasks.assets/4aca7791d43c34241383c9f16b2f455b.png)
 
-- Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the auto-complete in the Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.    
-   ![](./adding-tasks.assets/87b573ddb0e9466503dc6c91c9f57927.png)
+* Assign the task to multiple departments: A task can be assigned to more than one department.  To select multiple departments, use the auto-complete in the Department field then click the Add button after each department selection. When a task is assigned to multiple departments, it needs grabbed by one user within each specified department to complete.    
+    ![](./adding-tasks.assets/87b573ddb0e9466503dc6c91c9f57927.png)
 
-- Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task.  
-   ![](./adding-tasks.assets/d4f5b1f1ccb58a114a2c13dd0c1d9ae8.png)
+* Assign this same task to multiple specific users/owners:  You can choose a specific users (owners) to assign the task to.  Each user (owner) assigned the task, must then complete the task.  
+    ![](./adding-tasks.assets/d4f5b1f1ccb58a114a2c13dd0c1d9ae8.png)
 
-- All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user.  
-   ![](./adding-tasks.assets/820a7546389e1196c78345445338eacc.png)
+* All Must Acknowledge within a specific department: After selecting a department as an assignee, in the Owner field, there is an option to assign to All must acknowledge.  If you select this, it will assign the task to every single user that is a member of that specific department selected.  This should be used with caution, as all users in that department would have to complete/acknowledge the task. To use this feature, the department must be chosen with the department to be tasked, then in the owner field, click the ↓ down arrow button on your keyboard or start typing the word all to see the All Must Acknowledge choice.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users of a department who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user.  
+    ![](./adding-tasks.assets/820a7546389e1196c78345445338eacc.png)
 
-- All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user.
+* All Must Acknowledge in entire {{% system-name %}} system: If you want to send/assign a task to every user in the entire {{% system-name %}} system, you do not select a specific department, but simply select All Must Acknowledge in the owner field.  The owner field autocomplete always offers "All Must Acknowledge" as the last choice.  Users who do not have permission to "view tasking" will not be tasked when All Must Acknowledge is selected as the user. Use this with extreme caution, as this will assign/send the task to every user (who has View Tasking permission) in the entire {{% system-name %}} system.  Users who do not have permission to view tasking will not be tasked when All Must Acknowledge is selected as the user.
+
 
 ![](./adding-tasks.assets/6d82a12cf4dac4e2a548c80d16f179e9.png)
 
@@ -176,4 +176,4 @@ There is a My Settings preference named Expand Task in Document View that is a
 
 To learn more about Adding Task, follow the link below to the Learning Management System course:
 
-- [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)
+* [Tasking](https://mie.talentlms.com/shared/start/key:AOEHRKMF)

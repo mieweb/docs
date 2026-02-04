@@ -1,19 +1,18 @@
 ---
-id: "1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc"
-title: "CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)"
-date: "2022-04-20T14:20:57.043Z"
+id: '1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
+title: 'CMS 136 - Follow-Up Care for Children Prescribed ADHD Medication (ADD)'
+date: '2022-04-20T14:20:57.043Z'
 version: 43
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11"
-source: "https://drive.google.com/open?id=1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v11&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms136v11'
+source: 'https://drive.google.com/open?id=1adBT1dRtmsoOGBoLGp9KkhbDRgQEbZWmbt-iFuo8Vhc'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS136v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS136v9&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -109,6 +108,7 @@ wikigdrive: "v2.15.30"
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

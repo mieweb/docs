@@ -1,19 +1,18 @@
 ---
-id: "1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM"
-title: "Sketch Documents"
-date: "2025-11-10T15:04:57.260Z"
+id: '1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
+title: 'Sketch Documents'
+date: '2025-11-10T15:04:57.260Z'
 version: 116
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/"
-  - "https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/"
-  - "https://mie.talentlms.com/shared/start/key:LBZIDNHR"
-  - "https://mie.talentlms.com/shared/start/key:ZAQDNHRK"
-source: "https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/'
+  - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
+  - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:ZAQDNHRK'
+source: 'https://drive.google.com/open?id=1S1X4Rn0y1DMGsQ1gFUmS7yLY4Tz8URodJsou-PVZxXM'
+wikigdrive: 'v2.15.30'
 ---
-
 The  {{% system-name %}} system is designed to allow sketches to be uploaded as documents into charts, as needed. A user can sketch on a blank background or over a templated background image, and then immediately upload the image to the chart. This is particularly useful when documenting an area of an injury and a visual representation provides added context to the documentation.
 
 ## Draw a Sketch in a Chart
@@ -50,11 +49,11 @@ In order to author documents for others, the user must have the Access Control 
 
 **Encounter**:  {{% system-name %}} allows documents to be linked to encounters, as needed. Specifying an encounter ID will link the uploaded document to the specified encounter. If the document does not need to be linked to an encounter, simply leave the field blank.
 
-- A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
-- Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-- Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
+* A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
+* Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
 
-  ![](./sketch-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+    ![](./sketch-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the *Encounter* field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
@@ -128,5 +127,5 @@ Users cannot edit or erase sketch markings once the sketch has been uploaded to 
 
 To learn more about Sketch Documents, follow the link below to the Learning Management System course:
 
-- [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
-- [Sketch Programming](https://mie.talentlms.com/shared/start/key:ZAQDNHRK)
+* [Forms Library/Documents Library Access](https://mie.talentlms.com/shared/start/key:LBZIDNHR)
+* [Sketch Programming](https://mie.talentlms.com/shared/start/key:ZAQDNHRK)

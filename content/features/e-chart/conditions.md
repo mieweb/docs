@@ -1,23 +1,22 @@
 ---
-id: "1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0"
-title: "Conditions"
-date: "2025-07-15T16:34:31.606Z"
+id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
+title: 'Conditions'
+date: '2025-07-15T16:34:31.606Z'
 version: 403
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:LAGIDNHR"
-source: "https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:LAGIDNHR'
+source: 'https://drive.google.com/open?id=1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Viewing a Patient Chart's Conditions
 
 There are various areas throughout the chart where a person's conditions/medical history/problem list are visible.
 
 ## Gray Header
 
-Active patient conditions can show in the top summary portion of the patient's information in most chart tabs _if_ you have the My Settings preference for _Show Conditions in Med Header_ set to Yes.
+Active patient conditions can show in the top summary portion of the patient's information in most chart tabs *if* you have the My Settings preference for *Show Conditions in Med Header* set to Yes.
 
 ![](./conditions.assets/4c8009f9bd76e7497ee85cbcfe05b336.png)
 
@@ -61,14 +60,14 @@ When you are working in a chart, you can click the chart tab at the top named Co
 
 ![](./conditions.assets/88158a1d44c6d41f25f5bd052e715715.png)
 
-Once you are in the Conditions module, you will see the patient's _Problem List, Past Medical History, Other Problems, Unconfirmed Conditions, Declined Conditions, and Family History._
+Once you are in the Conditions module, you will see the patient's *Problem List, Past Medical History, Other Problems, Unconfirmed Conditions, Declined Conditions, and Family History.*
 
-- <strong>Problem List</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition.
-- <strong>Past Medical History</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition. The conditions can be current and/or no longer active.
-- <strong>Other Problems</strong> are patient conditions that have both the Problem List radio button set to ‘No' and the Past Medical History radio button set to ‘No'.
-- <strong>Unconfirmed Conditions</strong> are patient conditions that have a Verification Status set to ‘Unconfirmed'.
-- <strong>Declined Conditions</strong> are Unconfirmed patient conditions that have been refuted. When the Unconfirmed Condition is Declined a reason is required.
-- <strong>Family History</strong> are conditions held by family members of the patient.
+* <strong>Problem List</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition.
+* <strong>Past Medical History</strong> are patient conditions that are set to ‘Yes' by the radio button when adding the condition. If the Clinical Status is set to Inactive, it will display next to the condition. The conditions can be current and/or no longer active.
+* <strong>Other Problems</strong> are patient conditions that have both the Problem List radio button set to ‘No' and the Past Medical History radio button set to ‘No'.
+* <strong>Unconfirmed Conditions</strong> are patient conditions that have a Verification Status set to ‘Unconfirmed'.
+* <strong>Declined Conditions</strong> are Unconfirmed patient conditions that have been refuted. When the Unconfirmed Condition is Declined a reason is required.
+* <strong>Family History</strong> are conditions held by family members of the patient.
 
 Providers can alter the condition within the Past Medical History section of the Encounter which can alter where the condition falls in the above sections.
 
@@ -88,23 +87,23 @@ The Add Condition window displays to enter the new condition for the patient.
 
 ![](./conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
 
-- <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown. First Databank (FDB), is the provider database of these ICD-10 codes.
-- <strong>Problem List:</strong> By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
-- <strong>Past Medical History:</strong> By selecting ‘Yes', the condition is added to the Past Medical History list of the patient conditions.
-- <strong>Clinical Status:</strong> Set the condition to Active or Inactive. The Problem List defaults to Active. There are also options within Active to set Recurrence or Relapse. Or within Inactive, there are options for Remission or Resolved.
-- <strong>Verification Status:</strong> Set the condition to Confirmed, Unconfirmed or Refuted. The Problem List defaults to Confirmed. Under Unconfirmed, the verification can be Provisional or Differential.
-- <strong>Managed By:</strong> This is optional to be filled out. It is an auto-complete pointed to the users whom are part of the department set in the system setting <em>Webchart/Settings/Physician Realm</em>. The users in this realm show up as choices for this field. The users need not have this as their <em>primary</em> department. Simply a user being part of the specified realm will allow them to display as choices. This field does not accept free type.
+* <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown. First Databank (FDB), is the provider database of these ICD-10 codes.
+* <strong>Problem List:</strong> By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
+* <strong>Past Medical History:</strong> By selecting ‘Yes', the condition is added to the Past Medical History list of the patient conditions.
+* <strong>Clinical Status:</strong> Set the condition to Active or Inactive. The Problem List defaults to Active. There are also options within Active to set Recurrence or Relapse. Or within Inactive, there are options for Remission or Resolved.
+* <strong>Verification Status:</strong> Set the condition to Confirmed, Unconfirmed or Refuted. The Problem List defaults to Confirmed. Under Unconfirmed, the verification can be Provisional or Differential.
+* <strong>Managed By:</strong> This is optional to be filled out. It is an auto-complete pointed to the users whom are part of the department set in the system setting <em>Webchart/Settings/Physician Realm</em>. The users in this realm show up as choices for this field. The users need not have this as their <em>primary</em> department. Simply a user being part of the specified realm will allow them to display as choices. This field does not accept free type.
 
 ![](./conditions.assets/61acf2893b5d874b896f497d118039be.png)
 
-- <strong>Onset Date:</strong> This is optional. Enter the date this condition began for the patient. If you only type in a year (not month or day ex: 1969) then the month/day will default to 01-01. If you enter a month and year (no day ex: 04-1969) then the day will default to 01. If no date is entered, it will save as 00-00-0000 onset date.
-- <strong>Concluded Date (if any):</strong> This is optional. Enter the date this condition concluded for the patient. Month/Day/Year apply as above in Onset Date.
-- <strong>Restricted Security:</strong> If this box is checked, the condition will be marked as ‘Restricted' on CCDA or FHIR output.
-- <strong>Comments:</strong> Comments stay with the conditions through all encounters. To place an encounter specific note, use the ‘add note' feature or ‘Encounter Note' text box on a new entry.
-- <strong>Encounter Note:</strong> This will create a new encounter note with the new condition being added.
+* <strong>Onset Date:</strong> This is optional. Enter the date this condition began for the patient. If you only type in a year (not month or day ex: 1969) then the month/day will default to 01-01. If you enter a month and year (no day ex: 04-1969) then the day will default to 01. If no date is entered, it will save as 00-00-0000 onset date.
+* <strong>Concluded Date (if any):</strong> This is optional. Enter the date this condition concluded for the patient. Month/Day/Year apply as above in Onset Date.
+* <strong>Restricted Security:</strong> If this box is checked, the condition will be marked as ‘Restricted' on CCDA or FHIR output.
+* <strong>Comments:</strong> Comments stay with the conditions through all encounters. To place an encounter specific note, use the ‘add note' feature or ‘Encounter Note' text box on a new entry.
+* <strong>Encounter Note:</strong> This will create a new encounter note with the new condition being added.
 
-- <strong>E&M Categories:</strong> This is optional. You will only get a drop-down for this severity field if you enter a condition that a severity can be applied to. Example: Bronchitis. You could then select a severity of Acute, Chronic, or Self-Limiting from the drop-down. This is optional. Again, this field will only turn on if you enter a valid condition that is tied to these 3 types of severity categories.
-- <strong>Private Note:</strong> Setting as a private note will block the note from appearing in pages or documents available to employees.
+* <strong>E&M Categories:</strong> This is optional. You will only get a drop-down for this severity field if you enter a condition that a severity can be applied to. Example: Bronchitis. You could then select a severity of Acute, Chronic, or Self-Limiting from the drop-down. This is optional. Again, this field will only turn on if you enter a valid condition that is tied to these 3 types of severity categories.
+* <strong>Private Note:</strong> Setting as a private note will block the note from appearing in pages or documents available to employees.
 
 Click **Save** and it will automatically put it in the appropriate conditions section.
 
@@ -130,20 +129,20 @@ If you wish to enter a family medical condition for the patient, click on the Co
 
 ![](./conditions.assets/ccd2b804b02d9b95726e9a8a5416fd55.png)
 
-After you click the Plus sign icon, you will see the _Add Family Condition_ fields.
+After you click the Plus sign icon, you will see the *Add Family Condition* fields.
 
 ![](./conditions.assets/14d64ff68c700886fc99337a7acb5092.png)
 
-- <strong>Problem:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD10</em> and free-text type the family condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. First Databank (FDB), is the provider database of these ICD-10 codes.
-- <strong>Relationship:</strong> Select from the dropdown which family member had the condition listed above. If you leave the relationship field <em>blank</em>, it will still document the family condition to the patient's history and will assume and mark it ‘unknown' as the
-- <strong>Age at Onset:</strong> Type or use the calendar to select the age in which the condition began. ‘=' is used for the exact age the condition began. ‘~' is used for around the age the condition began. ‘?' is used when the age of onset is unknown.
-- <strong>Comments:</strong> This field is optional and can be used for any additional comments on the family condition.
+* <strong>Problem:</strong> You are entering one family condition at a time. Simply click the radio button for <em>Name or ICD10</em> and free-text type the family condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. First Databank (FDB), is the provider database of these ICD-10 codes.
+* <strong>Relationship:</strong> Select from the dropdown which family member had the condition listed above. If you leave the relationship field <em>blank</em>, it will still document the family condition to the patient's history and will assume and mark it ‘unknown' as the
+* <strong>Age at Onset:</strong> Type or use the calendar to select the age in which the condition began. ‘=' is used for the exact age the condition began. ‘~' is used for around the age the condition began. ‘?' is used when the age of onset is unknown.
+* <strong>Comments:</strong> This field is optional and can be used for any additional comments on the family condition.
 
 When entering family conditions in the dynamic encounter, you will see No Known History and Non-Contributory options available for documentation purposes. No Known History means the patient has no known family history of any diseases/conditions. Instead of specifying a specific condition a family member has, you are doing the opposite and documenting that the patient has no known family history of that specific condition you are entering.
 
 ![](./conditions.assets/77beb6f7035148e0dd04cf06956d4374.png)
 
-Click _Save_ or _Add Another_ and it will automatically list it in the Family history section of the Conditions tab.
+Click *Save* or *Add Another* and it will automatically list it in the Family history section of the Conditions tab.
 
 ### Editing/Deleting a Patient Condition
 
@@ -151,20 +150,20 @@ If you need to edit or delete a condition for a patient, simply click into the C
 
 ![](./conditions.assets/94fc7ebfca4f985144fcc351f6cbc02b.png)
 
-The Edit Condition screen will open in a pop-up window. When the _Edit Condition_ window appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
+The Edit Condition screen will open in a pop-up window. When the *Edit Condition* window appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
 
 ![](./conditions.assets/ca1583c7ad8329ad738258c00652d1c2.png)
 
 Select the submit function you wish to perform:
 
-- <strong>Resolve Now:</strong> Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
-- <strong>Add Note:</strong> For additional documentation purposes on the condition.
-- <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
-- <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
+* <strong>Resolve Now:</strong> Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
+* <strong>Add Note:</strong> For additional documentation purposes on the condition.
+* <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
 After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
 
-Beginning in RC202403, users will be able to view Incident/cases linked to conditions when in Edit Condition mode. When in Edit Condition, the associated incident/case will display beneath the condition name. If an incident/case is not linked to the condition, the **Case** field is completely hidden and not viewable to the end user. Users will continue to be able to click on View Links to view and navigate quickly to linked encounters, incidents and assessments.
+Beginning in RC202403, users will be able to view Incident/cases linked to conditions when in Edit Condition mode. When in Edit Condition, the associated incident/case will display beneath the condition name. If an incident/case is not linked to the condition, the **Case** field is completely hidden and not viewable to the end user.  Users will continue to be able to click on View Links to view and navigate quickly to linked encounters, incidents and assessments.
 
 ![](./conditions.assets/44fc8818e4d02e97a684d2bd431fae25.png)
 
@@ -178,7 +177,7 @@ Select the Reason for the deletion from the Remove Condition pop-up window. Once
 
 ### Concluding an Active Patient Condition
 
-If you need to conclude an active condition for a patient simply find the listed condition and select the pencil icon for editing. Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.
+If you need to conclude an active condition for a patient simply find the listed condition and select the pencil icon for editing.  Conclude means that the patient had this condition but no longer has it. Deleting a condition means it was put in error.
 
 To conclude a condition, find the specific condition and hover over it until the icons appear. Click the Pencil icon.
 
@@ -204,10 +203,10 @@ You can change any field you need to for this specific condition you selected or
 
 Select the submit function you wish to perform.
 
-- <strong>Resolve Now:</strong> Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
-- <strong>Add Note:</strong> For additional documentation purposes on the condition.
-- <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
-- <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
+* <strong>Resolve Now:</strong> Sets the condition to ‘Resolve/Inactive' and moves the condition to the Past Medical History section. It sets the Concluded Date to today's date. This concludes an active patient condition.
+* <strong>Add Note:</strong> For additional documentation purposes on the condition.
+* <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
 After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
 
@@ -229,8 +228,8 @@ You can change any field you need to for this specific family condition you sele
 
 Select the submit function you wish to perform.
 
-- <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
-- <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
+* <strong>Add Task:</strong> A task can be sent regarding the condition to another user or department.
+* <strong>Save:</strong> Save the edited condition and be returned to the Conditions tab.
 
 After you have clicked one of the function buttons, it will then take you back to the patient's condition tab. You can edit another if you wish or continue working in {{% system-name %}} .
 
@@ -248,4 +247,4 @@ The Edit Condition window will open. Click on the View Links link. The links to 
 
 To learn more about Conditions, follow the link below to the Learning Management System course:
 
-- [Condition / Problem List Management (ICD-10)](https://mie.talentlms.com/shared/start/key:LAGIDNHR)
+* [Condition / Problem List Management (ICD-10)](https://mie.talentlms.com/shared/start/key:LAGIDNHR)

@@ -1,18 +1,17 @@
 ---
-id: "1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk"
-title: "Merge Manager Tab"
-date: "2024-07-19T17:01:13.270Z"
-version: 259
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
+title: 'Merge Manager Tab'
+date: '2024-07-19T17:01:13.270Z'
+version: 260
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "../../document-management/documents-and-forms/document-properties.md"
-  - "merging-accounts-charts-in-system.md"
-  - "https://mie.talentlms.com/shared/start/key:ZZQDNHRK"
-source: "https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk"
-wikigdrive: "v2.15.30"
+  - '../../document-management/documents-and-forms/document-properties.md'
+  - 'merging-accounts-charts-in-system.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZZQDNHRK'
+source: 'https://drive.google.com/open?id=1c6lN_cYM8X_X726MjhBb57B_NzKZSz-NEeNngYld0tk'
+wikigdrive: 'v2.15.30'
 ---
-
 The Merge Manager tab is found in the sidemenu tab named *Control Panel*. The Merge Manager tab is where you can see a listing of charts that have been merged in  {{% system-name %}}  along with any details and who performed the merge, when, etc. If you have security to do so, you can also perform an un-merge to un-merge those charts.
 
 ## Security Permission
@@ -21,9 +20,9 @@ The Merge Manager tab can be viewed if you have user security permission to do s
 
 ![](./merge-manager-tab.assets/23cf84c87703a000b27465784ac62976.png)
 
-- Security permission <strong>No</strong> will not allow that user to access the Merge Manager Log tab. The default for all users is currently set to No.
-- Security permission <strong>View</strong> will allow users to view the Merge Manager Log along with the charts that have been merged and allow users to perform searches, view details, etc in the Merge Manager tab.
-- Security permission <strong>Edit</strong> will allow users to do all of the above along with having an UnMerge link in the options column and those users are allowed to unmerge charts.
+* Security permission <strong>No</strong> will not allow that user to access the Merge Manager Log tab. The default for all users is currently set to No.
+* Security permission <strong>View</strong> will allow users to view the Merge Manager Log along with the charts that have been merged and allow users to perform searches, view details, etc in the Merge Manager tab.
+* Security permission <strong>Edit</strong> will allow users to do all of the above along with having an UnMerge link in the options column and those users are allowed to unmerge charts.
 
 ## Merge Manager
 
@@ -37,20 +36,20 @@ Once you are in the Merge Manager Log tab, it will show the search criteria filt
 
 **Search criteria fields to help narrow down your search for a specific Patient Merge Log:**
 
-- <strong>Merged To Chart:</strong> Begin typing the last name of the patient you want to search a merge log for. The system will auto-complete to give you matching patient names to select from.
-- <strong>Merged By User:</strong> Begin typing the last or first name of the  {{% system-name %}} user you want to search for merges done by that specific user. The system will auto-complete to give you matching usernames to select from.
-- <strong>Merge From Chart ID:</strong> This field allows the ability to search for a chart that was merged "From" the old into the new chart. Chart ID is the pat_id of the original chart, which was merged into a different chart. You must know the specific old pat_id (chart_id) to key in here to perform a search.
+* <strong>Merged To Chart:</strong> Begin typing the last name of the patient you want to search a merge log for. The system will auto-complete to give you matching patient names to select from.
+* <strong>Merged By User:</strong> Begin typing the last or first name of the  {{% system-name %}} user you want to search for merges done by that specific user. The system will auto-complete to give you matching usernames to select from.
+* <strong>Merge From Chart ID:</strong> This field allows the ability to search for a chart that was merged "From" the old into the new chart.  Chart ID is the pat_id of the original chart, which was merged into a different chart.  You must know the specific old pat_id (chart_id) to key in here to perform a search.
 
 ![](./merge-manager-tab.assets/8ee2eb9b6952fd8fd348dd3e4535d60a.png)
 
-- <strong>Merge Date/Time Range:</strong> Can type in a start and end date and/or time range to search for merges done within a specific date and/or time range. If no end date is entered, it is assumed today's date.
-- <strong>Merge Type:</strong> Can select to search for merged charts based on a specific merge option type. The drop-down list coincides with the radio button options when the user performed the merge.
+* <strong>Merge Date/Time Range:</strong> Can type in a start and end date and/or time range to search for merges done within a specific date and/or time range. If no end date is entered, it is assumed today's date.
+* <strong>Merge Type:</strong> Can select to search for merged charts based on a specific merge option type.  The drop-down list coincides with the radio button options when the user performed the merge.
 
 ![](./merge-manager-tab.assets/9ce72827cfadcec8cf240c6768066a3b.png)
 
-- <strong>Merge Status:</strong> Select All, Merged or Un-Merged as the status you wish to show results for. Merged means you are just searching Merge Logs of merged patient accounts. Un-Merged means you are searching Merge Logs for patient accounts that were un-merged by a user. All means your results will show both merged and unmerged logs.
-- <strong>Show Details:</strong> Checkmark this if you wish it to break the details down into line by line details of each specific merge or unmerge in the Merge Log results.
-- <strong>Show Queries:</strong> Checkmark this if you wish to show the SQL Query column in the Merge Log results. This shows the specific SQL query of the merge or unmerge.
+* <strong>Merge Status:</strong> Select All, Merged or Un-Merged as the status you wish to show results for. Merged means you are just searching Merge Logs of merged patient accounts. Un-Merged means you are searching Merge Logs for patient accounts that were un-merged by a user. All means your results will show both merged and unmerged logs.
+* <strong>Show Details:</strong> Checkmark this if you wish it to break the details down into line by line details of each specific merge or unmerge in the Merge Log results.
+* <strong>Show Queries:</strong> Checkmark this if you wish to show the SQL Query column in the Merge Log results. This shows the specific SQL query of the merge or unmerge.
 
 ![](./merge-manager-tab.assets/401443c569f8bff9b0b2948b9fc9fbea.png)
 
@@ -58,7 +57,7 @@ Click the SEARCH button to render your results.
 
 You will see the various columns (Status, Merged From, Merged, To, Merge Type, Details, Merged By and Merge Date) and specific line details and queries if you check-marked to display those in your search results.
 
-No results will render below it in the *Patient Merge Log listing* until a search has been rendered using any search criteria fields at the top. **Note:** clicking the SEARCH button without any search criteria, will display a listing of all charts that have been merged in the system.
+No results will render below it in the *Patient Merge Log listing* until a search has been rendered using any search criteria fields at the top.  **Note:** clicking the SEARCH button without any search criteria, will display a listing of all charts that have been merged in the system.
 
 ## Patient Merge Log
 
@@ -92,7 +91,7 @@ The un-merge request will be performed. The screen will show a *successfully un
 
 ### Documents, Appointments, etc Alert
 
-Sometimes the unmerge will be successful, but will alert you to documents, or appointments, or encounters, etc that were added to the chart after its initial merge. And now that it is being unmerged, those documents (added to the chart since its initial merge) have not been moved. You would need to audit the two charts to ensure the documents are in the correct chart. Moving documents is done via the document properties and is found in separate help documentation [Document Properties](../../document-management/documents-and-forms/document-properties.md)
+Sometimes the unmerge will be successful, but will alert you to documents, or appointments, or encounters, etc that were added to the chart after its initial merge.  And now that it is being unmerged, those documents (added to the chart since its initial merge) have not been moved.  You would need to audit the two charts to ensure the documents are in the correct chart.  Moving documents is done via the document properties and is found in separate help documentation [Document Properties](../../document-management/documents-and-forms/document-properties.md)
 
 If it is an encounter then you have to copy the contents of the encounter to the other chart. Once that is done you have to delete all the data such as conditions, medications, allergies, etc that were added via the encounter. Then you can delete the encounter. You cannot move encounters and their contents to another chart.
 
@@ -104,13 +103,13 @@ Another alert that may display when trying to unmerge charts is a failure alert.
 
 ![](./merge-manager-tab.assets/b3756072c96ff8f5483b08f5cb8d27bf.png)
 
-If you get this alert, please call our helpdesk for further assistance. Typically the failure has to do with the contact relationships on the chart not allowing it to unmerge. Typically this error is due to there still being relationships for the chart. To unmerge successfully, you may need screenshot/remember the relationships on the chart, then remove all the relationships, do the unmerge chart step, and then replace the relationships on each chart after unmerge.
+If you get this alert, please call our helpdesk for further assistance.  Typically the failure has to do with the contact relationships on the chart not allowing it to unmerge.  Typically this error is due to there still being relationships for the chart. To unmerge successfully, you may need screenshot/remember the relationships on the chart, then remove all the relationships, do the unmerge chart step, and then replace the relationships on each chart after unmerge.
 
-Our helpdesk can assist you on where to fix contact relationships on the chart that's being attempted to unmerge from another, then to unmerge successfully, then to fix contact relationships on both unmerged charts. Make sure to add all the relationships back to both charts. Typically (but please check with our help desk when getting this failure) you would have 1 Portal User relationship, 1 Self relationship, Supervisor relationship(s), and EO/Company relationship, however not all systems are set up the same for relationship needs. Please contact our helpdesk if receive this failure message when trying to unmerge.
+Our helpdesk can assist you on where to fix contact relationships on the chart that's being attempted to unmerge from another, then to unmerge successfully, then to fix contact relationships on both unmerged charts.  Make sure to add all the relationships back to both charts. Typically (but please check with our help desk when getting this failure) you would have 1 Portal User relationship, 1 Self relationship, Supervisor relationship(s), and EO/Company relationship, however not all systems are set up the same for relationship needs.  Please contact our helpdesk if receive this failure message when trying to unmerge.
 
 ![](./merge-manager-tab.assets/b3756072c96ff8f5483b08f5cb8d27bf.png)
 
-A new security role setting called "View Database Errors" will be available in the next db release (estimated 202409). This setting will allow users to view db errors created during such activities as chart merging and unmerging. This security setting will be available for clients as they upgrade and set to "No" by default. For users with the setting set to "Yes" and do not have golden ticket access, the user will be alerted as to which chart(s) encountered the error and to contact Technical Support. For users with the setting set to "Yes" and also has golden ticket access, the user will be able to see detailed database errors after a query fails. Please contact Technical Support with a screenshot of the error and copy/paste the error for assistance in troubleshooting. New databases created on the 202409 release will have the system setting set to "Yes" for the Superuser security role only.
+A new security role setting called "View Database Errors" will be available in the next db release (estimated 202409). This setting will allow users to view db errors created during such activities as chart merging and unmerging. This security setting will be available for clients as they upgrade and set to "No" by default. For users with the setting set to "Yes" and do not have golden ticket access, the user will be alerted as to which chart(s) encountered the error and to contact Technical Support. For users with the setting set to  "Yes" and also has golden ticket access, the user will be able to see detailed database errors after a query fails.  Please contact Technical Support with a screenshot of the error and copy/paste the error for assistance in troubleshooting. New databases created on the 202409 release will have the system setting set to "Yes" for the Superuser security role only.
 
 ![](./merge-manager-tab.assets/b0e219ee211f13308184ead8d5a88e59.png)
 
@@ -118,7 +117,7 @@ View for users with the setting set to "Yes" and do not have golden ticket acces
 
 ![](./merge-manager-tab.assets/95c45715973afda6bdb01b5190878008.png)
 
-View for users with the setting set to "Yes" and also has golden ticket access:
+View for users with the setting set to  "Yes" and also has golden ticket access:
 
 ![](./merge-manager-tab.assets/52308aa97a97bbe215257740834d1e01.png)
 
@@ -130,10 +129,10 @@ When performing another search in the Merge Manager Log screen, the unmerged cha
 
 ## How to Merge Charts
 
-Additional information on how to merge charts together may be found under separate help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)_._
+Additional information on how to merge charts together may be found under separate help documentation named [Merging Accounts-Charts](merging-accounts-charts-in-system.md)*.*
 
 ## Learning Management System
 
 To learn more about the Merge Manager Tab, follow the link below to the Learning Management System course:
 
-- [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)
+* [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)

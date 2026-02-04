@@ -1,26 +1,25 @@
 ---
-id: "1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
-title: "Create Audiometric Data File for Import"
-date: "2025-11-13T16:28:28.781Z"
+id: '1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
+title: 'Create Audiometric Data File for Import'
+date: '2025-11-13T16:28:28.781Z'
 version: 62
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
-  - "https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiogram-validation-test-script/"
-source: "https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
+  - 'https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiogram-validation-test-script/'
+source: 'https://drive.google.com/open?id=1pqlmPPQPZeiKt_N7XDccPfdFT5zLskxOKriIx-Nc8W4'
+wikigdrive: 'v2.15.30'
 ---
-
 This document explains how to import your historical audiometric testing data into {{% system-name %}} .
 
 What you will need:
 
-- Spreadsheet software (Microsoft Excel or Google Sheets)
-- Audiometric Data CSV File Example
-- {{% system-name %}} end user with administrative rights
+* Spreadsheet software (Microsoft Excel or Google Sheets)
+* Audiometric Data CSV File Example
+* {{% system-name %}} end user with administrative rights
 
 ## Create Audiometric Data CSV File
 
@@ -173,8 +172,9 @@ What you will need:
 </tr>
 </table>
 
+
 {{% tip %}}
-_For a more comprehensive list of supported fields, please refer to the_ [_Audiometric Data CSV API Specification_](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/).
+*For a more comprehensive list of supported fields, please refer to the* [*Audiometric Data CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/).
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an audiometric testing record. Below is a screenshot of the Audiometric Data CSV File Example for guidance.
@@ -202,7 +202,7 @@ _For a more comprehensive list of supported fields, please refer to the_ [_Audio
 
 5. Select the Audiometric Data CSV File and click <strong>Upload</strong>.
 
-   ![](./create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
+    ![](./create-audiometric-data-file-for-import.assets/11b5e384a571790e66bde49f23c3be9e.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.
@@ -210,9 +210,9 @@ For extra information on what happens during the import, click the **Verbose** c
 
 ## Resources
 
-- [Audiometric Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/)
-- [Audiometric Data CSV File Example](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365)
-- [Validation Script for Audiometric Data](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiogram-validation-test-script/)
+* [Audiometric Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/)
+* [Audiometric Data CSV File Example](https://docs.google.com/spreadsheets/d/12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4/export?format=csv&id=12V2YudNHsXrdoE098z_Hxh-e4SUjZzBUBdtthSkLQO4&gid=876799365)
+* [Validation Script for Audiometric Data](https://docs.enterprisehealth.com/functions/system-administration/data-migration/audiogram-validation-test-script/)
 
 ## Troubleshooting
 

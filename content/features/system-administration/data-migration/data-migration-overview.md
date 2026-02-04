@@ -1,23 +1,22 @@
 ---
-id: "1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8"
-title: "Data Migration Overview"
-date: "2025-12-23T19:32:28.181Z"
+id: '1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
+title: 'Data Migration Overview'
+date: '2025-12-23T19:32:28.181Z'
 version: 117
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "data-migration-file-format-standard.md"
-  - "http://www.mysql.com/products/workbench/migrate/"
-  - "https://csvkit.readthedocs.io/"
-  - "https://docs.google.com/a/mieweb.com/document/d/1Gi7Fv7P9de_CoRfDoZT85hrg89PAk65zQKGyBjS-DLQ/edit?usp=sharing"
-  - "https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries"
-  - "data-import-master-list.md"
-  - "https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion"
-  - "mie-file-import.md"
-source: "https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8"
-wikigdrive: "v2.15.30"
+  - 'data-migration-file-format-standard.md'
+  - 'http://www.mysql.com/products/workbench/migrate/'
+  - 'https://csvkit.readthedocs.io/'
+  - 'https://docs.google.com/a/mieweb.com/document/d/1Gi7Fv7P9de_CoRfDoZT85hrg89PAk65zQKGyBjS-DLQ/edit?usp=sharing'
+  - 'https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries'
+  - 'data-import-master-list.md'
+  - 'https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion'
+  - 'mie-file-import.md'
+source: 'https://drive.google.com/open?id=1FKm7Me6ryOw_1L4ja8i1Oj9NXzfRld-ybN-SDmcxpX8'
+wikigdrive: 'v2.15.30'
 ---
-
 Data migration is the process of transferring data between different storage types, formats, or systems, and is an important consideration for clients replacing an existing EHR. At {{% system-name %}} , we have imported data from a number of different systems, including Medgate, OHM, Sentry, Flow Gemini, and many other custom databases and countless proprietary spreadsheets. All of these imports involve a similar process, as described in this document.
 
 {{% note %}}
@@ -44,9 +43,9 @@ Data acquisition must be completed correctly and must be repeatable for "final d
 
 The following tools may be useful in exporting data to something we can consume.
 
-- MySQL Workbench can export MSSQL databases to MySQL backup files: http://www.mysql.com/products/workbench/migrate/
-- MSSQL Tools: Export to Access, and we'll run MDB Tools to load the Access backups to MySQL
-- CSV KIT can also read DBs to create properly formatted CSV files: [https://csvkit.readthedocs.io](https://csvkit.readthedocs.io/)
+* MySQL Workbench can export MSSQL databases to MySQL backup files: http://www.mysql.com/products/workbench/migrate/
+* MSSQL Tools: Export to Access, and we'll run MDB Tools to load the Access backups to MySQL
+* CSV KIT can also read DBs to create properly formatted CSV files: [https://csvkit.readthedocs.io](https://csvkit.readthedocs.io/)
 
 See [this document](https://docs.google.com/a/mieweb.com/document/d/1Gi7Fv7P9de_CoRfDoZT85hrg89PAk65zQKGyBjS-DLQ/edit?usp=sharing) for notes on building Python RPMs and packages for csvkit, wc-map-database, and MIE File Import.
 
@@ -110,88 +109,88 @@ The go-live procedure is similar to the dress rehearsal. The data migration chec
 
 ### OHM
 
-- appointments
-- audio
-- caseimage
-- cholesterol
-- cholinesterase
-- docnote
-- drug
-- elog
-- employeelosttime
-- employeememo
-- employeerestrictions
-- fitness_center
-- fittest
-- glucose
-- hepatitis
-- immunization
-- incidenteventsource
-- incidentlogdemographics
-- logdoc
-- logevents
-- mannote
-- mapping_dept
-- mapping_personnel
-- medagy
-- pft
-- rabies
-- rnnote
-- treatplan
-- tuber_lead
-- tuber
-- vitals
-- xray
+* appointments
+* audio
+* caseimage
+* cholesterol
+* cholinesterase
+* docnote
+* drug
+* elog
+* employeelosttime
+* employeememo
+* employeerestrictions
+* fitness_center
+* fittest
+* glucose
+* hepatitis
+* immunization
+* incidenteventsource
+* incidentlogdemographics
+* logdoc
+* logevents
+* mannote
+* mapping_dept
+* mapping_personnel
+* medagy
+* pft
+* rabies
+* rnnote
+* treatplan
+* tuber_lead
+* tuber
+* vitals
+* xray
 
 ### Medgate
 
-- audiometry (discrete data)
-- caseclinichistory (summary documents linked to incidents)
-- casemaster (summary documents plus discrete incidents)
-- clinicaltest (summary documents)
-- clinicvisit (discrete encounters)
-- clinicvisitreferrals (summary documents with discrete orders)
-- contraindications (discrete observations)
-- employeedocuments (documents)
-- employeeexposuregroup (summary documents)
-- employeelosttime (discrete data)
-- employeerestrictions (discrete data)
-- immunizations (discrete vaccines, observations and orders for tests, plus summary documents)
-- medications (summary documents)
-- pft (discrete data)
-- questionnaireresponses (summary documents plus discrete observations)
-- respiratorfittesting (discrete data)
-- visiontests (summary documents plus discrete observations and lab requests)
+* audiometry (discrete data)
+* caseclinichistory (summary documents linked to incidents)
+* casemaster (summary documents plus discrete incidents)
+* clinicaltest (summary documents)
+* clinicvisit (discrete encounters)
+* clinicvisitreferrals (summary documents with discrete orders)
+* contraindications (discrete observations)
+* employeedocuments (documents)
+* employeeexposuregroup (summary documents)
+* employeelosttime (discrete data)
+* employeerestrictions (discrete data)
+* immunizations (discrete vaccines, observations and orders for tests, plus summary documents)
+* medications (summary documents)
+* pft (discrete data)
+* questionnaireresponses (summary documents plus discrete observations)
+* respiratorfittesting (discrete data)
+* visiontests (summary documents plus discrete observations and lab requests)
 
-_Our experience with Medgate has been converting versions 6.0 SP4c - rev 79885 and 6.0 SP3a - rev 46384._
+*Our experience with Medgate has been converting versions 6.0 SP4c - rev 79885 and 6.0 SP3a - rev 46384.*
 
 See [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries) for example queries used.
 
 ### Flow Gemini
 
-- Vision Health
-- Biometrics
-- Audio
-- PFT
-- Demographics
-- ECG
-- Xray
-- Immunizations
-- Past Work History
-- Scheduling
-- Questionnaire
-- Blood Chemistry
-- Hematology
-- Micro Urinalysis
-- Urinalysis
-- Labs
-- Absenteeism
-- Ultrasound
+* Vision Health
+* Biometrics
+* Audio
+* PFT
+* Demographics
+* ECG
+* Xray
+* Immunizations
+* Past Work History
+* Scheduling
+* Questionnaire
+* Blood Chemistry
+* Hematology
+* Micro Urinalysis
+* Urinalysis
+* Labs
+* Absenteeism
+* Ultrasound
 
 ### Related Pages
 
-- [Data Import Master List](data-import-master-list.md)
-- [Data Requirements](data-migration-file-format-standard.md)
-- [WebChart Conversion](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion)
-- [WebChart Filesystem Import](mie-file-import.md)
-- [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries)
+* [Data Import Master List](data-import-master-list.md)
+* [Data Requirements](data-migration-file-format-standard.md)
+* [WebChart Conversion](https://miewiki.med-web.com/wiki/index.php/WebChart_Conversion)
+* [WebChart Filesystem Import](mie-file-import.md)
+* [Medgate Conversion Queries](https://confluence.mieweb.com/display/DOCS10/Medgate+Conversion+Queries)

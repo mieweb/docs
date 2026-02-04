@@ -1,21 +1,20 @@
 ---
-id: "1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA"
-title: "AlternaTIFF ActiveX Control for WebScan"
-date: "2025-11-13T16:13:29.161Z"
+id: '1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
+title: 'AlternaTIFF ActiveX Control for WebScan'
+date: '2025-11-13T16:13:29.161Z'
 version: 76
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "http://www.alternatiff.com/install/reinstall.html"
-source: "https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA"
-wikigdrive: "v2.15.30"
+  - 'http://www.alternatiff.com/install/reinstall.html'
+source: 'https://drive.google.com/open?id=1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
+wikigdrive: 'v2.15.30'
 ---
-
 The {{% system-name %}} system can efficiently scan and index the paper charts a practice currently has, as well as paper reports that most medical practices continue to receive. Further, {{% system-name %}} facilitates the reception of digital documents sent via HL7 interfaces, or using such standards as LOINC. The AlternaTIFF ActiveX Control and MIEScanner Plug-in must be installed in order for WebScan, as well as for other features, to function properly.
 
 ## Installing Components
 
-When working with WebScan, users may be prompted to install _alttiff.cab_ and _scancontrol.cab_, the cabinet files for the ActiveX control and MIEScanner plug-in. Both of these are needed for the WebScan program and other modules within the {{% system-name %}} system.
+When working with WebScan, users may be prompted to install *alttiff.cab* and *scancontrol.cab*, the cabinet files for the ActiveX control and MIEScanner plug-in. Both of these are needed for the WebScan program and other modules within the {{% system-name %}} system.
 
 {{% note %}}
 These instructions are for users on a Windows 10 operating system. Users must have Administrator privileges to install ActiveX Controls.
@@ -61,13 +60,13 @@ To reactivate the controls:
 
 1. Navigate to the AlternaTIFF website: http://www.alternatiff.com/install/reinstall.html
 2. The <em>Reactivate AlternaTIFF ActiveX control</em> page will load. This page also provides details on how to reconfigure the AlternaTIFF control, though it is only intended for users of Internet Explorer.
-   - Once the page launches, users will see the following prompt:
+    * Once the page launches, users will see the following prompt:
 
 ![](./alternatiff-activex-control-for-webscan.assets/c93d1514034360cb9ccea1795e85e624.png)
 
 3. To reactivate the controls, select <strong>Yes</strong>. This will reconfigure Internet Explorer to use AlternaTIFF to view TIFF files.
 4. Once complete, users will see the AlternaTIFF confirmation message:
 
-   ![](./alternatiff-activex-control-for-webscan.assets/3a04ccd75c101d8b225e2a97dfabf34a.png)
+    ![](./alternatiff-activex-control-for-webscan.assets/3a04ccd75c101d8b225e2a97dfabf34a.png)
 
 If issues persist, please reach out to our Help Desk at (260) 459-6270, option 1 for assistance.

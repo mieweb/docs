@@ -1,23 +1,22 @@
 ---
-id: "1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg"
-title: "Adding Restrictions"
-date: "2025-02-04T19:11:08.371Z"
-version: 381
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
+title: 'Adding Restrictions'
+date: '2025-02-04T19:11:08.371Z'
+version: 382
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "viewing-restrictions.md"
-  - "editing-restriction-types.md"
-  - "https://mie.talentlms.com/shared/start/key:ALEHRKMF"
-source: "https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg"
-wikigdrive: "v2.15.30"
+  - 'viewing-restrictions.md'
+  - 'editing-restriction-types.md'
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
+source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
+wikigdrive: 'v2.15.30'
 ---
-
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
 
 ## Security Permission
 
-Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts. There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
+Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts.  There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
 
 ![](./adding-restrictions.assets/60140c574ab7a6e73a97e879234d1109.png)
 
@@ -43,24 +42,24 @@ Once you do that, you will see again a list of all current active restrictions f
 
 Complete the Restriction fields to add a new restriction on the chart for this visit. Several fields are auto-completes that offer built-in choices. The Restriction fields are described as:
 
-- Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](editing-restriction-types.md) found in Control. If the person is restricted from working, use the restriction types of Lost Time.
-  - Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
-- Comment: This is a free text field to type in any comment regarding the restriction if needed or to add any more information regarding specifics to the restriction.
-- Problem: This is an autocomplete field but also allows free text.  You would most likely key in the patient's current condition from their problem list that this restriction may be related to.  If you push your down arrow key ↓on your keyboard it will display the patient's current problem list (conditions) you could select from.  Or you can free text in this field also. Anything typed here does not affect the patient's problem list.
-- Disability Criteria: This checkbox may be used for safety teams. The provider would write/add a new restriction here, but the safety team would come into this restriction and edit and mark the checkbox if applicable.
-- Affect Work: If the encounter visit you are in is linked to an incident, this will be checkmarked.
-- Occupational WC: If the encounter visit you are in is linked to a case/incident, this will be checkmarked.
-- Start Date/End Date/Permanent: The Start Date will default to today's date and time. However, a restriction must have an end date OR be marked as a permanent restriction (meaning no end date). The End Date or the Permanent checkbox will need to be documented (required field).
+* Restriction Type: Begin typing in the name or type of restriction.  The system will autocomplete preformatted choices for you.  Restriction types are programmed by MIE or your Super Admin in the [Editing Restriction Types](editing-restriction-types.md) found in Control. If the person is restricted from working, use the restriction types of Lost Time.
+    * Depending on the restriction type selected, more input fields may expand for more entry details about the specific restriction.
+* Comment: This is a free text field to type in any comment regarding the restriction if needed or to add any more information regarding specifics to the restriction.
+* Problem: This is an autocomplete field but also allows free text.  You would most likely key in the patient's current condition from their problem list that this restriction may be related to.  If you push your down arrow key ↓on your keyboard it will display the patient's current problem list (conditions) you could select from.  Or you can free text in this field also. Anything typed here does not affect the patient's problem list.
+* Disability Criteria: This checkbox may be used for safety teams. The provider would write/add a new restriction here, but the safety team would come into this restriction and edit and mark the checkbox if applicable.
+* Affect Work: If the encounter visit you are in is linked to an incident, this will be checkmarked.
+* Occupational WC: If the encounter visit you are in is linked to a case/incident, this will be checkmarked.
+* Start Date/End Date/Permanent: The Start Date will default to today's date and time. However, a restriction must have an end date OR be marked as a permanent restriction (meaning no end date).  The End Date or the Permanent checkbox will need to be documented (required field).
 
 ![](./adding-restrictions.assets/6843cf5c9cb765eb09d8cdbc8c841df0.png)
 
 When picking an end date for a clinical restriction from the popup calendar, the end time will default to 11:59pm. If you leave the "End Time" field blank, it will also default/assume to 11:59pm.
 
-NOTE: The only way around signifying a specific end date and not marking the restriction (with no end date) as permanent would be if the user has security permission to _Allow Open Restrictions_. If a user has permission to Allow Open Restrictions, then it allows the user to create & save restrictions without keying in an end date, not having to mark it permanent. Use caution if allowing this security permission.
+NOTE: The only way around signifying a specific end date and not marking the restriction (with no end date) as permanent would be if the user has security permission to *Allow Open Restrictions*.  If a user has permission to Allow Open Restrictions, then it allows the user to create & save restrictions without keying in an end date, not having to mark it permanent.  Use caution if allowing this security permission.
 
-- Provider: This autocomplete field currently points to select users within the department "Physicians", but can be changed to point to a different department by having your MIE Implementer change the layout: Restriction Providers. By default, if the logged in user is a member of the department this field points to, it will populate that user's name here in the field automatically. You may want to document a restriction on a patient/employee that an outside provider (not internal) put them on, especially for case management.  In this case, you may want to have your system set up to point to a different department as stated above where active & inactive users (via a layout tag) can be set to that department to show up as choices here.
-- Linked Case:  If the encounter visit you are in is linked to a case/incident, that case/incident info will prepopulate here.  If you are adding a restriction and accommodation that should be tied to a different case/incident, you can use this field to auto-complete to link it to the appropriate case/incident.  If you click your down arrow key ↓ on your keyboard, it will display incidents on that chart to link to.
-- Exclude from Notification Email: This functionality is only available if your system has a scheduled job configured to automatically email newly added or changed restrictions/accommodations to patient/employee and documented supervisors.  If such scheduled job is configured for the system, then the email should respect this checkbox, so when checked, the email would not be sent out upon adding, editing or updating a restriction/accommodation in the chart.
+* Provider: This autocomplete field currently points to select users within the department "Physicians", but can be changed to point to a different department by having your MIE Implementer change the layout: Restriction Providers. By default, if the logged in user is a member of the department this field points to, it will populate that user's name here in the field automatically. You may want to document a restriction on a patient/employee that an outside provider (not internal) put them on, especially for case management.  In this case, you may want to have your system set up to point to a different department as stated above where active & inactive users (via a layout tag) can be set to that department to show up as choices here.
+* Linked Case:  If the encounter visit you are in is linked to a case/incident, that case/incident info will prepopulate here.  If you are adding a restriction and accommodation that should be tied to a different case/incident, you can use this field to auto-complete to link it to the appropriate case/incident.  If you click your down arrow key ↓ on your keyboard, it will display incidents on that chart to link to.
+* Exclude from Notification Email: This functionality is only available if your system has a scheduled job configured to automatically email newly added or changed restrictions/accommodations to patient/employee and documented supervisors.  If such scheduled job is configured for the system, then the email should respect this checkbox, so when checked, the email would not be sent out upon adding, editing or updating a restriction/accommodation in the chart.
 
 If you know (while you are entering in the new restriction) what the accommodation will be for this chart, then you can fill out the accommodation fields within the accommodation section.
 
@@ -124,7 +123,7 @@ Current restrictions, that encompass today's date, are always shown in the dark 
 
 ### Restrictions/Lost Time stand alone Chart Tab
 
-Any active current restrictions for a chart are shown on the stand alone chart tab _Restrictions/Lost Time_ found in the Admin parent chart tab.
+Any active current restrictions for a chart are shown on the stand alone chart tab *Restrictions/Lost Time* found in the Admin parent chart tab.
 
 ![](./adding-restrictions.assets/45729643f432b52ea5d434706afe0227.png)
 
@@ -142,4 +141,4 @@ Also, any active current restrictions that are specifically linked to a case/inc
 
 To learn more about Adding Restrictions and Accommodations, follow the link below to the Learning Management System course:
 
-- [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)

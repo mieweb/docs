@@ -1,16 +1,15 @@
 ---
-id: "1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4"
-title: "E-Sign All Pending Tab"
-date: "2025-11-11T16:16:21.907Z"
+id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
+title: 'E-Sign All Pending Tab'
+date: '2025-11-11T16:16:21.907Z'
 version: 166
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:AOTHRKMF"
-source: "https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
+source: 'https://drive.google.com/open?id=1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
+wikigdrive: 'v2.15.30'
 ---
-
 From within the E-Sign sidemenu tab, there is an All Pending tab which displays all pending e-sign requests for the system.  To access the All Pending tab, it requires security permission.
 
 In the All Pending tab, it lists all users who have documents pending e-sign requests assigned to them along with a total count.  This tab can be used as an audit tool to see how many users have requests pending, along with the count as of today's date.
@@ -75,7 +74,7 @@ Once the report results, an E-Signature can be requested right there from the re
 
 ## All Pending - DataVis
 
-Users on RC202309 and newer can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of _Use DataVis in E-sign_ to "Enabled".
+Users on RC202309 and newer can switch from the legacy E-Sign view to the DataVis format by changing a My Settings user preference of *Use DataVis in E-sign* to "Enabled".
 
 ![](./e-sign-all-pending-tab.assets/f5fdc4ac345806ad825d693f2fc25f16.png)
 
@@ -105,4 +104,4 @@ To display the DataVis view again, click on the DataVis View button.
 
 To learn more about the E-Sign All Pending Tab, follow the link below to the Learning Management System course:
 
-- [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)
+* [Esign](https://mie.talentlms.com/shared/start/key:AOTHRKMF)

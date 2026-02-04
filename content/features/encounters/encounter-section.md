@@ -1,15 +1,14 @@
 ---
-id: "12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY"
-title: "Encounter Section"
-date: "2025-11-14T13:08:22.668Z"
+id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
+title: 'Encounter Section'
+date: '2025-11-14T13:08:22.668Z'
 version: 116
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
+wikigdrive: 'v2.15.30'
 ---
-
 The Encounter section is the first section in every visit encounter. This information contained in the section includes patient/employee identifiers, performing provider, location and billing information.
 
 ## Encounter View Mode
@@ -40,18 +39,18 @@ Use the Edit icon or simply click on the gray header bar for the Encounter secti
 
 **Location:** The location is the location for which the encounter visit is taking place. The provider and location are selected together using the **Provider** autocomplete. Once the appropriate provider/location combination has been selected, the location information will populate. The only way to change the location is to select a different provider location combination.
 
-**Provider:** Select the performing provider at the appropriate location from the **Provider** autocomplete. Search using last name, first. Locations pull from _Provider Organization_ charts and Providers pull from _Provider_ charts. Providers linked to Provider Organization creates the link between provider and location. All newer databases will default to using the Provider autocomplete. Clients who have not transitioned to the autocomplete may still see drop down options for provider and location. Clients should consider transitioning to the autocomplete controlled by the _Use Charts_ system setting.
+**Provider:** Select the performing provider at the appropriate location from the **Provider** autocomplete. Search using last name, first. Locations pull from *Provider Organization* charts and Providers pull from *Provider* charts. Providers linked to Provider Organization creates the link between provider and location. All newer databases will default to using the Provider autocomplete. Clients who have not transitioned to the autocomplete may still see drop down options for provider and location. Clients should consider transitioning to the autocomplete controlled by the *Use Charts* system setting.
 
-**Employer:** If an employer is listed in the patient's contact relationships table, then the Employer will default in the **Employer** field. If more than one employer relationship is defined, then the user may select the appropriate employer from the drop down. If no employer is defined the user will see _No employer found! Click here to add one!_
+**Employer:** If an employer is listed in the patient's contact relationships table, then the Employer will default in the **Employer** field. If more than one employer relationship is defined, then the user may select the appropriate employer from the drop down. If no employer is defined the user will see *No employer found! Click here to add one!*
 
 ![](./encounter-section.assets/47d04da09b81e900355c348ad6649b75.png)
 
-**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an _Employer Organization_ chart has been created for _Self Pay_ and/or for _Commercial Pay_. These are typically configured for clients at the time the interface is installed.
+**Self Pay/Commercial Pay:** The **Self Pay** and **Commercial Pay** buttons are only viewable for clients who have a billing interface installed that supports sending of payor information. These buttons display if an *Employer Organization* chart has been created for *Self Pay* and/or for *Commercial Pay*. These are typically configured for clients at the time the interface is installed.
 
 ![](./encounter-section.assets/87619c7638438672c73169908666b4b5.png)
 
-**Payer:** The **Payer** is an _Account_ chart that is linked to the **Employer Organization** chart. Payers will only display for the Employer selected in the Employer field.
+**Payer:** The **Payer** is an *Account* chart that is linked to the **Employer Organization** chart. Payers will only display for the Employer selected in the Employer field.
 
-**Archive as:** **Archive as** will default to the default document type for the Visit Type selected or as predefined in a template. Users can manually change the **Archive as** from a drop down if the default document type is not desired. The **Archive as** option drop down is defined in the _Encounter Type_ configuration.
+**Archive as:** **Archive as** will default to the default document type for the Visit Type selected or as predefined in a template. Users can manually change the **Archive as** from a drop down if the default document type is not desired. The **Archive as** option drop down is defined in the *Encounter Type* configuration.
 
 **Patient was transitioned into my care for this visit:** Select this box if the provider needs to document that the patient is being transitioned into the provider's care. This is typically only utilized by Webchart clients that report this in Quality Measures.

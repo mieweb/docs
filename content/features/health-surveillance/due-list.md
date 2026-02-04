@@ -1,18 +1,17 @@
 ---
-id: "1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
-title: "Due List"
-date: "2025-09-29T11:10:32.167Z"
+id: '1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
+title: 'Due List'
+date: '2025-09-29T11:10:32.167Z'
 version: 239
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "../e-chart/patient-summary-interactive-chart-tab.md"
-  - "../reports/using-datavis-grids-data-tools.md"
-  - "https://mie.talentlms.com/shared/start/key:LQSIDNHR"
-source: "https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg"
-wikigdrive: "v2.15.30"
+  - '../e-chart/patient-summary-interactive-chart-tab.md'
+  - '../reports/using-datavis-grids-data-tools.md'
+  - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
+source: 'https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
+wikigdrive: 'v2.15.30'
 ---
-
 Tests or Procedures items that are "due" (pending) are displayed in encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
 
 ## Due List Portlet
@@ -41,20 +40,20 @@ Due List items in this section are pending tests or procedures on the chart that
 
 The datavis listing of Pending Due List items show columns of information.
 
-- Options: The View Details hyperlink provides detailed revision information about the specific due list item
-- OrderName: is the name of the order item. Order items are configured in the Order List Editor as well as applicable Health Surveillance Panels
-- Type: is the Order Item type that is configured to in the Order List Editor. Type is ‘grouping' specific items into a general category ‘type'
-- Instructions: Instructions shown to a provider for orders triggered by this action.
-- Encounter: will populate the encounter visit type (and encounter ID number) if the due list item is in-progress or completed in any specific encounter
-- Panel: is the name of the Health Surveillance panel that the order item triggered from. A Panel name here will show <strong>Req.</strong> in bold if that Health Surveillance Panel has any action item configured as Required for Certification. If Panel column contents is blank, then the pending order item was not triggered as any part of Health Surveillance Panel needs and was placed on-demand or automated by other needs
-- Comments: will display any comments on the due list item when/if the item itself is edited
-- Due Date: is the date this pending order item is set to being due (typically configured at Health Surveillance Panel component level, but can be manually edited)
-- Visible Date: is the date this pending order item is set to being visible (typically configured at Health Surveillance Panel component level, but can be manually edited)
-- Create Date: is the date this pending order item was created on the chart
-- Appt Type: will display the waitlist appointment type that the pending order item (if triggered from Health Surveillance Panel needs) is set to in configuration
-- Scheduled: is the scheduled date of the associated waitlist Appt Type when/if scheduled (if triggered from Health Surveillance Panel needs)
-- Required: This will display <em>Yes, No, or Yes(</em><em>✹</em><em>)</em>. Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(<em>✹</em>) when at least one order item/action item of the panel is configured as required for certification, but not all.
-- Passed: will display Pass, Fail, Permanent Fail, or Review for any due list item that is configured as Required for Certification, and where the due list item's pass/fail criteria has been indicated
+* Options: The View Details hyperlink provides detailed revision information about the specific due list item
+* OrderName: is the name of the order item.  Order items are configured in the Order List Editor as well as applicable Health Surveillance Panels
+* Type: is the Order Item type that is configured to in the Order List Editor.  Type is ‘grouping' specific items into a general category ‘type'
+* Instructions: Instructions shown to a provider for orders triggered by this action.
+* Encounter: will populate the encounter visit type (and encounter ID number) if the due list item is in-progress or completed in any specific encounter
+* Panel: is the name of the Health Surveillance panel that the order item triggered from.  A Panel name here will show <strong>Req.</strong> in bold if that Health Surveillance Panel has any action item configured as Required for Certification.  If Panel column contents is blank, then the pending order item was not triggered as any part of Health Surveillance Panel needs and was placed on-demand or automated by other needs
+* Comments: will display any comments on the due list item when/if the item itself is edited
+* Due Date: is the date this pending order item is set to being due (typically configured at Health Surveillance Panel component level, but can be manually edited)
+* Visible Date: is the date this pending order item is set to being visible (typically configured at Health Surveillance Panel component level, but can be manually edited)
+* Create Date: is the date this pending order item was created on the chart
+* Appt Type: will display the waitlist appointment type that the pending order item (if triggered from Health Surveillance Panel needs) is set to in configuration
+* Scheduled: is the scheduled date of the associated waitlist Appt Type when/if scheduled (if triggered from Health Surveillance Panel needs)
+* Required: This will display <em>Yes, No, or Yes(</em><em>✹</em><em>)</em>.  Yes if all of the order items/action items of the panel are configured as required for certification, No when none of the action items/Order items for the panel are required for certification, and Yes(<em>✹</em>) when at least one order item/action item of the panel is configured as required for certification, but not all.
+* Passed: will display Pass, Fail, Permanent Fail, or Review for any due list item that is configured as Required for Certification, and where the due list item's pass/fail criteria has been indicated
 
 Select the specific pending tests/procedures to work using the checkbox on the far left. Due Lists items can be managed individually or in mass utilizing the checkbox option.
 
@@ -171,7 +170,10 @@ Some order items on a due list are Health Surveillance Panels that have many ord
 {{% tip %}}
 Automatic nightly scheduled jobs can also be configured to always ‘evaluate' any pending health surveillance panel due list items on charts nightly instead of manually.
 
+
+
 ![](./due-list.assets/7bc0676d7e6338ed357690a675cbdd57.png)
+
 
 {{% /tip %}}
 
@@ -192,7 +194,7 @@ If a pending due list items needs referred out to have performed, an order shoul
 In the Order Request screen, key in required information for the order requisition.  Once you click Submit button to generate the order, it will create the document at which point you can print/fax the order request out.  Simply close out of that screen to get back to where you were working.
 
 {{% info %}}
-When the Due List refreshes, the ordered item is moved from the Pending Items section to the Past Items section, but with the status of _Ordered_. The order request document is housed in the Order Requests chart tab.
+When the Due List refreshes, the ordered item is moved from the Pending Items section to the Past Items section, but with the status of *Ordered*. The order request document is housed in the Order Requests chart tab.
 {{% /info %}}
 
 ### Perform
@@ -229,7 +231,7 @@ Clicking on the View Details link on a specific due list item will show details 
 
 ![](./due-list.assets/60d74ab71aa483e2baeb2f718adc5a35.png)
 
-In RC2025-09 and newer, an update to layout: EncOrderDetailsTopForm was made to include visible verbiage of _Originated from a chart merged into this chart_ if a due list item is in the chart from a chart that was merged into this chart. This is visible when in the View Details window of an individual due list item.
+In RC2025-09 and newer, an update to layout: EncOrderDetailsTopForm was made to include visible verbiage of *Originated from a chart merged into this chart* if a due list item is in the chart from a chart that was merged into this chart. This is visible when in the View Details window of an individual due list item.
 
 ![](./due-list.assets/71ec0839af85fa53b66c828ac6c83325.png)
 
@@ -261,4 +263,4 @@ Edit Items is a function button found in both the In Progress and Past Items sec
 
 To learn more about the Due List, follow the link below to the Learning Management System course:
 
-- [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)
+* [Health Surveillance Program](https://mie.talentlms.com/shared/start/key:LQSIDNHR)

@@ -1,15 +1,14 @@
 ---
-id: "131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI"
-title: "Device Interface - Sibelsound Duo Audiometer Interface"
-date: "2025-09-08T19:26:49.708Z"
+id: '131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI'
+title: 'Device Interface - Sibelsound Duo Audiometer Interface'
+date: '2025-09-08T19:26:49.708Z'
 version: 38
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI'
+wikigdrive: 'v2.15.30'
 ---
-
 Before users can import Sibelsound Duo Audiometer test results into {{% system-name %}} they must first create an export file from the Sibelsound Duo Screening Audiometer software. Once the file has been exported from the Sibelsound Duo Screening Audiometer software and saved to the user's local computer, navigate to the Sibelsound Duo Audio Upload Import tool in {{% system-name %}}.
 
 {{% note %}}
@@ -38,4 +37,4 @@ Users will see the discrete summary of uploaded results in the **Medical Record:
 
 ![](./device-interface-sibelsound-duo-audiometer-interface.assets/d4a322db20c04310d571e7d9343aa0a0.png)
 
-_Note:_ Users may notice that the uploaded document displays as Revision 1. This is intentional. Revision 0 is inserted by the import tool with the document type ‘FAILDEVIMP', as a means to track and store text as attachments and troubleshooting. When the file upload is complete, the document will display all results as Revision 1.
+*Note:* Users may notice that the uploaded document displays as Revision 1. This is intentional. Revision 0 is inserted by the import tool with the document type ‘FAILDEVIMP', as a means to track and store text as attachments and troubleshooting. When the file upload is complete, the document will display all results as Revision 1.

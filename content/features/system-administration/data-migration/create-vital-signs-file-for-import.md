@@ -1,26 +1,25 @@
 ---
-id: "1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
-title: "Create Vital Signs File for Import"
-date: "2025-11-13T16:31:09.843Z"
+id: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
+title: 'Create Vital Signs File for Import'
+date: '2025-11-13T16:31:09.843Z'
 version: 65
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
-  - "https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641"
-  - "https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo"
-source: "https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
+  - 'https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641'
+  - 'https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo'
+source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
+wikigdrive: 'v2.15.30'
 ---
-
 This document explains how to import historical vital signs for employees into {{% system-name %}} .
 
 What you will need:
 
-- Spreadsheet software (Microsoft Excel or Google Sheets)
-- Vital Signs CSV File Example
-- {{% system-name %}} end user with administrative rights
+* Spreadsheet software (Microsoft Excel or Google Sheets)
+* Vital Signs CSV File Example
+* {{% system-name %}} end user with administrative rights
 
 ## Create Vital Signs CSV File
 
@@ -170,7 +169,7 @@ Do not provide the percentage sign (%).<br />
 </table>
 
 {{% tip %}}
-_For a more comprehensive list of supported fields, please refer to the_ [_Vital Signs CSV API Specification_](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)_._
+*For a more comprehensive list of supported fields, please refer to the* [*Vital Signs CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)*.*
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Vital Signs CSV File Example for guidance.
@@ -196,7 +195,7 @@ _For a more comprehensive list of supported fields, please refer to the_ [_Vital
 
 5. Select the Vital Signs CSV File and click <strong>Upload</strong>.
 
-   ![](./create-vital-signs-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
+    ![](./create-vital-signs-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.
@@ -204,9 +203,9 @@ For extra information on what happens during the import, click the **Verbose** c
 
 ## Resources
 
-- [Vital Signs CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)
-- [Vital Signs CSV File Example](https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641)
-- [Validation script for Vital Signs data](https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
+* [Vital Signs CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/)
+* [Vital Signs CSV File Example](https://docs.google.com/spreadsheets/d/1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io/export?format=csv&id=1KrmKIr6O7vjd3hfCXfvQKqWRKZ_kR0D1YgueuNTu9io&gid=1493638641)
+* [Validation script for Vital Signs data](https://drive.google.com/open?id=1UA53nQOJPu142NGkHcT3HL0OS7swlXeitivY7sV2rPo)
 
 ## Troubleshooting
 

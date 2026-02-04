@@ -1,15 +1,14 @@
 ---
-id: "1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8"
-title: "Emergency Access for Limited Access Users"
-date: "2025-12-04T14:03:14.876Z"
+id: '1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
+title: 'Emergency Access for Limited Access Users'
+date: '2025-12-04T14:03:14.876Z'
 version: 135
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1RHp0GCOeed1f4pcdngKoeFLYHYfi1ZzkKVkSPLRcAl8'
+wikigdrive: 'v2.15.30'
 ---
-
 When access to a chart is restricted, the system provides a means for appropriately authorized users to "have emergency access" for emergency situations.
 
 The security setting of **Limited Access** is what drives this along with the security settings of **Allow Emergency Access to Charts** and **Allow Unrestricted Pat Search**.
@@ -56,7 +55,7 @@ If they need to search and find a patient outside their limited access and it ma
 
 ![](./emergency-access-for-limited-access-users.assets/5fb2411c9ddbceae7b5c296b68f6fe79.png)
 
-When it is check-marked, they can search for a patient or a document and see all matching search results. If the user has the Allow Unrestricted Pat Search setting set to Yes, it will show that the account or document is _restricted_, but they can get into it if need be for an emergency.
+When it is check-marked, they can search for a patient or a document and see all matching search results. If the user has the Allow Unrestricted Pat Search setting set to Yes, it will show that the account or document is *restricted*, but they can get into it if need be for an emergency.
 
 ![](./emergency-access-for-limited-access-users.assets/051e06d4d96f22b703b4ee769474c4aa.png)
 

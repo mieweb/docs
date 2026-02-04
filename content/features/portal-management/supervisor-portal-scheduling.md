@@ -1,16 +1,15 @@
 ---
-id: "1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y"
-title: "Supervisor Portal Scheduling"
-date: "2025-11-10T19:01:07.231Z"
+id: '1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y'
+title: 'Supervisor Portal Scheduling'
+date: '2025-11-10T19:01:07.231Z'
 version: 176
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/portal-management/supervisor-portal-setup/"
-source: "https://drive.google.com/open?id=1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/portal-management/supervisor-portal-setup/'
+source: 'https://drive.google.com/open?id=1-jXm8RPS5HN_lQVCr0HIvlSwPPWMwapjMunsWlszw2Y'
+wikigdrive: 'v2.15.30'
 ---
-
 The **Supervisor Portal** allows supervisors to schedule appointments on behalf of their direct subordinates. The Schedule Appointments module is available in databases on the 202503 release of {{% system-name %}}.
 
 ## Schedule Appointments
@@ -27,7 +26,7 @@ The **Supervisor Portal** allows supervisors to schedule appointments on behalf 
 
 ![](./supervisor-portal-scheduling.assets/199d3bc4405792ee570450e643d224b3.png)
 
-4. Select the<strong> Reason(s), locations, provider, appointment date/time</strong> and add <em>optional</em> <strong>Provider</strong> <strong>comments</strong>, then select the green <strong>Submit</strong> button to schedule the appointment. If scheduling an appointment on demand, the supervisor will be required to enter all fields, except the <strong>comment</strong>, before submitting the page. If scheduling an appointment from the <strong>Appointments To Be Scheduled</strong> section, the Reason(s)/(appointment type) will default for the supervisor and can not be changed. Additionally, if only one location and/or provider offers this appointment type, the location and/or provider may be automatically selected and default for the supervisor when scheduling the appointment. The date/time format, calendar options and comments are also configurable items and may differ slightly from what is pictured below.
+4. Select the<strong> Reason(s), locations, provider, appointment date/time</strong> and add <em>optional</em> <strong>Provider</strong> <strong>comments</strong>, then select the green <strong>Submit</strong> button to schedule the appointment.  If scheduling an appointment on demand, the supervisor will be required to enter all fields, except the <strong>comment</strong>, before submitting the page. If scheduling an appointment from the <strong>Appointments To Be Scheduled</strong> section, the Reason(s)/(appointment type) will default for the supervisor and can not be changed.  Additionally, if only one location and/or provider offers this appointment type, the location and/or provider may be automatically selected and default for the supervisor when scheduling the appointment.  The date/time format, calendar options and comments are also configurable items and may differ slightly from what is pictured below.
 
 ![](./supervisor-portal-scheduling.assets/f2fd83192dd50225e5d9d40c748c5350.png)
 
@@ -45,8 +44,8 @@ The **Supervisor Portal** allows supervisors to schedule appointments on behalf 
 
 ![](./supervisor-portal-scheduling.assets/244cb60e8bde4ff953c40752685c17c7.png)
 
-2. {{% system-name %}} will ask the supervisor <strong>Are you sure?</strong> That you want to cancel the appointment. Select the <strong>Yes</strong> button to cancel the appointment. Select the <strong>No</strong> button to keep the scheduled appointment.
-   ![](./supervisor-portal-scheduling.assets/03769c22ad6ffa35141baba67ecc289d.png)
+2. {{% system-name %}} will ask the supervisor <strong>Are you sure?</strong> That you want to cancel the appointment. Select the <strong>Yes</strong> button to cancel the appointment. Select the <strong>No</strong> button to keep the scheduled appointment. 
+    ![](./supervisor-portal-scheduling.assets/03769c22ad6ffa35141baba67ecc289d.png)
 
 3. Additionally, the employee will receive the standard out of the box appointment cancellation email.
 

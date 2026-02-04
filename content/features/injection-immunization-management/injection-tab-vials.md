@@ -1,19 +1,18 @@
 ---
-id: "11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk"
-title: "Injection Tab - Vials"
-date: "2024-12-23T16:08:04.489Z"
+id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
+title: 'Injection Tab - Vials'
+date: '2024-12-23T16:08:04.489Z'
 version: 198
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "injection-editor.md"
-  - "../document-management/documents-and-forms/e-chart-scan-documents.md"
-  - "https://mie.talentlms.com/shared/start/key:LSLIDNHR"
-  - "https://mie.talentlms.com/shared/start/key:LSEIDNHR"
-source: "https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk"
-wikigdrive: "v2.15.30"
+  - 'injection-editor.md'
+  - '../document-management/documents-and-forms/e-chart-scan-documents.md'
+  - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
+source: 'https://drive.google.com/open?id=11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
+wikigdrive: 'v2.15.30'
 ---
-
 Within the immunization/injections module is the ability to manage Allergy Vials and Allergy Injections administered from those vials.
 
 ## Vials
@@ -22,7 +21,7 @@ Current unexpired Vials will display within the MAR/Injections stand alone chart
 
 ![](./injection-tab-vials.assets/d07fe84d794fbcd920ad14d2816e297f.png)
 
-To show past expired (or ended) Vials or deleted Vials on the chart, simply use the Show Expired/Ended or Show Deleted hyperlinks available to toggle your viewing. Vials with an expiration date that is past or Vials that have a past end date or Vials that were deleted, will be available to be viewed using those hyperlinks.
+To show past expired (or ended) Vials or deleted Vials on the chart, simply use the Show Expired/Ended or Show Deleted hyperlinks available to toggle your viewing.  Vials with an expiration date that is past or Vials that have a past end date or Vials that were deleted, will be available to be viewed using those hyperlinks.
 
 ![](./injection-tab-vials.assets/b738986a16e5412c7bc3c3059f9f7384.png)
 
@@ -32,7 +31,7 @@ To show past expired (or ended) Vials or deleted Vials on the chart, simply use 
 
 An ‘Allergist' can be captured on the MAR/Injections screen, which then stores that allergist as a ‘contact' (with a specific user relationship) onto the patient's chart.
 
-First, the system setting "Allergist" would need to be configured to point to which user role id# to store a related Allergist as. It would be common to get this configured to be user role id# 139, but another user role id# could be set to the system setting as needed.
+First, the system setting "Allergist" would need to be configured to point to which user role id# to store a related Allergist as.  It would be common to get this configured to be user role id# 139, but another user role id# could be set to the system setting as needed.
 
 ![](./injection-tab-vials.assets/769f42e24b6090f6ffdd81ed725c5304.png)
 
@@ -40,7 +39,7 @@ Clicking on Allergist hyperlink then allows selection of any active user in the 
 
 ![](./injection-tab-vials.assets/82ee356554d76c8aacf6785633a93e52.png)
 
-However, you can limit the selection to be specific active users within a specific department (realm) of your system instead. An additional system setting "Allergist Realm" can be configured to a specific department name you want the auto-complete of user selections to pull from, to be set as.
+However, you can limit the selection to be specific active users within a specific department (realm) of your system instead.  An additional system setting "Allergist Realm" can be configured to a specific department name you want the auto-complete of user selections to pull from, to be set as.
 
 ![](./injection-tab-vials.assets/dbedcfdb673432d2a0cfe1588ed857c2.png)
 
@@ -48,7 +47,7 @@ Once an Allergist is ‘set', then it is visible on that MAR/Injections tab.
 
 ![](./injection-tab-vials.assets/53b04414515078f991a25f593bcef5d3.png)
 
-Also, it stores that set user/allergist as a ‘Contact' to the chart as the user role id that field is set to store as. This is visible from the Summary chart tab dashboard within the _Contacts_ portlet.
+Also, it stores that set user/allergist as a ‘Contact' to the chart as the user role id that field is set to store as. This is visible from the Summary chart tab dashboard within the *Contacts* portlet.
 
 ![](./injection-tab-vials.assets/ec91b7fec8c19715d4443358e3a041c8.png)
 
@@ -66,7 +65,7 @@ To save, click SET button and the free text info will be displayed within the MA
 
 ### Peak Flow Baseline
 
-A Peak Flow Baseline is available to set onto the MAR/Injections chart tab. If the system setting "Peak Flow Baseline Extended Name" is configured with the name of extended value or observation to compare peak flow observations to, then Peak Flow Baseline hyperlink will be available to set the L/min peakflow baseline to be displayed within the MAR/Injections chart tab.
+A Peak Flow Baseline is available to set onto the MAR/Injections chart tab.  If the system setting "Peak Flow Baseline Extended Name" is configured with the name of extended value or observation to compare peak flow observations to, then Peak Flow Baseline hyperlink will be available to set the L/min peakflow baseline to be displayed within the MAR/Injections chart tab.
 
 ![](./injection-tab-vials.assets/d579e1c945d4eb4defa83558d94aa242.png)
 
@@ -76,30 +75,29 @@ To add a new Vial to a chart (typically used for allergy injections), simply cli
 
 ![](./injection-tab-vials.assets/e1a808e94fce898e02cc20070f3dc67f.png)
 
-The _Add Vial_ screen will display to allow you to add vial(s).
+The *Add Vial* screen will display to allow you to add vial(s).
 
 Enter the information in each field as needed.
 
 ![](./injection-tab-vials.assets/d0ce0624aa5782106c35189cb384f570.png)
 
-- <strong>Vial Name:</strong> is a free text field to name the vial as you wish
-- <strong>Contents:</strong> this is an autocomplete from the rxdb that pulls from the inject_type field of being ‘allergy' from the CDC. These inject codes start with a V
-  - Note: Within the Injection Editor is where these are found and can be renamed for system use or hidden based on what you want offered for system use.
+* <strong>Vial Name:</strong> is a free text field to name the vial as you wish
+* <strong>Contents:</strong> this is an autocomplete from the rxdb that pulls from the inject_type field of being ‘allergy' from the CDC.  These inject codes start with a V
+    * Note: Within the Injection Editor is where these are found and can be renamed for system use or hidden based on what you want offered for system use.
 
 For example:
 
 ![](./injection-tab-vials.assets/4906d2e9ef45a24230ecb4a3f36ae0cf.png)
 
     * For more information please go to [Injection Editor](injection-editor.md) help guide for more detailed information
-
-- <strong>Strength:</strong> is an autocomplete to select from various used strengths or a system setting can be enabled for "Vial Strength Dropdown" which uses a drop-down instead of an autocomplete.
-  - Depending on the strength, it will be associated with a color if system setting "Use Vial Colors" is also enabled.
+* <strong>Strength:</strong> is an autocomplete to select from various used strengths or a system setting can be enabled for "Vial Strength Dropdown" which uses a drop-down instead of an autocomplete.
+    * Depending on the strength, it will be associated with a color if system setting "Use Vial Colors" is also enabled.
 
 ![](./injection-tab-vials.assets/a3c6a64469f4e066f8ce531a0d8b538b.png)
 
-- <strong>Expiration Date:</strong> can key in the expiration date of the vial. Once that date has passed, then the Vial will automatically become expired and be visible in the Show Expired/Ended toggle view.
-- <strong>Start Date:</strong> can key in the start date of when injections are to begin to be administered from the vial
-- <strong>End Date:</strong> can key in an end date of when injections are to stop being administered from the vial. Once that date has passed, then the Vial will automatically become ended and be visible in the Show Expired/Ended toggle view.
+* <strong>Expiration Date:</strong> can key in the expiration date of the vial.  Once that date has passed, then the Vial will automatically become expired and be visible in the Show Expired/Ended toggle view.
+* <strong>Start Date:</strong> can key in the start date of when injections are to begin to be administered from the vial
+* <strong>End Date:</strong> can key in an end date of when injections are to stop being administered from the vial.  Once that date has passed, then the Vial will automatically become ended and be visible in the Show Expired/Ended toggle view.
 
 Click the ADD button when done entering the vial(s) you wish. After you enter vial(s), you will be taken back to the immunization/injection summary screen. You will see the summary list of immunizations, injections & vials. You can now add an injection(s) towards the vial(s) you entered.
 
@@ -107,7 +105,7 @@ Click the ADD button when done entering the vial(s) you wish. After you enter vi
 
 ## Administering Injections from Vial(s) from Stand Alone MAR/Injections chart tab
 
-One can document an administered injection from a vial using the stand alone MAR/Injections chart tab. To do this, you must first check-mark the vial(s) you wish to administer an injection for.  If you do not, you will get an error message saying you must first select a vial to add an injection to. NOTE: There is a system setting "Vial Checkbox Checked by Default" that can be enabled which will default to all active vials having a checkmark on them.  Then one can simply "uncheckmark" which vial is not dispensing from.
+One can document an administered injection from a vial using the stand alone MAR/Injections chart tab.  To do this, you must first check-mark the vial(s) you wish to administer an injection for.  If you do not, you will get an error message saying you must first select a vial to add an injection to.  NOTE: There is a system setting "Vial Checkbox Checked by Default" that can be enabled which will default to all active vials having a checkmark on them.  Then one can simply "uncheckmark" which vial is not dispensing from.
 
 Then, click the ADD INJECTIONS FOR VIALS button under the vials summary listing.
 
@@ -119,21 +117,21 @@ Fill out the injection fields with the information.
 
 ![](./injection-tab-vials.assets/1e52c94582d8b873806211dce755ff01.png)
 
-- <strong>Injection/Immunization:</strong>  This is a required field.  This will prefill the allergy injection name (from the Injection Editor) of the ‘contents' field the Vial has on it.
-- <strong>Administering Location:</strong> Select the location of where injection is being administered at. It will default to your default location from your My Settings preferences.
-  - If the injection was given elsewhere and you are just documenting the injection for records, select No Location.
-- <strong>Administering Date:</strong>  Automatically populates today's date and current time.  Change date or time to when the injection was given.
-- <strong>Administrator:</strong> Automatically populates your name but you can change to whom is the administrator
-- <strong>Route:</strong>  Select the route of the injection, if you wish, from the drop-down of choices.
-- <strong>Site:</strong>  Select the site the injection was given from the drop-down of choices. Our Deployment Consultant can configure the system setting "Vial Sites" to offer a limited choice of sites specific to Vial injections.
-- <strong>Dose:</strong>  Enter the dose of the injection. Our Deployment Consultant can configure the system setting "Autodose vial injections" to allow the system to suggest an autopopulate a dose (based on the vial strength that the injection is being administered from) in this field, but one should always document the appropriate dose given. NOTE: if autodose vial injections system setting is enabled, the system will also display a message if it's not able to calculate a dose based on strength entered for the vial being administered from.
+* <strong>Injection/Immunization:</strong>  This is a required field.  This will prefill the allergy injection name (from the Injection Editor) of the ‘contents' field the Vial has on it.
+* <strong>Administering Location:</strong> Select the location of where injection is being administered at.  It will default to your default location from your My Settings preferences.
+    * If the injection was given elsewhere and you are just documenting the injection for records, select No Location.
+* <strong>Administering Date:</strong>  Automatically populates today's date and current time.  Change date or time to when the injection was given.
+* <strong>Administrator:</strong> Automatically populates your name but you can change to whom is the administrator
+* <strong>Route:</strong>  Select the route of the injection, if you wish, from the drop-down of choices.
+* <strong>Site:</strong>  Select the site the injection was given from the drop-down of choices. Our Deployment Consultant can configure the system setting "Vial Sites" to offer a limited choice of sites specific to Vial injections.
+* <strong>Dose:</strong>  Enter the dose of the injection.  Our Deployment Consultant can configure the system setting "Autodose vial injections" to allow the system to suggest an autopopulate a dose (based on the vial strength that the injection is being administered from) in this field, but one should always document the appropriate dose given.  NOTE: if autodose vial injections system setting is enabled, the system will also display a message if it's not able to calculate a dose based on strength entered for the vial being administered from.
 
 ![](./injection-tab-vials.assets/9599bdeb0d30babda9154f4b8897df51.png)
 
-- <strong>Strength:</strong> The strength will autopopulate based on the Vial's strength this injection is being administered from. If the Vial didn't have a strength keyed in, one can enter the strength of the injection here.  You will also see the color code next to that strength chosen if your practice has the "Use Vial Colors" system setting turned on.
-- <strong>Comments / Reaction:</strong>  Free-text in this field any comments regarding the injection, etc.  If a patient later had a reaction to this injection, you would also type any comments regarding that here and submit an edit to the original record.
-- <strong>Peak Flow:</strong> An optional field to document the peak flow in L/Min if system setting "Peak Flow Observation Name" is configured for the system, which gives the ability to document a peak flow value associated with an injection.
-- <strong>Next Due:</strong> You can enter a date of when the next injection is due if you wish (ex: if it's a series, etc). {{% system-name %}} has the ability to have overdue injections pop up from One-Click Checkin when in the Scheduler to check someone in also.
+* <strong>Strength:</strong> The strength will autopopulate based on the Vial's strength this injection is being administered from.  If the Vial didn't have a strength keyed in, one can enter the strength of the injection here.  You will also see the color code next to that strength chosen if your practice has the "Use Vial Colors" system setting turned on.
+* <strong>Comments / Reaction:</strong>  Free-text in this field any comments regarding the injection, etc.  If a patient later had a reaction to this injection, you would also type any comments regarding that here and submit an edit to the original record.
+* <strong>Peak Flow:</strong> An optional field to document the peak flow in L/Min if system setting "Peak Flow Observation Name" is configured for the system, which gives the ability to document a peak flow value associated with an injection.
+* <strong>Next Due:</strong> You can enter a date of when the next injection is due if you wish (ex: if it's a series, etc). {{% system-name %}} has the ability to have overdue injections pop up from One-Click Checkin when in the Scheduler to check someone in also.
 
 Click the ADD INJECTIONS button at the bottom to enter these injections from the vials into the chart's record. It will then place these injections into the Injection List of records for the patient.
 
@@ -155,13 +153,13 @@ Checkmark the vial(s) you wish to administer an injection for and then the Injec
 
 ![](./injection-tab-vials.assets/2efd21dc0e67277cb952f8746d8f07f3.png)
 
-Document the administered injection and save your work. Make sure to mark the applied Allergy Injection test/procedure as _completed_.
+Document the administered injection and save your work. Make sure to mark the applied Allergy Injection test/procedure as *completed*.
 
 ![](./injection-tab-vials.assets/2942db4f563dd1217ac0de5b17ae9452.png)
 
 ## Vial Flowsheet
 
-A Vials Flowsheet can be displayed within the MAR/Injections stand alone chart tab. This is configured by enabling a system setting "Vial Use Flow Layout" for the system.
+A Vials Flowsheet can be displayed within the MAR/Injections stand alone chart tab.  This is configured by enabling a system setting "Vial Use Flow Layout" for the system.
 
 ![](./injection-tab-vials.assets/bef965e4d3bf6223ee077b872d7a9043.png)
 
@@ -173,7 +171,7 @@ Injections administered from Vials are also displayed on the Summary chart tab d
 
 ## Print Allergy Injection Flowsheet
 
-The history of allergy injections can be printed using the Print Chart print definition _Allergy Injections._
+The history of allergy injections can be printed using the Print Chart print definition *Allergy Injections.*
 
 ![](./injection-tab-vials.assets/bb9af62c9b91b1b22a10542a38d28a99.png)
 
@@ -239,15 +237,15 @@ This is just a quick way to enter another vial without having to re-enter data/i
 
 ![](./injection-tab-vials.assets/807a489b58a4011f28c12ea8eaaefb66.png)
 
-- <strong>Auto-Expire Previous:</strong>  This is check-marked by default.  When you copy a vial, most likely it is because you are tossing the old vial out.  So the original vial you copied gets expired as of the current date if this is check-marked to automatically-expire the previous (previous means original vial you are creating the copy from).  The original vial then won't show up on the current list because you automatically-expired it. It will then refresh & bring you back to the main Injections summary screen. You will see the new entered vial you created as a copy from a previous vial.
+* <strong>Auto-Expire Previous:</strong>  This is check-marked by default.  When you copy a vial, most likely it is because you are tossing the old vial out.  So the original vial you copied gets expired as of the current date if this is check-marked to automatically-expire the previous (previous means original vial you are creating the copy from).  The original vial then won't show up on the current list because you automatically-expired it. It will then refresh & bring you back to the main Injections summary screen. You will see the new entered vial you created as a copy from a previous vial.
 
 ## Scan a Vial Sheet
 
-Some practices want to scan in the allergy vial sheet that comes packaged with the vial (from the allergist). That is typically the paper sheet that the nurse handwrites the date given, the dose, any reaction, etc. That sheet then goes back with the vial for additional documentation for the allergist.
+Some practices want to scan in the allergy vial sheet that comes packaged with the vial (from the allergist).  That is typically the paper sheet that the nurse handwrites the date given, the dose, any reaction, etc. That sheet then goes back with the vial for additional documentation for the allergist.
 
 Your system can be set up to have a Scan link in the options column for scanning in that vial sheet and store it as a document in the patient's chart.
 
-The system setting "Vial Doctype" can be configured to use the doc.type VIAL which then allows the Scan ability from the Vials section. Also, make sure in the document types editor, that doc.type VIAL is checkmarked to allow E-Chart Scan. This is so that when using Scan method on a vial, it will store as the correct VIAL doc.type and nothing else.
+The system setting "Vial Doctype" can be configured to use the doc.type VIAL which then allows the Scan ability from the Vials section.  Also, make sure in the document types editor, that doc.type VIAL is checkmarked to allow E-Chart Scan.  This is so that when using Scan method on a vial, it will store as the correct VIAL doc.type and nothing else.
 
 ![](./injection-tab-vials.assets/ece79482eadd000b0cb705c60d98dbca.png)
 
@@ -257,7 +255,7 @@ Using a flatbed scanner to scan a Vial sheet, simply click the Scan link in the 
 
 ![](./injection-tab-vials.assets/cd1920dd39f07aeb46ff9c10321029d1.png)
 
-The document scan control will appear on the screen.  Proceed to scan in (or file upload an existing electronic file) of the vial sheet and upload. See other help instructions titled [E-Chart Scan Documents](../document-management/documents-and-forms/e-chart-scan-documents.md) for help with Document Scan Control and scanning.
+The document scan control will appear on the screen.  Proceed to scan in (or file upload an existing electronic file) of the vial sheet and upload.  See other help instructions titled [E-Chart Scan Documents](../document-management/documents-and-forms/e-chart-scan-documents.md) for help with Document Scan Control and scanning.
 
 ![](./injection-tab-vials.assets/18ab25d6374cf210c44cf913273a9ec6.png)
 
@@ -265,5 +263,5 @@ The document scan control will appear on the screen.  Proceed to scan in (or fi
 
 To learn more about the Injection Tab - Vials, follow the links below to the Learning Management System courses:
 
-- [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
-- [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)
+* [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
+* [Injection/Immunization Management](https://mie.talentlms.com/shared/start/key:LSEIDNHR)

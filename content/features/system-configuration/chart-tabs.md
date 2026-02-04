@@ -1,17 +1,16 @@
 ---
-id: "1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
-title: "Chart Tabs"
-date: "2025-11-11T16:27:44.242Z"
+id: '1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
+title: 'Chart Tabs'
+date: '2025-11-11T16:27:44.242Z'
 version: 302
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:LBOIDNHR"
-  - "https://mie.talentlms.com/shared/start/key:ZELDNHRK"
-source: "https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:LBOIDNHR'
+  - 'https://mie.talentlms.com/shared/start/key:ZELDNHRK'
+source: 'https://drive.google.com/open?id=1152N8SuEFh-XXf0Rev0oGdD4ErLhyvoG5eFGYhcOtOk'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% system-name %}} uses what are known as **chart tabs** within each chart. These are similar to chart dividers, or chart tabs, found within paper charts. They are simply an easy means to organize and track all of the documentation within a chart. Users interested in configuring or maintaining chart tabs throughout the system will need the appropriate security permissions and may access the Chart Tabs editor from the Control Panel to update and maintain, as necessary.
 
 ## Summary
@@ -24,20 +23,20 @@ Users can click on any underlined column to sort the listing alphabetically, or 
 
 Available columns include:
 
-- <strong>Tab Name</strong>: This is the name of the chart tab. This is how it appears in each patient's chart.
-- <strong>Target</strong>: This is usually blank which means this tab won't open in a new window on your computer screen. If this chart tab is set to open in a new window on your screen, it will say as such.
-- <strong>Default View</strong>: This is the view (e.g., detailed, dashboard, thumb-view, etc.) to which the chart tab in context defaults.
-- <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab.
-- <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
+* <strong>Tab Name</strong>: This is the name of the chart tab. This is how it appears in each patient's chart.
+* <strong>Target</strong>: This is usually blank which means this tab won't open in a new window on your computer screen. If this chart tab is set to open in a new window on your screen, it will say as such.
+* <strong>Default View</strong>: This is the view (e.g., detailed, dashboard, thumb-view, etc.) to which the chart tab in context defaults.
+* <strong>Def Doc Type</strong>: Lists the document default type(s) (if any) for the chart tab in context. If a Default Document Type is designated for this chart tab, only that document type will be displayed as the primary Default Document Add Type when the Add Document link is clicked from within the chart. Leave this field blank if a default document add type is not needed for the chart tab.
+* <strong>Description</strong>: If documented, this is the purpose of each chart tab. The first 60 characters of the description display here. If the description exceeds 60 characters, the entirety of the description will be displayed in a help bubble following the truncated version
 
 ![](./chart-tabs.assets/193fc6b0cba871d52faf3667dc6f844d.png)
 
-- <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context.
-- <strong>S</strong><strong>ub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column.
-- <strong>Force Display</strong>: Shows `yes` or `no`. This indicates whether or not the chart tab in context is forced to display. If a tab is forced (i.e., `yes`), the tab will appear in all charts, regardless of whether or not documents reside in that tab.
-- <strong>Pocket Tab</strong>: This will be `yes` if the chart tab in context is to be displayed in the  {{% system-name %}} Pocket version (i.e., used on smart devices).
-- <strong>Tab Order</strong>: Shows the numerical order set to the chart tab in context. Chart tabs are ordered numerically, left to right, at the top of the chart.
-- <strong>Options</strong>: `Edit` and/or `Delete` links will be available for editing and deleting chart tabs, as needed. If a chart tab is restricted, users with the appropriate security permissions to view restricted charts will also have a `Restrictions` link available here.
+* <strong>Document Type(s)</strong>: Lists all of the Document Types that are mapped to and appear on the chart tab in context.
+* <strong>S</strong><strong>ub Tab Of</strong>: Lists the parent tab of the chart tab in context. In other words, if the chart tab in context is found within another menu or tab, that menu/tab, or parent, will be displayed in this column.
+* <strong>Force Display</strong>: Shows `yes` or `no`. This indicates whether or not the chart tab in context is forced to display. If a tab is forced (i.e., `yes`), the tab will appear in all charts, regardless of whether or not documents reside in that tab.
+* <strong>Pocket Tab</strong>: This will be `yes` if the chart tab in context is to be displayed in the  {{% system-name %}} Pocket version (i.e., used on smart devices).
+* <strong>Tab Order</strong>: Shows the numerical order set to the chart tab in context. Chart tabs are ordered numerically, left to right, at the top of the chart.
+* <strong>Options</strong>: `Edit` and/or `Delete` links will be available for editing and deleting chart tabs, as needed. If a chart tab is restricted, users with the appropriate security permissions to view restricted charts will also have a `Restrictions` link available here.
 
 ### Search Engine (At Top of Screen)
 
@@ -65,64 +64,64 @@ After you click Add Tab, the Chart Tab Basic Editor Information screen will appe
 
 ![](./chart-tabs.assets/01b221270989e99ac4e7a4d1a40f53ed.png)
 
-- <strong>Tab Name</strong>: Type in the name of the tab you want to add. This will appear as a tab in e-chart for patients.
-- <strong>Description</strong>: Optional field to type in the purpose of this chart tab. This only displays here and in the Chart Tab summary screen of Control.
-- <strong>Open in a new window?</strong>: If you want the chart tab to display in the new opened window or your screen each time, click Yes for this. Otherwise, most keep as No so the chart tab stays on the screen view instead of in a separate window.
-- <strong>Default View</strong>: Choose type of view this chart tab will appear as. The default view of a chart tab determines the basic functionality of that tab. To see a brief description of a particular default view, choose that default view in the select box, then click the question mark to the right of select box. Example: some are set to Documents-Thumb view (would show the scanned image while viewing all the documents in that chart tab). If you just wanted a text/list view, then choose Documents-List view. Documents-Detail view opens the document on the screen in a summary fashion. Documents-Thumb view shows the document image on the left for that tab and then the list view in the middle of the screen. Use the help icon to view what each Default View choice describes and shows. Your MIE Implementer loads other chart tabs like vitals, flowsheets, Rx lists, and other programs specific to your company.
+* <strong>Tab Name</strong>: Type in the name of the tab you want to add. This will appear as a tab in e-chart for patients.
+* <strong>Description</strong>: Optional field to type in the purpose of this chart tab. This only displays here and in the Chart Tab summary screen of Control.
+* <strong>Open in a new window?</strong>: If you want the chart tab to display in the new opened window or your screen each time, click Yes for this. Otherwise, most keep as No so the chart tab stays on the screen view instead of in a separate window.
+* <strong>Default View</strong>: Choose type of view this chart tab will appear as. The default view of a chart tab determines the basic functionality of that tab. To see a brief description of a particular default view, choose that default view in the select box, then click the question mark to the right of select box. Example: some are set to Documents-Thumb view (would show the scanned image while viewing all the documents in that chart tab). If you just wanted a text/list view, then choose Documents-List view. Documents-Detail view opens the document on the screen in a summary fashion. Documents-Thumb view shows the document image on the left for that tab and then the list view in the middle of the screen. Use the help icon to view what each Default View choice describes and shows. Your MIE Implementer loads other chart tabs like vitals, flowsheets, Rx lists, and other programs specific to your company.
 
 {{% note %}}
 
 Certain default views will allow you to tag document types to them. Default views that allow document types to be tagged to them, but are not required:
 
-- Demographics View
-- Encounter View
-- Injections List
-- Lab Results
-- Mammogram Tracking
-- Medications/Allergies
-- Orders View
+* Demographics View
+* Encounter View
+* Injections List
+* Lab Results
+* Mammogram Tracking
+* Medications/Allergies
+* Orders View
 
 Default views that require at least one document type to be tagged:
 
-- Documents Detail  View
-- Documents Detail List View
-- Documents List View
-- Documents Thumbnail View
+* Documents Detail  View
+* Documents Detail List View
+* Documents List View
+* Documents Thumbnail View
 
 Default views that forbid/don't allow document types to be tagged to them:
 
-- Appointments View
-- Conditions List
-- Dashboard View
-- DICOM view
-- Dictation List
-- Flowsheet (Observation List)
-- Inventory View
-- Sub Tab View
-- Insurance List
+* Appointments View
+* Conditions List
+* Dashboard View
+* DICOM view
+* Dictation List
+* Flowsheet (Observation List)
+* Inventory View
+* Sub Tab View
+* Insurance List
 
 If you select any default view that allows you to tag document types to it, you will then see a Document Types section to complete.
 
 {{% /note %}}
 
-- <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
+* <strong>Inclusive</strong>: Begin typing the names of the document(s) you want included in this Chart Tab. It will auto-complete to give you choices. Click the ADD button to add it and type in another document to add to the chart tab. You can have as many documents added to a chart tab as you want. You can hit your down arrow ↓ key on your keyboard in this field to show the entire listing of document types in your system alphabetically and use the scroll to select and ADD individually that way with your mouse instead of the auto-complete. Or do a reverse document type add to a chart tab instead by selecting Exclusive.
 
 ![](./chart-tabs.assets/36f3a80b48c600d74279d02b63498e10.png)
 
 ![](./chart-tabs.assets/a09957f4b10305be035e29b31674009f.png)
 
-- <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
-- <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
-- <strong>Tab Order</strong>: Demo (demographics tab) is always zero (0).  Then when adding a chart-tab, use the drop-down to choose the order you wish the chart tab to appear in e-chart for patient's.  Usually skip 5 and put the next type in. That way, if you wish later to add a chart-tab and want it to show up as the 3rd tab, then you can go in easily and create it and mark it 3rd, since there are 5 in between each chart-tab.
-- <strong>Background Color</strong>:  Choose the background color for the chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to grey.
-- <strong>Font Color</strong>:  Choose the color of font you wish to have on that chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to black.
-- <strong>Restrict Access</strong>: Check this box if you want this tab to be restricted to certain users and/or departments.To specify permitted users and/or departments for a restricted tab, an administrator with the right privilege level must click the restrictions link in the options column of the specific chart tab listing. The restrictions link is where you view, add, edit the allowed users and/or departments for the chart tab. This link will appear only for users who are permitted to make these changes.  You cannot un-restrict (un-checkmark) this box if you do not have security permission. Anyone can set a chart tab to be restricted, but you must have security permission to un-restrict. If you have security permission to be able to manage chart tab restrictions, if you click this box to RESTRICT ACCESS while setting up a chart tab, the ‘restrictions' section will open up on your screen so you can set the allowed users/departments right then while setting up the chart tab. Editing restrictions is also available from the restrictions link found when looking at the list of chart tabs for the system from Chart Tab.
-- <strong>Show Tab in Pocket</strong>:  Check this box if you want this chart tab to be shown on the pocket version of {{% system-name %}} which is accessible via smart devices such as a Blackberry or an iPhone.
-- <strong>Show Link Header</strong>: This allows each chart tab the option to have the header links display or not. Check this box if you want this chart tab to show the header links when viewing in the chart tab.
-- <strong>Chart Type</strong>: If this chart tab should only appear in specific Chart Types (your system needs configured for Chart Types), then you can set this chart tab to be a part of a specific chart type easily from here. This tab then would only appear in those specific chart types if this is set.
-- <strong>Default Document Add Type</strong>: This is usually None. However, this is the document type that will be used when a user clicks ‘add document' when in that specific chart tab. You can scroll your mouse over ‘add document' on any tab and a box will pop-up telling you what the default doc.type is for that tab.  If you designate a Default Document Add Type for this chart tab, only that document type will be displayed as the primary default document add type when the add document link is clicked on this chart tab.  Leave this field blank if you do not want to designate a default document add type for the tab.
-- <strong>HAP System</strong>: This is used by MIE only.
-- <strong>Force Display</strong>: If you select YES, it puts this chart-tab you are creating on all patients e-chart even if they do not have any of these types of documents.  <strong>If not check-marked, this chart-tab you created will only show up o</strong>n patient's e-charts if they have documents attached to the<strong>m</strong>. Always force Demo and DocSum, and any others you wish to always show up on e-chart for a patient. If there is a document attached to the chart-tab, it would say : example  Labs (2). If it were forced and there were no documents, it would show : Labs as a tab and nothing next to it. If select No, it will only show this chart tab for a patient if they have any indexed documents for this particular chart tab.  Hidden, Conditional Show, & Conditionally Force are set up by MIE.  These chart tabs can be hidden and incorporate multiple (sub-tabs) tabs into one main tab.  Conditional Show & Force are set up by MIE and these chart tabs can be programmed to conditionally show or be forced to show on specific request.
+* <strong>Exclusive</strong>: This chart-tab will include every document type in your system, except for the ones you type in using the auto-complete. Click the ADD button to add any document types to exclude from this chart tab. Only the document(s) you don't want included in the chart tab should be added here if you choose exclusive.
+* <strong>Inactive</strong>: This is a list of document types that a super-user has deemed inactive.  You can also click to add these documents to your chart-tab, but these are old and not being used as this ‘doc type name' any longer.  These appear in italics and when choosing them from the auto-complete they say (INACTIVE) next to them.
+* <strong>Tab Order</strong>: Demo (demographics tab) is always zero (0).  Then when adding a chart-tab, use the drop-down to choose the order you wish the chart tab to appear in e-chart for patient's.  Usually skip 5 and put the next type in. That way, if you wish later to add a chart-tab and want it to show up as the 3rd tab, then you can go in easily and create it and mark it 3rd, since there are 5 in between each chart-tab.
+* <strong>Background Color</strong>:  Choose the background color for the chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to grey.
+* <strong>Font Color</strong>:  Choose the color of font you wish to have on that chart tab.  Use the edit color link to open a selection of colors to click on.  Default is set to black.
+* <strong>Restrict Access</strong>: Check this box if you want this tab to be restricted to certain users and/or departments.To specify permitted users and/or departments for a restricted tab, an administrator with the right privilege level must click the restrictions link in the options column of the specific chart tab listing. The restrictions link is where you view, add, edit the allowed users and/or departments for the chart tab. This link will appear only for users who are permitted to make these changes.  You cannot un-restrict (un-checkmark) this box if you do not have security permission. Anyone can set a chart tab to be restricted, but you must have security permission to un-restrict. If you have security permission to be able to manage chart tab restrictions, if you click this box to RESTRICT ACCESS while setting up a chart tab, the ‘restrictions' section will open up on your screen so you can set the allowed users/departments right then while setting up the chart tab. Editing restrictions is also available from the restrictions link found when looking at the list of chart tabs for the system from Chart Tab.
+* <strong>Show Tab in Pocket</strong>:  Check this box if you want this chart tab to be shown on the pocket version of {{% system-name %}} which is accessible via smart devices such as a Blackberry or an iPhone.
+* <strong>Show Link Header</strong>: This allows each chart tab the option to have the header links display or not. Check this box if you want this chart tab to show the header links when viewing in the chart tab.
+* <strong>Chart Type</strong>: If this chart tab should only appear in specific Chart Types (your system needs configured for Chart Types), then you can set this chart tab to be a part of a specific chart type easily from here. This tab then would only appear in those specific chart types if this is set.
+* <strong>Default Document Add Type</strong>: This is usually None. However, this is the document type that will be used when a user clicks ‘add document' when in that specific chart tab. You can scroll your mouse over ‘add document' on any tab and a box will pop-up telling you what the default doc.type is for that tab.  If you designate a Default Document Add Type for this chart tab, only that document type will be displayed as the primary default document add type when the add document link is clicked on this chart tab.  Leave this field blank if you do not want to designate a default document add type for the tab.
+* <strong>HAP System</strong>: This is used by MIE only.
+* <strong>Force Display</strong>: If you select YES, it puts this chart-tab you are creating on all patients e-chart even if they do not have any of these types of documents.  <strong>If not check-marked, this chart-tab you created will only show up o</strong>n patient's e-charts if they have documents attached to the<strong>m</strong>. Always force Demo and DocSum, and any others you wish to always show up on e-chart for a patient. If there is a document attached to the chart-tab, it would say : example  Labs (2). If it were forced and there were no documents, it would show : Labs as a tab and nothing next to it. If select No, it will only show this chart tab for a patient if they have any indexed documents for this particular chart tab.  Hidden, Conditional Show, & Conditionally Force are set up by MIE.  These chart tabs can be hidden and incorporate multiple (sub-tabs) tabs into one main tab.  Conditional Show & Force are set up by MIE and these chart tabs can be programmed to conditionally show or be forced to show on specific request.
 
 If you need to see a list of documents that haven't been tagged to a chart tab yet in your system, scroll up to the top and click the link Click here to see your unused document types in another window.  If you click that link provided, it will open a separate window on your computer screen.
 
@@ -224,5 +223,5 @@ Any user or department who is removed from the allowed list using the [ - ] butt
 
 To learn more about Chart Tabs, follow the links below to the Learning Management System courses:
 
-- [Chart Tab](https://mie.talentlms.com/shared/start/key:LBOIDNHR)
-- [Chart Tabs / Chart Types](https://mie.talentlms.com/shared/start/key:ZELDNHRK)
+* [Chart Tab](https://mie.talentlms.com/shared/start/key:LBOIDNHR)
+* [Chart Tabs / Chart Types](https://mie.talentlms.com/shared/start/key:ZELDNHRK)

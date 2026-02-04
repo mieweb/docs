@@ -1,15 +1,14 @@
 ---
-id: "1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8"
-title: "Apt Invite Reminder"
-date: "2025-11-13T19:46:24.171Z"
+id: '1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
+title: 'Apt Invite Reminder'
+date: '2025-11-13T19:46:24.171Z'
 version: 28
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1GTx8ptizmxT6b9JBUtbNeTgDJiZ0-iGpK-rXUHcb4H8'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Notification to Schedule Follow-up Appointment
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Notice to Schedule Health Surveillance Appointment
 

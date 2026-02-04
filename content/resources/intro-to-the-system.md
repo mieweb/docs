@@ -1,17 +1,16 @@
 ---
-id: "1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
-title: "Intro to the System"
-date: "2025-11-14T14:59:14.146Z"
-version: 120
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
+title: 'Intro to the System'
+date: '2025-11-14T14:59:14.146Z'
+version: 121
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "intro-to-the-system/system-anatomy.md"
-  - "../functions/encounters/working-in-a-visit-encounter.md"
-source: "https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc"
-wikigdrive: "v2.15.30"
+  - 'intro-to-the-system/system-anatomy.md'
+  - '../features/encounters/working-in-a-visit-encounter.md'
+source: 'https://drive.google.com/open?id=1Vc5v5ZTDWFGd78CePPf8Vy00wHYZBSQO7ku55dIF4Dc'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page addresses the basic navigation and functionality of {{% system-name %}} . If you're a current user, you'll notice some things might look a little different. We've improved the user experience — making {{% system-name %}} even more intuitive and efficient.
 
 ## User Interface
@@ -20,15 +19,15 @@ The linked text on the left side of the system features a number of tabs that li
 
 Starting on the left:
 
-- The Menu button displays or hides the left side menu.
-- The Home button brings you back to this page from any page in {{% system-name %}} while the default is the Quick View page, a user can specify their home page.
-- The Doc Queue indicates open designated lists for tasks, documents, and other information assigned to a user or department.
+* The Menu button displays or hides the left side menu.
+* The Home button brings you back to this page from any page in {{% system-name %}} while the default is the Quick View page, a user can specify their home page.
+* The Doc Queue indicates open designated lists for tasks, documents, and other information assigned to a user or department.
 
 To the right:
 
-- The signed-in user and their role is displayed.
-- The link icon indicates whether or not the signed in user is connected to the database. This area also displays messages to notify a user if another user is working in a document that is currently open.
-- The question mark icon links to available help documentation — if help is available the icon is orange.
+* The signed-in user and their role is displayed.
+* The link icon indicates whether or not the signed in user is connected to the database. This area also displays messages to notify a user if another user is working in a document that is currently open.
+* The question mark icon links to available help documentation — if help is available the icon is orange.
 
 ### Quick View
 
@@ -42,12 +41,12 @@ Searching for a patient's chart still begins at the E-Chart tab. The overall loo
 
 E-chart navigation includes a number of toolbars, including:
 
-- The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower right corner.
-- The Patient Info toolbar displays the patient's name and medical record number.
-  - Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past encounters, notes and comments.
-- The Patient Extended Toolbar displays demographic, encounter, and other related information.
-- The Alerts toolbar displays available alert information — such as allergies or do not release requests.
-- The Encounter toolbar displays information and links to the open patient encounter.
+* The Tab toolbar, which navigates through the chart. The active tab is a solid color — some tabs have drop down navigation indicated by a mark in the lower right corner.
+* The Patient Info toolbar displays the patient's name and medical record number.
+    * Also available in the Patient Info toolbar is the side chart icon, which displays patient historical information such as medical records, past encounters, notes and comments.
+* The Patient Extended Toolbar displays demographic, encounter, and other related information.
+* The Alerts toolbar displays available alert information — such as allergies or do not release requests.
+* The Encounter toolbar displays information and links to the open patient encounter.
 
 ![](./intro-to-the-system.assets/05c23296ca3eebe1d915613fc84e72d8.png)
 
@@ -59,26 +58,26 @@ Note: Multiple users can open a dynamic encounter at the same time. A warning me
 
 The dynamic encounter is divided into a number of sections. Tabs that link to each section appear in the tab toolbar. These sections include:
 
-- Subjective
-- Objective
-- Assessment
-- Plan
-- Summary
+* Subjective
+* Objective
+* Assessment
+* Plan
+* Summary
 
 Click the section heading to open a section for editing. When the section is open for editing, the following buttons appear:
 
-- Next - Saves data entered into the current section and opens the next section.
-- Cancel - Closes the section. Any data entered is not saved.
-- Hide section - Removes the section from the encounter.
+* Next - Saves data entered into the current section and opens the next section.
+* Cancel - Closes the section. Any data entered is not saved.
+* Hide section - Removes the section from the encounter.
 
 When a section is open for editing, a Next button appears at the bottom. Click the next button to open the next available section for editing. Some sections have display options. The following options are available:
 
-- Summary view - Displays data in a bulleted list.
-- Detail view - Displays data in a table.
+* Summary view - Displays data in a bulleted list.
+* Detail view - Displays data in a table.
 
 ![](./intro-to-the-system.assets/148be2e24b401955d41219896663e3be.png)
 
 ## Related Pages
 
-- [System Anatomy](intro-to-the-system/system-anatomy.md)
-- [Dynamic Encounter](../functions/encounters/working-in-a-visit-encounter.md)
+* [System Anatomy](intro-to-the-system/system-anatomy.md)
+* [Dynamic Encounter](../features/encounters/working-in-a-visit-encounter.md)

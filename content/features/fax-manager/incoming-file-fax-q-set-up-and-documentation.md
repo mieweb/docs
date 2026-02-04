@@ -1,16 +1,16 @@
 ---
-id: "1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU"
-title: "Incoming File/Fax Q Set-Up and Documentation"
-date: "2024-07-08T14:30:40.109Z"
+id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
+title: 'Incoming File/Fax Q Set-Up and Documentation'
+date: '2024-07-08T14:30:40.109Z'
 version: 546
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:AOAHRKMF"
-source: "https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
+source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
+wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
-
 Incoming File/Fax Queue Set-Up and Documentation
 
 # File/Fax Queue Introduction
@@ -189,26 +189,26 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 3. If a user hovers over the summary information, a set of shortcut icons appear. The icons coincide with the grid options that display at the bottom of the File Queue. Here is what each icon does:
 
-   a. ![](./incoming-file-fax-q-set-up-and-documentation.assets/a94ce4a135b95c802fc3b2e43eedefff.png)
-   <strong>Edit</strong>: Edit the Category, Recipient number or subject
+    a.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/a94ce4a135b95c802fc3b2e43eedefff.png)
+        <strong>Edit</strong>: Edit the Category, Recipient number or subject
 
-   b. ![](./incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)
-   <strong>Send:</strong> Send to a different recipient/department
+    b.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)
+        <strong>Send:</strong> Send to a different recipient/department
 
-   c. ![](./incoming-file-fax-q-set-up-and-documentation.assets/f73d402b49dd47b35c81a8989ff97c9a.png)
-   <strong>Delete:</strong> Delete from the fax queue
+    c.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/f73d402b49dd47b35c81a8989ff97c9a.png)
+        <strong>Delete:</strong> Delete from the fax queue
 
-   d. ![](./incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)
-   <strong>Undelete:</strong> Undelete from the fax queue
+    d.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/eef6a1109115f60101f717d39704b7b1.png)
+        <strong>Undelete:</strong> Undelete from the fax queue
 
-   e. ![](./incoming-file-fax-q-set-up-and-documentation.assets/13db069b0778bb9e3054bd355a1381e0.png)
-   <strong>Task:</strong> Task the document to a department or user within the system
+    e.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/13db069b0778bb9e3054bd355a1381e0.png)
+        <strong>Task:</strong> Task the document to a department or user within the system
 
-   f. ![](./incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)
-   <strong>Create Batch:</strong> Create a batch
+    f.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)
+        <strong>Create Batch:</strong> Create a batch
 
-   g. ![](./incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)
-   <strong>Create & Index:</strong> Create a batch and immediately index the document(s)
+    g.  ![](./incoming-file-fax-q-set-up-and-documentation.assets/1de0d24436125e0bfd332bb1e1150685.png)
+        <strong>Create & Index:</strong> Create a batch and immediately index the document(s)
 
 ![](./incoming-file-fax-q-set-up-and-documentation.assets/72a82d7bf3debd74dc01a31f0d708601.png)
 
@@ -222,4 +222,4 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 To learn more about the Incoming File/Fax Q Set-Up and Documentation, follow the link below to the Learning Management System course:
 
-- [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)
+* [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)

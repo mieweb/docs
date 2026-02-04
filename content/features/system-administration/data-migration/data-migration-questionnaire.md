@@ -1,15 +1,14 @@
 ---
-id: "1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg"
-title: "Data Migration Questionnaire"
-date: "2025-11-24T18:59:33.988Z"
+id: '1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
+title: 'Data Migration Questionnaire'
+date: '2025-11-24T18:59:33.988Z'
 version: 72
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1IDuyacdPCdTfT5pYmQkyf1icZqYTFngDpJzykC1evvg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Abstract
 
 This document is intended for those requesting data migration (DM) into  {{% system-name %}}  ( {{% sys-name %}} ), and should be used for surveying any and all requirements for that purpose. Data migration is defined as the movement, or transference of data from one system to another. For example, the moving of data from a legacy application (i.e. Medgate, UL/OHM, etc.) or spreadsheet, to a solution such as {{% system-name %}} , is understood as data migration.
@@ -19,10 +18,10 @@ This document is intended for those requesting data migration (DM) into  {{% sy
 This section is intended to provide an overview of the current state of data, its storage, and potential restrictions.
 
 1. Where do you store legacy data that is being considered for data migration?
-   - List and describe the purpose of all legacy EMRs or commercial applications in use.
-   - List and describe the purpose of all custom applications storing data that may need migrated to {{% sys-name %}} .
-   - List and describe the purpose of all spreadsheets storing data intended for migration.
-   - Are there any data shares of files outside of the legacy applications or data sources that should be considered? For example, scanned images, results, opinion letters, and so on may be stored outside of an application but requested for migration.
+    * List and describe the purpose of all legacy EMRs or commercial applications in use.
+    * List and describe the purpose of all custom applications storing data that may need migrated to {{% sys-name %}} .
+    * List and describe the purpose of all spreadsheets storing data intended for migration.
+    * Are there any data shares of files outside of the legacy applications or data sources that should be considered? For example, scanned images, results, opinion letters, and so on may be stored outside of an application but requested for migration.
 2. For each of the legacy data sources, are the data or applications hosted locally or off-site? Specifically, do you perform your own data backups and extractions, or will a request need to be made from a third party that supports the application or data storage?
 3. If the legacy data above is in a database, what database version is used for each data application or source (e.g. Oracle 12c, MSSQL 13.0, MySQL 5.7.17, etc.)?
 4. How will the data be delivered? For example, previous clients have performed their own backup or data extraction, and via SFTP, the data is then uploaded to our secure data center or, if applicable, to standalone hardware provided by {{% sys-name %}} .
@@ -34,16 +33,16 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
 
 1. Identify key stakeholders in the data migration project and describe their role(s) in the project.
 2. Identify any relevant Subject Matter Experts (SMEs) and/or any key personnel and their titles/roles, if not already listed as a key stakeholder. Examples include:
-   - Medical Director
-   - Clinical SMEs
-   - Report Writers (for each data source)
-   - Interface Engineers (for each data source)
-   - Any other SMEs requiring engagement for non-clinical workflows or data migrations
+    * Medical Director
+    * Clinical SMEs
+    * Report Writers (for each data source)
+    * Interface Engineers (for each data source)
+    * Any other SMEs requiring engagement for non-clinical workflows or data migrations
 3. Please provide an organizational chart, if possible. This allows for a better understanding of the parties involved, while reducing planning time and determining resource availability.
 4. Identify the individuals responsible for data validation.
-   - Is there a user-acceptance process?
+    * Is there a user-acceptance process?
 5. Identify the SME for each data source, or the individual(s) best suited to address questions regarding the location and function of specific records or fields during the data migration.
-   - What is their availability for potential questions or concerns?
+    * What is their availability for potential questions or concerns?
 
 ## III. Client & Workflow-Specific Requirements
 
@@ -194,31 +193,31 @@ We'd like to know everyone that has a voice in this project. Everyone with decis
 
 2. To ensure a full scope of the project is at hand, are there any additional migrations needing considered?
 3. Some followup questions regarding the above items:
-   - If you track cases, such as injuries, illnesses, or visits, and discrete data is intended to be moved, is there an established method for differentiating open and closed cases? For example, some workflows dictate that data is not entered into the system until a resolution is determined; whereas some workflows will begin a case as soon as the employee walks into a clinic.
-   - If you track Health Surveillance (HS) membership and due dates, please list and briefly discuss the HS programs you track.
-   - If you track HS membership and due dates, what determines the next due date? For example, previous clients have chosen a medical anniversary date corresponding to the employee's date of birth, date of hire, Cost Center, or Organizational Unit. Most clients, however, use the last test date, and then schedule the next due date at the time of the last exam.
+    * If you track cases, such as injuries, illnesses, or visits, and discrete data is intended to be moved, is there an established method for differentiating open and closed cases? For example, some workflows dictate that data is not entered into the system until a resolution is determined; whereas some workflows will begin a case as soon as the employee walks into a clinic.
+    * If you track Health Surveillance (HS) membership and due dates, please list and briefly discuss the HS programs you track.
+    * If you track HS membership and due dates, what determines the next due date? For example, previous clients have chosen a medical anniversary date corresponding to the employee's date of birth, date of hire, Cost Center, or Organizational Unit. Most clients, however, use the last test date, and then schedule the next due date at the time of the last exam.
 4. Is there a need to store sensitive data, and if so, are there any controls that need considered in its migration? Examples may be, but are not limited to: Employee Assistance Program (EAP) information, Fit For Duty evaluations, Psychological notes, or data related to highly placed executives/officials.
-   - With regard to sensitive information, is there a need for relationship mapping, or security rules, intended to limit access to specific data?
+    * With regard to sensitive information, is there a need for relationship mapping, or security rules, intended to limit access to specific data?
 5. Identify and describe any custom reports or tools used to extract data for workflows.
 6. What interfaces (electronic or manual) interact with your legacy data source(s)? Are they inbound, outbound, or bidirectional? Briefly describe each interface. If there are any forms or requirements associated with these interfaces, please include examples.
 7. Will there be a Human Resources (HR) interface? If so, will there be any demographic information that will be required beyond what comes over the HR interface? Please consider dependents, applicants, contractors, and other non-employees that may be seen in a clinic, but not included on the HR feed.
-   - If the answer is Yes above, please consider the following questions around your HR Interface:
-     - What is your source system and version number?
-     - Do you host your HR application?
-     - Will you be providing the periodic data extraction? Or will there be a 3rd party?
+    * If the answer is Yes above, please consider the following questions around your HR Interface:
+        * What is your source system and version number?
+        * Do you host your HR application?
+        * Will you be providing the periodic data extraction? Or will there be a 3rd party?
 8. Data Format: CSV
-   - Confirm delimiter (comma, tab, and vertical bar are most common). Choose something not present within any of the data fields for the HR data file.
-   - What population will be included in each file? Everyone or only people who have had demographic updates since the last extraction (deltas)?
-   - Frequency of the data file: daily, weekly, etc.
+    * Confirm delimiter (comma, tab, and vertical bar are most common). Choose something not present within any of the data fields for the HR data file.
+    * What population will be included in each file? Everyone or only people who have had demographic updates since the last extraction (deltas)?
+    * Frequency of the data file: daily, weekly, etc.
 9. Standard connectivity for HR interfaces include MIE hosting FTPS (preferred) or SFTP.
-   - What IP Address or Range(s) will be used to connect to MIE's interface server to deliver the data file?
+    * What IP Address or Range(s) will be used to connect to MIE's interface server to deliver the data file?
 10. Please discuss any items from the Workflow Considerations section of the informational document provided with this questionnaire.
-    - Confirm that the Employee ID passed as the first Medical Record number is 100% populated, never changes, and is never reused.
-    - Termination procedure
-    - Applicant procedure
+    * Confirm that the Employee ID passed as the first Medical Record number is 100% populated, never changes, and is never reused.
+    * Termination procedure
+    * Applicant procedure
 11. File name convention
-    - EG: <client handle>_<hr system>_<system type>\_YYYYMMDDHHMMSS.csv
-    - EG: eh_workday_dev_20170628095942.csv or eh_sap_prod_20170420000000.csv
+    * EG: <client handle>_<hr system>_<system type>_YYYYMMDDHHMMSS.csv
+    * EG: eh_workday_dev_20170628095942.csv or eh_sap_prod_20170420000000.csv
 12. Are there any workflows that may be unique to your situation? Or do you have special input screens to facilitate a workflow in your legacy data systems?
 13. Will different employee/patient populations need to be restricted from certain clinical personnel? For example, would you want to restrict clinicians to work only with employees and personnel by country, person type (i.e. employee, applicant, contractor, etc), or employer organization (e.g. company, subsidiary, contractor, agency, prime, etc)?
 

@@ -1,16 +1,15 @@
 ---
-id: "1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg"
-title: "Financials All Active Deals-Detail Report"
-date: "2025-11-11T19:31:58.290Z"
+id: '1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg'
+title: 'Financials All Active Deals-Detail Report'
+date: '2025-11-11T19:31:58.290Z'
 version: 33
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/"
-source: "https://drive.google.com/open?id=1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
+source: 'https://drive.google.com/open?id=1MIq3ZddHVlacBu26BdF9dv9hz29_ic_MijOAc08GMFg'
+wikigdrive: 'v2.15.30'
 ---
-
 The All Active Deals-Detail Report displays a detailed list of all order items used in Deals. Use the Datavis filters to filter by EO, Order Description, Order Code, Order Charge Code, Deal Charge Code, Deal Price, Standard Price, Price Difference, EncID or Layout name.
 
 **EO**: This column represents the Employer Organization in which this order item has been used.

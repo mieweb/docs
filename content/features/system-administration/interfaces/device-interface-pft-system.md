@@ -1,15 +1,14 @@
 ---
-id: "15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA"
-title: "Device Interface - PFT System"
-date: "2025-11-13T15:04:08.360Z"
+id: '15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
+title: 'Device Interface - PFT System'
+date: '2025-11-13T15:04:08.360Z'
 version: 270
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=15btk566skDwu1noTPXgMijYeYiXtYMKUYVBDC-UGfTA'
+wikigdrive: 'v2.15.30'
 ---
-
 The following is referring to a pulmonary OMI Sensormedics model number 922 system. Contact your MIE Implementer to see if your pulmonary system model can be interfaced or quoted
 
 ## Pulmonary Function Test
@@ -17,7 +16,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Open {{% system-name %}} .
 2. Pull up correct patient.
 3. Go to PFT Tool chart tab or add encounter for patient and make sure there is a PFT on the due list for your patient.
-   - If there is not, you will need to add the procedure.
+    * If there is not, you will need to add the procedure.
 
 ## Doing the PFT Calibration
 
@@ -39,9 +38,9 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 5. If you put your initials in and select ok you may see the error above. If so, select cancel to get past the error.
 6. You can also select "Cancel" on the Operator screen without putting in initials and proceed.
 7. Performing Calibration:
-   - Select the "Perform Cal/Leak Check" button.
-     ![](./device-interface-pft-system.assets/12f73aaf7f9de8bd835aeeeb6a9c0c2a.png)
-   - The following screen will appear
+    * Select the "Perform Cal/Leak Check" button. 
+        ![](./device-interface-pft-system.assets/12f73aaf7f9de8bd835aeeeb6a9c0c2a.png)
+    * The following screen will appear
 
 ![](./device-interface-pft-system.assets/692c63c94b60b1e590914d1f91362f59.png)
 
@@ -62,9 +61,9 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 
 ## Doing the PFT
 
-1. Choose Select/Add Client
-   ![](./device-interface-pft-system.assets/e48ffca15620882b12024a718cd014c5.png)
-   - Select correct patient and select use selected match
+1. Choose Select/Add Client 
+    ![](./device-interface-pft-system.assets/e48ffca15620882b12024a718cd014c5.png)
+    * Select correct patient and select use selected match
 
 ![](./device-interface-pft-system.assets/0a567ec25328740844f757d7560634fb.png)
 
@@ -75,33 +74,33 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 3. Select ok
 4. Select yes
 5. If this patient is not in the list select New Client
-   - Fill out correct information for current client
+    * Fill out correct information for current client
 
 ![](./device-interface-pft-system.assets/a6a4ec6a1806267e0caa6d910dd75bbc.png)
 
 6. Select ok
 7. Select yes
 8. Select Perform FVC test
-   - If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
-   - If you want to continue, select yes.
+    * If a calibration has not been done on the machine that day, it will pop up a box asking if you want to continue with the test or do a calibration. See instructions above.
+    * If you want to continue, select yes.
 9. Select Proceed with testing
 10. Check yes for any pre-test questions
 11. Select ok
 12. Make sure your PFT machine is set up correctly and do any patient teaching at this point.
 13. Select ok to start test
 14. Machine will make you wait 60 seconds before giving interpretation and between blows.
-    - Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-    - Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 15. Next select do another trial
 16. Select ok
 17. Wait 60 seconds for interpretation
-    - Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-    - Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 18. Next select do another trial
 19. Select ok
 20. Wait 60 seconds for interpretation
-    - Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
-    - Once marking select calculate curve
+    * Once machine is done it will read plateau achieved and you will need to mark sitting or standing and acceptable or reject.
+    * Once marking select calculate curve
 21. Select done
 22. Fill out post test Q & A.
 23. Select ok
@@ -111,8 +110,8 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 1. Choose the Copy File link at the top of the page in OMI
 2. Choose Create ERS/ATS PFTVALS.Txt All Curves
 3. Choose current date for selected date range
-   - Mark copy all dates
-   - Mark Selected client
+    * Mark copy all dates
+    * Mark Selected client
 4. Select show number
 5. Select Ok
 6. Add patients MR number to file when saving and select save
@@ -125,7 +124,7 @@ The following is referring to a pulmonary OMI Sensormedics model number 922 syst
 
 ![](./device-interface-pft-system.assets/f0d4fe4b0061964f7bac24e20217c771.png)
 
-If an existing order for a PFT does not exist, select the PFT order from the _In House Testing Pick List_ and add the procedure to the exam.
+If an existing order for a PFT does not exist, select the PFT order from the *In House Testing Pick List* and add the procedure to the exam.
 
 ![](./device-interface-pft-system.assets/471ef7b74b8a96cd3d927c05c28a978e.png)
 
@@ -145,9 +144,9 @@ If an existing order for a PFT does not exist, select the PFT order from the _In
 ![](./device-interface-pft-system.assets/d3606a75d388e86ec3dc28d3a821b693.png)
 
 8. Change the smartcard to point to the correct folder.
-   - Changing smartcard:
-   - Right click on filebox/data box
-   - Choose set smartcard folder
+    * Changing smartcard:
+    * Right click on filebox/data box
+    * Choose set smartcard folder
 
 ![](./device-interface-pft-system.assets/2b683f2a7d8ec60a6ff787c8fada7df3.png)
 
@@ -200,6 +199,6 @@ New entry and display in {{% sys-name %}} with system setting enabled: (Users ma
 
 When adding a PFT in-office procedure, there is a new option to not automatically populate the PFT Tool with the most recent maneuver. Example: a PFT was done 3 days ago and a new encounter is created/opened and an in-office procedure of PFT is selected to be done today, the PFT screen by default will pull the last maneuver & results/date. If this behavior is not wanted and the users prefer to always have a blank value, this can be done with an attribute to the new tag WCPFTTOOL "populate_last_maneuver". By default it is on (to pull the most recent maneuver) but can be modified with the help of the {{% sys-name %}} Support Team.
 
-Manual Entry: In the PFT manual entry screen, there is ability to enter an interpretation and mark a maneuver as the best maneuver. Views of the interpretation of a maneuver in the list of all maneuvers will show the first 25 characters and the rest is available when hovering over it. _Note: contact your MIE Implementer if you wish the PFT Interpretation field to populate an encounter "view". This is an optional setting that can be placed on encounter views to show PFT Interpretation._
+Manual Entry: In the PFT manual entry screen, there is ability to enter an interpretation and mark a maneuver as the best maneuver. Views of the interpretation of a maneuver in the list of all maneuvers will show the first 25 characters and the rest is available when hovering over it. *Note: contact your MIE Implementer if you wish the PFT Interpretation field to populate an encounter "view". This is an optional setting that can be placed on encounter views to show PFT Interpretation.*
 
 ![](./device-interface-pft-system.assets/24613d4e362c92556f3cf852287d69d0.png)

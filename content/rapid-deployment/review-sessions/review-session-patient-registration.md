@@ -1,39 +1,38 @@
 ---
-id: "1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
-title: "Review Session - Patient Registration"
-date: "2024-12-18T14:21:50.961Z"
+id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
+title: 'Review Session - Patient Registration'
+date: '2024-12-18T14:21:50.961Z'
 version: 49
-lastAuthor: "bhamm"
-mimeType: "text/x-markdown"
+lastAuthor: 'bhamm'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.google.com/url?q=https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface"
-  - "https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration"
-  - "https://system/?f=admin&s=partmanager&tabmodule=admin&tabselect=Partition+Mgr"
-  - "../../functions/patient-registration/patient-registration-tab-manual-patient-entry.md"
-  - "../../functions/e-chart/editing-demographics.md"
-  - "../../functions/e-chart/demographics-tab-summary.md"
-  - "../../functions/document-management/documents-and-forms/picture-photo-documents.md"
-  - "../../functions/system-administration/system-controls/partition-manager.md"
-  - "../../functions/e-chart/insurance-summary-in-demographics-tab.md"
-  - "../../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md"
-  - "../../functions/patient-registration/medical-record-numbers.md"
-  - "../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md"
-source: "https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0"
-wikigdrive: "v2.15.30"
+  - 'https://www.google.com/url?q=https://miewiki.med-web.com/wiki/index.php/Enterprise_Health_Human_Resources_Interface'
+  - 'https://system/?f=layout&module=MASTER&name=CommonRegistrationPage&chart_type_value=Patient&relation_type_value=Employee&use_pat_id=-1&tabmodule=patsearch&tabmodule=patsearch&tabselect=Patient+Registration'
+  - 'https://system/?f=admin&s=partmanager&tabmodule=admin&tabselect=Partition+Mgr'
+  - '../../features/patient-registration/patient-registration-tab-manual-patient-entry.md'
+  - '../../features/e-chart/editing-demographics.md'
+  - '../../features/e-chart/demographics-tab-summary.md'
+  - '../../features/document-management/documents-and-forms/picture-photo-documents.md'
+  - '../../features/system-administration/system-controls/partition-manager.md'
+  - '../../features/e-chart/insurance-summary-in-demographics-tab.md'
+  - '../../features/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md'
+  - '../../features/patient-registration/medical-record-numbers.md'
+  - '../../features/system-administration/system-controls/merging-accounts-charts-in-system.md'
+source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Agenda
 
-- <strong>Patient Registration Demonstration</strong>
-- <strong>E-Chart Overview</strong>
-- <strong>E-Chart</strong>
-  - <strong>Patient Registration (Manual)</strong>
-    - <strong>Demographics</strong>
-    - <strong>E-Chart Photos</strong>
-  - <strong>Relationships/User Roles</strong>
-- <strong>System Configuration</strong>
-  - <strong>Partitions and Partition Restrictions</strong>
-- <strong>Resources</strong>
+* <strong>Patient Registration Demonstration</strong>
+* <strong>E-Chart Overview</strong>
+* <strong>E-Chart</strong>
+    * <strong>Patient Registration (Manual)</strong>
+        * <strong>Demographics</strong>
+        * <strong>E-Chart Photos</strong>
+    * <strong>Relationships/User Roles</strong>
+* <strong>System Configuration</strong>
+    * <strong>Partitions and Partition Restrictions</strong>
+* <strong>Resources</strong>
 
 ## Overview
 
@@ -55,10 +54,10 @@ As noted, a standard chart is typically created through an established HR interf
 
 Begin by entering some of the individual's information:
 
-- Last Name (required)
-- First Name (required)
-- Date of Birth (required)
-- SSN (optional)
+* Last Name (required)
+* First Name (required)
+* Date of Birth (required)
+* SSN (optional)
 
 Clicking the **Search** button searches existing charts for any matching records, avoiding the creation of potential duplicate charts. If any of the entered fields match existing information, a match rating will be assigned, and potential matches will display on-screen. Whenever registering new charts, it is important to verify a duplicate chart is not being created.
 
@@ -102,12 +101,12 @@ The [Partition Manager](https://system/?f=admin&s=partmanager&tabmodule=admin&ta
 
 ### Help Documentation
 
-- [Patient Registration Tab - Manual Patient Entry](../../functions/patient-registration/patient-registration-tab-manual-patient-entry.md)
-- [Editing Patient Demographics](../../functions/e-chart/editing-demographics.md)
-- [Demographics Tab Summary](../../functions/e-chart/demographics-tab-summary.md)
-- [Picture-Photo Documents](../../functions/document-management/documents-and-forms/picture-photo-documents.md)
-- [Partition Manager](../../functions/system-administration/system-controls/partition-manager.md)
-- [Insurance Summary-Demographics Tab](../../functions/e-chart/insurance-summary-in-demographics-tab.md)
-- [Medical Contacts-Relationships and User-Patient Relationships](../../functions/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
-- [Medical Record Numbers](../../functions/patient-registration/medical-record-numbers.md)
-- [Merging Charts in System](../../functions/system-administration/system-controls/merging-accounts-charts-in-system.md)
+* [Patient Registration Tab - Manual Patient Entry](../../features/patient-registration/patient-registration-tab-manual-patient-entry.md)
+* [Editing Patient Demographics](../../features/e-chart/editing-demographics.md)
+* [Demographics Tab Summary](../../features/e-chart/demographics-tab-summary.md)
+* [Picture-Photo Documents](../../features/document-management/documents-and-forms/picture-photo-documents.md)
+* [Partition Manager](../../features/system-administration/system-controls/partition-manager.md)
+* [Insurance Summary-Demographics Tab](../../features/e-chart/insurance-summary-in-demographics-tab.md)
+* [Medical Contacts-Relationships and User-Patient Relationships](../../features/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
+* [Medical Record Numbers](../../features/patient-registration/medical-record-numbers.md)
+* [Merging Charts in System](../../features/system-administration/system-controls/merging-accounts-charts-in-system.md)

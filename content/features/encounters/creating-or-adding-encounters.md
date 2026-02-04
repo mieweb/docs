@@ -1,23 +1,22 @@
 ---
-id: "1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY"
-title: "Creating or Adding Encounters"
-date: "2020-03-13T15:01:30.440Z"
+id: '1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
+title: 'Creating or Adding Encounters'
+date: '2020-03-13T15:01:30.440Z'
 version: 117
-lastAuthor: ""
-mimeType: "text/x-markdown"
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links:
-  - "encounter-summary-toolbar.md"
-  - "working-in-a-visit-encounter.md"
-  - "archiving-closing-re-archiving-encounters.md"
-source: "https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY"
-wikigdrive: "v2.15.30"
+  - 'encounter-summary-toolbar.md'
+  - 'working-in-a-visit-encounter.md'
+  - 'archiving-closing-re-archiving-encounters.md'
+source: 'https://drive.google.com/open?id=1NUHcLxI6hYr5WaTyXHkQMxpA8UGjp2QsDnCnY5XgDvY'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Creating or Adding Encounters
 
 Encounters are defined as any interaction between a patient and healthcare provider encompassing anything from a phone call to a full physical. Typically, the nurse adds these encounters and enters any documentation into the encounter as necessary (depending on the workflow of the practice and user security roles). Physicians then usually review, document and sign the encounter as described in the steps below.
 
-The encounter can be created several different ways, depending on the workflow of the practice. Users can easily add (create) a new encounter for a patient in the patient's electronic chart from the _Summary_ tab, by using the Quick Links portlet, by navigating to *Encounters* of the Medical Record chart tab, or else from the scheduler, or even from the Esign module.
+The encounter can be created several different ways, depending on the workflow of the practice. Users can easily add (create) a new encounter for a patient in the patient's electronic chart from the *Summary* tab, by using the Quick Links portlet, by navigating to *Encounters* of the Medical Record chart tab, or else from the scheduler, or even from the Esign module.
 
 ### Creating/Adding Encounters from the Quick Links Portlet
 
@@ -49,7 +48,7 @@ From *Encounters* of the Medical Records chart tab, users may click the **Add 
 
 ![](./creating-or-adding-encounters.assets/e5bdff1766b659645648097bcccf93c4.png)
 
-Using this method _will not_ automatically populate the encounter info, meaning the user will be taken to the Add Encounter screen, where the encounter details will need to be entered _manually_, prior to creating the encounter.
+Using this method *will not* automatically populate the encounter info, meaning the user will be taken to the Add Encounter screen, where the encounter details will need to be entered *manually*, prior to creating the encounter.
 
 ![](./creating-or-adding-encounters.assets/0426d8d98c4ae6fd55d29ca5b58f8b4f.png)
 
@@ -59,7 +58,7 @@ Using this method _will not_ automatically populate the encounter info, meaning 
 
 **Visit Type:** Name or type of encounter/exam. Choose the appropriate Visit Type from the drop-down. If it is not available, it may be restricted. Visit Types populate from the Encounter Types editor of the Control Panel. Contact an Implementation Specialist with any questions or issues regarding encounters.
 
-**Performing Provider:** Name of the performing clinician. Select the performing provider from the drop-down list. If  an encounter is being created from the scheduler, this field will automatically populate with the appointment provider/physician. A **Me** button will appear if the logged-in user is a provider. This button only works for physicians. When editing an encounter, if the logged-in user is _not_ a provider, the Me button will not display.
+**Performing Provider:** Name of the performing clinician. Select the performing provider from the drop-down list. If  an encounter is being created from the scheduler, this field will automatically populate with the appointment provider/physician. A **Me** button will appear if the logged-in user is a provider. This button only works for physicians. When editing an encounter, if the logged-in user is *not* a provider, the Me button will not display.
 
 {{% note %}}
 The list of Performing Providers populates and varies based on configuration and the system being used. The Value established in the Physician Realm system setting will determine the department used for populating the clinician list. For RC201302 and older, the Primary Department set in the Edit User screen, must be the same department the Physician Realm system setting is programmed to use. For RC201302 and newer, regardless of what the Primary Department is set to in the Edit User screen, the Performing Provider drop-down list will populate the users who have been set up as members of the department of the same name used for the Physician Realm system setting.
@@ -87,7 +86,7 @@ Once clicked, another window will open Encounters of the Medical Record chart ta
 
 ### Creating/Adding Encounters from Scheduler
 
-As noted, encounters can be created from the _Scheduler_, as well. This is controlled by the **Show Add Encounter** user preference (My Settings). To have the Add Encounter link display on the scheduler, the Show Add Encounter setting must be set accordingly.
+As noted, encounters can be created from the *Scheduler*, as well. This is controlled by the **Show Add Encounter** user preference (My Settings). To have the Add Encounter link display on the scheduler, the Show Add Encounter setting must be set accordingly.
 
 The Show Add Encounter user preference has three possible options:
 
@@ -108,9 +107,10 @@ With the Show Add Encounter setting enabled, users can simply click the Add Enco
 ![](./creating-or-adding-encounters.assets/16b8ab102e6f6a74b3f0d96b4a7eed38.png)
 
 {{% tip %}}
-If there is an asterisk ( \* ) next to the Add Encounter link, there is already an encounter open and linked to that appointment.
+If there is an asterisk ( * ) next to the Add Encounter link, there is already an encounter open and linked to that appointment.
 
 ![](./creating-or-adding-encounters.assets/33ab1826e3f04dc07ed4f18bbb1a2982.png)
+
 
 {{% /tip %}}
 

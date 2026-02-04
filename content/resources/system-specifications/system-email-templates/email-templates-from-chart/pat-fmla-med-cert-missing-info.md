@@ -1,15 +1,14 @@
 ---
-id: "16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug"
-title: "Pat FMLA Med Cert Missing Info"
-date: "2025-11-13T17:14:14.235Z"
+id: '16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
+title: 'Pat FMLA Med Cert Missing Info'
+date: '2025-11-13T17:14:14.235Z'
 version: 27
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=16zpe87BF0KgZ-SKELN59ji4b22IWXgk7kLAuVgyqPug'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: FMLA Medical Certification for Frederick Anderson
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## FMLA Medical Certification Missing Information
 

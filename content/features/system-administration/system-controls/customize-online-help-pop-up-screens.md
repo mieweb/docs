@@ -1,17 +1,16 @@
 ---
-id: "13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A"
-title: "Customize Online Help Pop-up Screens"
-date: "2025-02-19T20:23:01.228Z"
+id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
+title: 'Customize Online Help Pop-up Screens'
+date: '2025-02-19T20:23:01.228Z'
 version: 245
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "http://www.mieweb.com/video/WCEncounter.mov*"
-  - "https://mie.talentlms.com/shared/start/key:ZEODNHRK"
-source: "https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A"
-wikigdrive: "v2.15.30"
+  - 'http://www.mieweb.com/video/WCEncounter.mov*'
+  - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
+source: 'https://drive.google.com/open?id=13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
+wikigdrive: 'v2.15.30'
 ---
-
 Help is always available in {{% system-name %}} . At the top right corner of your {{% system-name %}} screen session is a help bubble icon.
 
 Click that to access {{% system-name %}} Online Help. Once you click the a pop-up window of {{% system-name %}} Online Help will open (pop-up) on your screen. You can type search phrases in the field at the top or click the index hyperlink at the bottom right corner of this screen to get a full index of all help documents in pdf format provided by MIE.
@@ -22,7 +21,7 @@ By default there are some pop-up Online Help screens already programmed by MIE t
 
 ![](./customize-online-help-pop-up-screens.assets/0410df9ea5218970ea0536ecc5aa4964.png)
 
-You are able to add, edit, override, manage those pop-up Online Help screens yourself if you have security permission to _Add Help Text_ set to Yes.
+You are able to add, edit, override, manage those pop-up Online Help screens yourself if you have security permission to *Add Help Text* set to Yes.
 
 ![](./customize-online-help-pop-up-screens.assets/f6364ef629285f3c293c9a3258222d75.png)
 
@@ -34,7 +33,7 @@ This is an example of being in the Documents chart tab and clicking the help at 
 
 ## View Pop-up Online Help
 
-MIE has programmed a few default help videos in the pop-up Online Help of certain modules, screens, and chart tabs. For example, while you are working in the Checkin sidemenu module, you may forget what you are supposed to do. Your administrator could upload specific pop-up Online Help text, images or even a video onto that module to support staff while working in {{% system-name %}} . Or other users have used {{% system-name %}} for years and your staff would like to have specific pop-up Online Help added for certain screens, modules, chart tabs, etc to help new hired staff at your practice while they are working in the system and it is customized to your workflow and steps. The pop-up Online Help is manageable by the practice and is system specific. Anywhere you are in {{% system-name %}} you can click the help icon at the top right and see if there is any customized available pop-up Online Help. If there isn't, you can always use the MIE {{% system-name %}} default online help pdf guide found in the _Index_ link or by typing in a search phrase to access those documents.
+MIE has programmed a few default help videos in the pop-up Online Help of certain modules, screens, and chart tabs. For example, while you are working in the Checkin sidemenu module, you may forget what you are supposed to do. Your administrator could upload specific pop-up Online Help text, images or even a video onto that module to support staff while working in {{% system-name %}} . Or other users have used {{% system-name %}} for years and your staff would like to have specific pop-up Online Help added for certain screens, modules, chart tabs, etc to help new hired staff at your practice while they are working in the system and it is customized to your workflow and steps. The pop-up Online Help is manageable by the practice and is system specific. Anywhere you are in {{% system-name %}} you can click the help icon at the top right and see if there is any customized available pop-up Online Help. If there isn't, you can always use the MIE {{% system-name %}} default online help pdf guide found in the *Index* link or by typing in a search phrase to access those documents.
 
 ![](./customize-online-help-pop-up-screens.assets/0410df9ea5218970ea0536ecc5aa4964.png)
 
@@ -50,7 +49,7 @@ If I were in the Conversations tab and wanted to add customized pop-up Online He
 
 ![](./customize-online-help-pop-up-screens.assets/0ac5c7632c99e4a5c635e78b22849636.png)
 
-Or if I'm working in a patient's chart in the MAR/Injections chart tab and click the help icon at the top right, the pop-up Online Help window displays and confirms I would be adding help in the _inject_ tab/screen of the {{% system-name %}} system.
+Or if I'm working in a patient's chart in the MAR/Injections chart tab and click the help icon at the top right, the pop-up Online Help window displays and confirms I would be adding help in the *inject* tab/screen of the {{% system-name %}} system.
 
 ![](./customize-online-help-pop-up-screens.assets/ccb922ed1faf220967081953d6de1531.png)
 
@@ -58,7 +57,7 @@ To add help you would get to the specific module, screen, tab you want to add he
 
 ![](./customize-online-help-pop-up-screens.assets/ae3464e227551748af4209a21cd38467.png)
 
-The _Provide Help_ screen will appear. This is where you type in all the help contents, any images or video's to tie to that specific tab, module, screen for your {{% system-name %}} system. If this pop-up Online Help doesn't have anything currently in it, the text box will be blank so you are free to program it. It is to be programmed using Wiki Programming. It is best to click the **Get Editing Help** link to familiarize yourself with how the pop-up Online Help needs to be programmed so it will display to users. When you click that, the **Editing Help** screen will open. You would need to program the pop-up Online Help screens in Wiki language. The help screen shows you symbols, how to bold, italicize, headings, etc. Everything is left formatted. There is no way currently to center anything. Use the up/down scroll in the Editing Help screen to familiarize yourself on how this text box needs to be programmed.
+The *Provide Help* screen will appear. This is where you type in all the help contents, any images or video's to tie to that specific tab, module, screen for your {{% system-name %}} system. If this pop-up Online Help doesn't have anything currently in it, the text box will be blank so you are free to program it. It is to be programmed using Wiki Programming. It is best to click the **Get Editing Help** link to familiarize yourself with how the pop-up Online Help needs to be programmed so it will display to users. When you click that, the **Editing Help** screen will open. You would need to program the pop-up Online Help screens in Wiki language. The help screen shows you symbols, how to bold, italicize, headings, etc. Everything is left formatted. There is no way currently to center anything. Use the up/down scroll in the Editing Help screen to familiarize yourself on how this text box needs to be programmed.
 
 ![](./customize-online-help-pop-up-screens.assets/c5d0670779c60ea19e1147f64c61c766.png)
 
@@ -100,10 +99,10 @@ Click Add System File hyperlink to add your screenshot or image to the {{% syste
 
 ![](./customize-online-help-pop-up-screens.assets/ad174146c1e18a66389b58b693b089af.png)
 
-- <strong>Source File:</strong> browse out and find and click on your screenshot or image you saved somewhere on your computer.
-- <strong>Storage Type:</strong> needs to match the file type extension of your screenshot or image. (ex: BMP, Tiff, JPEG or PNG) If you saved your image as a file extension that is not available in this drop-down then you cannot upload it.
-- <strong>File Alias:</strong> Type here the exact name of the file along with the extension/file type (ex: Smile.png)
-- <strong>Description:</strong> Type in some description of what this image is or for (ex: image for pop-up Online Help)
+* <strong>Source File:</strong> browse out and find and click on your screenshot or image you saved somewhere on your computer.
+* <strong>Storage Type:</strong> needs to match the file type extension of your screenshot or image. (ex: BMP, Tiff, JPEG or PNG) If you saved your image as a file extension that is not available in this drop-down then you cannot upload it.
+* <strong>File Alias:</strong> Type here the exact name of the file along with the extension/file type (ex: Smile.png)
+* <strong>Description:</strong> Type in some description of what this image is or for (ex: image for pop-up Online Help)
 
 Click ADD FILE button to add the image file to your {{% system-name %}} system so you can pull it onto pop-up Online Help.
 
@@ -123,13 +122,13 @@ Then close out that window.
 
 Now go into the specific tab, module, screen of pop-up Online Help that you want to paste this image into.
 
-Type [[IMAGE:]] and copy/paste that portion of the **?url** you copied above and paste it after the colon in the help programming screen. Make sure you have two brackets _before_ and _after_.
+Type [[IMAGE: ]] and copy/paste that portion of the **?url** you copied above and paste it after the colon in the help programming screen. Make sure you have two brackets *before* and *after*.
 
 Example: [[IMAGE:**?f=stream&sysfile=smile&revision_number=0**]]
 
 ![](./customize-online-help-pop-up-screens.assets/f910eaf6c35083cba08fbd9c39e26131.png)
 
-When done programming that and anything else, click the EDIT or ADD button on the _provide help_ screen that you are programming. It will close and it will show your new help pop-up window with your screenshot/image in there.
+When done programming that and anything else, click the EDIT or ADD button on the *provide help* screen that you are programming. It will close and it will show your new help pop-up window with your screenshot/image in there.
 
 Here is an example of the finished product of programing a screenshot/image into a pop-up Online Help window. We inserted a screenshot/image of the smiley faces.
 
@@ -139,7 +138,7 @@ Here is an example of the finished product of programing a screenshot/image into
 
 After you load a screenshot or image into the {{% system-name %}} System Files using the above steps and you've programmed it in your pop-up Online Help and see that it's way to big, etc. You can set the height and width for the images if you want to resize them.
 
-Keep the same [[IMAGE:]] programming above, just add at the end a pixel value for height & width using the programming of **height=x** **width=y**. X & Y are in pixel sizes, so whatever value you type in for X will need to be a pixel number and same for Y.
+Keep the same [[IMAGE: ]] programming above, just add at the end a pixel value for height & width using the programming of **height=x** **width=y**. X & Y are in pixel sizes, so whatever value you type in for X will need to be a pixel number and same for Y.
 
 Example: [[IMAGE:?f=stream&sysfile=smile&revision_number=0**|height=100|width=100**]]
 
@@ -167,4 +166,4 @@ You can also get creative by programming Wiki Language to set a help banner imag
 
 To learn more about Customizing Online Help Pop-up Screens, follow the link below to the Learning Management System course:
 
-- [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)
+* [Online Help Customization](https://mie.talentlms.com/shared/start/key:ZEODNHRK)

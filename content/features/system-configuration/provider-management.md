@@ -1,15 +1,14 @@
 ---
-id: "1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog"
-title: "Provider Management"
-date: "2024-12-16T22:01:17.429Z"
+id: '1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
+title: 'Provider Management'
+date: '2024-12-16T22:01:17.429Z'
 version: 62
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
+wikigdrive: 'v2.15.30'
 ---
-
 The Provider Management features allows users with the proper security to add New Providers and Provider Organizations within {{% system-name %}}. Provider Organizations are typically a location or an entity, where a Provider is typically an individual.
 
 {{% system-name %}} also has the ability to help build a hierarchy of relationships between providers and provider organizations. For example, Internist Butler MD is a provider associated with Better Corp, which is a Business Entity/Provider Organization. Another example, Ashish Patel MD is a provider that works at EHS Office Clinic, which is a clinic location/Provider Organization. Creating a hierarchy between Provider and Provider Organizations is not required by {{% system-name %}}, but it can be helpful or necessary based on specific client requirements.
@@ -18,7 +17,7 @@ The Provider Management tab is located under the Control Panel side menu.
 
 ## Provider/Provider Organization Search
 
-Enter the name of the provider or provider organization in the **Name** field and click the **Search** button. Check the box to the right of the **Name** field if the search should include deactivated providers/provider organizations. The **Name** field search provides a "contains" search and does not require an exact match to the data entered. Users may also click the _Provider Management_ datavis header bar and a list of all providers/provider organizations will render in alphabetical order or click the **All Providers** link on the far right of the Provider Management module to view all providers/provider organizations.
+Enter the name of the provider or provider organization in the **Name** field and click the **Search** button. Check the box to the right of the **Name** field if the search should include deactivated providers/provider organizations. The **Name** field search provides a "contains" search and does not require an exact match to the data entered. Users may also click the *Provider Management* datavis header bar and a list of all providers/provider organizations will render in alphabetical order or click the **All Providers** link on the far right of the Provider Management module to view all providers/provider organizations.
 
 ![](./provider-management.assets/702bbea386aa8712bea7fdca84a761a8.png)
 

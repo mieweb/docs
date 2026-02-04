@@ -1,33 +1,32 @@
 ---
-id: "1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI"
-title: "Additional Appointment-Related Reports"
-date: "2025-12-11T20:34:25.563Z"
+id: '1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
+title: 'Additional Appointment-Related Reports'
+date: '2025-12-11T20:34:25.563Z'
 version: 77
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1HZLlidMJpPlgDUKxH56ywGr29SsIf3WwPZk_EctSTaI'
+wikigdrive: 'v2.15.30'
 ---
-
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
 ## Appointment Cancel Reason Report
 
 The Appointment Cancel Reason Report displays a report of cancelled appointments according to the cancellation reason code you select, location and date range.
 
-Click _Reports_ tab on the left side-bar menu.
+Click *Reports* tab on the left side-bar menu.
 
-Click _Appointments_ tab from the top tab menu and select _Appointment Cancel Reason Report_
+Click *Appointments* tab from the top tab menu and select *Appointment Cancel Reason Report*
 
 The search criteria screen will display.
 
 ![](./additional-appointment-related-reports.assets/dc7890614ec8b16c4986dc00dd377681.png)
 
-- <strong>Dates:</strong> Enter any date ranges. These fields are required.
-- <strong>Resource:</strong> Select a resource from the drop-down.
-- <strong>Location:</strong> Select a location from the drop-down.
-- <strong>Cancel Reason:</strong> This is a mandatory field. You must select a cancel reason you want to show results for. You cannot show results for <em>all</em> cancel reason codes as of yet. It has to be specific.
+* <strong>Dates:</strong> Enter any date ranges. These fields are required.
+* <strong>Resource:</strong> Select a resource from the drop-down.
+* <strong>Location:</strong> Select a location from the drop-down.
+* <strong>Cancel Reason:</strong> This is a mandatory field. You must select a cancel reason you want to show results for. You cannot show results for <em>all</em> cancel reason codes as of yet. It has to be specific.
 
 The results will display below the search fields. The report returns data of: Patient Name, DOB, Date, Location, Cancel Code. Resource, Last Edited By, and Cancelled Date
 
@@ -37,9 +36,9 @@ The results will display below the search fields. The report returns data of: Pa
 
 The Appointment Duplicate Report lists duplicate appointments for a patient.
 
-Click _Reports_ tab on the left side-bar menu.
+Click *Reports* tab on the left side-bar menu.
 
-Click _Appointments_ tab from the top tab menu and select _Appointment Duplicate Report_.
+Click *Appointments* tab from the top tab menu and select *Appointment Duplicate Report*.
 
 It will automatically generate a list of duplicate appointments specific to a patient.
 
@@ -55,9 +54,9 @@ You can click the Paper icon to Generate CSV and then click the Download icon to
 
 The Appointment No Location Report lists appointments scheduled without a location set to them.
 
-Click _Reports_ tab on the left side-bar menu.
+Click *Reports* tab on the left side-bar menu.
 
-Click _Appointments_ tab from the top tab menu and select _Appointment No Location_.
+Click *Appointments* tab from the top tab menu and select *Appointment No Location*.
 
 It will automatically generate a list of appointments without locations. These are appointments schedule that do not have a location selected for the patient's appointment.
 
@@ -69,15 +68,15 @@ You can click the Paper icon to Generate CSV and then click the Download icon to
 
 The Appointments Types Total report displays a list of scheduled appointments by type and grouped by month found within the system in a DataVis output.
 
-Click _Reports_ tab on the left side-bar menu.
+Click *Reports* tab on the left side-bar menu.
 
-Click _Appointments_ tab from the top tab menu and select _Appointment Types Total_.
+Click *Appointments* tab from the top tab menu and select *Appointment Types Total*.
 
 ![](./additional-appointment-related-reports.assets/e1556756acc36faafd682aca08a68e49.png)
 
-- <strong>Dates:</strong> Enter any date ranges. These fields are required.
-- <strong>Location:</strong> Select a location from the drop-down.
-- <strong>Status:</strong> Select a status from the drop-down.
+* <strong>Dates:</strong> Enter any date ranges. These fields are required.
+* <strong>Location:</strong> Select a location from the drop-down.
+* <strong>Status:</strong> Select a status from the drop-down.
 
 The results will display below the search field. The report returns data of: Month, Location, # of Appointments, Type, and Appointment Status.
 

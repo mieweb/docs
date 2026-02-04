@@ -1,15 +1,14 @@
 ---
-id: "1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY"
-title: "Discontinue Medications"
-date: "2024-07-18T15:41:56.330Z"
+id: '1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
+title: 'Discontinue Medications'
+date: '2024-07-18T15:41:56.330Z'
 version: 45
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Discontinue Medications, Individually
 
 From the E-Meds tab or from the List link in E-Meds, it will display the medication history summary for the patient.
@@ -32,7 +31,7 @@ Upon the button you select, it will then give you a successful and confirmation 
 
 ![](./discontinue-medications.assets/aa1987e38aaed0228c40c04261caccb3.png)
 
-Anything that was typed in the _reason_ field (when discontinuing) is shown in the comments column in the patient's medication history for that discontinued med. The medication is also labeled & shown as discontinued.
+Anything that was typed in the *reason* field (when discontinuing) is shown in the comments column in the patient's medication history for that discontinued med. The medication is also labeled & shown as discontinued.
 
 ![](./discontinue-medications.assets/29e6e579307bbf7e5c4e7dc79576d5ee.png)
 
@@ -40,7 +39,7 @@ Anything that was typed in the _reason_ field (when discontinuing) is shown in t
 
 Click the Discontinue link at the top right of the E-Meds module. This will show a list of **all** active medications this patient is on.
 
-This is just a quick link to discontinue multiple meds quickly instead of clicking discontinue after each individual medication*.* If you have your view to show "in-house & outside" meds separately; this _discontinue_ screen respects that and separates them into categories of In-House and Other.
+This is just a quick link to discontinue multiple meds quickly instead of clicking discontinue after each individual medication_._ If you have your view to show "in-house & outside" meds separately; this *discontinue* screen respects that and separates them into categories of In-House and Other.
 
 This quick link does **not** allow you to mark it as an allergy or intolerance. It simply discontinues the meds you selected. If you need to discontinue a med because it is causing an allergy/intolerance, then you need to discontinue that med from the medication history screen for this patient and select discontinue next to the drug in the options column. That will allow you to type in the reason and mark it as allergy or intolerance.
 
@@ -52,7 +51,7 @@ When you check-mark which med(s) to discontinue, a date & reason box will open u
 
 ![](./discontinue-medications.assets/adad2578909e9e61029e0a8b61ae146c.png)
 
-Click _Submit_ at the bottom of the screen. It will say you _successfully discontinued the medication_ and you are back at the main medication history screen for that patient.
+Click *Submit* at the bottom of the screen. It will say you *successfully discontinued the medication* and you are back at the main medication history screen for that patient.
 
 If you discontinued a med and then say for example 3 months later you decide to put the patient back on that same med, you would keep that old one as discontinued and write a new script.  You would not re-activate this.
 

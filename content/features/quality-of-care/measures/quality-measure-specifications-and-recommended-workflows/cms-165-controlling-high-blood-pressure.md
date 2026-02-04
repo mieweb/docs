@@ -1,19 +1,19 @@
 ---
-id: "1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc"
-title: "CMS 165 - Controlling High Blood Pressure"
-date: "2024-09-19T20:27:54.186Z"
+id: '1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
+title: 'CMS 165 - Controlling High Blood Pressure'
+date: '2024-09-19T20:27:54.186Z'
 version: 65
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v11&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12"
-source: "https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS165v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms165v12'
+source: 'https://drive.google.com/open?id=1w1nSG7trWKy56aGj6P6YIPjsxywmUKlXmAMhL7Fx5rc'
+wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
-
 ## Overview
 
 [CMS165v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms165&showresult=CMS165v12&showresulttype=Measure) (2024)
@@ -39,7 +39,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -106,7 +106,7 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 
 ### Numerator Compliance
 
-1. While documenting the encounter, ensure both the systolic and diastolic blood pressure is recorded accurately under the Vitals section of the encounter. For a patient to be compliant with the numerator, the most recent blood pressure values must be <140/90
+1. While documenting the encounter, ensure both the systolic and diastolic blood pressure is recorded accurately under the Vitals section of the encounter.  For a patient to be compliant with the numerator, the most recent blood pressure values must be <140/90
 2. The patient must have a diagnosis of hypertension under the Symptoms/Diagnosis or Smart Plan sections of the encounter.
 3. Continue documenting the encounter as appropriate.
 4. When complete, Close and Archive the encounter.
@@ -116,24 +116,22 @@ Using the Vitals section of the encounter, ensure blood pressure is recorded cor
 #### Workflow A
 
 1. Use the Long-Term, Chronic, and End of Life Care instructions to document one or more of the following
-   a. Palliative Care
-   b. Hospice Care
-   c. Frailty Device Use
+    a.  Palliative Care
+    b.  Hospice Care
+    c.  Frailty Device Use
 
 #### Workflow B
 
 1. While documenting the encounter, record an active Pregnancy diagnosis
-
-- Use the Smart Plan section quick lists to record the condition
-
-OR
-
-- Use the Past Medical History section quick lists to record the condition
+* Use the Smart Plan section quick lists to record the condition
 
 OR
 
-- Use the Symptoms/Diagnosis section quick lists to record the condition
+* Use the Past Medical History section quick lists to record the condition
 
+OR
+
+* Use the Symptoms/Diagnosis section quick lists to record the condition
 2. Continue documenting the encounter, as appropriate
 3. When completed, Close and Archive the encounter
 

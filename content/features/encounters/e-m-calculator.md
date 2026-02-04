@@ -1,20 +1,19 @@
 ---
-id: "1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE"
-title: "E/M Calculator"
-date: "2025-02-20T18:38:11.854Z"
+id: '1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
+title: 'E/M Calculator'
+date: '2025-02-20T18:38:11.854Z'
 version: 86
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
+wikigdrive: 'v2.15.30'
 ---
-
 An optional encounter section is available named E&M Calculator. The section includes items contents to help calculate a billing code using E& M Calculator (Evaluation & Management).
 
 ![](./e-m-calculator.assets/73235e7c9917bb4a6ac2b7d83a59ebbb.png)
 
-Another optional encounter section is available named Billing and Charges. And that encounter section also includes E&M Calculator contents along with Time Factor capture.
+Another optional encounter section is available named Billing and Charges.  And that encounter section also includes E&M Calculator contents along with Time Factor capture.
 
 ![](./e-m-calculator.assets/5159159ec78ff906a2c667e81d68ac77.png)
 
@@ -28,7 +27,7 @@ To use the E&M Calculator, simply expand open the E&M Calculator encounter secti
 
 You will then see History Level, Exam Level, and MDM Level fields that have branched open.
 
-You can then branch open each level by clicking the hyperlink on the level name. Clicking on History Level hyperlink will branch open the contents of what History is considered. The specific items that you checkmark signify what you have captured.
+You can then branch open each level by clicking the hyperlink on the level name.  Clicking on History Level hyperlink will branch open the contents of what History is considered.  The specific items that you checkmark signify what you have captured.
 
 ![](./e-m-calculator.assets/0380a71bb34c825d52f51f555bf840b9.png)
 

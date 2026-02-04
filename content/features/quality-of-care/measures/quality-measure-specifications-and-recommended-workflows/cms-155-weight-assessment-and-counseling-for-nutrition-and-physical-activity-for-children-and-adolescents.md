@@ -1,19 +1,18 @@
 ---
-id: "16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A"
-title: "CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents"
-date: "2022-04-21T21:07:00.893Z"
+id: '16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
+title: 'CMS 155 - Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents'
+date: '2022-04-21T21:07:00.893Z'
 version: 36
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10"
-source: "https://drive.google.com/open?id=16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms155v10'
+source: 'https://drive.google.com/open?id=16MSfEVz-mIPYXPO6WmJLb4YaaK3wDrD3cQ3qYkZ0N6A'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS155v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS155v8&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -113,6 +112,7 @@ wikigdrive: "v2.15.30"
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

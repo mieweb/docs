@@ -1,16 +1,15 @@
 ---
-id: "1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ"
-title: "Spell Check"
-date: "2024-07-19T17:31:53.044Z"
-version: 52
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
+title: 'Spell Check'
+date: '2024-07-19T17:31:53.044Z'
+version: 53
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:AZLHRKMF"
-source: "https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:AZLHRKMF'
+source: 'https://drive.google.com/open?id=1MJjnaHOlZVVKSlWvdcOm5CsdSttR8dvU2GFr9qk1CtQ'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% system-name %}} offers a spell check feature within text documents, encounter text, and other areas of use.  When utilizing spell check, those with security permission to Manage Spell Check can add words to the  {{% system-name %}} library to be recognized.
 
 Words that are added to the master spell check library for the system are found in the Spell Check tab within the Control Panel sidemenu and is accessible to those also with security permission to Manage Spell Check.
@@ -77,4 +76,4 @@ Once you've found the word that was added to your system's spell check dictionar
 
 To learn more about Spell Check, follow the link below to the Learning Management System course:
 
-- [Spell Check](https://mie.talentlms.com/shared/start/key:AZLHRKMF)
+* [Spell Check](https://mie.talentlms.com/shared/start/key:AZLHRKMF)

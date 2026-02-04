@@ -1,15 +1,14 @@
 ---
-id: "1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM"
-title: "Chart Observations Default Values"
-date: "2020-02-27T21:04:46.860Z"
+id: '1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
+title: 'Chart Observations Default Values'
+date: '2020-02-27T21:04:46.860Z'
 version: 48
-mimeType: "text/x-markdown"
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit"
-source: "https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit'
+source: 'https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
+wikigdrive: 'v2.15.30'
 ---
-
 ## What we mean by "default"
 
 When importing a file of observations, each observation needs to have a column for the observed date, user_id, etc. An example can be found in the [Example 1 spceifying metadata for every obs result](https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=1502636095) tab of this example. Using default values, we can specify some of these fields in one column without needing to specify them for every observation. This way, we can drastically reduce the size of the file. An example of how the file is condensed can be found in the [Example 1 using default metadata](https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit#gid=2105581120) tab.
@@ -21,12 +20,10 @@ Using the wildcard in the header will tell the import to use that column as the 
 Example:
 
 {{% pre %}}
-
 ```
 
 @obs.*.observed_datetime
 ```
-
 {{% /pre %}}
 
 This format will tell the import that any values in this column can be applied to any of the observations in the file.

@@ -1,17 +1,16 @@
 ---
-id: "1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE"
-title: "E-Refills - All E-Refills Tab"
-date: "2025-12-02T19:22:07.120Z"
+id: '1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
+title: 'E-Refills - All E-Refills Tab'
+date: '2025-12-02T19:22:07.120Z'
 version: 105
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/"
-  - "e-refills-my-pending-refills-tab.md"
-source: "https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
+  - 'e-refills-my-pending-refills-tab.md'
+source: 'https://drive.google.com/open?id=1ZhUOL7iD9PJzjgUtbgqs-P-OOiRL5JMLHIfOXC5yLtE'
+wikigdrive: 'v2.15.30'
 ---
-
 Users can get to this tab by clicking on the E-Refills link in the alert taskbar at the top (if you are an e-Prescriber and have pending e-refills that need done) OR you can access this tab by going into E-Chart sidemenu tab, then selecting the E-Rx tab at the top (this method of access would be for users who can manage e-refill requests for others).
 
 At the top is a search filter that users can utilize to find specific e-refills in various buckets of this tab. One must set at minimum the prescriber field and click ‘search' to render results.
@@ -28,30 +27,30 @@ If this tab shows all zero, then it is because you are not an e-prescriber and a
 ![](./e-refills-all-e-refills-tab.assets/168be0981d24cc96d673570ec4988b4e.png)
 
 {{% tip %}}
-If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [_Setting Up E-Prescribers_](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
+If you are receiving e-refill requests from pharmacies for a physician who has left your practice, please see other help documentation named [*Setting Up E-Prescribers*](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/). That help documentation will guide you to make sure to follow the steps on how to correctly edit the username screen for that physician from {{% system-name %}} and terminate them from being certified with SureScripts from your practice and so SureScripts will know to disable them and pharmacies will remove them from sending refill requests to your practice.
 {{% /tip %}}
 
-If you **do** have security to manage e-rx refills for others, then this tab will show all categorized e-refill requests for all certified e-Prescribers. A quick way to know this is that you **do** see the _prescriber_ name column in the summaries which distinguishes which e-refill request was whose.
+If you **do** have security to manage e-rx refills for others, then this tab will show all categorized e-refill requests for all certified e-Prescribers. A quick way to know this is that you **do** see the *prescriber* name column in the summaries which distinguishes which e-refill request was whose.
 
 ![](./e-refills-all-e-refills-tab.assets/1a7a13952e00760143bd70973daeb0a1.png)
 
-If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will _not_ see the E-Rx alert at the top of your screen. You would work those e-refill requests from this tab. You would work them from the PENDING REFILLS REQUESTS category listed at the top of the summary of this tab. Please make sure to only work the refill requests for the prescriber you are designated to.
+If you are (for example) a nurse (which is not a certified e-prescriber according to SureScripts), yet you have the security on to be able to work the incoming e-refills queue for your physician who is on vacation for a few days, you will *not* see the E-Rx alert at the top of your screen. You would work those e-refill requests from this tab. You would work them from the PENDING REFILLS REQUESTS category listed at the top of the summary of this tab. Please make sure to only work the refill requests for the prescriber you are designated to.
 
-To work an e-refill request, please see other help documentation named [_E-Refills-MY PENDING REFILLS_](e-refills-my-pending-refills-tab.md)_._
+To work an e-refill request, please see other help documentation named [*E-Refills-MY PENDING REFILLS*](e-refills-my-pending-refills-tab.md)*.*
 
 ![](./e-refills-all-e-refills-tab.assets/75d55a5dcc49ae10056c9088f9a3142c.png)
 
 If you need to work or monitor or view other e-refills for other categories for e-Prescribers, it is done from this tab.
 
-_It depends if you are an e-Prescriber or not AND/OR if you have security rights to manage e-refill requests for others as to what you will see in this tab._
+*It depends if you are an e-Prescriber or not AND/OR if you have security rights to manage e-refill requests for others as to what you will see in this tab.*
 
-If you are not an e-prescriber AND do **not** have security to manage e-rx refills for others, then this tab will just show _zero_ in each category.
+If you are not an e-prescriber AND do **not** have security to manage e-rx refills for others, then this tab will just show *zero* in each category.
 
 If you have security rights to manage e-rx refills for others, then this tab will show any and all e-refills pending and others would be categorized.
 
-If you are an e-prescriber but do **not** have security to manage other's e-rx refills, then only _your_ e-refills will show here and be categorized.
+If you are an e-prescriber but do **not** have security to manage other's e-rx refills, then only *your* e-refills will show here and be categorized.
 
-From the Pending Refill Requests category, clicking the _ID_ column will open up that specific pending e-refill to work on. If you click on the _ID_ from any other category, it will open up the details of the e-refill request and any approval/denial, etc notes attached to it.
+From the Pending Refill Requests category, clicking the *ID* column will open up that specific pending e-refill to work on. If you click on the *ID* from any other category, it will open up the details of the e-refill request and any approval/denial, etc notes attached to it.
 
 Beginning in RC202409 and newer, providers may also query a new PDMP (Prescription Drug Monitoring Program) request from the E-refill Request.
 
@@ -59,7 +58,7 @@ Beginning in RC202409 and newer, providers may also query a new PDMP (Prescripti
 
 ## Categories
 
-This _All E-Refills_ tab also shows e-refills that have been worked and puts them/sorts them into specific categories such as e-refills that were approved, denied, etc. Completed Refill Requests means the refill request was worked/completed. It could've been denied or approved or changed, but it's completed so it also stores in the completed category. Any refill request errors will also show in it's specific category and unmatched patient refill requests has it's own category to store those in.
+This *All E-Refills* tab also shows e-refills that have been worked and puts them/sorts them into specific categories such as e-refills that were approved, denied, etc. Completed Refill Requests means the refill request was worked/completed. It could've been denied or approved or changed, but it's completed so it also stores in the completed category. Any refill request errors will also show in it's specific category and unmatched patient refill requests has it's own category to store those in.
 
 ![](./e-refills-all-e-refills-tab.assets/75d55a5dcc49ae10056c9088f9a3142c.png)
 
@@ -73,25 +72,25 @@ If there is still a connectivity issue and you click the RESEND button – you w
 
 ![](./e-refills-all-e-refills-tab.assets/90270507685be6840fe1b0005c8661d4.png)
 
-You can also get to the RESEND button by clicking on the specific refill _ID_ link.
+You can also get to the RESEND button by clicking on the specific refill *ID* link.
 
 ![](./e-refills-all-e-refills-tab.assets/e7cf69f47765db6765fc598ab16641c9.png)
 
 ![](./e-refills-all-e-refills-tab.assets/6c3cc6b4746441871a3c489bfda00f4a.png)
 
-Only refill request messages back to pharmacies via SureScripts are _resendable_ if it was a connectivity issue. Any other message that reached SureScripts but they rejected it for any reason – those will be in this category but with a specific error message and no _resend_ method is available for those.
+Only refill request messages back to pharmacies via SureScripts are *resendable* if it was a connectivity issue. Any other message that reached SureScripts but they rejected it for any reason – those will be in this category but with a specific error message and no *resend* method is available for those.
 
 ### Unmatched Prescribers
 
 This section will probably not ever show anything because the e-Prescriber receives only its own requests, but the only way it would show something there is if somehow there was conflicting data between the MIE side and the client system. The MIE system is thinking that a particular prescriber belonged to a particular client, but for some reason that user doesn't exist on the client system.  It's doubtful anything will ever be stored in this section or anything like this would happen, but it is possible.
 
-E-refill request messages for prescribers that are Active or Login Disabled show up in the All E-Refills list. To stop receiving these (ex: for a provider who terminated the practice and their login is disabled), the _Receive Refill Requests_ checkbox needs to be unchecked for a user, regardless of their status.
+E-refill request messages for prescribers that are Active or Login Disabled show up in the All E-Refills list. To stop receiving these (ex: for a provider who terminated the practice and their login is disabled), the *Receive Refill Requests* checkbox needs to be unchecked for a user, regardless of their status.
 
 ![](./e-refills-all-e-refills-tab.assets/4cebd33b817efea0924981eff581f4d2.png)
 
 ### Unmatched Patients
 
-If the system is unable to match the electronic refill request with a patient and users notice that there are more unmatched patients than matched patients, then providers may want to consider enabling the "Match Patient using Prescriber ID" system setting. Enabling this system setting will use the prescriber ID as an additional criteria when attempting to match the refill request with a patient. By default this system setting is Disabled. This system setting is available on databases on 202409 and newer.
+If the system is unable to match the electronic refill request with a patient and users notice that there are more unmatched patients than matched patients, then providers may want to consider enabling the "Match Patient using Prescriber ID" system setting. Enabling this system setting will use the prescriber ID as an additional criteria when attempting to match the refill request with a patient.  By default this system setting is Disabled. This system setting is available on databases on 202409 and newer.
 
 ![](./e-refills-all-e-refills-tab.assets/250de7d5a95118f56c59eb04bd07c6a7.png)
 

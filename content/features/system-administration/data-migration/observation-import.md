@@ -1,27 +1,26 @@
 ---
-id: "1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs"
-title: "Observation Import"
-date: "2024-12-18T14:18:29.424Z"
+id: '1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
+title: 'Observation Import'
+date: '2024-12-18T14:18:29.424Z'
 version: 48
-lastAuthor: "bhamm"
-mimeType: "text/x-markdown"
+lastAuthor: 'bhamm'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
+wikigdrive: 'v2.15.30'
 ---
-
 This wiki page is to document how observation data needs to be constructed in order to import using WebChart's Observation data Import Tool.
 
-- File format: Data file shall be formatted in Comma Separated Values (CSV).
-- The first row of the file shall contain column header information.
-- Each subsequent row shall represent an observation.
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
+* The first row of the file shall contain column header information.
+* Each subsequent row shall represent an observation.
 
 ## Column Definition
 
 The lab result column definition shall contain all columns listed below regardless if there is a value or not.
 
-- R = Required
-- O = Optional
+* R = Required
+* O = Optional
 <table>
 <tr>
 <td>Name</td>
@@ -152,7 +151,6 @@ Please note that because of the width of a csv file, the lines have been split u
 This example shows how to import 1 observation for 1 patient.
 
 {{% pre %}}
-
 ```
 
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
@@ -172,7 +170,6 @@ Observation Order,Observation Result,Observation Range,Observation Units,
 Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Result looks good,Quest
 ```
-
 {{% /pre %}}
 
 ### 2 Observations, same patient
@@ -180,7 +177,6 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 This example shows how to import 2 observations for the same patient.
 
 {{% pre %}}
-
 ```
 
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
@@ -203,7 +199,6 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Results look good,Quest
 ,F,,Results look good,Quest
 ```
-
 {{% /pre %}}
 
 ### 2 Observations for 2 different patients
@@ -211,7 +206,6 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 This example shows how to import 2 lab orders with 2 observation results each.
 
 {{% pre %}}
-
 ```
 
 Patient ID,Patient Lastname,Patient Firstname,Patient Class,Observation Datetime,Observation Code,Observation Name,
@@ -240,5 +234,4 @@ Observation Flag,Observation Status,Observer Code,Comment,Performing Lab
 ,F,,Test results are good,Labcorp
 ,F,,Test results are good,Labcorp
 ```
-
 {{% /pre %}}

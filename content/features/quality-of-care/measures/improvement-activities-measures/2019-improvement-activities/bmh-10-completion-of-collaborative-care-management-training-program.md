@@ -1,18 +1,17 @@
 ---
-id: "1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0"
-title: "BMH 10 - Completion of Collaborative Care Management Training Program"
-date: "2020-02-27T20:56:22.061Z"
+id: '1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0'
+title: 'BMH 10 - Completion of Collaborative Care Management Training Program'
+date: '2020-02-27T20:56:22.061Z'
 version: 19
-mimeType: "text/x-markdown"
+mimeType: 'text/x-markdown'
 links:
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
-source: "https://drive.google.com/open?id=1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0"
-wikigdrive: "v2.15.30"
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
+source: 'https://drive.google.com/open?id=1K3GNql1BX7DW5zwok31Dvb4R70WIwwmHrY4zhFOYSI0'
+wikigdrive: 'v2.15.30'
 ---
-
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Behavioral and Mental Health

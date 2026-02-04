@@ -1,18 +1,17 @@
 ---
-id: "1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg"
-title: "Medical Record Numbers"
-date: "2024-11-19T17:04:09.079Z"
-version: 72
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
+title: 'Medical Record Numbers'
+date: '2024-11-19T17:04:09.079Z'
+version: 73
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1D_nQs-HHtwCcd593e2PFQLLEU5S_i2id3LV6H3JlSKg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Deleting Medical Record Numbers (MRNs)
 
-If you have security to _Delete Patient MRNs_ set to Yes, then you can delete Medical Record #'s from patient charts/records. This security is usually only given to certain Administrators who are authorized to perform this function.
+If you have security to *Delete Patient MRNs* set to Yes, then you can delete Medical Record #'s from patient charts/records. This security is usually only given to certain Administrators who are authorized to perform this function.
 
 ![](./medical-record-numbers.assets/564b6420f932fe006da24d6ab622451f.png)
 
@@ -34,8 +33,8 @@ The user will be prompted with a pop-up message asking you to confirm that you w
 
 When you click OK on that pop-up message, the partition name will appear with a strike through it.
 
-If you did not mean to delete the MRN for the patient, you can click undo link to restore it. Nothing happens until you click the SAVE button. So you can undo still at that point. Once the SAVE button is clicked, whatever MR# is selected to be deleted will be _removed permanently_.
+If you did not mean to delete the MRN for the patient, you can click undo link to restore it. Nothing happens until you click the SAVE button. So you can undo still at that point. Once the SAVE button is clicked, whatever MR# is selected to be deleted will be *removed permanently*.
 
 ![](./medical-record-numbers.assets/581ea5a25dd4c3e93191ff9d3be9eb81.png)
 
-A patient's record has to have at least one MR# associated to it (hidden or viewable). It will not allow you to delete an MR# if only one MR# is associated to the patient. You'll get a warning _Patient required at least 1 MRN, will not delete_ if you attempt to delete the last MR# associated with the patient whether hidden or viewable.
+A patient's record has to have at least one MR# associated to it (hidden or viewable). It will not allow you to delete an MR# if only one MR# is associated to the patient. You'll get a warning *Patient required at least 1 MRN, will not delete* if you attempt to delete the last MR# associated with the patient whether hidden or viewable.

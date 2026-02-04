@@ -1,18 +1,17 @@
 ---
-id: "1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco"
-title: "Outbound Sample HL7 Messages"
-date: "2026-01-14T19:42:30.618Z"
-version: 189
-lastAuthor: "nwallace"
-mimeType: "text/x-markdown"
+id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
+title: 'Outbound Sample HL7 Messages'
+date: '2026-02-04T15:06:02.143Z'
+version: 196
+lastAuthor: 'nwallace'
+mimeType: 'text/x-markdown'
 links:
-  - "receiving-hl7-messages-from-system.md"
-  - "sending-hl7-messages-to-system.md"
-  - "hl7-segment-definitions.md"
-source: "https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco"
-wikigdrive: "v2.15.30"
+  - 'receiving-hl7-messages-from-system.md'
+  - 'sending-hl7-messages-to-system.md'
+  - 'hl7-segment-definitions.md'
+source: 'https://drive.google.com/open?id=1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
+wikigdrive: 'v2.15.30'
 ---
-
 # SIU, Scheduling
 
 {{% anchor sys="siu-s12" %}}
@@ -21,19 +20,15 @@ wikigdrive: "v2.15.30"
 
 ### New Appointment
 
+```
 MSH|^~\&|WCDataSend|handle|wc_hl7d|recv_facil|20210423091057||SIU^S12^SIU_S12|DSD1619205057152978|P|2.5|||||||||||||
-
 SCH|2588939|2677255|||||ppd 2nd step|NURS^Nurse Encounter|15|MIN|^^^202104270815^202104270830||||||||||||||BOOKED
-
 PID|1|123456|123456^^^MR&1.2.840.114398.1.5881.2&ISO^MR^1.2.840.114398.1.5881.2&MR&ISO~963258^^^ECW&1.2.840.114398.1.5881.3&ISO^MR^1.2.840.114398.1.5881.3&ECW&ISO~123456789^^^^SS|123456^^^MR&1.2.840.114398.1.5881.1&ISO|Lastname^Firstname^M||19830711000000|F||Asian|123 Main St^^Wailuku^HI^96793^US||5555550101^PRN^PH^test@email.com~5555550202^PRN^CP|5555550303^WPN^PH|EN|M|||123456789|||Not Hispanic or Latino|||||||||||||||||NK1|1||||||||||||||||||||||||||||||||||||||
-
 PV1|1||^^^handle|||||||||||||||||||||||||||||||||||||||||||||||||
-
 RGS|1||
-
 AIL|1||^30^^^^^^^Kihei Clinic|||||||||
-
 AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
+```
 
 {{% anchor sys="siu-s14" %}}
 
@@ -77,7 +72,6 @@ AIP|1||12029^Harrington^Cecilia^V^^^MD|RESOURCE|||||||SUBSTITUTE|
 ## ADT^A04
 
 Register a patient.
-
 ```
 MSH|^~\&|WCDataSend|MIE|wc_hl7d|recv_facil|20210701123459||ADT^A04^ADT_A01|DSD1625157299701062|P|2.5|||||||||||||
 EVN||20210701123459||
@@ -92,7 +86,6 @@ IN1|1|5273||HAP SENIOR PLUS|2850 W. GRAND BOULEVARD^^DETROIT^MI^48202|||10000029
 ## ADT^A08
 
 Update patient information.
-
 ```
 MSH|^~\&|WEBCHART|OMG|RECEIVING_APPLICATION|RECEIVING_FACILITY|20210701123459||ADT^A08^ADT_A01|DSD1625157299704299|P|2.5|||||||||||||
 EVN||20210701123459||

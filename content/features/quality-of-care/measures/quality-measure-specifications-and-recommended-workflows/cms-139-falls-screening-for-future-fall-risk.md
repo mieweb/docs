@@ -1,22 +1,21 @@
 ---
-id: "1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA"
-title: "CMS 139 - Falls: Screening for Future Fall Risk"
-date: "2024-09-06T13:09:08.946Z"
+id: '1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
+title: 'CMS 139 - Falls: Screening for Future Fall Risk'
+date: '2024-09-06T13:09:08.946Z'
 version: 98
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v11&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v10&showresulttype=Measure"
-  - "../../../order-and-result-management/flowsheets-editor.md"
-  - "https://ecqi.healthit.gov/ecqm/ep/2024/cms139v12"
-  - "https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf"
-  - "https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf"
-source: "https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v10&showresulttype=Measure'
+  - '../../../order-and-result-management/flowsheets-editor.md'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms139v12'
+  - 'https://www.cdc.gov/steadi/pdf/STEADI-Form-RiskFactorsCk-508.pdf'
+  - 'https://www.cdc.gov/steadi/pdf/STEADI-Algorithm-508.pdf'
+source: 'https://drive.google.com/open?id=1DHzhLkbGFoWJEFq1lv1Ox2i0Zu4T0f6_vstSxKFg0rA'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS139v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms139&showresult=CMS139v12&showresulttype=Measure) (2024)
@@ -42,7 +41,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

@@ -1,24 +1,23 @@
 ---
-id: "1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM"
-title: "Final Summary Encounter Sections"
-date: "2025-06-02T14:08:07.675Z"
+id: '1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM'
+title: 'Final Summary Encounter Sections'
+date: '2025-06-02T14:08:07.675Z'
 version: 63
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1OQwq4NG1eARq0eMM_Q7eY1JUpeCrQ0GBYjSGUYDelmM'
+wikigdrive: 'v2.15.30'
 ---
+Working in an encounter, there is a Summary section that offers 4 optional sections.  The Summary encounter section offers Final Medications, Final Allergies, Final Medical History, and Final Restrictions & Accommodations.  These individual sections are optional for use on the encounter and its encounter view and stored/archived document once an encounter is closed & archived.
 
-Working in an encounter, there is a Summary section that offers 4 optional sections. The Summary encounter section offers Final Medications, Final Allergies, Final Medical History, and Final Restrictions & Accommodations. These individual sections are optional for use on the encounter and its encounter view and stored/archived document once an encounter is closed & archived.
-
-The optional ‘Final' sections display a quick final list/summary that were keyed in. It's another way to quickly see some sections of this current encounter data as a summary list, but is not editable in this Summary section. These are optional encounter sections that can be utilized when working in encounters.
+The optional ‘Final' sections display a quick final list/summary that were keyed in. It's another way to quickly see some sections of this current encounter data as a summary list, but is not editable in this Summary section.  These are optional encounter sections that can be utilized when working in encounters.
 
 Example: Final Allergies is an optional encounter section that can be utilized when working in encounters.
 
 ![](./final-summary-encounter-sections.assets/9df01a124b46021e19bd3b48b36be6ce.png)
 
-You can toggle to _Detail View_ using the icon in the Final Allergies section.
+You can toggle to *Detail View* using the icon in the Final Allergies section.
 
 ![](./final-summary-encounter-sections.assets/9436505b944083476b8ba7bf577b5c03.png)
 

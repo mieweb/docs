@@ -1,15 +1,14 @@
 ---
-id: "1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg"
-title: "Portal Activation Code Employee Experience"
-date: "2024-09-10T19:23:14.874Z"
+id: '1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg'
+title: 'Portal Activation Code Employee Experience'
+date: '2024-09-10T19:23:14.874Z'
 version: 186
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1xaBVwRc67Ew-ziueBjTKwL6i8mAPUxi8fC69pkvELIg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Portal Activation Code Employee Experience
 
 The portal user (patient, employee, contractor, other, etc) will receive an email from the system that contains a portal activation code and instructions for first time portal users or adding additional portal activation codes.
@@ -18,7 +17,7 @@ The portal user (patient, employee, contractor, other, etc) will receive an emai
 
 If the user has never registered for the portal, follow the first portal link in the email.
 
-_Note:_ the activation code is a system generated code and will be different every time a new code is generated.
+*Note:* the activation code is a system generated code and will be different every time a new code is generated.
 
 ![](./portal-activation-code-employee-experience.assets/81cc13be1157f6e21967db10546351ba.png)
 
@@ -26,11 +25,11 @@ The user will be redirected to the portal where they can activate their account.
 
 ![](./portal-activation-code-employee-experience.assets/ad8e0189614495cee1fbbec4c32be8e1.png)
 
-In most cases, the individual activating the account is activating the account for themself, therefore the **myself** radiobutton is selected by default for the question _Who is this activation code for?_ However, in some instances a parent or guardian may be activating an account for minors, in which case the user can change the default response to activate the code for **someone else**.
+In most cases, the individual activating the account is activating the account for themself, therefore the **myself** radiobutton is selected by default for the question *Who is this activation code for?* However, in some instances a parent or guardian may be activating an account for minors, in which case the user can change the default response to activate the code for **someone else**.
 
-_As of Release 202403, the username must be an email address_. Typically, this email entered should be the email address in which the portal activation code was sent. However, users may enter another email address. In this case, the email address entered as the username will update the email address on the patient chart for the clinic and the email address to which the invite was sent will be removed.
+*As of Release 202403, the username must be an email address*.  Typically, this email entered should be the email address in which the portal activation code was sent. However, users may enter another email address. In this case, the email address entered as the username will update the email address on the patient chart for the clinic and the email address to which the invite was sent will be removed.
 
-Users may then create their own passwords. Passwords cannot be the same as the user username/email and must have a minimum of 8 characters, at least 1 numeric value, and at least 1 special character from among !@#$%^&\*()\_+|~-=\`{}[]:";'<>,.
+Users may then create their own passwords. Passwords cannot be the same as the user username/email and must have a minimum of 8 characters, at least 1 numeric value, and at least 1 special character from among !@#$%^&*()_+|~-=\`{}[]:";'<>,.
 
 While the system will not require an email address for users on releases prior 202403, it is highly encouraged.
 
@@ -52,7 +51,7 @@ The user will default to the portal main landing page. Portals are configured by
 
 ## Link Additional Activation Code to an Existing Account
 
-If the user already has an existing account, but receives an email with an additional activation code, the user may link that additional activation code to their account. Click the second portal link in the Portal Activation email.
+If the user already has an existing account, but receives an email with an additional activation code, the user may link that additional activation code to their account.  Click the second portal link in the Portal Activation email.
 
 Log in using your existing email address/username and click the **Next** button.
 
@@ -66,7 +65,7 @@ Use the Navigation drop down menu to select **Settings.**
 
 ![](./portal-activation-code-employee-experience.assets/fb9ce2a922fd25cca8f9af26b0dd5462.png)
 
-Enter the activation code in the activation code field and submit. Depending on customer portal configuration and applicable security settings, users may also update contact information and/or reset passwords from the portal. This may vary by customer. Users will see a message in green at the bottom of the page that the activation code has been added successfully. Simply click the home button or navigate to other areas of the portal to continue using the portal.
+Enter the activation code in the activation code field and submit. Depending on customer portal configuration and applicable security settings, users may also update contact information and/or reset passwords from the portal. This may vary by customer.  Users will see a message in green at the bottom of the page that the activation code has been added successfully. Simply click the home button or navigate to other areas of the portal to continue using the portal.
 
 ![](./portal-activation-code-employee-experience.assets/8d127e133c4b7f8a981fafb3db3de1fb.png)
 

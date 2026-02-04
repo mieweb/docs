@@ -1,16 +1,15 @@
 ---
-id: "1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
-title: "Device Interface - NDD EasyOne Connect vbase"
-date: "2025-12-04T15:54:11.358Z"
-version: 547
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
+title: 'Device Interface - NDD EasyOne Connect vbase'
+date: '2025-12-04T15:54:11.358Z'
+version: 553
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.nddmed.com/en-us/product/easy-on-pc.html"
-source: "https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c"
-wikigdrive: "v2.15.30"
+  - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
+source: 'https://drive.google.com/open?id=1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
+wikigdrive: 'v2.15.30'
 ---
-
 The following is referring to the NDD EasyOne Connect spirometry system (also referred to as Easy-On or EasyWare). Contact your MIE Implementer to see if your spirometer system model can be interfaced or quoted.
 
 ## Introduction
@@ -28,7 +27,7 @@ NDD's EasyOne Connect software employs a plugin system that EMR vendors can use 
 4. Click Utilities > Configuration.
 5. Click the EMR tab.
 6. Install new.
-   - Find the plugin file you downloaded, called <strong>nddplugin_mie.zemr .</strong>
+    * Find the plugin file you downloaded, called <strong>nddplugin_mie.zemr .</strong>
 7. From Selected EMR System, choose MIE EMR Plugin.
 8. For EHR URL, enter the  SYSTEM  URL as seen in a web browser, starting with https:// and ending with .cgi .  Omit any page-specific parts of the URL that start with a question mark "?".
 9. Check "Include Curve Data" and "Include Trial values" to get discrete data included in PFT documents.
@@ -43,6 +42,7 @@ NDD's EasyOne Connect software employs a plugin system that EMR vendors can use 
 5. Close the NDD software
 6. Follow the Installation instructions above from steps 2 to 7
 7. Click Yes when asked to overwrite the plugin:
+
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/b67a1de0da62635fd8edf826c0a97e64.png)
 
@@ -60,10 +60,9 @@ The plugin will get and send data under the authority of a  SYSTEM  user.  Ea
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/05a5daf036f48e6857358e0425f6323e.png)
 
-- Be sure all of the text is copied.  It should:
-  - Start with "----BEGIN RSA PRIVATE KEY----"
-  - End with "----END RSA PRIVATE KEY----".
-
+* Be sure all of the text is copied.  It should:
+    * Start with "----BEGIN RSA PRIVATE KEY----"
+    * End with "----END RSA PRIVATE KEY----".
 5. Open the NDD software, then go to Patients.
 6. Click "Search EMR".  A warning that the software could not make a connection to EHR system should display.
 7. Click "Search EMR" again.  This time you will be prompted to enter your  SYSTEM  username.
@@ -87,90 +86,90 @@ If a test was performed "offline", perhaps with a laptop that did not have netwo
 4. Click the EMR button.
 5. If there were no problems uploading the data, you should see "Successfully uploaded data to EMR system.  Doc ID: ###".
 6. To view the document in  SYSTEM :
-   - From the side menu click E-Chart.
-   - Select "Doc ID" from the search options.
-   - Type the number shown in the popup after "Doc ID:".
+    * From the side menu click E-Chart.
+    * Select "Doc ID" from the search options.
+    * Type the number shown in the popup after "Doc ID:".
 
 ## Calibration
 
 [NDD states](https://www.nddmed.com/en-us/product/easy-on-pc.html) that their system "... delivers unprecedented accuracy and reliable results without needing calibration."  If regulatory, legal, or other professional organization (ATS/ERS) requirements necessitate record keeping of calibration despite this, the device can be calibrated and the results can be stored in  SYSTEM .
 
-- To perform calibration of a spirometer, you will need a 3-Liter calibration syringe which can be purchased from NDD.
-- Each spirometer has a unique serial number.  This can be found on a sticker on the base of the grip of the handheld spirometer.
-- The suggested workflow is to use the Asset management feature of  SYSTEM  to create a chart for each spirometer.
-  - This can be enabled by showing the "Assets" sidemenu tab
-  - Click "Add New Asset"
-  - The name field is how we uniquely identify devices, so this must be entered exactly.
+* To perform calibration of a spirometer, you will need a 3-Liter calibration syringe which can be purchased from NDD.
+* Each spirometer has a unique serial number.  This can be found on a sticker on the base of the grip of the handheld spirometer.
+* The suggested workflow is to use the Asset management feature of  SYSTEM  to create a chart for each spirometer.
+    * This can be enabled by showing the "Assets" sidemenu tab
+    * Click "Add New Asset"
+    * The name field is how we uniquely identify devices, so this must be entered exactly.
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/509bbe187b3e4f91dfed13b94d2a6132.png)
 
-- This name can be found in a PFT document that was created using the device.
+* This name can be found in a PFT document that was created using the device.
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/6d1b93eb1c867ec8ef3087e694e6a8f8.png)
 
-- If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
-- To perform calibration in the NDD software, go to Utilities > Check Calibration
-- After calibration, there will be a special patient created in the NDD patient list, named "Calibration Check" with an ID that is the serial number of the device.
-- Double click on the Calibration Check row to see a history of calibrations
-- Click to select the Calibration Check test that you want to upload
-- Click the double-right arrow in the middle of the row of icons to expand options.
-- Click the EMR button.
+* If you use all the same kind of device, then you can assume they will follow the same pattern, with just the serial number being different.
+* To perform calibration in the NDD software, go to Utilities > Check Calibration
+* After calibration, there will be a special patient created in the NDD patient list, named "Calibration Check" with an ID that is the serial number of the device.
+* Double click on the Calibration Check row to see a history of calibrations
+* Click to select the Calibration Check test that you want to upload
+* Click the double-right arrow in the middle of the row of icons to expand options.
+* Click the EMR button.
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/db0ed2e473aa55e7184fa81615c677b7.png)
 
-- The Doc ID is the unique ID of the calibration document and you can find it in the device's asset chart, or by searching for it by ID.
-- The calibration document will be a PFT document, and the result of calibration will be shown as the Interpretation.
+* The Doc ID is the unique ID of the calibration document and you can find it in the device's asset chart, or by searching for it by ID.
+* The calibration document will be a PFT document, and the result of calibration will be shown as the Interpretation.
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/b23d2713843117aad11707a8429ccb21.png)
 
-- If you try to upload calibration for a device that hasn't yet been entered as an asset, you will see an error like this displayed:
+* If you try to upload calibration for a device that hasn't yet been entered as an asset, you will see an error like this displayed:
 
 ![](./device-interface-ndd-easyone-connect-vbase.assets/7be4f7f2ea7ce5c5ea7f812ff5877cc9.png)
 
-- After registering a chart with that name, you should be able to upload the calibration to a document type called PFT Calibration Tests (PFT_CAL).
+* After registering a chart with that name, you should be able to upload the calibration to a document type called PFT Calibration Tests (PFT_CAL).
 
 ## Collected Fields
 
-- Overall test data
-  - Location
-  - Date + time
-  - Prediction method
-  - Spirometer name
-  - Comments
-- Maneuver (trial) data
-  - FVC
-  - FVC Predicted
-  - FVC Abnormal
-  - FVC LLN (Lower Limit of Normal)
-  - FEV1
-  - FEV1 Predicted:
-  - FEV1 Abnormal
-  - FEV1 LLN
-  - FEV1 FVC
-  - FEV1 FVC Predicted
-  - FEV1 FVC Abnormal
-  - FEV1 FVC LLN
-  - FEF25 75
-  - FEF25 75 Predicted
-  - FEF25 75 Abnormal
-  - FEF25 75 LLN
-  - PEF
-  - PEF Predicted
-  - PEF Abnormal
-  - PEF LLN
-  - FEV6
-  - FEV6 LLN
-  - FEF25
-  - FEF50
-  - FEF75
-  - Curve data
-- Patient information
-  - Height
-  - Weight
-- If calibration is performed and uploaded:
-  - Calibration date
-  - Calibration result
-- Environmental factors:
-  - Temperature
-  - Humidity
-  - Pressure
+* Overall test data
+    * Location
+    * Date + time
+    * Prediction method
+    * Spirometer name
+    * Comments
+* Maneuver (trial) data
+    * FVC
+    * FVC Predicted
+    * FVC Abnormal
+    * FVC LLN (Lower Limit of Normal)
+    * FEV1
+    * FEV1 Predicted:
+    * FEV1 Abnormal
+    * FEV1 LLN
+    * FEV1 FVC
+    * FEV1 FVC Predicted
+    * FEV1 FVC Abnormal
+    * FEV1 FVC LLN
+    * FEF25 75
+    * FEF25 75 Predicted
+    * FEF25 75 Abnormal
+    * FEF25 75 LLN
+    * PEF
+    * PEF Predicted
+    * PEF Abnormal
+    * PEF LLN
+    * FEV6
+    * FEV6 LLN
+    * FEF25
+    * FEF50
+    * FEF75
+    * Curve data
+* Patient information
+    * Height
+    * Weight
+* If calibration is performed and uploaded:
+    * Calibration date
+    * Calibration result
+* Environmental factors:
+    * Temperature
+    * Humidity
+    * Pressure

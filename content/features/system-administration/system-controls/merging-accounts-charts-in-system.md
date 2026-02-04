@@ -1,17 +1,16 @@
 ---
-id: "1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY"
-title: "Merging Accounts/Charts in System"
-date: "2025-11-12T14:14:55.105Z"
-version: 375
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
+title: 'Merging Accounts/Charts in System'
+date: '2025-11-12T14:14:55.105Z'
+version: 378
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:ZZQDNHRK"
-source: "https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:ZZQDNHRK'
+source: 'https://drive.google.com/open?id=1c8cCEVXofjXUudcZMlnClVF1Ocn4JL3jIHFRSujRDoY'
+wikigdrive: 'v2.15.30'
 ---
-
-_You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} ._
+*You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} .*
 
 Click *E-Chart* on the left sidebar menu.
 
@@ -55,10 +54,10 @@ Scrolling down, to the middle of this preview merge screen, you will see the sec
 
 ![](./merging-accounts-charts-in-system.assets/91cd28e4ae584563c7137ee21a341c5e.png)
 
-- <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
-- <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
-- <strong>Choice 3:</strong> <strong>Merge this patient's chart & keep all MR#'s</strong>. What this means is that if selected, it will merge together the patient's entire chart and keep all MR numbers regardless of partitions.
-- <strong>WARNING:</strong> <strong>Do Not Use if a 4th Choice appears named:</strong> <strong>Merge this patient's documents and MR Numbers Only.</strong> This option will not display by default since security permission is set as No by default and should remain as No. It would move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system. Since permission to this merge option is set to No, this 4th option will not be displayed for users to accidentally select.
+* <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
+* <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
+* <strong>Choice 3:</strong> <strong>Merge this patient's chart & keep all MR#'s</strong>. What this means is that if selected, it will merge together the patient's entire chart and keep all MR numbers regardless of partitions.
+* <strong>WARNING:</strong> <strong>Do Not Use if a 4th Choice appears named:</strong> <strong>Merge this patient's documents and MR Numbers Only.</strong> This option will not display by default since security permission is set as No by default and should remain as No.  It would move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system.  Since permission to this merge option is set to No, this 4th option will not be displayed for users to accidentally select.
 
 The third and last section of this *Merge Patient* screen (scroll down past the Merge Options) is the demographic information of the patient(s) you are going to merge information **from** and put into the current patient's chart you are in. Verify that this is still the patient(s) account that you are going to merge from. You will be merging this patient(s) information and chart into the current (top portion) patient's chart.
 
@@ -82,8 +81,8 @@ You can click the button at the bottom that says *Go to Patient* to return to 
 
 It is advised to keep P (provider) charts and patient/employee charts separate and not to set both chart types on a chart, nor ever merge them. Clinicians should have a provider (P) chart as well as their separate regular employee/patient chart. The Provider chart is what is used on encounters to set the performing provider/location on the encounter and store other information about the Provider on a Provider level, but their employee/patient chart is what is used if they have to be seen or treated for medical care for any reason, medical history information, etc.
 
-- If<strong></strong> a chart has both Provider and Patient chart types on it, you will see ATTENTION!
-- When you move your mouse over the ATTENTION!, you will see the full alert verbiage
+* If<strong></strong> a chart has both Provider and Patient chart types on it, you will see ATTENTION!
+* When you move your mouse over the ATTENTION!, you will see the full alert verbiage
 
 ![](./merging-accounts-charts-in-system.assets/d9d803700f11b416793ceb51d7d964e2.png)
 
@@ -137,10 +136,10 @@ Click the circle (radio button) of the Merge Option you wish to perform. You mus
 
 ![](./merging-accounts-charts-in-system.assets/91cd28e4ae584563c7137ee21a341c5e.png)
 
-- <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
-- <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
-- <strong>Choice 3:</strong> <strong>Merge this patient's chart & keep all MR#'s</strong>. What this means is that if selected, it will merge together the patient's entire chart and keep all MR numbers regardless of partitions.
-- <strong>WARNING:</strong> <strong>Do Not Use if a 4th Choice appears named:</strong> <strong>Merge this patient's documents and MR Numbers Only.</strong> This option will not display by default since security permission is set as No by default and should remain as No. It would move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system. Since permission to this merge option is set to No, this 4th option will not be displayed for users to accidentally select.
+* <strong>Choice 1:</strong> <strong>Merge Chart only & ignore this patient's demographics</strong>. What this means is that if selected, it will merge and only keep MR number of the chart the documents are being merged to (regardless of partitions being merged).
+* <strong>Choice 2:</strong> <strong>Merge Chart & Demographics & ignore this patient's duplicate MR Numbers.</strong> What this means is that if selected, it will merge and keep both MR numbers when merging MR's from two different partitions. If merging two MR numbers from the <em>same</em>partition, only the MR number of the chart that the documents are being merged to will be kept. (This is the most common selection used).
+* <strong>Choice 3:</strong> <strong>Merge this patient's chart & keep all MR#'s</strong>. What this means is that if selected, it will merge together the patient's entire chart and keep all MR numbers regardless of partitions.
+* <strong>WARNING:</strong> <strong>Do Not Use if a 4th Choice appears named:</strong> <strong>Merge this patient's documents and MR Numbers Only.</strong> This option will not display by default since security permission is set as No by default and should remain as No.  It would move the documents and MRNs off the 'from' chart and then that chart becomes a No Part MR and everything else, appointments, encounters, observations, etc remains on it. It was introduced for NMC admin portals long ago and should not be used in the {{% system-name %}} system.  Since permission to this merge option is set to No, this 4th option will not be displayed for users to accidentally select.
 
 The third and last section of this *Merge Patient* screen (scroll down past the Merge Options) is the demographic information of the patient(s) you are going to merge information **from** and put into the current patient's chart you are in. Verify that this is still the patient(s) account that you are going to merge from. You will be merging this patient(s) information and chart into the current (top portion) patient's chart.
 
@@ -190,9 +189,9 @@ There are 3 choices to set this MY SETTINGS preference to for the merge patient 
 
 ![](./merging-accounts-charts-in-system.assets/642d75bb94cf04c7de66df0801dcfcaa.png)
 
-- <strong>Tmp Only:</strong> if you are set to tmp_only, you will only see the merge link on a patient whose account is marked as temp and has a single possible match.
-- <strong>Always:</strong> If you set it to always, that doesn't mean it shows for every patient on the appointment listing, it just means it shows the link on both the tmp patient <strong>and</strong> the non-tmp patient matching account. Shows for patients who have a single possible match. No matter which patient you click merge patient on, the merge still works in only one direction, tmp to → non_tmp.
-- <strong>No:</strong> The merge patient link is never shown on your view. Merging using the Merge Patient link from the scheduler appointment view is only possible for patient matches where there is single match and <strong>one</strong> of them is a tmp patient and the match has minimum rating of 8.
+* <strong>Tmp Only:</strong> if you are set to tmp_only, you will only see the merge link on a patient whose account is marked as temp and has a single possible match.
+* <strong>Always:</strong> If you set it to always, that doesn't mean it shows for every patient on the appointment listing, it just means it shows the link on both the tmp patient <strong>and</strong> the non-tmp patient matching account. Shows for patients who have a single possible match. No matter which patient you click merge patient on, the merge still works in only one direction, tmp to → non_tmp.
+* <strong>No:</strong> The merge patient link is never shown on your view. Merging using the Merge Patient link from the scheduler appointment view is only possible for patient matches where there is single match and <strong>one</strong> of them is a tmp patient and the match has minimum rating of 8.
 
 You must have specific security permissions set to merge inside or outside or all MR#'s. If you do not have these permissions set, you will not be able to access and merge accounts in {{% system-name %}} . You will still see the Merge Patient link if your preference is set to show it—but you cannot perform the merge past the merge confirmation screen if you don't have security access to even merge patient accounts.
 
@@ -216,4 +215,4 @@ This same "merging" functions & searches is available in the **Merge portlet**�
 
 To learn more about Merging Accounts/Charts, follow the link below to the Learning Management System course:
 
-- [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)
+* [Merge Manager](https://mie.talentlms.com/shared/start/key:ZZQDNHRK)

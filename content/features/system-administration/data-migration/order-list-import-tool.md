@@ -1,29 +1,28 @@
 ---
-id: "1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
-title: "Order List Import Tool"
-date: "2025-04-07T17:26:51.127Z"
+id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
+title: 'Order List Import Tool'
+date: '2025-04-07T17:26:51.127Z'
 version: 105
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing"
-source: "https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I"
-wikigdrive: "v2.15.30"
+  - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
+source: 'https://drive.google.com/open?id=1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
+wikigdrive: 'v2.15.30'
 ---
-
 This page is to document how Order list items (Compendium of tests) data needs to be constructed in order to import using WebChart's Order List Import Tool.
 
-- File format: Data file shall be formatted in Comma Separated Values (CSV).
-- The first row of the file shall contain column header information.
-- Each subsequent row shall represent an order item.
-- The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
+* The first row of the file shall contain column header information.
+* Each subsequent row shall represent an order item.
+* The Order Type is specified on the upload file form. Each item in the list will be imported with the specified type.
 
 ## Column Definition
 
 The order list column definition shall contain all columns listed below regardless if there is a value or not.
 
-- R = Required
-- O = Optional
+* R = Required
+* O = Optional
 <table>
 <tr>
 <td>Name</td>
@@ -88,7 +87,6 @@ The order list column definition shall contain all columns listed below regardle
 This example shows how to import multiple order items into the complete order list.
 
 {{% pre %}}
-
 ```
 
 Order name,Order detail description,Order code,LOINC code,Billing code,Collection instructions,Patient instructions,Force separate order
@@ -98,7 +96,6 @@ CREAT,Creatinine,LAB5023,,82565,SST,,N
 GLU,Glucose,LAB5062,14749-6,82947,SST,,N
 BSS,"Occult Blood Screening, Stool",LAB5093,,82270,Non sterile container,,N
 ```
-
 {{% /pre %}}
 
 ## Sample CSV files

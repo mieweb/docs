@@ -1,16 +1,15 @@
 ---
-id: "1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q"
-title: "Schedule Management"
-date: "2025-11-10T18:00:12.532Z"
-version: 266
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
+title: 'Schedule Management'
+date: '2025-11-10T18:00:12.532Z'
+version: 271
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/"
-source: "https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/resource-restrictions/'
+source: 'https://drive.google.com/open?id=1X-ADmVCC8uBszVWfXXg___Ejc7Usf9DFmDnhVTvnq5Q'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 Resource schedules can be easily maintained in {{% system-name %}} systems. Adding, editing, and deleting schedules is a simple process, which also allows for copying or templating for fast and efficient onboarding. Additionally, scheduling resources can be limited, or restricted, if necessary, to assist with efficiency and security purposes. For information on general uses and available views within the Scheduler module, review the Scheduler documentation. Following is a breakdown of the available configurations for scheduling functionality.
@@ -32,7 +31,7 @@ To add a schedule:
 
 **Start/End time**
 
-Required field. To establish a start and end time for a schedule, use one of two methods, depending on the duration of the schedule block. To establish a schedule with a start/end time, with an indefinite end date, use today's date and the resource's start time for the work day, as well as today's date with the resource's end time for the work day. Otherwise, use the _specific_ date/time (range) the schedule is being created/blocked for.
+Required field. To establish a start and end time for a schedule, use one of two methods, depending on the duration of the schedule block. To establish a schedule with a start/end time, with an indefinite end date, use today's date and the resource's start time for the work day, as well as today's date with the resource's end time for the work day. Otherwise, use the *specific* date/time (range) the schedule is being created/blocked for.
 
 **Duration**
 
@@ -47,7 +46,7 @@ Required field. This is the individual available from the time slots of the sche
 Entering a location in this field will display the specified location on the schedule. To set the schedule to **all** locations, simply leave this field blank. An entry in this field will narrow resource searching when the location is specified. This field does not show outside locations. To specify, begin typing the location name and select from the autocomplete. Otherwise hit the down arrow (↓) button on the keyboard to see available selections. To set a schedule to multiple locations, multiple schedules will need to be created by either creating each one, individually, using the **Save info to use again** link, at the top of the screen, or the **Copy Schedule** feature, toward the bottom.
 
 {{% tip %}}
-When scheduling a resource at multiple locations, the **Warn on Resource Scheduled at Another Location** system setting will control how to warn the user. If the system setting is set to 1, the user will receive a warning after saving the appointment. The warning will appear in the system's _warning_ color scheme. If the system setting is set to 2, the user will receive a message that the schedule is not saved. The message will appear in the _alert_ color scheme, and the user must force the action to proceed. The force option is only given if the user has the security permission of **Schedule Resource at Multiple Locations** set to _Yes_.
+When scheduling a resource at multiple locations, the **Warn on Resource Scheduled at Another Location** system setting will control how to warn the user. If the system setting is set to 1, the user will receive a warning after saving the appointment. The warning will appear in the system's *warning* color scheme. If the system setting is set to 2, the user will receive a message that the schedule is not saved. The message will appear in the *alert* color scheme, and the user must force the action to proceed. The force option is only given if the user has the security permission of **Schedule Resource at Multiple Locations** set to *Yes*.
 {{% /tip %}}
 
 **Display Appointments Inside Schedule**
@@ -56,7 +55,7 @@ If this is selected, all appointments will be made into comments. When displayin
 
 **Simultaneous appointment bookings allowed**
 
-This field refers to the number of appointment bookings allowed for the schedule. Type in the maximum number of appointments allowed for the resource(s), _per time slot_. This field defaults to blank, which indicates an unlimited number of appointments, per time slot. This is a setting to allow or regulate overbooking,which also overrides the permission needed when overbooking. For example, if the physician allows three appointments of a specified appointment type per time slot, then this field would be set to 3.
+This field refers to the number of appointment bookings allowed for the schedule. Type in the maximum number of appointments allowed for the resource(s), *per time slot*. This field defaults to blank, which indicates an unlimited number of appointments, per time slot. This is a setting to allow or regulate overbooking,which also overrides the permission needed when overbooking. For example, if the physician allows three appointments of a specified appointment type per time slot, then this field would be set to 3.
 
 **Total Appointments Allowed**
 
@@ -68,10 +67,10 @@ Select a color for the schedule. The color applies to only the schedule, as a wh
 
 **Display Add Appointment Links**
 
-Use the dropdown to specify what increments of appointment links will display, which allow adding appointments via a quick link. This will place a link inside the scheduler to add/schedule an appointment _inside_ the scheduler, instead of the yellow time links, only. This provides a quick way for adding appointments from the scheduler that uses that specific schedule. The selection of **No** from the dropdown will not display links for this schedule. Selecting **Yes** will display the links at the user's default increment, which is set as Duration in the My Settings preferences.
+Use the dropdown to specify what increments of appointment links will display, which allow adding appointments via a quick link. This will place a link inside the scheduler to add/schedule an appointment *inside* the scheduler, instead of the yellow time links, only. This provides a quick way for adding appointments from the scheduler that uses that specific schedule. The selection of **No** from the dropdown will not display links for this schedule. Selecting **Yes** will display the links at the user's default increment, which is set as Duration in the My Settings preferences.
 
 {{% info %}}
-If a specific minute/hour increment is selected, it will display the link with those specified increments on the schedule. When displaying the links to add an appointment, the links will only go until there is enough time for the shortest appointment type's duration to be fulfilled. If there is only one appointment type allowed in the schedule, with a duration of 60 minutes, and the schedule is set to end at 5 pm, then the last link available to schedule an appointment will be 4 pm. If the schedule allows _all_ appointment types, the change will have no effect.
+If a specific minute/hour increment is selected, it will display the link with those specified increments on the schedule. When displaying the links to add an appointment, the links will only go until there is enough time for the shortest appointment type's duration to be fulfilled. If there is only one appointment type allowed in the schedule, with a duration of 60 minutes, and the schedule is set to end at 5 pm, then the last link available to schedule an appointment will be 4 pm. If the schedule allows *all* appointment types, the change will have no effect.
 {{% /info %}}
 
 **Time Slots Available on Portal**
@@ -98,7 +97,7 @@ The **Required** and **Portal** checkboxes allow for specific appointment types 
 
 ![](./schedule-management.assets/fe2e00f4e777dc11b40e3e8ebe737a47.png)
 
-This section allows recurrences to be set for a given schedule. Click the **Recurrence** button to set any recurrences to a given schedule. When the button is clicked, the window will expand to show the additional fields to be set. Use the **Occur every** dropdown to choose and set an occurrence interval. This field will default to _Every_. **Duration** is the following dropdown that defaults as a blank entry. Use this dropdown to set the type of time during which the occurrence is expected to continue (e.g., Day(s), Week(s), Month(s), Year(s), etc.). If _Week(s)_ is selected as the type of time, then the days of the week will display, below. Select the days the resource is intended to work this schedule
+This section allows recurrences to be set for a given schedule. Click the **Recurrence** button to set any recurrences to a given schedule. When the button is clicked, the window will expand to show the additional fields to be set. Use the **Occur every** dropdown to choose and set an occurrence interval. This field will default to *Every*. **Duration** is the following dropdown that defaults as a blank entry. Use this dropdown to set the type of time during which the occurrence is expected to continue (e.g., Day(s), Week(s), Month(s), Year(s), etc.). If *Week(s)* is selected as the type of time, then the days of the week will display, below. Select the days the resource is intended to work this schedule
 
 If the schedule is not intended to go on indefinitely, the **Until** date must be set. The recurrence will continue until the specified date is reached, otherwise the schedule will continue to be available, as specified, indefinitely, if left blank, or filled with zeros. If you are editing a schedule and want to remove the recurrence entirely, click the **Cancel Recurrence** button and save the schedule with the edits.
 
@@ -116,10 +115,10 @@ This button allows schedules to be copied to multiple locations and/or resources
 
 Use the field to add a comment to the schedule for other users to see when viewing schedules from the schedule editor.
 
-- When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
+* When the schedule is complete and all fields are configured, as needed, click the <strong>Save</strong> button to create the schedule, or click <strong>Cancel</strong> to dismiss changes and go back to the view.
 
 {{% tip %}}
-If this schedule detail is needing to be used again, perhaps at a later time, scroll to the top of the screen **before clicking the Save button**, and click the **Save info to use again** link and it will save the information as a template to be named and used at a later time. This allows the information to be used again, edited as needed, all without having to rekey each field, from scratch. It is a way to _copy_ a schedule and save it as a template.
+If this schedule detail is needing to be used again, perhaps at a later time, scroll to the top of the screen **before clicking the Save button**, and click the **Save info to use again** link and it will save the information as a template to be named and used at a later time. This allows the information to be used again, edited as needed, all without having to rekey each field, from scratch. It is a way to *copy* a schedule and save it as a template.
 {{% /tip %}}
 
 ### Editing/Deleting Schedules
@@ -198,13 +197,14 @@ If a resource is not listed in the autocomplete choices, check the tab and ensur
 
 4. With the resource selected, click the <strong>Search</strong> button. This will refresh the page.
 5. The page has four (4) sections:
-   - <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-   - <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
+    * <strong>Allowed Users</strong> – An autocomplete field to be used to key in individual users to have access to view and/or schedule on the specified resource schedule. Click the <strong>Add</strong> button to save selections.
 
-   - <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+    * <strong>Allowed Departments</strong> – An autocomplete field to be used to key in entire departments to have access to view and/or schedule on the specified resource schedule. Any user that is a member of that department will have access to that resource. Click the <strong>Add</strong> button to save selections.
 
-   - <strong>Revision History</strong> – A view of all revision histories.
+    * <strong>Reason for Change</strong> – This is a required field, used to document the reason for the restriction or restriction change. This information will be saved in the Revision History for future reference.
+
+    * <strong>Revision History</strong> – A view of all revision histories.
 
 6. After all allowed users/departments have been added, provide the <strong>Reason For Change</strong> and click the <strong>Submit Changes</strong> button to create the restrictions.
 

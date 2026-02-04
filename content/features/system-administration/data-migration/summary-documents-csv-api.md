@@ -1,20 +1,19 @@
 ---
-id: "1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
-title: "Summary Documents CSV API"
-date: "2025-11-12T19:25:43.177Z"
+id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
+title: 'Summary Documents CSV API'
+date: '2025-11-12T19:25:43.177Z'
 version: 84
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/"
-source: "https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1VzQzM4TGo4CRmfbh6wTUy8NSNA-X-a3AFAYvLaWvZcQ/edit?usp=sharing'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1Z2HbO8vuW4wiId1PS_Fk39xGbDJC5el-xBmBvvnLzNY/edit?usp=sharing'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
+source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) to create structured text (HTML) summary documents using the Summary Documents CSV API.
 
 ## Audience
@@ -27,9 +26,9 @@ The Summary Documents CSV API imports non-discrete text data as an HTML document
 
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 
-- A <strong>document</strong> in EH is a way of storing information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
-- A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
-- <strong>Free text</strong> refers to text that is entered free-form into a system and is not subject to any type of formatting or standards.
+* A <strong>document</strong> in EH is a way of storing information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, physician tasks for a patient, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
+* A <strong>chart</strong> is a patient's electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual patient.
+* <strong>Free text</strong> refers to text that is entered free-form into a system and is not subject to any type of formatting or standards.
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
@@ -77,13 +76,13 @@ Additionally, only text may be stored by this API. While documents in EH may be 
 
 The prior section on Disadvantages of Summary Documents gives an overview of the main drawback of using this import: the data in the body of the document is not discrete data. Some data is stored discretely on each document. Typically this data is useful for categorizing and quickly finding a summary document. As discussed later in this document, many of these fields are considered best practice to specify data.
 
-- <em>Chart ID</em> (documents.user_id): A discrete identifier is used to connect the summary document to a specific chart.
-- <em>External ID</em> (documents.ext_doc_id) and <em>Interface</em>: The interface name entered at the time of data import as well as the <em>External ID</em>(documents.ext_doc_id) (typically the autoincrementing or unique key from the source database or spreadsheet) is stored discretely, although it cannot be viewed from the front end of EH.
-- <em>Author (Originator) ID</em> (documents.origin_id) and <em>Entering User ID</em> (documents.user_id): Both the creator of the content and the one who enters the data are stored discretely.
-- <em>Service Date</em> (documents.service_date), <em>Origin Date</em> (documents.origin_date, and <em>Enter Date</em> (documents.enter_date) : These dates are all stored discretely for each document.
-- <em>Location</em> (documents.location): The service location may be used to specify either a clinic location or the system from which the data came (EG: Medgate, OHM, and so on). If a clinical or service location is readily available to map to a location in EH, that is typically preferred.
-- <em>Document Type</em> (documents.doc_type): The document type classifies the contents of a document. This helps to quickly understand at a glance what kind of data may be found in the document. Additionally, classifying documents with document types creates the ability to search for and report on documents in the system. Examples of document types include insurance cards, patient photos, nurse notes, and so on.
-- <em>Document Title</em> (documents_txt.subject): The title or subject of the document is short text field that is unindexed in the database, but it is stored separately from the body of the document. It is used for quick reference to specify the contents of the document from an EH list without actually opening the document. Thus, it is included as a key piece of discrete data to quickly provide a preview of the document.
+* <em>Chart ID</em> (documents.user_id): A discrete identifier is used to connect the summary document to a specific chart.
+* <em>External ID</em> (documents.ext_doc_id) and <em>Interface</em>: The interface name entered at the time of data import as well as the <em>External ID</em>(documents.ext_doc_id) (typically the autoincrementing or unique key from the source database or spreadsheet) is stored discretely, although it cannot be viewed from the front end of EH.
+* <em>Author (Originator) ID</em> (documents.origin_id) and <em>Entering User ID</em> (documents.user_id): Both the creator of the content and the one who enters the data are stored discretely.
+* <em>Service Date</em> (documents.service_date), <em>Origin Date</em> (documents.origin_date, and <em>Enter Date</em> (documents.enter_date) : These dates are all stored discretely for each document.
+* <em>Location</em> (documents.location): The service location may be used to specify either a clinic location or the system from which the data came (EG: Medgate, OHM, and so on). If a clinical or service location is readily available to map to a location in EH, that is typically preferred.
+* <em>Document Type</em> (documents.doc_type): The document type classifies the contents of a document. This helps to quickly understand at a glance what kind of data may be found in the document. Additionally, classifying documents with document types creates the ability to search for and report on documents in the system. Examples of document types include insurance cards, patient photos, nurse notes, and so on.
+* <em>Document Title</em> (documents_txt.subject): The title or subject of the document is short text field that is unindexed in the database, but it is stored separately from the body of the document. It is used for quick reference to specify the contents of the document from an EH list without actually opening the document. Thus, it is included as a key piece of discrete data to quickly provide a preview of the document.
 
 The CSV Summary Document headers *Section Header* (section_header), *Name Value Pair* (name_value.NAME), *Narrative* (narrative), and *Narrative with Prefix* (narrative.PREFIX) are all used to build content for the body of the document. Any data included in the CSV under these headers is not discrete, searchable, or reportable.
 
@@ -149,25 +148,25 @@ The following fields (indicated in the Data Name column) are noted as required (
 
 The following fields are required:
 
-- <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> documents.pat_id_type) are used to to correctly identify a chart.
-- <em>External ID</em> (documents.ext_doc_id): Identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
-- <em>Document Types</em> (documents.ext_doc_id): Used to categorize documents, as mentioned above. All documents in EH have a document type. Note that the document type listed in the CSV must exist in the EH system (in EH, go to Control Panel > Document Types) or that line will be rejected. For further reading on document types, refer to the Enterprise Health online help titled Document Type Tab.
+* <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> documents.pat_id_type) are used to to correctly identify a chart.
+* <em>External ID</em> (documents.ext_doc_id): Identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
+* <em>Document Types</em> (documents.ext_doc_id): Used to categorize documents, as mentioned above. All documents in EH have a document type. Note that the document type listed in the CSV must exist in the EH system (in EH, go to Control Panel > Document Types) or that line will be rejected. For further reading on document types, refer to the Enterprise Health online help titled Document Type Tab.
 
 #### Best Practice
 
 Although this information is not required, it is considered a best practice to use at least some of these fields to populate information in the header of a document for identification and organizational purposes:
 
-- <em>Service Date</em> (documents.service_date): Shows the pertinent date for the summary document, and it is displayed in the document list view.
-- <em>Location</em> (documents.location): Shows where the service took place. This piece of metadata may be used in reporting.
-- <em>Document Title</em> (documents_txt.subject): Displays in the listing of documents in EH and helps identify a document quickly.
-- <em>Section header</em> (section_header), <em>Name Value Pair</em> (name_value.NAME), and <em>Narrative</em> (narrative) are used to structure the contents of the document.
+* <em>Service Date</em> (documents.service_date): Shows the pertinent date for the summary document, and it is displayed in the document list view.
+* <em>Location</em> (documents.location): Shows where the service took place. This piece of metadata may be used in reporting.
+* <em>Document Title</em> (documents_txt.subject): Displays in the listing of documents in EH and helps identify a document quickly.
+* <em>Section header</em> (section_header), <em>Name Value Pair</em> (name_value.NAME), and <em>Narrative</em> (narrative) are used to structure the contents of the document.
 
 #### Optional Fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
-- <em>Encounter External Identifier</em> (encounters.ext_id)
-- <em>Encounter Interface</em> (encounters.interface)
+* <em>Encounter External Identifier</em> (encounters.ext_id)
+* <em>Encounter Interface</em> (encounters.interface)
 
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
@@ -197,4 +196,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-- [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)

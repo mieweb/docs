@@ -1,16 +1,15 @@
 ---
-id: "1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk"
-title: "Adding a Subject to Documents"
-date: "2020-02-27T21:10:07.369Z"
+id: '1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
+title: 'Adding a Subject to Documents'
+date: '2020-02-27T21:10:07.369Z'
 version: 46
-lastAuthor: "aquandt"
-mimeType: "text/x-markdown"
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
 links:
-  - "../../reports/documents-report-super-document-type-search.md"
-source: "https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk"
-wikigdrive: "v2.15.30"
+  - '../../reports/documents-report-super-document-type-search.md'
+source: 'https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
+wikigdrive: 'v2.15.30'
 ---
-
 A **Subject** field is available when adding documents to the {{% system-name %}} system. This allows sketches, Word documents, PDF documents, text files, and others to have a subject associated with them at the time of creation, rather than having users edit the document properties after the file has been created, imported, or uploaded.
 
 ## Document Details / Properties
@@ -37,7 +36,7 @@ After clicking the Add or Edit link, a pop-up box will allow the subject to be m
 
 ![](./adding-a-subject-to-documents.assets/bbf5f02c84677511cc368be03a1ad343.png)
 
-An alternative method for updating or adding a subject to a document is through the document properties. Access the document, and click the Properties link. After the page loads, click the **Edit Properties** link, enter a subject in the _Subject_ field, and click the **Submit Changes** button.
+An alternative method for updating or adding a subject to a document is through the document properties. Access the document, and click the Properties link. After the page loads, click the **Edit Properties** link, enter a subject in the *Subject* field, and click the **Submit Changes** button.
 
 ![](./adding-a-subject-to-documents.assets/d6d3bda0649acbc28539c1f692355bb2.png)
 
@@ -50,5 +49,5 @@ A Subject column will display in any List View system-wide, if the System Settin
 There is also a means to search the system by subject criteria using the Document Search feature. Please see the additional help documentation [Documents Report-Super DocSearch](../../reports/documents-report-super-document-type-search.md).
 
 {{% info %}}
-The Subject field of any stored _email_ documents cannot be added or edited, because the subject is taken from the email's original subject. The subject is created when the email reminders are triggered from the {{% system-name %}} modules.
+The Subject field of any stored *email* documents cannot be added or edited, because the subject is taken from the email's original subject. The subject is created when the email reminders are triggered from the {{% system-name %}} modules.
 {{% /info %}}

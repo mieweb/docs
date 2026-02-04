@@ -1,15 +1,14 @@
 ---
-id: "1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA"
-title: "Pat Immunizations Past Due"
-date: "2025-11-13T18:08:26.800Z"
+id: '1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
+title: 'Pat Immunizations Past Due'
+date: '2025-11-13T18:08:26.800Z'
 version: 47
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1a4iG0uULOhVKUa_dm7gQkNpjkEQWrlyg7Akcutm17aA'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Notification to Schedule Appointment for Immunizations Past Due
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Notification to Schedule Appointment for Immunizations Past Due
 

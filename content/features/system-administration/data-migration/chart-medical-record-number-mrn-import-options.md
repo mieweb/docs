@@ -1,27 +1,26 @@
 ---
-id: "1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E"
-title: "Chart Medical Record Number (MRN) Import Options"
-date: "2025-11-24T19:10:04.558Z"
+id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
+title: 'Chart Medical Record Number (MRN) Import Options'
+date: '2025-11-24T19:10:04.558Z'
 version: 56
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "chart-data-csv-api.md"
-  - "https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv"
-  - "data-import-master-list.md"
-source: "https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E"
-wikigdrive: "v2.15.30"
+  - 'chart-data-csv-api.md'
+  - 'https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv'
+  - 'data-import-master-list.md'
+source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page was created for technical staff involved in importing data to an Enterprise Health (EH) system. It outlines the process for importing medical record numbers (MRNs) using the [Chart Data CSV API](chart-data-csv-api.md). These options give the import the ability to process MRNs in a number of ways. This is especially useful for systems where the MRNs may change or need to be removed entirely. Although the default process of simply adding MRNs works in most situations, the options that follow a user to fine tune how processed charts are identified.
 
 The processes discussed on this page should only be performed with the guidance of an MIE subject matter expert. Mistakes in this process could have detrimental effects on an EH system.
 
 ## Definitions
 
-- An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
-- An <strong>update</strong> occurs when a record is replaced with the new information.
-- A <strong>deletion</strong> occurs when a record is removed from the database.
+* An <strong>insertion</strong> occurs when new record is created, without affecting any data that are already in the database.
+* An <strong>update</strong> occurs when a record is replaced with the new information.
+* A <strong>deletion</strong> occurs when a record is removed from the database.
 
 Related terminology is discussed on the [Chart Data CSV API](chart-data-csv-api.md) page.
 
@@ -30,14 +29,12 @@ Related terminology is discussed on the [Chart Data CSV API](chart-data-csv-api
 To use these options for MRN processing, the values described below as 'INSERT Options' and 'Blank Handling Options' need to be within the header row of the data file. The options can be linked together to allow for both types of options. When linking them together, the options need to be separated by a 'space'. Regardless, when using options, a space must always follow the option. For example:
 
 {{% pre %}}
-
 ```
 
 
 ...,DELETE_BLANK UPDATE @patient_mrns.MR,...
 
 ```
-
 {{% /pre %}}
 
 Any partition and MRN combination must be unique in the database. An insertion or an update will not occur if the new data already exists in the database.
@@ -56,15 +53,15 @@ Insert options affect how new MRNs are treated. The default behavior will always
 
 An existing entry is updated with the new information.
 
-- If there is not an existing entry for this record, the new information is inserted.
-- If there is more than one entry for this partition on the record, one of the entries is updated. With current functionality, it cannot be determined which entry should be updated.
+* If there is not an existing entry for this record, the new information is inserted.
+* If there is more than one entry for this partition on the record, one of the entries is updated. With current functionality, it cannot be determined which entry should be updated.
 
 #### DELETE_THEN_INSERT
 
 Delete MRNs in the partition that are attached to this record, then insert the new information.
 
-- This will delete all of the MRNs that match this partition and record.
-- If new data is not provided, the existing MRNs are still deleted.
+* This will delete all of the MRNs that match this partition and record.
+* If new data is not provided, the existing MRNs are still deleted.
 
 ### Blank Handling Options
 
@@ -95,7 +92,6 @@ The patient MRNs listed in the screenshot below are used in this example.
 The example import file is as follows:
 
 {{% pre %}}
-
 ```
 
 
@@ -106,7 +102,6 @@ The example import file is as follows:
 5555,123456780,,4000,43,Test,Mrns4,04-04-2004
 
 ```
-
 {{% /pre %}}
 
 [File:Di mrn opts.csv](https://miewiki.med-web.com/wiki/index.php/File:Di_mrn_opts.csv)
@@ -123,37 +118,37 @@ No new data--none of these MRNs will change.
 
 All MRNs data are deleted and replaced by whatever is in this column.
 
-- Mrn1: Existing MRNs are deleted, even though there is no data to replace it with.
-- Mrn2: No existing data. Nothing is deleted. Nothing is inserted.
-- Mrn3: Both MRNs are deleted. The new MRN is inserted.
-- Mrn4: No existing data. Nothing is deleted. The new MRN is inserted.
+* Mrn1: Existing MRNs are deleted, even though there is no data to replace it with.
+* Mrn2: No existing data. Nothing is deleted. Nothing is inserted.
+* Mrn3: Both MRNs are deleted. The new MRN is inserted.
+* Mrn4: No existing data. Nothing is deleted. The new MRN is inserted.
 
 #### Third Column (partition, default options are explicitly stated)
 
 Any new MRNs here are inserted.
 
-- Mrn1: Nothing is inserted.
-- Mrn2: Nothing is inserted.
-- Mrn3: MRN matches one that was deleted. It is inserted.
-- Mrn4: Nothing is inserted.
+* Mrn1: Nothing is inserted.
+* Mrn2: Nothing is inserted.
+* Mrn3: MRN matches one that was deleted. It is inserted.
+* Mrn4: Nothing is inserted.
 
 #### Fourth Column (CCHIT partition, UPDATE option)
 
 New MRNs replace an existing numbers, if available.
 
-- Mrn1: MR number is the same as the existing entry. Nothing changes.
-- Mrn2: One of the existing MRNs is replaced by the incoming number.
-- Mrn3: No new MRN. Nothing changes.
-- Mrn4: The existing MRN is replaced by the new number.
+* Mrn1: MR number is the same as the existing entry. Nothing changes.
+* Mrn2: One of the existing MRNs is replaced by the incoming number.
+* Mrn3: No new MRN. Nothing changes.
+* Mrn4: The existing MRN is replaced by the new number.
 
 #### Fifth Column (CCHIT partition, DELETE_BLANK option)
 
 When a blank is submitted, existing MRNs are deleted.
 
-- Mrn1: All CCHIT MRNs are deleted.
-- Mrn2: Depends on which MRN was updated. The 42 MRN will either be unchanged, because it exists or is inserted because it was previously updated.
-- Mrn3: Nothing is changed.
-- Mrn4: The new MRN is inserted.
+* Mrn1: All CCHIT MRNs are deleted.
+* Mrn2: Depends on which MRN was updated. The 42 MRN will either be unchanged, because it exists or is inserted because it was previously updated.
+* Mrn3: Nothing is changed.
+* Mrn4: The new MRN is inserted.
 
 ### Post Processed Data
 
@@ -189,5 +184,5 @@ Here is an example of using the Translation Manager to add a translation.
 
 ## Related Pages
 
-- [Data Import Master List](data-import-master-list.md)
-- [Chart Data CSV API](chart-data-csv-api.md)
+* [Data Import Master List](data-import-master-list.md)
+* [Chart Data CSV API](chart-data-csv-api.md)

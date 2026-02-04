@@ -1,40 +1,39 @@
 ---
-id: "1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo"
-title: "Review Session - Injection/Immunization Management"
-date: "2025-04-07T17:37:10.131Z"
+id: '1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
+title: 'Review Session - Injection/Immunization Management'
+date: '2025-04-07T17:37:10.131Z'
 version: 33
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "../../functions/injection-immunization-management/injection-tab.md"
-  - "../../functions/injection-immunization-management/injection-tab-vials.md"
-  - "../../functions/injection-immunization-management.md"
-  - "../../functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md"
-  - "../../functions/injection-immunization-management/injection-editor.md"
-  - "../../functions/injection-immunization-management/edit-delete-injections-immunizations.md"
-  - "../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md"
-  - "https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45"
-source: "https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo"
-wikigdrive: "v2.15.30"
+  - '../../features/injection-immunization-management/injection-tab.md'
+  - '../../features/injection-immunization-management/injection-tab-vials.md'
+  - '../../features/injection-immunization-management.md'
+  - '../../features/injection-immunization-management/injection-program-tab-recording-mass-injections.md'
+  - '../../features/injection-immunization-management/injection-editor.md'
+  - '../../features/injection-immunization-management/edit-delete-injections-immunizations.md'
+  - '../../features/injection-immunization-management/injection-tab-with-chirp-interface.md'
+  - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45'
+source: 'https://drive.google.com/open?id=1inIJ-tD48TCRv9DBn0G6AHdoB-qXCbr3aqEYq-yQayo'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Agenda
 
-- <strong>Injection/Immunization Module Demonstration</strong>
-- <strong>Overview</strong>
-- <strong>MAR/Injections Chart Tab</strong>
-  - <strong>Documenting Links</strong>
-  - <strong>Summary List Categories</strong>
-  - <strong>Visit Encounter</strong>
-  - <strong>VIS Handouts</strong>
-  - <strong>Mass Injection Program</strong>
-- <strong>System Configuration</strong>
-  - <strong>Injection Editor</strong>
-  - <strong>System Settings</strong>
-  - <strong>Mass Injection Program</strong>
-  - <strong>Interface to Registry</strong>
-  - <strong>Security Permissions</strong>
-- <strong>Resources</strong>
+* <strong>Injection/Immunization Module Demonstration</strong>
+* <strong>Overview</strong>
+* <strong>MAR/Injections Chart Tab</strong>
+    * <strong>Documenting Links</strong>
+    * <strong>Summary List Categories</strong>
+    * <strong>Visit Encounter</strong>
+    * <strong>VIS Handouts</strong>
+    * <strong>Mass Injection Program</strong>
+* <strong>System Configuration</strong>
+    * <strong>Injection Editor</strong>
+    * <strong>System Settings</strong>
+    * <strong>Mass Injection Program</strong>
+    * <strong>Interface to Registry</strong>
+    * <strong>Security Permissions</strong>
+* <strong>Resources</strong>
 
 ## Overview
 
@@ -44,13 +43,13 @@ Additionally, the {{% system-name %}} system allows for administering large quan
 
 Standard functionality includes:
 
-- Track and manage historical/current immunizations.
-- Seamless integration with inventory functionality, including autocomplete information from inventory tracking, such as lot and manufacturer.
-- Easy access to multilingual VIS handouts.
-- Pre-loaded, automated email notifications and reminders.
-- Pre-loaded Clinical Decision Support rules, designed to trigger alerts for concerns such as egg allergies or history of Guillain-Barre Syndrome (GBS), or to prevent the administration of an expired vaccine.
-- Injections Report
-- Immunization Totals Report
+* Track and manage historical/current immunizations.
+* Seamless integration with inventory functionality, including autocomplete information from inventory tracking, such as lot and manufacturer.
+* Easy access to multilingual VIS handouts.
+* Pre-loaded, automated email notifications and reminders.
+* Pre-loaded Clinical Decision Support rules, designed to trigger alerts for concerns such as egg allergies or history of Guillain-Barre Syndrome (GBS), or to prevent the administration of an expired vaccine.
+* Injections Report
+* Immunization Totals Report
 
 ## MAR/Injections Chart Tab
 
@@ -68,7 +67,7 @@ The **Add Inj/Imm** link allows users to add injections/immunizations, upon admi
 
 #### Quick Add
 
-**Quick Add** allows for fast input of historical injections or immunizations. After clicking the Quick Add link, the page will load, where multiple (up to 10 at a time) injection records can be recorded for the specific chart. Using Quick Add only allows users to add _historical_ injections (i.e., injections that a patient has previously received).
+**Quick Add** allows for fast input of historical injections or immunizations. After clicking the Quick Add link, the page will load, where multiple (up to 10 at a time) injection records can be recorded for the specific chart. Using Quick Add only allows users to add *historical* injections (i.e., injections that a patient has previously received).
 
 #### Add Vials
 
@@ -80,13 +79,13 @@ Once the vials have been entered, the user will be taken back to the immunizatio
 
 Clicking the **Inj/Imm List** link will load the same screen as when the MAR/Injections chart tab is accessed. This screen provides a complete, active summary list of injections and immunizations for the chart in context. By default the screen loads twenty (20) items per section. There is a System Setting (E-Chart, Injections, Listview limit per page) that triggers more or less entries to populate and show, based on the specified setting. This can be set to any specific number, to show how many entries will display at a time. Setting it to zero (0) will cause the lists to show all entries and not be limited.
 
-For more information about injections, adding vials, and the injection tab, generally, review the [Injection Tab](../../functions/injection-immunization-management/injection-tab.md) and [Vials](../../functions/injection-immunization-management/injection-tab-vials.md) documentation.
+For more information about injections, adding vials, and the injection tab, generally, review the [Injection Tab](../../features/injection-immunization-management/injection-tab.md) and [Vials](../../features/injection-immunization-management/injection-tab-vials.md) documentation.
 
 ### Summary List Categories
 
 The Injection/Immunization chart tab allows clinicians to review and maintain any immunization records, recorded injections/immunizations, as well as any active vials or ongoing medication administrations. To easily navigate the information, when in the Injection/Immunization chart tab, the summary list displays three categories: Medication Administration, Immunizations, and Vials. Each of these categories allow for specific functionality and behaviors, to foster improved efficiency and better patient care.
 
-For additional information regarding the Injection/Immunization module, its various categories, and its general features, see the [Injection/Immunization Management](../../functions/injection-immunization-management.md) index.
+For additional information regarding the Injection/Immunization module, its various categories, and its general features, see the [Injection/Immunization Management](../../features/injection-immunization-management.md) index.
 
 ### Visit Encounter
 
@@ -117,7 +116,7 @@ To access and begin using the Mass Injection Program:
 There is integrated Clinical Decision Support, so pop-ups may appear to alert for contraindications, allergies, or even a lack of HIPAA compliance. This can be configured, as needed.
 {{% /tip %}}
 
-For more information on the Mass Injection Program, review our [Injection Program Tab](../../functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md) documentation.
+For more information on the Mass Injection Program, review our [Injection Program Tab](../../features/injection-immunization-management/injection-program-tab-recording-mass-injections.md) documentation.
 
 ## System Configuration
 
@@ -153,13 +152,13 @@ Manage Injection Codes: If permission is set to Yes, it allows users access to t
 
 ### Help Documentation
 
-- [Injection Editor](../../functions/injection-immunization-management/injection-editor.md)
-- [Injection Program Tab-Recording Mass Injections](../../functions/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
-- [Injection Tab-Edit-Delete](../../functions/injection-immunization-management/edit-delete-injections-immunizations.md)
-- [Injection Tab-Vials](../../functions/injection-immunization-management/injection-tab-vials.md)
-- [Injection Tab](../../functions/injection-immunization-management/injection-tab.md)
-- [Injection Tab with CHIRP Interface](../../functions/injection-immunization-management/injection-tab-with-chirp-interface.md)
+* [Injection Editor](../../features/injection-immunization-management/injection-editor.md)
+* [Injection Program Tab-Recording Mass Injections](../../features/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
+* [Injection Tab-Edit-Delete](../../features/injection-immunization-management/edit-delete-injections-immunizations.md)
+* [Injection Tab-Vials](../../features/injection-immunization-management/injection-tab-vials.md)
+* [Injection Tab](../../features/injection-immunization-management/injection-tab.md)
+* [Injection Tab with CHIRP Interface](../../features/injection-immunization-management/injection-tab-with-chirp-interface.md)
 
 ### Training Videos
 
-- [Injections](https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45) (00:09:14)
+* [Injections](https://mieweb.webex.com/mieweb/ldr.php?RCID=8148df7241d9f68085708c4ca4bc6c45) (00:09:14)

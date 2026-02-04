@@ -1,16 +1,15 @@
 ---
-id: "1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI"
-title: "Edit/Delete Injections/Immunizations"
-date: "2024-07-10T19:11:14.191Z"
+id: '1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
+title: 'Edit/Delete Injections/Immunizations'
+date: '2024-07-10T19:11:14.191Z'
 version: 82
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:LSLIDNHR"
-source: "https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
+source: 'https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
+wikigdrive: 'v2.15.30'
 ---
-
 To make an edit or modify a specific immunization or injection record, get into the patient's injections tab to show the list of active immunizations/injections.  Find the specific injection or immunization that you wish to edit and click on the underlined injection/immunization name to get into the edit mode.
 
 ![](./edit-delete-injections-immunizations.assets/0c78e3963ebcd71ed59616fbf9a4bcd5.png)
@@ -83,4 +82,4 @@ After clicking the DocID number for the deleted injection record, that specific 
 
 To learn more about Editing/Deleting Injections/Immunizations, follow the link below to the Learning Management System course:
 
-- [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)
+* [Allergy/Injection Management](https://mie.talentlms.com/shared/start/key:LSLIDNHR)

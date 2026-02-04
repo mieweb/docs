@@ -1,17 +1,16 @@
 ---
-id: "1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg"
-title: "Demographics Tab Summary"
-date: "2025-11-17T18:59:26.269Z"
+id: '1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
+title: 'Demographics Tab Summary'
+date: '2025-11-17T18:59:26.269Z'
 version: 172
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "editing-demographics.md"
-  - "insurance-summary-in-demographics-tab.md"
-source: "https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg"
-wikigdrive: "v2.15.30"
+  - 'editing-demographics.md'
+  - 'insurance-summary-in-demographics-tab.md'
+source: 'https://drive.google.com/open?id=1gmwPMX965XzQ1NXla184BkglR1abyM76uWEUBLxP3eg'
+wikigdrive: 'v2.15.30'
 ---
-
 To navigate to the patient **Demographics** chart tab, search for the chart from the E-Chart sidemenu. Get into the chart, and click on the **Admin** chart tab. Demographics is available as a subtab of the Admin chart tab.
 
 ![](./demographics-tab-summary.assets/594e7b4db83a14a62015448f4e54f846.png)
@@ -25,7 +24,10 @@ The Demographics chart tab displays a dark grey header that will contain the nam
 {{% info %}}
 The dark grey demographics header will display on all tabs when in the chart, not just the Demographics chart tab.
 
+
+
 ![](./demographics-tab-summary.assets/0249a818c9473a1633b1144a2690eafd.png)
+
 
 {{% /info %}}
 
@@ -87,6 +89,6 @@ The ability to add insurance, show or hide inactive insurance information is als
 
 ## Merge
 
-Users also have the ability to merge duplicate charts from the demographics chart tab. If the system finds a possible duplicate chart based on matching demographics, the possible duplicate chart(s) will display information such as  chart name, date of birth, and match rating. Users should open/display the chart that they wish to keep. Then, either checkmark the **Select** box for the appropriate chart _that should be merged_ or click the **Manual Search** link to manually search for the chart that should be merged with the current one.
+Users also have the ability to merge duplicate charts from the demographics chart tab. If the system finds a possible duplicate chart based on matching demographics, the possible duplicate chart(s) will display information such as  chart name, date of birth, and match rating. Users should open/display the chart that they wish to keep. Then, either checkmark the **Select** box for the appropriate chart *that should be merged* or click the **Manual Search** link to manually search for the chart that should be merged with the current one.
 
 ![](./demographics-tab-summary.assets/af5eb7dd0fee3e3532f477b46b7a2188.png)

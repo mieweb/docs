@@ -1,21 +1,20 @@
 ---
-id: "18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg"
-title: "CMS 90 - Functional Status Assessments for Congestive Heart Failure"
-date: "2022-05-23T12:20:29.883Z"
+id: '18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
+title: 'CMS 90 - Functional Status Assessments for Congestive Heart Failure'
+date: '2022-05-23T12:20:29.883Z'
 version: 76
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v10&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v11&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/glossary/pro"
-  - "https://ecqi.healthit.gov/glossary/ehr"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11"
-source: "https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v10&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v11&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/glossary/pro'
+  - 'https://ecqi.healthit.gov/glossary/ehr'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms090v11'
+source: 'https://drive.google.com/open?id=18ODwYniLaezyp988LrTKkeoQAfvC6uQL4qiT8zCs2sg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS90v9](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS90v9&showresulttype=Measure) (2020)
@@ -41,7 +40,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -103,7 +102,7 @@ wikigdrive: "v2.15.30"
 
 ## Clinical Instructions
 
-Ensure all 18+ year-old patients with heart failure beginning prior to and continuing into the measurement period have a functional status assessment during the measurement period.
+Ensure all 18+ year-old patients with heart failure beginning  prior to and continuing into the measurement period have a functional status assessment during the measurement period.
 
 ### Workflow
 

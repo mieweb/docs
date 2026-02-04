@@ -1,15 +1,14 @@
 ---
-id: "1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw"
-title: "OpenPM Export Locations"
-date: "2025-11-11T19:47:00.670Z"
+id: '1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw'
+title: 'OpenPM Export Locations'
+date: '2025-11-11T19:47:00.670Z'
 version: 37
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1EWm0sy8rCGD_608nCbTkeeQfVSHZfBkCRLjZh9GxdDw'
+wikigdrive: 'v2.15.30'
 ---
-
 ## OpenPM Export Locations
 
 ### Description:
@@ -19,7 +18,7 @@ The "Locations" report is designed to export detailed information about the vari
 ### Report Fields and Descriptions:
 
 1. <strong>locations.id</strong>: Unique identifier for each location within the system.
-2. <strong>\_related_to_pat_id</strong>: Identifier indicating the patient ID to which the location is related.
+2. <strong>_related_to_pat_id</strong>: Identifier indicating the patient ID to which the location is related.
 3. <strong>Code</strong>: The code assigned to the location.
 4. <strong>Description</strong>: A description of the location.
 5. <strong>Address 1</strong>: The primary address line 1 of the location.

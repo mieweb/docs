@@ -1,16 +1,16 @@
 ---
-id: "1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww"
-title: "Send Document"
-date: "2025-01-17T15:52:33.077Z"
-version: 294
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
+title: 'Send Document'
+date: '2025-01-17T15:52:33.077Z'
+version: 295
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:SLERKMFP"
-source: "https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:SLERKMFP'
+source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
+wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
-
 Send Document
 
 ## Overview
@@ -20,25 +20,26 @@ Users are able to send a document to specific recipients.
 Depending on the recipient of the document and what their email address is, we have the following pathways:
 
 1. If the recipient's email domain is "white listed" (System setting "Whitelist Domains"), then we attach the document to an email.
-   a. User permission "Securely Email Documents" is required for this to work.
+    a.  User permission "Securely Email Documents" is required for this to work.
 2. Otherwise, the system creates a new "Received Document" document and adds it on the recipient's chart
-   a. A "Received Document" will have doc_type WCRECVDOC
-   b. The newly created document will be linked to the original one using the document_links database table
-   c. It will have storage type 33
-   d. Column to_doc_id value will be the original document doc_id
-   e. The document type should be added on the "Message Center" chart tab of the portal chart(s)
+    a.  A "Received Document" will have doc_type WCRECVDOC
+    b.  The newly created document will be linked to the original one using the document_links database table
+    c.  It will have storage type 33
+    d.  Column to_doc_id value will be the original document doc_id
+    e.  The document type should be added on the "Message Center" chart tab of the portal chart(s)
 
-Users are also able to select an "Employer" and perform the above actions on the related contacts. Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section. These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
+Users are also able to select an "Employer" and perform the above actions on the related contacts.  Related contacts are found under the employer's Overview (EO) chart tab in the Contacts section.  These contacts have to be active users in the system, which means they need to be Login Enabled and have credentials to access the system.
+
 
 ## Setup involved
 
 1. User Permissions
-   a. "Securely Email Documents" - This is used when send documents as attachments
+    a.  "Securely Email Documents" - This is used when send documents as attachments
 2. System Settings
-   a. "Whitelist Domains" - Used to determine if we should email a document or create a "Received Document"
-   b. "Default Portal" - This is used when we try to send activation codes to users, so that they can get access to the system
+    a.  "Whitelist Domains" - Used to determine if we should email a document or create a "Received Document"
+    b.  "Default Portal" - This is used when we try to send activation codes to users, so that they can get access to the system
 3. Other Configuration
-   a. "Portal Setup" chart tab - "Enable Activation Code Redemption"
+    a.  "Portal Setup" chart tab - "Enable Activation Code Redemption"
 
 ![](./send-document.assets/f744157ad09a5ccd8e3615ca0c6e7caa.png)
 
@@ -59,11 +60,11 @@ The "Send Document" window will pop up:
 ![](./send-document.assets/97cbc65ecaab9151c9dbc0403b60675a.png)
 
 1. "Subject" will be what is used on the email subject or the new received document.
-   a. Users are able to customize it
-   b. Number in the current value represents the document doc_id that the user is trying to send
+    a.  Users are able to customize it
+    b.  Number in the current value represents the document doc_id that the user is trying to send
 2. "From" will be the "From Address" on emails
 3. "Recipient" is an autocomplete input for all chart that have one of the "Contact" or "Provider" chart types
-   a. Users are able to create a new contact if needed
+    a.  Users are able to create a new contact if needed
 4. "Employer" is an autocomplete input for all Employer Organizations
 
 ### Add new Contact
@@ -96,7 +97,7 @@ After the "Send" button is clicked the "Send Document" window will change to thi
 
 ![](./send-document.assets/a8f8f1bd0decdc10991916238d530561.png)
 
-Notice the "Previously sent to" section lists the recipient information with links to the chart and the new "Received Document" (Doc ID 733). We also display the "Activation code" that was used.
+Notice the "Previously sent to" section lists the recipient information with links to the chart and the new "Received Document" (Doc ID 733).  We also display the "Activation code" that was used.
 
 If I choose the send the same document to someone using mieweb domain (whitelisted domain), this is how the "Send Document" window changes
 
@@ -126,7 +127,7 @@ Notice in the screen below, one of those contacts does not have an email address
 
 ![](./send-document.assets/49791091a060812a0091ee6da37ecc7d.png)
 
-You can then select the ones that they want to send the document to. The actions that happen next, depend on the user's email address and whether it's white listed, or not. We DO NOT generate activation codes on "Employer Contacts". The assumption is that these contacts are already active users and do not need to create an account.
+You can then select the ones that they want to send the document to.  The actions that happen next, depend on the user's email address and whether it's white listed, or not.  We DO NOT generate activation codes on "Employer Contacts".  The assumption is that these contacts are already active users and do not need to create an account.
 
 After you select contacts and click the "Send" button the window might look something like this:
 
@@ -136,4 +137,4 @@ After you select contacts and click the "Send" button the window might look some
 
 To learn more about Sending a Document, follow the link below to the Learning Management System course:
 
-- [Patient Portal Send Document on Demand](https://mie.talentlms.com/shared/start/key:SLERKMFP)
+* [Patient Portal Send Document on Demand](https://mie.talentlms.com/shared/start/key:SLERKMFP)

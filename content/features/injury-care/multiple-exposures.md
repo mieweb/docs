@@ -1,15 +1,14 @@
 ---
-id: "19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ"
-title: "Multiple Exposures"
-date: "2026-01-27T16:43:57.899Z"
-version: 663
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
+title: 'Multiple Exposures'
+date: '2026-01-27T17:10:07.003Z'
+version: 673
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
+wikigdrive: 'v2.15.30'
 ---
-
 The Multiple Exposures module is used to collect and store data on source patients. The exposure chart also identifies any individuals that were potentially exposed to the source patient. The purpose of the module is to collect data regarding the exposure case/incident and copy that information to individually exposed patient/employee charts. This module is not used for BBP/BFE (Body Fluid Exposures). Use the BBP/BFE Initial and Follow up encounters for BBP/BFE's type exposures.
 
 ## Searching for Existing Multiple Exposures
@@ -20,7 +19,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 2. To view all existing multiple exposures, simply click the Search button. To search for a specific multiple exposure, type in the last name of the Source Patient and click the Search button.
 
-_Hint: Select the Multiple Exposures to set the Perspective and hide unused fields in this workflow._
+*Hint: Select the Multiple Exposures to set the Perspective and hide unused fields in this workflow.*
 
 ![](./multiple-exposures.assets/d314cae2aa6f34ab2cf0e0e50ef14440.png)
 
@@ -34,7 +33,7 @@ _Hint: Select the Multiple Exposures to set the Perspective and hide unused fiel
 
 ![](./multiple-exposures.assets/bef6e2e7517a8eaac934a12ffbdcad20.png)
 
-3. Once the Multiple Exposure chart is created, the user is taken to the ‘Overview (MEXP)" chart tab. On the Overview (MEXP) chart tab, enter the Exposure Contacts (Exposed Patients/Employees) in the Contacts section. Make sure to use the autocomplete (search by last name), enter the Relation type of "Exposure Contact", the start date of exposure, and then click the "add" button. Click the ‘save/continue' button to save.
+3. Once the Multiple Exposure chart is created, the user is taken to the ‘Overview (MEXP)" chart tab. On the Overview (MEXP) chart tab, enter the Exposure Contacts (Exposed Patients/Employees) in the Contacts section.  Make sure to use the autocomplete (search by last name), enter the Relation type of "Exposure Contact", the start date of exposure, and then click the "add" button. Click the ‘save/continue' button to save.
 
 ![](./multiple-exposures.assets/251f3ae69113e996e22769d55fc352a1.png)
 
@@ -91,9 +90,9 @@ _Hint: Select the Multiple Exposures to set the Perspective and hide unused fiel
 
 ## Administrative Notes
 
-- You can only copy the case to a patient chart once. Any changes made on the Multiple Exposure Case (source patient) can not be re-copied nor auto-updated to the exposed patient chart(s)/contacts. You must make any updates directly in the exposed contact's chart(s) after it has been copied from the Multiple Exposure (source patient) encounter.
-- Only one Multiple Exposure encounter should be opened per Multiple Exposure chart. Multiple Exposure charts should be deactivated when no longer in use to prevent using more than once.
-- Not compatible with custom case flowsheets. Compatible with the out of the box case/incident section.
+* You can only copy the case to a patient chart once. Any changes made on the Multiple Exposure Case (source patient) can not be re-copied nor auto-updated to the exposed patient chart(s)/contacts. You must make any updates directly in the exposed contact's chart(s) after it has been copied from the Multiple Exposure (source patient) encounter.
+* Only one Multiple Exposure encounter should be opened per Multiple Exposure chart. Multiple Exposure charts should be deactivated when no longer in use to prevent using more than once.
+* Not compatible with custom case flowsheets. Compatible with the out of the box case/incident section.
 
 ## Reports
 

@@ -1,15 +1,14 @@
 ---
-id: "1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk"
-title: "Pat Restrictions"
-date: "2025-11-13T19:10:51.061Z"
+id: '1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
+title: 'Pat Restrictions'
+date: '2025-11-13T19:10:51.061Z'
 version: 38
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1cP_-ZxCOpwTVsoJZhZ41NTEWSIXQrTMt1fARjya8SRk'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Health Services Notice of Restriction for Frederick J Anderson
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Health Services Notice of Restriction
 

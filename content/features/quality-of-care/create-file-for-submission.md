@@ -1,31 +1,30 @@
 ---
-id: "1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0"
-title: "Create File for Submission"
-date: "2025-11-11T19:10:29.184Z"
+id: '1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
+title: 'Create File for Submission'
+date: '2025-11-11T19:10:29.184Z'
 version: 72
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.cms.gov/"
-  - "https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html"
-  - "https://www.ncqa.org/"
-  - "https://docs.enterprisehealth.com/functions/reports/"
-  - "https://docs.enterprisehealth.com/functions/quality-of-care/"
-  - "https://qpp.cms.gov/login"
-  - "https://www.youtube.com/watch?v=DLBsBw55p7Y&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=X8vHB2gfonU&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=TeIh6h7mByY&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=jgcx8rsTY3w&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=lj3vH4gID0Q&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=wP_sGO0cdX4&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=Uh12TBmlC7A&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=_NJ0t_cfMXY&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be"
-  - "https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be"
-source: "https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0"
-wikigdrive: "v2.15.30"
+  - 'https://www.cms.gov/'
+  - 'https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html'
+  - 'https://www.ncqa.org/'
+  - 'https://docs.enterprisehealth.com/functions/reports/'
+  - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
+  - 'https://qpp.cms.gov/login'
+  - 'https://www.youtube.com/watch?v=DLBsBw55p7Y&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=X8vHB2gfonU&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=TeIh6h7mByY&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=jgcx8rsTY3w&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=lj3vH4gID0Q&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=wP_sGO0cdX4&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=Uh12TBmlC7A&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=_NJ0t_cfMXY&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=iGFYslxit-U&feature=youtu.be'
+  - 'https://www.youtube.com/watch?v=yd6EBtEGX1w&feature=youtu.be'
+source: 'https://drive.google.com/open?id=1s7gL-WlwmwexJt1Pjhrj3BH7voPSSsZHTR728cFXca0'
+wikigdrive: 'v2.15.30'
 ---
-
 Health IT and data collection is integral in assisting the various arms of the healthcare industry to reduce costs while consistently improving patient care and outcomes. Organizations such as the [U.S. Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), the [Agency for Healthcare Research & Quality](https://www.ahrq.gov/professionals/quality-patient-safety/quality-resources/index.html) (AHRQ), or even the [National Committee of Quality Assurance](https://www.ncqa.org/) (NCQA), offer many tools and various programs designed to assist health IT vendors, clinical practices, and the like to ensure accurate data collection for analysis and critical decision making of value-based contract arrangements.
 
 The following instructions outline the general process for generating a file from the {{% system-name %}} system, which then allows administrators to submit the certified data, as needed, to the appropriate organizations:
@@ -38,8 +37,7 @@ The following instructions outline the general process for generating a file fro
 2. Navigate to the [Reports](https://docs.enterprisehealth.com/functions/reports/) sidemenu.
 3. Go to the [Quality of Care](https://docs.enterprisehealth.com/functions/quality-of-care/) reports and tools.
 
-   ![](./create-file-for-submission.assets/18db19fee9484382067fc4a890a6076b.png)
-
+    ![](./create-file-for-submission.assets/18db19fee9484382067fc4a890a6076b.png)
 4. Under <strong>Tools</strong>, select the appropriate file generator for submission. In this example, we will use QPP JSON File Generator.
 
 {{% info %}}
@@ -47,7 +45,7 @@ The QPP JSON File Generator allows QPP participants the ability to generate the 
 {{% /info %}}
 
 5. The generator allows users to specify reporting years, select specific participants/providers, or limit individual categories from the report, as appropriate. After selecting the appropriate values, click the <strong>Download Reporting Document(s)</strong> button.  
-   ![](./create-file-for-submission.assets/19d7798c4ae6265e40b9bb1f471b1640.png)
+    ![](./create-file-for-submission.assets/19d7798c4ae6265e40b9bb1f471b1640.png)
 6. When <strong>Download Reporting Document(s)</strong> is clicked, the page will automatically download the appropriate number of files, based on the number of participants specified in the file criteria. If multiple participants are selected, an individual file will be generated for each participant, appending the Provider ID to the filename.
 7. Be sure to <strong>Save</strong> the file(s) to your device.
 8. With the file(s) saved to the device, navigate to the submission portal to upload the generated file(s). In this example, we will be navigating to the QPP portal, where we can upload the file(s), as appropriate.

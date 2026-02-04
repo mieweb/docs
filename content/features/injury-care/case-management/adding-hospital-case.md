@@ -1,16 +1,15 @@
 ---
-id: "1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk"
-title: "Adding Hospital Case"
-date: "2020-03-09T23:03:30.240Z"
+id: '1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
+title: 'Adding Hospital Case'
+date: '2020-03-09T23:03:30.240Z'
 version: 42
-lastAuthor: "aquandt"
-mimeType: "text/x-markdown"
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
 links:
-  - "../adding-restrictions.md"
-source: "https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk"
-wikigdrive: "v2.15.30"
+  - '../adding-restrictions.md'
+source: 'https://drive.google.com/open?id=1wAgvjZdzIQWyUS1XQaiBRU4aEjN62c9TByQf8B5JJYk'
+wikigdrive: 'v2.15.30'
 ---
-
 A case is a full report of a workplace injury or an incident involving an employee (patient). The case is usually created in an initial visit (encounter) with the patient, and is then linked to subsequent visits. A case links all follow-up visits (encounters), restrictions, accommodations, conditions, and nature of injury information. All of the documents pertaining to the case are grouped together within the chart for reporting purposes.
 
 {{% info %}}
@@ -25,12 +24,12 @@ This help documentation is designed to assist in creating and documenting a Hos
 
 By default, the Case section of encounters will display the following case types:
 
-- Injury (OSHA Standard)
-- Injury (Non-OSHA Standard)
-- Hospital
-- Absence Management
-- Medical Suitability of Expatriate Assignment (MSEA)
-- Medical Surveillance
+* Injury (OSHA Standard)
+* Injury (Non-OSHA Standard)
+* Hospital
+* Absence Management
+* Medical Suitability of Expatriate Assignment (MSEA)
+* Medical Surveillance
 
 ![](./adding-hospital-case.assets/895ee8d7d82d2149015041165ef84d4f.png)
 

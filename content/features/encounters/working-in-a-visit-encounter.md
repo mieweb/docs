@@ -1,31 +1,30 @@
 ---
-id: "1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M"
-title: "Working in a Visit Encounter"
-date: "2025-11-10T19:38:35.987Z"
-version: 577
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
+title: 'Working in a Visit Encounter'
+date: '2025-11-10T19:38:35.987Z'
+version: 581
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "working-in-a-legacy-encounter.md"
-  - "https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/"
-  - "https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-remove-delete-edit/"
-  - "https://docs.enterprisehealth.com/functions/injury-care/adding-restrictions/"
-  - "https://docs.enterprisehealth.com/functions/injury-care/viewing-restrictions/"
-  - "https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/"
-  - "https://docs.enterprisehealth.com/functions/injury-care/viewing-accommodations/"
-  - "https://docs.enterprisehealth.com/functions/encounters/carbon-copy/"
-  - "https://docs.enterprisehealth.com/functions/encounters/clinical-education/"
-  - "https://docs.enterprisehealth.com/functions/encounters/final-summary-encounter-sections/"
-  - "https://mie.talentlms.com/shared/start/key:LABIDNHR"
-source: "https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M"
-wikigdrive: "v2.15.30"
+  - 'working-in-a-legacy-encounter.md'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-applying-adding-completing-resulting/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/tests-and-procedures-section-remove-delete-edit/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/adding-restrictions/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/viewing-restrictions/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/adding-accommodations/'
+  - 'https://docs.enterprisehealth.com/functions/injury-care/viewing-accommodations/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/carbon-copy/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/clinical-education/'
+  - 'https://docs.enterprisehealth.com/functions/encounters/final-summary-encounter-sections/'
+  - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
+source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
+wikigdrive: 'v2.15.30'
 ---
-
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 
 ## Chart Tabs
 
-When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and documents within the patient's chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.
+When working in a dynamic encounter, you will notice the tabs are the very top. Those are the patient chart tabs (chart tabs in the patient record). Browsing out to other chart tabs and  documents within the patient's chart while working in an encounter is easy by accessing those tabs. The dynamic encounter auto-saves your work in real-time so there is no need to click the "save" button to save your work on an encounter before browsing out unless so desired on demand.
 
 When you scroll up in the encounter, these chart tabs will collapse and hide to help with real-estate on your screen. To access the chart tabs, simply scroll up just a bit with your mouse or finger (if using a touchscreen device). The chart tabs will reappear for accessibility.
 
@@ -77,9 +76,9 @@ If you have not released the encounter, when a user navigates to an encounter th
 
 If a user has an encounter as ‘current' and has not manually released it, the current encounter (if any), will auto-release the current one based on these conditions:
 
-- Encounter is Closed with a service date 7 or more days in the past (from today's date).
-- Encounter is Open with a service date 30 or more days in the past (from today's date).
-- A user can set an old encounter to be ‘current' beyond these dates, but the system will auto-release them 2 days later.
+* Encounter is Closed with a service date 7 or more days in the past (from today's date).
+* Encounter is Open with a service date 30 or more days in the past (from today's date).
+* A user can set an old encounter to be ‘current' beyond these dates, but the system will auto-release them 2 days later.
 
 ## Multiple Users in Encounter
 
@@ -181,11 +180,11 @@ When you click on a section title bar, the section will expand open to enable yo
 
 ![](./working-in-a-visit-encounter.assets/1de8bdf3e80e7672011d78bb8460946d.png)
 
-Clicking the
+Clicking the 
 ![](./working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)
-button will save and close that section and expand open the section that is next for you to key in data. The
+ button will save and close that section and expand open the section that is next for you to key in data. The 
 ![](./working-in-a-visit-encounter.assets/a3d443ace87dc0342cac6046625439a6.png)
-at the top right of the section also performs as a "next" button.
+ at the top right of the section also performs as a "next" button.
 
 ![](./working-in-a-visit-encounter.assets/a64ce62c77cf52d950ddab5ed7181201.png)
 
@@ -201,7 +200,7 @@ By default, Quick Lists do not display in the encounter. Click the ribbon icon o
 
 ![](./working-in-a-visit-encounter.assets/df1f1cdc14d21f7c694760fa7d0b996b.png)
 
-Users may update their user preference in _My Settings_, to always display Quick Lists, rather than manually clicking to display them.
+Users may update their user preference in *My Settings*, to always display Quick Lists, rather than manually clicking to display them.
 
 ![](./working-in-a-visit-encounter.assets/62dd60b0530c46594ba88e340e3e04be.png)
 
@@ -257,7 +256,7 @@ See separate help documentation named [Tests & Procedures Section-Applying/Addi
 
 ### Assessment (or Impression)
 
-There are several encounter sections that comprise the Assessment of an encounter. Please refer to each encounter section's own help guide.
+There are several encounter sections that comprise the Assessment of an encounter.  Please refer to each encounter section's own help guide.
 
 ### Plan
 
@@ -279,7 +278,7 @@ See separate help documentation regarding [Adding Accommodations](https://docs.e
 
 ### CC
 
-When the Co-Signing Provider is set for a user within My Settings, and that user is listed as the Provider at the time the encounter is opened, then the Co-singing Provider name will display in the CC encounter section by default. If the encounter is opened where the specific individual provider is not known (for example, opening an encounter from the "Nurse 1" or "Provider 2" schedule) the co-signing provider will be unknown and not automatically populated. Users may however manually use the autocomplete in the CC encounter section to manually search and add the Co-signing Provider to the current encounter note.
+When the Co-Signing Provider is set for a user within My Settings, and that user is listed as the Provider at the time the encounter is opened, then the Co-singing Provider name will display in the CC encounter section by default. If the encounter is opened where the specific individual provider is not known (for example, opening an encounter from the  "Nurse 1" or "Provider 2" schedule) the co-signing provider will be unknown and not automatically populated. Users may however manually use the autocomplete in the CC encounter section to manually search and add the Co-signing Provider to the current encounter note.
 
 ![](./working-in-a-visit-encounter.assets/1b3bc90be7b6353cc69052aadcc01040.png)
 
@@ -359,13 +358,13 @@ Stored templates in your system can be deleted in their entirety. Click on the 
 
 The encounter tools pop up now has a section for Experimental Features, including a button to enable/disable AI-suggested operations. As experimental encounter features are available for client use and/or beta testing, they can be enabled in this section, provided all other configuration has been completed.
 
-_Note: The AI Assistant must be configured for the AI-Suggested Operation feature to work._
+*Note: The AI Assistant must be configured for the AI-Suggested Operation feature to work.*
 
 ![](./working-in-a-visit-encounter.assets/7a4bd9ac552b211bad1505e04d14426d.png)
 
 ### Deleting Observations Individually/En Masse
 
-Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the* Trash Can* icon next to the observation. Click the _Eye_ icon to view attributes of the observation.
+Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the* Trash Can* icon next to the observation. Click the *Eye* icon to view attributes of the observation.
 
 ![](./working-in-a-visit-encounter.assets/a80a034fb31c511ab07dfa8e97399bbb.png)
 
@@ -401,7 +400,7 @@ You can still get into a closed encounter as before, but dynamic encounters will
 
 Encounter sections themselves can generate and store as their own additional document upon the encounter's archive & close. Each section is a layout and the layout can be set to a specific document type to store as. The section would still be part of the entire stored encounter document, but upon archive & close, the section would store as its own document in the chart if a document type is set on the section layout.
 
-The Clinical/Visit Summary is also a standard additional view that is generated. An additional view for the Clinical (Visit) Summary is configured in the Encounter Exams editor.
+The Clinical/Visit Summary is also a standard additional view that is generated.  An additional view for the Clinical (Visit) Summary is configured in the Encounter Exams editor.
 
 ![](./working-in-a-visit-encounter.assets/7942fa2ec186e446e6d61b950f956f39.png)
 
@@ -411,7 +410,7 @@ The Patient Clinical Visit Summary has been updated to make it more uniform, com
 
 ## Save Encounter Data If Logged Out
 
-Beginning in RC202403, If a user's login session expires before submitting an encounter, all entered data will now be saved/submitted as expected _once_ the re-login has been completed.
+Beginning in RC202403, If a user's login session expires before submitting an encounter, all entered data will now be saved/submitted as expected *once* the re-login has been completed.
 
 ![](./working-in-a-visit-encounter.assets/f72968eb2150733278893a90aaf68ab5.png)
 
@@ -419,4 +418,4 @@ Beginning in RC202403, If a user's login session expires before submitting an en
 
 To learn more about Working in a Visit Encounter, follow the link below to the Learning Management System course:
 
-- [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)
+* [Encounter Templates/Visit Notes](https://mie.talentlms.com/shared/start/key:LABIDNHR)

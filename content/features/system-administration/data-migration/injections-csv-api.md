@@ -1,22 +1,21 @@
 ---
-id: "1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
-title: "Injections CSV API"
-date: "2025-11-12T19:06:33.248Z"
+id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
+title: 'Injections CSV API'
+date: '2025-11-12T19:06:33.248Z'
 version: 70
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
-  - "https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit?usp=sharing"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
-  - "http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx"
-  - "https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true"
-  - "https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/"
-source: "https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
+  - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/edit?usp=sharing'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
+  - 'http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx'
+  - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true'
+  - 'https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
+source: 'https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) for injections using the Injections CSV API.
 
 ## Audience
@@ -29,9 +28,9 @@ Enterprise Health stores discrete data for injections/immunizations, which can b
 
 It is valuable to recognize the following terminology as it pertains to MIE systems:
 
-- A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
-- A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
-- An <strong>encounter</strong> documents a visit with an employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
+* A <strong>chart</strong> is an employee's (patient's) electronic medical information organized in tabular form. A chart is simply a way to collect different information on one topic, just like a physical patient chart would contain a variety of information on an individual. Audio tests are linked to a chart through a document.
+* A <strong>document</strong> in EH is a way of storing non-discrete information in patient charts. This includes patient photographs, insurance cards, physician or nurse notes, imaging studies, past medical histories, CCDs and CDAs, email correspondence about a patient, injections, and many other forms of data.
+* An <strong>encounter</strong> documents a visit with an employee, and is also known as a patient visit. An encounter is a template of specific items to be addressed, in part or completely, during an appointment including the subjective, objective, assessment and plan. This is a tool used for recording information collected during an appointment and, in turn, the data collected will be stored and also incorporated in the final desired outcome: the visit report/note, which is a document stored in EH.
 
 CSV refers to the type of file and format of data needed to import information into an EH system. API refers to how the data interacts with the EH system. See the [Import Overview](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/) page for a more detailed explanation of terminology.
 
@@ -237,23 +236,23 @@ The following fields (indicated in the Data Name column) are noted as required (
 
 The following fields are required:
 
-- <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> (documents.pat_id_type) are used to to correctly identify a chart.
-- <em>External ID</em> (documents.ext_doc_id) identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
-- <em>Test Date/Time</em> (documents.service_date) is used to indicate when the test was conducted, and must be in SQL format. YYYY-MM-DD HH:MM:SS (2015-09-28 15:42:24).
-- <em>Injection Description</em> (injections.description) is the text description of the injection given.
+* <em>Chart ID</em> (documents.pat_id) and <em>Chart ID Type</em> (documents.pat_id_type) are used to to correctly identify a chart.
+* <em>External ID</em> (documents.ext_doc_id) identifies a record in the original data source (i.e., this is often the primary or unique key on the table of the legacy database that is being migrated to the MIE system).
+* <em>Test Date/Time</em> (documents.service_date) is used to indicate when the test was conducted, and must be in SQL format. YYYY-MM-DD HH:MM:SS (2015-09-28 15:42:24).
+* <em>Injection Description</em> (injections.description) is the text description of the injection given.
 
 #### Best Practice
 
 The following fields are optional, but provide useful details for record keeping purposes:
 
-- <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes.
+* <em>CDC Injection Code</em> (injections.inject_code) documents the CDC Immunization Information Systems CVX Codes.
 
 #### Optional fields
 
 The following optional fields are needed to link the document to a patient encounter:
 
-- <em>Encounter External Identifier</em> (encounters.ext_id)
-- <em>Encounter Interface</em> (encounters.interface)
+* <em>Encounter External Identifier</em> (encounters.ext_id)
+* <em>Encounter Interface</em> (encounters.interface)
 
 Including the field encounter order_id will also create an encounter order of the identified in the field.
 
@@ -261,8 +260,8 @@ Including the field encounter order_id will also create an encounter order of th
 
 Examples using sample data are provided on
 
-- [Google spreadsheet](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true)
-- [Downloadable CSV](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv)
+* [Google spreadsheet](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true)
+* [Downloadable CSV](https://docs.google.com/spreadsheets/d/1LQYIL7YlYG0nwlKs_hUN_wCP_pPNSiJ5we8IbJxCExA/pub?gid=1934551280&single=true&output=csv)
 
 ## Validation
 
@@ -270,4 +269,4 @@ Unless otherwise specified, validation between the previous system and the new E
 
 ## Related Pages
 
-- [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)
+* [Data Import Master List](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/)

@@ -1,15 +1,14 @@
 ---
-id: "1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA"
-title: "Device Interface - PortaCount FitPro Ultra"
-date: "2026-01-05T19:04:12.689Z"
+id: '1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
+title: 'Device Interface - PortaCount FitPro Ultra'
+date: '2026-01-05T19:04:12.689Z'
 version: 135
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
+wikigdrive: 'v2.15.30'
 ---
-
 Before users can import FitPro Ultra test results into {{% system-name %}} they must first create an export file from the FitPro Ultra software. Once the file has been exported from the FitPro Ultra software and saved to the user's local computer, navigate to the FitPro Ultra Upload tool in {{% system-name %}}.
 
 {{% note %}}

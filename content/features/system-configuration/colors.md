@@ -1,15 +1,14 @@
 ---
-id: "1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA"
-title: "Colors"
-date: "2025-12-04T18:57:59.742Z"
+id: '1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
+title: 'Colors'
+date: '2025-12-04T18:57:59.742Z'
 version: 165
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1c_NR6b7WnKmTXG3LmEy2jwpnNK2a007XE4igVcNLOzA'
+wikigdrive: 'v2.15.30'
 ---
-
 From the Control Panel sidemenu tab, you can get to the {{% system-name %}} system colors to change any colors. This will change the look of your {{% system-name %}} system for all users.
 
 ![](./colors.assets/6808101cbed20db4d20ef91be514cd12.png)
@@ -18,7 +17,7 @@ When you are in the Colors module, there are 2 choices of Color Scheme by defaul
 
 ![](./colors.assets/643152a5c6114f654fd48fb0baedc733.png)
 
-Each logged in user has their own My Settings preference to determine which color scheme they want to see {{% system-name %}} in. However any changes done to any color scheme in {{% system-name %}} will affect all users that have that selected. The My Settings preference is called _Color Scheme_.
+Each logged in user has their own My Settings preference to determine which color scheme they want to see {{% system-name %}} in. However any changes done to any color scheme in {{% system-name %}} will affect all users that have that selected. The My Settings preference is called *Color Scheme*.
 
 ![](./colors.assets/35615f7668b50b26588a037865334625.png)
 
@@ -38,11 +37,11 @@ Below that is where you can change the entire system font. If all you want to do
 
 ![](./colors.assets/d5271d186197f6feed41f13cef1c4895.png)
 
-Down at the bottom is a _Refresh Image Cache_ button. You may want to scroll down there first and click that. This makes sure that the most recent copy of all images/colors are being used.
+Down at the bottom is a *Refresh Image Cache* button. You may want to scroll down there first and click that. This makes sure that the most recent copy of all images/colors are being used.
 
 ![](./colors.assets/ca85765949a0d160beec050aae7cbe90.png)
 
-The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field _or_ if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied to this color.
+The next section is all the settings that colors can be changed and shows the color they are set to currently. The radio button is what you would click to select that specific item you want to change color for. The next step would be to either select a color on the right side with your mouse to apply to that selected field *or* if you know a specific Hex Value code that you want for it, you can type that in the field. Whatever radio button of the item selected is what will be applied to this color.
 
 ![](./colors.assets/35e8066c06448e794b0df99af5a16ed7.png)
 
@@ -53,7 +52,6 @@ The Submit Colors button is at the bottom of the screen which you would click to
 ![](./colors.assets/1f6c17d4be00d1abe9b823c56a5719ae.png)
 
 For details on every specific item to change color for (where/what will change if you select something to change its color), please see next pages.
-
 <table>
 <tr>
 <td><strong>Item</strong></td>

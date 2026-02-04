@@ -1,21 +1,20 @@
 ---
-id: "1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU"
-title: "Insurance Plans"
-date: "2025-11-12T14:23:35.137Z"
+id: '1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU'
+title: 'Insurance Plans'
+date: '2025-11-12T14:23:35.137Z'
 version: 77
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "../../e-chart/insurance-summary-in-demographics-tab.md"
-source: "https://drive.google.com/open?id=1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU"
-wikigdrive: "v2.15.30"
+  - '../../e-chart/insurance-summary-in-demographics-tab.md'
+source: 'https://drive.google.com/open?id=1bWGS4nnTzQx6rf4OOzF1WHu5smgWhH5HYEOG42DKpBU'
+wikigdrive: 'v2.15.30'
 ---
-
 With proper security rights, System Administrators can manage a list of insurance plans available for use in the system. **_Insurance Plans_** can be found under the Control Panel. For more information on how insurance plans are used in the registration and patient demographics see additional help labeled [Insurance Summary in Demographics Tab](../../e-chart/insurance-summary-in-demographics-tab.md).
 
 ## Security Permission
 
-There are different levels of security that can be assigned to specific security roles and should be considered when adding or modifying system controls. The _Manage Insurance Plans_ security role setting only applies to the _Insurance Plans_ manager under the Control Panel. This setting does not apply to the ability to add an insurance plan to a patient chart. This security is only for managing the master list of insurance plans utilized by staff.
+There are different levels of security that can be assigned to specific security roles and should be considered when adding or modifying system controls. The *Manage Insurance Plans* security role setting only applies to the *Insurance Plans* manager under the Control Panel. This setting does not apply to the ability to add an insurance plan to a patient chart. This security is only for managing the master list of insurance plans utilized by staff.
 
 ![](./insurance-plans.assets/a84a87d88dc94e900889cef54d55cf61.png)
 
@@ -33,7 +32,7 @@ In RC202403, the insurance plan list was changed to a datavis style format.
 
 ![](./insurance-plans.assets/04818efefe11a191681bc043b80a9fec.png)
 
-In RC202503, users will also see the addition of a new column called _Insurance Type._
+In RC202503, users will also see the addition of a new column called *Insurance Type.*
 
 ![](./insurance-plans.assets/061b9d1e3cc1f5b8fb964e55f7b208d7.png)
 
@@ -43,11 +42,11 @@ Click the Add Plan above the right hand side of the datavis.
 
 ![](./insurance-plans.assets/6f64814307f85ff97ccc14736dac9d71.png)
 
-Enter the applicable information for the Insurance Company. The Insurance Code can be manually created (often done for clients wishing to migrate and prior system codes or to match a billing system). However, if a unique code is desired so as not to clash with any other interface or external system, click the **_Generate_** button to create a system generated unique Insurance code. Additional fields include Address 1, Address 2, City, State, Zip, Phone, Fee Schedule, National Payor ID, Comments. When all fields are completed press the **_Save_** button.
+Enter the applicable information for the Insurance Company.  The Insurance Code can be manually created (often done for clients wishing to migrate and prior system codes or to match a billing system). However, if a unique code is desired so as not to clash with any other interface or external system, click the **_Generate_** button to create a system generated unique Insurance code. Additional fields include Address 1, Address 2, City, State, Zip, Phone, Fee Schedule, National Payor ID, Comments. When all fields are completed press the **_Save_** button.
 
 ![](./insurance-plans.assets/658a4285d4f8ed38ec56f201fba5fcc3.png)
 
-In RC202503, users will also have the opportunity to Add an Insurance Type. The most commonly used types of _Medicare, Medicaid, Private and BlueCross/Shield_ display with radiobutton options. An _Other_ option displays as well. When selected, the user may select from a predefined list in the autocomplete.
+In RC202503, users will also have the opportunity to Add an Insurance Type. The most commonly used types of *Medicare, Medicaid, Private and BlueCross/Shield* display with radiobutton options. An *Other* option displays as well. When selected, the user may select from a predefined list in the autocomplete.
 
 ![](./insurance-plans.assets/162356cc159aa4736797b29233281bc6.png)
 

@@ -1,17 +1,16 @@
 ---
-id: "1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I"
-title: "Inventory Weekly Review"
-date: "2026-01-20T18:11:07.995Z"
+id: '1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
+title: 'Inventory Weekly Review'
+date: '2026-01-20T18:11:07.995Z'
 version: 54
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/"
-source: "https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/'
+source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
+wikigdrive: 'v2.15.30'
 ---
-
-The Weekly Review Inventory Tab is located within the sidemenu tab named _Inventory_.
+The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
 
 Weekly Review tab shows you a worklist of problem inventory items that should be reviewed. These are inventory items that have a negative quantity that need attention or expired meds in the inventory that need worked on. We call it ‘weekly review' because this tab should be looked at weekly as meds expire regularly (depending on the expiration date that was entered) and inventory could get a negative quantity if items aren't dispensed correctly or quantities modified correctly. Your practice can rename this tab as you wish. Items will appear on this list for one of two reasons: 1) They fall outside the PAR limits that are set on that inventory item and 2) They are about to expire.
 
@@ -19,7 +18,7 @@ Your MIE Implementer can also set up an email cron job to email someone in your 
 
 ![](./inventory-weekly-review.assets/516d0820c46ac4554f457b51c6fda980.png)
 
-By default, the Weekly Review will open to show you 2 buckets. The _General Inventory Review_ section and the _Patient Assistance Inventory_ _Review_ section.
+By default, the Weekly Review will open to show you 2 buckets. The *General Inventory Review* section and the *Patient Assistance Inventory* *Review* section.
 
 ## General Inventory Review
 
@@ -27,7 +26,7 @@ The General Inventory Review section shows any inventory items that have a zero 
 
 ![](./inventory-weekly-review.assets/761b2f34e8eb03bb02e24e837d14c1d1.png)
 
-The item name and Lot number fields are hyperlinks. If you click an item name or lot number shown there, it will take you to the _Transaction Report_ screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you.
+The item name and Lot number fields are hyperlinks. If you click an item name or lot number shown there, it will take you to the *Transaction Report* screen and automatically limit that report screen to the item/lot number you clicked. It prefills fields for you.
 
 In the Weekly Review, you have options to Edit and/or Expire a medication or a supply. For explanation on these options, please see the other help documentation named [Show Inventory](https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/).
 

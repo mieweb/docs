@@ -1,16 +1,15 @@
 ---
-id: "1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA"
-title: "CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention"
-date: "2024-05-20T18:44:58.997Z"
-version: 46
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
+title: 'CMS 138 - Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention'
+date: '2024-05-20T18:44:58.997Z'
+version: 47
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet"
-source: "https://drive.google.com/open?id=1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func&name=RXDBmain&module&tabmodule&searchterm=CMS138&Submit=Search&icd9search=0&icd10search=0&icd10pcssearch=0&snomedsearch=0&loincsearch=0&labcorpsearch=0&questsearch=0&rxnormsearch=0&hcpcssearch=0&ndcsearch=0&cvxsearch=0&vissearch=0&vssearch=0&meassearch=1&pcssearch=1&fdbsearch=1&fdbnamesearch=1&fullsearch&flowsheet'
+source: 'https://drive.google.com/open?id=1H4Ws_OMCIM-x7QICksd0M1RbYz9CVRKgvNUb05tJhKA'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 CMS138v8 (2020)
@@ -36,7 +35,7 @@ CMS138v10 (2022)
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -111,20 +110,21 @@ CMS138v10 (2022)
 
 ### New UI Visit Encounter (valid RC202109+)
 
+
 ### Original Visit Encounter
 
 Using the Social History section of the encounter, ensure smoking status is documented and additional details are noted with the respective status (i.e., current smoker, former smoker, etc.). Cessation counseling or medications should be noted, when applicable, in order to populate the numerator appropriately.
 
 1. While documenting the Visit Encounter, open the Social History section.
 2. Assess Smoking Status: (select one)
-   1. Current every day smoker
-   2. Current some day smoker
-   3. Former smoker
-   4. Never smoker
-   5. Heavy tobacco smoker
-   6. Light tobacco smoker
-   7. Smoker, current status unknown
-   8. Unknown if ever smoked
+    1. Current every day smoker
+    2. Current some day smoker
+    3. Former smoker
+    4. Never smoker
+    5. Heavy tobacco smoker
+    6. Light tobacco smoker
+    7. Smoker, current status unknown
+    8. Unknown if ever smoked
 3. Based on the selected smoking status, additional fields/choices may need addressed (e.g., Age Started, Age Quit, Cessation Counseling, etc.). Answer accordingly.
 
 {{% note %}}

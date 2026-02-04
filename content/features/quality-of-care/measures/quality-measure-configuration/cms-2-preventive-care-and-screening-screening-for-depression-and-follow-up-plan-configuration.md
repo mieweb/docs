@@ -1,20 +1,19 @@
 ---
-id: "1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M"
-title: "CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Configuration"
-date: "2024-11-06T17:23:00.734Z"
+id: '1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M'
+title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Configuration'
+date: '2024-11-06T17:23:00.734Z'
 version: 85
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v12&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md"
-  - "https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information"
-source: "https://drive.google.com/open?id=1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v12&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - '../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md'
+  - 'https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information'
+source: 'https://drive.google.com/open?id=1dd1jmIH4Xu8nWG80UinTqZluoTtf4RuswpJ69hMb49M'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS2v13](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2) (2024)
@@ -25,13 +24,13 @@ wikigdrive: "v2.15.30"
 
 ## Clinical Instructions
 
-Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period. Encounter eligibility is determined based on the billing codes linked to the encounter. Use the preferred Test and Procedures section or the alternate Preventive Care section of the Visit encounter to order and perform an age appropriate depression screening. Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Perform the following steps to document a depression screening.
+Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period.  Encounter eligibility is determined based on the billing codes linked to the encounter.  Use the preferred Test and Procedures section or the alternate Preventive Care section of the Visit encounter to order and perform an age appropriate depression screening.  Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Perform the following steps to document a depression screening.
 
 For detailed information on the recommended workflow please [click here](../quality-measure-specifications-and-recommended-workflows/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-workflow.md#overview).
 
 ## Compliance Configuration
 
-Four observations are required to comply with the recommended workflow for CMS2v13. These observations can be added to the included PHQ2 and PHQ9 flowsheets, added to a custom flowsheet, or entered individually. If you are interested in a custom flowsheet containing only the four observations as described below, please contact MIE for a configuration file.
+Four observations are required to comply with the recommended workflow for CMS2v13.  These observations can be added to the included PHQ2 and PHQ9 flowsheets, added to a custom flowsheet, or entered individually.  If you are interested in a custom flowsheet containing only the four observations as described below, please contact MIE for a configuration file.
 
 <table>
 <tr>
@@ -93,7 +92,7 @@ Four observations are required to comply with the recommended workflow for CMS2v
 </tr>
 </table>
 
-The observation LOINC code and custom discrete value SNOMED Concept IDs for the depression screening assessments are direct codes required by the measure. These two observations cannot be customized. The follow-up observations (for those practices ordering non-medication based follow-up) do not require a LOINC code, and the custom discrete values can be customized to fit your practice's needs. Follow-up for Adult Depression can include any custom discrete values from the 2.16.840.1.113883.3.526.3.1568 value set while Follow-up for Adolescent Depression can include any values from the 2.16.840.1.113883.3.526.3.1569 value set.
+The observation LOINC code and custom discrete value SNOMED Concept IDs for the depression screening assessments are direct codes required by the measure.  These two observations cannot be customized.  The follow-up observations (for those practices ordering non-medication based follow-up) do not require a LOINC code, and the custom discrete values can be customized to fit your practice's needs.  Follow-up for Adult Depression can include any custom discrete values from the 2.16.840.1.113883.3.526.3.1568 value set while Follow-up for Adolescent Depression can include any values from the 2.16.840.1.113883.3.526.3.1569 value set.
 
 ## Source(s)
 

@@ -1,24 +1,23 @@
 ---
-id: "1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk"
-title: "Audio Tool Tab"
-date: "2025-11-13T14:50:12.701Z"
+id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
+title: 'Audio Tool Tab'
+date: '2025-11-13T14:50:12.701Z'
 version: 465
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/"
-  - "https://mie.talentlms.com/shared/start/key:ZOLDNHRK"
-source: "https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/'
+  - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
+source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
+wikigdrive: 'v2.15.30'
 ---
-
 Within an encounter is where typically an audiogram is entered to document Audiogram test results.
 
 ![](./audio-tool-tab.assets/27b30ac7a1e1c9dbf50cba0964c32ad7.png)
 
-However, your system may have a chart tab named _Audio Tool_ where you can document audiogram results manually or by device interface. If using the _Audio Tool_ chart tab, click the _Add Audiogram_ link to add Audiogram test results. The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
+However, your system may have a chart tab named *Audio Tool* where you can document audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.   The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
 
 NOTE: The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter.
 
@@ -32,7 +31,7 @@ Use the toggle button within the Audiogram screen to Show/Hide a limited Audiogr
 
 ![](./audio-tool-tab.assets/71167e3bdcf1b601296eb6b0fd868d35.png)
 
-NOTE: typically a separate hearing or noise questionnaire is utilized via the portal or during the visit to capture much more information regarding noise exposures, etc. Those separate questionnaire(s) can be linked to the encounter, reviewed, and documented with an interpretation.
+NOTE: typically a separate hearing or noise questionnaire is utilized via the portal or during the visit to capture much more information regarding noise exposures, etc.  Those separate questionnaire(s) can be linked to the encounter, reviewed, and documented with an interpretation.
 
 ![](./audio-tool-tab.assets/b6fe83c77b7be9f8b64dfee02490f5bd.png)
 
@@ -50,8 +49,8 @@ For manual entry:
 
 Enter results from the device output
 
-- Data results are 1-2 numeric characters in increments of 5.
-- NR- No Result should be manually entered as 99.
+* Data results are 1-2 numeric characters in increments of 5.
+* NR- No Result should be manually entered as 99.
 
 Manually enter New or Edit existing results for left ear, right ear, device number, test date, calibration date and outside service provider and location, if applicable.
 
@@ -59,11 +58,11 @@ Manually enter New or Edit existing results for left ear, right ear, device numb
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments.
 
-The _device number_ field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
 
 ![](./audio-tool-tab.assets/f4de0dbd43c689cd7d9642a45cc52c5a.png)
 
-The _asset_ field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.
+The *asset* field is an autocomplete that is tied to assets configured in the Asset Management module. This module must be implemented to utilize this field. If selected, the system will use the last calibration date chosen for the current audiogram asset. The calibration date will automatically pre populate based on the current selected asset from this field.
 
 {{% info %}}
 The Asset field will be "remembered" and will pre-populate upon the next audiogram entry for any patient.
@@ -71,7 +70,7 @@ The Asset field will be "remembered" and will pre-populate upon the next audiogr
 
 ![](./audio-tool-tab.assets/20f231197188ac56cad00b35fc16084b.png)
 
-Once all applicable data has been entered, click the _Save_ button. The user may at any time click the _Cancel_ button to cancel data entry.
+Once all applicable data has been entered, click the *Save* button. The user may at any time click the *Cancel* button to cancel data entry.
 
 ![](./audio-tool-tab.assets/c454b285dde2859c35307eb6aa6bf324.png)
 
@@ -83,7 +82,7 @@ The data will be stored in the **Audiogram** and **Documents** chart tabs. If th
 
 ## Baselines and Alerts
 
-Click the _Baseline History_ button to see a history of baseline studies.
+Click the *Baseline History* button to see a history of baseline studies.
 
 ![](./audio-tool-tab.assets/3746462812d62a7c19d80be9308252d5.png)
 
@@ -109,7 +108,7 @@ In the event a STS has been detected a second pop up message will display warnin
 
 ![](./audio-tool-tab.assets/942795b0230c7d5b70035ee9c91aacc9.png)
 
-The system default warning notifies the user to retest _within_ 21 days.  OSHA requires the employee be retested _within_ 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** _See additional online help guide named_ [_Adding OSHA Case_](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)_._
+The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See additional online help guide named* [*Adding OSHA Case*](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)*.*
 
 ### NSTS Alert
 
@@ -133,19 +132,19 @@ If no STS is observed after a baseline has been set, results will display as **S
 
 ## Legend
 
-The audiogram document column/row view has a legend that explains what each color in a column or row indicates. The plot graph has its own legend below each plot graph (see Graphing section further on this guide).
+The audiogram document column/row view has a legend that explains what each color in a column or row indicates.  The plot graph has its own legend below each plot graph (see Graphing section further on this guide).
 
 ![](./audio-tool-tab.assets/35e806c39334a3e8008836e28150bd9e.png)
 
 ## Graphing
 
-Users may graph Audio results by clicking the _Graph_ button. The _Graph_ button is grayed out and not available to the user if the user has not selected 2 studies for comparison. Once 2 studies have been selected for comparison, click the _Graph_ button to display the graph comparison. To select 2 studies for comparison, while on the first graph you hold the control key down and select the second test and then click the _Graph_ button.
+Users may graph Audio results by clicking the *Graph* button. The *Graph* button is grayed out and not available to the user if the user has not selected 2 studies for comparison. Once 2 studies have been selected for comparison, click the *Graph* button to display the graph comparison. To select 2 studies for comparison, while on the first graph you hold the control key down and select the second test and then click the *Graph* button.
 
 ![](./audio-tool-tab.assets/87c6e757e5249e1e92746e3fcd10bde3.png)
 
 ![](./audio-tool-tab.assets/a8a9364b2c33ba2f672c56df6bedca5f.png)
 
-A legend for the plot graph view is below each graph. The legend indicates which audiogram data results are from which date.
+A legend for the plot graph view is below each graph.  The legend indicates which audiogram data results are from which date.
 
 ![](./audio-tool-tab.assets/675d7a3acda3440040d43b0922656e7e.png)
 
@@ -155,7 +154,7 @@ At the bottom of the Audio Tool users are provided with an option to import audi
 
 ![](./audio-tool-tab.assets/f2bb4ffec262b708226112a51313289e.png)
 
-_See additional online help guide named_ [_Device Interface-Audio System_](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/) _(MI),_ [_Device Interface- Audio: Tremetrics/Maico_](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
+*See additional online help guide named* [*Device Interface-Audio System*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/) *(MI),* [*Device Interface- Audio: Tremetrics/Maico*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
 
 ## Compare Audiograms
 
@@ -167,9 +166,9 @@ When the audiogram has been completed and the encounter exam is archived and clo
 
 Within the Visits grouping of reports, there are a few standard Audiogram Reports.
 
-- Audiogram Missed STS Follow-up Report: Lists charts having documented audiogram tests with an STS that do not have a 'Retest' Audiogram performed within 21 days. Date range of performed audiogram test is required.
-- Audiogram Report: Is a searchable report to render audiogram test result details (according to date range entered) found in charts, including any STS, NSTS, OSHA etc alerts.
-- Audiometric Testing: Is a searchable report that displays if a Standard Threshold Shift or OSHA recordable shift has been calculated or not on any chart who has an audiogram test according to date range entered.
+* Audiogram Missed STS Follow-up Report: Lists charts having documented audiogram tests with an STS that do not have a 'Retest' Audiogram performed within 21 days. Date range of performed audiogram test is required.
+* Audiogram Report: Is a searchable report to render audiogram test result details (according to date range entered) found in charts, including any STS, NSTS, OSHA etc alerts.
+* Audiometric Testing: Is a searchable report that displays if a Standard Threshold Shift or OSHA recordable shift has been calculated or not on any chart who has an audiogram test according to date range entered.
 
 ![](./audio-tool-tab.assets/a1a72c70cfb25fb1c722a0cce046da21.png)
 
@@ -177,4 +176,4 @@ Within the Visits grouping of reports, there are a few standard Audiogram Report
 
 To learn more about the Audio Tool Tab, follow the link below to the Learning Management System course:
 
-- [Audiometric Testing](https://mie.talentlms.com/shared/start/key:ZOLDNHRK)
+* [Audiometric Testing](https://mie.talentlms.com/shared/start/key:ZOLDNHRK)

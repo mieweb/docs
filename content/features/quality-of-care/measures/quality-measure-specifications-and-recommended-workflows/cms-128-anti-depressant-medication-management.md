@@ -1,19 +1,18 @@
 ---
-id: "1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE"
-title: "CMS 128 - Anti-depressant Medication Management"
-date: "2022-04-22T18:12:50.780Z"
+id: '1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE'
+title: 'CMS 128 - Anti-depressant Medication Management'
+date: '2022-04-22T18:12:50.780Z'
 version: 22
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms128v10"
-source: "https://drive.google.com/open?id=1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms128v10'
+source: 'https://drive.google.com/open?id=1FuuAMczkTt8tFHJuRu6eIdGj_lbbafeyahIjsQ9QzWE'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS128v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS128v8&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -108,6 +107,7 @@ Exclude patients who are in hospice care for any part of the measurement period.
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

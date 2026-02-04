@@ -1,27 +1,26 @@
 ---
-id: "1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg"
-title: "Prescriber Responsibilities & Transmission Requirements"
-date: "2025-11-11T15:28:23.169Z"
+id: '1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
+title: 'Prescriber Responsibilities & Transmission Requirements'
+date: '2025-11-11T15:28:23.169Z'
 version: 55
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm"
-  - "https://www.deadiversion.usdoj.gov/21cfr/21usc/824.htm"
-  - "https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_05.htm"
-  - "https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_22.htm"
-  - "https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm"
-source: "https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg"
-wikigdrive: "v2.15.30"
+  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm'
+  - 'https://www.deadiversion.usdoj.gov/21cfr/21usc/824.htm'
+  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_05.htm'
+  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/1306/1306_22.htm'
+  - 'https://www.deadiversion.usdoj.gov/21cfr/cfr/2106cfrt.htm'
+source: 'https://drive.google.com/open?id=1s56gsV6kl1YCKwoTni-zfPunGPHguhKnCP34dHWRovg'
+wikigdrive: 'v2.15.30'
 ---
-
 As a CEHRT with EPCS functionality, it is expected that all transmission requirements are adhered to, as outlined under [Section 1311.170](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170) of the Title 21 Code of Federal Regulations Part 1311, Subpart C; however, it is also necessary for prescribers to understand their responsibilities associated with EPCS functionality, meaning all responsibilities, as outlined under the following sections, specifically:
 
-- 1311.102
-- 1311.125
-- 1311.150(c)
-- 1311.170
-- 1311.305(f,g)
+* 1311.102
+* 1311.125
+* 1311.150(c)
+* 1311.170
+* 1311.305(f,g)
 
 See the DEA's Diversion Control Division, for a full review of the [Title 21 Code of Federal Regulations, Part 1311, Subpart C - Electronic Prescriptions](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm).
 
@@ -69,7 +68,7 @@ d) A registrant's permission to indicate controlled substances are ready to sign
 
 ## [1311.150(c) - Additional Requirements for Internal Application Audits](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#150)
 
-c) Any person designated to set logical access controls under Section or [1311.130](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#130) must determine whether any identified auditable event represents a security incident that compromised or could have compromised the integrity of the prescription records. Any such incidents must be reported to the electronic prescription application provider and the Administration, within one business day.
+c) Any person designated to set logical access controls under Section  or [1311.130](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#130) must determine whether any identified auditable event represents a security incident that compromised or could have compromised the integrity of the prescription records. Any such incidents must be reported to the electronic prescription application provider and the Administration, within one business day.
 
 ## [**1311.170 - Transmission Requirements**](https://www.deadiversion.usdoj.gov/21cfr/cfr/1311/subpart_c100.htm#170)
 

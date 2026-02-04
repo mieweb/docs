@@ -1,19 +1,19 @@
 ---
-id: "1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c"
-title: "CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Workflow"
-date: "2024-07-25T01:21:37.198Z"
+id: '1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
+title: 'CMS 2 - Preventive Care and Screening: Screening for Depression and Follow-up Plan Workflow'
+date: '2024-07-25T01:21:37.198Z'
 version: 308
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v12&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2"
-  - "https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information"
-source: "https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v12&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v11&showresulttype=Measure&module=&tabmodule=&searchterm=cms2'
+  - 'https://ecqi.healthit.gov/ecqm/ec/2024/cms0002v13?qt-tabs_measure=measure-information'
+source: 'https://drive.google.com/open?id=1SaJKu9Mehk1e5lJ_qiV0TMPqdkT9C_nyvPw27Kv-L8c'
+wikigdrive: 'v2.15.30'
+markup: 'pandoc'
 ---
-
 ## Overview
 
 [CMS2v13](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS2v13&showresulttype=Measure&module=&tabmodule=&searchterm=cms2) (2024)
@@ -39,7 +39,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -108,7 +108,7 @@ Medical Reason(s)<br />
 
 ## Clinical Instructions
 
-Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period. Encounter eligibility is determined based on the billing codes linked to the encounter in WebChart EHR. Use the preferred Test and Procedures section or the alternate Preventive Care section of the Visit encounter to order and perform an age appropriate depression screening. Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Perform the following steps to document a depression screening.
+Ensure all 12+ year-old patients are screened for depression during or within the 14 days prior to an eligible encounter during the measurement period.  Encounter eligibility is determined based on the billing codes linked to the encounter in WebChart EHR.  Use the preferred Test and Procedures section or the alternate Preventive Care section of the Visit encounter to order and perform an age appropriate depression screening.  Any patient with a positive screening requires a follow-up plan documented during the current encounter.  Perform the following steps to document a depression screening.
 
 ### Numerator Compliance
 
@@ -116,24 +116,20 @@ Ensure all 12+ year-old patients are screened for depression during or within th
 
 1. While documenting the Visit encounter, open the Tests and Procedures section
 2. Search for Depression Screening in the autocomplete
-
-- For patients under 18, use the Adolescent Depression Screening LOINC 73831-0
-- For patients 18+, use the Adult Depression Screening LOINC 73832-8
-
+* For patients under 18, use the Adolescent Depression Screening LOINC 73831-0
+* For patients 18+, use the Adult Depression Screening LOINC 73832-8
 3. Click Add to Exam
 4. Open the Depression Screening section
 5. Complete the questions
-   a. Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
-   b. If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
+    a.  Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
+    b.  If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
 6. Close the section
 7. If the Depression Screening indicates the patient is positive for depression, the appropriate follow-up should be recorded
-
-- Order the appropriate follow-up items(s) for the patient as selected in the Depression Screening
+* Order the appropriate follow-up items(s) for the patient as selected in the Depression Screening
 
 OR
 
-- E-prescribe an antidepressant medication
-
+* E-prescribe an antidepressant medication
 8. Continue documenting the encounter, as appropriate
 9. When completed, Close and Archive the encounter
 
@@ -141,26 +137,23 @@ OR
 
 1. While documenting the Visit encounter, open the Preventive Care section
 2. Add the Depression Screening to the exam
-
-- For patients under 18, use the Adolescent Depression Screening LOINC 73831-0
-- For patients 18+, use the Adult Depression Screening LOINC 73832-8
-
+* For patients under 18, use the Adolescent Depression Screening LOINC 73831-0
+* For patients 18+, use the Adult Depression Screening LOINC 73832-8
 3. Click Add to Exam
 4. Open the Depression Screening section
 5. Complete the questions
-   a. Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
-   b. If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
+    a.  Select either Positive for Depression (SNOMEDCT: 428181000124104) or Negative for Depression (SNOMEDCT: 428171000124102)
+    b.  If selecting Positive for Depression, select an appropriate Adult or Adolescent Depression Follow-up Item
 6. Close the section
 7. If the Depression Screening indicates the patient is positive for depression, the appropriate follow-up should be recorded
 
-- Open the Preventive Care section
-- Open the Depression Follow-up picklist
-- Order the appropriate follow-up items(s) for the patient
+* Open the Preventive Care section
+* Open the Depression Follow-up picklist
+* Order the appropriate follow-up items(s) for the patient
 
 OR
 
-- E-prescribe an antidepressant medication
-
+* E-prescribe an antidepressant medication
 8. Continue documenting the encounter, as appropriate
 9. When completed, Close and Archive the encounter
 
@@ -169,17 +162,15 @@ OR
 #### Preferred Workflow
 
 1. While documenting the encounter, record an active Bipolar diagnosis
-
-- Use the Smart Plan section quick lists to record the condition
-
-OR
-
-- Use the Past Medical History section quick lists to record the condition
+* Use the Smart Plan section quick lists to record the condition
 
 OR
 
-- Use the Symptoms/Diagnosis section quick lists to record the condition
+* Use the Past Medical History section quick lists to record the condition
 
+OR
+
+* Use the Symptoms/Diagnosis section quick lists to record the condition
 2. Continue documenting the encounter, as appropriate
 3. When completed, Close and Archive the encounter
 

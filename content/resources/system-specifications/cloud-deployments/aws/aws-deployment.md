@@ -1,34 +1,33 @@
 ---
-id: "1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E"
-title: "AWS Deployment"
-date: "2025-02-07T18:17:23.956Z"
-version: 94
-lastAuthor: "dcornewell"
-mimeType: "text/x-markdown"
+id: '1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
+title: 'AWS Deployment'
+date: '2025-02-07T18:17:23.956Z'
+version: 97
+lastAuthor: 'dcornewell'
+mimeType: 'text/x-markdown'
 links:
-  - "https://aws.amazon.com/rds/"
-  - "https://aws.amazon.com/ec2/"
-  - "https://aws.amazon.com/elasticache/"
-  - "https://aws.amazon.com/s3/"
-  - "https://aws.amazon.com/rds/instance-types/"
-  - "https://aws.amazon.com/marketplace/pp/prodview-i3vkpa6e3rfk6"
-  - "https://aws.amazon.com/ec2/instance-types/c5/"
-  - "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
-  - "https://aws.amazon.com/s3/sla/"
-source: "https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E"
-wikigdrive: "v2.15.30"
+  - 'https://aws.amazon.com/rds/'
+  - 'https://aws.amazon.com/ec2/'
+  - 'https://aws.amazon.com/elasticache/'
+  - 'https://aws.amazon.com/s3/'
+  - 'https://aws.amazon.com/rds/instance-types/'
+  - 'https://aws.amazon.com/marketplace/pp/prodview-i3vkpa6e3rfk6'
+  - 'https://aws.amazon.com/ec2/instance-types/c5/'
+  - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
+  - 'https://aws.amazon.com/s3/sla/'
+source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Deployment Strategy
 
 {{% system-name %}} adopts Terraform for seamless integration across various AWS environments, ensuring consistency in deployment for GovCloud, FedRAMP-compliant setups, and commercial AWS environments. This strategy, backed by AWS-managed services, guarantees high standards of reliability, security, and scalability while meeting stringent compliance requirements.
 
 ## Utilizing AWS Managed Services
 
-- [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
-- [Amazon EC2](https://aws.amazon.com/ec2/)
-- [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
-- [Amazon S3](https://aws.amazon.com/s3/)
+* [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
+* [Amazon EC2](https://aws.amazon.com/ec2/)
+* [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
+* [Amazon S3](https://aws.amazon.com/s3/)
 
 {{% system-name %}} prioritizes leveraging AWS-managed services such as RDS for databases, S3 for file storage, ElastiCache for performance enhancement, and others. This approach optimizes deployment efficiency, scalability, and maintenance, ensuring uniformity across different AWS environments.
 

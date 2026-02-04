@@ -1,26 +1,25 @@
 ---
-id: "12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
-title: "Create Cases File for Import"
-date: "2025-11-13T16:32:42.991Z"
+id: '12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
+title: 'Create Cases File for Import'
+date: '2025-11-13T16:32:42.991Z'
 version: 59
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
-  - "https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864"
-  - "https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI"
-source: "https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
+  - 'https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864'
+  - 'https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI'
+source: 'https://drive.google.com/open?id=12tRrL1GGMV0Hp0HQOhS4zdkbS1-fbnKf2kAroBdMqZc'
+wikigdrive: 'v2.15.30'
 ---
-
 This document explains how to import your cases into {{% system-name %}} .
 
 What you will need:
 
-- Spreadsheet software (Microsoft Excel or Google Sheets)
-- Cases CSV File Example
-- {{% system-name %}} end user with administrative rights
+* Spreadsheet software (Microsoft Excel or Google Sheets)
+* Cases CSV File Example
+* {{% system-name %}} end user with administrative rights
 
 ## Create Cases CSV File
 
@@ -116,7 +115,7 @@ What you will need:
 </table>
 
 {{% tip %}}
-_For a more comprehensive list of supported fields, please refer to the_ [_Simplified Case Management CSV API Specification_](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)_._
+*For a more comprehensive list of supported fields, please refer to the* [*Simplified Case Management CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)*.*
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a case record. Below is a screenshot of the Cases CSV File Example for guidance.
@@ -142,7 +141,7 @@ _For a more comprehensive list of supported fields, please refer to the_ [_Simpl
 
 5. Select the Cases CSV File and click <strong>Upload</strong>.
 
-   ![](./create-cases-file-for-import.assets/3e7c9ba795ce233807938a4d203c6d43.png)
+    ![](./create-cases-file-for-import.assets/3e7c9ba795ce233807938a4d203c6d43.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.
@@ -150,9 +149,9 @@ For extra information on what happens during the import, click the **Verbose** c
 
 ## Resources
 
-- [Simplified Case Management CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)
-- [Injury Cases CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
-- [Validation Script for Cases](https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)
+* [Simplified Case Management CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1qbDvODxTutpnzS6xBPA5vhRJ__nZiA7y-9fUKgQ5TCc/)
+* [Injury Cases CSV File Example](https://docs.google.com/spreadsheets/d/1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE/export?format=csv&id=1VcmZv6tNy4P15XzRkqTABBzdhiSxdiHHS41hXl4c4NE&gid=549963864)
+* [Validation Script for Cases](https://drive.google.com/open?id=1Ahh0T91NOyweIuJnUY3bniW53zEVmkkeIQwH5ul-TlI)
 
 ## Troubleshooting
 

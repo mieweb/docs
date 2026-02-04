@@ -1,19 +1,18 @@
 ---
-id: "19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY"
-title: "Encounters Protocol Configuration & Programming"
-date: "2025-11-11T16:41:53.070Z"
-version: 379
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
+title: 'Encounters Protocol Configuration & Programming'
+date: '2025-11-11T16:41:53.070Z'
+version: 383
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/"
-  - "https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/"
-  - "https://mie.talentlms.com/shared/start/key:SOTRKMFP"
-source: "https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
+  - 'https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/'
+  - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
+source: 'https://drive.google.com/open?id=19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
+wikigdrive: 'v2.15.30'
 ---
-
-_This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Review the additional help documentation for workflow usage of Protocols within the Visit Encounter. Follow the link to the documentation called_ [_Encounter Protocols_](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
+*This help guide goes through the configuring/programming steps to make protocols appear in the Visit encounter for use. Review the additional help documentation for workflow usage of Protocols within the Visit Encounter. Follow the link to the documentation called* [*Encounter Protocols*](https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/).
 
 Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 
@@ -27,7 +26,7 @@ To program protocol selections for your system's Visit encounter, one must have 
 
 ![](./encounters-protocol-configuration-and-programming.assets/c5db7ba72cac5604dce7b7ea4fcbfc03.png)
 
-For protocols to show as selections in the Chief Complaint section of the dynamic Visit Encounter, the system needs to have an observation named: **Visit Protocol** This is done via the sidemenu tab Control, then to Observation Codes tab, then search to make sure one doesn't exist already. If it does exist already, you will skip to just add protocol selection choices to this existing observation in the _discrete values_ section of the Visit Protocol observation.
+For protocols to show as selections in the Chief Complaint section of the dynamic Visit Encounter, the system needs to have an observation named: **Visit Protocol** This is done via the sidemenu tab Control, then to Observation Codes tab, then search to make sure one doesn't exist already. If it does exist already, you will skip to just add protocol selection choices to this existing observation in the *discrete values* section of the Visit Protocol observation.
 
 Observation name = Visit Protocol
 
@@ -35,7 +34,7 @@ Observation Type=Custom Discrete Values
 
 ![](./encounters-protocol-configuration-and-programming.assets/b712d66809280265edd8ff3afed6d8af.png)
 
-In the _Discrete Values_ section of the Visit Protocol observation, you will key in all the names of the needed protocols, such as ‘Fall', ‘Burn' or ‘Chest Pain', etc and set the order in which they should appear in a drop-down view. **Value field:** The names keyed in this section will be the names of the protocols the end user will see as a selection choice in the chief complaint of the Visit dynamic encounter. **Display field:** can leave blank. **Sort Order:** this is the order in which they will appear to an end user in the protocol autocomplete of the chief complaint section if they use their ↓ down arrow key on a keyboard to see a list of all selections available. Most key these in alphabetical order so the end user sees them alphabetized.
+In the *Discrete Values* section of the Visit Protocol observation, you will key in all the names of the needed protocols, such as ‘Fall', ‘Burn' or ‘Chest Pain', etc and set the order in which they should appear in a drop-down view. **Value field:** The names keyed in this section will be the names of the protocols the end user will see as a selection choice in the chief complaint of the Visit dynamic encounter. **Display field:** can leave blank. **Sort Order:** this is the order in which they will appear to an end user in the protocol autocomplete of the chief complaint section if they use their ↓ down arrow key on a keyboard to see a list of all selections available. Most key these in alphabetical order so the end user sees them alphabetized.
 
 ![](./encounters-protocol-configuration-and-programming.assets/450ef15d08014ef7f2204b7435df74b5.png)
 
@@ -51,13 +50,13 @@ The Visit encounter comes with default predefined HPI, ROS, PE, Tests & Procedur
 
 Currently, these sections can be programmed to reflect a unique selected protocol flowsheet instead of the default sections:
 
-- HPI (History of Present Illness)
-- ROS (Review of Systems)
-- PE (Physical Exam)
-- Quality
-- Plan Narrative
-- Patient Education
-- Depart Instructions
+* HPI (History of Present Illness)
+* ROS (Review of Systems)
+* PE (Physical Exam)
+* Quality
+* Plan Narrative
+* Patient Education
+* Depart Instructions
 
 Observations need first to be created for each of the specific questions or data points to be collected throughout the encounter protocol sections. Once these observations are created, you will group them together in flowsheets per section that is applicable. Meaning, one flowsheet for each encounters section that follows the protocol.
 
@@ -73,19 +72,19 @@ Add observations that need to display in the HPI section:
 
 Observation Name field:
 
-- Begin every observation name with <strong>HPI</strong>
-- After the word <strong>HPI</strong> then type the rest of the observation name needing to be stored to capture the data
-  - Examples:
-    - HPI Associated symptoms
-    - HPI Quality of pain
+* Begin every observation name with <strong>HPI</strong>
+* After the word <strong>HPI</strong> then type the rest of the observation name needing to be stored to capture the data
+    * Examples:
+        * HPI Associated symptoms
+        * HPI Quality of pain
 
 Observation Type field:
 
-- Does not need set
+* Does not need set
 
 ![](./encounters-protocol-configuration-and-programming.assets/00c7469bb023ffed88f6f8d61deceb82.png)
 
-Click the _Save_ button to save the observation. Repeat to add each individual HPI data entry point that needs collected for the HPI of each specific protocol. Here is an example of various specific HPI data collection entry points that various protocols could use in the HPI section:
+Click the *Save* button to save the observation. Repeat to add each individual HPI data entry point that needs collected for the HPI of each specific protocol. Here is an example of various specific HPI data collection entry points that various protocols could use in the HPI section:
 
 ![](./encounters-protocol-configuration-and-programming.assets/12fe1a320f5ded0d6cdab8d55e62e294.png)
 
@@ -95,17 +94,17 @@ Add observations that need to display in the ROS section:
 
 Observation Name field:
 
-- Begin every observation name with <strong>ROS</strong>
-- After the word <strong>ROS</strong> then type the rest of the observation name needing to be stored to capture the data
-  - Examples:
-    - ROS ENT
-    - ROS Endocrine
+* Begin every observation name with <strong>ROS</strong>
+* After the word <strong>ROS</strong> then type the rest of the observation name needing to be stored to capture the data
+    * Examples:
+        * ROS ENT
+        * ROS Endocrine
 
 Observation Type field:
 
-- Does not need set
+* Does not need set
 
-Click the _Save_ button to save the observation. Repeat to add each individual ROS data entry point that needs collected for the ROS of each specific protocol. Here is an example of various specific ROS data collection entry points that various protocols could use in the ROS section:
+Click the *Save* button to save the observation. Repeat to add each individual ROS data entry point that needs collected for the ROS of each specific protocol. Here is an example of various specific ROS data collection entry points that various protocols could use in the ROS section:
 
 ![](./encounters-protocol-configuration-and-programming.assets/cef90c90c8f3a7624d5b2138606c8712.png)
 
@@ -115,17 +114,17 @@ Add observations that need to display in the PE (physical exam) section:
 
 Observation Name field:
 
-- Begin every observation name with <strong>PE</strong>
-- After the word <strong>PE</strong> then type the rest of the observation name needing to be stored to capture the data
-  - Examples:
-    - PE Level of consciousness
-    - PE General Appearance and Level of Distress
+* Begin every observation name with <strong>PE</strong>
+* After the word <strong>PE</strong> then type the rest of the observation name needing to be stored to capture the data
+    * Examples:
+        * PE Level of consciousness
+        * PE General Appearance and Level of Distress
 
 Observation Type field:
 
-- Does not need set
+* Does not need set
 
-Click the _Save_ button to save the observation. Repeat to add each individual PE data entry point that needs collected for the PE of each specific protocol. Here is an example of various specific PE data collection entry points that various protocols could use in the PE section:
+Click the *Save* button to save the observation. Repeat to add each individual PE data entry point that needs collected for the PE of each specific protocol. Here is an example of various specific PE data collection entry points that various protocols could use in the PE section:
 
 ![](./encounters-protocol-configuration-and-programming.assets/77ff4c752a93fd8385fe72e69791ceaa.png)
 
@@ -133,11 +132,11 @@ Click the _Save_ button to save the observation. Repeat to add each individual P
 
 Flowsheets for each specific unique protocol section need to be created and the flowsheets will be comprised of the observations needed for each encounter section that is unique to the protocol. If flowsheets are not created or correctly matching, the system will default to its default HPI, ROS, PE, Quality, etc sections in the Visit encounter.
 
-To create flowsheets, it's important to use the following naming conventions so the system will know which section to insert them within the dynamic Visit encounter. Flowsheets can be created after all the unique observations have been created. To create a flowsheet, one must have security permission to _Manage Observation Flowsheets_.
+To create flowsheets, it's important to use the following naming conventions so the system will know which section to insert them within the dynamic Visit encounter. Flowsheets can be created after all the unique observations have been created. To create a flowsheet, one must have security permission to *Manage Observation Flowsheets*.
 
 ![](./encounters-protocol-configuration-and-programming.assets/58342eba7161906db5170130c7cb879c.png)
 
-From the _Control_ sidemenu tab, go to _Observation Codes_ tab and click the Display Flowsheets hyperlink found at the top right corner of the screen.
+From the *Control* sidemenu tab, go to *Observation Codes* tab and click the Display Flowsheets hyperlink found at the top right corner of the screen.
 
 ![](./encounters-protocol-configuration-and-programming.assets/a80f841148b81172868098894e31ea94.png)
 
@@ -155,13 +154,13 @@ Create flowsheets using the following naming conventions so the system will know
 
 **Examples**:
 
-- HPI-Cardiovascular-Chest Pain
-- ROS-Cardiovascular-Chest Pain
-- PE-Skin-Rash
-- QUALITY-Neurological-Headache
-- Plan-Eye Complaints
-- PatEd-Ear Complaints
-- Depart-Clean wound daily
+* HPI-Cardiovascular-Chest Pain
+* ROS-Cardiovascular-Chest Pain
+* PE-Skin-Rash
+* QUALITY-Neurological-Headache
+* Plan-Eye Complaints
+* PatEd-Ear Complaints
+* Depart-Clean wound daily
 
 In the following example, the system has a visit protocol named Low Back Pain and we have created HPI observations to be used in the HPI section for the Low Back Pain protocol and am now creating the flowsheet for the HPI section which the system will pull these data entry field questions into the HPI section instead of the default normal HPI section.
 
@@ -193,7 +192,7 @@ Once the save button is clicked in the edit of that individual flowsheet observa
 
 ![](./encounters-protocol-configuration-and-programming.assets/551e48b69ac11afdd51f73ac2192d3a8.png)
 
-Once the flowsheet is compiled and each is set to a specific input type and description edited, click the _SUBMIT_ button to save all work.
+Once the flowsheet is compiled and each is set to a specific input type and description edited, click the *SUBMIT* button to save all work.
 
 {{% info %}}
 More help regarding other details of flowsheet module programming is found in [Observation Flowsheets](https://docs.enterprisehealth.com/functions/order-and-result-management/observation-flowsheets/) help guide in the {{% system-name %}} online help.
@@ -221,7 +220,7 @@ Example of a PE section flowsheet unique to the protocol selected instead of the
 
 ![](./encounters-protocol-configuration-and-programming.assets/c0f63a077ac6b8cd07222401bee8da40.png)
 
-When working in a chart, if the encounter is set as ‘current' for yourself, you will also see the _protocol_ that the encounter was selected as in the encounter summary toolbar line.
+When working in a chart, if the encounter is set as ‘current' for yourself, you will also see the *protocol* that the encounter was selected as in the encounter summary toolbar line.
 
 ![](./encounters-protocol-configuration-and-programming.assets/28830d8d779522d741f42a184bc5101e.png)
 
@@ -237,9 +236,9 @@ The Test & Procedures section of the dynamic Visit encounter is configured diffe
 
 First, add all individual observations to the system that you want the data stored as that needs to appear in each Test & Procedure flowsheet. This is by doing the same steps done in previous pages of this help document to add observations. You can use a prefix naming convention for this section if wish (like was done for HPI, ROS, PE, etc).
 
-Once all observations have been created in the system, you need to create a flowsheet. The **flowsheet name** must match exactly to the name of the visit protocol observation selection the users can choose. So, the other flowsheets for HPI, PE, ROS and Quality all are named with that as the prefix for its flowsheet name. Tests & Procedures section is different. The flowsheet name for a Tests & Procedures protocol section should match the name of the exact protocol selection discrete value choice from the observation _Visit Protocol_
+Once all observations have been created in the system, you need to create a flowsheet. The **flowsheet name** must match exactly to the name of the visit protocol observation selection the users can choose. So, the other flowsheets for HPI, PE, ROS and Quality all are named with that as the prefix for its flowsheet name. Tests & Procedures section is different. The flowsheet name for a Tests & Procedures protocol section should match the name of the exact protocol selection discrete value choice from the observation *Visit Protocol*
 
-Here is an example of a protocol named _Skin-Burns_. The system is programmed to have a specific HPI, PE and Quality section appear to follow that protocol selection, thus the flowsheets have the prefix for those sections followed by a hyphen – and then the name of the visit protocol. However you will notice that the flowsheet for the Tests & Procedures section to populate for Skin-Burns is simply named _Skin-Burns_ for its flowsheet name. No prefix is needed, only the exact match to the visit protocol name.
+Here is an example of a protocol named *Skin-Burns*. The system is programmed to have a specific HPI, PE and Quality section appear to follow that protocol selection, thus the flowsheets have the prefix for those sections followed by a hyphen – and then the name of the visit protocol. However you will notice that the flowsheet for the Tests & Procedures section to populate for Skin-Burns is simply named *Skin-Burns* for its flowsheet name. No prefix is needed, only the exact match to the visit protocol name.
 
 ![](./encounters-protocol-configuration-and-programming.assets/66661c941f26b70152684f9826a410e5.png)
 
@@ -255,17 +254,17 @@ This is done by going to the Control sidemenu tab, then to Orders-List Editor ta
 
 ![](./encounters-protocol-configuration-and-programming.assets/b1d5d9cd504e35942c0d165e38e766d3.png)
 
-- <strong>Order Type:</strong> set to be Protocol
-- <strong>Order Name:</strong> must be the exact matching name of the Visit Protocol which should be the same exact matching name as the Tests & Procedures flowsheet name created in above steps. This is the specific protocol tests & procedures flowsheet that will appear in when selected in an encounter.
-- <strong>Layout:</strong> set to be Obs Survey
+* <strong>Order Type:</strong> set to be Protocol
+* <strong>Order Name:</strong> must be the exact matching name of the Visit Protocol which should be the same exact matching name as the Tests & Procedures flowsheet name created in above steps. This is the specific protocol tests & procedures flowsheet that will appear in when selected in an encounter.
+* <strong>Layout:</strong> set to be Obs Survey
 
-Click the _Save_ button to save your order item.
+Click the *Save* button to save your order item.
 
-Next the order item must be tied to the Protocol Procedures order picklist. Go to Control Panel sidemenu tab, then to Orders-Pick Builder tab. The screen will display all existing picklists. Use the drop-down in the _set filter_ to see if a picklist named **Protocol Procedures** exists already or not. If it exists already, click the plus + icon at the top right corner of the title bar of the picklist to add another group & order item set to it (see below instructions).
+Next the order item must be tied to the Protocol Procedures order picklist. Go to Control Panel sidemenu tab, then to Orders-Pick Builder tab. The screen will display all existing picklists. Use the drop-down in the *set filter* to see if a picklist named **Protocol Procedures** exists already or not. If it exists already, click the plus + icon at the top right corner of the title bar of the picklist to add another group & order item set to it (see below instructions).
 
 ![](./encounters-protocol-configuration-and-programming.assets/46a8e699fb0df66570da57dc461722c6.png)
 
-If there is not an existing picklist named _Protocol Procedures_, then one needs created. Click the _Add New Set_ button
+If there is not an existing picklist named *Protocol Procedures*, then one needs created. Click the *Add New Set* button
 
 ![](./encounters-protocol-configuration-and-programming.assets/4d3dc20f389f9808ee732c98606f289a.png)
 
@@ -273,17 +272,17 @@ If there is not an existing picklist named _Protocol Procedures_, then one needs
 
 Create an orders picklist named ‘Protocol Procedures'.
 
-- <strong>New Set:</strong> name it Protocol Procedures
-- <strong>New Group:</strong> name it the specific visit protocol name. This needs to be the exact name of the matching Visit Protocol
-- <strong>Column Select:</strong> this should default to 1, but if it doesn't then click <em>new column</em> button so that it inserts a 1 in this field
-- <strong>Selected:</strong> keep as no
-- <strong>Order Content:</strong> begin typing the order item of the protocol which would be the exact matching protocol name created for the protocol flowsheet.
-- <strong>Condition:</strong> leave blank
-- <strong>Display After:</strong> leave as first item
+* <strong>New Set:</strong> name it Protocol Procedures
+* <strong>New Group:</strong> name it the specific visit protocol name. This needs to be the exact name of the matching Visit Protocol
+* <strong>Column Select:</strong> this should default to 1, but if it doesn't then click <em>new column</em> button so that it inserts a 1 in this field
+* <strong>Selected:</strong> keep as no
+* <strong>Order Content:</strong> begin typing the order item of the protocol which would be the exact matching protocol name created for the protocol flowsheet.
+* <strong>Condition:</strong> leave blank
+* <strong>Display After:</strong> leave as first item
 
-Click _SAVE_ button.
+Click *SAVE* button.
 
-To add another Tests & Procedures group & order item protocol selection to the main Protocol Procedures picklist, click the plus + icon at the top right of the main Protocol Procedures picklist title bar. The picklist _Protocol Procedures_ needs to house all Tests & Procedures order items that need to generate for any visit protocol that could be selected.
+To add another Tests & Procedures group & order item protocol selection to the main Protocol Procedures picklist, click the plus + icon at the top right of the main Protocol Procedures picklist title bar. The picklist *Protocol Procedures* needs to house all Tests & Procedures order items that need to generate for any visit protocol that could be selected.
 
 ![](./encounters-protocol-configuration-and-programming.assets/3fc240ca877832337450f01354057cee.png)
 
@@ -307,7 +306,7 @@ Within the Visit Orders section, there may be specific preprogrammed medications
 
 ![](./encounters-protocol-configuration-and-programming.assets/ea588ad4005f9f2fb4c6390f9ec9f750.png)
 
-To program quick pick medications to appear in the Visit Orders expanded section library as checkboxes on a specific protocol, go into any test patient and select the protocol in chief complaint. Then go to the Medication Orders section and prescribe the med on a test patient filling out all the details and make sure to key in a **remembered as** name. Put the name and strength detail in it and add/submit the prescription on the test patient. Then on real patient charts whom have that protocol specifically selected in the chief complaint of the encounter, the corresponding Visit Orders quick pick med section will display those saved to the meds library with a _remembered as_ name. So essentially, a medication library (remembered as field) is saved to the protocol if selected and can be built that way for future use.
+To program quick pick medications to appear in the Visit Orders expanded section library as checkboxes on a specific protocol, go into any test patient and select the protocol in chief complaint. Then go to the Medication Orders section and prescribe the med on a test patient filling out all the details and make sure to key in a **remembered as** name. Put the name and strength detail in it and add/submit the prescription on the test patient. Then on real patient charts whom have that protocol specifically selected in the chief complaint of the encounter, the corresponding Visit Orders quick pick med section will display those saved to the meds library with a *remembered as* name. So essentially, a medication library (remembered as field) is saved to the protocol if selected and can be built that way for future use.
 
 Here is an example of what the Visit Orders quick pick medication list would show once programmed for a protocol and why it's important to use the remembered as field to note the strength/name etc):
 
@@ -347,4 +346,4 @@ Then each order item in the picklist named the protocol name (that matches the e
 
 To learn more about Encounters Protocol Configuration & Programming, follow the link below to the Learning Management System course:
 
-- [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)
+* [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)

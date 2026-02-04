@@ -1,15 +1,14 @@
 ---
-id: "17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU"
-title: "Pat Non Compliance"
-date: "2025-11-13T19:08:32.910Z"
+id: '17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU'
+title: 'Pat Non Compliance'
+date: '2025-11-13T19:08:32.910Z'
 version: 28
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=17X8EeDFXu7OyTXVYabii-vSil2VCqzUrjxcczy202yU'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}

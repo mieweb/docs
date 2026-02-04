@@ -1,15 +1,14 @@
 ---
-id: "1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ"
-title: "Whisper AI - Dictation - Summarize"
-date: "2025-06-17T19:43:19.349Z"
-version: 441
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
+title: 'Whisper AI - Dictation - Summarize'
+date: '2025-06-17T19:43:19.349Z'
+version: 443
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Whisper AI
 
 The Dictation module is an out-of-the-box offering that allows recording voice files that can be uploaded and manually transcribed by another user, either directly in an encounter or from the Dictation Module (side menu module). This module does not include Whisper AI/voice to text features. AI must be enabled to utilize voice to text features.
@@ -18,7 +17,7 @@ Whisper AI is a feature available when AI has been configured in the database. W
 
 ## Using Whisper AI In Flowsheets
 
-Click the Dictation _"microphone"_ icon in a flowsheet. The dictation will automatically begin recording.
+Click the Dictation *"microphone"* icon in a flowsheet. The dictation will automatically begin recording.
 
 ![](./whisper-ai-dictation-summarize.assets/56a36f04f09ab2605ceecebcaf60cdcd.png)
 
@@ -38,7 +37,7 @@ The timer above the green arrow indicates the time/length of the created recordi
 
 Select the Trash can icon to delete the voice file.
 
-The bolded timer in the upper left hand corner of the dictation box is the time count for the recording in progress.
+The bolded timer  in the upper left hand corner of the dictation box is the time count for the recording in progress.
 
 Select the Upload button (Green circled up arrow) to upload the voice file.
 
@@ -66,7 +65,7 @@ If the encounter section is opened, the user can click in the appropriate field 
 
 ## Using Whisper AI in Encounter Sections
 
-If providers do not wish to use guided flowsheets, they may also use the dictation voice to text feature on encounter sections.Click the dictation _"microphone"_ icon on any encounter section to begin recording.
+If providers do not wish to use guided flowsheets, they may also use the dictation voice to text feature on encounter sections.Click the dictation *"microphone"* icon on any encounter section to begin recording.
 
 ![](./whisper-ai-dictation-summarize.assets/8e0f6e4664728138a563ff0bfe905e98.png)
 
@@ -88,7 +87,7 @@ Whisper AI translates this to:
 
 ![](./whisper-ai-dictation-summarize.assets/5775d2e34e950aa82f3a87ed7d544ce2.png)
 
-Whisper AI has also been enhanced to assist providers when dictating. AI utilizes voice to text and will now remove commands such as "new paragraph" and "period" when dictating into an encounter section.
+Whisper AI has also  been enhanced to assist providers when dictating. AI utilizes voice to text and will now remove commands such as "new paragraph" and "period" when dictating into an encounter section.
 
 For example, the provider dictates: "I'd like to talk about the plan new paragraph. We're going to order some tests and change some meds period We'll see if we can get some things going exclamation mark"
 
@@ -108,12 +107,12 @@ As not all observations or flowsheets require the summarize feature, the summari
 
 Examples of calculations:
 
-- Summarize the text for a work injury report
-- Format for an OSHA report
-- Format for the OSHA 300 report
+* Summarize the text for a work injury report
+* Format for an OSHA report
+* Format for the OSHA 300 report
 
 ![](./whisper-ai-dictation-summarize.assets/27d2788c0132148c04ec0ba763f4c81b.png)
 
-The Summarize "_magic wand_" icon will display on each observation, regardless of what flowsheet it is associated with. If there isn't a calculation, the Summarize "_magic wand_" icon does not display.
+The Summarize "*magic wand*" icon will display on each observation, regardless of what flowsheet it is associated with. If there isn't a calculation, the Summarize "*magic wand*" icon does not display.
 
 ![](./whisper-ai-dictation-summarize.assets/0b9b9fbd01d5ec36b4b024acfb960c0c.png)

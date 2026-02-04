@@ -1,47 +1,46 @@
 ---
-id: "1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
-title: "Inbound Fax Queue - Setting User Access Permissions"
-date: "2025-11-12T13:52:00.752Z"
+id: '1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
+title: 'Inbound Fax Queue - Setting User Access Permissions'
+date: '2025-11-12T13:52:00.752Z'
 version: 158
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:AOAHRKMF"
-source: "https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
+source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Providing Access to Inbound Fax Queue
 
 Adding a new user to access Inbound Fax Queue is a two step process.
 
 The practice must give user(s) security permission to access the incoming file queue (inbound faxes).
 
-This is done in _Access Control_ then _Customize User Security._
+This is done in *Access Control* then *Customize User Security.*
 
 In Access Control, search and find the user you wish to set security privileges for Incoming Fax Queue.
 
-When you find the user, click edit so you can get into the edit user ( ) screen. Once there, click _Customize User Security_ link to set security for this specific user only.
+When you find the user, click edit so you can get into the edit user ( ) screen. Once there, click *Customize User Security* link to set security for this specific user only.
 
 ![](./inbound-fax-queue-setting-user-access-permissions.assets/495aff1ea2229a10c3ba33c6e8cf07fb.png)
 
-Next, you need to customize user security by setting the security permission for the user to have access to the **Incoming File Queue**. The security settings to change for a user are _Incoming File Queue and Permission Editor._
+Next, you need to customize user security by setting the security permission for the user to have access to the **Incoming File Queue**. The security settings to change for a user are *Incoming File Queue and Permission Editor.*
 
 Set these 2 security permissions for that user:
 
 ![](./inbound-fax-queue-setting-user-access-permissions.assets/64e60e32decb1da101c02a4ff6bdb851.png)
 
-- <strong>Incoming File Queue:</strong>
-  - <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
-  - <strong>View:</strong> Users can access the side-menu tab FaxQ, and can only view and print. Cannot do any other functions to batch/index, or delete, or distribute faxes in the queue. Users being tasked or emailed faxes also need to be set to at least View.
-  - <strong>Manage:</strong> Users have full access to the FaxQ and all functions. Can view, delete, batch/index, and distribute faxes using categories in the queue.
-- <strong>Permission Editor:</strong> Yes should only be for super-users of the practice. This setting allows these super-users to add and permit users to access each fax number. For other users, this should be set to No, so they cannot add other users to fax permissions in the Fax Q module.
+* <strong>Incoming File Queue:</strong>
+    * <strong>No Access:</strong> Users cannot access the side-menu tab named Fax Q (cannot access Inbound Fax Queue)
+    * <strong>View:</strong> Users can access the side-menu tab FaxQ, and can only view and print. Cannot do any other functions to batch/index, or delete, or distribute faxes in the queue. Users being tasked or emailed faxes also need to be set to at least View.
+    * <strong>Manage:</strong> Users have full access to the FaxQ and all functions. Can view, delete, batch/index, and distribute faxes using categories in the queue.
+* <strong>Permission Editor:</strong> Yes should only be for super-users of the practice. This setting allows these super-users to add and permit users to access each fax number. For other users, this should be set to No, so they cannot add other users to fax permissions in the Fax Q module.
 
 ## Add/Set Phone Number Permissions
 
 The super-user must now give permission to that user to access each fax number where faxes come in for their practice. This is done in the Fax/file Q module side-menu tab.
 
-From the Fax/file Q side-menu tab (or whatever your practice has this tab named as), you will need to setup _Phone Number Permissions_ for the user.
+From the Fax/file Q side-menu tab (or whatever your practice has this tab named as), you will need to setup *Phone Number Permissions* for the user.
 
 Once in the Fax Q side-menu tab, click the Mappings link.
 
@@ -57,9 +56,9 @@ The Add Recipient window will display. The super-user will fill out this section
 
 ![](./inbound-fax-queue-setting-user-access-permissions.assets/908c8f28339e23bccc32c8184d6d2c1c.png)
 
-- <strong>Recipient:</strong> Select the fax number for your practice that you want this new user to have access to. It should display in the drop-down. If the fax number does not show in the drop-down, then you need to manually type the entire 10-digit fax number in the field below.
-- <strong>Or add recipient:</strong> If no recipient exists, use this box to add a new one.
-- <strong>Department:</strong> Select the department to map this recipient to from the dropdown list.
+* <strong>Recipient:</strong> Select the fax number for your practice that you want this new user to have access to. It should display in the drop-down. If the fax number does not show in the drop-down, then you need to manually type the entire 10-digit fax number in the field below.
+* <strong>Or add recipient:</strong> If no recipient exists, use this box to add a new one.
+* <strong>Department:</strong> Select the department to map this recipient to from the dropdown list.
 
 Click SAVE button when done and that user is permitted to that incoming fax number now.
 
@@ -83,7 +82,7 @@ Click on the checkbox next to the recipient you wish to inactivate.
 
 ![](./inbound-fax-queue-setting-user-access-permissions.assets/ed6abf430459194aeb882a4c31bf6731.png)
 
-Click on the **Set Status** button to display the Set Status window. Click the _No_ radio button in the **Active** field to Inactivate the status. Click the **Save** button. Once saved the Recipient is now Inactive.
+Click on the **Set Status** button to display the Set Status window. Click the *No* radio button in the **Active** field to Inactivate the status. Click the **Save** button. Once saved the Recipient is now Inactive.
 
 ![](./inbound-fax-queue-setting-user-access-permissions.assets/5a25e718aff3ff3b9b26119bf2b86441.png)
 
@@ -107,4 +106,4 @@ This will display the specific recipient that was selected below.
 
 To learn more about the Inbound Fax Queue, follow the link below to the Learning Management System course:
 
-- [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)
+* [Inbound Faxes](https://mie.talentlms.com/shared/start/key:AOAHRKMF)

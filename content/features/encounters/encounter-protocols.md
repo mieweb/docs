@@ -1,28 +1,27 @@
 ---
-id: "1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg"
-title: "Encounter Protocols"
-date: "2025-08-21T16:24:22.686Z"
+id: '1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg'
+title: 'Encounter Protocols'
+date: '2025-08-21T16:24:22.686Z'
 version: 226
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-configuration/encounters-protocol-configuration-and-programming/"
-  - "https://mie.talentlms.com/shared/start/key:SOTRKMFP"
-source: "https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/encounters-protocol-configuration-and-programming/'
+  - 'https://mie.talentlms.com/shared/start/key:SOTRKMFP'
+source: 'https://drive.google.com/open?id=1hL-XtOsIVpllUcBoxAozZ3wHjQVhKU_Zz2oYxf92Zgg'
+wikigdrive: 'v2.15.30'
 ---
-
 Protocols are clinical workflows that are condition specific, such as headaches, burns, falls and bites. To better guide the clinician through a patient visit based on a specific condition, ‘protocols' can be configured using observations, flowsheets, .macros and orders in the standard dynamic 'Visit' encounter.
 
 Creating protocols in a system for the ‘Visit' encounter consists of adding the protocol selector in the Chief Complaint section of the encounter. This will drive any programmed protocol components for the other sections of the dynamic visit encounter; History of Present Illness ( HPI), Review of Systems (ROS), Physical Exam (PE), Tests and Procedures, Quality, Plan Narrative, Visit Orders, Treatments, Patient Education and Depart Instructions. Contact your MIE Implementer to have other protocol selections displayed in the chief complaint section.
 
 ## Protocol Selection Choices in Chief Complaint
 
-When the chief complaint section is expanded, right under the free text field (where you type the chief complaint) is an auto-complete field named _Protocol_.
+When the chief complaint section is expanded, right under the free text field (where you type the chief complaint) is an auto-complete field named *Protocol*.
 
 ![](./encounter-protocols.assets/b95ad64fcbfcfa296ac7ef24cb8a606a.png)
 
-You can click the ↓ down arrow key on your keyboard to see the protocol preprogrammed selections or can begin typing in the auto-complete field to make your selection. This field does not accept any free text. The selection _Occupational Injury_ is also a protocol choice.
+You can click the ↓ down arrow key on your keyboard to see the protocol preprogrammed selections or can begin typing in the auto-complete field to make your selection. This field does not accept any free text. The selection *Occupational Injury* is also a protocol choice.
 
 ![](./encounter-protocols.assets/8d3d6e4f8e1e1db447868c5c74b65f10.png)
 
@@ -74,13 +73,13 @@ Click to expand the specific order item section (ex: Epidural steroid injection)
 
 ### Treatments Section Using Protocols
 
-The treatments section is meant to document any test or procedure (stored as order items) that were done at this visit as a treatment. It's similar to the Tests & Procedures section, but this is meant to be the place to document things given as a treatment at today's visit. If a protocol is selected and the protocol has a preprogrammed _Protocol Treatments_ orders picklist programmed, those specific items will display in this section as a hyperlink to select. These may be specific listed items as a guidance to ‘add' to the exam based on the protocol selected in the chief complaint. In this screen shot example, we had selected Low Back Pain as a protocol to follow and now in the _Treatments_ section we see some specific items listed that follow that protocol that we may want to ‘add to exam' to perform and document that we did as a treatment at today's visit regarding his/her lower back pain.
+The treatments section is meant to document any test or procedure (stored as order items) that were done at this visit as a treatment. It's similar to the Tests & Procedures section, but this is meant to be the place to document things given as a treatment at today's visit. If a protocol is selected and the protocol has a preprogrammed *Protocol Treatments* orders picklist programmed, those specific items will display in this section as a hyperlink to select. These may be specific listed items as a guidance to ‘add' to the exam based on the protocol selected in the chief complaint. In this screen shot example, we had selected Low Back Pain as a protocol to follow and now in the *Treatments* section we see some specific items listed that follow that protocol that we may want to ‘add to exam' to perform and document that we did as a treatment at today's visit regarding his/her lower back pain.
 
 ![](./encounter-protocols.assets/55a61df7584b0248ec245b5384f7a82f.png)
 
 Clicking on the specific hyperlink of the treatment will apply that specific item to the visit encounter to indicate it was performed and needs documented as a treatment today. It applies the order item as its own sub-section here.
 
-In this screen shot example, we selected the "Superficial heat" link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the Superficial heat order item into the _Treatments_ section. It applies it as ‘in progress'.
+In this screen shot example, we selected the "Superficial heat" link that was displayed (it appeared as a choice based on the protocol we had previously selected to use for this visit encounter) and then it applied the Superficial heat order item into the *Treatments* section. It applies it as ‘in progress'.
 
 Click to expand the specific order item section (ex: Superficial heat) to key in the data of the item you performed as a treatment and result it. Make sure to mark the item as ‘completed' when done.
 
@@ -118,4 +117,4 @@ See other help documentation called [Encounters Protocol Configuration & Program
 
 To learn more about Encounter Protocols, follow the link below to the Learning Management System course:
 
-- [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)
+* [Protocols](https://mie.talentlms.com/shared/start/key:SOTRKMFP)

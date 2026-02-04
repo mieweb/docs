@@ -1,15 +1,14 @@
 ---
-id: "1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8"
-title: "Device Interface - Luna Audiometer Interface"
-date: "2025-09-08T18:54:39.061Z"
+id: '1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
+title: 'Device Interface - Luna Audiometer Interface'
+date: '2025-09-08T18:54:39.061Z'
 version: 56
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1RjX5fthre1zIKzUKYCSyxJQhB2TBf80jUBbgCjaWmE8'
+wikigdrive: 'v2.15.30'
 ---
-
 Before users can import Luna Audiometer test results into {{% system-name %}} they must first create an export file from the Luna Screening Audiometer software. Once the file has been exported from the Luna Screening Audiometer software and saved to the user's local computer, navigate to the Luna Audio Import tool in {{% system-name %}}.
 
 {{% note %}}

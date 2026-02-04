@@ -1,20 +1,19 @@
 ---
-id: "1kmKUrKQoXvJTsCtmhneuTZq9cwU1jKJTxhGkVUZkQ7o"
-title: "CMS124 - Cervical Cancer Screening Configuration"
-date: "2024-09-05T19:47:53.159Z"
+id: '1kmKUrKQoXvJTsCtmhneuTZq9cwU1jKJTxhGkVUZkQ7o'
+title: 'CMS124 - Cervical Cancer Screening Configuration'
+date: '2024-09-05T19:47:53.159Z'
 version: 50
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure"
-  - "../quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md"
-  - "https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12"
-source: "https://drive.google.com/open?id=1kmKUrKQoXvJTsCtmhneuTZq9cwU1jKJTxhGkVUZkQ7o"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v11&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v10&showresulttype=Measure'
+  - '../quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms124v12'
+source: 'https://drive.google.com/open?id=1kmKUrKQoXvJTsCtmhneuTZq9cwU1jKJTxhGkVUZkQ7o'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS124v12](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms124&showresult=CMS124v12&showresulttype=Measure) (2024)
@@ -25,13 +24,13 @@ wikigdrive: "v2.15.30"
 
 ## Clinical Instructions
 
-Ensure all women aged 24-64 are screened for cervical cancer on the following schedule. Beginning at age 21, women should be screened using a Pap Test at least once every 3 years. Alternatively, beginning at age 30, women can be screened using an HPV Test at least once every 5 years. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.
+Ensure all women aged 24-64 are screened for cervical cancer on the following schedule.  Beginning at age 21, women should be screened using a Pap Test at least once every 3 years.  Alternatively, beginning at age 30, women can be screened using an HPV Test at least once every 5 years. Laboratory screening tests will be recorded as observations with results either manually entered or received from a laboratory interface.
 
 For detailed information on the recommended workflow please [click here](../quality-measure-specifications-and-recommended-workflows/cms-124-cervical-cancer-screening.md).
 
 ## Compliance Configuration
 
-Numerator compliance requires either an appropriately coded Pap Test observation or an appropriately coded HPV Test observation. The observation name is not important for compliance, the only requirement is that the LOINC code on the observation code is in one of the following value sets.
+Numerator compliance requires either an appropriately coded Pap Test observation or an appropriately coded HPV Test observation.  The observation name is not important for compliance, the only requirement is that the LOINC code on the observation code is in one of the following value sets.
 
 ### Pap Test (2.16.840.1.113883.3.464.1003.108.12.1017)
 

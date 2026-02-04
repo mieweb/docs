@@ -1,21 +1,20 @@
 ---
-id: "1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
-title: "Viewing Restrictions"
-date: "2025-08-05T17:59:18.532Z"
-version: 185
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+id: '1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
+title: 'Viewing Restrictions'
+date: '2025-08-05T17:59:18.532Z'
+version: 186
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:ALEHRKMF"
-source: "https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
+source: 'https://drive.google.com/open?id=1YCVJuiM8IJKCQ2Rk0_m1NCJ2IwJ4-EEbQZyz_A7vW9A'
+wikigdrive: 'v2.15.30'
 ---
-
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout the system and its own chart tab outside of an encounter exam.
 
 ## Security Permission
 
-Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts. There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
+Security permission **Manage Restr and Accom** allows a user to manage restrictions and accommodations for patient charts.  There are various levels from not being able to view any documented restrictions and/or accommodations on a chart, to being able to delete existing or add new restrictions and/or accommodations on a chart.
 
 ![](./viewing-restrictions.assets/60140c574ab7a6e73a97e879234d1109.png)
 
@@ -73,21 +72,21 @@ Inactive restrictions are restrictions that have passed their end date.
 
 ### Inactive Restrictions from Restrictions/Lost Time stand alone chart tab
 
-Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive restrictions within the Restrictions/Lost Time chart tab of the patient, simply click the _Show Inactive_ hyperlink.
+Inactive restrictions can be viewed from the chart tab Restrictions/Lost Time.  In order to view inactive restrictions within the Restrictions/Lost Time chart tab of the patient, simply click the *Show Inactive* hyperlink.
 
 ![](./viewing-restrictions.assets/1d639a59c1c3ea69a8bd5e742553e6fb.png)
 
 Once clicking the Show Inactive hyperlink, it will display and incorporate all past inactive restrictions on the chart along with the current active restrictions.
 
 {{% tip %}}
-To toggle back to just the current active restrictions listing, toggle back by clicking _Hide Inactive_.
+To toggle back to just the current active restrictions listing, toggle back by clicking *Hide Inactive*.
 
 ![](./viewing-restrictions.assets/87555114a978c5575408a802d5af4490.png)
 {{% /tip %}}
 
 ### Inactive Restrictions from the Restrictions Encounter Section
 
-In order to view inactive restrictions within an encounter, simply go to the encounter section Restrictions found in the Plan.  Inactive restrictions are restrictions that have passed their end date and you can view those by clicking the _Show Inactive_ link. It will then list all past inactive restrictions on the chart along with the current active restrictions if there are any.
+In order to view inactive restrictions within an encounter, simply go to the encounter section Restrictions found in the Plan.  Inactive restrictions are restrictions that have passed their end date and you can view those by clicking the *Show Inactive* link.  It will then list all past inactive restrictions on the chart along with the current active restrictions if there are any.
 
 ![](./viewing-restrictions.assets/f36d1315014a17092371eda41d0c2851.png)
 
@@ -95,4 +94,4 @@ In order to view inactive restrictions within an encounter, simply go to the enc
 
 To learn more about Viewing Restrictions and Accommodations, follow the link below to the Learning Management System course:
 
-- [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)
+* [Restriction and Accommodation Management](https://mie.talentlms.com/shared/start/key:ALEHRKMF)

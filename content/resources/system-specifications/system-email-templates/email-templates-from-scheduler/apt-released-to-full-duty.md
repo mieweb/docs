@@ -1,15 +1,14 @@
 ---
-id: "16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4"
-title: "Apt Released to Full Duty"
-date: "2025-11-13T19:49:53.160Z"
+id: '16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
+title: 'Apt Released to Full Duty'
+date: '2025-11-13T19:49:53.160Z'
 version: 26
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=16u-JX39xaMJKe01TbN1FWU3rMll3ASbRoZPpUp7ZYf4'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Notice of Return to Full Duty and Medically Discharged for Frederick J Anderson
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Notification to Schedule Follow-up Audiogram Review after Second STS Finding
 

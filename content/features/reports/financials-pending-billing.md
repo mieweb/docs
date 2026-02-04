@@ -1,16 +1,15 @@
 ---
-id: "1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0"
-title: "Financials Pending Billing"
-date: "2024-10-04T14:42:37.293Z"
+id: '1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
+title: 'Financials Pending Billing'
+date: '2024-10-04T14:42:37.293Z'
 version: 111
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/"
-source: "https://drive.google.com/open?id=1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
+source: 'https://drive.google.com/open?id=1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
+wikigdrive: 'v2.15.30'
 ---
-
 The Pending Billing Report is populated by billing records generated from orders with billing codes/prices and/or Deals. This report can be used in a number of ways to help users monitor billing records.
 
 ## Tracking Order Status
@@ -33,7 +32,7 @@ Labs or other testing sent* outside of the clinic* (deal orders) that have been 
 
 ## Charge Code
 
-In addition to sending completed orders with billing records, the system also required a charge code/billing code. If a billing code is absent, then this charge will not be accepted by the billing system. Use the "Charge Code" column of the Pending Billing report to catch any charges with billing records that do not contain a charge code. Some clients may intentionally create an order item/record, but intentionally not bill it. Lack of a billing code could also be a Deal configuration issue. Any missing charge codes on deals or billing order items should be reviewed and validated. If an item intentionally does not need to be billed, the user can select the row and choose the delete option to remove it from the report.
+In addition to sending completed orders with billing records, the system also required a charge code/billing code.  If a billing code is absent, then this charge will not be accepted by the billing system. Use the "Charge Code" column of the Pending Billing report to catch any charges with billing records that do not contain a charge code.  Some clients may intentionally create an order item/record, but intentionally not bill it. Lack of a billing code could also be a Deal configuration issue. Any missing charge codes on deals or billing order items should be reviewed and validated. If an item intentionally does not need to be billed, the user can select the row and choose the delete option to remove it from the report.
 
 ![](./financials-pending-billing.assets/30b0fbfa847872daa77e726a44322c7f.png)
 

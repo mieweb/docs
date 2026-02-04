@@ -1,26 +1,25 @@
 ---
-id: "16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4"
-title: "Auto Routes"
-date: "2025-12-22T16:18:16.961Z"
+id: '16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
+title: 'Auto Routes'
+date: '2025-12-22T16:18:16.961Z'
 version: 169
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=16TKb3I7wceQPbaYvEIGeYMgsnpGsjOuEN29IU7jqhF4'
+wikigdrive: 'v2.15.30'
 ---
-
-Auto Routes contain information regarding interfaces that are configured in {{% system-name %}}. Auto Routes define each interface, what information is sent out of the system via that interface, how information is sent and when information is sent from {{% system-name %}}. Typically, Auto Routes are configured by the {{% system-name %}} EDI team when an interface is configured with an outside vendor. Only users with advanced training and Superuser access who are responsible for interface configuration should make changes to rules defined in this editor. Without superuser system admin access, only the {{% system-name %}} EDI team will be able to access.
+Auto Routes contain information regarding interfaces that are configured in {{% system-name %}}. Auto Routes define each interface, what information is sent out of the system via that interface, how information is sent and when information is sent from {{% system-name %}}. Typically, Auto Routes are configured by the {{% system-name %}} EDI team when an interface is configured with an outside vendor. Only users with advanced training and Superuser access who are responsible for interface configuration should make changes to rules defined in this editor. Without superuser system admin access, only the  {{% system-name %}} EDI team will be able to access.
 
 ![](./auto-routes.assets/248558f7758d9058be435692ad368231.png)
 
 ## DataVis vs Legacy Editor
 
-Auto routes can be accessed from the Control Panel sidemenu tab. Each entry represents an auto route. By default, any auto routes configured for the system will be displayed in a DataVis editor mode. There is the ability to get to the Legacy Auto Routes Editor mode if you prefer working in that mode. This guide will be describing the DataVis Auto Route editor mode and functionality.
+Auto routes can be accessed from the Control Panel sidemenu tab. Each entry represents an auto route.  By default, any auto routes configured for the system will be displayed in a DataVis editor mode.  There is the ability to get to the Legacy Auto Routes Editor mode if you prefer working in that mode.  This guide will be describing the DataVis Auto Route editor mode and functionality.
 
 ![](./auto-routes.assets/97c8cee45daa392e7b5fe630c78579ab.png)
 
-By default, enabled auto routes will display in the datavis listing. To access disabled auto route triggers, simply use the perspective drop-down to select _All Routes_ perspective. The _Route Status_ column in the datavis output listing will indicate which Auto Route listings are enabled vs disabled.
+By default, enabled auto routes will display in the datavis listing.  To access disabled auto route triggers, simply use the perspective drop-down to select *All Routes* perspective.  The *Route Status* column in the datavis output listing will indicate which Auto Route listings are enabled vs disabled.
 
 ![](./auto-routes.assets/2cb7a11587c3ba898ccf613464624af3.png)
 
@@ -87,11 +86,11 @@ The user is prompted with a pop-up window to set the selected auto route(s) as e
 
 Clicking the Update button will save your work indicating to enable or disable the selected auto route(s).
 
-NOTE: Disabled auto routes will have a Route Status of disabled, and the Where Clause will automatically be set to begin with _0 AND_ so that tells the system (using code) that the auto route is disabled.
+NOTE: Disabled auto routes will have a Route Status of disabled, and the Where Clause will automatically be set to begin with *0 AND* so that tells the system (using code) that the auto route is disabled.
 
 ![](./auto-routes.assets/03a799fd58addfe0769029e0dc5a83f6.png)
 
-Once a disabled auto route is set as Enabled, then the Route Status will change to Enabled and the _0 AND_ prefix on the Where Clause will be automatically removed so that tells the system (using code) that the auto route is enabled.
+Once a disabled auto route is set as Enabled, then the Route Status will change to Enabled and the *0 AND* prefix on the Where Clause will be automatically removed so that tells the system (using code) that the auto route is enabled.
 
 ### Show Query
 

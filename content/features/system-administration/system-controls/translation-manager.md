@@ -1,16 +1,15 @@
 ---
-id: "1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM"
-title: "Translation Manager"
-date: "2024-07-22T14:31:15.376Z"
-version: 151
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
+title: 'Translation Manager'
+date: '2024-07-22T14:31:15.376Z'
+version: 152
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:ZGSDNHRK"
-source: "https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:ZGSDNHRK'
+source: 'https://drive.google.com/open?id=1NyLDGOCp5igeNiSx__S3Z_rZThtY0Jbk4zVg01Pu2wM'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Purpose of the Translation Manager
 
 The Translation Manager is used to map or translate codes to and from interfaces, in lieu of an actual interface engine. The Trans Mgr tab is found in the Control Panel, typically under the Interface parent tab.
@@ -39,7 +38,7 @@ Checking a box for an item provides translation options at the bottom of the scr
 
 #### Show All Unmapped-All
 
-The "Show All Unmapped" button will be accessible for use when unmapped translations are present in any interface/category. Clicking on "Show All Unmapped" within the main translation manager will list any/all unmapped translations regardless of interface/category.
+The "Show All Unmapped" button will be accessible for use when unmapped translations are present in any interface/category.  Clicking on "Show All Unmapped" within the main translation manager will list any/all unmapped translations regardless of interface/category.
 
 ![](./translation-manager.assets/2b31ae5a8f7baa6c8422e5c22f6504f1.png)
 
@@ -119,4 +118,4 @@ NOTE: To create a New type, refer to the Add Translation screenshot and enter th
 
 To learn more about the Translation Manager, follow the link below to the Learning Management System course:
 
-- [Translation Manager](https://mie.talentlms.com/shared/start/key:ZGSDNHRK)
+* [Translation Manager](https://mie.talentlms.com/shared/start/key:ZGSDNHRK)

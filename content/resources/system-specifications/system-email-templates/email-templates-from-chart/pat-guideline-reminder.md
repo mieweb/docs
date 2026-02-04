@@ -1,15 +1,14 @@
 ---
-id: "1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk"
-title: "Pat Guideline Reminder"
-date: "2025-11-13T17:15:43.554Z"
+id: '1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk'
+title: 'Pat Guideline Reminder'
+date: '2025-11-13T17:15:43.554Z'
 version: 26
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1pfoc98Z8qWhN3HRsccaYI04TotYSfYuUzdEmh57tmNk'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Notification to Schedule Follow-up Appointment
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Notification to Schedule Follow-up Appointment
 

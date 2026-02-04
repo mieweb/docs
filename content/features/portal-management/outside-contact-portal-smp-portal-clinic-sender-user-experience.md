@@ -1,17 +1,16 @@
 ---
-id: "15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc"
-title: "Outside Contact Portal - SMP Portal Clinic Sender User Experience"
-date: "2025-12-01T21:40:15.247Z"
-version: 117
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
+title: 'Outside Contact Portal - SMP Portal Clinic Sender User Experience'
+date: '2025-12-01T21:40:15.247Z'
+version: 119
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/"
-  - "https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/"
-source: "https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/'
+  - 'https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/'
+source: 'https://drive.google.com/open?id=15y_7nNJn1rsSRh-RC4aEMXGuzuiRNPIW7zWM5uHlIDc'
+wikigdrive: 'v2.15.30'
 ---
-
 The system has the ability to send system contacts documents utilizing a secure ‘Outside Contact Portal' EO chart setup (or whatever you wish to name it). This portal is often referred to as the "Secure Message Portal" When a Contact is added to the system, the system will automatically create a Contact Chart and tie it to the EO chart that has portal access for Contacts. End users may share/send a copy of a document from the originating patient chart to the Contact Chart. In turn, the Contact is sent a portal invitation to create a secure portal login account which will allow them to view the shared document(s). Utilizing this ‘Send Document' feature reduces the risk of end users from emailing PHI out of the system.
 
 The ‘Outside Contact Portal' is an excellent alternative for clients that can not or do not have secure or [Direct](https://docs.enterprisehealth.com/functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s/) email configured.
@@ -31,25 +30,25 @@ The ‘Outside Contact Portal' is an excellent alternative for clients that can 
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/f1f2627e9a17fb02d36d1bb7c01e6e0b.png)
 
-- <strong>Subject:</strong> will display the Document ID attached to this send request.
-- <strong>From:</strong> will default to the auto reply url indicated in the System Settings (WebChart/Email/Autoreply).
-- <strong>Recipient:</strong> Search for any existing <em>Recipient</em> in the system by using the autocomplete or click the ‘+' to add a new contact chart/details to the system to be able to send to. Upon selecting an existing contact or adding a contact, the contact name will display in this field. It is recommended that users always search for an existing contact so that duplicate contact charts are not created.
-- <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document. See [Employer Search](https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
-- Click the <em>Send</em> button after all fields have been completed.
+* <strong>Subject:</strong> will display the Document ID attached to this send request.
+* <strong>From:</strong> will default to the auto reply url indicated in the System Settings (WebChart/Email/Autoreply).
+* <strong>Recipient:</strong> Search for any existing <em>Recipient</em> in the system by using the autocomplete or click the ‘+' to add a new contact chart/details to the system to be able to send to. Upon selecting an existing contact or adding a contact, the contact name will display in this field. It is recommended that users always search for an existing contact so that duplicate contact charts are not created.
+* <strong>Employer:</strong> Use the <em>Employer</em> field to search for the portal for which you wish a portal invitation to be sent from. Search for ‘Outside Contact Portal' if using the OOTB configuration. If individual client Employer Contact Portals have been custom configured, select the appropriately named employer contact portal for that client/customer. A list of contacts for the portal will display to select and send the document.  See [Employer Search](https://docs.enterprisehealth.com/functions/portal-management/outside-contact-portal-smp-portal-clinic-sender-user-experience/#employer-search) below for more information on the Employer search. If a recipient is selected and the employer field is left blank, the system will send a portal invitation to the system default portal. System Setting (NMC/Portal/Default Portal). Therefore, if many custom Employer Contact Portals are configured, entering the employer will allow the user to select which employer portal you want the invitation to come from.
+* Click the <em>Send</em> button after all fields have been completed.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/09852f45d803278879e86b9141baf8af.png)
 
 ### Adding a New Recipient Contact
 
-It is important to search for an existing recipient first, before adding a new Contact recipient to the system. If the Contact doesn't exist, the ‘+' icon can be selected at the time of sending a document. Users are then directed to the ‘Add Contact' details entry box. Enter the contact's _First Name_, _Last Name_, _Email_, and _Phone_. In the _Employer_ field, select the ‘Outside Contact Portal' if using the OOTB configuration. If custom employer contact portals have been created, select the appropriate Employer Contact Portal. Click the _Save_ button after all fields have been completed.
+It is important to search for an existing recipient first, before adding a new Contact recipient to the system.  If the Contact doesn't exist, the ‘+' icon can be selected at the time of sending a document.  Users are then directed to the ‘Add Contact' details entry box.  Enter the contact's *First Name*, *Last Name*, *Email*, and *Phone*. In the *Employer* field, select the ‘Outside Contact Portal' if using the OOTB configuration. If custom employer contact portals have been created, select the appropriate Employer Contact Portal. Click the *Save* button after all fields have been completed.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/790efc38b5b3b95c579f5c3eb98f45d8.png)
 
-After the new contact has been added, a confirmation message will pop up in the upper right hand corner of the screen notifying the user that the contact has been successfully added. The user is then directed back to the ‘Send Document' details box. The Employer field can be entered and then click _Save_ to send the document.
+After the new contact has been added, a confirmation message will pop up in the upper right hand corner of the screen notifying the user that the contact has been successfully added. The user is then directed back to the ‘Send Document' details box. The Employer field can be entered and then click *Save* to send the document.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/faf4bf25dbd28ed4d7f3c7cb195c68b7.png)
 
-_Note_: When entering a contact, the contact's _First name_, _Last name_ and _Email_ is required. If the user attempts to save the ‘Add Contact' details box, a warning message will appear indicating fields are required.
+*Note*: When entering a contact, the contact's *First name*, *Last name* and *Email* is required. If the user attempts to save the ‘Add Contact' details box, a warning message will appear indicating fields are required.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/5bd4bc1039499979cc5f71b3f036e4f1.png)
 
@@ -57,7 +56,7 @@ _Note_: When entering a contact, the contact's _First name_, _Last name_ and _Em
 
 #### Recipient Search
 
-Use the _Recipient_ autocomplete field to search for an existing contact. If the contact does not currently have an active Contact login to the system, then a list of all key code portals that the contact is associated with will display. Select the appropriate portal to send the Contact a portal invitation. Note: The radio buttons to select the appropriate portal to send the Contact a portal invitation is driven by the portal EO chart having _Enable Activation Code Redemption_ checked.
+Use the *Recipient* autocomplete field to search for an existing contact. If the contact does not currently have an active Contact login to the system, then a list of all key code portals that the contact is associated with will display. Select the appropriate portal to send the Contact a portal invitation.  Note: The radio buttons to select the appropriate portal to send the Contact a portal invitation is driven by the portal EO chart having *Enable Activation Code Redemption* checked.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/b41acc428a03456eb43911f6190a6601.png)
 
@@ -89,7 +88,7 @@ If a Contact's email is manually removed from the contact chart and the user att
 
 ### Batch Sending of Documents to Contacts
 
-Multiple documents can be batched and sent using the Batch feature. Navigate to the patient chart and click on the "Batch" icon link (List View) or "Batch" link (Detail View).
+Multiple documents can be batched and sent using the Batch feature.  Navigate to the patient chart and click on the "Batch" icon link (List View) or "Batch" link (Detail View).
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/8bac0d8f7b083fa375611cc27c84b48e.png)
 
@@ -127,17 +126,17 @@ Users may also use the E-Chart search to search for Contact charts, just as they
 
 Sent documents will display in the Contact chart in the ‘Documents' tab. The document list displays the following:
 
-The newly issued _DOCID_ when shared with the Contact.
+The newly issued *DOCID* when shared with the Contact.
 
-The _SERVDATE_ (service date) will display the date the document was sent to the Contact.
+The *SERVDATE* (service date) will display the date the document was sent to the Contact.
 
-The _DOCTYPE_ (document type) will display as ‘Received Document' for any/all documents sent to the Contact.
+The *DOCTYPE* (document type) will display as ‘Received Document' for any/all documents sent to the Contact.
 
-The _SUBJECT_ will display the document name/description as was indicated on the patient chart, then a hyphen followed by the patient name for which the document originated.
+The *SUBJECT* will display the document name/description as was indicated on the patient chart, then a hyphen followed by the patient name for which the document originated.
 
-_BY_ will display the name of the individual that sent the document to the contact for review.
+*BY* will display the name of the individual that sent the document to the contact for review.
 
-_SERV LOCATION_ will display the service location which was indicated on the original document. If a location was not stored on the originating document, this field will be blank.
+*SERV LOCATION* will display the service location which was indicated on the original document. If a location was not stored on the originating document, this field will be blank.
 
 ![](./outside-contact-portal-smp-portal-clinic-sender-user-experience.assets/a2804b6760f592c862037d74c0b58d41.png)
 

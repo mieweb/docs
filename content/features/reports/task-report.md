@@ -1,22 +1,21 @@
 ---
-id: "1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4"
-title: "Task Report"
-date: "2025-12-10T14:31:59.570Z"
+id: '1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4'
+title: 'Task Report'
+date: '2025-12-10T14:31:59.570Z'
 version: 40
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1uViuWqtilTHglw0nchgu3VvxMT0Ne6OpoiyUZNe_Px4'
+wikigdrive: 'v2.15.30'
 ---
-
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 
 ## Task Reports
 
-Click _Reports_ tab on the left side-bar menu.
+Click *Reports* tab on the left side-bar menu.
 
-Click _Utilizations_ tab from the top tab menu and select _Task Reports_.
+Click *Utilizations* tab from the top tab menu and select *Task Reports*.
 
 The Task Reports automatically pops up at All Departments and lists all tasks for All Departments. There are also date filters one could use.
 
@@ -34,10 +33,10 @@ Depending on filter criteria entered, it may also result to show as many as 3 ca
 
 ## Categories within the Task Report
 
-- <strong>Department Statistics</strong>: Lists each department separately with their Pending, Closed (completed) and Total number of tasks.
-- <strong>User Statistics:</strong> Lists each specific user within that department you selected with their Pending, Closed (completed) and Total number of tasks. If you click on the underlined username it will take you to that user's information within your system.
-- <strong>Patient Statistics:</strong> Lists each specific patient that has ever had a task regarding them related to the department that you chose. Shows Pending, Closed (completed) and Total number of tasks per specific patient. This patient list is in alphabetical order by last name. If you click on the underlined patient's name it will take you to their demographics screen.
+* <strong>Department Statistics</strong>: Lists each department separately with their Pending, Closed (completed) and Total number of tasks.
+* <strong>User Statistics:</strong> Lists each specific user within that department you selected with their Pending, Closed (completed) and Total number of tasks. If you click on the underlined username it will take you to that user's information within your system.
+* <strong>Patient Statistics:</strong> Lists each specific patient that has ever had a task regarding them related to the department that you chose. Shows Pending, Closed (completed) and Total number of tasks per specific patient. This patient list is in alphabetical order by last name. If you click on the underlined patient's name it will take you to their demographics screen.
 
-Click _Submit_ under the ‘pick department' drop-down arrow field to view the report if it doesn't automatically pop-up. If it is a big department, it may take a bit to run this report and for it to pop-up.
+Click *Submit* under the ‘pick department' drop-down arrow field to view the report if it doesn't automatically pop-up. If it is a big department, it may take a bit to run this report and for it to pop-up.
 
 Show CSV links are available to download the results into an excel spreadsheet and manipulate, sort, etc as you wish in spreadsheet format.

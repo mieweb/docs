@@ -1,20 +1,19 @@
 ---
-id: "1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U"
-title: "CMS 56 - Functional Status Assessment for Total Hip Replacement"
-date: "2022-05-11T20:12:53.552Z"
+id: '1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
+title: 'CMS 56 - Functional Status Assessment for Total Hip Replacement'
+date: '2022-05-11T20:12:53.552Z'
 version: 65
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/glossary/pro"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms056v10"
-source: "https://drive.google.com/open?id=1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/glossary/pro'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms056v10'
+source: 'https://drive.google.com/open?id=1zsmUhaStIR7e8aV0jUDZy6Jt0bTTxA5apQtrmCHPu4U'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS56v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS56v8&showresulttype=Measure) (2020)
@@ -40,7 +39,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 

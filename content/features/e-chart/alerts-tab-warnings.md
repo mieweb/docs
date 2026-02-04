@@ -1,38 +1,37 @@
 ---
-id: "1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
-title: "Alerts Tab - Warnings"
-date: "2025-11-07T18:39:49.915Z"
+id: '1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
+title: 'Alerts Tab - Warnings'
+date: '2025-11-07T18:39:49.915Z'
 version: 192
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1vUPZD7Lf494oA4mQAaydY64sXCaKu28_IaHkc6Jg_Z0'
+wikigdrive: 'v2.15.30'
 ---
-
-Warnings & Guideline Alerts for certain criteria as it pertains to a chart are in the product. However, utilizing Scripted Rules, additional custom warnings & alert criteria can be configured system wide. Warnings & Alerts are visible in various areas of the chart, but can only be dismissed by users with specific security permission.
+Warnings & Guideline Alerts for certain criteria as it pertains to a chart are in the product.  However, utilizing Scripted Rules, additional custom warnings & alert criteria can be configured system wide.  Warnings & Alerts are visible in various areas of the chart, but can only be dismissed by users with specific security permission.
 
 ## Summary Dashboard Portlet
 
-In the patient's ‘Summary' chart tab is a portlet named _Warnings/Alerts_ where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient. From this portlet, a user (with security permission) can Dismiss any if needed.
+In the patient's ‘Summary' chart tab is a portlet named *Warnings/Alerts* where you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, guidelines (scripted rules) etc. for the patient. From this portlet, a user (with security permission) can Dismiss any if needed.
 
 ![](./alerts-tab-warnings.assets/c63294744854a1d52a1d2bfd7b77d745.png)
 
 ## Chart Tab
 
-As a separate chart tab in the patient's chart, is a chart tab named ‘Warnings', you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, contraindications, guideline alerts etc. as it relates to the chart. From this chart tab, a user (with security permission) can Dismiss any if needed.
+As a separate chart tab in the patient's chart, is a chart tab named ‘Warnings', you will see drug interaction warnings, allergy warnings, duplicate therapy alerts, contraindications, guideline alerts etc. as it relates to the chart.  From this chart tab, a user (with security permission) can Dismiss any if needed.
 
 ![](./alerts-tab-warnings.assets/52311932133a870ea078352d14711751.png)
 
 ## Encounter Section
 
-When working in any encounter, there is a _Warnings and Guidelines_ encounter section available. By default, this lists all presenting warnings and guidelines for the specific chart in a summary format. The presenting warnings & guidelines alerts are valid as of today's logged in date.  This section is for visibility purposes to quickly see any warnings or guideline alerts a chart has when working in an encounter exam. Warnings or Guideline alerts cannot be dismissed from the Warnings and Guidelines encounter section.
+When working in any encounter, there is a *Warnings and Guidelines* encounter section available.  By default, this lists all presenting warnings and guidelines for the specific chart in a summary format. The presenting warnings & guidelines alerts are valid as of today's logged in date.  This section is for visibility purposes to quickly see any warnings or guideline alerts a chart has when working in an encounter exam. Warnings or Guideline alerts cannot be dismissed from the Warnings and Guidelines encounter section.
 
 ![](./alerts-tab-warnings.assets/a272a961ba366e85f1e4286a2b92c374.png)
 
 ## Encounter View
 
-In the View of the encounter (before or upon Archive & Close), you will see any warnings or guideline alerts as it relates to the chart. From the encounter view, a user (with security permission) can Dismiss any if needed, or hide the entire section from the view.
+In the View of the encounter (before or upon Archive & Close), you will see any warnings or guideline alerts as it relates to the chart.  From the encounter view, a user (with security permission) can Dismiss any if needed, or hide the entire section from the view.
 
 ![](./alerts-tab-warnings.assets/cda863eb5d3874afe0ee211139455c86.png)
 
@@ -66,10 +65,10 @@ Being able to dismiss any warnings or guideline alerts is driven by security per
 
 Dismiss Warnings:  This sets the level of permission for dismissing any warnings in the Meds tab program and other programs where warnings/alerts your system may be set up for.
 
-- No:  will not allow users in the security role to dismiss warnings at any level.
-- Yes: will allow users in the security role to dismiss warnings for your viewing only and for that patient only.
-- Dismiss for all Patients:  Usually only the Physician has security rights to dismiss at this level. The physician can dismiss the warning for that specific patient only or also has the option to dismiss the specific warning for all patients for the physician's view.   If the physician dismisses a warning for "all patients' they would only have to dismiss once and never see it generated again.  We discourage this because it really defeats the purpose of showing warnings and affects all other patients and the warning won't pop-up again for any patient.
-- Dismiss for All Users:  Usually only the Physician has security rights to dismiss at this level.  The physician can dismiss the warning for that specific patient or all patients and dismiss it from view for all users.
+* No:  will not allow users in the security role to dismiss warnings at any level.
+* Yes: will allow users in the security role to dismiss warnings for your viewing only and for that patient only.
+* Dismiss for all Patients:  Usually only the Physician has security rights to dismiss at this level. The physician can dismiss the warning for that specific patient only or also has the option to dismiss the specific warning for all patients for the physician's view.   If the physician dismisses a warning for "all patients' they would only have to dismiss once and never see it generated again.  We discourage this because it really defeats the purpose of showing warnings and affects all other patients and the warning won't pop-up again for any patient.
+* Dismiss for All Users:  Usually only the Physician has security rights to dismiss at this level.  The physician can dismiss the warning for that specific patient or all patients and dismiss it from view for all users.
 
 Most practices give the nurses/MA's the right to dismiss for ‘this patient' and give the providers/physicians the higher security to dismiss ‘for all patients'.
 
@@ -79,13 +78,13 @@ If a user has security permission to dismiss, simply click the Dismiss hyperlink
 
 ![](./alerts-tab-warnings.assets/354577a609394a46bee746eb05c9130f.png)
 
-A popup window will appear for the Warning/Guideline alert. This window shows the warning info, any (?), the warning type, the dismissal options, the field to document reason for dismissing, and ability to set a ‘resume warning' date if applicable (like a snooze).
+A popup window will appear for the Warning/Guideline alert.  This window shows the warning info, any (?), the warning type, the dismissal options, the field to document reason for dismissing, and ability to set a ‘resume warning' date if applicable (like a snooze).
 
 ![](./alerts-tab-warnings.assets/56eba5375322a251e511493d401af880.png)
 
 If a warning or alert is dismissed as "all patients' the user would only have to dismiss once and never see it generated again on charts for their logged in user viewing OR for all users viewing in the system.  We discourage this because it really defeats the purpose of showing warnings and affects all other patient charts and the warning won't pop-up again for any chart.
 
-The _Reason for Dismissing_ field should be filled out for why you are dismissing the warning. It will accept free text, but it will also auto-complete and give you choices of previous entries of reasons why warnings were dismissed (it saves previous reasons for dismissing entries if a dismissing reason was typed in twice exactly the same).
+The *Reason for Dismissing* field should be filled out for why you are dismissing the warning. It will accept free text, but it will also auto-complete and give you choices of previous entries of reasons why warnings were dismissed (it saves previous reasons for dismissing entries if a dismissing reason was typed in twice exactly the same).
 
 Resume Warning: Enter a date you want the Warning to reappear on the patient's chart. This warning will reappear on the day selected/entered. The date is when you want the alert dismissed until.  So the alert will not display again until the date that is entered. Blank means never. Leaving this date blank and submitting the dismissal will mean the warning will never reappear for this patient.
 

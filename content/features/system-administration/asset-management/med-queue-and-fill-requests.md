@@ -1,15 +1,14 @@
 ---
-id: "157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg"
-title: "Med Queue and Fill Requests"
-date: "2026-01-20T14:40:32.753Z"
+id: '157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
+title: 'Med Queue and Fill Requests'
+date: '2026-01-20T14:40:32.753Z'
 version: 343
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=157hLx-Jk2bIid_Syd0tFtFafekE515hD3diDbCUJWzg'
+wikigdrive: 'v2.15.30'
 ---
-
 A prescription in {{% system-name %}} must be ‘signified' to be filled in-house (via medication inventory) in order for the Fill Request to be triggered to staff. A Fill Request is triggered via a task and into the Med Queue worklist. To trigger a Fill Request from the patient's Medications/Allergies chart tab or via the Prescribe link or Refill link, the Prescriber must put a date in the Fill Script date field and then note patient is ‘in office' or ‘phone' for the Fill Request. The prescriber would enter the date to fill this script on and then select the radio button if the patient is in the office and waiting on the medications, or if the patient called in and needs medications filled but was on the phone (lower priority than patient's waiting in office for fills).
 
 ![](./med-queue-and-fill-requests.assets/9cdf4b78d7f08f7764c897fab1e12065.png)
@@ -26,7 +25,7 @@ From an encounter, the prescriber would be prescribing the medication in the Med
 
 An encounter is a face to face visit, so when the prescriber check marks the "fill" checkbox and saves the encounter, the Fill Request will be triggered and land as an "in-office" fill request.
 
-When a _fill script on_ date is entered (via prescribe/meds chart tab) or the "fill" checkbox has been marked (via encounter) the prescribe screen's "print/transmit" checkbox will go unchecked (There is no need to print/fax or transmit this prescription) as the prescriber has requested to fill it in-house via the inventory module.
+When a *fill script on* date is entered (via prescribe/meds chart tab) or the "fill" checkbox has been marked (via encounter) the prescribe screen's "print/transmit" checkbox will go unchecked (There is no need to print/fax or transmit this prescription) as the prescriber has requested to fill it in-house via the inventory module.
 
 Also upon "fill" being check-marked, a task will be created to notify the specified departments that a Fill Request needs done and the request has been submitted to the Med Queue. Your MIE Implementer will ensure the task rules for Office and Phone Fill requests are set up.
 
@@ -49,12 +48,12 @@ The Med Queue shows a list of charts that have a Fill Request task pending. Sele
 ![](./med-queue-and-fill-requests.assets/74805ace587ba136394463e103f55402.png)
 
 {{% info %}}
-Fill Requests currently being worked on by others, will show in the Med Queue as _In Progress_ and will show the user's name next to it who is actively working on it. It also moves that Fill Request ‘task' into the User's Tasks and assigns the user as the owner of that task. The workflow is identical to working a task, even though the fill request is being completed through the Med Queue worklist.
+Fill Requests currently being worked on by others, will show in the Med Queue as *In Progress* and will show the user's name next to it who is actively working on it. It also moves that Fill Request ‘task' into the User's Tasks and assigns the user as the owner of that task. The workflow is identical to working a task, even though the fill request is being completed through the Med Queue worklist.
 {{% /info %}}
 
 ![](./med-queue-and-fill-requests.assets/d1d31ca466682c487ca5f44da841b7b7.png)
 
-Click on the chart name in the Med Queue to fill a request, the application navigates the user to the chart's _Dispense_ chart tab. That tab will display the functions necessary to perform the Fill Request by dispensing the medication.
+Click on the chart name in the Med Queue to fill a request, the application navigates the user to the chart's *Dispense* chart tab. That tab will display the functions necessary to perform the Fill Request by dispensing the medication.
 
 ## Grab Fill Request(s) via Task Module
 
@@ -63,7 +62,7 @@ To work on a fill request, click on the group of pending Office Fills tasks or P
 ![](./med-queue-and-fill-requests.assets/3f9fff8b80665a870a62ea55cb66ffb4.png)
 
 {{% info %}}
-If someone already is working on a Fill Request task, they are the owner of that task and it moves that task from the bucket of department fill tasks for someone else to grab. It will also show that grabbed Fill Request task in the Med Queue as _In Progress_ and will show the user's name next to it who is working on it. Essentially you are working a task, even though you are working the Med Queue worklist.
+If someone already is working on a Fill Request task, they are the owner of that task and it moves that task from the bucket of department fill tasks for someone else to grab. It will also show that grabbed Fill Request task in the Med Queue as *In Progress* and will show the user's name next to it who is working on it. Essentially you are working a task, even though you are working the Med Queue worklist.
 {{% /info %}}
 
 Once you've grabbed the task, click on the Perform link in the task to perform the fill request dispensing.
@@ -72,11 +71,11 @@ Once you've grabbed the task, click on the Perform link in the task to perform t
 
 ## Working a Fill Request
 
-Whether you grab a task and click perform, or whether you click on a patient's name in the Med Queue to grab the Fill Request via that worklist queue, you are taken to the patient's chart. You will land on the patient's _Dispense_ chart tab.
+Whether you grab a task and click perform, or whether you click on a patient's name in the Med Queue to grab the Fill Request via that worklist queue, you are taken to the patient's chart. You will land on the patient's *Dispense* chart tab.
 
 ![](./med-queue-and-fill-requests.assets/44d1e2caab4706fb4a3448cd76899cfb.png)
 
-The first section shown, the user can work on each item. The section labeled _Requests For (Patient Name)_ will show pending Fill Requests for that patient.
+The first section shown, the user can work on each item. The section labeled *Requests For (Patient Name)* will show pending Fill Requests for that patient.
 
 ![](./med-queue-and-fill-requests.assets/445f155803853638a420814bc3d2fc77.png)
 
@@ -106,31 +105,32 @@ This will open a new screen and display the pending prescriptions. The screen wi
 
 ![](./med-queue-and-fill-requests.assets/becbd7b23ea96649ad4866a518f8311e.png)
 
-- <strong>Site:</strong> Select the site (and stockpile if that is applicable) you will be filling/pulling the medication from (inventory location).
-- <strong>Medication:</strong> When you use the tab key to advance to this field, it should give you auto-complete choices of that specific medication inventory item you have in-house along with the QTY that is available depending on the "site" you had selected.
+* <strong>Site:</strong> Select the site (and stockpile if that is applicable) you will be filling/pulling the medication from (inventory location).
+* <strong>Medication:</strong> When you use the tab key to advance to this field, it should give you auto-complete choices of that specific medication inventory item you have in-house along with the QTY that is available depending on the "site" you had selected.
 
 ![](./med-queue-and-fill-requests.assets/16349d271004b25ff1d89526ccb85fac.png)
 
 {{% info %}}
 If Dispense All is chosen, the Medication prescribed will be prefilled into the fields, as shown in the previous figure.
 
+
 {{% /info %}}
 
-- <strong>Quantity:</strong> Using the tab key, advance to this field to put in the quantity that you will be dispensing based on the prescription and the sig and what strength is available from inventory.
-- <strong>Lot Number:</strong> Using the tab key, advance to this field to see an auto-complete of Lot choices this drug is available to pull from in your inventory.
-- <strong>Manufacturer & Expiration:</strong> Using the tab key, based on the Lot number chosen, these fields should pre-populate for you based on what is in inventory. Otherwise, you can key them in.
-- <strong>Practitioner Sig/ Patient Sig:</strong> These will pre-populate for you based on the prescriber's prescription. You can override/change here. An example of this would be if the prescription was for 10mg of something, but you only have 5mg in stock, so you would be filling the prescription but using 5mg tablets, so the sig would need changed based on the strength of med, quantity, etc.
-- <strong>Equivalent Quantity</strong>: is the same if you are prescribing the same strength as the original prescription. However in the example above, if you only had 5mg tablets available and the prescription read to take one 10mg pill every day, then the general inventory quantity would be more than the equivalent quantity.
-- <strong>Fill Date</strong>: This is prepopulated with today's date, but you can override if you need to signify a different fill date.
-- <strong>Filled Until</strong>: This is also pre-populated based on the prescription information from the prescriber but you can override if you need to signify a different filled until date.
-- <strong>Print</strong> (<strong>Label/Patient Ed</strong>): Printing a label is the default to attach to the dispensed med. You can select to print patient education material for the medication drug provided from First Databank.
-- <strong>Given To:</strong> Signify via radio button who you will give the dispensed fill to.
+* <strong>Quantity:</strong> Using the tab key, advance to this field to put in the quantity that you will be dispensing based on the prescription and the sig and what strength is available from inventory.
+* <strong>Lot Number:</strong> Using the tab key, advance to this field to see an auto-complete of Lot choices this drug is available to pull from in your inventory.
+* <strong>Manufacturer & Expiration:</strong> Using the tab key, based on the Lot number chosen, these fields should pre-populate for you based on what is in inventory. Otherwise, you can key them in.
+* <strong>Practitioner Sig/ Patient Sig:</strong> These will pre-populate for you based on the prescriber's prescription. You can override/change here. An example of this would be if the prescription was for 10mg of something, but you only have 5mg in stock, so you would be filling the prescription but using 5mg tablets, so the sig would need changed based on the strength of med, quantity, etc.
+* <strong>Equivalent Quantity</strong>: is the same if you are prescribing the same strength as the original prescription. However in the example above, if you only had 5mg tablets available and the prescription read to take one 10mg pill every day, then the general inventory quantity would be more than the equivalent quantity.
+* <strong>Fill Date</strong>: This is prepopulated with today's date, but you can override if you need to signify a different fill date.
+* <strong>Filled Until</strong>: This is also pre-populated based on the prescription information from the prescriber but you can override if you need to signify a different filled until date.
+* <strong>Print</strong> (<strong>Label/Patient Ed</strong>): Printing a label is the default to attach to the dispensed med. You can select to print patient education material for the medication drug provided from First Databank.
+* <strong>Given To:</strong> Signify via radio button who you will give the dispensed fill to.
 
 ![](./med-queue-and-fill-requests.assets/42b10b00002d539c6d9ef136830c347d.png)
 
-- <strong>Username/Password</strong>: If your practice utilizes the double authentication (System setting: E-Chart, Dispense, Confirm User on Transactions is enabled) these fields will be here to fill out. You will be required to enter your {{% system-name %}} username & password to complete the Fill a Request.
+* <strong>Username/Password</strong>: If your practice utilizes the double authentication (System setting: E-Chart, Dispense, Confirm User on Transactions is enabled) these fields will be here to fill out. You will be required to enter your {{% system-name %}} username & password to complete the Fill a Request.
 
-Click the FILL RX button to complete the fill request and dispense the medication as complete. You will be taken to the _Labels/Select Warnings to Print_ portion of the fill request. This is where you checkmark to apply what warnings you want to print on the label that you will be adhering to the medication packaging. You can uncheckmark warnings you do not want applied. If there are any available AKAs for that drug, you can opt to print that also. Click the PRINT LABEL button to generate the label. This is configured for Dymo label writers.
+Click the FILL RX button to complete the fill request and dispense the medication as complete. You will be taken to the *Labels/Select Warnings to Print* portion of the fill request. This is where you checkmark to apply what warnings you want to print on the label that you will be adhering to the medication packaging. You can uncheckmark warnings you do not want applied. If there are any available AKAs for that drug, you can opt to print that also. Click the PRINT LABEL button to generate the label. This is configured for Dymo label writers.
 
 ![](./med-queue-and-fill-requests.assets/bc91db3a28f7ddae50afaa74cc6a74ed.png)
 
@@ -154,7 +154,7 @@ After completing the un-dispense, it then gives you a confirmation at the top th
 
 ![](./med-queue-and-fill-requests.assets/2fdcdb87c9d573188b41aea379130ad4.png)
 
-Undispensing does not put the Fill Request back into the Med Queue or back into the patient's pending fill requests. It will show in the "Fill Requests" portion that the Fill Request has _Not Yet Been Filled_. To redispense correctly, you would work the link at the right named Fill from General to re-dispense correctly using inventory (or Fill from Pat Asst if your system utilizes the Patient Assistance specific inventory).
+Undispensing does not put the Fill Request back into the Med Queue or back into the patient's pending fill requests. It will show in the "Fill Requests" portion that the Fill Request has *Not Yet Been Filled*. To redispense correctly, you would work the link at the right named Fill from General to re-dispense correctly using inventory (or Fill from Pat Asst if your system utilizes the Patient Assistance specific inventory).
 
 ![](./med-queue-and-fill-requests.assets/8c62c078144704f77e8f5819081d2953.png)
 
@@ -164,7 +164,7 @@ The Show Refill History link will branch open to the E-Meds module refill screen
 
 ## Verification Feature and Sections
 
-If the system setting E-Chart, Inventory, Verify Fills is enabled, your practice will be required to have verification completed after fill requests are worked. Once a fill request is worked (as in steps above), it then puts it in the VERIFICATION NEEDED bucket/section of the patient's _Dispense_ chart tab. The "Verification Needed Fills" section is found in the patient's Dispense chart tab. The staff then verify and dispense from a verification queue/worklist.
+If the system setting E-Chart, Inventory, Verify Fills is enabled, your practice will be required to have verification completed after fill requests are worked. Once a fill request is worked (as in steps above), it then puts it in the VERIFICATION NEEDED bucket/section of the patient's *Dispense* chart tab. The "Verification Needed Fills" section is found in the patient's Dispense chart tab. The staff then verify and dispense from a verification queue/worklist.
 
 ![](./med-queue-and-fill-requests.assets/a112e427ce2d45e293fcf6260fd677b6.png)
 
@@ -176,7 +176,7 @@ Once Verify or Verify All is clicked, it will take you to the Verify Fill screen
 
 ![](./med-queue-and-fill-requests.assets/5126c66b746746b8de1e8ebedea081b9.png)
 
-If you are the one to "Dispense" this verified fill request, you can continue and would checkmark the box _Verify and Dispense_. Once you do that, the _Dispense Date_ and _Time_ fields will appear to document/set the date/time you are verifying and now dispensing the medication.
+If you are the one to "Dispense" this verified fill request, you can continue and would checkmark the box *Verify and Dispense*. Once you do that, the *Dispense Date* and *Time* fields will appear to document/set the date/time you are verifying and now dispensing the medication.
 
 ![](./med-queue-and-fill-requests.assets/b93b1667b2af7ffc40172eac2c944b8b.png)
 

@@ -1,30 +1,29 @@
 ---
-id: "1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI"
-title: "EHI Export Technical Details"
-date: "2023-11-16T15:47:51.500Z"
+id: '1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
+title: 'EHI Export Technical Details'
+date: '2023-11-16T15:47:51.500Z'
 version: 198
-lastAuthor: "horner"
-mimeType: "text/x-markdown"
+lastAuthor: 'horner'
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.ecfr.gov/current/title-45/part-164/section-164.501"
-  - "https://www.healthit.gov/test-method/electronic-health-information-export"
-  - "https://ecma-international.org/publications-and-standards/standards/ecma-404/"
-source: "https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI"
-wikigdrive: "v2.15.30"
+  - 'https://www.ecfr.gov/current/title-45/part-164/section-164.501'
+  - 'https://www.healthit.gov/test-method/electronic-health-information-export'
+  - 'https://ecma-international.org/publications-and-standards/standards/ecma-404/'
+source: 'https://drive.google.com/open?id=1ipT-ykH0bNxtZNXJXNC2YIjdYHv-_7byLe3a-wcL2OI'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Introduction
 
-The Electronic Health Information (EHI) Export provides authorized users with the ability to download the designated record set (DRS) as defined by [45 CFR 164.501](<https://www.ecfr.gov/current/title-45/part-164/section-164.501#p-164.501(Designated%20record%20set)>) in a computable format for one or multiple patients as defined by [§170.315(b)(10)](https://www.healthit.gov/test-method/electronic-health-information-export). The export from {{% system-name %}} provides DRS data in JSON format as described below.
+The Electronic Health Information (EHI) Export provides authorized users with the ability to download the designated record set (DRS) as defined by [45 CFR 164.501](https://www.ecfr.gov/current/title-45/part-164/section-164.501#p-164.501(Designated%20record%20set)) in a computable format for one or multiple patients as defined by [§170.315(b)(10)](https://www.healthit.gov/test-method/electronic-health-information-export).  The export from {{% system-name %}} provides DRS data in JSON format as described below.
 
 For details on the format of the JSON standard, please see the [JSON Data Interchange Syntax](https://ecma-international.org/publications-and-standards/standards/ecma-404/).
 
 ## System Requirements
 
-An EHI Export for a provider or an entire system can be an intensive process, especially when there is a large volume of patients or many years of history. To support this process, the system performing the export should maintain the following minimum requirements:
+An EHI Export for a provider or an entire system can be an intensive process, especially when there is a large volume of patients or many years of history.  To support this process, the system performing the export should maintain the following minimum requirements:
 
-- 8GB RAM
-- Available hard drive space of at least 100MB/patient being exported
+* 8GB RAM
+* Available hard drive space of at least 100MB/patient being exported
 
 In the event a customer does not have the hardware to perform such a process, assistance from MIE can be requested.
 
@@ -438,7 +437,6 @@ In the event a customer does not have the hardware to perform such a process, as
 ### Single Patient
 
 {{% pre language="json" theme="RDark" %}}
-
 ```
 
 {
@@ -5696,9 +5694,8 @@ In the event a customer does not have the hardware to perform such a process, as
 
 
 ```
-
 {{% /pre %}}
 
 ### Multiple Patients
 
-When performing a multi-patient export, one JSON file will be generated for each exported patient. These files will then be compressed in a zip file.
+When performing a multi-patient export, one JSON file will be generated for each exported patient.  These files will then be compressed in a zip file.

@@ -1,16 +1,15 @@
 ---
-id: "1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0"
-title: "Print Manager"
-date: "2025-11-12T13:34:05.336Z"
+id: '1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
+title: 'Print Manager'
+date: '2025-11-12T13:34:05.336Z'
 version: 66
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/"
-source: "https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
+source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
+wikigdrive: 'v2.15.30'
 ---
-
 You must have security to be able to View the Print Manager tab found in Control.
 
 ![](./print-manager.assets/adc46b611ef8fd9216ade8832c1d676d.png)
@@ -27,13 +26,13 @@ If you click the view link that is available next to the listed Print Job, you w
 
 ![](./print-manager.assets/eb57a782cbcec1fc965812e3300e3dd6.png)
 
-MIE will set up printers for your practice using this tab and in order to manage printers, the security for _Manage Printers_ needs to be set to Yes.
+MIE will set up printers for your practice using this tab and in order to manage printers, the security for *Manage Printers* needs to be set to Yes.
 
 ![](./print-manager.assets/6c336565eebb790a0e750c0a6b43b520.png)
 
 ## Print & Fax History Chart Tab
 
-The chart tab found in an individual's chart named _Print & Fax History_ also shows the Print History pertaining to documents specific to the patient you are in. The Print Job ID hyperlink also is only available for 7 days as above since it's a temporary file. However you can click the view hyperlink to see a text list of the documents that were in that print job.
+The chart tab found in an individual's chart named *Print & Fax History* also shows the Print History pertaining to documents specific to the patient you are in. The Print Job ID hyperlink also is only available for 7 days as above since it's a temporary file. However you can click the view hyperlink to see a text list of the documents that were in that print job.
 
 ![](./print-manager.assets/b86816b9f8179e89b844bf05beb469c1.png)
 
@@ -43,6 +42,6 @@ If you click the view link that is available next to the listed Print Job, you w
 
 ## Alerts/Errors Module
 
-You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named [_Alert-Errors-Failures-Interactive Tab_](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)
+You can also see errored print jobs via the "Alerts" module via the taskbar at the top if any are errored out or via the Quick View sidemenu tab as a module. See other help documentation named [*Alert-Errors-Failures-Interactive Tab*](https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/)
 
 ![](./print-manager.assets/1cc24151a8fc0a1045db173c6ca9fca2.png)

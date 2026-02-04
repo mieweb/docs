@@ -1,19 +1,18 @@
 ---
-id: "1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA"
-title: "CMS 157 - Oncology: Medical and Radiation - Pain Intensity Quantified"
-date: "2022-04-28T14:27:01.338Z"
+id: '1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
+title: 'CMS 157 - Oncology: Medical and Radiation - Pain Intensity Quantified'
+date: '2022-04-28T14:27:01.338Z'
 version: 15
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10"
-source: "https://drive.google.com/open?id=1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms157v10'
+source: 'https://drive.google.com/open?id=1a9n5XA6aPjLrwt2fhXl5ZSTSnCOIqQgKNn6sA3btXGA'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS157v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS157v8&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -109,6 +108,7 @@ Performance Rate = (Numerator 1 + Numerator 2)/ (Denominator 1 + Denominator 2)<
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

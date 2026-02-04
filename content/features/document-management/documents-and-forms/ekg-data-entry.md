@@ -1,20 +1,19 @@
 ---
-id: "1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY"
-title: "EKG Data Entry"
-date: "2025-11-10T16:20:25.615Z"
+id: '1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
+title: 'EKG Data Entry'
+date: '2025-11-10T16:20:25.615Z'
 version: 99
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "../scanning-and-indexing/indexing-bubble-forms.md"
-  - "../scanning-and-indexing/indexing.md"
-  - "https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/"
-  - "../../system-administration/interfaces/device-interface-ekg-system.md"
-  - "https://mie.talentlms.com/shared/start/key:ZOEDNHRK"
-source: "https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY"
-wikigdrive: "v2.15.30"
+  - '../scanning-and-indexing/indexing-bubble-forms.md'
+  - '../scanning-and-indexing/indexing.md'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/interfaces/installing-mie-device-app/'
+  - '../../system-administration/interfaces/device-interface-ekg-system.md'
+  - 'https://mie.talentlms.com/shared/start/key:ZOEDNHRK'
+source: 'https://drive.google.com/open?id=1fPF1Dh5Vo8onrG7HPCr1mk69QGe43r8YvTiBy2V7WYY'
+wikigdrive: 'v2.15.30'
 ---
-
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
 Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned/indexed, afterward.
@@ -87,4 +86,4 @@ These types of report links are generally found in the **Reports** sidemenu tab,
 
 To learn more about EKG Data Entry, follow the link below to the Learning Management System course:
 
-- [EKG Management](https://mie.talentlms.com/shared/start/key:ZOEDNHRK)
+* [EKG Management](https://mie.talentlms.com/shared/start/key:ZOEDNHRK)

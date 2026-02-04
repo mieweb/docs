@@ -1,15 +1,14 @@
 ---
-id: "1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI"
-title: "Apt Reminder"
-date: "2025-11-13T19:50:37.658Z"
+id: '1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI'
+title: 'Apt Reminder'
+date: '2025-11-13T19:50:37.658Z'
 version: 26
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1W1mMo6izbKfwcB2lcX52-SyU0UpjhB-MZHo9_9MXxDI'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Reminder to Schedule Your Health Services Appointment
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Reminder to Schedule Appointment
 
@@ -30,7 +29,7 @@ TO: Frederick J Anderson
 
 You are due for:
 
-- Blood Pressure Check
+* Blood Pressure Check
 
 At your earliest convenience, please schedule an appointment with Health Services.
 

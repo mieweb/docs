@@ -1,23 +1,22 @@
 ---
-id: "1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw"
-title: "Rename a Heading"
-date: "2025-12-01T15:02:52.849Z"
-version: 57
-lastAuthor: "anichols"
-mimeType: "text/x-markdown"
+id: '1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
+title: 'Rename a Heading'
+date: '2025-12-01T15:02:52.849Z'
+version: 59
+lastAuthor: 'anichols'
+mimeType: 'text/x-markdown'
 links:
-  - "heading-levels-in-encounters.md"
-source: "https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw"
-wikigdrive: "v2.15.30"
+  - 'heading-levels-in-encounters.md'
+source: 'https://drive.google.com/open?id=1nuQ93sdQC2v9WBn9BrVCUIAt7jwGzGB1AMnCtw9eCIw'
+wikigdrive: 'v2.15.30'
 ---
-
-Encounter section heading names can be renamed to be something different than the out of the box product displays. Sections (when renamed) on an encounter would then display as such on the date entry encounter side, the encounter view side, and the encounter stored document (once the encounter is closed & archived).
+Encounter section heading names can be renamed to be something different than the out of the box product displays.  Sections (when renamed) on an encounter would then display as such on the date entry encounter side, the encounter view side, and the encounter stored document (once the encounter is closed & archived).
 
 ![](./rename-a-heading.assets/f10ec34046fcafba1fe00c48d4321296.png)
 
 ## Security Role Permission
 
-The security permission of _Rename Encounter Headings_ allows typically a system administrator to rename encounter section heading for an individual encounter use **or** for system wide use via a saved encounter template.
+The security permission of *Rename Encounter Headings* allows typically a system administrator to rename encounter section heading for an individual encounter use **or** for system wide use via a saved encounter template.
 
 ![](./rename-a-heading.assets/ed19b589b097392def14d206fb79da9f.png)
 
@@ -27,35 +26,35 @@ If a user does not have security permission to rename encounter headings, they w
 
 ## Rename Encounter Section Heading
 
-Renaming an encounter section heading will only apply to the current encounter. However, a renamed encounter section can be used system wide once it's changed in the current encounter **and** then saving the encounter outline as an encounter template for others use.
+Renaming an encounter section heading will only apply to the current encounter.  However, a renamed encounter section can be used system wide once it's changed in the current encounter **and** then saving the encounter outline as an encounter template for others use.
 
 To rename an encounter section heading, simply click the Tools icon at the top right of the encounter.
 
 ![](./rename-a-heading.assets/174be798cd768c020e563bb5db877574.png)
 
-Once the Tools icon is clicked, a Tools pop-up window will display. Scroll to find the _Other Tools_ section in that pop-up. There is a button to _Rename a Heading_. Click on that _Rename a Heading_ button.
+Once the Tools icon is clicked, a Tools pop-up window will display.  Scroll to find the *Other Tools* section in that pop-up. There is a button to *Rename a Heading*.  Click on that *Rename a Heading* button.
 
 ![](./rename-a-heading.assets/be99a4fe85004a3374491895df3bc30b.png)
 
-After clicking _Rename a Heading_, the pop-up will close and the encounter sections will still be displayed but any prepopulated data is temporarily removed.
+After clicking *Rename a Heading*, the pop-up will close and the encounter sections will still be displayed but any prepopulated data is temporarily removed.
 
-Click on the specific encounter section title that you want to rename. Any title section that displays on the screen **can** be renamed, including the main sections such as Subjective, Objective, etc.
+Click on the specific encounter section title that you want to rename.  Any title section that displays on the screen **can** be renamed, including the main sections such as Subjective, Objective, etc.
 
 ![](./rename-a-heading.assets/54874da3bbf178becfe2e8d4059f2ddc.png)
 
-NOTE: you can only rename one encounter section at a time. Repeat the above steps if need to rename yet another encounter section.
+NOTE: you can only rename one encounter section at a time.  Repeat the above steps if need to rename yet another encounter section.
 
-Once you click an encounter section you wish to rename, the _Rename Heading_ pop-up will display.
+Once you click an encounter section you wish to rename, the *Rename Heading* pop-up will display.
 
 ![](./rename-a-heading.assets/8095da850175558250a8202732cf68c3.png)
 
-- <strong>New Title:</strong> Free text in the name of the encounter section title you wish it to be
-- NOTE: Renaming this heading will only apply to this current encounter. However, a renamed encounter section can be used system wide once it's changed in the current encounter <strong>and</strong> then saving the encounter outline as an encounter template for other's use.
+* <strong>New Title:</strong> Free text in the name of the encounter section title you wish it to be
+* NOTE: Renaming this heading will only apply to this current encounter.  However, a renamed encounter section can be used system wide once it's changed in the current encounter <strong>and</strong> then saving the encounter outline as an encounter template for other's use.
 
 Click the OK button.
 
 {{% tip %}}
-You can only rename one encounter section at a time. Repeat the above steps if need to rename yet another encounter section. Repeat until any/all encounter sections are renamed as desired.
+You can only rename one encounter section at a time.  Repeat the above steps if need to rename yet another encounter section. Repeat until any/all encounter sections are renamed as desired.
 {{% /tip %}}
 
 ## Encounter View & Stored Document
@@ -68,7 +67,7 @@ The encounter view displays the renamed encounter section, as well as the stored
 
 Any renamed encounter section can be used system wide once it's renamed (in any current encounter) **and** then saving the encounter outline as an encounter template for other's use.
 
-After renaming any encounter section(s) as needed, an encounter template can be saved for use for other users system wide. After renaming section(s), simply click the Tools icon at the top right of the encounter and in the pop-up you can scroll down to the _Templates_ section. You can override this current encounter outline to be a new existing template from the list or you can save a New Template to the system.
+After renaming any encounter section(s) as needed, an encounter template can be saved for use for other users system wide.  After renaming section(s), simply click the Tools icon at the top right of the encounter and in the pop-up you can scroll down to the *Templates* section.  You can override this current encounter outline to be a new existing template from the list or you can save a New Template to the system.
 
 ![](./rename-a-heading.assets/a24d164ff54dc6bbdb39a7469ea26eb6.png)
 
@@ -76,4 +75,4 @@ Once an encounter template is saved (new or existing template override), with re
 
 ## Additional information
 
-- [Heading Levels in Encounters](heading-levels-in-encounters.md)
+* [Heading Levels in Encounters](heading-levels-in-encounters.md)

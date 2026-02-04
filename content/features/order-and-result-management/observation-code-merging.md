@@ -1,16 +1,15 @@
 ---
-id: "17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c"
-title: "Observation Code Merging"
-date: "2025-08-15T15:05:00.034Z"
+id: '17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
+title: 'Observation Code Merging'
+date: '2025-08-15T15:05:00.034Z'
 version: 107
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:ALLHRKMF"
-source: "https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:ALLHRKMF'
+source: 'https://drive.google.com/open?id=17At0A9fBSekiKBKyzhJeCmj9D1qV4PI_pVErgnroP_c'
+wikigdrive: 'v2.15.30'
 ---
-
 Must have security permission to access observations code manager and to merge them.
 
 Look to see which is the most commonly used code. Either clicking on the obs code value or ‘View' gives the observation count. Find the one used the most. Summary: whatever you want to merge, you simply click ‘Merge' on the code you're eliminating, and then enter the obs code number that you want it to become in the ‘Destination' box.
@@ -31,13 +30,13 @@ Click on the **Go** button.
 
 ![](./observation-code-merging.assets/46b0243d3fc5e48703133b1b095abf41.png)
 
-When merging an observation code you will want to merge from the observation code that you want to be _removed/overwritten_. For example, if you want to merge observation code 9983 glucose test to observation 76 Glucose you will merge **from** observation 9983 glucose.
+When merging an observation code you will want to merge from the observation code that you want to be *removed/overwritten*. For example, if you want to merge observation code 9983 glucose test to observation 76 Glucose you will merge **from** observation 9983 glucose.
 
 Click on the Merge option to the right of the observation you want to be removed and merge into the other. Using the above example, you would click merge on 9983 because you will be merging it into 76. Then, 9983 will be the saved/stored observation and 76 will go away.
 
 ![](./observation-code-merging.assets/72246b13bc3568794caf1823a1065a7b.png)
 
-You will then need to type in the Observation code number that you want to be the primary Observation code. The one you are merging this one into. The observation code typed here will be the one _saved/stored_.
+You will then need to type in the Observation code number that you want to be the primary Observation code. The one you are merging this one into. The observation code typed here will be the one *saved/stored*.
 
 ![](./observation-code-merging.assets/ed080ba824823f41f611a8a74fd9b3bf.png)
 
@@ -47,7 +46,7 @@ Click on the Continue button.
 Once an observation code is merged, there is no way to unmerge it. MIE cannot even unmerge them. Please make sure to follow the merging steps correctly.
 {{% /warning %}}
 
-To continue the Observation code merging you must checkmark the Verify box. The Merge button is greyed out until you check-mark the _verify_ section. This is just protection to make sure you wish to proceed with merging. Again, once an observation code is merged, there is no way to unmerge it.
+To continue the Observation code merging you must checkmark the Verify box. The Merge button is greyed out until you check-mark the *verify* section. This is just protection to make sure you wish to proceed with merging. Again, once an observation code is merged, there is no way to unmerge it.
 
 Once you have check-marked the verify box, the merge button is no longer greyed out. The Merge button becomes available and you are able to proceed with the merging. Click MERGE button to merge the observation codes. Again, please verify that you have chosen the correct observation code to merge from and into.
 
@@ -65,4 +64,4 @@ When observation codes are merged, a record of the merge will be stored. The ID 
 
 To learn more about Observation Code Merging, follow the link below to the Learning Management System course:
 
-- [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)
+* [Observations](https://mie.talentlms.com/shared/start/key:ALLHRKMF)

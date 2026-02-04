@@ -1,15 +1,14 @@
 ---
-id: "11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk"
-title: "Apt Spv Reminder 15 Days"
-date: "2025-11-13T19:54:13.265Z"
+id: '11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk'
+title: 'Apt Spv Reminder 15 Days'
+date: '2025-11-13T19:54:13.265Z'
 version: 26
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=11EAdjb0ACri1VmtHF5v06HxKEIGQgzakuUYZMS_jlrk'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Reminder to Schedule Appointment Within 15 Days for Frederick J Anderson
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Reminder to Schedule Appointment Within 15 Days
 

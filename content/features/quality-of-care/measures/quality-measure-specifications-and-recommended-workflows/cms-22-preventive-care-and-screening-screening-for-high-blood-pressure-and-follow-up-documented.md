@@ -1,19 +1,18 @@
 ---
-id: "1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
-title: "CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented"
-date: "2024-05-20T18:06:54.533Z"
+id: '1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+title: 'CMS 22 - Preventive Care and Screening: Screening for High Blood Pressure and Follow-up Documented'
+date: '2024-05-20T18:06:54.533Z'
 version: 132
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10"
-source: "https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms022v10'
+source: 'https://drive.google.com/open?id=1ePGYBX1dZP8WII9Ti84hz9yv5tuz6ruiUlwSSfoot8Y'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS22v8 ](https://medicalcodify.com/eh/?f=layoutnouser&func=&name=RXDBmain&showresult=CMS22v8&showresulttype=Measure)(2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -108,15 +107,13 @@ Track all 18+ year-old patients screened for high blood pressure, and ensure tho
 1. While documenting the Visit encounter, record the blood pressure, as appropriate
 2. Open the Vitals section and enter the systolic and diastolic pressures
 3. If the blood pressure is high and the patient is assessed prehypertensive or hypertensive, recommend a follow-up plan and document, accordingly
-
-- Open the Preventive Care section
-- Open the Hypertension Interventions picklist
-- Order the appropriate follow-up items(s) for the patient
+* Open the Preventive Care section
+* Open the Hypertension Interventions picklist
+* Order the appropriate follow-up items(s) for the patient
 
 OR
 
-- E-prescribe an appropriate hypertension medication
-
+* E-prescribe an appropriate hypertension medication
 4. Continue documenting the encounter, as needed
 5. When completed, Close and Archive the encounter
 

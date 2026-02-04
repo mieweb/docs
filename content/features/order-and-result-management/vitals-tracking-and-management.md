@@ -1,26 +1,25 @@
 ---
-id: "1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s"
-title: "Vitals Tracking & Management"
-date: "2025-11-11T15:02:18.803Z"
+id: '1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
+title: 'Vitals Tracking & Management'
+date: '2025-11-11T15:02:18.803Z'
 version: 234
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "../encounters/vitals-system-wide-defaults.md"
-  - "https://mie.talentlms.com/shared/start/key:AOQHRKMF"
-source: "https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s"
-wikigdrive: "v2.15.30"
+  - '../encounters/vitals-system-wide-defaults.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOQHRKMF'
+source: 'https://drive.google.com/open?id=1SLeZ_LCVcb4a6OpiLizIa-zwY9jFzjLQLtSuS2Iq14s'
+wikigdrive: 'v2.15.30'
 ---
-
 Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vital Signs layout allows {{% system-name %}} users to view and add measurements of a patient's essential body functions. Whether it is from within the Vitals chart tab or within the patient's encounter, the body's most basic functions can be measured and recorded, quickly and easily.
 
 ## Adding Vitals via Encounter Section
 
-To add vitals to a patient's encounter, navigate to the **Objective** section of the encounter. By default, the last 5 most recent sets of dated vitals will display as a visual in the section.
+To add vitals to a patient's encounter, navigate to the **Objective** section of the encounter.  By default, the last 5 most recent sets of dated vitals will display as a visual in the section.
 
-To add a set of vitals, simply open the **Vitals** subsection by clicking anywhere in the Vitals grey section title or by clicking the pencil
+To add a set of vitals, simply open the **Vitals** subsection by clicking anywhere in the Vitals grey section title or by clicking the pencil 
 ![](./vitals-tracking-and-management.assets/208e44c784d7d7e1fd81d8d02416c996.png)
-icon, located on the right of the section title. The Vitals section will expand open. Again, the 5 last most recent set of dated vitals display but now at the bottom of the expanded Vitals section.
+ icon, located on the right of the section title. The Vitals section will expand open. Again, the 5 last most recent set of dated vitals display but now at the bottom of the expanded Vitals section.
 
 ![](./vitals-tracking-and-management.assets/79ddb5a7da8b131f29eb9db1ba4853d9.png)
 
@@ -56,11 +55,11 @@ When keying in vitals within the Vitals encounter section, or within the stand a
 
 The following 5 fields in the vitals section will default to a selection after keying in data for the vital:
 
-- <strong>BP Site:</strong> defaults to Left Arm system wide if a Blood Pressure is keyed in
-- <strong>BP Position:</strong> defaults to Sitting system wide if a Blood Pressure is keyed in
-- <strong>Pulse Regularity:</strong> defaults to Regular system wide if a Pulse is keyed in
-- <strong>Pulse Site:</strong> defaults to Radial system wide if a Pulse is keyed in
-- <strong>Exertion:</strong> defaults to Resting system wide if a Pulse is keyed in
+* <strong>BP Site:</strong> defaults to Left Arm system wide if a Blood Pressure is keyed in
+* <strong>BP Position:</strong> defaults to Sitting system wide if a Blood Pressure is keyed in
+* <strong>Pulse Regularity:</strong> defaults to Regular system wide if a Pulse is keyed in
+* <strong>Pulse Site:</strong> defaults to Radial system wide if a Pulse is keyed in
+* <strong>Exertion:</strong> defaults to Resting system wide if a Pulse is keyed in
 
 Users can always manually change the selection within the field's drop-down when needed.
 
@@ -68,7 +67,7 @@ Users can always manually change the selection within the field's drop-down when
 
 ### Changing System Wide Vital Field Defaults
 
-The default(s) for the above 5 fields in the vitals section can be configured to default to a different discrete selection system wide. Each default can be configured within the Observation Codes editor of the Control Panel. NOTE: Configuring a different default will also change it system wide. Please refer to the separate guide [Vitals System Wide Defaults](../encounters/vitals-system-wide-defaults.md#changing-system-wide-vital-field-defaults) for configuration help.
+The default(s) for the above 5 fields in the vitals section can be configured to default to a different discrete selection system wide. Each default can be configured within the Observation Codes editor of the Control Panel.  NOTE: Configuring a different default will also change it system wide.  Please refer to the separate guide [Vitals System Wide Defaults](../encounters/vitals-system-wide-defaults.md#changing-system-wide-vital-field-defaults) for configuration help.
 
 ## Adding Vitals via Chart Tab
 
@@ -82,13 +81,13 @@ Then, within the **Vital Signs** chart tab of the chart, Vital Signs entry field
 
 Click the SUBMIT button to save the set of vitals data.
 
-## Recorded Vitals with an Asterisk\*
+## Recorded Vitals with an Asterisk*
 
-Recorded vitals data that include comments will display with an asterisk ( \* ) next to the recorded value.
+Recorded vitals data that include comments will display with an asterisk ( * ) next to the recorded value.
 
 ![](./vitals-tracking-and-management.assets/b02299f058dea7f960d5833016ae500d.png)
 
-Use your cursor and hover over **any** value (with or without an asterisk) to see more details. If a value has an asterisk, the hover details will display the comment associated with the recorded value.
+Use your cursor and hover over **any** value (with or without an asterisk) to see more details.  If a value has an asterisk, the hover details will display the comment associated with the recorded value.
 
 ![](./vitals-tracking-and-management.assets/6b288de755776560c4a0c1ce33ca0b03.png)
 
@@ -106,13 +105,13 @@ But remember, hovering over any recorded vital sign will also display (in the ho
 
 ## Edit or Delete Recorded Vitals
 
-Vital signs store as individual observations in the chart and system. If you need to edit an existing, recorded vital, click on the specific recorded value you wish to edit or alter. Currently, editing or deleting vitals is done individually. In this example, we will click on the weight value recorded on 2/2/2016.
+Vital signs store as individual observations in the chart and system.  If you need to edit an existing, recorded vital, click on the specific recorded value you wish to edit or alter.  Currently, editing or deleting vitals is done individually.  In this example, we will click on the weight value recorded on 2/2/2016.
 
 ![](./vitals-tracking-and-management.assets/c8782b4ed27d42d55362a359075225da.png)
 
-Once you click on a recorded value within the chart, the _Edit Observation_ screen will display. Here you can edit any data on the existing recorded value for the vital sign. Click the Submit button after editing the record. The system will display a message that it has successfully updated the observation.
+Once you click on a recorded value within the chart, the *Edit Observation* screen will display.  Here you can edit any data on the existing recorded value for the vital sign.  Click the Submit button after editing the record.  The system will display a message that it has successfully updated the observation.
 
-You can also _Delete_ the existing recorded value from the vitals of the chart if you have security permission. Simply click the Delete button on the record and the system will ask you to confirm you really wish to delete the observation record.
+You can also *Delete* the existing recorded value from the vitals of the chart if you have security permission.  Simply click the Delete button on the record and the system will ask you to confirm you really wish to delete the observation record.
 
 ![](./vitals-tracking-and-management.assets/4dfd3499438b688fd62cb8cf7a208a4c.png)
 
@@ -120,7 +119,7 @@ You can also _Delete_ the existing recorded value from the vitals of the chart i
 
 {{% system-name %}} has the capability to interface with a vitals device such as Welch Allyn Spot Vital Signs Monitor.
 
-The Vitals data entry section in the stand alone Vital Signs chart tab allows for Device or Manual entry. By default, the Vitals data entry screen defaults to the Manual method. However, with an established interface, simply click the **Device** hyperlink within the **Vitals From:** area.
+The Vitals data entry section in the stand alone Vital Signs chart tab allows for Device or Manual entry.  By default, the Vitals data entry screen defaults to the Manual method.  However, with an established interface, simply click the **Device** hyperlink within the **Vitals From:** area.
 
 Then select the device, scan the device and can refresh values using the buttons at the bottom of the Device entry screen method.
 
@@ -130,4 +129,4 @@ Then select the device, scan the device and can refresh values using the buttons
 
 To learn more about Vitals Tracking & Management, follow the link below to the Learning Management System course:
 
-- [Vitals](https://mie.talentlms.com/shared/start/key:AOQHRKMF)
+* [Vitals](https://mie.talentlms.com/shared/start/key:AOQHRKMF)

@@ -1,15 +1,14 @@
 ---
-id: "1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w"
-title: "Pat Travel Injection"
-date: "2025-11-13T19:24:02.318Z"
+id: '1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w'
+title: 'Pat Travel Injection'
+date: '2025-11-13T19:24:02.318Z'
 version: 26
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1ER03JgPAczSj0UNEgRoAGhifQAsz-YXN7Xx-nu0OP7w'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.
 {{% /info %}}
@@ -22,7 +21,7 @@ Cc:
 
 Subject: Notification to Schedule Appointment for Travel Immunizations Due
 
-\***\*This message is sent from an un-monitored mailbox, therefore please do not reply to this message\*\***
+****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 
 ## Notification to Schedule Appointment for Travel Immunizations Due
 

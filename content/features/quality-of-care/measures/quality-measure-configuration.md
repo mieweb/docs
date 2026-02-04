@@ -1,19 +1,18 @@
 ---
-id: "1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM"
-title: "Quality Measure Configuration"
-date: "2024-09-19T20:29:19.135Z"
+id: '1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
+title: 'Quality Measure Configuration'
+date: '2024-09-19T20:29:19.135Z'
 version: 69
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md"
-  - "quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md"
-  - "quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md"
-  - "quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md"
-source: "https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM"
-wikigdrive: "v2.15.30"
+  - 'quality-measure-configuration/cms-2-preventive-care-and-screening-screening-for-depression-and-follow-up-plan-configuration.md'
+  - 'quality-measure-configuration/cms122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater-9-configuration.md'
+  - 'quality-measure-configuration/cms124-cervical-cancer-screening-configuration.md'
+  - 'quality-measure-configuration/cms-165-controlling-high-blood-pressure-configuration.md'
+source: 'https://drive.google.com/open?id=1YaZyTRnpS9lpsocPLsbUIHbq-XdFHNNQuMWVyZMTAkM'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Active
 
 These measures are available for enrollment and are either certified, or MIE is actively pursuing certification of versions for the current measurement period.
@@ -62,7 +61,7 @@ CMS951 - Kidney Health Evaluation
 
 ## Available
 
-These measures have been developed and are available for enrollment; however, the most recent version may not be available, and MIE is not pursuing certification for these measures. If your organization is interested in complying with a certified version of any of these measures, please contact MIE.
+These measures have been developed and are available for enrollment; however, the most recent version may not be available, and MIE is not pursuing certification for these measures.  If your organization is interested in complying with a certified version of any of these measures, please contact MIE.
 
 CMS50 - Closing the Referral Loop: Receipt of Specialist Report
 
@@ -92,7 +91,7 @@ CMS157 - Oncology: Medical and Radiation - Pain Intensity Quantified
 
 ## Retired
 
-These measures have been retired from use in CMS reporting programs. Previous versions of these measures are still available for enrollment for any organizations interested in monitoring their compliance.
+These measures have been retired from use in CMS reporting programs.  Previous versions of these measures are still available for enrollment for any organizations interested in monitoring their compliance.
 
 CMS127 - Pneumococcal Vaccination Status for Older Adults
 
@@ -100,7 +99,7 @@ CMS147 - Preventive Care and Screening: Influenza Immunization
 
 ## Unavailable
 
-These measures have not been implemented by MIE and are not available for enrollment. If your organization is interested in complying with a certified version of any of these measures, please contact MIE.
+These measures have not been implemented by MIE and are not available for enrollment.   If your organization is interested in complying with a certified version of any of these measures, please contact MIE.
 
 CMS56 - Functional Status Assessment for Total Hip Replacement
 

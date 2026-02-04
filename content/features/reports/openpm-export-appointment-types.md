@@ -1,15 +1,14 @@
 ---
-id: "1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s"
-title: "OpenPM Export Appointment Types"
-date: "2025-11-11T19:38:07.945Z"
+id: '1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
+title: 'OpenPM Export Appointment Types'
+date: '2025-11-11T19:38:07.945Z'
 version: 51
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1K7x-r5J0VUzNmJBQMhnL2vaBCfG9RKbZknl3AW_Ka7s'
+wikigdrive: 'v2.15.30'
 ---
-
 ## OpenPM Export Appointment Types
 
 ### Description:
@@ -18,8 +17,8 @@ The "Appointment Types" report is designed to export detailed information about 
 
 ### Report Fields and Descriptions:
 
-1. \_apt_type_id: Unique identifier for each appointment type within the system.
-2. \_active: Indicates whether the appointment type is active (1 for active, 0 for inactive).
+1. _apt_type_id: Unique identifier for each appointment type within the system.
+2. _active: Indicates whether the appointment type is active (1 for active, 0 for inactive).
 3. Appt Code Link: A link to the appointment code with the option to edit the appointment type.
 4. Appt Code: The code associated with the appointment type.
 5. Billing Code: The Billing code associated with the appointment type.

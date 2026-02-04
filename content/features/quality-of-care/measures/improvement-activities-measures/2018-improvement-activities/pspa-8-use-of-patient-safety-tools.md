@@ -1,19 +1,18 @@
 ---
-id: "1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg"
-title: "PSPA 8 - Use of Patient Safety Tools"
-date: "2020-02-27T20:56:06.236Z"
+id: '1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
+title: 'PSPA 8 - Use of Patient Safety Tools'
+date: '2020-02-27T20:56:06.236Z'
 version: 19
-mimeType: "text/x-markdown"
+mimeType: 'text/x-markdown'
 links:
-  - "https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html"
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
-source: "https://drive.google.com/open?id=1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg"
-wikigdrive: "v2.15.30"
+  - 'https://www.cdc.gov/hai/settings/outpatient/outpatient-care-guidelines.html'
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
+source: 'https://drive.google.com/open?id=1Pjeh8x3cIqm7A2B2LLlrmZhke1E79Z-coRxQBrzEYOg'
+wikigdrive: 'v2.15.30'
 ---
-
 **Activity Weighting**: Medium
 
 **Subcategory Name**: Patient Safety and Practice Assessment

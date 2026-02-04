@@ -1,16 +1,15 @@
 ---
-id: "1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0"
-title: "Work Status"
-date: "2025-12-01T21:56:24.849Z"
+id: '1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
+title: 'Work Status'
+date: '2025-12-01T21:56:24.849Z'
 version: 131
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/encounters/recommendations/"
-source: "https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/encounters/recommendations/'
+source: 'https://drive.google.com/open?id=1EuB61nCaNeWo6leAxOJQb9kK8Vqqhba95SNwjTa-6_0'
+wikigdrive: 'v2.15.30'
 ---
-
 When written opinion data is keyed into the recommendation section of an encounter, it fills in the Work Status report. Work Status information/documents are found in an encounter additional view, the Work Status chart tab, patient portlet, portal employee page, and portal supervisor page. The Work Status is a summary of an employee's health surveillance status, and can be used by an employer to determine eligibility as to whether the employee is fit to perform his/her duties. It is designed to show current restrictions, off-work status, return to work date(s), and medical clearance determination in real-time.
 
 The Work Status document is made up of several key parts: Demographics information, current restrictions/accommodations, health surveillance status, open claims, provider info, and whom to contact.
@@ -21,23 +20,23 @@ To work a health surveillance recommendation and generate a work status document
 
 ![](./work-status.assets/e22dbb07ee3a59081def3e8f0088580b.png)
 
-Under the grid showing any recommendations (medical opinions) that are on the patient's pending due list, there is a checkbox to _Generate Work Status Report_. When checkmarking this, it will create an additional view when the encounter is closed/archived and it will create a separate Work Status document. Note: A Work Status document can always be created via the Work Status Chart Tab instead, but this is ability to do it while working in an encounter and is optional here.
+Under the grid showing any recommendations (medical opinions) that are on the patient's pending due list, there is a checkbox to *Generate Work Status Report*. When checkmarking this, it will create an additional view when the encounter is closed/archived and it will create a separate Work Status document. Note: A Work Status document can always be created via the Work Status Chart Tab instead, but this is ability to do it while working in an encounter and is optional here.
 
 ![](./work-status.assets/189e784163d07c7fbbcc550856a8b531.png)
 
-The free text box for _Work Status Introductions_ is an optional area to free type an introduction if this work status document is going to go to someone specific (ie: shared to a supervisor) and you want to type in some free text for an introduction making it more personal or offering expanded content.
+The free text box for *Work Status Introductions* is an optional area to free type an introduction if this work status document is going to go to someone specific (ie: shared to a supervisor) and you want to type in some free text for an introduction making it more personal or offering expanded content.
 
-Then apply the specific recommendation to the encounter exam that an opinion will be generated on. See separate help documentation titled [Encounters Recommendations](https://docs.enterprisehealth.com/functions/encounters/recommendations/)_._
+Then apply the specific recommendation to the encounter exam that an opinion will be generated on. See separate help documentation titled [Encounters Recommendations](https://docs.enterprisehealth.com/functions/encounters/recommendations/)*.*
 
 When done working in the Recommendations section of the encounter, when you go to the encounter ‘view', the Recommendations section is shown along with any work status report generated introduction verbiage.
 
 ![](./work-status.assets/efaf94016f2b25c804c74e0c9a88d972.png)
 
-If the _generate a work status_ checkbox was checkmarked in the Recommendations section of the encounter, upon close/archive of the encounter, it will produce a separate (additional view) document stored to the patients' chart named _Work Status Report_ which you can see on the encounter ‘view' of all documents archived from the encounter. The additional encounter view _Work Status Report_ document is created if the encounter exam has an additional layout view programmed on it to support Work Status Report.
+If the *generate a work status* checkbox was checkmarked in the Recommendations section of the encounter, upon close/archive of the encounter, it will produce a separate (additional view) document stored to the patients' chart named *Work Status Report* which you can see on the encounter ‘view' of all documents archived from the encounter.  The additional encounter view *Work Status Report* document is created if the encounter exam has an additional layout view programmed on it to support Work Status Report.
 
 ![](./work-status.assets/ceb296a3a46040ea528b6b00899a2ae0.png)
 
-The additional view on the encounter if _generate work status report_ was checkmarked:
+The additional view on the encounter if *generate work status report* was checkmarked:
 
 ![](./work-status.assets/a2005892795aaafbac943b335cc522dd.png)
 
@@ -59,7 +58,7 @@ At the bottom of the Work Status chart tab is a listview of previous stored Work
 
 ![](./work-status.assets/43bc1612cec36f786a28da889c28fed9.png)
 
-Not always does one _generate a work status report_ when working in an encounter. Once can do it quickly for more up to date information here from the Work Status chart tab. Simply click the _Create Work Status Report_ button found here in the tab under the current work status information displayed.
+Not always does one *generate a work status report* when working in an encounter. Once can do it quickly for more up to date information here from the Work Status chart tab. Simply click the *Create Work Status Report* button found here in the tab under the current work status information displayed.
 
 ![](./work-status.assets/c71025b98407497d613391f3a8180fee.png)
 
@@ -67,7 +66,7 @@ Once that button is clicked, the system will create a work status report documen
 
 ![](./work-status.assets/727356553cb055427a4aa1764722be18.png)
 
-Work status stored documents are also accessible from within the patient's chart Summary chart tab within the portlet _Documents_.
+Work status stored documents are also accessible from within the patient's chart Summary chart tab within the portlet *Documents*.
 
 ![](./work-status.assets/c089e107a7e6551c835acb9fa1b58e74.png)
 
@@ -83,7 +82,7 @@ The Work Status portlet (in the Summary chart tab) of a patient/employee chart d
 
 ## Work Status Changes
 
-Surveillance Changes section of displayed work status information (or in a generated work status report) will show data if the patient has previous status updates. If the patient had a previous health surveillance panel status and you had to re-enter recommendations on an existing current encounter, you will get the "Changes" section. If the status changed in any way, this section will display.
+Surveillance Changes section of displayed work status information (or in a generated work status report) will show data if the patient has previous status updates. If the patient had a previous health surveillance panel status and you had to re-enter recommendations on an existing current encounter, you will get the "Changes" section.  If the status changed in any way, this section will display.
 
 ![](./work-status.assets/ef0e7f159631fd17e9d2c45fe89928ed.png)
 
@@ -93,7 +92,7 @@ Whereas the "Status" section just lists all current completed surveillance panel
 
 ## Work Status Email
 
-An email template named _Pat Work Status Report_ can be utilized to email and share the same real-time work status information displayed in the Work Status chart tab and Work Status portlet from the Summary chart tab. This is available from within the patient's chart via the Email hyperlink.
+An email template named *Pat Work Status Report* can be utilized to email and share the same real-time work status information displayed in the Work Status chart tab and Work Status portlet from the Summary chart tab. This is available from within the patient's chart via the Email hyperlink.
 
 ![](./work-status.assets/09b5990d5060fd98d8a8707949e79ab1.png)
 
@@ -109,17 +108,17 @@ From within the Work Status portal menu in the Supervisor Portal, if a superviso
 
 ## Optional System Settings
 
-There are two system settings that can be enabled or disabled that affect the Work Status. If enabled or disabled by a superuser, it will enable or disable for the entire system. These are _Include Open Claims_ and _Panel Membership Expiration Day Limit._
+There are two system settings that can be enabled or disabled that affect the Work Status. If enabled or disabled by a superuser, it will enable or disable for the entire system. These are *Include Open Claims* and *Panel Membership Expiration Day Limit.*
 
 ![](./work-status.assets/973a6c7124ec8fa040c9d8a57180304b.png)
 
-- <strong>Panel Membership Expiration Day Limit:</strong> The default value is "0" indicating disabled.  If enabled, key in a number (in the value field) which would then be interpreted as the number of days.  The Work Status pages (portlet, chart tab, encounter views) will display any expired panel memberships based on the value of this system setting if enabled.  Expired means it's past the ‘next due date' on the panel status. This setting is used in the work status pages so that it displays expired panel memberships on a chart only pas a specific set (value) number of days.  By default, the work status pages include any/all panels on a patient where the panel expire date is between this system setting value (0) days ago and today/now.  If this system setting were to have a value of 5 and today's date were 9/14/2017, the work status will show/include all panel memberships for a chart between 9/9/17 and 9/14/17 whether active or expired.
-- <strong>Include Open Claims:</strong> The default value is "1" indicating enabled. This displays any/all open cases (whether they be work comp or not) on the Work Status report tab, generated stored document, and elsewhere (ex: portal) where Work Status is viewed. If the system setting <em>Include Open Claims</em> is enabled (is enabled by default), the section <em>All Open Cases</em> will display any case the patient has in their chart on Work Status areas/documents regardless if the encounter (where the surveillance status was generated from) is tied to a specific case or not.
+* <strong>Panel Membership Expiration Day Limit:</strong> The default value is "0" indicating disabled.  If enabled, key in a number (in the value field) which would then be interpreted as the number of days.  The Work Status pages (portlet, chart tab, encounter views) will display any expired panel memberships based on the value of this system setting if enabled.  Expired means it's past the ‘next due date' on the panel status. This setting is used in the work status pages so that it displays expired panel memberships on a chart only pas a specific set (value) number of days.  By default, the work status pages include any/all panels on a patient where the panel expire date is between this system setting value (0) days ago and today/now.  If this system setting were to have a value of 5 and today's date were 9/14/2017, the work status will show/include all panel memberships for a chart between 9/9/17 and 9/14/17 whether active or expired.
+* <strong>Include Open Claims:</strong> The default value is "1" indicating enabled. This displays any/all open cases (whether they be work comp or not) on the Work Status report tab, generated stored document, and elsewhere (ex: portal) where Work Status is viewed. If the system setting <em>Include Open Claims</em> is enabled (is enabled by default), the section <em>All Open Cases</em> will display any case the patient has in their chart on Work Status areas/documents regardless if the encounter (where the surveillance status was generated from) is tied to a specific case or not.
 
 ![](./work-status.assets/1131cc70325f2f047927ee02876797ef.png)
 
 {{% note %}}
-If the encounter the Surveillance Status was generated from is linked to a specific case, then the linked case information will display in the _Related Case_ section anytime viewing a Work Status document or Work Status chart tab, etc. Meaning, _related case_ section will always display on any work status area if the specific encounter (where surveillance status/recommendation was completed in) was linked to a case.
+If the encounter the Surveillance Status was generated from is linked to a specific case, then the linked case information will display in the *Related Case* section anytime viewing a Work Status document or Work Status chart tab, etc. Meaning, *related case* section will always display on any work status area if the specific encounter (where surveillance status/recommendation was completed in) was linked to a case.
 {{% /note %}}
 
 ![](./work-status.assets/f6adb18d0e68468768d01c2773b926a0.png)

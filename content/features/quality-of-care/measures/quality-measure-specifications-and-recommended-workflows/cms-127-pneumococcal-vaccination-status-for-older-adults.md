@@ -1,19 +1,18 @@
 ---
-id: "14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc"
-title: "CMS 127 - Pneumococcal Vaccination Status for Older Adults"
-date: "2022-04-19T20:15:17.026Z"
+id: '14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
+title: 'CMS 127 - Pneumococcal Vaccination Status for Older Adults'
+date: '2022-04-19T20:15:17.026Z'
 version: 35
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10"
-source: "https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ec/2022/cms127v10'
+source: 'https://drive.google.com/open?id=14wvlim1AnRhduRaQX-kIxULCZh7jbdP7WufRbDfQ5vc'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS127v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&searchterm=cms2&showresult=CMS127v8&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -103,6 +102,7 @@ wikigdrive: "v2.15.30"
 
 ### New UI Visit Encounter (valid RC202109+)
 
+
 ### Original Visit Encounter
 
 ## Clinical Instructions
@@ -110,33 +110,33 @@ wikigdrive: "v2.15.30"
 Ensure all patients that are 65 years of age or older have received a pneumococcal vaccine or report having received a vaccine. Recording the receipt of the immunization or the administration of the vaccine can be done within or outside of the encounter:
 
 1. <strong>Option 1: Record the Receipt of Pneumococcal Vaccination (Historical)</strong>
-   1. <strong>Within Encounter</strong>
-      1. Open the Immunizations/Injections section of the encounter
-      2. Using the Description autocomplete, begin typing the name of the immunization
-      3. Add the Date and any Reactions/Comments
-      4. Click the Add button
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-   2. <strong>Outside Encounter</strong>
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Quick Add link in the upper-right of the page
-      3. Record any historical injections
-      4. Click the Submit button
+    1. <strong>Within Encounter</strong>
+        1. Open the Immunizations/Injections section of the encounter
+        2. Using the Description autocomplete, begin typing the name of the immunization
+        3. Add the Date and any Reactions/Comments
+        4. Click the Add button
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Quick Add link in the upper-right of the page
+        3. Record any historical injections
+        4. Click the Submit button
 2. <strong>Option 2: Document the Administration of Pneumococcal Vaccination</strong>
-   1. <strong>Within Encounter</strong>
-      1. Open the Tests and Procedures section of the encounter
-      2. Using the autocomplete, begin typing the name of the vaccination being administered
-      3. Click the Add to Exam button
-      4. After adding the new section, open the section, fill in all required fields, record the findings, and set to Result.
-      5. Click the Next button, or close the section
-      6. Continue documenting the encounter as needed
-      7. When completed, Close and Archive the encounter
-   2. <strong>Outside Encounter</strong>
-      1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
-      2. Click the Add Imm/Inj link in the upper-right of the page
-      3. Fill in all required fields
-      4. Click the Submit button
+    1. <strong>Within Encounter</strong>
+        1. Open the Tests and Procedures section of the encounter
+        2. Using the autocomplete, begin typing the name of the vaccination being administered
+        3. Click the Add to Exam button
+        4. After adding the new section, open the section, fill in all required fields, record the findings, and set to Result.
+        5. Click the Next button, or close the section
+        6. Continue documenting the encounter as needed
+        7. When completed, Close and Archive the encounter
+    2. <strong>Outside Encounter</strong>
+        1. While in the chart, navigate to MAR/Injections from the Medical Record chart tab
+        2. Click the Add Imm/Inj link in the upper-right of the page
+        3. Fill in all required fields
+        4. Click the Submit button
 
 ## Evidence
 

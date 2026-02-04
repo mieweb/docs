@@ -1,15 +1,14 @@
 ---
-id: "1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg"
-title: "HL7 - RESTful"
-date: "2025-12-04T16:22:06.341Z"
+id: '1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
+title: 'HL7 - RESTful'
+date: '2025-12-04T16:22:06.341Z'
 version: 201
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1cTfexHAjqrATjQBWLjf1QyHgX8r0DXDHCuEjVuazhAg'
+wikigdrive: 'v2.15.30'
 ---
-
 ## CGI Vars Explained
 
 <table>

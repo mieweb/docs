@@ -1,31 +1,30 @@
 ---
-id: "1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI"
-title: "Super User Quick View Portlet"
-date: "2025-11-07T19:14:25.933Z"
+id: '1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
+title: 'Super User Quick View Portlet'
+date: '2025-11-07T19:14:25.933Z'
 version: 71
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/"
-  - "https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/"
-  - "https://docs.enterprisehealth.com/functions/task-management/task-list/"
-  - "https://docs.enterprisehealth.com/functions/system-configuration/"
-  - "https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/"
-  - "https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/"
-source: "https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/'
+  - 'https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/'
+  - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/'
+  - 'https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/'
+  - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
+source: 'https://drive.google.com/open?id=1BmYr0t8bGa-s4VYN7njufXX2PC2W_aiVsKdqtijk9rI'
+wikigdrive: 'v2.15.30'
 ---
-
 If you are a superuser and need access to view or edit the following areas of the Control Panel sidemenu, you will need additional security access to do so.
 
-- Layout Manager
-- Refer to Systems editor
-- [System Report](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/) manager
-- System Settings editor
-- Esign Editor ([E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/) sidemenu)
-- Tasklist Events ([Task List](https://docs.enterprisehealth.com/functions/task-management/task-list/) sidemenu)
-- [System Configuration](https://docs.enterprisehealth.com/functions/system-configuration/)
-- Portions of the [Chart Tabs](https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/) editor
+* Layout Manager
+* Refer to Systems editor
+* [System Report](https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-report-writing/) manager
+* System Settings editor
+* Esign Editor ([E-Sign](https://docs.enterprisehealth.com/functions/e-sign-electronic-signature/pending-e-sign-reviews/) sidemenu)
+* Tasklist Events ([Task List](https://docs.enterprisehealth.com/functions/task-management/task-list/) sidemenu)
+* [System Configuration](https://docs.enterprisehealth.com/functions/system-configuration/)
+* Portions of the [Chart Tabs](https://docs.enterprisehealth.com/functions/system-configuration/chart-tabs/) editor
 
 When trying to access any of the areas listed above and you do not have additional SuperUser access, an error message will display.
 

@@ -1,19 +1,18 @@
 ---
-id: "1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4"
-title: "CMS 149 - Dementia: Cognitive Assessment"
-date: "2022-04-28T14:16:34.772Z"
+id: '1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4'
+title: 'CMS 149 - Dementia: Cognitive Assessment'
+date: '2022-04-28T14:16:34.772Z'
 version: 17
-lastAuthor: "nwelsh"
-mimeType: "text/x-markdown"
+lastAuthor: 'nwelsh'
+mimeType: 'text/x-markdown'
 links:
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v8&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v9&showresulttype=Measure"
-  - "https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v10&showresulttype=Measure"
-  - "https://ecqi.healthit.gov/ecqm/ep/2022/cms149v10"
-source: "https://drive.google.com/open?id=1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4"
-wikigdrive: "v2.15.30"
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v8&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v9&showresulttype=Measure'
+  - 'https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v10&showresulttype=Measure'
+  - 'https://ecqi.healthit.gov/ecqm/ep/2022/cms149v10'
+source: 'https://drive.google.com/open?id=1U__PxyFngT3WIb7xckii8CbTT6jK_sK79vdIg9LpUt4'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Overview
 
 [CMS149v8](https://medicalcodify.com/eh/?f=layoutnouser&func=&module=&tabmodule=&name=RXDBmain&showresult=CMS149v8&showresulttype=Measure) (2020)
@@ -39,7 +38,7 @@ wikigdrive: "v2.15.30"
 </tr>
 </table>
 
-\*MIE only supports data collection and reporting using eCQM specifications
+*MIE only supports data collection and reporting using eCQM specifications
 
 ### Definitions
 
@@ -102,6 +101,7 @@ wikigdrive: "v2.15.30"
 ## Clinical Instructions
 
 ### New UI Visit Encounter (valid RC202109+)
+
 
 ### Original Visit Encounter
 

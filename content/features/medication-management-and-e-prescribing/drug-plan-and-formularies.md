@@ -1,15 +1,14 @@
 ---
-id: "1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE"
-title: "Drug Plan and Formularies"
-date: "2020-03-16T12:01:52.181Z"
-version: 61
-lastAuthor: ""
-mimeType: "text/x-markdown"
+id: '1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
+title: 'Drug Plan and Formularies'
+date: '2020-03-16T12:01:52.181Z'
+version: 63
+lastAuthor: ''
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% note %}}
 Currently {{% system-name %}} only displays Medicare Part D drug plans and formularies. Currently, you only need to set a drug plan for a Medicare patient with this type of drug part D coverage.
 {{% /note %}}
@@ -56,9 +55,9 @@ The locale/plan fields open. To change to a different/new Medicare drug plan –
 
 ![](./drug-plan-and-formularies.assets/36b609b5866015cbb53092d62108a170.png)
 
-To delete a Medicare drug plan entirely and save as _Not Selected_ (say a drug plan was entered in error for a patient, or the patient now has a different drug plan and it's not Medicare Part D so we don't store it), then here at the local/plan fields, click the CLEAR button.
+To delete a Medicare drug plan entirely and save as *Not Selected* (say a drug plan was entered in error for a patient, or the patient now has a different drug plan and it's not Medicare Part D so we don't store it), then here at the local/plan fields, click the CLEAR button.
 
-All fields will be cleared. Then click SET and it will store the Medicare drug plan as blank and will say _‘Not Selected'_ in the patient's meds tab.
+All fields will be cleared. Then click SET and it will store the Medicare drug plan as blank and will say *‘Not Selected'* in the patient's meds tab.
 
 ![](./drug-plan-and-formularies.assets/19e70a4e3460cdd5e6e0292bd57f7427.png)
 
@@ -68,9 +67,9 @@ After having a Medicare Part D formulary set in the patient's Meds tab, click on
 
 ![](./drug-plan-and-formularies.assets/cba4d37a934877a4df4465d2e987f743.png)
 
-Type in the name of the medication you are prescribing and the system will auto-complete valid medication names from the First DataBank database. When you select medications from this auto-complete choice listing, the drug/allergy interactions/warnings will be on and you will be notified on the screen of any interactions/warnings. (See other help documentation named _Prescribing & Adding Meds_)
+Type in the name of the medication you are prescribing and the system will auto-complete valid medication names from the First DataBank database. When you select medications from this auto-complete choice listing, the drug/allergy interactions/warnings will be on and you will be notified on the screen of any interactions/warnings. (See other help documentation named *Prescribing & Adding Meds*)
 
-After you have selected a medication, tab to the _Form_ field which is next. If the medication is covered under the Medicare drug plan, the form will be bolded in blue along with the tier that they fall into will be displayed. These are forms of the medication that are covered under that patient's drug plan. Lower tiers (ex: Tier 1) are generic and usually cheaper. Some plans have up to 7 tiers.
+After you have selected a medication, tab to the *Form* field which is next. If the medication is covered under the Medicare drug plan, the form will be bolded in blue along with the tier that they fall into will be displayed. These are forms of the medication that are covered under that patient's drug plan. Lower tiers (ex: Tier 1) are generic and usually cheaper. Some plans have up to 7 tiers.
 
 ![](./drug-plan-and-formularies.assets/7c8102c3c35b15e0c27a1d210b5614f2.jpg)
 

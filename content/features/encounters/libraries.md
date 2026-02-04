@@ -1,16 +1,15 @@
 ---
-id: "1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM"
-title: "Libraries"
-date: "2024-12-17T17:47:26.394Z"
-version: 113
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+id: '1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
+title: 'Libraries'
+date: '2024-12-17T17:47:26.394Z'
+version: 118
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/"
-source: "https://drive.google.com/open?id=1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
+source: 'https://drive.google.com/open?id=1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
+wikigdrive: 'v2.15.30'
 ---
-
 Libraries can be created to build Quick Lists for providers or quick prescribing lists. Libraries do not come preconfigured, but can be configured and maintained by System Administrator and authorized users. Libraries can be configured and edited in the **Reference** tab under the **Control Panel**.
 
 ## Create a Library
@@ -19,11 +18,11 @@ To create a new library, click the **Add Library** link in the upper right hand 
 
 ![](./libraries.assets/e1a68955e491a054ce94b3d25e72aeab.png)
 
-Enter the **Name** for the library, then click the **Add New** button. The library can be named whatever the user likes. Typically, the library is named after the user (ex: Butler), group of users the library will be utilized by (ex: Internal Medicine), or even something more specific like a type of visit (ex: Injury/Illness). It is recommended to enter an \* at the beginning of each library name to make it searchable.
+Enter the **Name** for the library, then click the **Add New** button. The library can be named whatever the user likes. Typically, the library is named after the user (ex: Butler), group of users the library will be utilized by (ex: Internal Medicine), or even something more specific like a type of visit (ex: Injury/Illness). It is recommended to enter an * at the beginning of each library name to make it searchable.
 
 ![](./libraries.assets/18e6c353cc470cdbf5de4668a31388d3.png)
 
-After adding the library name, a Library Chart and encounter will open. All Library charts will have the last name of "**Library**" and be issued a MRN with **LIB** partition chart number. The Demographics encounter section will display the library name. If the user forgets to add the \* prior to the library name, the Demographics encounter section can be opened and the **\*** added here. Use the Library chart to enter a Smart Plan and/or add items to any encounter Quick List.
+After adding the library name, a Library Chart and encounter will open. All Library charts will have the last name of "**Library**" and be issued a MRN with **LIB** partition chart number. The Demographics encounter section will display the library name. If the user forgets to add the * prior to the library name, the Demographics encounter section can be opened and the ***** added here. Use the Library chart to enter a Smart Plan and/or add items to any encounter Quick List.
 
 ![](./libraries.assets/6315dc03bf3041cc219eaf16febeaf2f.png)
 
@@ -41,7 +40,7 @@ Click the Set Library icon in the encounter header to open the Set Library dialo
 
 ### Copy Library Templates
 
-When in an encounter, select the encounter **Copy** icon located in the encounter header to view a list of Libraries and Existing Visit information. For more information on using Existing Visit lists, see [Copy from Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/). Users do not need to set their library to copy templates.
+When in an encounter, select the encounter **Copy** icon located in the encounter header to view a list of Libraries and Existing Visit information.  For more information on using Existing Visit lists, see [Copy from Previous Exam](https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/). Users do not need to set their library to copy templates.
 
 ![](./libraries.assets/23961f715c8f540d040eb4f205ad7118.png)
 

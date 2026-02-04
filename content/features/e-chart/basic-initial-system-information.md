@@ -1,17 +1,16 @@
 ---
-id: "1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8"
-title: "Basic Initial System Information"
-date: "2025-11-21T17:26:11.464Z"
+id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+title: 'Basic Initial System Information'
+date: '2025-11-21T17:26:11.464Z'
 version: 282
-lastAuthor: "mpierzchala"
-mimeType: "text/x-markdown"
+lastAuthor: 'mpierzchala'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/"
-source: "https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/'
+source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
+wikigdrive: 'v2.15.30'
 ---
-
-We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that. This guide will go over basic initial system information and navigation. When logging into {{% system-name %}}, you will be set to land on a default page. Likely, it will be the Quick View sidemenu tab. However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the _Default Page_ setting.
+We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}}, you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 
 ## Chart Simple Search Screen
 
@@ -19,7 +18,7 @@ Some users prefer to have their default landing page be the E-Chart sidemenu. Th
 
 ![](./basic-initial-system-information.assets/e747f5596bbde46aff2c4cd2aa89c990.png)
 
-The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name. A wild card % search is available. For instance, search by %erson if you want to find any charts who have _erson_ within their last name. The simple search also looks at a chart's Preferred Name (starting in 03-2024RC) that may be entered in their demographics.
+The Chart search screen is usually defaulted to search by **Name**.  When searching by name, users should enter the last name followed by a comma and then first letter or first name.  A wild card % search is available.  For instance, search by %erson if you want to find any charts who have *erson* within their last name.  The simple search also looks at a chart's Preferred Name (starting in 03-2024RC) that may be entered in their demographics.
 
 Users can also search for charts by Medical Record Number, Social Security Number (entered with no dashes), Date of Birth, or by some phone number. Clicking the Phone number hyperlink allows users to toggle to search by alternate phone number, mobile phone number and work phone number as well.
 
@@ -28,10 +27,10 @@ Users can also search for charts by Medical Record Number, Social Security Numbe
 If the search criteria entered finds an exact match for only one found chart, the user will automatically be taken into that chart.  Otherwise, a list of charts will be generated and the user can select any of the charts in the list of results, to access the chart.
 
 {{% note %}}
-Charts may be restricted to you. You will find other help documentation guides around Locked or Restricted Charts.
+Charts may be restricted to you.  You will find other help documentation guides around Locked or Restricted Charts.
 {{% /note %}}
 
-If desired, the system can be configured to turn off the _Search by Social Security Number_ option.  This will remove the SSN search ability from the Simple and Detailed chart search screens. It will also remove the Social Security column from the Recent Employees/Patients listing.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
+If desired, the system can be configured to turn off the *Search by Social Security Number* option.  This will remove the SSN search ability from the Simple and Detailed chart search screens. It will also remove the Social Security column from the Recent Employees/Patients listing.   To turn off the social security search option in other modules or layouts, please contact MIE for assistance.
 
 ## Documents Chart Tab
 
@@ -41,7 +40,7 @@ Once accessing or working in a selected chart, {{% system-name %}} will include 
 
 The number in parenthesis next to the title of a chart tab, in this case the Documents tab, indicates how many individual stored documents exist in that chart tab. If no number exists, no stored documents exist in that chart tab.
 
-When searching for documents in the chart, users can either navigate to the specific individual chart tab a stored document may be mapped to or search in the Documents catch-all chart tab. The Documents chart tab is intended to house this chart's stored documents, so that users have a central location for all that chart's documents, if necessary.
+When searching for documents in the chart, users can either navigate to the specific individual chart tab a stored document may be mapped to or search in the Documents catch-all chart tab.  The Documents chart tab is intended to house this chart's stored documents, so that users have a central location for all that chart's documents, if necessary.
 
 The Documents chart tab will list documents in chronological order, by default, with most recent dated stored documents being listed first.  The documents can also be sorted by using the Doc ID, Doc Type (lists documents in alpha order), subject columns, etc.  This is done by clicking on the underlined column headings such as Doc ID, Serv Date, Doc Type, Subject, etc.
 
@@ -93,7 +92,7 @@ The My Settings screen will default to the logged-in user's settings.  This can
 You will find other help documentation guides around all the detailed My Settings preferences available.
 {{% /note %}}
 
-Depending on your workflows and operating procedures, there may be some specific My Settings Preferences to set when an administrator is needing to set up a new user to their system. Please work with your Deployment Consultant to identify those preferences that would be best to have set for the new user to have a successful initial experience. Some of those may be for instance: Default Location, Time Zone, Starting Partition, Ordering Location, etc.
+Depending on your workflows and operating procedures, there may be some specific My Settings Preferences to set when an administrator is needing to set up a new user to their system.  Please work with your Deployment Consultant to identify those preferences that would be best to have set for the new user to have a successful initial experience.  Some of those may be for instance: Default Location, Time Zone, Starting Partition, Ordering Location, etc.
 
 To save any changes to the My Settings screen,click on the **Submit Settings** button found at the top or the bottom of this screen.
 
@@ -124,5 +123,5 @@ To log out of the system, click the Logout sidemenu option.
 ![](./basic-initial-system-information.assets/32a0061c3ae80b276b91694780283f32.png)
 
 {{% note %}}
-A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session. The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours). Please refer to the [Timeout Logout](https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/) guide.
+A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.  The system setting for Timeout is defaulted to 7200 seconds (which is 2 hours).  Please refer to the [Timeout Logout](https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/) guide.
 {{% /note %}}

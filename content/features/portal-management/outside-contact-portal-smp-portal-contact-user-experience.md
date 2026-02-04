@@ -1,15 +1,14 @@
 ---
-id: "1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ"
-title: "Outside Contact Portal - SMP Portal Contact User Experience"
-date: "2025-11-25T17:42:04.349Z"
-version: 111
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ'
+title: 'Outside Contact Portal - SMP Portal Contact User Experience'
+date: '2025-11-25T17:42:04.349Z'
+version: 113
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1F2OFSUnBDuCLH2C1Nt-FYFcvtJ-bZtOa1e_8buZcyKQ'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Contact Portal Activation Code Instructions
 
 If a document has been sent to the ‘Outside Contact Portal', the recipient will receive an email with instructions on how to create an account (new users) or how to link the activation code to an existing portal account.
@@ -56,7 +55,7 @@ After creating the ‘Outside Contact Portal' account, the Contact user will rec
 
 ## Ongoing Received Document Notifications
 
-Any time a new document is shared with an existing document, the contact will receive the OOTB ‘Reminder to Review Notification'. The email may also require some modifications to suit many audiences it may be used for.
+Any time a new document is shared with an existing document, the contact will receive the OOTB ‘Reminder to Review Notification'.  The email may also require some modifications to suit many audiences it may be used for.
 
 ![](./outside-contact-portal-smp-portal-contact-user-experience.assets/baa07189c863e5f048cbf68b3730a53d.png)
 

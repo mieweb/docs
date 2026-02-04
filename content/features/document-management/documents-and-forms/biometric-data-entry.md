@@ -1,17 +1,16 @@
 ---
-id: "1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs"
-title: "Biometric Data Entry"
-date: "2025-11-10T16:19:09.172Z"
+id: '1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
+title: 'Biometric Data Entry'
+date: '2025-11-10T16:19:09.172Z'
 version: 103
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "../scanning-and-indexing/indexing-bubble-forms.md"
-  - "../scanning-and-indexing/indexing.md"
-source: "https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs"
-wikigdrive: "v2.15.30"
+  - '../scanning-and-indexing/indexing-bubble-forms.md'
+  - '../scanning-and-indexing/indexing.md'
+source: 'https://drive.google.com/open?id=1-aDFfvOyr0OZIAvyKM5iXBaUFdNHRt6n5rYz4yXDFAs'
+wikigdrive: 'v2.15.30'
 ---
-
 Data entry can be addressed a few different ways in {{% system-name %}} . Bubble forms are a very convenient and efficient solution. Bubble forms are document type templates with special formatting that allow data to be collected when documents of that type are scanned and indexed into the {{% system-name %}} system. This data is stored discretely, as observations, within {{% system-name %}}.
 
 Bubble forms also work well added to Print Definitions, particularly for providers that do not use interfaced equipment. Bubble forms can also be developed so that a stack of the forms can be printed and taken onsite, where they then can be scanned and indexed, afterward.
@@ -35,6 +34,7 @@ To access and utilize a bubble form for recording information, simply navigate t
 {{% info %}}
 Bubble forms can also be generated as generic, unassociated with a specific chart, to allow for mass use. Print a stack of generic forms to take onsite, and afterward, scan and index them into the appropriate charts.
 
+
 {{% /info %}}
 
 ## Manual Entry
@@ -43,7 +43,7 @@ There are alternative, manual processes outside of using and scanning in bubble 
 
 ### Add from Chart Tab
 
-Navigating to the **Medical Record** **Vital Signs** chart tab allows users to select what type of results need to be entered or reviewed. In the Vital Signs chart tab, the screen will display a _List View_ of all of the existing biometric data.
+Navigating to the **Medical Record** **Vital Signs** chart tab allows users to select what type of results need to be entered or reviewed. In the Vital Signs chart tab, the screen will display a *List View* of all of the existing biometric data.
 
 ![](./biometric-data-entry.assets/25c68dbb24f36b7a62e522b7c09187e1.png)
 

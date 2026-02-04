@@ -1,52 +1,51 @@
 ---
-id: "1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec"
-title: "Review Session - System Administration"
-date: "2020-02-27T21:26:12.492Z"
+id: '1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
+title: 'Review Session - System Administration'
+date: '2020-02-27T21:26:12.492Z'
 version: 66
-lastAuthor: "aquandt"
-mimeType: "text/x-markdown"
+lastAuthor: 'aquandt'
+mimeType: 'text/x-markdown'
 links:
-  - "https://system/?f=admin&tabmodule=admin&tabselect=My+Settings"
-  - "https://whatsmybrowser.org"
-  - "https://www.ssllabs.com/ssltest/viewMyClient.html"
-  - "http://docs.enterprisehealth.com"
-  - "http://docs.webchartnow.com"
-  - "https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins"
-  - "https://system/?f=activeX&file=WebChartActiveX.msi"
-  - "https://system/?f=activeX&file=miecontrols.cab"
-  - "../../functions/system-administration/system-controls/system-plugins.md"
-  - "http://www.alternatiff.com"
-  - "../../functions/system-administration/system-controls/multilingual-feature.md"
-  - "https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings"
-  - "https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control"
-  - "../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md"
-  - "https://system/?f=admin&s=pat&subfunc=activity_log&tabmodule=reports&t=Utilization"
-  - "../../functions/system-administration/security/my-settings.md"
-  - "../../functions/system-administration/security/security-role-settings.md"
-  - "../../functions/system-administration/security/compare-security-roles.md"
-  - "https://www.mieweb.com/wiki/System_Administration"
-  - "../../functions/system-administration/system-controls/user-provider-and-department-management.md"
-  - "../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md"
-source: "https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec"
-wikigdrive: "v2.15.30"
+  - 'https://system/?f=admin&tabmodule=admin&tabselect=My+Settings'
+  - 'https://whatsmybrowser.org'
+  - 'https://www.ssllabs.com/ssltest/viewMyClient.html'
+  - 'http://docs.enterprisehealth.com'
+  - 'http://docs.webchartnow.com'
+  - 'https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins'
+  - 'https://system/?f=activeX&file=WebChartActiveX.msi'
+  - 'https://system/?f=activeX&file=miecontrols.cab'
+  - '../../features/system-administration/system-controls/system-plugins.md'
+  - 'http://www.alternatiff.com'
+  - '../../features/system-administration/system-controls/multilingual-feature.md'
+  - 'https://system/?f=admin&s=system_settings&tabmodule=admin&tabselect=System+Settings'
+  - 'https://system/?f=admin&t=security&tabmodule=admin&tabselect=Access+Control'
+  - '../../features/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md'
+  - 'https://system/?f=admin&s=pat&subfunc=activity_log&tabmodule=reports&t=Utilization'
+  - '../../features/system-administration/security/my-settings.md'
+  - '../../features/system-administration/security/security-role-settings.md'
+  - '../../features/system-administration/security/compare-security-roles.md'
+  - 'https://www.mieweb.com/wiki/System_Administration'
+  - '../../features/system-administration/system-controls/user-provider-and-department-management.md'
+  - '../../features/system-administration/system-controls/language-tab-create-new-help-bubble-text.md'
+source: 'https://drive.google.com/open?id=1KbfDIufXFOMWhWGi_FSMXVX5DlsH90F-7fucLDSMCec'
+wikigdrive: 'v2.15.30'
 ---
-
 ## Agenda
 
-- <strong>System Administration Demonstration</strong>
-- <strong>Overview</strong>
-- <strong>System Configuration</strong>
-  - <strong>Browser Requirements</strong>
-  - <strong>ActiveX Controls</strong>
-  - <strong>Language Translations</strong>
-  - <strong>Scheduled Jobs</strong>
-  - <strong>Secure Email Setup</strong>
-  - <strong>Single Sign-On (SSO)</strong>
-  - <strong>Audit & Activity Logs</strong>
-  - <strong>Settings/Preferences</strong>
-    - <strong>Security Role Settings</strong>
-    - <strong>System Settings</strong>
-- <strong>Resources</strong>
+* <strong>System Administration Demonstration</strong>
+* <strong>Overview</strong>
+* <strong>System Configuration</strong>
+    * <strong>Browser Requirements</strong>
+    * <strong>ActiveX Controls</strong>
+    * <strong>Language Translations</strong>
+    * <strong>Scheduled Jobs</strong>
+    * <strong>Secure Email Setup</strong>
+    * <strong>Single Sign-On (SSO)</strong>
+    * <strong>Audit & Activity Logs</strong>
+    * <strong>Settings/Preferences</strong>
+        * <strong>Security Role Settings</strong>
+        * <strong>System Settings</strong>
+* <strong>Resources</strong>
 
 ## Overview
 
@@ -86,19 +85,19 @@ All ActiveX controls can be upgraded or installed from the [Plugins](https://sy
 
 Also in the upper-right corner of the Plugins page, there is a link to [Download all controls in a single CAB file](https://system/?f=activeX&file=miecontrols.cab). Clicking this will compress all of the necessary plugin files into a single CAB file for easy installation. Depending on the operating system being used and method of installation being employed, either a CAB or MSI file can be provided, so loading/deploying all necessary ActiveX controls can be done locally, or en masse, as appropriate to the operating system(s) being used and network management processes.
 
-Troubleshooting ActiveX functions will be a necessary component of support for the {{% system-name %}} deployment. User rights, network settings, proxy servers, and third-party plugins and controls can all pose potential problems in the operation of ActiveX controls. Disabling and enabling installed IE add-ons, or even deleting and reinstalling a control, may be necessary as part of the necessary troubleshooting and ongoing maintenance. A brief description of each plugin is provided, below. However, for more detailed information, see our [System Plugins](../../functions/system-administration/system-controls/system-plugins.md) documentation.
+Troubleshooting ActiveX functions will be a necessary component of support for the {{% system-name %}} deployment. User rights, network settings, proxy servers, and third-party plugins and controls can all pose potential problems in the operation of ActiveX controls. Disabling and enabling installed IE add-ons, or even deleting and reinstalling a control, may be necessary as part of the necessary troubleshooting and ongoing maintenance. A brief description of each plugin is provided, below. However, for more detailed information, see our [System Plugins](../../features/system-administration/system-controls/system-plugins.md) documentation.
 
-- <strong>AlternaTIFF</strong> (alttiff) - This control is used for viewing TIFF (.tiff, .tif) images within IE browsers. The alternatiff plugin is used not only for printing from IE browsers, but also for indexing scanned content in {{% system-name %}} systems, by way of writing files to the local temporary folder (i.e., the folder given by the GetTempPath Windows API function). The rarely-used <em>Set Wallpaper</em> feature tries to write a file under the local application data folder (CSIDL_APPDATA). More information regarding the AlternaTIFF control can be found atle at http://www.alternatiff.com.
-- <strong>VidCap Control</strong> (vidcapc) - This plugin controls video capture and file upload, allowing users to capture images from a webcam or upload images from disk into {{% system-name %}} . This writes files to the local temporary folder and supports various formats.
-- <strong>Scan Plug-in</strong> (scancontrol) - The MIE Scan Plug-in provides control for TWAIN-compliant scanning devices, enabling scanning and indexing of documents directly into charts. This control writes files to the local temporary folder.
-- <strong>DICOM Viewer</strong> (miedcmview) - The MIE DICOM Viewer plugin allows users to view DICOM format studies within the web browser. This writes files to the local temporary folder.
-- <strong>Sketch Control</strong> (miesketch) - This plugin allows users to draw or sketch images and upload those as documents. This writes files to the local temporary folder.
-- <strong>Dictation Control</strong> (mieplayer) - The Dictation Control plugin allows users to record and playback WAV files recorded in the {{% system-name %}} system. Playing and uploading ULAW-formatted voice files is supported with this plugin. This writes to a spooler folder that can be configured by the user, as needed. By default, the spooler folder is located at <em>C:\dictation</em>.
-- <strong>Binary File Control</strong> (miebinfileedit) - The Binary File Control plugin allows for uploading and downloading file types, as well as forms editing, single-document uploads, and Excel file editing. This control writes to <em>\files\webchart\miebinfileedt</em>.
-- <strong>Word Control</strong> (mieword) - The Word Control plugin provides the {{% system-name %}} system direct access to Microsoft (MS) Word for the creation, editing, and uploading of documents. Because {{% system-name %}} has an a HTML rich text editor, MS Word is not required for word processing; however, users accessing MS Word templates do require a local copy of MS Office. This plugin writes to _%UserProfile%\WebChart\MIEWord_.
-- <strong>Welch Allyn Vitals & CardioPerfect Control</strong> (wavitals/wavitals2 and cardiocontrol) - Proprietary controls provided by Welch Allyn for interoperability with Welch Allyn Spirometers and Spot Vitals Monitors. These controls are obtained through USB connection with the respective device.
-- <strong>Download MIE SSL App</strong> - This is a link found in the upper-right corner of the [Plugins](https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins) Control Panel tab. Though not a plugin, the MIE SSL App is required for accessing HTTPS connections. This supplies a type communication channel between the web browser and the {{% system-name %}} system, and is required for Electronic Prescribing Controlled Substance (EPCS) workflows.
-- <strong>E-Token Signature App</strong> - These links are provided according to the browser being used. The E-Token Signature App is used for signing messages with a USB cryptographic token. This, too, supplies a type of communication authentication, and is required for EPCS workflows.
+* <strong>AlternaTIFF</strong> (alttiff) - This control is used for viewing TIFF (.tiff, .tif) images within IE browsers. The alternatiff plugin is used not only for printing from IE browsers, but also for indexing scanned content in {{% system-name %}} systems, by way of writing files to the local temporary folder (i.e., the folder given by the GetTempPath Windows API function). The rarely-used <em>Set Wallpaper</em> feature tries to write a file under the local application data folder (CSIDL_APPDATA). More information regarding the AlternaTIFF control can be found atle at http://www.alternatiff.com.
+* <strong>VidCap Control</strong> (vidcapc) - This plugin controls video capture and file upload, allowing users to capture images from a webcam or upload images from disk into {{% system-name %}} . This writes files to the local temporary folder and supports various formats.
+* <strong>Scan Plug-in</strong> (scancontrol) - The MIE Scan Plug-in provides control for TWAIN-compliant scanning devices, enabling scanning and indexing of documents directly into charts. This control writes files to the local temporary folder.
+* <strong>DICOM Viewer</strong> (miedcmview) - The MIE DICOM Viewer plugin allows users to view DICOM format studies within the web browser. This writes files to the local temporary folder.
+* <strong>Sketch Control</strong> (miesketch) - This plugin allows users to draw or sketch images and upload those as documents. This writes files to the local temporary folder.
+* <strong>Dictation Control</strong> (mieplayer) - The Dictation Control plugin allows users to record and playback WAV files recorded in the {{% system-name %}} system. Playing and uploading ULAW-formatted voice files is supported with this plugin. This writes to a spooler folder that can be configured by the user, as needed. By default, the spooler folder is located at <em>C:\dictation</em>.
+* <strong>Binary File Control</strong> (miebinfileedit) - The Binary File Control plugin allows for uploading and downloading file types, as well as forms editing, single-document uploads, and Excel file editing. This control writes to <em>\files\webchart\miebinfileedt</em>.
+* <strong>Word Control</strong> (mieword) - The Word Control plugin provides the {{% system-name %}} system direct access to Microsoft (MS) Word for the creation, editing, and uploading of documents. Because {{% system-name %}} has an a HTML rich text editor, MS Word is not required for word processing; however, users accessing MS Word templates do require a local copy of MS Office. This plugin writes to _%UserProfile%\WebChart\MIEWord_.
+* <strong>Welch Allyn Vitals & CardioPerfect Control</strong> (wavitals/wavitals2 and cardiocontrol) - Proprietary controls provided by Welch Allyn for interoperability with Welch Allyn Spirometers and Spot Vitals Monitors. These controls are obtained through USB connection with the respective device.
+* <strong>Download MIE SSL App</strong> - This is a link found in the upper-right corner of the [Plugins](https://system/?f=admin&s=plugins&tabmodule=admin&tabselect=Plugins) Control Panel tab. Though not a plugin, the MIE SSL App is required for accessing HTTPS connections. This supplies a type communication channel between the web browser and the {{% system-name %}} system, and is required for Electronic Prescribing Controlled Substance (EPCS) workflows.
+* <strong>E-Token Signature App</strong> - These links are provided according to the browser being used. The E-Token Signature App is used for signing messages with a USB cryptographic token. This, too, supplies a type of communication authentication, and is required for EPCS workflows.
 
 It is important to determine who is expected to maintain the network. Verify the users needing admin permissions for downloading controls and any initial-use requirements (e.g., download or update ActiveX controls after upgrades). If the necessary users do not have the required admin permissions, be sure to schedule time with the Deployment Specialist, so all plugin controls can be deployed and maintained on an ongoing basis, as well as according to any potential future upgrades, establishing the best plan to ensure plugin controls are updated accordingly. What this means is that upon upgrading to a new release candidate (RC), varying plugin controls may change. Plan and define a policy, per se, regarding upgrades and plugin controls, to ensure any requirements prior to and after an upgrade are addressed, as appropriate.
 
@@ -114,7 +113,7 @@ When logged into the {{% system-name %}} system, copying and pasting ?f=wcversio
 {{% system-name %}} is only capable of translating left-to-right (LTR) languages.
 {{% /info %}}
 
-After defining the list of countries and languages the {{% system-name %}} system will need to accommodate, it is best to first enable these languages using the instructions provided in the [Multilingual Feature](../../functions/system-administration/system-controls/multilingual-feature.md) help documentation. Once done, it is recommended that clients begin translations from scratch; however, translation services and vendors are available, such as Language Scientific, who helps clients establish the appropriate translations for their medical and scientific needs. Otherwise, clients utilizing the existing databases are expected to not only review the available translations for accuracy, but also add and update additional translations, which can drastically increase the client-side level of effort needed.
+After defining the list of countries and languages the {{% system-name %}} system will need to accommodate, it is best to first enable these languages using the instructions provided in the [Multilingual Feature](../../features/system-administration/system-controls/multilingual-feature.md) help documentation. Once done, it is recommended that clients begin translations from scratch; however, translation services and vendors are available, such as Language Scientific, who helps clients establish the appropriate translations for their medical and scientific needs. Otherwise, clients utilizing the existing databases are expected to not only review the available translations for accuracy, but also add and update additional translations, which can drastically increase the client-side level of effort needed.
 
 {{% tip %}}
 To assist with translation efforts, MIE can provide an export of all observations in the database, allowing for translations to be paired and easily updated, accordingly.
@@ -130,7 +129,7 @@ As a means to automate varying types of system maintenance and necessary workflo
 
 Email notifications can be generated a couple of different ways in the {{% system-name %}} system, including manually (by a user) or automatically, through programmed, time-based cron jobs. These scheduled jobs not only trigger various processes, but they can also be programmed to generate and send specific emails, as needed. That said, much of this available email functionality is controlled by system settings, custom reports, and scheduled jobs. Therefore, functionality will vary by client.
 
-Secure emails can be sent to specific employees/patients, or supervisors/staff, to notify of pending appointments, health-related needs, or follow-ups. Additionally, emailing can be configured for emailing other, outside domains, if necessary. This would require an established secure connection (e.g., VPN, TLS, etc.). Please contact your Deployment Specialist for more information regarding set up, or for more general information, see the [Secure Email to Whitelisted Domains](../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md) documentation.
+Secure emails can be sent to specific employees/patients, or supervisors/staff, to notify of pending appointments, health-related needs, or follow-ups. Additionally, emailing can be configured for emailing other, outside domains, if necessary. This would require an established secure connection (e.g., VPN, TLS, etc.). Please contact your Deployment Specialist for more information regarding set up, or for more general information, see the [Secure Email to Whitelisted Domains](../../features/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md) documentation.
 
 {{% info %}}
 The ability to send documents via Direct HISP does not rely on this setup. Also, domains such as Gmail or Hotmail would not be appropriate, here. Only domains capable of establishing a secure connection with MIE can be whitelisted.
@@ -170,7 +169,7 @@ For some of the best results, spend time reviewing the **Activity Log** chart ta
 
 Depending on the security permissions granted, specific users can have the ability to manage settings and preferences system-wide, for others, or just for themselves. To edit these settings and preferences, users with the necessary permissions, may navigate to [My Settings](https://system/?f=admin&tabmodule=admin&tabselect=My+Settings) in the **Control Panel**, and manage the options, as needed. Be sure to review all security roles and individual settings, to ensure only those needing access to the System Admin functionality have access.
 
-For more information, see the [My Settings](../../functions/system-administration/security/my-settings.md) help documentation.
+For more information, see the [My Settings](../../features/system-administration/security/my-settings.md) help documentation.
 
 #### Security Role Settings
 
@@ -178,7 +177,7 @@ As noted, the {{% system-name %}} system is equipped with role-based access cont
 
 Security roles can be defined for an entire department (e.g., Physicians, Medical Records, Billing, etc.) or individually. For this reason, it is important to review all user security settings for individual users, as well as role-based positions and departments, needing access to the varying functionality, as needed.
 
-For more detailed information, check out the [Security Role Settings](../../functions/system-administration/security/security-role-settings.md) and [Compare Security Roles](../../functions/system-administration/security/compare-security-roles.md) help documentation.
+For more detailed information, check out the [Security Role Settings](../../features/system-administration/security/security-role-settings.md) and [Compare Security Roles](../../features/system-administration/security/compare-security-roles.md) help documentation.
 
 #### System Settings
 
@@ -190,11 +189,11 @@ There are several system settings available for system administrators. It is rec
 
 ### Help Documentation
 
-- [User/Provider & Department Management](../../functions/system-administration/system-controls/user-provider-and-department-management.md)
-- [System Plugins](../../functions/system-administration/system-controls/system-plugins.md)
-- [My Settings](../../functions/system-administration/security/my-settings.md)
-- [Compare Security Roles](../../functions/system-administration/security/compare-security-roles.md)
-- [Security Role Settings](../../functions/system-administration/security/security-role-settings.md)
-- [Multilingual Feature](../../functions/system-administration/system-controls/multilingual-feature.md)
-- [Language Tab-Create New Help Bubble Text](../../functions/system-administration/system-controls/language-tab-create-new-help-bubble-text.md)
-- [Secure Email to Whitelisted Domains](../../functions/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)
+* [User/Provider & Department Management](../../features/system-administration/system-controls/user-provider-and-department-management.md)
+* [System Plugins](../../features/system-administration/system-controls/system-plugins.md)
+* [My Settings](../../features/system-administration/security/my-settings.md)
+* [Compare Security Roles](../../features/system-administration/security/compare-security-roles.md)
+* [Security Role Settings](../../features/system-administration/security/security-role-settings.md)
+* [Multilingual Feature](../../features/system-administration/system-controls/multilingual-feature.md)
+* [Language Tab-Create New Help Bubble Text](../../features/system-administration/system-controls/language-tab-create-new-help-bubble-text.md)
+* [Secure Email to Whitelisted Domains](../../features/system-administration/system-controls/secure-email-to-whitelisted-domain-s.md)

@@ -1,16 +1,15 @@
 ---
-id: "1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ"
-title: "Secure Email to Whitelisted Domain(s)"
-date: "2025-11-12T13:58:42.170Z"
+id: '1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
+title: 'Secure Email to Whitelisted Domain(s)'
+date: '2025-11-12T13:58:42.170Z'
 version: 111
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://mie.talentlms.com/shared/start/key:SOZRKMFP"
-source: "https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ"
-wikigdrive: "v2.15.30"
+  - 'https://mie.talentlms.com/shared/start/key:SOZRKMFP'
+source: 'https://drive.google.com/open?id=1Ib7pJ_sdehPHpT606NGgSAwW-rwHmXJPiGGxEOjDyIQ'
+wikigdrive: 'v2.15.30'
 ---
-
 {{% system-name %}}  provides the ability to securely email documents to specific whitelisted domains. Securely emailing is a network setup usually via VPN and/or a secure connection between MIE and the  {{% system-name %}} system domain, before they can be marked as whitelisted (in a system setting) to email to.  {{% system-name %}} must have a secure connection before having the ability to email out documents. Please contact your MIE Implementer for setup information.
 
 The ability to send documents via ‘Direct' HISP connection does not rely on this setup. To email documents out to other domains must first have an established secure connection within  {{% system-name %}} (contact your MIE Implementer for that setup), then a system setting set, then security permission. Sending documents via "direct" for meaningful use is still valid via the send method.
@@ -51,7 +50,7 @@ Once the *secure email* radio button is selected, the bottom portion of that s
 
 ![](./secure-email-to-whitelisted-domain-s.assets/ff4aa5325b8e3de3ed661612eab92daf.png)
 
-- <strong>Recipients:</strong> Begin typing in the email address to whom you want to send the document to. Hit the <em>tab</em> keyboard key or the <em>add</em> button. If you need to add another email address to email the same document to, continue again. Otherwise even if just sending to one email address, you need to hit the <em>tab</em> key or the <em>add</em> button. Doing that will trigger the  {{% system-name %}} system to process if that email domain is a secure connected whitelist domain or a ‘direct' HISP domain connection or if the email address is insecure and cannot be transmitted to.
+* <strong>Recipients:</strong> Begin typing in the email address to whom you want to send the document to. Hit the <em>tab</em> keyboard key or the <em>add</em> button. If you need to add another email address to email the same document to, continue again. Otherwise even if just sending to one email address, you need to hit the <em>tab</em> key or the <em>add</em> button. Doing that will trigger the  {{% system-name %}} system to process if that email domain is a secure connected whitelist domain or a ‘direct' HISP domain connection or if the email address is insecure and cannot be transmitted to.
 
 ![](./secure-email-to-whitelisted-domain-s.assets/08d595f62eea0358539c00a2d0bed44a.png)
 
@@ -71,9 +70,9 @@ If you hover your mouse over the (?) help bubble in the recipients field, it wil
 
 ![](./secure-email-to-whitelisted-domain-s.assets/1e23130c0b7b7672d39687d23fff0d72.png)
 
-- <strong>Email From:</strong> This is the address the recipient of the email will see as the ‘From'. It will auto-populate your email address from your  {{% system-name %}} username screen.
-- <strong>Subject:</strong> Type in a subject for the email. The email will attach the document you selected, but this is the ‘subject line' of the email that the recipient will receive in their email inbox.
-- <strong>Free Text Box:</strong> Type in any free text which will be received by the recipient in the body of the email (along with the attached document you selected to email out).
+* <strong>Email From:</strong> This is the address the recipient of the email will see as the ‘From'. It will auto-populate your email address from your  {{% system-name %}} username screen.
+* <strong>Subject:</strong> Type in a subject for the email. The email will attach the document you selected, but this is the ‘subject line' of the email that the recipient will receive in their email inbox.
+* <strong>Free Text Box:</strong> Type in any free text which will be received by the recipient in the body of the email (along with the attached document you selected to email out).
 
 ![](./secure-email-to-whitelisted-domain-s.assets/c5bd93c93267b5a5dab8e4b15f779de3.png)
 
@@ -113,4 +112,4 @@ If you click to open the stored email document that is stored to the patient/emp
 
 To learn more about Secure Emailing to Whitelisted Domain(s), follow the link below to the Learning Management System course:
 
-- [Secure Email of Documents or Direct HSP Email of Documents](https://mie.talentlms.com/shared/start/key:SOZRKMFP)
+* [Secure Email of Documents or Direct HSP Email of Documents](https://mie.talentlms.com/shared/start/key:SOZRKMFP)

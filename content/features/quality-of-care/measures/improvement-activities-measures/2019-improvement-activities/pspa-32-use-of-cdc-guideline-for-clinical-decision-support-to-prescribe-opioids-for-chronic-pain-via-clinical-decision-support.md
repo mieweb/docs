@@ -1,18 +1,17 @@
 ---
-id: "1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo"
-title: "PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support"
-date: "2020-02-27T20:56:45.925Z"
+id: '1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo'
+title: 'PSPA 32 - Use of CDC Guideline for Clinical Decision Support to Prescribe Opioids for Chronic Pain via Clinical Decision Support'
+date: '2020-02-27T20:56:45.925Z'
 version: 31
-mimeType: "text/x-markdown"
+mimeType: 'text/x-markdown'
 links:
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2018"
-  - "https://qpp.cms.gov/mips/improvement-activities?py=2019"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet"
-  - "https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet"
-source: "https://drive.google.com/open?id=1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo"
-wikigdrive: "v2.15.30"
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
+  - 'https://qpp.cms.gov/mips/improvement-activities?py=2019'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
+  - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
+source: 'https://drive.google.com/open?id=1Zvybn7Pnmq3cXlcEjdzW81fqdFqvTguVHm204MAGrfo'
+wikigdrive: 'v2.15.30'
 ---
-
 **Activity Weighting**: High
 
 **Subcategory Name**: Patient Safety and Practice Assessment
@@ -23,9 +22,9 @@ Supporting Documentation
 
 Specific examples of how the guideline could be incorporated into a CDS workflow include, but are not limited to:
 
-- electronic health record (EHR)-based prescribing prompts,
-- order sets that require review of guidelines before prescriptions can be entered, and
-- prompts requiring review of guidelines before a subsequent action can be taken in the record.
+* electronic health record (EHR)-based prescribing prompts,
+* order sets that require review of guidelines before prescriptions can be entered, and
+* prompts requiring review of guidelines before a subsequent action can be taken in the record.
 
 Resources
 

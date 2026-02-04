@@ -1,26 +1,25 @@
 ---
-id: "1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY"
-title: "Create Health Surveillance File for Import"
-date: "2025-12-22T18:18:31.549Z"
+id: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
+title: 'Create Health Surveillance File for Import'
+date: '2025-12-22T18:18:31.549Z'
 version: 68
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
-  - "https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888"
-  - "https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU"
-source: "https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
+  - 'https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888'
+  - 'https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU'
+source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
+wikigdrive: 'v2.15.30'
 ---
-
 This document explains how to import your health surveillance data into {{% system-name %}} .
 
 What you will need:
 
-- Spreadsheet software (Microsoft Excel or Google Sheets)
-- Health Surveillance CSV File Example
-- {{% system-name %}} end user with administrative rights
+* Spreadsheet software (Microsoft Excel or Google Sheets)
+* Health Surveillance CSV File Example
+* {{% system-name %}} end user with administrative rights
 
 ## Create Health Surveillance CSV File
 
@@ -94,7 +93,7 @@ failcomply: Failure to comply</td>
 </table>
 
 {{% tip %}}
-_For a more comprehensive list of supported fields, please refer to the_ [_Patient Panel Status CSV API Specification_](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/)_._
+*For a more comprehensive list of supported fields, please refer to the* [*Patient Panel Status CSV API Specification*](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/)*.*
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents an employee record. Below is a screenshot of the Health Surveillance CSV File Example for guidance.
@@ -123,14 +122,14 @@ _For a more comprehensive list of supported fields, please refer to the_ [_Patie
 ![](./create-health-surveillance-file-for-import.assets/812d200f86320e164fda882c04c16eed.png)
 
 {{% tip %}}
-_For extra information on what happens during the import, click the_ **_Verbose_** _checkbox_.
+*For extra information on what happens during the import, click the* **_Verbose_** *checkbox*.
 {{% /tip %}}
 
 ## Resources
 
-- [Patient Panel Status CSV API Specification](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/)
-- [Health Surveillance CSV File Example](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888)
-- [Health Surveillance Validation Instructions](https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU#heading=h.9xf10guyyvpr)
+* [Patient Panel Status CSV API Specification](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/)
+* [Health Surveillance CSV File Example](https://docs.google.com/spreadsheets/d/1kvKRTnK8BKIgF1wVeAQT_VNQ8uDR9UVEJvzDnuk2_T0/export?format=csv&gid=1187733888)
+* [Health Surveillance Validation Instructions](https://drive.google.com/open?id=1_v-i2Qg_HKrNN0__NryeamUQuoNLyGrOI2XQrc2EPVU#heading=h.9xf10guyyvpr)
 
 ## Troubleshooting
 

@@ -1,15 +1,14 @@
 ---
-id: "1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c"
-title: "Locations Hierarchy CSV API"
-date: "2025-12-08T16:48:12.306Z"
+id: '1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
+title: 'Locations Hierarchy CSV API'
+date: '2025-12-08T16:48:12.306Z'
 version: 75
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+lastAuthor: 'auhrick'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
+wikigdrive: 'v2.15.30'
 ---
-
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Locations Hierarchy CSV API.
 
 The Locations Hierarchy is defined as a hierarchy that structures locations, such as establishment, clinical locations, outside locations, and work locations, in parent-child relationships. This CSV API is intended for populating locations for usage of workflows or features involving OSHA reporting, incident/case management, and/or for a client's locations interface.
@@ -24,10 +23,10 @@ Locations hierarchy is typically used in the context of OSHA reporting, incident
 
 Use cases for different locations include the following:
 
-- Establishment - the top-level organization.
-- Clinic location - specific clinical facility (e.g. primary care clinic, testing clinic).
-- Work location - place of employment.
-- Outside location - non-clinical external location where services are provided.
+* Establishment - the top-level organization.
+* Clinic location - specific clinical facility (e.g. primary care clinic, testing clinic).
+* Work location - place of employment.
+* Outside location - non-clinical external location where services are provided.
 
 ## Workflow Considerations
 
@@ -35,10 +34,10 @@ Use cases for different locations include the following:
 
 In the file, the following criteria is used to define specific types of locations:
 
-- Establishment locations - `establishment_flag` should be set to 1, else 0
-- Clinic locations - `clinical_location_flag` should be set to 1, else 0
-- Outside locations - `outside_location_flag` should be set to 1, else 0
-- Work locations - `work_location_flag` should be set to 1, else 0
+* Establishment locations - `establishment_flag` should be set to 1, else 0
+* Clinic locations - `clinical_location_flag` should be set to 1, else 0
+* Outside locations - `outside_location_flag` should be set to 1, else 0
+* Work locations - `work_location_flag` should be set to 1, else 0
 
 **How can I create parent-child relationships for different hierarchies in the file?**
 
@@ -48,8 +47,8 @@ If there is either an existing location code or a code that exists in the file c
 
 The locations hierarchy column definition shall contain all columns listed below regardless of whether there is a value or not:
 
-- <strong>R</strong> = required
-- O = optional
+* <strong>R</strong> = required
+* O = optional
 
 <table>
 <tr>
