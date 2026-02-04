@@ -1,9 +1,9 @@
 ---
 id: '1UOWa1lEWNqb3lpaVgtPcU0rmNo5O_v_2udjcqVgZt80'
 title: 'HL7 Segment Definitions'
-date: '2026-02-04T14:55:18.257Z'
-version: 726
-lastAuthor: 'nwallace'
+date: '2026-02-04T16:17:43.458Z'
+version: 732
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'sending-hl7-messages-to-system.md'
@@ -6613,7 +6613,6 @@ MFE|MUP||20180122161758|937
 <td>Observation Method</td>
 </tr>
 </table>
-
 ## Pharmacy/Treatment Administration (RXA)
 
 <table>
@@ -6802,7 +6801,6 @@ MFE|MUP||20180122161758|937
 <td>System Entry Date/Time</td>
 </tr>
 </table>
-
 ## Pharmacy/Treatment Route (RXR)
 
 <table>
@@ -7676,7 +7674,6 @@ MFE|MUP||20180122161758|937
 <td>Other prev cyto info</td>
 </tr>
 </table>
-
 ## Employer Detail (ZEM)
 
 <table>
