@@ -3,6 +3,10 @@
 @import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 
+/* Custom dark mode variant for Tailwind CSS 4 */
+/* This tells Tailwind to activate dark: classes when [data-theme="dark"] is on a parent */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 /* Import WebChart brand from @mieweb/ui */
 /* This sets all --mieweb-* CSS variables for the WC brand including:
    - Primary colors (orange #f5841f)
