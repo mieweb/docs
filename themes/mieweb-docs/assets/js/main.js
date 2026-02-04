@@ -4,6 +4,37 @@
  */
 
 // ============================================
+// OS Detection & Keyboard Shortcuts
+// ============================================
+const isMac =
+  typeof navigator !== "undefined" &&
+  /Mac|iPhone|iPad|iPod/i.test(navigator.platform || navigator.userAgent);
+const modifierKey = isMac ? "⌘" : "Ctrl";
+const shortcutLabel = isMac ? "⌘K" : "Ctrl+K";
+
+// Update all keyboard shortcut displays
+function updateKeyboardShortcuts() {
+  // Update modifier key spans
+  document.querySelectorAll("[data-shortcut-modifier]").forEach((el) => {
+    el.textContent = modifierKey;
+  });
+
+  // Update aria-labels for search buttons
+  document.querySelectorAll("[data-search-shortcut-label]").forEach((el) => {
+    const currentLabel =
+      el.getAttribute("aria-label") || "Search documentation";
+    el.setAttribute("aria-label", `${currentLabel} (${shortcutLabel})`);
+  });
+}
+
+// Run on DOM ready
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", updateKeyboardShortcuts);
+} else {
+  updateKeyboardShortcuts();
+}
+
+// ============================================
 // Theme Management
 // ============================================
 const themeToggle = document.getElementById("theme-toggle");
