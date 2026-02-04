@@ -28,6 +28,11 @@ defaultContentLanguageInSubdir=false
     abbr = 'WC'
     code = 'wc'
   
+  # AI Documentation Assistant configuration
+  [params.ai]
+    enabled = true
+    apiUrl = "/api/ai-assistant"
+  
   # Footer configuration
   [params.footer]
     description = "WebChart is the flagship platform that powers a robust clinical EHR, serving as the foundation for a variety of clinical applications."

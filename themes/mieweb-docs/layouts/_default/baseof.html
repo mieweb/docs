@@ -222,6 +222,9 @@
 <body class="bg-background text-foreground antialiased" data-page="{{ .Page.Params.id }}">
   {{ block "main" . }}{{ end }}
   
+  {{- /* AI Documentation Assistant */}}
+  {{ partial "ai-assistant.html" . }}
+  
   {{- /* React 19 + @mieweb/ui Component Bundle */}}
   {{ $reactBundle := resources.Get "js/react/components.js" }}
   {{ $reactMount := resources.Get "js/react/mount.js" }}

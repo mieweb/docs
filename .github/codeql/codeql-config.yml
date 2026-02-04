@@ -1,0 +1,12 @@
+name: "CodeQL Config"
+
+# Exclude bundled third-party libraries from scanning
+# The components.js file contains bundled code from marked, dompurify, and other
+# third-party libraries that trigger false positive security alerts
+paths-ignore:
+  - "themes/mieweb-docs/assets/js/react/components.js"
+  - "themes/mieweb-docs/assets/js/react/components.js.map"
+  - "themes/mieweb-docs/assets/js/vendor/**"
+  - "**/node_modules/**"
+  - "**/dist/**"
+  - "**/*.min.js"

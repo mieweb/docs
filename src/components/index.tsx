@@ -92,6 +92,15 @@ export {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 
+  // AI Components
+  AIChat,
+  AIChatModal,
+  AIChatTrigger,
+  FloatingAIChat,
+  AIMessageDisplay,
+  MCPToolCallDisplay,
+  SuggestedActions,
+
   // Utils
   cn,
 } from "@mieweb/ui";
@@ -111,3 +120,5 @@ export {
   SearchTrigger,
   type DocumentationAppProps,
 } from "./DocumentationApp";
+export { AIDocAssistant, type AIDocAssistantProps } from "./AIDocAssistant";
+export { OzwellChat, type OzwellChatProps } from "./OzwellChat";

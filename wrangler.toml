@@ -1,0 +1,34 @@
+# Cloudflare Pages configuration for AI Assistant Functions
+#
+# This configures the Pages Functions bindings for the AI documentation assistant.
+# The functions are in the /functions directory and get deployed automatically.
+
+name = "docs"
+compatibility_date = "2025-02-03"
+compatibility_flags = ["nodejs_compat"]
+
+# Cloudflare account ID - set this to your account
+account_id = "10825d9d1d920e844ccd0326c66dfc45"  # Medical Informatics Engineering
+
+# Output directory for Hugo build
+# pages_build_output_dir = "public/eh"  # Set via CLI based on brand
+
+# Workers AI binding for embeddings and LLM inference
+[ai]
+binding = "AI"
+
+# Vectorize index for document embeddings
+# Note: remote = true is required for local development
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "docs-embeddings"
+remote = true
+
+# KV namespace for caching (optional - create if needed)
+# [[kv_namespaces]]
+# binding = "DOCS_CACHE"
+# id = "replace-with-kv-id"
+
+# Development settings
+[dev]
+port = 8788

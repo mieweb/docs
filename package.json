@@ -15,6 +15,11 @@
     "build:components": "tsx scripts/build-components.ts",
     "build:components:prod": "NODE_ENV=production tsx scripts/build-components.ts",
     "watch:components": "tsx scripts/build-components.ts --watch",
+    "pages:dev": "wrangler pages dev public/eh --compatibility-date=2025-02-03 --compatibility-flags=nodejs_compat",
+    "pages:dev:wc": "wrangler pages dev public/wc --compatibility-date=2025-02-03 --compatibility-flags=nodejs_compat",
+    "pages:deploy": "wrangler pages deploy public/eh --project-name=docs-eh",
+    "pages:deploy:wc": "wrangler pages deploy public/wc --project-name=docs-wc",
+    "index:docs": "tsx scripts/index-docs.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
@@ -29,18 +34,23 @@
   "author": "MIE",
   "license": "ISC",
   "dependencies": {
-    "@mieweb/ui": "github:mieweb/ui",
+    "@mieweb/ui": "^0.1.0",
+    "@types/dompurify": "^3.0.5",
+    "@types/marked": "^5.0.2",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "clsx": "^2.1.1",
+    "dompurify": "^3.3.1",
     "highlight.js": "^11.11.1",
     "hugo-extended": "^0.139.3",
     "lucide-react": "^0.563.0",
     "lunr": "^2.3.9",
+    "marked": "^17.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
     "@eslint/js": "^9.18.0",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/postcss": "^4.1.18",
@@ -62,7 +72,8 @@
     "tailwindcss": "^4.1.18",
     "tsx": "^4.19.2",
     "typescript": "^5.9.2",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.20.0",
+    "wrangler": "^4.62.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

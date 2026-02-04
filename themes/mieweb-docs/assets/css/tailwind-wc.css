@@ -3,6 +3,10 @@
 @import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 
+/* Custom dark mode variant for Tailwind CSS 4 */
+/* This tells Tailwind to activate dark: classes when [data-theme="dark"] is on a parent */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 /* Import WebChart brand from @mieweb/ui */
 /* This sets all --mieweb-* CSS variables for the WC brand including:
    - Primary colors (orange #f5841f)
@@ -31,17 +35,17 @@
 @source inline("grid grid-cols-2 sm:grid-cols-2");
 
 /* Sizing */
-@source inline("w-4 w-5 w-6 w-8 w-10 w-72 w-auto w-full");
-@source inline("h-4 h-5 h-6 h-8 h-10 h-16 h-full h-auto");
+@source inline("w-4 w-5 w-6 w-7 w-8 w-10 w-12 w-14 w-72 w-96 w-auto w-full");
+@source inline("h-4 h-5 h-6 h-7 h-8 h-9 h-10 h-12 h-14 h-16 h-full h-auto");
 @source inline("max-w-2xl max-w-4xl max-w-md max-w-none max-w-full");
 @source inline("max-h-[60vh]");
 @source inline("min-h-screen min-w-0");
 
 /* Spacing */
-@source inline("p-4 p-6 px-1 px-1.5 px-2 px-3 px-4 px-6 py-0.5 py-1 py-1.5 py-2 py-3 py-4 py-8 pt-8 pt-16");
+@source inline("p-3 p-4 p-6 px-1 px-1.5 px-2 px-3 px-4 px-6 py-0.5 py-1 py-1.5 py-2 py-2.5 py-3 py-4 py-8 pt-8 pt-16");
 @source inline("m-0 mb-1 mb-2 mb-4 mb-6 mb-8 mb-12 mt-2 mt-4 mt-8 mt-12 mx-auto");
-@source inline("space-y-0.5 space-y-1 space-y-4");
-@source inline("left-3 right-2 pr-8 pl-9");
+@source inline("space-y-0.5 space-y-1 space-y-4 gap-1.5 gap-3");
+@source inline("left-3 left-4 right-2 right-3 right-4 right-6 bottom-1.5 bottom-2 bottom-4 bottom-6 bottom-20 top-4 pr-8 pl-9");
 
 /* Transforms */
 @source inline("-translate-y-1/2 translate-x-1 rotate-90");
@@ -98,12 +102,33 @@
 
 /* Misc */
 @source inline("aspect-video resize-none select-none sr-only cursor-pointer pointer-events-none");
-@source inline("animate-slide-up");
+@source inline("animate-slide-up animate-ping animate-in fade-in-0 zoom-in-95 animate-spin animate-pulse animate-bounce");
 @source inline("prose prose-neutral prose-sm prose-lg prose-xl max-w-none");
 @source inline("prose-headings:text-foreground prose-p:text-foreground prose-a:text-primary");
 @source inline("prose-strong:text-foreground prose-code:text-foreground prose-pre:bg-muted");
+@source inline("prose-p:my-1 prose-ul:my-1 prose-li:my-0 prose-a:underline prose-strong:text-inherit");
 @source inline("overflow-auto overflow-hidden overflow-y-auto overflow-x-hidden");
-@source inline("font-mono spellcheck-false autocomplete-off");
+@source inline("font-mono spellcheck-false autocomplete-off whitespace-pre-wrap");
+@source inline("cursor-not-allowed disabled:opacity-50 disabled:cursor-not-allowed");
+@source inline("active:scale-95");
+
+/* AI Assistant specific classes */
+@source inline("bg-primary-100 bg-primary-500 bg-primary-600 bg-primary-700 bg-primary-800 bg-primary-900/50 bg-primary-900/20");
+@source inline("text-primary-300 text-primary-400 text-primary-600 text-primary-700");
+@source inline("hover:bg-primary-600 hover:bg-primary-700 hover:bg-primary-50 hover:bg-primary-900/20");
+@source inline("focus:ring-primary-500 focus:ring-offset-2 ring-2 ring-offset-2");
+@source inline("dark:bg-primary-500 dark:bg-primary-900/50 dark:text-primary-300 dark:text-primary-400");
+@source inline("dark:focus:ring-offset-neutral-900 dark:hover:bg-neutral-700 dark:hover:bg-neutral-800");
+@source inline("bg-neutral-50 bg-neutral-100 bg-neutral-200 bg-neutral-800");
+@source inline("hover:bg-neutral-50 hover:bg-neutral-100 hover:bg-neutral-200");
+@source inline("dark:bg-neutral-700 dark:bg-neutral-800 dark:bg-neutral-900");
+@source inline("text-neutral-400 text-neutral-500 text-neutral-900");
+@source inline("dark:text-white dark:text-neutral-100 dark:text-neutral-200 dark:text-neutral-300 dark:text-neutral-400");
+@source inline("border-neutral-200 border-neutral-700");
+@source inline("dark:border-neutral-700 dark:border-neutral-600");
+@source inline("max-w-[85%] max-w-sm flex-shrink-0 flex-row-reverse");
+@source inline("rounded-2xl");
+@source inline("dark:prose-invert dark:prose-a:text-primary-400");
 
 /* Theme customizations */
 @theme {

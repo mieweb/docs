@@ -1,0 +1,25 @@
+{{/*
+  Ozwell AI Documentation Assistant
+  
+  Renders the floating AI chat assistant powered by Cloudflare Workers AI + RAG.
+  Powered by ozwell.ai
+  
+  Configuration via site params:
+  - .Site.Params.ai.enabled: Enable/disable the AI assistant
+  - .Site.Params.ai.apiUrl: API endpoint URL (default: /api/ai-assistant)
+  - .Site.Params.Brand.code: Brand context (eh or wc)
+*/}}
+
+{{- $aiEnabled := .Site.Params.ai.enabled | default true }}
+{{- $apiUrl := .Site.Params.ai.apiUrl | default "/api/ai-assistant" }}
+{{- $brand := .Site.Params.Brand.code | default "eh" }}
+{{- $basePath := printf "/%s" $brand }}
+
+{{- if $aiEnabled }}
+<div 
+  id="ai-assistant-mount"
+  data-react-component="OzwellChat"
+  data-react-props='{"apiUrl": "{{ $apiUrl }}", "basePath": "{{ $basePath }}", "brand": "{{ $brand }}", "pulse": false, "position": "bottom-right"}'
+  aria-label="Ozwell AI Documentation Assistant"
+></div>
+{{- end }}
