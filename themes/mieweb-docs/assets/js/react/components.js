@@ -32614,7 +32614,8 @@ Please report this to https://github.com/markedjs/marked.`),
       },
       b = l === "bottom-left" ? "bottom-4 left-4" : "bottom-4 right-4",
       L = l === "bottom-left" ? "left-4 right-auto" : "right-4 left-auto",
-      I = t === "wc" ? "WebChart AI" : "Enterprise Health AI";
+      I =
+        t === "wc" ? "WebChart AI Assistant" : "Enterprise Health AI Assistant";
     return (0, q.jsxs)(q.Fragment, {
       children: [
         (0, q.jsx)("div", {

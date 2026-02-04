@@ -538,7 +538,7 @@ export function OzwellChat({
 
   // Brand-specific display name
   const brandDisplayName =
-    brand === "wc" ? "WebChart AI" : "Enterprise Health AI";
+    brand === "wc" ? "WebChart AI Assistant" : "Enterprise Health AI Assistant";
 
   return (
     <>
