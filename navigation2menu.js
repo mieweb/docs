@@ -3,10 +3,23 @@
 import { EOL } from "os";
 import { readFileSync, existsSync } from "fs";
 
-// Work on POSIX and Windows
-const stdinBuffer = readFileSync(0); // STDIN_FILENO = 0
-
-const markdown = stdinBuffer.toString();
+// Support both file argument and stdin
+let markdown;
+if (process.argv[2]) {
+  // File path provided as argument
+  const filePath = process.argv[2];
+  if (!existsSync(filePath)) {
+    console.error(`Error: File not found: ${filePath}`);
+    process.exit(1);
+  }
+  console.error(`Reading: ${filePath}`);
+  markdown = readFileSync(filePath, "utf-8");
+} else {
+  // Read from stdin (original behavior)
+  console.error("Reading from stdin...");
+  const stdinBuffer = readFileSync(0); // STDIN_FILENO = 0
+  markdown = stdinBuffer.toString();
+}
 
 let weight = 10;
 
@@ -14,8 +27,13 @@ const parentStack = [];
 const menu = [];
 
 let lastContent = "First line";
+let processedCount = 0;
+const lines = markdown.split(EOL);
+const totalLines = lines.length;
 
-for (const line of markdown.split(EOL)) {
+console.error(`Processing ${totalLines} lines...`);
+
+for (const line of lines) {
   // Support both * and - as list markers, but only for markdown links (must have [ after marker)
   if (!line.match(/^ *[-*] \[/)) {
     continue;
@@ -76,6 +94,13 @@ for (const line of markdown.split(EOL)) {
   weight += 10;
   parentStack.push(identifier);
   lastContent = markdownLink;
+
+  // Progress every 100 items
+  processedCount++;
+  if (processedCount % 100 === 0) {
+    console.error(`  Processed ${processedCount} menu items...`);
+  }
 }
 
+console.error(`Done! Generated ${menu.length} menu items.`);
 console.log(JSON.stringify({ main: menu }, null, 4));
