@@ -1,0 +1,87 @@
+name: Index Documentation
+
+on:
+  # Run after the main build/deploy workflow
+  workflow_run:
+    workflows: ["Build and Deploy"]
+    types:
+      - completed
+    branches: [master]
+  
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      brand:
+        description: 'Brand to index (eh or wc)'
+        required: true
+        default: 'eh'
+        type: choice
+        options:
+          - eh
+          - wc
+          - both
+      dry_run:
+        description: 'Dry run (no uploads)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  index-docs:
+    name: Index Documentation to Vectorize
+    runs-on: ubuntu-latest
+    # Only run if the triggering workflow succeeded, or if manually triggered
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Hugo site (EH)
+        if: ${{ github.event.inputs.brand == 'eh' || github.event.inputs.brand == 'both' || github.event_name == 'workflow_run' }}
+        run: ./build.sh eh
+
+      - name: Build Hugo site (WC)
+        if: ${{ github.event.inputs.brand == 'wc' || github.event.inputs.brand == 'both' }}
+        run: ./build.sh wc
+
+      - name: Index EH Documentation
+        if: ${{ github.event.inputs.brand == 'eh' || github.event.inputs.brand == 'both' || github.event_name == 'workflow_run' }}
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            npm run index:docs -- --dry-run --brand eh
+          else
+            npm run index:docs -- --brand eh
+          fi
+
+      - name: Index WC Documentation
+        if: ${{ github.event.inputs.brand == 'wc' || github.event.inputs.brand == 'both' }}
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            npm run index:docs -- --dry-run --brand wc
+          else
+            npm run index:docs -- --brand wc
+          fi
+
+      - name: Summary
+        run: |
+          echo "## 📄 Documentation Indexing Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Brand**: ${{ github.event.inputs.brand || 'eh' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dry Run**: ${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Vectorize Index**: docs-embeddings" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,20 @@
+{
+  "name": "@docs/ai-assistant-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for RAG-powered AI documentation assistant",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^3.100.0"
+  }
+}

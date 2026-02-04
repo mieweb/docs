@@ -26,8 +26,12 @@ async function buildComponents(): Promise<void> {
     mkdirSync(outDir, { recursive: true });
   }
 
+  // Get the absolute path to React in node_modules to force single instance
+  const reactPath = join(rootDir, "node_modules/react");
+  const reactDomPath = join(rootDir, "node_modules/react-dom");
+
   try {
-    // Build the main bundle
+    // Build the main bundle - React will be bundled together and deduped
     const result = await esbuild.build({
       entryPoints: [entryPoint],
       bundle: true,
@@ -37,8 +41,12 @@ async function buildComponents(): Promise<void> {
       globalName: "DocComponents",
       target: ["es2020", "chrome90", "firefox88", "safari14"],
       outfile: join(outDir, "components.js"),
-      // Provide empty stubs for optional @mieweb/ui dependencies we don't use
+      // Force all React imports to use the same instance from docs' node_modules
       alias: {
+        react: reactPath,
+        "react-dom": reactDomPath,
+        "react/jsx-runtime": join(reactPath, "jsx-runtime.js"),
+        "react/jsx-dev-runtime": join(reactPath, "jsx-dev-runtime.js"),
         "ag-grid-react": join(rootDir, "src/stubs/ag-grid-react.ts"),
         "ag-grid-community": join(rootDir, "src/stubs/ag-grid-community.ts"),
         "wavesurfer.js": join(rootDir, "src/stubs/wavesurfer.ts"),
@@ -54,6 +62,10 @@ async function buildComponents(): Promise<void> {
         "process.env.NODE_ENV": `"${process.env.NODE_ENV || "development"}"`,
       },
       metafile: true,
+      // Ensure all React imports resolve to the same module
+      mainFields: ["module", "main"],
+      // Process node_modules to ensure React is bundled correctly
+      packages: "bundle",
     });
 
     // Log bundle info

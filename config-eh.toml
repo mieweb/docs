@@ -28,6 +28,11 @@ defaultContentLanguageInSubdir=false
     abbr = 'EH'
     code = 'eh'
   
+  # AI Documentation Assistant configuration
+  [params.ai]
+    enabled = true
+    apiUrl = "/api/ai-assistant"
+  
   # Footer configuration
   [params.footer]
     description = "Enterprise Health is the leading AI-enabled, cloud-based occupational health software platform, helping organizations manage employee health, safety, and compliance."

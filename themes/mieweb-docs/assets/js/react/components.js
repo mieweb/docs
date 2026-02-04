@@ -1824,7 +1824,7 @@ var DocComponents = (() => {
           "function" ===
             typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart &&
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-        var React21 = require_react(),
+        var React22 = require_react(),
           Internals = {
             d: {
               f: noop,
@@ -1846,7 +1846,7 @@ var DocComponents = (() => {
           },
           REACT_PORTAL_TYPE = Symbol.for("react.portal"),
           ReactSharedInternals =
-            React21.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
         ("function" === typeof Map &&
           null != Map.prototype &&
           "function" === typeof Map.prototype.forEach &&
@@ -3965,7 +3965,7 @@ var DocComponents = (() => {
         function validateOptionProps(element, props) {
           null == props.value &&
             ("object" === typeof props.children && null !== props.children
-              ? React21.Children.forEach(props.children, function (child) {
+              ? React22.Children.forEach(props.children, function (child) {
                   null == child ||
                     "string" === typeof child ||
                     "number" === typeof child ||
@@ -27465,7 +27465,7 @@ var DocComponents = (() => {
             typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart &&
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
         var Scheduler = require_scheduler(),
-          React21 = require_react(),
+          React22 = require_react(),
           ReactDOM = require_react_dom(),
           assign = Object.assign,
           REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"),
@@ -27491,7 +27491,7 @@ var DocComponents = (() => {
           REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"),
           isArrayImpl = Array.isArray,
           ReactSharedInternals =
-            React21.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           ReactDOMSharedInternals =
             ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           NotPending = Object.freeze({
@@ -31319,7 +31319,7 @@ var DocComponents = (() => {
           }
         };
         (function () {
-          var isomorphicReactPackageVersion = React21.version;
+          var isomorphicReactPackageVersion = React22.version;
           if ("19.2.4" !== isomorphicReactPackageVersion)
             throw Error(
               'Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:\n  - react:      ' +
@@ -31805,7 +31805,7 @@ var DocComponents = (() => {
             object.$$typeof === REACT_ELEMENT_TYPE
           );
         }
-        var React21 = require_react(),
+        var React22 = require_react(),
           REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"),
           REACT_PORTAL_TYPE = Symbol.for("react.portal"),
           REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"),
@@ -31821,7 +31821,7 @@ var DocComponents = (() => {
           REACT_ACTIVITY_TYPE = Symbol.for("react.activity"),
           REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"),
           ReactSharedInternals =
-            React21.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           hasOwnProperty = Object.prototype.hasOwnProperty,
           isArrayImpl = Array.isArray,
           createTask = console.createTask
@@ -31829,15 +31829,15 @@ var DocComponents = (() => {
             : function () {
                 return null;
               };
-        React21 = {
+        React22 = {
           react_stack_bottom_frame: function (callStackForError) {
             return callStackForError();
           },
         };
         var specialPropKeyWarningShown;
         var didWarnAboutElementRef = {};
-        var unknownOwnerDebugStack = React21.react_stack_bottom_frame.bind(
-          React21,
+        var unknownOwnerDebugStack = React22.react_stack_bottom_frame.bind(
+          React22,
           UnknownOwner
         )();
         var unknownOwnerDebugTask = createTask(getTaskName(UnknownOwner));
@@ -31891,10 +31891,11 @@ var DocComponents = (() => {
     },
   });
 
-  // node_modules/@mieweb/ui/dist/chunk-MTZPVOP6.js
+  // ../mieweb-ui/dist/chunk-MTZPVOP6.js
   var enterpriseHealthBrand;
   var init_chunk_MTZPVOP6 = __esm({
-    "node_modules/@mieweb/ui/dist/chunk-MTZPVOP6.js"() {
+    "../mieweb-ui/dist/chunk-MTZPVOP6.js"() {
+      "use strict";
       enterpriseHealthBrand = {
         name: "enterprise-health",
         displayName: "Enterprise Health",
@@ -31996,6 +31997,11 @@ var DocComponents = (() => {
   // src/components/index.tsx
   var index_exports = {};
   __export(index_exports, {
+    AIChat: () => AIChat,
+    AIChatModal: () => AIChatModal,
+    AIChatTrigger: () => AIChatTrigger,
+    AIDocAssistant: () => AIDocAssistant,
+    AIMessageDisplay: () => AIMessageDisplay,
     Alert: () => Alert,
     Avatar: () => Avatar,
     Badge: () => Badge,
@@ -32013,8 +32019,10 @@ var DocComponents = (() => {
     CommandPaletteTrigger: () => CommandPaletteTrigger,
     DocSidebarSearch: () => SidebarSearch2,
     DocumentationApp: () => DocumentationApp,
+    FloatingAIChat: () => FloatingAIChat,
     Input: () => Input,
     Lightbox: () => Lightbox,
+    MCPToolCallDisplay: () => MCPToolCallDisplay,
     Modal: () => Modal,
     ModalBody: () => ModalBody,
     ModalClose: () => ModalClose,
@@ -32037,6 +32045,7 @@ var DocComponents = (() => {
     SidebarToggle: () => SidebarToggle,
     Skeleton: () => Skeleton,
     Spinner: () => Spinner,
+    SuggestedActions: () => SuggestedActions,
     Switch: () => Switch,
     Tabs: () => Tabs,
     TabsContent: () => TabsContent,
@@ -32058,7 +32067,7 @@ var DocComponents = (() => {
   var import_react16 = __toESM(require_react(), 1);
   var import_client = __toESM(require_client(), 1);
 
-  // node_modules/@mieweb/ui/dist/chunk-HB7C7NB5.js
+  // ../mieweb-ui/dist/chunk-HB7C7NB5.js
   var import_react = __toESM(require_react(), 1);
   function usePrefersReducedMotion() {
     const [prefersReducedMotion, setPrefersReducedMotion] = (0,
@@ -32075,7 +32084,7 @@ var DocComponents = (() => {
     return prefersReducedMotion;
   }
 
-  // node_modules/clsx/dist/clsx.mjs
+  // ../mieweb-ui/node_modules/clsx/dist/clsx.mjs
   function r(e) {
     var t,
       f,
@@ -32095,7 +32104,7 @@ var DocComponents = (() => {
     return n;
   }
 
-  // node_modules/tailwind-merge/dist/bundle-mjs.mjs
+  // ../mieweb-ui/node_modules/tailwind-merge/dist/bundle-mjs.mjs
   var CLASS_PART_SEPARATOR = "-";
   var createClassGroupUtils = (config) => {
     const classMap = createClassMap(config);
@@ -35465,12 +35474,12 @@ var DocComponents = (() => {
   };
   var twMerge = /* @__PURE__ */ createTailwindMerge(getDefaultConfig);
 
-  // node_modules/@mieweb/ui/dist/chunk-F3SOEIN2.js
+  // ../mieweb-ui/dist/chunk-F3SOEIN2.js
   function cn(...inputs) {
     return twMerge(clsx(inputs));
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-UZUBLXVC.js
+  // ../mieweb-ui/dist/chunk-UZUBLXVC.js
   var React = __toESM(require_react(), 1);
   var import_react_dom = __toESM(require_react_dom(), 1);
   var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
@@ -35783,7 +35792,7 @@ var DocComponents = (() => {
   }
   Tooltip.displayName = "Tooltip";
 
-  // node_modules/@mieweb/ui/dist/chunk-KJZNEVYM.js
+  // ../mieweb-ui/dist/chunk-KJZNEVYM.js
   var import_react2 = __toESM(require_react(), 1);
   var THEME_STORAGE_KEY = "mieweb-ui-theme";
   function getSystemTheme() {
@@ -35844,11 +35853,11 @@ var DocComponents = (() => {
     };
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-TA6FVVCM.js
+  // ../mieweb-ui/dist/chunk-TA6FVVCM.js
   var React2 = __toESM(require_react(), 1);
   var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
 
-  // node_modules/class-variance-authority/dist/index.mjs
+  // ../mieweb-ui/node_modules/class-variance-authority/dist/index.mjs
   var falsyToString = (value) =>
     typeof value === "boolean" ? `${value}` : value === 0 ? "0" : value;
   var cx = clsx;
@@ -35923,7 +35932,7 @@ var DocComponents = (() => {
     );
   };
 
-  // node_modules/@mieweb/ui/dist/chunk-TA6FVVCM.js
+  // ../mieweb-ui/dist/chunk-TA6FVVCM.js
   var ThemeProviderContext = React2.createContext(void 0);
   function ThemeProvider({ children, defaultTheme: _defaultTheme = "system" }) {
     const { theme, setTheme, resolvedTheme } = useTheme();
@@ -36120,7 +36129,7 @@ var DocComponents = (() => {
   );
   ThemeToggle.displayName = "ThemeToggle";
 
-  // node_modules/@mieweb/ui/dist/chunk-OT36EMM5.js
+  // ../mieweb-ui/dist/chunk-OT36EMM5.js
   var import_react3 = __toESM(require_react(), 1);
   function useClickOutside(ref, callback) {
     (0, import_react3.useEffect)(() => {
@@ -36138,7 +36147,7 @@ var DocComponents = (() => {
     }, [ref, callback]);
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-T4ME7QCT.js
+  // ../mieweb-ui/dist/chunk-T4ME7QCT.js
   var import_react4 = __toESM(require_react(), 1);
   function useEscapeKey(callback, enabled = true) {
     const handleKeyDown = (0, import_react4.useCallback)(
@@ -36156,7 +36165,7 @@ var DocComponents = (() => {
     }, [handleKeyDown, enabled]);
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-KJOFWJHV.js
+  // ../mieweb-ui/dist/chunk-KJOFWJHV.js
   var React3 = __toESM(require_react(), 1);
   var import_jsx_runtime3 = __toESM(require_jsx_runtime(), 1);
   var selectTriggerVariants = cva(
@@ -36617,7 +36626,7 @@ var DocComponents = (() => {
     });
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-6OCIIIAI.js
+  // ../mieweb-ui/dist/chunk-6OCIIIAI.js
   var import_jsx_runtime4 = __toESM(require_jsx_runtime(), 1);
   var skeletonVariants = cva(
     ["animate-pulse rounded-md bg-neutral-200 dark:bg-neutral-700"],
@@ -36789,7 +36798,7 @@ var DocComponents = (() => {
   }
   SkeletonTable.displayName = "SkeletonTable";
 
-  // node_modules/@mieweb/ui/dist/chunk-GV5JQBPX.js
+  // ../mieweb-ui/dist/chunk-GV5JQBPX.js
   var import_jsx_runtime5 = __toESM(require_jsx_runtime(), 1);
   var spinnerVariants = cva(
     ["animate-spin rounded-full border-2 border-current border-t-transparent"],
@@ -36884,7 +36893,7 @@ var DocComponents = (() => {
   }
   FullPageSpinner.displayName = "FullPageSpinner";
 
-  // node_modules/@mieweb/ui/dist/chunk-FQ2FMI62.js
+  // ../mieweb-ui/dist/chunk-QL2YTVTR.js
   var React4 = __toESM(require_react(), 1);
   var import_jsx_runtime6 = __toESM(require_jsx_runtime(), 1);
   var switchTrackVariants = cva(
@@ -37041,7 +37050,7 @@ var DocComponents = (() => {
   );
   Switch.displayName = "Switch";
 
-  // node_modules/@mieweb/ui/dist/chunk-JFAXLE2J.js
+  // ../mieweb-ui/dist/chunk-JFAXLE2J.js
   var React5 = __toESM(require_react(), 1);
   var import_jsx_runtime7 = __toESM(require_jsx_runtime(), 1);
   var TabsContext = React5.createContext(void 0);
@@ -37242,7 +37251,7 @@ var DocComponents = (() => {
   );
   TabsContent.displayName = "TabsContent";
 
-  // node_modules/@mieweb/ui/dist/chunk-RCMF6KZA.js
+  // ../mieweb-ui/dist/chunk-RCMF6KZA.js
   var React6 = __toESM(require_react(), 1);
   var import_jsx_runtime8 = __toESM(require_jsx_runtime(), 1);
   var textVariants = cva("", {
@@ -37320,7 +37329,7 @@ var DocComponents = (() => {
   );
   SmallMuted.displayName = "SmallMuted";
 
-  // node_modules/@mieweb/ui/dist/chunk-CLNOI5J7.js
+  // ../mieweb-ui/dist/chunk-CLNOI5J7.js
   var import_react5 = __toESM(require_react(), 1);
   function useFocusTrap(enabled = true) {
     const containerRef = (0, import_react5.useRef)(null);
@@ -37354,7 +37363,7 @@ var DocComponents = (() => {
     return containerRef;
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-D5IBXXF2.js
+  // ../mieweb-ui/dist/chunk-D5IBXXF2.js
   var React7 = __toESM(require_react(), 1);
   var import_jsx_runtime9 = __toESM(require_jsx_runtime(), 1);
   var modalOverlayVariants = cva(
@@ -37577,7 +37586,7 @@ var DocComponents = (() => {
     });
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-NXRLGHEC.js
+  // ../mieweb-ui/dist/chunk-NXRLGHEC.js
   var React8 = __toESM(require_react(), 1);
   var import_jsx_runtime10 = __toESM(require_jsx_runtime(), 1);
   var inputVariants = cva(
@@ -37690,7 +37699,7 @@ var DocComponents = (() => {
   );
   Input.displayName = "Input";
 
-  // node_modules/@mieweb/ui/dist/chunk-3NJ72QU6.js
+  // ../mieweb-ui/dist/chunk-3NJ72QU6.js
   var React9 = __toESM(require_react(), 1);
   var import_jsx_runtime11 = __toESM(require_jsx_runtime(), 1);
   var badgeVariants = cva(
@@ -37745,7 +37754,7 @@ var DocComponents = (() => {
   );
   Badge.displayName = "Badge";
 
-  // node_modules/@mieweb/ui/dist/chunk-B3L43JGH.js
+  // ../mieweb-ui/dist/chunk-B3L43JGH.js
   var React10 = __toESM(require_react(), 1);
   var import_jsx_runtime12 = __toESM(require_jsx_runtime(), 1);
   function Breadcrumb({ items, separator, maxItems, renderLink, className }) {
@@ -37843,7 +37852,7 @@ var DocComponents = (() => {
     });
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-N5EKL4DH.js
+  // ../mieweb-ui/dist/chunk-N5EKL4DH.js
   var React11 = __toESM(require_react(), 1);
   var import_jsx_runtime13 = __toESM(require_jsx_runtime(), 1);
   var buttonVariants = cva(
@@ -38000,7 +38009,7 @@ var DocComponents = (() => {
     });
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-XXOBTAKA.js
+  // ../mieweb-ui/dist/chunk-XXOBTAKA.js
   var React12 = __toESM(require_react(), 1);
   var import_jsx_runtime14 = __toESM(require_jsx_runtime(), 1);
   var cardVariants = cva(
@@ -38419,7 +38428,7 @@ var DocComponents = (() => {
   );
   CardStat.displayName = "CardStat";
 
-  // node_modules/@mieweb/ui/dist/chunk-G2DOD34H.js
+  // ../mieweb-ui/dist/chunk-G2DOD34H.js
   var React13 = __toESM(require_react(), 1);
   var import_jsx_runtime15 = __toESM(require_jsx_runtime(), 1);
   var checkboxVariants = cva(
@@ -38647,10 +38656,10 @@ var DocComponents = (() => {
     });
   }
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/createLucideIcon.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/createLucideIcon.js
   var import_react7 = __toESM(require_react());
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/shared/src/utils.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/shared/src/utils.js
   var toKebabCase = (string) =>
     string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
   var toCamelCase = (string) =>
@@ -38680,10 +38689,10 @@ var DocComponents = (() => {
     }
   };
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/Icon.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/Icon.js
   var import_react6 = __toESM(require_react());
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/defaultAttributes.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/defaultAttributes.js
   var defaultAttributes = {
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -38696,7 +38705,7 @@ var DocComponents = (() => {
     strokeLinejoin: "round",
   };
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/Icon.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/Icon.js
   var Icon = (0, import_react6.forwardRef)(
     (
       {
@@ -38735,7 +38744,7 @@ var DocComponents = (() => {
       )
   );
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/createLucideIcon.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/createLucideIcon.js
   var createLucideIcon = (iconName, iconNode) => {
     const Component = (0, import_react7.forwardRef)(
       ({ className, ...props }, ref) =>
@@ -38754,7 +38763,7 @@ var DocComponents = (() => {
     return Component;
   };
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/camera.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/camera.js
   var __iconNode = [
     [
       "path",
@@ -38767,11 +38776,11 @@ var DocComponents = (() => {
   ];
   var Camera = createLucideIcon("camera", __iconNode);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/check.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/check.js
   var __iconNode2 = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
   var Check = createLucideIcon("check", __iconNode2);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/circle-alert.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/circle-alert.js
   var __iconNode3 = [
     ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
     ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
@@ -38779,21 +38788,21 @@ var DocComponents = (() => {
   ];
   var CircleAlert = createLucideIcon("circle-alert", __iconNode3);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/circle-check-big.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/circle-check-big.js
   var __iconNode4 = [
     ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
     ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }],
   ];
   var CircleCheckBig = createLucideIcon("circle-check-big", __iconNode4);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/clock.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/clock.js
   var __iconNode5 = [
     ["path", { d: "M12 6v6l4 2", key: "mmk7yg" }],
     ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ];
   var Clock = createLucideIcon("clock", __iconNode5);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/file-text.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/file-text.js
   var __iconNode6 = [
     [
       "path",
@@ -38809,7 +38818,7 @@ var DocComponents = (() => {
   ];
   var FileText = createLucideIcon("file-text", __iconNode6);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/globe.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/globe.js
   var __iconNode7 = [
     ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
     [
@@ -38820,7 +38829,7 @@ var DocComponents = (() => {
   ];
   var Globe = createLucideIcon("globe", __iconNode7);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/image.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/image.js
   var __iconNode8 = [
     [
       "rect",
@@ -38839,7 +38848,7 @@ var DocComponents = (() => {
   ];
   var Image = createLucideIcon("image", __iconNode8);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/linkedin.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/linkedin.js
   var __iconNode9 = [
     [
       "path",
@@ -38853,7 +38862,7 @@ var DocComponents = (() => {
   ];
   var Linkedin = createLucideIcon("linkedin", __iconNode9);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/mail.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/mail.js
   var __iconNode10 = [
     ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
     [
@@ -38863,7 +38872,7 @@ var DocComponents = (() => {
   ];
   var Mail = createLucideIcon("mail", __iconNode10);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/phone.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/phone.js
   var __iconNode11 = [
     [
       "path",
@@ -38875,7 +38884,7 @@ var DocComponents = (() => {
   ];
   var Phone = createLucideIcon("phone", __iconNode11);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/refresh-cw.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/refresh-cw.js
   var __iconNode12 = [
     [
       "path",
@@ -38896,7 +38905,7 @@ var DocComponents = (() => {
   ];
   var RefreshCw = createLucideIcon("refresh-cw", __iconNode12);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/scan-line.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/scan-line.js
   var __iconNode13 = [
     ["path", { d: "M3 7V5a2 2 0 0 1 2-2h2", key: "aa7l1z" }],
     ["path", { d: "M17 3h2a2 2 0 0 1 2 2v2", key: "4qcy5o" }],
@@ -38906,7 +38915,7 @@ var DocComponents = (() => {
   ];
   var ScanLine = createLucideIcon("scan-line", __iconNode13);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/scan.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/scan.js
   var __iconNode14 = [
     ["path", { d: "M3 7V5a2 2 0 0 1 2-2h2", key: "aa7l1z" }],
     ["path", { d: "M17 3h2a2 2 0 0 1 2 2v2", key: "4qcy5o" }],
@@ -38915,7 +38924,7 @@ var DocComponents = (() => {
   ];
   var Scan = createLucideIcon("scan", __iconNode14);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/trash-2.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/trash-2.js
   var __iconNode15 = [
     ["path", { d: "M10 11v6", key: "nco0om" }],
     ["path", { d: "M14 11v6", key: "outv1u" }],
@@ -38925,7 +38934,7 @@ var DocComponents = (() => {
   ];
   var Trash2 = createLucideIcon("trash-2", __iconNode15);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/upload.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/upload.js
   var __iconNode16 = [
     ["path", { d: "M12 3v12", key: "1x0j5s" }],
     ["path", { d: "m17 8-5-5-5 5", key: "7q97r8" }],
@@ -38933,14 +38942,14 @@ var DocComponents = (() => {
   ];
   var Upload = createLucideIcon("upload", __iconNode16);
 
-  // node_modules/@mieweb/ui/node_modules/lucide-react/dist/esm/icons/x.js
+  // ../mieweb-ui/node_modules/lucide-react/dist/esm/icons/x.js
   var __iconNode17 = [
     ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
     ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
   ];
   var X = createLucideIcon("x", __iconNode17);
 
-  // node_modules/@mieweb/ui/dist/chunk-CP7NPDQW.js
+  // ../mieweb-ui/dist/chunk-CP7NPDQW.js
   var import_react8 = __toESM(require_react(), 1);
   function useKeyboardShortcut(key, callback, options = {}) {
     const {
@@ -39026,7 +39035,7 @@ var DocComponents = (() => {
     return useMediaQuery("(max-width: 639px)");
   }
 
-  // node_modules/@mieweb/ui/dist/chunk-B26RIQ5R.js
+  // ../mieweb-ui/dist/chunk-B26RIQ5R.js
   var React14 = __toESM(require_react(), 1);
   var import_jsx_runtime16 = __toESM(require_jsx_runtime(), 1);
   var alertVariants = cva(
@@ -39123,7 +39132,7 @@ var DocComponents = (() => {
   );
   AlertDescription.displayName = "AlertDescription";
 
-  // node_modules/@mieweb/ui/dist/chunk-NIHESA7O.js
+  // ../mieweb-ui/dist/chunk-NIHESA7O.js
   var React15 = __toESM(require_react(), 1);
   var import_jsx_runtime17 = __toESM(require_jsx_runtime(), 1);
   var avatarVariants = cva(
@@ -39236,7 +39245,7 @@ var DocComponents = (() => {
   );
   AvatarGroup.displayName = "AvatarGroup";
 
-  // node_modules/@mieweb/ui/dist/index.js
+  // ../mieweb-ui/dist/index.js
   var React46 = __toESM(require_react(), 1);
   var import_react9 = __toESM(require_react(), 1);
   var import_jsx_runtime18 = __toESM(require_jsx_runtime(), 1);
@@ -39250,7 +39259,7 @@ var DocComponents = (() => {
   };
   var AllCommunityModule = {};
 
-  // node_modules/@mieweb/ui/dist/index.js
+  // ../mieweb-ui/dist/index.js
   function generateId() {
     return `field_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
   }
@@ -39534,7 +39543,8 @@ var DocComponents = (() => {
     className,
     googlePlaces,
   }) {
-    const idPrefix = id || React46.useId();
+    const generatedId = React46.useId();
+    const idPrefix = id || generatedId;
     const autocompleteRef = React46.useRef(null);
     const inputRef = React46.useRef(null);
     const mergedLabels = { ...DEFAULT_LABELS, ...labels };
@@ -39811,6 +39821,13 @@ var DocComponents = (() => {
       brand: "default",
     },
   });
+  var sizeToRowHeight = {
+    xs: { rowHeight: 28, headerHeight: 28, containerHeight: 280 },
+    sm: { rowHeight: 32, headerHeight: 32, containerHeight: 320 },
+    md: { rowHeight: 40, headerHeight: 40, containerHeight: 400 },
+    lg: { rowHeight: 48, headerHeight: 48, containerHeight: 480 },
+    xl: { rowHeight: 56, headerHeight: 56, containerHeight: 560 },
+  };
   var getDefaultColDef = (sortable, filterable, resizable) => ({
     sortable,
     filter: filterable,
@@ -39827,7 +39844,7 @@ var DocComponents = (() => {
       variant,
       size,
       brand,
-      height = 400,
+      height,
       loading = false,
       columnDefs,
       rowData,
@@ -39898,10 +39915,15 @@ var DocComponents = (() => {
         }
       }
     }, [loading]);
+    const sizeConfig = sizeToRowHeight[size || "md"];
+    const resolvedHeight = height ?? sizeConfig.containerHeight;
     return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
       className: cn(agGridVariants({ variant, size, brand }), className),
       style: {
-        height: typeof height === "number" ? `${height}px` : height,
+        height:
+          typeof resolvedHeight === "number"
+            ? `${resolvedHeight}px`
+            : resolvedHeight,
         ...(brandConfig && {
           "--ag-primary-color": brandConfig.colors.primary[600],
           "--ag-font-family": brandConfig.typography.fontFamily.sans.join(", "),
@@ -39921,6 +39943,8 @@ var DocComponents = (() => {
         pagination,
         paginationPageSize: pagination ? 50 : void 0,
         paginationPageSizeSelector: pagination ? [25, 50, 100, 200] : void 0,
+        rowHeight: sizeConfig.rowHeight,
+        headerHeight: sizeConfig.headerHeight,
         noRowsOverlayComponent: () =>
           /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
             className: "text-muted-foreground py-8 text-center",
@@ -40564,6 +40588,83 @@ var DocComponents = (() => {
     TagsRenderer,
     cellRendererPropsAreEqual
   );
+  var sizeClasses = {
+    sm: "h-4 w-4",
+    md: "h-5 w-5",
+    lg: "h-7 w-7",
+  };
+  function SparklesIcon({ className, size = "md" }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("svg", {
+      className: cn(sizeClasses[size], className),
+      viewBox: "0 0 24 24",
+      fill: "currentColor",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          d: "M20 3v4",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          d: "M22 5h-4",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+        }),
+      ],
+    });
+  }
+  function CloseIcon2({ className }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: cn("h-5 w-5", className),
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "2",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M6 18L18 6M6 6l12 12",
+      }),
+    });
+  }
+  function RefreshIcon({ className }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: cn("h-5 w-5", className),
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99",
+      }),
+    });
+  }
+  var chevronRotation = {
+    up: "-rotate-180",
+    down: "",
+    left: "rotate-90",
+    right: "-rotate-90",
+  };
+  function ChevronIcon({ className, direction = "down" }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: cn("h-4 w-4", chevronRotation[direction], className),
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "2",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19 9l-7 7-7-7",
+      }),
+    });
+  }
   var statusIconVariants = cva(
     "flex h-5 w-5 items-center justify-center rounded-full",
     {
@@ -40581,6 +40682,380 @@ var DocComponents = (() => {
       },
     }
   );
+  function ToolStatusIcon({ status, className }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("span", {
+      className: cn(statusIconVariants({ status }), className),
+      children: [
+        status === "pending" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+            className: "h-3 w-3 text-neutral-500",
+            fill: "currentColor",
+            viewBox: "0 0 20 20",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("circle", {
+              cx: "10",
+              cy: "10",
+              r: "3",
+            }),
+          }),
+        status === "running" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("svg", {
+            className:
+              "text-primary-600 dark:text-primary-400 h-3 w-3 animate-spin",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("circle", {
+                className: "opacity-25",
+                cx: "12",
+                cy: "12",
+                r: "10",
+                stroke: "currentColor",
+                strokeWidth: "4",
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                className: "opacity-75",
+                fill: "currentColor",
+                d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z",
+              }),
+            ],
+          }),
+        status === "success" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+            className: "h-3 w-3 text-green-600 dark:text-green-400",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: "3",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M5 13l4 4L19 7",
+            }),
+          }),
+        status === "error" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+            className: "h-3 w-3 text-red-600 dark:text-red-400",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: "3",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M6 18L18 6M6 6l12 12",
+            }),
+          }),
+        status === "cancelled" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+            className: "h-3 w-3 text-neutral-500",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: "3",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M18 12H6",
+            }),
+          }),
+      ],
+    });
+  }
+  var TOOL_ICONS = {
+    // Patient tools
+    create_patient: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM3 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 019.374 21c-2.331 0-4.512-.645-6.374-1.766z",
+      }),
+    }),
+    get_patient: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z",
+      }),
+    }),
+    search_patients: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z",
+      }),
+    }),
+    // Appointment tools
+    schedule_appointment: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z",
+      }),
+    }),
+    // Document tools
+    create_document: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z",
+      }),
+    }),
+    // Default tool icon
+    default: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z",
+      }),
+    }),
+  };
+  function getToolIcon(toolName) {
+    return TOOL_ICONS[toolName] || TOOL_ICONS.default;
+  }
+  function ResourceLink({ link, onClick, className }) {
+    const handleClick = (e) => {
+      if (onClick) {
+        e.preventDefault();
+        onClick(link);
+      }
+    };
+    const linkTypeIcons = {
+      patient: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z",
+        }),
+      }),
+      document: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z",
+        }),
+      }),
+      appointment: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5",
+        }),
+      }),
+      order: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z",
+        }),
+      }),
+      external: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25",
+        }),
+      }),
+      internal: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+        className: "h-4 w-4",
+        fill: "none",
+        viewBox: "0 0 24 24",
+        stroke: "currentColor",
+        strokeWidth: "1.5",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          d: "M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244",
+        }),
+      }),
+    };
+    const icon = link.type ? linkTypeIcons[link.type] : linkTypeIcons.internal;
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("a", {
+      href: link.href,
+      onClick: handleClick,
+      className: cn(
+        "inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5",
+        "bg-primary-50 text-primary-700 hover:bg-primary-100",
+        "dark:bg-primary-900/30 dark:text-primary-300 dark:hover:bg-primary-900/50",
+        "text-sm font-medium transition-colors",
+        "focus:ring-primary-500 focus:ring-2 focus:ring-offset-2 focus:outline-none",
+        "dark:focus:ring-offset-neutral-900",
+        className
+      ),
+      children: [
+        icon,
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+          children: link.label,
+        }),
+        link.type === "external" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+            className: "h-3 w-3 opacity-60",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25",
+            }),
+          }),
+      ],
+    });
+  }
+  function ToolResultDisplay({
+    result,
+    onLinkClick,
+    showRawData = false,
+    className,
+  }) {
+    const [showJson, setShowJson] = React46.useState(false);
+    if (result.type === "error") {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+        className: cn(
+          "mt-2 rounded-md bg-red-50 p-3 dark:bg-red-900/20",
+          className
+        ),
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+          className: "text-sm text-red-700 dark:text-red-300",
+          children:
+            typeof result.data === "string"
+              ? String(result.data)
+              : "An error occurred",
+        }),
+      });
+    }
+    const hasRawData =
+      result.type === "json" && result.data !== void 0 && result.data !== null;
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+      className: cn("space-y-2", className),
+      children: [
+        result.summary &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+            className: "text-sm text-neutral-700 dark:text-neutral-300",
+            children: result.summary,
+          }),
+        result.link &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(ResourceLink, {
+            link: result.link,
+            onClick: onLinkClick,
+          }),
+        result.resources &&
+          result.resources.length > 0 &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+            className: "flex flex-wrap gap-2",
+            children: result.resources.map((resource) =>
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                ResourceLink,
+                {
+                  link: {
+                    href: resource.uri || "#",
+                    label: resource.name,
+                    type: resource.type,
+                  },
+                  onClick: onLinkClick,
+                },
+                resource.id
+              )
+            ),
+          }),
+        hasRawData &&
+          showRawData &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+            className: "mt-2",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("button", {
+                onClick: () => setShowJson(!showJson),
+                className:
+                  "flex items-center gap-1 text-xs text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+                    className: cn(
+                      "h-3 w-3 transition-transform",
+                      showJson && "rotate-90"
+                    ),
+                    fill: "none",
+                    viewBox: "0 0 24 24",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                      "path",
+                      {
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        d: "M9 5l7 7-7 7",
+                      }
+                    ),
+                  }),
+                  showJson ? "Hide" : "Show",
+                  " raw data",
+                ],
+              }),
+              showJson &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("pre", {
+                  className:
+                    "mt-2 max-h-40 overflow-auto rounded-md bg-neutral-100 p-2 text-xs dark:bg-neutral-800",
+                  children: JSON.stringify(result.data, null, 2),
+                }),
+            ],
+          }),
+      ],
+    });
+  }
   var toolCallVariants = cva(
     ["rounded-lg border", "overflow-hidden", "transition-all duration-200"],
     {
@@ -40608,6 +41083,239 @@ var DocComponents = (() => {
       },
     }
   );
+  var TOOL_FRIENDLY_NAMES = {
+    create_patient: "Creating patient",
+    get_patient: "Looking up patient",
+    search_patients: "Searching patients",
+    update_patient: "Updating patient",
+    delete_patient: "Removing patient",
+    schedule_appointment: "Scheduling appointment",
+    cancel_appointment: "Canceling appointment",
+    update_appointment: "Updating appointment",
+    create_document: "Creating document",
+    upload_document: "Uploading document",
+    get_document: "Retrieving document",
+    search_documents: "Searching documents",
+    create_order: "Creating order",
+    send_message: "Sending message",
+    search: "Searching",
+  };
+  function getToolFriendlyName(toolName, status) {
+    const baseName =
+      TOOL_FRIENDLY_NAMES[toolName] || toolName.replace(/_/g, " ");
+    if (status === "success") {
+      if (baseName.startsWith("Creating"))
+        return baseName.replace("Creating", "Created");
+      if (baseName.startsWith("Scheduling"))
+        return baseName.replace("Scheduling", "Scheduled");
+      if (baseName.startsWith("Searching"))
+        return baseName.replace("Searching", "Searched");
+      if (baseName.startsWith("Looking"))
+        return baseName.replace("Looking", "Found");
+      if (baseName.startsWith("Updating"))
+        return baseName.replace("Updating", "Updated");
+      if (baseName.startsWith("Removing"))
+        return baseName.replace("Removing", "Removed");
+      if (baseName.startsWith("Canceling"))
+        return baseName.replace("Canceling", "Canceled");
+      if (baseName.startsWith("Retrieving"))
+        return baseName.replace("Retrieving", "Retrieved");
+      if (baseName.startsWith("Uploading"))
+        return baseName.replace("Uploading", "Uploaded");
+      if (baseName.startsWith("Sending"))
+        return baseName.replace("Sending", "Sent");
+    }
+    return baseName;
+  }
+  function getParameterSummary(toolName, params) {
+    const paramMap = Object.fromEntries(params.map((p) => [p.name, p.value]));
+    if (
+      toolName === "create_patient" &&
+      paramMap.firstName &&
+      paramMap.lastName
+    ) {
+      return `${paramMap.firstName} ${paramMap.lastName}`;
+    }
+    if (toolName.includes("search") && paramMap.query) {
+      return `"${paramMap.query}"`;
+    }
+    if (toolName.includes("appointment") && paramMap.patientName) {
+      const date = paramMap.preferredDate || paramMap.date;
+      return date
+        ? `${paramMap.patientName} on ${date}`
+        : String(paramMap.patientName);
+    }
+    return null;
+  }
+  function MCPToolCallDisplay({
+    toolCall,
+    showParameters = true,
+    collapsible = true,
+    defaultCollapsed = true,
+    compact,
+    onLinkClick,
+    className,
+  }) {
+    const [showDetails, setShowDetails] = React46.useState(!defaultCollapsed);
+    const formatDuration2 = (ms) => {
+      if (!ms) return null;
+      if (ms < 1e3) return `${ms}ms`;
+      return `${(ms / 1e3).toFixed(1)}s`;
+    };
+    const friendlyName = getToolFriendlyName(
+      toolCall.toolName,
+      toolCall.status
+    );
+    const paramSummary = getParameterSummary(
+      toolCall.toolName,
+      toolCall.parameters
+    );
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+      className: cn(
+        toolCallVariants({ status: toolCall.status, compact }),
+        className
+      ),
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+        className: "flex items-start gap-3",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+            className:
+              "flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-white/50 text-neutral-600 dark:bg-neutral-700/50 dark:text-neutral-400",
+            children: getToolIcon(toolCall.toolName),
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+            className: "min-w-0 flex-1",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                className: "flex items-center gap-2",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                    className:
+                      "text-sm font-medium text-neutral-900 dark:text-white",
+                    children: friendlyName,
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                    ToolStatusIcon,
+                    { status: toolCall.status }
+                  ),
+                  toolCall.duration &&
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                      className: "text-xs text-neutral-400",
+                      children: formatDuration2(toolCall.duration),
+                    }),
+                ],
+              }),
+              paramSummary &&
+                toolCall.status !== "success" &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                  className:
+                    "mt-0.5 text-sm text-neutral-600 dark:text-neutral-400",
+                  children: paramSummary,
+                }),
+              toolCall.result &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                  className: "mt-2",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                    ToolResultDisplay,
+                    {
+                      result: toolCall.result,
+                      onLinkClick,
+                      showRawData: showDetails,
+                    }
+                  ),
+                }),
+              toolCall.error &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                  className:
+                    "mt-2 rounded-md bg-red-100 p-2 dark:bg-red-900/30",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                    className: "text-sm text-red-700 dark:text-red-300",
+                    children: toolCall.error,
+                  }),
+                }),
+              collapsible &&
+                showParameters &&
+                toolCall.parameters.length > 0 &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("button", {
+                  onClick: () => setShowDetails(!showDetails),
+                  className:
+                    "mt-2 flex items-center gap-1 text-xs text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300",
+                  children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+                      className: cn(
+                        "h-3 w-3 transition-transform",
+                        showDetails && "rotate-90"
+                      ),
+                      fill: "none",
+                      viewBox: "0 0 24 24",
+                      stroke: "currentColor",
+                      strokeWidth: "2",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        "path",
+                        {
+                          strokeLinecap: "round",
+                          strokeLinejoin: "round",
+                          d: "M9 5l7 7-7 7",
+                        }
+                      ),
+                    }),
+                    showDetails ? "Hide" : "Show",
+                    " details",
+                  ],
+                }),
+              showDetails &&
+                showParameters &&
+                toolCall.parameters.length > 0 &&
+                /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                  className:
+                    "mt-3 rounded-md bg-neutral-100 p-2 dark:bg-neutral-800",
+                  children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("h4", {
+                      className:
+                        "mb-1.5 text-xs font-medium tracking-wide text-neutral-500 uppercase dark:text-neutral-400",
+                      children: "Parameters",
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                      className: "space-y-0.5",
+                      children: toolCall.parameters.map((param) =>
+                        /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+                          "div",
+                          {
+                            className: "flex items-start gap-2 text-xs",
+                            children: [
+                              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+                                "span",
+                                {
+                                  className:
+                                    "font-mono text-neutral-500 dark:text-neutral-500",
+                                  children: [param.name, ":"],
+                                }
+                              ),
+                              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                                "span",
+                                {
+                                  className:
+                                    "font-mono text-neutral-700 dark:text-neutral-300",
+                                  children:
+                                    typeof param.value === "string"
+                                      ? param.value
+                                      : JSON.stringify(param.value),
+                                }
+                              ),
+                            ],
+                          },
+                          param.name
+                        )
+                      ),
+                    }),
+                  ],
+                }),
+            ],
+          }),
+        ],
+      }),
+    });
+  }
   var avatarVariants2 = cva(
     "flex shrink-0 items-center justify-center rounded-full",
     {
@@ -40631,6 +41339,188 @@ var DocComponents = (() => {
       },
     }
   );
+  function MessageAvatar({ role, size, userName, className }) {
+    const getInitials3 = (name) => {
+      if (!name) return "?";
+      return name
+        .split(" ")
+        .map((n) => n[0])
+        .join("")
+        .substring(0, 2)
+        .toUpperCase();
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+      className: cn(avatarVariants2({ role, size }), className),
+      children:
+        role === "assistant"
+          ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(SparklesIcon, {
+              size: "md",
+            })
+          : role === "user"
+            ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                className: "font-medium",
+                children: getInitials3(userName),
+              })
+            : role === "system"
+              ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+                  className: "h-4 w-4",
+                  fill: "none",
+                  viewBox: "0 0 24 24",
+                  stroke: "currentColor",
+                  strokeWidth: "1.5",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                    "path",
+                    {
+                      strokeLinecap: "round",
+                      strokeLinejoin: "round",
+                      d: "M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z",
+                    }
+                  ),
+                })
+              : /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+                  className: "h-4 w-4",
+                  fill: "none",
+                  viewBox: "0 0 24 24",
+                  stroke: "currentColor",
+                  strokeWidth: "1.5",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                    "path",
+                    {
+                      strokeLinecap: "round",
+                      strokeLinejoin: "round",
+                      d: "M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z",
+                    }
+                  ),
+                }),
+    });
+  }
+  function AITypingIndicator({ className }) {
+    const dotStyle = {
+      width: "6px",
+      height: "6px",
+      minWidth: "6px",
+      minHeight: "6px",
+      flexShrink: 0,
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+      className: cn("inline-flex items-center justify-center gap-2", className),
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+          className: "rounded-full bg-neutral-500 dark:bg-neutral-400",
+          style: {
+            ...dotStyle,
+            animation: "typing-dot 1.4s infinite ease-in-out both",
+            animationDelay: "-0.32s",
+          },
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+          className: "rounded-full bg-neutral-500 dark:bg-neutral-400",
+          style: {
+            ...dotStyle,
+            animation: "typing-dot 1.4s infinite ease-in-out both",
+            animationDelay: "-0.16s",
+          },
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+          className: "rounded-full bg-neutral-500 dark:bg-neutral-400",
+          style: {
+            ...dotStyle,
+            animation: "typing-dot 1.4s infinite ease-in-out both",
+          },
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("style", {
+          children: `
+        @keyframes typing-dot {
+          0%, 80%, 100% { opacity: 0.4; }
+          40% { opacity: 1; }
+        }
+      `,
+        }),
+      ],
+    });
+  }
+  function ContentBlock({ content, onLinkClick }) {
+    const [isCollapsed, setIsCollapsed] = React46.useState(
+      content.collapsed ?? false
+    );
+    if (content.type === "text" && content.text) {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+        className: "prose prose-sm dark:prose-invert max-w-none",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+          className: "whitespace-pre-wrap",
+          children: content.text,
+        }),
+      });
+    }
+    if (content.type === "tool_use" && content.toolCall) {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(MCPToolCallDisplay, {
+        toolCall: content.toolCall,
+        onLinkClick,
+        defaultCollapsed: content.collapsed,
+      });
+    }
+    if (content.type === "thinking" && content.text) {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+        className:
+          "rounded-lg border border-neutral-200 bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800/50",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("button", {
+            onClick: () => setIsCollapsed(!isCollapsed),
+            className:
+              "flex w-full items-center justify-between px-3 py-2 text-left",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("span", {
+                className:
+                  "flex items-center gap-2 text-sm text-neutral-500 dark:text-neutral-400",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+                    className: "h-4 w-4",
+                    fill: "none",
+                    viewBox: "0 0 24 24",
+                    stroke: "currentColor",
+                    strokeWidth: "1.5",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                      "path",
+                      {
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round",
+                        d: "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z",
+                      }
+                    ),
+                  }),
+                  "Thinking...",
+                ],
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(ChevronIcon, {
+                direction: isCollapsed ? "right" : "down",
+                className: "text-neutral-400",
+              }),
+            ],
+          }),
+          !isCollapsed &&
+            /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+              className:
+                "border-t border-neutral-200 px-3 py-2 dark:border-neutral-700",
+              children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                className:
+                  "text-sm text-neutral-600 italic dark:text-neutral-400",
+                children: content.text,
+              }),
+            }),
+        ],
+      });
+    }
+    if (content.type === "code" && content.text) {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("pre", {
+        className: "rounded-lg bg-neutral-900 p-3 text-sm dark:bg-neutral-950",
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("code", {
+          className: content.language ? `language-${content.language}` : "",
+          children: content.text,
+        }),
+      });
+    }
+    return null;
+  }
   var messageVariants = cva("flex gap-3", {
     variants: {
       role: {
@@ -40659,6 +41549,103 @@ var DocComponents = (() => {
       role: "assistant",
     },
   });
+  function AIMessageDisplay({
+    message,
+    userName,
+    showAvatar = true,
+    showTimestamp = false,
+    onLinkClick,
+    className,
+  }) {
+    const isStreaming = message.status === "streaming";
+    const hasContent = message.content.length > 0;
+    const formatTime4 = (timestamp) => {
+      const date = new Date(timestamp);
+      return date.toLocaleTimeString(void 0, {
+        hour: "numeric",
+        minute: "2-digit",
+      });
+    };
+    if (message.role === "tool") {
+      return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+        className: cn(messageVariants({ role: message.role }), className),
+        children: [
+          showAvatar &&
+            /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(MessageAvatar, {
+              role: message.role,
+            }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+            className: "flex-1 space-y-2",
+            children: message.content.map((content, index) =>
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                ContentBlock,
+                {
+                  content,
+                  onLinkClick,
+                },
+                index
+              )
+            ),
+          }),
+        ],
+      });
+    }
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+      className: cn(messageVariants({ role: message.role }), className),
+      children: [
+        showAvatar &&
+          message.role !== "system" &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(MessageAvatar, {
+            role: message.role,
+            userName,
+          }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+          className: cn(
+            "flex flex-col gap-1",
+            message.role === "user" && "items-end"
+          ),
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+              className: bubbleVariants({ role: message.role }),
+              children: hasContent
+                ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                    className: "space-y-3",
+                    children: message.content.map((content, index) =>
+                      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        ContentBlock,
+                        {
+                          content,
+                          onLinkClick,
+                        },
+                        index
+                      )
+                    ),
+                  })
+                : isStreaming
+                  ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                      className: "flex items-center justify-center",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        AITypingIndicator,
+                        {}
+                      ),
+                    })
+                  : null,
+            }),
+            showTimestamp &&
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                className: "px-2 text-xs text-neutral-500",
+                children: formatTime4(message.timestamp),
+              }),
+            message.status === "error" &&
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                className: "px-2 text-xs text-red-500",
+                children: "Failed to send",
+              }),
+          ],
+        }),
+      ],
+    });
+  }
   function getFileType(mimeType) {
     if (mimeType.startsWith("image/")) return "image";
     if (mimeType.startsWith("video/")) return "video";
@@ -42616,6 +43603,149 @@ var DocComponents = (() => {
     }
   );
   MessageList.displayName = "MessageList";
+  var ACTION_ICONS = {
+    patient: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM3 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 019.374 21c-2.331 0-4.512-.645-6.374-1.766z",
+      }),
+    }),
+    search: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z",
+      }),
+    }),
+    appointment: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5",
+      }),
+    }),
+    document: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z",
+      }),
+    }),
+    help: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z",
+      }),
+    }),
+    default: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+      className: "h-4 w-4",
+      fill: "none",
+      viewBox: "0 0 24 24",
+      stroke: "currentColor",
+      strokeWidth: "1.5",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        d: "M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+      }),
+    }),
+  };
+  function SuggestedActions({ actions, onSelect, className }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+      className: cn("flex flex-wrap gap-2", className),
+      children: actions.map((action) =>
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+          "button",
+          {
+            onClick: () => onSelect(action),
+            className: cn(
+              "flex items-center gap-2 rounded-full border border-neutral-200 px-3 py-1.5",
+              "hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 text-sm text-neutral-700",
+              "dark:border-neutral-700 dark:text-neutral-300",
+              "dark:hover:border-primary-700 dark:hover:bg-primary-900/20 dark:hover:text-primary-300",
+              "transition-colors"
+            ),
+            children: [
+              ACTION_ICONS[action.icon || "default"] || ACTION_ICONS.default,
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+                children: action.label,
+              }),
+            ],
+          },
+          action.id
+        )
+      ),
+    });
+  }
+  function AIEmptyState({
+    title = "How can I help you today?",
+    description = "Ask me anything about patients, appointments, documents, or how to use the system.",
+    suggestions,
+    onSuggestionSelect,
+    className,
+    ...props
+  }) {
+    const aiIcon = /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+      className:
+        "bg-primary-500 dark:bg-primary-600 flex h-16 w-16 items-center justify-center rounded-full text-white",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(SparklesIcon, {
+        size: "lg",
+        className: "h-8 w-8",
+      }),
+    });
+    const suggestionsAction =
+      suggestions && suggestions.length > 0 && onSuggestionSelect
+        ? /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+            className: "mt-6",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                className:
+                  "mb-3 text-sm text-neutral-500 dark:text-neutral-400",
+                children: "Try asking:",
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(SuggestedActions, {
+                actions: suggestions,
+                onSelect: onSuggestionSelect,
+              }),
+            ],
+          })
+        : void 0;
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(EmptyState, {
+      title,
+      description,
+      icon: aiIcon,
+      action: suggestionsAction,
+      className,
+      ...props,
+    });
+  }
   var chatVariants = cva("flex flex-col", {
     variants: {
       variant: {
@@ -42637,6 +43767,354 @@ var DocComponents = (() => {
       size: "full",
     },
   });
+  function AIChat({
+    session,
+    messages: messagesProp,
+    isGenerating: isGeneratingProp,
+    userName = "You",
+    title = "AI Assistant",
+    suggestions,
+    showHeader = true,
+    showTimestamps = false,
+    inputPlaceholder = "Ask anything...",
+    variant,
+    size,
+    height,
+    composerProps,
+    className,
+    onSendMessage,
+    onToolCall: _onToolCall,
+    onResourceClick,
+    onSuggestedAction,
+    onCancel,
+    onClear,
+    onClose,
+  }) {
+    const messagesEndRef = React46.useRef(null);
+    const messages = React46.useMemo(
+      () => (session == null ? void 0 : session.messages) || messagesProp || [],
+      [session == null ? void 0 : session.messages, messagesProp]
+    );
+    const isGenerating =
+      (session == null ? void 0 : session.isGenerating) ||
+      isGeneratingProp ||
+      false;
+    React46.useEffect(() => {
+      var _a;
+      (_a = messagesEndRef.current) == null
+        ? void 0
+        : _a.scrollIntoView({ behavior: "smooth" });
+    }, [messages]);
+    const handleSend = async (message) => {
+      if (message.content.trim() && onSendMessage) {
+        onSendMessage(message.content.trim());
+      }
+    };
+    const handleSuggestionSelect = (action) => {
+      if (onSuggestedAction) {
+        onSuggestedAction(action);
+      } else if (onSendMessage) {
+        onSendMessage(action.prompt);
+      }
+    };
+    const handleLinkClick = (link) => {
+      if (onResourceClick) {
+        onResourceClick(link);
+      }
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+      className: cn(chatVariants({ variant, size }), className),
+      style: { height: height || void 0 },
+      children: [
+        showHeader &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+            className:
+              "flex items-center justify-between border-b border-neutral-200 px-4 py-3 dark:border-neutral-700",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                className: "flex items-center gap-3",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                    className:
+                      "bg-primary-500 dark:bg-primary-600 flex h-8 w-8 items-center justify-center rounded-full text-white",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                      SparklesIcon,
+                      { size: "sm" }
+                    ),
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                    children: [
+                      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("h2", {
+                        className:
+                          "font-semibold text-neutral-900 dark:text-white",
+                        children: title,
+                      }),
+                      isGenerating &&
+                        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                          className: "text-xs text-neutral-500",
+                          children: "Generating...",
+                        }),
+                    ],
+                  }),
+                ],
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                className: "flex items-center gap-1",
+                children: [
+                  isGenerating &&
+                    onCancel &&
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+                      onClick: onCancel,
+                      className: cn(
+                        "rounded-lg px-3 py-1.5 text-sm",
+                        "bg-red-100 text-red-600 hover:bg-red-200",
+                        "dark:bg-red-900/30 dark:text-red-400 dark:hover:bg-red-900/50",
+                        "transition-colors"
+                      ),
+                      children: "Stop",
+                    }),
+                  onClear &&
+                    messages.length > 0 &&
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+                      onClick: onClear,
+                      className:
+                        "rounded-lg p-2 text-neutral-500 hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-neutral-300",
+                      title: "Clear chat",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        RefreshIcon,
+                        {}
+                      ),
+                    }),
+                  onClose &&
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+                      onClick: onClose,
+                      className:
+                        "rounded-lg p-2 text-neutral-500 hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-neutral-300",
+                      title: "Close chat",
+                      "aria-label": "Close chat",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        CloseIcon2,
+                        {}
+                      ),
+                    }),
+                ],
+              }),
+            ],
+          }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+          className: "flex-1 overflow-y-auto px-4 py-4",
+          children:
+            messages.length === 0
+              ? /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AIEmptyState, {
+                  suggestions,
+                  onSuggestionSelect: handleSuggestionSelect,
+                })
+              : /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+                  className: "space-y-4",
+                  children: [
+                    messages.map((message) =>
+                      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                        AIMessageDisplay,
+                        {
+                          message,
+                          userName,
+                          showTimestamp: showTimestamps,
+                          onLinkClick: handleLinkClick,
+                        },
+                        message.id
+                      )
+                    ),
+                    /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                      ref: messagesEndRef,
+                    }),
+                  ],
+                }),
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+          className:
+            "shrink-0 border-t border-neutral-200 dark:border-neutral-700",
+          children: [
+            suggestions &&
+              suggestions.length > 0 &&
+              messages.length > 0 &&
+              !isGenerating &&
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+                className: "px-4 pt-3",
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+                  SuggestedActions,
+                  {
+                    actions: suggestions,
+                    onSelect: handleSuggestionSelect,
+                  }
+                ),
+              }),
+            /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(MessageComposer, {
+              onSend: handleSend,
+              placeholder: inputPlaceholder,
+              disabled: isGenerating,
+              isSending: isGenerating,
+              showAttachmentPicker: false,
+              showCameraButton: false,
+              showCharacterCount: false,
+              variant: "minimal",
+              ...composerProps,
+            }),
+          ],
+        }),
+      ],
+    });
+  }
+  function AIChatTrigger({
+    isOpen = false,
+    onClick,
+    pulse = false,
+    badge,
+    position = "bottom-right",
+    className,
+  }) {
+    const positionClasses = {
+      "bottom-right": "bottom-4 right-4",
+      "bottom-left": "bottom-4 left-4",
+      "top-right": "top-4 right-4",
+      "top-left": "top-4 left-4",
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("button", {
+      onClick,
+      className: cn(
+        "fixed z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg",
+        "bg-primary-500 text-white",
+        "hover:bg-primary-600",
+        "focus:ring-primary-500 focus:ring-2 focus:ring-offset-2 focus:outline-none",
+        "dark:focus:ring-offset-neutral-900",
+        "transition-all duration-200",
+        isOpen && "scale-0 opacity-0",
+        positionClasses[position],
+        className
+      ),
+      "aria-label": "Open AI Assistant",
+      children: [
+        pulse &&
+          !isOpen &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+            className:
+              "bg-primary-400 absolute inline-flex h-full w-full animate-ping rounded-full opacity-75",
+          }),
+        badge &&
+          badge > 0 &&
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
+            className:
+              "absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-bold",
+            children: badge > 9 ? "9+" : badge,
+          }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(SparklesIcon, {
+          size: "lg",
+        }),
+      ],
+    });
+  }
+  function AIChatModal({
+    open,
+    onOpenChange,
+    position = "bottom-right",
+    width = 400,
+    height = 600,
+    modalClassName,
+    ...chatProps
+  }) {
+    const modalRef = useFocusTrap(open);
+    useEscapeKey(() => {
+      if (open) onOpenChange(false);
+    });
+    if (!open) return null;
+    const positionClasses = {
+      "bottom-right": "bottom-20 right-4",
+      "bottom-left": "bottom-20 left-4",
+      center: "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2",
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+      import_jsx_runtime18.Fragment,
+      {
+        children: [
+          position === "center" &&
+            /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+              className: "fixed inset-0 z-40 bg-black/50 backdrop-blur-sm",
+              onClick: () => onOpenChange(false),
+              onKeyDown: (e) => e.key === "Escape" && onOpenChange(false),
+              role: "button",
+              tabIndex: 0,
+              "aria-label": "Close dialog",
+            }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+            ref: modalRef,
+            className: cn(
+              "fixed z-50",
+              "animate-in fade-in-0 zoom-in-95",
+              positionClasses[position],
+              modalClassName
+            ),
+            style: {
+              width: typeof width === "number" ? `${width}px` : width,
+              height: typeof height === "number" ? `${height}px` : height,
+              maxHeight: "calc(100vh - 6rem)",
+              maxWidth: "calc(100vw - 2rem)",
+            },
+            role: "dialog",
+            "aria-modal": "true",
+            "aria-label": "AI Assistant Chat",
+            children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+              className:
+                "relative h-full w-full overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-700 dark:bg-neutral-900",
+              children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AIChat, {
+                ...chatProps,
+                variant: "embedded",
+                height: "100%",
+                className: "h-full",
+                onClose: () => onOpenChange(false),
+              }),
+            }),
+          }),
+        ],
+      }
+    );
+  }
+  function FloatingAIChat({
+    defaultOpen = false,
+    open: controlledOpen,
+    onOpenChange: controlledOnOpenChange,
+    buttonPosition = "bottom-right",
+    position = "bottom-right",
+    pulse = false,
+    ...chatProps
+  }) {
+    const [internalOpen, setInternalOpen] = React46.useState(defaultOpen);
+    const isControlled = controlledOpen !== void 0;
+    const isOpen = isControlled ? controlledOpen : internalOpen;
+    const handleOpenChange = (open) => {
+      if (!isControlled) {
+        setInternalOpen(open);
+      }
+      controlledOnOpenChange == null ? void 0 : controlledOnOpenChange(open);
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
+      import_jsx_runtime18.Fragment,
+      {
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AIChatTrigger, {
+            isOpen,
+            onClick: () => handleOpenChange(true),
+            position: buttonPosition,
+            pulse: pulse && !isOpen,
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(AIChatModal, {
+            open: isOpen,
+            onOpenChange: handleOpenChange,
+            position,
+            ...chatProps,
+          }),
+        ],
+      }
+    );
+  }
   var isMac =
     typeof window !== "undefined" &&
     typeof window.navigator !== "undefined" &&
@@ -49665,7 +51143,7 @@ var DocComponents = (() => {
   }
   WebsiteInputGroup.displayName = "WebsiteInputGroup";
 
-  // node_modules/@mieweb/ui/dist/brands/index.js
+  // ../mieweb-ui/dist/brands/index.js
   init_chunk_MTZPVOP6();
 
   // src/components/Lightbox.tsx
@@ -50774,7 +52252,7 @@ var DocComponents = (() => {
           "flex flex-col items-center justify-center py-12 text-center",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("span", {
-            className: "text-4xl mb-4",
+            className: "mb-4 text-4xl",
             children: "\u{1F50D}",
           }),
           /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
@@ -50782,7 +52260,7 @@ var DocComponents = (() => {
             children: "No results found",
           }),
           /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-            className: "text-sm text-muted-foreground mt-1",
+            className: "text-muted-foreground mt-1 text-sm",
             children: "Try a different search term",
           }),
         ],
@@ -50842,6 +52320,169 @@ var DocComponents = (() => {
       CommandPaletteTrigger,
       { placeholder: "Search documentation..." }
     );
+  }
+
+  // src/components/AIDocAssistant.tsx
+  var React20 = __toESM(require_react(), 1);
+  var import_jsx_runtime23 = __toESM(require_jsx_runtime(), 1);
+  var defaultSuggestions = [
+    {
+      id: "1",
+      label: "How do I schedule an appointment?",
+      prompt: "How do I schedule an appointment in the system?",
+      icon: "calendar",
+    },
+    {
+      id: "2",
+      label: "How to create a patient chart?",
+      prompt: "How do I create a new patient chart?",
+      icon: "user",
+    },
+    {
+      id: "3",
+      label: "How to configure system settings?",
+      prompt: "How do I configure system settings and preferences?",
+      icon: "settings",
+    },
+    {
+      id: "4",
+      label: "How to manage documents?",
+      prompt: "How do I upload and manage documents?",
+      icon: "document",
+    },
+  ];
+  async function sendChatMessage(message, history, apiUrl, brand) {
+    const response = await fetch(`${apiUrl}/chat`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message,
+        brand,
+        history: history.map((m) => ({
+          role: m.role,
+          content: m.content
+            .filter((c) => c.type === "text")
+            .map((c) => c.text)
+            .join("\n"),
+        })),
+      }),
+    });
+    if (!response.ok) {
+      const error = await response
+        .json()
+        .catch(() => ({ error: "Unknown error" }));
+      throw new Error(error.error || `HTTP ${response.status}`);
+    }
+    return response.json();
+  }
+  function AIDocAssistant({
+    apiUrl = "/api/ai-assistant",
+    brand = "eh",
+    pulse = true,
+    position = "bottom-right",
+  }) {
+    const [messages, setMessages] = React20.useState([]);
+    const [isGenerating, setIsGenerating] = React20.useState(false);
+    const handleSendMessage = React20.useCallback(
+      async (content) => {
+        const userMessage = {
+          id: `user-${Date.now()}`,
+          role: "user",
+          content: [{ type: "text", text: content }],
+          timestamp: /* @__PURE__ */ new Date(),
+          status: "complete",
+        };
+        setMessages((prev) => [...prev, userMessage]);
+        const assistantId = `assistant-${Date.now()}`;
+        setMessages((prev) => [
+          ...prev,
+          {
+            id: assistantId,
+            role: "assistant",
+            content: [],
+            timestamp: /* @__PURE__ */ new Date(),
+            status: "streaming",
+          },
+        ]);
+        setIsGenerating(true);
+        try {
+          const response = await sendChatMessage(
+            content,
+            messages,
+            apiUrl,
+            brand
+          );
+          const responseContent = [{ type: "text", text: response.answer }];
+          if (response.sources.length > 0) {
+            const sourcesText =
+              "\n\n**Sources:**\n" +
+              response.sources
+                .slice(0, 3)
+                .map((s) => `- [${s.title}](${s.url})`)
+                .join("\n");
+            responseContent.push({ type: "text", text: sourcesText });
+          }
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantId
+                ? { ...m, content: responseContent, status: "complete" }
+                : m
+            )
+          );
+        } catch (error) {
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantId
+                ? {
+                    ...m,
+                    content: [
+                      {
+                        type: "text",
+                        text:
+                          "Sorry, I encountered an error. Please try again. " +
+                          (error instanceof Error ? error.message : ""),
+                      },
+                    ],
+                    status: "error",
+                  }
+                : m
+            )
+          );
+        } finally {
+          setIsGenerating(false);
+        }
+      },
+      [messages, apiUrl, brand]
+    );
+    const handleResourceClick = React20.useCallback((resource) => {
+      const href = "href" in resource ? resource.href : resource.uri;
+      if (!href) return;
+      if (href.startsWith("http")) {
+        window.open(href, "_blank");
+      } else {
+        window.location.href = href;
+      }
+    }, []);
+    const handleClear = React20.useCallback(() => {
+      setMessages([]);
+    }, []);
+    const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
+    return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(FloatingAIChat, {
+      messages,
+      suggestions: defaultSuggestions,
+      isGenerating,
+      title: `${brandName} AI Assistant`,
+      userName: "You",
+      inputPlaceholder: "Ask about the documentation...",
+      pulse,
+      buttonPosition: position,
+      position,
+      onSendMessage: handleSendMessage,
+      onResourceClick: handleResourceClick,
+      onClear: handleClear,
+    });
   }
   return __toCommonJS(index_exports);
 })();

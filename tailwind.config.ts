@@ -13,6 +13,9 @@ const config: Config = {
     "./src/**/*.{ts,tsx}",
     "./themes/mieweb-docs/layouts/**/*.html",
     "./themes/mieweb-docs/assets/**/*.{js,ts}",
+    // Include @mieweb/ui components for AI chat and other components
+    "./node_modules/@mieweb/ui/dist/**/*.js",
+    "../mieweb-ui/src/**/*.{ts,tsx}",
   ],
   darkMode: ["class", '[data-theme="dark"]'],
   theme: {

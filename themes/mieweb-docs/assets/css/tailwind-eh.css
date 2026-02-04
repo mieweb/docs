@@ -14,6 +14,18 @@
 /* Scan the theme layouts directory for Tailwind classes */
 @source "../../layouts/**/*.html";
 @source "../../assets/**/*.js";
+/* Scan @mieweb/ui AI components */
+@source "../../../../src/components/**/*.tsx";
+@source "../../../../node_modules/@mieweb/ui/dist/**/*.js";
+
+/* AI Chat component classes from @mieweb/ui FloatingAIChat */
+@source inline("h-14 w-14 h-7 w-7 h-12 w-12");
+@source inline("bottom-4 right-4 left-4 top-4 bottom-20");
+@source inline("bg-primary-500 bg-primary-600 bg-primary-400 hover:bg-primary-600");
+@source inline("focus:ring-primary-500 dark:focus:ring-offset-neutral-900");
+@source inline("focus:ring-offset-2 ring-2 ring-offset-2");
+@source inline("animate-ping animate-in fade-in-0 zoom-in-95");
+@source inline("rounded-2xl scale-0");
 
 /* Safelist all utilities used in the templates */
 /* Layout & Positioning */

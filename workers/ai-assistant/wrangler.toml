@@ -1,0 +1,40 @@
+# AI Assistant Worker
+
+#:schema node_modules/wrangler/config-schema.json
+name = "docs-ai-assistant"
+main = "src/index.ts"
+compatibility_date = "2025-02-03"
+compatibility_flags = ["nodejs_compat"]
+
+# Workers AI binding for embeddings and LLM inference
+[ai]
+binding = "AI"
+
+# Vectorize index for document embeddings
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "docs-embeddings"
+
+# KV namespace for caching and metadata
+[[kv_namespaces]]
+binding = "DOCS_CACHE"
+id = "replace-with-kv-id"  # Run: wrangler kv:namespace create DOCS_CACHE
+
+# Environment variables
+[vars]
+EMBEDDING_MODEL = "@cf/baai/bge-base-en-v1.5"
+LLM_MODEL = "@cf/meta/llama-3.1-8b-instruct"
+MAX_CONTEXT_CHUNKS = "5"
+MAX_TOKENS = "1024"
+
+# Development settings
+[dev]
+port = 8787
+local_protocol = "http"
+
+# Production environment
+[env.production]
+# Same bindings, different KV namespace ID for prod
+[[env.production.kv_namespaces]]
+binding = "DOCS_CACHE"
+id = "replace-with-prod-kv-id"

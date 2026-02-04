@@ -1,0 +1,19 @@
+{
+  "name": "@docs/scripts",
+  "version": "1.0.0",
+  "description": "Build scripts for documentation processing",
+  "type": "module",
+  "scripts": {
+    "index-docs": "tsx index-docs.ts",
+    "index-docs:dry-run": "tsx index-docs.ts --dry-run"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.2",
+    "wrangler": "^3.100.0"
+  }
+}
