@@ -129,6 +129,13 @@ export async function generateRAGResponse(
   const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
   const systemPromptWithBrand = `${SYSTEM_PROMPT}\n\nYou are specifically helping with ${brandName} documentation.`;
 
+  // Check if AI binding is available
+  if (!env.AI) {
+    throw new Error(
+      "AI binding not configured. Please add an AI binding named 'AI' in Cloudflare Pages Settings > Functions > AI Bindings."
+    );
+  }
+
   // Generate response using Workers AI
   const response = await env.AI.run(
     config.LLM_MODEL as BaseAiTextGenerationModels,
