@@ -407,7 +407,7 @@ export function OzwellChat({
   apiUrl = "/api/ai-assistant",
   basePath = "",
   brand = "eh",
-  pulse = true,
+  pulse = false,
   position = "bottom-right",
 }: OzwellChatProps) {
   // Logo path uses basePath to work with Hugo's baseURL configuration

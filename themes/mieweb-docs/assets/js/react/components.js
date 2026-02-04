@@ -32515,7 +32515,7 @@ Please report this to https://github.com/markedjs/marked.`),
     apiUrl: e = "/api/ai-assistant",
     basePath: a = "",
     brand: t = "eh",
-    pulse: r = !0,
+    pulse: r = !1,
     position: l = "bottom-right",
   }) {
     let s = `${a}/images/ai/ozwell.png`,
