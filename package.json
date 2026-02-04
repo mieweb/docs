@@ -34,7 +34,7 @@
   "author": "MIE",
   "license": "ISC",
   "dependencies": {
-    "@mieweb/ui": "file:../mieweb-ui",
+    "@mieweb/ui": "^0.1.0",
     "@types/dompurify": "^3.0.5",
     "@types/marked": "^5.0.2",
     "@types/react": "^19.2.10",
