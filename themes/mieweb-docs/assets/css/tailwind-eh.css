@@ -18,9 +18,7 @@
 /* Scan the theme layouts directory for Tailwind classes */
 @source "../../layouts/**/*.html";
 @source "../js/**/*.js";
-/* Scan @mieweb/ui AI components */
-@source "../../../../src/components/**/*.tsx";
-@source "../../../../node_modules/@mieweb/ui/dist/**/*.js";
+/* Note: @mieweb/ui classes are covered via @source inline() directives below */
 
 /* AI Chat component classes from @mieweb/ui FloatingAIChat */
 @source inline("h-14 w-14 h-7 w-7 h-8 w-8 h-12 w-12 h-16 w-16 w-96 h-9");
