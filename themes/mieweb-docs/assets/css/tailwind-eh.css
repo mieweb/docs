@@ -3,6 +3,10 @@
 @import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 
+/* Custom dark mode variant for Tailwind CSS 4 */
+/* This tells Tailwind to activate dark: classes when [data-theme="dark"] is on a parent */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 /* Import Enterprise Health brand from @mieweb/ui */
 /* This sets all --mieweb-* CSS variables for the EH brand including:
    - Primary colors (burgundy/purple #6E2B68)
@@ -13,19 +17,56 @@
 
 /* Scan the theme layouts directory for Tailwind classes */
 @source "../../layouts/**/*.html";
-@source "../../assets/**/*.js";
+@source "../js/**/*.js";
 /* Scan @mieweb/ui AI components */
 @source "../../../../src/components/**/*.tsx";
 @source "../../../../node_modules/@mieweb/ui/dist/**/*.js";
 
 /* AI Chat component classes from @mieweb/ui FloatingAIChat */
-@source inline("h-14 w-14 h-7 w-7 h-12 w-12");
-@source inline("bottom-4 right-4 left-4 top-4 bottom-20");
-@source inline("bg-primary-500 bg-primary-600 bg-primary-400 hover:bg-primary-600");
+@source inline("h-14 w-14 h-7 w-7 h-8 w-8 h-12 w-12 h-16 w-16 w-96 h-9");
+@source inline("bottom-4 right-4 left-4 top-4 bottom-20 right-2 right-3 bottom-1.5 bottom-2");
+@source inline("bg-primary-500 bg-primary-600 bg-primary-400 bg-primary-800 bg-primary-700");
+@source inline("hover:bg-primary-600 hover:bg-primary-700 hover:bg-primary-50");
+@source inline("active:scale-95");
 @source inline("focus:ring-primary-500 dark:focus:ring-offset-neutral-900");
 @source inline("focus:ring-offset-2 ring-2 ring-offset-2");
-@source inline("animate-ping animate-in fade-in-0 zoom-in-95");
-@source inline("rounded-2xl scale-0");
+@source inline("animate-ping animate-in fade-in-0 zoom-in-95 animate-spin animate-pulse");
+@source inline("rounded-2xl scale-0 scale-75 scale-100");
+
+/* MessageComposer - textarea input styling */
+@source inline("resize-none px-4 py-2.5 max-h-[150px]");
+@source inline("bg-neutral-100 bg-neutral-50 bg-neutral-200");
+@source inline("text-neutral-900 text-neutral-600 text-neutral-700 text-neutral-500 text-neutral-400");
+@source inline("placeholder:text-neutral-400 placeholder:text-neutral-500");
+@source inline("border-neutral-200 border-neutral-700 border-neutral-600");
+@source inline("hover:bg-neutral-100 hover:bg-neutral-200 hover:bg-neutral-50");
+@source inline("hover:text-neutral-700 hover:text-neutral-600");
+
+/* SendButton styling */
+@source inline("p-3 self-start");
+@source inline("disabled:opacity-50 disabled:cursor-not-allowed");
+@source inline("cursor-not-allowed");
+
+/* Modal/backdrop styling */
+@source inline("backdrop-blur-sm bg-black/50");
+@source inline("shadow-2xl shadow-xl");
+@source inline("border-t");
+
+/* Text and content styling */
+@source inline("tabular-nums");
+@source inline("text-red-500 text-red-600 text-red-400 text-amber-500");
+@source inline("bg-red-100 bg-red-200 hover:bg-red-200");
+@source inline("dark:bg-red-900/30 dark:bg-red-900/50 dark:hover:bg-red-900/50");
+@source inline("dark:bg-primary-900/20 dark:hover:bg-primary-900/20");
+
+/* Header and layout */
+@source inline("pb-10 pt-6 pb-2");
+@source inline("peer peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100");
+@source inline("peer-focus:-translate-y-2 peer-focus:scale-75");
+@source inline("peer-[:not(:placeholder-shown)]:-translate-y-2 peer-[:not(:placeholder-shown)]:scale-75");
+
+/* Empty state styling */
+@source inline("origin-left");
 
 /* Safelist all utilities used in the templates */
 /* Layout & Positioning */
@@ -107,6 +148,16 @@
 
 /* Dark mode */
 @source inline("dark:block dark:hidden dark:prose-invert dark:bg-card");
+/* Dark mode classes used by @mieweb/ui AI chat components */
+@source inline("dark:bg-neutral-900 dark:bg-neutral-800 dark:bg-neutral-700 dark:bg-neutral-600");
+@source inline("dark:border-neutral-700 dark:border-neutral-600 dark:border-neutral-200");
+@source inline("dark:text-white dark:text-neutral-100 dark:text-neutral-200 dark:text-neutral-300 dark:text-neutral-400");
+@source inline("dark:focus:ring-offset-neutral-900 dark:hover:bg-neutral-700 dark:hover:bg-neutral-800");
+@source inline("dark:bg-background dark:text-foreground dark:border-border");
+@source inline("dark:bg-muted dark:text-muted-foreground dark:bg-primary-900/50 dark:text-primary-400");
+@source inline("dark:ring-neutral-700 dark:divide-neutral-700");
+@source inline("dark:placeholder:text-neutral-500");
+@source inline("dark:shadow-lg dark:shadow-neutral-900/50");
 
 /* Misc */
 @source inline("aspect-video resize-none select-none sr-only cursor-pointer pointer-events-none");

@@ -1334,3 +1334,44 @@ kbd {
     transform: translateY(0);
   }
 }
+
+/* Bounce animation for typing indicator */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* Sizing utilities for typing indicator dots */
+.h-2 {
+  height: 0.5rem;
+}
+.w-2 {
+  width: 0.5rem;
+}
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+/* Background colors for typing indicator */
+.bg-neutral-500 {
+  background-color: rgb(115, 115, 115);
+}
+.dark\:bg-neutral-400:where([data-theme="dark"], [data-theme="dark"] *) {
+  background-color: rgb(163, 163, 163);
+}
+
+/* Rounded full utility */
+.rounded-full {
+  border-radius: 9999px;
+}

@@ -6,6 +6,15 @@ var DocComponents = (() => {
   var __getOwnPropNames = Object.getOwnPropertyNames;
   var __getProtoOf = Object.getPrototypeOf;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __defNormalProp = (obj, key, value) =>
+    key in obj
+      ? __defProp(obj, key, {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value,
+        })
+      : (obj[key] = value);
   var __esm = (fn, res) =>
     function __init() {
       return (fn && (res = (0, fn[__getOwnPropNames(fn)[0]])((fn = 0))), res);
@@ -52,6 +61,8 @@ var DocComponents = (() => {
   );
   var __toCommonJS = (mod) =>
     __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+  var __publicField = (obj, key, value) =>
+    __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
 
   // node_modules/react/cjs/react.development.js
   var require_react_development = __commonJS({
@@ -187,7 +198,7 @@ var DocComponents = (() => {
                 type = type._init;
                 try {
                   return getComponentNameFromType(type(innerType));
-                } catch (x) {}
+                } catch (x2) {}
             }
           return null;
         }
@@ -202,7 +213,7 @@ var DocComponents = (() => {
           try {
             var name = getComponentNameFromType(type);
             return name ? "<" + name + ">" : "<...>";
-          } catch (x) {
+          } catch (x2) {
             return "<...>";
           }
         }
@@ -1293,12 +1304,12 @@ var DocComponents = (() => {
         exports.useDeferredValue = function (value, initialValue) {
           return resolveDispatcher().useDeferredValue(value, initialValue);
         };
-        exports.useEffect = function (create, deps) {
-          null == create &&
+        exports.useEffect = function (create2, deps) {
+          null == create2 &&
             console.warn(
               "React Hook useEffect requires an effect callback. Did you forget to pass a callback to the hook?"
             );
-          return resolveDispatcher().useEffect(create, deps);
+          return resolveDispatcher().useEffect(create2, deps);
         };
         exports.useEffectEvent = function (callback) {
           return resolveDispatcher().useEffectEvent(callback);
@@ -1306,25 +1317,25 @@ var DocComponents = (() => {
         exports.useId = function () {
           return resolveDispatcher().useId();
         };
-        exports.useImperativeHandle = function (ref, create, deps) {
-          return resolveDispatcher().useImperativeHandle(ref, create, deps);
+        exports.useImperativeHandle = function (ref, create2, deps) {
+          return resolveDispatcher().useImperativeHandle(ref, create2, deps);
         };
-        exports.useInsertionEffect = function (create, deps) {
-          null == create &&
+        exports.useInsertionEffect = function (create2, deps) {
+          null == create2 &&
             console.warn(
               "React Hook useInsertionEffect requires an effect callback. Did you forget to pass a callback to the hook?"
             );
-          return resolveDispatcher().useInsertionEffect(create, deps);
+          return resolveDispatcher().useInsertionEffect(create2, deps);
         };
-        exports.useLayoutEffect = function (create, deps) {
-          null == create &&
+        exports.useLayoutEffect = function (create2, deps) {
+          null == create2 &&
             console.warn(
               "React Hook useLayoutEffect requires an effect callback. Did you forget to pass a callback to the hook?"
             );
-          return resolveDispatcher().useLayoutEffect(create, deps);
+          return resolveDispatcher().useLayoutEffect(create2, deps);
         };
-        exports.useMemo = function (create, deps) {
-          return resolveDispatcher().useMemo(create, deps);
+        exports.useMemo = function (create2, deps) {
+          return resolveDispatcher().useMemo(create2, deps);
         };
         exports.useOptimistic = function (passthrough, reducer) {
           return resolveDispatcher().useOptimistic(passthrough, reducer);
@@ -1496,9 +1507,9 @@ var DocComponents = (() => {
           }
           return first;
         }
-        function compare(a, b) {
-          var diff = a.sortIndex - b.sortIndex;
-          return 0 !== diff ? diff : a.id - b.id;
+        function compare(a, b2) {
+          var diff = a.sortIndex - b2.sortIndex;
+          return 0 !== diff ? diff : a.id - b2.id;
         }
         function advanceTimers(currentTime) {
           for (var timer = peek(timerQueue); null !== timer; ) {
@@ -1824,7 +1835,7 @@ var DocComponents = (() => {
           "function" ===
             typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart &&
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-        var React22 = require_react(),
+        var React23 = require_react(),
           Internals = {
             d: {
               f: noop,
@@ -1846,7 +1857,7 @@ var DocComponents = (() => {
           },
           REACT_PORTAL_TYPE = Symbol.for("react.portal"),
           ReactSharedInternals =
-            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+            React23.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
         ("function" === typeof Map &&
           null != Map.prototype &&
           "function" === typeof Map.prototype.forEach &&
@@ -2359,14 +2370,14 @@ var DocComponents = (() => {
               throw Error("Unable to find node on an unmounted component.");
             return alternate !== fiber ? null : fiber;
           }
-          for (var a = fiber, b = alternate; ; ) {
+          for (var a = fiber, b2 = alternate; ; ) {
             var parentA = a.return;
             if (null === parentA) break;
             var parentB = parentA.alternate;
             if (null === parentB) {
-              b = parentA.return;
-              if (null !== b) {
-                a = b;
+              b2 = parentA.return;
+              if (null !== b2) {
+                a = b2;
                 continue;
               }
               break;
@@ -2374,23 +2385,24 @@ var DocComponents = (() => {
             if (parentA.child === parentB.child) {
               for (parentB = parentA.child; parentB; ) {
                 if (parentB === a) return (assertIsMounted(parentA), fiber);
-                if (parentB === b) return (assertIsMounted(parentA), alternate);
+                if (parentB === b2)
+                  return (assertIsMounted(parentA), alternate);
                 parentB = parentB.sibling;
               }
               throw Error("Unable to find node on an unmounted component.");
             }
-            if (a.return !== b.return) ((a = parentA), (b = parentB));
+            if (a.return !== b2.return) ((a = parentA), (b2 = parentB));
             else {
               for (var didFindChild = false, _child = parentA.child; _child; ) {
                 if (_child === a) {
                   didFindChild = true;
                   a = parentA;
-                  b = parentB;
+                  b2 = parentB;
                   break;
                 }
-                if (_child === b) {
+                if (_child === b2) {
                   didFindChild = true;
-                  b = parentA;
+                  b2 = parentA;
                   a = parentB;
                   break;
                 }
@@ -2401,12 +2413,12 @@ var DocComponents = (() => {
                   if (_child === a) {
                     didFindChild = true;
                     a = parentB;
-                    b = parentA;
+                    b2 = parentA;
                     break;
                   }
-                  if (_child === b) {
+                  if (_child === b2) {
                     didFindChild = true;
-                    b = parentB;
+                    b2 = parentB;
                     a = parentA;
                     break;
                   }
@@ -2418,7 +2430,7 @@ var DocComponents = (() => {
                   );
               }
             }
-            if (a.alternate !== b)
+            if (a.alternate !== b2)
               throw Error(
                 "Return fibers should always be each others' alternates. This error is likely caused by a bug in React. Please file an issue."
               );
@@ -2500,7 +2512,7 @@ var DocComponents = (() => {
                 type = type._init;
                 try {
                   return getComponentNameFromType(type(innerType));
-                } catch (x) {}
+                } catch (x2) {}
             }
           return null;
         }
@@ -2756,19 +2768,19 @@ var DocComponents = (() => {
           if (void 0 === prefix)
             try {
               throw Error();
-            } catch (x) {
-              var match = x.stack.trim().match(/\n( *(at )?)/);
+            } catch (x2) {
+              var match = x2.stack.trim().match(/\n( *(at )?)/);
               prefix = (match && match[1]) || "";
               suffix =
-                -1 < x.stack.indexOf("\n    at")
+                -1 < x2.stack.indexOf("\n    at")
                   ? " (<anonymous>)"
-                  : -1 < x.stack.indexOf("@")
+                  : -1 < x2.stack.indexOf("@")
                     ? "@unknown:0:0"
                     : "";
             }
           return "\n" + prefix + name + suffix;
         }
-        function describeNativeComponentFrame(fn, construct) {
+        function describeNativeComponentFrame(fn, construct2) {
           if (!fn || reentry) return "";
           var frame = componentFrameCache.get(fn);
           if (void 0 !== frame) return frame;
@@ -2783,7 +2795,7 @@ var DocComponents = (() => {
             var RunInRootFrame = {
               DetermineComponentFrameRoot: function () {
                 try {
-                  if (construct) {
+                  if (construct2) {
                     var Fake = function () {
                       throw Error();
                     };
@@ -2795,8 +2807,8 @@ var DocComponents = (() => {
                     if ("object" === typeof Reflect && Reflect.construct) {
                       try {
                         Reflect.construct(Fake, []);
-                      } catch (x) {
-                        var control = x;
+                      } catch (x2) {
+                        var control = x2;
                       }
                       Reflect.construct(fn, [], Fake);
                     } else {
@@ -2991,8 +3003,8 @@ var DocComponents = (() => {
               workInProgress2 = workInProgress2.return;
             } while (workInProgress2);
             return info;
-          } catch (x) {
-            return "\nError generating stack: " + x.message + "\n" + x.stack;
+          } catch (x2) {
+            return "\nError generating stack: " + x2.message + "\n" + x2.stack;
           }
         }
         function describeFunctionComponentFrameWithoutLineNumber(fn) {
@@ -3060,9 +3072,9 @@ var DocComponents = (() => {
                   (info += "\n" + formatOwnerStack(ownerStack));
               } else break;
             var JSCompiler_inline_result = info;
-          } catch (x) {
+          } catch (x2) {
             JSCompiler_inline_result =
-              "\nError generating stack: " + x.message + "\n" + x.stack;
+              "\nError generating stack: " + x2.message + "\n" + x2.stack;
           }
           return JSCompiler_inline_result;
         }
@@ -3184,9 +3196,9 @@ var DocComponents = (() => {
                 ));
             }
         }
-        function clz32Fallback(x) {
-          x >>>= 0;
-          return 0 === x ? 32 : (31 - ((log(x) / LN2) | 0)) | 0;
+        function clz32Fallback(x2) {
+          x2 >>>= 0;
+          return 0 === x2 ? 32 : (31 - ((log(x2) / LN2) | 0)) | 0;
         }
         function getHighestPriorityLanes(lanes) {
           var pendingSyncLanes = lanes & 42;
@@ -3965,7 +3977,7 @@ var DocComponents = (() => {
         function validateOptionProps(element, props) {
           null == props.value &&
             ("object" === typeof props.children && null !== props.children
-              ? React22.Children.forEach(props.children, function (child) {
+              ? React23.Children.forEach(props.children, function (child) {
                   null == child ||
                     "string" === typeof child ||
                     "number" === typeof child ||
@@ -4205,7 +4217,7 @@ var DocComponents = (() => {
         function objectName(object) {
           return Object.prototype.toString
             .call(object)
-            .replace(/^\[object (.*)\]$/, function (m, p0) {
+            .replace(/^\[object (.*)\]$/, function (m2, p0) {
               return p0;
             });
         }
@@ -4580,7 +4592,7 @@ var DocComponents = (() => {
         function describeDiff(rootNode) {
           try {
             return "\n\n" + describeNode(rootNode, 0);
-          } catch (x) {
+          } catch (x2) {
             return "";
           }
         }
@@ -4909,22 +4921,22 @@ var DocComponents = (() => {
               );
           return false;
         }
-        function setTextContent(node, text) {
-          if (text) {
+        function setTextContent(node, text2) {
+          if (text2) {
             var firstChild = node.firstChild;
             if (
               firstChild &&
               firstChild === node.lastChild &&
               3 === firstChild.nodeType
             ) {
-              firstChild.nodeValue = text;
+              firstChild.nodeValue = text2;
               return;
             }
           }
-          node.textContent = text;
+          node.textContent = text2;
         }
         function camelize(string) {
-          return string.replace(hyphenPattern, function (_, character) {
+          return string.replace(hyphenPattern, function (_2, character) {
             return character.toUpperCase();
           });
         }
@@ -5527,8 +5539,8 @@ var DocComponents = (() => {
             }
           }
         }
-        function batchedUpdates$1(fn, a, b) {
-          if (isInsideEventHandler) return fn(a, b);
+        function batchedUpdates$1(fn, a, b2) {
+          if (isInsideEventHandler) return fn(a, b2);
           isInsideEventHandler = true;
           try {
             var JSCompiler_inline_result = fn(a);
@@ -5878,9 +5890,10 @@ var DocComponents = (() => {
           if ("input" === domEventName || "change" === domEventName)
             return getInstIfValueChanged(targetInst);
         }
-        function is(x, y) {
+        function is(x2, y2) {
           return (
-            (x === y && (0 !== x || 1 / x === 1 / y)) || (x !== x && y !== y)
+            (x2 === y2 && (0 !== x2 || 1 / x2 === 1 / y2)) ||
+            (x2 !== x2 && y2 !== y2)
           );
         }
         function shallowEqual(objA, objB) {
@@ -8403,18 +8416,18 @@ var DocComponents = (() => {
         function resolveLazy(lazyType) {
           try {
             return callLazyInitInDEV(lazyType);
-          } catch (x) {
+          } catch (x2) {
             if (
-              null !== x &&
-              "object" === typeof x &&
-              "function" === typeof x.then
+              null !== x2 &&
+              "object" === typeof x2 &&
+              "function" === typeof x2.then
             )
               throw (
-                (suspendedThenable = x),
+                (suspendedThenable = x2),
                 (needsToResetSuspendedThenableDEV = true),
                 SuspenseException
               );
-            throw x;
+            throw x2;
           }
         }
         function getSuspendedThenable() {
@@ -9555,10 +9568,10 @@ var DocComponents = (() => {
               );
               thenableState$1 = null;
               return firstChildFiber;
-            } catch (x) {
-              if (x === SuspenseException || x === SuspenseActionException)
-                throw x;
-              var fiber = createFiber(29, x, null, returnFiber.mode);
+            } catch (x2) {
+              if (x2 === SuspenseException || x2 === SuspenseActionException)
+                throw x2;
+              var fiber = createFiber(29, x2, null, returnFiber.mode);
               fiber.lanes = lanes;
               fiber.return = returnFiber;
               var debugInfo = (fiber._debugInfo = currentDebugInfo);
@@ -9677,7 +9690,7 @@ var DocComponents = (() => {
             queue = queue.firstBaseUpdate;
             if (null !== queue) {
               do {
-                var clone = {
+                var clone2 = {
                   lane: queue.lane,
                   tag: queue.tag,
                   payload: queue.payload,
@@ -9685,8 +9698,8 @@ var DocComponents = (() => {
                   next: null,
                 };
                 null === newLast
-                  ? (newFirst = newLast = clone)
-                  : (newLast = newLast.next = clone);
+                  ? (newFirst = newLast = clone2)
+                  : (newLast = newLast.next = clone2);
                 queue = queue.next;
               } while (null !== queue);
               null === newLast
@@ -10683,8 +10696,8 @@ var DocComponents = (() => {
             ((hook.memoizedState = getServerSnapshot),
               (didReceiveUpdate = true));
           hook = hook.queue;
-          var create = subscribeToStore.bind(null, fiber, hook, subscribe);
-          updateEffectImpl(2048, Passive, create, [subscribe]);
+          var create2 = subscribeToStore.bind(null, fiber, hook, subscribe);
+          updateEffectImpl(2048, Passive, create2, [subscribe]);
           if (
             hook.getSnapshot !== getSnapshot ||
             cachedSnapshot ||
@@ -11081,9 +11094,9 @@ var DocComponents = (() => {
           )
             try {
               var state = useThenable(currentStateHook);
-            } catch (x) {
-              if (x === SuspenseException) throw SuspenseActionException;
-              throw x;
+            } catch (x2) {
+              if (x2 === SuspenseException) throw SuspenseActionException;
+              throw x2;
             }
           else state = currentStateHook;
           currentStateHook = updateWorkInProgressHook();
@@ -11114,17 +11127,17 @@ var DocComponents = (() => {
           currentStateHook.memoizedState = action;
           return [stateHook, dispatch, false];
         }
-        function pushSimpleEffect(tag, inst, create, deps) {
-          tag = { tag, create, deps, inst, next: null };
+        function pushSimpleEffect(tag, inst, create2, deps) {
+          tag = { tag, create: create2, deps, inst, next: null };
           inst = currentlyRenderingFiber.updateQueue;
           null === inst &&
             ((inst = createFunctionComponentUpdateQueue()),
             (currentlyRenderingFiber.updateQueue = inst));
-          create = inst.lastEffect;
-          null === create
+          create2 = inst.lastEffect;
+          null === create2
             ? (inst.lastEffect = tag.next = tag)
-            : ((deps = create.next),
-              (create.next = tag),
+            : ((deps = create2.next),
+              (create2.next = tag),
               (tag.next = deps),
               (inst.lastEffect = tag));
           return tag;
@@ -11134,17 +11147,17 @@ var DocComponents = (() => {
           initialValue = { current: initialValue };
           return (hook.memoizedState = initialValue);
         }
-        function mountEffectImpl(fiberFlags, hookFlags, create, deps) {
+        function mountEffectImpl(fiberFlags, hookFlags, create2, deps) {
           var hook = mountWorkInProgressHook();
           currentlyRenderingFiber.flags |= fiberFlags;
           hook.memoizedState = pushSimpleEffect(
             HasEffect | hookFlags,
             { destroy: void 0 },
-            create,
+            create2,
             void 0 === deps ? null : deps
           );
         }
-        function updateEffectImpl(fiberFlags, hookFlags, create, deps) {
+        function updateEffectImpl(fiberFlags, hookFlags, create2, deps) {
           var hook = updateWorkInProgressHook();
           deps = void 0 === deps ? null : deps;
           var inst = hook.memoizedState.inst;
@@ -11154,21 +11167,21 @@ var DocComponents = (() => {
             ? (hook.memoizedState = pushSimpleEffect(
                 hookFlags,
                 inst,
-                create,
+                create2,
                 deps
               ))
             : ((currentlyRenderingFiber.flags |= fiberFlags),
               (hook.memoizedState = pushSimpleEffect(
                 HasEffect | hookFlags,
                 inst,
-                create,
+                create2,
                 deps
               )));
         }
-        function mountEffect(create, deps) {
+        function mountEffect(create2, deps) {
           (currentlyRenderingFiber.mode & StrictEffectsMode) !== NoMode
-            ? mountEffectImpl(276826112, Passive, create, deps)
-            : mountEffectImpl(8390656, Passive, create, deps);
+            ? mountEffectImpl(276826112, Passive, create2, deps)
+            : mountEffectImpl(8390656, Passive, create2, deps);
         }
         function useEffectEventImpl(payload) {
           currentlyRenderingFiber.flags |= 4;
@@ -11207,16 +11220,16 @@ var DocComponents = (() => {
             return ref.impl.apply(void 0, arguments);
           };
         }
-        function mountLayoutEffect(create, deps) {
+        function mountLayoutEffect(create2, deps) {
           var fiberFlags = 4194308;
           (currentlyRenderingFiber.mode & StrictEffectsMode) !== NoMode &&
             (fiberFlags |= 134217728);
-          return mountEffectImpl(fiberFlags, Layout, create, deps);
+          return mountEffectImpl(fiberFlags, Layout, create2, deps);
         }
-        function imperativeHandleEffect(create, ref) {
+        function imperativeHandleEffect(create2, ref) {
           if ("function" === typeof ref) {
-            create = create();
-            var refCleanup = ref(create);
+            create2 = create2();
+            var refCleanup = ref(create2);
             return function () {
               "function" === typeof refCleanup ? refCleanup() : ref(null);
             };
@@ -11228,18 +11241,18 @@ var DocComponents = (() => {
                   "Expected useImperativeHandle() first argument to either be a ref callback or React.createRef() object. Instead received: %s.",
                   "an object with keys {" + Object.keys(ref).join(", ") + "}"
                 ),
-              (create = create()),
-              (ref.current = create),
+              (create2 = create2()),
+              (ref.current = create2),
               function () {
                 ref.current = null;
               }
             );
         }
-        function mountImperativeHandle(ref, create, deps) {
-          "function" !== typeof create &&
+        function mountImperativeHandle(ref, create2, deps) {
+          "function" !== typeof create2 &&
             console.error(
               "Expected useImperativeHandle() second argument to be a function that creates a handle. Instead received: %s.",
-              null !== create ? typeof create : "null"
+              null !== create2 ? typeof create2 : "null"
             );
           deps = null !== deps && void 0 !== deps ? deps.concat([ref]) : null;
           var fiberFlags = 4194308;
@@ -11248,21 +11261,21 @@ var DocComponents = (() => {
           mountEffectImpl(
             fiberFlags,
             Layout,
-            imperativeHandleEffect.bind(null, create, ref),
+            imperativeHandleEffect.bind(null, create2, ref),
             deps
           );
         }
-        function updateImperativeHandle(ref, create, deps) {
-          "function" !== typeof create &&
+        function updateImperativeHandle(ref, create2, deps) {
+          "function" !== typeof create2 &&
             console.error(
               "Expected useImperativeHandle() second argument to be a function that creates a handle. Instead received: %s.",
-              null !== create ? typeof create : "null"
+              null !== create2 ? typeof create2 : "null"
             );
           deps = null !== deps && void 0 !== deps ? deps.concat([ref]) : null;
           updateEffectImpl(
             4,
             Layout,
-            imperativeHandleEffect.bind(null, create, ref),
+            imperativeHandleEffect.bind(null, create2, ref),
             deps
           );
         }
@@ -23016,7 +23029,7 @@ var DocComponents = (() => {
                 typeof listener
               );
         }
-        function normalizeHTML(parent, html) {
+        function normalizeHTML(parent, html2) {
           parent =
             parent.namespaceURI === MATH_NAMESPACE ||
             parent.namespaceURI === SVG_NAMESPACE
@@ -23025,7 +23038,7 @@ var DocComponents = (() => {
                   parent.tagName
                 )
               : parent.ownerDocument.createElement(parent.tagName);
-          parent.innerHTML = html;
+          parent.innerHTML = html2;
           return parent.innerHTML;
         }
         function normalizeMarkupForTextOrAttribute(markup) {
@@ -25520,8 +25533,8 @@ var DocComponents = (() => {
               ? ""
               : ("" + props).trim();
         }
-        function unhideTextInstance(textInstance, text) {
-          textInstance.nodeValue = text;
+        function unhideTextInstance(textInstance, text2) {
+          textInstance.nodeValue = text2;
         }
         function clearContainerSparingly(container) {
           var nextNode = container.firstChild;
@@ -25620,8 +25633,8 @@ var DocComponents = (() => {
           }
           return null;
         }
-        function canHydrateTextInstance(instance, text, inRootOrSingleton) {
-          if ("" === text) return null;
+        function canHydrateTextInstance(instance, text2, inRootOrSingleton) {
+          if ("" === text2) return null;
           for (; 3 !== instance.nodeType; ) {
             if (
               (1 !== instance.nodeType ||
@@ -25732,18 +25745,18 @@ var DocComponents = (() => {
         }
         function diffHydratedTextForDevWarnings(
           textInstance,
-          text,
+          text2,
           parentProps
         ) {
           return null === parentProps ||
             true !== parentProps[SUPPRESS_HYDRATION_WARNING]
-            ? (textInstance.nodeValue === text
+            ? (textInstance.nodeValue === text2
                 ? (textInstance = null)
-                : ((text = normalizeMarkupForTextOrAttribute(text)),
+                : ((text2 = normalizeMarkupForTextOrAttribute(text2)),
                   (textInstance =
                     normalizeMarkupForTextOrAttribute(
                       textInstance.nodeValue
-                    ) === text
+                    ) === text2
                       ? null
                       : textInstance.nodeValue)),
               textInstance)
@@ -27465,7 +27478,7 @@ var DocComponents = (() => {
             typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart &&
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
         var Scheduler = require_scheduler(),
-          React22 = require_react(),
+          React23 = require_react(),
           ReactDOM = require_react_dom(),
           assign = Object.assign,
           REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"),
@@ -27491,7 +27504,7 @@ var DocComponents = (() => {
           REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"),
           isArrayImpl = Array.isArray,
           ReactSharedInternals =
-            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+            React23.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           ReactDOMSharedInternals =
             ReactDOM.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           NotPending = Object.freeze({
@@ -29333,10 +29346,10 @@ var DocComponents = (() => {
             ),
           callCreate = {
             react_stack_bottom_frame: function (effect) {
-              var create = effect.create;
+              var create2 = effect.create;
               effect = effect.inst;
-              create = create();
-              return (effect.destroy = create);
+              create2 = create2();
+              return (effect.destroy = create2);
             },
           },
           callCreateInDEV =
@@ -29538,38 +29551,38 @@ var DocComponents = (() => {
             mountHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             mountHookTypesDev();
             checkDepsAreArrayDev(deps);
-            return mountEffect(create, deps);
+            return mountEffect(create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             mountHookTypesDev();
             checkDepsAreArrayDev(deps);
-            return mountImperativeHandle(ref, create, deps);
+            return mountImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             mountHookTypesDev();
             checkDepsAreArrayDev(deps);
-            mountEffectImpl(4, Insertion, create, deps);
+            mountEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             mountHookTypesDev();
             checkDepsAreArrayDev(deps);
-            return mountLayoutEffect(create, deps);
+            return mountLayoutEffect(create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             mountHookTypesDev();
             checkDepsAreArrayDev(deps);
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnMountInDEV;
             try {
-              return mountMemo(create, deps);
+              return mountMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -29677,33 +29690,33 @@ var DocComponents = (() => {
             updateHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             updateHookTypesDev();
-            return mountEffect(create, deps);
+            return mountEffect(create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             updateHookTypesDev();
-            return mountImperativeHandle(ref, create, deps);
+            return mountImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             updateHookTypesDev();
-            mountEffectImpl(4, Insertion, create, deps);
+            mountEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             updateHookTypesDev();
-            return mountLayoutEffect(create, deps);
+            return mountLayoutEffect(create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             updateHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnMountInDEV;
             try {
-              return mountMemo(create, deps);
+              return mountMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -29811,33 +29824,33 @@ var DocComponents = (() => {
             updateHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             updateHookTypesDev();
-            updateEffectImpl(2048, Passive, create, deps);
+            updateEffectImpl(2048, Passive, create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             updateHookTypesDev();
-            return updateImperativeHandle(ref, create, deps);
+            return updateImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             updateHookTypesDev();
-            return updateEffectImpl(4, Insertion, create, deps);
+            return updateEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             updateHookTypesDev();
-            return updateEffectImpl(4, Layout, create, deps);
+            return updateEffectImpl(4, Layout, create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             updateHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnUpdateInDEV;
             try {
-              return updateMemo(create, deps);
+              return updateMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -29945,34 +29958,34 @@ var DocComponents = (() => {
             updateHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             updateHookTypesDev();
-            updateEffectImpl(2048, Passive, create, deps);
+            updateEffectImpl(2048, Passive, create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             updateHookTypesDev();
-            return updateImperativeHandle(ref, create, deps);
+            return updateImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             updateHookTypesDev();
-            return updateEffectImpl(4, Insertion, create, deps);
+            return updateEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             updateHookTypesDev();
-            return updateEffectImpl(4, Layout, create, deps);
+            return updateEffectImpl(4, Layout, create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             updateHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H =
               InvalidNestedHooksDispatcherOnRerenderInDEV;
             try {
-              return updateMemo(create, deps);
+              return updateMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -30088,38 +30101,38 @@ var DocComponents = (() => {
             mountHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             warnInvalidHookAccess();
             mountHookTypesDev();
-            return mountEffect(create, deps);
+            return mountEffect(create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             warnInvalidHookAccess();
             mountHookTypesDev();
-            return mountImperativeHandle(ref, create, deps);
+            return mountImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             warnInvalidHookAccess();
             mountHookTypesDev();
-            mountEffectImpl(4, Insertion, create, deps);
+            mountEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             warnInvalidHookAccess();
             mountHookTypesDev();
-            return mountLayoutEffect(create, deps);
+            return mountLayoutEffect(create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             warnInvalidHookAccess();
             mountHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnMountInDEV;
             try {
-              return mountMemo(create, deps);
+              return mountMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -30247,38 +30260,38 @@ var DocComponents = (() => {
             updateHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            updateEffectImpl(2048, Passive, create, deps);
+            updateEffectImpl(2048, Passive, create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateImperativeHandle(ref, create, deps);
+            return updateImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateEffectImpl(4, Insertion, create, deps);
+            return updateEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateEffectImpl(4, Layout, create, deps);
+            return updateEffectImpl(4, Layout, create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             warnInvalidHookAccess();
             updateHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnUpdateInDEV;
             try {
-              return updateMemo(create, deps);
+              return updateMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -30406,38 +30419,38 @@ var DocComponents = (() => {
             updateHookTypesDev();
             return readContext(context);
           },
-          useEffect: function (create, deps) {
+          useEffect: function (create2, deps) {
             currentHookNameInDev = "useEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            updateEffectImpl(2048, Passive, create, deps);
+            updateEffectImpl(2048, Passive, create2, deps);
           },
-          useImperativeHandle: function (ref, create, deps) {
+          useImperativeHandle: function (ref, create2, deps) {
             currentHookNameInDev = "useImperativeHandle";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateImperativeHandle(ref, create, deps);
+            return updateImperativeHandle(ref, create2, deps);
           },
-          useInsertionEffect: function (create, deps) {
+          useInsertionEffect: function (create2, deps) {
             currentHookNameInDev = "useInsertionEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateEffectImpl(4, Insertion, create, deps);
+            return updateEffectImpl(4, Insertion, create2, deps);
           },
-          useLayoutEffect: function (create, deps) {
+          useLayoutEffect: function (create2, deps) {
             currentHookNameInDev = "useLayoutEffect";
             warnInvalidHookAccess();
             updateHookTypesDev();
-            return updateEffectImpl(4, Layout, create, deps);
+            return updateEffectImpl(4, Layout, create2, deps);
           },
-          useMemo: function (create, deps) {
+          useMemo: function (create2, deps) {
             currentHookNameInDev = "useMemo";
             warnInvalidHookAccess();
             updateHookTypesDev();
             var prevDispatcher = ReactSharedInternals.H;
             ReactSharedInternals.H = InvalidNestedHooksDispatcherOnUpdateInDEV;
             try {
-              return updateMemo(create, deps);
+              return updateMemo(create2, deps);
             } finally {
               ReactSharedInternals.H = prevDispatcher;
             }
@@ -31319,7 +31332,7 @@ var DocComponents = (() => {
           }
         };
         (function () {
-          var isomorphicReactPackageVersion = React22.version;
+          var isomorphicReactPackageVersion = React23.version;
           if ("19.2.4" !== isomorphicReactPackageVersion)
             throw Error(
               'Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:\n  - react:      ' +
@@ -31584,7 +31597,7 @@ var DocComponents = (() => {
                 type = type._init;
                 try {
                   return getComponentNameFromType(type(innerType));
-                } catch (x) {}
+                } catch (x2) {}
             }
           return null;
         }
@@ -31626,7 +31639,7 @@ var DocComponents = (() => {
           try {
             var name = getComponentNameFromType(type);
             return name ? "<" + name + ">" : "<...>";
-          } catch (x) {
+          } catch (x2) {
             return "<...>";
           }
         }
@@ -31741,8 +31754,8 @@ var DocComponents = (() => {
             else validateChildKeys(children);
           if (hasOwnProperty.call(config, "key")) {
             children = getComponentNameFromType(type);
-            var keys = Object.keys(config).filter(function (k) {
-              return "key" !== k;
+            var keys = Object.keys(config).filter(function (k2) {
+              return "key" !== k2;
             });
             isStaticChildren =
               0 < keys.length
@@ -31805,7 +31818,7 @@ var DocComponents = (() => {
             object.$$typeof === REACT_ELEMENT_TYPE
           );
         }
-        var React22 = require_react(),
+        var React23 = require_react(),
           REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"),
           REACT_PORTAL_TYPE = Symbol.for("react.portal"),
           REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"),
@@ -31821,7 +31834,7 @@ var DocComponents = (() => {
           REACT_ACTIVITY_TYPE = Symbol.for("react.activity"),
           REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"),
           ReactSharedInternals =
-            React22.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+            React23.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
           hasOwnProperty = Object.prototype.hasOwnProperty,
           isArrayImpl = Array.isArray,
           createTask = console.createTask
@@ -31829,15 +31842,15 @@ var DocComponents = (() => {
             : function () {
                 return null;
               };
-        React22 = {
+        React23 = {
           react_stack_bottom_frame: function (callStackForError) {
             return callStackForError();
           },
         };
         var specialPropKeyWarningShown;
         var didWarnAboutElementRef = {};
-        var unknownOwnerDebugStack = React22.react_stack_bottom_frame.bind(
-          React22,
+        var unknownOwnerDebugStack = React23.react_stack_bottom_frame.bind(
+          React23,
           UnknownOwner
         )();
         var unknownOwnerDebugTask = createTask(getTaskName(UnknownOwner));
@@ -32029,6 +32042,7 @@ var DocComponents = (() => {
     ModalFooter: () => ModalFooter,
     ModalHeader: () => ModalHeader,
     ModalTitle: () => ModalTitle,
+    OzwellChat: () => OzwellChat,
     React: () => import_react16.default,
     SearchModal: () => SearchModal,
     SearchTrigger: () => SearchTrigger,
@@ -32132,7 +32146,7 @@ var DocComponents = (() => {
     };
   };
   var getGroupRecursive = (classParts, classPartObject) => {
-    var _a;
+    var _a2;
     if (classParts.length === 0) {
       return classPartObject.classGroupId;
     }
@@ -32148,11 +32162,11 @@ var DocComponents = (() => {
       return void 0;
     }
     const classRest = classParts.join(CLASS_PART_SEPARATOR);
-    return (_a = classPartObject.validators.find(({ validator }) =>
+    return (_a2 = classPartObject.validators.find(({ validator }) =>
       validator(classRest)
     )) == null
       ? void 0
-      : _a.classGroupId;
+      : _a2.classGroupId;
   };
   var arbitraryPropertyRegex = /^\[(.+)\]$/;
   var getGroupIdForArbitraryProperty = (className) => {
@@ -32463,9 +32477,9 @@ var DocComponents = (() => {
     }
     let resolvedValue;
     let string = "";
-    for (let k = 0; k < mix.length; k++) {
-      if (mix[k]) {
-        if ((resolvedValue = toValue(mix[k]))) {
+    for (let k2 = 0; k2 < mix.length; k2++) {
+      if (mix[k2]) {
+        if ((resolvedValue = toValue(mix[k2]))) {
           string && (string += " ");
           string += resolvedValue;
         }
@@ -36276,22 +36290,22 @@ var DocComponents = (() => {
     const selectedOption = flatOptions.find((opt) => opt.value === value);
     useClickOutside(containerRef, () => setIsOpen(false));
     useEscapeKey(() => {
-      var _a;
+      var _a2;
       if (isOpen) {
         setIsOpen(false);
-        (_a = triggerRef.current) == null ? void 0 : _a.focus();
+        (_a2 = triggerRef.current) == null ? void 0 : _a2.focus();
       }
     }, isOpen);
     const handleValueChange = React3.useCallback(
       (newValue) => {
-        var _a;
+        var _a2;
         if (!isControlled) {
           setUncontrolledValue(newValue);
         }
         onValueChange == null ? void 0 : onValueChange(newValue);
         setIsOpen(false);
         setSearchQuery("");
-        (_a = triggerRef.current) == null ? void 0 : _a.focus();
+        (_a2 = triggerRef.current) == null ? void 0 : _a2.focus();
       },
       [isControlled, onValueChange]
     );
@@ -36446,7 +36460,7 @@ var DocComponents = (() => {
                             children: noResultsText,
                           })
                         : filteredOptions.map((item) => {
-                            var _a;
+                            var _a2;
                             if ("options" in item) {
                               return /* @__PURE__ */ (0,
                               import_jsx_runtime3.jsxs)(
@@ -36465,7 +36479,7 @@ var DocComponents = (() => {
                                       role: "group",
                                       "aria-label": item.label,
                                       children: item.options.map((option) => {
-                                        var _a2;
+                                        var _a3;
                                         return /* @__PURE__ */ (0,
                                         import_jsx_runtime3.jsx)(
                                           SelectOptionItem,
@@ -36473,12 +36487,12 @@ var DocComponents = (() => {
                                             option,
                                             isSelected: option.value === value,
                                             isHighlighted:
-                                              ((_a2 =
+                                              ((_a3 =
                                                 filteredFlatOptions[
                                                   highlightedIndex
                                                 ]) == null
                                                 ? void 0
-                                                : _a2.value) === option.value,
+                                                : _a3.value) === option.value,
                                             onSelect: () =>
                                               handleValueChange(option.value),
                                             onMouseEnter: () => {
@@ -36505,11 +36519,11 @@ var DocComponents = (() => {
                                 option: item,
                                 isSelected: item.value === value,
                                 isHighlighted:
-                                  ((_a =
+                                  ((_a2 =
                                     filteredFlatOptions[highlightedIndex]) ==
                                   null
                                     ? void 0
-                                    : _a.value) === item.value,
+                                    : _a2.value) === item.value,
                                 onSelect: () => handleValueChange(item.value),
                                 onMouseEnter: () => {
                                   const idx = filteredFlatOptions.findIndex(
@@ -36686,7 +36700,7 @@ var DocComponents = (() => {
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
       className: cn(gapClasses[gap], className),
       "aria-hidden": "true",
-      children: Array.from({ length: lines }).map((_, index) =>
+      children: Array.from({ length: lines }).map((_2, index) =>
         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
           Skeleton,
           {
@@ -36766,7 +36780,7 @@ var DocComponents = (() => {
       children: [
         /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
           className: "flex gap-4",
-          children: Array.from({ length: columns }).map((_, i) =>
+          children: Array.from({ length: columns }).map((_2, i) =>
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
               Skeleton,
               { variant: "text", className: "h-5 flex-1" },
@@ -36774,12 +36788,12 @@ var DocComponents = (() => {
             )
           ),
         }),
-        Array.from({ length: rows }).map((_, rowIndex) =>
+        Array.from({ length: rows }).map((_2, rowIndex) =>
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
             "div",
             {
               className: "flex gap-4",
-              children: Array.from({ length: columns }).map((_2, colIndex) =>
+              children: Array.from({ length: columns }).map((_22, colIndex) =>
                 /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
                   Skeleton,
                   {
@@ -36872,7 +36886,12 @@ var DocComponents = (() => {
     });
   }
   SpinnerWithLabel.displayName = "SpinnerWithLabel";
-  function FullPageSpinner({ backdrop = true, text, size = "xl", ...props }) {
+  function FullPageSpinner({
+    backdrop = true,
+    text: text2,
+    size = "xl",
+    ...props
+  }) {
     return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
       className: cn(
         "fixed inset-0 z-50 flex flex-col items-center justify-center gap-4",
@@ -36883,10 +36902,10 @@ var DocComponents = (() => {
           size,
           ...props,
         }),
-        text &&
+        text2 &&
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", {
             className: "text-muted-foreground text-sm",
-            children: text,
+            children: text2,
           }),
       ],
     });
@@ -37108,7 +37127,7 @@ var DocComponents = (() => {
     const { variant } = useTabsContext();
     const listRef = React5.useRef(null);
     const handleKeyDown = React5.useCallback((e) => {
-      var _a, _b, _c, _d;
+      var _a2, _b, _c, _d;
       const list = listRef.current;
       if (!list) return;
       const triggers = Array.from(
@@ -37124,7 +37143,7 @@ var DocComponents = (() => {
           e.preventDefault();
           nextIndex =
             currentIndex === triggers.length - 1 ? 0 : currentIndex + 1;
-          (_a = triggers[nextIndex]) == null ? void 0 : _a.focus();
+          (_a2 = triggers[nextIndex]) == null ? void 0 : _a2.focus();
           break;
         case "ArrowLeft":
         case "ArrowUp":
@@ -39556,7 +39575,7 @@ var DocComponents = (() => {
       });
     };
     React46.useEffect(() => {
-      var _a;
+      var _a2;
       if (
         !(googlePlaces == null ? void 0 : googlePlaces.enabled) ||
         !inputRef.current
@@ -39564,7 +39583,7 @@ var DocComponents = (() => {
         return;
       if (
         typeof google === "undefined" ||
-        !((_a = google.maps) == null ? void 0 : _a.places)
+        !((_a2 = google.maps) == null ? void 0 : _a2.places)
       ) {
         console.warn(
           "Google Maps Places API is not loaded. Autocomplete will not work."
@@ -39583,9 +39602,9 @@ var DocComponents = (() => {
         options
       );
       autocompleteRef.current.addListener("place_changed", () => {
-        var _a2, _b, _c;
+        var _a3, _b, _c;
         const place =
-          (_a2 = autocompleteRef.current) == null ? void 0 : _a2.getPlace();
+          (_a3 = autocompleteRef.current) == null ? void 0 : _a3.getPlace();
         if (!(place == null ? void 0 : place.address_components)) return;
         const addressData = {};
         let streetNumber = "";
@@ -40023,11 +40042,11 @@ var DocComponents = (() => {
     return colors[Math.abs(hash) % colors.length];
   }
   function cellRendererPropsAreEqual(prevProps, nextProps) {
-    var _a, _b;
+    var _a2, _b;
     if (prevProps.value !== nextProps.value) return false;
     if (prevProps.data !== nextProps.data) return false;
     if (
-      ((_a = prevProps.node) == null ? void 0 : _a.rowIndex) !==
+      ((_a2 = prevProps.node) == null ? void 0 : _a2.rowIndex) !==
       ((_b = nextProps.node) == null ? void 0 : _b.rowIndex)
     )
       return false;
@@ -40066,7 +40085,7 @@ var DocComponents = (() => {
     },
   };
   function AvatarNameRenderer(props) {
-    var _a;
+    var _a2;
     const { data, value } = props;
     if (!data && !value)
       return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
@@ -40086,9 +40105,9 @@ var DocComponents = (() => {
     const domain =
       props.domainField && data
         ? getNestedValue(data, props.domainField)
-        : ((_a = data == null ? void 0 : data.company) == null
+        : ((_a2 = data == null ? void 0 : data.company) == null
             ? void 0
-            : _a.domain) || (data == null ? void 0 : data.domain);
+            : _a2.domain) || (data == null ? void 0 : data.domain);
     const faviconUrl = getFaviconUrl(domain);
     const initials = getInitials2(displayName);
     const imageUrl = avatarUrl || faviconUrl;
@@ -40433,7 +40452,7 @@ var DocComponents = (() => {
     });
   }
   function CompanyRenderer(props) {
-    var _a;
+    var _a2;
     const { data, value } = props;
     if (!value)
       return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("span", {
@@ -40443,9 +40462,9 @@ var DocComponents = (() => {
     const domain =
       props.domainField && data
         ? getNestedValue(data, props.domainField)
-        : ((_a = data == null ? void 0 : data.company) == null
+        : ((_a2 = data == null ? void 0 : data.company) == null
             ? void 0
-            : _a.domain) || (data == null ? void 0 : data.domain);
+            : _a2.domain) || (data == null ? void 0 : data.domain);
     const faviconUrl = getFaviconUrl(domain);
     return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
       className: "flex items-center gap-2 py-0.5",
@@ -41691,7 +41710,7 @@ var DocComponents = (() => {
     return `attachment-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
   function AttachmentPreviewItem({ attachment, onRemove, onRetry, className }) {
-    var _a;
+    var _a2;
     const { file, previewUrl, type, state, progress } = attachment;
     const isImage2 = type === "image";
     const isVideo = type === "video";
@@ -41761,9 +41780,9 @@ var DocComponents = (() => {
                   className:
                     "mt-1 max-w-full truncate px-1 text-xs text-neutral-500",
                   children:
-                    (_a = file.name.split(".").pop()) == null
+                    (_a2 = file.name.split(".").pop()) == null
                       ? void 0
-                      : _a.toUpperCase(),
+                      : _a2.toUpperCase(),
                 }),
               ],
             }),
@@ -41895,8 +41914,8 @@ var DocComponents = (() => {
       const inputRef = React46.useRef(null);
       React46.useImperativeHandle(ref, () => inputRef.current);
       const handleClick = () => {
-        var _a;
-        (_a = inputRef.current) == null ? void 0 : _a.click();
+        var _a2;
+        (_a2 = inputRef.current) == null ? void 0 : _a2.click();
       };
       const handleChange = (event) => {
         const files = Array.from(event.target.files || []);
@@ -42085,12 +42104,12 @@ var DocComponents = (() => {
   }) {
     const inputRef = React46.useRef(null);
     const handleClick = () => {
-      var _a;
-      (_a = inputRef.current) == null ? void 0 : _a.click();
+      var _a2;
+      (_a2 = inputRef.current) == null ? void 0 : _a2.click();
     };
     const handleChange = (event) => {
-      var _a;
-      const file = (_a = event.target.files) == null ? void 0 : _a[0];
+      var _a2;
+      const file = (_a2 = event.target.files) == null ? void 0 : _a2[0];
       if (file) {
         onCapture(file);
       }
@@ -42309,15 +42328,15 @@ var DocComponents = (() => {
         };
       }, [content, isTyping, onTypingStart, onTypingStop]);
       React46.useEffect(() => {
-        var _a;
+        var _a2;
         if (autoFocus) {
-          (_a = textareaRef.current) == null ? void 0 : _a.focus();
+          (_a2 = textareaRef.current) == null ? void 0 : _a2.focus();
         }
       }, [autoFocus]);
       React46.useEffect(() => {
-        var _a;
+        var _a2;
         if (replyTo) {
-          (_a = textareaRef.current) == null ? void 0 : _a.focus();
+          (_a2 = textareaRef.current) == null ? void 0 : _a2.focus();
         }
       }, [replyTo]);
       const canSend =
@@ -43460,7 +43479,7 @@ var DocComponents = (() => {
           ),
           "aria-busy": "true",
           "aria-label": "Loading messages",
-          children: Array.from({ length: 8 }).map((_, i) =>
+          children: Array.from({ length: 8 }).map((_2, i) =>
             /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
               SkeletonMessage,
               {
@@ -43567,10 +43586,10 @@ var DocComponents = (() => {
             /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
               type: "button",
               onClick: () => {
-                var _a;
-                (_a = bottomRef.current) == null
+                var _a2;
+                (_a2 = bottomRef.current) == null
                   ? void 0
-                  : _a.scrollIntoView({ behavior: "smooth" });
+                  : _a2.scrollIntoView({ behavior: "smooth" });
               },
               className: cn(
                 "fixed right-4 bottom-24 z-10",
@@ -43800,10 +43819,10 @@ var DocComponents = (() => {
       isGeneratingProp ||
       false;
     React46.useEffect(() => {
-      var _a;
-      (_a = messagesEndRef.current) == null
+      var _a2;
+      (_a2 = messagesEndRef.current) == null
         ? void 0
-        : _a.scrollIntoView({ behavior: "smooth" });
+        : _a2.scrollIntoView({ behavior: "smooth" });
     }, [messages]);
     const handleSend = async (message) => {
       if (message.content.trim() && onSendMessage) {
@@ -44332,12 +44351,12 @@ var DocComponents = (() => {
       if (query.trim()) {
         const lowerQuery = query.toLowerCase();
         result = result.filter((item) => {
-          var _a, _b;
+          var _a2, _b;
           return (
             item.label.toLowerCase().includes(lowerQuery) ||
-            ((_a = item.subtitle) == null
+            ((_a2 = item.subtitle) == null
               ? void 0
-              : _a.toLowerCase().includes(lowerQuery)) ||
+              : _a2.toLowerCase().includes(lowerQuery)) ||
             ((_b = item.description) == null
               ? void 0
               : _b.toLowerCase().includes(lowerQuery))
@@ -44361,8 +44380,8 @@ var DocComponents = (() => {
     (0, import_react9.useEffect)(() => {
       if (isOpen) {
         setTimeout(() => {
-          var _a;
-          return (_a = inputRef.current) == null ? void 0 : _a.focus();
+          var _a2;
+          return (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
         }, 50);
       }
     }, [isOpen]);
@@ -44969,17 +44988,17 @@ var DocComponents = (() => {
       [disabled, onFilesSelected]
     );
     const handleClick = React46.useCallback(() => {
-      var _a;
+      var _a2;
       if (!disabled) {
-        (_a = inputRef.current) == null ? void 0 : _a.click();
+        (_a2 = inputRef.current) == null ? void 0 : _a2.click();
       }
     }, [disabled]);
     const handleKeyDown = React46.useCallback(
       (e) => {
-        var _a;
+        var _a2;
         if ((e.key === "Enter" || e.key === " ") && !disabled) {
           e.preventDefault();
-          (_a = inputRef.current) == null ? void 0 : _a.click();
+          (_a2 = inputRef.current) == null ? void 0 : _a2.click();
         }
       },
       [disabled]
@@ -45171,10 +45190,10 @@ var DocComponents = (() => {
   }
   function formatFileSize3(bytes) {
     if (bytes === 0) return "0 Bytes";
-    const k = 1024;
+    const k2 = 1024;
     const sizes = ["Bytes", "KB", "MB", "GB"];
-    const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+    const i = Math.floor(Math.log(bytes) / Math.log(k2));
+    return parseFloat((bytes / Math.pow(k2, i)).toFixed(2)) + " " + sizes[i];
   }
   function FilePreview({ files, onRemove, disabled }) {
     if (files.length === 0) {
@@ -45396,20 +45415,20 @@ var DocComponents = (() => {
     let sumSq = 0;
     let count = 0;
     const step = 4;
-    for (let y = step; y < height - step; y += step) {
-      for (let x = step; x < width - step; x += step) {
+    for (let y2 = step; y2 < height - step; y2 += step) {
+      for (let x2 = step; x2 < width - step; x2 += step) {
         const getGray = (px, py) => {
           const idx = (py * width + px) * 4;
           return (
             0.299 * data[idx] + 0.587 * data[idx + 1] + 0.114 * data[idx + 2]
           );
         };
-        const center = getGray(x, y);
+        const center = getGray(x2, y2);
         const neighbors =
-          (getGray(x, y - step) +
-            getGray(x - step, y) +
-            getGray(x + step, y) +
-            getGray(x, y + step)) /
+          (getGray(x2, y2 - step) +
+            getGray(x2 - step, y2) +
+            getGray(x2 + step, y2) +
+            getGray(x2, y2 + step)) /
           4;
         const laplacian = center - neighbors;
         sum += laplacian;
@@ -45444,9 +45463,9 @@ var DocComponents = (() => {
         let count = 0;
         const startX = gx * cellWidth;
         const startY = gy * cellHeight;
-        for (let y = startY; y < startY + cellHeight; y += 4) {
-          for (let x = startX; x < startX + cellWidth; x += 4) {
-            const idx = (y * width + x) * 4;
+        for (let y2 = startY; y2 < startY + cellHeight; y2 += 4) {
+          for (let x2 = startX; x2 < startX + cellWidth; x2 += 4) {
+            const idx = (y2 * width + x2) * 4;
             if (idx < data.length - 2) {
               sum +=
                 0.299 * data[idx] +
@@ -46449,8 +46468,8 @@ var DocComponents = (() => {
       [addFiles]
     );
     const handleCameraCapture = React46.useCallback(() => {
-      var _a;
-      (_a = cameraInputRef.current) == null ? void 0 : _a.click();
+      var _a2;
+      (_a2 = cameraInputRef.current) == null ? void 0 : _a2.click();
     }, []);
     const handleCameraInputChange = React46.useCallback(
       (e) => {
@@ -47340,7 +47359,7 @@ var DocComponents = (() => {
         "divide-y divide-neutral-200 dark:divide-neutral-700",
         className
       ),
-      children: Array.from({ length: count }).map((_, i) =>
+      children: Array.from({ length: count }).map((_2, i) =>
         /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(
           "div",
           {
@@ -47503,25 +47522,25 @@ var DocComponents = (() => {
           ? conversation.participants.find((p) => p.id !== currentUser.id)
           : void 0;
       const handleAttachmentClick = (attachment, message) => {
-        var _a;
+        var _a2;
         if (attachment.type === "image" || attachment.type === "video") {
           setLightboxAttachment(attachment);
         }
-        (_a = eventHandlers.onAttachmentClick) == null
+        (_a2 = eventHandlers.onAttachmentClick) == null
           ? void 0
-          : _a.call(eventHandlers, attachment, message);
+          : _a2.call(eventHandlers, attachment, message);
       };
       const handleSendMessage = async (newMessage) => {
-        var _a;
+        var _a2;
         const messageWithReply = {
           ...newMessage,
           replyToId:
             (replyTo == null ? void 0 : replyTo.id) || newMessage.replyToId,
         };
         setReplyTo(null);
-        await ((_a = eventHandlers.onSendMessage) == null
+        await ((_a2 = eventHandlers.onSendMessage) == null
           ? void 0
-          : _a.call(eventHandlers, messageWithReply));
+          : _a2.call(eventHandlers, messageWithReply));
       };
       return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
         ref,
@@ -48260,7 +48279,7 @@ var DocComponents = (() => {
       },
       ref
     ) => {
-      var _a;
+      var _a2;
       const handleClick = (e) => {
         if (e.target.closest("[data-phone-link]")) {
           return;
@@ -48284,7 +48303,9 @@ var DocComponents = (() => {
       };
       const displayServices =
         showServices &&
-        ((_a = provider.services) == null ? void 0 : _a.slice(0, maxServices));
+        ((_a2 = provider.services) == null
+          ? void 0
+          : _a2.slice(0, maxServices));
       const remainingServices =
         showServices && provider.services
           ? Math.max(0, provider.services.length - maxServices)
@@ -49198,12 +49219,12 @@ var DocComponents = (() => {
     const filtered = [];
     for (const group of groups) {
       const filteredServices = group.services.filter((service) => {
-        var _a, _b;
+        var _a2, _b;
         return (
           service.name.toLowerCase().includes(normalizedQuery) ||
-          ((_a = service.code) == null
+          ((_a2 = service.code) == null
             ? void 0
-            : _a.toLowerCase().includes(normalizedQuery)) ||
+            : _a2.toLowerCase().includes(normalizedQuery)) ||
           ((_b = service.description) == null
             ? void 0
             : _b.toLowerCase().includes(normalizedQuery))
@@ -49235,9 +49256,9 @@ var DocComponents = (() => {
   function flattenServices(groups) {
     const services = [];
     const traverse = (group) => {
-      var _a;
+      var _a2;
       services.push(...group.services);
-      (_a = group.subGroups) == null ? void 0 : _a.forEach(traverse);
+      (_a2 = group.subGroups) == null ? void 0 : _a2.forEach(traverse);
     };
     groups.forEach(traverse);
     return services;
@@ -49293,14 +49314,14 @@ var DocComponents = (() => {
       });
     };
     const hasSelectedInGroup = (group) => {
-      var _a;
+      var _a2;
       const hasDirectSelection = group.services.some((s) =>
         selectedIds.includes(s.id)
       );
       const hasSubSelection =
-        ((_a = group.subGroups) == null
+        ((_a2 = group.subGroups) == null
           ? void 0
-          : _a.some(hasSelectedInGroup)) ?? false;
+          : _a2.some(hasSelectedInGroup)) ?? false;
       return hasDirectSelection || hasSubSelection;
     };
     return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
@@ -49442,7 +49463,7 @@ var DocComponents = (() => {
     multiple,
     depth = 0,
   }) {
-    var _a;
+    var _a2;
     const isExpanded = expandedGroups.has(group.id);
     const hasSelection = hasSelectedInGroup(group);
     return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("li", {
@@ -49497,9 +49518,9 @@ var DocComponents = (() => {
                   service.id
                 )
               ),
-              (_a = group.subGroups) == null
+              (_a2 = group.subGroups) == null
                 ? void 0
-                : _a.map((subGroup) =>
+                : _a2.map((subGroup) =>
                     /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
                       ServiceGroupItem,
                       {
@@ -50106,7 +50127,7 @@ var DocComponents = (() => {
     const showCollapsed = !isMobileViewport && isCollapsed;
     (0, import_react9.useEffect)(() => {
       const handleKeyDown = (e) => {
-        var _a;
+        var _a2;
         const target = e.target;
         if (
           target.tagName === "INPUT" ||
@@ -50120,11 +50141,11 @@ var DocComponents = (() => {
           if (showCollapsed) {
             setCollapsed(false);
             setTimeout(() => {
-              var _a2;
-              return (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
+              var _a3;
+              return (_a3 = inputRef.current) == null ? void 0 : _a3.focus();
             }, 350);
           } else {
-            (_a = inputRef.current) == null ? void 0 : _a.focus();
+            (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
           }
         }
       };
@@ -50213,8 +50234,8 @@ var DocComponents = (() => {
       return "pending";
     };
     const formatTimestamp = (date) => {
-      const d = typeof date === "string" ? new Date(date) : date;
-      return d.toLocaleDateString(void 0, { month: "short", day: "numeric" });
+      const d2 = typeof date === "string" ? new Date(date) : date;
+      return d2.toLocaleDateString(void 0, { month: "short", day: "numeric" });
     };
     return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
       className: cn("flex items-start overflow-x-auto py-4", className),
@@ -50305,10 +50326,10 @@ var DocComponents = (() => {
   TimelineProgress.displayName = "TimelineProgress";
   function TimelineEventList({ events, relativeTime = false, className }) {
     const formatTime4 = (date) => {
-      const d = typeof date === "string" ? new Date(date) : date;
+      const d2 = typeof date === "string" ? new Date(date) : date;
       if (relativeTime) {
         const now = /* @__PURE__ */ new Date();
-        const diffMs = now.getTime() - d.getTime();
+        const diffMs = now.getTime() - d2.getTime();
         const diffMins = Math.floor(diffMs / 6e4);
         const diffHours = Math.floor(diffMins / 60);
         const diffDays = Math.floor(diffHours / 24);
@@ -50317,7 +50338,7 @@ var DocComponents = (() => {
         if (diffHours < 24) return `${diffHours}h ago`;
         if (diffDays < 7) return `${diffDays}d ago`;
       }
-      return d.toLocaleDateString(void 0, {
+      return d2.toLocaleDateString(void 0, {
         month: "short",
         day: "numeric",
         hour: "numeric",
@@ -50773,8 +50794,8 @@ var DocComponents = (() => {
     const dismissAll = (0, import_react9.useCallback)(() => {
       setToasts((prev) => {
         prev.forEach((t) => {
-          var _a;
-          return (_a = t.onDismiss) == null ? void 0 : _a.call(t);
+          var _a2;
+          return (_a2 = t.onDismiss) == null ? void 0 : _a2.call(t);
         });
         return [];
       });
@@ -50795,8 +50816,8 @@ var DocComponents = (() => {
           if (updated.length > maxToasts) {
             const removed = updated.slice(0, updated.length - maxToasts);
             removed.forEach((t) => {
-              var _a;
-              return (_a = t.onDismiss) == null ? void 0 : _a.call(t);
+              var _a2;
+              return (_a2 = t.onDismiss) == null ? void 0 : _a2.call(t);
             });
             return updated.slice(-maxToasts);
           }
@@ -50995,17 +51016,17 @@ var DocComponents = (() => {
     };
     const handleRemove = (index) => {
       if (websites.length > minEntries) {
-        onChange(websites.filter((_, i) => i !== index));
+        onChange(websites.filter((_2, i) => i !== index));
       }
     };
     const getTypeLabel = (type) => {
-      var _a;
+      var _a2;
       if (typeLabels == null ? void 0 : typeLabels[type])
         return typeLabels[type];
       return (
-        ((_a = WEBSITE_TYPES.find((t) => t.value === type)) == null
+        ((_a2 = WEBSITE_TYPES.find((t) => t.value === type)) == null
           ? void 0
-          : _a.label) || type
+          : _a2.label) || type
       );
     };
     const canAdd = websites.length < maxEntries;
@@ -51534,16 +51555,16 @@ var DocComponents = (() => {
       const items = nav.querySelectorAll("li");
       const navItems = [];
       items.forEach((item) => {
-        var _a;
+        var _a2;
         const link = item.querySelector("a[href]");
         const toggle = item.querySelector(".sidebar-toggle");
         const childNav = item.querySelector(".sidebar-nav-children");
         navItems.push({
           element: item,
           text:
-            ((_a = link == null ? void 0 : link.textContent) == null
+            ((_a2 = link == null ? void 0 : link.textContent) == null
               ? void 0
-              : _a.toLowerCase()) ?? "",
+              : _a2.toLowerCase()) ?? "",
           link,
           originalHidden: item.classList.contains("hidden"),
           originalExpanded:
@@ -51562,13 +51583,13 @@ var DocComponents = (() => {
       navItemsRef.current = navItems;
     }, []);
     const highlightText = (0, import_react13.useCallback)(
-      (text, searchQuery) => {
-        if (!searchQuery) return text;
+      (text2, searchQuery) => {
+        if (!searchQuery) return text2;
         const regex = new RegExp(
           `(${searchQuery.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
           "gi"
         );
-        return text.replace(
+        return text2.replace(
           regex,
           '<mark class="bg-yellow-200 dark:bg-yellow-800 rounded px-0.5">$1</mark>'
         );
@@ -51582,7 +51603,7 @@ var DocComponents = (() => {
         const originalLinkText = originalLinkTextRef.current;
         if (!trimmedQuery) {
           navItems.forEach((item) => {
-            var _a;
+            var _a2;
             item.element.classList.toggle("hidden", item.originalHidden);
             item.element.classList.remove("sidebar-search-match");
             const toggle = item.element.querySelector(".sidebar-toggle");
@@ -51591,9 +51612,9 @@ var DocComponents = (() => {
                 "aria-expanded",
                 String(item.originalExpanded)
               );
-              (_a = toggle.querySelector("svg")) == null
+              (_a2 = toggle.querySelector("svg")) == null
                 ? void 0
-                : _a.classList.toggle("rotate-90", item.originalExpanded);
+                : _a2.classList.toggle("rotate-90", item.originalExpanded);
             }
             if (item.childNav) {
               item.childNav.classList.toggle(
@@ -51615,14 +51636,14 @@ var DocComponents = (() => {
         let count = 0;
         const matchedItems = /* @__PURE__ */ new Set();
         navItems.forEach((item) => {
-          var _a, _b;
+          var _a2, _b;
           if (item.text.includes(trimmedQuery)) {
             count++;
             matchedItems.add(item.element);
             let parent =
-              (_a = item.element.parentElement) == null
+              (_a2 = item.element.parentElement) == null
                 ? void 0
-                : _a.closest("li");
+                : _a2.closest("li");
             while (parent) {
               matchedItems.add(parent);
               parent =
@@ -51643,7 +51664,7 @@ var DocComponents = (() => {
           }
         });
         navItems.forEach((item) => {
-          var _a;
+          var _a2;
           if (matchedItems.has(item.element)) {
             item.element.classList.remove("hidden");
             item.element.classList.add("sidebar-search-match");
@@ -51652,9 +51673,9 @@ var DocComponents = (() => {
               const toggle = item.element.querySelector(".sidebar-toggle");
               if (toggle) {
                 toggle.setAttribute("aria-expanded", "true");
-                (_a = toggle.querySelector("svg")) == null
+                (_a2 = toggle.querySelector("svg")) == null
                   ? void 0
-                  : _a.classList.add("rotate-90");
+                  : _a2.classList.add("rotate-90");
               }
             }
           } else {
@@ -51681,14 +51702,14 @@ var DocComponents = (() => {
       [debounceMs, performSearch]
     );
     const handleClear = (0, import_react13.useCallback)(() => {
-      var _a;
+      var _a2;
       setQuery("");
       performSearch("");
-      (_a = inputRef.current) == null ? void 0 : _a.focus();
+      (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
     }, [performSearch]);
     (0, import_react13.useEffect)(() => {
       const handleKeyDown2 = (e) => {
-        var _a, _b;
+        var _a2, _b;
         const target = e.target;
         if (
           target.tagName === "INPUT" ||
@@ -51699,7 +51720,7 @@ var DocComponents = (() => {
         }
         if (e.key === "/") {
           e.preventDefault();
-          (_a = inputRef.current) == null ? void 0 : _a.focus();
+          (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
           (_b = inputRef.current) == null ? void 0 : _b.select();
         }
       };
@@ -51708,12 +51729,12 @@ var DocComponents = (() => {
     }, []);
     const handleKeyDown = (0, import_react13.useCallback)(
       (e) => {
-        var _a;
+        var _a2;
         if (e.key === "Escape") {
           if (query) {
             handleClear();
           } else {
-            (_a = inputRef.current) == null ? void 0 : _a.blur();
+            (_a2 = inputRef.current) == null ? void 0 : _a2.blur();
           }
           e.preventDefault();
         }
@@ -51833,8 +51854,8 @@ var DocComponents = (() => {
     (0, import_react14.useEffect)(() => {
       if (open) {
         setTimeout(() => {
-          var _a;
-          return (_a = inputRef.current) == null ? void 0 : _a.focus();
+          var _a2;
+          return (_a2 = inputRef.current) == null ? void 0 : _a2.focus();
         }, 100);
         setQuery("");
         setResults([]);
@@ -51856,18 +51877,18 @@ var DocComponents = (() => {
             searchResults = lunrResults
               .slice(0, 10)
               .map((result) => {
-                const doc = searchIndex.find((d) => d.id === result.ref);
+                const doc = searchIndex.find((d2) => d2.id === result.ref);
                 return doc ? { ...doc, score: result.score } : null;
               })
               .filter((r2) => r2 !== null);
           } else {
             searchResults = searchIndex
               .filter((doc) => {
-                var _a, _b;
+                var _a2, _b;
                 const titleMatch =
-                  (_a = doc.title) == null
+                  (_a2 = doc.title) == null
                     ? void 0
-                    : _a.toLowerCase().includes(trimmedQuery);
+                    : _a2.toLowerCase().includes(trimmedQuery);
                 const contentMatch =
                   (_b = doc.content) == null
                     ? void 0
@@ -51928,11 +51949,11 @@ var DocComponents = (() => {
       [results, selectedIndex, onClose, handleSelect]
     );
     (0, import_react14.useEffect)(() => {
-      var _a;
+      var _a2;
       const selectedElement =
-        (_a = resultsRef.current) == null
+        (_a2 = resultsRef.current) == null
           ? void 0
-          : _a.querySelector(`[data-index="${selectedIndex}"]`);
+          : _a2.querySelector(`[data-index="${selectedIndex}"]`);
       selectedElement == null
         ? void 0
         : selectedElement.scrollIntoView({ block: "nearest" });
@@ -52186,7 +52207,7 @@ var DocComponents = (() => {
               });
             });
             setSearchIndex(idx);
-            setSearchData(new Map(data.map((d) => [d.uri, d])));
+            setSearchData(new Map(data.map((d2) => [d2.uri, d2])));
           }
         } catch (error) {
           console.error("Failed to load search index:", error);
@@ -52211,16 +52232,16 @@ var DocComponents = (() => {
         try {
           const results = searchIndex.search(query + "*");
           const items = results.slice(0, 10).map((result) => {
-            var _a;
+            var _a2;
             const doc = searchData.get(result.ref);
             const href = result.ref;
             return {
               id: result.ref,
               label: (doc == null ? void 0 : doc.title) || result.ref,
               description:
-                ((_a = doc == null ? void 0 : doc.content) == null
+                ((_a2 = doc == null ? void 0 : doc.content) == null
                   ? void 0
-                  : _a.substring(0, 150)) + "...",
+                  : _a2.substring(0, 150)) + "...",
               category: "pages",
               onSelect: () => {
                 window.location.href = href;
@@ -52324,7 +52345,4259 @@ var DocComponents = (() => {
 
   // src/components/AIDocAssistant.tsx
   var React20 = __toESM(require_react(), 1);
+
+  // node_modules/marked/lib/marked.esm.js
+  function L() {
+    return {
+      async: false,
+      breaks: false,
+      extensions: null,
+      gfm: true,
+      hooks: null,
+      pedantic: false,
+      renderer: null,
+      silent: false,
+      tokenizer: null,
+      walkTokens: null,
+    };
+  }
+  var T = L();
+  function Z(u3) {
+    T = u3;
+  }
+  var C = { exec: () => null };
+  function k(u3, e = "") {
+    let t = typeof u3 == "string" ? u3 : u3.source,
+      n = {
+        replace: (r2, i) => {
+          let s = typeof i == "string" ? i : i.source;
+          return ((s = s.replace(m.caret, "$1")), (t = t.replace(r2, s)), n);
+        },
+        getRegex: () => new RegExp(t, e),
+      };
+    return n;
+  }
+  var me = (() => {
+    try {
+      return !!new RegExp("(?<=1)(?<!1)");
+    } catch {
+      return false;
+    }
+  })();
+  var m = {
+    codeRemoveIndent: /^(?: {1,4}| {0,3}\t)/gm,
+    outputLinkReplace: /\\([\[\]])/g,
+    indentCodeCompensation: /^(\s+)(?:```)/,
+    beginningSpace: /^\s+/,
+    endingHash: /#$/,
+    startingSpaceChar: /^ /,
+    endingSpaceChar: / $/,
+    nonSpaceChar: /[^ ]/,
+    newLineCharGlobal: /\n/g,
+    tabCharGlobal: /\t/g,
+    multipleSpaceGlobal: /\s+/g,
+    blankLine: /^[ \t]*$/,
+    doubleBlankLine: /\n[ \t]*\n[ \t]*$/,
+    blockquoteStart: /^ {0,3}>/,
+    blockquoteSetextReplace: /\n {0,3}((?:=+|-+) *)(?=\n|$)/g,
+    blockquoteSetextReplace2: /^ {0,3}>[ \t]?/gm,
+    listReplaceTabs: /^\t+/,
+    listReplaceNesting: /^ {1,4}(?=( {4})*[^ ])/g,
+    listIsTask: /^\[[ xX]\] +\S/,
+    listReplaceTask: /^\[[ xX]\] +/,
+    listTaskCheckbox: /\[[ xX]\]/,
+    anyLine: /\n.*\n/,
+    hrefBrackets: /^<(.*)>$/,
+    tableDelimiter: /[:|]/,
+    tableAlignChars: /^\||\| *$/g,
+    tableRowBlankLine: /\n[ \t]*$/,
+    tableAlignRight: /^ *-+: *$/,
+    tableAlignCenter: /^ *:-+: *$/,
+    tableAlignLeft: /^ *:-+ *$/,
+    startATag: /^<a /i,
+    endATag: /^<\/a>/i,
+    startPreScriptTag: /^<(pre|code|kbd|script)(\s|>)/i,
+    endPreScriptTag: /^<\/(pre|code|kbd|script)(\s|>)/i,
+    startAngleBracket: /^</,
+    endAngleBracket: />$/,
+    pedanticHrefTitle: /^([^'"]*[^\s])\s+(['"])(.*)\2/,
+    unicodeAlphaNumeric: /[\p{L}\p{N}]/u,
+    escapeTest: /[&<>"']/,
+    escapeReplace: /[&<>"']/g,
+    escapeTestNoEncode: /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,
+    escapeReplaceNoEncode: /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/g,
+    unescapeTest: /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/gi,
+    caret: /(^|[^\[])\^/g,
+    percentDecode: /%25/g,
+    findPipe: /\|/g,
+    splitPipe: / \|/,
+    slashPipe: /\\\|/g,
+    carriageReturn: /\r\n|\r/g,
+    spaceLine: /^ +$/gm,
+    notSpaceStart: /^\S*/,
+    endingNewline: /\n$/,
+    listItemRegex: (u3) =>
+      new RegExp(`^( {0,3}${u3})((?:[	 ][^\\n]*)?(?:\\n|$))`),
+    nextBulletRegex: (u3) =>
+      new RegExp(
+        `^ {0,${Math.min(3, u3 - 1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`
+      ),
+    hrRegex: (u3) =>
+      new RegExp(
+        `^ {0,${Math.min(3, u3 - 1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`
+      ),
+    fencesBeginRegex: (u3) =>
+      new RegExp(`^ {0,${Math.min(3, u3 - 1)}}(?:\`\`\`|~~~)`),
+    headingBeginRegex: (u3) => new RegExp(`^ {0,${Math.min(3, u3 - 1)}}#`),
+    htmlBeginRegex: (u3) =>
+      new RegExp(`^ {0,${Math.min(3, u3 - 1)}}<(?:[a-z].*>|!--)`, "i"),
+  };
+  var xe = /^(?:[ \t]*(?:\n|$))+/;
+  var be = /^((?: {4}| {0,3}\t)[^\n]+(?:\n(?:[ \t]*(?:\n|$))*)?)+/;
+  var Re =
+    /^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/;
+  var I = /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/;
+  var Te = /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/;
+  var N = /(?:[*+-]|\d{1,9}[.)])/;
+  var re =
+    /^(?!bull |blockCode|fences|blockquote|heading|html|table)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html|table))+?)\n {0,3}(=+|-+) *(?:\n+|$)/;
+  var se = k(re)
+    .replace(/bull/g, N)
+    .replace(/blockCode/g, /(?: {4}| {0,3}\t)/)
+    .replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/)
+    .replace(/blockquote/g, / {0,3}>/)
+    .replace(/heading/g, / {0,3}#{1,6}/)
+    .replace(/html/g, / {0,3}<[^\n>]+>\n/)
+    .replace(/\|table/g, "")
+    .getRegex();
+  var Oe = k(re)
+    .replace(/bull/g, N)
+    .replace(/blockCode/g, /(?: {4}| {0,3}\t)/)
+    .replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/)
+    .replace(/blockquote/g, / {0,3}>/)
+    .replace(/heading/g, / {0,3}#{1,6}/)
+    .replace(/html/g, / {0,3}<[^\n>]+>\n/)
+    .replace(/table/g, / {0,3}\|?(?:[:\- ]*\|)+[\:\- ]*\n/)
+    .getRegex();
+  var Q =
+    /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/;
+  var we = /^[^\n]+/;
+  var F = /(?!\s*\])(?:\\[\s\S]|[^\[\]\\])+/;
+  var ye = k(
+    /^ {0,3}\[(label)\]: *(?:\n[ \t]*)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n[ \t]*)?| *\n[ \t]*)(title))? *(?:\n+|$)/
+  )
+    .replace("label", F)
+    .replace(
+      "title",
+      /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/
+    )
+    .getRegex();
+  var Pe = k(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/)
+    .replace(/bull/g, N)
+    .getRegex();
+  var v =
+    "address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul";
+  var j = /<!--(?:-?>|[\s\S]*?(?:-->|$))/;
+  var Se = k(
+    "^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n[ 	]*)+\\n|$))",
+    "i"
+  )
+    .replace("comment", j)
+    .replace("tag", v)
+    .replace(
+      "attribute",
+      / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/
+    )
+    .getRegex();
+  var ie = k(Q)
+    .replace("hr", I)
+    .replace("heading", " {0,3}#{1,6}(?:\\s|$)")
+    .replace("|lheading", "")
+    .replace("|table", "")
+    .replace("blockquote", " {0,3}>")
+    .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+    .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+    .replace(
+      "html",
+      "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+    )
+    .replace("tag", v)
+    .getRegex();
+  var $e = k(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/)
+    .replace("paragraph", ie)
+    .getRegex();
+  var U = {
+    blockquote: $e,
+    code: be,
+    def: ye,
+    fences: Re,
+    heading: Te,
+    hr: I,
+    html: Se,
+    lheading: se,
+    list: Pe,
+    newline: xe,
+    paragraph: ie,
+    table: C,
+    text: we,
+  };
+  var te = k(
+    "^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)"
+  )
+    .replace("hr", I)
+    .replace("heading", " {0,3}#{1,6}(?:\\s|$)")
+    .replace("blockquote", " {0,3}>")
+    .replace("code", "(?: {4}| {0,3}	)[^\\n]")
+    .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+    .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+    .replace(
+      "html",
+      "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+    )
+    .replace("tag", v)
+    .getRegex();
+  var _e = {
+    ...U,
+    lheading: Oe,
+    table: te,
+    paragraph: k(Q)
+      .replace("hr", I)
+      .replace("heading", " {0,3}#{1,6}(?:\\s|$)")
+      .replace("|lheading", "")
+      .replace("table", te)
+      .replace("blockquote", " {0,3}>")
+      .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+      .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+      .replace(
+        "html",
+        "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+      )
+      .replace("tag", v)
+      .getRegex(),
+  };
+  var Le = {
+    ...U,
+    html: k(
+      `^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`
+    )
+      .replace("comment", j)
+      .replace(
+        /tag/g,
+        "(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b"
+      )
+      .getRegex(),
+    def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,
+    heading: /^(#{1,6})(.*)(?:\n+|$)/,
+    fences: C,
+    lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
+    paragraph: k(Q)
+      .replace("hr", I)
+      .replace(
+        "heading",
+        ` *#{1,6} *[^
+]`
+      )
+      .replace("lheading", se)
+      .replace("|table", "")
+      .replace("blockquote", " {0,3}>")
+      .replace("|fences", "")
+      .replace("|list", "")
+      .replace("|html", "")
+      .replace("|tag", "")
+      .getRegex(),
+  };
+  var Me = /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/;
+  var ze = /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/;
+  var oe = /^( {2,}|\\)\n(?!\s*$)/;
+  var Ae =
+    /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/;
+  var D = /[\p{P}\p{S}]/u;
+  var K = /[\s\p{P}\p{S}]/u;
+  var ae = /[^\s\p{P}\p{S}]/u;
+  var Ce = k(/^((?![*_])punctSpace)/, "u")
+    .replace(/punctSpace/g, K)
+    .getRegex();
+  var le = /(?!~)[\p{P}\p{S}]/u;
+  var Ie = /(?!~)[\s\p{P}\p{S}]/u;
+  var Ee = /(?:[^\s\p{P}\p{S}]|~)/u;
+  var Be = k(/link|precode-code|html/, "g")
+    .replace(
+      "link",
+      /\[(?:[^\[\]`]|(?<a>`+)[^`]+\k<a>(?!`))*?\]\((?:\\[\s\S]|[^\\\(\)]|\((?:\\[\s\S]|[^\\\(\)])*\))*\)/
+    )
+    .replace("precode-", me ? "(?<!`)()" : "(^^|[^`])")
+    .replace("code", /(?<b>`+)[^`]+\k<b>(?!`)/)
+    .replace("html", /<(?! )[^<>]*?>/)
+    .getRegex();
+  var ue = /^(?:\*+(?:((?!\*)punct)|[^\s*]))|^_+(?:((?!_)punct)|([^\s_]))/;
+  var qe = k(ue, "u").replace(/punct/g, D).getRegex();
+  var ve = k(ue, "u").replace(/punct/g, le).getRegex();
+  var pe =
+    "^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)punct(\\*+)(?=[\\s]|$)|notPunctSpace(\\*+)(?!\\*)(?=punctSpace|$)|(?!\\*)punctSpace(\\*+)(?=notPunctSpace)|[\\s](\\*+)(?!\\*)(?=punct)|(?!\\*)punct(\\*+)(?!\\*)(?=punct)|notPunctSpace(\\*+)(?=notPunctSpace)";
+  var De = k(pe, "gu")
+    .replace(/notPunctSpace/g, ae)
+    .replace(/punctSpace/g, K)
+    .replace(/punct/g, D)
+    .getRegex();
+  var He = k(pe, "gu")
+    .replace(/notPunctSpace/g, Ee)
+    .replace(/punctSpace/g, Ie)
+    .replace(/punct/g, le)
+    .getRegex();
+  var Ze = k(
+    "^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)punct(_+)(?=[\\s]|$)|notPunctSpace(_+)(?!_)(?=punctSpace|$)|(?!_)punctSpace(_+)(?=notPunctSpace)|[\\s](_+)(?!_)(?=punct)|(?!_)punct(_+)(?!_)(?=punct)",
+    "gu"
+  )
+    .replace(/notPunctSpace/g, ae)
+    .replace(/punctSpace/g, K)
+    .replace(/punct/g, D)
+    .getRegex();
+  var Ge = k(/\\(punct)/, "gu")
+    .replace(/punct/g, D)
+    .getRegex();
+  var Ne = k(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/)
+    .replace("scheme", /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/)
+    .replace(
+      "email",
+      /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/
+    )
+    .getRegex();
+  var Qe = k(j).replace("(?:-->|$)", "-->").getRegex();
+  var Fe = k(
+    "^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>"
+  )
+    .replace("comment", Qe)
+    .replace(
+      "attribute",
+      /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/
+    )
+    .getRegex();
+  var q =
+    /(?:\[(?:\\[\s\S]|[^\[\]\\])*\]|\\[\s\S]|`+[^`]*?`+(?!`)|[^\[\]\\`])*?/;
+  var je = k(
+    /^!?\[(label)\]\(\s*(href)(?:(?:[ \t]*(?:\n[ \t]*)?)(title))?\s*\)/
+  )
+    .replace("label", q)
+    .replace("href", /<(?:\\.|[^\n<>\\])+>|[^ \t\n\x00-\x1f]*/)
+    .replace(
+      "title",
+      /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/
+    )
+    .getRegex();
+  var ce = k(/^!?\[(label)\]\[(ref)\]/)
+    .replace("label", q)
+    .replace("ref", F)
+    .getRegex();
+  var he = k(/^!?\[(ref)\](?:\[\])?/)
+    .replace("ref", F)
+    .getRegex();
+  var Ue = k("reflink|nolink(?!\\()", "g")
+    .replace("reflink", ce)
+    .replace("nolink", he)
+    .getRegex();
+  var ne = /[hH][tT][tT][pP][sS]?|[fF][tT][pP]/;
+  var W = {
+    _backpedal: C,
+    anyPunctuation: Ge,
+    autolink: Ne,
+    blockSkip: Be,
+    br: oe,
+    code: ze,
+    del: C,
+    emStrongLDelim: qe,
+    emStrongRDelimAst: De,
+    emStrongRDelimUnd: Ze,
+    escape: Me,
+    link: je,
+    nolink: he,
+    punctuation: Ce,
+    reflink: ce,
+    reflinkSearch: Ue,
+    tag: Fe,
+    text: Ae,
+    url: C,
+  };
+  var Ke = {
+    ...W,
+    link: k(/^!?\[(label)\]\((.*?)\)/)
+      .replace("label", q)
+      .getRegex(),
+    reflink: k(/^!?\[(label)\]\s*\[([^\]]*)\]/)
+      .replace("label", q)
+      .getRegex(),
+  };
+  var G = {
+    ...W,
+    emStrongRDelimAst: He,
+    emStrongLDelim: ve,
+    url: k(/^((?:protocol):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/)
+      .replace("protocol", ne)
+      .replace(
+        "email",
+        /[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/
+      )
+      .getRegex(),
+    _backpedal:
+      /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,
+    del: /^(~~?)(?=[^\s~])((?:\\[\s\S]|[^\\])*?(?:\\[\s\S]|[^\s~\\]))\1(?=[^~]|$)/,
+    text: k(
+      /^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|protocol:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/
+    )
+      .replace("protocol", ne)
+      .getRegex(),
+  };
+  var We = {
+    ...G,
+    br: k(oe).replace("{2,}", "*").getRegex(),
+    text: k(G.text)
+      .replace("\\b_", "\\b_| {2,}\\n")
+      .replace(/\{2,\}/g, "*")
+      .getRegex(),
+  };
+  var E = { normal: U, gfm: _e, pedantic: Le };
+  var M = { normal: W, gfm: G, breaks: We, pedantic: Ke };
+  var Xe = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+  };
+  var ke = (u3) => Xe[u3];
+  function w(u3, e) {
+    if (e) {
+      if (m.escapeTest.test(u3)) return u3.replace(m.escapeReplace, ke);
+    } else if (m.escapeTestNoEncode.test(u3))
+      return u3.replace(m.escapeReplaceNoEncode, ke);
+    return u3;
+  }
+  function X3(u3) {
+    try {
+      u3 = encodeURI(u3).replace(m.percentDecode, "%");
+    } catch {
+      return null;
+    }
+    return u3;
+  }
+  function J(u3, e) {
+    var _a2;
+    let t = u3.replace(m.findPipe, (i, s, a) => {
+        let o = false,
+          l = s;
+        for (; --l >= 0 && a[l] === "\\"; ) o = !o;
+        return o ? "|" : " |";
+      }),
+      n = t.split(m.splitPipe),
+      r2 = 0;
+    if (
+      (n[0].trim() || n.shift(),
+      n.length > 0 &&
+        !((_a2 = n.at(-1)) == null ? void 0 : _a2.trim()) &&
+        n.pop(),
+      e)
+    )
+      if (n.length > e) n.splice(e);
+      else for (; n.length < e; ) n.push("");
+    for (; r2 < n.length; r2++) n[r2] = n[r2].trim().replace(m.slashPipe, "|");
+    return n;
+  }
+  function z(u3, e, t) {
+    let n = u3.length;
+    if (n === 0) return "";
+    let r2 = 0;
+    for (; r2 < n; ) {
+      let i = u3.charAt(n - r2 - 1);
+      if (i === e && !t) r2++;
+      else if (i !== e && t) r2++;
+      else break;
+    }
+    return u3.slice(0, n - r2);
+  }
+  function de(u3, e) {
+    if (u3.indexOf(e[1]) === -1) return -1;
+    let t = 0;
+    for (let n = 0; n < u3.length; n++)
+      if (u3[n] === "\\") n++;
+      else if (u3[n] === e[0]) t++;
+      else if (u3[n] === e[1] && (t--, t < 0)) return n;
+    return t > 0 ? -2 : -1;
+  }
+  function ge(u3, e, t, n, r2) {
+    let i = e.href,
+      s = e.title || null,
+      a = u3[1].replace(r2.other.outputLinkReplace, "$1");
+    n.state.inLink = true;
+    let o = {
+      type: u3[0].charAt(0) === "!" ? "image" : "link",
+      raw: t,
+      href: i,
+      title: s,
+      text: a,
+      tokens: n.inlineTokens(a),
+    };
+    return ((n.state.inLink = false), o);
+  }
+  function Je(u3, e, t) {
+    let n = u3.match(t.other.indentCodeCompensation);
+    if (n === null) return e;
+    let r2 = n[1];
+    return e
+      .split(
+        `
+`
+      )
+      .map((i) => {
+        let s = i.match(t.other.beginningSpace);
+        if (s === null) return i;
+        let [a] = s;
+        return a.length >= r2.length ? i.slice(r2.length) : i;
+      }).join(`
+`);
+  }
+  var y = class {
+    constructor(e) {
+      __publicField(this, "options");
+      __publicField(this, "rules");
+      __publicField(this, "lexer");
+      this.options = e || T;
+    }
+    space(e) {
+      let t = this.rules.block.newline.exec(e);
+      if (t && t[0].length > 0) return { type: "space", raw: t[0] };
+    }
+    code(e) {
+      let t = this.rules.block.code.exec(e);
+      if (t) {
+        let n = t[0].replace(this.rules.other.codeRemoveIndent, "");
+        return {
+          type: "code",
+          raw: t[0],
+          codeBlockStyle: "indented",
+          text: this.options.pedantic
+            ? n
+            : z(
+                n,
+                `
+`
+              ),
+        };
+      }
+    }
+    fences(e) {
+      let t = this.rules.block.fences.exec(e);
+      if (t) {
+        let n = t[0],
+          r2 = Je(n, t[3] || "", this.rules);
+        return {
+          type: "code",
+          raw: n,
+          lang: t[2]
+            ? t[2].trim().replace(this.rules.inline.anyPunctuation, "$1")
+            : t[2],
+          text: r2,
+        };
+      }
+    }
+    heading(e) {
+      let t = this.rules.block.heading.exec(e);
+      if (t) {
+        let n = t[2].trim();
+        if (this.rules.other.endingHash.test(n)) {
+          let r2 = z(n, "#");
+          (this.options.pedantic ||
+            !r2 ||
+            this.rules.other.endingSpaceChar.test(r2)) &&
+            (n = r2.trim());
+        }
+        return {
+          type: "heading",
+          raw: t[0],
+          depth: t[1].length,
+          text: n,
+          tokens: this.lexer.inline(n),
+        };
+      }
+    }
+    hr(e) {
+      let t = this.rules.block.hr.exec(e);
+      if (t)
+        return {
+          type: "hr",
+          raw: z(
+            t[0],
+            `
+`
+          ),
+        };
+    }
+    blockquote(e) {
+      let t = this.rules.block.blockquote.exec(e);
+      if (t) {
+        let n = z(
+            t[0],
+            `
+`
+          ).split(`
+`),
+          r2 = "",
+          i = "",
+          s = [];
+        for (; n.length > 0; ) {
+          let a = false,
+            o = [],
+            l;
+          for (l = 0; l < n.length; l++)
+            if (this.rules.other.blockquoteStart.test(n[l]))
+              (o.push(n[l]), (a = true));
+            else if (!a) o.push(n[l]);
+            else break;
+          n = n.slice(l);
+          let p = o.join(`
+`),
+            c = p
+              .replace(
+                this.rules.other.blockquoteSetextReplace,
+                `
+    $1`
+              )
+              .replace(this.rules.other.blockquoteSetextReplace2, "");
+          ((r2 = r2
+            ? `${r2}
+${p}`
+            : p),
+            (i = i
+              ? `${i}
+${c}`
+              : c));
+          let g = this.lexer.state.top;
+          if (
+            ((this.lexer.state.top = true),
+            this.lexer.blockTokens(c, s, true),
+            (this.lexer.state.top = g),
+            n.length === 0)
+          )
+            break;
+          let h = s.at(-1);
+          if ((h == null ? void 0 : h.type) === "code") break;
+          if ((h == null ? void 0 : h.type) === "blockquote") {
+            let R = h,
+              f =
+                R.raw +
+                `
+` +
+                n.join(`
+`),
+              O = this.blockquote(f);
+            ((s[s.length - 1] = O),
+              (r2 = r2.substring(0, r2.length - R.raw.length) + O.raw),
+              (i = i.substring(0, i.length - R.text.length) + O.text));
+            break;
+          } else if ((h == null ? void 0 : h.type) === "list") {
+            let R = h,
+              f =
+                R.raw +
+                `
+` +
+                n.join(`
+`),
+              O = this.list(f);
+            ((s[s.length - 1] = O),
+              (r2 = r2.substring(0, r2.length - h.raw.length) + O.raw),
+              (i = i.substring(0, i.length - R.raw.length) + O.raw),
+              (n = f.substring(s.at(-1).raw.length).split(`
+`)));
+            continue;
+          }
+        }
+        return { type: "blockquote", raw: r2, tokens: s, text: i };
+      }
+    }
+    list(e) {
+      var _a2, _b;
+      let t = this.rules.block.list.exec(e);
+      if (t) {
+        let n = t[1].trim(),
+          r2 = n.length > 1,
+          i = {
+            type: "list",
+            raw: "",
+            ordered: r2,
+            start: r2 ? +n.slice(0, -1) : "",
+            loose: false,
+            items: [],
+          };
+        ((n = r2 ? `\\d{1,9}\\${n.slice(-1)}` : `\\${n}`),
+          this.options.pedantic && (n = r2 ? n : "[*+-]"));
+        let s = this.rules.other.listItemRegex(n),
+          a = false;
+        for (; e; ) {
+          let l = false,
+            p = "",
+            c = "";
+          if (!(t = s.exec(e)) || this.rules.block.hr.test(e)) break;
+          ((p = t[0]), (e = e.substring(p.length)));
+          let g = t[2]
+              .split(
+                `
+`,
+                1
+              )[0]
+              .replace(this.rules.other.listReplaceTabs, (O) =>
+                " ".repeat(3 * O.length)
+              ),
+            h = e.split(
+              `
+`,
+              1
+            )[0],
+            R = !g.trim(),
+            f = 0;
+          if (
+            (this.options.pedantic
+              ? ((f = 2), (c = g.trimStart()))
+              : R
+                ? (f = t[1].length + 1)
+                : ((f = t[2].search(this.rules.other.nonSpaceChar)),
+                  (f = f > 4 ? 1 : f),
+                  (c = g.slice(f)),
+                  (f += t[1].length)),
+            R &&
+              this.rules.other.blankLine.test(h) &&
+              ((p +=
+                h +
+                `
+`),
+              (e = e.substring(h.length + 1)),
+              (l = true)),
+            !l)
+          ) {
+            let O = this.rules.other.nextBulletRegex(f),
+              V = this.rules.other.hrRegex(f),
+              Y = this.rules.other.fencesBeginRegex(f),
+              ee = this.rules.other.headingBeginRegex(f),
+              fe = this.rules.other.htmlBeginRegex(f);
+            for (; e; ) {
+              let H = e.split(
+                  `
+`,
+                  1
+                )[0],
+                A;
+              if (
+                ((h = H),
+                this.options.pedantic
+                  ? ((h = h.replace(this.rules.other.listReplaceNesting, "  ")),
+                    (A = h))
+                  : (A = h.replace(this.rules.other.tabCharGlobal, "    ")),
+                Y.test(h) || ee.test(h) || fe.test(h) || O.test(h) || V.test(h))
+              )
+                break;
+              if (A.search(this.rules.other.nonSpaceChar) >= f || !h.trim())
+                c +=
+                  `
+` + A.slice(f);
+              else {
+                if (
+                  R ||
+                  g
+                    .replace(this.rules.other.tabCharGlobal, "    ")
+                    .search(this.rules.other.nonSpaceChar) >= 4 ||
+                  Y.test(g) ||
+                  ee.test(g) ||
+                  V.test(g)
+                )
+                  break;
+                c +=
+                  `
+` + h;
+              }
+              (!R && !h.trim() && (R = true),
+                (p +=
+                  H +
+                  `
+`),
+                (e = e.substring(H.length + 1)),
+                (g = A.slice(f)));
+            }
+          }
+          (i.loose ||
+            (a
+              ? (i.loose = true)
+              : this.rules.other.doubleBlankLine.test(p) && (a = true)),
+            i.items.push({
+              type: "list_item",
+              raw: p,
+              task: !!this.options.gfm && this.rules.other.listIsTask.test(c),
+              loose: false,
+              text: c,
+              tokens: [],
+            }),
+            (i.raw += p));
+        }
+        let o = i.items.at(-1);
+        if (o) ((o.raw = o.raw.trimEnd()), (o.text = o.text.trimEnd()));
+        else return;
+        i.raw = i.raw.trimEnd();
+        for (let l of i.items) {
+          if (
+            ((this.lexer.state.top = false),
+            (l.tokens = this.lexer.blockTokens(l.text, [])),
+            l.task)
+          ) {
+            if (
+              ((l.text = l.text.replace(this.rules.other.listReplaceTask, "")),
+              ((_a2 = l.tokens[0]) == null ? void 0 : _a2.type) === "text" ||
+                ((_b = l.tokens[0]) == null ? void 0 : _b.type) === "paragraph")
+            ) {
+              ((l.tokens[0].raw = l.tokens[0].raw.replace(
+                this.rules.other.listReplaceTask,
+                ""
+              )),
+                (l.tokens[0].text = l.tokens[0].text.replace(
+                  this.rules.other.listReplaceTask,
+                  ""
+                )));
+              for (let c = this.lexer.inlineQueue.length - 1; c >= 0; c--)
+                if (
+                  this.rules.other.listIsTask.test(
+                    this.lexer.inlineQueue[c].src
+                  )
+                ) {
+                  this.lexer.inlineQueue[c].src = this.lexer.inlineQueue[
+                    c
+                  ].src.replace(this.rules.other.listReplaceTask, "");
+                  break;
+                }
+            }
+            let p = this.rules.other.listTaskCheckbox.exec(l.raw);
+            if (p) {
+              let c = {
+                type: "checkbox",
+                raw: p[0] + " ",
+                checked: p[0] !== "[ ]",
+              };
+              ((l.checked = c.checked),
+                i.loose
+                  ? l.tokens[0] &&
+                    ["paragraph", "text"].includes(l.tokens[0].type) &&
+                    "tokens" in l.tokens[0] &&
+                    l.tokens[0].tokens
+                    ? ((l.tokens[0].raw = c.raw + l.tokens[0].raw),
+                      (l.tokens[0].text = c.raw + l.tokens[0].text),
+                      l.tokens[0].tokens.unshift(c))
+                    : l.tokens.unshift({
+                        type: "paragraph",
+                        raw: c.raw,
+                        text: c.raw,
+                        tokens: [c],
+                      })
+                  : l.tokens.unshift(c));
+            }
+          }
+          if (!i.loose) {
+            let p = l.tokens.filter((g) => g.type === "space"),
+              c =
+                p.length > 0 &&
+                p.some((g) => this.rules.other.anyLine.test(g.raw));
+            i.loose = c;
+          }
+        }
+        if (i.loose)
+          for (let l of i.items) {
+            l.loose = true;
+            for (let p of l.tokens) p.type === "text" && (p.type = "paragraph");
+          }
+        return i;
+      }
+    }
+    html(e) {
+      let t = this.rules.block.html.exec(e);
+      if (t)
+        return {
+          type: "html",
+          block: true,
+          raw: t[0],
+          pre: t[1] === "pre" || t[1] === "script" || t[1] === "style",
+          text: t[0],
+        };
+    }
+    def(e) {
+      let t = this.rules.block.def.exec(e);
+      if (t) {
+        let n = t[1]
+            .toLowerCase()
+            .replace(this.rules.other.multipleSpaceGlobal, " "),
+          r2 = t[2]
+            ? t[2]
+                .replace(this.rules.other.hrefBrackets, "$1")
+                .replace(this.rules.inline.anyPunctuation, "$1")
+            : "",
+          i = t[3]
+            ? t[3]
+                .substring(1, t[3].length - 1)
+                .replace(this.rules.inline.anyPunctuation, "$1")
+            : t[3];
+        return { type: "def", tag: n, raw: t[0], href: r2, title: i };
+      }
+    }
+    table(e) {
+      var _a2;
+      let t = this.rules.block.table.exec(e);
+      if (!t || !this.rules.other.tableDelimiter.test(t[2])) return;
+      let n = J(t[1]),
+        r2 = t[2].replace(this.rules.other.tableAlignChars, "").split("|"),
+        i = ((_a2 = t[3]) == null ? void 0 : _a2.trim())
+          ? t[3].replace(this.rules.other.tableRowBlankLine, "").split(`
+`)
+          : [],
+        s = { type: "table", raw: t[0], header: [], align: [], rows: [] };
+      if (n.length === r2.length) {
+        for (let a of r2)
+          this.rules.other.tableAlignRight.test(a)
+            ? s.align.push("right")
+            : this.rules.other.tableAlignCenter.test(a)
+              ? s.align.push("center")
+              : this.rules.other.tableAlignLeft.test(a)
+                ? s.align.push("left")
+                : s.align.push(null);
+        for (let a = 0; a < n.length; a++)
+          s.header.push({
+            text: n[a],
+            tokens: this.lexer.inline(n[a]),
+            header: true,
+            align: s.align[a],
+          });
+        for (let a of i)
+          s.rows.push(
+            J(a, s.header.length).map((o, l) => ({
+              text: o,
+              tokens: this.lexer.inline(o),
+              header: false,
+              align: s.align[l],
+            }))
+          );
+        return s;
+      }
+    }
+    lheading(e) {
+      let t = this.rules.block.lheading.exec(e);
+      if (t)
+        return {
+          type: "heading",
+          raw: t[0],
+          depth: t[2].charAt(0) === "=" ? 1 : 2,
+          text: t[1],
+          tokens: this.lexer.inline(t[1]),
+        };
+    }
+    paragraph(e) {
+      let t = this.rules.block.paragraph.exec(e);
+      if (t) {
+        let n =
+          t[1].charAt(t[1].length - 1) ===
+          `
+`
+            ? t[1].slice(0, -1)
+            : t[1];
+        return {
+          type: "paragraph",
+          raw: t[0],
+          text: n,
+          tokens: this.lexer.inline(n),
+        };
+      }
+    }
+    text(e) {
+      let t = this.rules.block.text.exec(e);
+      if (t)
+        return {
+          type: "text",
+          raw: t[0],
+          text: t[0],
+          tokens: this.lexer.inline(t[0]),
+        };
+    }
+    escape(e) {
+      let t = this.rules.inline.escape.exec(e);
+      if (t) return { type: "escape", raw: t[0], text: t[1] };
+    }
+    tag(e) {
+      let t = this.rules.inline.tag.exec(e);
+      if (t)
+        return (
+          !this.lexer.state.inLink && this.rules.other.startATag.test(t[0])
+            ? (this.lexer.state.inLink = true)
+            : this.lexer.state.inLink &&
+              this.rules.other.endATag.test(t[0]) &&
+              (this.lexer.state.inLink = false),
+          !this.lexer.state.inRawBlock &&
+          this.rules.other.startPreScriptTag.test(t[0])
+            ? (this.lexer.state.inRawBlock = true)
+            : this.lexer.state.inRawBlock &&
+              this.rules.other.endPreScriptTag.test(t[0]) &&
+              (this.lexer.state.inRawBlock = false),
+          {
+            type: "html",
+            raw: t[0],
+            inLink: this.lexer.state.inLink,
+            inRawBlock: this.lexer.state.inRawBlock,
+            block: false,
+            text: t[0],
+          }
+        );
+    }
+    link(e) {
+      let t = this.rules.inline.link.exec(e);
+      if (t) {
+        let n = t[2].trim();
+        if (
+          !this.options.pedantic &&
+          this.rules.other.startAngleBracket.test(n)
+        ) {
+          if (!this.rules.other.endAngleBracket.test(n)) return;
+          let s = z(n.slice(0, -1), "\\");
+          if ((n.length - s.length) % 2 === 0) return;
+        } else {
+          let s = de(t[2], "()");
+          if (s === -2) return;
+          if (s > -1) {
+            let o = (t[0].indexOf("!") === 0 ? 5 : 4) + t[1].length + s;
+            ((t[2] = t[2].substring(0, s)),
+              (t[0] = t[0].substring(0, o).trim()),
+              (t[3] = ""));
+          }
+        }
+        let r2 = t[2],
+          i = "";
+        if (this.options.pedantic) {
+          let s = this.rules.other.pedanticHrefTitle.exec(r2);
+          s && ((r2 = s[1]), (i = s[3]));
+        } else i = t[3] ? t[3].slice(1, -1) : "";
+        return (
+          (r2 = r2.trim()),
+          this.rules.other.startAngleBracket.test(r2) &&
+            (this.options.pedantic && !this.rules.other.endAngleBracket.test(n)
+              ? (r2 = r2.slice(1))
+              : (r2 = r2.slice(1, -1))),
+          ge(
+            t,
+            {
+              href: r2 && r2.replace(this.rules.inline.anyPunctuation, "$1"),
+              title: i && i.replace(this.rules.inline.anyPunctuation, "$1"),
+            },
+            t[0],
+            this.lexer,
+            this.rules
+          )
+        );
+      }
+    }
+    reflink(e, t) {
+      let n;
+      if (
+        (n = this.rules.inline.reflink.exec(e)) ||
+        (n = this.rules.inline.nolink.exec(e))
+      ) {
+        let r2 = (n[2] || n[1]).replace(
+            this.rules.other.multipleSpaceGlobal,
+            " "
+          ),
+          i = t[r2.toLowerCase()];
+        if (!i) {
+          let s = n[0].charAt(0);
+          return { type: "text", raw: s, text: s };
+        }
+        return ge(n, i, n[0], this.lexer, this.rules);
+      }
+    }
+    emStrong(e, t, n = "") {
+      let r2 = this.rules.inline.emStrongLDelim.exec(e);
+      if (!r2 || (r2[3] && n.match(this.rules.other.unicodeAlphaNumeric)))
+        return;
+      if (
+        !(r2[1] || r2[2] || "") ||
+        !n ||
+        this.rules.inline.punctuation.exec(n)
+      ) {
+        let s = [...r2[0]].length - 1,
+          a,
+          o,
+          l = s,
+          p = 0,
+          c =
+            r2[0][0] === "*"
+              ? this.rules.inline.emStrongRDelimAst
+              : this.rules.inline.emStrongRDelimUnd;
+        for (
+          c.lastIndex = 0, t = t.slice(-1 * e.length + s);
+          (r2 = c.exec(t)) != null;
+        ) {
+          if (((a = r2[1] || r2[2] || r2[3] || r2[4] || r2[5] || r2[6]), !a))
+            continue;
+          if (((o = [...a].length), r2[3] || r2[4])) {
+            l += o;
+            continue;
+          } else if ((r2[5] || r2[6]) && s % 3 && !((s + o) % 3)) {
+            p += o;
+            continue;
+          }
+          if (((l -= o), l > 0)) continue;
+          o = Math.min(o, o + l + p);
+          let g = [...r2[0]][0].length,
+            h = e.slice(0, s + r2.index + g + o);
+          if (Math.min(s, o) % 2) {
+            let f = h.slice(1, -1);
+            return {
+              type: "em",
+              raw: h,
+              text: f,
+              tokens: this.lexer.inlineTokens(f),
+            };
+          }
+          let R = h.slice(2, -2);
+          return {
+            type: "strong",
+            raw: h,
+            text: R,
+            tokens: this.lexer.inlineTokens(R),
+          };
+        }
+      }
+    }
+    codespan(e) {
+      let t = this.rules.inline.code.exec(e);
+      if (t) {
+        let n = t[2].replace(this.rules.other.newLineCharGlobal, " "),
+          r2 = this.rules.other.nonSpaceChar.test(n),
+          i =
+            this.rules.other.startingSpaceChar.test(n) &&
+            this.rules.other.endingSpaceChar.test(n);
+        return (
+          r2 && i && (n = n.substring(1, n.length - 1)),
+          { type: "codespan", raw: t[0], text: n }
+        );
+      }
+    }
+    br(e) {
+      let t = this.rules.inline.br.exec(e);
+      if (t) return { type: "br", raw: t[0] };
+    }
+    del(e) {
+      let t = this.rules.inline.del.exec(e);
+      if (t)
+        return {
+          type: "del",
+          raw: t[0],
+          text: t[2],
+          tokens: this.lexer.inlineTokens(t[2]),
+        };
+    }
+    autolink(e) {
+      let t = this.rules.inline.autolink.exec(e);
+      if (t) {
+        let n, r2;
+        return (
+          t[2] === "@"
+            ? ((n = t[1]), (r2 = "mailto:" + n))
+            : ((n = t[1]), (r2 = n)),
+          {
+            type: "link",
+            raw: t[0],
+            text: n,
+            href: r2,
+            tokens: [{ type: "text", raw: n, text: n }],
+          }
+        );
+      }
+    }
+    url(e) {
+      var _a2;
+      let t;
+      if ((t = this.rules.inline.url.exec(e))) {
+        let n, r2;
+        if (t[2] === "@") ((n = t[0]), (r2 = "mailto:" + n));
+        else {
+          let i;
+          do
+            ((i = t[0]),
+              (t[0] =
+                ((_a2 = this.rules.inline._backpedal.exec(t[0])) == null
+                  ? void 0
+                  : _a2[0]) ?? ""));
+          while (i !== t[0]);
+          ((n = t[0]), t[1] === "www." ? (r2 = "http://" + t[0]) : (r2 = t[0]));
+        }
+        return {
+          type: "link",
+          raw: t[0],
+          text: n,
+          href: r2,
+          tokens: [{ type: "text", raw: n, text: n }],
+        };
+      }
+    }
+    inlineText(e) {
+      let t = this.rules.inline.text.exec(e);
+      if (t) {
+        let n = this.lexer.state.inRawBlock;
+        return { type: "text", raw: t[0], text: t[0], escaped: n };
+      }
+    }
+  };
+  var x = class u {
+    constructor(e) {
+      __publicField(this, "tokens");
+      __publicField(this, "options");
+      __publicField(this, "state");
+      __publicField(this, "inlineQueue");
+      __publicField(this, "tokenizer");
+      ((this.tokens = []),
+        (this.tokens.links = /* @__PURE__ */ Object.create(null)),
+        (this.options = e || T),
+        (this.options.tokenizer = this.options.tokenizer || new y()),
+        (this.tokenizer = this.options.tokenizer),
+        (this.tokenizer.options = this.options),
+        (this.tokenizer.lexer = this),
+        (this.inlineQueue = []),
+        (this.state = { inLink: false, inRawBlock: false, top: true }));
+      let t = { other: m, block: E.normal, inline: M.normal };
+      (this.options.pedantic
+        ? ((t.block = E.pedantic), (t.inline = M.pedantic))
+        : this.options.gfm &&
+          ((t.block = E.gfm),
+          this.options.breaks ? (t.inline = M.breaks) : (t.inline = M.gfm)),
+        (this.tokenizer.rules = t));
+    }
+    static get rules() {
+      return { block: E, inline: M };
+    }
+    static lex(e, t) {
+      return new u(t).lex(e);
+    }
+    static lexInline(e, t) {
+      return new u(t).inlineTokens(e);
+    }
+    lex(e) {
+      ((e = e.replace(
+        m.carriageReturn,
+        `
+`
+      )),
+        this.blockTokens(e, this.tokens));
+      for (let t = 0; t < this.inlineQueue.length; t++) {
+        let n = this.inlineQueue[t];
+        this.inlineTokens(n.src, n.tokens);
+      }
+      return ((this.inlineQueue = []), this.tokens);
+    }
+    blockTokens(e, t = [], n = false) {
+      var _a2, _b, _c;
+      for (
+        this.options.pedantic &&
+        (e = e.replace(m.tabCharGlobal, "    ").replace(m.spaceLine, ""));
+        e;
+      ) {
+        let r2;
+        if (
+          (_b = (_a2 = this.options.extensions) == null ? void 0 : _a2.block) ==
+          null
+            ? void 0
+            : _b.some((s) =>
+                (r2 = s.call({ lexer: this }, e, t))
+                  ? ((e = e.substring(r2.raw.length)), t.push(r2), true)
+                  : false
+              )
+        )
+          continue;
+        if ((r2 = this.tokenizer.space(e))) {
+          e = e.substring(r2.raw.length);
+          let s = t.at(-1);
+          r2.raw.length === 1 && s !== void 0
+            ? (s.raw += `
+`)
+            : t.push(r2);
+          continue;
+        }
+        if ((r2 = this.tokenizer.code(e))) {
+          e = e.substring(r2.raw.length);
+          let s = t.at(-1);
+          (s == null ? void 0 : s.type) === "paragraph" ||
+          (s == null ? void 0 : s.type) === "text"
+            ? ((s.raw +=
+                (s.raw.endsWith(`
+`)
+                  ? ""
+                  : `
+`) + r2.raw),
+              (s.text +=
+                `
+` + r2.text),
+              (this.inlineQueue.at(-1).src = s.text))
+            : t.push(r2);
+          continue;
+        }
+        if ((r2 = this.tokenizer.fences(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.heading(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.hr(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.blockquote(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.list(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.html(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.def(e))) {
+          e = e.substring(r2.raw.length);
+          let s = t.at(-1);
+          (s == null ? void 0 : s.type) === "paragraph" ||
+          (s == null ? void 0 : s.type) === "text"
+            ? ((s.raw +=
+                (s.raw.endsWith(`
+`)
+                  ? ""
+                  : `
+`) + r2.raw),
+              (s.text +=
+                `
+` + r2.raw),
+              (this.inlineQueue.at(-1).src = s.text))
+            : this.tokens.links[r2.tag] ||
+              ((this.tokens.links[r2.tag] = { href: r2.href, title: r2.title }),
+              t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.table(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        if ((r2 = this.tokenizer.lheading(e))) {
+          ((e = e.substring(r2.raw.length)), t.push(r2));
+          continue;
+        }
+        let i = e;
+        if ((_c = this.options.extensions) == null ? void 0 : _c.startBlock) {
+          let s = 1 / 0,
+            a = e.slice(1),
+            o;
+          (this.options.extensions.startBlock.forEach((l) => {
+            ((o = l.call({ lexer: this }, a)),
+              typeof o == "number" && o >= 0 && (s = Math.min(s, o)));
+          }),
+            s < 1 / 0 && s >= 0 && (i = e.substring(0, s + 1)));
+        }
+        if (this.state.top && (r2 = this.tokenizer.paragraph(i))) {
+          let s = t.at(-1);
+          (n && (s == null ? void 0 : s.type) === "paragraph"
+            ? ((s.raw +=
+                (s.raw.endsWith(`
+`)
+                  ? ""
+                  : `
+`) + r2.raw),
+              (s.text +=
+                `
+` + r2.text),
+              this.inlineQueue.pop(),
+              (this.inlineQueue.at(-1).src = s.text))
+            : t.push(r2),
+            (n = i.length !== e.length),
+            (e = e.substring(r2.raw.length)));
+          continue;
+        }
+        if ((r2 = this.tokenizer.text(e))) {
+          e = e.substring(r2.raw.length);
+          let s = t.at(-1);
+          (s == null ? void 0 : s.type) === "text"
+            ? ((s.raw +=
+                (s.raw.endsWith(`
+`)
+                  ? ""
+                  : `
+`) + r2.raw),
+              (s.text +=
+                `
+` + r2.text),
+              this.inlineQueue.pop(),
+              (this.inlineQueue.at(-1).src = s.text))
+            : t.push(r2);
+          continue;
+        }
+        if (e) {
+          let s = "Infinite loop on byte: " + e.charCodeAt(0);
+          if (this.options.silent) {
+            console.error(s);
+            break;
+          } else throw new Error(s);
+        }
+      }
+      return ((this.state.top = true), t);
+    }
+    inline(e, t = []) {
+      return (this.inlineQueue.push({ src: e, tokens: t }), t);
+    }
+    inlineTokens(e, t = []) {
+      var _a2, _b, _c, _d, _e2;
+      let n = e,
+        r2 = null;
+      if (this.tokens.links) {
+        let o = Object.keys(this.tokens.links);
+        if (o.length > 0)
+          for (
+            ;
+            (r2 = this.tokenizer.rules.inline.reflinkSearch.exec(n)) != null;
+          )
+            o.includes(r2[0].slice(r2[0].lastIndexOf("[") + 1, -1)) &&
+              (n =
+                n.slice(0, r2.index) +
+                "[" +
+                "a".repeat(r2[0].length - 2) +
+                "]" +
+                n.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex));
+      }
+      for (
+        ;
+        (r2 = this.tokenizer.rules.inline.anyPunctuation.exec(n)) != null;
+      )
+        n =
+          n.slice(0, r2.index) +
+          "++" +
+          n.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);
+      let i;
+      for (; (r2 = this.tokenizer.rules.inline.blockSkip.exec(n)) != null; )
+        ((i = r2[2] ? r2[2].length : 0),
+          (n =
+            n.slice(0, r2.index + i) +
+            "[" +
+            "a".repeat(r2[0].length - i - 2) +
+            "]" +
+            n.slice(this.tokenizer.rules.inline.blockSkip.lastIndex)));
+      n =
+        ((_b =
+          (_a2 = this.options.hooks) == null ? void 0 : _a2.emStrongMask) ==
+        null
+          ? void 0
+          : _b.call({ lexer: this }, n)) ?? n;
+      let s = false,
+        a = "";
+      for (; e; ) {
+        (s || (a = ""), (s = false));
+        let o;
+        if (
+          (_d = (_c = this.options.extensions) == null ? void 0 : _c.inline) ==
+          null
+            ? void 0
+            : _d.some((p) =>
+                (o = p.call({ lexer: this }, e, t))
+                  ? ((e = e.substring(o.raw.length)), t.push(o), true)
+                  : false
+              )
+        )
+          continue;
+        if ((o = this.tokenizer.escape(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.tag(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.link(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.reflink(e, this.tokens.links))) {
+          e = e.substring(o.raw.length);
+          let p = t.at(-1);
+          o.type === "text" && (p == null ? void 0 : p.type) === "text"
+            ? ((p.raw += o.raw), (p.text += o.text))
+            : t.push(o);
+          continue;
+        }
+        if ((o = this.tokenizer.emStrong(e, n, a))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.codespan(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.br(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.del(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if ((o = this.tokenizer.autolink(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        if (!this.state.inLink && (o = this.tokenizer.url(e))) {
+          ((e = e.substring(o.raw.length)), t.push(o));
+          continue;
+        }
+        let l = e;
+        if (
+          (_e2 = this.options.extensions) == null ? void 0 : _e2.startInline
+        ) {
+          let p = 1 / 0,
+            c = e.slice(1),
+            g;
+          (this.options.extensions.startInline.forEach((h) => {
+            ((g = h.call({ lexer: this }, c)),
+              typeof g == "number" && g >= 0 && (p = Math.min(p, g)));
+          }),
+            p < 1 / 0 && p >= 0 && (l = e.substring(0, p + 1)));
+        }
+        if ((o = this.tokenizer.inlineText(l))) {
+          ((e = e.substring(o.raw.length)),
+            o.raw.slice(-1) !== "_" && (a = o.raw.slice(-1)),
+            (s = true));
+          let p = t.at(-1);
+          (p == null ? void 0 : p.type) === "text"
+            ? ((p.raw += o.raw), (p.text += o.text))
+            : t.push(o);
+          continue;
+        }
+        if (e) {
+          let p = "Infinite loop on byte: " + e.charCodeAt(0);
+          if (this.options.silent) {
+            console.error(p);
+            break;
+          } else throw new Error(p);
+        }
+      }
+      return t;
+    }
+  };
+  var P = class {
+    constructor(e) {
+      __publicField(this, "options");
+      __publicField(this, "parser");
+      this.options = e || T;
+    }
+    space(e) {
+      return "";
+    }
+    code({ text: e, lang: t, escaped: n }) {
+      var _a2;
+      let r2 =
+          (_a2 = (t || "").match(m.notSpaceStart)) == null ? void 0 : _a2[0],
+        i =
+          e.replace(m.endingNewline, "") +
+          `
+`;
+      return r2
+        ? '<pre><code class="language-' +
+            w(r2) +
+            '">' +
+            (n ? i : w(i, true)) +
+            `</code></pre>
+`
+        : "<pre><code>" +
+            (n ? i : w(i, true)) +
+            `</code></pre>
+`;
+    }
+    blockquote({ tokens: e }) {
+      return `<blockquote>
+${this.parser.parse(e)}</blockquote>
+`;
+    }
+    html({ text: e }) {
+      return e;
+    }
+    def(e) {
+      return "";
+    }
+    heading({ tokens: e, depth: t }) {
+      return `<h${t}>${this.parser.parseInline(e)}</h${t}>
+`;
+    }
+    hr(e) {
+      return `<hr>
+`;
+    }
+    list(e) {
+      let t = e.ordered,
+        n = e.start,
+        r2 = "";
+      for (let a = 0; a < e.items.length; a++) {
+        let o = e.items[a];
+        r2 += this.listitem(o);
+      }
+      let i = t ? "ol" : "ul",
+        s = t && n !== 1 ? ' start="' + n + '"' : "";
+      return (
+        "<" +
+        i +
+        s +
+        `>
+` +
+        r2 +
+        "</" +
+        i +
+        `>
+`
+      );
+    }
+    listitem(e) {
+      return `<li>${this.parser.parse(e.tokens)}</li>
+`;
+    }
+    checkbox({ checked: e }) {
+      return (
+        "<input " + (e ? 'checked="" ' : "") + 'disabled="" type="checkbox"> '
+      );
+    }
+    paragraph({ tokens: e }) {
+      return `<p>${this.parser.parseInline(e)}</p>
+`;
+    }
+    table(e) {
+      let t = "",
+        n = "";
+      for (let i = 0; i < e.header.length; i++)
+        n += this.tablecell(e.header[i]);
+      t += this.tablerow({ text: n });
+      let r2 = "";
+      for (let i = 0; i < e.rows.length; i++) {
+        let s = e.rows[i];
+        n = "";
+        for (let a = 0; a < s.length; a++) n += this.tablecell(s[a]);
+        r2 += this.tablerow({ text: n });
+      }
+      return (
+        r2 && (r2 = `<tbody>${r2}</tbody>`),
+        `<table>
+<thead>
+` +
+          t +
+          `</thead>
+` +
+          r2 +
+          `</table>
+`
+      );
+    }
+    tablerow({ text: e }) {
+      return `<tr>
+${e}</tr>
+`;
+    }
+    tablecell(e) {
+      let t = this.parser.parseInline(e.tokens),
+        n = e.header ? "th" : "td";
+      return (
+        (e.align ? `<${n} align="${e.align}">` : `<${n}>`) +
+        t +
+        `</${n}>
+`
+      );
+    }
+    strong({ tokens: e }) {
+      return `<strong>${this.parser.parseInline(e)}</strong>`;
+    }
+    em({ tokens: e }) {
+      return `<em>${this.parser.parseInline(e)}</em>`;
+    }
+    codespan({ text: e }) {
+      return `<code>${w(e, true)}</code>`;
+    }
+    br(e) {
+      return "<br>";
+    }
+    del({ tokens: e }) {
+      return `<del>${this.parser.parseInline(e)}</del>`;
+    }
+    link({ href: e, title: t, tokens: n }) {
+      let r2 = this.parser.parseInline(n),
+        i = X3(e);
+      if (i === null) return r2;
+      e = i;
+      let s = '<a href="' + e + '"';
+      return (t && (s += ' title="' + w(t) + '"'), (s += ">" + r2 + "</a>"), s);
+    }
+    image({ href: e, title: t, text: n, tokens: r2 }) {
+      r2 && (n = this.parser.parseInline(r2, this.parser.textRenderer));
+      let i = X3(e);
+      if (i === null) return w(n);
+      e = i;
+      let s = `<img src="${e}" alt="${n}"`;
+      return (t && (s += ` title="${w(t)}"`), (s += ">"), s);
+    }
+    text(e) {
+      return "tokens" in e && e.tokens
+        ? this.parser.parseInline(e.tokens)
+        : "escaped" in e && e.escaped
+          ? e.text
+          : w(e.text);
+    }
+  };
+  var $ = class {
+    strong({ text: e }) {
+      return e;
+    }
+    em({ text: e }) {
+      return e;
+    }
+    codespan({ text: e }) {
+      return e;
+    }
+    del({ text: e }) {
+      return e;
+    }
+    html({ text: e }) {
+      return e;
+    }
+    text({ text: e }) {
+      return e;
+    }
+    link({ text: e }) {
+      return "" + e;
+    }
+    image({ text: e }) {
+      return "" + e;
+    }
+    br() {
+      return "";
+    }
+    checkbox({ raw: e }) {
+      return e;
+    }
+  };
+  var b = class u2 {
+    constructor(e) {
+      __publicField(this, "options");
+      __publicField(this, "renderer");
+      __publicField(this, "textRenderer");
+      ((this.options = e || T),
+        (this.options.renderer = this.options.renderer || new P()),
+        (this.renderer = this.options.renderer),
+        (this.renderer.options = this.options),
+        (this.renderer.parser = this),
+        (this.textRenderer = new $()));
+    }
+    static parse(e, t) {
+      return new u2(t).parse(e);
+    }
+    static parseInline(e, t) {
+      return new u2(t).parseInline(e);
+    }
+    parse(e) {
+      var _a2, _b;
+      let t = "";
+      for (let n = 0; n < e.length; n++) {
+        let r2 = e[n];
+        if (
+          (_b =
+            (_a2 = this.options.extensions) == null ? void 0 : _a2.renderers) ==
+          null
+            ? void 0
+            : _b[r2.type]
+        ) {
+          let s = r2,
+            a = this.options.extensions.renderers[s.type].call(
+              { parser: this },
+              s
+            );
+          if (
+            a !== false ||
+            ![
+              "space",
+              "hr",
+              "heading",
+              "code",
+              "table",
+              "blockquote",
+              "list",
+              "html",
+              "def",
+              "paragraph",
+              "text",
+            ].includes(s.type)
+          ) {
+            t += a || "";
+            continue;
+          }
+        }
+        let i = r2;
+        switch (i.type) {
+          case "space": {
+            t += this.renderer.space(i);
+            break;
+          }
+          case "hr": {
+            t += this.renderer.hr(i);
+            break;
+          }
+          case "heading": {
+            t += this.renderer.heading(i);
+            break;
+          }
+          case "code": {
+            t += this.renderer.code(i);
+            break;
+          }
+          case "table": {
+            t += this.renderer.table(i);
+            break;
+          }
+          case "blockquote": {
+            t += this.renderer.blockquote(i);
+            break;
+          }
+          case "list": {
+            t += this.renderer.list(i);
+            break;
+          }
+          case "checkbox": {
+            t += this.renderer.checkbox(i);
+            break;
+          }
+          case "html": {
+            t += this.renderer.html(i);
+            break;
+          }
+          case "def": {
+            t += this.renderer.def(i);
+            break;
+          }
+          case "paragraph": {
+            t += this.renderer.paragraph(i);
+            break;
+          }
+          case "text": {
+            t += this.renderer.text(i);
+            break;
+          }
+          default: {
+            let s = 'Token with "' + i.type + '" type was not found.';
+            if (this.options.silent) return (console.error(s), "");
+            throw new Error(s);
+          }
+        }
+      }
+      return t;
+    }
+    parseInline(e, t = this.renderer) {
+      var _a2, _b;
+      let n = "";
+      for (let r2 = 0; r2 < e.length; r2++) {
+        let i = e[r2];
+        if (
+          (_b =
+            (_a2 = this.options.extensions) == null ? void 0 : _a2.renderers) ==
+          null
+            ? void 0
+            : _b[i.type]
+        ) {
+          let a = this.options.extensions.renderers[i.type].call(
+            { parser: this },
+            i
+          );
+          if (
+            a !== false ||
+            ![
+              "escape",
+              "html",
+              "link",
+              "image",
+              "strong",
+              "em",
+              "codespan",
+              "br",
+              "del",
+              "text",
+            ].includes(i.type)
+          ) {
+            n += a || "";
+            continue;
+          }
+        }
+        let s = i;
+        switch (s.type) {
+          case "escape": {
+            n += t.text(s);
+            break;
+          }
+          case "html": {
+            n += t.html(s);
+            break;
+          }
+          case "link": {
+            n += t.link(s);
+            break;
+          }
+          case "image": {
+            n += t.image(s);
+            break;
+          }
+          case "checkbox": {
+            n += t.checkbox(s);
+            break;
+          }
+          case "strong": {
+            n += t.strong(s);
+            break;
+          }
+          case "em": {
+            n += t.em(s);
+            break;
+          }
+          case "codespan": {
+            n += t.codespan(s);
+            break;
+          }
+          case "br": {
+            n += t.br(s);
+            break;
+          }
+          case "del": {
+            n += t.del(s);
+            break;
+          }
+          case "text": {
+            n += t.text(s);
+            break;
+          }
+          default: {
+            let a = 'Token with "' + s.type + '" type was not found.';
+            if (this.options.silent) return (console.error(a), "");
+            throw new Error(a);
+          }
+        }
+      }
+      return n;
+    }
+  };
+  var _a;
+  var S =
+    ((_a = class {
+      constructor(e) {
+        __publicField(this, "options");
+        __publicField(this, "block");
+        this.options = e || T;
+      }
+      preprocess(e) {
+        return e;
+      }
+      postprocess(e) {
+        return e;
+      }
+      processAllTokens(e) {
+        return e;
+      }
+      emStrongMask(e) {
+        return e;
+      }
+      provideLexer() {
+        return this.block ? x.lex : x.lexInline;
+      }
+      provideParser() {
+        return this.block ? b.parse : b.parseInline;
+      }
+    }),
+    __publicField(
+      _a,
+      "passThroughHooks",
+      /* @__PURE__ */ new Set([
+        "preprocess",
+        "postprocess",
+        "processAllTokens",
+        "emStrongMask",
+      ])
+    ),
+    __publicField(
+      _a,
+      "passThroughHooksRespectAsync",
+      /* @__PURE__ */ new Set(["preprocess", "postprocess", "processAllTokens"])
+    ),
+    _a);
+  var B = class {
+    constructor(...e) {
+      __publicField(this, "defaults", L());
+      __publicField(this, "options", this.setOptions);
+      __publicField(this, "parse", this.parseMarkdown(true));
+      __publicField(this, "parseInline", this.parseMarkdown(false));
+      __publicField(this, "Parser", b);
+      __publicField(this, "Renderer", P);
+      __publicField(this, "TextRenderer", $);
+      __publicField(this, "Lexer", x);
+      __publicField(this, "Tokenizer", y);
+      __publicField(this, "Hooks", S);
+      this.use(...e);
+    }
+    walkTokens(e, t) {
+      var _a2, _b;
+      let n = [];
+      for (let r2 of e)
+        switch (((n = n.concat(t.call(this, r2))), r2.type)) {
+          case "table": {
+            let i = r2;
+            for (let s of i.header) n = n.concat(this.walkTokens(s.tokens, t));
+            for (let s of i.rows)
+              for (let a of s) n = n.concat(this.walkTokens(a.tokens, t));
+            break;
+          }
+          case "list": {
+            let i = r2;
+            n = n.concat(this.walkTokens(i.items, t));
+            break;
+          }
+          default: {
+            let i = r2;
+            (
+              (_b =
+                (_a2 = this.defaults.extensions) == null
+                  ? void 0
+                  : _a2.childTokens) == null
+                ? void 0
+                : _b[i.type]
+            )
+              ? this.defaults.extensions.childTokens[i.type].forEach((s) => {
+                  let a = i[s].flat(1 / 0);
+                  n = n.concat(this.walkTokens(a, t));
+                })
+              : i.tokens && (n = n.concat(this.walkTokens(i.tokens, t)));
+          }
+        }
+      return n;
+    }
+    use(...e) {
+      let t = this.defaults.extensions || { renderers: {}, childTokens: {} };
+      return (
+        e.forEach((n) => {
+          let r2 = { ...n };
+          if (
+            ((r2.async = this.defaults.async || r2.async || false),
+            n.extensions &&
+              (n.extensions.forEach((i) => {
+                if (!i.name) throw new Error("extension name required");
+                if ("renderer" in i) {
+                  let s = t.renderers[i.name];
+                  s
+                    ? (t.renderers[i.name] = function (...a) {
+                        let o = i.renderer.apply(this, a);
+                        return (o === false && (o = s.apply(this, a)), o);
+                      })
+                    : (t.renderers[i.name] = i.renderer);
+                }
+                if ("tokenizer" in i) {
+                  if (!i.level || (i.level !== "block" && i.level !== "inline"))
+                    throw new Error(
+                      "extension level must be 'block' or 'inline'"
+                    );
+                  let s = t[i.level];
+                  (s ? s.unshift(i.tokenizer) : (t[i.level] = [i.tokenizer]),
+                    i.start &&
+                      (i.level === "block"
+                        ? t.startBlock
+                          ? t.startBlock.push(i.start)
+                          : (t.startBlock = [i.start])
+                        : i.level === "inline" &&
+                          (t.startInline
+                            ? t.startInline.push(i.start)
+                            : (t.startInline = [i.start]))));
+                }
+                "childTokens" in i &&
+                  i.childTokens &&
+                  (t.childTokens[i.name] = i.childTokens);
+              }),
+              (r2.extensions = t)),
+            n.renderer)
+          ) {
+            let i = this.defaults.renderer || new P(this.defaults);
+            for (let s in n.renderer) {
+              if (!(s in i)) throw new Error(`renderer '${s}' does not exist`);
+              if (["options", "parser"].includes(s)) continue;
+              let a = s,
+                o = n.renderer[a],
+                l = i[a];
+              i[a] = (...p) => {
+                let c = o.apply(i, p);
+                return (c === false && (c = l.apply(i, p)), c || "");
+              };
+            }
+            r2.renderer = i;
+          }
+          if (n.tokenizer) {
+            let i = this.defaults.tokenizer || new y(this.defaults);
+            for (let s in n.tokenizer) {
+              if (!(s in i)) throw new Error(`tokenizer '${s}' does not exist`);
+              if (["options", "rules", "lexer"].includes(s)) continue;
+              let a = s,
+                o = n.tokenizer[a],
+                l = i[a];
+              i[a] = (...p) => {
+                let c = o.apply(i, p);
+                return (c === false && (c = l.apply(i, p)), c);
+              };
+            }
+            r2.tokenizer = i;
+          }
+          if (n.hooks) {
+            let i = this.defaults.hooks || new S();
+            for (let s in n.hooks) {
+              if (!(s in i)) throw new Error(`hook '${s}' does not exist`);
+              if (["options", "block"].includes(s)) continue;
+              let a = s,
+                o = n.hooks[a],
+                l = i[a];
+              S.passThroughHooks.has(s)
+                ? (i[a] = (p) => {
+                    if (
+                      this.defaults.async &&
+                      S.passThroughHooksRespectAsync.has(s)
+                    )
+                      return (async () => {
+                        let g = await o.call(i, p);
+                        return l.call(i, g);
+                      })();
+                    let c = o.call(i, p);
+                    return l.call(i, c);
+                  })
+                : (i[a] = (...p) => {
+                    if (this.defaults.async)
+                      return (async () => {
+                        let g = await o.apply(i, p);
+                        return (g === false && (g = await l.apply(i, p)), g);
+                      })();
+                    let c = o.apply(i, p);
+                    return (c === false && (c = l.apply(i, p)), c);
+                  });
+            }
+            r2.hooks = i;
+          }
+          if (n.walkTokens) {
+            let i = this.defaults.walkTokens,
+              s = n.walkTokens;
+            r2.walkTokens = function (a) {
+              let o = [];
+              return (
+                o.push(s.call(this, a)),
+                i && (o = o.concat(i.call(this, a))),
+                o
+              );
+            };
+          }
+          this.defaults = { ...this.defaults, ...r2 };
+        }),
+        this
+      );
+    }
+    setOptions(e) {
+      return ((this.defaults = { ...this.defaults, ...e }), this);
+    }
+    lexer(e, t) {
+      return x.lex(e, t ?? this.defaults);
+    }
+    parser(e, t) {
+      return b.parse(e, t ?? this.defaults);
+    }
+    parseMarkdown(e) {
+      return (n, r2) => {
+        let i = { ...r2 },
+          s = { ...this.defaults, ...i },
+          a = this.onError(!!s.silent, !!s.async);
+        if (this.defaults.async === true && i.async === false)
+          return a(
+            new Error(
+              "marked(): The async option was set to true by an extension. Remove async: false from the parse options object to return a Promise."
+            )
+          );
+        if (typeof n > "u" || n === null)
+          return a(new Error("marked(): input parameter is undefined or null"));
+        if (typeof n != "string")
+          return a(
+            new Error(
+              "marked(): input parameter is of type " +
+                Object.prototype.toString.call(n) +
+                ", string expected"
+            )
+          );
+        if ((s.hooks && ((s.hooks.options = s), (s.hooks.block = e)), s.async))
+          return (async () => {
+            let o = s.hooks ? await s.hooks.preprocess(n) : n,
+              p = await (
+                s.hooks ? await s.hooks.provideLexer() : e ? x.lex : x.lexInline
+              )(o, s),
+              c = s.hooks ? await s.hooks.processAllTokens(p) : p;
+            s.walkTokens &&
+              (await Promise.all(this.walkTokens(c, s.walkTokens)));
+            let h = await (
+              s.hooks
+                ? await s.hooks.provideParser()
+                : e
+                  ? b.parse
+                  : b.parseInline
+            )(c, s);
+            return s.hooks ? await s.hooks.postprocess(h) : h;
+          })().catch(a);
+        try {
+          s.hooks && (n = s.hooks.preprocess(n));
+          let l = (s.hooks ? s.hooks.provideLexer() : e ? x.lex : x.lexInline)(
+            n,
+            s
+          );
+          (s.hooks && (l = s.hooks.processAllTokens(l)),
+            s.walkTokens && this.walkTokens(l, s.walkTokens));
+          let c = (
+            s.hooks ? s.hooks.provideParser() : e ? b.parse : b.parseInline
+          )(l, s);
+          return (s.hooks && (c = s.hooks.postprocess(c)), c);
+        } catch (o) {
+          return a(o);
+        }
+      };
+    }
+    onError(e, t) {
+      return (n) => {
+        if (
+          ((n.message += `
+Please report this to https://github.com/markedjs/marked.`),
+          e)
+        ) {
+          let r2 =
+            "<p>An error occurred:</p><pre>" +
+            w(n.message + "", true) +
+            "</pre>";
+          return t ? Promise.resolve(r2) : r2;
+        }
+        if (t) return Promise.reject(n);
+        throw n;
+      };
+    }
+  };
+  var _ = new B();
+  function d(u3, e) {
+    return _.parse(u3, e);
+  }
+  d.options = d.setOptions = function (u3) {
+    return (_.setOptions(u3), (d.defaults = _.defaults), Z(d.defaults), d);
+  };
+  d.getDefaults = L;
+  d.defaults = T;
+  d.use = function (...u3) {
+    return (_.use(...u3), (d.defaults = _.defaults), Z(d.defaults), d);
+  };
+  d.walkTokens = function (u3, e) {
+    return _.walkTokens(u3, e);
+  };
+  d.parseInline = _.parseInline;
+  d.Parser = b;
+  d.parser = b.parse;
+  d.Renderer = P;
+  d.TextRenderer = $;
+  d.Lexer = x;
+  d.lexer = x.lex;
+  d.Tokenizer = y;
+  d.Hooks = S;
+  d.parse = d;
+  var Dt = d.options;
+  var Ht = d.setOptions;
+  var Zt = d.use;
+  var Gt = d.walkTokens;
+  var Nt = d.parseInline;
+  var Ft = b.parse;
+  var jt = x.lex;
+
+  // node_modules/dompurify/dist/purify.es.mjs
+  var {
+    entries,
+    setPrototypeOf,
+    isFrozen,
+    getPrototypeOf,
+    getOwnPropertyDescriptor,
+  } = Object;
+  var { freeze, seal, create } = Object;
+  var { apply, construct } = typeof Reflect !== "undefined" && Reflect;
+  if (!freeze) {
+    freeze = function freeze2(x2) {
+      return x2;
+    };
+  }
+  if (!seal) {
+    seal = function seal2(x2) {
+      return x2;
+    };
+  }
+  if (!apply) {
+    apply = function apply2(func, thisArg) {
+      for (
+        var _len = arguments.length,
+          args = new Array(_len > 2 ? _len - 2 : 0),
+          _key = 2;
+        _key < _len;
+        _key++
+      ) {
+        args[_key - 2] = arguments[_key];
+      }
+      return func.apply(thisArg, args);
+    };
+  }
+  if (!construct) {
+    construct = function construct2(Func) {
+      for (
+        var _len2 = arguments.length,
+          args = new Array(_len2 > 1 ? _len2 - 1 : 0),
+          _key2 = 1;
+        _key2 < _len2;
+        _key2++
+      ) {
+        args[_key2 - 1] = arguments[_key2];
+      }
+      return new Func(...args);
+    };
+  }
+  var arrayForEach = unapply(Array.prototype.forEach);
+  var arrayLastIndexOf = unapply(Array.prototype.lastIndexOf);
+  var arrayPop = unapply(Array.prototype.pop);
+  var arrayPush = unapply(Array.prototype.push);
+  var arraySplice = unapply(Array.prototype.splice);
+  var stringToLowerCase = unapply(String.prototype.toLowerCase);
+  var stringToString = unapply(String.prototype.toString);
+  var stringMatch = unapply(String.prototype.match);
+  var stringReplace = unapply(String.prototype.replace);
+  var stringIndexOf = unapply(String.prototype.indexOf);
+  var stringTrim = unapply(String.prototype.trim);
+  var objectHasOwnProperty = unapply(Object.prototype.hasOwnProperty);
+  var regExpTest = unapply(RegExp.prototype.test);
+  var typeErrorCreate = unconstruct(TypeError);
+  function unapply(func) {
+    return function (thisArg) {
+      if (thisArg instanceof RegExp) {
+        thisArg.lastIndex = 0;
+      }
+      for (
+        var _len3 = arguments.length,
+          args = new Array(_len3 > 1 ? _len3 - 1 : 0),
+          _key3 = 1;
+        _key3 < _len3;
+        _key3++
+      ) {
+        args[_key3 - 1] = arguments[_key3];
+      }
+      return apply(func, thisArg, args);
+    };
+  }
+  function unconstruct(Func) {
+    return function () {
+      for (
+        var _len4 = arguments.length, args = new Array(_len4), _key4 = 0;
+        _key4 < _len4;
+        _key4++
+      ) {
+        args[_key4] = arguments[_key4];
+      }
+      return construct(Func, args);
+    };
+  }
+  function addToSet(set, array) {
+    let transformCaseFunc =
+      arguments.length > 2 && arguments[2] !== void 0
+        ? arguments[2]
+        : stringToLowerCase;
+    if (setPrototypeOf) {
+      setPrototypeOf(set, null);
+    }
+    let l = array.length;
+    while (l--) {
+      let element = array[l];
+      if (typeof element === "string") {
+        const lcElement = transformCaseFunc(element);
+        if (lcElement !== element) {
+          if (!isFrozen(array)) {
+            array[l] = lcElement;
+          }
+          element = lcElement;
+        }
+      }
+      set[element] = true;
+    }
+    return set;
+  }
+  function cleanArray(array) {
+    for (let index = 0; index < array.length; index++) {
+      const isPropertyExist = objectHasOwnProperty(array, index);
+      if (!isPropertyExist) {
+        array[index] = null;
+      }
+    }
+    return array;
+  }
+  function clone(object) {
+    const newObject = create(null);
+    for (const [property, value] of entries(object)) {
+      const isPropertyExist = objectHasOwnProperty(object, property);
+      if (isPropertyExist) {
+        if (Array.isArray(value)) {
+          newObject[property] = cleanArray(value);
+        } else if (
+          value &&
+          typeof value === "object" &&
+          value.constructor === Object
+        ) {
+          newObject[property] = clone(value);
+        } else {
+          newObject[property] = value;
+        }
+      }
+    }
+    return newObject;
+  }
+  function lookupGetter(object, prop) {
+    while (object !== null) {
+      const desc = getOwnPropertyDescriptor(object, prop);
+      if (desc) {
+        if (desc.get) {
+          return unapply(desc.get);
+        }
+        if (typeof desc.value === "function") {
+          return unapply(desc.value);
+        }
+      }
+      object = getPrototypeOf(object);
+    }
+    function fallbackValue() {
+      return null;
+    }
+    return fallbackValue;
+  }
+  var html$1 = freeze([
+    "a",
+    "abbr",
+    "acronym",
+    "address",
+    "area",
+    "article",
+    "aside",
+    "audio",
+    "b",
+    "bdi",
+    "bdo",
+    "big",
+    "blink",
+    "blockquote",
+    "body",
+    "br",
+    "button",
+    "canvas",
+    "caption",
+    "center",
+    "cite",
+    "code",
+    "col",
+    "colgroup",
+    "content",
+    "data",
+    "datalist",
+    "dd",
+    "decorator",
+    "del",
+    "details",
+    "dfn",
+    "dialog",
+    "dir",
+    "div",
+    "dl",
+    "dt",
+    "element",
+    "em",
+    "fieldset",
+    "figcaption",
+    "figure",
+    "font",
+    "footer",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "head",
+    "header",
+    "hgroup",
+    "hr",
+    "html",
+    "i",
+    "img",
+    "input",
+    "ins",
+    "kbd",
+    "label",
+    "legend",
+    "li",
+    "main",
+    "map",
+    "mark",
+    "marquee",
+    "menu",
+    "menuitem",
+    "meter",
+    "nav",
+    "nobr",
+    "ol",
+    "optgroup",
+    "option",
+    "output",
+    "p",
+    "picture",
+    "pre",
+    "progress",
+    "q",
+    "rp",
+    "rt",
+    "ruby",
+    "s",
+    "samp",
+    "search",
+    "section",
+    "select",
+    "shadow",
+    "slot",
+    "small",
+    "source",
+    "spacer",
+    "span",
+    "strike",
+    "strong",
+    "style",
+    "sub",
+    "summary",
+    "sup",
+    "table",
+    "tbody",
+    "td",
+    "template",
+    "textarea",
+    "tfoot",
+    "th",
+    "thead",
+    "time",
+    "tr",
+    "track",
+    "tt",
+    "u",
+    "ul",
+    "var",
+    "video",
+    "wbr",
+  ]);
+  var svg$1 = freeze([
+    "svg",
+    "a",
+    "altglyph",
+    "altglyphdef",
+    "altglyphitem",
+    "animatecolor",
+    "animatemotion",
+    "animatetransform",
+    "circle",
+    "clippath",
+    "defs",
+    "desc",
+    "ellipse",
+    "enterkeyhint",
+    "exportparts",
+    "filter",
+    "font",
+    "g",
+    "glyph",
+    "glyphref",
+    "hkern",
+    "image",
+    "inputmode",
+    "line",
+    "lineargradient",
+    "marker",
+    "mask",
+    "metadata",
+    "mpath",
+    "part",
+    "path",
+    "pattern",
+    "polygon",
+    "polyline",
+    "radialgradient",
+    "rect",
+    "stop",
+    "style",
+    "switch",
+    "symbol",
+    "text",
+    "textpath",
+    "title",
+    "tref",
+    "tspan",
+    "view",
+    "vkern",
+  ]);
+  var svgFilters = freeze([
+    "feBlend",
+    "feColorMatrix",
+    "feComponentTransfer",
+    "feComposite",
+    "feConvolveMatrix",
+    "feDiffuseLighting",
+    "feDisplacementMap",
+    "feDistantLight",
+    "feDropShadow",
+    "feFlood",
+    "feFuncA",
+    "feFuncB",
+    "feFuncG",
+    "feFuncR",
+    "feGaussianBlur",
+    "feImage",
+    "feMerge",
+    "feMergeNode",
+    "feMorphology",
+    "feOffset",
+    "fePointLight",
+    "feSpecularLighting",
+    "feSpotLight",
+    "feTile",
+    "feTurbulence",
+  ]);
+  var svgDisallowed = freeze([
+    "animate",
+    "color-profile",
+    "cursor",
+    "discard",
+    "font-face",
+    "font-face-format",
+    "font-face-name",
+    "font-face-src",
+    "font-face-uri",
+    "foreignobject",
+    "hatch",
+    "hatchpath",
+    "mesh",
+    "meshgradient",
+    "meshpatch",
+    "meshrow",
+    "missing-glyph",
+    "script",
+    "set",
+    "solidcolor",
+    "unknown",
+    "use",
+  ]);
+  var mathMl$1 = freeze([
+    "math",
+    "menclose",
+    "merror",
+    "mfenced",
+    "mfrac",
+    "mglyph",
+    "mi",
+    "mlabeledtr",
+    "mmultiscripts",
+    "mn",
+    "mo",
+    "mover",
+    "mpadded",
+    "mphantom",
+    "mroot",
+    "mrow",
+    "ms",
+    "mspace",
+    "msqrt",
+    "mstyle",
+    "msub",
+    "msup",
+    "msubsup",
+    "mtable",
+    "mtd",
+    "mtext",
+    "mtr",
+    "munder",
+    "munderover",
+    "mprescripts",
+  ]);
+  var mathMlDisallowed = freeze([
+    "maction",
+    "maligngroup",
+    "malignmark",
+    "mlongdiv",
+    "mscarries",
+    "mscarry",
+    "msgroup",
+    "mstack",
+    "msline",
+    "msrow",
+    "semantics",
+    "annotation",
+    "annotation-xml",
+    "mprescripts",
+    "none",
+  ]);
+  var text = freeze(["#text"]);
+  var html = freeze([
+    "accept",
+    "action",
+    "align",
+    "alt",
+    "autocapitalize",
+    "autocomplete",
+    "autopictureinpicture",
+    "autoplay",
+    "background",
+    "bgcolor",
+    "border",
+    "capture",
+    "cellpadding",
+    "cellspacing",
+    "checked",
+    "cite",
+    "class",
+    "clear",
+    "color",
+    "cols",
+    "colspan",
+    "controls",
+    "controlslist",
+    "coords",
+    "crossorigin",
+    "datetime",
+    "decoding",
+    "default",
+    "dir",
+    "disabled",
+    "disablepictureinpicture",
+    "disableremoteplayback",
+    "download",
+    "draggable",
+    "enctype",
+    "enterkeyhint",
+    "exportparts",
+    "face",
+    "for",
+    "headers",
+    "height",
+    "hidden",
+    "high",
+    "href",
+    "hreflang",
+    "id",
+    "inert",
+    "inputmode",
+    "integrity",
+    "ismap",
+    "kind",
+    "label",
+    "lang",
+    "list",
+    "loading",
+    "loop",
+    "low",
+    "max",
+    "maxlength",
+    "media",
+    "method",
+    "min",
+    "minlength",
+    "multiple",
+    "muted",
+    "name",
+    "nonce",
+    "noshade",
+    "novalidate",
+    "nowrap",
+    "open",
+    "optimum",
+    "part",
+    "pattern",
+    "placeholder",
+    "playsinline",
+    "popover",
+    "popovertarget",
+    "popovertargetaction",
+    "poster",
+    "preload",
+    "pubdate",
+    "radiogroup",
+    "readonly",
+    "rel",
+    "required",
+    "rev",
+    "reversed",
+    "role",
+    "rows",
+    "rowspan",
+    "spellcheck",
+    "scope",
+    "selected",
+    "shape",
+    "size",
+    "sizes",
+    "slot",
+    "span",
+    "srclang",
+    "start",
+    "src",
+    "srcset",
+    "step",
+    "style",
+    "summary",
+    "tabindex",
+    "title",
+    "translate",
+    "type",
+    "usemap",
+    "valign",
+    "value",
+    "width",
+    "wrap",
+    "xmlns",
+    "slot",
+  ]);
+  var svg = freeze([
+    "accent-height",
+    "accumulate",
+    "additive",
+    "alignment-baseline",
+    "amplitude",
+    "ascent",
+    "attributename",
+    "attributetype",
+    "azimuth",
+    "basefrequency",
+    "baseline-shift",
+    "begin",
+    "bias",
+    "by",
+    "class",
+    "clip",
+    "clippathunits",
+    "clip-path",
+    "clip-rule",
+    "color",
+    "color-interpolation",
+    "color-interpolation-filters",
+    "color-profile",
+    "color-rendering",
+    "cx",
+    "cy",
+    "d",
+    "dx",
+    "dy",
+    "diffuseconstant",
+    "direction",
+    "display",
+    "divisor",
+    "dur",
+    "edgemode",
+    "elevation",
+    "end",
+    "exponent",
+    "fill",
+    "fill-opacity",
+    "fill-rule",
+    "filter",
+    "filterunits",
+    "flood-color",
+    "flood-opacity",
+    "font-family",
+    "font-size",
+    "font-size-adjust",
+    "font-stretch",
+    "font-style",
+    "font-variant",
+    "font-weight",
+    "fx",
+    "fy",
+    "g1",
+    "g2",
+    "glyph-name",
+    "glyphref",
+    "gradientunits",
+    "gradienttransform",
+    "height",
+    "href",
+    "id",
+    "image-rendering",
+    "in",
+    "in2",
+    "intercept",
+    "k",
+    "k1",
+    "k2",
+    "k3",
+    "k4",
+    "kerning",
+    "keypoints",
+    "keysplines",
+    "keytimes",
+    "lang",
+    "lengthadjust",
+    "letter-spacing",
+    "kernelmatrix",
+    "kernelunitlength",
+    "lighting-color",
+    "local",
+    "marker-end",
+    "marker-mid",
+    "marker-start",
+    "markerheight",
+    "markerunits",
+    "markerwidth",
+    "maskcontentunits",
+    "maskunits",
+    "max",
+    "mask",
+    "mask-type",
+    "media",
+    "method",
+    "mode",
+    "min",
+    "name",
+    "numoctaves",
+    "offset",
+    "operator",
+    "opacity",
+    "order",
+    "orient",
+    "orientation",
+    "origin",
+    "overflow",
+    "paint-order",
+    "path",
+    "pathlength",
+    "patterncontentunits",
+    "patterntransform",
+    "patternunits",
+    "points",
+    "preservealpha",
+    "preserveaspectratio",
+    "primitiveunits",
+    "r",
+    "rx",
+    "ry",
+    "radius",
+    "refx",
+    "refy",
+    "repeatcount",
+    "repeatdur",
+    "restart",
+    "result",
+    "rotate",
+    "scale",
+    "seed",
+    "shape-rendering",
+    "slope",
+    "specularconstant",
+    "specularexponent",
+    "spreadmethod",
+    "startoffset",
+    "stddeviation",
+    "stitchtiles",
+    "stop-color",
+    "stop-opacity",
+    "stroke-dasharray",
+    "stroke-dashoffset",
+    "stroke-linecap",
+    "stroke-linejoin",
+    "stroke-miterlimit",
+    "stroke-opacity",
+    "stroke",
+    "stroke-width",
+    "style",
+    "surfacescale",
+    "systemlanguage",
+    "tabindex",
+    "tablevalues",
+    "targetx",
+    "targety",
+    "transform",
+    "transform-origin",
+    "text-anchor",
+    "text-decoration",
+    "text-rendering",
+    "textlength",
+    "type",
+    "u1",
+    "u2",
+    "unicode",
+    "values",
+    "viewbox",
+    "visibility",
+    "version",
+    "vert-adv-y",
+    "vert-origin-x",
+    "vert-origin-y",
+    "width",
+    "word-spacing",
+    "wrap",
+    "writing-mode",
+    "xchannelselector",
+    "ychannelselector",
+    "x",
+    "x1",
+    "x2",
+    "xmlns",
+    "y",
+    "y1",
+    "y2",
+    "z",
+    "zoomandpan",
+  ]);
+  var mathMl = freeze([
+    "accent",
+    "accentunder",
+    "align",
+    "bevelled",
+    "close",
+    "columnsalign",
+    "columnlines",
+    "columnspan",
+    "denomalign",
+    "depth",
+    "dir",
+    "display",
+    "displaystyle",
+    "encoding",
+    "fence",
+    "frame",
+    "height",
+    "href",
+    "id",
+    "largeop",
+    "length",
+    "linethickness",
+    "lspace",
+    "lquote",
+    "mathbackground",
+    "mathcolor",
+    "mathsize",
+    "mathvariant",
+    "maxsize",
+    "minsize",
+    "movablelimits",
+    "notation",
+    "numalign",
+    "open",
+    "rowalign",
+    "rowlines",
+    "rowspacing",
+    "rowspan",
+    "rspace",
+    "rquote",
+    "scriptlevel",
+    "scriptminsize",
+    "scriptsizemultiplier",
+    "selection",
+    "separator",
+    "separators",
+    "stretchy",
+    "subscriptshift",
+    "supscriptshift",
+    "symmetric",
+    "voffset",
+    "width",
+    "xmlns",
+  ]);
+  var xml = freeze([
+    "xlink:href",
+    "xml:id",
+    "xlink:title",
+    "xml:space",
+    "xmlns:xlink",
+  ]);
+  var MUSTACHE_EXPR = seal(/\{\{[\w\W]*|[\w\W]*\}\}/gm);
+  var ERB_EXPR = seal(/<%[\w\W]*|[\w\W]*%>/gm);
+  var TMPLIT_EXPR = seal(/\$\{[\w\W]*/gm);
+  var DATA_ATTR = seal(/^data-[\-\w.\u00B7-\uFFFF]+$/);
+  var ARIA_ATTR = seal(/^aria-[\-\w]+$/);
+  var IS_ALLOWED_URI = seal(
+    /^(?:(?:(?:f|ht)tps?|mailto|tel|callto|sms|cid|xmpp|matrix):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i
+    // eslint-disable-line no-useless-escape
+  );
+  var IS_SCRIPT_OR_DATA = seal(/^(?:\w+script|data):/i);
+  var ATTR_WHITESPACE = seal(
+    /[\u0000-\u0020\u00A0\u1680\u180E\u2000-\u2029\u205F\u3000]/g
+    // eslint-disable-line no-control-regex
+  );
+  var DOCTYPE_NAME = seal(/^html$/i);
+  var CUSTOM_ELEMENT = seal(/^[a-z][.\w]*(-[.\w]+)+$/i);
+  var EXPRESSIONS = /* @__PURE__ */ Object.freeze({
+    __proto__: null,
+    ARIA_ATTR,
+    ATTR_WHITESPACE,
+    CUSTOM_ELEMENT,
+    DATA_ATTR,
+    DOCTYPE_NAME,
+    ERB_EXPR,
+    IS_ALLOWED_URI,
+    IS_SCRIPT_OR_DATA,
+    MUSTACHE_EXPR,
+    TMPLIT_EXPR,
+  });
+  var NODE_TYPE = {
+    element: 1,
+    attribute: 2,
+    text: 3,
+    cdataSection: 4,
+    entityReference: 5,
+    // Deprecated
+    entityNode: 6,
+    // Deprecated
+    progressingInstruction: 7,
+    comment: 8,
+    document: 9,
+    documentType: 10,
+    documentFragment: 11,
+    notation: 12,
+    // Deprecated
+  };
+  var getGlobal = function getGlobal2() {
+    return typeof window === "undefined" ? null : window;
+  };
+  var _createTrustedTypesPolicy = function _createTrustedTypesPolicy2(
+    trustedTypes,
+    purifyHostElement
+  ) {
+    if (
+      typeof trustedTypes !== "object" ||
+      typeof trustedTypes.createPolicy !== "function"
+    ) {
+      return null;
+    }
+    let suffix = null;
+    const ATTR_NAME = "data-tt-policy-suffix";
+    if (purifyHostElement && purifyHostElement.hasAttribute(ATTR_NAME)) {
+      suffix = purifyHostElement.getAttribute(ATTR_NAME);
+    }
+    const policyName = "dompurify" + (suffix ? "#" + suffix : "");
+    try {
+      return trustedTypes.createPolicy(policyName, {
+        createHTML(html2) {
+          return html2;
+        },
+        createScriptURL(scriptUrl) {
+          return scriptUrl;
+        },
+      });
+    } catch (_2) {
+      console.warn(
+        "TrustedTypes policy " + policyName + " could not be created."
+      );
+      return null;
+    }
+  };
+  var _createHooksMap = function _createHooksMap2() {
+    return {
+      afterSanitizeAttributes: [],
+      afterSanitizeElements: [],
+      afterSanitizeShadowDOM: [],
+      beforeSanitizeAttributes: [],
+      beforeSanitizeElements: [],
+      beforeSanitizeShadowDOM: [],
+      uponSanitizeAttribute: [],
+      uponSanitizeElement: [],
+      uponSanitizeShadowNode: [],
+    };
+  };
+  function createDOMPurify() {
+    let window2 =
+      arguments.length > 0 && arguments[0] !== void 0
+        ? arguments[0]
+        : getGlobal();
+    const DOMPurify = (root) => createDOMPurify(root);
+    DOMPurify.version = "3.3.1";
+    DOMPurify.removed = [];
+    if (
+      !window2 ||
+      !window2.document ||
+      window2.document.nodeType !== NODE_TYPE.document ||
+      !window2.Element
+    ) {
+      DOMPurify.isSupported = false;
+      return DOMPurify;
+    }
+    let { document: document2 } = window2;
+    const originalDocument = document2;
+    const currentScript = originalDocument.currentScript;
+    const {
+      DocumentFragment,
+      HTMLTemplateElement,
+      Node,
+      Element,
+      NodeFilter,
+      NamedNodeMap = window2.NamedNodeMap || window2.MozNamedAttrMap,
+      HTMLFormElement,
+      DOMParser,
+      trustedTypes,
+    } = window2;
+    const ElementPrototype = Element.prototype;
+    const cloneNode = lookupGetter(ElementPrototype, "cloneNode");
+    const remove = lookupGetter(ElementPrototype, "remove");
+    const getNextSibling = lookupGetter(ElementPrototype, "nextSibling");
+    const getChildNodes = lookupGetter(ElementPrototype, "childNodes");
+    const getParentNode = lookupGetter(ElementPrototype, "parentNode");
+    if (typeof HTMLTemplateElement === "function") {
+      const template = document2.createElement("template");
+      if (template.content && template.content.ownerDocument) {
+        document2 = template.content.ownerDocument;
+      }
+    }
+    let trustedTypesPolicy;
+    let emptyHTML = "";
+    const {
+      implementation,
+      createNodeIterator,
+      createDocumentFragment,
+      getElementsByTagName,
+    } = document2;
+    const { importNode } = originalDocument;
+    let hooks = _createHooksMap();
+    DOMPurify.isSupported =
+      typeof entries === "function" &&
+      typeof getParentNode === "function" &&
+      implementation &&
+      implementation.createHTMLDocument !== void 0;
+    const {
+      MUSTACHE_EXPR: MUSTACHE_EXPR2,
+      ERB_EXPR: ERB_EXPR2,
+      TMPLIT_EXPR: TMPLIT_EXPR2,
+      DATA_ATTR: DATA_ATTR2,
+      ARIA_ATTR: ARIA_ATTR2,
+      IS_SCRIPT_OR_DATA: IS_SCRIPT_OR_DATA2,
+      ATTR_WHITESPACE: ATTR_WHITESPACE2,
+      CUSTOM_ELEMENT: CUSTOM_ELEMENT2,
+    } = EXPRESSIONS;
+    let { IS_ALLOWED_URI: IS_ALLOWED_URI$1 } = EXPRESSIONS;
+    let ALLOWED_TAGS = null;
+    const DEFAULT_ALLOWED_TAGS = addToSet({}, [
+      ...html$1,
+      ...svg$1,
+      ...svgFilters,
+      ...mathMl$1,
+      ...text,
+    ]);
+    let ALLOWED_ATTR = null;
+    const DEFAULT_ALLOWED_ATTR = addToSet({}, [
+      ...html,
+      ...svg,
+      ...mathMl,
+      ...xml,
+    ]);
+    let CUSTOM_ELEMENT_HANDLING = Object.seal(
+      create(null, {
+        tagNameCheck: {
+          writable: true,
+          configurable: false,
+          enumerable: true,
+          value: null,
+        },
+        attributeNameCheck: {
+          writable: true,
+          configurable: false,
+          enumerable: true,
+          value: null,
+        },
+        allowCustomizedBuiltInElements: {
+          writable: true,
+          configurable: false,
+          enumerable: true,
+          value: false,
+        },
+      })
+    );
+    let FORBID_TAGS = null;
+    let FORBID_ATTR = null;
+    const EXTRA_ELEMENT_HANDLING = Object.seal(
+      create(null, {
+        tagCheck: {
+          writable: true,
+          configurable: false,
+          enumerable: true,
+          value: null,
+        },
+        attributeCheck: {
+          writable: true,
+          configurable: false,
+          enumerable: true,
+          value: null,
+        },
+      })
+    );
+    let ALLOW_ARIA_ATTR = true;
+    let ALLOW_DATA_ATTR = true;
+    let ALLOW_UNKNOWN_PROTOCOLS = false;
+    let ALLOW_SELF_CLOSE_IN_ATTR = true;
+    let SAFE_FOR_TEMPLATES = false;
+    let SAFE_FOR_XML = true;
+    let WHOLE_DOCUMENT = false;
+    let SET_CONFIG = false;
+    let FORCE_BODY = false;
+    let RETURN_DOM = false;
+    let RETURN_DOM_FRAGMENT = false;
+    let RETURN_TRUSTED_TYPE = false;
+    let SANITIZE_DOM = true;
+    let SANITIZE_NAMED_PROPS = false;
+    const SANITIZE_NAMED_PROPS_PREFIX = "user-content-";
+    let KEEP_CONTENT = true;
+    let IN_PLACE = false;
+    let USE_PROFILES = {};
+    let FORBID_CONTENTS = null;
+    const DEFAULT_FORBID_CONTENTS = addToSet({}, [
+      "annotation-xml",
+      "audio",
+      "colgroup",
+      "desc",
+      "foreignobject",
+      "head",
+      "iframe",
+      "math",
+      "mi",
+      "mn",
+      "mo",
+      "ms",
+      "mtext",
+      "noembed",
+      "noframes",
+      "noscript",
+      "plaintext",
+      "script",
+      "style",
+      "svg",
+      "template",
+      "thead",
+      "title",
+      "video",
+      "xmp",
+    ]);
+    let DATA_URI_TAGS = null;
+    const DEFAULT_DATA_URI_TAGS = addToSet({}, [
+      "audio",
+      "video",
+      "img",
+      "source",
+      "image",
+      "track",
+    ]);
+    let URI_SAFE_ATTRIBUTES = null;
+    const DEFAULT_URI_SAFE_ATTRIBUTES = addToSet({}, [
+      "alt",
+      "class",
+      "for",
+      "id",
+      "label",
+      "name",
+      "pattern",
+      "placeholder",
+      "role",
+      "summary",
+      "title",
+      "value",
+      "style",
+      "xmlns",
+    ]);
+    const MATHML_NAMESPACE = "http://www.w3.org/1998/Math/MathML";
+    const SVG_NAMESPACE = "http://www.w3.org/2000/svg";
+    const HTML_NAMESPACE = "http://www.w3.org/1999/xhtml";
+    let NAMESPACE = HTML_NAMESPACE;
+    let IS_EMPTY_INPUT = false;
+    let ALLOWED_NAMESPACES = null;
+    const DEFAULT_ALLOWED_NAMESPACES = addToSet(
+      {},
+      [MATHML_NAMESPACE, SVG_NAMESPACE, HTML_NAMESPACE],
+      stringToString
+    );
+    let MATHML_TEXT_INTEGRATION_POINTS = addToSet({}, [
+      "mi",
+      "mo",
+      "mn",
+      "ms",
+      "mtext",
+    ]);
+    let HTML_INTEGRATION_POINTS = addToSet({}, ["annotation-xml"]);
+    const COMMON_SVG_AND_HTML_ELEMENTS = addToSet({}, [
+      "title",
+      "style",
+      "font",
+      "a",
+      "script",
+    ]);
+    let PARSER_MEDIA_TYPE = null;
+    const SUPPORTED_PARSER_MEDIA_TYPES = ["application/xhtml+xml", "text/html"];
+    const DEFAULT_PARSER_MEDIA_TYPE = "text/html";
+    let transformCaseFunc = null;
+    let CONFIG = null;
+    const formElement = document2.createElement("form");
+    const isRegexOrFunction = function isRegexOrFunction2(testValue) {
+      return testValue instanceof RegExp || testValue instanceof Function;
+    };
+    const _parseConfig = function _parseConfig2() {
+      let cfg =
+        arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+      if (CONFIG && CONFIG === cfg) {
+        return;
+      }
+      if (!cfg || typeof cfg !== "object") {
+        cfg = {};
+      }
+      cfg = clone(cfg);
+      PARSER_MEDIA_TYPE = // eslint-disable-next-line unicorn/prefer-includes
+        SUPPORTED_PARSER_MEDIA_TYPES.indexOf(cfg.PARSER_MEDIA_TYPE) === -1
+          ? DEFAULT_PARSER_MEDIA_TYPE
+          : cfg.PARSER_MEDIA_TYPE;
+      transformCaseFunc =
+        PARSER_MEDIA_TYPE === "application/xhtml+xml"
+          ? stringToString
+          : stringToLowerCase;
+      ALLOWED_TAGS = objectHasOwnProperty(cfg, "ALLOWED_TAGS")
+        ? addToSet({}, cfg.ALLOWED_TAGS, transformCaseFunc)
+        : DEFAULT_ALLOWED_TAGS;
+      ALLOWED_ATTR = objectHasOwnProperty(cfg, "ALLOWED_ATTR")
+        ? addToSet({}, cfg.ALLOWED_ATTR, transformCaseFunc)
+        : DEFAULT_ALLOWED_ATTR;
+      ALLOWED_NAMESPACES = objectHasOwnProperty(cfg, "ALLOWED_NAMESPACES")
+        ? addToSet({}, cfg.ALLOWED_NAMESPACES, stringToString)
+        : DEFAULT_ALLOWED_NAMESPACES;
+      URI_SAFE_ATTRIBUTES = objectHasOwnProperty(cfg, "ADD_URI_SAFE_ATTR")
+        ? addToSet(
+            clone(DEFAULT_URI_SAFE_ATTRIBUTES),
+            cfg.ADD_URI_SAFE_ATTR,
+            transformCaseFunc
+          )
+        : DEFAULT_URI_SAFE_ATTRIBUTES;
+      DATA_URI_TAGS = objectHasOwnProperty(cfg, "ADD_DATA_URI_TAGS")
+        ? addToSet(
+            clone(DEFAULT_DATA_URI_TAGS),
+            cfg.ADD_DATA_URI_TAGS,
+            transformCaseFunc
+          )
+        : DEFAULT_DATA_URI_TAGS;
+      FORBID_CONTENTS = objectHasOwnProperty(cfg, "FORBID_CONTENTS")
+        ? addToSet({}, cfg.FORBID_CONTENTS, transformCaseFunc)
+        : DEFAULT_FORBID_CONTENTS;
+      FORBID_TAGS = objectHasOwnProperty(cfg, "FORBID_TAGS")
+        ? addToSet({}, cfg.FORBID_TAGS, transformCaseFunc)
+        : clone({});
+      FORBID_ATTR = objectHasOwnProperty(cfg, "FORBID_ATTR")
+        ? addToSet({}, cfg.FORBID_ATTR, transformCaseFunc)
+        : clone({});
+      USE_PROFILES = objectHasOwnProperty(cfg, "USE_PROFILES")
+        ? cfg.USE_PROFILES
+        : false;
+      ALLOW_ARIA_ATTR = cfg.ALLOW_ARIA_ATTR !== false;
+      ALLOW_DATA_ATTR = cfg.ALLOW_DATA_ATTR !== false;
+      ALLOW_UNKNOWN_PROTOCOLS = cfg.ALLOW_UNKNOWN_PROTOCOLS || false;
+      ALLOW_SELF_CLOSE_IN_ATTR = cfg.ALLOW_SELF_CLOSE_IN_ATTR !== false;
+      SAFE_FOR_TEMPLATES = cfg.SAFE_FOR_TEMPLATES || false;
+      SAFE_FOR_XML = cfg.SAFE_FOR_XML !== false;
+      WHOLE_DOCUMENT = cfg.WHOLE_DOCUMENT || false;
+      RETURN_DOM = cfg.RETURN_DOM || false;
+      RETURN_DOM_FRAGMENT = cfg.RETURN_DOM_FRAGMENT || false;
+      RETURN_TRUSTED_TYPE = cfg.RETURN_TRUSTED_TYPE || false;
+      FORCE_BODY = cfg.FORCE_BODY || false;
+      SANITIZE_DOM = cfg.SANITIZE_DOM !== false;
+      SANITIZE_NAMED_PROPS = cfg.SANITIZE_NAMED_PROPS || false;
+      KEEP_CONTENT = cfg.KEEP_CONTENT !== false;
+      IN_PLACE = cfg.IN_PLACE || false;
+      IS_ALLOWED_URI$1 = cfg.ALLOWED_URI_REGEXP || IS_ALLOWED_URI;
+      NAMESPACE = cfg.NAMESPACE || HTML_NAMESPACE;
+      MATHML_TEXT_INTEGRATION_POINTS =
+        cfg.MATHML_TEXT_INTEGRATION_POINTS || MATHML_TEXT_INTEGRATION_POINTS;
+      HTML_INTEGRATION_POINTS =
+        cfg.HTML_INTEGRATION_POINTS || HTML_INTEGRATION_POINTS;
+      CUSTOM_ELEMENT_HANDLING = cfg.CUSTOM_ELEMENT_HANDLING || {};
+      if (
+        cfg.CUSTOM_ELEMENT_HANDLING &&
+        isRegexOrFunction(cfg.CUSTOM_ELEMENT_HANDLING.tagNameCheck)
+      ) {
+        CUSTOM_ELEMENT_HANDLING.tagNameCheck =
+          cfg.CUSTOM_ELEMENT_HANDLING.tagNameCheck;
+      }
+      if (
+        cfg.CUSTOM_ELEMENT_HANDLING &&
+        isRegexOrFunction(cfg.CUSTOM_ELEMENT_HANDLING.attributeNameCheck)
+      ) {
+        CUSTOM_ELEMENT_HANDLING.attributeNameCheck =
+          cfg.CUSTOM_ELEMENT_HANDLING.attributeNameCheck;
+      }
+      if (
+        cfg.CUSTOM_ELEMENT_HANDLING &&
+        typeof cfg.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements ===
+          "boolean"
+      ) {
+        CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements =
+          cfg.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements;
+      }
+      if (SAFE_FOR_TEMPLATES) {
+        ALLOW_DATA_ATTR = false;
+      }
+      if (RETURN_DOM_FRAGMENT) {
+        RETURN_DOM = true;
+      }
+      if (USE_PROFILES) {
+        ALLOWED_TAGS = addToSet({}, text);
+        ALLOWED_ATTR = [];
+        if (USE_PROFILES.html === true) {
+          addToSet(ALLOWED_TAGS, html$1);
+          addToSet(ALLOWED_ATTR, html);
+        }
+        if (USE_PROFILES.svg === true) {
+          addToSet(ALLOWED_TAGS, svg$1);
+          addToSet(ALLOWED_ATTR, svg);
+          addToSet(ALLOWED_ATTR, xml);
+        }
+        if (USE_PROFILES.svgFilters === true) {
+          addToSet(ALLOWED_TAGS, svgFilters);
+          addToSet(ALLOWED_ATTR, svg);
+          addToSet(ALLOWED_ATTR, xml);
+        }
+        if (USE_PROFILES.mathMl === true) {
+          addToSet(ALLOWED_TAGS, mathMl$1);
+          addToSet(ALLOWED_ATTR, mathMl);
+          addToSet(ALLOWED_ATTR, xml);
+        }
+      }
+      if (cfg.ADD_TAGS) {
+        if (typeof cfg.ADD_TAGS === "function") {
+          EXTRA_ELEMENT_HANDLING.tagCheck = cfg.ADD_TAGS;
+        } else {
+          if (ALLOWED_TAGS === DEFAULT_ALLOWED_TAGS) {
+            ALLOWED_TAGS = clone(ALLOWED_TAGS);
+          }
+          addToSet(ALLOWED_TAGS, cfg.ADD_TAGS, transformCaseFunc);
+        }
+      }
+      if (cfg.ADD_ATTR) {
+        if (typeof cfg.ADD_ATTR === "function") {
+          EXTRA_ELEMENT_HANDLING.attributeCheck = cfg.ADD_ATTR;
+        } else {
+          if (ALLOWED_ATTR === DEFAULT_ALLOWED_ATTR) {
+            ALLOWED_ATTR = clone(ALLOWED_ATTR);
+          }
+          addToSet(ALLOWED_ATTR, cfg.ADD_ATTR, transformCaseFunc);
+        }
+      }
+      if (cfg.ADD_URI_SAFE_ATTR) {
+        addToSet(URI_SAFE_ATTRIBUTES, cfg.ADD_URI_SAFE_ATTR, transformCaseFunc);
+      }
+      if (cfg.FORBID_CONTENTS) {
+        if (FORBID_CONTENTS === DEFAULT_FORBID_CONTENTS) {
+          FORBID_CONTENTS = clone(FORBID_CONTENTS);
+        }
+        addToSet(FORBID_CONTENTS, cfg.FORBID_CONTENTS, transformCaseFunc);
+      }
+      if (cfg.ADD_FORBID_CONTENTS) {
+        if (FORBID_CONTENTS === DEFAULT_FORBID_CONTENTS) {
+          FORBID_CONTENTS = clone(FORBID_CONTENTS);
+        }
+        addToSet(FORBID_CONTENTS, cfg.ADD_FORBID_CONTENTS, transformCaseFunc);
+      }
+      if (KEEP_CONTENT) {
+        ALLOWED_TAGS["#text"] = true;
+      }
+      if (WHOLE_DOCUMENT) {
+        addToSet(ALLOWED_TAGS, ["html", "head", "body"]);
+      }
+      if (ALLOWED_TAGS.table) {
+        addToSet(ALLOWED_TAGS, ["tbody"]);
+        delete FORBID_TAGS.tbody;
+      }
+      if (cfg.TRUSTED_TYPES_POLICY) {
+        if (typeof cfg.TRUSTED_TYPES_POLICY.createHTML !== "function") {
+          throw typeErrorCreate(
+            'TRUSTED_TYPES_POLICY configuration option must provide a "createHTML" hook.'
+          );
+        }
+        if (typeof cfg.TRUSTED_TYPES_POLICY.createScriptURL !== "function") {
+          throw typeErrorCreate(
+            'TRUSTED_TYPES_POLICY configuration option must provide a "createScriptURL" hook.'
+          );
+        }
+        trustedTypesPolicy = cfg.TRUSTED_TYPES_POLICY;
+        emptyHTML = trustedTypesPolicy.createHTML("");
+      } else {
+        if (trustedTypesPolicy === void 0) {
+          trustedTypesPolicy = _createTrustedTypesPolicy(
+            trustedTypes,
+            currentScript
+          );
+        }
+        if (trustedTypesPolicy !== null && typeof emptyHTML === "string") {
+          emptyHTML = trustedTypesPolicy.createHTML("");
+        }
+      }
+      if (freeze) {
+        freeze(cfg);
+      }
+      CONFIG = cfg;
+    };
+    const ALL_SVG_TAGS = addToSet({}, [
+      ...svg$1,
+      ...svgFilters,
+      ...svgDisallowed,
+    ]);
+    const ALL_MATHML_TAGS = addToSet({}, [...mathMl$1, ...mathMlDisallowed]);
+    const _checkValidNamespace = function _checkValidNamespace2(element) {
+      let parent = getParentNode(element);
+      if (!parent || !parent.tagName) {
+        parent = {
+          namespaceURI: NAMESPACE,
+          tagName: "template",
+        };
+      }
+      const tagName = stringToLowerCase(element.tagName);
+      const parentTagName = stringToLowerCase(parent.tagName);
+      if (!ALLOWED_NAMESPACES[element.namespaceURI]) {
+        return false;
+      }
+      if (element.namespaceURI === SVG_NAMESPACE) {
+        if (parent.namespaceURI === HTML_NAMESPACE) {
+          return tagName === "svg";
+        }
+        if (parent.namespaceURI === MATHML_NAMESPACE) {
+          return (
+            tagName === "svg" &&
+            (parentTagName === "annotation-xml" ||
+              MATHML_TEXT_INTEGRATION_POINTS[parentTagName])
+          );
+        }
+        return Boolean(ALL_SVG_TAGS[tagName]);
+      }
+      if (element.namespaceURI === MATHML_NAMESPACE) {
+        if (parent.namespaceURI === HTML_NAMESPACE) {
+          return tagName === "math";
+        }
+        if (parent.namespaceURI === SVG_NAMESPACE) {
+          return tagName === "math" && HTML_INTEGRATION_POINTS[parentTagName];
+        }
+        return Boolean(ALL_MATHML_TAGS[tagName]);
+      }
+      if (element.namespaceURI === HTML_NAMESPACE) {
+        if (
+          parent.namespaceURI === SVG_NAMESPACE &&
+          !HTML_INTEGRATION_POINTS[parentTagName]
+        ) {
+          return false;
+        }
+        if (
+          parent.namespaceURI === MATHML_NAMESPACE &&
+          !MATHML_TEXT_INTEGRATION_POINTS[parentTagName]
+        ) {
+          return false;
+        }
+        return (
+          !ALL_MATHML_TAGS[tagName] &&
+          (COMMON_SVG_AND_HTML_ELEMENTS[tagName] || !ALL_SVG_TAGS[tagName])
+        );
+      }
+      if (
+        PARSER_MEDIA_TYPE === "application/xhtml+xml" &&
+        ALLOWED_NAMESPACES[element.namespaceURI]
+      ) {
+        return true;
+      }
+      return false;
+    };
+    const _forceRemove = function _forceRemove2(node) {
+      arrayPush(DOMPurify.removed, {
+        element: node,
+      });
+      try {
+        getParentNode(node).removeChild(node);
+      } catch (_2) {
+        remove(node);
+      }
+    };
+    const _removeAttribute = function _removeAttribute2(name, element) {
+      try {
+        arrayPush(DOMPurify.removed, {
+          attribute: element.getAttributeNode(name),
+          from: element,
+        });
+      } catch (_2) {
+        arrayPush(DOMPurify.removed, {
+          attribute: null,
+          from: element,
+        });
+      }
+      element.removeAttribute(name);
+      if (name === "is") {
+        if (RETURN_DOM || RETURN_DOM_FRAGMENT) {
+          try {
+            _forceRemove(element);
+          } catch (_2) {}
+        } else {
+          try {
+            element.setAttribute(name, "");
+          } catch (_2) {}
+        }
+      }
+    };
+    const _initDocument = function _initDocument2(dirty) {
+      let doc = null;
+      let leadingWhitespace = null;
+      if (FORCE_BODY) {
+        dirty = "<remove></remove>" + dirty;
+      } else {
+        const matches = stringMatch(dirty, /^[\r\n\t ]+/);
+        leadingWhitespace = matches && matches[0];
+      }
+      if (
+        PARSER_MEDIA_TYPE === "application/xhtml+xml" &&
+        NAMESPACE === HTML_NAMESPACE
+      ) {
+        dirty =
+          '<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body>' +
+          dirty +
+          "</body></html>";
+      }
+      const dirtyPayload = trustedTypesPolicy
+        ? trustedTypesPolicy.createHTML(dirty)
+        : dirty;
+      if (NAMESPACE === HTML_NAMESPACE) {
+        try {
+          doc = new DOMParser().parseFromString(
+            dirtyPayload,
+            PARSER_MEDIA_TYPE
+          );
+        } catch (_2) {}
+      }
+      if (!doc || !doc.documentElement) {
+        doc = implementation.createDocument(NAMESPACE, "template", null);
+        try {
+          doc.documentElement.innerHTML = IS_EMPTY_INPUT
+            ? emptyHTML
+            : dirtyPayload;
+        } catch (_2) {}
+      }
+      const body = doc.body || doc.documentElement;
+      if (dirty && leadingWhitespace) {
+        body.insertBefore(
+          document2.createTextNode(leadingWhitespace),
+          body.childNodes[0] || null
+        );
+      }
+      if (NAMESPACE === HTML_NAMESPACE) {
+        return getElementsByTagName.call(
+          doc,
+          WHOLE_DOCUMENT ? "html" : "body"
+        )[0];
+      }
+      return WHOLE_DOCUMENT ? doc.documentElement : body;
+    };
+    const _createNodeIterator = function _createNodeIterator2(root) {
+      return createNodeIterator.call(
+        root.ownerDocument || root,
+        root,
+        // eslint-disable-next-line no-bitwise
+        NodeFilter.SHOW_ELEMENT |
+          NodeFilter.SHOW_COMMENT |
+          NodeFilter.SHOW_TEXT |
+          NodeFilter.SHOW_PROCESSING_INSTRUCTION |
+          NodeFilter.SHOW_CDATA_SECTION,
+        null
+      );
+    };
+    const _isClobbered = function _isClobbered2(element) {
+      return (
+        element instanceof HTMLFormElement &&
+        (typeof element.nodeName !== "string" ||
+          typeof element.textContent !== "string" ||
+          typeof element.removeChild !== "function" ||
+          !(element.attributes instanceof NamedNodeMap) ||
+          typeof element.removeAttribute !== "function" ||
+          typeof element.setAttribute !== "function" ||
+          typeof element.namespaceURI !== "string" ||
+          typeof element.insertBefore !== "function" ||
+          typeof element.hasChildNodes !== "function")
+      );
+    };
+    const _isNode = function _isNode2(value) {
+      return typeof Node === "function" && value instanceof Node;
+    };
+    function _executeHooks(hooks2, currentNode, data) {
+      arrayForEach(hooks2, (hook) => {
+        hook.call(DOMPurify, currentNode, data, CONFIG);
+      });
+    }
+    const _sanitizeElements = function _sanitizeElements2(currentNode) {
+      let content = null;
+      _executeHooks(hooks.beforeSanitizeElements, currentNode, null);
+      if (_isClobbered(currentNode)) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      const tagName = transformCaseFunc(currentNode.nodeName);
+      _executeHooks(hooks.uponSanitizeElement, currentNode, {
+        tagName,
+        allowedTags: ALLOWED_TAGS,
+      });
+      if (
+        SAFE_FOR_XML &&
+        currentNode.hasChildNodes() &&
+        !_isNode(currentNode.firstElementChild) &&
+        regExpTest(/<[/\w!]/g, currentNode.innerHTML) &&
+        regExpTest(/<[/\w!]/g, currentNode.textContent)
+      ) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (currentNode.nodeType === NODE_TYPE.progressingInstruction) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (
+        SAFE_FOR_XML &&
+        currentNode.nodeType === NODE_TYPE.comment &&
+        regExpTest(/<[/\w]/g, currentNode.data)
+      ) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (
+        !(
+          EXTRA_ELEMENT_HANDLING.tagCheck instanceof Function &&
+          EXTRA_ELEMENT_HANDLING.tagCheck(tagName)
+        ) &&
+        (!ALLOWED_TAGS[tagName] || FORBID_TAGS[tagName])
+      ) {
+        if (!FORBID_TAGS[tagName] && _isBasicCustomElement(tagName)) {
+          if (
+            CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof RegExp &&
+            regExpTest(CUSTOM_ELEMENT_HANDLING.tagNameCheck, tagName)
+          ) {
+            return false;
+          }
+          if (
+            CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof Function &&
+            CUSTOM_ELEMENT_HANDLING.tagNameCheck(tagName)
+          ) {
+            return false;
+          }
+        }
+        if (KEEP_CONTENT && !FORBID_CONTENTS[tagName]) {
+          const parentNode =
+            getParentNode(currentNode) || currentNode.parentNode;
+          const childNodes =
+            getChildNodes(currentNode) || currentNode.childNodes;
+          if (childNodes && parentNode) {
+            const childCount = childNodes.length;
+            for (let i = childCount - 1; i >= 0; --i) {
+              const childClone = cloneNode(childNodes[i], true);
+              childClone.__removalCount = (currentNode.__removalCount || 0) + 1;
+              parentNode.insertBefore(childClone, getNextSibling(currentNode));
+            }
+          }
+        }
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (
+        currentNode instanceof Element &&
+        !_checkValidNamespace(currentNode)
+      ) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (
+        (tagName === "noscript" ||
+          tagName === "noembed" ||
+          tagName === "noframes") &&
+        regExpTest(/<\/no(script|embed|frames)/i, currentNode.innerHTML)
+      ) {
+        _forceRemove(currentNode);
+        return true;
+      }
+      if (SAFE_FOR_TEMPLATES && currentNode.nodeType === NODE_TYPE.text) {
+        content = currentNode.textContent;
+        arrayForEach([MUSTACHE_EXPR2, ERB_EXPR2, TMPLIT_EXPR2], (expr) => {
+          content = stringReplace(content, expr, " ");
+        });
+        if (currentNode.textContent !== content) {
+          arrayPush(DOMPurify.removed, {
+            element: currentNode.cloneNode(),
+          });
+          currentNode.textContent = content;
+        }
+      }
+      _executeHooks(hooks.afterSanitizeElements, currentNode, null);
+      return false;
+    };
+    const _isValidAttribute = function _isValidAttribute2(
+      lcTag,
+      lcName,
+      value
+    ) {
+      if (
+        SANITIZE_DOM &&
+        (lcName === "id" || lcName === "name") &&
+        (value in document2 || value in formElement)
+      ) {
+        return false;
+      }
+      if (
+        ALLOW_DATA_ATTR &&
+        !FORBID_ATTR[lcName] &&
+        regExpTest(DATA_ATTR2, lcName)
+      );
+      else if (ALLOW_ARIA_ATTR && regExpTest(ARIA_ATTR2, lcName));
+      else if (
+        EXTRA_ELEMENT_HANDLING.attributeCheck instanceof Function &&
+        EXTRA_ELEMENT_HANDLING.attributeCheck(lcName, lcTag)
+      );
+      else if (!ALLOWED_ATTR[lcName] || FORBID_ATTR[lcName]) {
+        if (
+          // First condition does a very basic check if a) it's basically a valid custom element tagname AND
+          // b) if the tagName passes whatever the user has configured for CUSTOM_ELEMENT_HANDLING.tagNameCheck
+          // and c) if the attribute name passes whatever the user has configured for CUSTOM_ELEMENT_HANDLING.attributeNameCheck
+          (_isBasicCustomElement(lcTag) &&
+            ((CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof RegExp &&
+              regExpTest(CUSTOM_ELEMENT_HANDLING.tagNameCheck, lcTag)) ||
+              (CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof Function &&
+                CUSTOM_ELEMENT_HANDLING.tagNameCheck(lcTag))) &&
+            ((CUSTOM_ELEMENT_HANDLING.attributeNameCheck instanceof RegExp &&
+              regExpTest(CUSTOM_ELEMENT_HANDLING.attributeNameCheck, lcName)) ||
+              (CUSTOM_ELEMENT_HANDLING.attributeNameCheck instanceof Function &&
+                CUSTOM_ELEMENT_HANDLING.attributeNameCheck(lcName, lcTag)))) || // Alternative, second condition checks if it's an `is`-attribute, AND
+          // the value passes whatever the user has configured for CUSTOM_ELEMENT_HANDLING.tagNameCheck
+          (lcName === "is" &&
+            CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements &&
+            ((CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof RegExp &&
+              regExpTest(CUSTOM_ELEMENT_HANDLING.tagNameCheck, value)) ||
+              (CUSTOM_ELEMENT_HANDLING.tagNameCheck instanceof Function &&
+                CUSTOM_ELEMENT_HANDLING.tagNameCheck(value))))
+        );
+        else {
+          return false;
+        }
+      } else if (URI_SAFE_ATTRIBUTES[lcName]);
+      else if (
+        regExpTest(IS_ALLOWED_URI$1, stringReplace(value, ATTR_WHITESPACE2, ""))
+      );
+      else if (
+        (lcName === "src" || lcName === "xlink:href" || lcName === "href") &&
+        lcTag !== "script" &&
+        stringIndexOf(value, "data:") === 0 &&
+        DATA_URI_TAGS[lcTag]
+      );
+      else if (
+        ALLOW_UNKNOWN_PROTOCOLS &&
+        !regExpTest(
+          IS_SCRIPT_OR_DATA2,
+          stringReplace(value, ATTR_WHITESPACE2, "")
+        )
+      );
+      else if (value) {
+        return false;
+      } else;
+      return true;
+    };
+    const _isBasicCustomElement = function _isBasicCustomElement2(tagName) {
+      return (
+        tagName !== "annotation-xml" && stringMatch(tagName, CUSTOM_ELEMENT2)
+      );
+    };
+    const _sanitizeAttributes = function _sanitizeAttributes2(currentNode) {
+      _executeHooks(hooks.beforeSanitizeAttributes, currentNode, null);
+      const { attributes } = currentNode;
+      if (!attributes || _isClobbered(currentNode)) {
+        return;
+      }
+      const hookEvent = {
+        attrName: "",
+        attrValue: "",
+        keepAttr: true,
+        allowedAttributes: ALLOWED_ATTR,
+        forceKeepAttr: void 0,
+      };
+      let l = attributes.length;
+      while (l--) {
+        const attr = attributes[l];
+        const { name, namespaceURI, value: attrValue } = attr;
+        const lcName = transformCaseFunc(name);
+        const initValue = attrValue;
+        let value = name === "value" ? initValue : stringTrim(initValue);
+        hookEvent.attrName = lcName;
+        hookEvent.attrValue = value;
+        hookEvent.keepAttr = true;
+        hookEvent.forceKeepAttr = void 0;
+        _executeHooks(hooks.uponSanitizeAttribute, currentNode, hookEvent);
+        value = hookEvent.attrValue;
+        if (SANITIZE_NAMED_PROPS && (lcName === "id" || lcName === "name")) {
+          _removeAttribute(name, currentNode);
+          value = SANITIZE_NAMED_PROPS_PREFIX + value;
+        }
+        if (
+          SAFE_FOR_XML &&
+          regExpTest(/((--!?|])>)|<\/(style|title|textarea)/i, value)
+        ) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+        if (lcName === "attributename" && stringMatch(value, "href")) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+        if (hookEvent.forceKeepAttr) {
+          continue;
+        }
+        if (!hookEvent.keepAttr) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+        if (!ALLOW_SELF_CLOSE_IN_ATTR && regExpTest(/\/>/i, value)) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+        if (SAFE_FOR_TEMPLATES) {
+          arrayForEach([MUSTACHE_EXPR2, ERB_EXPR2, TMPLIT_EXPR2], (expr) => {
+            value = stringReplace(value, expr, " ");
+          });
+        }
+        const lcTag = transformCaseFunc(currentNode.nodeName);
+        if (!_isValidAttribute(lcTag, lcName, value)) {
+          _removeAttribute(name, currentNode);
+          continue;
+        }
+        if (
+          trustedTypesPolicy &&
+          typeof trustedTypes === "object" &&
+          typeof trustedTypes.getAttributeType === "function"
+        ) {
+          if (namespaceURI);
+          else {
+            switch (trustedTypes.getAttributeType(lcTag, lcName)) {
+              case "TrustedHTML": {
+                value = trustedTypesPolicy.createHTML(value);
+                break;
+              }
+              case "TrustedScriptURL": {
+                value = trustedTypesPolicy.createScriptURL(value);
+                break;
+              }
+            }
+          }
+        }
+        if (value !== initValue) {
+          try {
+            if (namespaceURI) {
+              currentNode.setAttributeNS(namespaceURI, name, value);
+            } else {
+              currentNode.setAttribute(name, value);
+            }
+            if (_isClobbered(currentNode)) {
+              _forceRemove(currentNode);
+            } else {
+              arrayPop(DOMPurify.removed);
+            }
+          } catch (_2) {
+            _removeAttribute(name, currentNode);
+          }
+        }
+      }
+      _executeHooks(hooks.afterSanitizeAttributes, currentNode, null);
+    };
+    const _sanitizeShadowDOM = function _sanitizeShadowDOM2(fragment) {
+      let shadowNode = null;
+      const shadowIterator = _createNodeIterator(fragment);
+      _executeHooks(hooks.beforeSanitizeShadowDOM, fragment, null);
+      while ((shadowNode = shadowIterator.nextNode())) {
+        _executeHooks(hooks.uponSanitizeShadowNode, shadowNode, null);
+        _sanitizeElements(shadowNode);
+        _sanitizeAttributes(shadowNode);
+        if (shadowNode.content instanceof DocumentFragment) {
+          _sanitizeShadowDOM2(shadowNode.content);
+        }
+      }
+      _executeHooks(hooks.afterSanitizeShadowDOM, fragment, null);
+    };
+    DOMPurify.sanitize = function (dirty) {
+      let cfg =
+        arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+      let body = null;
+      let importedNode = null;
+      let currentNode = null;
+      let returnNode = null;
+      IS_EMPTY_INPUT = !dirty;
+      if (IS_EMPTY_INPUT) {
+        dirty = "<!-->";
+      }
+      if (typeof dirty !== "string" && !_isNode(dirty)) {
+        if (typeof dirty.toString === "function") {
+          dirty = dirty.toString();
+          if (typeof dirty !== "string") {
+            throw typeErrorCreate("dirty is not a string, aborting");
+          }
+        } else {
+          throw typeErrorCreate("toString is not a function");
+        }
+      }
+      if (!DOMPurify.isSupported) {
+        return dirty;
+      }
+      if (!SET_CONFIG) {
+        _parseConfig(cfg);
+      }
+      DOMPurify.removed = [];
+      if (typeof dirty === "string") {
+        IN_PLACE = false;
+      }
+      if (IN_PLACE) {
+        if (dirty.nodeName) {
+          const tagName = transformCaseFunc(dirty.nodeName);
+          if (!ALLOWED_TAGS[tagName] || FORBID_TAGS[tagName]) {
+            throw typeErrorCreate(
+              "root node is forbidden and cannot be sanitized in-place"
+            );
+          }
+        }
+      } else if (dirty instanceof Node) {
+        body = _initDocument("<!---->");
+        importedNode = body.ownerDocument.importNode(dirty, true);
+        if (
+          importedNode.nodeType === NODE_TYPE.element &&
+          importedNode.nodeName === "BODY"
+        ) {
+          body = importedNode;
+        } else if (importedNode.nodeName === "HTML") {
+          body = importedNode;
+        } else {
+          body.appendChild(importedNode);
+        }
+      } else {
+        if (
+          !RETURN_DOM &&
+          !SAFE_FOR_TEMPLATES &&
+          !WHOLE_DOCUMENT && // eslint-disable-next-line unicorn/prefer-includes
+          dirty.indexOf("<") === -1
+        ) {
+          return trustedTypesPolicy && RETURN_TRUSTED_TYPE
+            ? trustedTypesPolicy.createHTML(dirty)
+            : dirty;
+        }
+        body = _initDocument(dirty);
+        if (!body) {
+          return RETURN_DOM ? null : RETURN_TRUSTED_TYPE ? emptyHTML : "";
+        }
+      }
+      if (body && FORCE_BODY) {
+        _forceRemove(body.firstChild);
+      }
+      const nodeIterator = _createNodeIterator(IN_PLACE ? dirty : body);
+      while ((currentNode = nodeIterator.nextNode())) {
+        _sanitizeElements(currentNode);
+        _sanitizeAttributes(currentNode);
+        if (currentNode.content instanceof DocumentFragment) {
+          _sanitizeShadowDOM(currentNode.content);
+        }
+      }
+      if (IN_PLACE) {
+        return dirty;
+      }
+      if (RETURN_DOM) {
+        if (RETURN_DOM_FRAGMENT) {
+          returnNode = createDocumentFragment.call(body.ownerDocument);
+          while (body.firstChild) {
+            returnNode.appendChild(body.firstChild);
+          }
+        } else {
+          returnNode = body;
+        }
+        if (ALLOWED_ATTR.shadowroot || ALLOWED_ATTR.shadowrootmode) {
+          returnNode = importNode.call(originalDocument, returnNode, true);
+        }
+        return returnNode;
+      }
+      let serializedHTML = WHOLE_DOCUMENT ? body.outerHTML : body.innerHTML;
+      if (
+        WHOLE_DOCUMENT &&
+        ALLOWED_TAGS["!doctype"] &&
+        body.ownerDocument &&
+        body.ownerDocument.doctype &&
+        body.ownerDocument.doctype.name &&
+        regExpTest(DOCTYPE_NAME, body.ownerDocument.doctype.name)
+      ) {
+        serializedHTML =
+          "<!DOCTYPE " +
+          body.ownerDocument.doctype.name +
+          ">\n" +
+          serializedHTML;
+      }
+      if (SAFE_FOR_TEMPLATES) {
+        arrayForEach([MUSTACHE_EXPR2, ERB_EXPR2, TMPLIT_EXPR2], (expr) => {
+          serializedHTML = stringReplace(serializedHTML, expr, " ");
+        });
+      }
+      return trustedTypesPolicy && RETURN_TRUSTED_TYPE
+        ? trustedTypesPolicy.createHTML(serializedHTML)
+        : serializedHTML;
+    };
+    DOMPurify.setConfig = function () {
+      let cfg =
+        arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+      _parseConfig(cfg);
+      SET_CONFIG = true;
+    };
+    DOMPurify.clearConfig = function () {
+      CONFIG = null;
+      SET_CONFIG = false;
+    };
+    DOMPurify.isValidAttribute = function (tag, attr, value) {
+      if (!CONFIG) {
+        _parseConfig({});
+      }
+      const lcTag = transformCaseFunc(tag);
+      const lcName = transformCaseFunc(attr);
+      return _isValidAttribute(lcTag, lcName, value);
+    };
+    DOMPurify.addHook = function (entryPoint, hookFunction) {
+      if (typeof hookFunction !== "function") {
+        return;
+      }
+      arrayPush(hooks[entryPoint], hookFunction);
+    };
+    DOMPurify.removeHook = function (entryPoint, hookFunction) {
+      if (hookFunction !== void 0) {
+        const index = arrayLastIndexOf(hooks[entryPoint], hookFunction);
+        return index === -1
+          ? void 0
+          : arraySplice(hooks[entryPoint], index, 1)[0];
+      }
+      return arrayPop(hooks[entryPoint]);
+    };
+    DOMPurify.removeHooks = function (entryPoint) {
+      hooks[entryPoint] = [];
+    };
+    DOMPurify.removeAllHooks = function () {
+      hooks = _createHooksMap();
+    };
+    return DOMPurify;
+  }
+  var purify = createDOMPurify();
+
+  // src/components/AIDocAssistant.tsx
   var import_jsx_runtime23 = __toESM(require_jsx_runtime(), 1);
+  d.setOptions({
+    breaks: true,
+    // Convert \n to <br>
+    gfm: true,
+    // GitHub Flavored Markdown
+  });
   var defaultSuggestions = [
     {
       id: "1",
@@ -52360,9 +56633,9 @@ var DocComponents = (() => {
       body: JSON.stringify({
         message,
         brand,
-        history: history.map((m) => ({
-          role: m.role,
-          content: m.content
+        history: history.map((m2) => ({
+          role: m2.role,
+          content: m2.content
             .filter((c) => c.type === "text")
             .map((c) => c.text)
             .join("\n"),
@@ -52414,29 +56687,30 @@ var DocComponents = (() => {
             apiUrl,
             brand
           );
-          const responseContent = [{ type: "text", text: response.answer }];
+          let fullResponse = response.answer;
           if (response.sources.length > 0) {
-            const sourcesText =
+            fullResponse +=
               "\n\n**Sources:**\n" +
               response.sources
                 .slice(0, 3)
                 .map((s) => `- [${s.title}](${s.url})`)
                 .join("\n");
-            responseContent.push({ type: "text", text: sourcesText });
           }
+          const parsedHtml = d.parse(fullResponse);
+          const responseContent = [{ type: "text", text: parsedHtml }];
           setMessages((prev) =>
-            prev.map((m) =>
-              m.id === assistantId
-                ? { ...m, content: responseContent, status: "complete" }
-                : m
+            prev.map((m2) =>
+              m2.id === assistantId
+                ? { ...m2, content: responseContent, status: "complete" }
+                : m2
             )
           );
         } catch (error) {
           setMessages((prev) =>
-            prev.map((m) =>
-              m.id === assistantId
+            prev.map((m2) =>
+              m2.id === assistantId
                 ? {
-                    ...m,
+                    ...m2,
                     content: [
                       {
                         type: "text",
@@ -52447,7 +56721,7 @@ var DocComponents = (() => {
                     ],
                     status: "error",
                   }
-                : m
+                : m2
             )
           );
         } finally {
@@ -52468,12 +56742,11 @@ var DocComponents = (() => {
     const handleClear = React20.useCallback(() => {
       setMessages([]);
     }, []);
-    const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
     return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(FloatingAIChat, {
       messages,
       suggestions: defaultSuggestions,
       isGenerating,
-      title: `${brandName} AI Assistant`,
+      title: "Ozwell",
       userName: "You",
       inputPlaceholder: "Ask about the documentation...",
       pulse,
@@ -52483,6 +56756,660 @@ var DocComponents = (() => {
       onResourceClick: handleResourceClick,
       onClear: handleClear,
     });
+  }
+
+  // src/components/OzwellChat.tsx
+  var React21 = __toESM(require_react(), 1);
+  var import_jsx_runtime24 = __toESM(require_jsx_runtime(), 1);
+  d.setOptions({
+    breaks: true,
+    gfm: true,
+  });
+  function parseMarkdown(text2) {
+    const rawHtml = d.parse(text2);
+    return purify.sanitize(rawHtml, {
+      ALLOWED_TAGS: [
+        "p",
+        "br",
+        "strong",
+        "em",
+        "a",
+        "ul",
+        "ol",
+        "li",
+        "code",
+        "pre",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "blockquote",
+      ],
+      ALLOWED_ATTR: ["href", "target", "rel", "class"],
+      ADD_ATTR: ["target"],
+    });
+  }
+  function addTargetBlank(html2) {
+    return html2.replace(
+      /<a /g,
+      '<a target="_blank" rel="noopener noreferrer" '
+    );
+  }
+  var defaultSuggestions2 = [
+    {
+      id: "1",
+      label: "How do I schedule an appointment?",
+      prompt: "How do I schedule an appointment in the system?",
+      icon: "calendar",
+    },
+    {
+      id: "2",
+      label: "How to create a patient chart?",
+      prompt: "How do I create a new patient chart?",
+      icon: "user",
+    },
+    {
+      id: "3",
+      label: "How to configure system settings?",
+      prompt: "How do I configure system settings and preferences?",
+      icon: "settings",
+    },
+    {
+      id: "4",
+      label: "How to manage documents?",
+      prompt: "How do I upload and manage documents?",
+      icon: "document",
+    },
+  ];
+  function getCurrentPageContext() {
+    return {
+      url: window.location.pathname,
+      title: document.title,
+    };
+  }
+  async function sendChatMessage2(message, history, apiUrl, brand) {
+    const currentPage = getCurrentPageContext();
+    const response = await fetch(`${apiUrl}/chat`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message,
+        brand,
+        currentPage,
+        history: history.map((m2) => ({
+          role: m2.role,
+          content: m2.content
+            .filter((c) => c.type === "text")
+            .map((c) => c.text)
+            .join("\n"),
+        })),
+      }),
+    });
+    if (!response.ok) {
+      const error = await response
+        .json()
+        .catch(() => ({ error: "Unknown error" }));
+      throw new Error(error.error || `HTTP ${response.status}`);
+    }
+    return response.json();
+  }
+  function TypingIndicator2() {
+    return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+      className: "flex items-center gap-1.5 py-2",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("span", {
+          className:
+            "h-2 w-2 rounded-full bg-neutral-500 dark:bg-neutral-400 animate-bounce",
+          style: { animationDelay: "0ms" },
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("span", {
+          className:
+            "h-2 w-2 rounded-full bg-neutral-500 dark:bg-neutral-400 animate-bounce",
+          style: { animationDelay: "150ms" },
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("span", {
+          className:
+            "h-2 w-2 rounded-full bg-neutral-500 dark:bg-neutral-400 animate-bounce",
+          style: { animationDelay: "300ms" },
+        }),
+      ],
+    });
+  }
+  function MessageBubble2({ message, isUser, logoUrl }) {
+    const isStreaming = message.status === "streaming";
+    const textContent = message.content
+      .filter((c) => c.type === "text" && c.text)
+      .map((c) => c.text)
+      .join("\n");
+    const htmlContent = React21.useMemo(() => {
+      if (isUser || !textContent) return "";
+      return addTargetBlank(parseMarkdown(textContent));
+    }, [textContent, isUser]);
+    return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+      className: `flex gap-3 ${isUser ? "flex-row-reverse" : "flex-row"}`,
+      children: [
+        isUser
+          ? /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+              className:
+                "flex-shrink-0 h-8 w-8 rounded-full flex items-center justify-center bg-primary-100 text-primary-700 dark:bg-primary-900/50 dark:text-primary-300",
+              children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("svg", {
+                className: "h-5 w-5",
+                fill: "currentColor",
+                viewBox: "0 0 24 24",
+                children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                  "path",
+                  {
+                    d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z",
+                  }
+                ),
+              }),
+            })
+          : /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("img", {
+              src: logoUrl,
+              alt: "Ozwell AI",
+              className: "flex-shrink-0 h-8 w-8 rounded-full object-cover",
+            }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+          className: `max-w-[85%] rounded-2xl px-4 py-2.5 ${isUser ? "bg-primary-600 text-white dark:bg-primary-500" : "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white"}`,
+          children: isStreaming
+            ? /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                TypingIndicator2,
+                {}
+              )
+            : isUser
+              ? /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("p", {
+                  className: "whitespace-pre-wrap",
+                  children: textContent,
+                })
+              : /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+                  className:
+                    "prose prose-sm dark:prose-invert max-w-none prose-p:my-1 prose-ul:my-1 prose-li:my-0 prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-a:underline prose-strong:text-inherit",
+                  dangerouslySetInnerHTML: { __html: htmlContent },
+                }),
+        }),
+      ],
+    });
+  }
+  function SuggestionButton({ suggestion, onClick }) {
+    const getIcon = () => {
+      switch (suggestion.icon) {
+        case "calendar":
+          return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("svg", {
+            className: "h-4 w-4 opacity-60",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: 1.5,
+            children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5",
+            }),
+          });
+        case "user":
+          return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("svg", {
+            className: "h-4 w-4 opacity-60",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: 1.5,
+            children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z",
+            }),
+          });
+        case "settings":
+          return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("svg", {
+            className: "h-4 w-4 opacity-60",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: 1.5,
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z",
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M15 12a3 3 0 11-6 0 3 3 0 016 0z",
+              }),
+            ],
+          });
+        case "document":
+          return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("svg", {
+            className: "h-4 w-4 opacity-60",
+            fill: "none",
+            viewBox: "0 0 24 24",
+            stroke: "currentColor",
+            strokeWidth: 1.5,
+            children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", {
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              d: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z",
+            }),
+          });
+        default:
+          return null;
+      }
+    };
+    return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("button", {
+      type: "button",
+      onClick: () => onClick(suggestion.prompt),
+      className:
+        "flex items-center gap-2 px-3 py-2 text-sm text-left rounded-xl border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors",
+      children: [
+        getIcon(),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("span", {
+          children: suggestion.label,
+        }),
+      ],
+    });
+  }
+  function EmptyState2({ suggestions, onSuggestionClick, logoUrl }) {
+    return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+      className:
+        "flex flex-col items-center justify-center h-full text-center p-4",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("img", {
+          src: logoUrl,
+          alt: "Ozwell AI",
+          className: "h-16 w-16 rounded-full object-cover mb-4",
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("h3", {
+          className:
+            "text-lg font-semibold text-neutral-900 dark:text-white mb-2",
+          children: "How can I help you today?",
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("p", {
+          className: "text-sm text-neutral-500 dark:text-neutral-400 mb-6",
+          children:
+            "Ask me anything about patients, appointments, documents, or how to use the system.",
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+          className: "flex flex-col gap-2 w-full max-w-sm",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("p", {
+              className: "text-xs text-neutral-400 dark:text-neutral-500 mb-1",
+              children: "Try asking:",
+            }),
+            suggestions.map((suggestion) =>
+              /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                SuggestionButton,
+                {
+                  suggestion,
+                  onClick: onSuggestionClick,
+                },
+                suggestion.id
+              )
+            ),
+          ],
+        }),
+      ],
+    });
+  }
+  function OzwellChat({
+    apiUrl = "/api/ai-assistant",
+    basePath = "",
+    brand = "eh",
+    pulse = true,
+    position = "bottom-right",
+  }) {
+    const logoUrl = `${basePath}/images/ai/ozwell.png`;
+    const [isOpen, setIsOpen] = React21.useState(false);
+    const [messages, setMessages] = React21.useState([]);
+    const [isGenerating, setIsGenerating] = React21.useState(false);
+    const [inputValue, setInputValue] = React21.useState("");
+    const messagesEndRef = React21.useRef(null);
+    const textareaRef = React21.useRef(null);
+    React21.useEffect(() => {
+      var _a2;
+      (_a2 = messagesEndRef.current) == null
+        ? void 0
+        : _a2.scrollIntoView({ behavior: "smooth" });
+    }, [messages]);
+    React21.useEffect(() => {
+      if (isOpen) {
+        setTimeout(() => {
+          var _a2;
+          return (_a2 = textareaRef.current) == null ? void 0 : _a2.focus();
+        }, 100);
+      }
+    }, [isOpen]);
+    const handleSendMessage = React21.useCallback(
+      async (content) => {
+        if (!content.trim() || isGenerating) return;
+        setInputValue("");
+        const userMessage = {
+          id: `user-${Date.now()}`,
+          role: "user",
+          content: [{ type: "text", text: content }],
+          timestamp: /* @__PURE__ */ new Date(),
+          status: "complete",
+        };
+        setMessages((prev) => [...prev, userMessage]);
+        const assistantId = `assistant-${Date.now()}`;
+        setMessages((prev) => [
+          ...prev,
+          {
+            id: assistantId,
+            role: "assistant",
+            content: [],
+            timestamp: /* @__PURE__ */ new Date(),
+            status: "streaming",
+          },
+        ]);
+        setIsGenerating(true);
+        try {
+          const response = await sendChatMessage2(
+            content,
+            messages,
+            apiUrl,
+            brand
+          );
+          let fullResponse = response.answer;
+          if (response.sources.length > 0) {
+            fullResponse +=
+              "\n\n**Sources:**\n" +
+              response.sources
+                .slice(0, 3)
+                .map((s) => `- [${s.title}](${s.url})`)
+                .join("\n");
+          }
+          setMessages((prev) =>
+            prev.map((m2) =>
+              m2.id === assistantId
+                ? {
+                    ...m2,
+                    content: [{ type: "text", text: fullResponse }],
+                    status: "complete",
+                  }
+                : m2
+            )
+          );
+        } catch (error) {
+          setMessages((prev) =>
+            prev.map((m2) =>
+              m2.id === assistantId
+                ? {
+                    ...m2,
+                    content: [
+                      {
+                        type: "text",
+                        text: `Sorry, I encountered an error. Please try again. ${error instanceof Error ? error.message : ""}`,
+                      },
+                    ],
+                    status: "error",
+                  }
+                : m2
+            )
+          );
+        } finally {
+          setIsGenerating(false);
+        }
+      },
+      [messages, apiUrl, brand, isGenerating]
+    );
+    const handleKeyDown = (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        handleSendMessage(inputValue);
+      }
+    };
+    const handleClear = () => {
+      setMessages([]);
+    };
+    const positionClasses =
+      position === "bottom-left" ? "bottom-4 left-4" : "bottom-4 right-4";
+    const modalPositionClasses =
+      position === "bottom-left" ? "left-4 right-auto" : "right-4 left-auto";
+    const brandDisplayName =
+      brand === "wc" ? "WebChart AI" : "Enterprise Health AI";
+    return /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+      import_jsx_runtime24.Fragment,
+      {
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+            className: `fixed ${positionClasses} z-50`,
+            children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+              AIChatTrigger,
+              {
+                isOpen,
+                onClick: () => setIsOpen(!isOpen),
+                pulse: pulse && !isOpen,
+                "aria-label": "Open AI Assistant",
+              }
+            ),
+          }),
+          isOpen &&
+            /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+              import_jsx_runtime24.Fragment,
+              {
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+                    className:
+                      "fixed inset-0 z-40 bg-black/5 md:bg-transparent",
+                    onClick: () => setIsOpen(false),
+                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+                    className:
+                      "fixed z-50 bg-white dark:bg-neutral-900 rounded-2xl shadow-2xl border border-neutral-200 dark:border-neutral-700 flex flex-col",
+                    style: {
+                      right: "1rem",
+                      bottom: "1rem",
+                      maxHeight: "calc(100vh - 2rem)",
+                      height: "600px",
+                      width: "min(400px, calc(100vw - 2rem))",
+                    },
+                    children: [
+                      /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+                        className:
+                          "flex items-center justify-between p-4 border-b border-neutral-200 dark:border-neutral-700",
+                        children: [
+                          /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+                            "div",
+                            {
+                              className: "flex items-center gap-3",
+                              children: [
+                                /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                                  "img",
+                                  {
+                                    src: logoUrl,
+                                    alt: "Ozwell AI",
+                                    className:
+                                      "h-10 w-10 rounded-full object-cover",
+                                  }
+                                ),
+                                /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+                                  "div",
+                                  {
+                                    children: [
+                                      /* @__PURE__ */ (0,
+                                      import_jsx_runtime24.jsx)("h2", {
+                                        className:
+                                          "font-semibold text-neutral-900 dark:text-white",
+                                        children: brandDisplayName,
+                                      }),
+                                      /* @__PURE__ */ (0,
+                                      import_jsx_runtime24.jsx)("p", {
+                                        className:
+                                          "text-xs text-neutral-500 dark:text-neutral-400",
+                                        children: "Powered by ozwell.ai",
+                                      }),
+                                    ],
+                                  }
+                                ),
+                              ],
+                            }
+                          ),
+                          /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+                            "div",
+                            {
+                              className: "flex items-center gap-1",
+                              children: [
+                                messages.length > 0 &&
+                                  /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                                    "button",
+                                    {
+                                      type: "button",
+                                      onClick: handleClear,
+                                      className:
+                                        "p-2 rounded-lg text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors",
+                                      "aria-label": "Clear chat",
+                                      title: "Clear chat",
+                                      children: /* @__PURE__ */ (0,
+                                      import_jsx_runtime24.jsx)("svg", {
+                                        className: "h-5 w-5",
+                                        fill: "none",
+                                        viewBox: "0 0 24 24",
+                                        stroke: "currentColor",
+                                        strokeWidth: 1.5,
+                                        children: /* @__PURE__ */ (0,
+                                        import_jsx_runtime24.jsx)("path", {
+                                          strokeLinecap: "round",
+                                          strokeLinejoin: "round",
+                                          d: "M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99",
+                                        }),
+                                      }),
+                                    }
+                                  ),
+                                /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                                  "button",
+                                  {
+                                    type: "button",
+                                    onClick: () => setIsOpen(false),
+                                    className:
+                                      "p-2 rounded-lg text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors",
+                                    "aria-label": "Close chat",
+                                    children: /* @__PURE__ */ (0,
+                                    import_jsx_runtime24.jsx)("svg", {
+                                      className: "h-5 w-5",
+                                      fill: "none",
+                                      viewBox: "0 0 24 24",
+                                      stroke: "currentColor",
+                                      strokeWidth: 1.5,
+                                      children: /* @__PURE__ */ (0,
+                                      import_jsx_runtime24.jsx)("path", {
+                                        strokeLinecap: "round",
+                                        strokeLinejoin: "round",
+                                        d: "M6 18L18 6M6 6l12 12",
+                                      }),
+                                    }),
+                                  }
+                                ),
+                              ],
+                            }
+                          ),
+                        ],
+                      }),
+                      /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+                        className: "flex-1 overflow-y-auto p-4 min-h-0",
+                        children:
+                          messages.length === 0
+                            ? /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                                EmptyState2,
+                                {
+                                  suggestions: defaultSuggestions2,
+                                  onSuggestionClick: handleSendMessage,
+                                  logoUrl,
+                                }
+                              )
+                            : /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(
+                                "div",
+                                {
+                                  className: "space-y-4",
+                                  children: [
+                                    messages.map((message) =>
+                                      /* @__PURE__ */ (0,
+                                      import_jsx_runtime24.jsx)(
+                                        MessageBubble2,
+                                        {
+                                          message,
+                                          isUser: message.role === "user",
+                                          logoUrl,
+                                        },
+                                        message.id
+                                      )
+                                    ),
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime24.jsx)("div", {
+                                      ref: messagesEndRef,
+                                    }),
+                                  ],
+                                }
+                              ),
+                      }),
+                      /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+                        className:
+                          "p-4 border-t border-neutral-200 dark:border-neutral-700",
+                        children: /* @__PURE__ */ (0,
+                        import_jsx_runtime24.jsxs)("div", {
+                          className: "flex items-end gap-2",
+                          children: [
+                            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                              "textarea",
+                              {
+                                ref: textareaRef,
+                                value: inputValue,
+                                onChange: (e) => setInputValue(e.target.value),
+                                onKeyDown: handleKeyDown,
+                                placeholder: "Ask about the documentation...",
+                                disabled: isGenerating,
+                                rows: 1,
+                                className:
+                                  "flex-1 resize-none rounded-2xl px-4 py-2.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-500 focus:ring-2 focus:ring-primary-500 focus:outline-none disabled:opacity-50 transition-colors max-h-[120px]",
+                                style: {
+                                  height: "auto",
+                                  minHeight: "44px",
+                                },
+                                onInput: (e) => {
+                                  const target = e.target;
+                                  target.style.height = "auto";
+                                  target.style.height = `${Math.min(target.scrollHeight, 120)}px`;
+                                },
+                              }
+                            ),
+                            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+                              "button",
+                              {
+                                type: "button",
+                                onClick: () => handleSendMessage(inputValue),
+                                disabled: !inputValue.trim() || isGenerating,
+                                className:
+                                  "p-3 rounded-full bg-primary-800 text-white hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
+                                "aria-label": "Send message",
+                                children: /* @__PURE__ */ (0,
+                                import_jsx_runtime24.jsx)("svg", {
+                                  className: "h-5 w-5",
+                                  fill: "none",
+                                  viewBox: "0 0 24 24",
+                                  stroke: "currentColor",
+                                  strokeWidth: 2,
+                                  children: /* @__PURE__ */ (0,
+                                  import_jsx_runtime24.jsx)("path", {
+                                    strokeLinecap: "round",
+                                    strokeLinejoin: "round",
+                                    d: "M12 19l9 2-9-18-9 18 9-2zm0 0v-8",
+                                  }),
+                                }),
+                              }
+                            ),
+                          ],
+                        }),
+                      }),
+                    ],
+                  }),
+                ],
+              }
+            ),
+        ],
+      }
+    );
   }
   return __toCommonJS(index_exports);
 })();
@@ -52846,5 +57773,8 @@ lucide-react/dist/esm/lucide-react.js:
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
    *)
+
+dompurify/dist/purify.es.mjs:
+  (*! @license DOMPurify 3.3.1 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.1/LICENSE *)
 */
 //# sourceMappingURL=components.js.map

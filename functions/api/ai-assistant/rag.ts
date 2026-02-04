@@ -2,7 +2,13 @@
  * RAG (Retrieval Augmented Generation) logic
  */
 
-import type { Env, ChatMessage, ChatResponse, CONFIG } from "./types";
+import type {
+  Env,
+  ChatMessage,
+  ChatResponse,
+  CONFIG,
+  PageContext,
+} from "./types";
 import {
   searchSimilarChunks,
   buildContext,
@@ -12,21 +18,39 @@ import {
 /**
  * System prompt for the documentation assistant
  */
-const SYSTEM_PROMPT = `You are an AI assistant for medical software documentation. You help healthcare IT professionals, system administrators, and clinical staff understand and use Enterprise Health/WebChart medical software.
+const SYSTEM_PROMPT = `You are Ozwell, a friendly and helpful AI assistant for medical software documentation. You help healthcare IT professionals, system administrators, and clinical staff understand and use Enterprise Health/WebChart medical software.
 
 Your role is to:
-1. Answer questions accurately based on the provided documentation context
-2. Reference specific features, settings, and procedures when relevant
-3. Admit when you don't have enough information to answer
-4. Suggest related topics the user might want to explore
+1. Be conversational and friendly - respond naturally to greetings and casual messages
+2. Answer questions accurately based on the provided documentation context when relevant
+3. Reference specific features, settings, and procedures when the user asks about them
+4. Admit when you don't have enough information to answer a specific question
+5. Suggest related topics the user might want to explore
 
 Guidelines:
-- Be concise but thorough
+- For greetings (hi, hello, hey, etc.), respond warmly and ask how you can help
+- For simple questions, give concise answers
+- For technical questions, be thorough and reference the documentation
 - Use technical terminology appropriately
 - When mentioning features, use proper names from the documentation
-- If the context doesn't contain relevant information, say so
+- If documentation context is provided but not relevant to the question, ignore it
 - Never make up features or procedures not in the documentation
-- Format responses with markdown for readability`;
+- Format responses with markdown for readability when helpful
+
+Remember: You're a helpful assistant first, documentation search second. Be natural!`;
+
+/**
+ * Check if a message is a simple greeting or conversational message
+ */
+function isGreeting(message: string): boolean {
+  const greetings = [
+    /^(hi|hello|hey|howdy|greetings|yo|sup)[\s!.,?]*$/i,
+    /^(good\s*(morning|afternoon|evening|day))[\s!.,?]*$/i,
+    /^(what'?s?\s*up|how\s*are\s*you|how'?s?\s*it\s*going)[\s!.,?]*$/i,
+    /^(thanks|thank\s*you|thx)[\s!.,?]*$/i,
+  ];
+  return greetings.some((regex) => regex.test(message.trim()));
+}
 
 /**
  * Build the prompt with context for the LLM
@@ -34,9 +58,16 @@ Guidelines:
 function buildPrompt(
   userMessage: string,
   context: string,
-  history: ChatMessage[] = []
+  history: ChatMessage[] = [],
+  includeContext: boolean = true,
+  currentPage: PageContext | null = null
 ): string {
   let prompt = "";
+
+  // Add current page context if available
+  if (currentPage) {
+    prompt += `The user is currently viewing: "${currentPage.title || "Unknown page"}" (${currentPage.url})\n\n`;
+  }
 
   if (history.length > 0) {
     prompt += "Previous conversation:\n";
@@ -47,8 +78,11 @@ function buildPrompt(
     prompt += "\n";
   }
 
-  prompt += `Documentation context:\n${context}\n\n`;
-  prompt += `User question: ${userMessage}`;
+  if (includeContext && context.trim()) {
+    prompt += `Documentation context (use only if relevant to the question):\n${context}\n\n`;
+  }
+
+  prompt += `User message: ${userMessage}`;
 
   return prompt;
 }
@@ -61,21 +95,35 @@ export async function generateRAGResponse(
   env: Env,
   config: typeof CONFIG,
   history: ChatMessage[] = [],
-  brand: "eh" | "wc" = "eh"
+  brand: "eh" | "wc" = "eh",
+  currentPage: PageContext | null = null
 ): Promise<ChatResponse> {
-  // Search for relevant documentation chunks
-  const searchResults = await searchSimilarChunks(
-    message,
-    env,
-    config,
-    config.MAX_CONTEXT_CHUNKS
-  );
+  // Check if this is a simple greeting - skip RAG for conversational messages
+  const skipRAG = isGreeting(message);
 
-  // Build context from search results
-  const context = buildContext(searchResults);
+  let context = "";
+  let searchResults: Awaited<ReturnType<typeof searchSimilarChunks>> = [];
 
-  // Build the full prompt
-  const prompt = buildPrompt(message, context, history);
+  if (!skipRAG) {
+    // Enhance search query with current page context if available
+    const searchQuery = currentPage
+      ? `${message} (related to: ${currentPage.title || currentPage.url})`
+      : message;
+
+    // Search for relevant documentation chunks
+    searchResults = await searchSimilarChunks(
+      searchQuery,
+      env,
+      config,
+      config.MAX_CONTEXT_CHUNKS
+    );
+
+    // Build context from search results
+    context = buildContext(searchResults);
+  }
+
+  // Build the full prompt with page context
+  const prompt = buildPrompt(message, context, history, !skipRAG, currentPage);
 
   // Add brand-specific context to system prompt
   const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
@@ -90,7 +138,7 @@ export async function generateRAGResponse(
         { role: "user", content: prompt },
       ],
       max_tokens: config.MAX_TOKENS,
-      temperature: 0.3,
+      temperature: skipRAG ? 0.7 : 0.3, // Higher temperature for conversational responses
     }
   );
 
@@ -101,7 +149,7 @@ export async function generateRAGResponse(
       : String(response);
 
   // Extract sources for citation
-  const sources = extractSources(searchResults);
+  const sources = skipRAG ? [] : extractSources(searchResults);
 
   return {
     answer,

@@ -1,11 +1,15 @@
 /**
- * AI Documentation Assistant Component
+ * Ozwell AI Documentation Assistant Component
  *
  * Integrates @mieweb/ui FloatingAIChat with the Cloudflare Worker backend
  * to provide RAG-powered Q&A for documentation.
+ *
+ * Powered by ozwell.ai
  */
 
 import * as React from "react";
+import { marked } from "marked";
+import DOMPurify from "dompurify";
 import {
   FloatingAIChat,
   type AIMessage,
@@ -14,6 +18,53 @@ import {
   type MCPResource,
   type AIMessageContent,
 } from "@mieweb/ui";
+
+// Configure marked for safe HTML output
+marked.setOptions({
+  breaks: true, // Convert \n to <br>
+  gfm: true, // GitHub Flavored Markdown
+});
+
+/**
+ * Parse markdown to sanitized HTML
+ */
+function parseMarkdown(text: string): string {
+  const rawHtml = marked.parse(text) as string;
+  return DOMPurify.sanitize(rawHtml, {
+    ALLOWED_TAGS: [
+      "p",
+      "br",
+      "strong",
+      "em",
+      "a",
+      "ul",
+      "ol",
+      "li",
+      "code",
+      "pre",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "blockquote",
+    ],
+    ALLOWED_ATTR: ["href", "target", "rel", "class"],
+  });
+}
+
+/**
+ * Custom markdown message renderer component
+ */
+function MarkdownMessage({ content }: { content: string }) {
+  const html = React.useMemo(() => parseMarkdown(content), [content]);
+
+  return (
+    <div
+      className="prose prose-sm dark:prose-invert prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-a:underline max-w-none"
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
+}
 
 // ============================================================================
 // Types
@@ -164,20 +215,25 @@ export function AIDocAssistant({
         );
 
         // Build response content with sources
-        const responseContent: AIMessage["content"] = [
-          { type: "text", text: response.answer },
-        ];
+        // Combine answer and sources into markdown, then parse to HTML
+        let fullResponse = response.answer;
 
-        // Add sources as links if available
+        // Add sources as markdown links if available
         if (response.sources.length > 0) {
-          const sourcesText =
+          fullResponse +=
             "\n\n**Sources:**\n" +
             response.sources
               .slice(0, 3)
               .map((s) => `- [${s.title}](${s.url})`)
               .join("\n");
-          responseContent.push({ type: "text", text: sourcesText });
         }
+
+        // Parse markdown to HTML for proper rendering
+        const parsedHtml = marked.parse(fullResponse) as string;
+
+        const responseContent: AIMessage["content"] = [
+          { type: "text", text: parsedHtml },
+        ];
 
         // Update assistant message with response
         setMessages((prev) =>
@@ -239,14 +295,12 @@ export function AIDocAssistant({
     setMessages([]);
   }, []);
 
-  const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
-
   return (
     <FloatingAIChat
       messages={messages}
       suggestions={defaultSuggestions}
       isGenerating={isGenerating}
-      title={`${brandName} AI Assistant`}
+      title="Ozwell"
       userName="You"
       inputPlaceholder="Ask about the documentation..."
       pulse={pulse}

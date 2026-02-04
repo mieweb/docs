@@ -118,6 +118,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   // Validate optional fields
   const brand = body.brand === "wc" ? "wc" : "eh";
   const history = Array.isArray(body.history) ? body.history : [];
+  const currentPage = body.currentPage || null;
 
   try {
     // Generate response using RAG
@@ -126,7 +127,8 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       env,
       CONFIG,
       history,
-      brand
+      brand,
+      currentPage
     );
 
     return jsonResponse(response);

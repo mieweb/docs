@@ -33,6 +33,16 @@ export interface ChatMessage {
 }
 
 /**
+ * Current page context
+ */
+export interface PageContext {
+  /** Current page URL path */
+  url: string;
+  /** Page title */
+  title?: string;
+}
+
+/**
  * Request body for the chat endpoint
  */
 export interface ChatRequest {
@@ -42,6 +52,8 @@ export interface ChatRequest {
   history?: ChatMessage[];
   /** Brand context: 'eh' for Enterprise Health, 'wc' for WebChart */
   brand?: "eh" | "wc";
+  /** Current page the user is viewing (optional) */
+  currentPage?: PageContext;
 }
 
 /**
@@ -81,7 +93,8 @@ export interface VectorSearchResult {
  */
 export const CONFIG = {
   EMBEDDING_MODEL: "@cf/baai/bge-base-en-v1.5" as const,
-  LLM_MODEL: "@cf/meta/llama-3.1-8b-instruct" as const,
+  // Using Llama 3.3 70B for better reasoning and conversational ability
+  LLM_MODEL: "@cf/meta/llama-3.3-70b-instruct-fp8-fast" as const,
   MAX_CONTEXT_CHUNKS: 5,
   MAX_TOKENS: 1024,
 };

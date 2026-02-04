@@ -121,3 +121,4 @@ export {
   type DocumentationAppProps,
 } from "./DocumentationApp";
 export { AIDocAssistant, type AIDocAssistantProps } from "./AIDocAssistant";
+export { OzwellChat, type OzwellChatProps } from "./OzwellChat";
