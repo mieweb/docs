@@ -2,7 +2,7 @@
 id: '1SodJybXwsn7Dkvot25Uk3qEGz_vj6wMDpR0cpVXOzco'
 title: 'Outbound Sample HL7 Messages'
 date: '2026-02-04T15:06:02.143Z'
-version: 196
+version: 197
 lastAuthor: 'nwallace'
 mimeType: 'text/x-markdown'
 links:
