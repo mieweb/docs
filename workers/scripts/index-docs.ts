@@ -11,7 +11,7 @@
 
 import * as fs from "fs/promises";
 import * as path from "path";
-import { execSync } from "child_process";
+import { execFileSync, spawnSync } from "child_process";
 
 // ============================================================================
 // Configuration
@@ -74,8 +74,21 @@ interface VectorRecord {
  * Clean and normalize text content
  */
 function cleanText(text: string): string {
+  // First, aggressively remove any <script> tags and their contents to avoid
+  // incomplete multi-character sanitization issues (e.g., partially removed tags).
+  let safeText = text;
+  let previous: string;
+  do {
+    previous = safeText;
+    safeText = safeText
+      // Remove <script>...</script> blocks (including malformed inner HTML)
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
+      // Remove stray opening <script ...> tags without a closing tag
+      .replace(/<script\b[^>]*>/gi, "");
+  } while (safeText !== previous);
+
   return (
-    text
+    safeText
       // Remove Hugo shortcodes
       .replace(/\{\{[%<].*?[%>]\}\}/g, "")
       // Remove HTML tags
@@ -211,11 +224,34 @@ async function generateEmbeddingsWithWrangler(
       try {
         // Use wrangler to call AI for embeddings
         // Note: In production, this would use the Cloudflare API directly
-        const embeddingJson = execSync(
-          `cd ${path.resolve(__dirname, "../ai-assistant")} && npx wrangler ai run ${CONFIG.embeddingModel} --text "${chunk.text.replace(/"/g, '\\"').slice(0, 500)}"`,
-          { encoding: "utf-8", maxBuffer: 10 * 1024 * 1024 }
+        const truncatedText = chunk.text.slice(0, 500);
+        const wranglerResult = spawnSync(
+          "npx",
+          [
+            "wrangler",
+            "ai",
+            "run",
+            CONFIG.embeddingModel,
+            "--text",
+            truncatedText,
+          ],
+          {
+            cwd: path.resolve(__dirname, "../ai-assistant"),
+            encoding: "utf-8",
+            maxBuffer: 10 * 1024 * 1024,
+          }
         );
 
+        if (wranglerResult.error) {
+          throw wranglerResult.error;
+        }
+        if (wranglerResult.status !== 0) {
+          throw new Error(
+            `wrangler exited with code ${wranglerResult.status}: ${wranglerResult.stderr}`
+          );
+        }
+
+        const embeddingJson = wranglerResult.stdout;
         const embedding = JSON.parse(embeddingJson);
         const values = embedding.data?.[0] || embedding;
 
@@ -260,9 +296,17 @@ async function uploadToVectorize(records: VectorRecord[]): Promise<void> {
 
   try {
     // Use wrangler to upload vectors
-    execSync(
-      `cd ${path.resolve(__dirname, "../ai-assistant")} && npx wrangler vectorize insert ${CONFIG.vectorizeIndex} --file="${tempFile}"`,
-      { stdio: "inherit" }
+    const wranglerCwd = path.resolve(__dirname, "../ai-assistant");
+    execFileSync(
+      "npx",
+      [
+        "wrangler",
+        "vectorize",
+        "insert",
+        CONFIG.vectorizeIndex,
+        `--file=${tempFile}`,
+      ],
+      { stdio: "inherit", cwd: wranglerCwd }
     );
     console.log("Successfully uploaded vectors to Vectorize");
   } finally {
