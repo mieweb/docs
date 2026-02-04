@@ -410,8 +410,8 @@ export function OzwellChat({
   pulse = true,
   position = "bottom-right",
 }: OzwellChatProps) {
-  // Derive the logo URL from basePath
-  const logoUrl = `${basePath}/images/ai/ozwell.png`;
+  // Logo is always at root since static assets are served from the publishDir root
+  const logoUrl = "/images/ai/ozwell.png";
 
   const [isOpen, setIsOpen] = React.useState(false);
   const [messages, setMessages] = React.useState<AIMessage[]>([]);
