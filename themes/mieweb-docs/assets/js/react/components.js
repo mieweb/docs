@@ -32518,7 +32518,7 @@ Please report this to https://github.com/markedjs/marked.`),
     pulse: r = !0,
     position: l = "bottom-right",
   }) {
-    let s = "/images/ai/ozwell.png",
+    let s = `${a}/images/ai/ozwell.png`,
       [n, d] = Na.useState(!1),
       [i, u] = Na.useState([]),
       [c, p] = Na.useState(!1),
