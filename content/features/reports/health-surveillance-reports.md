@@ -1,9 +1,9 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2024-08-13T14:03:04.255Z'
-version: 382
-lastAuthor: 'janderson'
+date: '2026-02-05T18:11:53.899Z'
+version: 396
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SZTRKMFP'
@@ -54,6 +54,10 @@ The Due List Status report displays a listing of charts with any due list items 
 The Due Date range finds any due list items that had/have a due date between that range. The report displays results of what tests & procedures (due list items) that were/are "due" within that specific due date range, as well as its current *status*.  Additional search result filters can be done by specific health surveillance panel(s), specific order/test name(s), status and/or requirement.  Once the results display in the datavis output, further filtering, grouping, graphing, etc can be done.
 
 ![](./health-surveillance-reports.assets/895c2e6738ddd284b3271964df74f406.png)
+
+The search results that display in the datavis output also support mass email action functionality to generate an email for any selected rows, if the logged in user has security permission to *Send Email to Patient*.
+
+![](./health-surveillance-reports.assets/1dac288cf09a6721f007358703a24f37.png)
 
 ## EKG Report
 
