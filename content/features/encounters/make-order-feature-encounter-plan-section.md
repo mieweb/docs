@@ -1,8 +1,8 @@
 ---
 id: '1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 title: 'Make Order Feature - Encounter Plan Section'
-date: '2025-04-01T18:52:32.787Z'
-version: 322
+date: '2026-02-05T19:37:07.705Z'
+version: 329
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -87,12 +87,16 @@ In the *Create Order Requisition* pop-up, you must select and enter the fields a
 
 ![](./make-order-feature-encounter-plan-section.assets/88388878e1516fb75def7612a6d3efd7.png)
 
-Regardless of what method is used, once you have selected and added specific order items to the Order Requisition, the items will be listed in the Items section and 2 additional fields will be available.
+Regardless of what method is used, once you have selected and added specific order items to the Order Requisition, the items will be listed in the Items section and 2 additional fields (Auth & Comments) will be available.
 
 * <strong>Auth:</strong> this is an optional free-text field to key in any authorization information for each individual order item. This field does not display on the stored order document.
 * <strong>Comments:</strong> this is an optional free-text field to key in any comments for any individual item.  Item comments typically include the ‘side' of the body to xray, etc if the order item isn't specific enough. These are shown on the stored order document and the Order Requests tracking datavis tab.
 
 ![](./make-order-feature-encounter-plan-section.assets/7512a55b10d0b84fffe8824f6a1c4fd3.png)
+
+NOTE: The system only supports up to 40 order items on **one** order requisition being created.  If more than 40 order items are selected to be on an order requisition, the user will receive an alert that it exceeds the maximum allowed number of order items supported.
+
+![](./make-order-feature-encounter-plan-section.assets/b0133a7dddb611cd6017be290635fe9c.png)
 
 ### Reason section
 
