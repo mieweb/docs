@@ -2,6 +2,7 @@
 
 import { EOL } from "os";
 import { readFileSync, existsSync } from "fs";
+import { dirname, join, normalize } from "path";
 
 // Support both file argument and stdin
 let markdown;
@@ -25,6 +26,7 @@ let weight = 10;
 
 const parentStack = [];
 const menu = [];
+const missingFiles = [];
 
 let lastContent = "First line";
 let processedCount = 0;
@@ -50,9 +52,9 @@ for (const line of lines) {
     continue;
   }
   const [_, name, pageRef] = matched;
-  // Calculate level based on indentation: 2-space indent = level 1
-  // For "- " (2 chars) level=0, "  - " (4 chars) level=1, etc.
-  const level = (indentPart.length - 2) / 2;
+  // Calculate level based on indentation: 4-space indent = level 1
+  // For "* " (2 chars) level=0, "    * " (6 chars) level=1, etc.
+  const level = (indentPart.length - 2) / 4;
 
   while (parentStack.length > level) {
     parentStack.pop();
@@ -65,15 +67,42 @@ for (const line of lines) {
     pageRef.startsWith("https://") ||
     existsSync("./content/" + pageRef)
   ) {
+    let resolvedPageRef = pageRef;
     if (pageRef.indexOf("//") === -1) {
       const md = readFileSync("./content/" + pageRef)
         .toString()
         .split("\n");
+      let isRedirect = false;
       for (const line of md) {
         if (line.startsWith("id: ")) {
           identifier =
             line.substring("id: ".length).replace(/['"]/g, "").trim() ||
             identifier;
+        }
+        if (line.startsWith("redirectTo:")) {
+          isRedirect = true;
+        }
+      }
+      // Follow redirect: resolve the target path from the markdown link in the body
+      if (isRedirect) {
+        const linkMatch = md.join("\n").match(/\[([^\]]+)\]\(([^)]+)\)/);
+        if (linkMatch) {
+          const targetPath = normalize(join(dirname(pageRef), linkMatch[2]));
+          if (existsSync("./content/" + targetPath)) {
+            resolvedPageRef = targetPath;
+            // Re-read the target file for its id
+            const targetMd = readFileSync("./content/" + targetPath)
+              .toString()
+              .split("\n");
+            for (const line of targetMd) {
+              if (line.startsWith("id: ")) {
+                identifier =
+                  line.substring("id: ".length).replace(/['"]/g, "").trim() ||
+                  identifier;
+              }
+            }
+            console.error(`  Redirect: ${pageRef} → ${resolvedPageRef}`);
+          }
         }
       }
     }
@@ -81,7 +110,7 @@ for (const line of lines) {
     menu.push({
       identifier,
       name,
-      pageRef,
+      pageRef: resolvedPageRef,
       parent: parentStack[parentStack.length - 1],
       weight,
     });
@@ -89,6 +118,10 @@ for (const line of lines) {
     console.warn(
       `Warning: navigation.md menu has "${markdownLink}" without file: "${pageRef}"`
     );
+    missingFiles.push(pageRef);
+    // Re-parent children of this missing entry to the current parent (grandparent)
+    // so they don't become orphaned in the menu.
+    identifier = parentStack[parentStack.length - 1];
   }
 
   weight += 10;
@@ -102,5 +135,14 @@ for (const line of lines) {
   }
 }
 
+if (missingFiles.length > 0) {
+  console.error(`\nWarning: ${missingFiles.length} missing file(s) skipped:`);
+  for (const f of missingFiles) {
+    console.error(`  - ${f}`);
+  }
+  console.error(
+    "Their children have been re-parented to the nearest existing ancestor.\n"
+  );
+}
 console.error(`Done! Generated ${menu.length} menu items.`);
 console.log(JSON.stringify({ main: menu }, null, 4));

@@ -11,7 +11,7 @@ child) */ -}} {{- if not (strings.Contains $remainder "/") -}} {{- $foundPages =
 {{- end -}} {{- end -}} {{- $pages = $foundPages -}} {{- end -}} {{- /* Apply sorting */ -}} {{- if $pages -}} {{- if eq
 $sortBy "creation" -}} {{- $pages = $pages.ByDate -}} {{- else if eq $sortBy "weight" -}} {{- $pages = $pages.ByWeight
 -}} {{- else -}} {{- $pages = $pages.ByTitle -}} {{- end -}} {{- end -}} {{- if $pages }}
-<div class="my-6 grid gap-3">
+<div class="my-6 grid gap-3 sm:grid-cols-2">
   {{- range $pages }}
   <a href="{{ .RelPermalink }}" class="card card-interactive group flex items-center gap-3 p-4">
     <svg
