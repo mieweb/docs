@@ -1004,7 +1004,7 @@ shareBtn?.addEventListener("click", async () => {
 });
 
 // ============================================
-// Feedback Modal
+// Feedback Modal (powered by Pollenate.dev)
 // ============================================
 const feedbackModal = document.getElementById("feedback-modal");
 const feedbackBackdrop = document.getElementById("feedback-modal-backdrop");
@@ -1012,6 +1012,57 @@ const feedbackCloseBtn = document.getElementById("feedback-modal-close");
 const feedbackCancelBtn = document.getElementById("feedback-cancel");
 const feedbackForm = document.getElementById("feedback-form");
 const feedbackBtns = document.querySelectorAll(".btn-feedback");
+
+// Read Pollenate config from the feedback CTA container
+const feedbackContainer = document.querySelector("[data-pollenate-inbox]");
+const pollenateInboxKey = feedbackContainer?.dataset.pollenateInbox || "";
+const pollenateApiKey = feedbackContainer?.dataset.pollenateApi || "";
+
+const feedbackButtonsContainer = document.getElementById("feedback-buttons");
+
+/** Replace feedback buttons with a thank-you message after submission */
+function replaceFeedbackWithThanks() {
+  if (!feedbackButtonsContainer) return;
+  feedbackButtonsContainer.innerHTML =
+    '<span class="text-muted-foreground text-sm italic">Thanks for your feedback!</span>';
+}
+
+/**
+ * Submit feedback to Pollenate.dev
+ * @param {number} score - 1 for thumbs up, 0 for thumbs down
+ * @param {string} [comment] - Optional comment text
+ * @param {string} [email] - Optional email
+ */
+async function submitPollenateFeedback(score, comment, email) {
+  if (!pollenateInboxKey || !pollenateApiKey) return;
+
+  const body = {
+    inboxKey: pollenateInboxKey,
+    type: "thumbs",
+    score,
+    context: {
+      page: window.location.pathname,
+      url: window.location.href,
+      referrer: document.referrer || undefined,
+    },
+  };
+
+  if (comment) body.comment = comment;
+  if (email) body.context.email = email;
+
+  try {
+    await fetch("https://api.pollenate.dev/collect", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Pollenate-Key": pollenateApiKey,
+      },
+      body: JSON.stringify(body),
+    });
+  } catch (err) {
+    console.error("Pollenate feedback error:", err);
+  }
+}
 
 function openFeedbackModal() {
   feedbackModal?.classList.remove("hidden");
@@ -1028,6 +1079,8 @@ feedbackBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     const isHelpful = btn.getAttribute("data-helpful") === "true";
     if (isHelpful) {
+      submitPollenateFeedback(1);
+      replaceFeedbackWithThanks();
       showToast("Thank you for your feedback!");
     } else {
       openFeedbackModal();
@@ -1041,8 +1094,11 @@ feedbackCancelBtn?.addEventListener("click", closeFeedbackModal);
 
 feedbackForm?.addEventListener("submit", (e) => {
   e.preventDefault();
-  // TODO: Submit feedback to backend
+  const message = document.getElementById("feedback-message")?.value || "";
+  const email = document.getElementById("feedback-email")?.value || "";
+  submitPollenateFeedback(0, message, email);
   closeFeedbackModal();
+  replaceFeedbackWithThanks();
   showToast("Thank you for your feedback!");
 });
 

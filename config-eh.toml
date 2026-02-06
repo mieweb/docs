@@ -33,6 +33,11 @@ defaultContentLanguageInSubdir=false
     enabled = true
     apiUrl = "/api/ai-assistant"
   
+  # Pollenate.dev feedback configuration
+  [params.pollenate]
+    inboxKey = "docs-enterprise-health-com"
+    apiKey = "pk_live_8c07d5de32707f3fe12e12368f8d4c3008d017e437d3518ef05fe2e8842c1bbd"
+  
   # Footer configuration
   [params.footer]
     description = "Enterprise Health is the leading AI-enabled, cloud-based occupational health software platform, helping organizations manage employee health, safety, and compliance."

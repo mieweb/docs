@@ -1,12 +1,15 @@
 {{- /* Feedback/Call to action section */}}
-<div class="border-border mt-12 border-t pt-8">
+<div class="border-border mt-12 border-t pt-8"
+  data-pollenate-inbox="{{ .Site.Params.pollenate.inboxKey }}"
+  data-pollenate-api="{{ .Site.Params.pollenate.apiKey }}"
+>
   <div class="card p-6">
     <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <h2 class="text-foreground text-base font-semibold">Was this page helpful?</h2>
         <p class="text-muted-foreground mt-1 text-sm">Let us know how we can improve this documentation.</p>
       </div>
-      <div class="flex items-center gap-2">
+      <div id="feedback-buttons" class="flex items-center gap-2">
         <button
           class="btn-feedback inline-flex btn btn-secondary btn-sm"
           data-helpful="true"

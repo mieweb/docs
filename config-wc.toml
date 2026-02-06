@@ -33,6 +33,11 @@ defaultContentLanguageInSubdir=false
     enabled = true
     apiUrl = "/api/ai-assistant"
   
+  # Pollenate.dev feedback configuration
+  [params.pollenate]
+    inboxKey = "docs-webchartnow-com"
+    apiKey = "pk_live_aa53b572d807c96df5253d6abeb57cd581a04cd9ad205b7aa482293ca2f38066"
+  
   # Footer configuration
   [params.footer]
     description = "WebChart is the flagship platform that powers a robust clinical EHR, serving as the foundation for a variety of clinical applications."
