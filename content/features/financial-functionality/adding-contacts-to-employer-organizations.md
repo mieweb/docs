@@ -1,8 +1,8 @@
 ---
 id: '1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 title: 'Adding contacts to employer organizations'
-date: '2025-02-25T16:23:06.911Z'
-version: 67
+date: '2026-02-09T18:55:10.269Z'
+version: 89
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -12,24 +12,40 @@ wikigdrive: 'v2.15.30'
 ---
 Users must have permission to be able to Manage Contacts to successfully be able to add contacts to employer organization charts.
 
-![](./adding-contacts-to-employer-organizations.assets/feff827d19909973400a5eeb651d058a.png)
+![](./adding-contacts-to-employer-organizations.assets/566ae07725140c3d6becbc1da463d76e.png)
 
-Users must also have permission to the EO partition. Users who are restricted from the system's EO partition, will not be able to add contacts to EO charts.
+Users must also have permission to the existing EO partition within the system. Users who are restricted from the system's EO partition, will not be able to add or relate contacts to EO charts.
 
-![](./adding-contacts-to-employer-organizations.assets/7facad7e31ce0c374fa541caa1241c33.png)
+![](./adding-contacts-to-employer-organizations.assets/b96eb62c0fd5147f0169a567a453615b.png)
 
-### Adding a contact to an EO chart
+### Relating an existing contact chart to an EO chart
 
-Navigate to the Overview (EO) tab of an [employer organization](finding-employer-organizations.md) chart.
+Navigate to the Overview (EO) tab of an [employer organization](finding-employer-organizations.md) chart.  In the *Contacts* section, select the **+** icon at the far right of its section.
 
-In the *Contacts* section, select the **Add New Contact** link.  
-![](./adding-contacts-to-employer-organizations.assets/a6735fd85a5d1c1c422dc5f9567ccfd3.png)
+![](./adding-contacts-to-employer-organizations.assets/0629640569c331cf995f21888221461a.png)
 
-Enter the Last Name, First Name, and Contact Type, Email, Phone and Start Date.
+The **Add Relationships** pop-up window will allow you to select a contact relationship type and search for an existing contact chart(s) to link to the EO chart.  More than one existing contact chart can be related from this pop-up, and the selected relationship type will apply to them.
 
-![](./adding-contacts-to-employer-organizations.assets/b52bc2c58fe894c37a87ef56a9d46a08.png)
+![](./adding-contacts-to-employer-organizations.assets/bb9b545af5f30c789c7a9265a63e6459.png)
 
-Select the **Add New** button when all known information regarding the contact has been entered.
+* Relationship Type: select the specific contact type to link contact chart(s) as to this EO
+* Add Charts: use the auto-complete to search and select existing contact chart(s) to relate to the EO
 
-The user is redirected to the *Overview (Contact)* tab in the Contact chart. The Contact chart displays contact information and the organizations associated with the contact. Users can return to the Employer Organization by clicking on the employer organization name under the *Organization* section.
+### Adding/Registering a new contact chart to the system and relating it to EO chart
+
+Navigate to the Overview (EO) tab of an [employer organization](finding-employer-organizations.md) chart.  In the *Contacts* section, select the **+** icon at the far right of its section.
+
+![](./adding-contacts-to-employer-organizations.assets/0629640569c331cf995f21888221461a.png)
+
+The **Add Relationships** pop-up window will allow you to manually register & add a new contact chart to the system and relate it to the EO chart.  Click the *Add New Contact* button.
+
+![](./adding-contacts-to-employer-organizations.assets/255a8bc3d61555d68ec6952b472695be.png)
+
+The **Add New Contact** window will display.  Enter the Last Name, First Name, and Contact Type, Email, Phone and any applicable dates needed.
+
+![](./adding-contacts-to-employer-organizations.assets/cf3605d6a6f0c605ad785553b0acd46c.png)
+
+Click the **Add New** button when all known information regarding the contact has been entered.
+
+The user is redirected to the *Overview (Contact)* tab of the newly registered/created Contact chart. The Contact chart displays contact information and the organizations associated with the contact. Users can return to the Employer Organization by clicking on the employer organization name under the *Organization* section.
 ![](./adding-contacts-to-employer-organizations.assets/5d970400bc6425a965362f3598e7b672.png)
