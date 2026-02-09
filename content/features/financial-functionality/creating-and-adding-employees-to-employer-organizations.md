@@ -1,31 +1,47 @@
 ---
 id: '1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
 title: 'Creating and adding employees to employer organizations'
-date: '2021-02-18T16:06:30.420Z'
-version: 38
-lastAuthor: ''
+date: '2026-02-09T18:56:02.329Z'
+version: 67
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
-  - '../e-chart/editing-demographics.md'
 source: 'https://drive.google.com/open?id=1CAZjCsB94t6Ygi1zrtOPb4q7Um23HyMO-rx7zW8T9BQ'
 wikigdrive: 'v2.15.30'
 ---
-Typically, employees are added to employer organizations automatically based on information from human resources systems. However, they can also be added manually.
+Typically, employee charts are created and related to employer organizations automatically based on information from human resources systems. However, an employee chart can also be registered manually to the system and related to the EO chart you are working in.
 
-When creating and adding employees to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient chart for the employee and the process is completed from the patient demographics screen.
+When creating and adding employee charts to employer organizations, an employee's basic information is entered within the employer organization. Then, the system creates a new patient/employee chart for the employee and the process is completed from the patient demographics screen.
 
-1. [Find the employer organization](finding-employer-organizations.md) to which to add an employee.
-2. Select the <strong>Admin (EO/PO)</strong> tab. A menu appears. From the menu, select <strong>Employees</strong>. The system displays a list of employees of the employer organization.
+[Find the employer organization](finding-employer-organizations.md) chart and get into the EO chart, to which to relate an employee chart to.
 
-    ![](./creating-and-adding-employees-to-employer-organizations.assets/d07ec75a04f8d7e5c82f5f8ff9b8dee4.png)
+Select the **Admin (EO/PO)** tab. A menu appears. From the menu, select **Employees**.
 
-    ![](./creating-and-adding-employees-to-employer-organizations.assets/8559348c92dd2527fe03002c62325c61.png)
-3. At the right, select <strong>Add New Employee</strong>. The <em>Enter Information</em> page appears.
+![](./creating-and-adding-employees-to-employer-organizations.assets/89539ec6674bd0484b0d6f11fe7b9c4c.png)
 
-    ![](./creating-and-adding-employees-to-employer-organizations.assets/2e30635865c6d3532f242a9295a116d3.png)
-4. {info }  
-    The Social Security Number and email address are optional.{/info}
-5. If the employer organization includes partitions, in the <em>Partition</em> field, select <strong>the appropriate partition</strong> in which the employee's patient chart will be created.
-6. In the <em>Birth Date</em> field, type in the <strong>Month</strong>, <strong>Day</strong>, and <strong>Year</strong> fields or select <strong>Calendar</strong> to select the employee's birth date from a calendar.
-7. Select the <strong>Add New</strong> button. The patient chart demographics screen appears. See [Editing Demographics](../e-chart/editing-demographics.md).
+The system displays a list of employees currently related to the employer organization.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/709179f5526f93c4d3c5ac47f43af30d.png)
+
+At the right of the **Employees** section, click the **+** icon to add a relationship to the employer org chart.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/85612ff105d3e59a7a8c08c37243daa6.png)
+
+The **Add Relationships** pop-up window displays.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/0cc88f1ec8d54da6beb7cd1a7000522c.png)
+
+If you cannot find an existing employee chart to link to the EO chart (using the provided auto-complete field), you can utilize the Add New Employee button within the same pop-up.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/49daf7dad583d2e9a6616d241d483b5e.png)
+
+This will allow you to manually register a new employee chart to the system, which will then relate it to this EO chart.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/3ca09e37cbce2ef4acd9de0a9d3dd90e.png)
+
+After keying in the demographic information (required is Last Name, First Name & Birth Date), click the ADD NEW button.  That will register the chart to the system, will relate the employee chart to the EO chart.
+
+The user is redirected to the *Demographics* tab of the newly registered/created employee chart. The chart displays demographics and the organization associated with the employee. Users can return to the Employer Organization by clicking on the employer name in the dark grey patient header.
+
+![](./creating-and-adding-employees-to-employer-organizations.assets/aff5296edfa6a5834b0b7a046ea590ac.png)
