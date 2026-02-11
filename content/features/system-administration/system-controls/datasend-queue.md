@@ -1,8 +1,8 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2025-12-22T16:13:02.169Z'
-version: 1046
+date: '2026-02-10T20:07:08.136Z'
+version: 1062
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -245,32 +245,3 @@ Individual document properties will also show the routes and status, but will no
 ![](./datasend-queue.assets/9c71bdf52ded788f395d4bae5067f557.png)
 
 ![](./datasend-queue.assets/a31e49197d1e59854fa24dda1c7972dc.png)
-
-## LMS Quiz
-
-1. Is it possible to restrict the Datasend Queue tab in Control Panel to specific security roles? (Y/N)  <strong>NO</strong>.
-2. All routes in the Completed/Acknowledged queue were sent successfully. (True/False)  <strong>FALSE</strong>
-3. Why would a user use the Datasend Queue? (pick all that apply) (<strong>b, c, d, f)</strong>
-    * To check for print jobs
-    * Check to see if datasend is running
-    * Determine if an interface is working
-    * To view the HL7 message
-    * Check the log file
-    * Deactivate a route
-    * All of the above
-4. Abby at the Lab calls and says she hasn't received any orders from the Client in two weeks. How can you troubleshoot this? <strong>(c, d)</strong>
-    * Call the Help Desk
-    * Have the Lab call the Client
-    * Check the Pending and Error Routes in the Datasend Queue to see if there is any helpful information
-    * Check specific doc ids > properties for the route information and troubleshoot based on your findings
-    * None of the above
-5. What needs to be enabled to view the raw HL7 message in the Datasend Queue? <strong>(d)</strong>
-    * Change the default to View All
-    * Change the security setting ‘View HL7' for only the individuals who need access
-    * Change the My Setting ‘Document View Format' to PDF
-    * None of the above
-6. How does a Datasend route primarily get created? <strong>(a)</strong>
-    * By an Auto Route trigger
-    * From an inbound interface
-    * By clicking the 'Add Route' link in Datasend Queue
-    * Magic
