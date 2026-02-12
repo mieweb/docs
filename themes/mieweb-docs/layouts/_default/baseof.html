@@ -166,6 +166,18 @@
     window.BaseURL = "{{ .Site.BaseURL }}";
     window.BrandCode = "{{ .Site.Params.Brand.code }}";
     
+    // Early redirect: #search=... → ?q=... (before page renders)
+    (function() {
+      var hash = window.location.hash;
+      if (hash.indexOf('#search=') === 0) {
+        var query = decodeURIComponent(hash.substring(8));
+        var url = new URL(window.location.href);
+        url.hash = '';
+        url.searchParams.set('q', query);
+        window.location.replace(url.toString());
+      }
+    })();
+    
     // Theme detection
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.setAttribute('data-theme', 'dark');
