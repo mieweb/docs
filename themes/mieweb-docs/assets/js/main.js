@@ -494,6 +494,24 @@ const searchResultTemplate = document.getElementById("search-result-template");
 let searchIndex = null;
 let searchDocs = [];
 let selectedIndex = -1;
+let searchIndexLoading = false;
+
+function showSearchSkeleton() {
+  if (!searchResults) return;
+  const skeletonCount = 5;
+  let html = "";
+  for (let i = 0; i < skeletonCount; i++) {
+    html += `
+      <div class="flex flex-col gap-1 rounded-lg px-3 py-3 animate-pulse">
+        <div class="flex items-center gap-2">
+          <div class="h-4 w-4 rounded bg-muted flex-shrink-0"></div>
+          <div class="h-4 rounded bg-muted" style="width: ${60 + Math.random() * 30}%"></div>
+        </div>
+        <div class="h-3 rounded bg-muted/60 mt-1" style="width: ${70 + Math.random() * 25}%"></div>
+      </div>`;
+  }
+  searchResults.innerHTML = html;
+}
 
 function openSearchModal() {
   searchModal?.classList.remove("hidden");
@@ -517,6 +535,13 @@ function closeSearchModal() {
     `;
   }
   selectedIndex = -1;
+
+  // Clean up ?q= from URL when modal is closed
+  const url = new URL(window.location.href);
+  if (url.searchParams.has("q")) {
+    url.searchParams.delete("q");
+    window.history.replaceState({}, "", url.toString());
+  }
 }
 
 searchTrigger?.addEventListener("click", openSearchModal);
@@ -570,38 +595,70 @@ function updateSelectedResult(results) {
   });
 }
 
-// Load search index
+// Load search index (non-blocking: yields to UI between chunks)
 async function loadSearchIndex() {
   if (searchIndex) return;
+  if (searchIndexLoading) {
+    // Already loading — wait for it to finish
+    return new Promise((resolve) => {
+      const check = setInterval(() => {
+        if (searchIndex || !searchIndexLoading) {
+          clearInterval(check);
+          resolve();
+        }
+      }, 50);
+    });
+  }
+  searchIndexLoading = true;
 
   try {
     const response = await fetch(`${window.BaseURL}search.json`);
     searchDocs = await response.json();
 
-    searchIndex = lunr(function () {
-      this.ref("href");
-      this.field("title", { boost: 10 });
-      this.field("content");
+    // Build lunr index in chunks to avoid blocking the UI thread
+    const builder = new lunr.Builder();
+    builder.ref("href");
+    builder.field("title", { boost: 10 });
+    builder.field("content");
 
-      searchDocs.forEach((doc) => {
-        this.add(doc);
-      });
-    });
+    const CHUNK_SIZE = 200;
+    for (let i = 0; i < searchDocs.length; i += CHUNK_SIZE) {
+      const chunk = searchDocs.slice(i, i + CHUNK_SIZE);
+      chunk.forEach((doc) => builder.add(doc));
+      // Yield to the browser so the UI stays responsive
+      if (i + CHUNK_SIZE < searchDocs.length) {
+        await new Promise((r) => setTimeout(r, 0));
+      }
+    }
+
+    searchIndex = builder.build();
   } catch (error) {
     console.error("Failed to load search index:", error);
+  } finally {
+    searchIndexLoading = false;
   }
 }
 
-// Perform search
-function performSearch(query) {
-  if (!searchIndex || !query.trim()) {
-    searchResults.innerHTML = `
-      <div class="px-2 py-8 text-center text-sm text-muted-foreground">
-        <p>Start typing to search...</p>
-      </div>
-    `;
+// Perform search (async — shows skeleton while index loads)
+async function performSearch(query) {
+  if (!query || !query.trim()) {
+    if (searchResults) {
+      searchResults.innerHTML = `
+        <div class="px-2 py-8 text-center text-sm text-muted-foreground">
+          <p>Start typing to search...</p>
+        </div>
+      `;
+    }
     return;
   }
+
+  // Show skeleton immediately if index isn't ready yet
+  if (!searchIndex) {
+    showSearchSkeleton();
+    await loadSearchIndex();
+  }
+
+  if (!searchIndex) return; // Still failed
 
   const results = searchIndex.search(query + "*");
   selectedIndex = -1;
@@ -648,6 +705,46 @@ searchInput?.addEventListener("input", (e) => {
 // Load search index when search modal opens
 searchTrigger?.addEventListener("click", loadSearchIndex);
 searchTriggerDesktop?.addEventListener("click", loadSearchIndex);
+
+// ============================================
+// URL-driven Search (?q= and #search=)
+// ============================================
+(function initUrlSearch() {
+  // Redirect #search=... to ?q=... for SEO-friendly URLs
+  const hash = window.location.hash;
+  if (hash.startsWith("#search=")) {
+    const query = decodeURIComponent(hash.substring("#search=".length));
+    const url = new URL(window.location.href);
+    url.hash = "";
+    url.searchParams.set("q", query);
+    window.location.replace(url.toString());
+    return; // Stop — page will reload with ?q=
+  }
+
+  // Open search modal with ?q= query on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  const queryParam = urlParams.get("q");
+  if (queryParam && searchInput) {
+    const runSearch = async () => {
+      // Show modal + query text + skeleton instantly (no waiting)
+      openSearchModal();
+      searchInput.value = queryParam;
+      showSearchSkeleton();
+      // Now load index in background and run search
+      await loadSearchIndex();
+      // Only search if the user hasn't changed the input meanwhile
+      if (searchInput.value === queryParam) {
+        performSearch(queryParam);
+      }
+    };
+    // lunr.js is loaded with defer, so it may not be ready yet
+    if (typeof lunr !== "undefined") {
+      runSearch();
+    } else {
+      window.addEventListener("load", runSearch);
+    }
+  }
+})();
 
 // ============================================
 // Image Lightbox
