@@ -9,6 +9,8 @@ It is generated from Google Drive. [Documentation Home folder](https://drive.goo
 
 If your are a non-techie looking to contribute to documentation, best use the website and author in Google Drive and make recommendations there.
 
+> **Note:** If you encounter issues with WikiGDrive commits failing due to synchronization problems, see [WIKIGDRIVE_SYNC.md](WIKIGDRIVE_SYNC.md) for solutions.
+
 # Overview
 
 This git repo contains the history of documentation for MIE's WebChart based products for public consumption. Its purpose is four fold:

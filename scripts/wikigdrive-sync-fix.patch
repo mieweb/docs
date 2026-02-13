@@ -1,0 +1,57 @@
+--- a/src/git/GitScanner.ts
++++ b/src/git/GitScanner.ts
+@@ -349,6 +349,30 @@ export class GitScanner {
+     } catch (err) {
+       if (err.message.indexOf('Updates were rejected because the remote contains work') > -1 ||
+         err.message.indexOf('Updates were rejected because a pushed branch tip is behind its remote') > -1) {
++        
++        // Check if there are uncommitted changes
++        let stashed = false;
++        try {
++          const { stdout: statusOutput } = await this.exec('git status --porcelain', { skipLogger: true });
++          if (statusOutput.trim().length > 0) {
++            this.logger.info('Detected uncommitted changes, stashing before rebase', { filename: __filename });
++            await this.exec('git stash push -m "WikiGDrive: Auto-stash before sync"');
++            stashed = true;
++          }
++        } catch (stashErr) {
++          this.logger.error('Failed to stash changes', { filename: __filename });
++          throw new Error('Cannot sync: uncommitted changes detected and stash failed. Please commit or stash your changes manually.');
++        }
++        
+         await this.exec(`git fetch origin ${remoteBranch}`, {
+           env: {
+             GIT_SSH_COMMAND: sshParams?.privateKeyFile ? `ssh -i ${sanitize(sshParams.privateKeyFile)} -o StrictHostKeyChecking=no -o IdentitiesOnly=yes` : ''
+@@ -367,10 +391,33 @@ export class GitScanner {
+         } catch (err) {
+           await this.exec('git rebase --abort', { ignoreError: true });
++          
++          // Try to restore stashed changes even if rebase failed
++          if (stashed) {
++            try {
++              await this.exec('git stash pop', { ignoreError: true });
++            } catch (popErr) {
++              this.logger.error('Failed to restore stashed changes after rebase failure', { filename: __filename });
++            }
++          }
++          
+           if (err.message.indexOf('Resolve all conflicts manually') > -1) {
+             this.logger.error('Conflict', { filename: __filename });
++            throw new Error('Sync failed due to conflicts. Please use "Reset and Pull" to resolve manually.');
+           }
+           throw err;
+         }
++        
++        // Restore stashed changes after successful rebase
++        if (stashed) {
++          try {
++            this.logger.info('Restoring stashed changes', { filename: __filename });
++            await this.exec('git stash pop');
++          } catch (popErr) {
++            this.logger.error('Failed to restore stashed changes after rebase', { filename: __filename });
++            throw new Error('Rebase successful but failed to restore your changes. Check "git stash list" to recover them.');
++          }
++        }
+ 
+         await this.exec(`git push origin main:${remoteBranch}`, {
+           env: {
