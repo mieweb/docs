@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2026-02-04T17:06:19.564Z'
-version: 1967
+version: 1973
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links:

@@ -896,7 +896,10 @@ wikigdrive: 'v2.15.30'
       * [System Configuration](features/system-configuration.md)
       * [Task Management](features/task-management.md)
    * mie
+      * [Doug's MacTools you need to install as a Windows person](mie/doug-s-mactools-you-need-to-install-as-a-windows-person.md)
       * [Guidance on making a short for MIE application for hire](mie/guidance-on-making-a-short-for-mie-application-for-hire.md)
+      * [MIE Internship public](mie/mie-internship-public.md)
+      * [The MIE Way of Working - Not Scrum (and It Is Not Not Scrum)](mie/the-mie-way-of-working-not-scrum-and-it-is-not-not-scrum.md)
    * Programs
       * Compliance Programs
          * Medical Surveillance
