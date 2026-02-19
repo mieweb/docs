@@ -1,21 +1,22 @@
 ---
-id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-title: 'Email Reminders from System'
-date: '2026-02-19T12:36:03.619Z'
+id: "1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw"
+title: "Email Reminders from System"
+date: "2026-02-19T12:36:03.619Z"
 version: 366
-lastAuthor: 'anichols'
-mimeType: 'text/x-markdown'
+lastAuthor: "anichols"
+mimeType: "text/x-markdown"
 links:
-  - 'enabled-and-disabled-scheduled-jobs.md'
-  - '../../scheduling/scheduler-views.md'
-  - '../../scheduling/adding-an-appointment-using-the-wizard-tab.md'
-  - '../../scheduling/waiting-list-tab.md'
-  - '../../reports/appointment-report.md'
-  - '../../reports/documents-report-super-document-type-search.md'
-  - 'https://mie.talentlms.com/shared/start/key:LAZIDNHR'
-source: 'https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
-wikigdrive: 'v2.15.30'
+  - "enabled-and-disabled-scheduled-jobs.md"
+  - "../../scheduling/scheduler-views.md"
+  - "../../scheduling/adding-an-appointment-using-the-wizard-tab.md"
+  - "../../scheduling/waiting-list-tab.md"
+  - "../../reports/appointment-report.md"
+  - "../../reports/documents-report-super-document-type-search.md"
+  - "https://mie.talentlms.com/shared/start/key:LAZIDNHR"
+source: "https://drive.google.com/open?id=1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw"
+wikigdrive: "v2.15.30"
 ---
+
 The ability to email patients directly from the {{% system-name %}} supports timely communication, improves engagement, and helps ensure patients stay informed about their care. It enables organizations to send reminders for upcoming appointments, notifications about overdue visits or items, and other important health-related updates. This functionality helps reduce missed appointments, supports continuity of care, and strengthens overall patient outcomes.
 
 Users must have security setting of *Send Email to Patient* set to Yes in order to utilize the email functionality in {{% system-name %}}.
@@ -24,7 +25,7 @@ Users must have security setting of *Send Email to Patient* set to Yes in orde
 
 ## Scheduled Jobs of Automated Emails
 
-Scheduled Jobs (within the Control Panel) houses several standard automated jobs that will routinely generate and send an email based on specific criteria.  Custom automated scheduled jobs, for other types of routine email reminders needed, can also be configured for your system.
+Scheduled Jobs (within the Control Panel) houses several standard automated jobs that will routinely generate and send an email based on specific criteria. Custom automated scheduled jobs, for other types of routine email reminders needed, can also be configured for your system.
 
 For more information, visit [Enabled & Disabled Scheduled Jobs](enabled-and-disabled-scheduled-jobs.md).
 
@@ -38,7 +39,7 @@ Sending Emails to patient charts are available in many functions and screens wit
 
 ### Template Selection
 
-Various email templates (PAT email layouts) are available for selection when generating an email from a chart.  NOTE: When/if generating an email regarding an appointment, those email template choices are different.
+Various email templates (PAT email layouts) are available for selection when generating an email from a chart. NOTE: When/if generating an email regarding an appointment, those email template choices are different.
 
 ### Comments Only Email Template Selection
 
@@ -46,7 +47,7 @@ The email template available from the email link in the Quick Links portlet of p
 
 ![](./email-reminders-from-system.assets/42b51f033ba7bf6ccf0dec833be67079.png)
 
-Comment Only layout is meant to be used when no other layouts are available. If all email correspondence is templated or other custom template choices appear here in the drop-down and the basic *Comments Only* template is not needed and/or not wanted they can be removed via the system setting named *Offer Comment Only Email Template*. Set system setting to disabled to remove the *Comments Only* email template choice from showing up.
+Comment Only layout is meant to be used when no other layouts are available. If all email correspondence is templated or other custom template choices appear here in the drop-down and the basic *Comments Only* template is not needed and/or not wanted they can be removed via the system setting named _Offer Comment Only Email Template_. Set system setting to disabled to remove the *Comments Only* email template choice from showing up.
 
 ![](./email-reminders-from-system.assets/cc16a03262f8ada9792f7db14a790683.png)
 
@@ -62,11 +63,11 @@ MIE can program any other email layout (template) you wish that include pre-temp
 
 ![](./email-reminders-from-system.assets/0d3899fe57b7a190ef5090a13d0a7031.png)
 
-* <strong>Subject:</strong> Type in the subject line for the email. Typing in a subject will also be searchable to find specific sent/stored email documents when using the Documents Report. The subject (of an email) cannot be edited (in the document properties) after the email is sent and stored as a document in {{% system-name %}} .
-* <strong>Additional Recipients:</strong> if the chart has any additional email addresses captured, they may appear here as well to send the email to.  Other users (with valid email addresses) can be included here as an additional recipient if wish.
-* <strong>Exclude employee email:</strong> By default, the email would be sent to the chart's primary email address in their demographics.  If you need to send the email regarding the chart, but not send to the employee/chart/patient this is being generated about, you can checkmark to exclude employee/patient email.  The email will still be stored within the chart.
-* <strong>Carbon Copy Email:</strong> Can type in the first or last name of a user within {{% system-name %}} and this email will be sent to the  {{% system-name %}<em>}</em> user also. It will auto-complete {{% system-name %}} users for you to choose from. You <em>cannot</em> free type in an email address. It has to be selected from the auto-complete of users in your system. If a user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select. You have to select a user from the auto-complete and the user's email has to be a user that's in your system, otherwise you will get an error. (Meaning, you cannot carbon copy the email to an outside provider or someone outside your practice. Carbon Copy emailing can only be done to users within your practice boundaries). There is also a system setting <em>WebChart</em>, <em>Email</em>, <em>Include Chart Types</em> that your MIE Deployment Consultant can set the Chart Type ID# to have those charts (chart types) also available in the auto-complete of choices to email to and they don't necessarily need to be entered in as users.
-* <strong>Comments:</strong> Type in any comments. These comments will appear in the email to any/all recipients.
+- <strong>Subject:</strong> Type in the subject line for the email. Typing in a subject will also be searchable to find specific sent/stored email documents when using the Documents Report. The subject (of an email) cannot be edited (in the document properties) after the email is sent and stored as a document in {{% system-name %}} .
+- <strong>Additional Recipients:</strong> if the chart has any additional email addresses captured, they may appear here as well to send the email to. Other users (with valid email addresses) can be included here as an additional recipient if wish.
+- <strong>Exclude employee email:</strong> By default, the email would be sent to the chart's primary email address in their demographics. If you need to send the email regarding the chart, but not send to the employee/chart/patient this is being generated about, you can checkmark to exclude employee/patient email. The email will still be stored within the chart.
+- <strong>Carbon Copy Email:</strong> Can type in the first or last name of a user within {{% system-name %}} and this email will be sent to the  {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You <em>cannot</em> free type in an email address. It has to be selected from the auto-complete of users in your system. If a user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select. You have to select a user from the auto-complete and the user's email has to be a user that's in your system, otherwise you will get an error. (Meaning, you cannot carbon copy the email to an outside provider or someone outside your practice. Carbon Copy emailing can only be done to users within your practice boundaries). There is also a system setting <em>WebChart</em>, <em>Email</em>, <em>Include Chart Types</em> that your MIE Deployment Consultant can set the Chart Type ID# to have those charts (chart types) also available in the auto-complete of choices to email to and they don't necessarily need to be entered in as users.
+- <strong>Comments:</strong> Type in any comments. These comments will appear in the email to any/all recipients.
 
 To see a preview of the email that will be sent, click the Preview button. It will open up a separate window showing you what will be sent in the email.
 
@@ -88,17 +89,17 @@ When the Email link is selected, an Email Options window is opened on a new tab.
 
 ![](./email-reminders-from-system.assets/9be048e1709d7147e06f50e1b7ab71a5.png)
 
-* <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients.
-* <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
-* <strong>Email Template:</strong> Select any pre-templated email verbiage/layouts that your system has set up related to appointments (APT). These are different email templates (related to appointment needs) that are different templates from the chart email method.
-* <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
-* <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
-* <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is setup with something that has ‘noreply' in it, it will not request an RSVP.
-* <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature.  NOTE: This checkbox only displays if system setting <em>Allow CC Emails</em> is enabled.
-* <strong>Carbon Copy Email:</strong>
-    * <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
-    * <strong>Users to email:</strong> NOTE: This autocomplete CC section only displays if system setting <em>Allow CC Emails</em> is enabled. You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
-* <strong>Patients to Email:</strong> It will display the patients that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patients with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
+- <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients.
+- <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
+- <strong>Email Template:</strong> Select any pre-templated email verbiage/layouts that your system has set up related to appointments (APT). These are different email templates (related to appointment needs) that are different templates from the chart email method.
+- <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
+- <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
+- <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is setup with something that has ‘noreply' in it, it will not request an RSVP.
+- <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature. NOTE: This checkbox only displays if system setting <em>Allow CC Emails</em> is enabled.
+- <strong>Carbon Copy Email:</strong>
+  - <strong>Email Template:</strong> MIE can set up different email layouts (information you want to send in mass). This is where you would select a specific email template to be sent to all the patients. Default will just show your subject & comments as typed above.
+  - <strong>Users to email:</strong> NOTE: This autocomplete CC section only displays if system setting <em>Allow CC Emails</em> is enabled. You can type in the first or last name of a user within {{% system-name %}} & this email will be sent to the {{% system-name %}} user also. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+- <strong>Patients to Email:</strong> It will display the patients that have an email address entered into their demographics tab and be selected as a check-mark meaning this email will be sent to those patients that have valid email addresses entered in their demographics tab. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patients with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
 
 See other help documentation named [Scheduler Views](../../scheduling/scheduler-views.md) for specifics on how to email from the scheduler views.
 
@@ -126,9 +127,9 @@ Some practices gather and enter a patient's email from the patient forms they fi
 
 ### Email Templates Regarding Appointments
 
-* <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients. This subject line is also a searchable field to find specific email documents using the Doc Reports tab. This cannot be edited after the email is sent and stored as a document in {{% system-name %}} .
-* <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
-* <strong>Email Template:</strong> Select any pre-templated email verbiage/layouts that your system has set up. The email template available from the email link for patients regarding their specific appointments is the email template of <em>Default</em>. This means the email template will include the subject, comments, and some pre-templated text information regarding the appointment. This includes the <strong>appointment date, appointment time, appointment location,</strong> doesn't have any other text in the email except what you will fill out for the Subject, and Comments. That is all that will send in an email to the patient.
+- <strong>Subject:</strong> Type in the subject. This will be in the same <em>subject</em> line of every email sent to all patients. This subject line is also a searchable field to find specific email documents using the Doc Reports tab. This cannot be edited after the email is sent and stored as a document in {{% system-name %}} .
+- <strong>Comments:</strong> Type in any comments. This will be the same <em>comments</em> in every email sent to all patients.
+- <strong>Email Template:</strong> Select any pre-templated email verbiage/layouts that your system has set up. The email template available from the email link for patients regarding their specific appointments is the email template of <em>Default</em>. This means the email template will include the subject, comments, and some pre-templated text information regarding the appointment. This includes the <strong>appointment date, appointment time, appointment location,</strong> doesn't have any other text in the email except what you will fill out for the Subject, and Comments. That is all that will send in an email to the patient.
 
 The email template that you default to (the template that the drop-down is defaulted to) is a user's (MY SETTINGS) preference. You can select the default appointment email template/layout you wish to always default to.
 
@@ -156,15 +157,15 @@ Click the preview link to view a preview of the email contents that will be sent
 
 ![](./email-reminders-from-system.assets/c1d1bcb04a445bcec40e3eabe2b8a8c8.png)
 
-* <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
-* <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
-* <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is set up with something that has ‘noreply' in it, it will not request an RSVP. It will otherwise.
-* <strong>Don't Email Patient:</strong> that will leave the patient off the recipient list but still document it in their chart. This is a way to email a supervisor or  {{% system-name %}} user about an employee or patient but <strong>not</strong> have it go to the employee/patient's email inbox. They do want it to document it in the employee/patient's chart though.
-* <strong>To Email:</strong> this will email it to the other  {{% system-name %}} users. This field is similar to the CC Email field except the user's end up on the "To" line in the email instead of the CC line. This is used in conjunction with the <em>Don't Email Patients</em> box.
-* <strong>Carbon Copy Email:</strong>
-    * <strong>Users to email:</strong> NOTE: This autocomplete CC area only displays if system setting <em>Allow CC Emails</em> is enabled.  Can type in the first or last name of a user within  {{% system-name %}} & this email will be sent to the  {{% system-name %}} user also. It will auto-complete  {{% system-name %}} users for you to choose from. You cannot free type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their  {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
-    * <strong>Patients to Email:</strong> Automatically lists all patients in the specific screen/feature/module you are in when you clicked Email. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patients with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
-* <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature. NOTE: This checkbox only displays if system setting <em>Allow CC Emails</em> is enabled.
+- <strong>Include Appt Invite (.ics):</strong> This is basically a meeting request stored in Outlook. It can also be used in other calendar programs like Lotus and Google calendar. It copies this appointment into the patient's calendar program if they use such calendar programs.
+- <strong>Make appt invite ‘Public':</strong> Uncheck-marked means the appointment goes on their calendar, but to anyone else that can access their calendar, the appointment is marked as <em>private</em>. If this is check-marked to make appt public, then it saves the appointment in the patient's calendar program (if they use such calendar programs) and they can see the appointment, and anyone else that can access their calendar will be able to see the appointment specifics.
+- <strong>Send Me RSVP:</strong> when emailing from the scheduler, the attached ICS (meeting request) has the option to request an RSVP. If the auto reply email setting is set up with something that has ‘noreply' in it, it will not request an RSVP. It will otherwise.
+- <strong>Don't Email Patient:</strong> that will leave the patient off the recipient list but still document it in their chart. This is a way to email a supervisor or  {{% system-name %}} user about an employee or patient but <strong>not</strong> have it go to the employee/patient's email inbox. They do want it to document it in the employee/patient's chart though.
+- <strong>To Email:</strong> this will email it to the other  {{% system-name %}} users. This field is similar to the CC Email field except the user's end up on the "To" line in the email instead of the CC line. This is used in conjunction with the <em>Don't Email Patients</em> box.
+- <strong>Carbon Copy Email:</strong>
+  - <strong>Users to email:</strong> NOTE: This autocomplete CC area only displays if system setting <em>Allow CC Emails</em> is enabled. Can type in the first or last name of a user within  {{% system-name %}} & this email will be sent to the  {{% system-name %}} user also. It will auto-complete  {{% system-name %}} users for you to choose from. You cannot free type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their  {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
+  - <strong>Patients to Email:</strong> Automatically lists all patients in the specific screen/feature/module you are in when you clicked Email. You have to checkmark patients you wish to receive the mass email regarding appointments. Or you can use the check all or uncheck all links provided to quickly check-all to receive the email and uncheck-mark those you want to remove from the email reminder being sent. Only patients with email addresses entered in their demographics tab will appear in this list. If a patient doesn't appear on this scheduler email list, then they don't have an email address entered in their demographics tab.
+- <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature. NOTE: This checkbox only displays if system setting <em>Allow CC Emails</em> is enabled.
 
 Click **Send Emails** button when those text fields are completed.
 
@@ -226,7 +227,7 @@ The **Optional Columns** field give you a choice to display the Subject column
 
 ![](./email-reminders-from-system.assets/82e49d50af05eeaa549a4d86be0c7ac2.png)
 
-Many automated scheduled email reminder jobs will omit sending emails to charts marked as *Exclude from Quality Care*.
+Many automated scheduled email reminder jobs will omit sending emails to charts marked as _Exclude from Quality Care_.
 
 ![](./email-reminders-from-system.assets/5979140536dc139ce29bd1e198b02b0a.png)
 
@@ -238,7 +239,7 @@ The main primary email address field for the chart continues to be housed at the
 
 ![](./email-reminders-from-system.assets/39bf912915ccc946c619dd3efe4657ce.png)
 
-However, MIE can add a patient extended field(s) in your system's *Demographics* screen to capture, collect and display an additional email address(es) for a patient/employee chart.
+However, MIE can add a patient extended field(s) in your system's _Demographics_ screen to capture, collect and display an additional email address(es) for a patient/employee chart.
 
 ![](./email-reminders-from-system.assets/f853cbfd7a0e415a9271f31861b1602e.png)
 
@@ -250,7 +251,7 @@ If you have the Deployment Consultant configure a patient extended field(s) in t
 
 ![](./email-reminders-from-system.assets/56d84611da7ef52110d79ff361f026dc.png)
 
-Any patient extended email(s) collected will also display on the Summary dashboard chart tab in the Demographics **portlet** in the Other Data area.  The main primary email address for the chart continues to display at the top of the demographics area.
+Any patient extended email(s) collected will also display on the Summary dashboard chart tab in the Demographics **portlet** in the Other Data area. The main primary email address for the chart continues to display at the top of the demographics area.
 
 ![](./email-reminders-from-system.assets/05b718942eb687ebee396472e9782e11.png)
 
@@ -262,21 +263,21 @@ Any patient extended email(s) collected will display as a **CC** email recipient
 
 ![](./email-reminders-from-system.assets/a71d898f175ef9f10500195488acb7af.png)
 
-History of the patient extended email field data is housed in the Observations chart tab of a chart.  Limiting observation search by Flowsheet *Demographic Data* will display history to that pev field configured in the Demographic Data flowsheet per chart.
+History of the patient extended email field data is housed in the Observations chart tab of a chart. Limiting observation search by Flowsheet _Demographic Data_ will display history to that pev field configured in the Demographic Data flowsheet per chart.
 
 ![](./email-reminders-from-system.assets/62eadffd4bc8cc7d2c0decf354de32bb.png)
 
 ### Configuration Setup for Patient Extended Email Field
 
-Deployment Consultant will set up an observation named pev.personalemail (or custom pev obs name needed) in your system.  Template ID must be set to Patient Extended Data on the observation.  Any additional unique named pev. email obs can additionally be added.
+Deployment Consultant will set up an observation named pev.personalemail (or custom pev obs name needed) in your system. Template ID must be set to Patient Extended Data on the observation. Any additional unique named pev. email obs can additionally be added.
 
 ![](./email-reminders-from-system.assets/5863768c19782d1f8a0ec65304eb4fb3.png)
 
-Deployment Consultant will set the pev observation(s) to be an item in the **Demographic Data** flowsheet.  This will allow capture and collection of the separate email address needed on a patient/chart.
+Deployment Consultant will set the pev observation(s) to be an item in the **Demographic Data** flowsheet. This will allow capture and collection of the separate email address needed on a patient/chart.
 
 ![](./email-reminders-from-system.assets/b432af5c5cc83e5e121a2c9fdea8ca61.png)
 
-Deployment Consultant will set the new email obs name(s) to the system setting **Extended Patient Email Fields**.  The prefix pev. is not to be included as the system setting value, just the remaining portion of the unique obs name.
+Deployment Consultant will set the new email obs name(s) to the system setting **Extended Patient Email Fields**. The prefix pev. is not to be included as the system setting value, just the remaining portion of the unique obs name.
 
 ![](./email-reminders-from-system.assets/fe77f114063ecacc4ada06208ef8bafe.png)
 
@@ -292,4 +293,4 @@ NOTE: Scheduled jobs would need to be updated to include the new pev email obser
 
 To learn more about the Email Reminders from System, follow the link below to the Learning Management System course:
 
-* [Email Templates](https://mie.talentlms.com/shared/start/key:LAZIDNHR)
+- [Email Templates](https://mie.talentlms.com/shared/start/key:LAZIDNHR)
