@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/print-fax-transmit-prescriptions/'
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
 source: 'https://drive.google.com/open?id=1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To access the Meds Tab in a patient's e-chart, click *E-Chart* on the left sidebar menu.
 

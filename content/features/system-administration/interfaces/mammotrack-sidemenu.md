@@ -2,11 +2,11 @@
 id: '1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0'
 title: 'MammoTrack Sidemenu'
 date: '2020-02-27T20:29:25.900Z'
-version: 50
+version: 51
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1mOfwIiH3DXegUa0RmRylPtiButsvAbc_pdbN_90XUH0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Click *MammoTrack* from left sidebar tab. This opens the specific tabs related to mammograms. It shows all data related to patients who have or have had mammograms tracked in the system and their mammogram result.
 

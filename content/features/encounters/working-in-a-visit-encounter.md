@@ -2,7 +2,7 @@
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
 date: '2025-11-10T19:38:35.987Z'
-version: 581
+version: 584
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/encounters/final-summary-encounter-sections/'
   - 'https://mie.talentlms.com/shared/start/key:LABIDNHR'
 source: 'https://drive.google.com/open?id=1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The separate help documentation named [Working in a Legacy Encounter](working-in-a-legacy-encounter.md) and other separate help documentation guides regarding specific sections are also part of a dynamic encounter and covers many sections and functionalities of even a dynamic encounter. This help document will be going over features specific only to the dynamic encounter.
 

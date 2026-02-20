@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The following page defines data and fields that may be imported into MIE systems (WebChart, Enterprise Health) using the Locations Hierarchy CSV API.
 

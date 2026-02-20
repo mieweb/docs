@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1j3qbfN064R2A2dbosT_-JxkZtp7MD5D2aaAEd338yps'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## OpenPM Export Chart Insurance Policies
 

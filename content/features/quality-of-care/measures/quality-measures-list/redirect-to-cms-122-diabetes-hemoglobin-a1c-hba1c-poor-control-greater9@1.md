@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - '../quality-measure-specifications-and-recommended-workflows/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md'
 source: 'https://drive.google.com/open?id=151g4jifrrPULiHsii7Msou2Abnh_becCyjlQf67vhNw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)](../quality-measure-specifications-and-recommended-workflows/cms-122-diabetes-hemoglobin-a1c-hba1c-poor-control-greater9.md)

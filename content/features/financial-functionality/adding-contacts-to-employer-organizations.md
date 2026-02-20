@@ -2,13 +2,13 @@
 id: '1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
 title: 'Adding contacts to employer organizations'
 date: '2026-02-09T18:55:10.269Z'
-version: 89
+version: 92
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
 source: 'https://drive.google.com/open?id=1rRzAtW7BfU-8WHT-qdKZGpojZkxbBuPQAxO4jCEfoFA'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Users must have permission to be able to Manage Contacts to successfully be able to add contacts to employer organization charts.
 

@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1FwypV9LIggTF83AUXioRUfLhtpziIfE164wAE3T6uZk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This page outlines how lab result data is formatted for import using WebChart's Lab Result Data Import tool.
 

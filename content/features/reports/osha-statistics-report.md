@@ -2,14 +2,14 @@
 id: '1y75-zBcAX1xWPT3-GOl3RRm9wqTRdYvFF54JjU5VtLQ'
 title: 'OSHA Statistics Report'
 date: '2024-01-16T15:47:55.490Z'
-version: 240
+version: 241
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.osha.gov/injuryreporting'
   - 'https://www.osha.gov/sites/default/files/osha_ita_api_documentation_revised.pdf'
 source: 'https://drive.google.com/open?id=1y75-zBcAX1xWPT3-GOl3RRm9wqTRdYvFF54JjU5VtLQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## OSHA Statistics Report
 

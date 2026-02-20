@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Before users can import Sibelsound Duo Audiometer test results into {{% system-name %}} they must first create an export file from the Sibelsound Duo Screening Audiometer software. Once the file has been exported from the Sibelsound Duo Screening Audiometer software and saved to the user's local computer, navigate to the Sibelsound Duo Audio Upload Import tool in {{% system-name %}}.
 

@@ -2,12 +2,12 @@
 id: '1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
 title: 'Editing Encounter Dictations'
 date: '2020-03-12T20:59:42.218Z'
-version: 66
+version: 67
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Q7_F7j0LvJVx7OeP1ru9OI-CgM3UCaOVCAxZbLVY_y4'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Log into {{% system-name %}} and click on the left sidebar menu tab called DICTATION.
 

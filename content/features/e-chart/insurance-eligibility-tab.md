@@ -2,12 +2,12 @@
 id: '1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
 title: 'Insurance Eligibility Tab'
 date: '2020-03-09T22:56:39.950Z'
-version: 42
+version: 43
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1glspsHJIbIIwntXYSIJp6TrCbCqMPhsVJY6BWmfe85U'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% system-name %}} can interface with RealMed insurance eligibility to provide real-time insurance eligibility information on a patient chart. Contact your MIE Implementer to inquire about this optional feature and setup.
 

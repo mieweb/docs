@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
 source: 'https://drive.google.com/open?id=1rAmscj43iNpKmNuQPbQOteZhZwD20Mq2pR3_FfAijM8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Within an encounter, there is an HPI (History of Present Illness) section that can be utilized.
 

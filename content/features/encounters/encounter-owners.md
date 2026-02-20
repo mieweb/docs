@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=1h_gT9F-toUuJrJvskcGJwKiGUkUCqkQ8r5p96aydEWM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 For encounter workflows and information (including encounters owners and release of encounters), please see guide [Working in a Visit Encounter](working-in-a-visit-encounter.md).

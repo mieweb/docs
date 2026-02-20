@@ -2,7 +2,7 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2026-01-30T21:29:54.148Z'
-version: 753
+version: 755
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
@@ -90,7 +90,7 @@ links:
   - 'https://hl7.org/fhir/R4/specimen.html'
   - 'https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-specimen.html'
 source: 'https://drive.google.com/open?id=1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 # Supported Resources
 

@@ -10,7 +10,7 @@ links:
   - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'force-multi-factor-authentication-mfa-2fa-user-experience.md'
 source: 'https://drive.google.com/open?id=1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 A One-Time Password (OTP) is an easy way to add an additional level of security to a user's sign-in to the system, using an OTP function to the user's email, without requiring the user to utilize an external device or application. Requiring an OTP (via email instead of a device app) as part of the sign in experience can be enabled in a user's security role using the permission.
 

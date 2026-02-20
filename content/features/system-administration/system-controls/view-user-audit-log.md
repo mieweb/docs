@@ -2,12 +2,12 @@
 id: '1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
 title: 'View User Audit Log'
 date: '2024-10-16T16:20:44.355Z'
-version: 123
+version: 124
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1g2tVujYONeJ_nu9D91-sH1fwBjiDp22e0ToXFFWyAAo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Must have security permission to access the username screen found within Access Control.
 

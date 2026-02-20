@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/'
 source: 'https://drive.google.com/open?id=1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To edit demographics in a chart, the user must have the appropriate security permissions.
 

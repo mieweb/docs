@@ -2,7 +2,7 @@
 id: '19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
 title: 'Review Session - Fax Manager'
 date: '2024-05-21T16:23:14.323Z'
-version: 53
+version: 54
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -17,7 +17,7 @@ links:
   - '../../features/fax-manager/faxing-documents.md'
   - 'https://mieweb.webex.com/mieweb/ldr.php?RCID=512d4a650f5972363795065eb10926cb'
 source: 'https://drive.google.com/open?id=19WO9_gjSofplsd2pn11Y7OiNOIKuyVHk5yumdEaBJHM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Agenda
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/user-provider-and-department-management/'
 source: 'https://drive.google.com/open?id=1yKC2c9EtO3QjCF8EoLF52NjXzXSlSOxQv9_d4cmU7Tc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Must have security permissions to be able to add/edit/delete users
 

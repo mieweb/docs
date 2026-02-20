@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
   - 'https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/'
 source: 'https://drive.google.com/open?id=1bPHrMmurSq75UgvB6JHZ39n2FkPlQGrM9ZGQuhlYy1U'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Add/Upload Word Document to Chart
 

@@ -2,13 +2,13 @@
 id: '1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
 title: 'Basic Initial System Information'
 date: '2025-11-21T17:26:11.464Z'
-version: 282
+version: 286
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/timeout-logout/'
 source: 'https://drive.google.com/open?id=1tg6fw6rjGuTilWgo6MTVXqLV--GlqfvOhERuMQl7Ec8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 We offer a Basic Navigation Overview LMS course in video format. Contact your Deployment Consultant if you would like access to that.  This guide will go over basic initial system information and navigation.  When logging into {{% system-name %}}, you will be set to land on a default page.  Likely, it will be the Quick View sidemenu tab.  However, users can change their default landing page upon login of the system by accessing My Settings in the **Control Panel** and changing the *Default Page* setting.
 

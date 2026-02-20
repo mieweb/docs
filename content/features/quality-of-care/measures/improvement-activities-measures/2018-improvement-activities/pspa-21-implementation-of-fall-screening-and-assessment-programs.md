@@ -2,7 +2,7 @@
 id: '1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo'
 title: 'PSPA 21 - Implementation of Fall Screening and Assessment Programs'
 date: '2020-02-27T20:55:14.900Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1GQU6K0OpGc9Mo9S8Bt6ywQN6s8oJa9E9SbQhoJKnfXo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Activity Weighting**: Medium
 

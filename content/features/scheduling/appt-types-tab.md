@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## About Appt Types tab
 

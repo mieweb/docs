@@ -2,12 +2,12 @@
 id: '1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
 title: 'Discontinue Medications'
 date: '2024-07-18T15:41:56.330Z'
-version: 45
+version: 46
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZCbTAElRjPTfR3q4pdfUWuAZv2ZCYvrESKwyyy5uPTY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Discontinue Medications, Individually
 

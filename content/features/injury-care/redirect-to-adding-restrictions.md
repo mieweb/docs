@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'adding-restrictions.md'
 source: 'https://drive.google.com/open?id=1btidz0jolFlhFoRGvgkZfCtMU8jckK030Vg75qFJ0TY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [Adding Restrictions](adding-restrictions.md)

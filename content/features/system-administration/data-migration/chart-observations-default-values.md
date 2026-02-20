@@ -2,12 +2,12 @@
 id: '1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
 title: 'Chart Observations Default Values'
 date: '2020-02-27T21:04:46.860Z'
-version: 48
+version: 49
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/spreadsheets/d/1m09kcigKY1wYOJzEIdMDj6zS5IP5Me2_L-xK_53aFMY/edit'
 source: 'https://drive.google.com/open?id=1pWG1xFZ_-nRK864dudkGxbyLgAzlfHPsdu2clCou-mM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## What we mean by "default"
 

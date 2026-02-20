@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1gRYfeUHGiLquKk9t2JdT7N9FB4E6usFStodhy2VLLUg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Show Transaction Report tab is located within the sidemenu tab named *Inventory*.
 

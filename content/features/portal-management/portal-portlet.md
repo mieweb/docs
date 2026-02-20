@@ -9,7 +9,7 @@ links:
   - 'portal-activation-code-employee-experience.md'
   - 'https://mie.talentlms.com/unit/view/id:3544'
 source: 'https://drive.google.com/open?id=1VlEta8TcIurRcg2ujZJXH4PUlsrtVtB7KFZpJrUQn_o'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The system can be configured with a portal that utilizes a pickup/activation code method.
 

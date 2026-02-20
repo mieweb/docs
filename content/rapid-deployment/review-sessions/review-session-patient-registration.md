@@ -2,7 +2,7 @@
 id: '1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
 title: 'Review Session - Patient Registration'
 date: '2024-12-18T14:21:50.961Z'
-version: 49
+version: 50
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,7 @@ links:
   - '../../features/patient-registration/medical-record-numbers.md'
   - '../../features/system-administration/system-controls/merging-accounts-charts-in-system.md'
 source: 'https://drive.google.com/open?id=1586jAN5cRvb8QkKeCqlJXpTOuNYTxl5-W2wDl242mg0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Agenda
 

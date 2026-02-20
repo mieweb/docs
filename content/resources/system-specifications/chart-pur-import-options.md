@@ -2,7 +2,7 @@
 id: '1HFEQEZgI72Fl5H3njRaQOgoLYNAIWkZenoyeiwMAR4s'
 title: 'Chart PUR Import Options'
 date: '2022-03-23T13:50:21.681Z'
-version: 39
+version: 40
 lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://drive.google.com/file/d/1KIMrmLjp58wyKxLZEebiQoY6iLPvG4Lw/view?usp=sharing'
   - '../../features/system-administration/data-migration/chart-data-csv-header-options.md'
 source: 'https://drive.google.com/open?id=1HFEQEZgI72Fl5H3njRaQOgoLYNAIWkZenoyeiwMAR4s'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Chart PUR Import Options**
 

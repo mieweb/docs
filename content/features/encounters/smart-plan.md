@@ -18,7 +18,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/quality-of-care/raf-score-risk-adjustment-factor/'
   - 'https://docs.enterprisehealth.com/functions/task-management/task-list/'
 source: 'https://drive.google.com/open?id=1mxVNdAA4bX9JOYJ5SgSun_Ez_hEP0Tt72-PE-vvWshQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Smart Plan is an optional encounter section that is displayed near the top of the Visit Encounter. The Smart Plan is similar to the Symptoms/Diagnosis encounter section, however, Smart Plan is located at the top of the encounter and it is intended to be a combination of both the Assessment and Plan sections. This section is ideal for providers who prefer to drive the encounter based on patient conditions.
 

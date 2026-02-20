@@ -21,7 +21,7 @@ links:
   - 'https://www.w3.org/WAI/WCAG20/errata/'
   - 'https://www.w3.org/WAI/WCAG21/errata/'
 source: 'https://drive.google.com/open?id=186L2b-O-0awWPvb1xIG1afEBFw87pQHqXWItvC2F3wA'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 * [<strong>Voluntary Product Accessibility Template® (VPAT®)	1</strong>](#voluntary-product-accessibility-template-vpat-1)
 * [About This Document	1](#about-this-document-1)

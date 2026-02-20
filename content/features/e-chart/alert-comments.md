@@ -2,7 +2,7 @@
 id: '1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
 title: 'Alert Comments'
 date: '2025-11-07T19:22:53.512Z'
-version: 95
+version: 102
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/delete-move-lock-documents/'
 source: 'https://drive.google.com/open?id=1jFGn402HVgpH5kbNBiv8SjeLXVTEcdfup_IfNmjaD-0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The **Alert Comments** document (WCALERT document type) is found in the [Document Types editor](https://docs.enterprisehealth.com/functions/system-configuration/document-type-tab/) of the  {{% system-name %}} system.  It is an alert comment document you can add to a patient's chart via text method. You can add multiple alert comments to a patient's chart, as needed.
 

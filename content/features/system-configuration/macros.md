@@ -2,12 +2,12 @@
 id: '1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
 title: 'Macros'
 date: '2024-11-12T21:48:33.857Z'
-version: 114
+version: 116
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_4xApJNxtTyXvxJAumKbqXz1TNGxvewZ1RpdRnydrsM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Properties of a Macro
 

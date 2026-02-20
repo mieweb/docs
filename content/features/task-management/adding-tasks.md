@@ -2,13 +2,13 @@
 id: '1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
 title: 'Adding Tasks'
 date: '2025-03-12T13:47:03.095Z'
-version: 225
+version: 226
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOEHRKMF'
 source: 'https://drive.google.com/open?id=1n6mexq2OOHyGdWBYutejlrZ6IXupdbAGReupGd28Kag'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Types of Tasks
 

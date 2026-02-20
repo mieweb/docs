@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13UOUobSDFmuMqHmgps91RswTip-sSvHqkiAncWNOtaw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Click *E-Chart* on the left sidebar menu.
 

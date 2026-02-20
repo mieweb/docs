@@ -7,7 +7,7 @@ lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10JqzKZ8UPQ0gfq0wqBGWqbHNwEgUyLtsFVGjpG5shYA'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Refill All Quick Link
 

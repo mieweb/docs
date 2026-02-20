@@ -2,7 +2,7 @@
 id: '1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
 title: 'CMS 122 - Diabetes: Hemoglobin A1c (HbA1c) Poor Control (>9%)'
 date: '2024-09-05T21:09:31.182Z'
-version: 122
+version: 123
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - '../../../order-and-result-management/observation-code-merging.md'
   - 'https://ecqi.healthit.gov/ecqm/ep/2024/cms122v12'
 source: 'https://drive.google.com/open?id=1ZEhzvsDqZRTPEHkASIixZwonLnAxI1SbYZ2W2KbxJD4'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 markup: 'pandoc'
 ---
 ## Overview

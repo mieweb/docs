@@ -2,7 +2,7 @@
 id: '1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
 title: 'Messages from NMC User'
 date: '2025-12-01T21:43:08.068Z'
-version: 110
+version: 112
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
 source: 'https://drive.google.com/open?id=1iwFDWxfDtmZRjE2Q2bdW7Jnd7q_7G9y1WmBUHML9rfM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Portal Integration with {{% system-name %}}
 

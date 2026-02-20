@@ -2,14 +2,14 @@
 id: '1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
 title: 'System Email Templates'
 date: '2020-02-27T21:26:58.722Z'
-version: 40
+version: 41
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - 'system-email-templates/email-templates-from-chart.md'
   - 'system-email-templates/email-templates-from-scheduler.md'
 source: 'https://drive.google.com/open?id=1HdzZ_10IaQ9bJp4QxL9Cg2dVsXUao9FLoNRxH1e3SRs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 [**Email Templates from Chart**](system-email-templates/email-templates-from-chart.md)
 

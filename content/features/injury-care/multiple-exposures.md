@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Multiple Exposures module is used to collect and store data on source patients. The exposure chart also identifies any individuals that were potentially exposed to the source patient. The purpose of the module is to collect data regarding the exposure case/incident and copy that information to individually exposed patient/employee charts. This module is not used for BBP/BFE (Body Fluid Exposures). Use the BBP/BFE Initial and Follow up encounters for BBP/BFE's type exposures.
 

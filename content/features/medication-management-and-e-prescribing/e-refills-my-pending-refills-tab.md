@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
   - 'https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/e-refills-all-e-refills-tab/'
 source: 'https://drive.google.com/open?id=1mftbk-NBhW1mz0h_tG2gCbZ1B-eag7FtKrryRY-D03k'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order for you to receive e-refill requests from pharmacies in this queue, you must be a verified E-Prescriber by MIE and SureScripts and have had the box *Receive Refill Requests* check-marked in your {{% system-name %}} username screen (see other help documentation named [Setting Up E-Prescribers](https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/)*)*. You will not receive incoming electronic refill requests from pharmacies (that are capable to do so) if you do not have that feature check-marked in your username screen. You do not have to receive refill requests electronically in {{% system-name %}} . You can continue to receive them by fax or phone calls as you currently do. However, if you have check-marked that you want to receive refill requests electronically, once MIE and SureScripts verifies your information, you will then receive electronic refill requests via this queue in {{% system-name %}} .
 

@@ -15,7 +15,7 @@ links:
   - '../../reports/using-datavis-grids-data-tools.md'
   - 'https://docs.enterprisehealth.com/functions/reports/'
 source: 'https://drive.google.com/open?id=1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This document is intended to describe and assist users with the process to validate medication allergies imported from another system. The {{% system-name %}} system uses the Visit encounter to display the details related to a visit.
 

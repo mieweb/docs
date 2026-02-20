@@ -2,7 +2,7 @@
 id: '1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
 title: 'Review Session - System Configuration'
 date: '2025-04-07T17:10:02.397Z'
-version: 122
+version: 123
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -43,7 +43,7 @@ links:
   - '../../features/system-configuration/locations-management.md'
   - '../../features/system-configuration/system-files-management.md'
 source: 'https://drive.google.com/open?id=1_A3KojfmcZzSPe0Pb6anfAlAaUidbATZLddF5NyQjrM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Agenda
 

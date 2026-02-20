@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_wsrlxxeNCZJC_c-ZUajGFEEsgiZ8bpGuIo5JRwXU60'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Identified System Administrators have the ability to enable/disable a system wide lock for specific needs such as maintenance or while something is being configured.  Enabling a system wide lock will display a system wide message informing all other users that the system is currently undergoing maintenance and will not allow users to log into the system until the maintenance lock is disabled.  Any identified System Admins that have security permission to System Maintenance=Yes, will still be able to log into the system normally and manage any maintenance lock. The feature is available to customers on version RC202403 and newer.
 

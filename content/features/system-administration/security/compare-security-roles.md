@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Click *Control* tab from left sidebar menu.
 

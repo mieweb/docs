@@ -2,12 +2,12 @@
 id: '1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
 title: 'E/M Calculator'
 date: '2025-02-20T18:38:11.854Z'
-version: 86
+version: 87
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1vx8LBCalWpRi7ldroS_qb4pD7m3CrJaS2ynbYMVu4kE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 An optional encounter section is available named E&M Calculator. The section includes items contents to help calculate a billing code using E& M Calculator (Evaluation & Management).
 

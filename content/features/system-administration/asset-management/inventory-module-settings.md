@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1RFRNdru_Sm4hlC4CbRfbVczA7hr9_mvzDmQbtX5k_6I'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ![](./inventory-module-settings.assets/061cf2c2d7bfc6033f7ceca06968b2b1.png)
 

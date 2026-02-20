@@ -2,13 +2,13 @@
 id: '1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
 title: 'Edit/Delete Injections/Immunizations'
 date: '2024-07-10T19:11:14.191Z'
-version: 82
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSLIDNHR'
 source: 'https://drive.google.com/open?id=1oP6Hhh_LPanOBoETFuY4S6cL8QxKmuwL_LHThe-QWpI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To make an edit or modify a specific immunization or injection record, get into the patient's injections tab to show the list of active immunizations/injections.  Find the specific injection or immunization that you wish to edit and click on the underlined injection/immunization name to get into the edit mode.
 

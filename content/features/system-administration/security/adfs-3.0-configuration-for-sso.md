@@ -2,12 +2,12 @@
 id: '15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
 title: 'ADFS 3.0 Configuration for SSO'
 date: '2020-02-27T20:26:04.497Z'
-version: 50
+version: 53
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/ad-fs-user-sign-in-customization'
 source: 'https://drive.google.com/open?id=15eZmf2L3oj-KaYbjeWGVut1tWKU-miUYPKINCy1h8DM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This document assumes that the ADFS 3.0 software component is properly configured in the Active Directory domain.
 

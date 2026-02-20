@@ -9,7 +9,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ZOBDNHRK'
   - 'data-import-master-list.md'
 source: 'https://drive.google.com/open?id=1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order to access and utilize the Data Import CSV API within the Control Panel, one must have security access. The security needed is *Allow .csv Data Import* set to Yes.
 

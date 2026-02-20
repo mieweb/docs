@@ -2,7 +2,7 @@
 id: '1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
 title: 'Fee Schedules'
 date: '2025-04-07T16:57:31.848Z'
-version: 124
+version: 125
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - '../system-administration/data-migration/fee-schedule-import-tool.md'
   - 'https://mie.talentlms.com/shared/start/key:ZSLDNHRK'
 source: 'https://drive.google.com/open?id=1UN8pMffETbIAzX3R9mA86EeIp_XG0joWzFDs0tC9eto'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order to change or add any Fee Schedules, you must have security permission to Manage Fee Schedules. In order to change or add fee schedules to Insurance Plans, you must have security permission to Manage Insurance Plans. In order to utilize Fee Schedules, you must have billing codes and picklists entered via the Billing Codes editor.
 

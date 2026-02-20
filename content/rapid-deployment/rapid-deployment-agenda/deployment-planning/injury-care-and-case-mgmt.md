@@ -2,14 +2,14 @@
 id: '1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
 title: 'Injury Care & Case Mgmt'
 date: '2020-02-27T21:27:32.772Z'
-version: 23
+version: 24
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-injury-care.md'
   - '../../review-sessions/review-session-case-management.md'
 source: 'https://drive.google.com/open?id=1Ofy42OFESDhpn4ITxx_JNjJPR69qMgnnp8QnPNwV6OQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Purpose
 

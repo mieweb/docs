@@ -2,12 +2,12 @@
 id: '13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
 title: 'Portal Message Notification'
 date: '2024-05-16T20:42:20.915Z'
-version: 40
+version: 41
 lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13a7lY7vXQzuv9u5ryKiHS98zfGj9cMmeyMAS533WTQg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ****This message is sent from an un-monitored mailbox, therefore please do not reply to this message****
 

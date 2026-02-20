@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'financial-functionality'
 source: 'https://drive.google.com/open?id=1RluTafFnPa5uNpU8ZtrWpQYntyihfWrL-6tbRvDRbuI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [Financial functionality](financial-functionality)

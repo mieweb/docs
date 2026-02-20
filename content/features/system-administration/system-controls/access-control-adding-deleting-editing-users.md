@@ -2,7 +2,7 @@
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
 date: '2025-11-11T21:03:10.869Z'
-version: 336
+version: 340
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Must have security permissions to Manage Users and Manage Permissions to be able to add/edit/delete users and configure user security role exceptions, etc.
 

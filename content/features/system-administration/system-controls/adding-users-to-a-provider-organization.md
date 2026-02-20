@@ -2,11 +2,11 @@
 id: '1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
 title: 'Adding Users to a Provider Organization'
 date: '2020-02-27T20:18:45.794Z'
-version: 59
+version: 60
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nJaL4WnctL26KUVyn_E4xWj40rxOtav0aUc6OCOVT8U'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Create the Provider Organization (PO) Chart
 

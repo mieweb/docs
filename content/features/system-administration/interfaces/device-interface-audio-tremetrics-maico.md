@@ -2,11 +2,11 @@
 id: '1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
 title: 'Device Interface - Audio: Tremetrics/Maico'
 date: '2020-02-27T20:26:37.849Z'
-version: 37
+version: 38
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ZZgKUpsoLo4bDV0iNAVN3ZeKqmMVBmu6dAsl5Ql8L5I'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The following is referring to a Tremetrics RA500 or Maico MA800 audiogram system. Contact your MIE Implementer to see if your audio system model can be interfaced or quoted.
 

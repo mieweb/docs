@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1006ePom4kMVnzvG45g_LwdpAtR18D85q4gV6tloZz2w'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 A system setting controls the amount of time before a logged in user is determined as being idle and will automatically end their logged in session.
 

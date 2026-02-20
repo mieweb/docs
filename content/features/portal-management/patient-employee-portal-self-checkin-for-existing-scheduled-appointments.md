@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G5_D48UMtZeEnFgn9HwNxosxWLi0wTPauIEM6bUJIRs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The {{% system-name %}} can have portals on Provider Organizations set up to integrate streamlining things such as self appointment check-in and intake processes. For example, portal users may electronically access questionnaires they are due for or paperwork required by the clinic upon check-in, so then all of the necessary information can be recorded and automatically uploaded into the appropriate chart. With the {{% system-name %}} portal, clinicians can easily maintain patient flow, while also managing their check-in and intake processes. This guide is the information needed for initially setting up and utilizing the portal user self-checkin for existing scheduled appointments functionality.
 

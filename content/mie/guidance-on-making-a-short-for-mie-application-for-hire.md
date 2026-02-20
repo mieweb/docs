@@ -2,7 +2,7 @@
 id: '1HCfdAVILhCf0wwY-7q4thsX7Mu0W8ukYiFoYh08JnSs'
 title: 'Guidance on making a short for MIE application for hire'
 date: '2025-09-26T07:24:55.259Z'
-version: 425
+version: 432
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ links:
   - 'https://bluehive.com/?utm_source=bluehive&utm_medium=chat&utm_campaign=bluehive-ai'
   - 'https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13'
 source: 'https://drive.google.com/open?id=1HCfdAVILhCf0wwY-7q4thsX7Mu0W8ukYiFoYh08JnSs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ![](./guidance-on-making-a-short-for-mie-application-for-hire.assets/8c28239b5803d9d174af32d365330d93.png)
 [Watch a Short about this document!](https://youtube.com/shorts/34Rwia4ovY8?si=agJlNGwLQ7NgsGwb)

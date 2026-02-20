@@ -2,7 +2,7 @@
 id: '1KUzYPujy6FRjGnKxGhV2JxkonNssifccodK6J5eCDMQ'
 title: 'Patient Portal Voluntary Product Accessibility Template (VPAT)'
 date: '2021-09-24T18:00:55.885Z'
-version: 77
+version: 78
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ links:
   - 'http://www.w3.org/TR/WCAG20/'
   - 'https://www.w3.org/TR/WCAG21/'
 source: 'https://drive.google.com/open?id=1KUzYPujy6FRjGnKxGhV2JxkonNssifccodK6J5eCDMQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Medical Informatics Engineering, Inc. Accessibility Conformance Report**
 

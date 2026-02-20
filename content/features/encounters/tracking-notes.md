@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../system-configuration/macros.md'
 source: 'https://drive.google.com/open?id=1VwL1mZWb_UQDQD1WxneRWWaAiRclQSdYjvcEqPCKztU'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Tracking Notes encounter section is an optional section that can be applied to the encounter outline.  This can be used to help document any Tracking Notes within an encounter using the Visit encounter template type outline within the Plan area.
 

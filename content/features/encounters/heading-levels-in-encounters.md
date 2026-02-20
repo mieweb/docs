@@ -9,7 +9,7 @@ links:
   - 'rename-a-heading.md'
   - 'working-in-a-visit-encounter.md'
 source: 'https://drive.google.com/open?id=10wzj2vwOYF-Oqv8Nnx1jfbeitSsZ5Zlx-mhrMfgA_oA'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 By default, encounter section groupings and subsection groupings use specific header levels.  In {{% system-name %}} encounters, header levels are used to structure content hierarchically, with H2s being as major sections, H3s as subsections within an H2, and H4s as minor-subsections within an H3.
 

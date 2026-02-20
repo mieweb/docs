@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1B7jui0tuMXtAbfAhX6oxYh3SInCEOpvtJxvsMLf4za8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Incoming/Pending Faxes
 

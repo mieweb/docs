@@ -2,14 +2,14 @@
 id: '12J14BKaX9AZmKKDENDSoHs1Q7OYIdjQFYumYezwOn2Y'
 title: 'Adding existing patients as employees of employer organizations'
 date: '2026-02-09T18:30:32.380Z'
-version: 42
+version: 44
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'finding-employer-organizations.md'
   - 'creating-and-adding-employees-to-employer-organizations.md'
 source: 'https://drive.google.com/open?id=12J14BKaX9AZmKKDENDSoHs1Q7OYIdjQFYumYezwOn2Y'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Typically, employee charts are created and related to employer organizations automatically based on information from HR (human resources) systems. However, existing employee charts can be related to an EO chart manually.
 
