@@ -1,17 +1,17 @@
 ---
 id: '1CopZNJsyqZX0BFIhHamvn3_Iho4frEXu9poEDDbN_dk'
 title: 'Videos & Demonstrations'
-date: '2026-01-30T14:56:54.113Z'
-version: 825
-lastAuthor: 'godlewski8'
+date: '2026-02-20T19:02:00.924Z'
+version: 836
+lastAuthor: 'ashleyhorner'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health'
-  - 'https://www.enterprisehealth.com/blog/video-welcome-to-enterprise-health-enterprise-health'
+  - 'https://youtu.be/fJ8er6IpVzU'
   - 'https://www.enterprisehealth.com/blog/video-intro-to-medical-surveillance-enterprise-health'
   - 'https://www.enterprisehealth.com/blog/video-intro-to-occupational-injury-and-illness'
   - 'https://www.enterprisehealth.com/blog/video-employer-provided-primary-care-software-enterprise-health'
-  - 'https://www.enterprisehealth.com/blog/video-employee-health-surveillance-software-demo-enterprise-health'
+  - 'https://www.enterprisehealth.com/video-streamline-medical-surveillance-enterprise-health-1'
   - 'https://www.enterprisehealth.com/blog/video-clinical-care-software-demo'
   - 'https://www.enterprisehealth.com/blog/video-occupational-injury-illness-software-demo'
   - 'https://www.enterprisehealth.com/blog/video-injection-and-immunization-management-software-demo'
@@ -35,14 +35,14 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 ## Meet the Product
 
 * [A Complete Employee Health Solution](https://www.enterprisehealth.com/blog/video-a-complete-employee-health-solution-enterprise-health)
-* [Welcome To Enterprise Health](https://www.enterprisehealth.com/blog/video-welcome-to-enterprise-health-enterprise-health)
+* [Welcome To Enterprise Health](https://youtube.be/v/fJ8er6IpVzU)
 * [Intro to Medical Surveillance](https://www.enterprisehealth.com/blog/video-intro-to-medical-surveillance-enterprise-health)
 * [Intro to Occupational Injury and Illness](https://www.enterprisehealth.com/blog/video-intro-to-occupational-injury-and-illness)
 * [Intro to Clinical Care](https://www.enterprisehealth.com/blog/video-employer-provided-primary-care-software-enterprise-health)
 
 ## Product Demonstrations
 
-* [Health Surveillance](https://www.enterprisehealth.com/blog/video-employee-health-surveillance-software-demo-enterprise-health)
+* [Health Surveillance](https://www.enterprisehealth.com/video-streamline-medical-surveillance-enterprise-health-1)
 * [Clinical Care](https://www.enterprisehealth.com/blog/video-clinical-care-software-demo)
 * [Occupational Injury and Illness](https://www.enterprisehealth.com/blog/video-occupational-injury-illness-software-demo)
 * [Injection and Immunization Management](https://www.enterprisehealth.com/blog/video-injection-and-immunization-management-software-demo)
@@ -95,7 +95,7 @@ First, be sure to check out the vision and core concepts of the {{% system-name 
 
 ### Visit Overview
 
-{{% gvideo  id="0B8Z_aVeCkgoTTGV5Q3JQczM2VkU" %}}
+{{< youtube DPejv-sAD8I >}}
 
 ### Deep Dive Into Visits
 
