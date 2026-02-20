@@ -1,21 +1,23 @@
 ---
 id: '1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
 title: 'Executive Dashboard Report'
-date: '2025-09-26T16:57:15.359Z'
-version: 149
+date: '2026-02-11T18:31:11.220Z'
+version: 184
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1MosXCU17hw2eoNS708Ma5_Jj1tNJsfKnSX-OHUG9mIQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
-**Executive Dashboard Report**
-
 The Executive Dashboard is a one screen summary intended to be used by client executives as a high level overview of clinic and employee outcomes.  Partition restriction checks are not applicable from the executive dashboard queries due to improved performance.  The report is divided into multiple sections: Clinic Visit Activity, Visit Types, Top 10 Services/Tests Provided, Work Related Injury or Illness Cases/Incidents, Health Surveillance, Disability/Case Management, and Portal Activity.
 
 The top of the dashboard contains a search engine that can limit information that displays in the portlets based on time frame, location (PO) and Employer Organization (EO).
 
 ![](./executive-dashboard-report.assets/22a841ee9c43ce76d92642fa09ea0073.png)
+
+NOTE: Executive Dashboard filter fields can include additional report filters or change current filter offerings without changing the committed code of the executive dashboard output.  This is an example of a system who wanted a start & end date range instead of the standard options.  MIE can accommodate that by altering Dashboard-Common layouts that apply to the dashboard filter field offerings, without customizing the core committed code of the executive dashboard.  Custom filters will then have to introduce a ‘Search' button also.
+
+![](./executive-dashboard-report.assets/2cca89c65cca559d06ad9a0fed0a1731.png)
 
 # Clinic Visit Activity
 

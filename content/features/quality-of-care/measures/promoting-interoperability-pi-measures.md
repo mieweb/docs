@@ -2,7 +2,7 @@
 id: '1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
 title: 'Promoting Interoperability (PI) Measures'
 date: '2020-02-28T21:58:39.683Z'
-version: 60
+version: 61
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,7 @@ links:
   - 'https://drive.google.com/open?id=1-Yysu_PZNhCGl5mw0CRzwUZGcEffjqlP'
   - 'https://drive.google.com/open?id=1-cFqzKFkmMazalo5X912zP2HFTEflgnV'
 source: 'https://drive.google.com/open?id=1jLnXdg6pwgBn2IHgzpTkWQjGwcN6WAcfE-8GY9CWfPw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% section %}}
 {{% column %}}

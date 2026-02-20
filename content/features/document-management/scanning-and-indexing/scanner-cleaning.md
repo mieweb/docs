@@ -2,12 +2,12 @@
 id: '181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ'
 title: 'Scanner Cleaning'
 date: '2020-03-06T22:16:27.286Z'
-version: 36
+version: 37
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=181akgdiAYVVPaptvLPt-00ucpVO-IUn0O1eCyQ73jMQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 markup: 'pandoc'
 ---
 ## Recommended Cleaning

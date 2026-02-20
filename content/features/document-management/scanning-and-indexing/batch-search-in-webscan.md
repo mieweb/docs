@@ -2,14 +2,14 @@
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
 date: '2025-11-10T17:18:43.950Z'
-version: 76
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
   - 'https://docs.enterprisehealth.com/functions/reports/webscan-report/'
 source: 'https://drive.google.com/open?id=1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order to access the [WebScan](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) module, users must have the necessary security permissions. With access, users have the ability to scan, index, review, and search scan batches, as needed. For more information on how to use the WebScan module and perform batch scanning, see our [Scanning](https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/) help documentation.
 

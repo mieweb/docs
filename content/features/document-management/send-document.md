@@ -2,13 +2,13 @@
 id: '1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
 title: 'Send Document'
 date: '2025-01-17T15:52:33.077Z'
-version: 295
+version: 296
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:SLERKMFP'
 source: 'https://drive.google.com/open?id=1qgX2WvaE1iF3D3xYnwq-xGj80liR7s3hMY3ZXCUf2Ww'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 markup: 'pandoc'
 ---
 Send Document

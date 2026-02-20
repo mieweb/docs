@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/reports/'
   - 'https://docs.enterprisehealth.com/functions/quality-of-care/'
 source: 'https://drive.google.com/open?id=1hiUC_4Cfe7M7B6iSqcusHGcPI3MmI6BoBYzSRLyQbY4'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Often, it is necessary to review compliance data and ensure participants are aligned with quarterly benchmarks and overall outcomes. The Provider Quality of Care Status report allows administrators to review individual, or all, participants, enrolled measures and their details, initial populations, numerators and denominators, etc.
 

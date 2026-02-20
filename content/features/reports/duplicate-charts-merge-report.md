@@ -7,7 +7,7 @@ lastAuthor: 'ewilcox'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Within the Reports sidemenu, is a performable report has been created named **Duplicate Charts-Merge.**
 

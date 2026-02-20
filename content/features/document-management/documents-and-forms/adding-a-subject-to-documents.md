@@ -2,13 +2,13 @@
 id: '1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
 title: 'Adding a Subject to Documents'
 date: '2020-02-27T21:10:07.369Z'
-version: 46
+version: 47
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../reports/documents-report-super-document-type-search.md'
 source: 'https://drive.google.com/open?id=1ajorGrYAiMAfEj9Fq7AF2UzhpuHuemMynqwiZunmvXk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 A **Subject** field is available when adding documents to the {{% system-name %}} system. This allows sketches, Word documents, PDF documents, text files, and others to have a subject associated with them at the time of creation, rather than having users edit the document properties after the file has been created, imported, or uploaded.
 

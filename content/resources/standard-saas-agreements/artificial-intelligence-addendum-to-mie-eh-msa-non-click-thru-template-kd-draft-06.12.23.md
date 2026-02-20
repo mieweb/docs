@@ -2,7 +2,7 @@
 id: '1o-_QCbylnBkhANb0lhkFiQJsyRwuRAX2rfV5wR-0uw8'
 title: 'Artificial Intelligence Addendum to MIE EH MSA (Non Click Thru) - Template (KD Draft 06.12.23)'
 date: '2023-09-13T14:29:17.541Z'
-version: 14
+version: 15
 lastAuthor: 'horner'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'https://openai.com/api/policies/service-terms/'
   - 'https://openai.com/policies/terms-of-use'
 source: 'https://drive.google.com/open?id=1o-_QCbylnBkhANb0lhkFiQJsyRwuRAX2rfV5wR-0uw8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Artificial Intelligence Addendum**
 

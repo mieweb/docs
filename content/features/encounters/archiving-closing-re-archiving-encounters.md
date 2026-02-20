@@ -2,7 +2,7 @@
 id: '1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
 title: 'Archiving/Closing/Re-archiving Encounters'
 date: '2024-11-21T19:18:03.485Z'
-version: 83
+version: 84
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - '../../resources/intro-to-the-system.md'
   - '../../resources/intro-to-the-system/system-anatomy.md'
 source: 'https://drive.google.com/open?id=1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order to archive, close, or re-archive an encounter, users must be familiar with the security settings, buttons, toolbars, and links associated with the encounter. The buttons found in the encounter are customizable and may have different functions per practice, or per encounter, depending on the preferred workflows. Contact an Implementation Specialist to have the buttons renamed or functionality reconfigured, as needed.
 

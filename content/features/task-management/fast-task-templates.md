@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x3z6Xp7GZNw4cMJfxdhhMP4kLcj4bVEJ6w0PLZ4aEqw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To access the Fast Tasks Template tab within the Task List sidemenu module, users must have security for Manage Fast Tasks.
 

@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/word-documents-cc-physicians-feature/'
   - 'https://mie.talentlms.com/shared/start/key:LBZIDNHR'
 source: 'https://drive.google.com/open?id=153ycsbo_ev5FSulpz_r0YQPR1RqLO32JDVPuZagEuDY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The {{% system-name %}} system provides the ability to browse to and upload PDF file types, if necessary. This is driven by a system setting ("E-Chart", "PDF Upload", "Enable"), which is enabled by default.
 

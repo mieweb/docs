@@ -2,7 +2,7 @@
 id: '1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
 title: 'OAuth 2.0 Tutorial'
 date: '2026-01-29T00:59:51.914Z'
-version: 950
+version: 960
 lastAuthor: 'pepperson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,7 +19,7 @@ links:
   - 'https://pm.mieweb.com/issues/106834'
   - 'https://pm.mieweb.com/issues/71437'
 source: 'https://drive.google.com/open?id=1y6n0lw4prz4Rg_7HKbhcgPN6p9y4wNa5m2dw4rr9Tfk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 # OAuth 2.0 Overview
 

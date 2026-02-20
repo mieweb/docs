@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1c7lV7YbSrJoXkqOsc9gkQOl5MxuGwZpq71QVoq3Qo0g'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% system-name %}} currently imports the First DataBank (FDB) update files on a weekly basis on Saturday mornings at 2 am. {{% system-name %}}  then does a complete dump and reload of our databases based on these files. At the end of this process, we update a table in the database that keeps track of changes in the database. A nightly job on all servers checks for updates in the database file, and updates the rxdb database on the server from our "home" version of the database if necessary.
 

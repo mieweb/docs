@@ -2,11 +2,11 @@
 id: '1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
 title: 'Patient Registration'
 date: '2020-02-27T19:34:21.430Z'
-version: 34
+version: 35
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1F5UITI13Xe991RVRXssmOWGPyAvgUbgXHk--KfZILV0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Managing patient flow is vital to the effectiveness of any practice. Because of this, the {{% system-name %}} system provides fast and easily-navigated functionality for searching current charts and documents, as well as for registering new patients.
 

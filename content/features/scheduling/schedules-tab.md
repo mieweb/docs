@@ -10,7 +10,7 @@ links:
   - 'scheduler-guided-template.md'
   - 'https://mie.talentlms.com/shared/start/key:AEEHRKMF'
 source: 'https://drive.google.com/open?id=1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Clinicians and schedulers are able to book appointments accurately and efficiently by using built-in schedule templates within the system for resources (providers).  Maintaining and utilizing schedules also helps reduce override errors when scheduling appointments.  Resource schedules can be easily maintained in the system from the **Scheduler** sidemenu tab via the **Schedules** tab. Adding, editing, and deleting schedules is a simple process, which also allows for copying or templating for fast and efficient onboarding. Additionally, scheduling resources can be limited, or restricted, if necessary, to assist with efficiency and security purposes.
 

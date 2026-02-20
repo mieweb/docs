@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 When you are in the patient's chart, you can click the MEDICAL RECORD chart tab and then get into the ENCOUNTERS sub-chart tab.
 

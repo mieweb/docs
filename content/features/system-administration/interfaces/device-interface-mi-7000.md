@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - '../../../resources/system-specifications/enterprise-health-interface-specifications.md'
 source: 'https://drive.google.com/open?id=1_QN1k1chuQwKEFoBNmXwa7THRu91en4_FcZCVFujSs8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This page provides instructions for retrieving results from the MI 7000 audiometer with the product, and lists the fields that the interface retrieves.
 

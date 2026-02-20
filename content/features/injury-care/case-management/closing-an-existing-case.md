@@ -2,12 +2,12 @@
 id: '1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
 title: 'Closing an Existing Case'
 date: '2025-06-06T15:49:26.116Z'
-version: 77
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1aHMqb0uesNxzc9vm-mmE5OSB4lyfi6zd4RTVOVFy2nw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Cases
 

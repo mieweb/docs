@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1GnmXZCmcrEl2iSdffMsfP1CCd613PCvGc5lVy1NS2HY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Images encounter section offers an ability to upload images to become part of the encounter and stored document once the encounter is closed and archived.
 

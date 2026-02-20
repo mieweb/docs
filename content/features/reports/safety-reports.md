@@ -1,9 +1,9 @@
 ---
 id: '1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
 title: 'Safety Reports'
-date: '2024-01-25T20:56:38.114Z'
-version: 161
-lastAuthor: 'anichols'
+date: '2026-02-20T16:21:58.364Z'
+version: 220
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'claims-report.md'
@@ -17,11 +17,11 @@ links:
   - 'osha-statistics-report.md'
   - 'sharps-log-report.md'
 source: 'https://drive.google.com/open?id=1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This guide will go through the most common out of the box Safety Reports available in {{% system-name %}}, but more detailed information on each individual report is found in its own separate guide.
 
-![](./safety-reports.assets/bfc733549061f39aa3be076c88d05a66.png)
+![](./safety-reports.assets/96df2e2ea91ace45f88c41bbbcf42b38.png)
 
 You must have security permission to the Reports module/tab within {{% system-name %}}. This permission is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users to access the Reports left sidemenu tab module.
 
@@ -34,6 +34,18 @@ Some workflows require to document and identify what TPA (Third Party Administra
 ![](./safety-reports.assets/16bb367d283e4b4d0fa1e7ba388b4956.png)
 
 To better understand the Claims Report, review the [Claims Report](claims-report.md) online help documentation.
+
+## Employee Safety Trends
+
+The Employee Safety Trends Report looks at year-over-year injuries/incidents for comparison purposes. The first date of the current year needs to be entered. The system will calculate the previous five years' dates. You can filter by Department and/or Nature of Injury as well.
+
+![](./safety-reports.assets/22f647ad830dbb2f85c5c99e63ac88c6.png)
+
+## Events Review
+
+In the Events Review Report, there are several search filter fields available to narrow down your search results. There is a date range filter to allow for narrowing down the time frame of the incidents you wish to pull. You can also filter by the Nature of Injury and/or the Department. The filters are not required.
+
+![](./safety-reports.assets/4418e9b370e525989386b5b27f04028a.png)
 
 ## Incident Report
 
@@ -86,6 +98,16 @@ of all Sites or Work Location (chart type charts) and the related OSHA informati
 ![](./safety-reports.assets/a153bc59d5459adf0bcdaa83bbd20910.png)
 
 To better understand the OSHA Statistics Report, review the [OSHA Statistics Report](osha-statistics-report.md) online help documentation.
+
+## OSHA/DART Dashboard
+
+The OSHA/DART Dashboard Report pulls the OSHA and/or DART incidents by the date range specified. It also calculates OSHA/DART rate using the Employee Hours Entered field. There is filtering available to narrow your search further using the Employer Organization Field, Race and Department.
+
+![](./safety-reports.assets/080aa7dda35661b1655af29090a1718f.png)
+
+## OSHA/DART Trending
+
+The OSHA/DART Trending report provides trending over five years for the OSHA and DART incidents/cases. The start date is entered and the system will determine the next five years' date ranges. The Employee Hours for each of the five years must also be entered. There is also a filter option for the Department.
 
 ## Sharps Log Report
 

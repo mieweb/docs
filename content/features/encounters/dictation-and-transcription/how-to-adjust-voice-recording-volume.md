@@ -2,12 +2,12 @@
 id: '1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
 title: 'How to Adjust Voice Recording Volume'
 date: '2020-03-25T20:35:56.079Z'
-version: 46
+version: 47
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1jx_O7pHOsPVe1SPxxfo-eQ4C4evvnOhTc7_p3vmaIEk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 1. From the desktop of your computer, click START from the bottom left corner. Depending on what style you are displaying the start menu (classic or start view), you may then need to go to SETTINGS, then to CONTROL PANEL. Otherwise, click START and click CONTROL PANEL.
 

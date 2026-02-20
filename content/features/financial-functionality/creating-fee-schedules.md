@@ -7,7 +7,7 @@ lastAuthor: 'ahumes'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_QeV-kfz9yuYUbv_npFVZ4_lnZQTj3UgRZRG8mbJsKw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 1. Select the side menu. The side menu appears.
 2. Select <strong>Control Panel</strong>. The <em>Admin</em> tab opens.

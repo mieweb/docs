@@ -2,7 +2,7 @@
 id: '1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
 title: 'Review Session - Document Management'
 date: '2020-02-27T21:24:36.161Z'
-version: 42
+version: 43
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -27,7 +27,7 @@ links:
   - '../../features/document-management/scanning-and-indexing/indexing-bubble-forms.md'
   - '../../features/e-chart/insurance-summary-in-demographics-tab.md'
 source: 'https://drive.google.com/open?id=1CM3OyxW1NUjWXeNgZdgsqOEkEyZV_S0D_Y9NC3O2LrQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Agenda
 

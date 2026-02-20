@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/portal-management/patient-portal-first-time-setup-and-configuration/'
 source: 'https://drive.google.com/open?id=1j5-yy2Typ5nTe042-qplXCa05VN-815KmmGH0HIJ6rM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Setting up a portal for your employees to access is available in {{% system-name %}} . Your MIE Implementer will help with initial setup and configuration, but this help guide also helps for any edits or changes that may need done later down the road. Initial portal setup is in help guide named [Patient Portal First-Time Set-Up & Configuration](https://docs.enterprisehealth.com/functions/portal-management/patient-portal-first-time-setup-and-configuration/)*.*
 

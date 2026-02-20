@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/alerts-errors-failures-interactive-tab/'
 source: 'https://drive.google.com/open?id=1jBh_K3fZbn14VfTBL_kY9Ft5tgywajmZA3SmpVz3ib0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 You must have security to be able to View the Print Manager tab found in Control.
 

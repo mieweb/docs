@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/patient-summary-interactive-chart-tab/'
 source: 'https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 There are a few ways to export the patient's chart file into different formats. You can export the patient's chart files by using any of those methods.
 

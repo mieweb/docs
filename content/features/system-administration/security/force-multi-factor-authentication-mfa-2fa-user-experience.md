@@ -10,7 +10,7 @@ links:
   - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
 source: 'https://drive.google.com/open?id=15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA) using one-time passwords (OTP):
 

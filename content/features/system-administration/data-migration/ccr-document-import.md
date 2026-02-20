@@ -2,12 +2,12 @@
 id: '1WXvPYGq4hqG02LDQYHH7epqUgWwPDfB_1BVYf3121SU'
 title: 'CCR Document Import'
 date: '2020-03-17T02:55:52.956Z'
-version: 54
+version: 55
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WXvPYGq4hqG02LDQYHH7epqUgWwPDfB_1BVYf3121SU'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Continuity of Care Record (CCR) can be imported into {{% system-name %}} . The CCR standard is a patient health summary standard. It is a way to create flexible documents that contain the most relevant and timely core health information about a patient, and to send these electronically from one caregiver to another.
 

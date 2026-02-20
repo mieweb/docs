@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/printing-and-print-definitions/printing-documents/'
   - 'https://docs.enterprisehealth.com/functions/fax-manager/faxing-documents/'
 source: 'https://drive.google.com/open?id=1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Adding a Document to a Batch
 

@@ -2,12 +2,12 @@
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Fee Schedule Import Tool'
 date: '2025-04-07T16:59:59.593Z'
-version: 46
+version: 47
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 This wiki page is to document how fee schedule data needs to be constructed in order to import using WebChart's Fee Schedule Import Tool.
 

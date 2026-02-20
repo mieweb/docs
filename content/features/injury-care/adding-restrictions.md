@@ -2,7 +2,7 @@
 id: '1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
 title: 'Adding Restrictions'
 date: '2025-02-04T19:11:08.371Z'
-version: 382
+version: 387
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - 'editing-restriction-types.md'
   - 'https://mie.talentlms.com/shared/start/key:ALEHRKMF'
 source: 'https://drive.google.com/open?id=1iIBBj7YhPN--toi1eztojxqRu70YpPCulg8vowFjRlg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The restriction management function provides for the recording and documenting of restrictions (both personal as well as work-related). Users may initiate an encounter exam to document and authorize work restrictions.  Restrictions are also available for viewing throughout {{% system-name %}} from a header, or from its own chart tab outside of an encounter exam.
 

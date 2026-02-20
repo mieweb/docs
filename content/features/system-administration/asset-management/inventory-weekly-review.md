@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/asset-management/show-inventory-tab/'
 source: 'https://drive.google.com/open?id=1eaZDcPz5DZCexhkRzoxmk5I-rtLHHjsnWKzF2gWhS6I'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Weekly Review Inventory Tab is located within the sidemenu tab named *Inventory*.
 

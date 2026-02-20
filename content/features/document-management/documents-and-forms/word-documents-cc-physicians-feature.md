@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/document-management/documents-and-forms/document-properties/'
   - '../../e-chart/alerts-errors-failures-interactive-tab.md'
 source: 'https://drive.google.com/open?id=1C4Vw9cSEYMGiWWD7hKDjUEhxs2v4u8xyXKKN1BVJsLQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% note %}}
 The CC Physicians feature from word documents will not work until the practice has the new ActiveX word control version 1.0.0.23. If you wish to utilize this feature, please contact your MIE Implementer to have the new word control pushed out to your {{% system-name %}} system. Your MIE Implementer also has to install datasend for your {{% system-name %}} system for this feature to work.

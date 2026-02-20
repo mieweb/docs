@@ -10,7 +10,7 @@ links:
   - 'force-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application/'
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The {{% system-name %}} system supports Multi-Factor Authentication (MFA) or Two-Factor Authentication (2FA) using one-time passwords (OTP):
 

@@ -2,12 +2,12 @@
 id: '19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
 title: 'Basic Transcription - All Users'
 date: '2020-03-12T21:03:04.710Z'
-version: 61
+version: 62
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In the *Dictation* tab pending screen:
 

@@ -2,7 +2,7 @@
 id: '19eZCdwFGIeRGfT0BkhPoum2aYfCVegyIbkTPw9nctx8'
 title: 'BE 12 - Use Evidence-based Decision Aids to Support Shared Decision-making'
 date: '2020-02-27T20:49:37.485Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=19eZCdwFGIeRGfT0BkhPoum2aYfCVegyIbkTPw9nctx8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Activity Weighting**: Medium
 

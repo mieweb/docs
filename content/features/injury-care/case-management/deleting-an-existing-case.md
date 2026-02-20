@@ -2,12 +2,12 @@
 id: '1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
 title: 'Deleting an Existing Case'
 date: '2025-06-06T15:57:12.366Z'
-version: 90
+version: 91
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1COrMvtzP3Bgs_zJpX90Av-8I3GEqfod6FxixoLP2YVk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Cases
 

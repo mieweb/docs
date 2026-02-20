@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
 source: 'https://drive.google.com/open?id=1p0dlJGmRnbLsD0P24XK2HhNfippFvvM7D17j2quOxuk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In order to better serve client needs, {{% system-name %}} has streamlined the concepts and efforts of quality reporting participation, in order to serve all interested entities. If, as a standard, a business would like to track ongoing quality of care initiatives, or even participate in sponsored quality programs, {{% system-name %}} systems now offer a plethora of quantifiable and reportable measures, designed to track and improve overall care delivery.
 

@@ -2,12 +2,12 @@
 id: '1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
 title: 'Outbound Faxing Email Notifications of Sent/Failed Faxes'
 date: '2024-02-12T15:46:26.502Z'
-version: 62
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M8Bx-VKTH5JvE4T3NhdDD5UtC57klrxTeRBelJGhy0k'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 You can have {{% system-name %}} send you an email notifying you upon each successful sent fax you did and/or each failed (unsuccessful) fax that you sent via {{% system-name %}} . This is a user preference and only affects you, the logged in user.
 

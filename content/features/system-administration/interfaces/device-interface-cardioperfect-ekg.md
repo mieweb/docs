@@ -2,11 +2,11 @@
 id: '17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
 title: 'Device Interface - CardioPerfect EKG'
 date: '2020-02-27T20:27:01.320Z'
-version: 49
+version: 50
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=17vZ_-ptEcmy_3hU7QkK_tc4YyP8G7Zt0y9gvibX_Jhk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The following is referring to a Welch Allyn CardioPerfect EKG system. Contact your MIE Implementer to see if your EKG system model can be interfaced or quoted.
 

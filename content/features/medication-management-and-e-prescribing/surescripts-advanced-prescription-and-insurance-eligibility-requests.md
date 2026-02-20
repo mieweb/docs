@@ -2,11 +2,11 @@
 id: '10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'
 title: 'SureScripts Advanced - Prescription and Insurance Eligibility Requests'
 date: '2020-02-27T20:07:44.004Z'
-version: 90
+version: 91
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=10pV3eacY-IWnPxewGE1uRdoQBkTCYF7Wj424cQrr6zg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The SureScripts advanced functionality includes access to Prescription Benefits (insurance eligibility and prescription drug benefit information of both formulary and eligibility), access to patient's Medication History and the ability to do Prescription Routing to Mail Order Pharmacies using the formulary selected. {{% system-name %}} will maintain a record of whether the patient was eligible for coverage in the patient benefit table for future reference and a request can‘t be sent more than once every 72 hours per patient.
 

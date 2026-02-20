@@ -2,7 +2,7 @@
 id: '176-bgLFDRLW-GuYe4dKX1VgeRfFSXlOuBvIxz_0w4i4'
 title: 'PM 14 - Implementation of Methodologies for Improvements in Longitudinal Care Management for High Risk Patients'
 date: '2020-02-27T20:53:20.407Z'
-version: 19
+version: 20
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/mips/improvement-activities?py=2018'
@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=176-bgLFDRLW-GuYe4dKX1VgeRfFSXlOuBvIxz_0w4i4'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Activity Weighting**: Medium
 

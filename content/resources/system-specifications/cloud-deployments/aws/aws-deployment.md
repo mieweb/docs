@@ -16,7 +16,7 @@ links:
   - 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html'
   - 'https://aws.amazon.com/s3/sla/'
 source: 'https://drive.google.com/open?id=1IasP1lG4SPbi-jzRmJfV4Xnz4qEw4wPLxGSnKLoQJ4E'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Deployment Strategy
 

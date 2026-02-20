@@ -2,7 +2,7 @@
 id: '1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
 title: 'Adding/Editing Health Surveillance Panels'
 date: '2025-04-10T17:48:53.806Z'
-version: 118
+version: 119
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'health-surveillance-matrix-descriptions.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1YPGoGXS1qbrFdUO-FfDCLr0ln_li24Xw8Zdx0u53BnM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Users must have security access to be in the Health Surveillance Panel editor. On the sidemenu tab, click the CONTROL PANEL tab. Once in the Control Panel tab, find (in the listing) *Health Surveillance* **or** click the HSP tab at the top menu of tabs.
 

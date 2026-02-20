@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - '../quality-measure-specifications-and-recommended-workflows/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md'
 source: 'https://drive.google.com/open?id=1wZDjO6QRLQpD-U6Zn710NW-eciRUXFvXzqp9ObIcxuI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [CMS 69 - Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-up Plan](../quality-measure-specifications-and-recommended-workflows/cms-69-preventive-care-and-screening-body-mass-index-bmi-screening-and-follow-up-plan.md)

@@ -10,7 +10,7 @@ links:
   - '../reports/using-datavis-grids-data-tools.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1K5UaYbMQfk8hO8SLpWlUDIEsm3-u6zYdENSWRY2Usdg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Tests or Procedures items that are "due" (pending) are displayed in encounters, as a portlet from the Summary chart tab, and from its own specific chart tab named Due List.  This allows clinicians visibility of those tests that are pending as ‘due' for the chart.
 

@@ -2,13 +2,13 @@
 id: '1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
 title: 'Patient Registration Tab - Manual Patient Entry'
 date: '2025-02-26T19:10:58.196Z'
-version: 165
+version: 166
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOLHRKMF'
 source: 'https://drive.google.com/open?id=1GA6KzM8KPyzphmOk3kccJLGA7D0gkzzRLHjVrhVIZo0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Patient or Employee charts can be manually registered into the system.
 

@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LBLIDNHR'
 source: 'https://drive.google.com/open?id=1KfyrlzPYLJ6uPSz-YQlVG15nEQyn6URH5izKL20GRJ0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 You must have security role access to the Reports module/tab. This setting is in the Security Role Editor and is in {{% system-name %}} controls called STATISTICS. Set to Yes or No. This allows users within a role to access the entire Reports tab.
 

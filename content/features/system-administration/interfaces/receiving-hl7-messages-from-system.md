@@ -10,7 +10,7 @@ links:
   - 'outbound-sample-hl7-messages.md'
   - 'hl7-segment-definitions.md'
 source: 'https://drive.google.com/open?id=1okg_cpxA66iv9EFk3VfuW8tvV8F8ST7Lqcr2Ygnv4hs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The following document describes how to interface with MIE via an HL7 interface. Whereas the purpose of this interface is to send HL7 messages in real-time to a system using TCP/IP protocol, TCP/IP protocol over SSL/TLS, or a restful web service post.
 

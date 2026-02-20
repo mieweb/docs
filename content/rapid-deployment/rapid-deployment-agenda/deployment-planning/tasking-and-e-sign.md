@@ -2,14 +2,14 @@
 id: '1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
 title: 'Tasking & E-Sign'
 date: '2020-02-27T21:27:44.178Z'
-version: 39
+version: 40
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-tasking.md'
   - '../../review-sessions/review-session-e-sign.md'
 source: 'https://drive.google.com/open?id=1FJSR37npD6npRMOti3yDfP-uk0FiuYPlaL-nfi7qVdg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Purpose
 

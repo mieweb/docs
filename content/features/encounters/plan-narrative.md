@@ -10,7 +10,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/encounters/libraries/'
   - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'
 source: 'https://drive.google.com/open?id=1CEvfp_On6Tcg7YKjVLGYCn8xsIAYCzn-v2EufdZPKHY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Plan Narrative encounter section is available to document a plan narrative regarding the visit within an encounter.
 

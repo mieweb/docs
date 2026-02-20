@@ -2,14 +2,14 @@
 id: '1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
 title: 'Fax Manager & Reports'
 date: '2020-02-27T21:27:46.914Z'
-version: 26
+version: 27
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-fax-manager.md'
   - '../../review-sessions/review-session-reports.md'
 source: 'https://drive.google.com/open?id=1tkTKZZKCYVY2i_IXv9-ovltLvsMRdKqtLIiduxqYS10'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Purpose
 

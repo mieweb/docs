@@ -2,13 +2,13 @@
 id: '1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
 title: 'Autocomplete Editor'
 date: '2024-07-22T16:29:08.963Z'
-version: 132
+version: 133
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZEGDNHRK'
 source: 'https://drive.google.com/open?id=1gf_5k9tQYpPKSQ0upiD07Sjk76Kulne3EvseAf6VOe8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 You must have security role access to Manage Autocompletes. This allows users (based on level) to access the AC Editor tab found in the Control sidemenu tab.
 

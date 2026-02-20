@@ -2,7 +2,7 @@
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
 date: '2024-10-29T13:33:52.064Z'
-version: 312
+version: 317
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,7 +11,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:LSAIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:SOBRKMFP'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Add Injection Records Using Injection Program
 

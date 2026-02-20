@@ -2,13 +2,13 @@
 id: '10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
 title: 'Health Surveillance Panels - Action Rules'
 date: '2025-05-12T15:55:17.405Z'
-version: 189
+version: 190
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=10wTqIF8gtUDBbJmbk_LjlUeNmtU_vvbVFoVWTZnuMqc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Users must have security access to be in Health Surveillance Management control tab.
 

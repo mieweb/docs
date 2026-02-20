@@ -2,11 +2,11 @@
 id: '1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
 title: 'Routing Dictation'
 date: '2020-02-27T19:51:41.120Z'
-version: 43
+version: 44
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1G_lwgCWBmPq5y3sTMpOJwNK_nHZ-SLcW8C1kAxRMJc8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Dictation uploaded can be routed with special rules. Contact your MIE Implementer if you wish any dictation that uploads to be routed to a specific user (transcriptionist), for a specific job type, etc. Many different routes (rules) can be programmed to look at uploaded/incoming dictation. Please contact your MIE Implementer for help.
 

@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'artificial-intelligence'
 source: 'https://drive.google.com/open?id=16QO26p0sPQdpwf49ZXwpzx9aL8fa6ZLm_csDcgYKD1Q'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [Artificial Intelligence](artificial-intelligence)

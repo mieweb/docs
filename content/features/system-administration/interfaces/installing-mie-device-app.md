@@ -2,14 +2,14 @@
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
 date: '2025-11-13T15:17:40.256Z'
-version: 189
+version: 192
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-plugins/'
   - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
 source: 'https://drive.google.com/open?id=1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 There are required applications that may be needed for some programs, as well as certain functionality within the {{% system-name %}} system. The following instructions intend to assist users in installing the **MIE Device App, MIE Device App 2** and the **MIE SSL App**.
 

@@ -2,12 +2,12 @@
 id: '1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
 title: 'Preventive Care Portlet'
 date: '2025-02-17T18:46:07.012Z'
-version: 83
+version: 86
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 You can select the *Preventive Care* portlet for your view on the Patient Summary chart tab view.
 

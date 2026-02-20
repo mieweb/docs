@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1JqNA5VF59NNFfR1yoDYA-woQj0Ovw7XkHh_BazY4cK8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Each user intending to access a web-based portal must be granted access by way of the {{% system-name %}} system. This can be done by linking the appropriate user accounts with their corresponding charts, manually, via the {{% system-name %}} Access Control editor; otherwise, this can be automated through the import of an HR file. By linking the user account with the appropriate charts and establishing the role of the user, portal access can be configured for all users, accordingly. In addition to ensuring that the appropriate user accounts are linked to their corresponding charts and the roles are established, a chart must also have the appropriate Provider Organization relationship established. To begin linking users, manually, perform the following:
 

@@ -9,7 +9,7 @@ links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/spell-check/'
   - 'https://docs.enterprisehealth.com/functions/encounters/archiving-closing-re-archiving-encounters/'
 source: 'https://drive.google.com/open?id=16OyfrWp_T5NN9--hJV0UYIuai2DYDU2v6COC3Gl0RYI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 When you open an encounter and are working in it, your point & click encounter exam is customized to your practice. Most sections can be customized and programmed to accommodate your workflow. There are different variations on most sections that can be programmed. Contact your MIE Implementer if you have any questions or want to change an entry section.
 

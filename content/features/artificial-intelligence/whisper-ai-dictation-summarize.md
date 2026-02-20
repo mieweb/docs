@@ -2,12 +2,12 @@
 id: '1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
 title: 'Whisper AI - Dictation - Summarize'
 date: '2025-06-17T19:43:19.349Z'
-version: 443
+version: 450
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1XkMRMvXiMq4XzLhqN0yc8DXHbINhT7M7uTqpAKkaoHQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Whisper AI
 

@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1lySyySgRXl4N6r39BGipnDhJL3ad8P3dZUDrm1nUYRM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 When keying in vitals within the Vitals encounter section, or within the stand alone Vital Signs chart tab, certain fields are configured to automatically default, but can be changed manually by the user when documenting vitals data.
 

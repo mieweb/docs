@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1WyPS_oXBkXsuxypfnrWmso6iMWoSeksH9Ft2xzx9HnY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 NoMoreClipboard (NMC) has an addition of Account Security on Member Summary page for MFA/2FA:
 

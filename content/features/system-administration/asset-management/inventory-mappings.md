@@ -2,12 +2,12 @@
 id: '1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
 title: 'Inventory Mappings'
 date: '2024-09-25T19:50:01.995Z'
-version: 212
+version: 213
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nvcWeIakN3JOQyEK1j5fOJn6sXjalZuVXRKub1w4nos'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 After you have added a new inventory item into your inventory in the Master Inventory List/Control tab, you then map it in the Mappings tab.
 

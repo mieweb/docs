@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2025-12-08T15:48:22.446Z'
-version: 883
+date: '2026-02-06T21:22:25.637Z'
+version: 895
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -12,7 +12,7 @@ links:
   - 'https://mie.talentlms.com/unit/view/id:3307'
   - 'patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md'
 source: 'https://drive.google.com/open?id=1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 With the **Patient Portal** (WebChart databases), also referred to as an **Employee Portal** (Enterprise Health databases, patients and clinicians, as well as employees and occupational health specialists, are able to communicate freely anytime. Patients or employees can quickly and easily add/update their personal health records, review medical information, schedule/cancel appointments, and so much more. Review the following information to assist with configuring and enabling the portal, today!
 

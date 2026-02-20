@@ -2,13 +2,13 @@
 id: '1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
 title: 'Patient Summary - Interactive Chart Tab'
 date: '2024-07-02T14:59:24.505Z'
-version: 139
+version: 140
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTBIDNHR'
 source: 'https://drive.google.com/open?id=1kouQ-tdv7uMZR6kMdDr4gZ206Qt3z9_wUjiiBGGP6Kk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Patient Summary Chart Tab
 

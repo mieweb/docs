@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/security-role-settings/'
 source: 'https://drive.google.com/open?id=1bTJ6VujPQavXt-wY3eUY2U9Q2hqrlw1Mu59Aasd0OfM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Transcription Report and/or Transcription Report - DataVis provides calculations of words per minute transcribed and time spent editing. These are calculations based on input to {{% system-name %}} and not performance metrics.
 

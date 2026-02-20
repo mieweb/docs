@@ -2,14 +2,14 @@
 id: '121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
 title: 'Alerts, Errors, Failures - Interactive Tab'
 date: '2024-11-13T16:40:53.435Z'
-version: 112
+version: 113
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'patient-summary-interactive-chart-tab.md'
   - '../fax-manager/fax-manager-tab-outbound-faxing.md'
 source: 'https://drive.google.com/open?id=121JgKUXHUMyTIsyEzGjPSDLkXQ6f0MDpYmONZYjiJYc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 An Alerts link and counter is shown at the top summary toolbar. It gives a count of the errors from the Print, Fax, Dicom and DataSend modules for the logged in user or for users in the entire system. The alert count link in this top toolbar disappears when the count is zero and reappears when the count is greater than zero. Two user preferences manage this error alert feature.
 

@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'ehi-export-technical-details.md'
 source: 'https://drive.google.com/open?id=1ghrfDop_wJlzUSQJT62kyAhzSQBG68bi8M7qQdduI9Y'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [EHI Export Technical Details](ehi-export-technical-details.md)

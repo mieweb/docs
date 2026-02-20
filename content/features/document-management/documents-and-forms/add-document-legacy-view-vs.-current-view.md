@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/'
 source: 'https://drive.google.com/open?id=1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To navigate to the **Add Document** library, click on the Add Document link from the Patient Chart.
 

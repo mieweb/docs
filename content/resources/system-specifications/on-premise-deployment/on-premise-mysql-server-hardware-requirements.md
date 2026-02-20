@@ -2,7 +2,7 @@
 id: '1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
 title: 'On-Premise MySQL Server Hardware Requirements'
 date: '2020-02-27T20:46:26.827Z'
-version: 20
+version: 21
 mimeType: 'text/x-markdown'
 links:
   - 'https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.7_Release_Notes/'
@@ -18,7 +18,7 @@ links:
   - 'http://dba.stackexchange.com/questions/15030/mysql-recommended-hardware'
   - 'https://drive.google.com/open?id=1YX-G0aO0wZ13vsiHUtroPGSzE3q6yjKeLdzgX3fvMrs'
 source: 'https://drive.google.com/open?id=1sFxsuXYfKxXzBfI_aincS17dkeDC7MCmK91r3_IVezM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Dedicated Server Minimum Requirements
 

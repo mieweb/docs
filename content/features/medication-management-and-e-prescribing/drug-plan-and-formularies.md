@@ -2,12 +2,12 @@
 id: '1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
 title: 'Drug Plan and Formularies'
 date: '2020-03-16T12:01:52.181Z'
-version: 63
+version: 64
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1k3Awk1LcoMrM84yIqC3rGUiGe9LqXWOLAEaBz2vFSAE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% note %}}
 Currently {{% system-name %}} only displays Medicare Part D drug plans and formularies. Currently, you only need to set a drug plan for a Medicare patient with this type of drug part D coverage.

@@ -2,13 +2,13 @@
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
 date: '2025-08-19T19:26:47.819Z'
-version: 836
+version: 839
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Users have the ability to manage specific preference settings for themselves, for others, or system-wide, depending on their specific security permissions. Users may navigate to *My Settings* in the Control Panel, to begin editing preferences. Click the question mark help bubble next to each setting to learn more about each individual user preference (available in release 202509 and newer only).
 

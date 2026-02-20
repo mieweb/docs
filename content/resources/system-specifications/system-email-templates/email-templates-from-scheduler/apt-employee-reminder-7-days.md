@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Xd7K1lY-nw4rSesF1FLFEghZobJU3z6wk-t78xddBUU'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% info %}}
 Using the **Layout Manager** of the **Control Panel**, users may edit this email template, as needed.

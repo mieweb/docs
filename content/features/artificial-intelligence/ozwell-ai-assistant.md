@@ -1,13 +1,13 @@
 ---
 id: '1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ'
 title: 'Ozwell AI Assistant'
-date: '2026-01-28T16:20:23.502Z'
-version: 229
-lastAuthor: 'ashleyhorner'
+date: '2026-02-12T14:10:05.815Z'
+version: 265
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Ozwell AI Assistant
 
@@ -131,13 +131,31 @@ ___
 
 ![](./ozwell-ai-assistant.assets/02fda2269cc1286259e97d3b70bd635b.png)
 
+___
+
+## 8. Translate into Another Language
+
 * Click the microphone icon and ask Ozwell to create patient instructions in other languages (e.g., French). Ozwell supports translation into 98 languages and is fluent in 55 languages.
 
 ![](./ozwell-ai-assistant.assets/721a6ab2f33a5fde7cf3c8f99be58724.png)
 
 ___
 
-## 9. Tips for Effective Use
+## 9. Write a System Report
+
+* Navigate to the System Reports module and ask Ozwell to write a report.
+* Ozwell will generate the SQL code to query the database. Copy/paste the report into Enterprise Health. Name and save the report, and then click Run to view the results.
+* Continue asking Ozwell to fine tune the report by adding, removing, renaming or formatting columns.
+
+![](./ozwell-ai-assistant.assets/577be1cea813eabede3b28ee9cc94a46.png)
+
+![](./ozwell-ai-assistant.assets/4e75df69d88983d9c9e41e00ac20ccb8.png)
+
+![](./ozwell-ai-assistant.assets/d0d2cadf9433c115b514ff1f0484aef3.png)
+
+___
+
+## 10. Tips for Effective Use
 
 * Always review and edit generated documents before finalizing.
 * Use the image upload feature for any paper-based or device-generated data.

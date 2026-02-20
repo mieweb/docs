@@ -2,7 +2,7 @@
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
 date: '2025-11-10T17:55:18.088Z'
-version: 418
+version: 420
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../../reports/webscan-report.md'
   - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
 source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The  {{% system-name %}} system has integrated scanning functionality designed to streamline all scanning and indexing needs. The following information provides a basic introduction to these scanning and indexing capabilities, along with details on how to access and utilize these features.
 

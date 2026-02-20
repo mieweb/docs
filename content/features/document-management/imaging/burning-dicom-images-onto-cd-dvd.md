@@ -2,12 +2,12 @@
 id: '1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
 title: 'Burning DICOM Images onto CD/DVD'
 date: '2025-04-25T17:16:06.962Z'
-version: 103
+version: 104
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1NoHN2XFMnttAEU55T8C7kceIJ3dEjCHbW-Syvht8sWw'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 If you wish to burn the DICOM images onto a CD, log into {{% system-name %}} and get into the patient's chart.  Select the specific chart tab that stores the DICOM images being burned to a CD.
 

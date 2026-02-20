@@ -2,13 +2,13 @@
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
 date: '2026-02-11T17:05:43.609Z'
-version: 170
+version: 172
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTZIDNHR'
 source: 'https://drive.google.com/open?id=1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 A department represents a functional area of an organization.  Users are linked to departments to determine what type of role(s) they do, what workflows they participate in, and which data, tasks, and actions are available to them in the system.
 

@@ -2,13 +2,13 @@
 id: '1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
 title: 'Side Chart Configuration'
 date: '2024-07-01T20:28:37.028Z'
-version: 71
+version: 72
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTQIDNHR'
 source: 'https://drive.google.com/open?id=1MA8AzNlicKyg00XYAgsnYL-jDg0tk6nQ0Sb0TjTVkng'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Side Chart Access
 

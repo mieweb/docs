@@ -2,14 +2,14 @@
 id: '1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
 title: 'Encounter Workflow & Portal Management'
 date: '2020-02-27T21:27:26.111Z'
-version: 29
+version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
   - '../../review-sessions/review-session-encounter-workflow.md'
   - '../../review-sessions/review-session-portal-management.md'
 source: 'https://drive.google.com/open?id=1ALIsaF4h2Aef6Pez_ZinEPp2nZ63TOQYu7DVlGFaoAQ'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Purpose
 

@@ -2,14 +2,14 @@
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
 date: '2024-07-11T18:16:29.576Z'
-version: 101
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LSEIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:LSSIDNHR'
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 If you have security to manage injection codes, you will be able to access the Injections Editor tab.
 

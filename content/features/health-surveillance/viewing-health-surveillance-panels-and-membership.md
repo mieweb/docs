@@ -9,7 +9,7 @@ links:
   - 'panel-membership-portlet.md'
   - 'https://mie.talentlms.com/shared/start/key:LQSIDNHR'
 source: 'https://drive.google.com/open?id=1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Various security permissions apply to the Health Surveillance editor for the system within the Control Panel.
 

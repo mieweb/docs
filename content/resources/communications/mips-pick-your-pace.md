@@ -2,7 +2,7 @@
 id: '1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
 title: 'MIPS: Pick Your Pace'
 date: '2020-02-27T20:36:50.258Z'
-version: 22
+version: 23
 mimeType: 'text/x-markdown'
 links:
   - 'https://qpp.cms.gov/learn/eligibility'
@@ -14,7 +14,7 @@ links:
   - 'https://qpp.cms.gov/docs/QPP_MIPS_Participation_Fact_Sheet.pdf'
   - 'about:blank'
 source: 'https://drive.google.com/open?id=1iN5EvKl23ZMf2h8fIgSUDxhRrSR7ChMCCJHa6zqOxMI'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## MIPS Transition Year 2017
 

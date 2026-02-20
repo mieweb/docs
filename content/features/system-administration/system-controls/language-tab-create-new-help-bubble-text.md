@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'
 source: 'https://drive.google.com/open?id=1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The system has the ability to customize help bubble text that is hard-coded with the product. So far, the supported hard-coded help bubbles that can be customized are the patient autocomplete and all help bubbles on the E-sign page.
 

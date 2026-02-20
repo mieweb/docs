@@ -10,7 +10,7 @@ links:
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20Improvement%20Activities%20Fact%20Sheet'
   - 'https://qpp.cms.gov/resource/2018%20MIPS%20APMs%20improvement%20Activities%20scores%20fact%20sheet'
 source: 'https://drive.google.com/open?id=1-fqAMwYEz4o1hm0StnjrRGVTCmc1uhdUVscrM604G_o'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 **Activity Weighting**: Medium
 

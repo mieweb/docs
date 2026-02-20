@@ -2,11 +2,11 @@
 id: '1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
 title: 'Resources'
 date: '2022-08-30T20:37:03.408Z'
-version: 82
+version: 83
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1q_bPYZvlpavocfvkAWQaDq5Ag8_JBauTwq2lb89QbkE'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% children %}}

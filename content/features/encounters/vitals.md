@@ -2,14 +2,14 @@
 id: '1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
 title: 'Vitals'
 date: '2025-11-10T20:39:49.011Z'
-version: 150
+version: 152
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../order-and-result-management/vitals-tracking-and-management.md'
   - 'encounter-protocols.md'
 source: 'https://drive.google.com/open?id=1XmvnFMtiF84oI-5Iy9VvRq3ercWM0dbQKa172GBdXOY'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Vital signs not only assist in early detection of potential problems, they aid in the monitoring and maintenance of ongoing medical conditions. The Vitals encounter section allows {{% system-name %}} users to trend and add measurements of essential data.
 

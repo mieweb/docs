@@ -7,7 +7,7 @@ lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1ELaUDFunenSjYmxjNpL5T9eueiItCLmAwyGPgK6QUO8'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 MedicalCodify.com takes the official sets of a wide variety of medical codes and adds millions of cross references between codes to make finding specific codes and discovering new codes easy.
 

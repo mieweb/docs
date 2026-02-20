@@ -2,7 +2,7 @@
 id: '1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
 title: 'Quality Resources'
 date: '2020-02-27T21:27:57.735Z'
-version: 29
+version: 30
 lastAuthor: 'aquandt'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
   - '../functions.md'
   - '../features/quality-of-care.md'
 source: 'https://drive.google.com/open?id=1pc0Lt-ueqG7UMIoJ5L2bLZsiHe9Uc1XboebOYviuMGk'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 {{% note %}}
 We have moved our quality of care and reporting resources. General documentation and submission information can be found and reviewed under our [Quality Reporting](../programs/quality-reporting.md) program. Otherwise, navigate the [General Functionality](../functions.md) section to further investigate the details of the overall [Quality of Care](../features/quality-of-care.md) module and basic enrollment.

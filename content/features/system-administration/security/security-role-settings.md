@@ -1,9 +1,9 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2025-11-24T19:15:51.940Z'
-version: 630
-lastAuthor: 'janderson'
+date: '2026-02-18T18:58:48.411Z'
+version: 640
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/compare-security-roles/'
@@ -353,6 +353,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Relationship Types: Allows users to add/edit/delete Relation Types within the System Editor in the Control Panel
 * Purge Charts: Allows purging of requested charts from Charts to Purge report. Note: Full access grants overriding built-in restrictions.
 * Manage Admin Codes: Allows user to add/edit/delete Admin Codes (for class, company, facility, and status of demographics system wide options) within the System Editor in the Control Panel
+* JSON API Realtime: Choose "Yes" for the most up-to-date data (Run from the primary server), or "No" to reduce server load by using a backup database (run from the replication database server.
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
 * View Administrator Help: Allows users to see online help content of additional information specific to Administrators within an ==Administration heading.

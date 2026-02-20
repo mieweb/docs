@@ -7,7 +7,7 @@ lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The Provider Management features allows users with the proper security to add New Providers and Provider Organizations within {{% system-name %}}. Provider Organizations are typically a location or an entity, where a Provider is typically an individual.
 

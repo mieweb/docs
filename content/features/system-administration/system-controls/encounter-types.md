@@ -7,7 +7,7 @@ lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The *Encounter Types* module allows users to view system *Encounter Visit Types* and *Service Types*. *Encounter Visit Types* are typically used in clinical/ in-office workflows to capture data. *Service Types* are used on a limited basis for {{% system-name %}} utilizing custom hospital workflows only. The system comes preloaded with several preconfigured *Encounter Visit Types*. Service Types are typically custom and not preloaded. System Administrators can also add custom encounter and service types.
 

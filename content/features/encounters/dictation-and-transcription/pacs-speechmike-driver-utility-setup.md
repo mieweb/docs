@@ -7,7 +7,7 @@ lastAuthor: 'dcornewell'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1nWNBSAE-P7kZUNg6CFtR49hrsp2rgiCLmCzhavKWvpg'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 To begin, install and run the Philips Device Control Center application
 

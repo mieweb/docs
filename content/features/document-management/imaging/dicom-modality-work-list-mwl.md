@@ -2,12 +2,12 @@
 id: '1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
 title: 'DICOM Modality Work List (MWL)'
 date: '2020-03-24T15:53:13.829Z'
-version: 55
+version: 56
 lastAuthor: ''
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1p56sFJe04z4knjZh4xtZ1RbzdzLsKRaG2Ak-hfynOfs'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 In most cases, once MWL is installed and configured on the base system, configuring MWL for a DICOM entity is as simple as checking a box.
 

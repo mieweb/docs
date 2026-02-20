@@ -8,7 +8,7 @@ mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 ## Providing Access to Inbound Fax Queue
 

@@ -8,6 +8,6 @@ mimeType: 'text/x-markdown'
 links:
   - 'viewing-restrictions.md'
 source: 'https://drive.google.com/open?id=11anxI1enOBrZTMbyVpzczq9tMiKDIojsItc-19jqoC0'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 Renamed to: [Viewing Restrictions](viewing-restrictions.md)
