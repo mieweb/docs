@@ -1,8 +1,8 @@
 ---
 id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 title: 'Add Document - Legacy View vs. Current View'
-date: '2025-11-10T14:42:14.754Z'
-version: 150
+date: '2026-02-23T15:26:43.666Z'
+version: 156
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -42,7 +42,7 @@ The Add Document library view is determined by the [My Settings](https://docs.e
 
 ### Most Common Options Menu
 
-The** Add Document Screen view provides a **Most Common** section in the view layout. The **Options** link next to the heading will open a pop-up menu, where the use count can be reset, as needed. This feature tracks and resets the most commonly used document types for the logged-in user, only. This does not affect other users.
+The Add Document Screen view provides a **Most Common** section in the view layout. The **Options** link next to the heading will open a pop-up menu, where the use count can be reset, as needed. This feature tracks and resets the most commonly used document types for the logged-in user, only. This does not affect other users.
 
 ![](./add-document-legacy-view-vs.-current-view.assets/59545ae012f025bd232b2fea8f0bcd55.png)
 
