@@ -1,8 +1,8 @@
 ---
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
-date: '2024-10-28T20:08:59.745Z'
-version: 173
+date: '2026-02-25T16:22:42.860Z'
+version: 181
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -32,7 +32,7 @@ The *modify location* screen will open. The fields are described below.
 * <strong>City/State/Zip:</strong> Enter in the full city, state & zip code for the location.
 
 {{% info %}}
-Postal Code field will accommodate international postal codes and display as they are entered without auto-formatting.
+The Postal Code field will accommodate international postal codes and display as they are entered without auto-formatting.
 {{% /info %}}
 
 * <strong>Country:</strong> Defaults to United States, but you can select the country where this location is.
