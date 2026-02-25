@@ -1,8 +1,8 @@
 ---
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
-date: '2025-11-11T16:33:26.421Z'
-version: 282
+date: '2026-02-25T13:48:54.166Z'
+version: 293
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -148,14 +148,12 @@ After you have clicked Add Document Type, the Add a Document Type screen will op
 ![](./document-type-tab.assets/4fd5e0916c68a97bfbac1765122be832.png)
 
 {{% info %}}
-The drop-down choices of Chart Tabs available to tag the document type to are the chart tabs in the system that are able to display documents. If the chart tab does not appear in the drop-down, it is because the chart tab has a ‘default view' (functionality) set that does not allow the display of documents within that tab. You must link the document type to a Chart Tab in order for it to be filed/shown in that chart tab. You can also link a document type from the Chart Tab module.
+The autocomplete choices of Chart Tabs available to tag the document type to are the chart tabs in the system that are able to display documents. If the chart tab does not appear in the autocomplete list, it is because the chart tab has a ‘default view' (functionality) set that does not allow the display of documents within that tab. You must link the document type to a Chart Tab in order for it to be filed/shown in that chart tab. You can also link a document type from the Chart Tab module.
 {{% /info %}}
 
 * <strong>Style</strong>: type the style that you want this document to show as when looking in a patient's chart. You can make it a colored background for this specific document type, can change the font, font size, color of font, etc. This does <strong>not</strong> affect the way it prints. This is strictly styles for viewing in documents in {{% system-name %}} only.
     * <strong>Sample Text</strong>: Will show a sample of what the text/background, etc looks like while you are programming the style.
-        * <strong>Click the</strong> 
-            ![](./document-type-tab.assets/59f169f5ba600ee1ceb8f7dbfc56f6c6.png)
-             <strong>next to Sample Text to get a complete help listing of these programming options.</strong>
+        * <strong>Click the</strong> <strong><em>i</em></strong>'<strong> symbol next to Sample Text to get a complete help listing of these programming options.</strong>
 
 {{% note %}}
 Below, where it says :value; is where you type in a value choice (do not type the word ‘value' or it won't work. You must program a value for each style. Any or all of these choices can be programmed. They all get programmed together on one line and separated by a semi-colon ( ; ) You must also **end** with a semi-colon ( ; ).
