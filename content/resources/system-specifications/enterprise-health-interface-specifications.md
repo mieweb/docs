@@ -1,9 +1,9 @@
 ---
 id: '1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
 title: 'Enterprise Health Interface Specifications'
-date: '2026-01-29T18:47:11.078Z'
-version: 4779
-lastAuthor: 'auhrick'
+date: '2026-02-26T21:31:07.485Z'
+version: 4917
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../../features/system-administration/interfaces/sending-hl7-messages-to-system.md'
@@ -50,7 +50,6 @@ links:
   - 'https://www.khinonline.org/Home.aspx'
   - 'https://khie.ky.gov/Pages/index.aspx'
   - 'https://mcir.org/'
-  - 'https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit'
   - 'http://stchome.com/immunization_registry_initiatives.aspx'
   - 'http://stchome.com/'
 source: 'https://drive.google.com/open?id=1dpBE40WHHZcXc2vs9jWtBsoHS-4NiCZPKXLbmG8-HX4'
@@ -330,7 +329,7 @@ MIE supports bidirectional and unidirectional Practice Management systems using 
 * University of Nebraska Medical Center (labs only)
 * Van Wert Hospital (orders only)
 
-## [HR Systems](https://docs.google.com/spreadsheets/d/1VKNub0wfvgoHx3LTbfGrHapcie5zrHq6L-B7XpBHY98/edit#gid=0)
+## HR Systems
 
 * ADP
 * Aptim
