@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2026-02-06T21:22:25.637Z'
-version: 895
+date: '2026-03-02T19:59:10.278Z'
+version: 916
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -454,7 +454,7 @@ A provider Organization partition needs added if it does not already exist, usin
     * <strong>Manage User Patients</strong> = Yes
     * <strong>Rx Manager</strong> = Edit (This is only set if patients need to enter their preferred pharmacy in the Settings of the portal.)
 7. Set the <strong>NMC, Signup, New User Realm</strong> system setting to <em>Patients</em>.
-8. Enable or add <strong>WebChart, NMC, NMC System</strong> system setting by setting the value to <em>1</em> (one).
+8. Check security role permission (for roles that will utilize the portal) for <strong>Limit To Portal</strong>
 9. If clients are not going to utilize both NMC and the patient portal, complete the following:
     * Disable the <strong>E-Chart, Encounters, Show NMC link in view</strong> system setting (i.e., set value to 0).
     * Set <strong>WebChart, Encounters, Send clinical summary to NMC</strong> system setting to <em>-1</em>.
