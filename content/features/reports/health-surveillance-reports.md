@@ -1,8 +1,8 @@
 ---
 id: '16XgocUDbGRvTr8qroJOXucpx0JFi7zBud5e2fsv9jmM'
 title: 'Health Surveillance Reports'
-date: '2026-02-05T18:11:53.899Z'
-version: 401
+date: '2026-03-02T19:14:57.944Z'
+version: 417
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -95,6 +95,8 @@ The other option to checkmark 'Currently Decertified Only' will limit results to
 
 ![](./health-surveillance-reports.assets/3301ee3a277426f7f4bd282f7438e3b7.png)
 
+The search results that display in the datavis output also support mass email action functionality to generate an email for any selected rows, if the logged in user has security permission to *Send Email to Patient*.
+
 ## Panel Action Definition
 
 The Panel Action Definition report displays all triggerable action items of any specified active health surveillance panels. This report can be filtered down to specific panels, as needed. The Panel Action Definition report not only displays active health surveillance panels and action items, but can be utilized to export the data to a DataVis grid or CSV file for further filtering, pivoting, as well as printing, if necessary.
@@ -122,6 +124,8 @@ The Panel Forecast report can be used to determine when a health surveillance pa
 Once the results display in the datavis outputs, further filtering, grouping, graphing, etc can be done.
 
 ![](./health-surveillance-reports.assets/0c849891db6e26f6914627756eb7cd27.png)
+
+The search results that display in the datavis output also support mass email action functionality to generate an email for any selected rows, if the logged in user has security permission to *Send Email to Patient*.
 
 ## Panel Membership by Individual
 
