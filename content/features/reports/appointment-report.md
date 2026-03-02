@@ -1,9 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2025-12-11T14:05:45.556Z'
-version: 225
-lastAuthor: 'janderson'
+date: '2026-03-02T19:12:02.597Z'
+version: 234
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -215,9 +215,9 @@ Click the saved document report template you wish to run. It will open the field
 
 ## Appointments Report - DataVis
 
-The Appointment Report is also available in a DataVis format. The Appointment DataVis Report offers similar filter and result criteria as the standard Appointment Report. The Datavis version of this report is helpful to users needing to pivot, group or count specific appointment information. Users needing to move appointments and/or sending emails should continue to use the legacy Appointment Report.
+The Appointment Report is also available in a DataVis format. The Appointment DataVis Report offers similar filter and result criteria as the standard Appointment Report. The Datavis version of this report is helpful to users needing to pivot, group or count specific appointment information. The search results that display in the datavis output also support mass email action functionality to generate an email for any selected rows, if the logged in user has security permission to *Send Email to Patient*.
 
-![](./appointment-report.assets/d307ab541b0dcc803a08dd380ed51868.png)
+![](./appointment-report.assets/8b928ec44d67b95a64c992c6a1bc9484.png)
 
 ### Report Filters:
 
