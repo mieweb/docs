@@ -1,9 +1,9 @@
 ---
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
-date: '2025-11-10T14:34:06.432Z'
-version: 136
-lastAuthor: 'janderson'
+date: '2026-03-02T19:32:35.822Z'
+version: 144
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/'
@@ -33,6 +33,10 @@ Following is additional information regarding specific fields found on the demog
 * <strong>Death Date</strong>:  You can enter a specific date of death if you have one or simply select Yes to the <em>Is Deceased</em> field.  The system will put a red Death Date in the dark grey patient header to clearly indicate (when working in a chart) that they are deceased. Marking a chart as deceased not only documents it in the chart demographics, but it also prevents those types of charts from showing in certain places in {{% system-name %}}.  For example, if the chart is deceased then the chart won't display in the auto-complete for Patient Name when transcribing; or if a patient is marked as deceased, the patient's name won't display in the auto-complete patient field for making an appointment using the Wizard in the <strong>Scheduler</strong>.
 * <strong>Phone Numbers</strong>:  You can enter phone numbers in international format, if needed.  To enter an international number, first type the plus sign (+) in the field and then continue to type in the international phone or fax number. If you type the plus sign first, there will not be any automatic formatting done to the entry. Otherwise, standard US formatting will still be applied if the plus sign is not entered first.
 * <strong>Country</strong>:<strong></strong> This field is shown above the Postal Code field. The Country field is set to the United States, by default, when a user's Default Location preference has not been set by the logged-in user. The Default Country can also be set system-wide, via a system setting.
+* <strong>Postal Code:</strong> Depending on the Country selected, the system may offer a postal code check if it matches the format for the selected country.  Warning icons will display if the format is incorrect or if the country chosen doesn't have a format check.
+
+![](./editing-demographics.assets/c45d50d4fe8c95d81ee5f6415dacd196.png)
+
 * <strong>Exclude from Quality Care:</strong> This typically gets set to Yes if the chart is a test type chart and you don't want it to be included in reporting or automated jobs, etc.
 * <strong>Temporary Chart</strong>: Default is No and indicates this is a permanent medical record.  This radio button section should be used cautiously. Selecting Yes, indicates the chart is temporary and applies a red banner across the top (once the section is saved) of <em>Warning: Temporary Chart</em>. Some workflows (for example: applicants) may need their chart to be ‘temporary' until permanently hired.
 * <strong>Active Chart</strong>: Default is Yes and indicates this is an active chart.  Active charts can be searched for in various areas of the system. If the chart needs to be marked inactive, simply set it to No. Inactive charts are not searchable from E-Chart in Simple mode but can be searched in the Detailed E-Chart mode. A chart can also automatically be marked inactive by the system if someone chooses to ignore an incoming document in the [Document Queue](https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/).
