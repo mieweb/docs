@@ -1,8 +1,8 @@
 ---
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
-date: '2026-01-05T15:00:44.620Z'
-version: 330
+date: '2026-03-04T18:08:12.854Z'
+version: 338
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -14,7 +14,7 @@ wikigdrive: 'v2.16.0'
 ---
 Clinicians and schedulers are able to book appointments accurately and efficiently by using built-in schedule templates within the system for resources (providers).  Maintaining and utilizing schedules also helps reduce override errors when scheduling appointments.  Resource schedules can be easily maintained in the system from the **Scheduler** sidemenu tab via the **Schedules** tab. Adding, editing, and deleting schedules is a simple process, which also allows for copying or templating for fast and efficient onboarding. Additionally, scheduling resources can be limited, or restricted, if necessary, to assist with efficiency and security purposes.
 
-The **Schedules** tab (if you have security permission to view) will display Active Schedules and Past Schedules. Deleted schedules are removed from the system and not obtainable.
+The **Schedules** tab (if you have security permission to view) will display Active Schedules and Past Schedules. Deleted schedules are visible in a separate section named *Deleted Schedules* beginning in 03-2026RC.
 
 ![](./schedules-tab.assets/a89ec8a8d6ed8b20ef97fc911995461b.png)
 
@@ -100,7 +100,7 @@ For more detailed information on how to edit a schedule in the system, please se
 
 ## Delete a Schedule
 
-A schedule can be deleted from the system entirely from use.  Deleted schedules cannot be reactivated, they are permanently deleted.
+Deleted schedules are visible beginning with 03-2026RC with the ability to see revision history (who deleted a schedule) and ability to undelete.  However, prior to 03-2026RC, any deleted schedules are permanently deleted from the system.
 
 ![](./schedules-tab.assets/a0b6ea2cf3679d9bb18f718754550065.png)
 
@@ -112,9 +112,17 @@ NOTE: If there are existing appointments scheduled within the system that are fo
 
 ![](./schedules-tab.assets/c80420d076aa816155c7cd806c705afb.png)
 
-A message that it *successfully deleted schedule* will display and the schedule has been removed from the system.
+A message that it *successfully deleted schedule* will display.
 
 ![](./schedules-tab.assets/12541c791bb1b1eebdbe6981ed0c38f1.png)
+
+Schedules marked as Deleted are visible in a separate datavis grouping named *Deleted Schedules*.  Since deleted schedules are visible in that grouping (beginning in 03-2026RC), users can view revision history (as to who deleted that schedule) and can undelete a schedule to bring it back to its last revision state.
+
+![](./schedules-tab.assets/f63e3a7270966aff1c73773b53df24cd.png)
+
+To view any deleted schedules (going forward), simply click to expand the datavis grouping named *Deleted Schedules*.  It is collapsed by default.  From within the Deleted Schedules grouping, revision history and ability to undelete is available to users with appropriate security permission.
+
+![](./schedules-tab.assets/eeb58a1cdfc131ebae1b5baba820aa41.png)
 
 For more detailed information on deleting a schedule in the system and/or moving existing appointments off the schedule that needs to be deleted, please see [Schedule Management](https://drive.google.com/open?id=1YLVMv1dXMH2AzPJuyh6cMCVXhZvgGazUbjNePCMCTKY).
 
