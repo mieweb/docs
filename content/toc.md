@@ -272,6 +272,7 @@ wikigdrive: 'v2.16.0'
          * [Injection Tab](features/injection-immunization-management/injection-tab.md)
          * [Injection Tab - Vials](features/injection-immunization-management/injection-tab-vials.md)
          * [Injection Tab with CHIRP Interface](features/injection-immunization-management/injection-tab-with-chirp-interface.md)
+         * [MAR Summary Tab](features/injection-immunization-management/mar-summary-tab.md)
          * [Vaccine Compliance](features/injection-immunization-management/vaccine-compliance.md)
       * Injury Care
          * Case Management

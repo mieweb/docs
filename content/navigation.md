@@ -290,7 +290,7 @@ links:
   - 'features/injection-immunization-management/injection-program-tab-recording-mass-injections.md'
   - 'features/injection-immunization-management/injection-editor.md'
   - 'features/injection-immunization-management/vaccine-compliance.md'
-  - 'https://drive.google.com/open?id=1deF2Pf3zhtaomiPmMqyl3-NxS36m3MwjwrVZnaMcRlc'
+  - 'features/injection-immunization-management/mar-summary-tab.md'
   - 'features/task-management.md'
   - 'features/task-management/task-list.md'
   - 'features/task-management/adding-tasks.md'
@@ -1097,7 +1097,7 @@ wikigdrive: 'v2.16.0'
         * [Injection Program Tab - Recording Mass Injections](features/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
         * [Injection Editor](features/injection-immunization-management/injection-editor.md)
         * [Vaccine Compliance](features/injection-immunization-management/vaccine-compliance.md)
-        * [MAR Summary Tab](https://drive.google.com/open?id=1deF2Pf3zhtaomiPmMqyl3-NxS36m3MwjwrVZnaMcRlc)
+        * [MAR Summary Tab](features/injection-immunization-management/mar-summary-tab.md)
     * [Task Management](features/task-management.md)
         * [Task List](features/task-management/task-list.md)
         * [Adding Tasks](features/task-management/adding-tasks.md)
