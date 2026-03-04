@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-02-04T17:06:19.564Z'
-version: 1973
-lastAuthor: 'wreiske'
+date: '2026-03-04T17:40:04.709Z'
+version: 2011
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -290,6 +290,7 @@ links:
   - 'features/injection-immunization-management/injection-program-tab-recording-mass-injections.md'
   - 'features/injection-immunization-management/injection-editor.md'
   - 'features/injection-immunization-management/vaccine-compliance.md'
+  - 'https://drive.google.com/open?id=1deF2Pf3zhtaomiPmMqyl3-NxS36m3MwjwrVZnaMcRlc'
   - 'features/task-management.md'
   - 'features/task-management/task-list.md'
   - 'features/task-management/adding-tasks.md'
@@ -1096,6 +1097,7 @@ wikigdrive: 'v2.16.0'
         * [Injection Program Tab - Recording Mass Injections](features/injection-immunization-management/injection-program-tab-recording-mass-injections.md)
         * [Injection Editor](features/injection-immunization-management/injection-editor.md)
         * [Vaccine Compliance](features/injection-immunization-management/vaccine-compliance.md)
+        * [MAR Summary Tab](https://drive.google.com/open?id=1deF2Pf3zhtaomiPmMqyl3-NxS36m3MwjwrVZnaMcRlc)
     * [Task Management](features/task-management.md)
         * [Task List](features/task-management/task-list.md)
         * [Adding Tasks](features/task-management/adding-tasks.md)
