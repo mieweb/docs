@@ -1,8 +1,8 @@
 ---
 id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 title: 'Batched Documents - Printing, Faxing, Burning'
-date: '2025-11-25T16:58:38.729Z'
-version: 122
+date: '2026-03-06T18:24:32.775Z'
+version: 152
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -13,7 +13,7 @@ wikigdrive: 'v2.16.0'
 ---
 ## Adding a Document to a Batch
 
-Batching is a quick way to add multiple documents into a batch to be printed or faxed or burned to a cd. It is a batch of documents to be rendered from any patient(s). This is a way to print, fax or burn multiple documents for any patient or multiple patients instead of printing/faxing/burning one individual document at a time.
+Batching is a quick way to add multiple documents into a batch to be printed or faxed or burned to a cd or emailed. It is a batch of documents to be rendered from any patient(s). This is a way to print, fax, burn or send multiple documents for any patient or multiple patients instead of printing/faxing/burning/sending one individual document at a time.
 
 Batching is specific to your username. It will not show documents that are currently batched by another user. Batching & removing is specific to your logged in username.
 
@@ -25,7 +25,7 @@ When you are in a specific patient's chart and find and open the specific docume
 
 ![](./batched-documents-printing-faxing-burning.assets/4615062a62c5fb0e4fb45d0b4a2e9dfd.png)
 
-As soon as you click Batch it will change this word to remove. You can click remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax/burn batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print or fax the batch or remove all documents from the batch.
+As soon as you click Batch it will change this word to remove. You can click remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax/burn/send batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print/fax/burn/send the batch or remove all documents from the batch.
 
 ![](./batched-documents-printing-faxing-burning.assets/606ae95ec43ea538af56727a00430b81.png)
 
@@ -41,19 +41,19 @@ When you are in a specific patient's chart and are looking at documents using th
 
 ![](./batched-documents-printing-faxing-burning.assets/d036176ad1d95724abe0fa0ccbe2e0ff.png)
 
-As soon as you click Batch it will change this word to Remove. You can click Remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print or fax or burn the batch or remove all documents from the batch. If you already have batch(es) created, the individual document will be placed with the most recent created batch.
+As soon as you click Batch it will change this word to Remove. You can click Remove to undo what you just did. Meaning, remove it from the batch. When you click Batch, it automatically puts it into the print/fax batching. You can see this in your worklist summary at the very top of the {{% system-name %}} screen. It shows you how many items you have batched so far. This Batch summary remains there at the top until you print or fax or burn the batch or remove all documents from the batch. If you already have a batch created, the individual document will be placed with the most recent created batch.
 
-## Printing, Faxing, or Burning from a Batch
+## Printing, Faxing, Burning or Sending from a Batch
 
-The worklist summary consists of any outstanding e-signs that need to be completed by you, any outstanding tasks need to be completed by you, or any open batches that you have compiled. This summary always appears at the top of your work screen (if you have anything outstanding to do in your worklist) then you can click the Print or Fax or burn link here from any menu, module, chart, etc. (If the worklist summary does not appear here, then you have no batched documents, no tasks to do and no e-signs to complete).
+The worklist summary consists of any outstanding e-signs that need to be completed by you, any outstanding tasks need to be completed by you, or any open batches that you have compiled. This summary always appears at the top of your work screen (if you have anything outstanding to do in your worklist) then you can click the Print or Fax or Burn or Send link here from any menu, module, chart, etc. (If the worklist summary does not appear here, then you have no batched documents, no tasks to do and no e-signs to complete).
 
 ![](./batched-documents-printing-faxing-burning.assets/94d1f016a5ceb26734632e67a9cd3e7f.png)
 
-To print or fax a batch, click on the Print or Fax or Burn link in your worklist summary.
+To print/fax/burn/send a batch, click on the Print or Fax or Burn or Send link in your worklist summary.
 
 ![](./batched-documents-printing-faxing-burning.assets/2392c03d27cdb4a2239b3052f414475b.png)
 
-You will then be taken to the Print Mode screen, Fax Mode screen or Burn Mode screen to complete and close your append job. If you chose to burn the batch, your screen will appear as this:
+You will then be taken to the Print Mode screen, Fax Mode screen, Burn Mode screen, or Send Mode screen to complete and close your append job. If you chose to burn the batch, your screen will appear as this:
 
 ![](./batched-documents-printing-faxing-burning.assets/d86bca9df3a9527a20525259a3da1394.png)
 
@@ -65,7 +65,7 @@ If you chose to fax the batch:
 
 ![](./batched-documents-printing-faxing-burning.assets/0d0ddaa0286348109ad24215566cadaa.png)
 
-For explanations on each check-box or field, see the separate help instructions titled Printing Documents or and/or Faxing Documents. For instructions on burning a batch, see page 5 of this help instruction document.
+For explanations on each check-box or field, see the separate help instructions titled Printing Documents or and/or Faxing Documents. For instructions on burning or sending a batch, see the information below.
 
 In the **Send To** section you will see your number of items in the batch you created. It also displays the date & time the first document was placed in the batch.
 
@@ -124,3 +124,15 @@ The disk can be read by any PC (computer), as the necessary software is actually
 If "autorun" is not set up for the PC (computer), then you can explore the disk, and double click on the MeFilmLt.exe, and follow the directions on the screen.
 
 ![](./batched-documents-printing-faxing-burning.assets/1b56e174c72f826c6671bcc4c61d65a1.png)
+
+### Sending a Batch
+
+When you click Send, the Send Batch window will display. The subject field automatically is set to Batch documents attached and the from address displays automatically, as well. The Recipient field and the Employer field are autocompletes that will allow for searching to set where the email is sent. If multiple contacts exist on the Employer chart, they will display below the Employer field and you can select one contact or more than one.
+
+![](./batched-documents-printing-faxing-burning.assets/1de4c4e1e693d2b7f118a7b1ea78354e.png)
+
+To show what documents make up the batch, click the plus icon.
+
+![](./batched-documents-printing-faxing-burning.assets/cea16d9423948c4d14bf700d9ad40d69.png)
+
+You can remove the documents that were added in error by clicking the red x's under the Remove column. Click the Send button when ready to email the batch.
