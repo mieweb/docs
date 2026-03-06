@@ -1,25 +1,6 @@
 #!/bin/bash
 set -eo pipefail
 
-# Check for pandoc (required for some markdown files)
-if ! command -v pandoc >/dev/null; then
-  echo "pandoc not found, attempting to install..."
-  if [[ -n "$CF_PAGES" ]]; then
-    # Cloudflare Pages build environment
-    apt-get update && apt-get install -y pandoc
-  elif [[ "$OSTYPE" == "darwin"* ]]; then
-    brew install pandoc || echo "Warning: Could not install pandoc"
-  elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    if [[ -e /usr/bin/apt-get ]]; then
-      sudo apt-get update && sudo apt-get install -y pandoc
-    else
-      sudo yum install -y pandoc || echo "Warning: Could not install pandoc"
-    fi
-  else
-    echo "Warning: pandoc not installed. Some pages may not render correctly."
-  fi
-fi
-
 HUGO_RUN=""
 OPTS=""
 BASE_URL="/"
