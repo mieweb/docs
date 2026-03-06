@@ -2,7 +2,7 @@
 id: '1J0bDKTGYlGAEqJraL-CUB3x3d976F4lBdUCSRKpIv2Q'
 title: 'Interfaces'
 date: '2024-10-07T21:23:42.620Z'
-version: 36
+version: 38
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1FVIc0ethQ9im8Nf1LfxHlcEkQ-hIR8YPlHZbNHxzHm0'
 title: 'Managing Departments'
 date: '2026-02-11T17:05:43.609Z'
-version: 172
+version: 179
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

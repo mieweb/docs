@@ -2,7 +2,7 @@
 id: '1B74_VEb4SmEacJalkdMJK1mmi6Q7JlwihSSVh7DS7DA'
 title: 'AlternaTIFF ActiveX Control for WebScan'
 date: '2025-11-13T16:13:29.161Z'
-version: 76
+version: 77
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

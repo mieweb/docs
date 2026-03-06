@@ -2,7 +2,7 @@
 id: '1sx8e5pwAAZRDCzbNAUyfOvC7x62WXN2QZ_py6eEL1rQ'
 title: 'Ozwell AI Assistant'
 date: '2026-02-12T14:10:05.815Z'
-version: 265
+version: 271
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

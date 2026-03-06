@@ -2,7 +2,7 @@
 id: '1A8PHeRveLK4ulUwZxjvEyWvkRIGM2vjyvo8vaDGuDe4'
 title: 'Setup Custom Pharmacy'
 date: '2026-01-06T20:39:42.974Z'
-version: 40
+version: 42
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

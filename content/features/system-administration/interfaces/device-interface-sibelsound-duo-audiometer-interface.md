@@ -2,7 +2,7 @@
 id: '131YicB_hnu1AmWAnFhVw0aW7Gue1nwI2HHncKBMWLjI'
 title: 'Device Interface - Sibelsound Duo Audiometer Interface'
 date: '2025-09-08T19:26:49.708Z'
-version: 38
+version: 39
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
