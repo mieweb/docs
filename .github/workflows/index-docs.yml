@@ -7,7 +7,7 @@ on:
     types:
       - completed
     branches: [master]
-  
+
   # Manual trigger
   workflow_dispatch:
     inputs:
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only run if the triggering workflow succeeded, or if manually triggered
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,6 +42,11 @@ jobs:
         with:
           node-version: '22'
           cache: 'npm'
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
 
       - name: Install dependencies
         run: npm ci
