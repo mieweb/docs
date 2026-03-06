@@ -27,4 +27,29 @@ then
   fi
 fi
 
+# Install pandoc for markdown processing
+if ! command -v pandoc >/dev/null
+then
+  echo "Not found: pandoc, installing"
+  if [[ -n "$CF_PAGES_URL" ]]
+  then
+    # Cloudflare Pages - use apt
+    apt-get update && apt-get install -y pandoc
+  elif [[ "$OSTYPE" == "darwin"* ]]
+  then
+    brew install pandoc
+  elif [[ "$OSTYPE" == "linux-gnu"* ]]
+  then
+    if [[ -e /usr/bin/apt-get ]]
+    then
+      sudo apt-get update && sudo apt-get install -y pandoc
+    else
+      sudo yum install -y pandoc
+    fi
+  elif [[ "$OSTYPE" == "msys" ]]
+  then
+    echo "Windows detected - install pandoc manually: winget install pandoc"
+  fi
+fi
+
 npm ci
