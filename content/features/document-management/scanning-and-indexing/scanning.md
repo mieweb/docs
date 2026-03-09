@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2025-11-10T17:55:18.088Z'
-version: 421
-lastAuthor: 'janderson'
+date: '2026-03-09T15:28:51.752Z'
+version: 430
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
@@ -20,7 +20,7 @@ In order to access and use WebScan, users must have the appropriate security per
 
 To begin using the WebScan capabilities, first click the **WebScan** sidemenu option.
 
-Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *New* batches shown below, in the list view. *New* batches are simply batches of scanned documents that need indexed into the appropriate charts.
+Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *Pending* batches shown below, in the list view. *Pending* batches are simply batches of scanned documents that need indexed into the appropriate charts.
 
 ![](./scanning.assets/6d2dc2a0c9f51d9e33e8333cd4e75578.png)
 
@@ -90,7 +90,7 @@ Users may close a batch by clicking the **X** icon from the Batch Upload windo
 
 ### Upload a Batch
 
-To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the New batch status list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
+To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the Pending batch status list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
 
 ![](./scanning.assets/62686b7b65ca7102e28e4b70fbf724bf.png)
 
@@ -103,7 +103,7 @@ To upload and index the scanned documents, click the **Upload and Index** butt
 ![](./scanning.assets/64310a1a06cad86013289f9a2e373826.png)
 
 {{% tip %}}
-If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan *New* batch status for indexing later.
+If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan *Pending* batch status for indexing later.
 
 ![](./scanning.assets/33e037d0581e7997846a194ef9b0087f.png)
 {{% /tip %}}
