@@ -2,7 +2,7 @@
 id: '1Ed1w6YtNTDw7vLOlc6tidUSvPCZMndbMNf02HtIfpAs'
 title: 'Batched Documents - Printing, Faxing, Burning'
 date: '2026-03-06T18:24:32.775Z'
-version: 152
+version: 156
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
