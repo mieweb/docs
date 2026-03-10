@@ -1,9 +1,9 @@
 ---
 id: '1xWR8UvNro2Aic07QeoMCZ36-vWg81dasBtovoe9FLg0'
 title: 'Conditions'
-date: '2025-07-15T16:34:31.606Z'
-version: 403
-lastAuthor: 'auhrick'
+date: '2026-03-10T18:39:14.650Z'
+version: 436
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LAGIDNHR'
@@ -71,7 +71,7 @@ Once you are in the Conditions module, you will see the patient's *Problem List,
 
 Providers can alter the condition within the Past Medical History section of the Encounter which can alter where the condition falls in the above sections.
 
-![](./conditions.assets/825a856b7ef7d8d644348deb2d38c871.png)
+![](./conditions.assets/d22bd9071fce195f8189524189ca225c.png)
 
 ## Documenting a Condition for a Patient
 
@@ -85,7 +85,7 @@ Once the Quick List displays, click the Plus icon to Add a Condition
 
 The Add Condition window displays to enter the new condition for the patient.
 
-![](./conditions.assets/f40367b808d74f3ce96f637ac8ab413d.png)
+![](./conditions.assets/6bbf50d025dd23f968a97938f93f07a6.png)
 
 * <strong>Condition Name:</strong> Free-text type the condition name or ICD10 code. It will auto-complete your text to give you choices and you can highlight a choice or you can continue to free-text in a condition. Conditions shown <em>in italics as light grey</em> are non-billable ICD codes from the ICD tables we integrate with. This is a system setting that can be set to different settings to totally hide any conditions they state are non-billable or to leave all conditions as shown. First Databank (FDB), is the provider database of these ICD-10 codes.
 * <strong>Problem List:</strong> By selecting ‘Yes', the condition is added to the Problem List of the patient conditions.
@@ -152,7 +152,7 @@ If you need to edit or delete a condition for a patient, simply click into the C
 
 The Edit Condition screen will open in a pop-up window. When the *Edit Condition* window appears, you can change any field you need to for this specific condition you selected or type notes into document a reason for deleting or editing, etc. You will see the date the condition was entered and the date(s) any modifications/edits were done to this condition entry from this screen too.
 
-![](./conditions.assets/ca1583c7ad8329ad738258c00652d1c2.png)
+![](./conditions.assets/d22bd9071fce195f8189524189ca225c.png)
 
 Select the submit function you wish to perform:
 
@@ -165,7 +165,7 @@ After you have clicked one of the function buttons, it will then take you back t
 
 Beginning in RC202403, users will be able to view Incident/cases linked to conditions when in Edit Condition mode. When in Edit Condition, the associated incident/case will display beneath the condition name. If an incident/case is not linked to the condition, the **Case** field is completely hidden and not viewable to the end user.  Users will continue to be able to click on View Links to view and navigate quickly to linked encounters, incidents and assessments.
 
-![](./conditions.assets/44fc8818e4d02e97a684d2bd431fae25.png)
+![](./conditions.assets/927ae577fb16dc9a30d98c329659cf4d.png)
 
 To delete a condition, hover over the condition and click on the delete icon.
 
@@ -173,7 +173,7 @@ To delete a condition, hover over the condition and click on the delete icon.
 
 Select the Reason for the deletion from the Remove Condition pop-up window. Once the documentation on the deletion is completed, click on the Remove button.
 
-![](./conditions.assets/3cd637d78a9388a660cd8b2ef9c7a7cf.png)
+![](./conditions.assets/bc226e2f36c1a4539ee779268e7c6f95.png)
 
 ### Concluding an Active Patient Condition
 
@@ -185,7 +185,7 @@ To conclude a condition, find the specific condition and hover over it until the
 
 The Edit Condition screen will open in a pop-up window. Add the Concluded Date if it is different from today's date. Click the Resolve Now button and the condition will be marked as ‘Inactive/Resolved'. It will move from the Problem List to the Past Medical History section. A Concluded Date will be added with either the date entered manually or today's date if none was entered.
 
-![](./conditions.assets/e00ef469bb04039318f95f95d8965148.png)
+![](./conditions.assets/a2dfc9b163803a49b5a5e6a166633487.png)
 
 ### Edit, Delete, or Activate a Concluded Condition
 
@@ -193,13 +193,13 @@ If you need to edit, delete or reactivate a concluded condition for a patient si
 
 To edit, delete or activate a concluded condition, find the specific concluded condition and simply hover over the condition until the icons appear. Click on the Pencil icon to Edit or Activate a condition. Click on the Delete icon to Delete a condition.
 
-![](./conditions.assets/87db8b0f570e5c6dbd67a872137d44e8.png)
+![](./conditions.assets/23b4cf97ccf50f5fda67f583ce850f16.png)
 
 If you click on the Pencil icon to Edit, the Edit Condition pop-up window appears.
 
 You can change any field you need to for this specific condition you selected or type notes in to document a reason for deleting, editing, or re-activating.
 
-![](./conditions.assets/82bd4053d87b872a2cb59c6623976941.png)
+![](./conditions.assets/89d859e83a4c838b1a4eb4dcf625b94e.png)
 
 Select the submit function you wish to perform.
 
@@ -237,11 +237,11 @@ After you have clicked one of the function buttons, it will then take you back t
 
 To view a Condition link, click on the Condition tab from the patient chart. Hover over the condition you wish to view the link until the icons display. Click on the Pencil icon.
 
-![](./conditions.assets/b1702597edcbc9646ea13a17e25ae1f7.png)
+![](./conditions.assets/ba97191322bd32aff474d3a22a52be6f.png)
 
 The Edit Condition window will open. Click on the View Links link. The links to encounters and documents will display. Click on any one you wish to display.
 
-![](./conditions.assets/bf2aba701f7c30ddbdf6c20467e85cb9.png)
+![](./conditions.assets/dfe9510e4b52731468a7ca2e6048f267.png)
 
 ## Learning Management System
 
