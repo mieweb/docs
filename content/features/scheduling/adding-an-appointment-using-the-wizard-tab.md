@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2025-11-25T17:08:28.237Z'
-version: 571
+date: '2026-03-11T17:07:29.242Z'
+version: 580
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -47,9 +47,9 @@ Any linked encounters to an appointment, will display in the scheduler module if
 ![](./adding-an-appointment-using-the-wizard-tab.assets/c027d709328c56e1e54c0de7ced7f8d3.png)
 {{% /note %}}
 
-* <strong>Select Incident:</strong> this selection box will show any existing active (open) cases/incidents for this patient's chart.  You can link any open case/incident to the appointment you are creating.  The list of open cases/incidents available to link, will display the case number, type and onset of injury/illness. When you are adding or editing an appointment, you can link an open case/incident to that appointment if needed or if workflow appropriate. Clients on release RC202503 or newer will also be able to see a Case Related Information section at the bottom of the scheduler with more information regarding the selected case.
+* <strong>Select Incident:</strong> this selection box will show any existing active (open) cases/incidents for this patient's chart.  You can link any open case/incident to the appointment you are creating.  The list of open cases/incidents available to link, will display the case number, type, onset of injury/illness, body part affected and the claim number. When you are adding or editing an appointment, you can link an open case/incident to that appointment if needed or if workflow appropriate. Clients on release RC202503 or newer will also be able to see a Case Related Information section at the bottom of the scheduler with more information regarding the selected case.
 
-![](./adding-an-appointment-using-the-wizard-tab.assets/3dab9f27c8d4714561267ba43efe696f.png)
+![](./adding-an-appointment-using-the-wizard-tab.assets/41a78c0dc4b6004ac3ebc13105b4ef56.png)
 
 * <strong>Select Due List Items:</strong> this selection box will show any pending due list items that are not marked as ‘scheduled'.  You can link any pending due list items to the appointment you are creating.  The list of pending due list items available to link, will display the due list item name and its due date.  When you are adding or editing an appointment, you can link a pending due list item to that appointment if needed or if workflow appropriate.
 
