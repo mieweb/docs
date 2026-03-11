@@ -1,8 +1,8 @@
 ---
 id: '1dNxNSz-5WVkajvcEu_75ZhfFvTKftvREPAvop7CLRMc'
 title: 'Add Document - Legacy View vs. Current View'
-date: '2026-02-23T15:26:43.666Z'
-version: 157
+date: '2026-03-11T15:03:42.566Z'
+version: 166
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -32,9 +32,11 @@ Once the Options link is clicked, a pop-up window will display the most commonly
 
 ## Current View
 
-On RC 092024 and newer, the **Add Document** screen has been updated to include a hide/show link in the **All Types** section. The hide/show link will default to hidden. Simply clicking on the **Show** link will display all documents available from the selected filter.  Users may still set their *Document Add Filter* preference in **My Settings**, use the autocomplete to search for documents and build/select documents from the **Most Common** list.
+On RC 092024 and newer, the **Add Document** screen has been updated to include a hide/show link in the **All Types** section. The hide/show link will default to hidden. Simply clicking on the **Show** link will display all documents available from the selected filter. Once a user selects the **Show** link, the documents list will display even if they click away from the Add Document screen. If a user wants to hide the list again, they can click on the **Hide** link. Users may still set their *Document Add Filter* preference in **My Settings**, use the autocomplete to search for documents and build/select documents from the **Most Common** list.
 
-![](./add-document-legacy-view-vs.-current-view.assets/f5e32e9837e6ff59ec69e284b83f4dae.png)
+![](./add-document-legacy-view-vs.-current-view.assets/dd157e8897d43b71fd62c872556cf1c2.png)
+
+![](./add-document-legacy-view-vs.-current-view.assets/8ee32a453644dc7b923edc0b0d24ca33.png)
 
 The Add Document library view is determined by the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) *Document Add Filter* preference. By default, the setting is **All**, though users may choose to update the view. Changing this setting will only affect the logged-in user. To set the *Document Add Filter* view, navigate to the [My Settings](https://docs.enterprisehealth.com/functions/system-administration/security/my-settings/) tab of the **Control Panel** sidemenu and change the setting accordingly.
 
