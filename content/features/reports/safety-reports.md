@@ -1,8 +1,8 @@
 ---
 id: '1sFH8kq31zcYpQP02bncYToNOhPotamh6fcIu4misxgA'
 title: 'Safety Reports'
-date: '2026-02-20T16:21:58.364Z'
-version: 231
+date: '2026-03-11T14:26:54.817Z'
+version: 239
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -83,9 +83,9 @@ To better understand the search filter fields available, review the [Common Case
 
 The Department of Labor (DOL) Occupational Safety and Health Administration (OSHA) Injury Tracking Application (ITA) provides a system to securely access and submit information related to workplace injuries. The application is being enhanced to begin collecting details on individual injury and illness cases. Our OSHA 300/301 Case Data Report is a method to produce a large data output to bulk upload larger data sets using API endpoints. This report provides the fields that make up the body of most of the Request API calls involving the Case Data form. This OSHA 300/301 Case Data Report will pull OSHA recordable cases/incidents for the PRIOR year of the current logged in session. Meaning, it will look for any OSHA recordable cases/incidents that have an onsite injury/illness date of the prior year to today's logged in date, will result here with related case/incident details. This report is easily downloadable into a CSV format to help with self electronic reporting needs.
 
-More information from OSHA is at https://www.osha.gov/injuryreporting
+![](./safety-reports.assets/0a46ef53c9615f791ada0bb2c183c6ff.png)
 
-![](./safety-reports.assets/1287e1fd34e8705bec0fe3f21c2d9d5b.png)
+More information from OSHA is at https://www.osha.gov/injuryreporting
 
 To better understand the OSHA 300/301 Case Data Report, review the [OSHA 300/301 Case Data Report ](osha-300-301-case-data-report.md)online help documentation.
 
