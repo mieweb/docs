@@ -1,9 +1,9 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2026-03-09T15:28:51.752Z'
-version: 430
-lastAuthor: 'anichols'
+date: '2026-03-11T16:08:08.374Z'
+version: 443
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
@@ -50,6 +50,13 @@ Batch Upload screen in release 202403 and newer:
 
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
+
+{{% note %}}
+When a user clicks the Scan button and an Applications Needed pop-up window displays, the MIE SSL App needs to be installed. For systems on RC 202603 and newer, this Applications Needed window is customizable.
+
+![](./scanning.assets/1a10df0516f00fbef46162b999d40b63.png)
+{{% /note %}}
+
 9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong> Icons, users may view the documents of the batch.
 
 ![](./scanning.assets/a180f3d7943b506a4fdfb661a4217fef.png)
