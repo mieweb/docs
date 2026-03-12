@@ -1,15 +1,15 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2026-02-18T18:58:48.411Z'
-version: 640
-lastAuthor: 'auhrick'
+date: '2026-03-12T13:39:07.490Z'
+version: 665
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/security/compare-security-roles/'
   - 'https://mie.talentlms.com/shared/start/key:LTEIDNHR'
 source: 'https://drive.google.com/open?id=1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
-wikigdrive: 'v2.15.30'
+wikigdrive: 'v2.16.0'
 ---
 The {{% system-name %}} system is HIPAA compliant and the role based access control security determines who can access the EHR system, and which features of the system the staff member may use. The {{% system-name %}} administrator can allow or limit staff access to patient information, lab results and {{% system-name %}} modification features. Security roles can be defined for an entire department such as physicians, reception, outside guests such as hospitals, or roles can be customized individually.
 
@@ -109,7 +109,9 @@ The Individual Security settings screen for that user will open. Select any secu
 * Limited to Default Tab:  This restricts users in a security role to only be able to view the tab/module that is set as the ‘selecting folder' in My Settings for each user.  A user will not be able to access any other tabs/modules.
 * Patient Relationships: If set to View, users can only view patient relationships. If set to Edit, users can edit and end relationships. If set to Delete, users can do all the aforementioned and also delete patient relationships.
 * Limited to Restricted Items: Setting to ‘No' allows the user to access everything unless they (or dept) are specified to be restricted from a specific doc.type, document, chart tab, or encounter type. This also applies to adding documents, and Print definitions now.That is the default. Setting to ‘Yes' limits the user from accessing no doc.types, documents, chart tabs, or encounter types.  They (or dept) must be specifically "allowed" to a doc.type, chart tab, or encounter type in order to see it. This setting allows a user to be marked ‘restricted' and only enable the certain things they should be able to see (doc.type, chart tab or encounter type, visit types).
-* Limit DOB: Restricts the user from viewing a patient's DOB/Age Restricts in listviews and autocompletes, Document Queue, pocket mode, headers, etc.
+* Limit DOB: Restricts the user from viewing a patient's DOB/Age Restricts in listviews and autocompletes, Document Queue, pocket mode, headers, Super Search, etc.
+    * Yes: User is restricted from viewing a patient's date of birth
+    * No: User is not restricted from viewing a patient's date of birth
 * Demographics: The Demo screen (1st tab) on a patient's E-chart shows summary info of that patient, address, etc.
     * No Access: No access to the demo screen when a patient's chart is open.
     * View: Can view demo screen on patient's chart, but can't modify it.
@@ -353,7 +355,7 @@ The Individual Security settings screen for that user will open. Select any secu
 * Manage Relationship Types: Allows users to add/edit/delete Relation Types within the System Editor in the Control Panel
 * Purge Charts: Allows purging of requested charts from Charts to Purge report. Note: Full access grants overriding built-in restrictions.
 * Manage Admin Codes: Allows user to add/edit/delete Admin Codes (for class, company, facility, and status of demographics system wide options) within the System Editor in the Control Panel
-* JSON API Realtime: Choose "Yes" for the most up-to-date data (Run from the primary server), or "No" to reduce server load by using a backup database (run from the replication database server.
+* JSON API Realtime: Choose "Yes" for the most up-to-date data (run from the primary server), or "No" to reduce server load by using a backup database (run from the replication database server).
 * Read JSON API Log: Allows user to read the JSON API log
 * Configure JSON API Logging: Allows user to configure JSON API logging when a JSON API request is done with the system setting enabled and the golden ticket for additional information appears in the response dev_messages
 * View Administrator Help: Allows users to see online help content of additional information specific to Administrators within an ==Administration heading.
