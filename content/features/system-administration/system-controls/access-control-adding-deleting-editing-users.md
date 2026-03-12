@@ -1,8 +1,8 @@
 ---
 id: '1LTusqsZZWBwb5luysWoX59iHdj6vpnDi3hwYnu6ikPo'
 title: 'Access Control - Adding, Deleting, Editing Users'
-date: '2025-11-11T21:03:10.869Z'
-version: 343
+date: '2026-03-12T16:28:11.869Z'
+version: 359
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -42,6 +42,8 @@ Click the GO box to the right.
 
 The system will then show your search results below the search fields on the screen. It will display any matches to the specific search and by category you selected.
 
+![](./access-control-adding-deleting-editing-users.assets/9a27746bbbda2a688162295844891c42.png)
+
 If you do not find the user already entered into the system, continue to add them as a new user.
 
 Per Medical Informatics Engineering, Inc. policy, all *new* *providers* should be created with a new, unique user chart and account. Provider user accounts should NEVER be reused or recycled for any reason.
@@ -71,10 +73,7 @@ When adding a user, fill out all the fields you can:
 ### Edit User Screen
 
 * <strong>Username</strong> (first initial and last name all together and in lowercase) This will be their login name.
-* <strong>Alias:</strong> Anything typed here will be shown in the authored by field of any document created/uploaded and printed/faxed etc. Sometimes a client or user doesn't want their full name to show in document headers or in stored documents, etc so they enter either only their first name here, or initials here, etc. The Authored By field looks and pulls the alias field first. If nothing is entered in the alias field, it will pull the user's full legal name. The below screenshot is an example. Example: Albert Aorta does not have anything entered into his alias field, so any document he creates, indexes, uploads, etc is stored by his full name. Example: alex someone who entered alex in for their alias field and  {{% system-name %}} stores documents created by this person, uploaded, indexed, etc by his/her alias name/field since something is entered into that field.
-
-![](./access-control-adding-deleting-editing-users.assets/7fa4377cee3cabd84c47c3f6974ea0cc.png)
-
+* <strong>Alias:</strong> Anything typed here will be shown in the authored by field of any document created/uploaded and printed/faxed etc. Sometimes a client or user doesn't want their full name to show in document headers or in stored documents, etc so they enter either only their first name here, or initials here, etc. The Authored By field looks and pulls the alias field first. If nothing is entered in the alias field, it will pull the user's full legal name.
 * <strong>Primary Dept</strong>: Chose the PRIMARY department for this user using the drop-down arrow.
 * <strong>Organization:</strong> Type the name of your facility/practice/company.
 * <strong>Current Status:</strong> Should be default to <em>Active</em> when adding a new user. If the user is considered active, then a username and login password must be entered. Users that will not access the system (example: Pharmacy names/fax #'s, etc) would be status of Login Disabled. No password would need to be entered for non-accessing (disabled) users.
@@ -154,7 +153,7 @@ This will pop-up any matches to that last name (or first few letters of the last
 
 ![](./access-control-adding-deleting-editing-users.assets/264f675e32044af4050ef0167ae12efc.png)
 
-Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There is also links in the summary to view when the user's last login failed and when the user last logged in.
+Once your results produce, click on the underlined username (on the left column) that you want to edit or view. This pops up the summary screen of this user's information. You can view all the information for that user. There are also links in the summary to view when the user's last login failed and when the user last logged in.
 
 ![](./access-control-adding-deleting-editing-users.assets/1ce80e5076339bfeff818f88094e659a.png)
 
@@ -245,6 +244,12 @@ If you have security role permission, this link will appear. You can click this 
 #### View User Revisions
 
 If you have security role permission, this link will appear. You can click this link to view dates and who revised anything for that user in their user screen.
+
+#### Date Entered
+
+The user search results grid displays the account creation date in the "Date Entered" column. This behavior matches the behavior of the "View User" page.
+
+![](./access-control-adding-deleting-editing-users.assets/6f7ad3fc3cd07b9ec1b968417784339a.png)
 
 #### My Setting: New User View
 
