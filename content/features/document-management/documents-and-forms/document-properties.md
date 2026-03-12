@@ -1,9 +1,9 @@
 ---
 id: '1_uR3XH1DoBCrzV-nBO46Gq46zuqB1PBRe7-FYjGan4s'
 title: 'Document Properties'
-date: '2025-01-28T23:04:57.085Z'
-version: 163
-lastAuthor: 'anichols'
+date: '2026-03-12T17:30:26.103Z'
+version: 169
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'link-documents-to-order-requests.md'
@@ -92,6 +92,12 @@ If any revisions have been done to the document, the *Revisions for Document* se
 To view and compare revision versions, or the different versions of the document in context, simply use the **Diff** checkboxes and **View Diff** button. Checkmark which revisions to compare differences between by selecting the appropriate Diff checkboxes. Once the revisions being compared are selected, click the View Diffs button. This button allows for a visual comparison of the changes made between revisions.The changes will be highlighted on the screen for easy viewing.
 
 ![](./document-properties.assets/9bddc45b8989ba7d97cfb1bd0dfaecba.png)
+
+Audio and PFT documents archive the view of the HTML document when an update is made. This allows for reviewing the contents of the document in the past and comparing differences. This will only affect documents going forward and will not allow comparisons for existing documents. Revisions can be viewed by navigating to the document properties, selecting the revision to view (selecting the "DIFF" box on the revision line item), then selecting the "View Diffs" button.
+
+![](./document-properties.assets/d90d109dd675f05c39e3bde11775a49b.png)
+
+![](./document-properties.assets/b3c05806c2d13a54dee4f36b7c0e31c5.png)
 
 {{% note %}}
 The Diff checkbox will only be available for supported storage types. Examples of supported storage types would be text documents, word documents, or encounter exams. Unsupported storage types include images, PDFs, and the like. If the storage type is unsupported, the checkbox will not be available to select.
