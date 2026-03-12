@@ -1,8 +1,8 @@
 ---
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
-date: '2025-11-25T17:53:47.769Z'
-version: 177
+date: '2026-03-12T14:36:03.390Z'
+version: 190
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -98,6 +98,10 @@ A new My Settings user preference called "Use Medication Quick Notes" is availab
 Presenting Medications list view after marking a medication as Taking, Not Taking/PRN, Unknown or Discontinued.
 
 ![](./presenting-medications-encounter-section.assets/50d4a4de55f7e17d749ee7f1583a5f48.png)
+
+Discontinued medication will retain their previous medication reconciliation status until after their discontinued date.
+
+![](./presenting-medications-encounter-section.assets/ecb8073338a5a6fc69ae0f1ec2013926.png)
 
 ## Using the Presenting Medications Quick List
 
