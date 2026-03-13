@@ -1,9 +1,9 @@
 ---
 id: '1OT1DksCGhaN10pyrC0PsDh5DAj7IDhSAFsgANe0Ru54'
 title: 'Health Surveillance Panels - Actions'
-date: '2025-04-08T19:45:07.066Z'
-version: 265
-lastAuthor: 'anichols'
+date: '2026-03-13T15:00:41.901Z'
+version: 272
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'adding-editing-health-surveillance-panels.md'
@@ -89,7 +89,7 @@ Each *Add Panel Action* field has a (?) help bubble next to it, but please see b
         * <strong>At Point in Time:</strong> The action item will be triggered (start MM/DD date) on the same day of a month each year (must key in start MM/DD you want for point in time) and offers an optional End date (MM/DD)
         * <strong>From Last Event</strong>: Assumes this last event/Panel Action item completed date has been entered in the person's chart, so {{% system-name %}} can calculate when this next action item is due. Triggered a given amount of time after the last time the action was performed.
         * <strong>On Date of Birth</strong>: Triggers the Panel Action item on the Date of Birth, on a schedule determined by the starting age and frequency.  Assumes the person's date of birth has been captured data into the chart's demographics.
-        * <strong>From Last Event - On Medical Anniversary</strong>: Assumes Medical Anniversary date has been captured in the chart's demographics.  Due on the employee's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.  Medical anniversary is like a birth date – triggers on a point of time, so their med anniv day may be years ago ex: 2/28/2002 even though it's 2015 now.  Year of med anniv date doesn't matter. Typically the Medical Anniversary date would be set on employee's charts to be the last date of the "month" they are due – not the first of the month. Ex: due month is September, you put in 9/30/2015 in medical anniversary date field and they have the month of September (according to other panel action item details set) to get it done and receive notifications in that due month also, instead of the month before their med anniversary date.
+        * <strong>From Last Event - On Medical Anniversary</strong>: Assumes Medical Anniversary date has been captured in the chart's demographics.  Due on the employee's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.  Medical anniversary is like a birth date – triggers on a point of time, so their med anniv day may be years ago ex: 2/28/2015 even though it's 2026 now.  Year of medical anniversary date doesn't matter. Typically the Medical Anniversary date would be set on employee's charts to be the last date of the "month" they are due – not the first of the month. Ex: due month is September, you put in 9/30/2026 in the medical anniversary date field and they have the month of September (according to other panel action item details set) to get it done and receive notifications in that due month also, instead of the month before their medical anniversary date. The standard Enterprise Health HR interface now supports inserting the end of birth month as the medical anniversary, which is used to calculate medical health surveillance due dates.
     * <strong>On-Demand:</strong> Note: On Demand is only currently used for random drug screen HSPanel configuration.
 * <strong>Lead Time:</strong> Translates to the number of days prior to the Trigger Date that this panel action item becomes visible when it is created in the system.  Defines how many days before the Trigger Date that the panel/orders should populate the Due list. Keep lead times consistent if setting multiple action items in a panel, otherwise each component of the HSPanel will have different due dates if they have different lead times on each.
     * NOTE: If your panel action item is for an acute exposure type of panel, you wouldn't want to set any lead Time days for an exposure type action item.
