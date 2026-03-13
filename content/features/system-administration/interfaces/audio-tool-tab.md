@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2025-11-13T14:50:12.701Z'
-version: 471
+date: '2026-03-13T12:50:11.741Z'
+version: 481
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -79,6 +79,14 @@ Once saved, users will see a confirmation message. Click OK to close the success
 ![](./audio-tool-tab.assets/56a782146598399b76f0ff63e46acfd4.png)
 
 The data will be stored in the **Audiogram** and **Documents** chart tabs. If the Outside Service Provider field is entered on the audio tool, then this name will display as the author of the audio document rather than the user that most recently modified the test.
+
+### Audio Above 8kHZ
+
+A new system setting "E-Chart/Audio/Show Above 8kHz Freqs" has been added for systems on RC202603 and newer. This setting controls the appearance of a 10 kHz frequency entry column and values in audiograms.
+
+![](./audio-tool-tab.assets/261f8c772f5169bcfaef996d64b8ffa4.png)
+
+![](./audio-tool-tab.assets/83edb202d4d010baaed4065599bcc05e.png)
 
 ## Baselines and Alerts
 
