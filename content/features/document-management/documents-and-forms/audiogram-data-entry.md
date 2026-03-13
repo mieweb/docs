@@ -1,9 +1,9 @@
 ---
 id: '1uF8fI9QX3B_x4NeMoieH6XXnsJBHKRnaU1F_J-t99sA'
 title: 'Audiogram Data Entry'
-date: '2024-12-11T13:58:00.468Z'
-version: 339
-lastAuthor: 'auhrick'
+date: '2026-03-13T14:30:28.496Z'
+version: 345
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../scanning-and-indexing/indexing-bubble-forms.md'
@@ -106,6 +106,14 @@ Once saved, users will see a confirmation message. Click OK to close the success
 The data will be stored in the **Audiogram and Documents** chart tabs. If the Outside Service Provider field is entered on the audio tool, then this name will display as the author of the audio document rather than the user that most recently modified the test.
 
 For additional information on the Audiogram Tool functionality, refer to the [Audio Tool Tab](../../system-administration/interfaces/audio-tool-tab.md) documentation.
+
+Audio Above 8kHZ
+
+A new system setting "E-Chart/Audio/Show Above 8kHz Freqs" has been added for systems on RC202603 and newer. This setting controls the appearance of a 10 kHz frequency entry column and values in audiograms.
+
+![](./audiogram-data-entry.assets/261f8c772f5169bcfaef996d64b8ffa4.png)
+
+![](./audiogram-data-entry.assets/83edb202d4d010baaed4065599bcc05e.png)
 
 ### Add from Encounter Section
 
