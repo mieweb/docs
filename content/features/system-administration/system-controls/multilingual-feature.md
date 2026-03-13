@@ -2,7 +2,7 @@
 id: '1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
 title: 'Multilingual Feature'
 date: '2026-03-13T18:29:16.464Z'
-version: 192
+version: 193
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
