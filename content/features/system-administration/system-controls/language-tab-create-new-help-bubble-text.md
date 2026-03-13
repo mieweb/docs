@@ -1,8 +1,8 @@
 ---
 id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 title: 'Language Tab - Create New Help Bubble Text'
-date: '2025-11-12T13:45:39.887Z'
-version: 64
+date: '2026-03-13T18:13:28.867Z'
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ The system has the ability to customize help bubble text that is hard-coded with
 
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.
 
-![](./language-tab-create-new-help-bubble-text.assets/c3eda929517cb656f2f15105fde8140c.png)
+![](./language-tab-create-new-help-bubble-text.assets/5fd707cfc61b96e158d5c1e49dd6e27f.png)
 
 From the value drop-down select the specific hard-coded help bubble text you wish to change and customize. In the Translation field, type out exactly what you want that specific help bubble verbiage to display to users as. Click the SAVE button when done.
 
@@ -28,7 +28,7 @@ After saving, the help bubble verbiage for the specific selected (value) standar
 
 Back in the Languages tab, you can click the *SEARCH* button and see all translations and help bubble translations. Help bubble translations are context *standard input help*.
 
-![](./language-tab-create-new-help-bubble-text.assets/9e55dda3a8d699e2c6fee09821194b32.png)
+![](./language-tab-create-new-help-bubble-text.assets/437b800e64f6f5794d4e863a878ee153.png)
 
 You can edit translated help bubble verbiage by clicking the edit hyperlink next to it and making changes.
 
@@ -40,9 +40,9 @@ The standard input help specific bubble customized translation that is now inact
 
 ![](./language-tab-create-new-help-bubble-text.assets/52e2a4e0d929cdfbfb5baecec689c977.png)
 
-A customized help bubble that we support can be translated again. Simply search by inactive translations (uncheckmark the active only in the search filter) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.
+A customized help bubble that we support can be translated again. Simply search by inactive translations (filter on the status column) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.
 
-![](./language-tab-create-new-help-bubble-text.assets/f2479a316d3ac923645cbafa6f2997fc.png)
+![](./language-tab-create-new-help-bubble-text.assets/06b5f241ffeb4c35d2a349cee57a1733.png)
 
 ## Learning Management System
 
