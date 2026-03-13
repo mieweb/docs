@@ -1,8 +1,8 @@
 ---
 id: '1NCyrhUd_Qk586gaah_GvEGedpBOkizQteEtPsldw4C4'
 title: 'Health Surveillance Playbook'
-date: '2025-12-02T16:19:44.221Z'
-version: 758
+date: '2026-03-13T15:03:54.587Z'
+version: 764
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -223,7 +223,7 @@ If the panel action is for a type of exposure, users will not want to set any Le
     * <strong>Other Action (Triggered)</strong>: The Other Action (Triggered) trigger date allows users to trigger a panel action at the same time as another action item, indicated in this panel action. For example, an action to trigger an Audiogram may be for Entry, Routine, or Exit actions; if checked, other actions may use this panel action as a trigger. This option must be selected for the action to display in the Related Action list. The Related Action list displays when the Trigger Date is set to Other Action (Triggered) or Prior Action (Completed). Additionally, action items can be configured to trigger with the Representative Events, as needed, if that programming is utilized. This allows all action items to trigger together for a panel. Triggers with all the same date are usually tied to representative event
     * <strong>Point in Time</strong>: The Point in Time trigger date allows users to trigger an action item on the same day and month, each year (must be MM/DD format).
     * <strong>Prior Action (Completed)</strong>: The Prior Action (Completed) trigger date works similarly to Other Action (Triggered). Utilize this option to trigger off of action items needing to be completed, prior to this action item being triggered. This triggers the action item at a given amount of time, specified by the time value/unit entered for Frequency, after another prior action in this panel has been performed. For example, in order for the second in the series for a Hep B injection to trigger, the first injection would need to be marked Complete in the panel member's chart.
-    * <strong>Medical Anniversary Date</strong>: This option triggers on the panel member's medical anniversary date, assuming the date has been captured in the chart demographics. Triggers on the panel member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency.
+    * <strong>Medical Anniversary Date</strong>: This option triggers on the panel member's medical anniversary date, assuming the date has been captured in the chart demographics. Triggers on the panel member's medical anniversary date, on a schedule determined by the last time the action was performed and the frequency. The standard Enterprise Health HR interface now supports inserting the end of birth month as the medical anniversary, which is used to calculate medical health surveillance due dates.
     * <strong>Panel Expiration</strong>: Triggers on the expiration date specified in the panel status. Most panels will be configured with a representative event as the medical/written opinion, which then has a Next Due Date to key in the medical/written opinion recommendation.
 * <strong>Trigger Others</strong>: If checked, other panel actions may use this action item as a trigger. This must be set for the action to display in the Related Action list.
 
@@ -593,7 +593,7 @@ Next Due Dates are a critical piece in migrating legacy Health Surveillance memb
 
 #### Medical Anniversary Date
 
-The {{% sys-name %}} system supports a Medical Anniversary Date concept. This option triggers on the panel member's medical anniversary date, assuming the date has been captured in the chart demographics. If all charts are expected to be due at the same time, each year, on a specific date (e.g., anniversary, hire, rehire, birthday, etc.), this option would be good to consider.
+The {{% sys-name %}} system supports a Medical Anniversary Date concept. This option triggers on the panel member's medical anniversary date, assuming the date has been captured in the chart demographics. If all charts are expected to be due at the same time, each year, on a specific date (e.g., anniversary, hire, rehire, birthday, etc.), this option would be good to consider. The standard Enterprise Health HR interface now supports inserting the end of birth month as the medical anniversary, which is used to calculate medical health surveillance due dates.
 
 #### Next Due Date
 
