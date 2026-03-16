@@ -1,9 +1,9 @@
 ---
 id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 title: 'Quick View Sidemenu'
-date: '2024-11-11T22:33:45.147Z'
-version: 145
-lastAuthor: 'auhrick'
+date: '2026-03-16T20:01:51.154Z'
+version: 151
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
@@ -58,7 +58,7 @@ The other icons are defined and function as follows:
 
 If you have security permission to save default portlets, you can configure the portlets to display on the Quick View for other users, according to their security role.
 
-From the Select Portlets function in Quick View, the **Save as Default F****or** option will display, providing you have security permission to save default portlets for security roles in the system.
+From the Select Portlets function in Quick View, the **Save as Default**** For** option will display, providing you have security permission to save default portlets for security roles in the system.
 
 ![](./quick-view-sidemenu.assets/cdf73925f0168d13f592a41497cc5bef.png)
 
