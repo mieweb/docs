@@ -1,8 +1,8 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2025-11-10T19:38:35.987Z'
-version: 605
+date: '2026-03-17T18:20:38.163Z'
+version: 611
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -364,7 +364,7 @@ The encounter tools pop up now has a section for Experimental Features, includin
 
 ### Deleting Observations Individually/En Masse
 
-Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the* Trash Can* icon next to the observation. Click the *Eye* icon to view attributes of the observation.
+Encounter observations can be deleted individually and in multiples from the encounter section. To individually delete observations, click the *Trash Can* icon next to the observation. Click the *Eye* icon to view attributes of the observation.
 
 ![](./working-in-a-visit-encounter.assets/a80a034fb31c511ab07dfa8e97399bbb.png)
 
