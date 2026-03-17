@@ -1,8 +1,8 @@
 ---
 id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
 title: 'Quick View - Alerts Portlet'
-date: '2024-11-13T15:20:21.167Z'
-version: 127
+date: '2026-03-17T17:27:27.707Z'
+version: 132
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -76,7 +76,7 @@ To change the Alert/Errors preferences, click the **Preferences** link on the [A
 
 ![](./quick-view-alerts-portlet.assets/0041c01127ab28807d8447bca83b3e1b.png)
 
-From the Preferences pop-up screen, some {{% system-name %}} preference settings will display, so that you can change your selections as needed and click the** Save** button.  The two preferences that are tied to the Alerts/Errors dashboard and notifications are the **Show Alerts** and the **Show Alerts For** preferences.
+From the Preferences pop-up screen, some {{% system-name %}} preference settings will display, so that you can change your selections as needed and click the **Save** button.  The two preferences that are tied to the Alerts/Errors dashboard and notifications are the **Show Alerts** and the **Show Alerts For** preferences.
 
 ![](./quick-view-alerts-portlet.assets/a6c166ec6ce84fe6021ea8e3c173ae71.png)
 
