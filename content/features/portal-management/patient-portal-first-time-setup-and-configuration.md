@@ -1,9 +1,9 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2026-03-02T19:59:10.278Z'
-version: 917
-lastAuthor: 'anichols'
+date: '2026-03-17T18:15:34.061Z'
+version: 926
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-configuration/provider-management/'
@@ -51,7 +51,7 @@ Complete the following steps to setup the patient portal within the provider org
 
 {{% info %}}
 
-**WebChart portals** should use a **Patients** role. If this role does not exist, please refer to the WebChart Gap section in this document for information on how to add that security role. A matching department name will also need to be added. Search for the** New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.
+**WebChart portals** should use a **Patients** role. If this role does not exist, please refer to the WebChart Gap section in this document for information on how to add that security role. A matching department name will also need to be added. Search for the **New User Realm** system setting (NMC, Signup, New User Realm) and enter the department name in the *Value* field (this should match the security role name, exactly). This system setting will ensure that when new user accounts are created and linked to the patient chart, the correct security role is being set for portal users in their user accounts.
 
 Enterprise Health portal should use the **Employees** role.  
 ![](./patient-portal-first-time-setup-and-configuration.assets/203499a3587105c8140b61a5129e6057.png)
