@@ -1,9 +1,9 @@
 ---
 id: '1vqaEmCqyIRpOtEn-QAUSNsx1pCn46xCHsNqacQPxPOM'
 title: 'Schedules Tab'
-date: '2026-03-04T18:08:41.573Z'
-version: 341
-lastAuthor: 'anichols'
+date: '2026-03-17T18:11:46.493Z'
+version: 348
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/open?id=1YLVMv1dXMH2AzPJuyh6cMCVXhZvgGazUbjNePCMCTKY'
@@ -38,7 +38,7 @@ There is a My Settings Preference to be able to utilize **Guided Schedules** whe
 
 ![](./schedules-tab.assets/dd86ee5f0a57cb048dde4a5b249b8182.png)
 
-Enabling the Guided Schedules preference will allow a **Guided Template****** hyperlink to display for use in the Schedules screen.  Using the** Guided Template** method (to add a schedule to the system) will walk the user through the inputs to successfully add a schedule to the system, instead of just using the Add screen that shows all inputs at once.
+Enabling the Guided Schedules preference will allow a **Guided Template** hyperlink to display for use in the Schedules screen.  Using the **Guided Template** method (to add a schedule to the system) will walk the user through the inputs to successfully add a schedule to the system, instead of just using the Add screen that shows all inputs at once.
 
 ![](./schedules-tab.assets/c2f85b50c535a69ab5a62228401fee4f.png)
 
