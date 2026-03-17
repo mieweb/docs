@@ -1,8 +1,8 @@
 ---
 id: '1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 title: 'Tests & Procedures Section - Applying/Adding, Completing, Resulting'
-date: '2025-11-25T18:11:47.453Z'
-version: 200
+date: '2026-03-17T18:28:12.334Z'
+version: 207
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -127,7 +127,7 @@ The X may be needed because perhaps you had marked an item as *Add to Exam* to b
 
 ## Due List Portlet
 
-Within the Summary dashboard chart tab, there is a portlet available named** Due List.**  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed or worked (such as declined, waived, etc). This list is managed in the Due List chart tab and/or from the Tests & Procedures section within encounters.
+Within the Summary dashboard chart tab, there is a portlet available named **Due List**.  This portlet displays any pending due list items for the chart.  These are not "orders" that were referred out to have performed, but these are pending due list items (tests/procedures) that need to either be ordered and referred out to an outside facility, or items that need performed in office and marked as completed or worked (such as declined, waived, etc). This list is managed in the Due List chart tab and/or from the Tests & Procedures section within encounters.
 
 ![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/ce14d3297848f044de91a6418f97a73a.png)
 
