@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2025-11-10T20:28:39.032Z'
-version: 775
+date: '2026-03-17T18:24:52.447Z'
+version: 790
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -135,7 +135,7 @@ The additional options are Edit, Remove, Move to Past PMH, Add to PMH.
 
 ![](./past-medical-history-encounter-section.assets/d80c2ca21a9187a4932bd9657b7d119d.png)
 
-Selecting the edit opinion on a problem list condition will call the* Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
+Selecting the edit opinion on a problem list condition will call the *Edit Condition* screen. This allows the user to edit the condition description and/or attributes of the condition.
 
 ![](./past-medical-history-encounter-section.assets/cfc8ee87cb6bcdba350bdeddc38037ed.png)
 
