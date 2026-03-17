@@ -1,9 +1,9 @@
 ---
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
-date: '2025-11-14T13:08:22.668Z'
-version: 121
-lastAuthor: 'anichols'
+date: '2026-03-17T18:22:12.115Z'
+version: 127
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
@@ -27,7 +27,7 @@ Use the Edit icon or simply click on the gray header bar for the Encounter secti
 
 **Employee name/Patient name:** Enterprise Health clients will see the label **Employee name**, while Webchart clients will see the label **Patient name**. This data is prepopulated with data and can not be changed.
 
-**Employee ID:** Enterprise Health clients will see the label **Employee ID**, while Webchart clients will see the label** Patient ID**. This data is prepopulated with data and can not be changed.
+**Employee ID:** Enterprise Health clients will see the label **Employee ID**, while Webchart clients will see the label **Patient ID**. This data is prepopulated with data and can not be changed.
 
 **Date of birth:** Displays the patient's date of birth. This data is prepopulated with data and can not be changed.
 
