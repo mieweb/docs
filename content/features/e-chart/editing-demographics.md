@@ -1,9 +1,9 @@
 ---
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
-date: '2026-03-02T19:36:23.858Z'
-version: 147
-lastAuthor: 'anichols'
+date: '2026-03-17T17:58:25.916Z'
+version: 153
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/document-queue-merging-imported-documents/'
@@ -49,7 +49,7 @@ Subsequent sections are available for manually editing other information besides
 
 ## Viewing All Revisions to the Demographics Tab
 
-If you have security permission, you can view all revisions in a list format that were done to that chart's demographics.  When in the Demographics chart tab, click the **Patient**** Revisions** hyperlink found just above the chart's demographic information.
+If you have security permission, you can view all revisions in a list format that were done to that chart's demographics.  When in the Demographics chart tab, click the **Patient** **Revisions** hyperlink found just above the chart's demographic information.
 
 ![](./editing-demographics.assets/29843962a40e8a3df036c0906e1ddf61.png)
 
