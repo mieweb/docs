@@ -1,8 +1,8 @@
 ---
 id: '1LUQDaYVkwIlzJeQVnhKNNptNldHsZFO23GmfXdkv_d8'
 title: 'Password Reset - Non SSO'
-date: '2025-11-25T18:36:17.519Z'
-version: 112
+date: '2026-03-17T18:17:55.698Z'
+version: 119
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -19,7 +19,7 @@ The user will key in their username, which is to be their unique email address, 
 
 ![](./password-reset-non-sso.assets/a0030147371d752c5352c183847addd2.png)
 
-Next is the password screen.  If the user does not remember their password, the user can click *Forgot your* *password**?* hyperlink.
+Next is the password screen.  If the user does not remember their password, the user can click *Forgot your* *password*? hyperlink.
 
 ![](./password-reset-non-sso.assets/636d08c93b79dd083cf317bc74003932.png)
 
