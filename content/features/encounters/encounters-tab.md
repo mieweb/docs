@@ -1,9 +1,9 @@
 ---
 id: '1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
 title: 'Encounters Tab'
-date: '2026-02-03T17:50:17.879Z'
-version: 154
-lastAuthor: 'anichols'
+date: '2026-03-17T18:39:20.537Z'
+version: 164
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1M5Z8Y1w7SMPYZtQQ5EKbNqev5zTXSUfDu47E1Xt2I9A'
@@ -55,11 +55,11 @@ Depending on what your practice has set up and what security privileges you are 
 
 ![](./encounters-tab.assets/7664909b68e77cabca2277d1f72082b7.png)
 
-    * Next, a pop-up will prompt you to select to make it Deleted status and have you type in a reason for deleting the encounter.  Click Submit to render to mark the encounter as deleted status.  NOTE: It only marks the encounter as deleted status in this datavis list of encounters for the chart. It doesn't delete any stored/archived documents in the patient's chart. It also doesn't delete any data already stored in the encounter such as vitals, observations, plan, meds, etc.
+* Next, a pop-up will prompt you to select to make it Deleted status and have you type in a reason for deleting the encounter.  Click Submit to render to mark the encounter as deleted status.  NOTE: It only marks the encounter as deleted status in this datavis list of encounters for the chart. It doesn't delete any stored/archived documents in the patient's chart. It also doesn't delete any data already stored in the encounter such as vitals, observations, plan, meds, etc.
 
 ![](./encounters-tab.assets/731e85d4f4c759e8d5101fc3f61df53b.png)
 
-    * One can change the datavis perspective to show Deleted encounters and can select a specific encounter by checkmarking it and utilizing the <em>Delete/Undelete</em> button to mark it as <em>undelete</em> (with a reason filled out) and be able to undelete an encounter from this listing.
+* One can change the datavis perspective to show Deleted encounters and can select a specific encounter by checkmarking it and utilizing the <em>Delete/Undelete</em> button to mark it as <em>undelete</em> (with a reason filled out) and be able to undelete an encounter from this listing.
 * <strong>Properties</strong>: This will take you to the encounter id and show its properties. You can view details of the encounter properties and see the revision history, current routes, links and other properties/details of this encounter id. Also, this is where you move or remove documents that are linked to the encounter. See other help documentation named <em>Link Documents to Encounters.pdf</em>
 * <strong>Send:</strong> If you have security to send patient data, this link function is essentially sending the document via a data-send route. Your practice may already be set up to auto-send (auto-route) encounter documents to recipients (ex: referring physicians). However you can manually send it using this send link.
 * <strong>Add Physician:</strong> You can add a physician and select their user role and also can link them to the patient from here. You can add users on the encounter.  What we usually do is have the CC section on the bottom of the encounter exams.  On the encounter exams we usually only allow you 1 role, like referring physicians. But from here you save encounter users by using the "Add Physician" link on the encounter options.
