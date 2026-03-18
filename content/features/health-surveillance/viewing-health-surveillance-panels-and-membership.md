@@ -1,9 +1,9 @@
 ---
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
-date: '2025-08-18T13:50:35.726Z'
-version: 186
-lastAuthor: 'anichols'
+date: '2026-03-17T19:04:38.915Z'
+version: 196
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'panel-membership-portlet.md'
@@ -66,7 +66,7 @@ From either method (updated datavis editor or legacy editor), you gain access to
 
 ![](./viewing-health-surveillance-panels-and-membership.assets/e4044cc86a8281d693ee3427b7ecccd7.png)
 
-    * You can click the <em>Approve Membership Now</em> button (if you have security permission) and it essentially marks the last time a user (with a date/time stamp) approved & validated this membership screen for the specific selected panel.
+* You can click the <em>Approve Membership Now</em> button (if you have security permission) and it essentially marks the last time a user (with a date/time stamp) approved & validated this membership screen for the specific selected panel.
 
 ![](./viewing-health-surveillance-panels-and-membership.assets/1fa55c1f71260ec533ca43af1666f87e.png)
 
@@ -102,7 +102,7 @@ A pop-up will display where you can manually key in a new **Next Due Date**.
 
 ![](./viewing-health-surveillance-panels-and-membership.assets/a878f3c20992690f5258de0f64ad48c2.png)
 
-*Note: clicking the [Calc] button will auto-populate the Next Due Date to be due at the specific frequency date that the Health Surveillance Panel is programmed (system wide) to recur every (ex: annual/yearly) depending on the last date it was completed in the employee's chart. *
+*Note: clicking the [Calc] button will auto-populate the Next Due Date to be due at the specific frequency date that the Health Surveillance Panel is programmed (system wide) to recur every (ex: annual/yearly) depending on the last date it was completed in the employee's chart*.
 
 Otherwise, you can manually set the Next Due Date here to signify a different due date.
 
