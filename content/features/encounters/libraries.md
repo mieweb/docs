@@ -1,9 +1,9 @@
 ---
 id: '1BQ8R70m6Y-4btQLjdwkRyQXfjh3i3BoGIKd5wV_a0TM'
 title: 'Libraries'
-date: '2024-12-17T17:47:26.394Z'
-version: 120
-lastAuthor: 'auhrick'
+date: '2026-03-17T18:45:07.788Z'
+version: 129
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/copy-from-previous-exam/'
@@ -22,7 +22,7 @@ Enter the **Name** for the library, then click the **Add New** button. The libra
 
 ![](./libraries.assets/18e6c353cc470cdbf5de4668a31388d3.png)
 
-After adding the library name, a Library Chart and encounter will open. All Library charts will have the last name of "**Library**" and be issued a MRN with **LIB** partition chart number. The Demographics encounter section will display the library name. If the user forgets to add the * prior to the library name, the Demographics encounter section can be opened and the ***** added here. Use the Library chart to enter a Smart Plan and/or add items to any encounter Quick List.
+After adding the library name, a Library Chart and encounter will open. All Library charts will have the last name of "**Library**" and be issued a MRN with **LIB** partition chart number. The Demographics encounter section will display the library name. If the user forgets to add the * prior to the library name, the Demographics encounter section can be opened and the * added here. Use the Library chart to enter a Smart Plan and/or add items to any encounter Quick List.
 
 ![](./libraries.assets/6315dc03bf3041cc219eaf16febeaf2f.png)
 
@@ -70,7 +70,7 @@ Users can Edit the library name, copy the library to create another or Delete a 
 
 ### Edit
 
-Click the **Edit** link in the** Options** column to edit the **Library Name** and **Save**.
+Click the **Edit** link in the **Options** column to edit the **Library Name** and **Save**.
 
 ![](./libraries.assets/11b763d1e3e7ae33be69d5c088557c0c.png)
 
