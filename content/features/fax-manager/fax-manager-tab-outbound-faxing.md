@@ -1,8 +1,8 @@
 ---
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
-date: '2025-11-11T16:19:35.359Z'
-version: 160
+date: '2026-03-18T15:20:28.109Z'
+version: 168
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ The 4 categories at the bottom of this Fax Manager tab: Pending Fax Spool, Error
 
 ![](./fax-manager-tab-outbound-faxing.assets/447db71c1c5e8db4619efbc334eec879.png)
 
-The fax jobs that display for you *and* the fax jobs that you can search for to see are all driven by what security you are set to. If your security is to only view your *own* fax jobs, than any search you render or jobs you see here in the queue will only be your own jobs. If your security is set to *all users* then you will be able to search and view all fax jobs regardless of user who rendered them.
+The fax jobs that display for you *and* the fax jobs that you can search for to see are all driven by what security you are set to. If your security is to only view your *own* fax jobs, then any search you render or jobs you see here in the queue will only be your own jobs. If your security is set to *all users* then you will be able to search and view all fax jobs regardless of the user who rendered them.
 
 ![](./fax-manager-tab-outbound-faxing.assets/be05d70bd4e7b114ab98558537ef19df.png)
 
@@ -58,7 +58,7 @@ When in the Fax Manager Tab, you can perform a search to search for specific out
 
 To get to the Outgoing Fax Search, click the Fax Mgr tab from the left sidebar menu.
 
-Fax Manager search has two modes of operation: General & Fax ID. The detailed **Fax ID** mode is only used when the fax id is known, which makes the other search criteria fields not relevant since the fax id uniquely identifies a fax. **Fax ID** field*:* If you know the fax job ID number that the system gave to the fax job, you can enter it here to find that one specific fax job.
+Fax Manager search has two modes of operation: General & Fax ID. The detailed **Fax ID** mode is only used when the fax id is known, which makes the other search criteria fields not relevant since the fax id uniquely identifies a fax. **Fax ID** field: If you know the fax job ID number that the system gave to the fax job, you can enter it here to find that one specific fax job.
 
 ![](./fax-manager-tab-outbound-faxing.assets/a768a4a5c4f5305b4c59196bead99840.png)
 
@@ -68,7 +68,7 @@ Fax Manager search has two modes of operation: General & Fax ID. The detailed **
 
 To search for outgoing faxes, you can fill in as many fields as you wish. The more fields you enter, the more narrowed you search. Any fax results will show below in the appropriate categories it is in.
 
-* <strong>Patient Name:</strong> If you would like to search for faxes related to a specific patient, begin typing the patient's last name. It will try to auto-complete your typing and give you choices of patient's that match. There is a three character minimum before the autocomplete suggests any results. Highlight and select the patient you want and tab to any other fields you wish to enter.
+* <strong>Patient Name:</strong> If you would like to search for faxes related to a specific patient, begin typing the patient's last name. It will try to auto-complete your typing and give you choices of patients that match. There is a three character minimum before the autocomplete suggests any results. Highlight and select the patient you want and tab to any other fields you wish to enter.
 
 ![](./fax-manager-tab-outbound-faxing.assets/e98b60c78ae8143c50a9896bbe7717bc.png)
 
