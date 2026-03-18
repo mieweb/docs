@@ -1,8 +1,8 @@
 ---
 id: '1ohx3g_a0w1go9E2uDq5w7nr6-AZ-VrTZhFfiHgfdkwU'
 title: 'Observation Codes Editor'
-date: '2025-11-11T15:12:28.731Z'
-version: 153
+date: '2026-03-17T19:11:54.129Z'
+version: 163
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -34,17 +34,11 @@ If an observation code is not available, or a new observation needs to be added,
 2. Once the page loads, begin filling in all of the appropriate fields, as needed:
     * <strong>Observation Name</strong>: This field is reserved for the name of the observation, which will be displayed within the system charts.
     * <strong>Observation Type</strong>: Use this field to set what type of data the observation represents. Choices include: <em>Decimal</em>, <em>Text</em>, <em>Date/Time</em>, <em>Custom Discrete Values</em>, and <em>Coded Values</em>. (When Coded Values is selected, an additional field will populate, where the Observation Group will need to be specified.)
-
-Decimal: Any numerical data.
-
-Text: Any non-numerical data, not classified under the alternative choices.
-
-Date/Time: Any date/time observations.
-
-Custom Discrete Values: User-defined data, or options.
-
-Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
-
+        i. Decimal: Any numerical data.
+        ii. Text: Any non-numerical data, not classified under the alternative choices.
+        iii. Date/Time: Any date/time observations.
+        iv. Custom Discrete Values: User-defined data, or options.
+        v. Coded Values: Any interoperable coded values (e.g., LOINC type, hierarchical codes, unique IDs, etc.)
     * <strong>LOINC Code</strong> (optional): This field is used for an associated LOINC code, matching the observation in context.
     * <strong>Template ID</strong> (optional): The Template ID field is an autocomplete
     * <strong>Display Units per unit system</strong>: Specify the units to be used when displaying results. The system will attempt to convert results into the specified units; however, if the system is unable to convert the result, the data will display exactly as it was entered.
