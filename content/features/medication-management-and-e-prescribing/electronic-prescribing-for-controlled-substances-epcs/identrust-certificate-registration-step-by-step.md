@@ -1,8 +1,8 @@
 ---
 id: '1SLLTtoLa4BaD0PqC3HRxvWraw10I-p-wbiotZ5_a4aY'
 title: 'IdenTrust Certificate Registration Step-by-Step'
-date: '2026-01-20T19:10:32.521Z'
-version: 485
+date: '2026-03-18T14:49:39.325Z'
+version: 493
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -118,7 +118,7 @@ Congratulations! You have just completed the **first** phase. Thank you for appl
 
 Remember, there are **3 phases** in the process of obtaining your IGC Basic Assurance Hardware Unaffiliated 2 Year Certificate.
 
-*IdenTrust will now complete the* **_second_*** phase of your application - Approval. If successful, you will need to complete the* **_third_*** and final phase - Retrieval; to obtain your certificate.*
+IdenTrust will now complete the **second** phase of your application - Approval. If successful, you will need to complete the **third** and final phase - Retrieval; to obtain your certificate.
 
 Part of the Approval Phase includes verifying your email address and allowing IdenTrust to verify your identity.
 
