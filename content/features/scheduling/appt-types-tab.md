@@ -1,8 +1,8 @@
 ---
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
-date: '2025-11-10T18:16:47.409Z'
-version: 292
+date: '2026-03-18T14:33:38.654Z'
+version: 298
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ Appointment types are used to set up basic information about frequently-used app
 
 Appointment templates are based on appointment types and refine them by associating with them a service location, a default encounter type for documenting the encounter visit resulting from the appointment, and clinical and scheduling instructions for staff.
 
-To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [](../system-administration/security/security-role-settings.md).
+To create, edit, and delete appointment types and appointment templates, the *Manage Apt Types* security role needs to be set to *Yes*. See [Security Role Settings](../system-administration/security/security-role-settings.md).
 
 ## Viewing appointment types
 
