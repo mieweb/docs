@@ -1,9 +1,9 @@
 ---
 id: '1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
 title: 'Unknown Allergy/Medication Email Notifications'
-date: '2023-09-26T20:41:34.117Z'
-version: 64
-lastAuthor: 'acook'
+date: '2026-03-18T14:59:32.874Z'
+version: 78
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uPwVGcsvmIAnKx3-a0wKVekf6dHuls2_mbR8WE7_zD8'
@@ -21,7 +21,7 @@ If the user selects ‘yes' to add the unknown allergy to the patient's chart, i
 
 Uncoded/unrecognized medication and/or allergy records are not able to be considered when doing drug to drug interaction checking, duplicate therapy warnings, or allergy interaction warnings and other patient safety or quality of care measures.
 
-The system doesn't recognized abbreviations. The allergy should be entered as full recognized name and selected from the auto-complete of First Databank choices as a recognized, coded allergy.
+The system doesn't recognize abbreviations. The allergy should be entered as full recognized name and selected from the auto-complete of First Databank choices as a recognized, coded allergy.
 
 If a user enters in an unknown/unrecognized an allergy in a patient's record (instead of the full recognized allergy selection), you will receive an email notification such as the below.
 
