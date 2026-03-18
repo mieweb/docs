@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2024-10-29T13:33:52.064Z'
-version: 321
+date: '2026-03-18T15:11:13.492Z'
+version: 331
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -110,7 +110,7 @@ You must click the ADD BUTTON to insert more than one VIS Handout to the injecti
 
 ![](./injection-program-tab-recording-mass-injections.assets/ac3f4b77a9337ded4e30e7e29153a162.png)
 
-When ready to upload the injection record into the patient's chart, click the **A****dd**** I****njection** button at the bottom of the screen to submit the injection / immunization record to the patient's chart.
+When ready to upload the injection record into the patient's chart, click the **A****dd** **I****njection** button at the bottom of the screen to submit the injection / immunization record to the patient's chart.
 
 ![](./injection-program-tab-recording-mass-injections.assets/c306203e82e0bf2ee318a399823fa827.png)
 
