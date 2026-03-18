@@ -1,8 +1,8 @@
 ---
 id: '1cty4Ad6aB1dD-jT6ToDSxPtwxwM6LZt8PizcAGtrWXQ'
 title: 'Symptoms/Diagnosis Encounter Section'
-date: '2025-12-01T19:56:28.332Z'
-version: 256
+date: '2026-03-17T18:29:41.710Z'
+version: 265
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -352,7 +352,7 @@ Selecting this option will call the Add Task screen. Since a task is generated f
 
 ### Prescribe Med
 
-Selecting this option will call the Prescribe Medication screen. Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar). To the right of the blue bar, the "By Indication" list will** pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency. To the right of the blue bar, the "Current Meds"  and "Past Meds" Quick Lists display. Select the "straight right pointing arrow" icon to display drug information.
+Selecting this option will call the Prescribe Medication screen. Users with prescription authority and proper security rights, can write a prescription utilizing the left side of the Prescribe Medication Screen. (Left side of the blue bar). To the right of the blue bar, the "By Indication" list will pre populate a list of medications, if applicable. This list is automatically built by the system based on prescribing frequency for the selected condition in the "Reason for taking" field. Newer databases may not display any data since this list is built based on the clients prescribing frequency. To the right of the blue bar, the "Current Meds"  and "Past Meds" Quick Lists display. Select the "straight right pointing arrow" icon to display drug information.
 
 ![](./symptoms-diagnosis-encounter-section.assets/b5ac486ca41887d858067414256fa200.png)
 
