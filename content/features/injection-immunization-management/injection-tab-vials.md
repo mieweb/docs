@@ -1,9 +1,9 @@
 ---
 id: '11_gJvEXt_A9TeALtLbhxsUzWimA0i3C3qi0TZ1w43dk'
 title: 'Injection Tab - Vials'
-date: '2024-12-23T16:08:04.489Z'
-version: 199
-lastAuthor: 'anichols'
+date: '2026-03-18T15:04:52.924Z'
+version: 205
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'injection-editor.md'
@@ -89,7 +89,7 @@ For example:
 
 ![](./injection-tab-vials.assets/4906d2e9ef45a24230ecb4a3f36ae0cf.png)
 
-    * For more information please go to [Injection Editor](injection-editor.md) help guide for more detailed information
+* For more information please go to [Injection Editor](injection-editor.md) help guide for more detailed information
 * <strong>Strength:</strong> is an autocomplete to select from various used strengths or a system setting can be enabled for "Vial Strength Dropdown" which uses a drop-down instead of an autocomplete.
     * Depending on the strength, it will be associated with a color if system setting "Use Vial Colors" is also enabled.
 
