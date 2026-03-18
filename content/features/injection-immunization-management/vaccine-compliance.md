@@ -1,9 +1,9 @@
 ---
 id: '1BFTv9CrwCht_nJNBaass0OiEzxp3Br2M6uwO7WZBOps'
 title: 'Vaccine Compliance'
-date: '2026-01-26T21:45:18.709Z'
-version: 118
-lastAuthor: 'auhrick'
+date: '2026-03-18T15:13:42.837Z'
+version: 126
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/injection-immunization-management/injection-tab/'
@@ -138,7 +138,7 @@ When adding an order, a list of orders that may help achieve compliance will dis
 
 ### Complaint
 
-**ALWAYS!!!!  Recalculate this section to ensure you are looking at the most recent compliance evaluation. Do this by clicking the** **_Calculator Icon_**** next to the** **_Compliant _****column header.**
+**ALWAYS!!!!  Recalculate this section to ensure you are looking at the most recent compliance evaluation. Do this by clicking the Calculator Icon next to the Compliant column header.**
 
 ![](./vaccine-compliance.assets/71a203e22ae1044241b958543795b042.png)
 
