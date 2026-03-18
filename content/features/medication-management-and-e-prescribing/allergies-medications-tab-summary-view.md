@@ -1,9 +1,9 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2026-01-16T20:59:45.680Z'
-version: 205
-lastAuthor: 'anichols'
+date: '2026-03-18T14:58:36.898Z'
+version: 214
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LASIDNHR'
@@ -225,7 +225,7 @@ Other categories found below the edit section are:
 
 ## DataVis View on Allergies/Medications Tab
 
-A new My Settings user preference, Use Datavis in Meds/Allergies Chart Tab**_,_** is available in the 202409 release. This setting allows the user to change from the legacy Meds/Allergies chart tab view/lists to the new view, which is in a new datavis format.
+A new My Settings user preference, Use Datavis in Meds/Allergies Chart Tab, is available in the 202409 release. This setting allows the user to change from the legacy Meds/Allergies chart tab view/lists to the new view, which is in a new datavis format.
 
 ![](./allergies-medications-tab-summary-view.assets/e10d5c6a3b576a54fd85e4370b37a6ab.png)
 
