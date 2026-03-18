@@ -1,9 +1,9 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2026-01-21T16:04:33.214Z'
-version: 832
-lastAuthor: 'auhrick'
+date: '2026-03-17T19:15:19.498Z'
+version: 850
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'observations-tab.md'
@@ -207,7 +207,7 @@ observationValueByName('HPI Pain Assessment') !==0 && typeof(observationValueByN
 
 ### Calculation
 
-Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation for the BMI whenever values for height and weight are entered. There is no limit to the number of calculations a script can do, and any of the standard mathematical notations can be used (i.e., **+**, **-**, *****, **/**).
+Calculations can be compiled based on provided observation values and programmed pre-established criteria. Editing the Calculation field with the appropriate script and criteria will trigger a calculation, whenever values are entered for the observation(s) specified in the script. For example, automating a BMI calculation based on height and weight observations within a flowsheet would require programming a calculation for the BMI whenever values for height and weight are entered. There is no limit to the number of calculations a script can do, and any of the standard mathematical notations can be used (i.e., +, -, *, /).
 ```
 
 
