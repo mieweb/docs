@@ -1,8 +1,8 @@
 ---
 id: '1ZGPm7WlJ13C8JXrlWdsWtqWnCt-cmbpsfooTKbEwQoo'
 title: 'Archiving/Closing/Re-archiving Encounters'
-date: '2024-11-21T19:18:03.485Z'
-version: 84
+date: '2026-03-18T13:49:43.290Z'
+version: 96
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,9 +19,9 @@ To archive or re-archive encounters, users must have the necessary security perm
 
 **Document Permissions**: Set to *Edit*. This allows the user edit all encounters and/or archive and re-archive them, as appropriate.
 
-**Document Signature Override**: Set to *Yes.* Users within a security role may override a signature or request another signature if a document is already signed.
+**Document Signature Override**: Set to *Yes*. Users within a security role may override a signature or request another signature if a document is already signed.
 
-**Sign Document**: Set to *Yes*.** This allows users within a security role the ability to sign documents.
+**Sign Document**: Set to *Yes*. This allows users within a security role the ability to sign documents.
 
 ## Standard Toolbars and Buttons
 
