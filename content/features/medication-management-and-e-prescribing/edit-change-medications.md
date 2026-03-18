@@ -1,8 +1,9 @@
 ---
 id: '1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
 title: 'Edit/Change Medications'
-date: '2020-02-27T20:04:13.354Z'
-version: 49
+date: '2026-03-18T14:54:36.252Z'
+version: 56
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1uGu-8wHgGweTcCyEwybQClWf6xQCb7pMTAI1a6J3Cqk'
@@ -20,7 +21,7 @@ Meds tab options appear on the top right side of the screen. You are automatical
 
 ## Edit/Change Entered Medication/Rx
 
-Go to the Medication History list by clicking LIST link. The LIST is the medication history of prescriptions in the patient's MEDS tab. Find the medication listed and to the right of the medication you have the options to edit/discontinue/delete/refill. If you wish to make a change click **edit***.*
+Go to the Medication History list by clicking LIST link. The LIST is the medication history of prescriptions in the patient's MEDS tab. Find the medication listed and to the right of the medication you have the options to edit/discontinue/delete/refill. If you wish to make a change click **edit**.
 
 ![](./edit-change-medications.assets/037c152b4b57e0078a97cf61f6d56094.png)
 
