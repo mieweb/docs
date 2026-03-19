@@ -1,9 +1,9 @@
 ---
 id: '1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
 title: 'Financials Pending Billing'
-date: '2024-10-04T14:42:37.293Z'
-version: 111
-lastAuthor: 'auhrick'
+date: '2026-03-18T15:40:40.790Z'
+version: 119
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
@@ -26,7 +26,7 @@ Order Items that have been added to the encounter will display with an IN PROGRE
 
 ![](./financials-pending-billing.assets/e41dcebde337353ee0e449cbe1e6c0cb.png)
 
-Labs or other testing sent* outside of the clinic* (deal orders) that have been made into an order requisition have a status of ORDERED. Ordered labs will display on the Pending Billing report until all order items have been received for the order request. It is not uncommon to receive one lab result back and have that line item display as completed, yet another still display as Ordered. Once all labs on the order request are back and the order status marked as completed, they will be sent to the billing system and fall off the Pending Billing Report.
+Labs or other testing sent *outside of the clinic* (deal orders) that have been made into an order requisition have a status of ORDERED. Ordered labs will display on the Pending Billing report until all order items have been received for the order request. It is not uncommon to receive one lab result back and have that line item display as completed, yet another still display as Ordered. Once all labs on the order request are back and the order status marked as completed, they will be sent to the billing system and fall off the Pending Billing Report.
 
 ![](./financials-pending-billing.assets/30115d4cd94ac9dd3f9f66503cb08f83.png)
 
