@@ -1,8 +1,8 @@
 ---
 id: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 title: 'Encourage Multi-Factor Authentication MFA/2FA User Experience'
-date: '2025-11-24T19:42:59.252Z'
-version: 156
+date: '2026-03-18T16:21:51.391Z'
+version: 166
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -109,7 +109,7 @@ On the {{% system-name %}} system screen:
 
 ![](./encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/f03dd7915b3db2f2f20c9473b22f2efc.png)
 
-The {{% system-name %}} system will generate a unique secret Key and displays that on the next screen  upon clicking the* Create* button.
+The {{% system-name %}} system will generate a unique secret Key and displays that on the next screen  upon clicking the *Create* button.
 
 ![](./encourage-multi-factor-authentication-mfa-2fa-user-experience.assets/26f5db673c182292d18a6e5991157c78.png)
 
