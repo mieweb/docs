@@ -1,8 +1,8 @@
 ---
 id: '1jpIQjF4ooKVdbKEOHWluB2PZ81GDk1Hi6mL4GTU1yMw'
 title: 'Sending HL7 Messages to System'
-date: '2026-01-21T16:43:30.842Z'
-version: 539
+date: '2026-03-18T16:35:16.983Z'
+version: 547
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -142,7 +142,7 @@ OBX|1|NM|wbc^Wbc^Local^6690-2^Wbc^LN||7.0|/nl|3.8-11.0||||F|||20120410160227|lab
 ```
 {{% /pre %}}
 
-The identifier 12 will then link to a system user. This user can then can modified if needed to include any other required information.**
+The identifier 12 will then link to a system user. This user can then modify it if needed to include any other required information.
 
 {{% note %}}
 If the hl7 version is 2.5.1 or higher, the OBX 24 (performing organization address) and 25 (performing organization medical director) are used, instead of OBX 16.
