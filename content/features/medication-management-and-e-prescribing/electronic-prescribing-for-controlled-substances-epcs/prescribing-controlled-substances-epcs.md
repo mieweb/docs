@@ -1,8 +1,8 @@
 ---
 id: '1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
 title: 'Prescribing Controlled Substances (EPCS)'
-date: '2026-03-19T18:17:15.101Z'
-version: 186
+date: '2026-03-19T18:17:47.886Z'
+version: 189
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
