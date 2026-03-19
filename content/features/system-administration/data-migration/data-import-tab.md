@@ -1,8 +1,8 @@
 ---
 id: '1BrKs6e4cOvDJiao6uAJib7mYJ1sROSQds2wEI6SS35Y'
 title: 'Data Import Tab'
-date: '2025-11-12T19:30:47.495Z'
-version: 286
+date: '2026-03-18T16:00:16.060Z'
+version: 292
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -86,7 +86,7 @@ Note: Any data that had errored, would not have been imported into the system.  
 
 ### Log:
 
-Once the CSV is uploaded, and if you had **not** checkmarked *Verbose* in the upload requirements section (which is always recommended), you will then only see a** Log** after the import has been processed.
+Once the CSV is uploaded, and if you had **not** checkmarked *Verbose* in the upload requirements section (which is always recommended), you will then only see a **Log** after the import has been processed.
 
 ![](./data-import-tab.assets/18337eeb126b5ec77b903a2d71b4b003.png)
 
