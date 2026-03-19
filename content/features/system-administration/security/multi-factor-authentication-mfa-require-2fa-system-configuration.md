@@ -1,9 +1,9 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2025-12-10T17:31:50.592Z'
-version: 684
-lastAuthor: 'ashleyhorner'
+date: '2026-03-18T16:20:02.046Z'
+version: 697
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
@@ -46,7 +46,7 @@ The system setting can be set system wide to force users to use only HOTP (value
 
 ![](./multi-factor-authentication-mfa-require-2fa-system-configuration.assets/1789ae49cf7689d82b703a68180b6e08.png)
 
-The difference between** HOTP and TOTP** is:
+The difference between **HOTP** and **TOTP** is:
 
 * <strong>HOTP:</strong> The code changes only when you request a new one (for example, by pressing a button in your app or device). Each code is used once and then a new one is generated the next time you need it.
 * <strong>TOTP:</strong> The code changes automatically every set amount of time (usually every 30 seconds), whether you request it or not. You have to use the current code before it expires and a new one appears. MIE recommends this setting.
