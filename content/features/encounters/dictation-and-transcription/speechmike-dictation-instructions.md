@@ -1,9 +1,9 @@
 ---
 id: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
 title: 'SpeechMike Dictation Instructions'
-date: '2020-03-25T21:00:24.947Z'
-version: 66
-lastAuthor: ''
+date: '2026-03-19T20:44:36.701Z'
+version: 82
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
@@ -47,7 +47,7 @@ wikigdrive: 'v2.16.0'
 
 **# - End dictation and get a menu to upload and set priority**
 
-*** - In listen mode; will play next dictation for found patient. All other keys will start a new search90 for dictation.**
+* <strong>In listen mode; will play next dictation for found patient. All other keys will start a new search90 for dictation.</strong>
 
 ## Using the SpeechMike to Dictate
 
@@ -105,7 +105,7 @@ To edit a dictation (example: start at a certain point to redictate):
 
 Click the very first button ? in the MIE Player (or the **??** button on the SpeechMike) to rewind the dictation all the way to the beginning. Click the play button to listen and click stop button at any point on MIE Player or SpeechMike. When you find the point you wish to redictate, click the record button and it will ask you to confirm by clicking record button again. *This will erase and record any dictation from this point on.*
 
-Click EOL (End of Letter) button on the LFH5276 SpeechMike to **upload the dictation when complete.** You must press it 2 times because it asks for confirmation. You will see it upload on the screen. *(*Or click picture of the floppy disk icon on MIE Player with your computer mouse or SpeechMike mouse to **upload completed dictation.**
+Click EOL (End of Letter) button on the LFH5276 SpeechMike to **upload the dictation when complete.** You must press it 2 times because it asks for confirmation. You will see it upload on the screen. (Or click picture of the floppy disk icon on MIE Player with your computer mouse or SpeechMike mouse to **upload completed dictation.**)
 
 If you do **not** press the EOL button on the SpeechMike to upload (or don't click the floppy disk icon to upload) and you X out of the MIEPlayer, it does not save any dictation.
 
@@ -163,7 +163,7 @@ Dictate day will allow you to dictate all patients in this day's schedule. It au
 
 Click **Dictate Day** to go through all **un-dictated** patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the first patient name in the scheduler view. Dictate then **upload** the dictation for that patient. After you upload, the next patient on the schedule will pop-up in the MIEPlayer to dictate for. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
 
-When you skip a patient, it considers it still as **un-dictated**. When you refresh and go back into the scheduler and click *Dictate Day*again, it will start with the first **un-dictated** patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
+When you skip a patient, it considers it still as **un-dictated**. When you refresh and go back into the scheduler and click *Dictate Day* again, it will start with the first **un-dictated** patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
 
 ### Dictate from Dictation Left Sidebar Tab (with SpeechMike)
 
@@ -199,7 +199,7 @@ Begin dictating by stating patient's name, DOS, location, and other company requ
 
 Release record button on SpeechMike to pause or stop (or in the MIEPlayer box click the square box button next to the record/circle button)
 
-Click grey CMD button on SpeechMike to **upload the dictation when complete.** You must press it 2 times because it asks for confirmation. You will see it upload on the screen. *(*Or click picture of the floppy disk icon on MIE Player with your computer mouse to **upload completed dictation.**
+Click grey CMD button on SpeechMike to **upload the dictation when complete.** You must press it 2 times because it asks for confirmation. You will see it upload on the screen. (Or click picture of the floppy disk icon on MIE Player with your computer mouse to **upload completed dictation.**)
 
 If you do **not** press the CMD button on the SpeechMike to upload (or don't click the floppy disk icon to upload) and you X out of the MIEPlayer, it does not save anything.
 
