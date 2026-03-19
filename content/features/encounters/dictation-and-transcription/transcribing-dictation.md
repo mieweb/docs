@@ -1,9 +1,9 @@
 ---
 id: '1l-BboNkIPUe-_OyN92Rj2BUFR1vjRnDI3lrOXfj4eAg'
 title: 'Transcribing Dictation'
-date: '2025-01-21T21:50:29.212Z'
-version: 150
-lastAuthor: 'sberry'
+date: '2026-03-17T18:52:10.611Z'
+version: 162
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'closing-encounters-from-the-dictation-module.md'
@@ -94,7 +94,7 @@ If your transcription department has been given rights to archive & close encoun
 
 ## Inaudible Transcriptions
 
-If you had marked any part of the transcription with * Inaudible * then when you have closed the voice file, the file will be moved to the Incomplete dictation tab.
+If you had marked any part of the transcription with **Inaudible** then when you have closed the voice file, the file will be moved to the Incomplete dictation tab.
 
 ![](./transcribing-dictation.assets/1f17d75bdd83b9d7c660e7b6ae3a6644.png)
 
