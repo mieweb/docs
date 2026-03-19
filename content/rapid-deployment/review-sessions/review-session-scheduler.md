@@ -1,15 +1,15 @@
 ---
 id: '16jO2umnJ-Eg-5kGeSj3Z5yAXYCkaPVZQ0mdGVhBD-44'
 title: 'Review Session - Scheduler'
-date: '2025-09-11T14:52:26.071Z'
-version: 82
-lastAuthor: 'anichols'
+date: '2026-03-18T16:44:43.298Z'
+version: 89
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://system/?func=scheduler&s=schedules'
   - 'https://system/?func=scheduler&s=wait_list'
-  - 'https://system/?func=scheduler'
   - '../../features/system-administration/security/security-role-settings.md'
+  - 'https://system/?func=scheduler'
   - 'https://system/?func=scheduler&s=schedules&opp=sched_edit'
   - 'https://system/?func=scheduler&s=apttypes'
   - '../../features/scheduling/appt-types-tab.md'
@@ -100,7 +100,7 @@ The Waiting List displays patients in ascending order of when they were schedule
 
 ## System Configuration
 
-The [Scheduler](https://system/?func=scheduler#Now)[**** ](https://system/?func=scheduler#Now)[module](https://system/?func=scheduler#Now) in {{% system-name %}} allows offices to interface with a Practice Management (PM) system, as well as account for any varying schedules the organization may need. Depending on the workflows and necessary schedule resources, varying degrees of configuration are needed to begin scheduling appointments in {{% system-name %}} .
+The Scheduler module in {{% system-name %}} allows offices to interface with a Practice Management (PM) system, as well as account for any varying schedules the organization may need. Depending on the workflows and necessary schedule resources, varying degrees of configuration are needed to begin scheduling appointments in {{% system-name %}} .
 
 In order to add or manage schedules and appointments in {{% system-name %}} , the proper security permissions must be provided. For instance, in order to create and manage resource schedules, the security role setting *Edit Schedules* must be set to **Yes**. Similarly, to add appointments, the *Add Appointments* setting must be **Yes**. If the My Settings preference of *Force Default Resources* is set to **Yes**, the Scheduler will show all resources that have an added or edited appointment by you. To view only one resource at a time, ensure this setting is set to **No**. For more information on some the various settings, review the [Security Role Settings](../../features/system-administration/security/security-role-settings.md) documentation.
 
