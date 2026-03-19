@@ -1,8 +1,8 @@
 ---
 id: '1ELaUDFunenSjYmxjNpL5T9eueiItCLmAwyGPgK6QUO8'
 title: 'MedicalCodify.com'
-date: '2026-03-18T17:48:59.054Z'
-version: 100
+date: '2026-03-19T16:50:40.252Z'
+version: 109
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -42,7 +42,7 @@ Currently, MedicalCodify has search capabilities for:
 
 In {{% system-name %}} , MedicalCodify is accessible in various places.
 
-### Control Sidemenu Tab
+### Control Panel Sidemenu Tab
 
 From the Control Panel sidemenu tab, there is an option to get into MedicalCodify.
 
