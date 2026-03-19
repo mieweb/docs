@@ -1,8 +1,8 @@
 ---
 id: '1JYGKWOt98LpnXr20Rr4VDkhfgb1cYX7-72aWGkB0JMM'
 title: 'Respirator Fit Data CSV API Import Tool'
-date: '2025-11-13T21:39:22.003Z'
-version: 89
+date: '2026-03-18T16:15:03.663Z'
+version: 98
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -85,7 +85,7 @@ Once the data has been imported, you can browse to an employee chart to their Re
 
 ### Example of Respirator Fit Testing that was Imported with ALL columns of the spreadsheet populated:
 
-This is the maximum Respirator Fit Testing data you can import.  This example shows data for all fields since we imported data from all columns that were *required* **_and_*** optional.*
+This is the maximum Respirator Fit Testing data you can import.  This example shows data for all fields since we imported data from all columns that were *required* **_and_** *optional.*
 
 ![](./respirator-fit-data-csv-api-import-tool.assets/7821f57f88b3f581de65184ceb182296.png)
 
