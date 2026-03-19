@@ -1,9 +1,9 @@
 ---
 id: '1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
 title: 'Pharmacy Filter Import'
-date: '2024-12-18T13:48:13.385Z'
-version: 34
-lastAuthor: 'bhamm'
+date: '2026-03-18T16:07:21.084Z'
+version: 42
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'data-import-master-list.md'
@@ -66,11 +66,10 @@ The purpose of this page is to define data and fields that may be imported into 
 <td>National Council for Prescription Drug Programs ID</td>
 </tr>
 </table>
-```
-*Optional when NCPDPID is present in row.
-**Optional when NPI is present
 
-```
+*Optional when NCPDPID is present in row.
+
+**Optional when NPI is present
 
 ## Examples of CSV
 
