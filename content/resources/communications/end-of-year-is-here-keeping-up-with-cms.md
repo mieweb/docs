@@ -1,8 +1,8 @@
 ---
 id: '1mzFSt5w-9M3rZjHAehLuli0zz3d_eVNp1V2k4QLZbyk'
 title: 'End-of-Year Is Here: Keeping Up with CMS'
-date: '2025-11-14T14:58:17.483Z'
-version: 70
+date: '2026-03-18T16:58:57.149Z'
+version: 80
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -97,7 +97,7 @@ As is typically the case, CMS finalized a great deal of changes for the upcoming
 Additionally, changes for third-party intermediaries (i.e., QCDRs and Qualified Registries) have been finalized to take effect as early as PY 2020. There will be a requirement of QCDRs, beginning with the 2020 performance period, to work together to harmonize their similar QCDR measures. Beginning with the 2021 performance period, QCDRs and Qualified Registries will be required to consolidate and enhance their services by supporting all MIPS performance categories that require data submission, as well as provide enhanced performance feedback, allowing clinicians to view their performance on a given measure in comparison to other participants in the registry or QCDR.
 
 {{% note %}}
-Due to the ongoing changes and updates needed for 2020 compliance, {{% system-name %}} will need all clients currently participating in quality surveillance, incentive programs, or measure tracking to upgrade to RC201909. Without an upgrade to RC201909, clients will not be able to enroll or participate in quality of care programs in 2020. **Application Support will be reaching out to** **_all participating clients_**** to initiate conversations, answer questions, and address roadblocks or challenges this necessary upgrade may present.**
+Due to the ongoing changes and updates needed for 2020 compliance, {{% system-name %}} will need all clients currently participating in quality surveillance, incentive programs, or measure tracking to upgrade to RC201909. Without an upgrade to RC201909, clients will not be able to enroll or participate in quality of care programs in 2020. **Application Support will be reaching out to all participating clients to initiate conversations, answer questions, and address roadblocks or challenges this necessary upgrade may present.**
 {{% /note %}}
 
 **For the 2020 performance period**, the following high-level changes can be noted:
