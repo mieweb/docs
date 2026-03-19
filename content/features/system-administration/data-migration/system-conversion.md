@@ -1,8 +1,8 @@
 ---
 id: '12BfxOgwAp35VUX7a-OHkI2NB6mjuLK1ocGaJMTL0_jE'
 title: 'System Conversion'
-date: '2026-01-06T16:28:05.873Z'
-version: 111
+date: '2026-03-18T16:09:35.766Z'
+version: 118
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -25,7 +25,7 @@ wikigdrive: 'v2.16.0'
 
 There are a few stages involved in the conversion:
 
-1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/) <strong><em>(see this page for data file requirements)</em></strong>'.
+1. MIE obtains a snapshot of the Legacy Data in a MySQL dump or CSV format from the client — [Data Migration File Format Standard](https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-migration-file-format-standard/) <strong>(see this page for data file requirements)</strong>.
 2. Legacy Data is loaded to the development MySQL database using MIE's pysqlimport tool.
 3. Generate <em>Data Mapping Spreadsheet</em> (Google Spreadsheet exportable to Excel/CSV for client use).
 4. Perform data mapping and define WebChart components.
