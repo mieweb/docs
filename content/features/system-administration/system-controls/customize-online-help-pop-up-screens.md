@@ -1,8 +1,8 @@
 ---
 id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 title: 'Customize Online Help Pop-up Screens'
-date: '2025-02-19T20:23:01.228Z'
-version: 246
+date: '2026-03-18T15:50:15.792Z'
+version: 254
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -140,7 +140,7 @@ After you load a screenshot or image into the {{% system-name %}} System Files u
 
 Keep the same [[IMAGE: ]] programming above, just add at the end a pixel value for height & width using the programming of **height=x** **width=y**. X & Y are in pixel sizes, so whatever value you type in for X will need to be a pixel number and same for Y.
 
-Example: [[IMAGE:?f=stream&sysfile=smile&revision_number=0**|height=100|width=100**]]
+Example: [[IMAGE:?f=stream&sysfile=smile&revision_number=0|height=100|width=100]]
 
 ![](./customize-online-help-pop-up-screens.assets/fea566c6878f3f97c6e44ef61af5697e.png)
 
