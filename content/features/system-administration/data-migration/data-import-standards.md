@@ -1,9 +1,9 @@
 ---
 id: '1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
 title: 'Data Import Standards'
-date: '2026-01-15T18:58:27.577Z'
-version: 196
-lastAuthor: 'nwallace'
+date: '2026-03-20T15:11:19.666Z'
+version: 209
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1WqdIEGETaoa0RFPUazvKp5JfX-gYEIfzyQ8jtApwFq8/edit?usp=sharing'
@@ -53,8 +53,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>R1</td>
@@ -85,8 +85,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 **Ethnicity**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>E1</td>
@@ -101,8 +101,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 **Sex**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>M</td>
@@ -133,8 +133,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 **Marital Status**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>M</td>
@@ -153,20 +153,20 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 <td>Widowed</td>
 </tr>
 <tr>
-<td>A</td>
+<td>L</td>
 <td>Legally Separated</td>
 </tr>
 <tr>
-<td>C</td>
-<td>Common Law</td>
+<td>T</td>
+<td>Domestic Partner</td>
 </tr>
 </table>
 
 **Full/Part Time Employment Status**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>F</td>
@@ -181,8 +181,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 **User ID Types**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>id:username</td>
@@ -205,8 +205,8 @@ ISO 2 letter country code (ISO 3166-1-alpha-2) - http://www.iso.org/iso/country
 **Patient ID Types**
 <table>
 <tr>
-<td>Code</td>
-<td>Description</td>
+<td><strong>Code</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>id:username</td>
