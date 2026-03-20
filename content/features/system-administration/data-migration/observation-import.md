@@ -1,9 +1,9 @@
 ---
 id: '1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
 title: 'Observation Import'
-date: '2024-12-18T14:18:29.424Z'
-version: 49
-lastAuthor: 'bhamm'
+date: '2026-03-20T15:13:07.628Z'
+version: 57
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1x2tU52MiV1lV7D3azyXfuQCtKzdiNjFfPHQUxMlnCLs'
@@ -23,10 +23,10 @@ The lab result column definition shall contain all columns listed below regardle
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>Patient ID</td>
