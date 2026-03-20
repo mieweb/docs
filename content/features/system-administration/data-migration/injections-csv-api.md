@@ -1,8 +1,8 @@
 ---
 id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 title: 'Injections CSV API'
-date: '2025-11-12T19:06:33.248Z'
-version: 71
+date: '2026-03-20T15:08:01.301Z'
+version: 78
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -70,8 +70,8 @@ The CDC Immunization Information Systems CVX Codes are available here: http://w
 
 <table>
 <tr>
-<td>Enterprise Health Site Codes</td>
-<td>Enterprise Health Site Descriptions</td>
+<td><strong>Enterprise Health Site Codes</strong></td>
+<td><strong>Enterprise Health Site Descriptions</strong></td>
 </tr>
 <tr>
 <td>AB</td>
@@ -187,8 +187,8 @@ The CDC Immunization Information Systems CVX Codes are available here: http://w
 
 <table>
 <tr>
-<td>Enterprise Health Route Codes</td>
-<td>Enterprise Health Route Descriptions</td>
+<td><strong>Enterprise Health Route Codes</strong></td>
+<td><strong>Enterprise Health Route Descriptions</strong></td>
 </tr>
 <tr>
 <td>ID</td>
