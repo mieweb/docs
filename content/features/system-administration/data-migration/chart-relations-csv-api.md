@@ -1,8 +1,8 @@
 ---
 id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
 title: 'Chart Relations CSV API'
-date: '2025-11-12T19:54:46.589Z'
-version: 75
+date: '2026-03-20T15:12:18.280Z'
+version: 82
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -40,10 +40,10 @@ High Level: Patient 2 is related to Patient 1 with Relation Type.
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>PAT1_PARTITION</td>
@@ -84,8 +84,8 @@ Relation Types
 The following table outlines default relation types.
 <table>
 <tr>
-<td>Relation Type</td>
-<td>Relation ID</td>
+<td><strong>Relation Type</strong></td>
+<td><strong>Relation ID</strong></td>
 </tr>
 <tr>
 <td>Self</td>
