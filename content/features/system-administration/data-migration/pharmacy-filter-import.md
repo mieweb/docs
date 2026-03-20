@@ -1,8 +1,8 @@
 ---
 id: '1LCFeOZz-oM3zqHHPhTmV523I3AsTJPjz5CPa9gpqB9A'
 title: 'Pharmacy Filter Import'
-date: '2026-03-18T16:07:21.084Z'
-version: 43
+date: '2026-03-20T15:16:27.149Z'
+version: 51
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -42,10 +42,10 @@ The purpose of this page is to define data and fields that may be imported into 
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>FILTER_NAME</td>
