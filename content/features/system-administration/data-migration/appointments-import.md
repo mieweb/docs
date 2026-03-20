@@ -1,9 +1,9 @@
 ---
 id: '1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
 title: 'Appointments Import'
-date: '2024-12-18T14:43:33.153Z'
-version: 36
-lastAuthor: 'bhamm'
+date: '2026-03-20T15:18:11.285Z'
+version: 44
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
@@ -24,10 +24,10 @@ The appointment column definition shall contain all columns listed below regardl
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>patient.partition</td>
