@@ -1,8 +1,8 @@
 ---
 id: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
 title: 'Create PFT Data File for Import'
-date: '2025-11-13T16:29:18.565Z'
-version: 57
+date: '2026-03-20T14:14:13.040Z'
+version: 63
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -30,7 +30,7 @@ What you will need:
 <td><strong>Field Name</strong></td>
 <td><strong>Description</strong></td>
 <td><strong>Requirement</strong></td>
-<td>Data File Column Header</td>
+<td><strong>Data File Column Header</strong></td>
 </tr>
 <tr>
 <td>Employee ID</td>
