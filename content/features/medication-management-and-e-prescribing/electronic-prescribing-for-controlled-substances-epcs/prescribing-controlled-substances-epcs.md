@@ -1,8 +1,8 @@
 ---
 id: '1Xe_qYKQFJp-dMf0cBQT9DyK_nWa18DyBCeEbXEnZiW0'
 title: 'Prescribing Controlled Substances (EPCS)'
-date: '2026-03-19T18:17:47.886Z'
-version: 190
+date: '2026-03-20T12:22:26.978Z'
+version: 196
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -45,7 +45,7 @@ Upon entering the prescription information, the provider must then complete the 
 
 ![](./prescribing-controlled-substances-epcs.assets/c1964bc26a92923f46cb048de06707d2.png)
 
-The provider is immediately directed to the **Unsigned Prescriptions** review**** box, where he is required to select the **Ready to Sign** box and then **Sign** the prescriptions in conjunction with two-factor authorization with their mobile device or USB.
+The provider is immediately directed to the **Unsigned Prescriptions** review box, where he is required to select the **Ready to Sign** box and then **Sign** the prescriptions in conjunction with two-factor authorization with their mobile device or USB.
 
 ![](./prescribing-controlled-substances-epcs.assets/2c574baba22ca5f349761bf3c5e4f99e.png)
 
