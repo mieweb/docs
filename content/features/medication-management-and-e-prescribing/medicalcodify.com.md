@@ -1,8 +1,8 @@
 ---
 id: '1ELaUDFunenSjYmxjNpL5T9eueiItCLmAwyGPgK6QUO8'
 title: 'MedicalCodify.com'
-date: '2026-03-19T16:50:40.252Z'
-version: 109
+date: '2026-03-20T12:42:29.926Z'
+version: 115
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -15,7 +15,7 @@ MedicalCodify.com is our "global" search tool for medical coding system data as 
 
 ![](./medicalcodify.com.assets/188deb5bd396446aea374c4526928767.png)
 
-**M****edicalCodify** is the name of our project that makes medications, order codes, and multiple medical code information easy to search in one place.  Put simply, it is an encyclopedia of medical codes that ties together concepts across different code systems.  Medical Codify has bidirectional navigation between drugs and conditions: when viewing a condition page (SNOMED or ICD10 codes).  A user can see which medications have that condition as a contraindication, indication, or side effect, and when viewing drug information, ingredients, therapeutic classes, and duplicate therapy groups are now clickable to explore related medications. Additionally, you can now search for drug classes, duplicate therapy groups, and specific ingredients directly in Medical Codify's advanced search options.
+MedicalCodify is the name of our project that makes medications, order codes, and multiple medical code information easy to search in one place.  Put simply, it is an encyclopedia of medical codes that ties together concepts across different code systems.  Medical Codify has bidirectional navigation between drugs and conditions: when viewing a condition page (SNOMED or ICD10 codes).  A user can see which medications have that condition as a contraindication, indication, or side effect, and when viewing drug information, ingredients, therapeutic classes, and duplicate therapy groups are now clickable to explore related medications. Additionally, you can now search for drug classes, duplicate therapy groups, and specific ingredients directly in Medical Codify's advanced search options.
 
 Currently, MedicalCodify has search capabilities for:
 
