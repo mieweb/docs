@@ -1,8 +1,8 @@
 ---
 id: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
 title: 'Create Vital Signs File for Import'
-date: '2025-11-13T16:31:09.843Z'
-version: 66
+date: '2026-03-20T14:15:19.576Z'
+version: 72
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -30,7 +30,7 @@ What you will need:
 <td><strong>Field Name</strong></td>
 <td><strong>Description</strong></td>
 <td><strong>Requirement</strong></td>
-<td>Data File Header</td>
+<td><strong>Data File Header</strong></td>
 </tr>
 <tr>
 <td>Employee ID</td>
