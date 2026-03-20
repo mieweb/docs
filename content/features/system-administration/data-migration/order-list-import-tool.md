@@ -1,9 +1,9 @@
 ---
 id: '1G40DAPnlx7F9X5xRDxMUVkRSk50Ec_5HEyUdvk7yK_I'
 title: 'Order List Import Tool'
-date: '2025-04-07T17:26:51.127Z'
-version: 106
-lastAuthor: 'anichols'
+date: '2026-03-20T18:11:45.241Z'
+version: 117
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1SIBoNqMuYZoruef5PlDrJcbH9GAzLwrL/view?usp=sharing'
@@ -25,16 +25,16 @@ The order list column definition shall contain all columns listed below regardle
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>Order name</td>
 <td>char 2^24 (16MB)</td>
 <td>R</td>
-<td>This is the short form name or mneumonic of the order item</td>
+<td>This is the short form name or mnemonic of the order item</td>
 </tr>
 <tr>
 <td>Order detail description</td>
