@@ -1,9 +1,9 @@
 ---
 id: '13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
 title: 'Import/Export JSON Files'
-date: '2021-08-26T12:03:20.282Z'
-version: 99
-lastAuthor: ''
+date: '2026-03-20T15:06:35.702Z'
+version: 108
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=13Oulcj0nZoB3rk_Fc-Fd4FxrUr5Di_UXZM45NP3tde4'
@@ -14,11 +14,11 @@ The {{% system-name %}} system allows users to create, import, and export JSON f
 Users with proper permissions can create JSON files of the following sections/modules:
 <table>
 <tr>
-<td>Abbreviations</td>
-<td>Document Types</td>
-<td>Health Surveillance</td>
-<td>Observation Flowsheets</td>
-<td>Scripted Logic & Scripted Rules</td>
+<td><strong>Abbreviations</strong></td>
+<td><strong>Document Types</strong></td>
+<td><strong>Health Surveillance</strong></td>
+<td><strong>Observation Flowsheets</strong></td>
+<td><strong>Scripted Logic & Scripted Rules</strong></td>
 </tr>
 <tr>
 <td>Apt Types</td>
