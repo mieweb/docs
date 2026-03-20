@@ -1,8 +1,8 @@
 ---
 id: '1kF3jZSVDWJL7AYRVYHwooNNnMdOkGy8j9ACvgEH1M0Y'
 title: 'Panel Membership Import Tool'
-date: '2025-11-12T16:50:45.204Z'
-version: 83
+date: '2026-03-20T15:04:48.057Z'
+version: 89
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -46,7 +46,7 @@ The following page defines data and fields that may be imported using the panel 
 <tr>
 <td><strong>Field Name</strong></td>
 <td><strong>Description</strong></td>
-<td>Type</td>
+<td><strong>Type</strong></td>
 <td><strong>Requirement</strong></td>
 </tr>
 <tr>
