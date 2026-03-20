@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2026-03-18T15:11:13.492Z'
-version: 331
+date: '2026-03-20T13:07:12.134Z'
+version: 340
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -106,7 +106,7 @@ When you click the VIS Website link found available in the VIS Handouts section,
 
 After you select your first VIS Handout from the Name drop-down, click the ADD button, then select the 2nd VIS Handout pertaining to this same injection, then click the ADD button, then SUBMIT.
 
-You must click the ADD BUTTON to insert more than one VIS Handout to the injection.  This may be needed for example documenting an MMR injection, but you give out 3 separate VIS Handouts (a measles one, a mumps one, a rubella one) pertaining to each part of the injection serum.
+You must click the ADD BUTTON to insert more than one VIS Handout to the injection. This may be needed for example documenting an MMR injection, but you give out 3 separate VIS Handouts (a measles one, a mumps one, a rubella one) pertaining to each part of the injection serum.
 
 ![](./injection-program-tab-recording-mass-injections.assets/ac3f4b77a9337ded4e30e7e29153a162.png)
 
