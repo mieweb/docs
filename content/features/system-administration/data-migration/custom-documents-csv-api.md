@@ -1,9 +1,9 @@
 ---
 id: '1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
 title: 'Custom Documents CSV API'
-date: '2024-12-18T15:28:14.803Z'
-version: 100
-lastAuthor: 'bhamm'
+date: '2026-03-20T15:26:26.729Z'
+version: 107
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1l0ydyWzazhlWSBsaaS0P5LPYpI6VLb8xkNO2pZvX3q0'
@@ -27,10 +27,10 @@ SELECT * FROM storage_types;
 ```
 <table>
 <tr>
-<td>STORAGE_TYPE</td>
-<td>FILE_EXT</td>
-<td>CONTENT_TYPE</td>
-<td>DESCRIPTION</td>
+<td><strong>STORAGE_TYPE</strong></td>
+<td><strong>FILE_EXT</strong></td>
+<td><strong>CONTENT_TYPE</strong></td>
+<td><strong>DESCRIPTION</strong></td>
 </tr>
 <tr>
 <td>0</td>
