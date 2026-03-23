@@ -1,8 +1,8 @@
 ---
 id: '1SxK7srGGnHEu_j3yENZoNf51Uy53jy0g0iDpJZLobeM'
 title: 'Allergy Data Validation Test Script'
-date: '2026-01-06T17:52:08.160Z'
-version: 60
+date: '2026-03-20T15:32:45.446Z'
+version: 70
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -43,41 +43,41 @@ Some charts/records may not have all data elements, and in some circumstances, t
 <td><strong>Sample Data</strong></td>
 </tr>
 <tr>
-<td><strong>Allergy Name</strong></td>
+<td>Allergy Name</td>
 <td>Name of allergy to validate</td>
 <td>Vicodin</td>
 </tr>
 <tr>
-<td><strong>Alternate Name</strong></td>
+<td>Alternate Name</td>
 <td>Alternative name of allergy</td>
 <td>hydrocodone-acetaminophen</td>
 </tr>
 <tr>
-<td><strong>Type</strong></td>
+<td>Type</td>
 <td>Type of allergy<br />
 Options include:<br />
 <ul><li>Medication</li><li>Other</li></ul></td>
 <td>Medication</td>
 </tr>
 <tr>
-<td><strong>Allergy or Intolerance</strong></td>
+<td>Allergy or Intolerance</td>
 <td>Allergy/Intolerance flag<br />
 Options include:<br />
 <ul><li>Allergy</li><li>Intolerance</li></ul></td>
 <td>Allergy</td>
 </tr>
 <tr>
-<td><strong>Reaction/Reason</strong></td>
+<td>Reaction/Reason</td>
 <td>Records the reaction or response to the allergy/intolerance being documented</td>
 <td>Rash, Itching</td>
 </tr>
 <tr>
-<td><strong>Start Date</strong></td>
+<td>Start Date</td>
 <td>When the allergy/intolerance was first noted</td>
 <td>10/10/2010</td>
 </tr>
 <tr>
-<td><strong>End Date</strong></td>
+<td>End Date</td>
 <td>The date on which the allergy/intolerance was noted to stop</td>
 <td></td>
 </tr>
