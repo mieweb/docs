@@ -1,9 +1,9 @@
 ---
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Fee Schedule Import Tool'
-date: '2025-04-07T16:59:59.593Z'
-version: 47
-lastAuthor: 'anichols'
+date: '2026-03-20T15:19:30.088Z'
+version: 57
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
@@ -23,10 +23,10 @@ The fee schedule column definition shall contain all columns listed below regard
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>Fee Schedule Name</td>
