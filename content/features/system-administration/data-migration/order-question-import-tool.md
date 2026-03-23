@@ -1,9 +1,9 @@
 ---
 id: '1vLkcD7KVc8tHY6VZkVDbXirqGFbPMPUr97U68k6Tc-c'
 title: 'Order Question Import Tool'
-date: '2021-10-29T16:01:13.157Z'
-version: 48
-lastAuthor: 'kbarton'
+date: '2026-03-20T15:21:19.110Z'
+version: 58
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://drive.google.com/file/d/1pCbkfLSSJUZo4Gs1YeGe9anLSpnyRrE9/view?usp=sharing'
@@ -25,10 +25,10 @@ The order question column definition shall contain all columns listed below rega
 * O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>Order code</td>
