@@ -1,6 +1,58 @@
 #!/bin/bash
 set -eo pipefail
 
+PANDOC_VERSION="3.6.4"
+
+# Ensure pandoc is available (required by some markdown files using markup: 'pandoc')
+ensure_pandoc() {
+  if command -v pandoc &>/dev/null; then
+    echo "pandoc found: $(pandoc --version | head -1)"
+    return
+  fi
+
+  echo "pandoc not found, downloading v${PANDOC_VERSION}..."
+  local os arch tarball url
+  os="$(uname -s)"
+  arch="$(uname -m)"
+
+  case "$os" in
+    Linux)
+      case "$arch" in
+        x86_64)  tarball="pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz" ;;
+        aarch64) tarball="pandoc-${PANDOC_VERSION}-linux-arm64.tar.gz" ;;
+        *) echo "Unsupported Linux arch: $arch"; return 1 ;;
+      esac
+      ;;
+    Darwin)
+      case "$arch" in
+        x86_64)  tarball="pandoc-${PANDOC_VERSION}-x86_64-macOS.zip" ;;
+        arm64)   tarball="pandoc-${PANDOC_VERSION}-arm64-macOS.zip" ;;
+        *) echo "Unsupported macOS arch: $arch"; return 1 ;;
+      esac
+      ;;
+    *) echo "Unsupported OS: $os"; return 1 ;;
+  esac
+
+  url="https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/${tarball}"
+  local pandoc_dir="${PANDOC_DIR:-.pandoc}"
+  mkdir -p "$pandoc_dir"
+
+  if [[ "$tarball" == *.tar.gz ]]; then
+    wget -qO- "$url" | tar xz --strip-components=1 -C "$pandoc_dir"
+  else
+    local tmpzip
+    tmpzip="$(mktemp)"
+    wget -qO "$tmpzip" "$url"
+    unzip -qo "$tmpzip" -d "$pandoc_dir"
+    rm -f "$tmpzip"
+  fi
+
+  export PATH="$pandoc_dir/bin:$PATH"
+  echo "pandoc installed: $(pandoc --version | head -1)"
+}
+
+ensure_pandoc
+
 HUGO_RUN=""
 OPTS=""
 BASE_URL="/"
