@@ -1,8 +1,8 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2026-01-09T14:42:52.005Z'
-version: 494
+date: '2026-03-25T18:48:22.432Z'
+version: 512
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -289,6 +289,16 @@ When grabbing any Realm Tasks, you may get a Permission Denied for Tasks error.
 For the ability to grab realm tasks using the DataVis method, the specific security role(s) need to have the JSON security permission ‘tasks' table added to their roles.  Contact your MIE Deployment Consultant or MIE Help Desk for configuration.
 
 ![](./task-list.assets/57648e9e50e422bc9beaddef6d4c2857.png)
+
+## Save Report Filter Templates and Show Saved Filters
+
+If system setting **_System / WebChart / Enterprise Health_** is enabled, various search criteria fields will appear at the top of the Your Task List screen, to help you narrow down pending tasks in the list to view and work.
+
+![](./task-list.assets/074a1815e677bc5c074a92ba74724dfe.png)
+
+Your Task List for the Search Criteria fields, offer Save Filter Template and Show Saved Filters options to quickly save search criteria filter values as a template, to be visible and used again.  This allows a user to quickly save and apply (at a future time) specific search criteria values to utilize again in the Your Task List to quickly and efficiently narrow down pending tasks in the list to view and work, based on specific search criteria entered.
+
+![](./task-list.assets/0375cfa7a207723d7ea033be3ed8bb34.png)
 
 ## Learning Management System
 
