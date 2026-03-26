@@ -2,7 +2,7 @@
 id: '1cKcHC0ShLX-AyNro4x-3zsZefccwS3im2LletR2x__Q'
 title: 'Document Type Tab'
 date: '2026-02-25T14:37:15.195Z'
-version: 302
+version: 310
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

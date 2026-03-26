@@ -1,8 +1,8 @@
 ---
 id: '1Dycw2lHP4Ryb8rnlJbjtSogsDDKpVOt6KfPZq978E_c'
 title: 'Batch Search in WebScan'
-date: '2026-03-09T15:33:44.818Z'
-version: 90
+date: '2026-03-09T15:34:07.629Z'
+version: 93
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

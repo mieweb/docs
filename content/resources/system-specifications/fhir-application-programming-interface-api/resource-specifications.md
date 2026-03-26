@@ -2,7 +2,7 @@
 id: '1pra9Trk_pf9pWs5HVMcFyq8rC3ubybUPZ0_Il2M3uoE'
 title: 'Resource Specifications'
 date: '2026-01-30T21:29:54.148Z'
-version: 755
+version: 762
 lastAuthor: 'nwelsh'
 mimeType: 'text/x-markdown'
 links:

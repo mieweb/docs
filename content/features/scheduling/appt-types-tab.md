@@ -2,7 +2,7 @@
 id: '1jRDMeTD6iAj6aqxsi-XfoPUUkthQinraJfl5S0S5Cpo'
 title: 'Appt Types Tab'
 date: '2026-03-18T14:33:38.654Z'
-version: 298
+version: 299
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

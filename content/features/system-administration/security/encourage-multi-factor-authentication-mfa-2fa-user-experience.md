@@ -2,7 +2,7 @@
 id: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 title: 'Encourage Multi-Factor Authentication MFA/2FA User Experience'
 date: '2026-03-18T16:21:51.391Z'
-version: 166
+version: 169
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

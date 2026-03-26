@@ -2,7 +2,7 @@
 id: '1KDZp2b01JsGpUGfYwEoTrPT63oABCBFDOXXoGIsxVeM'
 title: 'SpeechMike Dictation Instructions'
 date: '2026-03-19T20:44:36.701Z'
-version: 82
+version: 83
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

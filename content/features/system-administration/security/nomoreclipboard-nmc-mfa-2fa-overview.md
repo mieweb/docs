@@ -2,7 +2,7 @@
 id: '1WyPS_oXBkXsuxypfnrWmso6iMWoSeksH9Ft2xzx9HnY'
 title: 'NoMoreClipboard (NMC) MFA/2FA Overview'
 date: '2025-11-06T19:16:45.656Z'
-version: 17
+version: 18
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links: []

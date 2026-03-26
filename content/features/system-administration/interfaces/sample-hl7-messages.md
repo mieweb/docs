@@ -2,7 +2,7 @@
 id: '1ppKwQ2U2IjLKavWJZYVE7Rnh3v0ITFCl8BxqI1GJoeg'
 title: 'Sample HL7 Messages'
 date: '2026-01-21T19:31:20.562Z'
-version: 276
+version: 277
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

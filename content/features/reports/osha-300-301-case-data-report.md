@@ -2,7 +2,7 @@
 id: '1E7Lf_NoNa1IhlPGO1jWwqUfYDiXE3IRzLrGZUa1IIFg'
 title: 'OSHA 300/301 Case Data Report'
 date: '2026-03-11T13:35:44.802Z'
-version: 383
+version: 387
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

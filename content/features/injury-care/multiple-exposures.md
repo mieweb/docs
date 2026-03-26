@@ -2,7 +2,7 @@
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
 date: '2026-01-27T17:10:07.003Z'
-version: 680
+version: 684
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

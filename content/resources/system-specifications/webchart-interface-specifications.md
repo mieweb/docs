@@ -2,7 +2,7 @@
 id: '1sTO8fOnVnhnSGfkWnaXFP0L4KUzTva8PVlPnFodoKIw'
 title: 'WebChart Interface Specifications'
 date: '2026-01-06T18:59:30.044Z'
-version: 54
+version: 56
 lastAuthor: 'shullender'
 mimeType: 'text/x-markdown'
 links:

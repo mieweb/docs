@@ -2,7 +2,7 @@
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
 date: '2026-03-18T16:20:02.046Z'
-version: 697
+version: 703
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
