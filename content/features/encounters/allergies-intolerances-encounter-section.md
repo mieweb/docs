@@ -1,8 +1,8 @@
 ---
 id: '1fO8TgCn20ax3Y_DZgsTc0Q3wSuOPRX-LD_vyxJhwAJs'
 title: 'Allergies Intolerances Encounter Section'
-date: '2025-11-25T17:55:52.960Z'
-version: 127
+date: '2026-03-26T14:42:45.766Z'
+version: 138
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -85,3 +85,13 @@ Click the **_Save_** button to add the allergy to the patient allergy list. Clic
 ![](./allergies-intolerances-encounter-section.assets/cb38c2589780610f13f4ba09a73ea1bf.png)
 
 See additional help documentation on the system default Library and adding custom libraries to prepopulate the Allergies / Intolerance Quick List with predefined defaults for end users.
+
+#### Uncoded Allergies/Intolerances
+
+While adding or editing a free-texted allergy, **UNCODED** will display highlighted in yellow next to the autocomplete field. A pop-up warning message will display now for confirmation of the uncoded allergy. An asterisk will display next to the uncoded allergy name.
+
+![](./allergies-intolerances-encounter-section.assets/5dbfb23b5ce35062a1d834bfa79ff30d.png)
+
+![](./allergies-intolerances-encounter-section.assets/cbba1a5aad6ae768b24b66e8cf822387.png)
+
+![](./allergies-intolerances-encounter-section.assets/c0691fd5223be7231e18ebdfbe6ce090.png)

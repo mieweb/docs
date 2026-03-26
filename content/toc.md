@@ -900,7 +900,7 @@ wikigdrive: 'v2.16.0'
       * [Doug's MacTools you need to install as a Windows person](mie/doug-s-mactools-you-need-to-install-as-a-windows-person.md)
       * [Guidance on making a short for MIE application for hire](mie/guidance-on-making-a-short-for-mie-application-for-hire.md)
       * [MIE Internship public](mie/mie-internship-public.md)
-      * [The MIE Way of Working - Not Scrum (and It Is Not Not Scrum)](mie/the-mie-way-of-working-not-scrum-and-it-is-not-not-scrum.md)
+      * [The MIE Way of Development - Not Scrum (and It Is Not Not Scrum)](mie/the-mie-way-of-development-not-scrum-and-it-is-not-not-scrum.md)
    * Programs
       * Compliance Programs
          * Medical Surveillance
@@ -1069,7 +1069,6 @@ wikigdrive: 'v2.16.0'
             * VPAT 2.5
                * [Accessibility Conformance Report VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/accessibility-conformance-report-vpat2.5rev_int_february2025.md)
                * [Redirect to: Accessibility Conformance Report VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/redirect-to-accessibility-conformance-report-vpat2.5rev_int_february2025.md)
-               * [VPAT2.5Rev_INT_February2025](resources/system-specifications/vpat/vpat-2.5/vpat2.5rev_int_february2025.md)
             * [Clinical Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/clinical-portal-voluntary-product-accessibility-template-vpat.md)
             * [Employer Portal Voluntary Product Accessibility Template (VPAT) ](resources/system-specifications/vpat/employer-portal-voluntary-product-accessibility-template-vpat.md)
             * [Patient Portal Voluntary Product Accessibility Template (VPAT)](resources/system-specifications/vpat/patient-portal-voluntary-product-accessibility-template-vpat.md)
