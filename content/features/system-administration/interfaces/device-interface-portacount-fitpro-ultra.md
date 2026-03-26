@@ -1,9 +1,9 @@
 ---
 id: '1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
 title: 'Device Interface - PortaCount FitPro Ultra'
-date: '2026-01-05T19:04:12.689Z'
-version: 146
-lastAuthor: 'auhrick'
+date: '2026-03-26T20:17:17.910Z'
+version: 160
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1chdVqyyIQrk_7n7K00VjRdNS7jXs12B_VGircOEHLaA'
@@ -15,15 +15,19 @@ Before users can import FitPro Ultra test results into {{% system-name %}} they 
 The FitPro Ultra Upload import tool is not currently available in the Device Import tab (Control Panel->Device Import Tool). The FitPro Ultra Upload tool must be manually installed by the {{% system-name %}} deployment team member.
 {{% /note %}}
 
-![](./device-interface-portacount-fitpro-ultra.assets/52a27f1b32d4da6fb3e210067cc9fbb9.png)
+![](./device-interface-portacount-fitpro-ultra.assets/29875e5818a8feac8d871ed946d6ca07.png)
 
 Before selecting the file to import, enter the **Import** **Test Date Range**. The date range field is required and important, as the FitPro Ultra File export contains ALL fit tests ever performed on the FitPro device. Entering the **Import Test Date Range**, will limit the import to the dates specified in the **Import Test Date Range** field.
 
-![](./device-interface-portacount-fitpro-ultra.assets/8ab0892f631c75fcec791a967ecc9512.png)
+![](./device-interface-portacount-fitpro-ultra.assets/f60a8f784f3a967756a7382257ac1780.png)
 
-Once the **Import Test Date Range** has been entered, either select the **Choose Files** button to browse to your local drive to select the file to be imported, or drop and drag the file into the file upload box.
+Select the **Target Chart Partition** to ensure the correct patient chart is selected. If no partition were to be selected, there is a chance two patient charts may have the same number (but are in different partitions) and the file would error out.
 
-![](./device-interface-portacount-fitpro-ultra.assets/03fefde265ae36268b2d6e462f234bd0.png)
+![](./device-interface-portacount-fitpro-ultra.assets/4c83294f8e86da15efa104566cae5b6b.png)
+
+Once the **Import Test Date Range** and **Target Chart Partition** has been entered, either select the **Choose Files** button to browse to your local drive to select the file to be imported, or drop and drag the file into the file upload box.
+
+![](./device-interface-portacount-fitpro-ultra.assets/12e1150c5db8af1e13ccad0ac4c11537.png)
 
 ![](./device-interface-portacount-fitpro-ultra.assets/81378dc543c94d23f0807a07cc0604e2.png)
 
