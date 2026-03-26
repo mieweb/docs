@@ -1,9 +1,9 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2026-03-09T15:41:08.658Z'
-version: 353
-lastAuthor: 'anichols'
+date: '2026-03-26T15:30:57.887Z'
+version: 360
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/scanning/'
@@ -293,7 +293,7 @@ Exiting the WebScan module is possible by clicking the X, found in the upper-rig
 To magnify anything on the document being displayed, use the mouse to hover over the image and click once while the magnifying glass is showing. Moving the mouse will magnify any moused-over area.
 {{% /tip %}}
 
-**Doc Type**: Doc Type is a required field. When left blank, {{% system-name %}} will inform users that there are pages not ready for uploading. If no information was populated from processing barcodes, this field will need to be entered manually. The Doc Type field is not a free-text field; it is an autocomplete field. Begin typing the document type name, and the autocomplete will list potential options alphabetically. Choose the appropriate doc type, and tab to the next field.
+**Doc Type**: Doc Type is a required field. When left blank, {{% system-name %}} will inform users that there are pages not ready for uploading. If no information was populated from processing barcodes, this field will need to be entered manually. The Doc Type field is not a free-text field; it is an autocomplete field. Begin typing the document type name, and the autocomplete will list potential options alphabetically. This field will search for any document type that contains the word(s) that are typed within the autocomplete. Choose the appropriate doc type, and tab to the next field.
 
 **Subject**: The Subject field is optional. This field allows users to specify what the document is about, contains, or is intended for, as an easy reference when searching for or reviewing documents within a chart.
 
