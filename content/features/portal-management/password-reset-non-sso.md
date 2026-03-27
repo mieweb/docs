@@ -1,8 +1,8 @@
 ---
 id: '1LUQDaYVkwIlzJeQVnhKNNptNldHsZFO23GmfXdkv_d8'
 title: 'Password Reset - Non SSO'
-date: '2026-03-17T18:17:55.698Z'
-version: 119
+date: '2026-03-27T15:26:04.969Z'
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -95,4 +95,4 @@ When the user is successfully logged into the portal, click on the SETTINGS side
 
 Once in SETTINGS of the portal, there is a red button *RESET PASSWORD*.  The user can click on that and change their current password and relog in using their new password.
 
-![](./password-reset-non-sso.assets/2bef8b0b45427c9a0eb4344afc97d7c6.png)
+![](./password-reset-non-sso.assets/ddcd91c59744abd6039ebdb2334a87e8.png)
