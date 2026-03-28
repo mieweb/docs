@@ -40,7 +40,7 @@
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "clsx": "^2.1.1",
-    "dompurify": "^3.3.1",
+    "dompurify": "^3.3.2",
     "highlight.js": "^11.11.1",
     "hugo-extended": "^0.139.3",
     "lucide-react": "^0.563.0",
