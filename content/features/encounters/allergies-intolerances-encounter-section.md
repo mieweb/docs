@@ -2,7 +2,7 @@
 id: '1fO8TgCn20ax3Y_DZgsTc0Q3wSuOPRX-LD_vyxJhwAJs'
 title: 'Allergies Intolerances Encounter Section'
 date: '2026-03-26T14:42:45.766Z'
-version: 138
+version: 144
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
