@@ -1,8 +1,8 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2026-03-11T16:08:08.374Z'
-version: 447
+date: '2026-04-02T13:38:56.164Z'
+version: 460
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -43,6 +43,7 @@ Batch Upload screen in release 202403 and newer:
 
 ![](./scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
+* <strong>Scanner:</strong> Select the scanner. If no scanner is detected, the Scanner dropdown may be blank or display a "No TWAIN scanners detected" or "Did not detect any scanners" option.
 * <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
 * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned. Users on 202509 and newer will be prompted with a warning message when changing to "Color" instead of the default "black/white" option. It is recommended Color Depth always be set at black/white. Opting to change to "Color" will slow down page render times, viewing, and printing the document and depending on the size, may include issues with properly storing the image/document.
 
@@ -52,7 +53,7 @@ Batch Upload screen in release 202403 and newer:
 8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
 
 {{% note %}}
-When a user clicks the Scan button and an Applications Needed pop-up window displays, the MIE SSL App needs to be installed. For systems on RC 202603 and newer, this Applications Needed window is customizable.
+When a user clicks the Scan button and an Applications Needed pop-up window displays, the MIE SSL App needs to be installed. For systems on RC 202603 and newer, this Applications Needed window is customizable. This allows for IT helpdesk phone numbers or contact information to be added for each client individually.
 
 ![](./scanning.assets/1a10df0516f00fbef46162b999d40b63.png)
 {{% /note %}}
