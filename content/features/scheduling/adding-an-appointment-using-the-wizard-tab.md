@@ -1,9 +1,9 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2026-03-11T17:07:29.242Z'
-version: 581
-lastAuthor: 'janderson'
+date: '2026-04-02T17:22:32.134Z'
+version: 586
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
@@ -108,10 +108,15 @@ The next section is *Patient Visits*.
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/d3d94aa0f160e9f12ba804cf73cf4019.png)
 
-* <strong>In Person, Telehealth Phone, Telehealth Video:</strong> In RC 202503 and newer, users can now denote if a scheduled appointment is to be performed In Person, Telehealth Phone, or Telehealth Video. As databases are upgraded to 202503, In Person, Telehealth Phone, and Telehealth Video will be automatically added as new appointment type categories.
+* <strong>In Person, Telehealth Phone, Telehealth Video:</strong> In RC 202503 and newer, users can now denote if a scheduled appointment is to be performed In Person, Telehealth Phone, or Telehealth Video. Selecting an option here will add a subsequent appointment type to the appointment being scheduled.
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/29b73309d5e36d55a37533a7ff38f411.png)
- ****
+
+* As databases are upgraded to 202503, In Person, Telehealth Phone, and Telehealth Video options will be available only if appointment type <strong>TH_VIDEO</strong> and/or <strong>TH_PHONE</strong> are active in the system's appointment types editor.
+    * By default, these appointment types are set as <em>inactive</em> in a system initially.
+
+**** 
+![](./adding-an-appointment-using-the-wizard-tab.assets/b5c6a134af627e091da16f00097b5402.png)
 
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
     * It does not show outside locations as choices in the auto-complete field. <em>HINT: Hit your down arrow key on your keyboard here to see a complete list of location choices your system has, instead of using the auto-complete if you wish.</em>
