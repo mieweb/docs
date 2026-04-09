@@ -1,9 +1,9 @@
 ---
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet and My Schedule Portlet'
-date: '2025-11-10T20:05:35.368Z'
-version: 125
-lastAuthor: 'anichols'
+date: '2026-04-09T17:22:14.037Z'
+version: 139
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/'
@@ -12,19 +12,19 @@ wikigdrive: 'v2.16.0'
 ---
 The Schedule portlet and/or the My Schedule portlet are optional portlets that can be configured to display on the Quick View sidemenu. For more information on how to use and configure the Quick View, please review [Quick View Sidemenu](https://docs.enterprisehealth.com/functions/e-chart/quick-view-sidemenu/).
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/1483db0ad7a49539eb572ecbc9f459b0.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/1e34f91b8cb19437f59ea44d2cc67438.png)
 
 ## Schedule Portlet
 
 The Schedule portlet will display existing scheduled appointments for a specific resource, location and/or date specified in your search.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/e9018d24b4e5982a3fc6b19c5dfc53b7.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/9e4db716ae57fb1cb81a48cf1e645edf.png)
 
 ### Schedule Portlet Search
 
 When users first view the Schedule Portlet, the search information will be empty.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/4875d3aeea4ae6fdbd080f9970078255.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/2e24ce5fe3f67e0abb784b367e06aa31.png)
 
 Once the user has entered search criteria, the selection will remain sticky until changed.
 
@@ -36,7 +36,9 @@ Once the Search button has been clicked, the schedule information will display b
 
 Each appointment listed on the schedule shows details, allows interoperable functionality, and is color coded by the appointment type that your system is configured to display for easy visualization.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/ce25165fe09d383e83502c3891c40c5a.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/863158bbb731acaa4cbe03a5904195cd.png)
+
+**Confirmed:** Displays a "C" if the appointment is confirmed. The field is blank when the appointment is not confirmed.
 
 **Time**: Displays the time slot of the scheduled appointment. This is a hyperlink that can be used to advance to the Reschedule/Cancel appointment screen for this scheduled appointment.
 
@@ -49,7 +51,7 @@ Each appointment listed on the schedule shows details, allows interoperable func
 * <strong>Checkin Station Name</strong> hyperlink<strong>:</strong> Displays the various station names of where the person is at the moment at the clinic (and how long they've been in that station).  As patients move through their visit, stations may change and update here.  This is a quick visual to see ‘where' physically the patient is in your clinic.  The station is a hyperlink that can be clicked here to quickly <em>move</em> the patient to another station as needed, from this portlet.
 * <strong> [+] icon</strong>: Allows users to only create/add the encounter (that is configured to that specific appointment type) and does <strong>not</strong> check the chart in for their scheduled appointment. This may be used when needing to prepare the encounter for the appointment, but not check the person in for their appointment yet. When the <strong>+</strong> icon is selected, the associated encounter, if configured, will automatically be created & will open and the user will be redirected to the opened encounter. The Encounter section will default the encounter to the date/time of the scheduled appointment (NOT the date/time the encounter was created/opened), as well as display the linked appointment type. If the patient is later checked in, and an encounter was previously created/opened using this [+] icon, a second encounter will not be created.  The user will be directed to the existing encounter. If an encounter was not previously opened at the time of check in, then the existing functionality has not changed. In this case, any associated encounter will automatically be opened for the user upon Checkin.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/34bb5349fe39ac3c7964976e6b2d8023.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/762ec10a6b7ee24dcb6620bab73732bc.png)
 
 * <strong>Visit</strong> hyperlink: Allows users to click that hyperlink to get right into the open linked encounter that was created based on the specific scheduled appointment.
 * <strong>Checked Out</strong> hyperlink: Signifies the chart has been marked as checked out for their appointment.  If needed, can click on the Checked Out hyperlink to check them in again.
@@ -75,7 +77,7 @@ Each appointment listed on the schedule shows details, allows interoperable func
 
 The My Schedule portlet will display existing scheduled appointments for a specific resource, location and/or date specified in your search, but does not keep the fields sticky for next time working in the portlet.  The search criteria and listing refresh to be blank, to start your fresh search over again.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/a488f6d829325d7f68696ba671f37093.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/72b1764abb122c24884ee4512fc49f50.png)
 
 ### My Schedule Portlet Search
 
@@ -85,7 +87,7 @@ When users view the My Schedule Portlet, the search information will be empty up
 1. My Schedule portlet will default to populate today's date in the search
 2. Other search fields will populate/prefill with the saved resource(s) and saved location(s) that your <em>Scheduler</em> sidemenu tab views have applied/saved as your default view.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/8bf536c316eff3b11b2e91fd85558c8d.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/4ea8448bb323b902748772d9c719ea15.png)
 
 3. Does not offer the ability to create the encounter for the appointment without also checking them in for their appointment (thus, only offers checkin)
 
@@ -101,7 +103,7 @@ Once the Search button has been clicked, the schedule information will display b
 
 Each appointment listed on the schedule shows details, allows interoperable functionality, and is color coded by the appointment type that your system is configured to display for easy visualization.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/6a407d875ed6a91370d5f443b7e7d011.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/5e024de8ec15f1de5b8133d2c25ef520.png)
 
 **Time**: Displays the time slot of the scheduled appointment. This is a hyperlink that can be used to advance to the Reschedule/Cancel appointment screen for this scheduled appointment.
 
@@ -122,4 +124,4 @@ Each appointment listed on the schedule shows details, allows interoperable func
 * <strong>Visit</strong> hyperlink: Allows users to click that hyperlink to get right into the open linked encounter that was created based on the specific scheduled appointment.
 * <strong>Checked Out</strong> hyperlink: Signifies the chart has been marked as checked out for their appointment.  If needed, can click on the Checked Out hyperlink to check them in again.
 
-![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/96e29b9cbdf0a08d3c3d146d5c26c5d7.png)
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/92c11d2081254bdaaea597cd2fadd8fa.png)
