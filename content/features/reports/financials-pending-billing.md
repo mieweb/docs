@@ -1,16 +1,15 @@
 ---
-id: "1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0"
-title: "Financials Pending Billing"
-date: "2024-10-04T14:42:37.293Z"
-version: 111
-lastAuthor: "auhrick"
-mimeType: "text/x-markdown"
+id: '1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
+title: 'Financials Pending Billing'
+date: '2026-03-18T15:40:40.790Z'
+version: 119
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/"
-source: "https://drive.google.com/open?id=1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/reports/using-datavis-grids-data-tools/'
+source: 'https://drive.google.com/open?id=1RuHA33Tl1EUkDZwSyZgp1-ST4uY012jXSXWqjf9oqG0'
+wikigdrive: 'v2.16.0'
 ---
-
 The Pending Billing Report is populated by billing records generated from orders with billing codes/prices and/or Deals. This report can be used in a number of ways to help users monitor billing records.
 
 ## Tracking Order Status
@@ -27,13 +26,13 @@ Order Items that have been added to the encounter will display with an IN PROGRE
 
 ![](./financials-pending-billing.assets/e41dcebde337353ee0e449cbe1e6c0cb.png)
 
-Labs or other testing sent* outside of the clinic* (deal orders) that have been made into an order requisition have a status of ORDERED. Ordered labs will display on the Pending Billing report until all order items have been received for the order request. It is not uncommon to receive one lab result back and have that line item display as completed, yet another still display as Ordered. Once all labs on the order request are back and the order status marked as completed, they will be sent to the billing system and fall off the Pending Billing Report.
+Labs or other testing sent *outside of the clinic* (deal orders) that have been made into an order requisition have a status of ORDERED. Ordered labs will display on the Pending Billing report until all order items have been received for the order request. It is not uncommon to receive one lab result back and have that line item display as completed, yet another still display as Ordered. Once all labs on the order request are back and the order status marked as completed, they will be sent to the billing system and fall off the Pending Billing Report.
 
 ![](./financials-pending-billing.assets/30115d4cd94ac9dd3f9f66503cb08f83.png)
 
 ## Charge Code
 
-In addition to sending completed orders with billing records, the system also required a charge code/billing code. If a billing code is absent, then this charge will not be accepted by the billing system. Use the "Charge Code" column of the Pending Billing report to catch any charges with billing records that do not contain a charge code. Some clients may intentionally create an order item/record, but intentionally not bill it. Lack of a billing code could also be a Deal configuration issue. Any missing charge codes on deals or billing order items should be reviewed and validated. If an item intentionally does not need to be billed, the user can select the row and choose the delete option to remove it from the report.
+In addition to sending completed orders with billing records, the system also required a charge code/billing code.  If a billing code is absent, then this charge will not be accepted by the billing system. Use the "Charge Code" column of the Pending Billing report to catch any charges with billing records that do not contain a charge code.  Some clients may intentionally create an order item/record, but intentionally not bill it. Lack of a billing code could also be a Deal configuration issue. Any missing charge codes on deals or billing order items should be reviewed and validated. If an item intentionally does not need to be billed, the user can select the row and choose the delete option to remove it from the report.
 
 ![](./financials-pending-billing.assets/30b0fbfa847872daa77e726a44322c7f.png)
 

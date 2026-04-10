@@ -1,18 +1,17 @@
 ---
-id: "1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
-title: "Chart Relations CSV API"
-date: "2025-11-12T19:54:46.589Z"
-version: 72
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
+title: 'Chart Relations CSV API'
+date: '2026-03-20T15:12:18.280Z'
+version: 82
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/"
-source: "https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-overview/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-standards/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-master-list/'
+source: 'https://drive.google.com/open?id=1FeHqSQOLwrYVUNALv6-FE9glcnBAUgFSbJxwzpiba_k'
+wikigdrive: 'v2.16.0'
 ---
-
 The purpose of this page is to define data and fields that may be imported into MIE systems (i.e., WebChart, Enterprise Health) using the Chart Relations Import.
 
 ## Audience
@@ -37,14 +36,14 @@ Definitions for the columns utilized in the specification information below. Com
 
 High Level: Patient 2 is related to Patient 1 with Relation Type.
 
-- R = Required
-- O = Optional
+* R = Required
+* O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>PAT1_PARTITION</td>
@@ -83,11 +82,10 @@ High Level: Patient 2 is related to Patient 1 with Relation Type.
 Relation Types
 
 The following table outlines default relation types.
-
 <table>
 <tr>
-<td>Relation Type</td>
-<td>Relation ID</td>
+<td><strong>Relation Type</strong></td>
+<td><strong>Relation ID</strong></td>
 </tr>
 <tr>
 <td>Self</td>
@@ -172,7 +170,6 @@ Adding a Credentialing Contact (RELATION_TYPE_ID: 20) relationship between two p
 MIE 10006 is a Credentialing Contact for MIE 10019.
 
 {{% pre %}}
-
 ```
 
 
@@ -180,13 +177,11 @@ PAT1_PARTITION,PAT1_MRN,PAT2_PARTITION,PAT2_MRN,RELATION_TYPE_ID
 MIE,10019,MIE,10006,20
 
 ```
-
 {{% /pre %}}
 
 Adding multiple relations between patients:
 
 {{% pre %}}
-
 ```
 
 
@@ -196,7 +191,6 @@ MIE,10021,MIE,10020,3
 CCHIT,41205325,MIE,10019,8
 
 ```
-
 {{% /pre %}}
 
 ## Related Pages

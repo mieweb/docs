@@ -1,26 +1,25 @@
 ---
-id: "186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY"
-title: "Quick View - Alerts Portlet"
-date: "2024-11-13T15:20:21.167Z"
-version: 126
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
+title: 'Quick View - Alerts Portlet'
+date: '2026-03-17T17:27:27.707Z'
+version: 132
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "quick-view-sidemenu.md"
-  - "https://system/"
-  - "https://system/?f=layout&module=Warnings&name=AlertsPage&tabmodule=none"
-  - "../fax-manager/fax-manager-tab-outbound-faxing.md"
-  - "https://system/?f=admin&t=faxman"
-  - "https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr"
-  - "../system-administration/system-controls/print-manager.md"
-  - "https://system/?m"
-  - "https://system/?func=dicom&dcfunc=queue"
-  - "../document-management/imaging/dicom-setup-tab.md"
-  - "https://mie.talentlms.com/shared/start/key:AOBHRKMF"
-source: "https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY"
-wikigdrive: "v2.15.30"
+  - 'quick-view-sidemenu.md'
+  - 'https://system/'
+  - 'https://system/?f=layout&module=Warnings&name=AlertsPage&tabmodule=none'
+  - '../fax-manager/fax-manager-tab-outbound-faxing.md'
+  - 'https://system/?f=admin&t=faxman'
+  - 'https://system/?m=admin&t=printman&tabmodule=admin&tabselect=Print+Mgr'
+  - '../system-administration/system-controls/print-manager.md'
+  - 'https://system/?m'
+  - 'https://system/?func=dicom&dcfunc=queue'
+  - '../document-management/imaging/dicom-setup-tab.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOBHRKMF'
+source: 'https://drive.google.com/open?id=186D5E2YzP5S2VzWpfh0w1LGZRRTIKXE32MdKPDITglY'
+wikigdrive: 'v2.16.0'
 ---
-
 There is an interactive Quick View available to end users. The Quick View offers various summary portlets that are used as quick references for viewing modules and data in {{% system-name %}} .  For example, your pending tasks, the appointment schedule, worklists, dashboards, and the like are types of portlets available for quick access and management. You can select which specific portlets to show on your view. One of the portlets is **Alerts**.
 
 When logged into {{% system-name %}} , click on the Quick View sidemenu option.
@@ -77,7 +76,7 @@ To change the Alert/Errors preferences, click the **Preferences** link on the [A
 
 ![](./quick-view-alerts-portlet.assets/0041c01127ab28807d8447bca83b3e1b.png)
 
-From the Preferences pop-up screen, some {{% system-name %}} preference settings will display, so that you can change your selections as needed and click the** Save** button.  The two preferences that are tied to the Alerts/Errors dashboard and notifications are the **Show Alerts** and the **Show Alerts For** preferences.
+From the Preferences pop-up screen, some {{% system-name %}} preference settings will display, so that you can change your selections as needed and click the **Save** button.  The two preferences that are tied to the Alerts/Errors dashboard and notifications are the **Show Alerts** and the **Show Alerts For** preferences.
 
 ![](./quick-view-alerts-portlet.assets/a6c166ec6ce84fe6021ea8e3c173ae71.png)
 
@@ -129,14 +128,14 @@ The **Auto-Send Item Alerts** portlet shows failed datasend jobs for the logged-
 
 ![](./quick-view-alerts-portlet.assets/47bc7bc3ed9076c866488ca71b0e784a.png)
 
-- <strong>Acknowledge</strong>: Clicking this after an autoroute has failed indicates you acknowledge it errored out, removing it from the queue.
+* <strong>Acknowledge</strong>: Clicking this after an autoroute has failed indicates you acknowledge it errored out, removing it from the queue.
 
 {{% note %}}
 If information, or document or chart info, ever changes or gets updated, then the auto-send route will be resent.
 {{% /note %}}
 
-- <strong>Resend</strong>: Clicking this will attempt to resend the failed route.
-- <strong>Deactivate</strong>:  Clicking this means that you no longer want the errored route to be sent and wish it to never try sending again.
+* <strong>Resend</strong>: Clicking this will attempt to resend the failed route.
+* <strong>Deactivate</strong>:  Clicking this means that you no longer want the errored route to be sent and wish it to never try sending again.
 
 If you wish to work the data-send/auto-route failures en masse, select each failed route and use the drop-down **Select Error Routes** to select an option that will be applied to all that were checked.
 
@@ -164,4 +163,4 @@ If there are no failed jobs for any of the 4 categories, then the portlet will d
 
 To learn more about the Quick View - Alerts Portlet, follow the link below to the Learning Management System course:
 
-- [Reminders/Alerts/Notifications](https://mie.talentlms.com/shared/start/key:AOBHRKMF)
+* [Reminders/Alerts/Notifications](https://mie.talentlms.com/shared/start/key:AOBHRKMF)

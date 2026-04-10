@@ -14,5 +14,6 @@ git.json
 config/_default/menu.en.json
 .hugo_build.lock
 .idea
+.pandoc/
 .playwright-mcp/
 .wrangler/

@@ -1,18 +1,17 @@
 ---
-id: "1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0"
-title: "Scanning"
-date: "2025-11-10T17:55:18.088Z"
-version: 418
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
+title: 'Scanning'
+date: '2026-04-02T13:38:56.164Z'
+version: 460
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/"
-  - "../../reports/webscan-report.md"
-  - "https://mie.talentlms.com/shared/start/key:AOSHRKMF"
-source: "https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0"
-wikigdrive: "v2.15.30"
+  - 'https://docs.enterprisehealth.com/functions/document-management/scanning-and-indexing/indexing/'
+  - '../../reports/webscan-report.md'
+  - 'https://mie.talentlms.com/shared/start/key:AOSHRKMF'
+source: 'https://drive.google.com/open?id=1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
+wikigdrive: 'v2.16.0'
 ---
-
 The  {{% system-name %}} system has integrated scanning functionality designed to streamline all scanning and indexing needs. The following information provides a basic introduction to these scanning and indexing capabilities, along with details on how to access and utilize these features.
 
 ## Scanning Using WebScan
@@ -21,7 +20,7 @@ In order to access and use WebScan, users must have the appropriate security per
 
 To begin using the WebScan capabilities, first click the **WebScan** sidemenu option.
 
-Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *New* batches shown below, in the list view. _New_ batches are simply batches of scanned documents that need indexed into the appropriate charts.
+Once the page loads, users will see the Batch Search Criteria search options at the top of the page, with all *Pending* batches shown below, in the list view. *Pending* batches are simply batches of scanned documents that need indexed into the appropriate charts.
 
 ![](./scanning.assets/6d2dc2a0c9f51d9e33e8333cd4e75578.png)
 
@@ -44,13 +43,21 @@ Batch Upload screen in release 202403 and newer:
 
 ![](./scanning.assets/65c5eaec311aa78a5ff30cb6ce5af18a.png)
 
-- <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
-- <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned. Users on 202509 and newer will be prompted with a warning message when changing to "Color" instead of the default "black/white" option. It is recommended Color Depth always be set at black/white. Opting to change to "Color" will slow down page render times, viewing, and printing the document and depending on the size, may include issues with properly storing the image/document.
+* <strong>Scanner:</strong> Select the scanner. If no scanner is detected, the Scanner dropdown may be blank or display a "No TWAIN scanners detected" or "Did not detect any scanners" option.
+* <strong>DPI</strong>: It is recommended that Resolution be set to 200 dpi. It is not recommended to scan with a dpi resolution lower than 150.
+* <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned. Users on 202509 and newer will be prompted with a warning message when changing to "Color" instead of the default "black/white" option. It is recommended Color Depth always be set at black/white. Opting to change to "Color" will slow down page render times, viewing, and printing the document and depending on the size, may include issues with properly storing the image/document.
 
 ![](./scanning.assets/103f36dbc833f45785f8f5a1a7246059.png)
 
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
+
+{{% note %}}
+When a user clicks the Scan button and an Applications Needed pop-up window displays, the MIE SSL App needs to be installed. For systems on RC 202603 and newer, this Applications Needed window is customizable. This allows for IT helpdesk phone numbers or contact information to be added for each client individually.
+
+![](./scanning.assets/1a10df0516f00fbef46162b999d40b63.png)
+{{% /note %}}
+
 9. Once the documents have been scanned in, WebScan will display the last document scanned, along with the total number of pages scanned into the batch. Using the <strong>Prev</strong> or <strong>Next</strong> Icons, users may view the documents of the batch.
 
 ![](./scanning.assets/a180f3d7943b506a4fdfb661a4217fef.png)
@@ -91,7 +98,7 @@ Users may close a batch by clicking the **X** icon from the Batch Upload windo
 
 ### Upload a Batch
 
-To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the New batch status list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
+To save a batch for later, users may use the **Upload** button. Clicking the Upload button from the toolbar will save the scanned batch. A confirmation message will display indicating the batch was added and display the Batch ID number. Click **OK** to continue and return to the Pending batch status list. Or click the **Open and Index** link to open the batch and immediately begin Indexing the batch. The Open and Index feature is only available in release 202403 and newer.
 
 ![](./scanning.assets/62686b7b65ca7102e28e4b70fbf724bf.png)
 
@@ -104,14 +111,14 @@ To upload and index the scanned documents, click the **Upload and Index** butt
 ![](./scanning.assets/64310a1a06cad86013289f9a2e373826.png)
 
 {{% tip %}}
-If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan _New_ batch status for indexing later.
+If a user must index the documents at a later time, after clicking the Upload button, he/she can simply click the **Close** button from the Indexing screen. Comments can be added and the priority updated in the Close Batch dialog window, if necessary. Once the dialog window is closed, the batch will automatically be saved to the WebScan *Pending* batch status for indexing later.
 
 ![](./scanning.assets/33e037d0581e7997846a194ef9b0087f.png)
 {{% /tip %}}
 
 ## Reporting
 
-From the Reports sidemenu, there is a report named WebScan Report. Displays statistical details regarding scanned/uploaded batches and Indexed pages. For more information, please refer to the [WebScan Report](../../reports/webscan-report.md) guide.
+From the Reports sidemenu, there is a report named WebScan Report.  Displays statistical details regarding scanned/uploaded batches and Indexed pages.  For more information, please refer to the [WebScan Report](../../reports/webscan-report.md) guide.
 
 ![](./scanning.assets/bfbb78e09c33dd0adfe6be7dc0cfeede.png)
 
@@ -119,4 +126,4 @@ From the Reports sidemenu, there is a report named WebScan Report. Displays stat
 
 To learn more about Scanning, follow the link below to the Learning Management System course:
 
-- [Document Management (WebScan)](https://mie.talentlms.com/shared/start/key:AOSHRKMF)
+* [Document Management (WebScan)](https://mie.talentlms.com/shared/start/key:AOSHRKMF)

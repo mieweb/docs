@@ -1,34 +1,33 @@
 ---
-id: "1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo"
-title: "Appointments Import"
-date: "2024-12-18T14:43:33.153Z"
-version: 35
-lastAuthor: "bhamm"
-mimeType: "text/x-markdown"
+id: '1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
+title: 'Appointments Import'
+date: '2026-03-20T15:18:11.285Z'
+version: 44
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1wlGTWg0_1ZGOb8zpDBEoR9M5hK8u9Rp9FlGi20Kf-bo'
+wikigdrive: 'v2.16.0'
 ---
-
 This wiki page is to document how appointment data needs to be constructed in order to import using WebChart's Schedule Import Tool.
 
-- File format: Data file shall be formatted in Comma Separated Values (CSV).
-- The first row of the file shall contain column header information.
-- Each subsequent row shall represent an appointment.
+* File format: Data file shall be formatted in Comma Separated Values (CSV).
+* The first row of the file shall contain column header information.
+* Each subsequent row shall represent an appointment.
 
 ## Column Definition
 
 The appointment column definition shall contain all columns listed below regardless if there is a value or not.
 
-- R = Required
-- R\* = Only one of these is required
-- O = Optional
+* R = Required
+* R* = Only one of these is required
+* O = Optional
 <table>
 <tr>
-<td>Name</td>
-<td>Type</td>
-<td>Required</td>
-<td>Comments</td>
+<td><strong>Name</strong></td>
+<td><strong>Type</strong></td>
+<td><strong>Required</strong></td>
+<td><strong>Comments</strong></td>
 </tr>
 <tr>
 <td>patient.partition</td>

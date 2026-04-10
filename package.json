@@ -40,9 +40,9 @@
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "clsx": "^2.1.1",
-    "dompurify": "^3.3.1",
+    "dompurify": "^3.3.2",
     "highlight.js": "^11.11.1",
-    "hugo-extended": "^0.139.3",
+    "hugo-extended": "^0.157.0",
     "lucide-react": "^0.563.0",
     "lunr": "^2.3.9",
     "marked": "^17.0.1",
@@ -73,7 +73,7 @@
     "tsx": "^4.19.2",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.20.0",
-    "wrangler": "^4.62.0"
+    "wrangler": "^4.81.1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

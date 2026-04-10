@@ -1,44 +1,39 @@
 ---
-id: "1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk"
-title: "Lost Time Import Tool"
-date: "2025-11-14T13:27:54.649Z"
-version: 91
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
+title: 'Lost Time Import Tool'
+date: '2026-03-19T14:20:23.173Z'
+version: 120
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit"
-source: "https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit'
+source: 'https://drive.google.com/open?id=1Ik-K0wy3NnSPpPRMzo_iLVZYo7x1tNeemPQBOgJ7pAk'
+wikigdrive: 'v2.16.0'
 ---
-
-Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is _Allow .csv Data Import_ set to Yes. The default security is currently set to No for users.
+Must have security access to access the DATA IMPORT tab found in Control Panel sidemenu tab. The security needed is *Allow .csv Data Import* set to Yes. The default security is currently set to No for users.
 
 ![](./lost-time-import-tool.assets/99290c0ea77278f28baacc397e311269.png)
 
-If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all.
+If user(s) have security permission to allow .csv data import, then the user(s) can access the DATA IMPORT tab, this feature allows the user access to download a .csv template file and fill in patient demographic data using a spreadsheet application. If you have it set to NO, you can't view or access the Data Import tab at all. From the Control Panel, click on Data import.
 
-![](./lost-time-import-tool.assets/62d283a832787b647c120b8a96a55f7b.jpg)
-
-If your system does not have a Data Import tab, please contact your MIE Implementer to have the tab programmed on your system.
-
-![](./lost-time-import-tool.assets/36a741ea142b701dc8f711b5500701f8.jpg)
+![](./lost-time-import-tool.assets/cad54c6d6a5332995ace375b850e60a6.png)
 
 Once in the Data Import tab, use the drop down to select the specific {{% system-name %}} data import type and click the GO button.
 
-## Lost Time Import
+## Cases (Illness and Injury) CSV API
 
 In this help document we will be going through the {{% system-name %}} Lost Time import type.
 
-![](./lost-time-import-tool.assets/cb656f3bda7d636c68d572b214f7c258.png)
+![](./lost-time-import-tool.assets/c0e949c86b5d5f5a6caad882f70a1307.png)
 
-Once you've made the drop-down selection from the Data Import tool type and clicked the GO button for {{% system-name %}} Lost Time import, you can download the.csv template file [[Download Template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)]. From your own downloaded copy, fill in your Lost Time data using a spreadsheet application.
+Once you've made the drop-down selection from the Data Import tool type and clicked the GO button for {{% system-name %}} Cases (Illness and Injury) CSV API, you can download the.csv template file [[Download Template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203)]. From your own downloaded copy, fill in your case data using a spreadsheet application.
 
-![](./lost-time-import-tool.assets/6616d560ee6f348526531e7dd41837e8.png)
+![](./lost-time-import-tool.assets/2a541e5d74b8543a31bd339e94159c73.png)
 
-This {{% system-name %}} import tool allows the creating of encounters and creation of cases/incidents in a patient's chart with the data provided in the import spreadsheet.
+This {{% system-name %}} import tool allows the creation of encounters and creation of cases/incidents in a patient's chart with the data provided in the import spreadsheet.
 
 {{% tip %}}
-Look at the CSV Lost Time Import Specification sheet to help identify what columns of recommended data and values to import. This is shareable information regarding more data, values, columns, spreadsheet example, etc.
+Look at the CSV Cases (Illness and Injury) Specification sheet to help identify what columns of recommended data and values to import. This is shareable information regarding more data, values, columns, spreadsheet example, etc.
 {{% /tip %}}
 
 {{% note %}}
@@ -51,9 +46,9 @@ VERBOSE mode will print out what the import is doing to the screen and the log f
 
 ## Template
 
-You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203) and download your own copy. Again, even though our template shows 5 tabs for each of the 5 types of Lost Time imports available, each must be on its own unique separate file when you go to import that type.
+You can view the [spreadsheet template](https://docs.google.com/spreadsheets/d/1Gi1bPGobEOuUJX40_lXf-oDSEpriLBUXyeJACUy7DaQ/edit#gid=503618203) and download your own copy. Again, even though our template shows 5 tabs for each of the 5 types of case data imports available, each must be on its own unique separate file when you go to import that type.
 
-![](./lost-time-import-tool.assets/1384c0335ebefbde7e6b087c2d0dfae0.png)
+![](./lost-time-import-tool.assets/d26d56a5824e897f93e6abd18a4e1b97.png)
 
 ## Data and Values for Encounters and Incidents
 
@@ -165,8 +160,8 @@ A string representing the incident. If a unique case id# from other system, indi
 <tr>
 <td>incidents.case_type</td>
 <td><br />
-<strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field named "Case Type". The type of case the incident refers to.Options include:* Injury-OSHA (would be value Injury)<br />
-<ul><li>Injury NON-OSHA (would be value Injury NO)</li><li>Hospital (would be value Hospital)</li><li>Billing (would be value Billing)</li><li>Absence management (would be value Absence management)</li><li>MSEA (would be value MSEA)</li></ul></td>
+<strong>Recommended Field</strong> Maps to {{% system-name %}} incidents field named "Case Type". The type of case the incident refers to. Options include:<br />
+<ul><li>Injury-OSHA (would be value Injury)</li><li>Injury NON-OSHA (would be value Injury NO)</li><li>Hospital (would be value Hospital)</li><li>Billing (would be value Billing)</li><li>Absence management (would be value Absence management)</li><li>MSEA (would be value MSEA)</li></ul></td>
 <td>enumeration</td>
 <td>Injury</td>
 </tr>

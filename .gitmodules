@@ -1,1 +1,4 @@
 
+[submodule "melvil-footnote"]
+	path = melvil-footnote
+	url = https://github.com/mieweb/melvil-artipod-footnote.git

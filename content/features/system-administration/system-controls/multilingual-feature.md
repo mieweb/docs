@@ -1,15 +1,14 @@
 ---
-id: "1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
-title: "Multilingual Feature"
-date: "2025-03-21T16:20:19.397Z"
-version: 183
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
+title: 'Multilingual Feature'
+date: '2026-03-13T18:29:16.464Z'
+version: 193
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links: []
-source: "https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY"
-wikigdrive: "v2.15.30"
+source: 'https://drive.google.com/open?id=1WPu1ebqiVNNGUDb98AUfFb2E_d84QdNhfsHGhOGhojY'
+wikigdrive: 'v2.16.0'
 ---
-
 {{% system-name %}}  supports many different languages:  English, Indonesian/Bahasa, Portuguese, Chinese, Spanish, Thai, Dutch, Vietnamese.
 
 {{% note %}}
@@ -94,7 +93,7 @@ To edit a translation already done, you would click edit in the options column. 
 
 The *Language Manager* tab also has a link for "Script Translations" that allows convenient translation of some labels. This hyperlink *Script Translations* will only show/appear if your default language preference is something other than English. So to access this hyperlink, you must have your preferred language set to something other than English (either in the My Settings preference or via the "globe" icon).
 
-![](./multilingual-feature.assets/2cb54fd4f8f532b808c4902b6fe6a513.png)
+![](./multilingual-feature.assets/e0228a10823ae53b9234a88b9db10fd2.png)
 
 When you click that hyperlink, a pop-up window will appear of some missing script translations (for the language that you are set on). You can see them listed and you can provide a translation for in an easy flowsheet type of method. If it's a long list, use the inner scroll bar to see the entire listing. Click Submit button to save your translation work.
 
@@ -118,7 +117,7 @@ The system has the ability to customize help bubble text that is hard-coded with
 
 To customize the first time, click the Create New Help Text hyperlink found in the Languages tab.
 
-![](./multilingual-feature.assets/c3eda929517cb656f2f15105fde8140c.png)
+![](./multilingual-feature.assets/5fd707cfc61b96e158d5c1e49dd6e27f.png)
 
 From the value drop-down select the specific hard-coded help bubble text you wish to change and customize. In the Translation field, type out exactly what you want that specific help bubble verbiage to display to users as. Click SAVE button when done.
 
@@ -130,7 +129,7 @@ After saving, the help bubble verbiage for the specific selected (value) standar
 
 Back in the Languages tab, you can click the *SEARCH* button and see all translations and help bubble translations. Help bubble translations are context *standard input help*.
 
-![](./multilingual-feature.assets/9e55dda3a8d699e2c6fee09821194b32.png)
+![](./multilingual-feature.assets/437b800e64f6f5794d4e863a878ee153.png)
 
 You can edit translated help bubble verbiage by clicking the edit hyperlink next to it and making changes.
 
@@ -142,6 +141,4 @@ The standard input help specific bubble customized translation that is now inact
 
 ![](./multilingual-feature.assets/d9343aef1889a44da93a2afcbdb3d6cf.png)
 
-A customized help bubble that we support can be translated again. Simply search by inactive translations (uncheckmark the active only in the search filter) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.
-
-![](./multilingual-feature.assets/d1903fca459ea31c8592579a6d2babed.png)
+A customized help bubble that we support can be translated again. Simply search by inactive translations (filter on the status column) and click search. Then click ‘edit' next to the inactive translated help bubble verbiage translation. Activate it and type something in the translation that you want shown to users for that specific help bubble in the product.

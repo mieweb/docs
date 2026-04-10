@@ -1,26 +1,25 @@
 ---
-id: "16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw"
-title: "Create PFT Data File for Import"
-date: "2025-11-13T16:29:18.565Z"
-version: 56
-lastAuthor: "janderson"
-mimeType: "text/x-markdown"
+id: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
+title: 'Create PFT Data File for Import'
+date: '2026-03-20T14:14:13.040Z'
+version: 63
+lastAuthor: 'janderson'
+mimeType: 'text/x-markdown'
 links:
-  - "https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/"
-  - "https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/"
-  - "https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971"
-  - "https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y"
-source: "https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw"
-wikigdrive: "v2.15.30"
+  - 'https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/'
+  - 'https://docs.enterprisehealth.com/functions/system-administration/data-migration/data-import-tab/'
+  - 'https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971'
+  - 'https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y'
+source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
+wikigdrive: 'v2.16.0'
 ---
-
 This document explains how to import your pulmonary function testing data into {{% system-name %}} .
 
 What you will need:
 
-- Spreadsheet software (Microsoft Excel or Google Sheets)
-- PFT Data CSV File Example
-- {{% system-name %}} end user with administrative rights
+* Spreadsheet software (Microsoft Excel or Google Sheets)
+* PFT Data CSV File Example
+* {{% system-name %}} end user with administrative rights
 
 ## Create PFT Data CSV File
 
@@ -31,7 +30,7 @@ What you will need:
 <td><strong>Field Name</strong></td>
 <td><strong>Description</strong></td>
 <td><strong>Requirement</strong></td>
-<td>Data File Column Header</td>
+<td><strong>Data File Column Header</strong></td>
 </tr>
 <tr>
 <td>Employee ID</td>
@@ -137,8 +136,9 @@ What you will need:
 </tr>
 </table>
 
+
 {{% tip %}}
-_For a more comprehensive list of supported fields, please refer to the_ [_PFT Data CSV API Specification_](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)
+*For a more comprehensive list of supported fields, please refer to the* [*PFT Data CSV API Specification*](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)
 {{% /tip %}}
 
 2. Using the table, above, determine the data to be imported. Starting with the Employee ID field, enter all required and desired data, verifying required data is present. Note that each row represents a pulmonary function test record. Below is a screenshot of the PFT Data CSV File Example for guidance.
@@ -164,7 +164,7 @@ _For a more comprehensive list of supported fields, please refer to the_ [_PFT D
 
 5. Select the PFT Data CSV File and click <strong>Upload</strong>.
 
-   ![](./create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
+    ![](./create-pft-data-file-for-import.assets/78193ae652252ee583b49d05b8681478.png)
 
 {{% tip %}}
 For extra information on what happens during the import, click the **Verbose** checkbox.
@@ -172,9 +172,9 @@ For extra information on what happens during the import, click the **Verbose** c
 
 ## Resources
 
-- [PFT Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)
-- [PFT Data CSV File Example](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971)
-- [Validation script for PFT data](https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y)
+* [PFT Data CSV API Specification](https://docs.google.com/a/mieweb.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/)
+* [PFT Data CSV File Example](https://docs.google.com/spreadsheets/d/1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM/export?format=csv&id=1uvP3Yi7uhMrvp_Ba_OBywXdElPLYzGNG9SRA7s2YqBM&gid=613534971)
+* [Validation script for PFT data](https://drive.google.com/open?id=1U3Fqg47vEiggMI9FSFuqz1aiLVv5c8kSEbKHmV1Wh7Y)
 
 ## Troubleshooting
 
