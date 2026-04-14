@@ -2,6 +2,8 @@ public*/
 .wikigdrive
 /resources
 .wgd
+artipod/
+.DS_Store
 .wgd-directory.yaml
 .wgd-local-links.csv
 .wgd-local-log.csv
