@@ -10,7 +10,7 @@
 /* Import Enterprise Health brand from @mieweb/ui */
 /* This sets all --mieweb-* CSS variables for the EH brand including:
    - Primary colors (burgundy/purple #6E2B68)
-   - Jost font family (loaded via @import in the brand CSS)
+   - Sora font family (loaded via @import in the brand CSS)
    - Semantic colors for light/dark modes
    - Border radius and shadow tokens */
 @import "@mieweb/ui/brands/enterprise-health.css" layer(theme);
