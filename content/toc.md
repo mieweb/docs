@@ -617,6 +617,7 @@ wikigdrive: 'v2.16.0'
          * [Exporting Report Data](features/reports/exporting-report-data.md)
          * [Fill Reports](features/reports/fill-reports.md)
          * [Financials All Active Deals-Detail Report](features/reports/financials-all-active-deals-detail-report.md)
+         * [Financials Billing Audit](features/reports/financials-billing-audit.md)
          * [Financials Pending Billing](features/reports/financials-pending-billing.md)
          * [Financials Pending Encounters Report](features/reports/financials-pending-encounters-report.md)
          * [Guideline Report](features/reports/guideline-report.md)

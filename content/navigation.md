@@ -507,7 +507,7 @@ links:
   - 'features/reports/exporting-report-data.md'
   - 'features/reports/fill-reports.md'
   - 'features/reports/financials-all-active-deals-detail-report.md'
-  - 'https://drive.google.com/open?id=1E4Au4Vu-jUzeZATV2MbooionW2KPPzEwb-LTe1Llbi4'
+  - 'features/reports/financials-billing-audit.md'
   - 'features/reports/financials-pending-encounters-report.md'
   - 'features/reports/financials-pending-billing.md'
   - 'features/reports/guideline-report.md'
@@ -1315,7 +1315,7 @@ wikigdrive: 'v2.16.0'
         * [Exporting Report Data](features/reports/exporting-report-data.md)
         * [Fill Reports](features/reports/fill-reports.md)
         * [Financials All Active Deals-Detail Report](features/reports/financials-all-active-deals-detail-report.md)
-        * [Financials Billing Audit](https://drive.google.com/open?id=1E4Au4Vu-jUzeZATV2MbooionW2KPPzEwb-LTe1Llbi4)
+        * [Financials Billing Audit](features/reports/financials-billing-audit.md)
         * [Financials Pending Encounters](features/reports/financials-pending-encounters-report.md)
         * [Financials Pending Billing Report](features/reports/financials-pending-billing.md)
         * [Guideline Report](features/reports/guideline-report.md)
