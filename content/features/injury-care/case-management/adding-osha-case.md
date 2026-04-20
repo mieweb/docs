@@ -1,8 +1,8 @@
 ---
 id: '1Q2noX9h3XKnZQ1eSpVOXXyBkriiJ_PvpgI_F2D3bDhg'
 title: 'Adding OSHA Case'
-date: '2025-12-01T21:48:50.653Z'
-version: 182
+date: '2026-04-20T14:17:08.633Z'
+version: 192
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -130,6 +130,14 @@ Here you can document the nature of injury or illness using a drop-down selectio
 Note: Selecting Contaminated Sharp as the nature of injury will expand 3 additional fields for you to document.  These additional fields of data pull on Sharps Log reports.
 
 ![](./adding-osha-case.assets/a1b96810a803ddbd581a8f2ad2d694e2.png)
+
+### Migrated Data
+
+Enterprise Health will now support migrating "Days Away" and "Days Restricted" from legacy systems. This will allow customers to report accurate OSHA data from Enterprise Health even if they are implementing mid-year. The system will note that the Days Away and Days Restricted are from Migrated Data and will offer a System Calculate message if a recalculation should occur.
+
+![](./adding-osha-case.assets/1c92c04438219306ee662ebccb1deaae.png)
+
+![](./adding-osha-case.assets/22cb87aed62f5e4adf7c11295645ae07.png)
 
 ### Work Status (or Lost Time) Section
 
