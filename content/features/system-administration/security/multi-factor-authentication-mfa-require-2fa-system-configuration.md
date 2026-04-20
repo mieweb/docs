@@ -1,8 +1,8 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2026-03-18T16:20:02.046Z'
-version: 703
+date: '2026-04-20T17:13:40.637Z'
+version: 714
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -66,17 +66,11 @@ System setting ‘Use 2FA' is set to value 3 (offers either HOTP or TOTP for the
 
 ![](./multi-factor-authentication-mfa-require-2fa-system-configuration.assets/d61d4ff2d87469c31b58301f8c95ded9.png)
 
-System Setting Value 2 (allow only TOTP) what user sees when logging in:
+After the Create button is selected, the QR code will display and the Verification Code can be entered.
 
-System setting ‘Use 2FA' is set to value 2 (TOTP time based):
+![](./multi-factor-authentication-mfa-require-2fa-system-configuration.assets/f7de0f8e9c7d551cfd315d6088e13b0c.png)
 
-![](./multi-factor-authentication-mfa-require-2fa-system-configuration.assets/57d05d3b7428ab161d3ebf52706571ee.png)
-
-System Setting Value 1 (allow only HOTP) what user sees when logging in:
-
-System setting ‘Use 2FA' is set to value 1 (HOTP counter based):
-
-![](./multi-factor-authentication-mfa-require-2fa-system-configuration.assets/a0e155f059e5f5baf070cc58bc3f12c1.png)
+If the system setting is 1 or 2, the first page where you can select the Password Type will not display. It will go directly to the QR code page.
 
 ## Extra Authentication via Email of One-Time Password (OTP)
 
