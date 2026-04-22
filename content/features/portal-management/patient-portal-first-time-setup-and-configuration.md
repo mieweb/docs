@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2026-03-17T18:15:34.061Z'
-version: 928
+date: '2026-04-22T13:09:49.240Z'
+version: 943
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -135,9 +135,14 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 **Permission Check Warning**
 
-* <strong>View Sample</strong> (
-    ![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
-    ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
+* <strong>View Sample</strong>: For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
+
+{{% note %}}
+The View Sample button is an icon with a mountain and sun. Here is an example of the button:
+
+![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
+{{% /note %}}
+
 * <strong>Custom Heading</strong>: Use this field to customize the warning heading displayed to those lacking access to the portal environment.
 * <strong>Custom Message</strong>: Use this field to customize the warning message displayed to those lacking access to the portal environment.
 
@@ -204,6 +209,13 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
     ![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
     ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner
     ![](./patient-portal-first-time-setup-and-configuration.assets/67b5ef8147665c28980e597991cfdc80.png)
+
+{{% note %}}
+The View Sample button is an icon with a mountain and sun. Here is an example of the button:
+
+![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
+{{% /note %}}
+
 * <strong>Brand for Welcome Message</strong>: The name or brand to be used in the Welcome Message. By default, the word NoMoreClipboard will be populated, but this field can be updated with up to 25 characters. Click Show Sample to see where this occurs.
 * <strong>Description for Welcome Message</strong>: The description provided for the Portal Welcome Message. Click Show Sample to see where this occurs.
 * <strong>Welcome Image ID</strong>: From the <em>System Files Manager</em>, upload an image to be seen on the portal Welcome screen. Click <strong>Add System File</strong>, select the preferred image, storing it as a <em>JPEG image file</em>, and set the alias as <strong>portal-landing-####</strong> (e.g., portal-landing-40307, portal-landing-431, etc.). The desired dimensions are 650 x 412.
