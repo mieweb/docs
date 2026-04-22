@@ -1,8 +1,8 @@
 ---
 id: '1hjjHvWq5vUEm0hyKXwjoSIMQetroCJIq1WeesFBT-CY'
 title: 'Flowsheets Editor'
-date: '2026-03-17T19:15:19.498Z'
-version: 854
+date: '2026-04-22T20:03:21.348Z'
+version: 875
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -150,20 +150,17 @@ For clients on 202403 and newer, a help list has been added to this field. Click
 
 #### Based on Previous Answer
 
-A common use for conditional logic is to display or hide a row, depending on a previous value given. In other words, if a question (observation) has a specific answer (value), the line item programmed with the conditional script will display only if the expected answer is matched. The syntax for accomplishing this is as follows:
 ```
-
+A common use for conditional logic is to display or hide a row, depending on a previous value given. In other words, if a question (observation) has a specific answer (value), the line item programmed with the conditional script will display only if the expected answer is matched. The syntax for accomplishing this is as follows:
 
 observationDisplay('OBSERVATION NAME','EXPECTED ANSWER')
+
 ```
 
-`  
-`For example, if a follow-up question (e.g., Is this a new symptom) is needed, due to a patient's reaction (e.g., rhinitis - runny or stuffy nose) to specified allergens (e.g., animals or their bedding), the follow-up question will be configured as an observation in the  {{% system-name %}}  system, and the conditional logic will be added to its Conditional field. This will cause the follow-up question to display only when the respondent answers with *Yes*.
+For example, if a follow-up question (e.g., Is this a new symptom) is needed, due to a patient's reaction (e.g., rhinitis - runny or stuffy nose) to specified allergens (e.g., animals or their bedding), the follow-up question will be configured as an observation in the  {{% system-name %}}  system, and the conditional logic will be added to its Conditional field. This will cause the follow-up question to display only when the respondent answers with *Yes*.
 ```
-
 
 observationDisplay('Since your last exam, have you experienced rhinitis, a runny or stuffy nose?','Yes')
-
 
 ```
 
@@ -178,12 +175,13 @@ Anytime an observation or question is intended for men or women, exclusively, si
 
 #### Based on Multiple Conditionals
 
-Conditionals can be stacked and used with multiple observations or conditionals, as needed. For instance, an observation can be set to display only if the respondent answers yes to working on a specific floor of a specified building. To perform AND functions, simply use two ampersand symbols (**&&**) between the conditional statements, as follows:`
-
+Conditionals can be stacked and used with multiple observations or conditionals, as needed. For instance, an observation can be set to display only if the respondent answers yes to working on a specific floor of a specified building. To perform AND functions, simply use two ampersand symbols (**&&**) between the conditional statements, as follows:`  
+`
+```
 
 observationDisplay('Patient works at MMA building','Yes') && observationDisplay('Patient works on level 3','Yes')
 
-`
+```
 
 #### Based on Either/Or
 
@@ -213,9 +211,8 @@ Calculations can be compiled based on provided observation values and programmed
 
 observationValueByName('Number of Days') + observationValueByName('Number of Drinks')
 
-```
-
 With the script ready, create a Total or Total Score observation, as needed. Edit the observation and add the calculation script and save.
+```
 
 ## Learning Management System
 
