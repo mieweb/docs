@@ -1,8 +1,8 @@
 ---
 id: '1EHgA_fUZw1elKqO93WHidXgIbGAskkj0ibyxAMYVZ_Y'
 title: 'Open Encounters Report'
-date: '2025-12-12T18:37:22.614Z'
-version: 49
+date: '2026-04-22T17:26:41.308Z'
+version: 57
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -17,8 +17,8 @@ There is a report available to run to see any open encounters for the practice. 
 
 ![](./open-encounters-report.assets/d5b77e9732f8b5fea4e601dacc829e14.png)
 
-When you click on the *Encounter Exams - Still Open* report, it will automatically list any and all open encounters for your {{% system-name %}} system. It displays open encounters that have not yet been archived and closed as documents in the system. You can see the patient's name, the encounter visit type, who is set as performing physician, location, date created and the options column.
+When you click on the *Encounter Exams - Still Open* report, it will automatically list any and all open encounters for your {{% system-name %}} system. It displays open encounters that have not yet been archived and closed as documents in the system. You can see the patient's name, the encounter visit type, who is set as performing physician, assigned user, location, date created and the options column.
 
-![](./open-encounters-report.assets/e8d945b460553ff7f6698a3252fb3f4b.png)
+![](./open-encounters-report.assets/060a92a32c2b9bde151741fc9484c3b2.png)
 
 You can also run other Encounter reports based on specific search criteria you wish by utilizing the other encounter reports found in the Visits report tab.
