@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2026-04-22T13:09:49.240Z'
-version: 943
+date: '2026-04-22T14:49:22.846Z'
+version: 950
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -123,9 +123,7 @@ There is also a system setting that needs added and reviewed when utilizing the 
 
 **User Link Warning**
 
-* <strong>View Sample</strong> (
-    ![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
-    ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
+* <strong>View Sample</strong>: For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner.
 
 
 ![](./patient-portal-first-time-setup-and-configuration.assets/67b5ef8147665c28980e597991cfdc80.png)
@@ -205,9 +203,7 @@ While on the *Patient Portal* tab, click the **Configuration** header to expa
 
 **Home Page**
 
-* <strong>View Sample</strong> (
-    ![](./patient-portal-first-time-setup-and-configuration.assets/e90ca94852bca1255ff5a0074613a42c.png)
-    ): For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner
+* <strong>View Sample</strong>: For a sample of the portal welcome screen, click the View Sample button, at any time. Clicking this button will provide a Portal Sample that displays how editing specific features will be seen from an end-user perspective. To exit the Portal Sample, click the red ‘x' in the upper-right corner
     ![](./patient-portal-first-time-setup-and-configuration.assets/67b5ef8147665c28980e597991cfdc80.png)
 
 {{% note %}}
