@@ -1,8 +1,8 @@
 ---
 id: '1pU-zPBkTbVV3TguLxs3JphdGkgUUx2hqlb5hv7tIRTM'
 title: 'Inbound Fax Queue - Setting User Access Permissions'
-date: '2025-11-12T13:52:00.752Z'
-version: 159
+date: '2026-04-22T19:42:43.314Z'
+version: 165
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -54,7 +54,7 @@ To add a user to an incoming fax#, click Mapping link at the top right corner.
 
 The Add Recipient window will display. The super-user will fill out this section to allow a user to a practice's fax number so they can process faxes coming into that specific fax # for their practice. Users need to be set there to even be able to see the file if they are emailed or tasked.
 
-![](./inbound-fax-queue-setting-user-access-permissions.assets/908c8f28339e23bccc32c8184d6d2c1c.png)
+![](./inbound-fax-queue-setting-user-access-permissions.assets/376ff059b8220a219b5af76fce1a4bd6.png)
 
 * <strong>Recipient:</strong> Select the fax number for your practice that you want this new user to have access to. It should display in the drop-down. If the fax number does not show in the drop-down, then you need to manually type the entire 10-digit fax number in the field below.
 * <strong>Or add recipient:</strong> If no recipient exists, use this box to add a new one.
