@@ -52,11 +52,9 @@ themes/mieweb-docs/
 │   │   └── tailwind.css      # Tailwind source with @mieweb/ui imports
 │   └── js/
 │       ├── main.js           # Main JavaScript (sidebar, search, lightbox)
-│       ├── react/
-│       │   ├── components.js  # Bundled React components
-│       │   └── mount.js       # React component mounting logic
-│       └── vendor/
-│           └── lunr.min.js    # Search indexing library
+│       └── react/
+│           ├── components.js  # Bundled React components
+│           └── mount.js       # React component mounting logic
 ├── layouts/
 │   ├── _default/
 │   │   ├── _markup/

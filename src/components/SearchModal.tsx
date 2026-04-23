@@ -2,18 +2,27 @@
  * SearchModal Component
  *
  * A command-palette style search modal for the documentation site.
- * Uses @mieweb/ui Modal and Input components.
+ * Uses @mieweb/ui Modal and Input components. Searches are performed
+ * server-side via the Cloudflare Worker semantic search endpoint
+ * (backed by Vectorize + Workers AI embeddings).
  */
 
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Modal, ModalHeader, ModalBody, Spinner, cn } from "@mieweb/ui";
 import { Search, FileText, Hash, ArrowRight } from "lucide-react";
 
+declare global {
+  interface Window {
+    SearchApiUrl?: string;
+    BrandCode?: string;
+  }
+}
+
 export interface SearchResult {
   id: string;
   title: string;
   url: string;
-  content?: string;
+  snippet?: string;
   section?: string;
   score?: number;
 }
@@ -23,8 +32,16 @@ export interface SearchModalProps {
   open: boolean;
   /** Callback when modal should close */
   onClose: () => void;
-  /** Search index URL */
-  searchIndexUrl?: string;
+  /**
+   * Worker search API URL. Defaults to `window.SearchApiUrl` or
+   * `/api/ai-assistant/search`.
+   */
+  searchApiUrl?: string;
+  /**
+   * Brand to search within: `eh` (Enterprise Health) or `wc` (WebChart).
+   * Defaults to `window.BrandCode` or `eh`.
+   */
+  brand?: "eh" | "wc";
   /** Callback when a result is selected */
   onSelect?: (result: SearchResult) => void;
   /** Placeholder text */
@@ -33,10 +50,23 @@ export interface SearchModalProps {
   className?: string;
 }
 
+interface WorkerSearchResponse {
+  results: Array<{
+    id: string;
+    title: string;
+    url: string;
+    section?: string;
+    snippet: string;
+    score: number;
+  }>;
+  query: string;
+}
+
 export function SearchModal({
   open,
   onClose,
-  searchIndexUrl = "/search.json",
+  searchApiUrl,
+  brand,
   onSelect,
   placeholder = "Search documentation...",
   className,
@@ -45,53 +75,20 @@ export function SearchModal({
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [searchIndex, setSearchIndex] = useState<unknown[] | null>(null);
-  const [lunrIndex, setLunrIndex] = useState<unknown>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsRef = useRef<HTMLDivElement>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
-  // Load search index
-  useEffect(() => {
-    if (!open || searchIndex) return;
-
-    const loadIndex = async () => {
-      try {
-        const response = await fetch(searchIndexUrl);
-        const data = await response.json();
-        setSearchIndex(data);
-
-        // Build lunr index if available
-        if (
-          typeof window !== "undefined" &&
-          (window as unknown as { lunr?: unknown }).lunr
-        ) {
-          type LunrBuilder = {
-            ref: (field: string) => void;
-            field: (field: string, options?: { boost?: number }) => void;
-            add: (doc: unknown) => void;
-          };
-          type LunrFunction = (config: (this: LunrBuilder) => void) => unknown;
-          const lunr = (window as unknown as { lunr: LunrFunction }).lunr;
-          const idx = lunr(function (this: LunrBuilder) {
-            this.ref("id");
-            this.field("title", { boost: 10 });
-            this.field("content");
-
-            data.forEach(
-              (doc: { id: string; title: string; content?: string }) => {
-                this.add(doc);
-              }
-            );
-          });
-          setLunrIndex(idx);
-        }
-      } catch (error) {
-        console.error("Failed to load search index:", error);
-      }
-    };
-
-    loadIndex();
-  }, [open, searchIndex, searchIndexUrl]);
+  const resolvedApiUrl =
+    searchApiUrl ||
+    (typeof window !== "undefined" ? window.SearchApiUrl : undefined) ||
+    "/api/ai-assistant/search";
+  const resolvedBrand: "eh" | "wc" =
+    brand ??
+    ((typeof window !== "undefined" ? window.BrandCode : "eh") === "wc"
+      ? "wc"
+      : "eh");
 
   // Focus input when modal opens
   useEffect(() => {
@@ -99,89 +96,80 @@ export function SearchModal({
       setTimeout(() => inputRef.current?.focus(), 100);
       setQuery("");
       setResults([]);
+      setErrorMessage(null);
       setSelectedIndex(0);
+    }
+    // Cancel any in-flight request when modal closes
+    if (!open && abortRef.current) {
+      abortRef.current.abort();
+      abortRef.current = null;
     }
   }, [open]);
 
-  // Perform search
+  // Perform search via the worker
   const performSearch = useCallback(
-    (searchQuery: string) => {
-      if (!searchQuery.trim() || !searchIndex) {
+    async (searchQuery: string) => {
+      const trimmed = searchQuery.trim();
+      if (!trimmed) {
         setResults([]);
+        setErrorMessage(null);
         return;
       }
 
+      // Cancel any previous in-flight request
+      if (abortRef.current) {
+        abortRef.current.abort();
+      }
+      const controller = new AbortController();
+      abortRef.current = controller;
+
       setIsLoading(true);
-      const trimmedQuery = searchQuery.toLowerCase().trim();
+      setErrorMessage(null);
 
       try {
-        let searchResults: SearchResult[];
+        const response = await fetch(resolvedApiUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            query: trimmed,
+            brand: resolvedBrand,
+            limit: 10,
+          }),
+          signal: controller.signal,
+        });
 
-        if (
-          lunrIndex &&
-          typeof (
-            lunrIndex as {
-              search: (q: string) => Array<{ ref: string; score: number }>;
-            }
-          ).search === "function"
-        ) {
-          // Use lunr for search
-          const lunrResults = (
-            lunrIndex as {
-              search: (q: string) => Array<{ ref: string; score: number }>;
-            }
-          ).search(trimmedQuery);
-          searchResults = lunrResults
-            .slice(0, 10)
-            .map((result) => {
-              const doc = (
-                searchIndex as Array<{
-                  id: string;
-                  title: string;
-                  url: string;
-                  content?: string;
-                  section?: string;
-                }>
-              ).find((d) => d.id === result.ref);
-              return doc
-                ? ({ ...doc, score: result.score } as SearchResult)
-                : null;
-            })
-            .filter((r): r is SearchResult => r !== null);
-        } else {
-          // Fallback to simple search
-          searchResults = (
-            searchIndex as Array<{
-              id: string;
-              title: string;
-              url: string;
-              content?: string;
-              section?: string;
-            }>
-          )
-            .filter((doc) => {
-              const titleMatch = doc.title
-                ?.toLowerCase()
-                .includes(trimmedQuery);
-              const contentMatch = doc.content
-                ?.toLowerCase()
-                .includes(trimmedQuery);
-              return titleMatch || contentMatch;
-            })
-            .slice(0, 10)
-            .map((doc) => ({ ...doc, score: 1 }));
+        if (!response.ok) {
+          throw new Error(`Search failed with status ${response.status}`);
         }
 
-        setResults(searchResults);
+        const data = (await response.json()) as WorkerSearchResponse;
+
+        // Only apply if this is still the latest request
+        if (abortRef.current !== controller) return;
+
+        const mapped: SearchResult[] = (data.results || []).map((r) => ({
+          id: r.id,
+          title: r.title,
+          url: r.url,
+          section: r.section,
+          snippet: r.snippet,
+          score: r.score,
+        }));
+        setResults(mapped);
         setSelectedIndex(0);
       } catch (error) {
+        if ((error as { name?: string })?.name === "AbortError") return;
         console.error("Search error:", error);
         setResults([]);
+        setErrorMessage("Search is temporarily unavailable.");
       } finally {
-        setIsLoading(false);
+        if (abortRef.current === controller) {
+          abortRef.current = null;
+          setIsLoading(false);
+        }
       }
     },
-    [searchIndex, lunrIndex]
+    [resolvedApiUrl, resolvedBrand]
   );
 
   // Debounced search
@@ -276,7 +264,11 @@ export function SearchModal({
         </div>
       </ModalHeader>
       <ModalBody className="max-h-[60vh] overflow-y-auto p-0">
-        {results.length > 0 ? (
+        {errorMessage ? (
+          <div className="text-muted-foreground p-8 text-center">
+            {errorMessage}
+          </div>
+        ) : results.length > 0 ? (
           <div ref={resultsRef} className="divide-border divide-y">
             {results.map((result, index) => (
               <button
@@ -300,6 +292,11 @@ export function SearchModal({
                         {result.section}
                       </div>
                     )}
+                    {result.snippet && (
+                      <div className="text-muted-foreground mt-1 line-clamp-2 text-xs">
+                        {result.snippet}
+                      </div>
+                    )}
                   </div>
                   <ArrowRight className="text-muted-foreground h-4 w-4 flex-shrink-0 opacity-0 group-hover:opacity-100" />
                 </div>
@@ -308,7 +305,7 @@ export function SearchModal({
           </div>
         ) : query && !isLoading ? (
           <div className="text-muted-foreground p-8 text-center">
-            No results found for "{query}"
+            No results found for &quot;{query}&quot;
           </div>
         ) : !query ? (
           <div className="text-muted-foreground p-8 text-center">

@@ -51812,7 +51812,8 @@ var DocComponents = (() => {
   function SearchModal({
     open,
     onClose,
-    searchIndexUrl = "/search.json",
+    searchApiUrl,
+    brand,
     onSelect,
     placeholder = "Search documentation...",
     className,
@@ -51821,35 +51822,19 @@ var DocComponents = (() => {
     const [results, setResults] = (0, import_react14.useState)([]);
     const [isLoading, setIsLoading] = (0, import_react14.useState)(false);
     const [selectedIndex, setSelectedIndex] = (0, import_react14.useState)(0);
-    const [searchIndex, setSearchIndex] = (0, import_react14.useState)(null);
-    const [lunrIndex, setLunrIndex] = (0, import_react14.useState)(null);
+    const [errorMessage, setErrorMessage] = (0, import_react14.useState)(null);
     const inputRef = (0, import_react14.useRef)(null);
     const resultsRef = (0, import_react14.useRef)(null);
-    (0, import_react14.useEffect)(() => {
-      if (!open || searchIndex) return;
-      const loadIndex = async () => {
-        try {
-          const response = await fetch(searchIndexUrl);
-          const data = await response.json();
-          setSearchIndex(data);
-          if (typeof window !== "undefined" && window.lunr) {
-            const lunr = window.lunr;
-            const idx = lunr(function () {
-              this.ref("id");
-              this.field("title", { boost: 10 });
-              this.field("content");
-              data.forEach((doc) => {
-                this.add(doc);
-              });
-            });
-            setLunrIndex(idx);
-          }
-        } catch (error) {
-          console.error("Failed to load search index:", error);
-        }
-      };
-      loadIndex();
-    }, [open, searchIndex, searchIndexUrl]);
+    const abortRef = (0, import_react14.useRef)(null);
+    const resolvedApiUrl =
+      searchApiUrl ||
+      (typeof window !== "undefined" ? window.SearchApiUrl : void 0) ||
+      "/api/ai-assistant/search";
+    const resolvedBrand =
+      brand ??
+      ((typeof window !== "undefined" ? window.BrandCode : "eh") === "wc"
+        ? "wc"
+        : "eh");
     (0, import_react14.useEffect)(() => {
       if (open) {
         setTimeout(() => {
@@ -51858,55 +51843,68 @@ var DocComponents = (() => {
         }, 100);
         setQuery("");
         setResults([]);
+        setErrorMessage(null);
         setSelectedIndex(0);
+      }
+      if (!open && abortRef.current) {
+        abortRef.current.abort();
+        abortRef.current = null;
       }
     }, [open]);
     const performSearch = (0, import_react14.useCallback)(
-      (searchQuery) => {
-        if (!searchQuery.trim() || !searchIndex) {
+      async (searchQuery) => {
+        const trimmed = searchQuery.trim();
+        if (!trimmed) {
           setResults([]);
+          setErrorMessage(null);
           return;
         }
+        if (abortRef.current) {
+          abortRef.current.abort();
+        }
+        const controller = new AbortController();
+        abortRef.current = controller;
         setIsLoading(true);
-        const trimmedQuery = searchQuery.toLowerCase().trim();
+        setErrorMessage(null);
         try {
-          let searchResults;
-          if (lunrIndex && typeof lunrIndex.search === "function") {
-            const lunrResults = lunrIndex.search(trimmedQuery);
-            searchResults = lunrResults
-              .slice(0, 10)
-              .map((result) => {
-                const doc = searchIndex.find((d2) => d2.id === result.ref);
-                return doc ? { ...doc, score: result.score } : null;
-              })
-              .filter((r2) => r2 !== null);
-          } else {
-            searchResults = searchIndex
-              .filter((doc) => {
-                var _a2, _b;
-                const titleMatch =
-                  (_a2 = doc.title) == null
-                    ? void 0
-                    : _a2.toLowerCase().includes(trimmedQuery);
-                const contentMatch =
-                  (_b = doc.content) == null
-                    ? void 0
-                    : _b.toLowerCase().includes(trimmedQuery);
-                return titleMatch || contentMatch;
-              })
-              .slice(0, 10)
-              .map((doc) => ({ ...doc, score: 1 }));
+          const response = await fetch(resolvedApiUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              query: trimmed,
+              brand: resolvedBrand,
+              limit: 10,
+            }),
+            signal: controller.signal,
+          });
+          if (!response.ok) {
+            throw new Error(`Search failed with status ${response.status}`);
           }
-          setResults(searchResults);
+          const data = await response.json();
+          if (abortRef.current !== controller) return;
+          const mapped = (data.results || []).map((r2) => ({
+            id: r2.id,
+            title: r2.title,
+            url: r2.url,
+            section: r2.section,
+            snippet: r2.snippet,
+            score: r2.score,
+          }));
+          setResults(mapped);
           setSelectedIndex(0);
         } catch (error) {
+          if ((error == null ? void 0 : error.name) === "AbortError") return;
           console.error("Search error:", error);
           setResults([]);
+          setErrorMessage("Search is temporarily unavailable.");
         } finally {
-          setIsLoading(false);
+          if (abortRef.current === controller) {
+            abortRef.current = null;
+            setIsLoading(false);
+          }
         }
       },
-      [searchIndex, lunrIndex]
+      [resolvedApiUrl, resolvedBrand]
     );
     (0, import_react14.useEffect)(() => {
       const timer = setTimeout(() => {
@@ -52000,8 +51998,12 @@ var DocComponents = (() => {
         }),
         /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(ModalBody, {
           className: "max-h-[60vh] overflow-y-auto p-0",
-          children:
-            results.length > 0
+          children: errorMessage
+            ? /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
+                className: "text-muted-foreground p-8 text-center",
+                children: errorMessage,
+              })
+            : results.length > 0
               ? /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
                   ref: resultsRef,
                   className: "divide-border divide-y",
@@ -52051,6 +52053,13 @@ var DocComponents = (() => {
                                         }),
                                         result.section,
                                       ],
+                                    }),
+                                  result.snippet &&
+                                    /* @__PURE__ */ (0,
+                                    import_jsx_runtime21.jsx)("div", {
+                                      className:
+                                        "text-muted-foreground mt-1 line-clamp-2 text-xs",
+                                      children: result.snippet,
                                     }),
                                 ],
                               }
@@ -52185,35 +52194,14 @@ var DocComponents = (() => {
   function DocumentationSearch() {
     const { isOpen, setItems, setCategories } = useCommandPalette();
     const [isLoading, setIsLoading] = (0, import_react15.useState)(false);
-    const [searchIndex, setSearchIndex] = (0, import_react15.useState)(null);
-    const [searchData, setSearchData] = (0, import_react15.useState)(
-      /* @__PURE__ */ new Map()
-    );
-    (0, import_react15.useEffect)(() => {
-      async function loadSearchIndex() {
-        try {
-          const baseURL = window.BaseURL || "/";
-          const response = await fetch(`${baseURL}search.json`);
-          const data = await response.json();
-          if (window.lunr) {
-            const lunr = window.lunr;
-            const idx = lunr(function () {
-              this.ref("uri");
-              this.field("title", { boost: 10 });
-              this.field("content");
-              data.forEach((doc) => {
-                this.add(doc);
-              });
-            });
-            setSearchIndex(idx);
-            setSearchData(new Map(data.map((d2) => [d2.uri, d2])));
-          }
-        } catch (error) {
-          console.error("Failed to load search index:", error);
-        }
-      }
-      loadSearchIndex();
-    }, []);
+    const abortRef = import_react15.default.useRef(null);
+    const apiUrl =
+      (typeof window !== "undefined" ? window.SearchApiUrl : void 0) ||
+      "/api/ai-assistant/search";
+    const brand =
+      (typeof window !== "undefined" ? window.BrandCode : "eh") === "wc"
+        ? "wc"
+        : "eh";
     (0, import_react15.useEffect)(() => {
       const categories = [
         { id: "pages", label: "Pages", icon: "\u{1F4C4}" },
@@ -52222,37 +52210,52 @@ var DocComponents = (() => {
       setCategories(categories);
     }, [setCategories]);
     const performSearch = (0, import_react15.useCallback)(
-      (query) => {
-        if (!searchIndex || !query.trim()) {
+      async (query) => {
+        const trimmed = query.trim();
+        if (!trimmed) {
           setItems([]);
           return;
         }
+        if (abortRef.current) {
+          abortRef.current.abort();
+        }
+        const controller = new AbortController();
+        abortRef.current = controller;
         setIsLoading(true);
         try {
-          const results = searchIndex.search(query + "*");
-          const items = results.slice(0, 10).map((result) => {
-            var _a2;
-            const doc = searchData.get(result.ref);
-            const href = result.ref;
-            return {
-              id: result.ref,
-              label: (doc == null ? void 0 : doc.title) || result.ref,
-              description:
-                ((_a2 = doc == null ? void 0 : doc.content) == null
-                  ? void 0
-                  : _a2.substring(0, 150)) + "...",
-              category: "pages",
-              onSelect: () => {
-                window.location.href = href;
-              },
-            };
+          const response = await fetch(apiUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query: trimmed, brand, limit: 10 }),
+            signal: controller.signal,
           });
+          if (!response.ok) {
+            throw new Error(`Search failed: ${response.status}`);
+          }
+          const data = await response.json();
+          if (abortRef.current !== controller) return;
+          const items = (data.results || []).map((result) => ({
+            id: result.id,
+            label: result.title,
+            description: result.snippet,
+            category: "pages",
+            onSelect: () => {
+              window.location.href = result.url;
+            },
+          }));
           setItems(items);
+        } catch (error) {
+          if ((error == null ? void 0 : error.name) === "AbortError") return;
+          console.error("Search error:", error);
+          setItems([]);
         } finally {
-          setIsLoading(false);
+          if (abortRef.current === controller) {
+            abortRef.current = null;
+            setIsLoading(false);
+          }
         }
       },
-      [searchIndex, searchData, setItems]
+      [apiUrl, brand, setItems]
     );
     (0, import_react15.useEffect)(() => {
       if (!isOpen) return;
@@ -52264,6 +52267,7 @@ var DocComponents = (() => {
         },
       ]);
     }, [isOpen, setItems]);
+    void performSearch;
     return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(CommandPalette, {
       placeholder: "Search documentation...",
       isLoading,
@@ -55520,7 +55524,7 @@ Please report this to https://github.com/markedjs/marked.`),
         ? arguments[0]
         : getGlobal();
     const DOMPurify = (root) => createDOMPurify(root);
-    DOMPurify.version = "3.3.1";
+    DOMPurify.version = "3.3.2";
     DOMPurify.removed = [];
     if (
       !window2 ||
@@ -55850,7 +55854,7 @@ Please report this to https://github.com/markedjs/marked.`),
       }
       if (USE_PROFILES) {
         ALLOWED_TAGS = addToSet({}, text);
-        ALLOWED_ATTR = [];
+        ALLOWED_ATTR = create(null);
         if (USE_PROFILES.html === true) {
           addToSet(ALLOWED_TAGS, html$1);
           addToSet(ALLOWED_ATTR, html);
@@ -55870,6 +55874,12 @@ Please report this to https://github.com/markedjs/marked.`),
           addToSet(ALLOWED_ATTR, mathMl);
           addToSet(ALLOWED_ATTR, xml);
         }
+      }
+      if (!objectHasOwnProperty(cfg, "ADD_TAGS")) {
+        EXTRA_ELEMENT_HANDLING.tagCheck = null;
+      }
+      if (!objectHasOwnProperty(cfg, "ADD_ATTR")) {
+        EXTRA_ELEMENT_HANDLING.attributeCheck = null;
       }
       if (cfg.ADD_TAGS) {
         if (typeof cfg.ADD_TAGS === "function") {
@@ -56242,6 +56252,9 @@ Please report this to https://github.com/markedjs/marked.`),
       lcName,
       value
     ) {
+      if (FORBID_ATTR[lcName]) {
+        return false;
+      }
       if (
         SANITIZE_DOM &&
         (lcName === "id" || lcName === "name") &&
@@ -56343,7 +56356,10 @@ Please report this to https://github.com/markedjs/marked.`),
         }
         if (
           SAFE_FOR_XML &&
-          regExpTest(/((--!?|])>)|<\/(style|title|textarea)/i, value)
+          regExpTest(
+            /((--!?|])>)|<\/(style|script|title|xmp|textarea|noscript|iframe|noembed|noframes)/i,
+            value
+          )
         ) {
           _removeAttribute(name, currentNode);
           continue;
@@ -57772,6 +57788,6 @@ lucide-react/dist/esm/lucide-react.js:
    *)
 
 dompurify/dist/purify.es.mjs:
-  (*! @license DOMPurify 3.3.1 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.1/LICENSE *)
+  (*! @license DOMPurify 3.3.2 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/3.3.2/LICENSE *)
 */
 //# sourceMappingURL=components.js.map

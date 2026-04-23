@@ -56,6 +56,7 @@ interface DocChunk {
   title: string;
   url: string;
   section?: string;
+  brand: string;
 }
 
 interface VectorRecord {
@@ -66,6 +67,7 @@ interface VectorRecord {
     url: string;
     section?: string;
     text: string;
+    brand: string;
   };
 }
 
@@ -129,12 +131,12 @@ function chunkText(text: string, maxSize: number, overlap: number): string[] {
 /**
  * Generate a unique ID for a chunk
  */
-function generateChunkId(url: string, index: number): string {
+function generateChunkId(url: string, index: number, brand: string): string {
   const urlHash = url
     .replace(/[^a-zA-Z0-9]/g, "-")
     .toLowerCase()
     .slice(0, 50);
-  return `${urlHash}-chunk-${index}`;
+  return `${brand}-${urlHash}-chunk-${index}`;
 }
 
 // ============================================================================
@@ -258,7 +260,10 @@ async function loadSearchIndex(brand: string): Promise<SearchIndexEntry[]> {
 /**
  * Process search index entries into document chunks
  */
-function processSearchIndex(entries: SearchIndexEntry[]): DocChunk[] {
+function processSearchIndex(
+  entries: SearchIndexEntry[],
+  brand: string
+): DocChunk[] {
   const chunks: DocChunk[] = [];
 
   for (const entry of entries) {
@@ -275,11 +280,12 @@ function processSearchIndex(entries: SearchIndexEntry[]): DocChunk[] {
 
     for (let i = 0; i < textChunks.length; i++) {
       chunks.push({
-        id: generateChunkId(entry.href, i),
+        id: generateChunkId(entry.href, i, brand),
         text: textChunks[i],
         title: entry.title,
         url: entry.href,
         section: entry.section,
+        brand,
       });
     }
   }
@@ -328,6 +334,7 @@ async function indexChunks(chunks: DocChunk[], dryRun: boolean): Promise<void> {
           url: chunk.url,
           section: chunk.section,
           text: chunk.text.slice(0, 1000), // Store truncated text
+          brand: chunk.brand,
         },
       }));
 
@@ -400,7 +407,7 @@ async function main(): Promise<void> {
 
   // Step 2: Process into chunks
   console.log("\n✂️  Processing documents into chunks...");
-  const chunks = processSearchIndex(searchIndex);
+  const chunks = processSearchIndex(searchIndex, brand);
 
   if (dryRun) {
     console.log("\n📊 Dry run summary:");

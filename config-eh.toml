@@ -32,6 +32,10 @@ defaultContentLanguageInSubdir=false
   [params.ai]
     enabled = true
     apiUrl = "/api/ai-assistant"
+
+  # Documentation search configuration (semantic search via Cloudflare Worker)
+  [params.search]
+    apiUrl = "/api/ai-assistant/search"
   
   # Pollenate.dev feedback configuration
   [params.pollenate]
@@ -96,10 +100,6 @@ notAlternative = true
   unsafe= true
 
 [module]
-  [[module.mounts]]
-    source = "./node_modules/lunr/lunr.min.js"
-    target = "assets/js/vendor/lunr.min.js"
-
   [[module.mounts]]
     source = "content"
     target = "content"

@@ -30,6 +30,8 @@ export interface VectorMetadata {
   url: string;
   section?: string;
   text: string;
+  /** Brand this chunk belongs to: 'eh' (Enterprise Health) or 'wc' (WebChart) */
+  brand?: "eh" | "wc";
 }
 
 /**
@@ -66,6 +68,46 @@ export interface ChatResponse {
   }>;
   /** Conversation ID for follow-ups */
   conversationId?: string;
+}
+
+/**
+ * Request body for the search endpoint
+ */
+export interface SearchRequest {
+  /** Search query */
+  query: string;
+  /** Maximum number of results (default: 10, max: 25) */
+  limit?: number;
+  /** Brand filter: 'eh' for Enterprise Health, 'wc' for WebChart */
+  brand?: "eh" | "wc";
+}
+
+/**
+ * A single search result item
+ */
+export interface SearchResultItem {
+  /** Stable identifier for the result (Vectorize chunk id) */
+  id: string;
+  /** Document title */
+  title: string;
+  /** URL path to the document */
+  url: string;
+  /** Section within the document (optional) */
+  section?: string;
+  /** Short text snippet from the matching chunk */
+  snippet: string;
+  /** Relevance score (higher is better, 0–1 for cosine similarity) */
+  score: number;
+}
+
+/**
+ * Response from the search endpoint
+ */
+export interface SearchResponse {
+  /** Ranked search results */
+  results: SearchResultItem[];
+  /** Echoed query */
+  query: string;
 }
 
 /**
