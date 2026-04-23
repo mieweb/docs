@@ -22,6 +22,40 @@ export interface VectorMetadata {
   url: string;
   section?: string;
   text: string;
+  /** Brand this chunk belongs to ('eh' | 'wc'); older vectors may omit this. */
+  brand?: "eh" | "wc";
+}
+
+/**
+ * Request body for the search endpoint
+ */
+export interface SearchRequest {
+  /** Search query text */
+  query: string;
+  /** Brand context: 'eh' for Enterprise Health, 'wc' for WebChart */
+  brand?: "eh" | "wc";
+  /** Max number of results to return (1-25, default 10) */
+  limit?: number;
+}
+
+/**
+ * A single search result item
+ */
+export interface SearchResultItem {
+  id: string;
+  title: string;
+  url: string;
+  section?: string;
+  snippet: string;
+  score: number;
+}
+
+/**
+ * Response from the search endpoint
+ */
+export interface SearchResponse {
+  query: string;
+  results: SearchResultItem[];
 }
 
 /**
