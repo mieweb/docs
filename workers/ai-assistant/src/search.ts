@@ -40,9 +40,10 @@ function buildSnippet(text: string, maxChars = SNIPPET_MAX_CHARS): string {
 /**
  * Check whether a result URL matches the requested brand.
  *
- * When vectors were indexed with brand metadata we prefer that; otherwise we
- * fall back to matching the URL prefix (`/eh/…` or `/wc/…`) so older vectors
- * continue to work without re-indexing.
+ * When vectors were indexed with brand metadata we prefer that. Otherwise we
+ * fall back to URL prefixes: legacy vectors use brand-agnostic URLs like
+ * `/features/…`, so we only reject URLs explicitly prefixed for the *other*
+ * brand (e.g. `/wc/…` when targeting `eh`). Everything else is accepted.
  */
 function matchesBrand(
   url: string | undefined,
@@ -51,8 +52,10 @@ function matchesBrand(
 ): boolean {
   if (resultBrand) return resultBrand === targetBrand;
   if (!url) return true;
-  const prefix = `/${targetBrand}/`;
-  return url === `/${targetBrand}` || url.startsWith(prefix);
+  const otherBrand = targetBrand === "eh" ? "wc" : "eh";
+  const otherPrefix = `/${otherBrand}/`;
+  if (url === `/${otherBrand}` || url.startsWith(otherPrefix)) return false;
+  return true;
 }
 
 /**
