@@ -1,8 +1,8 @@
 ---
 id: '1kI4yQmijSxm-cGMcYMEs_emHoyOBOmF-3cEbYvJc4ak'
 title: 'Link Documents to Other Documents'
-date: '2025-11-10T15:36:36.444Z'
-version: 78
+date: '2026-04-23T14:11:11.962Z'
+version: 87
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -37,9 +37,7 @@ The **Link Type** dropdown allows users to define types of links between documen
 
 ![](./link-documents-to-other-documents.assets/e8a9d6c7d037d23501e17741123606ae.png)
 
-The **Linked To** field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble 
-![](./link-documents-to-other-documents.assets/bfbd8ddf9c846e1f985e44f63eaa3e57.png)
- to utilize the search feature, to find the appropriate document ID.
+The **Linked To** field is used to define the document being linked to the document in context. Simply begin typing the document ID to populate the appropriate document being linked. If the document ID is not known, simply use the help bubble to utilize the search feature, to find the appropriate document ID.
 
 {{% tip %}}
 If searching by document type name, it is important to know that the search is configured as a BEGINS WITH search, not a CONTAINS search. The documents of the chart beginning with the entered text will begin to populate as possible selections. The document name, ID, and date of service are shown to help users select the correct document to link.
