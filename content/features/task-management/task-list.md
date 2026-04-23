@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2026-03-25T18:48:22.432Z'
-version: 516
-lastAuthor: 'anichols'
+date: '2026-04-23T14:26:22.953Z'
+version: 535
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -252,11 +252,21 @@ Evaluate is a feature in the options column for a task list even which will proc
 
 ### Fast Tasks
 
-The Fast Tasks taab is also only accessible if the user has security permission.  This tab shows the list of all fast task templates that have been created.
+The Fast Tasks tab is also only accessible if the user has security permission.  This tab shows the list of all fast task templates that have been created.
 
 ![](./task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
 
 Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
+
+## Viewing Uploaded Portal Documents from a Task
+
+Occasionally, patients/employees will upload documentation from the patient/employee portal. In many instances this is part of a tasking workflow. When viewing the task from the task ID, the user can open the uploaded document by clicking on the link within the task. This will open a new window and display the uploaded document for review. The document will appear underlined when a user hovers over it.
+
+![](./task-list.assets/fb44ac71ef2c48f9b0c253c290c96502.png)
+
+Starting in RC202609 and newer, the uploaded document text has been revamped to make it more obvious that there is an uploaded document available for review. The uploaded document now appears with a paper icon next to it and the text is bold and blue. When a user hovers over the uploaded document, the text is underlined. The functionality remains the same. Once a user clicks on the uploaded document text, a new window opens and displays the uploaded document.
+
+![](./task-list.assets/016c7f9311fc0954b02a7c485ab5333e.png)
 
 ## TaskList DataVis
 
