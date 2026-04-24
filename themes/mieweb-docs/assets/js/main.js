@@ -490,6 +490,10 @@ const searchInput = document.getElementById("search-input");
 const searchResults = document.getElementById("search-results");
 const searchBackdrop = document.getElementById("search-modal-backdrop");
 const searchResultTemplate = document.getElementById("search-result-template");
+const searchAskAiContainer = document.getElementById("search-ask-ai-container");
+const searchAskAiTrigger = document.getElementById("search-ask-ai-trigger");
+const searchAskAiLabel = document.getElementById("search-ask-ai-label");
+const searchAnswerCard = document.getElementById("search-answer-card");
 
 // Worker-backed semantic search configuration
 const SEARCH_API_URL = window.SearchApiUrl || "/api/ai-assistant/search";
@@ -531,12 +535,13 @@ function closeSearchModal() {
       <div class="px-2 py-8 text-center text-sm text-muted-foreground">
         <p>Start typing to search...</p>
         <p class="mt-2 text-xs">
-          Use <kbd class="rounded border border-border bg-muted px-1">↑</kbd> <kbd class="rounded border border-border bg-muted px-1">↓</kbd> to navigate, <kbd class="rounded border border-border bg-muted px-1">Enter</kbd> to select
+          Use <kbd class="rounded border border-border bg-muted px-1">↑</kbd> <kbd class="rounded border border-border bg-muted px-1">↓</kbd> to navigate, <kbd class="rounded border border-border bg-muted px-1">Enter</kbd> to select, <kbd class="rounded border border-border bg-muted px-1">⌘↩</kbd> to ask AI
         </p>
       </div>
     `;
   }
   selectedIndex = -1;
+  resetAnswerUi();
 
   // Cancel any in-flight search
   if (activeSearchController) {
@@ -572,6 +577,13 @@ document.addEventListener("keydown", (e) => {
   // Navigate results with arrow keys
   if (!searchModal?.classList.contains("hidden")) {
     const results = searchResults?.querySelectorAll(".search-result");
+
+    // ⌘/Ctrl+Enter asks the AI, even if a result is highlighted.
+    if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+      e.preventDefault();
+      void askAI(searchInput?.value || "");
+      return;
+    }
 
     if (e.key === "ArrowDown") {
       e.preventDefault();
@@ -628,7 +640,12 @@ function renderSearchResults(query, results) {
     const title = clone.querySelector(".search-result-title");
     const summary = clone.querySelector(".search-result-summary");
 
-    if (link) link.href = result.url;
+    // Deep-link to the matching section when the indexer gave us one.
+    const href =
+      result.anchor && !String(result.url || "").includes("#")
+        ? `${result.url}#${result.anchor}`
+        : result.url;
+    if (link) link.href = href || "#";
     if (title) title.textContent = result.title;
     if (summary) {
       summary.textContent = result.snippet || "";
@@ -710,6 +727,154 @@ searchInput?.addEventListener("input", (e) => {
   searchTimeout = setTimeout(() => {
     performSearch(e.target.value);
   }, 200);
+  // Drop any stale AI answer as the user keeps typing, and re-show the CTA
+  // for the current query.
+  resetAnswerUi();
+  updateAskAiCta(e.target.value);
+});
+
+// ============================================
+// Ask AI (RAG inline answer)
+// ============================================
+//
+// Hits the /answer endpoint with the current query, renders the LLM
+// response + numbered source list. Triggered explicitly (button click or
+// ⌘↩) — never on every keystroke — because each call runs an LLM.
+
+const ANSWER_API_URL =
+  (window.SearchApiUrl || "/api/ai-assistant/search") + "/answer";
+let activeAnswerController = null;
+let currentAnswerQuery = "";
+
+function updateAskAiCta(query) {
+  if (!searchAskAiContainer) return;
+  const trimmed = (query || "").trim();
+  if (!trimmed) {
+    searchAskAiContainer.classList.add("hidden");
+    return;
+  }
+  searchAskAiContainer.classList.remove("hidden");
+  if (searchAskAiLabel) {
+    searchAskAiLabel.textContent = `Ask AI: "${trimmed}"`;
+  }
+}
+
+function resetAnswerUi() {
+  if (activeAnswerController) {
+    activeAnswerController.abort();
+    activeAnswerController = null;
+  }
+  currentAnswerQuery = "";
+  if (searchAnswerCard) {
+    searchAnswerCard.innerHTML = "";
+    searchAnswerCard.classList.add("hidden");
+  }
+}
+
+function renderAnswerLoading(query) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+      </svg>
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+      <span class="text-muted-foreground text-xs italic">for "${escapeHtml(query)}"</span>
+    </div>
+    <p class="text-muted-foreground text-sm">Reading the documentation…</p>
+  `;
+}
+
+function renderAnswerError(message) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+    </div>
+    <p class="text-muted-foreground text-sm">${escapeHtml(message)}</p>
+  `;
+}
+
+function buildAnchorHref(source) {
+  if (!source?.url) return "#";
+  if (!source.anchor || source.url.includes("#")) return source.url;
+  return `${source.url}#${source.anchor}`;
+}
+
+function renderAnswer(data) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  const grounded = data?.grounded !== false;
+  const answer = data?.answer || "";
+  const sources = Array.isArray(data?.sources) ? data.sources : [];
+
+  const sourcesHtml = sources.length
+    ? `<ol class="mt-3 space-y-1 text-xs">
+        ${sources
+          .map((src, i) => {
+            const label = src.heading
+              ? `${escapeHtml(src.title)} › ${escapeHtml(src.heading)}`
+              : escapeHtml(src.title || "Untitled");
+            return `<li class="flex items-start gap-2">
+              <span class="text-muted-foreground flex-shrink-0 font-mono">[${i + 1}]</span>
+              <a href="${escapeHtml(buildAnchorHref(src))}" class="text-primary hover:underline focus:underline focus:outline-none">${label}</a>
+            </li>`;
+          })
+          .join("")}
+      </ol>`
+    : "";
+
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+      </svg>
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+      ${grounded ? "" : '<span class="text-muted-foreground text-xs">(not covered in the docs)</span>'}
+    </div>
+    <p class="text-foreground text-sm whitespace-pre-line">${escapeHtml(answer)}</p>
+    ${sourcesHtml}
+  `;
+}
+
+async function askAI(query) {
+  const trimmed = (query || "").trim();
+  if (!trimmed) return;
+
+  if (activeAnswerController) activeAnswerController.abort();
+  const controller = new AbortController();
+  activeAnswerController = controller;
+  currentAnswerQuery = trimmed;
+  searchAskAiContainer?.classList.add("hidden");
+  renderAnswerLoading(trimmed);
+
+  try {
+    const response = await fetch(ANSWER_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: trimmed, brand: SEARCH_BRAND }),
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`Answer failed: ${response.status}`);
+    const data = await response.json();
+    if (activeAnswerController !== controller) return;
+    if (currentAnswerQuery !== trimmed) return;
+    renderAnswer(data);
+  } catch (error) {
+    if (error?.name === "AbortError") return;
+    console.error("Ask AI error:", error);
+    if (currentAnswerQuery === trimmed) {
+      renderAnswerError("Couldn't generate an answer right now.");
+    }
+  } finally {
+    if (activeAnswerController === controller) activeAnswerController = null;
+  }
+}
+
+searchAskAiTrigger?.addEventListener("click", () => {
+  void askAI(searchInput?.value || "");
 });
 
 // ============================================
@@ -735,6 +900,7 @@ searchInput?.addEventListener("input", (e) => {
     openSearchModal();
     searchInput.value = queryParam;
     performSearch(queryParam);
+    updateAskAiCta(queryParam);
   }
 })();
 
