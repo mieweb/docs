@@ -1,11 +1,14 @@
 ---
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
-date: '2025-05-23T13:24:34.375Z'
-version: 187
-lastAuthor: 'dmartinez'
+date: '2026-04-24T19:38:04.671Z'
+version: 199
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://docs.enterprisehealth.com/features/system-administration/system-controls/email-reminders-from-system/'
+  - 'https://docs.enterprisehealth.com/features/document-management/printing-and-print-definitions/label-printing-feature/'
+  - 'https://docs.enterprisehealth.com/features/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests/'
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
 source: 'https://drive.google.com/open?id=1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 wikigdrive: 'v2.16.0'
@@ -71,13 +74,13 @@ To print entire days' schedules w/ this view click [*view printable*] on the rig
 ![](./scheduler-views.assets/143e16a9a1f05e592866acfad5188c3a.png)
 
 * <strong>Add Dictation</strong>: Click this and it will allow you to add dictation. It will <strong>not</strong> be linked to a specific patient. You will need to dictate all that information.
-* <strong>Dictate Day:</strong> Click this (if you have this option turned on in MY SETTINGS) to go through all <strong>un-dictated</strong> patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the 1^st patient name in the scheduler view. Dictate then upload. After you upload, the next patient in the schedule will pop-up in the MIEPlayer to dictate for next. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
-    * When you skip a patient, it considers it still as <strong>un-dictated</strong>. When you refresh and go back into the schedule and click Dictate Day again, it will start with the first <strong>un-dictated</strong> patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
-* <strong>Email:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Click this to send out emails for <em>all</em> appointments scheduled for the schedule you are viewing. It will only send emails if the patient has an email address entered in their <em>demographics tab</em> in the email field. See other help documentation named <em>Email Reminders From |system|.pdf</em> on how to send emails to patient from here.
+* <strong>Dictate Day:</strong> Click this (if you have this option turned on in MY SETTINGS) to go through all <strong>un-dictated</strong> patients and add dictation in schedule order. It will automatically pop-up the MIEPlayer with the 1st patient name in the scheduler view. Dictate then upload. After you upload, the next patient in the schedule will pop-up in the MIEPlayer to dictate for next. If you do not want to dictate for a specific patient that pops-up in MIEPlayer, then close the window by X out the MIEPlayer box. It will then skip that particular patient and pop-up the next patient in the schedule order.
+    * When you skip a patient, it still considers it <strong>un-dictated</strong>. When you refresh and go back into the schedule and click Dictate Day again, it will start with the first <strong>un-dictated</strong> patient and any others that are un-dictated in that schedule order. Meaning, it will pop-up any that you had previously skipped if applicable.
+* <strong>Email:</strong> You must have security permission to <em>Send Email to Patients</em> set to Yes in order for any email features to display for your use. If your security is set to No, you will not see this Email feature. Click this to send out emails for <em>all</em> appointments scheduled for the schedule you are viewing. It will only send emails if the patient has an email address entered in their <em>demographics tab</em> in the email field. See other help documentation named [Email Reminders from System](https://docs.enterprisehealth.com/features/system-administration/system-controls/email-reminders-from-system/) on how to send emails to patients from here.
 
 ![](./scheduler-views.assets/afafda3ee5ef0b755a0ed54a4841ee58.png)
 
-* <strong>Print Labels:</strong> Click this to print a label for <em>all</em> patients with scheduled appointments for the schedule you are viewing. See other help documentation named <em>Label_Printing_Feature.pdf</em> on how to print labels from here.
+* <strong>Print Labels:</strong> Click this to print a label for <em>all</em> patients with scheduled appointments for the schedule you are viewing. See other help documentation named [Label Printing Feature](https://docs.enterprisehealth.com/features/document-management/printing-and-print-definitions/label-printing-feature/) on how to print labels from here.
 
 ![](./scheduler-views.assets/afafda3ee5ef0b755a0ed54a4841ee58.png)
 
@@ -85,7 +88,7 @@ To print entire days' schedules w/ this view click [*view printable*] on the rig
 
 ![](./scheduler-views.assets/dba32cc926a76e707bc195cfa736bf6a.png)
 
-See other help documentation named *Prescription/Insurance Eligibility Requests-SureScripts.pdf* on how run Drug/Insurance Eligibility checks.
+See other help documentation named [SureScripts Advanced - Prescription and Insurance Eligibility Requests](https://docs.enterprisehealth.com/features/medication-management-and-e-prescribing/surescripts-advanced-prescription-and-insurance-eligibility-requests/) on how to run Drug/Insurance Eligibility checks.
 
 ## Multi-View Tab
 
