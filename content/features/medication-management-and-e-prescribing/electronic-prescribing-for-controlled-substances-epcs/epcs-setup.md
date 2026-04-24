@@ -1,8 +1,8 @@
 ---
 id: '1ewJlY45OC5Ckr9fVLGCGGEbQJtDwhEl6-qYNlMGAjgk'
 title: 'EPCS Setup'
-date: '2025-11-11T15:23:52.919Z'
-version: 656
+date: '2026-04-24T16:04:04.157Z'
+version: 673
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -142,6 +142,11 @@ When the EPCS option is selected by the Designated Administrator, the following 
 ![](./epcs-setup.assets/ffbb75e6e27b56b096d07c33aa545dc1.png)
 {{% /info %}}
 
+* <strong>Cross-Browser EPCS</strong>: This allows EPCS token authentication to work across different browsers.
+    * When enabled, the EPCS token can be used in different browsers on the same device.
+    * When disabled, the token is restricted to the browser where it was registered.
+    * The setting affects how the EPCS 2-factor authentication token is validated.
+
 6. Verify the prescriber is a member of the appropriate department.
 7. When all required fields are entered and the appropriate electronic prescriber boxes checked, click the <strong>Submit Edit</strong> button (or <em>Submit Insert</em> button, if a new user is being created).
 
@@ -186,9 +191,9 @@ For more detailed information on how to add and prescribe medications, see our [
 
 As a part of EPCS certification, the CEHRT requires the practitioner to indicate each prescription is ready for signing. Because of this, a prescriber must review the prescriptions and mark each as Ready to Sign by checking the box(es). Digitally sign the prescription by clicking your (the prescriber's) name/link. **Be sure to read the legal statement before marking and signing**.
 
-![](./epcs-setup.assets/196b780c58021b3587de417ba3a3a290.png)
+![](./epcs-setup.assets/c1964bc26a92923f46cb048de06707d2.png)
 
-![](./epcs-setup.assets/209fdba9c644e1eb3504711dbe2cd5b9.png)
+![](./epcs-setup.assets/2c574baba22ca5f349761bf3c5e4f99e.png)
 
 An electronic controlled prescription will not transmit without the prescriber's token AND password. Ensure the token is inserted into the device, and provide the Token Passcode, when prompted. Failure to provide both will result in the medication(s) being placed in Unsigned Prescription Queue.
 
@@ -210,7 +215,7 @@ Batching prescriptions is available; however, batching can only be performed for
 
 1. When prescriptions are batched for a patient, the prescriber is able to mark all prescriptions as Ready to Sign. Note they are all for the same patient.
 
-![](./epcs-setup.assets/0718f3e2277e6feea9f1a4306b0bc8d6.png)
+![](./epcs-setup.assets/6486755a4d2540c0faa4882456e3b3a5.png)
 
 2. Upon hitting the <strong>Sign</strong> button, the following Token Logon window will display. The prescriber will see this pop-up once for EACH medication that is batched.
 

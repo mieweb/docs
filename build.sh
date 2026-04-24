@@ -56,7 +56,7 @@ verify_checksum() {
 
 # Ensure pandoc is available (required by some markdown files using markup: 'pandoc')
 ensure_pandoc() {
-  local pandoc_dir="${PANDOC_DIR:-.pandoc}"
+  local pandoc_dir="${PANDOC_DIR:-"$PWD/.pandoc"}"
 
   # Check if pandoc is already on PATH
   if command -v pandoc &>/dev/null; then
