@@ -2,10 +2,14 @@
 {{- $index := slice }}
 {{- range .Site.RegularPages }}
   {{- $content := .Plain | truncate 5000 }}
+  {{- /* RawContent preserves markdown headings so the indexer can build
+         anchor-level chunks that deep-link to the exact section. */}}
+  {{- $raw := .RawContent }}
   {{- $index = $index | append (dict 
     "href" .RelPermalink 
     "title" .Title 
     "content" $content
+    "rawContent" $raw
   ) }}
 {{- end }}
 {{- $index | jsonify }}

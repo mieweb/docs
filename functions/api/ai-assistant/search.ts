@@ -18,6 +18,7 @@ import type {
 } from "./types";
 import { CONFIG } from "./types";
 import { searchSimilarChunks } from "./embeddings";
+import { getIndexVersion, UNVERSIONED } from "./version";
 
 /** Maximum snippet length returned to the client (characters). */
 const SNIPPET_MAX_CHARS = 240;
@@ -36,12 +37,17 @@ const CORS_HEADERS = {
   "Access-Control-Max-Age": "86400",
 };
 
-function jsonResponse<T>(data: T, status = 200): Response {
+function jsonResponse<T>(
+  data: T,
+  status = 200,
+  extraHeaders: Record<string, string> = {}
+): Response {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       "Content-Type": "application/json",
       ...CORS_HEADERS,
+      ...extraHeaders,
     },
   });
 }
@@ -157,6 +163,8 @@ async function runSemanticSearch(
       section: meta.section,
       snippet: buildSnippet(meta.text ?? ""),
       score: match.score,
+      anchor: meta.anchor,
+      heading: meta.heading,
     });
   }
 
@@ -167,20 +175,45 @@ async function runSemanticSearch(
 
 async function runSearch(
   input: Partial<SearchRequest>,
-  env: Env
+  env: Env,
+  clientVersion?: string | null
 ): Promise<Response> {
   const parsed = parseSearchInput(input);
   if (parsed instanceof Response) return parsed;
 
   try {
-    const results = await runSemanticSearch(
-      parsed.query,
-      env,
-      parsed.limit,
-      parsed.brand
-    );
-    const body: SearchResponse = { query: parsed.query, results };
-    return jsonResponse(body);
+    // Read the current index version in parallel with the search so the
+    // hot path stays fast. If KV is unavailable this returns "unversioned"
+    // and long-term caching is simply disabled.
+    const [results, versionInfo] = await Promise.all([
+      runSemanticSearch(parsed.query, env, parsed.limit, parsed.brand),
+      getIndexVersion(env),
+    ]);
+
+    const body: SearchResponse = {
+      query: parsed.query,
+      results,
+      version: versionInfo.version,
+    };
+
+    // Only enable long-lived edge/browser caching when the client explicitly
+    // pinned the URL to a known version AND that version matches what we're
+    // actually serving. Any mismatch (or missing `v`) gets a short TTL so
+    // clients converge on the latest version quickly.
+    const cacheable =
+      !!clientVersion &&
+      clientVersion === versionInfo.version &&
+      versionInfo.version !== UNVERSIONED;
+
+    const cacheControl = cacheable
+      ? "public, max-age=31536000, immutable"
+      : "public, max-age=60, stale-while-revalidate=300";
+
+    return jsonResponse(body, 200, {
+      "Cache-Control": cacheControl,
+      // Helpful for debugging: expose the version on every response.
+      "X-Index-Version": versionInfo.version,
+    });
   } catch (error) {
     console.error("Search error:", error);
     return errorResponse(
@@ -197,7 +230,7 @@ export const onRequestOptions: PagesFunction<Env> = async () => {
   return new Response(null, { status: 204, headers: CORS_HEADERS });
 };
 
-/** GET /api/ai-assistant/search?q=...&brand=...&limit=... */
+/** GET /api/ai-assistant/search?q=...&brand=...&limit=...&v=... */
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const url = new URL(context.request.url);
   const limitParam = url.searchParams.get("limit");
@@ -207,7 +240,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       limit: limitParam ? parseInt(limitParam, 10) : undefined,
       brand: (url.searchParams.get("brand") as "eh" | "wc" | null) ?? undefined,
     },
-    context.env
+    context.env,
+    url.searchParams.get("v")
   );
 };
 
@@ -219,5 +253,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   } catch {
     return errorResponse("Invalid JSON body", "INVALID_JSON");
   }
+  // POST requests are not HTTP-cacheable, so we never set a long TTL even if
+  // a `version` field is supplied in the body.
   return runSearch(body, context.env);
 };

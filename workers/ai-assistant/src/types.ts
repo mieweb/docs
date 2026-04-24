@@ -32,6 +32,10 @@ export interface VectorMetadata {
   text: string;
   /** Brand this chunk belongs to: 'eh' (Enterprise Health) or 'wc' (WebChart) */
   brand?: "eh" | "wc";
+  /** Slugified heading for deep-linking (e.g. `configuration`); optional. */
+  anchor?: string;
+  /** Human-readable heading text this chunk belongs to; optional. */
+  heading?: string;
 }
 
 /**
@@ -98,6 +102,10 @@ export interface SearchResultItem {
   snippet: string;
   /** Relevance score (higher is better, 0–1 for cosine similarity) */
   score: number;
+  /** Slugified heading anchor for deep-linking (without leading `#`). */
+  anchor?: string;
+  /** Human-readable heading text this result belongs to. */
+  heading?: string;
 }
 
 /**

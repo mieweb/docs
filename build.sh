@@ -192,6 +192,21 @@ while [[ $# -gt 0 ]]; do
         fi
         mkdir -p config/_default/; cat content/navigation.md | ./navigation2menu.js > config/_default/menu.en.json
         npx hugo --config "config-$1.toml" --baseURL "$BASE_URL" $OPTS
+
+        # Optional: refresh the documentation vector index after a successful
+        # Hugo build. Runs only when the required Cloudflare credentials are
+        # present (i.e. on Cloudflare Pages builds or CI with secrets wired
+        # up). The indexer short-circuits when content is unchanged, so this
+        # is essentially free on most builds.
+        if [[ -n "$CLOUDFLARE_ACCOUNT_ID" && -n "$CLOUDFLARE_API_TOKEN" && -n "$DOCS_CACHE_KV_ID" ]]
+        then
+          echo "🔎 Refreshing search index for $1..."
+          npx tsx scripts/index-docs.ts --brand "$1" || {
+            echo "⚠️  Search index refresh failed — continuing with deploy." >&2
+          }
+        else
+          echo "ℹ️  Skipping search index refresh (CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN / DOCS_CACHE_KV_ID not set)"
+        fi
       fi
       HUGO_RUN="true"
       shift # past argument

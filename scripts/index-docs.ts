@@ -17,6 +17,7 @@
 
 import * as fs from "fs/promises";
 import * as path from "path";
+import { createHash } from "crypto";
 
 // ============================================================================
 // Configuration
@@ -48,6 +49,8 @@ interface SearchIndexEntry {
   title: string;
   section?: string;
   content: string;
+  /** Raw markdown content (with headings) — used for anchor-aware chunking. */
+  rawContent?: string;
 }
 
 interface DocChunk {
@@ -57,6 +60,10 @@ interface DocChunk {
   url: string;
   section?: string;
   brand: string;
+  /** Slugified heading the chunk belongs to (for deep-link `#anchor`). */
+  anchor?: string;
+  /** Human-readable heading text the chunk belongs to. */
+  heading?: string;
 }
 
 interface VectorRecord {
@@ -68,6 +75,8 @@ interface VectorRecord {
     section?: string;
     text: string;
     brand: string;
+    anchor?: string;
+    heading?: string;
   };
 }
 
@@ -137,6 +146,78 @@ function generateChunkId(url: string, index: number, brand: string): string {
     .toLowerCase()
     .slice(0, 50);
   return `${brand}-${urlHash}-chunk-${index}`;
+}
+
+/**
+ * Slugify a heading the same way Hugo's default `anchorize` does, so the
+ * `#anchor` produced here matches the actual `id` emitted on the rendered
+ * page. Hugo lowercases, replaces whitespace with `-`, and drops most
+ * punctuation.
+ */
+function slugifyHeading(heading: string): string {
+  return heading
+    .toLowerCase()
+    .trim()
+    .replace(/[`~!@#$%^&*()+=<>?,./:;"'{}[\]|\\]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+/**
+ * Split raw markdown into logical sections, one per `##`/`###` heading.
+ *
+ * The first section (before any heading) is returned with no anchor and uses
+ * the document title as its heading. Fenced code blocks are respected so a
+ * `#` inside a code sample isn't mistaken for a heading.
+ */
+interface RawSection {
+  heading?: string;
+  anchor?: string;
+  body: string;
+}
+
+function splitByHeadings(raw: string): RawSection[] {
+  const sections: RawSection[] = [];
+  const lines = raw.split(/\r?\n/);
+  let inFence = false;
+  let currentHeading: string | undefined;
+  let currentAnchor: string | undefined;
+  let buf: string[] = [];
+
+  const flush = () => {
+    const body = buf.join("\n").trim();
+    if (body.length > 0) {
+      sections.push({
+        heading: currentHeading,
+        anchor: currentAnchor,
+        body,
+      });
+    }
+    buf = [];
+  };
+
+  for (const line of lines) {
+    // Track fenced code blocks (``` or ~~~) so `#` inside code isn't a heading.
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence;
+      buf.push(line);
+      continue;
+    }
+    const headingMatch = !inFence
+      ? /^(#{2,4})\s+(.+?)\s*#*\s*$/.exec(line)
+      : null;
+    if (headingMatch) {
+      flush();
+      currentHeading = headingMatch[2].trim();
+      currentAnchor = slugifyHeading(currentHeading);
+      continue;
+    }
+    buf.push(line);
+  }
+  flush();
+
+  return sections;
 }
 
 // ============================================================================
@@ -236,6 +317,135 @@ async function insertVectors(
 }
 
 // ============================================================================
+// Versioning
+// ============================================================================
+
+/**
+ * Compute a stable, content-addressed version string for the current set of
+ * chunks. The version only changes when the indexed content changes, so it
+ * can safely be used as an HTTP / localStorage cache key for search results.
+ */
+function computeIndexVersion(chunks: DocChunk[]): string {
+  const hash = createHash("sha256");
+  // Sort by id so ordering is deterministic regardless of input order.
+  const sorted = [...chunks].sort((a, b) => a.id.localeCompare(b.id));
+  for (const c of sorted) {
+    hash.update(c.id);
+    hash.update("\0");
+    hash.update(c.text);
+    hash.update("\0");
+  }
+  // 16 hex chars (64 bits) is plenty to detect content changes.
+  return hash.digest("hex").slice(0, 16);
+}
+
+/**
+ * Persist the current index version to the DOCS_CACHE KV namespace so the
+ * search worker can surface it to clients and use it as a cache key.
+ *
+ * Requires `DOCS_CACHE_KV_ID` (KV namespace ID). If absent we skip the write
+ * with a warning so local dry-ish runs still succeed — the search endpoint
+ * falls back to an "unversioned" marker in that case.
+ */
+async function writeIndexVersion(
+  version: string,
+  brand: string,
+  accountId?: string,
+  apiToken?: string
+): Promise<void> {
+  const kvId = process.env.DOCS_CACHE_KV_ID;
+  if (!kvId) {
+    console.log(`   ⚠️  DOCS_CACHE_KV_ID not set — skipping KV version write.`);
+    console.log(
+      `      Set it to enable long-term edge/browser caching of search results.`
+    );
+    return;
+  }
+
+  const account = accountId || process.env.CLOUDFLARE_ACCOUNT_ID;
+  const token = apiToken || process.env.CLOUDFLARE_API_TOKEN;
+  if (!account || !token) {
+    throw new Error("Missing CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_API_TOKEN");
+  }
+
+  const payload = JSON.stringify({
+    version,
+    brand,
+    builtAt: new Date().toISOString(),
+  });
+
+  // Namespace-wide version (last writer wins across brands).
+  const keys = ["index:version", `index:version:${brand}`];
+  for (const key of keys) {
+    const url = `https://api.cloudflare.com/client/v4/accounts/${account}/storage/kv/namespaces/${kvId}/values/${encodeURIComponent(key)}`;
+    const response = await fetch(url, {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "text/plain",
+      },
+      body: payload,
+    });
+    if (!response.ok) {
+      const error = await response.text();
+      throw new Error(
+        `KV write failed for ${key}: ${response.status} - ${error}`
+      );
+    }
+  }
+
+  console.log(`   ✓ Wrote index version to KV: ${version}`);
+}
+
+/**
+ * Read the current index version from KV (brand-scoped). Returns null if KV
+ * is not configured, the key is missing, or any error occurs. Used to decide
+ * whether a re-index is actually needed.
+ */
+async function readIndexVersion(
+  brand: string,
+  accountId?: string,
+  apiToken?: string
+): Promise<string | null> {
+  const kvId = process.env.DOCS_CACHE_KV_ID;
+  if (!kvId) return null;
+
+  const account = accountId || process.env.CLOUDFLARE_ACCOUNT_ID;
+  const token = apiToken || process.env.CLOUDFLARE_API_TOKEN;
+  if (!account || !token) return null;
+
+  const key = `index:version:${brand}`;
+  const url = `https://api.cloudflare.com/client/v4/accounts/${account}/storage/kv/namespaces/${kvId}/values/${encodeURIComponent(key)}`;
+
+  try {
+    const response = await fetch(url, {
+      method: "GET",
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    // 404 means "never indexed" — treat as no version.
+    if (response.status === 404) return null;
+    if (!response.ok) return null;
+
+    const raw = (await response.text()).trim();
+    if (!raw) return null;
+
+    // Payloads are JSON-wrapped ({ version, brand, builtAt }), but tolerate
+    // plain strings too just in case.
+    if (raw.startsWith("{")) {
+      try {
+        const parsed = JSON.parse(raw) as { version?: string };
+        return parsed.version ?? null;
+      } catch {
+        return null;
+      }
+    }
+    return raw;
+  } catch {
+    return null;
+  }
+}
+
+// ============================================================================
 // Main Processing
 // ============================================================================
 
@@ -258,7 +468,13 @@ async function loadSearchIndex(brand: string): Promise<SearchIndexEntry[]> {
 }
 
 /**
- * Process search index entries into document chunks
+ * Process search index entries into document chunks.
+ *
+ * When the Hugo template provides `rawContent` (markdown source), chunks are
+ * built per-heading so each vector carries an `anchor` that deep-links to the
+ * exact section on the rendered page. When `rawContent` is missing (older
+ * builds) we fall back to the pre-existing sentence-based chunker over
+ * `content`.
  */
 function processSearchIndex(
   entries: SearchIndexEntry[],
@@ -267,26 +483,59 @@ function processSearchIndex(
   const chunks: DocChunk[] = [];
 
   for (const entry of entries) {
-    if (!entry.content || entry.content.length < CONFIG.minChunkSize) {
-      continue;
+    const sections: RawSection[] = entry.rawContent
+      ? splitByHeadings(entry.rawContent)
+      : [{ body: entry.content ?? "" }];
+
+    let chunkIndex = 0;
+
+    for (const section of sections) {
+      const cleanedText = cleanText(section.body);
+      if (cleanedText.length < CONFIG.minChunkSize) continue;
+
+      const textChunks = chunkText(
+        cleanedText,
+        CONFIG.maxChunkSize,
+        CONFIG.chunkOverlap
+      );
+
+      for (const text of textChunks) {
+        chunks.push({
+          id: generateChunkId(entry.href, chunkIndex++, brand),
+          text,
+          title: entry.title,
+          url: entry.href,
+          section: entry.section,
+          brand,
+          anchor: section.anchor,
+          heading: section.heading,
+        });
+      }
     }
 
-    const cleanedText = cleanText(entry.content);
-    const textChunks = chunkText(
-      cleanedText,
-      CONFIG.maxChunkSize,
-      CONFIG.chunkOverlap
-    );
-
-    for (let i = 0; i < textChunks.length; i++) {
-      chunks.push({
-        id: generateChunkId(entry.href, i, brand),
-        text: textChunks[i],
-        title: entry.title,
-        url: entry.href,
-        section: entry.section,
-        brand,
-      });
+    // If the raw-content path produced nothing (e.g. empty doc), fall back
+    // to the cleaned `content` so we never silently skip a document.
+    if (
+      chunkIndex === 0 &&
+      entry.content &&
+      entry.content.length >= CONFIG.minChunkSize
+    ) {
+      const cleanedText = cleanText(entry.content);
+      const textChunks = chunkText(
+        cleanedText,
+        CONFIG.maxChunkSize,
+        CONFIG.chunkOverlap
+      );
+      for (const text of textChunks) {
+        chunks.push({
+          id: generateChunkId(entry.href, chunkIndex++, brand),
+          text,
+          title: entry.title,
+          url: entry.href,
+          section: entry.section,
+          brand,
+        });
+      }
     }
   }
 
@@ -335,6 +584,8 @@ async function indexChunks(chunks: DocChunk[], dryRun: boolean): Promise<void> {
           section: chunk.section,
           text: chunk.text.slice(0, 1000), // Store truncated text
           brand: chunk.brand,
+          anchor: chunk.anchor,
+          heading: chunk.heading,
         },
       }));
 
@@ -370,6 +621,7 @@ async function indexChunks(chunks: DocChunk[], dryRun: boolean): Promise<void> {
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
+  const force = args.includes("--force");
   const brandArg = args.find((a) => a === "--brand" || a === "-b");
   const brandIndex = brandArg ? args.indexOf(brandArg) + 1 : -1;
   const brand = brandIndex > 0 && args[brandIndex] ? args[brandIndex] : "eh";
@@ -380,6 +632,7 @@ async function main(): Promise<void> {
   console.log(`   Brand: ${brand}`);
   console.log(`   Mode: ${dryRun ? "DRY RUN (no uploads)" : "LIVE"}`);
   console.log(`   Index: ${CONFIG.vectorizeIndex}`);
+  if (force) console.log(`   Force: yes (re-index even if unchanged)`);
   console.log("═".repeat(60));
 
   // Check for required environment variables (unless dry run)
@@ -426,9 +679,41 @@ async function main(): Promise<void> {
     return;
   }
 
+  // Compute the content-addressed version *before* embedding so we can skip
+  // the (expensive) embedding + upload step when nothing has changed. This
+  // makes it safe to run indexing on every Cloudflare Pages build — it
+  // becomes a cheap no-op when the docs haven't changed.
+  const newVersion = computeIndexVersion(chunks);
+  if (!force) {
+    const currentVersion = await readIndexVersion(brand);
+    if (currentVersion && currentVersion === newVersion) {
+      console.log(
+        `\n⏭️  Content unchanged (version ${newVersion}). Skipping re-index.`
+      );
+      console.log(`   Pass --force to re-embed anyway.\n`);
+      return;
+    }
+    if (currentVersion) {
+      console.log(
+        `\n🔄 Content changed: ${currentVersion} → ${newVersion}. Re-indexing...`
+      );
+    } else {
+      console.log(
+        `\n🆕 No existing version in KV. Indexing fresh (${newVersion})...`
+      );
+    }
+  }
+
   // Step 3: Generate embeddings and upload
   console.log("\n🧠 Generating embeddings and indexing...");
   await indexChunks(chunks, dryRun);
+
+  // Step 4: Publish the content-addressed version so the search endpoint
+  // can use it as a long-lived cache key.
+  console.log("\n🔖 Publishing index version...");
+  const version = computeIndexVersion(chunks);
+  console.log(`   Version: ${version}`);
+  await writeIndexVersion(version, brand);
 
   console.log("\n✅ Indexing complete!\n");
 }

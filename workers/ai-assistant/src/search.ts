@@ -92,6 +92,8 @@ export async function semanticSearch(
       section: meta.section,
       snippet: buildSnippet(meta.text ?? ""),
       score: match.score,
+      anchor: meta.anchor,
+      heading: meta.heading,
     });
   }
 
