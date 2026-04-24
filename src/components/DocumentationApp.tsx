@@ -25,7 +25,7 @@ declare global {
   interface Window {
     BaseURL?: string;
     BrandCode?: string;
-    lunr?: typeof import("lunr");
+    SearchApiUrl?: string;
   }
 }
 
@@ -91,56 +91,47 @@ function applyBrandStyles(brand: BrandConfig, isDark: boolean): void {
   document.head.appendChild(styleTag);
 }
 
-interface SearchResult {
+interface WorkerSearchResult {
+  id: string;
   title: string;
-  uri: string;
-  content: string;
+  url: string;
+  section?: string;
+  snippet: string;
+  score: number;
+  /** Slugified heading anchor for deep-linking to the matching section. */
+  anchor?: string;
+  /** Human-readable heading text for the matching section. */
+  heading?: string;
 }
 
-interface SearchIndex {
-  search: (query: string) => Array<{ ref: string; score: number }>;
+interface WorkerSearchResponse {
+  results: WorkerSearchResult[];
+  query: string;
+}
+
+/**
+ * Build the final navigation URL for a result, appending `#anchor` when the
+ * API provides one and the base URL doesn't already contain a fragment.
+ */
+function buildResultHref(result: WorkerSearchResult): string {
+  if (!result.anchor) return result.url;
+  if (result.url.includes("#")) return result.url;
+  return `${result.url}#${result.anchor}`;
 }
 
 // Inner component that uses the command palette context
 function DocumentationSearch() {
-  const { isOpen, setItems, setCategories } = useCommandPalette();
+  const { isOpen, query, setItems, setCategories } = useCommandPalette();
   const [isLoading, setIsLoading] = useState(false);
-  const [searchIndex, setSearchIndex] = useState<SearchIndex | null>(null);
-  const [searchData, setSearchData] = useState<Map<string, SearchResult>>(
-    new Map()
-  );
+  const abortRef = React.useRef<AbortController | null>(null);
 
-  // Load search index
-  useEffect(() => {
-    async function loadSearchIndex() {
-      try {
-        const baseURL = window.BaseURL || "/";
-        const response = await fetch(`${baseURL}search.json`);
-        const data: SearchResult[] = await response.json();
-
-        // Build lunr index if available
-        if (window.lunr) {
-          const lunr = window.lunr;
-          const idx = lunr(function (this: import("lunr").Builder) {
-            this.ref("uri");
-            this.field("title", { boost: 10 });
-            this.field("content");
-
-            data.forEach((doc) => {
-              this.add(doc);
-            });
-          });
-
-          setSearchIndex(idx);
-          setSearchData(new Map(data.map((d) => [d.uri, d])));
-        }
-      } catch (error) {
-        console.error("Failed to load search index:", error);
-      }
-    }
-
-    loadSearchIndex();
-  }, []);
+  const apiUrl =
+    (typeof window !== "undefined" ? window.SearchApiUrl : undefined) ||
+    "/api/ai-assistant/search";
+  const brand: "eh" | "wc" =
+    (typeof window !== "undefined" ? window.BrandCode : "eh") === "wc"
+      ? "wc"
+      : "eh";
 
   // Set up categories
   useEffect(() => {
@@ -151,40 +142,65 @@ function DocumentationSearch() {
     setCategories(categories);
   }, [setCategories]);
 
-  // Handle search - triggered by parent via context
+  // Handle search — triggered by parent via context
   const performSearch = useCallback(
-    (query: string) => {
-      if (!searchIndex || !query.trim()) {
+    async (query: string) => {
+      const trimmed = query.trim();
+      if (!trimmed) {
         setItems([]);
         return;
       }
 
+      // Cancel any in-flight request
+      if (abortRef.current) {
+        abortRef.current.abort();
+      }
+      const controller = new AbortController();
+      abortRef.current = controller;
+
       setIsLoading(true);
 
       try {
-        const results = searchIndex.search(query + "*");
-        const items: CommandPaletteItem[] = results
-          .slice(0, 10)
-          .map((result) => {
-            const doc = searchData.get(result.ref);
-            const href = result.ref;
-            return {
-              id: result.ref,
-              label: doc?.title || result.ref,
-              description: doc?.content?.substring(0, 150) + "...",
+        const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: trimmed, brand, limit: 10 }),
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          throw new Error(`Search failed: ${response.status}`);
+        }
+
+        const data = (await response.json()) as WorkerSearchResponse;
+        if (abortRef.current !== controller) return;
+
+        const items: CommandPaletteItem[] = (data.results || []).map(
+          (result) =>
+            ({
+              id: result.id,
+              label: result.title,
+              description: result.snippet,
               category: "pages",
               onSelect: () => {
-                window.location.href = href;
+                window.location.href = buildResultHref(result);
               },
-            } as CommandPaletteItem;
-          });
+            }) as CommandPaletteItem
+        );
 
         setItems(items);
+      } catch (error) {
+        if ((error as { name?: string })?.name === "AbortError") return;
+        console.error("Search error:", error);
+        setItems([]);
       } finally {
-        setIsLoading(false);
+        if (abortRef.current === controller) {
+          abortRef.current = null;
+          setIsLoading(false);
+        }
       }
     },
-    [searchIndex, searchData, setItems]
+    [apiUrl, brand, setItems]
   );
 
   // Subscribe to search changes
@@ -201,8 +217,17 @@ function DocumentationSearch() {
     ]);
   }, [isOpen, setItems]);
 
-  // Note: performSearch would be connected to the CommandPalette's search input
-  // The CommandPalette handles its own internal search state
+  // Debounce the command-palette query and fire an actual search against the
+  // worker. The palette manages its own input state (`query` from context);
+  // we react to changes here so the results list is populated as the user
+  // types.
+  useEffect(() => {
+    if (!isOpen) return;
+    const timer = setTimeout(() => {
+      void performSearch(query);
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [isOpen, query, performSearch]);
 
   return (
     <CommandPalette

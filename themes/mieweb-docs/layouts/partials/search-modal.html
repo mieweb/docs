@@ -43,6 +43,56 @@
         >
       </div>
 
+      {{- /* Ask-AI CTA + inline answer card */}}
+      <div id="search-ask-ai-container" class="border-border hidden border-b">
+        <button
+          type="button"
+          id="search-ask-ai-trigger"
+          class="hover:bg-muted focus:bg-muted flex w-full items-center gap-3 px-4 py-3 text-left transition-colors focus:outline-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sparkles text-primary flex-shrink-0"
+            aria-hidden="true"
+          >
+            <path
+              d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+            />
+            <path d="M20 3v4" />
+            <path d="M22 5h-4" />
+            <path d="M4 17v2" />
+            <path d="M5 18H3" />
+          </svg>
+          <span class="min-w-0 flex-1">
+            <span id="search-ask-ai-label" class="text-foreground block text-sm font-medium"
+              >Ask AI about your search</span
+            >
+            <span class="text-muted-foreground block text-xs"
+              >Get a direct answer with citations from the docs</span
+            >
+          </span>
+          <kbd
+            class="border-border text-muted-foreground hidden rounded border px-1.5 py-0.5 text-xs sm:inline-block"
+            >⌘↩</kbd
+          >
+        </button>
+      </div>
+
+      {{- /* Rendered AI answer (hidden until requested) */}}
+      <div
+        id="search-answer-card"
+        class="border-border hidden border-b bg-muted/40 px-4 py-3"
+        aria-live="polite"
+      ></div>
+
       {{- /* Search results */}}
       <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2">
         <div class="text-muted-foreground px-2 py-8 text-center text-sm">

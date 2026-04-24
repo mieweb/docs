@@ -490,11 +490,18 @@ const searchInput = document.getElementById("search-input");
 const searchResults = document.getElementById("search-results");
 const searchBackdrop = document.getElementById("search-modal-backdrop");
 const searchResultTemplate = document.getElementById("search-result-template");
+const searchAskAiContainer = document.getElementById("search-ask-ai-container");
+const searchAskAiTrigger = document.getElementById("search-ask-ai-trigger");
+const searchAskAiLabel = document.getElementById("search-ask-ai-label");
+const searchAnswerCard = document.getElementById("search-answer-card");
 
-let searchIndex = null;
-let searchDocs = [];
+// Worker-backed semantic search configuration
+const SEARCH_API_URL = window.SearchApiUrl || "/api/ai-assistant/search";
+const SEARCH_BRAND = window.BrandCode || "eh";
 let selectedIndex = -1;
-let searchIndexLoading = false;
+// Tracks the latest in-flight request so stale responses get dropped
+let activeSearchController = null;
+let activeSearchSeq = 0;
 
 function showSearchSkeleton() {
   if (!searchResults) return;
@@ -517,7 +524,6 @@ function openSearchModal() {
   searchModal?.classList.remove("hidden");
   searchInput?.focus();
   document.body.style.overflow = "hidden";
-  loadSearchIndex(); // Ensure index is loaded when modal opens
 }
 
 function closeSearchModal() {
@@ -529,12 +535,22 @@ function closeSearchModal() {
       <div class="px-2 py-8 text-center text-sm text-muted-foreground">
         <p>Start typing to search...</p>
         <p class="mt-2 text-xs">
-          Use <kbd class="rounded border border-border bg-muted px-1">↑</kbd> <kbd class="rounded border border-border bg-muted px-1">↓</kbd> to navigate, <kbd class="rounded border border-border bg-muted px-1">Enter</kbd> to select
+          Use <kbd class="rounded border border-border bg-muted px-1">↑</kbd> <kbd class="rounded border border-border bg-muted px-1">↓</kbd> to navigate, <kbd class="rounded border border-border bg-muted px-1">Enter</kbd> to select, <kbd class="rounded border border-border bg-muted px-1">⌘↩</kbd> to ask AI
         </p>
       </div>
     `;
   }
   selectedIndex = -1;
+  resetAnswerUi();
+  // Reset the “Ask AI” CTA so it doesn't persist from a prior query when
+  // the modal re-opens with an empty input.
+  updateAskAiCta("");
+
+  // Cancel any in-flight search
+  if (activeSearchController) {
+    activeSearchController.abort();
+    activeSearchController = null;
+  }
 
   // Clean up ?q= from URL when modal is closed
   const url = new URL(window.location.href);
@@ -564,6 +580,13 @@ document.addEventListener("keydown", (e) => {
   // Navigate results with arrow keys
   if (!searchModal?.classList.contains("hidden")) {
     const results = searchResults?.querySelectorAll(".search-result");
+
+    // ⌘/Ctrl+Enter asks the AI, even if a result is highlighted.
+    if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+      e.preventDefault();
+      void askAI(searchInput?.value || "");
+      return;
+    }
 
     if (e.key === "ArrowDown") {
       e.preventDefault();
@@ -595,75 +618,13 @@ function updateSelectedResult(results) {
   });
 }
 
-// Load search index (non-blocking: yields to UI between chunks)
-async function loadSearchIndex() {
-  if (searchIndex) return;
-  if (searchIndexLoading) {
-    // Already loading — wait for it to finish
-    return new Promise((resolve) => {
-      const check = setInterval(() => {
-        if (searchIndex || !searchIndexLoading) {
-          clearInterval(check);
-          resolve();
-        }
-      }, 50);
-    });
-  }
-  searchIndexLoading = true;
+/**
+ * Render a list of search results (from the worker) into the modal.
+ */
+function renderSearchResults(query, results) {
+  if (!searchResults) return;
 
-  try {
-    const response = await fetch(`${window.BaseURL}search.json`);
-    searchDocs = await response.json();
-
-    // Build lunr index in chunks to avoid blocking the UI thread
-    const builder = new lunr.Builder();
-    builder.ref("href");
-    builder.field("title", { boost: 10 });
-    builder.field("content");
-
-    const CHUNK_SIZE = 200;
-    for (let i = 0; i < searchDocs.length; i += CHUNK_SIZE) {
-      const chunk = searchDocs.slice(i, i + CHUNK_SIZE);
-      chunk.forEach((doc) => builder.add(doc));
-      // Yield to the browser so the UI stays responsive
-      if (i + CHUNK_SIZE < searchDocs.length) {
-        await new Promise((r) => setTimeout(r, 0));
-      }
-    }
-
-    searchIndex = builder.build();
-  } catch (error) {
-    console.error("Failed to load search index:", error);
-  } finally {
-    searchIndexLoading = false;
-  }
-}
-
-// Perform search (async — shows skeleton while index loads)
-async function performSearch(query) {
-  if (!query || !query.trim()) {
-    if (searchResults) {
-      searchResults.innerHTML = `
-        <div class="px-2 py-8 text-center text-sm text-muted-foreground">
-          <p>Start typing to search...</p>
-        </div>
-      `;
-    }
-    return;
-  }
-
-  // Show skeleton immediately if index isn't ready yet
-  if (!searchIndex) {
-    showSearchSkeleton();
-    await loadSearchIndex();
-  }
-
-  if (!searchIndex) return; // Still failed
-
-  const results = searchIndex.search(query + "*");
-  selectedIndex = -1;
-
-  if (results.length === 0) {
+  if (!results || results.length === 0) {
     searchResults.innerHTML = `
       <div class="px-2 py-8 text-center text-sm text-muted-foreground">
         <p>No results found for "<strong>${escapeHtml(query)}</strong>"</p>
@@ -675,22 +636,91 @@ async function performSearch(query) {
   searchResults.innerHTML = "";
 
   results.slice(0, 10).forEach((result, index) => {
-    const doc = searchDocs.find((d) => d.href === result.ref);
-    if (!doc || !searchResultTemplate) return;
+    if (!searchResultTemplate) return;
 
     const clone = searchResultTemplate.content.cloneNode(true);
     const link = clone.querySelector("a");
     const title = clone.querySelector(".search-result-title");
     const summary = clone.querySelector(".search-result-summary");
 
-    if (link) link.href = doc.href;
-    if (title) title.textContent = doc.title;
-    if (summary) summary.textContent = doc.content?.substring(0, 150) + "...";
-
+    // Deep-link to the matching section when the indexer gave us one.
+    const href =
+      result.anchor && !String(result.url || "").includes("#")
+        ? `${result.url}#${result.anchor}`
+        : result.url;
+    if (link) link.href = href || "#";
+    if (title) title.textContent = result.title;
+    if (summary) {
+      summary.textContent = result.snippet || "";
+    }
     link?.setAttribute("data-index", index);
 
     searchResults.appendChild(clone);
   });
+}
+
+/**
+ * Perform semantic search via the Cloudflare Worker.
+ *
+ * Uses AbortController to drop stale responses when the user keeps typing.
+ */
+async function performSearch(query) {
+  const trimmed = (query || "").trim();
+  if (!trimmed) {
+    if (searchResults) {
+      searchResults.innerHTML = `
+        <div class="px-2 py-8 text-center text-sm text-muted-foreground">
+          <p>Start typing to search...</p>
+        </div>
+      `;
+    }
+    selectedIndex = -1;
+    return;
+  }
+
+  // Cancel any in-flight request
+  if (activeSearchController) {
+    activeSearchController.abort();
+  }
+  const controller = new AbortController();
+  activeSearchController = controller;
+  const seq = ++activeSearchSeq;
+
+  showSearchSkeleton();
+
+  try {
+    const response = await fetch(SEARCH_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: trimmed, brand: SEARCH_BRAND, limit: 10 }),
+      signal: controller.signal,
+    });
+
+    // Another request has started; drop this response
+    if (seq !== activeSearchSeq) return;
+
+    if (!response.ok) {
+      throw new Error(`Search request failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+    selectedIndex = -1;
+    renderSearchResults(trimmed, data?.results || []);
+  } catch (error) {
+    if (error?.name === "AbortError") return;
+    console.error("Search error:", error);
+    if (searchResults && seq === activeSearchSeq) {
+      searchResults.innerHTML = `
+        <div class="px-2 py-8 text-center text-sm text-muted-foreground">
+          <p>Search is temporarily unavailable. Please try again.</p>
+        </div>
+      `;
+    }
+  } finally {
+    if (seq === activeSearchSeq) {
+      activeSearchController = null;
+    }
+  }
 }
 
 // Debounce search input
@@ -700,11 +730,159 @@ searchInput?.addEventListener("input", (e) => {
   searchTimeout = setTimeout(() => {
     performSearch(e.target.value);
   }, 200);
+  // Drop any stale AI answer as the user keeps typing, and re-show the CTA
+  // for the current query.
+  resetAnswerUi();
+  updateAskAiCta(e.target.value);
 });
 
-// Load search index when search modal opens
-searchTrigger?.addEventListener("click", loadSearchIndex);
-searchTriggerDesktop?.addEventListener("click", loadSearchIndex);
+// ============================================
+// Ask AI (RAG inline answer)
+// ============================================
+//
+// Hits the /answer endpoint with the current query, renders the LLM
+// response + numbered source list. Triggered explicitly (button click or
+// ⌘↩) — never on every keystroke — because each call runs an LLM.
+
+// Normalize the base URL so appending `/answer` never produces a double
+// slash (e.g. `.../search/` + `/answer` → `.../search//answer`).
+const SEARCH_API_BASE = (
+  window.SearchApiUrl || "/api/ai-assistant/search"
+).replace(/\/+$/, "");
+const ANSWER_API_URL = `${SEARCH_API_BASE}/answer`;
+let activeAnswerController = null;
+let currentAnswerQuery = "";
+
+function updateAskAiCta(query) {
+  if (!searchAskAiContainer) return;
+  const trimmed = (query || "").trim();
+  if (!trimmed) {
+    searchAskAiContainer.classList.add("hidden");
+    return;
+  }
+  searchAskAiContainer.classList.remove("hidden");
+  if (searchAskAiLabel) {
+    searchAskAiLabel.textContent = `Ask AI: "${trimmed}"`;
+  }
+}
+
+function resetAnswerUi() {
+  if (activeAnswerController) {
+    activeAnswerController.abort();
+    activeAnswerController = null;
+  }
+  currentAnswerQuery = "";
+  if (searchAnswerCard) {
+    searchAnswerCard.innerHTML = "";
+    searchAnswerCard.classList.add("hidden");
+  }
+}
+
+function renderAnswerLoading(query) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+      </svg>
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+      <span class="text-muted-foreground text-xs italic">for "${escapeHtml(query)}"</span>
+    </div>
+    <p class="text-muted-foreground text-sm">Reading the documentation…</p>
+  `;
+}
+
+function renderAnswerError(message) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+    </div>
+    <p class="text-muted-foreground text-sm">${escapeHtml(message)}</p>
+  `;
+}
+
+function buildAnchorHref(source) {
+  if (!source?.url) return "#";
+  if (!source.anchor || source.url.includes("#")) return source.url;
+  return `${source.url}#${source.anchor}`;
+}
+
+function renderAnswer(data) {
+  if (!searchAnswerCard) return;
+  searchAnswerCard.classList.remove("hidden");
+  const grounded = data?.grounded !== false;
+  const answer = data?.answer || "";
+  const sources = Array.isArray(data?.sources) ? data.sources : [];
+
+  const sourcesHtml = sources.length
+    ? `<ol class="mt-3 space-y-1 text-xs">
+        ${sources
+          .map((src, i) => {
+            const label = src.heading
+              ? `${escapeHtml(src.title)} › ${escapeHtml(src.heading)}`
+              : escapeHtml(src.title || "Untitled");
+            return `<li class="flex items-start gap-2">
+              <span class="text-muted-foreground flex-shrink-0 font-mono">[${i + 1}]</span>
+              <a href="${escapeHtml(buildAnchorHref(src))}" class="text-primary hover:underline focus:underline focus:outline-none">${label}</a>
+            </li>`;
+          })
+          .join("")}
+      </ol>`
+    : "";
+
+  searchAnswerCard.innerHTML = `
+    <div class="mb-2 flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+      </svg>
+      <span class="text-foreground text-xs font-semibold tracking-wide uppercase">AI Answer</span>
+      ${grounded ? "" : '<span class="text-muted-foreground text-xs">(not covered in the docs)</span>'}
+    </div>
+    <p class="text-foreground text-sm whitespace-pre-line">${escapeHtml(answer)}</p>
+    ${sourcesHtml}
+  `;
+}
+
+async function askAI(query) {
+  const trimmed = (query || "").trim();
+  if (!trimmed) return;
+
+  if (activeAnswerController) activeAnswerController.abort();
+  const controller = new AbortController();
+  activeAnswerController = controller;
+  currentAnswerQuery = trimmed;
+  searchAskAiContainer?.classList.add("hidden");
+  renderAnswerLoading(trimmed);
+
+  try {
+    const response = await fetch(ANSWER_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: trimmed, brand: SEARCH_BRAND }),
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`Answer failed: ${response.status}`);
+    const data = await response.json();
+    if (activeAnswerController !== controller) return;
+    if (currentAnswerQuery !== trimmed) return;
+    renderAnswer(data);
+  } catch (error) {
+    if (error?.name === "AbortError") return;
+    console.error("Ask AI error:", error);
+    if (currentAnswerQuery === trimmed) {
+      renderAnswerError("Couldn't generate an answer right now.");
+    }
+  } finally {
+    if (activeAnswerController === controller) activeAnswerController = null;
+  }
+}
+
+searchAskAiTrigger?.addEventListener("click", () => {
+  void askAI(searchInput?.value || "");
+});
 
 // ============================================
 // URL-driven Search (?q= and #search=)
@@ -725,24 +903,11 @@ searchTriggerDesktop?.addEventListener("click", loadSearchIndex);
   const urlParams = new URLSearchParams(window.location.search);
   const queryParam = urlParams.get("q");
   if (queryParam && searchInput) {
-    const runSearch = async () => {
-      // Show modal + query text + skeleton instantly (no waiting)
-      openSearchModal();
-      searchInput.value = queryParam;
-      showSearchSkeleton();
-      // Now load index in background and run search
-      await loadSearchIndex();
-      // Only search if the user hasn't changed the input meanwhile
-      if (searchInput.value === queryParam) {
-        performSearch(queryParam);
-      }
-    };
-    // lunr.js is loaded with defer, so it may not be ready yet
-    if (typeof lunr !== "undefined") {
-      runSearch();
-    } else {
-      window.addEventListener("load", runSearch);
-    }
+    // Show modal + query text instantly, then run a semantic search
+    openSearchModal();
+    searchInput.value = queryParam;
+    performSearch(queryParam);
+    updateAskAiCta(queryParam);
   }
 })();
 

@@ -1,13 +1,22 @@
-# AI Documentation Assistant
+# AI Documentation Assistant & Semantic Search
 
-RAG-powered AI assistant for Enterprise Health / WebChart documentation, built with Cloudflare Workers AI and Vectorize.
+RAG-powered AI assistant **and semantic search** for Enterprise Health /
+WebChart documentation, built with Cloudflare Workers AI and Vectorize.
+
+The worker powers two features:
+
+- `/search` — semantic search over the docs (powers the ⌘K modal).
+- `/chat` — full RAG-powered chat assistant (the floating AI chat button).
+
+Both share the same embeddings, Vectorize index and retrieval pipeline.
 
 ## Architecture
 
 ```mermaid
 graph LR
     subgraph "Frontend"
-        UI[FloatingAIChat Component]
+        SearchUI[⌘K Search Modal]
+        ChatUI[FloatingAIChat Component]
     end
 
     subgraph "Cloudflare Workers"
@@ -21,7 +30,8 @@ graph LR
         IDX[Index Script]
     end
 
-    UI -->|POST /api/ai-assistant| API
+    SearchUI -->|POST /api/ai-assistant/search| API
+    ChatUI -->|POST /api/ai-assistant/chat| API
     API -->|Query| VEC
     API -->|Embed & Generate| AI
     HUGO -->|search.json| IDX
@@ -131,9 +141,18 @@ This starts a local worker at http://localhost:8787
 ### Testing the API
 
 ```bash
+# RAG chat
 curl -X POST http://localhost:8787/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "How do I schedule an appointment?", "brand": "eh"}'
+
+# Semantic search
+curl -X POST http://localhost:8787/search \
+  -H "Content-Type: application/json" \
+  -d '{"query": "schedule an appointment", "brand": "eh", "limit": 5}'
+
+# Or via GET
+curl 'http://localhost:8787/search?q=schedule+an+appointment&brand=eh&limit=5'
 ```
 
 ## Configuration
@@ -142,8 +161,11 @@ curl -X POST http://localhost:8787/chat \
 
 ```toml
 [params.ai]
-  enabled = true        # Enable/disable AI assistant
-  apiUrl = "/api/ai-assistant"  # Worker endpoint
+  enabled = true
+  apiUrl = "/api/ai-assistant"
+
+[params.search]
+  apiUrl = "/api/ai-assistant/search"
 ```
 
 ### Worker Config (`wrangler.toml`)
@@ -160,7 +182,7 @@ MAX_TOKENS = "1024"
 
 ### POST /chat
 
-Send a message to the AI assistant.
+Send a message to the AI assistant (RAG-powered Q&A).
 
 **Request:**
 
@@ -190,6 +212,45 @@ Send a message to the AI assistant.
   ]
 }
 ```
+
+### POST /search
+
+Run a semantic search over the documentation. Unlike `/chat`, this endpoint
+returns raw ranked results (no LLM call) and is used to power the
+documentation site's ⌘K search modal.
+
+**Request:**
+
+```json
+{
+  "query": "schedule an appointment",
+  "brand": "eh", // optional, default: "eh"
+  "limit": 10 // optional, default: 10, max: 25
+}
+```
+
+**Response:**
+
+```json
+{
+  "query": "schedule an appointment",
+  "results": [
+    {
+      "id": "eh-eh-features-scheduling-chunk-0",
+      "title": "Scheduling",
+      "url": "/eh/features/scheduling/",
+      "section": "features",
+      "snippet": "Scheduling allows you to manage appointments…",
+      "score": 0.87
+    }
+  ]
+}
+```
+
+### GET /search?q=…
+
+Convenience GET variant of `/search`. Supported query parameters:
+`q` (required), `limit`, `brand`.
 
 ### GET /health
 

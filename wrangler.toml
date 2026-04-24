@@ -24,10 +24,22 @@ binding = "VECTORIZE"
 index_name = "docs-embeddings"
 remote = true
 
-# KV namespace for caching (optional - create if needed)
-# [[kv_namespaces]]
-# binding = "DOCS_CACHE"
-# id = "replace-with-kv-id"
+# KV namespace for caching and index versioning.
+#
+# Used by functions/api/ai-assistant/search to surface the current vectordb
+# content hash so search responses can be cached at the edge + browser +
+# localStorage, with automatic invalidation on re-index.
+#
+# Create once per account (both eh-docs and wc-docs Pages projects can share
+# the same namespace), then paste the returned id below:
+#
+#   npx wrangler kv namespace create DOCS_CACHE
+#
+# The same `id` is used for all environments; `preview_id` is only needed if
+# you want a separate namespace for `wrangler pages dev` preview deploys.
+[[kv_namespaces]]
+binding = "DOCS_CACHE"
+id = "fd6417d33dcf49678a786855e43bc106"
 
 # Development settings
 [dev]

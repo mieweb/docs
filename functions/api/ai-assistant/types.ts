@@ -22,6 +22,64 @@ export interface VectorMetadata {
   url: string;
   section?: string;
   text: string;
+  /** Brand this chunk belongs to ('eh' | 'wc'); older vectors may omit this. */
+  brand?: "eh" | "wc";
+  /** Slugified heading for deep-linking (e.g. `configuration`); optional. */
+  anchor?: string;
+  /** Human-readable heading text this chunk belongs to; optional. */
+  heading?: string;
+}
+
+/**
+ * Request body for the search endpoint
+ */
+export interface SearchRequest {
+  /** Search query text */
+  query: string;
+  /** Brand context: 'eh' for Enterprise Health, 'wc' for WebChart */
+  brand?: "eh" | "wc";
+  /** Max number of results to return (1-25, default 10) */
+  limit?: number;
+}
+
+/**
+ * A single search result item
+ */
+export interface SearchResultItem {
+  id: string;
+  title: string;
+  url: string;
+  section?: string;
+  snippet: string;
+  score: number;
+  /** Slugified heading anchor for deep-linking (without leading `#`). */
+  anchor?: string;
+  /** Human-readable heading text this result belongs to. */
+  heading?: string;
+}
+
+/**
+ * Response from the search endpoint
+ */
+export interface SearchResponse {
+  query: string;
+  results: SearchResultItem[];
+  /**
+   * Current vectordb content version. Clients include this as `?v=<version>`
+   * on subsequent search requests to get long-lived HTTP caching. Changes
+   * whenever the documentation is re-indexed with new content.
+   */
+  version: string;
+}
+
+/**
+ * Response from the search version endpoint
+ */
+export interface SearchVersionResponse {
+  /** Content-addressed version string for the current Vectorize index */
+  version: string;
+  /** ISO timestamp of when the index was last built (if known) */
+  builtAt?: string;
 }
 
 /**

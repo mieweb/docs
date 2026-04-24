@@ -20,6 +20,7 @@
     "pages:deploy": "wrangler pages deploy public/eh --project-name=docs-eh",
     "pages:deploy:wc": "wrangler pages deploy public/wc --project-name=docs-wc",
     "index:docs": "tsx scripts/index-docs.ts",
+    "check:prompt-guard-sync": "tsx scripts/check-prompt-guard-sync.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
@@ -44,7 +45,6 @@
     "highlight.js": "^11.11.1",
     "hugo-extended": "^0.157.0",
     "lucide-react": "^0.563.0",
-    "lunr": "^2.3.9",
     "marked": "^17.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -55,7 +55,6 @@
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/lunr": "^2.3.7",
     "@types/node": "^22.10.7",
     "esbuild": "^0.25.0",
     "eslint": "^9.18.0",

@@ -1,4 +1,4 @@
-{{- /* Search index JSON output for Lunr.js */}}
+{{- /* Search index JSON output (consumed by the Vectorize indexing script) */}}
 {{- $index := slice }}
 {{- range .Site.RegularPages }}
   {{- if not (eq .Params.draft true) }}

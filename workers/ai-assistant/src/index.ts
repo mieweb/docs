@@ -5,8 +5,16 @@
  * and WebChart documentation using Workers AI and Vectorize.
  */
 
-import type { Env, ChatRequest, ChatResponse, ErrorResponse } from "./types";
+import type {
+  Env,
+  ChatRequest,
+  ChatResponse,
+  ErrorResponse,
+  SearchRequest,
+  SearchResponse,
+} from "./types";
 import { generateRAGResponse } from "./rag";
+import { semanticSearch } from "./search";
 
 /**
  * CORS headers for cross-origin requests
@@ -70,9 +78,102 @@ function handleGet(url: URL): Response {
     version: "1.0.0",
     endpoints: {
       "POST /chat": "Send a message to the AI assistant",
+      "POST /search": "Semantic search over the documentation",
+      "GET /search?q=...": "Semantic search via query string",
       "GET /health": "Health check endpoint",
     },
   });
+}
+
+/** Clamp a user-supplied limit into the allowed range. */
+function clampLimit(raw: unknown, fallback = 10): number {
+  const n =
+    typeof raw === "number"
+      ? raw
+      : typeof raw === "string"
+        ? parseInt(raw, 10)
+        : NaN;
+  if (!Number.isFinite(n) || n <= 0) return fallback;
+  return Math.min(Math.floor(n), 25);
+}
+
+/** Parse and validate a search query + options from loose input. */
+function parseSearchInput(
+  input: Partial<SearchRequest>
+): { query: string; limit: number; brand: "eh" | "wc" } | Response {
+  const query = typeof input.query === "string" ? input.query.trim() : "";
+  if (!query) {
+    return errorResponse("Query is required", "MISSING_QUERY");
+  }
+  if (query.length > 500) {
+    return errorResponse(
+      "Query too long (max 500 characters)",
+      "QUERY_TOO_LONG"
+    );
+  }
+  return {
+    query,
+    limit: clampLimit(input.limit),
+    brand: input.brand === "wc" ? "wc" : "eh",
+  };
+}
+
+/**
+ * Execute a search and return JSON results.
+ */
+async function runSearch(
+  input: Partial<SearchRequest>,
+  env: Env
+): Promise<Response> {
+  const parsed = parseSearchInput(input);
+  if (parsed instanceof Response) return parsed;
+
+  try {
+    const results = await semanticSearch(
+      parsed.query,
+      env,
+      parsed.limit,
+      parsed.brand
+    );
+    const body: SearchResponse = { results, query: parsed.query };
+    return jsonResponse(body);
+  } catch (error) {
+    console.error("Search error:", error);
+    return errorResponse(
+      "Failed to execute search",
+      "SEARCH_ERROR",
+      500,
+      error instanceof Error ? error.message : "Unknown error"
+    );
+  }
+}
+
+/**
+ * Handle GET /search?q=... requests.
+ */
+async function handleSearchGet(url: URL, env: Env): Promise<Response> {
+  const limitParam = url.searchParams.get("limit");
+  return runSearch(
+    {
+      query: url.searchParams.get("q") ?? url.searchParams.get("query") ?? "",
+      limit: limitParam ? parseInt(limitParam, 10) : undefined,
+      brand: (url.searchParams.get("brand") as "eh" | "wc" | null) ?? undefined,
+    },
+    env
+  );
+}
+
+/**
+ * Handle POST /search requests.
+ */
+async function handleSearchPost(request: Request, env: Env): Promise<Response> {
+  let body: Partial<SearchRequest>;
+  try {
+    body = (await request.json()) as Partial<SearchRequest>;
+  } catch {
+    return errorResponse("Invalid JSON body", "INVALID_JSON");
+  }
+  return runSearch(body, env);
 }
 
 /**
@@ -139,11 +240,18 @@ export default {
 
     // Route requests
     if (method === "GET") {
+      if (url.pathname === "/search") {
+        return handleSearchGet(url, env);
+      }
       return handleGet(url);
     }
 
     if (method === "POST" && url.pathname === "/chat") {
       return handleChat(request, env);
+    }
+
+    if (method === "POST" && url.pathname === "/search") {
+      return handleSearchPost(request, env);
     }
 
     return errorResponse("Not Found", "NOT_FOUND", 404);
