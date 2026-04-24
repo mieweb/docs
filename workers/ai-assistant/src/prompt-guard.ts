@@ -1,9 +1,17 @@
 /**
  * Prompt-injection defenses for the AI documentation assistant.
  *
- * See {@link ../../../functions/api/ai-assistant/prompt-guard.ts} — this file
- * is a mirror used by the Cloudflare Worker deployment. Keep the two copies
- * in sync.
+ * ⚠️  This file is a **mirror** of
+ * {@link ../../../functions/api/ai-assistant/prompt-guard.ts}. The Cloudflare
+ * Pages Functions runtime and the standalone Workers build each need their
+ * own copy (different bundlers, different project roots), so we deliberately
+ * keep two files in lockstep.
+ *
+ * Drift between the two copies is enforced by
+ * `scripts/check-prompt-guard-sync.ts`, wired up as the
+ * `npm run check:prompt-guard-sync` script. CI runs it on every PR; any
+ * change to `REFUSAL_MESSAGE`, `INJECTION_PATTERNS`, or
+ * `INJECTION_GUARD_RULES` must be mirrored here or the build fails.
  */
 
 /** Canonical refusal shown when retrieval fails or a prompt-injection attempt is detected. */

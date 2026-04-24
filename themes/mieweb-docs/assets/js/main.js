@@ -542,6 +542,9 @@ function closeSearchModal() {
   }
   selectedIndex = -1;
   resetAnswerUi();
+  // Reset the “Ask AI” CTA so it doesn't persist from a prior query when
+  // the modal re-opens with an empty input.
+  updateAskAiCta("");
 
   // Cancel any in-flight search
   if (activeSearchController) {
@@ -741,8 +744,12 @@ searchInput?.addEventListener("input", (e) => {
 // response + numbered source list. Triggered explicitly (button click or
 // ⌘↩) — never on every keystroke — because each call runs an LLM.
 
-const ANSWER_API_URL =
-  (window.SearchApiUrl || "/api/ai-assistant/search") + "/answer";
+// Normalize the base URL so appending `/answer` never produces a double
+// slash (e.g. `.../search/` + `/answer` → `.../search//answer`).
+const SEARCH_API_BASE = (
+  window.SearchApiUrl || "/api/ai-assistant/search"
+).replace(/\/+$/, "");
+const ANSWER_API_URL = `${SEARCH_API_BASE}/answer`;
 let activeAnswerController = null;
 let currentAnswerQuery = "";
 

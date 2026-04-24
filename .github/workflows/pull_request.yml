@@ -34,6 +34,9 @@ jobs:
       - name: Pull NPM Dependencies
         run: ./setup.sh
 
+      - name: Check prompt-guard mirrors are in sync
+        run: npm run check:prompt-guard-sync
+
       - name: Build WebChart HTML
         run: ./build.sh --baseURL "https://docs-qa.med-web.com/${{ steps.extract_branch.outputs.branch }}/wc/" --minify wc
 

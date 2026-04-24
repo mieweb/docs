@@ -191,17 +191,32 @@ function writeCache(key: string, data: SearchResult[]): void {
  * Fetch the current index version, with a short-lived sessionStorage cache
  * so we don't hit the version endpoint on every keystroke.
  */
-async function fetchIndexVersion(apiUrl: string): Promise<string | null> {
+async function fetchIndexVersion(
+  apiUrl: string,
+  brand?: string
+): Promise<string | null> {
   if (typeof window !== "undefined" && window.sessionStorage) {
     const cached = sessionStorage.getItem(SS_VERSION_KEY);
     if (cached) {
       try {
-        const { version, ts } = JSON.parse(cached) as {
+        const {
+          version,
+          ts,
+          brand: cachedBrand,
+        } = JSON.parse(cached) as {
           version: string;
           ts: number;
+          brand?: string;
         };
-        // Re-check every 5 minutes within the same tab.
-        if (version && Date.now() - ts < 5 * 60 * 1000) return version;
+        // Re-check every 5 minutes within the same tab, but only reuse the
+        // cached value when it was fetched for the same brand.
+        if (
+          version &&
+          cachedBrand === brand &&
+          Date.now() - ts < 5 * 60 * 1000
+        ) {
+          return version;
+        }
       } catch {
         /* fall through to refetch */
       }
@@ -210,14 +225,17 @@ async function fetchIndexVersion(apiUrl: string): Promise<string | null> {
 
   try {
     const base = apiUrl.endsWith("/") ? apiUrl.slice(0, -1) : apiUrl;
-    const res = await fetch(`${base}/version`, { method: "GET" });
+    const url = brand
+      ? `${base}/version?brand=${encodeURIComponent(brand)}`
+      : `${base}/version`;
+    const res = await fetch(url, { method: "GET" });
     if (!res.ok) return null;
     const { version } = (await res.json()) as { version?: string };
     if (!version) return null;
     if (typeof window !== "undefined" && window.sessionStorage) {
       sessionStorage.setItem(
         SS_VERSION_KEY,
-        JSON.stringify({ version, ts: Date.now() })
+        JSON.stringify({ version, ts: Date.now(), brand })
       );
     }
     return version;
@@ -295,11 +313,24 @@ export function SearchModal({
       setErrorMessage(null);
       setSelectedIndex(0);
       setAnswerState({ status: "idle", query: "" });
+      // Clear any leftover loading state from a prior session so we don't
+      // flash a spinner when the modal re-opens.
+      setIsLoading(false);
+      // Abort any lingering in-flight request from a previous open so its
+      // response can't race in and populate stale results.
+      if (abortRef.current) {
+        abortRef.current.abort();
+        abortRef.current = null;
+      }
+      if (answerAbortRef.current) {
+        answerAbortRef.current.abort();
+        answerAbortRef.current = null;
+      }
 
       // Kick off a version fetch as soon as the modal opens so the first
       // keystroke can already use the version-pinned cache. Safe to fire
       // in parallel with the user typing.
-      void fetchIndexVersion(resolvedApiUrl).then((version) => {
+      void fetchIndexVersion(resolvedApiUrl, resolvedBrand).then((version) => {
         if (!version) return;
         versionRef.current = version;
         pruneStaleCache(version);
@@ -315,15 +346,22 @@ export function SearchModal({
       answerAbortRef.current.abort();
       answerAbortRef.current = null;
     }
-  }, [open, resolvedApiUrl]);
+  }, [open, resolvedApiUrl, resolvedBrand]);
 
   // Perform search via the worker
   const performSearch = useCallback(
     async (searchQuery: string) => {
       const trimmed = searchQuery.trim();
       if (!trimmed) {
+        // Abort any in-flight request so its response can't race in and
+        // repopulate results after the input was cleared.
+        if (abortRef.current) {
+          abortRef.current.abort();
+          abortRef.current = null;
+        }
         setResults([]);
         setErrorMessage(null);
+        setIsLoading(false);
         return;
       }
 
@@ -335,6 +373,12 @@ export function SearchModal({
         const cacheKey = buildCacheKey(version, resolvedBrand, trimmed, limit);
         const cached = readCache(cacheKey);
         if (cached) {
+          // Abort any in-flight request so an earlier fetch can't resolve
+          // later and overwrite these cached results with stale data.
+          if (abortRef.current) {
+            abortRef.current.abort();
+            abortRef.current = null;
+          }
           setResults(cached);
           setSelectedIndex(0);
           setErrorMessage(null);

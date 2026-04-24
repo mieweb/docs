@@ -26,7 +26,14 @@ export const onRequestOptions: PagesFunction<Env> = async () =>
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   try {
-    const version = await getIndexVersion(context.env);
+    // Optional `?brand=eh|wc` selects the brand-scoped KV key so each brand's
+    // cache invalidates independently. Without it we return the global key.
+    const url = new URL(context.request.url);
+    const brandParam = url.searchParams.get("brand");
+    const brand =
+      brandParam === "eh" || brandParam === "wc" ? brandParam : undefined;
+
+    const version = await getIndexVersion(context.env, brand);
     const body: SearchVersionResponse = version;
     return new Response(JSON.stringify(body), {
       status: 200,

@@ -187,7 +187,7 @@ async function runSearch(
     // and long-term caching is simply disabled.
     const [results, versionInfo] = await Promise.all([
       runSemanticSearch(parsed.query, env, parsed.limit, parsed.brand),
-      getIndexVersion(env),
+      getIndexVersion(env, parsed.brand),
     ]);
 
     const body: SearchResponse = {

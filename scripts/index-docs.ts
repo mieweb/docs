@@ -167,9 +167,11 @@ function slugifyHeading(heading: string): string {
 /**
  * Split raw markdown into logical sections, one per `##`/`###` heading.
  *
- * The first section (before any heading) is returned with no anchor and uses
- * the document title as its heading. Fenced code blocks are respected so a
- * `#` inside a code sample isn't mistaken for a heading.
+ * The first section (before any heading) is returned with `heading` and
+ * `anchor` left undefined — callers that want a fallback heading for that
+ * pre-heading content should substitute the document title themselves.
+ * Fenced code blocks are respected so a `#` inside a code sample isn't
+ * mistaken for a heading.
  */
 interface RawSection {
   heading?: string;
@@ -709,11 +711,12 @@ async function main(): Promise<void> {
   await indexChunks(chunks, dryRun);
 
   // Step 4: Publish the content-addressed version so the search endpoint
-  // can use it as a long-lived cache key.
-  console.log("\n🔖 Publishing index version...");
-  const version = computeIndexVersion(chunks);
-  console.log(`   Version: ${version}`);
-  await writeIndexVersion(version, brand);
+  // can use it as a long-lived cache key. We reuse `newVersion` (already
+  // computed above) so the short-circuit check and the KV write always
+  // agree on the version string, even if `computeIndexVersion` changes.
+  console.log("\n\uD83D\uDD16 Publishing index version...");
+  console.log(`   Version: ${newVersion}`);
+  await writeIndexVersion(newVersion, brand);
 
   console.log("\n✅ Indexing complete!\n");
 }

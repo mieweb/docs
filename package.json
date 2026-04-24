@@ -20,6 +20,7 @@
     "pages:deploy": "wrangler pages deploy public/eh --project-name=docs-eh",
     "pages:deploy:wc": "wrangler pages deploy public/wc --project-name=docs-wc",
     "index:docs": "tsx scripts/index-docs.ts",
+    "check:prompt-guard-sync": "tsx scripts/check-prompt-guard-sync.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",

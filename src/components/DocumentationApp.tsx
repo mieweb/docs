@@ -98,6 +98,10 @@ interface WorkerSearchResult {
   section?: string;
   snippet: string;
   score: number;
+  /** Slugified heading anchor for deep-linking to the matching section. */
+  anchor?: string;
+  /** Human-readable heading text for the matching section. */
+  heading?: string;
 }
 
 interface WorkerSearchResponse {
@@ -105,9 +109,19 @@ interface WorkerSearchResponse {
   query: string;
 }
 
+/**
+ * Build the final navigation URL for a result, appending `#anchor` when the
+ * API provides one and the base URL doesn't already contain a fragment.
+ */
+function buildResultHref(result: WorkerSearchResult): string {
+  if (!result.anchor) return result.url;
+  if (result.url.includes("#")) return result.url;
+  return `${result.url}#${result.anchor}`;
+}
+
 // Inner component that uses the command palette context
 function DocumentationSearch() {
-  const { isOpen, setItems, setCategories } = useCommandPalette();
+  const { isOpen, query, setItems, setCategories } = useCommandPalette();
   const [isLoading, setIsLoading] = useState(false);
   const abortRef = React.useRef<AbortController | null>(null);
 
@@ -169,7 +183,7 @@ function DocumentationSearch() {
               description: result.snippet,
               category: "pages",
               onSelect: () => {
-                window.location.href = result.url;
+                window.location.href = buildResultHref(result);
               },
             }) as CommandPaletteItem
         );
@@ -203,9 +217,17 @@ function DocumentationSearch() {
     ]);
   }, [isOpen, setItems]);
 
-  // Note: performSearch would be connected to the CommandPalette's search input
-  // The CommandPalette handles its own internal search state
-  void performSearch;
+  // Debounce the command-palette query and fire an actual search against the
+  // worker. The palette manages its own input state (`query` from context);
+  // we react to changes here so the results list is populated as the user
+  // types.
+  useEffect(() => {
+    if (!isOpen) return;
+    const timer = setTimeout(() => {
+      void performSearch(query);
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [isOpen, query, performSearch]);
 
   return (
     <CommandPalette
