@@ -6,7 +6,7 @@
  *
  * Cloudflare Pages Function that exposes the retrieval half of the RAG
  * pipeline so the documentation site's search modal can use true semantic
- * search instead of a client-side lunr index.
+ * search.
  */
 
 import type {

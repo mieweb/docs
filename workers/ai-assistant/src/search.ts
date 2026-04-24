@@ -3,7 +3,7 @@
  *
  * This is the retrieval half of the RAG pipeline, exposed as a dedicated
  * endpoint so the documentation site's search modal can use true semantic
- * search instead of a client-side lunr index.
+ * search.
  */
 
 import type { Env, SearchResultItem } from "./types";

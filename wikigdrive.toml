@@ -59,10 +59,6 @@ mediaType = "application/json"
     target = "assets/js/popper/popper.js"
 
   [[module.mounts]]
-    source = "./node_modules/lunr/lunr.js"
-    target = "assets/js/lunr/lunr.js"
-
-  [[module.mounts]]
     source = "./node_modules/sweetalert2/dist/sweetalert2.all.js"
     target = "assets/js/sweetalert2/sweetalert2.js"
 

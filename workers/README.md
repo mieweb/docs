@@ -5,8 +5,7 @@ WebChart documentation, built with Cloudflare Workers AI and Vectorize.
 
 The worker powers two features:
 
-- `/search` — semantic search over the docs (replaces the old client-side
-  lunr index used by the ⌘K modal).
+- `/search` — semantic search over the docs (powers the ⌘K modal).
 - `/chat` — full RAG-powered chat assistant (the floating AI chat button).
 
 Both share the same embeddings, Vectorize index and retrieval pipeline.

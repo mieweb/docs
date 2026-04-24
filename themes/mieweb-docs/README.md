@@ -19,7 +19,7 @@ This theme was migrated from Bootstrap to Tailwind CSS to provide:
 - **@mieweb/ui component library** for consistent UI patterns
 - **Multi-brand support** (WebChart, Enterprise Health) via CSS custom properties
 - **Lucide icons** for consistent iconography
-- **Lunr.js search** with CommandPalette-style UI
+- **Semantic search** (worker-backed RAG) with CommandPalette-style UI
 - **Dark mode support** (automatic based on system preference)
 - **Responsive design** with mobile-first approach
 - **Accessible components** with ARIA labels and keyboard navigation
