@@ -1,8 +1,8 @@
 ---
 id: '19unVE5RmUD63_o6DY0srHZKSSROXk5WQe9OqWFJdGws'
 title: 'Reset User Passwords'
-date: '2025-11-12T13:24:05.851Z'
-version: 208
+date: '2026-04-30T14:28:52.529Z'
+version: 219
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -71,7 +71,7 @@ Users on 202403 and newer that log in a portal with a manual login and password,
 
 ![](./reset-user-passwords.assets/66d68629efe1032af56c93940121602d.png)
 
-![](./reset-user-passwords.assets/2bef8b0b45427c9a0eb4344afc97d7c6.png)
+![](./reset-user-passwords.assets/ddcd91c59744abd6039ebdb2334a87e8.png)
 
 Security role setting "Manage Users" must be set to ‘Edit Self'.
 
