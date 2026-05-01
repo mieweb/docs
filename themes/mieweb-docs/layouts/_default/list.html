@@ -14,11 +14,10 @@
 
       {{- /* Content from _index.md */}} {{ if .Content }}
       <article class="prose prose-neutral dark:prose-invert mb-8 max-w-none">{{ .Content | safeHTML }}</article>
-      {{ end }} {{- /* Children pages */}} {{ if .Pages }}
+      {{ end }} {{- /* Children pages - pre-filter redirect/conflict pages */}} {{ $visiblePages := slice }} {{ range .Pages }} {{ if not (partial "is-hidden-page.html" .) }} {{ $visiblePages = $visiblePages | append . }} {{ end }} {{ end }} {{ if $visiblePages }}
       <section aria-label="Child pages">
         <div class="grid gap-4 sm:grid-cols-2">
-          {{ range .Pages }}
-          {{ if not (partial "is-hidden-page.html" .) }}
+          {{ range $visiblePages }}
           <a href="{{ .RelPermalink }}" class="card card-interactive group p-6">
             <div class="flex items-start justify-between">
               <h3 class="text-foreground font-semibold">{{ .Title }}</h3>
@@ -43,7 +42,6 @@
             <p class="text-muted-foreground mt-2 line-clamp-2 text-sm">{{ . }}</p>
             {{ end }}
           </a>
-          {{ end }}
           {{ end }}
         </div>
       </section>
