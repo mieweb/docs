@@ -10,10 +10,9 @@ $remainder := strings.TrimPrefix $childPath .File.Path -}} {{- /* Only include i
 child) */ -}} {{- if not (strings.Contains $remainder "/") -}} {{- $foundPages = $foundPages | append . -}} {{- end -}}
 {{- end -}} {{- end -}} {{- $pages = $foundPages -}} {{- end -}} {{- /* Apply sorting */ -}} {{- if $pages -}} {{- if eq
 $sortBy "creation" -}} {{- $pages = $pages.ByDate -}} {{- else if eq $sortBy "weight" -}} {{- $pages = $pages.ByWeight
--}} {{- else -}} {{- $pages = $pages.ByTitle -}} {{- end -}} {{- end -}} {{- if $pages }}
+-}} {{- else -}} {{- $pages = $pages.ByTitle -}} {{- end -}} {{- end -}} {{- /* Filter out redirect/conflict pages */ -}} {{- $visiblePages := slice -}} {{- range $pages -}} {{- if not (partial "is-hidden-page.html" .) -}} {{- $visiblePages = $visiblePages | append . -}} {{- end -}} {{- end -}} {{- if $visiblePages }}
 <div class="my-6 grid gap-3 sm:grid-cols-2">
-  {{- range $pages }}
-  {{- if not (partial "is-hidden-page.html" .) }}
+  {{- range $visiblePages }}
   <a href="{{ .RelPermalink }}" class="card card-interactive group flex items-center gap-3 p-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +36,6 @@ $sortBy "creation" -}} {{- $pages = $pages.ByDate -}} {{- else if eq $sortBy "we
       {{- end }}
     </div>
   </a>
-  {{- end }}
   {{- end }}
 </div>
 {{- end }}
