@@ -1,6 +1,7 @@
 {{- /* Search index JSON output */}}
 {{- $index := slice }}
 {{- range .Site.RegularPages }}
+  {{- if not (partial "is-hidden-page.html" .) }}
   {{- $content := .Plain | truncate 5000 }}
   {{- /* RawContent preserves markdown headings so the indexer can build
          anchor-level chunks that deep-link to the exact section. */}}
@@ -11,5 +12,6 @@
     "content" $content
     "rawContent" $raw
   ) }}
+  {{- end }}
 {{- end }}
 {{- $index | jsonify }}
