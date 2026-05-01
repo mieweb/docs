@@ -1,6 +1,8 @@
 {{- /* Children inner shortcode */}} {{ $page := . }} {{ $pages := .Page.Pages }} {{ if not $pages }} {{ $pages =
 .Page.Sections }} {{ end }} {{ range $pages }}
+{{ if not (partial "is-hidden-page.html" .) }}
 <div class="flex-1">
   <a href="{{ .RelPermalink }}" class="text-primary font-medium hover:underline">{{ .Title }}</a>
 </div>
+{{ end }}
 {{ end }}

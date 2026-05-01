@@ -1,0 +1,2 @@
+{{- /* Returns true if the page should be hidden from listings and search (redirect/conflict pages) */}}
+{{- return (or (hasPrefix .Title "Redirect to:") (hasPrefix .Title "Conflict:")) -}}
