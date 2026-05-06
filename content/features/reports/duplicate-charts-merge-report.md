@@ -1,9 +1,9 @@
 ---
 id: '1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
 title: 'Duplicate Charts-Merge Report'
-date: '2025-11-21T16:22:20.837Z'
-version: 276
-lastAuthor: 'ewilcox'
+date: '2026-05-06T13:19:24.516Z'
+version: 338
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1Embn-V1yfRwxpjqDUayuM5WIVw-kY3esY4YEPwARrco'
@@ -196,3 +196,39 @@ It will open a pop-up with a list of fields that are attached to this saved temp
 The search field fields are populated with the saved template contents you selected, so next, click the SEARCH button (on the report) to run the report.
 
 ![](./duplicate-charts-merge-report.assets/69d3d26b2f89692e4adedf9a3c77c943.png)
+
+## Create Auto-Merge Job
+
+The Create Auto-Merge Job link utilizes the selected filters and creates a Scheduled Job that will automatically merge the duplicate charts it renders. This Scheduled Job can then run consistently based on the Schedule field. To create the Scheduled Job, select the filters and click on Create Auto-Merge Job link. The user must have the security setting of Manage Scheduled Jobs set to Manage to see this link.
+
+![](./duplicate-charts-merge-report.assets/5cced486b59ce84a0c3f31db91d0b6a2.png)
+
+Add the new Job Name and select the Merge Type from the dropdown. Determine the Schedule from the dropdown and select the Date and Time for the first run of this scheduled job. Click Create Job when complete.
+
+![](./duplicate-charts-merge-report.assets/2249de422bfa297ae85f488341eb49ec.png)
+
+If the Scheduled Job is created successfully, there will be a Success Message. The Scheduled Job is set to inactive and will not run until activated. To activate, go to the Control Panel -> Scheduled Jobs to review and enable it.
+
+![](./duplicate-charts-merge-report.assets/e6e24a860280480cb31e03f64d8d0d24.png)
+
+If the Scheduled Job is not created successfully, the system will provide a failure message.
+
+![](./duplicate-charts-merge-report.assets/6ea3308a44e05330e3c57fb40b118466.png)
+
+### Scheduled Job Module
+
+To enable the Inactive Scheduled Job, go to the Control Panel and click on the Scheduled Job module.
+
+![](./duplicate-charts-merge-report.assets/5cf662a44ba61e209cd65dd4c80abfa4.png)
+
+Click on the Show Disabled link and scroll to find the Auto-Merge job to enable. Click on Enable.
+
+![](./duplicate-charts-merge-report.assets/2b1bfc6b9a2bd0bd242b3a77fa321526.png)
+
+![](./duplicate-charts-merge-report.assets/f93fbccdc0e4191c7b540b4566d64896.png)
+
+There will be a confirmation message to ensure you wish to enable the Scheduled Job. Click Confirm.
+
+![](./duplicate-charts-merge-report.assets/3beab32109007ec8ecd8cb65ca2db0f7.png)
+
+If you need to update the scheduled job, it must be active. So once activated, click Edit to make any changes.
