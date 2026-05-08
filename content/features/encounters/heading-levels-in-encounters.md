@@ -1,8 +1,8 @@
 ---
 id: '10wzj2vwOYF-Oqv8Nnx1jfbeitSsZ5Zlx-mhrMfgA_oA'
 title: 'Heading Levels in Encounters'
-date: '2025-12-01T14:57:04.699Z'
-version: 44
+date: '2026-05-08T11:47:51.615Z'
+version: 48
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -55,7 +55,7 @@ The encounter view and its stored/archived document will also reflect any headin
 
 ![](./heading-levels-in-encounters.assets/73b5aab4cb8dd3d600962b5b0650eacb.png)
 
-Changes only for the specific encounter you are working in. And for all users of that encounter????????
+Changes only for the specific encounter you are working in and applies to other users who work in the same encounter.
 
 ## Encounter Templates
 
