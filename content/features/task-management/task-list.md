@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2026-04-23T14:26:22.953Z'
-version: 535
-lastAuthor: 'janderson'
+date: '2026-05-08T15:55:38.812Z'
+version: 546
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -284,13 +284,7 @@ To return to the DataVis View, click on the DataVis View button.
 
 ### Grab Task - Realm Tasks
 
-In the legacy version of tasking, users could only grab one task at a time. Datavis allows users to grab multiple tasks, but only from the combined *Realm Tasks* grouping list.
-
-![](./task-list.assets/c53cab7d495f3891fb228ebd035d83dd.png)
-
-When grabbing multiple tasks, selected tasks will be assigned to the logged in user. The user will also be prompted with a message "Open new tabs for all X tasks you grabbed?" with a yes/no response button option. Selecting **Yes**, will open each grabbed task in separate browser tabs. Selecting **No**, will close the dialogue box and return to the user to their task list where they can proceed to their next task.
-
-![](./task-list.assets/4c084170b444679e67f53ddf226cf9a8.png)
+Realm tasks can only be grabbed one at a time.  You cannot grab multiple tasks at once (the ‘grab' button will become disabled if you try to select more than one to grab).
 
 When grabbing any Realm Tasks, you may get a Permission Denied for Tasks error.
 
