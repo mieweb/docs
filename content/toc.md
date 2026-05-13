@@ -11,6 +11,7 @@ wikigdrive: 'v2.16.0'
       * Artificial Intelligence
          * [Intervention Risk Management for Predictive Decision Support Interventions with AI ](features/artificial-intelligence/intervention-risk-management-for-predictive-decision-support-interventions-with-ai.md)
          * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md)
+         * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
          * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md)
       * Document Management
          * Documents & Forms

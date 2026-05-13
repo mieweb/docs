@@ -37,7 +37,7 @@ links:
   - 'functions/artificial-intelligence/ai-chat-box.md'
   - 'features/artificial-intelligence/ozwell-ai-assistant.md'
   - 'features/artificial-intelligence/whisper-ai-dictation-summarize.md'
-  - 'https://drive.google.com/open?id=1GGpjDb75a4BhQyJSPnKMMiY1SOrNc00QJK_O2F-oDZM'
+  - 'features/artificial-intelligence/ozwell-pdsi-source-attributes.md'
   - 'features/e-chart.md'
   - 'features/e-chart/detailed-searching-in-e-chart.md'
   - 'features/e-chart/alert-comments.md'
@@ -846,7 +846,7 @@ wikigdrive: 'v2.16.0'
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md#ozwell-ai-assistant)
         * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
-        * [Ozwell pDSI Source Attributes](https://drive.google.com/open?id=1GGpjDb75a4BhQyJSPnKMMiY1SOrNc00QJK_O2F-oDZM)
+        * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
     * [E-Chart](features/e-chart.md)
         * [Detailed Chart Searching in E-Chart](features/e-chart/detailed-searching-in-e-chart.md)
         * [Alert Comments on Charts](features/e-chart/alert-comments.md)
