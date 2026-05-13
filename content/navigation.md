@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-04-17T13:26:14.217Z'
-version: 2036
-lastAuthor: 'janderson'
+date: '2026-05-13T20:13:18.130Z'
+version: 2049
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -37,6 +37,7 @@ links:
   - 'functions/artificial-intelligence/ai-chat-box.md'
   - 'features/artificial-intelligence/ozwell-ai-assistant.md'
   - 'features/artificial-intelligence/whisper-ai-dictation-summarize.md'
+  - 'https://drive.google.com/open?id=1GGpjDb75a4BhQyJSPnKMMiY1SOrNc00QJK_O2F-oDZM'
   - 'features/e-chart.md'
   - 'features/e-chart/detailed-searching-in-e-chart.md'
   - 'features/e-chart/alert-comments.md'
@@ -845,6 +846,7 @@ wikigdrive: 'v2.16.0'
         * [Legacy AI Chat Box](functions/artificial-intelligence/ai-chat-box.md)
         * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md#ozwell-ai-assistant)
         * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
+        * [Ozwell pDSI Source Attributes](https://drive.google.com/open?id=1GGpjDb75a4BhQyJSPnKMMiY1SOrNc00QJK_O2F-oDZM)
     * [E-Chart](features/e-chart.md)
         * [Detailed Chart Searching in E-Chart](features/e-chart/detailed-searching-in-e-chart.md)
         * [Alert Comments on Charts](features/e-chart/alert-comments.md)
