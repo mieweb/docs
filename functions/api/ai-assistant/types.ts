@@ -112,6 +112,17 @@ export interface ChatRequest {
   brand?: "eh" | "wc";
   /** Current page the user is viewing (optional) */
   currentPage?: PageContext;
+  /**
+   * If true (or Accept: text/event-stream is sent), respond as Server-Sent
+   * Events emitting `event: token`, `event: sources`, `event: done`, and
+   * `event: error` frames. Used by bluehive-hum's `lookup_knowledge` tool.
+   */
+  stream?: boolean;
+  /**
+   * Optional persona hint from upstream callers (e.g. bluehive-hum sends
+   * "explorer"). EH docs ignores this — brand is the authoritative switch.
+   */
+  persona?: string;
 }
 
 /**

@@ -177,3 +177,135 @@ export async function generateRAGResponse(
     sources,
   };
 }
+
+/**
+ * Streaming variant of generateRAGResponse — returns a ReadableStream of
+ * Server-Sent Events compatible with bluehive-hum's `lookup_knowledge`
+ * tool and the bluehive-marketing chatbot. Emits:
+ *
+ *   event: sources   data: { sources: [{ title, url, relevance }] }
+ *   event: token     data: { token: "..." }   (repeated)
+ *   event: done      data: {}
+ *   event: error     data: { message: "..." }
+ *
+ * Sources are emitted before the first token so slow consumers can
+ * surface citations while the answer is still streaming.
+ */
+export async function generateRAGResponseStream(
+  message: string,
+  env: Env,
+  config: typeof CONFIG,
+  history: ChatMessage[] = [],
+  brand: "eh" | "wc" = "eh",
+  currentPage: PageContext | null = null
+): Promise<ReadableStream<Uint8Array>> {
+  const encoder = new TextEncoder();
+  const sse = (event: string, data: unknown): Uint8Array =>
+    encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+
+  return new ReadableStream<Uint8Array>({
+    async start(controller) {
+      try {
+        if (looksLikePromptInjection(message)) {
+          controller.enqueue(sse("sources", { sources: [] }));
+          controller.enqueue(sse("token", { token: REFUSAL_MESSAGE }));
+          controller.enqueue(sse("done", {}));
+          controller.close();
+          return;
+        }
+
+        const skipRAG = isGreeting(message);
+        let context = "";
+        let searchResults: Awaited<ReturnType<typeof searchSimilarChunks>> = [];
+
+        if (!skipRAG) {
+          const searchQuery = currentPage
+            ? `${message} (related to: ${currentPage.title || currentPage.url})`
+            : message;
+          searchResults = await searchSimilarChunks(
+            searchQuery,
+            env,
+            config,
+            config.MAX_CONTEXT_CHUNKS
+          );
+          context = buildContext(searchResults);
+        }
+
+        const sources = skipRAG ? [] : extractSources(searchResults);
+        controller.enqueue(sse("sources", { sources }));
+
+        const prompt = buildPrompt(
+          message,
+          context,
+          history,
+          !skipRAG,
+          currentPage
+        );
+        const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
+        const systemPromptWithBrand = `${SYSTEM_PROMPT}\n\nYou are specifically helping with ${brandName} documentation.`;
+
+        if (!env.AI) {
+          controller.enqueue(
+            sse("error", { message: "AI binding not configured" })
+          );
+          controller.close();
+          return;
+        }
+
+        const aiResponse = (await env.AI.run(
+          config.LLM_MODEL as BaseAiTextGenerationModels,
+          {
+            messages: [
+              { role: "system", content: systemPromptWithBrand },
+              { role: "user", content: prompt },
+            ],
+            max_tokens: config.MAX_TOKENS,
+            temperature: skipRAG ? 0.7 : 0.3,
+            stream: true,
+          }
+        )) as ReadableStream<Uint8Array>;
+
+        // Workers AI streams OpenAI-style SSE: `data: {"response":"tok"}`
+        // lines terminated by blank line, with a final `data: [DONE]`.
+        const reader = aiResponse.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          let nl: number;
+          while ((nl = buffer.indexOf("\n")) !== -1) {
+            const line = buffer.slice(0, nl).trim();
+            buffer = buffer.slice(nl + 1);
+            if (!line.startsWith("data:")) continue;
+            const payload = line.slice(5).trim();
+            if (!payload || payload === "[DONE]") continue;
+            try {
+              const parsed = JSON.parse(payload) as { response?: string };
+              if (parsed.response) {
+                controller.enqueue(sse("token", { token: parsed.response }));
+              }
+            } catch {
+              /* skip non-JSON keep-alive frames */
+            }
+          }
+        }
+
+        controller.enqueue(sse("done", {}));
+        controller.close();
+      } catch (err) {
+        controller.enqueue(
+          sse("error", {
+            message: err instanceof Error ? err.message : "stream_failed",
+          })
+        );
+        try {
+          controller.close();
+        } catch {
+          /* already closed */
+        }
+      }
+    },
+  });
+}

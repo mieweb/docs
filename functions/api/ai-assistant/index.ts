@@ -15,7 +15,7 @@ import type {
   CONFIG as ConfigType,
 } from "./types";
 import { CONFIG } from "./types";
-import { generateRAGResponse } from "./rag";
+import { generateRAGResponse, generateRAGResponseStream } from "./rag";
 
 // Re-export types for Pages Functions context
 interface PagesContext {
@@ -119,6 +119,43 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const brand = body.brand === "wc" ? "wc" : "eh";
   const history = Array.isArray(body.history) ? body.history : [];
   const currentPage = body.currentPage || null;
+
+  // Streaming mode: either `stream: true` in body or Accept: text/event-stream.
+  // Used by bluehive-hum's `lookup_knowledge` tool and any streaming chat UI.
+  const wantsStream =
+    body.stream === true ||
+    (request.headers.get("accept") || "").includes("text/event-stream");
+
+  if (wantsStream) {
+    try {
+      const stream = await generateRAGResponseStream(
+        body.message,
+        env,
+        CONFIG,
+        history,
+        brand,
+        currentPage
+      );
+      return new Response(stream, {
+        status: 200,
+        headers: {
+          "Content-Type": "text/event-stream; charset=utf-8",
+          "Cache-Control": "no-cache, no-transform",
+          Connection: "keep-alive",
+          "X-Accel-Buffering": "no",
+          ...CORS_HEADERS,
+        },
+      });
+    } catch (error) {
+      console.error("RAG stream error:", error);
+      return errorResponse(
+        "Failed to start stream",
+        "RAG_STREAM_ERROR",
+        500,
+        error instanceof Error ? error.message : "Unknown error"
+      );
+    }
+  }
 
   try {
     // Generate response using RAG
