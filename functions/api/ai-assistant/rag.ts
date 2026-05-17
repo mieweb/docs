@@ -200,112 +200,121 @@ export async function generateRAGResponseStream(
   currentPage: PageContext | null = null
 ): Promise<ReadableStream<Uint8Array>> {
   const encoder = new TextEncoder();
-  const sse = (event: string, data: unknown): Uint8Array =>
-    encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+  // Use TransformStream rather than `new ReadableStream()` so we don't need
+  // the `streams_enable_constructors` compat flag — the docs Pages project
+  // predates the date where that flag is on by default.
+  const { readable, writable } = new TransformStream<Uint8Array, Uint8Array>();
+  const writer = writable.getWriter();
 
-  return new ReadableStream<Uint8Array>({
-    async start(controller) {
-      try {
-        if (looksLikePromptInjection(message)) {
-          controller.enqueue(sse("sources", { sources: [] }));
-          controller.enqueue(sse("token", { token: REFUSAL_MESSAGE }));
-          controller.enqueue(sse("done", {}));
-          controller.close();
-          return;
-        }
+  const send = async (event: string, data: unknown): Promise<void> => {
+    await writer.write(
+      encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`)
+    );
+  };
 
-        const skipRAG = isGreeting(message);
-        let context = "";
-        let searchResults: Awaited<ReturnType<typeof searchSimilarChunks>> = [];
+  // Drive the stream in the background; return `readable` immediately so
+  // the first frame can hit the wire as soon as it's produced.
+  (async () => {
+    try {
+      if (looksLikePromptInjection(message)) {
+        await send("sources", { sources: [] });
+        await send("token", { token: REFUSAL_MESSAGE });
+        await send("done", {});
+        return;
+      }
 
-        if (!skipRAG) {
-          const searchQuery = currentPage
-            ? `${message} (related to: ${currentPage.title || currentPage.url})`
-            : message;
-          searchResults = await searchSimilarChunks(
-            searchQuery,
-            env,
-            config,
-            config.MAX_CONTEXT_CHUNKS
-          );
-          context = buildContext(searchResults);
-        }
+      const skipRAG = isGreeting(message);
+      let context = "";
+      let searchResults: Awaited<ReturnType<typeof searchSimilarChunks>> = [];
 
-        const sources = skipRAG ? [] : extractSources(searchResults);
-        controller.enqueue(sse("sources", { sources }));
-
-        const prompt = buildPrompt(
-          message,
-          context,
-          history,
-          !skipRAG,
-          currentPage
+      if (!skipRAG) {
+        const searchQuery = currentPage
+          ? `${message} (related to: ${currentPage.title || currentPage.url})`
+          : message;
+        searchResults = await searchSimilarChunks(
+          searchQuery,
+          env,
+          config,
+          config.MAX_CONTEXT_CHUNKS
         );
-        const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
-        const systemPromptWithBrand = `${SYSTEM_PROMPT}\n\nYou are specifically helping with ${brandName} documentation.`;
+        context = buildContext(searchResults);
+      }
 
-        if (!env.AI) {
-          controller.enqueue(
-            sse("error", { message: "AI binding not configured" })
-          );
-          controller.close();
-          return;
+      const sources = skipRAG ? [] : extractSources(searchResults);
+      await send("sources", { sources });
+
+      const prompt = buildPrompt(
+        message,
+        context,
+        history,
+        !skipRAG,
+        currentPage
+      );
+      const brandName = brand === "eh" ? "Enterprise Health" : "WebChart";
+      const systemPromptWithBrand = `${SYSTEM_PROMPT}\n\nYou are specifically helping with ${brandName} documentation.`;
+
+      if (!env.AI) {
+        await send("error", { message: "AI binding not configured" });
+        return;
+      }
+
+      const aiResponse = (await env.AI.run(
+        config.LLM_MODEL as BaseAiTextGenerationModels,
+        {
+          messages: [
+            { role: "system", content: systemPromptWithBrand },
+            { role: "user", content: prompt },
+          ],
+          max_tokens: config.MAX_TOKENS,
+          temperature: skipRAG ? 0.7 : 0.3,
+          stream: true,
         }
+      )) as ReadableStream<Uint8Array>;
 
-        const aiResponse = (await env.AI.run(
-          config.LLM_MODEL as BaseAiTextGenerationModels,
-          {
-            messages: [
-              { role: "system", content: systemPromptWithBrand },
-              { role: "user", content: prompt },
-            ],
-            max_tokens: config.MAX_TOKENS,
-            temperature: skipRAG ? 0.7 : 0.3,
-            stream: true,
-          }
-        )) as ReadableStream<Uint8Array>;
-
-        // Workers AI streams OpenAI-style SSE: `data: {"response":"tok"}`
-        // lines terminated by blank line, with a final `data: [DONE]`.
-        const reader = aiResponse.getReader();
-        const decoder = new TextDecoder();
-        let buffer = "";
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          buffer += decoder.decode(value, { stream: true });
-          let nl: number;
-          while ((nl = buffer.indexOf("\n")) !== -1) {
-            const line = buffer.slice(0, nl).trim();
-            buffer = buffer.slice(nl + 1);
-            if (!line.startsWith("data:")) continue;
-            const payload = line.slice(5).trim();
-            if (!payload || payload === "[DONE]") continue;
-            try {
-              const parsed = JSON.parse(payload) as { response?: string };
-              if (parsed.response) {
-                controller.enqueue(sse("token", { token: parsed.response }));
-              }
-            } catch {
-              /* skip non-JSON keep-alive frames */
+      // Workers AI streams OpenAI-style SSE: `data: {"response":"tok"}`
+      // lines terminated by blank line, with a final `data: [DONE]`.
+      const reader = aiResponse.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        let nl: number;
+        while ((nl = buffer.indexOf("\n")) !== -1) {
+          const line = buffer.slice(0, nl).trim();
+          buffer = buffer.slice(nl + 1);
+          if (!line.startsWith("data:")) continue;
+          const payload = line.slice(5).trim();
+          if (!payload || payload === "[DONE]") continue;
+          try {
+            const parsed = JSON.parse(payload) as { response?: string };
+            if (parsed.response) {
+              await send("token", { token: parsed.response });
             }
+          } catch {
+            /* skip non-JSON keep-alive frames */
           }
-        }
-
-        controller.enqueue(sse("done", {}));
-        controller.close();
-      } catch (err) {
-        controller.enqueue(
-          sse("error", {
-            message: err instanceof Error ? err.message : "stream_failed",
-          })
-        );
-        try {
-          controller.close();
-        } catch {
-          /* already closed */
         }
       }
-    },
-  });
+
+      await send("done", {});
+    } catch (err) {
+      try {
+        await send("error", {
+          message: err instanceof Error ? err.message : "stream_failed",
+        });
+      } catch {
+        /* writer may already be closed */
+      }
+    } finally {
+      try {
+        await writer.close();
+      } catch {
+        /* already closed */
+      }
+    }
+  })();
+
+  return readable;
 }
