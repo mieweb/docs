@@ -354,6 +354,7 @@ wikigdrive: 'v2.16.0'
          * [Patient Portal First-Time Setup & Configuration](features/portal-management/patient-portal-first-time-setup-and-configuration.md)
          * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
          * [Portal Activation Code Employee Experience](features/portal-management/portal-activation-code-employee-experience.md)
+         * [Portal Messaging](features/portal-management/portal-messaging.md)
          * [Portal Portlet](features/portal-management/portal-portlet.md)
          * [Portal Virtual Waiting Room](features/portal-management/portal-virtual-waiting-room.md)
          * [Redirect to: Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/redirect-to-patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
