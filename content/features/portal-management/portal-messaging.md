@@ -1,8 +1,8 @@
 ---
 id: '1FXMf44EiYEcPbHTFYBgY6V8s1L4Sf-axgGiFZR7duC0'
 title: 'Portal Messaging'
-date: '2026-05-19T17:18:03.945Z'
-version: 235
+date: '2026-05-20T13:36:41.731Z'
+version: 245
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -20,7 +20,7 @@ Within the Portal, the Conversation section will contain all chats. The Conversa
 Click on the begin button next to the questionnaire that best describes the chat. This is the same area that you would land if you clicked on the send a message button within the Messages section.
 
 {{% note %}}
-The send a message button may be named something different in your portal. Send a message is the standard button name but it can be configured to a different name.
+The "send a message" button is customizable. The "send a message" button name is the default option but it can be configured to a different name.
 {{% /note %}}
 
 ![](./portal-messaging.assets/e2fc97c55cac8abf56d3e389afb2e902.png)
