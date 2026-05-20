@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2026-03-12T14:18:44.672Z'
-version: 851
-lastAuthor: 'janderson'
+date: '2026-05-20T18:44:54.804Z'
+version: 862
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
@@ -145,7 +145,10 @@ When looking at preference choices available in the drop-down:
 * Use DataVis in E-Sign: By default, the preference is set to Disabled which displays the Pending Reviews  in the legacy list view within the E-sign functionality.  If Enabled, the ‘Pending Reviews' tab of e-sign will be listed in a datavis and can be worked on in a datavis format.
 * Use Legacy Report Page: By default, the preference is set to Disabled which displays the new report page. If Enabled, the legacy report page will be displayed instead of the new report page.
 * Use Medication Quick Notes: By default, the preference is set to Disabled. When enabled, the encounter presenting medications will display in a reconciled list with the subsections as<strong> ‘</strong>Unknown', ‘Taking', ‘Not Taking/PRN' or ‘Discontinued'. Available in RC202409 and newer only.
-* User Do Not Expire: By default, the preference is set to Disabled. When enabled, providers are allowed to mark a prescription as ‘Do Not Expire' in order to prevent the prescription from expiring. Available in RC202409 and newer only.
+* Use Do Not Expire: By default, the preference is set to Disabled. When enabled, providers are allowed to mark a prescription as ‘Do Not Expire' in order to prevent the prescription from expiring. Available in RC202409 and newer only.
+* Use Heading Level Change: Choose Yes or No. If set to No, the Change Heading Level tool will not be available in the encounter tools. If set to Yes, the Change Heading Level tool will be available for use in encounter heading sections.
+* New Language Translations: If enabled, language translations use the Loco client-side translation engine instead of legacy server-side translations.
+* New File Q: If enabled, a new datavis styled File Queue screen will be used instead of the legacy look.
 
 ### E-Chart
 
