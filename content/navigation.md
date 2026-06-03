@@ -131,7 +131,7 @@ links:
   - 'features/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md'
   - 'features/portal-management/nomoreclipboard.md'
   - 'features/portal-management/messages-from-nmc-user.md'
-  - 'https://drive.google.com/open?id=1zausDKbNiG2-4FVahwUDiLGFFIDjvAwyzxaqUm6dphw'
+  - 'features/portal-management/employer-portal-getting-started.md'
   - 'https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
   - 'https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns'
   - 'https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ'
@@ -946,7 +946,7 @@ wikigdrive: 'v2.16.0'
         * [Outside Contact Portal - SMP Portal Contact User Experience](features/portal-management/outside-contact-portal-smp-portal-contact-user-experience.md)
         * [NoMoreClipboard](features/portal-management/nomoreclipboard.md)
         * [Messages from NMC User](features/portal-management/messages-from-nmc-user.md)
-        * [Employer Portal Getting Started](https://drive.google.com/open?id=1zausDKbNiG2-4FVahwUDiLGFFIDjvAwyzxaqUm6dphw)
+        * [Employer Portal Getting Started](features/portal-management/employer-portal-getting-started.md)
         * [Employer Portal Dashboard](https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM)
         * [Employer Portal Orders](https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns)
         * [Employee Portal Employees](https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ#heading=h.3b62sn5pr1fb)
