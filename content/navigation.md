@@ -134,7 +134,7 @@ links:
   - 'features/portal-management/employer-portal-getting-started.md'
   - 'https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
   - 'https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns'
-  - 'https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ'
+  - 'features/portal-management/employer-portal-employees.md'
   - 'features/portal-management/employer-portal-messages.md'
   - 'features/encounters.md'
   - 'features/encounters/working-in-a-legacy-encounter.md'
@@ -949,7 +949,7 @@ wikigdrive: 'v2.16.0'
         * [Employer Portal Getting Started](features/portal-management/employer-portal-getting-started.md)
         * [Employer Portal Dashboard](https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM)
         * [Employer Portal Orders](https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns)
-        * [Employee Portal Employees](https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ#heading=h.3b62sn5pr1fb)
+        * [Employee Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
     * [Encounters](features/encounters.md)
         * [Working in a Legacy Encounter](features/encounters/working-in-a-legacy-encounter.md)
