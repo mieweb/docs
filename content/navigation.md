@@ -135,7 +135,7 @@ links:
   - 'https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
   - 'https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns'
   - 'https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ'
-  - 'https://drive.google.com/open?id=17ElkGUNZksP3Db7KXJB2g5lu0rbphqbpU0Et68P8Zko'
+  - 'features/portal-management/employer-portal-messages.md'
   - 'features/encounters.md'
   - 'features/encounters/working-in-a-legacy-encounter.md'
   - 'features/encounters/working-in-a-visit-encounter.md'
@@ -950,7 +950,7 @@ wikigdrive: 'v2.16.0'
         * [Employer Portal Dashboard](https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM)
         * [Employer Portal Orders](https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns)
         * [Employee Portal Employees](https://drive.google.com/open?id=1Z8wmsXgPPgOSeLQ1Pyq_eh7K-f1MhUsYx8dOq2C2GxQ#heading=h.3b62sn5pr1fb)
-        * [Employer Portal Messages](https://drive.google.com/open?id=17ElkGUNZksP3Db7KXJB2g5lu0rbphqbpU0Et68P8Zko)
+        * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
     * [Encounters](features/encounters.md)
         * [Working in a Legacy Encounter](features/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](features/encounters/working-in-a-visit-encounter.md)
