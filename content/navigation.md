@@ -133,7 +133,7 @@ links:
   - 'features/portal-management/messages-from-nmc-user.md'
   - 'features/portal-management/employer-portal-getting-started.md'
   - 'https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
-  - 'https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns'
+  - 'features/portal-management/employer-portal-orders.md'
   - 'features/portal-management/employer-portal-employees.md'
   - 'features/portal-management/employer-portal-messages.md'
   - 'features/encounters.md'
@@ -948,7 +948,7 @@ wikigdrive: 'v2.16.0'
         * [Messages from NMC User](features/portal-management/messages-from-nmc-user.md)
         * [Employer Portal Getting Started](features/portal-management/employer-portal-getting-started.md)
         * [Employer Portal Dashboard](https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM)
-        * [Employer Portal Orders](https://drive.google.com/open?id=1Gtd2pEcjaPZDXb8RieCa_pubj01ZbwwOYn5eTHOkxns)
+        * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
         * [Employee Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
     * [Encounters](features/encounters.md)
