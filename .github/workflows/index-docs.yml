@@ -59,6 +59,7 @@ jobs:
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          DOCS_CACHE_KV_ID: ${{ secrets.DOCS_CACHE_KV_ID }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
             npm run index:docs -- --dry-run --brand eh
@@ -71,6 +72,7 @@ jobs:
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          DOCS_CACHE_KV_ID: ${{ secrets.DOCS_CACHE_KV_ID }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
             npm run index:docs -- --dry-run --brand wc
