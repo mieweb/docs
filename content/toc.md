@@ -344,6 +344,7 @@ wikigdrive: 'v2.16.0'
          * [Patient Registration Tab - Manual Patient Entry](features/patient-registration/patient-registration-tab-manual-patient-entry.md)
       * Portal Management
          * [Applicant Portal](features/portal-management/applicant-portal.md)
+         * [Employer Portal Dashboard](features/portal-management/employer-portal-dashboard.md)
          * [Employer Portal Employees](features/portal-management/employer-portal-employees.md)
          * [Employer Portal Getting Started ](features/portal-management/employer-portal-getting-started.md)
          * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
