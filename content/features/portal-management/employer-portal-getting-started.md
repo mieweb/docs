@@ -1,17 +1,19 @@
 ---
 id: '1zausDKbNiG2-4FVahwUDiLGFFIDjvAwyzxaqUm6dphw'
 title: 'Employer Portal Getting Started '
-date: '2026-06-03T17:14:29.507Z'
-version: 62
+date: '2026-06-05T19:12:39.339Z'
+version: 91
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://bluehive.com/integrations/enterprise-health/'
+  - 'https://bluehive.com/resources/help-center/docs/saml-sso-setup/'
 source: 'https://drive.google.com/open?id=1zausDKbNiG2-4FVahwUDiLGFFIDjvAwyzxaqUm6dphw'
 wikigdrive: 'v2.16.0'
 ---
 ## First Time Login
 
-The Enterprise Health Employer Portal-powered by BlueHive, supports Single Sign-on (SSO) or Login with Email options for an easy login experience. System administrators must first configure SSO for employers and/or set up users to log in via their email. Once configured, employer portal users will receive an email inviting users to log into the portal.
+The Enterprise Health Employer Portal-powered by [BlueHive](https://bluehive.com/integrations/enterprise-health/), supports [Single Sign-on (SSO)](https://bluehive.com/resources/help-center/docs/saml-sso-setup/) or Login with Email options for an easy login experience. System administrators must first configure SSO for employers and/or set up users to log in via their email. Once configured, employer portal users will receive an email inviting users to log into the portal.
 
 *Hint: Save the link to the portal as a favorite to your browser for quick access in the future!*
 
