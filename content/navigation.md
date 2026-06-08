@@ -122,7 +122,7 @@ links:
   - 'features/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md'
   - 'features/portal-management/portal-activation-code-employee-experience.md'
   - 'features/portal-management/password-reset-non-sso.md'
-  - 'features/portal-management/portal-messaging.md'
+  - 'features/portal-management/employee-portal-messaging.md'
   - 'features/portal-management/portal-portlet.md'
   - 'features/portal-management/supervisor-portal-scheduling.md'
   - 'features/portal-management/supervisor-portal-questionnaires.md'
@@ -938,7 +938,7 @@ wikigdrive: 'v2.16.0'
         * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
         * [Portal Activation Code Employee Experience](features/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Password Reset - Non SSO](features/portal-management/password-reset-non-sso.md)
-        * [Employee Portal Messaging](features/portal-management/portal-messaging.md)
+        * [Employee Portal Messaging](features/portal-management/employee-portal-messaging.md)
         * [Portal Portlet](features/portal-management/portal-portlet.md)
         * [Supervisor Portal Scheduling](features/portal-management/supervisor-portal-scheduling.md)
         * [Supervisor Portal Questionnaires](features/portal-management/supervisor-portal-questionnaires.md)

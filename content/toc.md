@@ -344,6 +344,7 @@ wikigdrive: 'v2.16.0'
          * [Patient Registration Tab - Manual Patient Entry](features/patient-registration/patient-registration-tab-manual-patient-entry.md)
       * Portal Management
          * [Applicant Portal](features/portal-management/applicant-portal.md)
+         * [Employee Portal Messaging](features/portal-management/employee-portal-messaging.md)
          * [Employer Portal Dashboard](features/portal-management/employer-portal-dashboard.md)
          * [Employer Portal Employees](features/portal-management/employer-portal-employees.md)
          * [Employer Portal Getting Started ](features/portal-management/employer-portal-getting-started.md)
@@ -360,7 +361,6 @@ wikigdrive: 'v2.16.0'
          * [Patient Portal First-Time Setup & Configuration](features/portal-management/patient-portal-first-time-setup-and-configuration.md)
          * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
          * [Portal Activation Code Employee Experience](features/portal-management/portal-activation-code-employee-experience.md)
-         * [Portal Messaging](features/portal-management/portal-messaging.md)
          * [Portal Portlet](features/portal-management/portal-portlet.md)
          * [Portal Virtual Waiting Room](features/portal-management/portal-virtual-waiting-room.md)
          * [Redirect to: Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/redirect-to-patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
