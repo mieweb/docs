@@ -136,7 +136,7 @@ links:
   - 'features/portal-management/employer-portal-orders.md'
   - 'features/portal-management/employer-portal-employees.md'
   - 'features/portal-management/employer-portal-messages.md'
-  - 'https://drive.google.com/open?id=1lOo241X5cysK-7nEbaqbUnxYbT3-6LM3cl46dbGpVRI'
+  - 'features/portal-management/employer-portal-preferences-and-securities.md'
   - 'features/encounters.md'
   - 'features/encounters/working-in-a-legacy-encounter.md'
   - 'features/encounters/working-in-a-visit-encounter.md'
@@ -952,7 +952,7 @@ wikigdrive: 'v2.16.0'
         * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
         * [Employee Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
-        * [Employer Portal Preferences and Securities](https://drive.google.com/open?id=1lOo241X5cysK-7nEbaqbUnxYbT3-6LM3cl46dbGpVRI)
+        * [Employer Portal Preferences and Securities](features/portal-management/employer-portal-preferences-and-securities.md)
     * [Encounters](features/encounters.md)
         * [Working in a Legacy Encounter](features/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](features/encounters/working-in-a-visit-encounter.md)

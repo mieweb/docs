@@ -349,6 +349,7 @@ wikigdrive: 'v2.16.0'
          * [Employer Portal Getting Started ](features/portal-management/employer-portal-getting-started.md)
          * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
          * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
+         * [Employer Portal Preferences and Securities](features/portal-management/employer-portal-preferences-and-securities.md)
          * [Employer/Employee Second Portal Setup](features/portal-management/employer-employee-second-portal-setup.md)
          * [Linking Users for Portal Access](features/portal-management/linking-users-for-portal-access.md)
          * [Messages from NMC User](features/portal-management/messages-from-nmc-user.md)
