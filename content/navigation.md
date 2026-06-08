@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-06-03T19:02:27.398Z'
-version: 2065
+date: '2026-06-08T13:33:03.974Z'
+version: 2072
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -136,6 +136,7 @@ links:
   - 'features/portal-management/employer-portal-orders.md'
   - 'features/portal-management/employer-portal-employees.md'
   - 'features/portal-management/employer-portal-messages.md'
+  - 'https://drive.google.com/open?id=1lOo241X5cysK-7nEbaqbUnxYbT3-6LM3cl46dbGpVRI'
   - 'features/encounters.md'
   - 'features/encounters/working-in-a-legacy-encounter.md'
   - 'features/encounters/working-in-a-visit-encounter.md'
@@ -951,6 +952,7 @@ wikigdrive: 'v2.16.0'
         * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
         * [Employee Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
+        * [Employer Portal Preferences and Securities](https://drive.google.com/open?id=1lOo241X5cysK-7nEbaqbUnxYbT3-6LM3cl46dbGpVRI)
     * [Encounters](features/encounters.md)
         * [Working in a Legacy Encounter](features/encounters/working-in-a-legacy-encounter.md)
         * [Working in a Visit Encounter](features/encounters/working-in-a-visit-encounter.md)
