@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-06-08T13:33:03.974Z'
-version: 2072
-lastAuthor: 'auhrick'
+date: '2026-06-08T19:21:15.637Z'
+version: 2079
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -938,7 +938,7 @@ wikigdrive: 'v2.16.0'
         * [Patient/Employee Portal Self Checkin for Existing Scheduled Appointments](features/portal-management/patient-employee-portal-self-checkin-for-existing-scheduled-appointments.md)
         * [Portal Activation Code Employee Experience](features/portal-management/portal-activation-code-employee-experience.md#portal-activation-code-employee-experience)
         * [Password Reset - Non SSO](features/portal-management/password-reset-non-sso.md)
-        * [Portal Messaging](features/portal-management/portal-messaging.md)
+        * [Employee Portal Messaging](features/portal-management/portal-messaging.md)
         * [Portal Portlet](features/portal-management/portal-portlet.md)
         * [Supervisor Portal Scheduling](features/portal-management/supervisor-portal-scheduling.md)
         * [Supervisor Portal Questionnaires](features/portal-management/supervisor-portal-questionnaires.md)
