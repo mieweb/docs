@@ -39,7 +39,7 @@ links:
   - 'features/artificial-intelligence/whisper-ai-dictation-summarize.md'
   - 'features/artificial-intelligence/ozwell-pdsi-source-attributes.md'
   - 'features/artificial-intelligence/ozwell-ai-overview.md'
-  - 'https://drive.google.com/open?id=1Aa7kx1XgPBNXILi0yKOr9E5ljqBSXA2J9wMiSQkFzhU'
+  - 'features/artificial-intelligence/ozwell-ai-ambient-scribe.md'
   - 'https://drive.google.com/open?id=12Y5YTjAhYq37QogQRVfqTyRs8eYcXqQ4Mt1JAScJmO4'
   - 'https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ'
   - 'features/e-chart.md'
@@ -859,7 +859,7 @@ wikigdrive: 'v2.16.0'
         * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
         * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
         * [Ozwell AI - Overview](features/artificial-intelligence/ozwell-ai-overview.md#_8dv54158jm1k)
-        * [Ozwell AI - Ambient Scribe](https://drive.google.com/open?id=1Aa7kx1XgPBNXILi0yKOr9E5ljqBSXA2J9wMiSQkFzhU)
+        * [Ozwell AI - Ambient Scribe](features/artificial-intelligence/ozwell-ai-ambient-scribe.md)
         * [Ozwell AI - Encounter Integrations](https://drive.google.com/open?id=12Y5YTjAhYq37QogQRVfqTyRs8eYcXqQ4Mt1JAScJmO4)
         * [Ozwell AI - Translator](https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ)
     * [E-Chart](features/e-chart.md)

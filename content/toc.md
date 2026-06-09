@@ -10,6 +10,7 @@ wikigdrive: 'v2.16.0'
          * [Absence Management Workflow](features/absence-management/absence-management-workflow.md)
       * Artificial Intelligence
          * [Intervention Risk Management for Predictive Decision Support Interventions with AI ](features/artificial-intelligence/intervention-risk-management-for-predictive-decision-support-interventions-with-ai.md)
+         * [Ozwell AI - Ambient Scribe](features/artificial-intelligence/ozwell-ai-ambient-scribe.md)
          * [Ozwell AI - Overview](features/artificial-intelligence/ozwell-ai-overview.md)
          * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md)
          * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
