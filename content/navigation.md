@@ -41,7 +41,7 @@ links:
   - 'features/artificial-intelligence/ozwell-ai-overview.md'
   - 'features/artificial-intelligence/ozwell-ai-ambient-scribe.md'
   - 'features/artificial-intelligence/ozwell-ai-encounter-integrations.md'
-  - 'https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ'
+  - 'features/artificial-intelligence/ozwell-ai-translator.md'
   - 'features/e-chart.md'
   - 'features/e-chart/detailed-searching-in-e-chart.md'
   - 'features/e-chart/alert-comments.md'
@@ -861,7 +861,7 @@ wikigdrive: 'v2.16.0'
         * [Ozwell AI - Overview](features/artificial-intelligence/ozwell-ai-overview.md#_8dv54158jm1k)
         * [Ozwell AI - Ambient Scribe](features/artificial-intelligence/ozwell-ai-ambient-scribe.md)
         * [Ozwell AI - Encounter Integrations](features/artificial-intelligence/ozwell-ai-encounter-integrations.md)
-        * [Ozwell AI - Translator](https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ)
+        * [Ozwell AI - Translator](features/artificial-intelligence/ozwell-ai-translator.md)
     * [E-Chart](features/e-chart.md)
         * [Detailed Chart Searching in E-Chart](features/e-chart/detailed-searching-in-e-chart.md)
         * [Alert Comments on Charts](features/e-chart/alert-comments.md)

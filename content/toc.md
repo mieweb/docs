@@ -13,6 +13,7 @@ wikigdrive: 'v2.16.0'
          * [Ozwell AI - Ambient Scribe](features/artificial-intelligence/ozwell-ai-ambient-scribe.md)
          * [Ozwell AI - Encounter Integrations](features/artificial-intelligence/ozwell-ai-encounter-integrations.md)
          * [Ozwell AI - Overview](features/artificial-intelligence/ozwell-ai-overview.md)
+         * [Ozwell AI - Translator](features/artificial-intelligence/ozwell-ai-translator.md)
          * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md)
          * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
          * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md)
