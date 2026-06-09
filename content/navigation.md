@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-06-09T18:13:36.732Z'
-version: 2087
+date: '2026-06-09T19:07:23.748Z'
+version: 2092
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -38,7 +38,7 @@ links:
   - 'features/artificial-intelligence/ozwell-ai-assistant.md'
   - 'features/artificial-intelligence/whisper-ai-dictation-summarize.md'
   - 'features/artificial-intelligence/ozwell-pdsi-source-attributes.md'
-  - 'https://drive.google.com/open?id=1kUr10Gkypu2y1hD48gN3ImkwmwkGdOS2nyBVOV4Uu_A'
+  - 'features/artificial-intelligence/ozwell-ai-overview.md'
   - 'https://drive.google.com/open?id=1Aa7kx1XgPBNXILi0yKOr9E5ljqBSXA2J9wMiSQkFzhU'
   - 'https://drive.google.com/open?id=12Y5YTjAhYq37QogQRVfqTyRs8eYcXqQ4Mt1JAScJmO4'
   - 'https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ'
@@ -858,7 +858,7 @@ wikigdrive: 'v2.16.0'
         * [Ozwell AI Assistant](features/artificial-intelligence/ozwell-ai-assistant.md#ozwell-ai-assistant)
         * [Whisper AI - Dictation - Summarize](features/artificial-intelligence/whisper-ai-dictation-summarize.md#whisper-ai)
         * [Ozwell pDSI Source Attributes](features/artificial-intelligence/ozwell-pdsi-source-attributes.md)
-        * [Ozwell AI - Overview](https://drive.google.com/open?id=1kUr10Gkypu2y1hD48gN3ImkwmwkGdOS2nyBVOV4Uu_A#heading=h.8dv54158jm1k)
+        * [Ozwell AI - Overview](features/artificial-intelligence/ozwell-ai-overview.md#_8dv54158jm1k)
         * [Ozwell AI - Ambient Scribe](https://drive.google.com/open?id=1Aa7kx1XgPBNXILi0yKOr9E5ljqBSXA2J9wMiSQkFzhU)
         * [Ozwell AI - Encounter Integrations](https://drive.google.com/open?id=12Y5YTjAhYq37QogQRVfqTyRs8eYcXqQ4Mt1JAScJmO4)
         * [Ozwell AI - Translator](https://drive.google.com/open?id=1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ)
