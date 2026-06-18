@@ -1,11 +1,12 @@
 ---
 id: '1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
 title: 'Employer Portal Dashboard'
-date: '2026-06-03T17:26:32.223Z'
-version: 25
+date: '2026-06-18T16:10:21.887Z'
+version: 40
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
+  - 'https://pollenate.dev/'
   - 'https://mie.talentlms.com/shared/start/key:ALBHRKMF'
 source: 'https://drive.google.com/open?id=1Kjlp4pEhYNSBgbDMJjH8G6bW4rO2IlB_uaJFI8SwvuM'
 wikigdrive: 'v2.16.0'
@@ -43,6 +44,14 @@ The Visit Log report exports encounter data specific to an employer organization
 The Visit Status by Service Type Report contains specific fields (e.g., EO, Sub EO, Location Where Services Were Rendered, Service Date,Employee ID and Name, Encounter Type and Procedures) that allows the supervisor to view a detailed status of what the employee's clearance is pending for.
 
 ![](./employer-portal-dashboard.assets/084e7aebb3c468f91b32b217d6f3a0af.png)
+
+## Contact Us
+
+The Employer Portal allows users to configure client questionnaires, request or feedback forms using our [Pollenate](https://pollenate.dev/) tool. When configured, these questionnaire forms will display within the Contact Us tab. Questionnaires can be configured to email individuals or configured to task individuals within Enterprise Health.
+
+![](./employer-portal-dashboard.assets/e698f543b98bf3f17c2a97aafdc572f6.png)
+
+![](./employer-portal-dashboard.assets/feb56fea252a852b5f84dccfd94edb3b.png)
 
 ## Learning Management System
 
