@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-06-09T19:07:23.748Z'
-version: 2092
-lastAuthor: 'janderson'
+date: '2026-06-23T19:17:52.159Z'
+version: 2104
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -958,7 +958,7 @@ wikigdrive: 'v2.16.0'
         * [Employer Portal Getting Started](features/portal-management/employer-portal-getting-started.md)
         * [Employer Portal Dashboard](features/portal-management/employer-portal-dashboard.md)
         * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
-        * [Employee Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
+        * [Employer Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
         * [Employer Portal Preferences and Securities](features/portal-management/employer-portal-preferences-and-securities.md)
     * [Encounters](features/encounters.md)
