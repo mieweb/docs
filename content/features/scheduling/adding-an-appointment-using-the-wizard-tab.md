@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2026-04-02T17:22:32.134Z'
-version: 586
+date: '2026-06-30T15:48:31.765Z'
+version: 602
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -90,6 +90,7 @@ For an additional fee, SMS text reminders are available for appointments. If you
 * <strong>CC: (carbon copy)</strong> You can type in the first or last name of a user within your {{% system-name %}} system and the same email (that you signified to send within the <em>Email Patient</em> field) will be sent to the CC'd {{% system-name %}} user also. It will auto-complete {{% system-name %}} users for you to choose from. You cannot freely type in an email address. It has to be selected from the auto-complete of users in your system. If the user does not have an email address entered in their {{% system-name %}} username screen, their name will <em>not</em> show up here as an auto-complete choice to select.
 * <strong>CC Supervisor: (carbon copy)</strong> You can carbon copy the patient's supervisor by checking the CC Supervisor box. The supervisor must have an existing "Supervisor User Relationship" to the employee on the demographics Contact/Relationships list to be carbon copied using this feature.
 * <strong>Comment:</strong> Can type a comment and it will appear in the schedule views. Any comment associated with the appointment type selected will appear here also, unless there is already a comment typed here previously.
+* <strong>Patient Instructions:</strong> Any text housed within this free text field will automatically be sent within the Apt Confirmation email template and Apt Reminder email template when utilized to send either of those email templates from within an appointment detail.
 * <strong>Due Date:</strong> Due Date is an optional field typically used with health surveillance needs.  It indicates to have this appointment within the indicated due date. This is also used for our Corporate Health clients when an appointment is on the waiting list and the employee can self schedule the pending waitlist appointment (typically for health surveillance compliance needs) and can self schedule the appointment within the indicated due date.
 * <strong>Visible Date:</strong> Visible date is an optional field typically used with health surveillance needs. Visible date indicates the date the waiting list appointment will display to the employee on the employee portal visibly to self schedule, and the date they will receive an email invitation to schedule their visible appointment or questionnaires to become visible on the portal for filling out and submitting.  Sometimes visible date is set as a future date and is a period (between now and the visible date) where everything is set up by automated evaluators and clinicians may have workflows or reports to review charts or even line managers in order to review to make sure the person is in the correct health surveillance panel(s) before the email invitation is sent or things (appointments & questionnaires, etc) become visible on the portal to the patient or employee.  This is typically only used for Corporate Health clients. Visible date may also be utilized by health practices that cannot schedule patients yet because they don't schedule provider's ahead of time.
 
