@@ -1,9 +1,9 @@
 ---
 id: '1DepI9YVtfst5VTBsH24GZilzfqqzTMmvw8GYf-yq1R4'
 title: 'E-Sign All Pending Tab'
-date: '2025-11-11T16:16:21.907Z'
-version: 167
-lastAuthor: 'janderson'
+date: '2026-06-30T14:00:04.314Z'
+version: 174
+lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOTHRKMF'
@@ -100,6 +100,21 @@ To display the DataVis view again, click on the DataVis View button.
 
 ![](./e-sign-all-pending-tab.assets/8b0d4fdcf0c312070189f82e9f7bb194.png)
 
+## E-Sign - Review with Diff feature on Encounter Documents Previously Signed by the Provider
+
+Available in 202609RC, the experience for reviewing updated encounter documents that have been re-archived and re-sent for e-signature has been streamlined. When a provider receives an updated e-sign encounter document (that they had previously esigned), any revisions will now be automatically highlighted within the document of the E-Sign Review. NOTE: My Settings preference for *E-Sign Review with Diff* must be enabled to utilize this feature.
+
+![](./e-sign-all-pending-tab.assets/38da0a13c36ff4b848517633104cab07.png)
+
+After enabling the My Settings preference, within the DataVis *Pending Reviews* tab of E-Sign, a new **Review w/ Diff** button will be available for use.
+
+![](./e-sign-all-pending-tab.assets/c9525e0282aa09b4c5eb48a79f56d5eb.png)
+
+This enhancement removes the need for manual steps (accessing document properties and selecting the diff options), making it faster and easier for providers to quickly identify what has changed within the encounter document asking to be re-signed and complete their review with greater efficiency.
+
+![](./e-sign-all-pending-tab.assets/24bae7a383822ab839c64d8102e8fe2c.png)
+
+The number of revisions in an encounter's history will be reflected through distinct color highlights for each version.
 ## Learning Management System
 
 To learn more about the E-Sign All Pending Tab, follow the link below to the Learning Management System course:
