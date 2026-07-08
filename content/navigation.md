@@ -303,6 +303,7 @@ links:
   - 'features/injection-immunization-management/injection-editor.md'
   - 'features/injection-immunization-management/vaccine-compliance.md'
   - 'features/injection-immunization-management/mar-summary-tab.md'
+  - 'features/unified-inbox.md'
   - 'features/task-management.md'
   - 'features/task-management/task-list.md'
   - 'features/task-management/adding-tasks.md'
