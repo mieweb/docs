@@ -34,13 +34,13 @@ You can click any column header to sort the list ascending or descending. Use th
 
 Each row shows small action buttons immediately to the left of the **Type** column. These buttons are specific to the item's type, so you only see relevant actions for each row.
 
-| Item Type                   | Available Quick Actions                                                          |
-| --------------------------- | -------------------------------------------------------------------------------- |
-| **Task**                    | Complete, Edit, Reply, View Regarding, View Task                                 |
-| **Encounter**               | Add Task, Delete/Undelete                                                        |
-| **Rx Refill**               | View (opens E-Rx Worklist detail)                                                |
-| **E-Sign**                  | (Use Multi-Review for batch signing; individual actions are in the detail panel) |
-| **Incoming Document / Fax** | (Actions are in the detail panel)                                                |
+| Item Type                   | Available Quick Actions                                                                 |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| **Task**                    | Complete, Edit, Reply, View Regarding, View Task                                        |
+| **Encounter**               | Add Task, Delete/Undelete                                                               |
+| **Rx Refill**               | View (opens E-Rx Worklist detail)                                                       |
+| **E-Sign**                  | (Use E-Sign Multi Review for batch signing; individual actions are in the detail panel) |
+| **Incoming Document / Fax** | (Actions are in the detail panel)                                                       |
 
 Click the action button icon to perform the action directly without opening the full detail panel.
 
@@ -132,10 +132,9 @@ The Incoming Fax detail panel shows the fax metadata (sender, recipient, subject
 
 To sign multiple E-Sign items at once:
 
-1. Select one or more **E-Sign** rows using the checkboxes on the left of each row.
-2. Click the **Multi-Review** button in the toolbar above the grid.
+1. Click the **E-Sign Multi Review** button in the toolbar above the grid.
 
-The shared E-Sign Review window opens with all selected documents. Use **Sign Marked Documents** to sign all of them in one step. After closing the window, the grid refreshes automatically and any signed documents are removed from your inbox.
+The shared E-Sign Review window opens with **every** E-Sign request in the inbox — you do not need to select any rows first. Use **Sign Marked Documents** to sign all of them in one step. After closing the window, the grid refreshes automatically and any signed documents are removed from your inbox.
 
 ## Viewing Another User's Inbox (Coverage)
 
@@ -150,7 +149,7 @@ The grid reloads to show that user's pending items. The items displayed are subj
 - **Tasks** — shown according to your **Tasklist / Manage Tasks** permission level (Own / Realm / All). You see only the tasks your permission level allows you to work on behalf of another user.
 - **Encounters, Incoming Documents, Incoming Faxes, Rx Refill requests** — always shown for the target user (no additional permission gate beyond accessing the inbox itself).
 
-When covering another user, Multi-Review signs documents on their behalf (proxy signing) — the E-Sign backend records the original signer and the proxy.
+When covering another user, E-Sign Multi Review signs documents on their behalf (proxy signing) — the E-Sign backend records the original signer and the proxy.
 
 To return to your own inbox, clear the User field, type your own name, and click **Search** again.
 
