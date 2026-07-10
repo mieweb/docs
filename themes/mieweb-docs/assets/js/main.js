@@ -651,7 +651,7 @@ function renderSearchResults(query, results) {
     if (link) link.href = href || "#";
     if (title) title.textContent = result.title;
     if (summary) {
-      summary.textContent = result.snippet || "";
+      summary.innerHTML = result.snippet || "";
     }
     link?.setAttribute("data-index", index);
 
