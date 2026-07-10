@@ -621,6 +621,12 @@ function updateSelectedResult(results) {
 /**
  * Render a list of search results (from the worker) into the modal.
  */
+function decodeHtml(str) {
+  return new DOMParser()
+    .parseFromString(str, "text/html")
+    .documentElement.textContent;
+}
+
 function renderSearchResults(query, results) {
   if (!searchResults) return;
 
@@ -651,7 +657,7 @@ function renderSearchResults(query, results) {
     if (link) link.href = href || "#";
     if (title) title.textContent = result.title;
     if (summary) {
-      summary.innerHTML = result.snippet || "";
+      summary.textContent = DOMPurify.sanitize(decodeHtml(result.snippet)) || "";
     }
     link?.setAttribute("data-index", index);
 
