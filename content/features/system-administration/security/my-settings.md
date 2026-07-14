@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2026-05-20T18:44:54.804Z'
-version: 862
+date: '2026-07-13T18:19:08.330Z'
+version: 871
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -150,6 +150,7 @@ When looking at preference choices available in the drop-down:
 * New Language Translations: If enabled, language translations use the Loco client-side translation engine instead of legacy server-side translations.
 * New File Q: If enabled, a new datavis styled File Queue screen will be used instead of the legacy look.
 * Enable Unified Inbox: By default, the preference is set to Disabled. When enabled, the Inbox displays a single unified DataVis list of every item that needs your attention — e-sign signature requests, assigned encounters, incoming documents, incoming faxes, tasks (assigned to you or one of your departments), and pending Rx refill requests awaiting you as prescriber — with an active-row detail pane for working each item, and a matching unread-count badge appears in the system bar. When disabled, the Inbox uses the legacy portlet landing and no system-bar badge is shown.
+* E-Sign Review with Diff: The experience for reviewing updated encounter documents (HTML Formatted) that have been re-archived and re-sent for e-signature has been streamlined. When a provider receives an updated e-sign encounter document (that they had previously esigned), any revisions will now be automatically highlighted within the document of the E-Sign Review if this preference is enabled. This also works with Text documents being re-sent for e-signature.
 
 ### E-Chart
 
