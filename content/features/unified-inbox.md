@@ -5,6 +5,16 @@ date: "2026-07-08"
 
 The Unified Inbox consolidates all items that require your attention — e-signature requests, assigned encounters, incoming documents, incoming faxes, open tasks, and pending Rx refill requests — into a single list. Rather than checking each queue separately, you can review, act on, and work every pending item from one place.
 
+## Enabling the Unified Inbox (Experiment)
+
+The Unified Inbox is an opt-in experimental feature and is **disabled by default**. To turn it on, enable the **Enable Unified Inbox** experiment in your user preferences:
+
+1. Open **My Settings** (from the user/gear menu).
+2. Expand the **Experiments** section.
+3. Set **Enable Unified Inbox** to _Enabled_.
+
+When the experiment is enabled, the Inbox landing page shows the unified list described below and the **Inbox** count badge appears in the system header bar. When it is disabled, the Inbox uses the legacy portlet landing and no system-bar Inbox badge is shown.
+
 ## Accessing the Inbox
 
 The **Inbox** badge in the system header bar shows a live count of your pending items. Click it to open the Unified Inbox.
