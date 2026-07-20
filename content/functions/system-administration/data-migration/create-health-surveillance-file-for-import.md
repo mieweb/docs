@@ -1,7 +1,7 @@
 ---
 id: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
 title: 'Redirect to: Create Health Surveillance File for Import'
-date: '2026-02-04T16:19:36.609Z'
+date: '2026-02-04T16:00:45.394Z'
 source: 'https://drive.google.com/open?id=1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'
 mimeType: 'text/x-markdown'
 redirectTo: '1fOpOgUVCm1HHYNzZtFXrsYYmXLeEXK6McovQn-bTgQY'

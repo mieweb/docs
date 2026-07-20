@@ -1,7 +1,7 @@
 ---
 id: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 title: 'Redirect to: Fee Schedule Import Tool'
-date: '2026-02-04T16:19:36.626Z'
+date: '2026-02-04T16:00:45.411Z'
 source: 'https://drive.google.com/open?id=1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'
 mimeType: 'text/x-markdown'
 redirectTo: '1N6H4YEgK5O5BzM2oWsVL-k6RTG8KUlGVUaqjP1sC5r0'

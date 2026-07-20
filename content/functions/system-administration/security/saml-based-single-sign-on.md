@@ -1,7 +1,7 @@
 ---
 id: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
 title: 'Redirect to: SAML-Based Single Sign-On'
-date: '2026-02-04T16:19:37.074Z'
+date: '2026-02-04T16:00:45.844Z'
 source: 'https://drive.google.com/open?id=1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'
 mimeType: 'text/x-markdown'
 redirectTo: '1sfnQQ7KCRFR7LWm6QKve7akqAgZpqnxCXQvPgcYoLlc'

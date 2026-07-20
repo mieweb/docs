@@ -1,7 +1,7 @@
 ---
 id: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 title: 'Redirect to: Signature Pad Device'
-date: '2026-02-04T16:19:36.980Z'
+date: '2026-02-04T16:00:45.793Z'
 source: 'https://drive.google.com/open?id=1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'
 mimeType: 'text/x-markdown'
 redirectTo: '1xeWrhLQg4nBW5PA6LPd1h7Q8vG1B7pI9xoRJhl2QyKo'

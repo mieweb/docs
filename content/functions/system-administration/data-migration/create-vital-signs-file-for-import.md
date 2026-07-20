@@ -1,7 +1,7 @@
 ---
 id: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
 title: 'Redirect to: Create Vital Signs File for Import'
-date: '2026-02-04T16:19:36.613Z'
+date: '2026-02-04T16:00:45.399Z'
 source: 'https://drive.google.com/open?id=1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'
 mimeType: 'text/x-markdown'
 redirectTo: '1SsFJhFp4cUoRKLIULnvccNLyYB7TpnevOHj4EJMwSJU'

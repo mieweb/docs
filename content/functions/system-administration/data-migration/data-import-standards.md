@@ -1,7 +1,7 @@
 ---
 id: '1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
 title: 'Redirect to: Data Import Standards'
-date: '2026-02-04T16:19:36.606Z'
+date: '2026-02-04T16:00:45.390Z'
 source: 'https://drive.google.com/open?id=1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'
 mimeType: 'text/x-markdown'
 redirectTo: '1WLg2T3kafPU5DrzAkrTOOMQm_2iTyBV1dJWa2ttHu2M'

@@ -1,7 +1,7 @@
 ---
 id: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 title: 'Redirect to: Single Sign-On Login Trust'
-date: '2026-02-04T16:19:37.074Z'
+date: '2026-02-04T16:00:45.843Z'
 source: 'https://drive.google.com/open?id=1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'
 mimeType: 'text/x-markdown'
 redirectTo: '1ao-kbdPxNzKp7H9ja8fzZHFKQxLixPcSJGO9qq5o4IM'

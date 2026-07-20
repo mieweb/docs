@@ -1,7 +1,7 @@
 ---
 id: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 title: 'Redirect to: Chart Medical Record Number (MRN) Import Options'
-date: '2026-02-04T16:19:36.610Z'
+date: '2026-02-04T16:00:45.395Z'
 source: 'https://drive.google.com/open?id=1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'
 mimeType: 'text/x-markdown'
 redirectTo: '1XdXZjpMl-nFhbNqYVZfRqVDD1-sCjB5Rrol0ohYGe7E'

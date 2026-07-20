@@ -1,7 +1,7 @@
 ---
 id: '1RluTafFnPa5uNpU8ZtrWpQYntyihfWrL-6tbRvDRbuI'
 title: 'Redirect to: Redirect to: Financial functionality'
-date: '2026-02-04T16:19:36.592Z'
+date: '2026-01-22T16:47:41.568Z'
 source: 'https://drive.google.com/open?id=1RluTafFnPa5uNpU8ZtrWpQYntyihfWrL-6tbRvDRbuI'
 mimeType: 'text/x-markdown'
 redirectTo: '1RluTafFnPa5uNpU8ZtrWpQYntyihfWrL-6tbRvDRbuI'

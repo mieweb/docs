@@ -1,7 +1,7 @@
 ---
 id: '1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
 title: 'Redirect to: Case Management CSV API'
-date: '2026-02-04T16:19:36.618Z'
+date: '2026-02-04T16:00:45.403Z'
 source: 'https://drive.google.com/open?id=1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'
 mimeType: 'text/x-markdown'
 redirectTo: '1AsEPbkLvKFI-gXp8bfQyRKL5__dnLrj_L2BDtrZg6HM'

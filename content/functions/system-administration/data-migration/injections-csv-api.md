@@ -1,7 +1,7 @@
 ---
 id: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 title: 'Redirect to: Injections CSV API'
-date: '2026-02-04T16:19:36.623Z'
+date: '2026-02-04T16:00:45.408Z'
 source: 'https://drive.google.com/open?id=1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'
 mimeType: 'text/x-markdown'
 redirectTo: '1aHRZ8aidsnDJ4vg1Diu1ktw9jMC_R1Q6JrPghbuckuE'

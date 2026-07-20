@@ -1,7 +1,7 @@
 ---
 id: '1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
 title: 'Redirect to: Locations Hierarchy CSV API'
-date: '2026-02-04T16:19:36.609Z'
+date: '2026-02-04T16:00:45.394Z'
 source: 'https://drive.google.com/open?id=1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'
 mimeType: 'text/x-markdown'
 redirectTo: '1SDR5daHWmREcZqJvyE0s38wz9N3iIUZb3YiOd9oiS2c'

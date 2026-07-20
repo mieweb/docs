@@ -1,7 +1,7 @@
 ---
 id: '1WyPS_oXBkXsuxypfnrWmso6iMWoSeksH9Ft2xzx9HnY'
 title: 'Redirect to: NoMoreClipboard (NMC) MFA/2FA Overview'
-date: '2026-02-04T16:19:37.073Z'
+date: '2026-02-04T16:00:45.842Z'
 source: 'https://drive.google.com/open?id=1WyPS_oXBkXsuxypfnrWmso6iMWoSeksH9Ft2xzx9HnY'
 mimeType: 'text/x-markdown'
 redirectTo: '1WyPS_oXBkXsuxypfnrWmso6iMWoSeksH9Ft2xzx9HnY'

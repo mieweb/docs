@@ -1,7 +1,7 @@
 ---
 id: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 title: 'Redirect to: Multi-Factor Authentication MFA / Require 2FA System Configuration'
-date: '2026-02-04T16:19:37.070Z'
+date: '2026-02-04T16:00:45.838Z'
 source: 'https://drive.google.com/open?id=1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'
 mimeType: 'text/x-markdown'
 redirectTo: '1EAfp2EiYJj78zRMUjj4OSOFhBYGAvANCruMXOh8h5XE'

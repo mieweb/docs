@@ -1,7 +1,7 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'Redirect to: My Settings'
-date: '2026-02-04T16:19:37.073Z'
+date: '2026-02-04T16:00:45.842Z'
 source: 'https://drive.google.com/open?id=1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 mimeType: 'text/x-markdown'
 redirectTo: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'

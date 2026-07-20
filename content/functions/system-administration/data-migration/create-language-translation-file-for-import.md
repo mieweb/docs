@@ -1,7 +1,7 @@
 ---
 id: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 title: 'Redirect to: Create Language Translation File for Import'
-date: '2026-02-04T16:19:36.626Z'
+date: '2026-02-04T16:00:45.412Z'
 source: 'https://drive.google.com/open?id=1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'
 mimeType: 'text/x-markdown'
 redirectTo: '1gw2TaukmbchitBFj-iiALpqsD2Xhj4zDCqoZi0iJT2A'

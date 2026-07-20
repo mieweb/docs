@@ -1,7 +1,7 @@
 ---
 id: '1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
 title: 'Redirect to: Accommodations CSV API'
-date: '2026-02-04T16:19:36.617Z'
+date: '2026-02-04T16:00:45.403Z'
 source: 'https://drive.google.com/open?id=1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'
 mimeType: 'text/x-markdown'
 redirectTo: '1rVOLi3blPwvbLbidZxdCxn58hZgU1HraWdGz-LQJJUc'

@@ -1,7 +1,7 @@
 ---
 id: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 title: 'Redirect to: Summary Documents CSV API'
-date: '2026-02-04T16:19:36.621Z'
+date: '2026-02-04T16:00:45.406Z'
 source: 'https://drive.google.com/open?id=1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'
 mimeType: 'text/x-markdown'
 redirectTo: '1ldetcPu_lIhcsvJ_o50EZMbG_O5VN717UAv0IrPzzC4'

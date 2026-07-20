@@ -1,7 +1,7 @@
 ---
 id: '1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
 title: 'Redirect to:  EH Data Migration ETL Approach'
-date: '2026-02-04T16:19:36.610Z'
+date: '2026-02-04T16:00:45.395Z'
 source: 'https://drive.google.com/open?id=1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'
 mimeType: 'text/x-markdown'
 redirectTo: '1SAffT6I3CptjbYDkGjBTE3TifZ0UQFm_E9B7rsl7fsU'

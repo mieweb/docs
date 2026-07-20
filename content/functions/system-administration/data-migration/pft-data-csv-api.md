@@ -1,7 +1,7 @@
 ---
 id: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 title: 'Redirect to: PFT Data CSV API'
-date: '2026-02-04T16:19:36.621Z'
+date: '2026-02-04T16:00:45.407Z'
 source: 'https://drive.google.com/open?id=1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
 mimeType: 'text/x-markdown'
 redirectTo: '1DUt0OeVBqIqltcPnvfiIuZ_4zvvX5E8Y4JvqlUV9l2o'
