@@ -1,8 +1,8 @@
 ---
 id: '1eTIUEAeY-ytsvs1oMTixISaQR2yyRnx2oEmW5nSaekc'
 title: 'Patient Portal First-Time Setup & Configuration'
-date: '2026-04-22T14:49:22.846Z'
-version: 950
+date: '2026-07-20T15:09:54.765Z'
+version: 971
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -112,6 +112,10 @@ There is also a system setting that needs added and reviewed when utilizing the 
     * Security Question
     * Preferred Time Zone
     * Preferred Pharmacy
+
+{{% note %}}
+Within the Settings page on the Patient/Employee Portal, there is a section to revoke access to a third party application. The new section is called Connected Apps. A user can select Show or Hide to display the codes. To revoke access, select the Revoke button within the third party app information displayed in the Connected Apps section.
+{{% /note %}}
 
 **Miscellaneous**
 
