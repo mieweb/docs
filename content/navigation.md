@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-06-23T19:17:52.159Z'
-version: 2104
-lastAuthor: 'auhrick'
+date: '2026-07-20T18:06:16.942Z'
+version: 2113
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -66,6 +66,7 @@ links:
   - 'features/document-management/documents-and-forms/sketch-documents.md'
   - 'features/document-management/documents-and-forms/form-documents.md'
   - 'features/document-management/documents-and-forms/file-documents.md'
+  - 'https://drive.google.com/open?id=1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
   - 'features/document-management/documents-and-forms/delete-move-lock-documents.md'
   - 'features/document-management/documents-and-forms/document-properties.md'
   - 'features/document-management/documents-and-forms/document-details.md'
@@ -886,6 +887,7 @@ wikigdrive: 'v2.16.0'
             * [Sketch Documents](features/document-management/documents-and-forms/sketch-documents.md)
             * [Form Documents](features/document-management/documents-and-forms/form-documents.md)
             * [File Documents](features/document-management/documents-and-forms/file-documents.md)
+            * [HTML Documents](https://drive.google.com/open?id=1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU)
             * [Delete/Move/Lock Documents](features/document-management/documents-and-forms/delete-move-lock-documents.md)
             * [Document Properties](features/document-management/documents-and-forms/document-properties.md)
             * [Document Details](features/document-management/documents-and-forms/document-details.md)
