@@ -33,6 +33,7 @@ wikigdrive: 'v2.16.0'
             * [EKG Data Entry](features/document-management/documents-and-forms/ekg-data-entry.md)
             * [File Documents](features/document-management/documents-and-forms/file-documents.md)
             * [Form Documents](features/document-management/documents-and-forms/form-documents.md)
+            * [HTML Documents](features/document-management/documents-and-forms/html-documents.md)
             * [Link Documents to Encounters](features/document-management/documents-and-forms/link-documents-to-encounters.md)
             * [Link Documents to Order Requests](features/document-management/documents-and-forms/link-documents-to-order-requests.md)
             * [Link Documents to Other Documents](features/document-management/documents-and-forms/link-documents-to-other-documents.md)

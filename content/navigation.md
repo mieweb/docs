@@ -66,7 +66,7 @@ links:
   - 'features/document-management/documents-and-forms/sketch-documents.md'
   - 'features/document-management/documents-and-forms/form-documents.md'
   - 'features/document-management/documents-and-forms/file-documents.md'
-  - 'https://drive.google.com/open?id=1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
+  - 'features/document-management/documents-and-forms/html-documents.md'
   - 'features/document-management/documents-and-forms/delete-move-lock-documents.md'
   - 'features/document-management/documents-and-forms/document-properties.md'
   - 'features/document-management/documents-and-forms/document-details.md'
@@ -887,7 +887,7 @@ wikigdrive: 'v2.16.0'
             * [Sketch Documents](features/document-management/documents-and-forms/sketch-documents.md)
             * [Form Documents](features/document-management/documents-and-forms/form-documents.md)
             * [File Documents](features/document-management/documents-and-forms/file-documents.md)
-            * [HTML Documents](https://drive.google.com/open?id=1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU)
+            * [HTML Documents](features/document-management/documents-and-forms/html-documents.md)
             * [Delete/Move/Lock Documents](features/document-management/documents-and-forms/delete-move-lock-documents.md)
             * [Document Properties](features/document-management/documents-and-forms/document-properties.md)
             * [Document Details](features/document-management/documents-and-forms/document-details.md)
