@@ -1,8 +1,8 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2025-12-01T20:05:26.347Z'
-version: 435
+date: '2026-07-21T15:22:41.138Z'
+version: 448
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -140,6 +140,10 @@ These Security Requirements should always be followed for ensuring the proper se
     * Email Address
     * Mobile Phone
     * Middle Name
+
+{{% note %}}
+For systems on RC202503 and newer, a field called Preferred Language will display on the Applicant Portal. This field is a dropdown list of available languages. When a language is selected, the following page will display in that language if the translations exist.
+{{% /note %}}
 
 **Miscellaneous**
 
