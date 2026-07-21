@@ -1,8 +1,8 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q'
-date: '2026-07-21T19:30:16.256Z'
-version: 589
+date: '2026-07-21T20:46:53.173Z'
+version: 600
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -115,7 +115,7 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 ### Grid Options
 
-#### Edit
+**Edit**
 
 1. Click "Edit" button
 
@@ -125,7 +125,7 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 ![](./incoming-file-fax-q.assets/90561ecf9e399dc4997eb08b7a003f2b.png)
 
-#### Send
+**Send**
 
 1. Click "Send" button to send the file to another user or department
 
@@ -135,13 +135,13 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 ![](./incoming-file-fax-q.assets/20fdee72b97b20356c1b38b8f1324b39.png)
 
-#### Delete/Undelete
+**Delete/Undelete**
 
 1. Click "Delete" button or "Undelete" button to change the status of a file item to delete/undelete. Utilize Search to locate any previously deleted files to undelete.
 
 ![](./incoming-file-fax-q.assets/6a3333bc0739ba012e76be7a27818788.png)
 
-#### Add Task
+**Add Task**
 
 1. Click "Add Task" button to task a department or user within the system
 
@@ -171,7 +171,7 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 ![](./incoming-file-fax-q.assets/e4fc288d2220d8735ca618345ddbc5f5.png)
 
-#### Create Batch
+**Create Batch**
 
 1. Click "Create Batch" button
 
@@ -181,7 +181,7 @@ The File/Fax Queue allows for viewing/indexing of incoming faxes. Within the mod
 
 ![](./incoming-file-fax-q.assets/53623ecfd176f7d743d6d21207e30053.png)
 
-#### Create Batch & Index
+**Create Batch & Index**
 
 1. Click "Create Batch & Index" button
 
