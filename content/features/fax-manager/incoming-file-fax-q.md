@@ -1,8 +1,8 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q'
-date: '2026-07-21T17:45:23.820Z'
-version: 577
+date: '2026-07-21T19:30:16.256Z'
+version: 589
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
