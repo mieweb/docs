@@ -1,9 +1,9 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2026-07-13T18:19:08.330Z'
-version: 871
-lastAuthor: 'anichols'
+date: '2026-07-21T19:22:51.283Z'
+version: 881
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LTLIDNHR'
@@ -119,7 +119,7 @@ When looking at preference choices available in the drop-down:
 * Language: This is how the user changes what language they want to see the system in. Contact MIE Implementer if you need your system available in another language.
 * English Translations on Hover: For multilingual systems, if "Show" is chosen here, then when viewing contents of the system in a language other than English, if you move your mouse over a translated item, it will display the original English below it.
 * Highlight Translatable: If needing to do language translations, set to YES then go about navigating through the screens (as English language set) and you'll see that everything currently translatable is highlighted, and will then have a little globe icon after it.  If you click the globe, then the highlight will stay, but the globe will go away.  What that does is marks it as something that you think needs to be translatable.  Then if you use the new CSV export feature then you'll get all of those things you marked.
-* Date Format: There are 3 choices (MM-DD-YYYY, DD-MM-YYYY or YYYY-MM-DD) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in the system.  The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ).
+* Date Format: There are 4 choices (MM-DD-YYYY, DD-MM-YYYY, YYYY-MM-DD or DD-Mon-YYYY) It is defaulted to MM-DD-YYYY however if you change, any date (date of birth, document date, revision dates, etc) will then display as your selected format in the system. The entry fields for the dates follow the same ordering as the displaying selection also. The separator for dates is standardized to use the dash ( - ). If DD-Mon-YYYY is selected, document dates will display as DD Mon YYYY but any set fields, like searching by date, will display as DD-MM-YYYY. "Mon" stands for the first three letters of a month.
 * 24 Hour Clock:  Choose Yes or No.  If Yes, times displayed for your view will be 24 hour military time. Field entry is still in normal 12 hr time with am/pm on it, yet summary view shows military time. If set to No, the times displayed for your view will be normal 12-hour clock times with pm or am after it.
 * Preferred Unit System: Choose Default, English or Metric.  You can still enter vitals, etc w/ either unit system; this just makes the drop-down choice units start at the system you choose. (ex: units for weight lbs vs kg, height  units inches vs. cm, etc).
 
