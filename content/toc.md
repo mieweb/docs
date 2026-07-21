@@ -194,7 +194,7 @@ wikigdrive: 'v2.16.0'
       * Fax Manager
          * [Fax Manager Tab - Outbound Faxing](features/fax-manager/fax-manager-tab-outbound-faxing.md)
          * [Faxing Documents](features/fax-manager/faxing-documents.md)
-         * [Incoming File/Fax Q Set-Up and Documentation](features/fax-manager/incoming-file-fax-q-set-up-and-documentation.md)
+         * [Incoming File/Fax Q](features/fax-manager/incoming-file-fax-q.md)
          * [Outbound Faxing Email Notifications of Sent/Failed Faxes](features/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
       * Financial functionality
          * [Accessing the ledger](features/financial-functionality/accessing-the-ledger.md)
