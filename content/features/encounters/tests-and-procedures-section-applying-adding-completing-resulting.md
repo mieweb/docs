@@ -1,8 +1,8 @@
 ---
 id: '1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 title: 'Tests & Procedures Section - Applying/Adding, Completing, Resulting'
-date: '2026-03-17T18:28:12.334Z'
-version: 208
+date: '2026-07-21T18:09:32.930Z'
+version: 219
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -114,6 +114,24 @@ Within the Tests & Procedures section you can order additional items to be perfo
 No matter which method, begin typing in the item/order/procedure/test you want to on-demand apply to today's encounter visit.  After the order item(s) are found using the autocomplete field, you click the ‘Save' or ‘Add to Exam' button.  Note: the order auto-complete field shows all order items (except Written Opinion RE order types) that are programmed in your system (regardless of order type).
 
 ![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/35085f8d1a4b3a11dde91f305ab92936.png)
+
+{{% note %}}
+A System Setting is available to show/hide SNOMED procedures. The System Setting is Orders -> Defaults -> Show SNOMED Results in Tests and Procedures. If enabled, SNOMED procedure results (displayed as [SM Procedure]) will appear in the Tests & Procedures autocomplete search within encounters. When disabled, these SNOMED procedure results are hidden from the autocomplete. By default, the setting is disabled.
+
+
+
+![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/2df33068f387c664e8563d4f7c46b357.png)
+
+
+
+Disabled:
+
+![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/23e47c14ac0f379d6557523b11c33afd.png)
+
+Enabled:
+
+![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/3cebb25cc564ba59927e4e344f44f1d5.png)
+{{% /note %}}
 
 ## Cancel an Added to Exam In-Progress Item
 
