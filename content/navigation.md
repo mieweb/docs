@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-07-20T18:06:16.942Z'
-version: 2113
+date: '2026-07-21T17:45:03.758Z'
+version: 2123
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -319,6 +319,7 @@ links:
   - 'features/fax-manager/faxing-documents.md'
   - 'features/fax-manager/fax-manager-tab-outbound-faxing.md'
   - 'features/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md'
+  - 'features/fax-manager/incoming-file-fax-q.md'
   - 'features/financial-functionality.md'
   - 'features/financial-functionality/adding-deals.md'
   - 'features/financial-functionality/deal-quick-links-using-deals-in-encounters.md'
@@ -1140,6 +1141,7 @@ wikigdrive: 'v2.16.0'
         * [Faxing Documents](features/fax-manager/faxing-documents.md)
         * [Fax Manager Tab - Outbound Faxing](features/fax-manager/fax-manager-tab-outbound-faxing.md)
         * [Outbound Faxing Email Notifications of Sent/Failed Faxes](features/fax-manager/outbound-faxing-email-notifications-of-sent-failed-faxes.md)
+        * [Incoming File/Fax Q](features/fax-manager/incoming-file-fax-q.md)
     * [Financial Functionality](features/financial-functionality.md)
         * [Adding Deals](features/financial-functionality/adding-deals.md)
         * [Deal Quick Links - Using Deals In Encounters](features/financial-functionality/deal-quick-links-using-deals-in-encounters.md)
