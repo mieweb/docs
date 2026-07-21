@@ -263,6 +263,7 @@ links:
   - 'features/order-and-result-management/observation-code-merging.md'
   - 'features/order-and-result-management/observation-codes-editor.md'
   - 'features/order-and-result-management/observation-flowsheets.md'
+  - 'features/order-and-result-management/esheets.md'
   - 'features/order-and-result-management/flowsheets-editor.md'
   - 'features/medication-management-and-e-prescribing.md'
   - 'features/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs.md'
