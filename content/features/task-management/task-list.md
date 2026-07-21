@@ -1,9 +1,9 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2026-05-08T15:55:38.812Z'
-version: 546
-lastAuthor: 'anichols'
+date: '2026-07-21T18:09:12.774Z'
+version: 586
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'fast-task-templates.md'
@@ -20,7 +20,7 @@ There are two ways to access your pending tasks:
 
 ![](./task-list.assets/2058b9778b09de3e34c0d5b1436e9d7a.png)
 
-* This red summary link shows your outstanding tasks and any department tasks you are set to. (ex: Nursing department).  It also displays the count of how many tasks for each category.
+* This red summary link shows your outstanding tasks and any department tasks you are set to (ex: Nursing department).  It also displays the count of how many tasks for each category.
 
 -OR-
 
@@ -257,6 +257,18 @@ The Fast Tasks tab is also only accessible if the user has security permission. 
 ![](./task-list.assets/3c7827d2ee69fbb49c925939bda96787.png)
 
 Permitted users can add and create a new fast task template into the system here. Fast task templates can also be edited or deleted from her if have security permission. See other documentation titled [Fast Task Templates](fast-task-templates.md).
+
+### Collapsible Alerts
+
+If users are part of many departments, their list of tasking alerts can be quite long and cause the gray alert bar to increase in size. To limit the display of these alerts, there is a System Setting that can be utilized. The setting is available under System Settings: WebChart -> User Interface -> Collapsible User Realm. This is a system wide setting and by default is set to 100. This alert number can be updated to whatever amount makes sense to the organization.
+
+![](./task-list.assets/59e3a8763fddb2ad0428889f84dbf9ee.png)
+
+When enabled, to show all alerts click the View More link. To collapse again, click View Less.
+
+![](./task-list.assets/be2dc6a4dd48cddba9aafb794b6f16a7.png)
+
+![](./task-list.assets/1e809d563f10445cefb94a2aaa383cef.png)
 
 ## Viewing Uploaded Portal Documents from a Task
 
