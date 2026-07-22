@@ -1,8 +1,8 @@
 ---
 id: '199nDYD4Cbf7b43xTuYJNIEVtTkRYV9TVPWdD6JKZQnQ'
 title: 'Order Requests Grid'
-date: '2025-08-07T19:01:48.538Z'
-version: 144
+date: '2026-07-22T16:30:42.592Z'
+version: 155
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -37,7 +37,7 @@ Change/edit what you need to. If you need to change/edit/delete an order item (t
 
 If you edit it, you would then need to click SAVE at the bottom of the screen after any changes, then if you need to re-print it you can do so at that time. It will save the latest/edited version of this order.
 
-![](./order-requests-grid.assets/58d477b119ef37132411949b9f23ad69.png)
+![](./order-requests-grid.assets/21f29dc7adbf8b68f11f7f7a5f1cfc7d.png)
 
 ## Print Orders
 
