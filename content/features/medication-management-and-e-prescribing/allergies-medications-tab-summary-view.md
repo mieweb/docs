@@ -1,8 +1,8 @@
 ---
 id: '1VkfzYv557c9y9hw0tHld7ZA7uKEEaADbtSjl7Pt4HoA'
 title: 'Allergies/Medications Tab Summary View'
-date: '2026-03-18T14:58:36.898Z'
-version: 214
+date: '2026-07-22T19:48:21.178Z'
+version: 225
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -138,16 +138,16 @@ If you see a printer icon next to the drug name, it is a quick link to the detai
 * <strong>Sig</strong>: Directions for label/patient on how/when to take this medication. This also pulls the ‘special instructions' field when prescribing a drug. To see the full <em>special instructions</em> simply hover your mouse over this section and it will display the whole text in a box on your screen.
 * <strong>Qty</strong>: Shows quantity of the medication that was prescribed.
 * <strong>Ref</strong>: Number of refills the original prescription was written to include.
-* <strong>Comment</strong>: Shows office comments that were typed in those fields when prescribing a drug. Shows any conflicts with this medication vs patient's allergies. Shows any duplicated drug therapies and what the drugs are. Shows date of a prescription refill a {{% system-name %}} user did for this drug. Shows reason why changed or edited. If viewing deleted meds then shows reason why drug was deleted. Also will any fax information (when prescription was faxed and who to) and shows any transmit information (electronic transmit to pharmacies). If this drug prescription was electronically transmitted, each prescription will now show the date it was initially sent to the pharmacy as well as when any e-refill requests were approved or denied (if your practice utilizes the SureScripts e-refills feature). Additional information of who prescribed the medication, the pharmacy it was sent to, and any additional notes can be found by clicking on the date. To see this information, simply click on the E-sent or E-Refill date link in this comments column for the drug.
+* <strong>Comment</strong>: Shows office comments that were typed in those fields when prescribing a drug. Shows any conflicts with this medication vs patient's allergies. Shows any duplicated drug therapies and what the drugs are. Shows date of a prescription refill a {{% system-name %}} user did for this drug. Shows reason why changed or edited. If viewing deleted meds, then it shows the reason why the drug was deleted, who deleted it and when it was deleted. Also any fax information (when prescription was faxed and who to) and shows any transmit information (electronic transmit to pharmacies). If this drug prescription was electronically transmitted, each prescription will now show the date it was initially sent to the pharmacy as well as when any e-refill requests were approved or denied (if your practice utilizes the SureScripts e-refills feature). Additional information of who prescribed the medication, the pharmacy it was sent to, and any additional notes can be found by clicking on the date. To see this information, simply click on the E-sent or E-Refill date link in this comments column for the drug.
 
 ![](./allergies-medications-tab-summary-view.assets/c508b9d7f237afccd7d0f1385f0092d1.png)
 
 * <strong>Start Date</strong>: Date that was entered when to start this drug or date prescription was given.
-* <strong>Options</strong>: Shows end date, discontinued, if drug is expired, changed or will discontinue. (If wish to see/hide the meds in this list that are discontinued, click the Show/Hide Discontinued option). Also gives you these options:
+* <strong>Options</strong>: Shows end date, discontinued, if drug is expired, changed or will discontinue. (If you wish to see/hide the meds in this list that are discontinued, click the Show/Hide Discontinued option). Also gives you these options:
     * <strong>Edit</strong>:<strong></strong> Allows you to choose to change therapy of the drug or correct error  
         on the prescription. See directions on how to perform these options below in  
         How to Edit a Prescription Already Done
-    * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>.
+    * <strong>Delete</strong>: Only delete a drug if it is entered in error or is on the wrong patient, etc. If a patient has stopped using this medication, you would choose discontinue. A warning box will appear when you click delete to specify this also. Type in the reason you are deleting the drug and click <strong>Submit</strong>. After the medication is deleted, the <strong>Comment</strong> field will display the reason, who deleted it and when it was deleted.
     * <strong>Discontinue</strong>: Only discontinue a drug if the patient is no longer taking the medication or you want to have the patient stop taking this med, etc. Type the date discontinued and reason for discontinue. Click Simply Discontinue, or Mark Intolerant, or Mark Allergic, or Cancel. Mark Intolerant or Allergy will automatically put it in the patient's Allergies/Intolerants summary. To discontinue multiple drugs at once, go to Quick Add and scroll down to check-mark boxes of drugs to discontinue with a reason. However, this will not allow you to mark it as intolerant or as an allergy and will not put that drug in the patient's Allergies/Intolerances summary if that is the reason for discontinuing the med.
     * <strong>Refill</strong>: See directions above in Refills Due.
     * <strong>Reprint</strong>: The "Reprint" link on the medication list will only be available for 5 days after the prescription is written.
