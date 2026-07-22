@@ -1,8 +1,8 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2025-11-11T14:12:05.684Z'
-version: 261
+date: '2026-07-22T12:56:49.122Z'
+version: 304
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -79,6 +79,14 @@ An *Add Payment* pop-up window will display.
 * Memo: Enter in any additional information needed such as check or transaction number
 
 Select the SAVE button to save the charge.  The charge details will then reflect within the Financials encounter section.
+
+### Quick List Picklists
+
+To utilize Quick Lists from the Financials section, update the Order Picklists of the Encounter from the Encounter Types module within the Control Panel. Simply click the Edit link of the Encounter Type that will display the picklists. Select the relevant picklists from the Order Picklists dropdown and click the Save button.
+
+![](./financials.assets/0f578a9a3d848190503b14ffd1412bf6.png)
+
+![](./financials.assets/4841f4104f7f03c34d6d929de5abfe7e.png)
 
 ### Non-Billing Records
 
