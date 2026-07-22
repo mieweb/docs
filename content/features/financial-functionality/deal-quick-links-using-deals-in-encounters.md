@@ -1,8 +1,8 @@
 ---
 id: '1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
 title: 'Deal Quick Links - Using Deals in Encounters'
-date: '2025-11-11T16:21:14.036Z'
-version: 86
+date: '2026-07-22T12:57:28.829Z'
+version: 101
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -90,6 +90,12 @@ If Deal orders have not been selected prior to the visit, they can be added on t
 The Financials section of the encounter will display a list of completed orders items and the amounts that will be billed. Once all items have been completed, click the ‘Archive & Close' button to close the encounter. Please note that any items not shown when this section is collapsed will not be billed through the billing interface.
 
 ![](./deal-quick-links-using-deals-in-encounters.assets/38a735ce2d308f98313549d26773dd38.png)
+
+To utilize Quick Lists from the Financials section, update the Order Picklists of the Encounter from the Encounter Types module within the Control Panel. Simply click the Edit link of the Encounter Type that will display the picklists. Select the relevant picklists from the Order Picklists dropdown and click the Save button.
+
+![](./deal-quick-links-using-deals-in-encounters.assets/0f578a9a3d848190503b14ffd1412bf6.png)
+
+![](./deal-quick-links-using-deals-in-encounters.assets/4841f4104f7f03c34d6d929de5abfe7e.png)
 
 ## Ordering Labs from the Encounter Visit
 
