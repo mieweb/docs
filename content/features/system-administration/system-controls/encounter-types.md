@@ -1,8 +1,8 @@
 ---
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
-date: '2025-12-15T20:30:44.728Z'
-version: 226
+date: '2026-07-22T12:38:40.685Z'
+version: 245
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -47,7 +47,7 @@ To edit an encounter type or modify configuration attributes, click the Edit lin
 
 **Test & Procedures Picklist:** Select which picklist should be the default list for the Test & Procedures encounter section.
 
-**Order Picklists:** Select which order picklists should display as links in the Orders encounter section.
+**Order Picklists:** Select which order picklists should display as links in the Orders encounter section. The selected picklists will also display within the Quick List of the Financials encounter section, if utilized.
 
 **Stage Order:** Define the stages that can be utilized within this visit type.
 
