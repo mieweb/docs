@@ -1,8 +1,8 @@
 ---
 id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 title: 'Quick View Sidemenu'
-date: '2026-03-16T20:25:31.014Z'
-version: 157
+date: '2026-07-22T14:24:37.636Z'
+version: 180
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -31,6 +31,10 @@ The **Available Portlets** window will be displayed on the screen. These are mo
 
 {{% info %}}
 The **Administrator Welcome** portlet will display at the top of the Quick View if you have a security role of Administrator. Also, the portlets named **Sample Demo**, **Get Started**, and **Documentation Video** will only be available for selection if the logged-in user is a member of the Administrator security role.
+
+
+
+The **Administrator Welcome** portlet displays a **Latest News** section that pulls directly from the Community Forum for Administrators on RC202609 and newer.
 {{% /info %}}
 
 After clicking the **Select Portlets** link, check or uncheck any portlets you wish to be shown or not within the Quick View tab. The changes and selections you make only affect your username and your view. Once selections are made click Save. The portlets selected will display in your Quick View until you make other changes.
