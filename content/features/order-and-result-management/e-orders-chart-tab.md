@@ -1,8 +1,8 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2025-08-06T18:04:21.491Z'
-version: 224
+date: '2026-07-22T16:23:21.042Z'
+version: 233
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -52,10 +52,10 @@ After you have entered your PIN Authenticate number (if applicable) in the order
 
 ### Order Requisition
 
-![](./e-orders-chart-tab.assets/67d812ab8f3d7b6d16be5fc9835ae67d.png)
+![](./e-orders-chart-tab.assets/b8d481a98ca1758e0b4c009461818d61.png)
 
 * <strong>Ordering Provider:</strong> This will automatically insert the name of the physician that you are defaulted to in MY SETTINGS for Ordering Provider. (See description of MY SETTINGS default action for Orders on the last page of this document.) To select a different Ordering Physician, simply use the drop-down arrow to select the physician that is ordering this. If the user's default ordering physician is set to ‘nothing' in <em>my settings</em> preference, then the name of the last physician they used to create an order will populate. Note: If system setting "Orders", "Settings", "Ignore Recent Documents for Ordering Physician" is set to "Enabled" to ignore the recent documents last authored, then when going to "add order" this ordering physician field to not prepopulate with that last remembered you used in recent documents.
-* <strong>Status:</strong> The default is "Pending".
+* <strong>Category:</strong> The default is "Pending".
 * <strong>Location:</strong> Select the location that this order is to be completed at (optional field). The layout can be modified by MIE so that location of this Make Order feature shows all locations in your system, only outside locations or no outside locations. The setting is -1 for all, 1 for just outside, 0 for no outside. Please contact your MIE representative for this change. Your MIE Implementer can also change the system setting to make this a required field. This field also respects the orders location default you have set for yourself in MY SETTINGS.
 * <strong>Save As:</strong> This will save the order as the selected document type.
 * <strong>MR# and Name</strong> will automatically be filled out since you are in the specific patient's e-chart. The MR# dropdown defaults to the MR number in respect to the USERS "starting partition" preference default partition if the patient has an MR number with that partition
