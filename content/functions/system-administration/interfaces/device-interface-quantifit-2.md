@@ -1,7 +1,7 @@
 ---
 id: '13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
 title: 'Redirect to: Device Interface - Quantifit 2'
-date: '2026-02-04T16:00:45.794Z'
+date: '2026-02-04T16:19:36.980Z'
 source: 'https://drive.google.com/open?id=13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'
 mimeType: 'text/x-markdown'
 redirectTo: '13v_jK8-1_nsjToIIrBFwXvI7rU4m5FI_Yi0O0lOKdco'

@@ -1,7 +1,7 @@
 ---
 id: '1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
 title: 'Redirect to: Single Sign-On (SSO)'
-date: '2026-02-04T16:00:45.844Z'
+date: '2026-02-04T16:19:37.075Z'
 source: 'https://drive.google.com/open?id=1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'
 mimeType: 'text/x-markdown'
 redirectTo: '1vM0Bfw1f83jrfNAzCfM_vKp-YBldELtjEGMfwafO3OA'

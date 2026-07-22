@@ -1,7 +1,7 @@
 ---
 id: '1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
 title: 'Redirect to: Conditions CSV API'
-date: '2026-02-04T16:00:45.400Z'
+date: '2026-02-04T16:19:36.615Z'
 source: 'https://drive.google.com/open?id=1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'
 mimeType: 'text/x-markdown'
 redirectTo: '1-8GONLFjnSIAyxTcEnkktUluwfAzhYBp7QrMgGLLRm4'

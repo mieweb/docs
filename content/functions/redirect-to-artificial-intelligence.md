@@ -1,7 +1,7 @@
 ---
 id: '16QO26p0sPQdpwf49ZXwpzx9aL8fa6ZLm_csDcgYKD1Q'
 title: 'Redirect to: Redirect to: Artificial Intelligence'
-date: '2026-01-22T16:47:41.568Z'
+date: '2026-02-04T16:19:36.593Z'
 source: 'https://drive.google.com/open?id=16QO26p0sPQdpwf49ZXwpzx9aL8fa6ZLm_csDcgYKD1Q'
 mimeType: 'text/x-markdown'
 redirectTo: '16QO26p0sPQdpwf49ZXwpzx9aL8fa6ZLm_csDcgYKD1Q'

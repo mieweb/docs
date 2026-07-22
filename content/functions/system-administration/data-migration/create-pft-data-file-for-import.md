@@ -1,7 +1,7 @@
 ---
 id: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
 title: 'Redirect to: Create PFT Data File for Import'
-date: '2026-02-04T16:00:45.399Z'
+date: '2026-02-04T16:19:36.614Z'
 source: 'https://drive.google.com/open?id=16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'
 mimeType: 'text/x-markdown'
 redirectTo: '16GPTNe8X-gfZywsQSEG5rOD6ccCOx283XiGJ9l9NfOw'

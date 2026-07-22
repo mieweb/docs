@@ -1,7 +1,7 @@
 ---
 id: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 title: 'Redirect to: Chart Data CSV API'
-date: '2026-02-04T16:00:45.404Z'
+date: '2026-02-04T16:19:36.619Z'
 source: 'https://drive.google.com/open?id=1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'
 mimeType: 'text/x-markdown'
 redirectTo: '1Jv5jf4al_rY2ZMYQmBYEW-DWpyJudarkxKZ8sbg_uSs'

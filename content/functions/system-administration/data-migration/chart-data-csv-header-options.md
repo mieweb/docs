@@ -1,7 +1,7 @@
 ---
 id: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 title: 'Redirect to: Chart Data CSV Header Options'
-date: '2026-02-04T16:00:45.404Z'
+date: '2026-02-04T16:19:36.619Z'
 source: 'https://drive.google.com/open?id=1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'
 mimeType: 'text/x-markdown'
 redirectTo: '1dVS4ah3VUay6OaQIpuyb7wwbErgLn4ko4U-MnPbQUho'

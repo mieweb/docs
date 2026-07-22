@@ -1,7 +1,7 @@
 ---
 id: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 title: 'Redirect to: Encourage Multi-Factor Authentication MFA/2FA User Experience'
-date: '2026-02-04T16:00:45.839Z'
+date: '2026-02-04T16:19:37.071Z'
 source: 'https://drive.google.com/open?id=139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'
 mimeType: 'text/x-markdown'
 redirectTo: '139a3TJ6w0Q3h8rV_1eIhWASQ8YaqteRgbP8dzvPci20'

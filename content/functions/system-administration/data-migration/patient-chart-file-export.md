@@ -1,7 +1,7 @@
 ---
 id: '1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
 title: 'Redirect to: Patient Chart File Export'
-date: '2026-02-04T16:00:45.408Z'
+date: '2026-02-04T16:19:36.623Z'
 source: 'https://drive.google.com/open?id=1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'
 mimeType: 'text/x-markdown'
 redirectTo: '1EOhzGm1utIoDgMwAXYSgX21_R9PjjHjGErpdw56hqUM'

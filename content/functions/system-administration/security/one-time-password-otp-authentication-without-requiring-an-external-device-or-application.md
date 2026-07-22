@@ -1,7 +1,7 @@
 ---
 id: '1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
 title: 'Redirect to: One-Time Password (OTP) Authentication without requiring an external device or application'
-date: '2026-02-04T16:00:45.841Z'
+date: '2026-02-04T16:19:37.072Z'
 source: 'https://drive.google.com/open?id=1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
 mimeType: 'text/x-markdown'
 redirectTo: '1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'

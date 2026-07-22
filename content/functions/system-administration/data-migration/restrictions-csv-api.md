@@ -1,7 +1,7 @@
 ---
 id: '1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
 title: 'Redirect to: Restrictions CSV API'
-date: '2026-02-04T16:00:45.403Z'
+date: '2026-02-04T16:19:36.618Z'
 source: 'https://drive.google.com/open?id=1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'
 mimeType: 'text/x-markdown'
 redirectTo: '1tJLybb-43t9zEG8lXOCUZTjbECoea4N6EhC6FIwOfqU'

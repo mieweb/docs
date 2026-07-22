@@ -1,7 +1,7 @@
 ---
 id: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 title: 'Redirect to: MIE File Import'
-date: '2026-02-04T16:00:45.397Z'
+date: '2026-02-04T16:19:36.611Z'
 source: 'https://drive.google.com/open?id=1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'
 mimeType: 'text/x-markdown'
 redirectTo: '1pnpaUXzHf6UilobVMr2RTHB0j2NJAafIXI5IYmfhMkY'

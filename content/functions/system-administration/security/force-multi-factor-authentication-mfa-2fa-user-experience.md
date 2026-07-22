@@ -1,7 +1,7 @@
 ---
 id: '15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
 title: 'Redirect to: Force Multi-Factor Authentication MFA/2FA User Experience'
-date: '2026-02-04T16:00:45.839Z'
+date: '2026-02-04T16:19:37.070Z'
 source: 'https://drive.google.com/open?id=15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
 mimeType: 'text/x-markdown'
 redirectTo: '15VWUt647RHc7I5Z5LwMsPfgUTo07Dx7Ngy18wQ6qqaU'
