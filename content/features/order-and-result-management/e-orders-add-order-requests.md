@@ -1,9 +1,9 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2025-12-22T20:15:08.479Z'
-version: 188
-lastAuthor: 'kbarton'
+date: '2026-07-22T16:25:23.681Z'
+version: 197
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
@@ -155,7 +155,7 @@ To enable/disable the **New Requisition**, navigate to **My Settings** under the
 
 The **To** section has been updated to include a Quick List with a list of commonly user providers and/or interfaces requisitions are created for.  The **Items** section has been updated to to include a list of outstanding Due List order items for easy access to add to the order ensure no orders are missed. The **Reason** section has been updated to include the patient's current problem list for quick selection of the proper reason or diagnosis code on the order.
 
-![](./e-orders-add-order-requests.assets/d586ac4e4926c8d796f21699986d1239.png)
+![](./e-orders-add-order-requests.assets/b8d481a98ca1758e0b4c009461818d61.png)
 
 ## Order Requisitions for PICKLIST Order Types
 
