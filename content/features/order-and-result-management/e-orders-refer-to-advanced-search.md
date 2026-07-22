@@ -1,8 +1,8 @@
 ---
 id: '1fpy2bWS8axvI2RAYvrKOr1g0iAJ-Lj5mO_y_fgM0EOU'
 title: 'E-Orders - Refer To Advanced Search'
-date: '2025-11-11T15:07:31.185Z'
-version: 101
+date: '2026-07-22T16:28:59.422Z'
+version: 110
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -16,7 +16,7 @@ Companies using {{% system-name %}} may want a method to manage their external p
 
 If your practice manages external providers utilizing our Provider Management module and houses them as provider or provider organization ‘charts' within your {{% system-name %}} system, you will want the ability to Advanced Search when generating an e-order. Vendors (physician groups, ambulatory surgical centers, hospitals, transportation companies, etc.) are Provider Organizations in {{% system-name %}} . The Advanced Search functionality helps users identify who an in-network or referable entity/provider may be for when they need to generate a referral order on a patient. It can also be utilized to perhaps to help users identify providers or referable entities that specialize in a particular body part, service, or speak in another language to assist with the patient's needs. We call this module Provider Management in {{% system-name %}} . See additional help documentation titled [Provider Management](https://docs.enterprisehealth.com/functions/system-configuration/provider-management/). This help document is addressing the Advanced Search hyperlink found while generating an e-order on a patient.
 
-![](./e-orders-refer-to-advanced-search.assets/4c9347fcd16d86600319f865c57d30d4.png)
+![](./e-orders-refer-to-advanced-search.assets/10415bf538c8d63066cb7b91bad68575.png)
 
 The system setting System, External Provider, Use Charts must be enabled (value 1) for the Advanced Search hyperlink to appear while creating an e-order. Your practice must be managing external providers/organizations using the Provider Management module.
 
@@ -32,7 +32,7 @@ In order for the Advanced Search functionality to result in choices, the referab
 
 While creating an e-order for the patient (either via the add order module or within a visit encounter), you will see the Advanced Search link next to the **Refer To** auto-complete field.
 
-![](./e-orders-refer-to-advanced-search.assets/4c9347fcd16d86600319f865c57d30d4.png)
+![](./e-orders-refer-to-advanced-search.assets/10415bf538c8d63066cb7b91bad68575.png)
 
 Click Advanced Search to access the library of referable providers/organizations that are stored and managed in your Provider Management module.
 
@@ -70,11 +70,11 @@ When ready, click Select next to the provider or organization and their name aft
 
 It will then populate the name of the referable entity you selected, into the **Refer To** section of the e-order.
 
-![](./e-orders-refer-to-advanced-search.assets/a114ade205e062cac1bdbe188f31e104.png)
+![](./e-orders-refer-to-advanced-search.assets/4d0b1dd9fe8fd197c3d2c7708d1a355d.png)
 
 You can utilize the auto-complete for the *Refer To* field if you already have memorized referable providers or entities that you commonly refer to and know they are referable entities. You don't always have to click the Advanced Search to be able to select referable entities. When the Advance Search functionality is enabled, this auto-complete in the *Refer To* field behaves the same way. It will result in choices (based on what you type in the auto-complete) of only referable entities or providers from the Provider Management module based on chart types specified in the system setting "Chart Types". *Note: If you do not see addresses next to the provider or organization in the auto-complete choices, contact your MIE Implementer. They will need to program the attribute to show the organizations and addresses a provider is linked to when using the auto-complete. This will help users select the right one as the order printable/faxable document will display that address info.*
 
-![](./e-orders-refer-to-advanced-search.assets/fbb5bf8c0de1f1bfe506f71763bdeb30.png)
+![](./e-orders-refer-to-advanced-search.assets/52a88fa16bd15795dfc69e73db41d855.png)
 
 When the order(s) have been requested, you will be taken to the order document view. You will see the referable entities details that have been housed using the Provider Management module.
 
