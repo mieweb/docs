@@ -1,15 +1,14 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q'
-date: '2026-07-22T13:04:44.392Z'
-version: 614
+date: '2026-07-22T14:02:49.806Z'
+version: 620
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOAHRKMF'
 source: 'https://drive.google.com/open?id=1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 wikigdrive: 'v2.16.0'
-markup: 'pandoc'
 ---
 ## Incoming File/Fax Q Introduction
 
@@ -202,31 +201,32 @@ The Incoming File/Fax Q allows for viewing/indexing of incoming faxes. Within th
 ![](./incoming-file-fax-q.assets/36d38f98c8cb89c301528927c42f8f0f.png)
 
 3. If a user hovers over the summary information, a set of shortcut icons appear. The icons coincide with the grid options that display at the bottom of the File Queue. Here is what each icon does:
-    a.  <strong>Edit</strong>: Edit the Category, Recipient number or subject
+
+* <strong>Edit (Pencil Icon)</strong>: Edit the Category, Recipient number or subject
 
 ![](./incoming-file-fax-q.assets/a94ce4a135b95c802fc3b2e43eedefff.png)
 
-    b.  <strong>Send:</strong> Send to a different recipient/department
+* <strong>Send (Filled Circle w/ Exclamation Point Icon):</strong> Send to a different recipient/department
 
 ![](./incoming-file-fax-q.assets/eef6a1109115f60101f717d39704b7b1.png)
 
-    c.  <strong>Delete:</strong> Delete from the fax queue
+* <strong>Delete (Trash Can Icon):</strong> Delete from the fax queue
 
 ![](./incoming-file-fax-q.assets/f73d402b49dd47b35c81a8989ff97c9a.png)
 
-    d.  <strong>Undelete:</strong> Undelete from the fax queue
+* <strong>Undelete (Filled Circle w/ Exclamation Point Icon):</strong> Undelete from the fax queue
 
 ![](./incoming-file-fax-q.assets/eef6a1109115f60101f717d39704b7b1.png)
 
-    e.  <strong>Task:</strong> Task the document to a department or user within the system
+* <strong>Task (Pad w/ Checkmark Icon):</strong> Task the document to a department or user within the system
 
 ![](./incoming-file-fax-q.assets/13db069b0778bb9e3054bd355a1381e0.png)
 
-    f.  <strong>Create Batch:</strong> Create a batch
+* <strong>Create Batch (Plus Sign Icon):</strong> Create a batch
 
 ![](./incoming-file-fax-q.assets/1de0d24436125e0bfd332bb1e1150685.png)
 
-    g.  <strong>Create & Index:</strong> Create a batch and immediately index the document(s)
+* <strong>Create & Index (Plus Sign Icon):</strong> Create a batch and immediately index the document(s)
 
 ![](./incoming-file-fax-q.assets/1de0d24436125e0bfd332bb1e1150685.png)
 
