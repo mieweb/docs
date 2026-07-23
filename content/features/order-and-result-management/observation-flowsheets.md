@@ -1,9 +1,9 @@
 ---
 id: '15JYECf24zEJLUoOZ9IeFZmQI2nc5yl8_dwpKAKGbIyY'
 title: 'Observation Flowsheets'
-date: '2025-06-09T16:17:00.974Z'
-version: 640
-lastAuthor: 'jwagoner'
+date: '2026-07-23T15:23:07.488Z'
+version: 657
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/order-and-result-management/flowsheets-editor/'
@@ -165,6 +165,10 @@ The order item (named same as the flowsheet) must have a Layout field set. In th
 * <strong>Obs Procedure:</strong> This is used for a series of observations made in a specific order where each will be date/time stamped for the result. Each observation that composes the flowsheet will be its own row. Each observation row will also have its own observed date/time in the ‘completed' column. This is the date/time to denote a date/time for when that observation value was resulted/observed. Using the <em>Obs Procedure</em> layout on a flowsheet allows different date/time stamps on observed values. Each observation row has its own observed date/time that can be set. Use cases: surgical procedure documentation; anesthesia record, etc. The "All Normals" checkbox in flowsheets only appears if an observation(s) contains a target set on the specific observation
 
 ![](./observation-flowsheets.assets/1d8d11d5dd6c547be3d5e755a7c7424f.png)
+
+{{% note %}}
+If the Date of Service on a Flowsheet Document is updated, the date/time of the observations within the document will be updated to match.
+{{% /note %}}
 
 * <strong>Obs Series:</strong> This is used for keying in results in a rapid fire method and has only one date/time stamp that gets applied to all resulted observations in the flowsheet. The date/time stamp noted is the observed date/time that will be applied to all the multiple observations in that flowsheet. The observations value fields are also listed in a quick sequence (left to right) for a user to quickly key in values. Other details (such as range, flag, units, comments, etc) are stripped off to allow a user to quickly key in results only. Upon ‘save' of the flowsheet section, the list view would show the details such as range, flag, units, etc). Use cases: notes type flowsheet; collecting a series of vitals (multiple BP's), etc.
 
