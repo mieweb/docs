@@ -1,9 +1,9 @@
 ---
 id: '1kEF-RWvZOJqe2pD7lr3XpwNbP73D0X8SXsRjGm4T-SA'
 title: 'Make Order Feature - Encounter Plan Section'
-date: '2026-02-05T19:37:44.658Z'
-version: 336
-lastAuthor: 'anichols'
+date: '2026-07-23T14:48:05.278Z'
+version: 346
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - '../system-administration/system-controls/encounter-types.md'
@@ -29,7 +29,7 @@ NOTE: The preconfigured Order Picklist categories that display as an ‘Add Refe
 
 Once you select a referral category (ex: Imaging), a pop-up window to Create Requisition will display where you can select specific items to order in one requisition and fill out order details.  Upon save, this will create an order requisition document that can be shared (printed, faxed, etc) and tracked to completion of results being received back.
 
-![](./make-order-feature-encounter-plan-section.assets/dd36a314f8ebe1a872d80b45811d46a8.png)
+![](./make-order-feature-encounter-plan-section.assets/601cb6d6b46f686f96d730349d219c53.png)
 
 ### Required Fields - System Settings
 
@@ -48,16 +48,16 @@ In the *Create Order Requisition* pop-up, you must select and enter the fields a
 
 ### Ordering Provider section
 
-![](./make-order-feature-encounter-plan-section.assets/69b80bda69414ee5a3a0227900311cf7.png)
+![](./make-order-feature-encounter-plan-section.assets/a982e13327192e6fa282fff2a9850e40.png)
 
 * <strong>Provider:</strong> This is a <strong>required field</strong>.  Select the Ordering Provider by using the drop-down arrow to select the provider that is ordering this. The ordering provider field for the order prepopulates the same name as the performing provider on the encounter. If no performing provider has been set on the encounter, the ordering provider field defaults to the user's MY SETTINGS preference of ‘Ordering Physician' if that has been set.
 * <strong>Location:</strong> This is a <strong>required field</strong>.  Select the order provider's location that this order is being requested from.  The layout can be modified by MIE so that the location of this Order Requisition screen offers all locations in your system, or perhaps to only show outside locations or display no outside location choices. The setting is -1 for all, 1 for just outside, 0 for no outside. Please contact your MIE support contact for this change.This field also prepopulates the order location default you have set for yourself in MY SETTINGS.
-* <strong>Status:</strong> Defaults to pending, signifying this is an open pending order request to have performed and resulted. However, you can change the status (example if editing an order request and now need to cancel it etc.)
+* <strong>Category:</strong> Defaults to pending, signifying this is an open pending order request to have performed and resulted. However, you can change the category (example if editing an order request and now need to cancel it etc.).
 * <strong>Save As:</strong> The document name the order requisition should store as in the chart once saved/generated.
 
 ### Regarding section
 
-![](./make-order-feature-encounter-plan-section.assets/c6f51682681c417878961a2d2f35cf7f.png)
+![](./make-order-feature-encounter-plan-section.assets/a81611de3cc848a2aa81c370d1cd0201.png)
 
 * <strong>Chart Name/DOB/MR#:</strong> Displays legal name, preferred name, DOB and chart MR#
     * If the chart has more than one MR#, a drop-down for MR# will display, where you can select the specific MR# to signify on the order requisition
