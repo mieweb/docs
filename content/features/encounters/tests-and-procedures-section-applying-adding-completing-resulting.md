@@ -1,8 +1,8 @@
 ---
 id: '1Ez2ziyzijOzWetkwbXonqkaJLt29prUDh4KTIApsbZA'
 title: 'Tests & Procedures Section - Applying/Adding, Completing, Resulting'
-date: '2026-07-21T18:09:32.930Z'
-version: 219
+date: '2026-07-23T12:55:21.307Z'
+version: 228
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -120,7 +120,7 @@ A System Setting is available to show/hide SNOMED procedures. The System Setting
 
 
 
-![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/2df33068f387c664e8563d4f7c46b357.png)
+![](./tests-and-procedures-section-applying-adding-completing-resulting.assets/8c19bee0b386accfa66238e00092d693.png)
 
 
 
