@@ -1,9 +1,9 @@
 ---
 id: '1YXoK4YEcfupQDQQrPlaqPjDkB4CLhiJER9sF4pGuwGc'
 title: 'Print/Fax/Transmit Prescriptions'
-date: '2026-01-16T21:03:01.049Z'
-version: 171
-lastAuthor: 'anichols'
+date: '2026-07-24T16:03:51.233Z'
+version: 182
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/setting-up-e-prescribers/'
@@ -101,9 +101,11 @@ Even though the pharmacy you selected is e-send capable, doesn't mean that you a
 
 ![](./print-fax-transmit-prescriptions.assets/76dec8bb7fd116c946662bd285072e43.jpg)
 
-To see if the script was printed, faxed or electronically transmitted (e-sent), you can go into the patient's medication history to view how it went. (See instructions on page 7 below)
+To see if the script was printed, faxed or electronically transmitted (e-sent), you can go into the patient's medication history to view how it went. (See instructions below)
 
-Patients with a non-US address previously could not have E-prescriptions routed through SureScripts. One workaround some practices used was to temporarily change the patient demographics to be the state and zip code of the practice temporarily. A new system setting now exists to make this possible without having to change the demographics. The setting name is "E-Chart", "SureScripts", "State,Zip for non-US patients", and should contain the two letter state abbreviation followed by a comma and a 5-digit zip code, if a client wants to use this behavior and see's patients that live in other countries and their demographics tab reflects that (ex: Canada).
+A System Setting has been created to allow the patient's SSN to be used as the patient ID when submitting a prescription to a pharmacy. The setting can be enabled within System Setting under "E-Chart", "SureScripts", "Use SSN for Patient Identification". By default, this setting is disabled.
+
+Patients with a non-US address previously could not have E-prescriptions routed through SureScripts. One workaround some practices used was to temporarily change the patient demographics to be the state and zip code of the practice temporarily. A new system setting now exists to make this possible without having to change the demographics. The setting name is "E-Chart", "SureScripts", "State,Zip for non-US patients", and should contain the two letter state abbreviation followed by a comma and a 5-digit zip code, if a client wants to use this behavior and sees patients that live in other countries and their demographics tab reflects that (ex: Canada).
 
 ### Fax Preview Mode
 
