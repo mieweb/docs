@@ -1,8 +1,8 @@
 ---
 id: '1A7oWwntZCZcpM4fYviTX7-qcxJy3D1xh_2Ocwsfs6dQ'
 title: 'Financials'
-date: '2026-07-22T12:56:49.122Z'
-version: 304
+date: '2026-07-24T15:00:10.943Z'
+version: 319
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -63,6 +63,12 @@ An *Add Charge* pop-up window will display.
 * Memo: can add an optional memo as free text
 
 Select the SAVE button to save the charge.  The charge details will then reflect within the Financials encounter section.
+
+{{% note %}}
+When editing the charge details of an encounter deal for an Employer Organization and the currently saved funding source isn't found in the funding source drop-down, a banner alert will be displayed directly underneath it to alert the user that choosing a new funding source is needed.
+
+![](./financials.assets/18097ff6cff5962a2c7772f36f1c3ea5.png)
+{{% /note %}}
 
 ### Add a Payment
 
