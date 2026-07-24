@@ -1,8 +1,8 @@
 ---
 id: '1BgYYBVmzixW46iKX9fjTfkvdPDy8cW0HnhrShpgMiQI'
 title: 'Preventive Care Portlet'
-date: '2025-02-17T18:46:07.012Z'
-version: 88
+date: '2026-07-24T17:52:11.614Z'
+version: 94
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -38,6 +38,8 @@ You can manage (update) and enter in dates for these Preventive Care screenings 
 The patient could have an office visit and you ask when their last mammogram was and they say 1989, so you enter that. Then you order a mammogram and the mammogram report comes into your system thru some method and is stored as doc.type MAMMO so, the *last documented in patient record* of an actual mammogram report document you have is shown with the date of service of the document. Then when the patient comes back in, you can update the ‘completed date'.
 
 This Preventive Care portlet can also be added as a section in your encounters for documenting there also and help with meaningful use measures.
+
+For systems on RC202403 and newer, the Preventive Care section now respects gender and age rules when displaying suggested orders. For example, only female charts would now display Mammograms as a suggested preventive care order.
 
 ## Doc.Types for Last Documented in Patient Record Column
 
