@@ -1,8 +1,8 @@
 ---
 id: '1AaUA4udtUH_f1fqh8lEkGP4Zssm4tYIAr0DwY4EcZnU'
 title: 'Incoming File/Fax Q'
-date: '2026-07-22T14:02:49.806Z'
-version: 620
+date: '2026-07-24T13:47:51.404Z'
+version: 630
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -96,7 +96,7 @@ The Incoming File/Fax Q allows for viewing/indexing of incoming faxes. Within th
 
 3. Add a <em>Category</em> description to group by a recipient group/department or other identifier (which allows for filtering within the file queue), instead of remembering a specific number to filter by. Select the <em>Recipient</em> from the drop down and click the "Save" button.
 
-![](./incoming-file-fax-q.assets/e75f5c175ae10f37b82cd18c193fa997.png)
+![](./incoming-file-fax-q.assets/708b7980042a02b8094acd8f949edfbd.png)
 
 ### Mappings
 
@@ -110,7 +110,7 @@ The Incoming File/Fax Q allows for viewing/indexing of incoming faxes. Within th
 
 3. Select a <em>Recipient</em> or add a recipient and then select the department that will be mapped. Click the "Save" button.
 
-![](./incoming-file-fax-q.assets/5949f46e950bd28fad5787273297cf2c.png)
+![](./incoming-file-fax-q.assets/aa42f97b75c0e261e78b275dc272b382.png)
 
 ### Grid Options
 
@@ -122,8 +122,6 @@ The Incoming File/Fax Q allows for viewing/indexing of incoming faxes. Within th
 
 2. Select a <em>Category</em> and <em>Recipient</em> (file) to move between the two areas, if one needs to be updated. The Subject can also be added/changed. Click the "Save" button.
 
-![](./incoming-file-fax-q.assets/90561ecf9e399dc4997eb08b7a003f2b.png)
-
 **Send**
 
 1. Click "Send" button to send the file to another user or department
@@ -131,8 +129,6 @@ The Incoming File/Fax Q allows for viewing/indexing of incoming faxes. Within th
 ![](./incoming-file-fax-q.assets/0cdf791ba8835da84232ae5fc3382d65.png)
 
 2. Select a <em>Recipient</em> to send the file to. Click the "Send" button.
-
-![](./incoming-file-fax-q.assets/20fdee72b97b20356c1b38b8f1324b39.png)
 
 **Delete/Undelete**
 
