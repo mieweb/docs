@@ -2,7 +2,7 @@
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
 date: '2026-07-27T18:19:02.532Z'
-version: 800
+version: 804
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
