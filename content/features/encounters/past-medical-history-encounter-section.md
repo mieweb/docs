@@ -1,8 +1,8 @@
 ---
 id: '1Jm4Y0M0Kraqd3Yi4Y8jMYCP7ll3SF-6WsqplmyODDzU'
 title: 'Past Medical History Encounter Section'
-date: '2026-03-17T18:24:52.447Z'
-version: 792
+date: '2026-07-27T18:19:02.532Z'
+version: 800
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -120,6 +120,10 @@ Or simply click the "+" icon and begin typing the condition in the *Add Conditio
 Click the "double arrow up or down" icons to open/close all Quick List items in the Past Medical History all at once. Or the "single arrow up or down" to open or close each individual Quick List section of the Past Medical History.
 
 ![](./past-medical-history-encounter-section.assets/4779bb61556488d70ed87948bba6e499.png)
+
+{{% note %}}
+For systems on RC202503 and newer, the autocomplete when adding a condition is now translatable. The translations will display in the user's preferred language which is set within My Settings.
+{{% /note %}}
 
 ### Problem List Quick List
 
