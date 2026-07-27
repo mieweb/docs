@@ -1,8 +1,8 @@
 ---
 id: '1d7e4nsFGmB2IUXs72YCt7AYAlYGY_S2M7s8SfnQsy3A'
 title: 'Scheduler Guided Template'
-date: '2025-09-11T15:01:48.066Z'
-version: 185
+date: '2026-07-27T15:23:02.828Z'
+version: 197
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:
@@ -31,131 +31,21 @@ To get to the guided templates step by step ability to configure a schedule, sim
 
 ![](./scheduler-guided-template.assets/29f2f5eec765da2b5780b03582a8b7b2.png)
 
-### Question 1: What would you like to do?
+The Guided Template functionality (within the building of schedules) delivers a modern, streamlined guided step-by-step experience in desktop and mobile views to help guide creation of time templating (schedules).
 
-![](./scheduler-guided-template.assets/93b8ad3a4fa38e7ed8d5e9a4b2158491.png)
+Using this step-by-step method provides pop-up templated guide with explanations of each step, and enhanced visual cues to support faster data entry to build a schedule for the system. Existing capabilities—such as manually creating a schedule using the ‘add' method—continue to function as they do today.
 
-Option 1: **Allow** - Allow appointments to be scheduled during a designated time.
+![](./scheduler-guided-template.assets/637a3d8ffc4fcbd3147fa74981e8742f.png)
 
-Option 2: **Block** - Block anyone from scheduling an appointment during a designated Time. IE vacation, lunch, etc.
+### System Settings
 
-#### Option 1 Path: Allow
+A system setting *Block Guided Schedule Setup Appointment Types* is available that interoperates with the Guided Template step-by-step feature.  This system setting allows superadmin users to additionally configure any specific appointment types (in the system) that need to be allowed for reasons for setting up a blocked schedule.  The out of the box product comes with a default set of appointment types for most common reasons to need to block a schedule (ex: for lunch block, for holidays, for meetings, etc) but this system setting allows a superadmin user to additionally configure specific appt type codes to also be allowed for blocking a schedule per system need.
 
-If **Allow** is selected: the user is prompted with "Should this happen repeatedly?" Yes/No
+![](./scheduler-guided-template.assets/6c03559db2019b1c53dee2307d9db268.png)
 
-![](./scheduler-guided-template.assets/a37588696a535eddfadb75b14696cfca.png)
+Any appointment type codes set in the system setting, will then be available for selection within the Guided Template step-by-step functionality, within the reason for needing to block appointments for a schedule being built.
 
-#### Should this happen repeatedly? Yes
-
-If Yes, then enter the occurrence from the options available.  (If no, see more instructions below for that option to proceed through)
-
-![](./scheduler-guided-template.assets/d89322fe08f8157a3240878a39892391.png)
-
-Then enter the date this should start and the time frame of the scheduled template.
-
-![](./scheduler-guided-template.assets/41e6d89422881e93cc9bd7d06d5c91f5.png)
-
-Select the location for this schedule to be for:
-
-![](./scheduler-guided-template.assets/adbcca47c68ec22206565704ca7253ba.png)
-
-Select the Resource/Provider that the schedule is for, from the autocomplete:
-
-![](./scheduler-guided-template.assets/23cf8380f895f1b9652aad03c2f854da.png)
-
-If schedules already occur for the current provider/locations and times selected, a list of schedules will display. The system is alerting you of existing schedules that you may want to view (to ensure you indeed want to proceed to add your new schedule to the system) or to edit an existing schedule.
-
-Users may click the View Day hyperlink or the Edit Sched (Edit Schedules) hyperlink to edit/modify the existing schedule. If this new schedule is still needed, then click the Next button to proceed.
-
-![](./scheduler-guided-template.assets/1e59fc636a607e6dc0f496b3b4c9c5ef.png)
-
-Certain appointment types can be required on a schedule, so that other types of appointments cannot be scheduled during that time and only appointment types ‘required' can be scheduled within the schedule.
-
-![](./scheduler-guided-template.assets/bc66c162650e6734d06ded8f7694b212.png)
-
-If Yes, select an appointment type from the autocomplete.
-
-![](./scheduler-guided-template.assets/081bb5b6f77db603eb6db23018ca7a5c.png)
-
-If no, the user will be taken to the autocomplete to select from a list of all appointment types allowed to the schedule but are not required for the schedule to exist.
-
-![](./scheduler-guided-template.assets/8872efa28fc1f0b7daf21fbd4ba10f31.png)
-
-If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes.  If you do not want portal users to be able to self schedule for this schedule, select No.
-
-![](./scheduler-guided-template.assets/44decd6286dd36f4c017ec59ee432121.png)
-
-If Yes, then checkmark which appointment types portal users should be able to self schedule.
-
-![](./scheduler-guided-template.assets/d483916307b9ddd2888c76383a3f1613.png)
-
-Set the number of appointments that should be able to be on per time slot for the schedule.
-
-![](./scheduler-guided-template.assets/0a79e5735c9b4b9534ce13386351f723.png)
-
-Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up.  Color choices use HEX color codes.
-
-![](./scheduler-guided-template.assets/2efbda02f54b34b94842ac64f06cb7c8.png)
-
-Once the schedule is saved, you will get a successful message to click OK through.
-
-![](./scheduler-guided-template.assets/cc0acc550ec38a4ed71cf641b0f0d6f9.png)
-
-If No,
-
-#### Should this happen repeatedly? No
-
-![](./scheduler-guided-template.assets/a37588696a535eddfadb75b14696cfca.png)
-
-If No, enter the specific date and time frame for the non-repeating schedule.
-
-![](./scheduler-guided-template.assets/b1647946a92da7b6f6fde485978c4424.png)
-
-Select the location for this schedule to be for:
-
-![](./scheduler-guided-template.assets/adbcca47c68ec22206565704ca7253ba.png)
-
-Select the Resource/Provider that the schedule is for, from the autocomplete:
-
-![](./scheduler-guided-template.assets/23cf8380f895f1b9652aad03c2f854da.png)
-
-If schedules already occur for the current provider/locations and times selected, a list of schedules will display. The system is alerting you of existing schedules that you may want to view (to ensure you indeed want to proceed to add your new schedule to the system) or to edit an existing schedule.
-
-Users may click the View Day hyperlink or the Edit Sched (Edit Schedules) hyperlink to edit/modify the existing schedule. If this new schedule is still needed, then click the Next button to proceed.
-
-![](./scheduler-guided-template.assets/1e59fc636a607e6dc0f496b3b4c9c5ef.png)
-
-Certain appointment types can be required on a schedule, so that other types of appointments cannot be scheduled during that time and only appointment types ‘required' can be scheduled within the schedule.
-
-![](./scheduler-guided-template.assets/bc66c162650e6734d06ded8f7694b212.png)
-
-If Yes, select an appointment type from the autocomplete.
-
-![](./scheduler-guided-template.assets/081bb5b6f77db603eb6db23018ca7a5c.png)
-
-If no, the user will be taken to the autocomplete to select from a list of all appointment types allowed to the schedule but are not required for the schedule to exist.
-
-![](./scheduler-guided-template.assets/8872efa28fc1f0b7daf21fbd4ba10f31.png)
-
-If you want to allow portal users to be able to self schedule specific appointment types (allowed on this schedule) from the portal, click Yes.  If you do not want portal users to be able to self schedule for this schedule, select No.
-
-![](./scheduler-guided-template.assets/44decd6286dd36f4c017ec59ee432121.png)
-
-If Yes, then checkmark which appointment types portal users should be able to self schedule.
-
-![](./scheduler-guided-template.assets/d483916307b9ddd2888c76383a3f1613.png)
-
-Set the number of appointments that should be able to be on per time slot for the schedule.
-
-![](./scheduler-guided-template.assets/0a79e5735c9b4b9534ce13386351f723.png)
-
-Schedules can be color coded for easy visibility when looking at a Scheduler view. You can set a color for the specific schedule being set up.  Color choices use HEX color codes.
-
-![](./scheduler-guided-template.assets/2efbda02f54b34b94842ac64f06cb7c8.png)
-
-Once the schedule is saved, you will get a successful message to click OK through.
-
-![](./scheduler-guided-template.assets/cc0acc550ec38a4ed71cf641b0f0d6f9.png)
+![](./scheduler-guided-template.assets/2bdefec92aacc363ef6ca47848967efc.png)
 
 ## Learning Management System
 
