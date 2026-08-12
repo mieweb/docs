@@ -1,8 +1,8 @@
 ---
 id: '1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
 title: 'Compare Security Roles'
-date: '2025-06-20T15:34:04.627Z'
-version: 113
+date: '2026-08-12T15:01:19.250Z'
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,13 +10,13 @@ links:
 source: 'https://drive.google.com/open?id=1DFDthKvl-iaNZmubDGL_exlWTRn_hHElIjEOUqWKoQo'
 wikigdrive: 'v2.16.0'
 ---
-Click *Control* tab from left sidebar menu.
+Click *Control Panel* from left sidebar menu.
 
-Click *Security Role Editor* tab from top menu.
+Click *Security Roles* tab from the left side menu.
 
 Click the Compare Roles link found at the top right corner. This allows you to compare security roles and each individual security setting that each may have. If you need to audit security or configure a new security role, you can work on all your roles at the same time while you compare them.
 
-![](./compare-security-roles.assets/cc4e88e27305fb0b2b5211b1d0d33061.png)
+![](./compare-security-roles.assets/a08e39f7932e4a37848d170879d5319e.png)
 
 It displays (reports) on the security settings, values and security roles along with the # of users that are tied to each specific security role.
 
