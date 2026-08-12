@@ -1,8 +1,8 @@
 ---
 id: '1nbrqEDJP6jVQWzJ_-Q19MwiqfpezPnjjVGAPVgfDL7I'
 title: 'Scheduler Views'
-date: '2026-04-24T19:38:04.671Z'
-version: 209
+date: '2026-08-12T14:24:46.095Z'
+version: 222
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -113,6 +113,10 @@ It will open to today's date in the Scheduler. If you wish to view a different d
 
 To add an appointment from this view click on the yellow time slot on the left side you wish to reserve. It automatically pops into **WIZARD**. Follow **Wizard** instructions to continue adding an appt.
 
+For users on RC202509 and newer, there is a count of appointments that display next to the scheduling resource.
+
+![](./scheduler-views.assets/dafb1549ecd8a501a8cc819bacd1c24c.png)
+
 ### Displays/Options at Bottom of Multi-View
 
 If you scroll all the way down to the bottom of this screen view, you will see the categories that display any
@@ -150,6 +154,10 @@ The view will also show under the resource name _*/*_ (example 2/10) meaning it 
 To add an appointment from this view click on the yellow time slot on the left side you wish to reserve.
 
 It automatically pops you into **WIZARD**.
+
+For users on RC202509 and newer, an appointment count displays next to the scheduling resource for each day of the week.
+
+![](./scheduler-views.assets/54c73f6231cda3555f283e0e429af6e1.png)
 
 ### Displays/Options at Bottom of Week View
 
