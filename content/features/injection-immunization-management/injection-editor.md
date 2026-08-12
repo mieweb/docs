@@ -1,8 +1,8 @@
 ---
 id: '184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 title: 'Injection Editor'
-date: '2026-08-12T16:42:40.101Z'
-version: 134
+date: '2026-08-12T17:18:26.172Z'
+version: 141
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -11,15 +11,15 @@ links:
 source: 'https://drive.google.com/open?id=184cEFR0ZGXqOKRMfcjRH0NFDEQg5mJ9SWlnOiPPOnUs'
 wikigdrive: 'v2.16.0'
 ---
-If you have security to manage injection codes, you will be able to access the Injections Editor tab.
+If you have security to manage injection codes, you will be able to access the Injection Editor tab.
 
-The Injections Editor tab is located in the sidemenu tab named Control.
+The Injection Editor tab is located in the sidemenu tab named Control Panel.
 
 This is where you see a master set of CDC injection names that, for example, the injection/immunization module points to when doing searches/auto-completes for injections/immunizations. The CDC provides a mapping from their CVX injection codes to CPT codes. Some practices are concerned about certain injections in their injection auto-completes, so this editor can be used to either hide some of these or rename them to suit the practice.
 
-Users with security access can 'rename' injections as they wish for their practice and those injections they renamed  will show up with that new name in the auto-complete of, for example, the injections module. In the background, {{% system-name %}} always keeps the original CDC injection name even when the injection has been renamed. Individual clients can manage what shows up in their injection auto-completes by using this Injection Editor.  A user with security can also 'hide' an injection name in this editor. Users with security cannot delete injections from the editor, but you can mark the ones the practice wants hidden. If you hide an injection name, that injection name will not show up in the injection module auto-completes.
+Users with security access can 'rename' injections as they wish for their practice and those injections they renamed  will show up with that new name in the auto-complete of, for example, the injections module. In the background, {{% system-name %}} always keeps the original CDC injection name even when the injection has been renamed. Individual clients can manage what shows up in their injection auto-completes by using this Injection Editor. A user with security can also 'hide' an injection name in this editor. Users with security cannot delete injections from the editor, but you can mark the ones the practice wants hidden. If you hide an injection name, that injection name will not show up in the injection module auto-completes.
 
-Any changes done in the Injection Editor affect an injection auto-complete such as the add injection module in a patient's chart.  Any injection marked as ‘hidden' in the injection editor will not show up in these types of auto-completes.  Any injection ‘renamed' in the injection editor will show/display as that in these types of auto-completes during a search or display.
+Any changes done in the Injection Editor affect an injection auto-complete such as the add injection module in a patient's chart. Any injection marked as ‘hidden' in the injection editor will not show up in these types of auto-completes.  Any injection ‘renamed' in the injection editor will show/display as that in these types of auto-completes during a search or display.
 
 ![](./injection-editor.assets/6f22a0435f605ab1ca2c3e28a0e4b101.png)
 
@@ -75,7 +75,7 @@ It will open that injection detail box.  Simply change/edit/correct the display
 
 We suggest not renaming injections to ‘brand names'.  Example: Boostrix is just a brand name for Tdap.  {{% system-name %}} has Tdap in the list.  We advise against renaming injections in this way to suit the individual practice's pattern of injecting because it makes it impossible to add a historical record with the brand name NOT specified (ex: just Tdap).  What this means is, just because a practice always injects for Tdap is Boostrix, that doesn't mean that every patient they see has only had Boostrix for their Tdap (from other records/other practices).  In some cases, it may be that there is currently only one brand name, but that doesn't mean it will be that way forever.  We suggest to keep referring to injections generically.
 
-CDC CVX Codes
+## CDC CVX Codes
 
 At the bottom of the Injection Code Editor, there is a link to the CDC CVX Code Library. This can be used as a reference guide for the CVX codes that are listed next to each vaccine. The CDC CVX Codes Library is also available within the Control Panel under the References tab.
 
