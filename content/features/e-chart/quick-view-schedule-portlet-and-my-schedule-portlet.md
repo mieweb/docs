@@ -1,8 +1,8 @@
 ---
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet and My Schedule Portlet'
-date: '2026-04-09T17:22:14.037Z'
-version: 142
+date: '2026-08-12T13:26:16.566Z'
+version: 150
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -72,6 +72,10 @@ Each appointment listed on the schedule shows details, allows interoperable func
 **Location**: Displays the location at which the appointment was scheduled.
 
 **Comment**: Displays any appointment comments entered on the appointment at the time of scheduling.
+
+For users on RC202509 and newer, an additional field has been added to the Schedule Portlet for appointment counts. Once a Resource is selected, the appointment counts for the day will display on the far right hand side of the portlet.
+
+![](./quick-view-schedule-portlet-and-my-schedule-portlet.assets/e419da484cd7e0dec62b5b90cb1e2a39.png)
 
 ## My Schedule Portlet
 
