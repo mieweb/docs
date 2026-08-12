@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2026-03-12T13:39:07.490Z'
-version: 667
+date: '2026-08-12T15:21:11.918Z'
+version: 714
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,15 +19,15 @@ Review user security settings for individual users or role based needing access 
 
 ### For All Users in a specific Security Role
 
-Click the Control Panel tab from the left sidebar menu.
+Click the *Control** Panel* tab from the left sidebar menu.
 
-Click Access Control, then Security Roles tab from top menu.
+Click *Access*, then *Security Role**s* tab from top menu.
 
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
-![](./security-role-settings.assets/6bfc3187734d1b54d9b6aa5f15f78d88.png)
+![](./security-role-settings.assets/1f6c226b94e4707da4b6ce3c03692be2.png)
 
-At the top it will display which security role you are in for editing.  It also states the number of current users in this role. Click the view revision history for … to view revisions previously done to this security role.  This opens up a new window and you can search for revision details.  This is also the same link named Revisions that is provided in the prior listing of security roles options column.
+At the top it will display which security role you are in for editing.  It also states the number of current users in this role. Click the view revision history for … to view revisions previously done to this security role. This opens up a new window and you can search for revision details.  This is also the same link named Revisions that is provided in the prior listing of security roles options column.
 
 Change any security settings by using the drop-down arrow in the field(s).
 
@@ -37,11 +37,15 @@ Security setting changes being made to the security role here, affect every user
 
 ![](./security-role-settings.assets/c3daeb2c995b4eacd325ac0900578547.png)
 
-When finished changing any security settings for the entire role, scroll down to the bottom of this security role edit screen.  At the very bottom there is a text field where you are required to type in the reason for the security permission change(s).  You have to type something in here or it will not save your edits.  Then, click the Update Individual Security button below that.  It then saves these security settings for this individual user only.  These changes do not affect the entire security role, just this individual user.
+When finished changing any security settings for the entire role, scroll down to the bottom of this security role edit screen.  At the very bottom there is a text field where you are required to type in the reason for the security permission change(s). You have to type something in here or it will not save your edits. Then, click the Update Individual Security button below that.  It then saves these security settings for this individual user only. These changes do not affect the entire security role, just this individual user.
 
 ![](./security-role-settings.assets/3a5209e5d779022c2ae4960ac2d8302e.png)
 
-You will then get a confirmation message that you successfully edited/updated that entire security role.   You can select another security role department to change or continue to work in {{% system-name %}} .
+You will then get a confirmation message that you successfully edited/updated that entire security role. You can select another security role department to change or continue to work in {{% system-name %}} .
+
+To create a new security role that is similar to one that already exists, click Copy for the similar role that exists. Add the new Security Role Name and a Security Role Description, if applicable. Click the Add Role button when finished.
+
+![](./security-role-settings.assets/875863856e384f73a16c18cbb2ad6946.png)
 
 ### For Individual Users
 
