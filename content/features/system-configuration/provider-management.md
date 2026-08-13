@@ -1,9 +1,9 @@
 ---
 id: '1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
 title: 'Provider Management'
-date: '2026-03-05T16:29:36.618Z'
-version: 99
-lastAuthor: 'auhrick'
+date: '2026-08-13T12:36:32.563Z'
+version: 114
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
@@ -50,6 +50,12 @@ Select the **Add New Provider Organization** link on the right hand side of the 
 The user will automatically be directed to the Provider Organization chart where optional information can be added regarding the provider organization.
 
 ![](./provider-management.assets/d5c99faeb848b51d4244f319d5deaf71.png)
+
+## Provider Organization
+
+The Provider Organization section is used for documenting an organization's NPI, Name, Partition, Addresses, Phone Numbers, Office Hours, and Access Instructions. There are also fields that drive functionality - Walk Ins Accepted, Referrable Entity, Referral Quick List, Network Status and Fee Schedule.
+
+![](./provider-management.assets/edbd611b8a22e18788f255f7a6e64846.png)
 
 ## Managing Provider Services/Service Plans
 
