@@ -2,7 +2,7 @@
 id: '1Aa7kx1XgPBNXILi0yKOr9E5ljqBSXA2J9wMiSQkFzhU'
 title: 'Ozwell AI - Ambient Scribe'
 date: '2026-06-09T18:52:54.529Z'
-version: 139
+version: 140
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

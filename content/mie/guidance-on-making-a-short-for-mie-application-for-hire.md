@@ -1,9 +1,8 @@
 ---
 id: '1HCfdAVILhCf0wwY-7q4thsX7Mu0W8ukYiFoYh08JnSs'
 title: 'Guidance on making a short for MIE application for hire'
-date: '2025-09-26T07:24:55.259Z'
-version: 477
-lastAuthor: 'horner'
+date: '2026-04-26T14:31:13.928Z'
+version: 585
 mimeType: 'text/x-markdown'
 links:
   - 'https://youtube.com/shorts/34Rwia4ovY8?si=agJlNGwLQ7NgsGwb'

@@ -2,7 +2,7 @@
 id: '12Y5YTjAhYq37QogQRVfqTyRs8eYcXqQ4Mt1JAScJmO4'
 title: 'Ozwell AI - Encounter Integrations'
 date: '2026-06-09T18:53:26.920Z'
-version: 78
+version: 81
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

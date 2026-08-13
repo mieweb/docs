@@ -2,7 +2,7 @@
 id: '1GGpjDb75a4BhQyJSPnKMMiY1SOrNc00QJK_O2F-oDZM'
 title: 'Ozwell pDSI Source Attributes'
 date: '2026-06-11T16:55:17.916Z'
-version: 68
+version: 69
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

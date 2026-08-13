@@ -2,7 +2,7 @@
 id: '1_JdA1GExxNQj06BKXnWLZneP1jd5A8UWun2kLvKsLO4'
 title: 'Encounter Types'
 date: '2026-07-22T12:38:40.685Z'
-version: 245
+version: 247
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

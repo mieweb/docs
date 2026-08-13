@@ -2,7 +2,7 @@
 id: '12C8MgZZu8_VPjTORvDnkQX9xo322BsszxsyWjTAuemY'
 title: 'Encounter Section'
 date: '2026-03-17T18:22:12.115Z'
-version: 127
+version: 131
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

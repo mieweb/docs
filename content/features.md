@@ -2,7 +2,7 @@
 id: '1E0DKcCJjdeSPf_YjJUF7pMO72HzWYbsLw3cEmdGW5g0'
 title: 'Features'
 date: '2026-02-04T17:07:04.347Z'
-version: 180
+version: 184
 lastAuthor: 'wreiske'
 mimeType: 'text/x-markdown'
 links: []

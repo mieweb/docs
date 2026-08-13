@@ -2,7 +2,7 @@
 id: '1BmGYx7kkuGX3mmqqS0Qp_3H7jy1TdfSMNWfl1qn51s0'
 title: 'Device Interface - Benson Audiometer'
 date: '2026-07-06T20:18:16.665Z'
-version: 775
+version: 792
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

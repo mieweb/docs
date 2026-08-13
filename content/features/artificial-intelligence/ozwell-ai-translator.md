@@ -2,7 +2,7 @@
 id: '1zqB8IjnG_PeBHvhzrAXhiJSlQwmTmbalj2eN1gZRrBQ'
 title: 'Ozwell AI - Translator'
 date: '2026-06-09T18:54:18.213Z'
-version: 105
+version: 106
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

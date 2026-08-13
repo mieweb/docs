@@ -2,7 +2,7 @@
 id: '1eC-md4obi6TAx6H-ZIPmjxxvy24MpNym_FPqzjvfR00'
 title: 'One-Time Password (OTP) Authentication without requiring an external device or application'
 date: '2025-11-08T13:54:43.673Z'
-version: 82
+version: 109
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

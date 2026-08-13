@@ -2,7 +2,7 @@
 id: '17ElkGUNZksP3Db7KXJB2g5lu0rbphqbpU0Et68P8Zko'
 title: 'Employer Portal Messages'
 date: '2026-06-03T19:00:16.981Z'
-version: 17
+version: 22
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []

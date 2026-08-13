@@ -2,7 +2,7 @@
 id: '1ixPq1Rc-mqNWYR-v4k0gqx9vq5cVxCGolwWVIjnntZ4'
 title: 'Interface Manager'
 date: '2026-07-27T17:39:56.792Z'
-version: 159
+version: 162
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -2,7 +2,7 @@
 id: '1kUr10Gkypu2y1hD48gN3ImkwmwkGdOS2nyBVOV4Uu_A'
 title: 'Ozwell AI - Overview'
 date: '2026-06-09T18:48:44.540Z'
-version: 72
+version: 73
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

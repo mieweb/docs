@@ -1,8 +1,8 @@
 ---
 id: '1zausDKbNiG2-4FVahwUDiLGFFIDjvAwyzxaqUm6dphw'
 title: 'Employer Portal Getting Started '
-date: '2026-06-05T19:12:39.339Z'
-version: 91
+date: '2026-06-05T19:12:42.301Z'
+version: 108
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:

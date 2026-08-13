@@ -1,9 +1,9 @@
 ---
 id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
 title: 'Device Interface - NDD EasyOne Connect vbase'
-date: '2025-12-04T15:54:11.358Z'
-version: 677
-lastAuthor: 'janderson'
+date: '2026-04-20T17:06:02.718Z'
+version: 878
+lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www.nddmed.com/en-us/product/easy-on-pc.html'
