@@ -1,9 +1,9 @@
 ---
 id: '1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
 title: 'Provider Management'
-date: '2026-08-13T12:36:32.563Z'
-version: 114
-lastAuthor: 'janderson'
+date: '2026-08-24T12:54:57.338Z'
+version: 153
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=1QBe4vrKi8pe2cLMbAEQKoUKC_kZpgecPjiUPejIpBog'
@@ -56,6 +56,12 @@ The user will automatically be directed to the Provider Organization chart where
 The Provider Organization section is used for documenting an organization's NPI, Name, Partition, Addresses, Phone Numbers, Office Hours, and Access Instructions. There are also fields that drive functionality - Walk Ins Accepted, Referrable Entity, Referral Quick List, Network Status and Fee Schedule.
 
 ![](./provider-management.assets/edbd611b8a22e18788f255f7a6e64846.png)
+
+## Managing Allowed Employers
+
+The Allowed Employer section should be completed if the Network Status of "Employer Exclusive" has been selected. "Employer Exclusive" indicates that this provider or provider organization can only be utilized by specific Employer groups and not available to all Employers.
+
+![](./provider-management.assets/b52d00753e5bb3baa4a02426b780751e.png)
 
 ## Managing Provider Services/Service Plans
 
