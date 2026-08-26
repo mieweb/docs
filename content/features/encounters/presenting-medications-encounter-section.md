@@ -1,8 +1,8 @@
 ---
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
-date: '2026-03-12T14:36:03.390Z'
-version: 191
+date: '2026-08-26T15:59:55.466Z'
+version: 202
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -78,11 +78,11 @@ Select this icon to add a task regarding this medication.
 ![](./presenting-medications-encounter-section.assets/27528ab1339b6d367381fe1acdd5fa22.png)
 
 ![](./presenting-medications-encounter-section.assets/c347ef7a0e85a3a6be84b0a14d4cc572.png)
- Select this icon to remove a medication from the presenting medication list. Medications must be marked as **Discontinued** or as an **Entry Error** when removing a medication from the presenting medication list. Users may also *Show All Details* regarding the medication. If the medication was prescribed from the system, additional information regarding the original prescription will display. Beginning on RC202409, when a Presenting Medication is added in the current encounter or on another encounter on the same day it is discontinued, the medication will now visually indicate that the medication was discontinued, but still continue to display on the presenting medication list.
+ Select this icon to remove a medication from the presenting medication list. Medications must be marked as **Discontinued**, **Discontinue & Remove**, or as an **Entry Error** when removing a medication from the presenting medication list. Users may also *Show All Details* regarding the medication. If the medication was prescribed from the system, additional information regarding the original prescription will display. Beginning on RC202409, when a Presenting Medication is added in the current encounter or on another encounter on the same day it is discontinued, the medication will now visually indicate that the medication was discontinued, but still continue to display on the presenting medication list.
 
-![](./presenting-medications-encounter-section.assets/5ad6ec47fe84cbf5487433f6af2c5262.png)
+![](./presenting-medications-encounter-section.assets/95ab1a30c2dfa9dc12e3eac382751293.png)
 
-![](./presenting-medications-encounter-section.assets/fe7a5776fe5cc2b59c28f2d6d6246605.png)
+![](./presenting-medications-encounter-section.assets/62ce739ab199f73829f3eabe162e406f.png)
 
 ![](./presenting-medications-encounter-section.assets/9dffcd6083676f247619db51d06f769a.png)
  Select the up/down arrow icon to reorder the presenting medication list by drop and drag.
