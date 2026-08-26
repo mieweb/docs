@@ -1,8 +1,8 @@
 ---
 id: '1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
 title: 'HTML Documents'
-date: '2026-07-20T18:05:29.009Z'
-version: 68
+date: '2026-08-26T16:35:03.542Z'
+version: 87
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -28,14 +28,14 @@ Select the document type needing to be attached and uploaded to the chart by sim
 
 Once clicked, the Add Document Properties window will open. Fill in the available fields, as appropriate.
 
-![](./html-documents.assets/5a6eebeda6e71ac4be11ae01d73b17f5.png)
+![](./html-documents.assets/a0bb62fda9984bf64fbed37c90d450d5.png)
 
 **Authored By**: Given the proper security permission, use this field to select for whom this document is being authored, or click the **Me** button if the logged-in user is the author. The logged-in user uploading the file document to the chart is considered the *Creator* and will be recorded as such in the document properties. The Authored By field is for who authored the document being uploaded.
 
 * In order to author documents for others, the user must have the Access Control <strong>Transcribe for Others</strong> setting set to <strong>Yes</strong>. If this setting is not enabled for the user, the Authored By field will not be available as an option.
 * The <strong>Choose</strong> drop-down list of names will populate with list choices of users who are tied to the department specified in a system setting named Webchart / Settings / Physician Realm
 
-![](./html-documents.assets/7635812e7191ecb60d4cd0288da5b217.png)
+![](./html-documents.assets/801406c0a1c9e942615c0d85f9c2b17c.png)
 
 **Document Type**: Select the document type being uploaded and stored in the chart.
 
@@ -49,9 +49,9 @@ Once clicked, the Add Document Properties window will open. Fill in the availabl
 
 * A <strong>Search</strong> button is provided to allow for searching of specific encounter IDs for linking. Most users do not know the encounter ID number, so the search is a convenient option for searching encounter details of the chart in context.
 * Click the <strong>Search</strong> button to open the <em>Select Encounter</em> window. By default, the system will search the last 3 days of encounters. If the encounter to link is found, simply click the <strong>Select</strong> link next to the specific encounter, and this will place the encounter ID and details into the <em>Encounter</em> field.
-* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank.
+* Click the <em>Search Within [#] days</em> link to search for and display encounters occurring in increments further out, if necessary. If an encounter does not need to be linked, simply leave the encounter field blank
 
-    ![](./html-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
+![](./html-documents.assets/007d38b6bf7c9fdd8a5eb390be1c04da.png)
 
 {{% info %}}
 If the user has a current encounter set in the chart, the *Encounter* field will autofill with the current encounter ID, by default. This can be edited. If an encounter does not need to be linked, simply remove any encounter ID and details from the encounter field.
@@ -65,7 +65,7 @@ If the user has a current encounter set in the chart, the *Encounter* field wi
 
 **HTML Editor:** For HTML documents, an HTML template will be available for editing. HTML templates can be configured by MIE or system administrators, if necessary. When there is no pre-programmed template, the textbox will be blank, and text can be added, accordingly. If a template has been configured for the document type, be sure to follow the template, filling it in and typing where is appropriate; however, additional text can always be added, even when a template is being used.
 
-![](./html-documents.assets/ff6b2b184cbab57b4bc3716ec15a7c3a.png)
+![](./html-documents.assets/cb810bad6a8878ebbd237091979a55d0.png)
 
 ## HTML Template Editor within Document Types
 
