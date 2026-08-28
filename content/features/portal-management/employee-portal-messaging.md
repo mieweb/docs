@@ -1,8 +1,8 @@
 ---
 id: '1FXMf44EiYEcPbHTFYBgY6V8s1L4Sf-axgGiFZR7duC0'
 title: 'Employee Portal Messaging'
-date: '2026-06-08T19:21:01.662Z'
-version: 280
+date: '2026-08-28T14:32:12.833Z'
+version: 299
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
@@ -70,6 +70,12 @@ Add the message and click the Send button. The Enter key will also send the mess
 There is also Search functionality to help locate any previous conversations. The search bar is above the list of chats on the left-hand side. Begin typing the search criteria and the list of chats will shorten to only the chats that contain the words that were searched.
 
 ![](./employee-portal-messaging.assets/46aff8b924e09c9f0ac92ec05b749404.png)
+
+## Email Notification
+
+After the clinician responds to the chat, an email will be sent to the patient to notify them of the response. A link within the email will take the patient to the portal to respond, if needed.
+
+![](./employee-portal-messaging.assets/64d3561e4bcd0049f07a616dc078b436.png)
 
 ## Chats and Encounters
 
