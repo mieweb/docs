@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2026-09-08T20:13:50.842Z'
-version: 509
+date: '2026-09-09T15:03:39.065Z'
+version: 518
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -90,7 +90,7 @@ A new system setting "E-Chart/Audio/Show Above 8kHz Freqs" has been added for sy
 
 ### Audio STS Calculation - 99 is Valid Threshold Value
 
-A new system setting "Audio/STS Calculation/Consider 99 as valid threshold value" has been added for systems on RC202503 and newer. This setting is disabled by default. When this setting is enabled, 99 would be considered a valid threshold value for STS calculations.
+A new system setting "Audio/STS Calculation/Consider 99 as valid threshold value" has been added for systems on RC202503 and newer. This setting is disabled by default. When this setting is enabled, 99 would be considered a valid threshold value for STS calculations. If the setting is disabled, a 99 will not be considered a valid value for the STS calculation.
 
 ![](./audio-tool-tab.assets/87cb9be8fc4f0166b23366b39a2fdd86.png)
 
