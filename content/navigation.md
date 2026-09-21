@@ -257,7 +257,7 @@ links:
   - 'features/order-and-result-management/vitals-tracking-and-management.md'
   - 'features/order-and-result-management/e-orders-chart-tab.md'
   - 'features/order-and-result-management/e-orders-add-order-requests.md'
-  - 'https://drive.google.com/open?id=1wtrGP-rRXHNtrRicSL1RWEi2SMAOKJUtWd8BDK8FMxw'
+  - 'features/order-and-result-management/e-orders-add-and-send-order-requests-to-bluehive.md'
   - 'features/order-and-result-management/e-orders-refer-to-advanced-search.md'
   - 'features/order-and-result-management/order-requests-grid.md'
   - 'features/order-and-result-management/orders-view-recent.md'
@@ -1080,7 +1080,7 @@ wikigdrive: 'v2.16.0'
         * [Vitals Tracking & Management](features/order-and-result-management/vitals-tracking-and-management.md)
         * [E-Orders Chart Tab](features/order-and-result-management/e-orders-chart-tab.md)
         * [E-Orders - Add Order Requests](features/order-and-result-management/e-orders-add-order-requests.md)
-        * [E-Orders - Add and Send Order Requests to BlueHive](https://drive.google.com/open?id=1wtrGP-rRXHNtrRicSL1RWEi2SMAOKJUtWd8BDK8FMxw)
+        * [E-Orders - Add and Send Order Requests to BlueHive](features/order-and-result-management/e-orders-add-and-send-order-requests-to-bluehive.md)
         * [E-Orders - Refer To Advanced Search](features/order-and-result-management/e-orders-refer-to-advanced-search.md)
         * [Order Requests Grid](features/order-and-result-management/order-requests-grid.md)
         * [Orders - View Recent](features/order-and-result-management/orders-view-recent.md)

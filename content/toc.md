@@ -332,6 +332,7 @@ wikigdrive: 'v2.16.0'
          * [Travel Kits](features/medication-management-and-e-prescribing/travel-kits.md)
          * [Unknown Allergy/Medication Email Notifications](features/medication-management-and-e-prescribing/unknown-allergy-medication-email-notifications.md)
       * Order & Result Management
+         * [E-Orders - Add and Send Order Requests to BlueHive](features/order-and-result-management/e-orders-add-and-send-order-requests-to-bluehive.md)
          * [E-Orders - Add Order Requests](features/order-and-result-management/e-orders-add-order-requests.md)
          * [E-Orders - Refer To Advanced Search](features/order-and-result-management/e-orders-refer-to-advanced-search.md)
          * [E-Orders Chart Tab](features/order-and-result-management/e-orders-chart-tab.md)
