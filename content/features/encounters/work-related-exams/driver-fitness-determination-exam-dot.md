@@ -1,8 +1,8 @@
 ---
 id: '1bRwhFEg-KNcg1yYAbh2I-dHAxBg3Bp08_otEKNHAPRA'
 title: 'Driver Fitness Determination Exam (DOT)'
-date: '2024-07-15T16:28:16.045Z'
-version: 125
+date: '2026-09-21T19:02:21.643Z'
+version: 155
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -23,17 +23,17 @@ The Department of Transportation (DOT) physical exam is the default for commerci
 
 To add and open a Driver Fitness Determination encounter, first navigate to the patient chart and click the **Add Driver Fitness Determination** link, found in the **Quick Links** portlet of the patient's Summary.
 
-![](./driver-fitness-determination-exam-dot.assets/e32cb1f9b10b05805b7e754df5d1cf0b.png)
+![](./driver-fitness-determination-exam-dot.assets/444fd70146e943d371ab5c2a7929b8e0.png)
 
 {{% tip %}}
 Once an encounter is opened, there will be quick navigation links available within the encounter info toolbar, used to quickly access and reopen the current encounter. Clicking the **Driver Fitness** link will open the encounter for additional documenting, and clicking the **View** **Driver Fitness** link will open a view of the encounter, typically used to review previously entered information.
 {{% /tip %}}
 
-![](./driver-fitness-determination-exam-dot.assets/b66f408c9a901415279af88fbddb6d5e.png)
+![](./driver-fitness-determination-exam-dot.assets/3e63d6951936f67a6ae8060f43cbf4dc.png)
 
 Like any encounter, once it has been created and opened, the encounter navigation toolbar will load with the respective navigation and staging buttons. The navigation buttons are determined by the various categories available within the encounter, used to group the information and collected data. In this case, the Driver Fitness encounter has three categories: 1) **Driver Information**, 2) **Examination Report**, and 3) **Plan**. Each of these can be clicked and used as quick links to the respective section found within each category.
 
-![](./driver-fitness-determination-exam-dot.assets/6be20675b455f0b7f210523359c3a8b7.png)
+![](./driver-fitness-determination-exam-dot.assets/f8182f77e5b93df96f121ffacd6ea4d8.png)
 
 ### Driver Information (Section I)
 
@@ -43,7 +43,7 @@ The first part of the encounter is the *Driver Information* section. Within this
 
 To begin, users will need to determine what type of certification is being considered for the visit–New Certification, Recertification, or Follow-up. Depending the type selected, the encounter will load the relevant data available within the patient's chart. To select the certification type, click the section header or the edit (pencil) icon to open the section and choose, accordingly.
 
-![](./driver-fitness-determination-exam-dot.assets/4e4189e7b51c47c6d0f9fa191a2dfac5.png)
+![](./driver-fitness-determination-exam-dot.assets/422c7d35cd53296b15f8ce72be5b17e0.png)
 
 * <strong>New Certification</strong> - Pre-populates data within the <em>Personal Information</em> section.
 * <strong>Recertification -</strong> Pre-populates data within the <em>Personal Information</em> and <em>Health History</em> sections, based on the previous Driver Fitness encounter.
@@ -65,17 +65,19 @@ The Driver Health History section is used to document surgical history, current 
 
 Any previously documented surgeries will be listed under **Surgeries**, and can be edited or added to, as needed. Ensure all information is correct and up-to-date.
 
-![](./driver-fitness-determination-exam-dot.assets/b5c83c1c3281ac7c23448ebec5a94a28.png)
+![](./driver-fitness-determination-exam-dot.assets/5d35542f30f6baeed1fbc0f0020aae7d.png)
 
 Following Surgeries is **Medications**, where all currently prescribed medications will be listed. These can be edited or added to, as needed. Ensure all information is correct and up-to-date.
 
-![](./driver-fitness-determination-exam-dot.assets/2fbeb9bb40ef441e4dbe1a3f8caad537.png)
+![](./driver-fitness-determination-exam-dot.assets/164b944648c95fe7e005293f5602c2c4.png)
 
 Depending on whether or not a portal has been configured for the client, users will be able to either review past medical history and general questions answered by the driver, or enter the responses manually, using the point-and-click functionality within the encounter. Once the information is verified and up-to-date, be sure to review the listed conditions recorded for the driver, shown at the bottom of the questionnaire.
 
-![](./driver-fitness-determination-exam-dot.assets/877022562e9398c433be0bb4395208b0.png)
+![](./driver-fitness-determination-exam-dot.assets/1a710373a32f02573e0d21bae0991b23.png)
 
-![](./driver-fitness-determination-exam-dot.assets/866fd0a5bd1da438d4bd92b40495f712.png)
+![](./driver-fitness-determination-exam-dot.assets/743259aded7ff4e870354fbd2ea86708.png)
+
+![](./driver-fitness-determination-exam-dot.assets/d41e506b876b9659237726d97f4b1e8c.png)
 
 Once all of the information has been entered and reviewed, click the **Next** button to continue.
 
@@ -87,7 +89,7 @@ The *Examination Report* section is intended to allow the medical staff/examiner
 
 The Driver Health History Review allows the medical staff/examiner to review and discuss any pertinent questions answered by the driver when providing their health history.
 
-![](./driver-fitness-determination-exam-dot.assets/b49932f2f160892b31e94ae2b43e2955.png)
+![](./driver-fitness-determination-exam-dot.assets/d5e147102b3c5a9aeb49aea3941f1d11.png)
 
 Once all necessary information has been reviewed and documented, click the **Next** button to proceed to the following section.
 
@@ -127,7 +129,7 @@ Once all testing has been performed and recorded, click the **Next** button to c
 
 The final portion of the Examination Report is the Physical Examination section. Here, the provider can check all body systems for any abnormalities. This section is designed to pull forward the previous exam information, if there is any available within the chart.
 
-![](./driver-fitness-determination-exam-dot.assets/9dc3b494f2dd6569097685c50987d040.png)
+![](./driver-fitness-determination-exam-dot.assets/d37cf3def138036914ad208bb7e55760.png)
 
 Once completed, click the **Next** button.
 
@@ -185,29 +187,29 @@ These forms and certificate are overlaid with all of the relevant information re
 
 Any pending orders will display under Compete Orders section. It will display if the order is pending or has been completed.
 
-![](./driver-fitness-determination-exam-dot.assets/71b53e01a84b759283e5084da84421b8.png)
+![](./driver-fitness-determination-exam-dot.assets/f3b1617366ebbe424cb61e618af70983.png)
 
 By clicking the Complete Orders header, users are able to review and complete any orders pending in the patient's chart.
 
-![](./driver-fitness-determination-exam-dot.assets/88ed3f723348425df5036d1b824c8ec2.png)
+![](./driver-fitness-determination-exam-dot.assets/9bee5ece5f346b166589f45f3ca426c9.png)
 
 As noted, any orders created from the Visit Orders section will be displayed under a separate heading, below the Complete Orders section.
 
 ![](./driver-fitness-determination-exam-dot.assets/5e6f2025632a5fab8b5a1f07241f73d4.png)
 
-After all documentation within the encounter is completed, the user will scroll to the bottom of the page and click the **Save Incomplete** (or the **Save Incomplete & View**) button. This will save all of the information and release the encounter.
+After all documentation within the encounter is completed, the user will scroll to the bottom of the page and click the **Save Incomplete & View** button. This will save all of the information and release the encounter.
 
-![](./driver-fitness-determination-exam-dot.assets/c216f0a0df1e5f1e83b37af79b209de5.png)
+![](./driver-fitness-determination-exam-dot.assets/7d91727ce631271cbb739241da9ee66f.png)
 
 If there were order requests made from the encounter, the encounter view will provide the ability to view, complete, edit, or batch the order request(s), as needed.
 
-![](./driver-fitness-determination-exam-dot.assets/6c47a38d6aebb78bf09b64d56bbe416f.png)
+![](./driver-fitness-determination-exam-dot.assets/89e2bb9c8f39e250119e706710fd6697.png)
 
 ### Archive and Close the Encounter
 
 Once the provider has finished all of the necessary documentation, the user will click the **Archive & Close** button, at the end of the encounter. Doing this will mark the encounter *closed*, and the encounter will be stored within the {{% system-name %}} system as a document with a doc ID.
 
-![](./driver-fitness-determination-exam-dot.assets/d9cd44ae67d9e9d9ade69ec1b6dec55d.png)
+![](./driver-fitness-determination-exam-dot.assets/0a827d1050f9ae82cb35447e54ef8b6d.png)
 
 ## Driver Fitness Determination - State
 
