@@ -1,8 +1,8 @@
 ---
 id: '1CuNALp11tyFSx3IKXsJNA7IO-lGT-ZA2PQi8AOKKfxM'
 title: 'Viewing Health Surveillance Panels & Membership'
-date: '2026-03-17T19:04:38.915Z'
-version: 197
+date: '2026-09-21T17:32:05.928Z'
+version: 214
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -111,6 +111,12 @@ Otherwise, you can manually set the Next Due Date here to signify a different du
 After submitting, the system will display a message that it updated the record and when you look at the Panel Membership Overview screen, you will see the new **Next:** due date is applied.
 
 ![](./viewing-health-surveillance-panels-and-membership.assets/51b7079db3263a391f739dc8ca8a37d2.png)
+
+#### Unenroll
+
+To remove someone from a panel, a user can uncheck the panel they are currently enrolled in. Once the box has been unchecked, two options will display, **Explicit Exclusion** or **Expire**. Explicit Exclusion prevents any membership rules for this panel from ever re-adding this chart back to the panel at a later time, regardless of if they meet the panel rule criteria. Expiring a membership allows the chart to be implicitly included in the panel at a later date if the membership rule is satisfied for this chart.
+
+![](./viewing-health-surveillance-panels-and-membership.assets/368ac671d37ff2b5a7e7a1b625a83f9e.png)
 
 #### Key Guide
 
