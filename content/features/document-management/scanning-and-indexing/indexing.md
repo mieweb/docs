@@ -1,8 +1,8 @@
 ---
 id: '1Q3zud5gpDVgfHepoHWOthPPN-iWWMV_H_0-jFxxssV8'
 title: 'Indexing'
-date: '2026-03-26T15:30:57.887Z'
-version: 372
+date: '2026-09-21T19:46:52.886Z'
+version: 390
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -278,6 +278,8 @@ The highlighted blue bar in **Image Info** section indicates the page number and
 **Rotate All**: This dropdown option allows users to rotate all of the documents within the batch. Options include 90, 180, or 270 degrees. After selecting a degree to rotate, {{% system-name %}} automatically rotates all pages within the batch. As an example, this can be helpful in cases where a multi-page document with landscape orientation is scanned in, but the pages need to be indexed accordingly. Depending on the number of pages in the batch, this function may take a few seconds to execute.
 
 **Print**: When the Print button is clicked, a new print window is opened. Then the user is able to print the entire batch.
+
+**Enhance:** For users on RC202609 and newer, there is a My Setting available called Enhance WebScan. When enabled, an Enhance button displays. It applies non-destructive, in-browser readability adjustments (grayscale and adaptive thresholding) to the displayed page for preview only and does not change the stored document.
 
 {{% note %}}
 Exiting the WebScan module is possible by clicking the X, found in the upper-right corner of the window. A batch will be marked as ‘pending' if you exit the batch window using the X. However, using the X is not the proper way to close a batch. Whenever possible, be sure to close the batch following the prompts and using the Close button, when all items have been indexed.
