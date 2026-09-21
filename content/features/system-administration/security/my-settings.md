@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2026-07-21T19:22:51.283Z'
-version: 882
+date: '2026-09-21T19:48:57.880Z'
+version: 900
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -150,6 +150,7 @@ When looking at preference choices available in the drop-down:
 * New Language Translations: If enabled, language translations use the Loco client-side translation engine instead of legacy server-side translations.
 * New File Q: If enabled, a new datavis styled File Queue screen will be used instead of the legacy look.
 * E-Sign Review with Diff: The experience for reviewing updated encounter documents (HTML Formatted) that have been re-archived and re-sent for e-signature has been streamlined. When a provider receives an updated e-sign encounter document (that they had previously esigned), any revisions will now be automatically highlighted within the document of the E-Sign Review if this preference is enabled. This also works with Text documents being re-sent for e-signature.
+* Enhance WebScan: If enabled, an Enhance button displays when Indexing documents in WebScan. When selected, it applies non-destructive, in-browser readability adjustments (grayscale and adaptive thresholding) to the displayed page for preview only and does not change the stored document.
 
 ### E-Chart
 
