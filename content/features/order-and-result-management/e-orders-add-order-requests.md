@@ -1,9 +1,9 @@
 ---
 id: '1Kn-0evj_fBShe8r-4SO_JRo2CmY_54vEt4VTxlQLZ50'
 title: 'E-Orders - Add Order Requests'
-date: '2026-07-22T16:25:23.681Z'
-version: 197
-lastAuthor: 'janderson'
+date: '2026-09-21T18:21:05.839Z'
+version: 218
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:LATIDNHR'
@@ -156,6 +156,12 @@ To enable/disable the **New Requisition**, navigate to **My Settings** under the
 The **To** section has been updated to include a Quick List with a list of commonly user providers and/or interfaces requisitions are created for.  The **Items** section has been updated to to include a list of outstanding Due List order items for easy access to add to the order ensure no orders are missed. The **Reason** section has been updated to include the patient's current problem list for quick selection of the proper reason or diagnosis code on the order.
 
 ![](./e-orders-add-order-requests.assets/b8d481a98ca1758e0b4c009461818d61.png)
+
+As of RC202409, a new system setting: BlueHive/Order Requisition/Show BlueHive Search option is available for customers utilizing BlueHive. Enabling this system setting, will display a "BlueHive Search" option when searching for a provider. The BlueHive search feature will search and add a BlueHive provider to *{{% system-name %}} .*
+
+![](./e-orders-add-order-requests.assets/e4ea1125aa9c2b38524a2e3ebe89a394.png)
+
+![](./e-orders-add-order-requests.assets/9c2129ffbd336eb4e53e8d514c0ae582.png)
 
 ## Order Requisitions for PICKLIST Order Types
 
