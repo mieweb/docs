@@ -1,9 +1,9 @@
 ---
 id: '16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
 title: 'Appointment Report'
-date: '2026-03-02T19:12:02.597Z'
-version: 241
-lastAuthor: 'anichols'
+date: '2026-09-23T15:12:51.321Z'
+version: 257
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
 source: 'https://drive.google.com/open?id=16bxQgq2-0OvXmyQcnJK81ci7x-uFmu3AQBhmAbLaa30'
@@ -34,7 +34,7 @@ To narrow down a search for appointments, simply select the fields you wish to n
 ![](./appointment-report.assets/db66092af3a1529be6941c1e1dbdca46.png)
 
 * <strong>Location:</strong> You can select a specific location to run this report for or multiple/all locations. You can also run a report and select ‘No Location Chosen' to see what appointments were scheduled without a location set on them. Simply click in the <em>Location Filter</em> field or click on the […] box at the end of that field. The default is to run this report by ALL locations. Click in this filter to select one or more locations specifically. It will open a drop-down selection of locations your system uses. Check-mark the location(s) you wish to run an appointment report for.
-* <strong>Appt Types: Appt Type Filter (Default is All):</strong> You can select a specific appointment type to run this report for or multiple or all appointment types. Simply click in the <em>Appt Type Filter</em> field or click on the […] box at the end of that field. It will open a drop-down selection of appointment types. Check-mark the appt type(s) you wish to run an appointment report for.
+* <strong>Appt Types: Appt Type Filter (Default is All):</strong> You can select a specific appointment type to run this report for or multiple or all appointment types. Simply click in the <em>Appt Type Filter</em> field or click on the […] box at the end of that field. It will open a drop-down selection of appointment types. Check-mark the appt type(s) you wish to run an appointment report for. The inactive appointment types will display in this list but will have an <em>(Inactive)</em> message next to the appointment type. This allows the user to be able to easily filter out the inactive appointments but still include them when doing historical reporting.
 
 ![](./appointment-report.assets/6b9ebc1987a67dd381a943699c8c22d2.png)
 
