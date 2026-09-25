@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2026-09-09T15:03:39.065Z'
-version: 518
+date: '2026-09-25T17:56:16.692Z'
+version: 568
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,6 +12,7 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 wikigdrive: 'v2.16.0'
+markup: 'pandoc'
 ---
 Within an encounter is where typically an audiogram is entered to document Audiogram test results.
 
@@ -31,7 +32,7 @@ Use the toggle button within the Audiogram screen to Show/Hide a limited Audiogr
 
 ![](./audio-tool-tab.assets/71167e3bdcf1b601296eb6b0fd868d35.png)
 
-NOTE: typically a separate hearing or noise questionnaire is utilized via the portal or during the visit to capture much more information regarding noise exposures, etc.  Those separate questionnaire(s) can be linked to the encounter, reviewed, and documented with an interpretation.
+NOTE: Typically a separate hearing or noise questionnaire is utilized via the portal or during the visit to capture much more information regarding noise exposures, etc.  Those separate questionnaire(s) can be linked to the encounter, reviewed, and documented with an interpretation.
 
 ![](./audio-tool-tab.assets/b6fe83c77b7be9f8b64dfee02490f5bd.png)
 
@@ -118,13 +119,29 @@ Audio Results display with a "Non Age Corrected Shift" and "Age Corrected Shift"
 
 ![](./audio-tool-tab.assets/3d8661afc09bca0f5ecc307e7e2fe092.png)
 
-Upon request, both the age shift criteria and the guidelines to flag a possible OSHA recordable event may be customized with additional configuration. Additional logic can also be scoped for clients with very specific needs. For example, patients located in China may follow a different shift standard than those patients observed in the United States. Clients should contact their support representative if additional configuration is required and for a level of effort to be determined.
+{{% note %}}
+Upon request, both the age shift criteria and the guidelines to flag a possible OSHA recordable event may be customized with additional configuration. Additional logic can also be scoped for clients with very specific needs. For example, patients located in China may follow a different shift standard than those patients observed in the United States. Clients should contact their support representative if additional configuration is required and for a level of effort to be determined. Clients on RC202503 and newer will automatically have the Canadian threshold shift logic built within their systems. The logic is outlined in the Canadian Threshold Shift section below.
+{{% /note %}}
 
 In the event a STS has been detected a second pop up message will display warning the user that an STS has been detected and to retest any employees in the Hearing Conservation Program within 21 days.  All other patients/employees should be counseled or appropriate referrals made as considered by the clinician.
 
 ![](./audio-tool-tab.assets/942795b0230c7d5b70035ee9c91aacc9.png)
 
 The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See additional online help guide named* [*Adding OSHA Case*](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)*.*
+
+### Canadian Threshold Shift
+
+For clients on RC202503 and newer, {{% system-name %}} has logic built to address the difference between the US threshold shift and the Canadian threshold shift. Based on the patient clinic location, the system will identify a Canadian patient and if a shift is detected, the clinician is alerted.
+
+The calculation of STS is:
+
+a.  an average shift of the hearing threshold levels at 2000, 3000, and 4000 Hz of ≥ 10 dB in either ear.
+
+or
+
+b.  a shift in the hearing threshold level of ≥ 15 dB at 3000 or 4000 Hz in either ear.
+
+A retest should be performed after 30 days to verify the test results.
 
 ### NSTS Alert
 
