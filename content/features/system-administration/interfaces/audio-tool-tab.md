@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2026-09-25T17:56:16.692Z'
-version: 568
+date: '2026-10-07T18:39:24.177Z'
+version: 589
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -18,7 +18,7 @@ Within an encounter is where typically an audiogram is entered to document Audio
 
 ![](./audio-tool-tab.assets/27b30ac7a1e1c9dbf50cba0964c32ad7.png)
 
-However, your system may have a chart tab named *Audio Tool* where you can document audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results.   The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
+However, your system may have a chart tab named *Audio Tool* where you can document audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results. The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
 
 NOTE: The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter.
 
@@ -131,7 +131,7 @@ The system default warning notifies the user to retest *within* 21 days.  OSHA 
 
 ### Canadian Threshold Shift
 
-For clients on RC202503 and newer, {{% system-name %}} has logic built to address the difference between the US threshold shift and the Canadian threshold shift. Based on the patient clinic location, the system will identify a Canadian patient and if a shift is detected, the clinician is alerted.
+For clients on RC202503 and newer, {{% system-name %}} has logic built to address the difference between the US threshold shift and the Canadian threshold shift. Based on the patient's demographics, the system will identify a Canadian patient and if a shift is detected, the clinician is alerted.
 
 The calculation of STS is:
 
