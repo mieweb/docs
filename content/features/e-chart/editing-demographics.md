@@ -1,8 +1,8 @@
 ---
 id: '1kJrBWrFd8Hd7ECcmDi0hRkIDo01RPj_bRNxinQd17Rs'
 title: 'Editing Demographics'
-date: '2026-03-17T17:58:25.916Z'
-version: 154
+date: '2026-10-07T17:53:15.724Z'
+version: 164
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -53,7 +53,7 @@ If you have security permission, you can view all revisions in a list format tha
 
 ![](./editing-demographics.assets/29843962a40e8a3df036c0906e1ddf61.png)
 
-### Demographics Data revisions
+### Demographics Data Revisions
 
 The system will display a **Demographics Data** datavis section which displays the count of revisions on demographics information on the chart.  The Demographics Data revision section is a datavis that you can put in a column order as you wish, hide/show columns, create perspective(s) for your viewing needs, and group or pivot or filter revision history as needed.
 
@@ -61,7 +61,7 @@ The chart's most current demographics is the last known revision on this listing
 
 ![](./editing-demographics.assets/dfa3bf7886de4b6e854048ce02cf4d62.png)
 
-### Employment Data revisions
+### Employment Data Revisions
 
 The system will display an **Employment Data** datavis section which displays the count of revisions on employment information on the chart if your system is enabled to use employment type workflows.  The Employment Data revision section is a datavis that you can put in a column order as you wish, hide/show columns, create perspective(s) for your viewing needs, and group or pivot or filter revision history as needed.
 
@@ -72,3 +72,9 @@ The chart's most current employment data/information is the last known revision 
 Click **Back to Patient Demographics** hyperlink to get back to the general demographics tab summary in order to exit out of patient revision mode.
 
 ![](./editing-demographics.assets/c0ac3d67f0b00c3bbfaddfe371dda25d.png)
+
+### Employee Numbers Revisions
+
+Systems on RC202703 and newer, will display a hyperlink Revision message next to the MR Number. When that Revision hyperlink is clicked, the revisions will display on a popup window. If the charts had been merged, there would be data in the Data From column.
+
+![](./editing-demographics.assets/04be004b02ec414ec7701f28a1112786.png)
