@@ -1,8 +1,8 @@
 ---
 id: '1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 title: 'Audio Tool Tab'
-date: '2026-10-07T18:39:24.177Z'
-version: 589
+date: '2026-10-07T19:48:32.167Z'
+version: 611
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -12,13 +12,12 @@ links:
   - 'https://mie.talentlms.com/shared/start/key:ZOLDNHRK'
 source: 'https://drive.google.com/open?id=1hyDYvLJrjLq1NQuCLqllfCDwmGQhzru2rj1Y-Lh4-Vk'
 wikigdrive: 'v2.16.0'
-markup: 'pandoc'
 ---
 Within an encounter is where typically an audiogram is entered to document Audiogram test results.
 
 ![](./audio-tool-tab.assets/27b30ac7a1e1c9dbf50cba0964c32ad7.png)
 
-However, your system may have a chart tab named *Audio Tool* where you can document audiogram results manually or by device interface. If using the *Audio Tool* chart tab, click the *Add Audiogram* link to add Audiogram test results. The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
+However, your system may have a chart tab named *Audio* *Tool* where you can document audiogram results manually or by device interface. If using the *Audio* *Tool* chart tab, click the *Add* *Audiogram* link to add Audiogram test results. The Audiogram functionality is the same whether initiated from within an encounter or from a stand alone Audio Tool chart tab.
 
 NOTE: The Audiogram Tool tab is no longer configured by default in favor of using the Visit encounter for manual data entry. Should you want to utilize this chart tab, contact your support representative for assistance. The Audio Tool functionality is the same whether initiated from the Audio Tool chart tab or from within the Visit encounter.
 
@@ -59,7 +58,7 @@ Manually enter New or Edit existing results for left ear, right ear, device numb
 
 Users may also choose to indicate a "Reason for Test" as listed in the drop down and type any free text comments.
 
-The *device number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
+The *device* *number* field is typically for device interfaces to prefill the serial number, etc from the device interface, however, for clients on RC202303 and newer, it is also a free text field where you can manually document your audio device's serial number for capture on the audiogram document.
 
 ![](./audio-tool-tab.assets/f4de0dbd43c689cd7d9642a45cc52c5a.png)
 
@@ -83,7 +82,7 @@ The data will be stored in the **Audiogram** and **Documents** chart tabs. If th
 
 ### Audio Above 8kHZ
 
-A new system setting "E-Chart/Audio/Show Above 8kHz Freqs" has been added for systems on RC202603 and newer. This setting controls the appearance of a 10 kHz frequency entry column and values in audiograms.
+A new system setting "E-Chart / Audio / Show Above 8kHz Freqs" has been added for systems on RC202603 and newer. This setting controls the appearance of a 10 kHz frequency entry column and values in audiograms.
 
 ![](./audio-tool-tab.assets/261f8c772f5169bcfaef996d64b8ffa4.png)
 
@@ -91,7 +90,7 @@ A new system setting "E-Chart/Audio/Show Above 8kHz Freqs" has been added for sy
 
 ### Audio STS Calculation - 99 is Valid Threshold Value
 
-A new system setting "Audio/STS Calculation/Consider 99 as valid threshold value" has been added for systems on RC202503 and newer. This setting is disabled by default. When this setting is enabled, 99 would be considered a valid threshold value for STS calculations. If the setting is disabled, a 99 will not be considered a valid value for the STS calculation.
+A new system setting "Audio / STS Calculation / Consider 99 as valid threshold value" has been added for systems on RC202503 and newer. This setting is disabled by default. When this setting is enabled, 99 would be considered a valid threshold value for STS calculations. If the setting is disabled, a 99 will not be considered a valid value for the STS calculation.
 
 ![](./audio-tool-tab.assets/87cb9be8fc4f0166b23366b39a2fdd86.png)
 
@@ -99,7 +98,7 @@ A new system setting "Audio/STS Calculation/Consider 99 as valid threshold value
 
 ## Baselines and Alerts
 
-Click the *Baseline History* button to see a history of baseline studies.
+Click the *Baseline* *History* button to see a history of baseline studies.
 
 ![](./audio-tool-tab.assets/3746462812d62a7c19d80be9308252d5.png)
 
@@ -127,7 +126,7 @@ In the event a STS has been detected a second pop up message will display warnin
 
 ![](./audio-tool-tab.assets/942795b0230c7d5b70035ee9c91aacc9.png)
 
-The system default warning notifies the user to retest *within* 21 days.  OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** *See additional online help guide named* [*Adding OSHA Case*](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/)*.*
+The system default warning notifies the user to retest *within* 21 days. OSHA requires the employee be retested *within* 30 days of the first test. If the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) days of the retest. **To record the hearing loss illness, a Work-Related Injury/Illness Case must manually be opened by the clinician or appropriate staff member confirming the OSHA Recordable STS.** See additional online help guide named [Adding OSHA Case](https://docs.enterprisehealth.com/functions/injury-care/case-management/adding-osha-case/).
 
 ### Canadian Threshold Shift
 
@@ -135,17 +134,17 @@ For clients on RC202503 and newer, {{% system-name %}} has logic built to addres
 
 The calculation of STS is:
 
-a.  an average shift of the hearing threshold levels at 2000, 3000, and 4000 Hz of ≥ 10 dB in either ear.
+an average shift of the hearing threshold levels at 2000, 3000, and 4000 Hz of ≥ 10 dB in either ear.
 
-or
+-or-
 
-b.  a shift in the hearing threshold level of ≥ 15 dB at 3000 or 4000 Hz in either ear.
+a shift in the hearing threshold level of ≥ 15 dB at 3000 or 4000 Hz in either ear.
 
 A retest should be performed after 30 days to verify the test results.
 
 ### NSTS Alert
 
-When the **Show NSTS Values** system setting (E-Chart, Audio, Show NSTS Values) is enabled, {{% system-name %}} will display an **NSTS** alert on the Audio Tool data entry screen if an NSTS is calculated. Additionally, a column for the NSTS alert flag will display on the finalized document. By default this system setting is disabled. The NSTS shift is defined as any one frequency (except for 8 KHz) that has a shift of greater than 15 dB, AND is greater than or equal to 25 dB.
+When the **Show NSTS Values** system setting (E-Chart / Audio / Show NSTS Values) is enabled, {{% system-name %}} will display an **NSTS** alert on the Audio Tool data entry screen if an NSTS is calculated. Additionally, a column for the NSTS alert flag will display on the finalized document. By default this system setting is disabled. The NSTS shift is defined as any one frequency (except for 8 KHz) that has a shift of greater than 15 dB, AND is greater than or equal to 25 dB.
 
 ![](./audio-tool-tab.assets/4cad2615bb6174102cfe410cddc85bc8.png)
 
@@ -187,7 +186,7 @@ At the bottom of the Audio Tool users are provided with an option to import audi
 
 ![](./audio-tool-tab.assets/f2bb4ffec262b708226112a51313289e.png)
 
-*See additional online help guide named* [*Device Interface-Audio System*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/) *(MI),* [*Device Interface- Audio: Tremetrics/Maico*](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
+See additional online help guide named [Device Interface-Audio System](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-system/) (MI), [Device Interface- Audio: Tremetrics/Maico](https://docs.enterprisehealth.com/functions/system-administration/interfaces/device-interface-audio-tremetrics-maico/)
 
 ## Compare Audiograms
 
