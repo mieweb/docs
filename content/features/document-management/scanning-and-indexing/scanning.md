@@ -1,8 +1,8 @@
 ---
 id: '1K6yscB7qxQVp_0D1Q4uRBiJmrYQsIQ7tqQeS2PEQcs0'
 title: 'Scanning'
-date: '2026-04-02T13:38:56.164Z'
-version: 464
+date: '2026-10-07T15:59:20.077Z'
+version: 484
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -48,6 +48,14 @@ Batch Upload screen in release 202403 and newer:
 * <strong>Color</strong>: It is recommended that Color Depth be set to B/W (black/white). Users should only use the Color setting when absolutely necessary. This can be set per page by simply changing the preference for each page being scanned. Users on 202509 and newer will be prompted with a warning message when changing to "Color" instead of the default "black/white" option. It is recommended Color Depth always be set at black/white. Opting to change to "Color" will slow down page render times, viewing, and printing the document and depending on the size, may include issues with properly storing the image/document.
 
 ![](./scanning.assets/103f36dbc833f45785f8f5a1a7246059.png)
+
+* <strong>Enable Duplex Scanning (if available)</strong>: When selected, the scanner will capture the front and back of the paper without the user needing to manually flip it.
+
+{{% note %}}
+Systems on RC202703 and newer will have the "Enable Duplex Scanning" setting within the Scanner Settings tied to the "Duplex" setting within My Settings. If the "Duplex" setting within My Settings is set to "Yes", the "Enable Duplex Scanning" setting will be checked automatically. Out of the box, both of these settings are disabled.
+
+![](./scanning.assets/d6d31686391afde38cfe7fb37d3b2942.png)
+{{% /note %}}
 
 7. The connected scanner should automatically be detected by the WebScan program. However, users can confirm the established connection by clicking the <strong>Settings</strong> button and viewing the listed scanner is correct and highlighted for use.
 8. When ready, click the <strong>Scan</strong> button to begin scanning the documents. If any of the pages become jammed during the scanning process, simply acknowledge the error on the screen and click the Scan button, again. The system will resume scanning the remaining documents and automatically attach them to the previously scanned pages (i.e., the current batch of scanned documents).
