@@ -1,8 +1,8 @@
 ---
 id: '1UwP6uQ0B-mjvqXJmv4rPWZRr2-I_YJe2zLA-G7vjgFc'
 title: 'My Settings'
-date: '2026-09-21T19:48:57.880Z'
-version: 900
+date: '2026-10-07T16:34:33.943Z'
+version: 910
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -496,7 +496,7 @@ These options are for users using the Pocket PC or Outlook syncing programs:
 
 * Resolution: Set the dpi resolution you wish WebScan to default in when scanning in documents.
 * Color Depth: Set the mode you wish WebScan to default to when scanning in documents.
-* Duplex: Set Yes to have WebScan default to scan documents front & back (duplex).  Set No to have WebScan default to single sided scanning.
+* Duplex: Set Yes to have WebScan default to scan documents front & back (duplex). Set No to have WebScan default to single sided scanning. Users on RC202703 and newer, will have this setting linked to the "Enable Duplex Scanning" setting within WebScan's Scanner Settings. If a user updates this setting to Yes, the Enable Duplex Scanning setting will be enabled, for example.
 * Show UI: Set Yes to have WebScan default to show/open your scanner's settings screen.
 
 ### Incoming File Queue
