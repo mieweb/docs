@@ -1,8 +1,8 @@
 ---
 id: '1gaHfjLq39wqQJRPf8fH6ozhs4LyAdTUxiG2JeKq0lPI'
 title: 'Prescribing/Adding Medications'
-date: '2026-01-05T20:51:51.339Z'
-version: 409
+date: '2026-11-09T19:27:39.460Z'
+version: 444
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -182,6 +182,20 @@ A new field, Medication Adherence, will display when utilizing Quick Prescribe. 
 ![](./prescribing-adding-medications.assets/751368816ae0f94b78dc9dce911670b5.png)
 
 ![](./prescribing-adding-medications.assets/cdefd2618a4dfe414c263e4be10a83bf.png)
+
+## Prescribe & Administer
+
+Beginning in RC202703, prescribers may prescribe and document the medication administration from the encounter. From the Plan Medication Orders section, providers may prescribe medication. When the Transmission method of "None" has been selected, the prescriber will have an option to Add & Administer.
+
+![](./prescribing-adding-medications.assets/df614cb4b70b6fd88deeb386aabec942.png)
+
+If an injectable medication has been ordered, the prescriber may immediately document the injectable medication administration.
+
+![](./prescribing-adding-medications.assets/2b3406d29b93c135a96bfb3335367fd3.png)
+
+If an oral medication has been ordered, the prescriber may immediately document the oral medication administration.
+
+![](./prescribing-adding-medications.assets/bd096d2a2cfe97ed1dc1dbf4bc8e224b.png)
 
 ## Prescription Samples
 
