@@ -29,7 +29,17 @@ jobs:
 
       - name: "Deploy built documentation to production folder"
         run: |
-          rsync -ruva --delete public deploy@wc-docs.med-web.com:/www/docrootssl/docs
+          for attempt in 1 2 3; do
+            if rsync -ruva --delete -e "ssh -o ConnectTimeout=30" public deploy@wc-docs.med-web.com:/www/docrootssl/docs; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Deployment failed (attempt $attempt/3); retrying in 15 seconds..." >&2
+              sleep 15
+            fi
+          done
+          echo "Deployment failed after 3 attempts." >&2
+          exit 1
 
       - name: Rocket.Chat Notification
         uses: wreiske/Rocket.Chat.GitHub.Action.Notification@1.5.1
