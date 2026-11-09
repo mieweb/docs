@@ -316,7 +316,7 @@ wikigdrive: 'v2.16.0'
          * [E-Refills - All E-Refills Tab](features/medication-management-and-e-prescribing/e-refills-all-e-refills-tab.md)
          * [E-Refills - E-Scripts Tab](features/medication-management-and-e-prescribing/e-refills-e-scripts-tab.md)
          * [E-Refills - My E-Rx Errors Tab](features/medication-management-and-e-prescribing/e-refills-my-e-rx-errors-tab.md)
-         * [E-Refills - My Pending Refills Tab](features/medication-management-and-e-prescribing/e-refills-my-pending-refills-tab.md)
+         * [E-Refills - Worklist Tab](features/medication-management-and-e-prescribing/e-refills-worklist-tab.md)
          * [Edit/Change Medications](features/medication-management-and-e-prescribing/edit-change-medications.md)
          * [Electronic Prescribing for Controlled Substances (EPCS)](features/medication-management-and-e-prescribing/electronic-prescribing-for-controlled-substances-epcs.md)
          * [First DataBank and RXDB Database Last Update and Version](features/medication-management-and-e-prescribing/first-databank-and-rxdb-database-last-update-and-version.md)
