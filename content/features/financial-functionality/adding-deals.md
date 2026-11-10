@@ -1,8 +1,8 @@
 ---
 id: '1RwavD1Q59PIs4xjzk_RJp_T9Wl8d-p65Lq7gOPM6sGU'
 title: 'Adding Deals'
-date: '2025-08-27T14:00:47.146Z'
-version: 164
+date: '2026-11-10T14:28:31.983Z'
+version: 180
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -40,7 +40,7 @@ In the ‘Role' field, select ‘Signatory Contact'. Select the ‘Add' button. 
 
 Enter a Title, Start Date and End Date. These items are **REQUIRED**. Before the deal is considered active, the Deal must also indicate that the contract has been executed (Executed=Yes). In some client configuration scenarios, a deal may be created, but an official contract between the two has not yet been finalized. A Deal can be made and set to Executed=No, meaning this Deal has not been executed yet and not "live" in the system. Executed=Yes is **REQUIRED** before the deal is recognized in the system.
 
-![](./adding-deals.assets/3d7b57aa7d7e17c9e7467e16b3c73057.png)
+![](./adding-deals.assets/a861fc0b6920af356e856a89c687481e.png)
 
 Title:
 
@@ -59,6 +59,8 @@ In the End Date field, do one:
 * Select Calendar to choose from a calendar the date, month, and year after which the deal is not effective.
 
 In the Executed field, select Yes or No to indicate if the deal is in effect between the organizations. (**REQUIRED**)
+
+The Employer Portal Add On Services Only field is applicable to employers with an employer portal. A typical deal designates a collection of orders that are bundled and required to be completed together. When the Employer Portal Add On Services Only field is set to ‘Yes', then the employer portal will designate the services in this deal as an "add on service" or a service(s) that can be added a la carte, rather than bundled together. This is ideal for employers that may occasionally add on a Tetanus shot or other individual one off services ordered at the employer discretion outside of a standard deal. Selecting ‘No', designates this deal as a standard deal, where services are bundled together and they are not on a separate a la carte order listing. ‘n/a' can be used if an employer portal is not configured or the deal is not applicable to the employer portal.
 
 ### Charges
 
