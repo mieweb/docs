@@ -1,9 +1,9 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2026-06-30T15:50:52.435Z'
-version: 605
-lastAuthor: 'anichols'
+date: '2026-11-10T18:41:39.742Z'
+version: 656
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:AOZHRKMF'
@@ -116,7 +116,6 @@ The next section is *Patient Visits*.
 * As databases are upgraded to 202503, In Person, Telehealth Phone, and Telehealth Video options will be available only if appointment type <strong>TH_VIDEO</strong> and/or <strong>TH_PHONE</strong> are active in the system's appointment types editor.
     * By default, these appointment types are set as <em>inactive</em> in a system initially.
 
-**** 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/b5c6a134af627e091da16f00097b5402.png)
 
 * <strong>Location:</strong> The location automatically defaults to show the location you are set to in your default settings (MY SETTINGS). If you wish to change the location for this appointment, simply begin typing in the name of the location and it will auto-complete to give you choices. You can only make ONE location choice for the appointment.
@@ -307,6 +306,16 @@ Overbooked is a message telling you that the appointment you are trying to sched
 **Deceased patient:** If the patient has been marked as deceased in the demographics tab and you try to add/schedule an appointment for that patient, the system will alert you when you try to click SAVE.  The system notifies you that the patient chart is marked as deceased and asks if you still want to add/schedule the appointment.
 
 ![](./adding-an-appointment-using-the-wizard-tab.assets/efa989dbdd6f33050055c45d7a0cd78e.png)
+
+### Appointment Slot Temporarily Held
+
+The scheduler now warns you in real time when another user is already working on the same appointment time slot (for a resource & location), so you no longer discover a collision only after clicking Save. The warning occurs when you select a time in the scheduling wizard by clicking a slot, using Find Time, using View Calendar, or typing a start date/time, a temporary hold is placed on that time and resource. If someone else tries to schedule an appointment over that same time with the same resource, an alert displays stating: Appointment Slot Temporarily Held - This appointment time slot is currently selected and being scheduled by [User Name]. To avoid potential scheduling conflicts, you may want to select another available time or wait 5 minutes to check availability again. This alert only displays within the Scheduler. If someone is trying to schedule on the portal at the same time, this alert will not display.
+
+There is also an additional block on the Scheduler itself when someone is actively scheduling an appointment. The time slot will have a gray block over it with the following message: Being scheduled by [User Name]. This allows all scheduling resources to know this time slot is being actively scheduled prior to clicking on it.
+
+![](./adding-an-appointment-using-the-wizard-tab.assets/169c42e14ba09513f067c46ed2f10061.png)
+
+Holds expire automatically after 5 minutes of inactivity and are released when you close the wizard. The hold is a soft warning, not a lock. If a resource is able to be doubled booked, that can still occur. This hold is not an appointment and will not reflect as such within the reporting.
 
 ## Learning Management System
 
