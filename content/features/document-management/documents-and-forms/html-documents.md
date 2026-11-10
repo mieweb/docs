@@ -1,8 +1,8 @@
 ---
 id: '1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
 title: 'HTML Documents'
-date: '2026-08-26T16:35:03.542Z'
-version: 87
+date: '2026-11-10T21:20:49.124Z'
+version: 103
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
 source: 'https://drive.google.com/open?id=1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
 wikigdrive: 'v2.16.0'
 ---
-The  {{% system-name %}} system is designed to allow HTML documents to be uploaded as documents into charts, as needed.
+The {{% system-name %}} system is designed to allow HTML documents to be uploaded as documents into charts, as needed.
 
 ## Add a HTML Document to Chart
 
