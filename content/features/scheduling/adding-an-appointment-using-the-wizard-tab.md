@@ -1,8 +1,8 @@
 ---
 id: '1ONkH3eH9oQOaRqWYNyoVuO7dfjITMDjVW28IgsoHppw'
 title: 'Adding an Appointment Using the Wizard Tab'
-date: '2026-11-10T18:41:39.742Z'
-version: 656
+date: '2026-11-10T19:21:50.627Z'
+version: 664
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -309,7 +309,7 @@ Overbooked is a message telling you that the appointment you are trying to sched
 
 ### Appointment Slot Temporarily Held
 
-The scheduler now warns you in real time when another user is already working on the same appointment time slot (for a resource & location), so you no longer discover a collision only after clicking Save. The warning occurs when you select a time in the scheduling wizard by clicking a slot, using Find Time, using View Calendar, or typing a start date/time, a temporary hold is placed on that time and resource. If someone else tries to schedule an appointment over that same time with the same resource, an alert displays stating: Appointment Slot Temporarily Held - This appointment time slot is currently selected and being scheduled by [User Name]. To avoid potential scheduling conflicts, you may want to select another available time or wait 5 minutes to check availability again. This alert only displays within the Scheduler. If someone is trying to schedule on the portal at the same time, this alert will not display.
+For systems on RC202703 and newer, the scheduler now warns you in real time when another user is already working on the same appointment time slot (for a resource & location), so you no longer discover a collision only after clicking Save. The warning occurs when you select a time in the scheduling wizard by clicking a slot, using Find Time, using View Calendar, or typing a start date/time, a temporary hold is placed on that time and resource. If someone else tries to schedule an appointment over that same time with the same resource, an alert displays stating: Appointment Slot Temporarily Held - This appointment time slot is currently selected and being scheduled by [User Name]. To avoid potential scheduling conflicts, you may want to select another available time or wait 5 minutes to check availability again. This alert only displays within the Scheduler. If someone is trying to schedule on the portal at the same time, this alert will not display.
 
 There is also an additional block on the Scheduler itself when someone is actively scheduling an appointment. The time slot will have a gray block over it with the following message: Being scheduled by [User Name]. This allows all scheduling resources to know this time slot is being actively scheduled prior to clicking on it.
 
