@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-11-09T14:37:41.962Z'
-version: 2178
+date: '2026-11-11T17:05:26.885Z'
+version: 2187
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -67,6 +67,7 @@ links:
   - 'features/document-management/documents-and-forms/form-documents.md'
   - 'features/document-management/documents-and-forms/file-documents.md'
   - 'features/document-management/documents-and-forms/html-documents.md'
+  - 'https://drive.google.com/open?id=1tT7jGEH1BpJWbmJ18CNXWgvP32Bia2_2WSm5NCKuHCk'
   - 'features/document-management/documents-and-forms/delete-move-lock-documents.md'
   - 'features/document-management/documents-and-forms/document-properties.md'
   - 'features/document-management/documents-and-forms/document-details.md'
@@ -890,6 +891,7 @@ wikigdrive: 'v2.16.0'
             * [Form Documents](features/document-management/documents-and-forms/form-documents.md)
             * [File Documents](features/document-management/documents-and-forms/file-documents.md)
             * [HTML Documents](features/document-management/documents-and-forms/html-documents.md)
+            * [Email HTML Template Editor](https://drive.google.com/open?id=1tT7jGEH1BpJWbmJ18CNXWgvP32Bia2_2WSm5NCKuHCk)
             * [Delete/Move/Lock Documents](features/document-management/documents-and-forms/delete-move-lock-documents.md)
             * [Document Properties](features/document-management/documents-and-forms/document-properties.md)
             * [Document Details](features/document-management/documents-and-forms/document-details.md)
