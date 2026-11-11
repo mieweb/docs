@@ -1,8 +1,8 @@
 ---
 id: '1tT7jGEH1BpJWbmJ18CNXWgvP32Bia2_2WSm5NCKuHCk'
 title: 'Email HTML Template Editor '
-date: '2026-11-11T17:02:15.092Z'
-version: 59
+date: '2026-11-11T17:43:24.698Z'
+version: 64
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []
