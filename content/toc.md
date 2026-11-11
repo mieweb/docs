@@ -31,6 +31,7 @@ wikigdrive: 'v2.16.0'
             * [Document Type Purge Rules](features/document-management/documents-and-forms/document-type-purge-rules.md)
             * [E-Chart Scan Documents](features/document-management/documents-and-forms/e-chart-scan-documents.md)
             * [EKG Data Entry](features/document-management/documents-and-forms/ekg-data-entry.md)
+            * [Email HTML Template Editor ](features/document-management/documents-and-forms/email-html-template-editor.md)
             * [File Documents](features/document-management/documents-and-forms/file-documents.md)
             * [Form Documents](features/document-management/documents-and-forms/form-documents.md)
             * [HTML Documents](features/document-management/documents-and-forms/html-documents.md)
