@@ -223,6 +223,8 @@ Batching prescriptions is available; however, batching can only be performed for
 
 3. Follow the process of signing and clicking <strong>OK</strong>, until all prescriptions have been authenticated.
 
+If signing is canceled or fails for any prescription in the batch, a message shows how many prescriptions were not signed. Those prescriptions return to <strong>Ready to Sign</strong> so they can be signed again, and a prescription is never sent to the pharmacy without a valid signature.
+
 To batch multiple patients' prescriptions, enable the system setting Allow Batch Signing. Prior to enabling for batch prescription signing across multiple patients, ensure all practitioners review the following link, comment and DEA response to this setting:
 
 * <strong>Link:</strong> [Federal Register - Electronic Prescriptions for Controlled Substances](https://www.federalregister.gov/documents/2010/03/31/2010-6687/electronic-prescriptions-for-controlled-substances)

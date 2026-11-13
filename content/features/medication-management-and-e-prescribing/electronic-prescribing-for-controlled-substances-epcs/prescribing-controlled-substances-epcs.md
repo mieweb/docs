@@ -105,7 +105,9 @@ Staff may view the status of Unsent prescriptions via the All Unsent Prescriptio
 
 ## System Setting Allow Batch Signing
 
-As of RC202509, a new system setting "E-Chart, Meds, Allow Batch Signing" has been added. When enabled this settings allows providers to sign multiple prescriptions for multiple patients at once.
+As of RC202509, a new system setting "E-Chart, Meds, Allow Batch Signing" has been added. When enabled this settings allows providers to sign multiple prescriptions for multiple patients at once. This applies to signing with a USB token and with mobile authentication. When the setting is disabled, a batch can only contain prescriptions for one patient.
+
+If any prescription in a batch is not signed (for example, the signing was canceled), the provider is told how many were not signed and those prescriptions return to **Ready to Sign**. See [Batching Unsigned Prescriptions](./epcs-setup.md#batching-unsigned-prescriptions).
 
 ![](./prescribing-controlled-substances-epcs.assets/2f3da29ddb33ef2fe5c6f9086345ab42.png)
 
