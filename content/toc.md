@@ -343,6 +343,7 @@ wikigdrive: 'v2.16.0'
          * [Observation Flowsheets](features/order-and-result-management/observation-flowsheets.md)
          * [Observations Tab](features/order-and-result-management/observations-tab.md)
          * [Order Requests Grid](features/order-and-result-management/order-requests-grid.md)
+         * [Orders - Pick Builder](features/order-and-result-management/orders-pick-builder.md)
          * [Orders - View Recent](features/order-and-result-management/orders-view-recent.md)
          * [Vitals Tracking & Management](features/order-and-result-management/vitals-tracking-and-management.md)
       * Patient Registration

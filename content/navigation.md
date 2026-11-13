@@ -262,7 +262,7 @@ links:
   - 'features/order-and-result-management/e-orders-refer-to-advanced-search.md'
   - 'features/order-and-result-management/order-requests-grid.md'
   - 'features/order-and-result-management/orders-view-recent.md'
-  - 'https://drive.google.com/open?id=1Ji_KYu9v24zRAmyvZfFB2xKSJPLBp_G2EBzle_vvWic'
+  - 'features/order-and-result-management/orders-pick-builder.md'
   - 'features/order-and-result-management/observations-tab.md'
   - 'features/order-and-result-management/observation-code-merging.md'
   - 'features/order-and-result-management/observation-codes-editor.md'
@@ -1088,7 +1088,7 @@ wikigdrive: 'v2.16.0'
         * [E-Orders - Refer To Advanced Search](features/order-and-result-management/e-orders-refer-to-advanced-search.md)
         * [Order Requests Grid](features/order-and-result-management/order-requests-grid.md)
         * [Orders - View Recent](features/order-and-result-management/orders-view-recent.md)
-        * [Orders - Pick Builder](https://drive.google.com/open?id=1Ji_KYu9v24zRAmyvZfFB2xKSJPLBp_G2EBzle_vvWic)
+        * [Orders - Pick Builder](features/order-and-result-management/orders-pick-builder.md)
         * [Observations Tab](features/order-and-result-management/observations-tab.md)
         * [Observation Code Merging](features/order-and-result-management/observation-code-merging.md)
         * [Observation Codes Editor](features/order-and-result-management/observation-codes-editor.md)
