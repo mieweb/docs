@@ -811,6 +811,7 @@ wikigdrive: 'v2.16.0'
             * [My Settings](features/system-administration/security/my-settings.md)
             * [NoMoreClipboard (NMC) MFA/2FA Overview](features/system-administration/security/nomoreclipboard-nmc-mfa-2fa-overview.md)
             * [One-Time Password (OTP) Authentication without requiring an external device or application](features/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
+            * [Password Rules and Settings](features/system-administration/security/password-rules-and-settings.md)
             * [Redirect to: Force Multi-Factor Authentication MFA/2FA User Experience](features/system-administration/security/redirect-to-force-multi-factor-authentication-mfa-2fa-user-experience.md)
             * [Redirect to: Multi-Factor Authentication MFA / Require 2FA System Configuration](features/system-administration/security/redirect-to-multi-factor-authentication-mfa-require-2fa-system-configuration@1.md)
             * [Redirect to: Multi-Factor Authentication MFA / Require 2FA System Configuration](features/system-administration/security/redirect-to-multi-factor-authentication-mfa-require-2fa-system-configuration@2.md)

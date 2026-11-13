@@ -667,7 +667,7 @@ links:
   - 'features/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'features/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'features/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
-  - 'https://drive.google.com/open?id=14nZ_onNh6o0_pXmofucaruvpnQLpHygvPoPC4oL8g-g'
+  - 'features/system-administration/security/password-rules-and-settings.md'
   - 'features/system-administration/interfaces.md'
   - 'features/system-administration/interfaces/setup-custom-pharmacy.md'
   - 'features/system-administration/interfaces/mammotrack-chart-tab.md'
@@ -1492,7 +1492,7 @@ wikigdrive: 'v2.16.0'
                 * [Encourage Multi-Factor Authentication MFA/2FA User Experience](features/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
                 * [Force Multi-Factor Authentication MFA/2FA User Experience](features/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience.md)
                 * [One Time Password Authentication via Email User Experience](features/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
-            * [Password Rules and Settings](https://drive.google.com/open?id=14nZ_onNh6o0_pXmofucaruvpnQLpHygvPoPC4oL8g-g)
+            * [Password Rules and Settings](features/system-administration/security/password-rules-and-settings.md)
         * [Interfaces](features/system-administration/interfaces.md)
             * [Setup Custom Pharmacy](features/system-administration/interfaces/setup-custom-pharmacy.md)
             * [MammoTrack Chart Tab](features/system-administration/interfaces/mammotrack-chart-tab.md)
