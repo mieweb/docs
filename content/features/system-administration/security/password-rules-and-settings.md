@@ -1,8 +1,8 @@
 ---
 id: '14nZ_onNh6o0_pXmofucaruvpnQLpHygvPoPC4oL8g-g'
 title: 'Password Rules and Settings'
-date: '2026-11-13T13:25:57.810Z'
-version: 76
+date: '2026-11-13T14:08:58.428Z'
+version: 82
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
