@@ -1,8 +1,8 @@
 ---
 id: '14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 title: 'Applicant Portal'
-date: '2026-07-21T15:22:41.138Z'
-version: 452
+date: '2026-11-13T20:05:54.011Z'
+version: 461
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -10,7 +10,7 @@ links:
 source: 'https://drive.google.com/open?id=14-E0o7EriOWL5ckmsBlBJ3TBeGgNAyV5k--2L_lPDSU'
 wikigdrive: 'v2.16.0'
 ---
-With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
+With the web-based **Applicant Portal**, all prospective employees can be directed to the portal URL for completing forms and/or questionnaires, according to any hiring and pre-employment needs of the business. The portal design is relatively simplistic in that candidates initiate a portal session by simply entering their first and last name. Additional fields can be added such as Date of Birth, Social Security Number, Email, Mobile Phone and/or Middle Name. An applicant can even select their preferred language. Once the applicant has completed the necessary forms/questionnaires, all of the information is submitted from the portal to the employer electronically, through a login-disabled user account drafted and linked to the Applicant department. Therefore, if candidates are hired, the information submitted electronically can easily be merged into the new employee user account.
 
 In order to effectively implement the Applicant Portal, clients will need to work with the Deployment Consultant(s) to determine any preferred configurations and needs required for pre-employment, hiring, and onboarding processes. Once the portal has been configured, the URL will be made available for marketing purposes.
 
