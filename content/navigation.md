@@ -1,8 +1,8 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-11-11T17:05:26.885Z'
-version: 2187
+date: '2026-11-13T13:30:50.839Z'
+version: 2197
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -667,6 +667,7 @@ links:
   - 'features/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'features/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience.md'
   - 'features/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md'
+  - 'https://drive.google.com/open?id=14nZ_onNh6o0_pXmofucaruvpnQLpHygvPoPC4oL8g-g'
   - 'features/system-administration/interfaces.md'
   - 'features/system-administration/interfaces/setup-custom-pharmacy.md'
   - 'features/system-administration/interfaces/mammotrack-chart-tab.md'
@@ -1491,6 +1492,7 @@ wikigdrive: 'v2.16.0'
                 * [Encourage Multi-Factor Authentication MFA/2FA User Experience](features/system-administration/security/encourage-multi-factor-authentication-mfa-2fa-user-experience.md)
                 * [Force Multi-Factor Authentication MFA/2FA User Experience](features/system-administration/security/force-multi-factor-authentication-mfa-2fa-user-experience.md)
                 * [One Time Password Authentication via Email User Experience](features/system-administration/security/one-time-password-otp-authentication-without-requiring-an-external-device-or-application.md)
+            * [Password Rules and Settings](https://drive.google.com/open?id=14nZ_onNh6o0_pXmofucaruvpnQLpHygvPoPC4oL8g-g)
         * [Interfaces](features/system-administration/interfaces.md)
             * [Setup Custom Pharmacy](features/system-administration/interfaces/setup-custom-pharmacy.md)
             * [MammoTrack Chart Tab](features/system-administration/interfaces/mammotrack-chart-tab.md)
