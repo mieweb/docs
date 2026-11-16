@@ -1,8 +1,8 @@
 ---
 id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 title: 'Locking Individual or Specific Charts'
-date: '2025-12-22T15:26:14.715Z'
-version: 111
+date: '2026-11-16T16:36:15.788Z'
+version: 126
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -35,6 +35,11 @@ You may want to lock a patient's chart for an example of a physician's wife bein
 ![](./locking-individual-or-specific-charts.assets/1e5b0d8365cce31a9825c3f9e7ada99c.png)
 
 The Options column gives the user the ability to edit lock or remove lock for a patient's chart that is already locked. If you need to "lock" a patient's chart not listed here, you would click the Add New Lock link (follow steps on subsequent pages in this help guide).
+
+There is a security role setting to allow emergency access to locked charts.** Allow Emergency Access to Locked Charts:** Charts can be locked in the Control Panel's Patient Restrictions editor, which lists specific users/departments allowed to access the locked chart without additional steps. This field determines if a user who is not on the allowed list can break the glass to access a locked chart for a limited time (the amount of time is configurable under System Settings). Audit logs are stored for all patients accessed through this setting.
+
+* Yes: The user can view a locked patient chart for a limited time after confirming that access is required for each patient that is requested.
+* No: The user cannot access locked patient charts unless they are an allowed user or department.
 
 ## Edit Lock
 
