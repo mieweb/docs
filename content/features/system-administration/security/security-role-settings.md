@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2026-11-16T15:54:08.763Z'
-version: 747
+date: '2026-11-16T16:36:53.251Z'
+version: 753
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -21,7 +21,7 @@ Review user security settings for individual users or role based needing access 
 
 Click the *Control* *Panel* tab from the left sidebar menu.
 
-Click *Access*, then *Security* *Role**s* tab from top menu.
+Click *Access*, then *Security* *Roles* tab from top menu.
 
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
