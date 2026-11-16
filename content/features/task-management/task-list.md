@@ -1,8 +1,8 @@
 ---
 id: '1HPEy9sWojSVb5ebfsWoQ0io8hjQ7fDFZGlfi0T6xT1k'
 title: 'Task List'
-date: '2026-07-21T18:09:12.774Z'
-version: 586
+date: '2026-11-13T21:10:59.960Z'
+version: 627
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -238,7 +238,7 @@ When you scroll down to click the confirm button, you will also see another opti
 
 An example of this would be: I sent a user or dept. a task regarding a Doctor Note in a chart.  The task I created and sent is typically saved as its own document named Task Note. If you check-mark to delete the task documents also related to the task, it only deletes the Task Note documents.  It does not delete the Doctor Note from the chart. You are simply deleting the stored task document (the record of the task someone created/sent out).  If you are clearing someone's task queue, you may want to also clear/delete those task documents (Task Note documents) also since they aren't needed if you are clearing someone's queue.
 
-Upon confirmation button being clicked, it will tell you a message at the top that all tasks that were assigned to that user or department have been cleared.
+Upon the confirmation button being clicked, it will tell you a message at the top that all tasks that were assigned to that user or department have been cleared.
 
 ### Tasklist Events
 
@@ -248,7 +248,7 @@ You can only access and perform options in this tab if you have security access.
 
 MIE programs these Tasklist Events because it requires specific where-clause programming.
 
-Evaluate is a feature in the options column for a task list even which will process events on past actions. If an event needs ran on documents/rules that have already been created, permitted users can click the 'evaluate' link. It won't add/create a new task if one is already there on the document. This processes the tasklist event for a date range when using the Evaluation link. A preview of items, to run task rules on, will appear.  These are items that match the tasklist event criteria, but a task will only be created when the process button is clicked and if the templated task was not already created for an item.
+Evaluate is a feature in the options column for a task list event which will process events on past actions. If an event needs ran on documents/rules that have already been created, permitted users can click the Evaluate link. It won't add/create a new task if one is already there on the document. This processes the tasklist event for a date range when using the Evaluate link. A preview of items, to run task rules on, will appear. These are items that match the tasklist event criteria, but a task will only be created when the process button is clicked and if the templated task was not already created for an item.
 
 ### Fast Tasks
 
