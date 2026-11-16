@@ -1,8 +1,8 @@
 ---
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
-date: '2026-08-12T15:21:11.918Z'
-version: 714
+date: '2026-11-16T15:54:08.763Z'
+version: 747
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -19,9 +19,9 @@ Review user security settings for individual users or role based needing access 
 
 ### For All Users in a specific Security Role
 
-Click the *Control** Panel* tab from the left sidebar menu.
+Click the *Control* *Panel* tab from the left sidebar menu.
 
-Click *Access*, then *Security Role**s* tab from top menu.
+Click *Access*, then *Security* *Role**s* tab from top menu.
 
 Select the security role that you wish to change security settings for by clicking edit to the right of the department security role name.
 
@@ -106,10 +106,13 @@ The Individual Security settings screen for that user will open. Select any secu
     * No: The user is not restricted to the relationships defined in Edit Patients Linked to User under Access Control > Edit User.
 * Restrict Access by Partition:  Partitions are created in the Partition Manager to group information in {{% system-name %}} (patients, documents, etc.). Restricted partitions are hidden from certain users. This field determines whether or not a user can see patients in restricted partitions. The following settings are available:
     * Yes: The user can only access patients in unrestricted partitions or in restricted partitions to which their user or their department has access. Patients in hidden partitions do not display in search results and are not accessible. If the Limited Access field is set to "Yes," the Limited Access setting overrides the Restrict Access By Partition setting, so partition restrictions are ignored.
-    * No: The user is not limited in the patients that they can see based on any partition restrictions.
+    * No: The user is not limited to the patients that they can see based on any partition restrictions.
 * Allow Emergency Access to Charts: In emergency situations, a user may need access to patient information that is normally restricted. This field determines if a user can access a patient that they do not normally have access to for a limited time (the amount of time is configurable under System Settings). If either of the fields Limited Access or Restrict Access by Partition are set to "Yes," the Allow Emergency Access to Charts setting is used to search and access patients that are normally restricted to a user or department. Audit logs are stored for all patients accessed through this setting. Options:
     * Yes: The user can view a restricted chart for a limited time after confirming that access is required for each patient that is requested.
     * No: The user cannot access restricted patients.
+* Allow Emergency Access to Locked Charts: Charts can be locked in the Control Panel's Patient Restrictions editor, which lists specific users/departments allowed to access the locked chart without additional steps. This field determines if a user who is not on the allowed list can break the glass to access a locked chart for a limited time (the amount of time is configurable under System Settings). Audit logs are stored for all patients accessed through this setting.
+    * Yes: The user can view a locked patient chart for a limited time after confirming that access is required for each patient that is requested.
+    * No: The user cannot access locked patient charts unless they are an allowed user or department.
 * Limited to Default Tab:  This restricts users in a security role to only be able to view the tab/module that is set as the ‘selecting folder' in My Settings for each user.  A user will not be able to access any other tabs/modules.
 * Patient Relationships: If set to View, users can only view patient relationships. If set to Edit, users can edit and end relationships. If set to Delete, users can do all the aforementioned and also delete patient relationships.
 * Limited to Restricted Items: Setting to ‘No' allows the user to access everything unless they (or dept) are specified to be restricted from a specific doc.type, document, chart tab, or encounter type. This also applies to adding documents, and Print definitions now.That is the default. Setting to ‘Yes' limits the user from accessing no doc.types, documents, chart tabs, or encounter types.  They (or dept) must be specifically "allowed" to a doc.type, chart tab, or encounter type in order to see it. This setting allows a user to be marked ‘restricted' and only enable the certain things they should be able to see (doc.type, chart tab or encounter type, visit types).
