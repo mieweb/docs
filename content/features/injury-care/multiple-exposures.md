@@ -1,11 +1,12 @@
 ---
 id: '19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 title: 'Multiple Exposures'
-date: '2026-01-27T17:10:07.003Z'
-version: 713
-lastAuthor: 'auhrick'
+date: '2026-11-18T20:32:09.367Z'
+version: 720
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
-links: []
+links:
+  - 'https://mie.talentlms.com/shared/start/key:GLEKMFPJ'
 source: 'https://drive.google.com/open?id=19uUHx3PZhuq7G8sjJtyeDdPeXYhB5pmD-OJ2Ts4u5oQ'
 wikigdrive: 'v2.16.0'
 ---
@@ -62,7 +63,7 @@ The Multiple Exposures module is used to collect and store data on source patien
 
 ![](./multiple-exposures.assets/94cd6c7c4f7ab11e2fbbb5c766e7ef4c.png)
 
-4. Add A case as you would as if you were creating an individual case on a patient chart. Click continue/save at the bottom of the case section.
+4. Add a case as you would as if you were creating an individual case on a patient chart. Click continue/save at the bottom of the case section.
 
 ![](./multiple-exposures.assets/c790b6cc0ca4bff7b63ac92ea9263006.png)
 
@@ -99,3 +100,9 @@ The Multiple Exposures module is used to collect and store data on source patien
 The Incident Report (Reports module) will no longer display the Multiple Exposure (last plan) data in the Incident report. If this module is manually installed on older legacy systems, then EH will display the Source Patient Multiple Exposures in addition to each chart the multiple exposure was copied to. When running the Incident Report, users may need to filter out multiple exposures, depending on the use case for running the report.
 
 ![](./multiple-exposures.assets/88d973d8302a85bf816f6182d0b27fc3.png)
+
+## Learning Management System
+
+To learn more about Multiple Exposures, follow the link below to the Learning Management System course:
+
+* [Multiple Exposures](https://mie.talentlms.com/shared/start/key:GLEKMFPJ)
