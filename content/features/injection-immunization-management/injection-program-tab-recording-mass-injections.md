@@ -1,13 +1,12 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2026-04-02T16:06:07.632Z'
-version: 378
-lastAuthor: 'anichols'
+date: '2026-11-18T15:52:55.416Z'
+version: 429
+lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
-  - 'http://immunize.org'
   - 'https://mie.talentlms.com/shared/start/key:LSAIDNHR'
   - 'https://mie.talentlms.com/shared/start/key:SOBRKMFP'
 source: 'https://drive.google.com/open?id=1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
@@ -26,6 +25,16 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 * Patient:  Begin typing the last name of the patient you wish to add the record for.  The system will auto-complete and show you choices of matching patients in your {{% system-name %}} system.  There is a three character minimum before the autocomplete suggests any results. You can select a choice using your mouse to highlight your choice.
 
 ![](./injection-program-tab-recording-mass-injections.assets/8b30f91a59b3001274eda4ef2f039674.png)
+
+*{{% note %}*
+
+The Preferred Name is searchable within the Flu Injection Program. The Patient field now allows for searching by the preferred name. The System Setting ‘E-Chart < Patient Search < Show preferred name on results' must be enabled to allow for searching by preferred name.
+
+![](./injection-program-tab-recording-mass-injections.assets/e451295f81665ab01dcfb53a13479eee.png)
+
+![](./injection-program-tab-recording-mass-injections.assets/2fef0df05805ccaf9750db945c383278.png)
+
+{{% /note %}}
 
 * Pop-up Warnings:  This program points to a rule looking for the doc.type FLUCONSENT.  When entering in a patient's name and using your tab key to advance to the next field, this injection program looks for a Flu Consent doc.type already stored/uploaded in the patient's chart.  If no such document is stored in the patient's chart, it should prompt the warning to ‘Signed Consent required' form.
     * You can have this feature customized differently to pop-up a warning for specific document(s) to look for prior to injecting.  In the example below, it is set up to show a pop-up warning if the patient selected above doesn't have a stored/uploaded Flu Consent document in their chart stored already.  Your {{% system-name %}} system can be customized for different pop-up warnings, but by default the rule looks for doc.type FLUCONSENT if it exists in the patient's chart or not.
@@ -75,32 +84,12 @@ The following fields can be entered when editing an injection or now when you ar
 
 * Resulting Fields: The Resulting fields are for documenting a reaction/result of the injection given.  These fields only show if the system is utilizing Show Skin Test Fields system setting.  Since you are doing just mass entry of injection given, you would document any reactions or results in the patient specific e-chart and not using the skin test result fields method.  See other help documentation named Injection Tab.pdf or Injection Tab-Edit-Delete.pdf).
 * VIS (Vaccine Information Handouts): Your mass injections program feature can be customized to require the VIS Handout field to be filled out and documented.  It will stop you from adding the injection record if you don't have a VIS handout documented.  Or your system can allow the user to add the injection to the patient's chart without documenting a VIS Handout.
-    * Many clients hand the patient a Vaccine Information Handout (VIS) when the patient receives an injection.  You can document that this handout was given to the patient by clicking the VIS Handouts link at the bottom of the injections/immunizations add/edit screen.   Better yet, you do not have to maintain a latest publication of VIS sheets yourself to hand out. We now offer the VIS Website link available while documenting an injection and VIS Handout.
+    * Many clients hand the patient a Vaccine Information Handout (VIS) when the patient receives an injection. You can document that this handout was given to the patient by selecting the VIS Handouts from the autocomplete.
+    * The list that we have in the autocomplete comes from http://immunize.org/VIS/. More than one handout can be added.
 
 ![](./injection-program-tab-recording-mass-injections.assets/620e199539cda595bff7c72d7e3dd464.png)
 
-* VIS Handouts:  Using the autocomplete, select the name of the VIS Handout publication.  The list that we have in the autocomplete comes from http://immunize.org/VIS/.  Contact your MIE Implementer if you need additional VIS Handouts added to this drop-down.
 * Handout(s) Given On:  Will automatically default to today's date.
-
-The VIS Website link can be set up by your MIE Implementer.  You do not have to maintain the latest publication of VIS sheets yourself to hand out manually to a patient.  We now offer the VIS Website link available while documenting an injection and VIS Handout given.
-
-![](./injection-program-tab-recording-mass-injections.assets/b213c32930915905d2d9f25bd1933c2c.png)
-
-When you click the VIS Website link found available in the VIS Handouts section, it will take you out to [immunize.org](http://immunize.org) where you can utilize the latest publication of VIS available, along with the VIS sheets available in a different language to print for the patient.  If your {{% system-name %}} system is set up to be multi-lingual (you use {{% system-name %}} in various countries) it will open to the language your preference is set to. Regardless, from here you can access the latest publication and print it in various languages and print it off to hand to the patient using your printer icon in your browser view.  To get out, simply click the X to get out of that separate tab/window that you are in.  Your {{% system-name %}} system will still be in the background.
-
-![](./injection-program-tab-recording-mass-injections.assets/19ac74bc798e9e7fe6fe8ece26aa6705.png)
-
-## Add Multiple VIS Handouts Per Injection
-
-After you select your first VIS Handout from the Name drop-down, click the ADD button, then select the 2nd VIS Handout pertaining to this same injection, then click the ADD button, then SUBMIT.
-
-You must click the ADD BUTTON to insert more than one VIS Handout to the injection. This may be needed for example documenting an MMR injection, but you give out 3 separate VIS Handouts (a measles one, a mumps one, a rubella one) pertaining to each part of the injection serum.
-
-![](./injection-program-tab-recording-mass-injections.assets/ac3f4b77a9337ded4e30e7e29153a162.png)
-
-When ready to upload the injection record into the patient's chart, click the **A****dd** **I****njection** button at the bottom of the screen to submit the injection / immunization record to the patient's chart.
-
-![](./injection-program-tab-recording-mass-injections.assets/c306203e82e0bf2ee318a399823fa827.png)
 
 It will have uploaded that injection record into that patient's chart and the screen will refresh to be back to the Flu Injection Program tab and the patient field will be blank. Since you are doing injections in mass, you can easily begin typing the last name of the next patient and repeat.
 
