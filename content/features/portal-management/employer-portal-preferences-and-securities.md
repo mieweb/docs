@@ -1,8 +1,8 @@
 ---
 id: '1lOo241X5cysK-7nEbaqbUnxYbT3-6LM3cl46dbGpVRI'
 title: 'Employer Portal Preferences and Securities'
-date: '2026-06-08T13:31:57.152Z'
-version: 174
+date: '2026-11-18T16:44:33.300Z'
+version: 185
 lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
@@ -32,17 +32,27 @@ The *Requested Due Date Default***** will default to 3 business days from the cu
 
 ![](./employer-portal-preferences-and-securities.assets/c23d21beaebb053c77b24bd1b6fc0c9f.png)
 
-### Order Expiration Feature
+### Order Expiration Feature & Order Expiration Default
 
-The *Order Expiration Feature* is Off by default and not currently a feature that is enabled or available for use with the Enterprise Health Employer Portal-powered by BlueHive.
+The Order Expiration Feature allows employers to require adding an expiration date when ordering and sending referrals from the employer portal. An order expiration date default can be set as a default so users are not forced to manually enter a date.
 
-![](./employer-portal-preferences-and-securities.assets/21d217aaa64b1808475058fff6d55a7e.png)
+![](./employer-portal-preferences-and-securities.assets/5da85ce49926237cb60b3f706aaf6dce.png)
+
+When enabled, the order entry screen will display an expiration date field and require users to either use the default expiration date or override the default with a new date.
+
+![](./employer-portal-preferences-and-securities.assets/afa9af733280bf2479e0d4b517929079.png)
 
 ### Bundle Options
 
 *Bundle Options* is set to Off by default and not currently a feature that is enabled for use with the Enterprise Health Employer Portal-powered by BlueHive. When turned on, employers may select individual order items from the bundle/deal for ordering rather than being forced to select all items in the bundle/deal. Ala-carte order items may still be added individually and not affected by this order preference.
 
 ![](./employer-portal-preferences-and-securities.assets/78f930f97a124c077a9f25307896e5d3.png)
+
+### Results Fax Number
+
+The set, the Fax Coversheet generated from BlueHive will default the fax number configured. Typically, one fax number is issued per EH customer for faxed in results, not one fax per employer.
+
+![](./employer-portal-preferences-and-securities.assets/815f066e0d5ce6ba9d5e658a019a9291.png)
 
 ### Define Additional Information Attributes
 
