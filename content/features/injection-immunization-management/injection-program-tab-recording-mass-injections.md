@@ -1,9 +1,9 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2026-11-18T15:52:55.416Z'
-version: 429
-lastAuthor: 'janderson'
+date: '2026-11-18T16:07:07.920Z'
+version: 436
+lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
   - 'http://immunize.org/VIS/'
@@ -26,7 +26,7 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 ![](./injection-program-tab-recording-mass-injections.assets/8b30f91a59b3001274eda4ef2f039674.png)
 
-*{{% note %}*
+{{% note %}
 
 The Preferred Name is searchable within the Flu Injection Program. The Patient field now allows for searching by the preferred name. The System Setting ‘E-Chart < Patient Search < Show preferred name on results' must be enabled to allow for searching by preferred name.
 
