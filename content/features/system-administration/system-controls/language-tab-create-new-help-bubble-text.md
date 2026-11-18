@@ -1,9 +1,9 @@
 ---
 id: '1VujcN2rhMiBkkN8DAz4dpBmEUNObiLReSf4DVUCmfFk'
 title: 'Language Tab - Create New Help Bubble Text'
-date: '2026-03-13T18:13:28.867Z'
-version: 90
-lastAuthor: 'janderson'
+date: '2026-09-17T18:11:48.585Z'
+version: 106
+lastAuthor: 'sbarber'
 mimeType: 'text/x-markdown'
 links:
   - 'https://mie.talentlms.com/shared/start/key:ZEODNHRK'

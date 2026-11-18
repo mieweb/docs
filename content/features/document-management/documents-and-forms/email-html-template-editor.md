@@ -2,7 +2,7 @@
 id: '1tT7jGEH1BpJWbmJ18CNXWgvP32Bia2_2WSm5NCKuHCk'
 title: 'Email HTML Template Editor '
 date: '2026-11-11T19:42:19.274Z'
-version: 72
+version: 73
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

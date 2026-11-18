@@ -2,7 +2,7 @@
 id: '1s8b1SrZRNd6xpIBtG1uApNHjTaAMRQXV8cYnPgPIhwQ'
 title: 'Presenting Medications Encounter Section'
 date: '2026-08-26T15:59:55.466Z'
-version: 202
+version: 206
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

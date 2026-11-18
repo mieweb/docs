@@ -2,7 +2,7 @@
 id: '1iUHC57VH5eIkqBnQz1sPngMkcFR9V4ZD0bbdhTT8ETk'
 title: 'Fax Manager Tab - Outbound Faxing'
 date: '2026-03-18T15:20:28.109Z'
-version: 168
+version: 170
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '1srBPzAkal3rKsZG7nkDDkmf6lpcZSdYyKKz0RWP-w7c'
 title: 'Device Interface - NDD EasyOne Connect vbase'
 date: '2026-04-20T17:06:02.718Z'
-version: 878
+version: 916
 lastAuthor: 'djiamjirarat'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '13o3xyK05fHWoDwV8Z3DI4a0LtV4hNfAq3T0O7IF8J2A'
 title: 'Customize Online Help Pop-up Screens'
 date: '2026-03-18T15:50:15.792Z'
-version: 254
+version: 266
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

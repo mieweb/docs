@@ -2,7 +2,7 @@
 id: '1Q8_sOdW4INet_JyBXaaBHn6ilTvpzvljAb11wgo6XR8'
 title: 'Rapid Deployment Project Outline'
 date: '2025-04-07T17:28:12.020Z'
-version: 41
+version: 42
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

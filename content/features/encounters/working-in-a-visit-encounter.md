@@ -1,9 +1,9 @@
 ---
 id: '1lwIDrrDgkH3DGp6mHtl2HZdncjuCa-V4J31uanjRO4M'
 title: 'Working in a Visit Encounter'
-date: '2026-03-17T18:20:38.163Z'
-version: 613
-lastAuthor: 'janderson'
+date: '2026-10-06T17:04:59.987Z'
+version: 647
+lastAuthor: 'sbarber'
 mimeType: 'text/x-markdown'
 links:
   - 'working-in-a-legacy-encounter.md'

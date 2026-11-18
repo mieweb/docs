@@ -1,9 +1,9 @@
 ---
 id: '1i7YoarhqQRnve4N65SpJkHJR9raGN_EMCMfzShpUyUw'
 title: 'Email Reminders from System'
-date: '2026-02-20T17:53:28.159Z'
-version: 441
-lastAuthor: 'wreiske'
+date: '2026-08-10T13:34:34.365Z'
+version: 497
+lastAuthor: 'smendez'
 mimeType: 'text/x-markdown'
 links:
   - 'enabled-and-disabled-scheduled-jobs.md'

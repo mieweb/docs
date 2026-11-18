@@ -2,7 +2,7 @@
 id: '1FcMVfuPF7b2-6-WkhSYxOaWUogJP5h9cWhLvtWLYDFw'
 title: 'Locations Manager Tab'
 date: '2026-02-25T16:22:42.860Z'
-version: 181
+version: 185
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

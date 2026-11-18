@@ -2,7 +2,7 @@
 id: '1Coi2VR4ZAp9iVHZ4RVgP-tPNB3e46-hEzCnp4NDxXkw'
 title: 'Quick View - Schedule Portlet and My Schedule Portlet'
 date: '2026-08-12T13:26:16.566Z'
-version: 150
+version: 152
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

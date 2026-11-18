@@ -2,7 +2,7 @@
 id: '1j0ZwMjaAjaVZIJfllNz4vtUgCHxD3Z_9Ze7Wlo0H0HQ'
 title: 'Deal Quick Links - Using Deals in Encounters'
 date: '2026-07-22T12:57:28.829Z'
-version: 101
+version: 103
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

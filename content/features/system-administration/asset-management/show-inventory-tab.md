@@ -2,7 +2,7 @@
 id: '1pwmVB0X2rvStNmDOmy_XRa1ScUcZmzqEQlQWuJ9xtb0'
 title: 'Show Inventory Tab'
 date: '2026-01-20T16:34:02.189Z'
-version: 71
+version: 73
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

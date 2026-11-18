@@ -1,9 +1,9 @@
 ---
 id: '13GXjR09biGA7EmWMg7Ny8GEVtJ3HW7b3VB74K6p0YVY'
 title: 'Datasend Queue'
-date: '2026-02-10T20:07:08.136Z'
-version: 1086
-lastAuthor: 'janderson'
+date: '2026-08-20T14:56:22.702Z'
+version: 1103
+lastAuthor: 'kbarton'
 mimeType: 'text/x-markdown'
 links:
   - 'https://www2.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx'

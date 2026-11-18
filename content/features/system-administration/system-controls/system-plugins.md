@@ -2,7 +2,7 @@
 id: '1HYurITMVMtCBxSrZ_uqoJYIArEd2gm4FoGrr99KfC4A'
 title: 'System Plugins'
 date: '2025-12-15T18:28:05.016Z'
-version: 50
+version: 51
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

@@ -1,9 +1,9 @@
 ---
 id: '1eBwfO4VBjEQw0psatyh_3yl8YrCX5IGqwQxxcvLtApE'
 title: 'Installing MIE Device App'
-date: '2025-11-13T15:17:40.256Z'
-version: 239
-lastAuthor: 'janderson'
+date: '2026-08-04T22:30:14.878Z'
+version: 263
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/system-administration/system-controls/system-plugins/'

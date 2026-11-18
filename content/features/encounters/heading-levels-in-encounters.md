@@ -2,7 +2,7 @@
 id: '10wzj2vwOYF-Oqv8Nnx1jfbeitSsZ5Zlx-mhrMfgA_oA'
 title: 'Heading Levels in Encounters'
 date: '2026-05-08T11:48:01.719Z'
-version: 52
+version: 54
 lastAuthor: 'anichols'
 mimeType: 'text/x-markdown'
 links:

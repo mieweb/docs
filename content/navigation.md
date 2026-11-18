@@ -2,7 +2,7 @@
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
 date: '2026-11-13T18:46:06.842Z'
-version: 2205
+version: 2206
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

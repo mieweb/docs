@@ -2,7 +2,7 @@
 id: '19JTXiOllJKCPuUJ7i7xewd_0MaBucFu6gf2XtuBW95Y'
 title: 'Basic Transcription - All Users'
 date: '2026-07-23T19:18:12.489Z'
-version: 109
+version: 116
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

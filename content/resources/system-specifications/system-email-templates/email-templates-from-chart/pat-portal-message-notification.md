@@ -2,7 +2,7 @@
 id: '17Gz_wwFB0iRCXgnKBKGdUo-d7mxuDiSItN0TlCQSzb4'
 title: 'Pat Portal Message Notification'
 date: '2025-11-13T19:10:19.651Z'
-version: 33
+version: 38
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

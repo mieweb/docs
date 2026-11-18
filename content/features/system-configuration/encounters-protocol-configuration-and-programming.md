@@ -1,9 +1,9 @@
 ---
 id: '19b7c8803bKvIhulmLIHQnmOG8v8sQsWfj-jLEN4jgOY'
 title: 'Encounters Protocol Configuration & Programming'
-date: '2025-11-11T16:41:53.070Z'
-version: 399
-lastAuthor: 'janderson'
+date: '2026-08-04T22:25:31.692Z'
+version: 433
+lastAuthor: 'bhamm'
 mimeType: 'text/x-markdown'
 links:
   - 'https://docs.enterprisehealth.com/functions/encounters/encounter-protocols/'

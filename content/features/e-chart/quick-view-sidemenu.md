@@ -2,7 +2,7 @@
 id: '1VouGIBPx_sMB3j3vMBpNIW3hJecKRU8D-zh1AIKyhOY'
 title: 'Quick View Sidemenu'
 date: '2026-07-22T14:24:37.636Z'
-version: 181
+version: 190
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links: []

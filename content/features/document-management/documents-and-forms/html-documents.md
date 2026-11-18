@@ -2,7 +2,7 @@
 id: '1kqHmDHlgYYRiuZt8zHy8Zrj48UvduL6Stu9jwCJ7BsU'
 title: 'HTML Documents'
 date: '2026-11-10T21:20:49.124Z'
-version: 103
+version: 105
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

@@ -2,7 +2,7 @@
 id: '15f1ifjt8uLBTe__5LgBJ4JW4-pgR8Hl1Jm6z90CREMA'
 title: 'Locking Individual or Specific Charts'
 date: '2026-11-16T16:36:15.788Z'
-version: 126
+version: 127
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:

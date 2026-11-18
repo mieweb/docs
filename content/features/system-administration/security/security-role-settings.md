@@ -2,7 +2,7 @@
 id: '1q7hhe_ityux9MD4-bbi_TVBr6tIoJMTnQd6f-DektHM'
 title: 'Security Role Settings'
 date: '2026-11-16T16:36:53.251Z'
-version: 753
+version: 756
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
