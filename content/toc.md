@@ -345,6 +345,7 @@ wikigdrive: 'v2.16.0'
          * [Order Requests Grid](features/order-and-result-management/order-requests-grid.md)
          * [Orders - Pick Builder](features/order-and-result-management/orders-pick-builder.md)
          * [Orders - View Recent](features/order-and-result-management/orders-view-recent.md)
+         * [Training Guide: Converting Flowsheets to eSheets in Enterprise Health](features/order-and-result-management/training-guide-converting-flowsheets-to-esheets-in-enterprise-health.md)
          * [Vitals Tracking & Management](features/order-and-result-management/vitals-tracking-and-management.md)
       * Patient Registration
          * [Medical Contacts - Contacts, Relationships, and User-Patient Relationships](features/patient-registration/medical-contacts-contacts-relationships-and-user-patient-relationships.md)
@@ -353,6 +354,7 @@ wikigdrive: 'v2.16.0'
       * Portal Management
          * [Applicant Portal](features/portal-management/applicant-portal.md)
          * [Employee Portal Messaging](features/portal-management/employee-portal-messaging.md)
+         * [Employer Portal Contact Us](features/portal-management/employer-portal-contact-us.md)
          * [Employer Portal Dashboard](features/portal-management/employer-portal-dashboard.md)
          * [Employer Portal Employees](features/portal-management/employer-portal-employees.md)
          * [Employer Portal Getting Started ](features/portal-management/employer-portal-getting-started.md)

@@ -1,8 +1,8 @@
 ---
 id: '1CiNab4LMjdlfwFMKuO6BvVHheUHyNqoJCxDsdvuyOPk'
 title: 'Injection Program Tab - Recording Mass Injections'
-date: '2026-11-18T16:07:07.920Z'
-version: 436
+date: '2026-11-18T16:20:10.583Z'
+version: 439
 lastAuthor: 'mpierzchala'
 mimeType: 'text/x-markdown'
 links:
@@ -26,14 +26,12 @@ The Injection screen will appear.  The Injection screen has fields to fill out 
 
 ![](./injection-program-tab-recording-mass-injections.assets/8b30f91a59b3001274eda4ef2f039674.png)
 
-{{% note %}
-
+{{% note %}}
 The Preferred Name is searchable within the Flu Injection Program. The Patient field now allows for searching by the preferred name. The System Setting ‘E-Chart < Patient Search < Show preferred name on results' must be enabled to allow for searching by preferred name.
 
 ![](./injection-program-tab-recording-mass-injections.assets/e451295f81665ab01dcfb53a13479eee.png)
 
 ![](./injection-program-tab-recording-mass-injections.assets/2fef0df05805ccaf9750db945c383278.png)
-
 {{% /note %}}
 
 * Pop-up Warnings:  This program points to a rule looking for the doc.type FLUCONSENT.  When entering in a patient's name and using your tab key to advance to the next field, this injection program looks for a Flu Consent doc.type already stored/uploaded in the patient's chart.  If no such document is stored in the patient's chart, it should prompt the warning to ‘Signed Consent required' form.
