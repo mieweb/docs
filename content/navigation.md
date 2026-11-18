@@ -1,9 +1,9 @@
 ---
 id: '15ph1CZwQ9C9J0gXCJo1s9JE8ApXfFct4w2RJoDqRvz4'
 title: 'navigation'
-date: '2026-11-13T18:46:06.842Z'
-version: 2206
-lastAuthor: 'janderson'
+date: '2026-11-18T16:28:20.325Z'
+version: 2210
+lastAuthor: 'auhrick'
 mimeType: 'text/x-markdown'
 links:
   - 'programs.md'
@@ -139,6 +139,7 @@ links:
   - 'features/portal-management/messages-from-nmc-user.md'
   - 'features/portal-management/employer-portal-getting-started.md'
   - 'features/portal-management/employer-portal-dashboard.md'
+  - 'features/portal-management/employer-portal-contact-us.md'
   - 'features/portal-management/employer-portal-orders.md'
   - 'features/portal-management/employer-portal-employees.md'
   - 'features/portal-management/employer-portal-messages.md'
@@ -965,6 +966,7 @@ wikigdrive: 'v2.16.0'
         * [Messages from NMC User](features/portal-management/messages-from-nmc-user.md)
         * [Employer Portal Getting Started](features/portal-management/employer-portal-getting-started.md)
         * [Employer Portal Dashboard](features/portal-management/employer-portal-dashboard.md)
+        * [Employer Portal Contact Us](features/portal-management/employer-portal-contact-us.md)
         * [Employer Portal Orders](features/portal-management/employer-portal-orders.md)
         * [Employer Portal Employees](features/portal-management/employer-portal-employees.md#import-employee-list-from-hr-software)
         * [Employer Portal Messages](features/portal-management/employer-portal-messages.md)
