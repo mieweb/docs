@@ -1,8 +1,8 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2026-07-22T16:23:21.042Z'
-version: 255
+date: '2026-11-18T17:43:04.037Z'
+version: 267
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -78,7 +78,19 @@ Next to the Item field of the Order Request screen, click the Picklist icon to s
 
 Any order item that you check-mark and it has a blank field next to it, after you check-mark it you may need to enter more information needed for that item/order by free text typing in that field to complete that item/order.
 
-* <strong>Reason:</strong> This field will display all diagnoses from the Assessment (Impression) section. If there are fewer conditions in the Assessment section than specified in the system setting: <em>Orders, Defaults, Number of patient conditions</em>, the remainder will be pulled from the patient's active conditions that are not already in the Assessment section. You can delete the diagnosis that appears by clicking on the grey minus button. You can also add another diagnosis in the field below that. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-9 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnoses to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the minus button next to the diagnosis. MIE can also program a diagnosis picklist here if you wish to have a pop-up window of most common diagnoses for this particular e-order set. When you are done, simply go to the next tab called Patient Instructions.
+* <strong>Reason:</strong> This field will display all diagnoses from the Symptoms / Diagnosis section. If there are fewer conditions in the Symptoms / Diagnosis section than specified in the system setting: <em>Orders, Defaults, Number of patient conditions</em>, the remainder will be pulled from the patient's active conditions that are not already in the Assessment section. You can delete the diagnosis that appears by clicking on the trash can button. You can also add another diagnosis if needed. When you start typing the name of the diagnosis, a series of auto-complete choices will appear and you can choose from there. You can also start typing the ICD-10 code and a series of auto-complete choices will appear and you can choose from there. To add multiple diagnoses to this order, simply search and select the diagnosis after you select from the auto-complete choices and it will automatically insert it in the field above it. To delete one, click the trash can button next to the diagnosis. MIE can also program a picklist here if you wish to have a pop-up window of most common diagnoses for this particular e-order set.
+
+{{% note %}}
+A new system setting: *Orders, Defaults, Limit Reason Diagnosis to Problem List Items*, controls which diagnoses pre-populate the Reason section when you create a referral order. Enabled (the default) shows only Problem List items; Disabled also shows the patient's other documented conditions, restoring the earlier workflow.
+
+![](./e-orders-chart-tab.assets/00763759f9d26817bae0775f1a95d9e7.png)
+
+If the setting is **Disabled,** both the Problem List and the Other Conditions quick lists will display:
+
+![](./e-orders-chart-tab.assets/ade205dd0e86b9caa68fdd21daac9161.png)
+
+If the setting is **Enabled** (the default), only the Problem List will display.
+{{% /note %}}
 
 ![](./e-orders-chart-tab.assets/cae14ac9d2f53f41d9f63cd7e281374f.png)
 
