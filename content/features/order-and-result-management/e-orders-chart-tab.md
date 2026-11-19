@@ -1,8 +1,8 @@
 ---
 id: '1vh7UsgREWhLDIYSS0IXhc9Z_2Rnzi1uplvp6c8ywc7o'
 title: 'E-Orders Chart Tab'
-date: '2026-11-18T17:43:04.037Z'
-version: 267
+date: '2026-11-19T17:50:35.651Z'
+version: 277
 lastAuthor: 'janderson'
 mimeType: 'text/x-markdown'
 links:
@@ -87,7 +87,7 @@ A new system setting: *Orders, Defaults, Limit Reason Diagnosis to Problem List 
 
 If the setting is **Disabled,** both the Problem List and the Other Conditions quick lists will display:
 
-![](./e-orders-chart-tab.assets/ade205dd0e86b9caa68fdd21daac9161.png)
+![](./e-orders-chart-tab.assets/942e8a8797ac168b8f2f9bbb0b0ff4e6.png)
 
 If the setting is **Enabled** (the default), only the Problem List will display.
 {{% /note %}}
